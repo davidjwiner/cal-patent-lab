@@ -21,7 +21,7 @@ def parser(filename):
 				appId = ""
 				date = ""
 				inventor = ""
-				newFilename = "file_"
+				newFilename = "./output/file_"
 				code = ""
 				count += 1
 			# get document ID
