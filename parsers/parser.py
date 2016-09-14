@@ -19,11 +19,12 @@ def splitDocument(filename):
 				# this check prevents false positives from very beginning of file
 				if count>=0:
 					# write the legal document to its own file
-					newFile = open("./output/file_%s.txt" % (str(count).zfill(3)),'a')
+					newFile = open("./output/file_%s.txt" % (str(count).zfill(3)),'w')
 					newFile.write(newDocBuf)
 					newFile.close()
 					# also make a properties file
-					newFile = open("./output/file_%s_properties.txt" % (str(count).zfill(3)), 'a')
+					newFile = open("./output/file_%s_properties.txt" % (str(count).zfill(3)), 'w')
+					newFile.close()
 					
 				# increment counter
 				count += 1
