@@ -5,28 +5,47 @@
 
 # This function takes the PTAB OCR text as input and uses the "PAGE 1" delimiter to
 # break the PTAB file into separate files for each document
+# Return value: number of files generated
 def splitDocument(filename):
 	with open(filename) as f:
 		# newDocBuf is a buffer to read in the file lines
 		newDocBuf = ""
 		# counter to assist in creating new file names
-		count = 0
+		count = -1
 		for line in f:
 			# when encountering this delimiter, write newDoc to another file
 			# then reset the newDoc buffer
-			# NOTE: file_000.txt will be garbage because there are a few newlines before 
-			# the first occurrance of *** PAGE 1 ***
 			if "*** PAGE 1 ***" in line:
-				newFilename = "./output/file_%s.txt" % (str(count).zfill(3))
-				newFile = open(newFilename,'a')
-				newFile.write(newDocBuf)
-				newFile.close()
-				# reset the buffer
-				newDocBuf = ""
+				# this check prevents false positives from very beginning of file
+				if count>=0:
+					# write the legal document to its own file
+					newFile = open("./output/file_%s.txt" % (str(count).zfill(3)),'a')
+					newFile.write(newDocBuf)
+					newFile.close()
+					# also make a properties file
+					newFile = open("./output/file_%s_properties.txt" % (str(count).zfill(3)), 'a')
+					
 				# increment counter
 				count += 1
-			else:
-				newDocBuf += line
+				# reset the buffer
+				newDocBuf = ""
+				
+			newDocBuf += line
+	return count
+
+# this function finds and records the document ID (appeal ID)
+def parseDocId(fileIndex):
+	with open("./output/file_%s.txt" % (str(fileIndex).zfill(3))) as f:
+		for line in f:
+			if "Appeal No." in line:
+				words = line.split(' ')
+				if len(words)>2:
+					docId = words[2]
+					propertiesFile =  open("./output/file_%s_properties.txt" % (str(fileIndex).zfill(3)), 'a')
+					propertiesFile.write("docId: %s" % docId)
+					propertiesFile.close()
+					return
+
 '''
 def parser(filename):
 	with open(filename) as f:
@@ -98,4 +117,6 @@ def parser(filename):
 							newDoc.write("code: "+code+"\n");
 							newDoc.close();
 '''
-splitDocument("../ptab-data/ptab.sample.200.txt")
+numFiles = splitDocument("../ptab-data/ptab.sample.200.txt")
+for i in xrange(numFiles):
+	parseDocId(i)
