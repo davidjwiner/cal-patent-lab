@@ -1,4 +1,349 @@
-docId: 1997-1274
 
-decision: DENIED
 
+THIS OPINION WAS NOT WRITTEN FOR PUBLICATION
+The opinion in support of the decision being entered
+
+today (1) was not written for publication in a law
+journal and (2) is not binding precedent of the Board.
+
+Paper No. 22
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE BOARD OF PATENT APPEALS
+AND INTERFERENCES
+
+Ex_partg BOB HOOSE
+and WILLIAM J. JOHNSON
+
+Appeal No. 1997-1274
+Application O8/43l,397l
+
+ON BRIEF
+
+Before HAIRSTON, BARRETT, and FRAHM, Administrative Eaten;
+Judges.
+
+BARRETT, Administrative Patent Judge.
+
+1 Application for patent filed April 28, 1995, entitled
+"Automatic Invocation Of Object During Data Entry In A Data
+Processing System User Interface," which is a continuation of
+Application 08/058,344, filed May 6, 1993.
+
+_l_
+
+
+
+
+*** PAGE 2 ***
+
+
+Appeal No. l997—l274
+Application O8/431,397
+
+DECISION ON REQUEST FOR REHEARING
+
+Appellants request rehearing of our decision entered
+September 3, l999.
+
+We have reconsidered our decision in light of Appellants‘
+arguments, but are not persuaded of any errors therein.
+Therefore, we decline to make any changes in our prior
+decision.
+
+OPINION
+
+Appellants argue that we overlooked or misapprehended
+limitation d) of claims l and ll in sustaining the
+anticipation rejection of claims 1 and ll over Davis. In
+particular, Appellants argue that Davis does not teach
+"determining if said second object is present on said user
+interface . . .," as provided by limitation d). We stand by
+our decision.
+
+We interpreted the terms "object" and "location," as
+applied to claim l, as follows (Decision, page 4):
+
+In terms of claim l, a particular field (e.g., "alpha l,"
+
+"beta l," etc.) in a category (e.g., category
+
+"Outline/first") is an "object" and the category itself
+
+(e.g., category "Outline/first" or "Outline/second") is
+
+also an "object." Thus, going from field "alpha l" to
+
+"beta l" in category "Outline/first" is a move from a
+
+first object to a second object. Also, going from field
+
+"alpha l" in category "Outline/first," shown in figure
+
+_2_
+
+
+
+
+*** PAGE 3 ***
+
+
+Appeal No. 1997-1274
+Application O8/431,397
+
+5h, to field "alpha 2" in category "Outline/second" in
+figure Si is a move from a first object (either field
+"alpha 1" or category "Outline/first") to a second object
+(either field "alpha 2" or category "Outline/second")
+The "location" in the "object" is the position of the
+cursor in the Edit window, e.g., the cursor (unnumbered)
+in Edit Window 264 in figure 5i can be considered a
+"second location" in a "second object." The Edit Window
+is associated with the particular field (i.e., object) in
+a particular category (also an object).
+
+We addressed limitation d) as follows (Decision,
+pages 9-10):
+
+Nevertheless, we find that Davis discloses
+limitations d) and e) for the reasons discussed with
+respect to limitation c). Eirst, hitting the TAB key to
+move from one field to another is "receiving an input
+from said user to move said cursor to a next location" as
+recited in limitation c) and the system brings the next
+field (the second object) to the user interface and
+provides the cursor at the second location in the Edit
+Window. This is basically the same as the admitted prior
+art except that only one field appears on the screen in
+Davis at a time. The user may enter data as recited in
+limitation e). Second, selecting the "next category"
+from the menu in figure 5h is "receiving an input from
+said user to move said cursor to a next location" as
+recited in limitation c) and the system brings the next
+category (the second object) to the user interface and
+provides the cursor at the second location as shown in
+
+figure 5i. The user may enter data as recited in
+limitation e)."
+
+The screens shown in figure 5 of Davis are specific
+examples of the "FORMS" objects in figure 3a. Each category
+under "FORMS" is an object as indicated by the fact that it
+has a separate block in figure 3a and each category (object)
+
+_3_
+
+
+
+
+*** PAGE 4 ***
+
+
+Appeal No. l997—l274
+Application O8/431,397
+
+is separately displayed on the user interface; e.g., figure 5g
+shows the object category "Outline/first" and figure 5i shows
+the object category "Outline/second." Each "FORMS" category
+(object) has one or more "field" objects, e.g., Category 1 in
+figure 3a has "!field l" and "field 2," where the data field
+is indicated by rectangles next to the field names. In Davis,
+a category has all its fields displayed on the user interface,
+e.g., "Outline/first" in figure 5g has fields "alpha l,"
+
+"beta l," "gamma l," and "!omega" all on the user interface.
+Although we believe that one of ordinary skill in the art
+would have recognized that if the list of fields (objects) was
+longer, the system could scroll the field pointer 266 down the
+list to fields (objects) which are not currently shown on the
+interface and, thus, bring such fields (objects) to the user
+interface, just as a user scrolls through a document in a word
+processing program, such a finding is not part of the
+rejection. When a FORM is filled out with specific
+information it becomes one of the RECORDS in figure 3a.
+
+When the TAB key is pressed to go to from a first field
+
+(object) to a second field (object) within a category
+
+(object), e.g., from field (object) "alpha l" to field
+
+
+
+
+*** PAGE 5 ***
+
+
+Appeal No. l997—l274
+Application O8/431,397
+
+(object) "beta l," the system determines that the second field
+(object) is present on the user interface and data may be
+entered within the edit window at a second location for the
+second field (object). The system "determines if said second
+object is present on said user interface" because it
+interprets the TAB key as a command to go to the next field
+(second object) on the user interface in the same way as
+admitted prior art systems (specification, page 1) interpret
+the TAB key as a determination that the next field is on the
+user interface. Claim l does not define how the system
+determines if the object is present on the user interface, so
+recognition of the TAB key is one method of determining.
+Claim l says nothing about skipping fields (objects) or
+changing the order of appearance of fields (objects).
+
+When the "next category" is selected from the menu, the
+system determines that the second category (object) is not
+present on the user interface and brings the second category
+(object) to the user interface, e.g., bringing up the user
+interface for the next category shown in figure 5i.
+
+Appellants argue that hitting the TAB key or selecting
+
+the "next category" from the menu is not the same as
+
+
+
+
+*** PAGE 6 ***
+
+
+Appeal No. 1997-1274
+
+Application O8/431,397
+
+"determining if said second object is present on said user
+interface . . ." because (Req. for Reh'g, page 2):
+
+Davis has no need to determine if the second object
+is present on the user interface. This is because the
+data is always entered into the same window 264. A field
+pointer 266 determines which field is enabled for data
+entry (column 12, lines 20-34) in the window 264. There
+is no need for Davis to determine if the second object
+(for example, a second field) is present on the user
+interface because the window is already displayed.
+
+We disagree with these arguments. Davis determines that
+the next field (object) is present on the user interface in
+response to pressing a TAB key in the same way as the admitted
+prior art (specification, page 1) and determines that the next
+category (object) is not present on the user interface in
+response to a selection of the "next category" item from the
+menu. Appellants have not explained, for example, why, when
+there are multiple fields displayed on the user interface as
+in Appellants‘ figure 2, pressing a TAB key in the admitted
+prior art (specification, page 1) does not involve a
+determination by the system that the next field is on the user
+interface and why Davis does not involve this same
+determination.
+
+The argument that Davis has no need to determine if the
+
+second object is present on the user interface because the
+
+_6_
+
+
+
+
+*** PAGE 7 ***
+
+
+Appeal No. 1997-1274
+
+Application 08/431,397
+
+window is already displayed is unpersuasive. The Edit Window
+264 is just a wordprocessing window for entering data into the
+object; it is not the object itself. Instead of a separate
+line for each field (object) as for fields 0, 1, and 7 in
+Appellants‘ figure 2, Davis uses a pointer 266 to indicate the
+field and a single edit window because the data length may be
+extensive. Claim 1 does not specify how the objects or
+locations appear on the user interface and does not define
+over Davis. The edit window's presence in Davis does not
+eliminate the need to determine if the second object is
+present on the user interface. The system in Davis determines
+that the next object is on the user interface if the TAB key
+is pressed (i.e., that it is one of the fields for a
+particular category) and determines that the next object is
+not on the interface if the "next category“ is selected from
+the menu. The location of the cursor in the edit window for a
+first object (say "alpha 1") is a first location and the
+location of the cursor in the edit window for the second
+object (say "beta 1") is a second location although the cursor
+
+may have the same physical location on the screen.
+
+
+
+
+*** PAGE 8 ***
+
+
+Appeal No. l997—l274
+Application O8/431,397
+
+For the reasons stated above, Appellants have not
+
+persuaded us that we erred in our finding of anticipation.
+CONCLUSION
+
+We have considered Appellants‘ request to the extent that
+we have reconsidered our decision of September 3, 1999, but we
+decline to make any changes therein.
+
+No time period for taking any subsequent action in
+connection with this appeal may be extended under 37 CFR
+§ l.136(a).
+
+DENIED
+
+KENNETH W. HAIRSTON
+Administrative Patent Judge )
+
+BOARD OF PATENT
+
+LEE E. BARRETT APPEALS
+Administrative Patent Judge AND
+
+ERIC FRAHM
+
+)
+)
+)
+)
+)
+) INTERFERENCES
+)
+)
+)
+)
+Administrative Patent Judge )
+
+_ 8 _
+
+
+
+
+*** PAGE 9 ***
+
+
+Appeal No. 1997-1274
+Application O8/431,397
+
+Geoffrey A. Mantooth
+
+WOFFORD, FAILS, ZOBOL, and MANTOOTH
+110 West Seventh
+
+Suite 500
+
+Fort Worth, TX 76102
+
+
+
+
+*** PAGE 1 ***

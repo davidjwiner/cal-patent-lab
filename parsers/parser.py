@@ -3,6 +3,31 @@
 # we want Doc ID, Cause, Patent ID, App ID, Keywords, Date, Inventor,
 # Decision, US Code
 
+# This function takes the PTAB OCR text as input and uses the "PAGE 1" delimiter to
+# break the PTAB file into separate files for each document
+def splitDocument(filename):
+	with open(filename) as f:
+		# newDocBuf is a buffer to read in the file lines
+		newDocBuf = ""
+		# counter to assist in creating new file names
+		count = 0
+		for line in f:
+			# when encountering this delimiter, write newDoc to another file
+			# then reset the newDoc buffer
+			# NOTE: file_000.txt will be garbage because there are a few newlines before 
+			# the first occurrance of *** PAGE 1 ***
+			if "*** PAGE 1 ***" in line:
+				newFilename = "./output/file_%s.txt" % (str(count).zfill(3))
+				newFile = open(newFilename,'a')
+				newFile.write(newDocBuf)
+				newFile.close()
+				# reset the buffer
+				newDocBuf = ""
+				# increment counter
+				count += 1
+			else:
+				newDocBuf += line
+'''
 def parser(filename):
 	with open(filename) as f:
 		docId = ""
@@ -72,5 +97,5 @@ def parser(filename):
 							newDoc = open(newFilename, 'a')
 							newDoc.write("code: "+code+"\n");
 							newDoc.close();
-
-parser("../ptab-data/ptab.sample.200.txt")
+'''
+splitDocument("../ptab-data/ptab.sample.200.txt")

@@ -1,6 +1,130 @@
-docId: 1996-3701
 
-code: 103.
 
-decision: GRANTED
+THIS OPINION WAS NOT WRITTEN FOR PUBLICATION
+The opinion in support of the decision being entered
+today (1) was not written for publication in a law
+journal and (2) is not binding precedent of the Board.
 
+Paper No. 22
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE BOARD OF PATENT APPEALS
+AND INTERFERENCES
+
+EX parte RALPH E. SIPPLE, MICHAEL J. HILL
+and DENNIS R. KONRAD
+
+Appeal No. 1996-3701
+Application O8/O76,5871
+
+ON BRIEF
+Before THOMAS, JERRY SMITH and LALL, Administrative Patent
+
+Judges.
+
+LALL, Administrative Patent Judge.
+
+REQUEST FOR REHEARING
+
+Appellants request that we rehear that portion of our
+decision of September 17, 1999 wherein we sustained the rejection
+
+of claim 13 as unpatentable over APA under 35 U.S.C. § 103.
+
+1 Application for patent filed June 14, 1993.
+
+_1_
+
+
+
+
+*** PAGE 2 ***
+
+
+Appeal No. 1996-3701
+Application 08/076,587
+
+Appellants argue that the Board has not correctly
+interpreted the feature of claim 13, namely, “a data base dump
+facility coupled to said transaction processing system for
+storing said data base in respgnge tg a filling Qf said audit
+trail storage area.” (Emphasis added). Appellants assert that
+the misinterpretation of this feature and the resulting finding
+that “an artisan, looking at APA, would have found it obvious to
+dump the contents of the audit trail storage area 24 into the
+dump tapes 50 in response to when said storage 24 gets filled up,
+instead of doing the dumping periodically” is not dispositive of
+claim 13. [Request for Rehearing, pages 2 and 3]. Appellants
+argue that this is grounds for reversing our decision with
+respect to claim 13.
+
+We have reviewed our decision of September 17, 1999 in light
+of Appellants‘ arguments in the request for rehearing. We agree
+with Appellants that the above finding in regard to claim 13 is
+erroneous. We, therefore, reverse our prior decision as to claim
+13 for the reasons which follow.
+
+We agree with Appellants that APA does not show or suggest
+the dumping of the data base from storage areas (16, 18, 20 and
+22) in response to any condition of the audit trail storage area
+
+(24), much less the filling of the audit trail storage area as
+
+_2_
+
+
+
+
+*** PAGE 3 ***
+
+
+Appeal No. 1996-3701
+Application O8/076,587
+
+claimed in claim 13. In APA, the dumping of the data base from
+said storage areas onto the dump tapes 50 is done periodically
+[specification, page 9] not in response to a filling of the audit
+trail storage area as claimed or any other condition relating to
+the audit trail storage area.
+We, therefore, reverse our decision of September 17, l999
+
+regarding claim 13.
+
+GRANTED
+
+JAMES D. THOMAS
+Administrative Patent Judge
+
+JERRY SMITH
+Administrative Patent Judge
+
+BOARD OF PATENT
+APPEALS AND
+INTERFERENCES
+
+PARSHOTAM s. LALL
+Administrative Patent Judge
+
+
+
+
+*** PAGE 4 ***
+
+
+Appeal No. 1996-3701
+Application O8/076,587
+
+John L. Rooney
+
+Nawrocki, Rooney & Sivertson
+Broadway Place East, Suite 401
+3433 Broadway Street Northeast
+Minneapolis, MN 55413
+
+PSL/ki
+
+
+
+
+*** PAGE 1 ***

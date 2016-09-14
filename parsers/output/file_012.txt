@@ -1,4 +1,180 @@
-docId: 95-0665
 
-appId: is
-code: 103,
+
+THIS OPINION WAS NOT WRITTEN FOR PUBLICATION
+
+The opinion in support of the decision being entered today (1)
+was not written for publication in a law journal and (2) is
+not binding precedent of the Board.
+
+Paper No. 29
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE BOARD OF PATENT APPEALS
+AND INTERFERENCES
+
+Ex parte JURGEN PLOG, THOMAS E.F. WILLE,
+and RALPH VON VIGNAU
+
+Appeal No. 95-0665
+Application O8/082,3261
+
+ON BRIEF
+
+Before HAIRSTON, KRASS and LEE, Administrative Patent Judges.
+LEE, Administrative Patent Judge.
+
+ON REQUEST FOR RECONSIDERATION
+
+On April 15, 1998, we rendered a decision sustaining the
+rejection of claims 6-8 and reversing the rejection of claim
+
+9. The appellants have filed a request for reconsideration
+
+1 Application for patent filed June 24, l993. According to appellants,
+
+this application is a continuation of Application No. 07/554,603, filed July
+l8, l990, now abandoned, which is a continuation of Application No.
+07/369,567, filed June 21, l989, now abandoned.
+
+l
+
+
+
+
+*** PAGE 2 ***
+
+
+Appeal No. 95-0665
+Application 08/082,326
+
+(Paper No. 28), contending that claims 6-8 are patentable over
+art.
+
+In the request for reconsideration, the appellants point
+out
+that in column 26, lines 36-40 of Frieder, the reference to
+granting access to the main store on a "fixed priority basis"
+does not contemplate interrupting an already commenced but yet
+unfinished memory access to accommodate a higher priority
+memory access. The appellants refer to column 27, lines 31-49
+of Frieder and state that once access to memory is granted
+based on the fixed priority scheme, the access is completely
+performed before the arbitration circuit is released for
+granting the next access to memory.
+
+The appellants have, evidently, misinterpreted our
+opinion. We did not express the view that Frieder itself
+discloses having a high priority memory access interrupt a low
+priority memory access in mid—stream. Apparently, as pointed
+out by the appellants, it does not. The rejection is one for
+obviousness under 35 U.S.C. § 103, not for anticipation under
+35 U.S.C.
+
+§ 102.
+
+
+
+
+*** PAGE 3 ***
+
+
+Appeal No. 95-0665
+Application 08/082,326
+
+Frieder discloses that access to memory by the various
+processors including execution and auxiliary processors are
+granted on a "fixed priority basis". That would have
+reasonably informed one with ordinary skill in the art that
+some processors are higher ranked in priority as far as a
+memory access is concerned. In our initial decision, we noted
+that the concept of
+an interrupt is not foreign in Frieder and pointed out that
+Frieder specifically discloses interrupting an auxiliary
+processor's activities when an execution processor needs the
+services of the auxiliary processor. We then concluded that
+it would have been prima facie obvious to one with ordinary
+skill in the art that the memory access of a less privileged
+processor can get interrupted by the memory access request of
+a higher privileged processor and thus not get completed until
+later. With an appreciation for interrupts, one with ordinary
+skill in the art would have readily recognized that it is not
+necessary that something not yet finished be allowed to
+continue to the end if a higher priority activity is pending.
+Nothing in the request for reconsideration persuades us that
+
+our conclusion is incorrect.
+
+
+
+
+*** PAGE 4 ***
+
+
+Appeal No. 95-0665
+Application 08/082,326
+
+It should be noted that teachings from a reference are
+not limited to the preferred embodiments or the specific
+working examples in the reference. In re Burckel, 592 F.2d
+1175, 1179, 201 USPQ 67, 70 (CCPA 1979); In re Bode, 550 F.2d
+656, 661, 193 USPQ 12, 17 (CCPA 1977); In re Snow, 471 F.2d
+1400, 1403, 176 USPQ 328, 329 (CCPA 1973). A reference is
+good not just for
+what it expressly teaches but also for what it would have
+reasonably suggested to one with ordinary skill in the art.
+
+In re Lamberti, 545 F.2d 747, 750, 192 USPQ 278, 280 (CCPA
+1976).
+
+The appellants make other arguments specifically
+addressing how the various registers means identified by the
+examiner in the examiner's answer on page 5 do not satisfy the
+claimed register means for each processor. However, because
+the examiner's position is explained in the examiner's answer,
+the place for presenting arguments against it is in the reply
+brief. The appellants may not raise these arguments for the
+first time in a request for reconsideration. Accordingly,
+these arguments are not considered.
+
+Conclusion
+
+
+
+
+*** PAGE 5 ***
+
+
+Appeal No. 95-0665
+Application O8/082,326
+
+For the foregoing reasons, the request for
+reconsideration is granted in the sense that we have
+reconsidered our initial decision. However, for reasons
+explained above, we decline to make any change in our initial
+
+decision.
+
+KENNETH W. HAIRSTON
+Administrative Patent Judge
+
+BOARD OF PATENT
+ERROL A. KRASS )
+Administrative Patent Judge APPEALS AND
+
+)
+)
+) INTERFERENCES
+)
+JAMESON LEE )
+Administrative Patent Judge )
+Corporate Patent Counsel
+U.S. Philips Corporation
+Patent Department
+580 White Plains Rd.
+Tarrytown, NY 10591
+
+
+
+
+*** PAGE 1 ***

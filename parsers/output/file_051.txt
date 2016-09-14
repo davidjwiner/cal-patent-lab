@@ -1,7 +1,398 @@
-docId: 1999-2052
 
-appId: 08/572,202
 
-code: 103,
-decision: DENIED—IN—PART and GRANTED—IN—PART
+The opinion in support of the decision being entered today was not written
+for publication and is not binding precedent of the Board.
 
+Paper No. 17
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE BOARD OF PATENT APPEALS
+AND INTERFERENCES
+
+EX parte LAVAUGHN F. WATTS JR,
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+ON BRIEF
+
+Before SMITH, LALL, and BLANKENSHIP, Administrative Patent Judges.
+LALL, Administrative Patent Judge.
+
+ON RE UEST FOR REHEARING
+
+Appellant requests that we reconsider our decision of May 6,
+2002, wherein we sustained, under 35 U.S.C. § 103, the rejection
+of claims 1, 4-9, 16, 17, 39, 41-43, 45-47, 49-51, 53, 54, 63, 64
+and 66 over Smith and Kikinis; the rejection of claims 21-27, 55,
+56, 58-60, 62, 67 and 70-74 over Smith, Kikinis and Kenny; and of
+claims 28 and 29 over Smith, Kikinis and Gephardt; however, we did
+not sustain the rejection of claims 3, 10, 18 and 30-38 over Smith
+
+and Kikinis.
+
+
+
+
+*** PAGE 2 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+Appellant argues that we have overlooked some points (19
+as enumerated on pages 2-4 of the rehearing request) argued in
+Appellant's brief while rendering said decision.
+
+We have reconsidered our decision of May 6, 2002 in light of
+Appellant's comments in the request for reconsideration and we find
+an error with respect to claims 59, 60, 62, 63, 64 and 66, which
+corresponds to item numbers 6, l5, l6 and 17 of the request for
+rehearing. However, we find no error in our decision regarding the
+remaining claims. We therefore modify our decision accordingly.
+Our response to the various points raised in the request for
+rehearing is as follows.
+
+Regarding the items 1-4 of the request for rehearing, we refer
+to our decision at pages 6-9 where we did consider the limitation
+of “a decreasing level of activity within said CPU" (rehearing
+request at page 5), and where we also gave our rationale for
+holding that the Examiner had a justifiable reason to combine the
+references and that the Examiner had indeed presented a prima facie
+case. Appellant argues (rehearing request at page 7) that “the
+Smith et al. reference teaches a device in which the clock signal
+
+to the CPU is modified only after NO ACTIVITY has been detected for
+
+a PREDETERMINED amount of time ...." In response, we first note
+
+
+
+
+*** PAGE 3 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+that claim 1 requires only that the CPU clock pulse is controlled
+in response to Qgg of a decreasing level of activity within said
+CPU and said temperature rising to a level above a selected
+reference temperature level. That is, it requires only one of the
+two criteria, namely, either in response to the decreasing level of
+CPU activity or the temperature level rising in the CPU. In any
+event, we discussed the limitation of the decreasing level of
+activity within said CPU in our decision at the pages noted
+
+above. We reiterate that the claim language does not preclude
+
+the condition of no activity for a predetermined amount of time as
+disclosed by Smith et al. The recited decreasing level of activity
+in claim 1 is a continuing process of decreasing of the level of
+activity and it does include a state where the level of activity
+has decreased to a zero level. Appellant also argues that there is
+a distinction between “dynamic activity” and “static activity"
+(rehearing request at page 13). However, we do not find such a
+recitation in claim 1 which only speaks in terms of an activity
+level and thereby includes any type of activity, be it static or
+dynamic.
+
+Regarding item number 5 (claims 55, 58, 59, 60 and 62,
+
+rehearing request at page 16), we still are of the view that
+
+
+
+
+*** PAGE 4 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+Appellant has merely made conclusory statements regarding the
+absence of teaching of the limitations of claim 55, see brief at
+page 34, where Appellant merely states, “as far as Appellant can
+determine, there is no actual temperature measurement or sensing at
+all in Kenny. Accordingly, a combination of the Smith, Kikinis
+and Kenny references fail (sic) to teach or suggest this further
+limitation ‘wherein said temperature is sensed on a periodic basis’
+in combination with the requirements of claim 1." However, we
+point out that Kenny does teach at column 1, lines 51-55 that the
+temperature is indeed measured by a conventional temperature
+monitor such as a thermostat or a diode, and further Kenny at
+column 1 lines 65 — column 2 line 2, states that the temperature is
+measured as a function of time which would imply to an artisan that
+the temperature is measured on a periodic basis.
+
+With respect to item 6 (claims 63, 64 and 66, rehearing
+request at page 17), we are persuaded by the Appellant's arguments
+that the temperature sensing being user modifiable as recited in
+each claims 63, 64 and 66 is not taught by the combination of Smith
+and Kikinis. Therefore, we modify our decision in that rejection
+
+of claims 63, 64 and 66 over Smith and Kikinis is now reversed.
+
+
+
+
+*** PAGE 5 ***
+
+
+Appeal No. l999-2052
+Application No. 08/572,202
+
+Regarding item 7 (claim 21, rehearing request at page l8),
+we still are of the view that Appellant at page 27 of the brief
+makes a mere conclusory statement regarding claim 2l, which is
+not in accordance with 37 CFR § l.l92 (c)(8)(iv)(l998). However,
+for the rationale we gave regarding the combination of Smith and
+Kikinis with respect to claim l, and further considering the
+teaching of Kenny the concept of having power on and off depending
+upon the temperature condition of the integrated chip (for example,
+column l lines 50-64), we hold the recited limitations to be taught
+by their combination. Therefore, claim 2l is obvious in view of
+Smith, Kikinis and Kenny.
+
+Regarding item 8 (claims 2l, 70-72, and through claim
+dependency, claims 22-27, 55, 56, 58-60, 62, 67, 73 and 74,
+rehearing request at page l9), Appellant raises the issue of
+failure of a prima facie case of obviousness. In this regard, we
+direct Appellant's attention to our decision at pages l3-l6. We
+explained our position in holding that the combination of Smith,
+Kikinis and Kenny did present a prima facie case of obviousness
+with a justifiable reason for the combination. We reemphasize our
+position that Kenny does teach the prediction of the temperature at
+
+column 2, lines 37-47 where Kenny teaches that the temperature is
+
+
+
+
+*** PAGE 6 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+increasing or decreasing resulting in heating or cooling. The
+terms heating and cooling imply that a prediction of the future
+temperature conditions is being contemplated.
+
+With respect to item 9 (claim 22, (rehearing request at page
+23), Appellant objects to our statement in the decision at page l5,
+namely, “the clock rate ‘HAS TO BE’ regulated in such a way that
+the temperature does not exceed the selected reference level and in
+doing so they would have to control the length of the OFF state for
+the power to the CPU". For clarification, we add here that Kenny
+as pointed out, supra, teaches the concept of having the power off
+in case of a heat build up in an integrated circuit (column 1,
+lines 51-64). Therefore, an artisan would have found it obvious to
+control the off state condition of the clock pulses going to the
+CPU in order to avoid the build up of heat in the chip (CPU), and
+hence prevent the rising of the temperature of CPU beyond a
+selected reference temperature level.
+
+Concerning item 10 (claim 23, rehearing request at page 24),
+we find that Appellant has recited no particular structure or
+specific method for the accomplishment of the recited optimized
+efficiency level of the CPU in claim 23. We are of the view that
+
+an artisan, knowing from the teachings of the combination of Smith,
+
+
+
+
+*** PAGE 7 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+Kikinis and Kenny that the heat build up affects the operation of a
+CPU, would have found an obvious matter to operate the CPU at its
+optimum condition by controlling the result effective variables
+including the activity level and the temperature build up in the
+CPU. This accords with the rule that discovery of an optimum value
+of a result effective variable in a known process is ordinarily
+within the skill of the art. In re Antonie, 559 F.2d 618, 195 USPQ
+6 (CCPA 1977); In re Aller, 42 CCPA 824, 220 F.2d 454, 105 USPQ 233
+(CCPA 1955).
+
+Regarding item 11 (claims 24, 25, 26 and 27, rehearing request
+at page 25), we give Appellant the benefit of the conclusory
+statements as being the substantive arguments. We find that
+because the combination of Smith, Kikinas and Kenny teaches the
+build up of heat and hence the rising of the temperature as the
+clock pulse or the power is modulated in a integrated circuit
+(CPU), it would have been obvious to an artisan that when the off
+state (absence of power or clock pulses to the CPU) is at zero, the
+power build up or the heat build up in the CPU would be maximum
+(claim 24), and that power consumption in the CPU would decrease as
+the duration of the off state increases (claim 25). Regarding
+
+claim 26, Smith teaches or discloses the concept of minimum clock
+
+
+
+
+*** PAGE 8 ***
+
+
+Appeal No. l999—2052
+Application No. 08/572,202
+
+rate at which the CPU can operate, as in the sleep mode. Regarding
+claim 27, an artisan would have obviously recognized that if the
+clocks for the CPUs are completely stopped, the clock rate would be
+at zero.
+
+With respect to items l2, l3 and l4 (claims 55, 56 and 58
+respectively, rehearing request at pages 27-32), we again give
+Appellant the benefit of the conclusory statements as a substitute
+for substantive arguments. We find, in addition to our prior
+pointing out that Kenny does measure the temperature by
+a thermostat or a diode, that Kenny also teaches the periodic
+measurement of the temperature in the integrated circuit, (see
+column l, line 65 — column 2 line 2, where the temperature
+measurement is disclosed to be made as a function of time, clearly
+implying that the temperature measurement is done on a periodic
+basis).
+
+Regarding items l5, l6 and l7 (claims 59, 60 and 62, request
+rehearing request at pages 32-38), each claim has the limitation,
+“the frequency of said temperatures sensing changes as said
+
+temperature reaches pre selected threshold values”. We agree with
+
+Appellant's argument (id.) that the combination of Smith, Kikinis
+
+and Kenny does not teach this limitation. Therefore, we modify our
+
+
+
+
+*** PAGE 9 ***
+
+
+Appeal No. l999-2052
+Application No. 08/572,202
+
+decision in that we reverse the rejection of claims 59, 60 and 62
+over Smith, Kikinis and Kenny.
+
+Regarding item l8 (claim 67, rehearing request at page 38-40),
+we clarify the paragraph from page l6 of our decision which
+Appellant has quoted at page 39 of the request for rehearing,
+in that the quoted disclosure of Kenny at column 2 lines 37-47
+states that the sampling indicates that the integrated circuits
+temperature is either cool or cooling, such that temperature count
+is thereby decreased, or the sampling indicates the integrated
+circuit is generating too much heat and its temperature is
+increasing. This process of cooling and heating (temperature
+increasing) indicates that the temperature measurement is of
+predictive type, which is not static but dynamic and contemplates
+the future happenings to the heating and cooling state of the
+circuit. Therefore, we find that Kenny discloses the teaching of
+predicting future temperature levels as recited in these claims.
+
+Regarding item l9 (claims 28 and 29, rehearing request at
+pages 40-43), we have already discussed the propriety of the
+combination of Smith, Kikinis and Gephardt at pages l6 and l7 of
+our decision. The arguments regarding the lack of a prima facie
+
+case in this combination and that Smith only shows that the
+
+
+
+
+*** PAGE 10 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+CPU is modified only after no activity has been deducted for a
+predetermined amount of time have been already addressed above.
+
+In conclusion, we have carefully considered the arguments
+raised by Appellant in his request for reconsideration.
+Consequently, we have modified our decision in that we reverse the
+rejection of claims 59, 60 and 62 over Smith, Kikinis and Kenny,
+and the rejection of claims 63, 64 and 66 over Smith and Kikinis.
+
+In all other respects, the prior decision is not changed.
+
+10
+
+
+
+
+*** PAGE 11 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+We have granted Appellant's request to the extent that we have
+modified our decision of May 6, 2002, regarding claims of 59, 60,
+62, 63, 64 and 66, however, in all other respects the decision
+remains unchanged.
+
+No time period for taking any subsequent action in connection
+with this appeal may be extended under 37 CFR § l.l36(a).
+
+DENIED—IN—PART and GRANTED—IN—PART
+___________________________________
+
+JERRY SMITH
+Administrative Patent Judge
+
+)
+
+)
+
+)
+
+)
+
+)
+) BOARD OF PATENT
+
+PARSHOTAM S. LALL ) APPEALS
+
+Administrative Patent Judge ) AND
+) INTERFERENCES
+)
+)
+)
+)
+)
+
+HOWARD B. BLANKENSHIP
+Administrative Patent Judge
+
+PSL/jrg
+
+10
+
+
+
+
+*** PAGE 12 ***
+
+
+Appeal No. 1999-2052
+Application No. 08/572,202
+
+TEXAS INSTRUMENTS INCORPORATE]
+P. 0. BOX 655474, M/S 3999
+DALLAS, TX 75265
+
+12
+
+
+
+
+*** PAGE 1 ***
