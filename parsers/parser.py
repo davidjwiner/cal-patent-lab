@@ -58,16 +58,30 @@ def parseAppId(fileIndex):
 	with open(infile) as f:
 		lines = f.readlines()
 		for i in range(len(lines)):
-			line = lines[i]
+			line = lines[i].strip()
 			if "Application " in line:
 				appIds = appIdMatcher.findall(line)
 				if len(appIds) >= 1:
 					propertiesFile =  open(outfile, 'a')
 					for appId in appIds:
-						propertiesFile.write("appId: {}".format(appId))
+						propertiesFile.write("appId: {}\n".format(appId))
 					propertiesFile.close()
 					return
 
+def parseDecision(fileIndex):
+	infile = "./output/file_{:03}.txt".format(fileIndex)
+	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	with open(infile) as f:
+		for line in f:
+			line = line.strip()
+			if 'DENIED' in line or 'GRANTED' in line:
+				words = line.split(' ')
+				propertiesFile =  open(outfile, 'a')
+				for word in words:
+					if 'DENIED' in word or 'GRANTED' in word:
+						propertiesFile.write("decision: {}\n".format(word))
+				propertiesFile.close()
+				return
 '''
 def parser(filename):
 	with open(filename) as f:
@@ -143,3 +157,4 @@ numFiles = splitDocument("../ptab-data/ptab.sample.200.txt")
 for i in xrange(numFiles):
 	parseDocId(i)
 	parseAppId(i)
+	parseDecision(i)
