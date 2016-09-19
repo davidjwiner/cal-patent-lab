@@ -64,6 +64,7 @@ def parseAppId(fileIndex):
 				if len(appIds) >= 1:
 					propertiesFile =  open(outfile, 'a')
 					for appId in appIds:
+						appId = appId.replace('O', '0').replace('l', '1')
 						propertiesFile.write("appId: {}\n".format(appId))
 					propertiesFile.close()
 					return
