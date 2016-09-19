@@ -71,15 +71,21 @@ def parseAppId(fileIndex):
 def parseDecision(fileIndex):
 	infile = "./output/file_{:03}.txt".format(fileIndex)
 	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	deniedMatcher = re.compile('(DENIED(-IN-PART)?)')
+	grantedMatcher = re.compile('([GQ]RANTED(-IN-PART)?)')
 	with open(infile) as f:
 		for line in f:
 			line = line.strip()
-			if 'DENIED' in line or 'GRANTED' in line:
-				words = line.split(' ')
+			deniedMatchResult = deniedMatcher.search(line)
+			grantedMatchResult = grantedMatcher.search(line)
+			if deniedMatchResult or grantedMatchResult:
 				propertiesFile =  open(outfile, 'a')
-				for word in words:
-					if 'DENIED' in word or 'GRANTED' in word:
-						propertiesFile.write("decision: {}\n".format(word))
+				if deniedMatchResult:
+					result = deniedMatchResult.group(0)
+					propertiesFile.write("decision: {}\n".format(result))
+				if grantedMatchResult:
+					result = grantedMatchResult.group(0).replace('Q', 'G')
+					propertiesFile.write("decision: {}\n".format(result))
 				propertiesFile.close()
 				return
 '''
