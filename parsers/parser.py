@@ -14,7 +14,6 @@ import re
 
 casefile_tmpl = "./output/file_{:03}.txt"
 propfile_tmpl = "./output/file_{:03}_properties.txt"
-kwfile_tmpl   = "./output/file_{:03}_keywords.txt"
 
 def splitDocument(filename):
 	with open(filename) as f:
@@ -62,7 +61,7 @@ def parseDocId(fileIndex):
 # Counts keywords
 def parseKeywords(fileIndex):
 	infile = casefile_tmpl.format(fileIndex)
-	outfile = kwfile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
 	with open(infile) as f:
 		keywords = set(["reject", "unpatentable", "not", "fail", "incorrect"])
 		counter = dict.fromkeys(keywords,0)
@@ -70,7 +69,7 @@ def parseKeywords(fileIndex):
 			for word in keywords:
 				counter[word] += line.count(word)
 
-		propertiesFile =  open(outfile, 'w')
+		propertiesFile =  open(outfile, 'a')
 		propertiesFile.write("Keyword Score: %s\n" % sum(counter.values()))
 		propertiesFile.close()
 
