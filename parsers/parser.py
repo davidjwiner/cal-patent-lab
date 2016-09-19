@@ -72,20 +72,30 @@ def parseAppId(fileIndex):
 def parseDecision(fileIndex):
 	infile = "./output/file_{:03}.txt".format(fileIndex)
 	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
-	deniedMatcher = re.compile('(DENIED(-IN-PART)?)')
+	deniedMatcher = re.compile('(DEN[Il]ED(-IN-PART)?)')
 	grantedMatcher = re.compile('([GQ]RANTED(-IN-PART)?)')
+	vacatedMatcher = re.compile('VACATED')
+	remandedMatcher = re.compile('(REMAND(ED)?)')
 	with open(infile) as f:
 		for line in f:
 			line = line.strip()
 			deniedMatchResult = deniedMatcher.search(line)
 			grantedMatchResult = grantedMatcher.search(line)
-			if deniedMatchResult or grantedMatchResult:
+			vacatedMatchResult = vacatedMatcher.search(line)
+			remandedMatchResult = remandedMatcher.search(line)
+			if deniedMatchResult or grantedMatchResult or vacatedMatchResult or remandedMatchResult:
 				propertiesFile =  open(outfile, 'a')
 				if deniedMatchResult:
-					result = deniedMatchResult.group(0)
+					result = deniedMatchResult.group(0).replace('l', 'I')
 					propertiesFile.write("decision: {}\n".format(result))
 				if grantedMatchResult:
 					result = grantedMatchResult.group(0).replace('Q', 'G')
+					propertiesFile.write("decision: {}\n".format(result))
+				if vacatedMatchResult:
+					result = vacatedMatchResult.group(0)
+					propertiesFile.write("decision: {}\n".format(result))
+				if remandedMatchResult:
+					result = remandedMatchResult.group(0)
 					propertiesFile.write("decision: {}\n".format(result))
 				propertiesFile.close()
 				return
