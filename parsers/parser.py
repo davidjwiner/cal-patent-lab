@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#
 # parse Guan Cheng's OCR text and extract key data
 # output separate text files for each appeal decision
 # we want Doc ID, Cause, Patent ID, App ID, Keywords, Date, Inventor,
@@ -10,6 +12,10 @@
 import re
 # import nameparser as np
 
+casefile_tmpl = "./output/file_{:03}.txt"
+propfile_tmpl = "./output/file_{:03}_properties.txt"
+kwfile_tmpl   = "./output/file_{:03}_keywords.txt"
+
 def splitDocument(filename):
 	with open(filename) as f:
 		# newDocBuf is a buffer to read in the file lines
@@ -21,83 +27,85 @@ def splitDocument(filename):
 			# then reset the newDoc buffer
 			if "*** PAGE 1 ***" in line:
 				# this check prevents false positives from very beginning of file
-				if count>=0:
+				if count >= 0:
 					# write the legal document to its own file
-					newFile = open("./output/file_%s.txt" % (str(count).zfill(3)),'w')
+					newFile = open(casefile_tmpl.format(count), 'w')
 					newFile.write(newDocBuf)
 					newFile.close()
 					# also make a properties file
-					newFile = open("./output/file_%s_properties.txt" % (str(count).zfill(3)), 'w')
+					newFile = open(propfile_tmpl.format(count), 'w')
 					newFile.close()
 					
 				# increment counter
 				count += 1
 				# reset the buffer
 				newDocBuf = ""
-				
 			newDocBuf += line
 	return count
 
-# this function finds and records the document ID (appeal ID)
+# Finds and records the document ID (appeal ID)
 def parseDocId(fileIndex):
-	with open("./output/file_%s.txt" % (str(fileIndex).zfill(3))) as f:
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
+	with open(infile) as f:
 		for line in f:
+			line = line.strip()
 			if "Appeal No." in line:
 				words = line.split(' ')
-				if len(words)>2:
+				if len(words) > 2:
 					docId = words[2]
-					propertiesFile =  open("./output/file_%s_properties.txt" % (str(fileIndex).zfill(3)), 'a')
-					propertiesFile.write("docId: %s" % docId)
+					propertiesFile =  open(outfile, 'a')
+					propertiesFile.write("docId: %s\n" % docId)
 					propertiesFile.close()
 					return
-# this function counts keywords
-def parseKeywords(fileIndex):
 
-	with open("./output/file_%s.txt" % (str(fileIndex).zfill(3))) as f:
+# Counts keywords
+def parseKeywords(fileIndex):
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = kwfile_tmpl.format(fileIndex)
+	with open(infile) as f:
 		keywords = set(["reject", "unpatentable", "not", "fail", "incorrect"])
 		counter = dict.fromkeys(keywords,0)
 		for line in f:
 			for word in keywords:
 				counter[word] += line.count(word)
 
-		propertiesFile =  open("./output/file_%s_keywords.txt" % (str(fileIndex).zfill(3)), 'w')
-		propertiesFile.write("Keyword Score: %s" % sum(counter.values()))
+		propertiesFile =  open(outfile, 'w')
+		propertiesFile.write("Keyword Score: %s\n" % sum(counter.values()))
 		propertiesFile.close()
 
 # Finds and records the patent application ID
 def parseAppId(fileIndex):
-	infile = "./output/file_{:03}.txt".format(fileIndex)
-	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
-	appIdMatcher = re.compile('[Ol0-9]{1,2}/[Ol0-9]{1,3}[\.,][Ol0-9]{3}')
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
+	appIdMatcher = re.compile('Application.+([Ol0-9]{1,2}/[Ol0-9]{1,3}[\.,][Ol0-9]{3})')
 	with open(infile) as f:
-		lines = f.readlines()
-		for i in range(len(lines)):
-			line = lines[i].strip()
-			if "Application " in line:
-				appIds = appIdMatcher.findall(line)
-				if len(appIds) >= 1:
-					propertiesFile =  open(outfile, 'a')
-					for appId in appIds:
-						appId = appId.replace('O', '0').replace('l', '1')
-						propertiesFile.write("appId: {}\n".format(appId))
-					propertiesFile.close()
-					return
+		for line in f:
+			line = line.strip()
+			appIds = appIdMatcher.findall(line)
+			if len(appIds) >= 1:
+				propertiesFile =  open(outfile, 'a')
+				for appId in appIds:
+					appId = appId.replace('O', '0').replace('l', '1')
+					propertiesFile.write("appId: {}\n".format(appId))
+				propertiesFile.close()
+				return
 
 # Finds and records first-listed inventor
-
+#
 # TODO: Verify that ex parte field is always inventor
 # (appears to be the case based on inspection), need to verify with lawyer
-
+#
 # TODO: "Ex parte" was not read exactly by OCR (e.g., ex paqte in some places)
 # Need to correct for that
 def parseInventor(fileIndex):
-	infile = "./output/file_{:03}.txt".format(fileIndex)
-	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
 	inventorMatcher = re.compile('([A-z-.])+(\s)+([A-z-.])+(\s)*([A-z-.])*')
 	with open(infile) as f:
 		lines = f.readlines()
 		for i in range(len(lines)):
-			curr = lines[i]
+			curr = lines[i].strip()
 			lwr = curr.lower()
 			match = "ex parte "
 			if match in lwr:
@@ -113,13 +121,14 @@ def parseInventor(fileIndex):
 					nm = re.search(inventorMatcher, name)
 					subname = nm.group(0)
 				propertiesFile =  open(outfile, 'a')
-				propertiesFile.write("\nInventor: {}".format(subname))
+				propertiesFile.write("Inventor: {}\n".format(subname))
 				propertiesFile.close()
 				return # prevents ex parte from being written twice in same file
 
+# Finds the appeal's final decision
 def parseDecision(fileIndex):
-	infile = "./output/file_{:03}.txt".format(fileIndex)
-	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
 	deniedMatcher = re.compile('(DEN[Il]ED(-IN-PART)?)')
 	grantedMatcher = re.compile('([GQ]RANTED(-IN-PART)?)')
 	vacatedMatcher = re.compile('VACATED')
