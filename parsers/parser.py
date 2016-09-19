@@ -8,6 +8,7 @@
 # Return value: number of files generated
 
 import re
+# import nameparser as np
 
 def splitDocument(filename):
 	with open(filename) as f:
@@ -81,6 +82,40 @@ def parseAppId(fileIndex):
 						propertiesFile.write("appId: {}\n".format(appId))
 					propertiesFile.close()
 					return
+
+# Finds and records first-listed inventor
+
+# TODO: Verify that ex parte field is always inventor
+# (appears to be the case based on inspection), need to verify with lawyer
+
+# TODO: "Ex parte" was not read exactly by OCR (e.g., ex paqte in some places)
+# Need to correct for that
+def parseInventor(fileIndex):
+	infile = "./output/file_{:03}.txt".format(fileIndex)
+	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	inventorMatcher = re.compile('([A-z-.])+(\s)+([A-z-.])+(\s)*([A-z-.])*')
+	with open(infile) as f:
+		lines = f.readlines()
+		for i in range(len(lines)):
+			curr = lines[i]
+			lwr = curr.lower()
+			match = "ex parte "
+			if match in lwr:
+				nameStart = lwr.find(match) + len(match)
+				name = curr[nameStart:]
+				if "," in name:
+					commaLoc = name.find(",")
+					subname = name[:commaLoc]
+				elif " and" in name:
+					andLoc = name.find(" and")
+					subname = name[:andLoc]
+				else:
+					nm = re.search(inventorMatcher, name)
+					subname = nm.group(0)
+				propertiesFile =  open(outfile, 'a')
+				propertiesFile.write("\nInventor: {}".format(subname))
+				propertiesFile.close()
+				return # prevents ex parte from being written twice in same file
 
 def parseDecision(fileIndex):
 	infile = "./output/file_{:03}.txt".format(fileIndex)
@@ -188,5 +223,6 @@ numFiles = splitDocument("../ptab-data/ptab.sample.200.txt")
 for i in xrange(numFiles):
 	parseDocId(i)
 	parseAppId(i)
+	parseInventor(i)
 	parseDecision(i)
 	parseKeywords(i)
