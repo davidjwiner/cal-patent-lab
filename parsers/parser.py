@@ -6,6 +6,9 @@
 # This function takes the PTAB OCR text as input and uses the "PAGE 1" delimiter to
 # break the PTAB file into separate files for each document
 # Return value: number of files generated
+
+import re
+
 def splitDocument(filename):
 	with open(filename) as f:
 		# newDocBuf is a buffer to read in the file lines
@@ -44,6 +47,24 @@ def parseDocId(fileIndex):
 					docId = words[2]
 					propertiesFile =  open("./output/file_%s_properties.txt" % (str(fileIndex).zfill(3)), 'a')
 					propertiesFile.write("docId: %s" % docId)
+					propertiesFile.close()
+					return
+
+# Finds and records the patent application ID
+def parseAppId(fileIndex):
+	infile = "./output/file_{:03}.txt".format(fileIndex)
+	outfile = "./output/file_{:03}_properties.txt".format(fileIndex)
+	appIdMatcher = re.compile('[Ol0-9]{1,2}/[Ol0-9]{1,3}[\.,][Ol0-9]{3}')
+	with open(infile) as f:
+		lines = f.readlines()
+		for i in range(len(lines)):
+			line = lines[i]
+			if "Application " in line:
+				appIds = appIdMatcher.findall(line)
+				if len(appIds) >= 1:
+					propertiesFile =  open(outfile, 'a')
+					for appId in appIds:
+						propertiesFile.write("appId: {}".format(appId))
 					propertiesFile.close()
 					return
 
@@ -121,3 +142,4 @@ def parser(filename):
 numFiles = splitDocument("../ptab-data/ptab.sample.200.txt")
 for i in xrange(numFiles):
 	parseDocId(i)
+	parseAppId(i)
