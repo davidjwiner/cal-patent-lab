@@ -47,6 +47,31 @@ def parseDocId(fileIndex):
 					propertiesFile.close()
 					return
 
+# this function counts keywords
+def parseKeywords(fileIndex):
+
+	with open("./output/file_%s.txt" % (str(fileIndex).zfill(3))) as f:
+		keywords = set(["reject", "unpatentable", "not", "fail", "incorrect"])
+		counter = dict.fromkeys(keywords,0)
+		for line in f:
+			for word in keywords:
+				counter[word] += line.count(word)
+
+		propertiesFile =  open("./output/file_%s_keywords.txt" % (str(fileIndex).zfill(3)), 'w')
+		propertiesFile.write("Keyword Score: %s" % sum(counter.values()))
+		propertiesFile.close()
+
+
+		# for line in f:
+		# 	if "Appeal No." in line:
+		# 		words = line.split(' ')
+		# 		if len(words)>2:
+		# 			docId = words[2]
+		# 			propertiesFile =  open("./output/file_%s_properties.txt" % (str(fileIndex).zfill(3)), 'a')
+		# 			propertiesFile.write("docId: %s" % docId)
+		# 			propertiesFile.close()
+		# 			return
+
 '''
 def parser(filename):
 	with open(filename) as f:
@@ -119,5 +144,7 @@ def parser(filename):
 							newDoc.close();
 '''
 numFiles = splitDocument("../ptab-data/ptab.sample.200.txt")
-for i in xrange(numFiles):
-	parseDocId(i)
+# for i in xrange(numFiles):
+# 	parseKeywords(i)
+
+
