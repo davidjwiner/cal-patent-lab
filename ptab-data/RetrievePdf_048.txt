@@ -1,0 +1,449 @@
+Trials@uspto.gov
+571-272-7822 
+
+Paper 16
+Date Entered: January 19, 2016
+
+ 
+ 
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+HEWLETT-PACKARD CO.,
+Petitioner,
+v.
+U.S. PHILIPS CORPORATION, ORANGE, S.A., TDF SAS, and
+INSTITUT FÜR RUNDFUNKTECHNIK GMBH,
+Patent Owner.
+____________
+Case IPR2015-01505
+Patent 5,777,992
+____________
+
+Before BRIAN J. McNAMARA, SCOTT A. DANIELS, and
+JENNIFER MEYER CHAGNON, Administrative Patent Judges.
+McNAMARA, Administrative Patent Judge.
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+ 
+
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+BACKGROUND
+Hewlett-Packard Co. (“Petitioner”) filed a Petition, Paper 2 (“Pet.”),
+to institute an inter partes review of claims 1–21 (the “challenged claims”)
+of U.S. Patent No. 5,777,992 (“the ’992 Patent”). 35 U.S.C. § 311. U.S.
+Philips Corporation, Orange, S.A., TDF SAS, and Institut Für
+Rundfunktechnik GMBH (collectively, “Patent Owner”) timely filed a
+Preliminary Response, Paper 14 (“Prelim. Resp.”), contending that the
+Petition should be denied as to all challenged claims. We have jurisdiction
+under 37 C.F.R. § 42.4(a) and 35 U.S.C. § 314, which provides that an inter
+partes review may not be instituted unless the information presented in the
+Petition “shows that there is a reasonable likelihood that the petitioner would
+prevail with respect to at least 1 of the claims challenged in the petition.”
+Having considered the arguments and the associated evidence
+presented in the Petition and the Patent Owner Preliminary Response, for the
+reasons described below, we decline to institute an inter partes review of
+any of the challenged claims.
+REAL PARTIES IN INTEREST
+Petitioner identifies itself as the only real party-in-interest. Pet. 1
+PENDING LITIGATION AND RELATED PROCEEDINGS
+The Petition states that ’992 Patent has been asserted in Audio MPEG,
+Inc. v. Hewlett-Packard Co., No. 2:15-cv-00073 (E.D. Va.). Pet. 1;
+Paper 6, 2. Petitioner also identifies IPR2015-01507 (concerning
+U.S. Patent No. 5,323,396) as filed concurrently with the Petition that is the
+subject of this Petition.
+
+2 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+THE ’992 PATENT (EXHIBIT 1001)
+The ’992 Patent concerns a decoder, and a receiver incorporating a
+decoder, for decoding an encoded digital signal that has been obtained by
+encoding a wideband digital signal of a specific sampling frequency Fs, for
+example, a digital audio signal. Ex. 1001, col. 1, ll. 20–23, 33–34. The
+encoded digital signal comprises consecutive frames, where each frame has
+a plurality of information packets, each packet having N bits. Id. at col. 1,
+ll. 24–27. The information packets are fictitious units used to define the
+length of a frame, so they need not be explicitly discernible in the
+information stream of the encoded digital signal. Id. at col. 4, ll. 16–19. The
+frames are divided into B information packets related to a calculated value P
+to obtain faithful replica of the original wideband signal. Id. at col. 2, ll. 22–
+25. The purpose of dividing the wideband signal into B information packets
+is that, for a wide-band digital signal of a sampling frequency Fs, the average
+frame rate of the encoded digital signal received is such that the duration of
+a frame in the digital signal corresponds to the duration occupied by ns
+samples of the wide-band signal. Id. at col. 2, ll. 25–47. A frame also
+includes synchronization information. Id. at col. 1, ll. 28–29.
+The decoder has an input for receiving the encoded digital signal and
+is adapted to convert it and output a replica of the wideband digital signal.
+Id. at col. 1, ll. 33–34.
+Claim 1 reproduced below, is illustrative.
+
+3 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+1. A decoder for decoding an encoded digital signal,
+wherein the encoded digital signal represents a wideband
+digital signal having a sampling frequency Fs, and the
+encoded digital signal comprises consecutive frames,
+each frame comprising a plurality of information packets,
+each information packet comprising N bits, N being
+larger than 1, a frame comprising at least a first frame
+portion including synchronization information; and
+wherein the decoder comprises:
+an input for receiving the encoded digital signal,
+means for converting the encoded digital signal
+into a replica of the wideband digital signal,
+and
+an output for supplying the replica of the wideband
+digital signal,
+characterized in that said converter is arranged for
+converting a signal having a number of
+information packets in one frame determined
+according to the formula
+	
+where BR is the bitrate of the encoded digital signal and
+ns is the number of samples of the wideband digital signal
+whose corresponding information in the encoded digital
+signal is included in one frame of the encoded digital
+signal, and
+if P is an integer, the number of information
+packets in one frame is P, and
+if P is not an integer, the number of information
+packets in a number v of the frames is P′, where
+P′ is the highest integer whose value is less than
+P; and the number of information packets in a
+number w of the other frames is equal to P′+1,
+the numbers v and w being selected such that
+the average frame rate of the encoded digital
+signal is substantially equal to Fs/ns.
+
+4 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+ART CITED IN PETITIONER’S CHALLENGES
+Petitioner cites the following references in its challenges to patentability:
+Reference
+J.P. Chambers, Signalling
+in Parity: A Brief History,
+British Broadcasting Corp.
+(BBC) Research
+Department Report 1985/15
+(Dec. 1985) (“Chambers”)
+International Organization
+for Standardization, Fifth
+MPEG Meeting Report,
+ISO-IED/JTC1/SC2/WG8N
+(Feb. 1989) (“MPEG 89051”)
+G. Stoll, et al., MaskingPattern Adapted Subband
+Coding: Use of the
+Dynamic Bit-Rate Margin
+(“MASCAM 1988”)
+
+Designation
+
+Exhibit No.
+
+Chambers
+
+Ex. 1014
+
+MPEG 89-051
+
+Ex. 1010
+
+MASCAM 1988
+
+Ex. 1032
+
+CHALLENGES ASSERTED IN PETITION
+Claims
+
+Statutory Basis
+
+Claims 1–11 and 19–21
+
+35 U.S.C. § 103
+
+Claims 12–18
+
+35 U.S.C. § 103
+
+5 
+ 
+
+Challenge
+Obvious over the
+combination of
+Chambers and MPEG
+89-051
+Obvious over the
+combination of
+Chambers, MPEG 89051, and MASCAM
+1988
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+CLAIM CONSTRUCTION
+For the reasons discussed below, we do not reach the obviousness
+issues, and no claim construction is necessary
+ANALYSIS
+Patentability challenges in an inter partes review must be “on the
+basis of prior art consisting of patents or printed publications.” 35 U.S.C.
+§ 311(b). Petitioner’s asserted grounds of unpatentability are based on three
+non-patent references: Chambers, MPEG 89-051, and MASCAM 1988.
+Pet. 2–3. Patent Owner asserts that Petitioner has not provided sufficient
+evidence to show that any of these references is a printed publication.
+Prelim. Resp. 8–18. Legal Standard Regarding Prior Art Printed
+Publications
+Petitioner has the initial burden of production of evidence establishing
+that asserted references are applicable as prior art. Dynamic Drinkware LLC
+v. Nat’l Graphics, Inc., 800 F.3d 1375, 1379 (Fed. Cir. 2015).
+We look to the underlying facts to make a legal determination as to
+whether a document is a printed publication. Suffolk Techs., LLC v. AOL
+Inc., 752 F.3d 1358, 1364 (Fed. Cir. 2014). The determination of whether a
+document is a “printed publication” under 35 U.S.C. § 102(b) involves a
+case-by-case inquiry into the facts and circumstances surrounding its
+disclosure to members of the public. In re Klopfenstein, 380 F.3d 1345,
+1350 (Fed. Cir. 2004); see also In re Hall, 781 F.2d 897, 898–99 (Fed. Cir.
+1986) (holding that “public accessibility” is the touchstone in determining
+whether a reference is a “printed publication” under § 102).
+To qualify as a printed publication, a document “must have been
+sufficiently accessible to the public interested in the art.” In re Lister,
+6 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+583 F.3d 1307, 1311 (Fed. Cir. 2009) (citation omitted). The party seeking
+to introduce the reference “should produce sufficient proof of its
+dissemination or that it has otherwise been available and accessible to
+persons concerned with the art to which the document relates and thus most
+likely to avail themselves of its contents.” In re Wyer, 655 F.2d 221, 227
+(CCPA 1981) (citation omitted); see also Cordis Corp. v. Boston Sci. Corp.,
+561 F.3d 1319, 1333 (Fed. Cir. 2009) (holding that “a document is publicly
+accessible if it ‘has been disseminated or otherwise made available to the
+extent that persons interested and ordinarily skilled in the subject matter or
+art, exercising reasonable diligence, can locate it’” (citing In re Wyer, 655
+F.2d at 226)).
+Whether Chambers is Available as Prior Art
+Petitioner asserts that Chambers “qualif[ies] as prior art under at least
+35 U.S.C. § 102(b). Specifically, Chambers . . . was published in December
+1985, . . . more than a year before the earliest priority date of the ‘396
+Patent.”1 Pet. 3. The Petition, however, points to no specific evidence
+supporting its assertion that Chambers was published in 1985.2
+Chambers was cited in an ex parte reexamination request for the ’992
+Patent filed by a third party, Timothy J. Maier. Ex. 1036, 145–168. The
+                                                            
+1
+
+We understand Petitioner to be referring to the ’992 Patent that is the
+subject of this proceeding.
+2
+In an email to the Board on December 14, 2015 seeking authorization to
+file a Reply to Patent Owner’s Preliminary Response, Petitioner asserted that
+it “was surprised to see [Patent Owner’s] arguments” regarding the prior art
+status of Chambers and MASCAM 1988 “[b]ecause Patent Owner[] had not
+ever disputed that Chambers was prior art in previous ex parte reexams, and
+because Patent Owner[] had submitted MASCAM 1988 as prior art in
+previous Information Disclosure Statements.” We did not authorize
+additional briefing on this issue. See Paper 15.
+7 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+reexamination request states only that “Chambers was published in 1985,
+five years prior to the ’992 patent’s filing date.” Id. at 149. There is no
+other evidence in the reexamination file concerning Chambers’ status as
+prior art. In the reexamination, Patent Owner elected to argue on the merits
+that the claims of the ’992 Patent were patentable over Chambers. Ex. 1036,
+346–352. At the end of the reexamination, the claims were confirmed. Id.
+at 2012. Patent Owner’s choice to address Chambers on the merits rather
+than challenge its prior art status does not relieve Petitioner of its initial
+burden to put forth evidence in this inter partes proceeding that Chambers is
+available as prior art to the ’992 Patent.
+On its face, Chambers includes a “December 1985” date, as well as a
+“BBC RD 1985/15” indication. Ex. 1014,3 1. The fact that a date is printed
+on the face of a reference, without more, is not enough to establish that the
+reference was publicly accessible on that date. See LG Elecs., Inc. v.
+Advanced Micro Devices, Inc., Case IPR2015-00329, slip op. at 13 (PTAB
+July 10, 2015) (Paper 13); see also Google Inc. v. ART+COM
+Innovationpool GmbH, Case IPR2015-00788, slip op. at 8 (PTAB Sept. 2,
+2015) (Paper 7) (“[T]his bare date, without more, does not provide any
+information about the date [the reference] was publicly accessible.”).
+Further, the unsupported testimony of Dr. Jayant that “[Chambers] was
+published in December 1985” (Ex. 1004 ¶ 94) also is insufficient to
+demonstrate that Chambers was published in December 1985.
+Patent Owner argues that the Petition includes no arguments or
+evidence regarding “whether or how Chambers was distributed, or, if it was
+                                                            
+3
+
+Citations to Ex. 1014 are to page numbers added by Petitioner at the
+bottom of each page. 
+8 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+distributed, whether that distribution was limited or subject to any
+confidentiality restrictions.” Prelim. Resp. 12. Although Chambers is dated
+December 1985 on its face, Petitioner provides no evidence concerning
+when it was first published or distributed. In particular, Petitioner provides
+no evidence that the British Broadcasting Corporation (“BBC”) made
+Chambers publicly available in 1985, or how an interested person would
+have located it. Petitioner likewise provides no evidence concerning the
+general publication or distribution policies of the BBC.
+Further, as noted by Patent Owner, Chambers includes other
+information within the document itself that is inconsistent with a December
+1985 publication date. See Prelim. Resp. 13. For example, Chambers
+includes a copyright notice that is nearly 20 years after the alleged
+December 1985 publication date—namely, “© BBC 2004”. Ex. 1014, 6.
+Further, the “References” section of Chambers includes at least one citation
+to a paper apparently published in February 1986, which also is after the
+alleged December 1985 publication date. Ex. 1014, 18. These dates are
+inconsistent with the December 1985 date printed on the face of the
+document, and cast further doubt as to the public availability thereof as of
+December 1985. Petitioner, however, makes no attempt to address or
+explain these inconsistencies.
+Accordingly, based on the evidence provided in the Petition, we
+conclude Petitioner has not made a sufficient threshold showing that
+Chambers is available as prior art in this proceeding.
+Whether MPEG 89-051 is Available as Prior Art
+We reach a similar conclusion with respect to MPEG 89-051. The
+Petition states that MPEG 89-051 was made publicly available in February
+9 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+1989, but the Petition does not discuss how this document was published or
+distributed.4 Pet. 3. Petitioner also does not explain how a document
+allegedly published in February 1989 includes an attachment, i.e., Annex V,
+dated March 1989. Ex. 1010, 12. Based on the evidence in the Petition, we
+conclude that Petitioner has not made a sufficient threshold showing that
+MPEG 89-051 is available as prior art in this proceeding.
+Whether MASCAM 1988 is Available as Prior Art
+Petitioner also asserts that MASCAM 1988 was published in 1988,
+but the Petition does not discuss how this document was published or
+distributed.5 Pet. 3. MASCAM 1988 was submitted by Patent Owner in an
+Information Disclosure Statement during the reexamination of the ’992
+Patent discussed above. Ex. 1036, 986. Patent Owner’s Information
+Disclosure Statement specifically states, however, that its submission is not
+an admission that each or all of the listed documents constitute prior art and
+that Patent Owner reserves the right to present relevant facts and law
+concerning the status of such documents, if applied by the Examiner. Id. at
+970–971. Patent Owner’s choice to submit MASCAM 1988 in an
+Information Disclosure Statement in an earlier reexamination does not
+relieve Petitioner of its initial burden to put forth evidence in this inter
+                                                            
+4
+
+The Declaration of Nikil Jayant, Ex. 1004 (“Jayant Decl.”), ¶¶ 65–78, 103,
+provides some background concerning the workings of the MPEG Working
+Group, but the Petition does not demonstrate that distribution to members of
+the working group constitutes sufficient distribution to make MPEG 89-051
+a printed publication.
+5
+The Jayant Declaration provides some background concerning the
+workings of the MPEG Working Group, but the Petition does not
+demonstrate that distribution to members of the working group constitutes
+sufficient distribution to make MASCAM 1998 a printed publication. Jayant
+Decl. ¶ 115–118. 
+10 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+partes proceeding that MASCAM 1988 is available as prior art. Based on
+the evidence in the Petition, we conclude that Petitioner has not made a
+sufficient threshold showing that MASCAM 1988 is available as prior art in
+this proceeding.
+SUMMARY
+Petitioner has not shown a reasonable likelihood that it will succeed in
+any of its challenges because Petitioner has not made a threshold showing
+that any of the references cited in those challenges is available as prior art.
+Therefore, we decline to institute inter partes review.
+ORDER
+Inter partes review of the claims of the ’992 Patent challenged by
+Petitioner is not instituted.
+
+11 
+ 
+
+IPR2015-01505
+Patent 5,777,992
+ 
+
+ 
+
+PETITIONER:
+Walter Renner
+Roberto Devoto
+Fish & Richardson P.C.
+axf@fr.com
+IPR18296-0054IP1@fr.com
+PATENT OWNER:
+Stephen Elliott
+James Williams
+Sullivan and Cromwell LLP
+elliotts@sullcrom.com
+williamsj@sullcrom.com
+
+12 
+ 
+
+

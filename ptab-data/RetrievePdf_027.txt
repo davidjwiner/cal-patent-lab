@@ -1,0 +1,614 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 28
+Entered: November 30, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY, LTD.
+(TSMC) and SAMSUNG ELECTRONICS CO., LTD,
+Petitioner,
+v.
+DSS TECHNOLOGY MANAGEMENT, INC.,
+Patent Owner.
+____________
+Case IPR2014-010301
+Patent 5,652,084
+_____________
+Before ERICA A. FRANKLIN, JACQUELINE WRIGHT BONILLA, and
+KRISTINA M. KALAN, Administrative Patent Judges.
+KALAN, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+1
+
+Case IPR2014-01493 has been joined with this proceeding.
+
+IPR2014-01030
+Patent 5,652,084
+I.
+
+INTRODUCTION
+A. Background
+Taiwan Semiconductor Manufacturing Company, Ltd. (“TSMC”)
+
+filed a Petition to institute an inter partes review of claims 1–16 of U.S.
+Patent No. 5,652,084 (Ex. 1001, “the ’084 patent”). Paper 1 (“Pet.”). DSS
+Technology Management, Inc. (“Patent Owner”) filed a Preliminary
+Response. Paper 6 (“Prelim. Resp.”). On December 31, 2014, we instituted
+trial as to claims 1–12, 15, and 16 of the ’084 patent. Paper 9 (“Dec.”).
+A different party, Samsung Electronics Co., Inc. (“Samsung”), filed a
+Petition for inter partes review of the ’084 patent, which Petition was
+accorded a filing date of September 12, 2014. Case IPR2014-01493, Paper
+1, Paper 4, see also Paper 7 (Corrected Petition for Inter Partes Review filed
+October 3, 2014). On January 29, 2015, Samsung also filed a Motion for
+Joinder to join the case with the previously instituted proceeding in Taiwan
+Semiconductor Mfg. Co. v. DSS Tech. Mgmt., Inc., Case IPR2014-01030.
+Case IPR2014-01493, Paper 10. On February 24, 2015, we instituted trial in
+IPR2014-01493 and joined the case with Case IPR2014-01030. Case
+IPR2014-01493, Paper 12; Case IPR2014-01030, Paper 15.
+During trial, Patent Owner filed a Patent Owner Response (Paper 18,
+“PO Resp.”), which was accompanied by a Declaration from Dr. Chris A.
+Mack (Ex. 2007). TSMC and Samsung (collectively, “Petitioner”) filed a
+Reply to the Patent Owner Response. Paper 22 (“Reply”). An oral hearing
+was held on August 12, 2015. A transcript of the consolidated hearing has
+been entered into the record. Paper 27 (“Tr.”).
+We have jurisdiction under 35 U.S.C. § 6. This Final Written
+Decision is issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73.
+2
+
+IPR2014-01030
+Patent 5,652,084
+We determine that Petitioner has shown by a preponderance of the evidence
+that claims 1–12, 15, and 16 of the ’084 patent are unpatentable.
+B. Related Proceedings
+The parties indicate that the ’084 patent is involved in the following
+district court proceeding: DSS Technology Mgmt., Inc. v. Taiwan
+Semiconductor Mfg. Co., 2-14-CV-00199 (E.D. Tex.) (the “related
+proceeding”). Pet. 1; Paper 4, Related Matters, 2.
+C. The ’084 Patent
+The ’084 patent, titled “Method for Reduced Pitch Lithography,”
+issued on July 29, 1997. The ’084 patent relates to a lithographic patterning
+process using multiple exposures to provide for relatively reduced pitch for
+features of a single patterned layer. Ex. 1001, Abstract.
+Figure 1, reproduced below, illustrates an exemplary process:
+
+3
+
+IPR2014-01030
+Patent 5,652,084
+Figure 1 illustrates, in flow diagram form, one lithography method for
+semiconductor fabrication. Id. at 2:7–8.
+Figure 5, reproduced below, illustrates a product of the method
+illustrated in Figure 1:
+
+Specifically, Figure 5 shows a cross-sectional view of a semiconductor
+wafer as a result of the method of Figure 1. Id. at 2:20–22, 7:36–37. After
+completion of steps 110 and 120 of Figure 1, first patterned layer 232 is
+formed. Id. at 4:31–34. Following completion of steps 130 and 140 of
+Figure 1, second patterned layers 251 and 253 are formed. Id. at 6:51–53.
+As a result of the method of Figure 1, a single patterned layer is formed over
+layer 210 as illustrated in Figure 5. Id. at 7:36–37.
+D. Illustrative Claims
+Of the instituted claims, claims 1 and 15 are independent. As to the
+remaining instituted claims, claims 2–12 directly depend from claim 1, and
+claim 16 depends from claim 15.
+Claim 1 of the ’084 patent is illustrative of the claims at issue:
+1. A lithography method for semiconductor fabrication using a
+semiconductor wafer, comprising the steps of:
+(a) forming a first imaging layer over the semiconductor wafer;
+(b) patterning the first imaging layer in accordance with a first
+pattern to form a first patterned layer having a first feature;
+(c) stabilizing the first patterned layer;
+4
+
+IPR2014-01030
+Patent 5,652,084
+(d) forming a second imaging layer over the first pattern layer;
+and
+(e) patterning the second imaging layer in accordance with a
+second pattern to form a second patterned layer having a
+second feature distinct from the first feature, wherein the
+second patterned layer and the first patterned layer form a
+single patterned layer, and wherein the first and second
+features which are formed relatively closer to one another
+than is possible through a single exposure to radiation.
+Ex. 1001, 13:6–24.
+E. Prior Art Supporting Instituted Unpatentability Grounds
+1. Japanese Patent App. No. H04-71222, published
+March 5, 1992 (“Jinbo”) (Ex. 1011) (Ex. 1004).2
+2. US Patent No. 4,931,351, issued June 5, 1990
+(“McColgin”) (Ex. 1006).
+3. US Patent No. 4,548,688, issued October 22, 1985
+(“Matthews”) (Ex. 1007).
+F. Instituted Unpatentability Grounds
+We instituted an inter partes review of claims 1–12, 15, and 16 of the
+’084 patent on the following grounds. Dec. 19.
+References
+
+Basis
+
+Claims Challenged
+
+Jinbo
+
+§ 102(b)
+
+1–8, 12, 15, and 16
+
+Jinbo and McColgin
+
+§ 103(a)
+
+9
+
+Jinbo and Matthews
+
+§ 103(a)
+
+10 and 11
+
+2
+
+Petitioner relies on a certified English translation of Jinbo submitted as
+Exhibit 1004 (in original and corrected versions). All references to Jinbo in
+this Decision refer to the corrected version of Exhibit 1004.
+5
+
+IPR2014-01030
+Patent 5,652,084
+II.
+
+ANALYSIS
+For the challenged claims, Petitioner must prove unpatentability by a
+
+preponderance of the evidence. 35 U.S.C. § 316(e). We begin with a claim
+construction analysis, and then follow with specific analysis of the prior art.
+A. Claim Construction
+The subject patent expired on or about December 22, 2014. PO Resp.
+9; Reply 2 n.2; Ex. 1001. We construe expired patent claims according to
+the standard applied by the district courts. See In re Rambus, Inc., 694 F.3d
+42, 46 (Fed. Cir. 2012). Specifically, we apply the principles set forth in
+Phillips v. AWH Corp., 415 F.3d 1303, 1312 (Fed. Cir. 2005) (en banc). “In
+determining the meaning of the disputed claim limitation, we look
+principally to the intrinsic evidence of record, examining the claim language
+itself, the written description, and the prosecution history, if in evidence.”
+DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014
+(Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17). Only those terms
+which are in controversy need to be construed, and only to the extent
+necessary to resolve the controversy. Vivid Techs., Inc. v. Am. Sci. & Eng’g,
+Inc., 200 F.3d 795, 803 (Fed. Cir. 1999).
+Specifically, words of a claim are generally given their ordinary and
+customary meaning as understood by a person of ordinary skill in the art at
+the time of the invention, in light of the language of the claims, the
+specification, and the prosecution history of record. Phillips, 415 F.3d at
+1312–14. We do not apply a presumption of validity, and we evaluate
+Petitioner’s burden of proof under the preponderance of evidence standard.
+Cisco Sys., Inc. v. AIP Acquisition, LLC, Case IPR2014-00247, Paper 17,
+slip op. at 3–4 (PTAB June 26, 2014).
+6
+
+IPR2014-01030
+Patent 5,652,084
+1. Second pattern
+As discussed by the parties, in our Decision to Institute, we
+interpreted the term “second pattern” as “any suitable pattern in accordance
+with which the second imaging layer is selectively irradiated.” Dec. 7–8. In
+other words, the second pattern can be any geometric pattern, including a
+pattern the same as the first pattern, provided that the second pattern is a
+separate element. Id. at 8.
+Both Patent Owner and Petitioner generally agree with the claim
+construction of the term “second pattern” as adopted in our Decision to
+Institute. PO Resp. 10; Reply 2–4. Patent Owner agrees with the
+construction insofar as it requires that the first and second patterns are two
+separate individual elements that are not one and the same. PO Resp. 10.
+Patent Owner, however, proposes that the Board modify its construction as
+follows: “any suitable pattern in accordance with which the second imaging
+layer is selectively irradiated…provided that the second pattern is a separate
+element and is not a duplicate of the first pattern.” Id. at 19.
+Petitioner replies that Patent Owner’s new proposed construction
+attempts to “read in a difference between the first and second patterns that
+the claim language does not require and that actually contradicts the totality
+of the intrinsic evidence.” Reply 3. Petitioner notes that, in the related
+proceeding, the district court construed the claim terms as follows: “‘first
+pattern’ to mean ‘a pattern in accordance with which the first imaging layer
+is selectively irradiated’” and “‘second pattern’ to mean ‘a pattern in
+accordance with which the second imaging layer is selectively irradiated.’”
+Id. at 6 (citing Ex. 1016, 18).
+The rationale of the district court, cited by Petitioner, is as follows:
+7
+
+IPR2014-01030
+Patent 5,652,084
+[Patent Owner] would have this Court import an embodiment
+from the specification. Such a conclusion is wrong for multiple
+reasons. First, there is no disavowal or clear disclaimer of the
+well understood claim language. In contrast, the specification
+clearly states repeatedly that “any suitable pattern of opaque
+and clear features that may depend, for example, on the desired
+pattern to be formed in [the] imaging layer.” 3:59–62; 6:23–25;
+8:11–14; 8:65–9:1; 10:61–64, and 11:49–52. In this regard, the
+specification could not be clearer: a particular pattern is not
+required for the first and second patterns. Second, it is not even
+clear that in the exemplary specification embodiments, the first
+and second patterns are different. For example, the first and
+second patterns shown in Figures 2–5, 7–11 and 13–16,
+respectively, may each be the same pattern, just shifted
+horizontally.
+Id. at 17 (citing Ex. 1016, 17). Although we are not bound by the
+construction or reasoning of the district court, which was rendered after we
+issued our Decision to Institute but before oral hearing, we have considered
+it. As discussed, the ’084 patent has expired, and we apply the same
+standard for claim construction as the district court. Accordingly, we do not
+disregard the analysis and conclusions of a court applying the same claim
+construction standard to the same claim term in a concurrent proceeding
+concerning the same patent. Power Integrations, Inc. v. Lee, 797 F.3d 1318,
+1326–1327 (Fed. Cir. 2015) (discussing Board’s error in declining to address
+or acknowledge the district court’s claim construction).
+In further support of its argument, Petitioner cites to the prosecution
+history of a divisional application, in which then-applicant Patent Owner
+amended a claim to require that the first and second patterns be “different.”
+Reply 10 (citing Ex. 1018, 84, 87). Petitioner notes that the Examiner
+rejected the amendment under 35 U.S.C. § 112, finding that there was
+inadequate written description support in the specification. Id. (citing
+8
+
+IPR2014-01030
+Patent 5,652,084
+Ex. 1018, 101). Petitioner further notes that Patent Owner’s reliance on the
+abstract’s disclosure of “two separate patterns” refers to a separate,
+unclaimed embodiment that was subject to a restriction requirement, and not
+elected. Id. at 11–12. Petitioner characterizes this argument as responsive to
+Patent Owner’s argument in the Patent Owner Response that the first and
+second patterns must be different. Tr. 14:16–21. We consider this argument
+together with the totality of the evidence presented.
+Patent Owner argues that the second pattern cannot be a duplicate of
+the first pattern, citing case law in support of the proposition that the terms
+“first” and “second” signify the presence of two structurally different
+elements. PO Resp. 12–13. Petitioner disputes Patent Owner’s
+interpretations of the supporting case law. Reply 12–15. On this subject, we
+agree that the terms “first” and “second” commonly are used to distinguish
+between repeated instances of an element or limitation, and need not refer to
+structurally different elements. Free Motion Fitness, Inc. v. Cybex Int’l,
+Inc., 423 F.3d 1343, 1348 (Fed. Cir. 2005); see also Ex. 1019 (Reporter’s
+Transcript of Claim Construction Hearing, March 3, 2015) 36:6–18.
+Finally, Patent Owner argues that interpreting the first and second
+patterns as duplicates either renders the patent inoperable, or requires
+additional steps outside the disclosure (PO Resp. 13); and that the disclosure
+of the ’084 patent supports that the two patterns are not duplicates of one
+another. Id. at 16.
+Petitioner disagrees with Patent Owner’s inoperability argument,
+citing Patent’s Owner’s expert testimony in support of the proposition that
+shifting and aligning a wafer relative to a mask is a well-known technique in
+lithographic patterning. Reply 16–17 (citing Ex. 1017, 64:11–21).
+9
+
+IPR2014-01030
+Patent 5,652,084
+Regarding the additional steps argument, the claim language employs the
+term “comprising,” meaning that other steps or elements may be present in
+the claim. Genentech, Inc. v. Chiron Corp., 112 F.3d 495, 501 (Fed. Cir.
+1997); Tr. 21:7–17.
+The specification of the ’084 patent provides: “Any suitable
+lithographic patterning technique may be used and may depend, for
+example, on the material used for” the imaging layer. Ex. 1001, 6:14–16.
+The specification and claims together, therefore, allow for alternate, known
+techniques of lithographic patterning, such as shifting a wafer relative to a
+mask. Reply 16; Jinbo 5. Patent Owner’s expert, Dr. Mack, agreed that
+both aligning and shifting a mask relative to a wafer were standard in the
+industry at the time of the ’084 patent. Reply 16–17 (citing Ex. 1017,
+64:11–21).
+In sum, the parties, the district court, and this panel all appear to agree
+that the “claim terms ʻa first pattern’ and ʻa second pattern’ must be
+interpreted as two separate individual elements,” meaning they are separate,
+i.e., not “one and the same.” We are not persuaded, however, to construe the
+second pattern as a geometric pattern that is “different” from the first
+pattern, or as “not a duplicate of the first pattern.” See Free Motion Fitness,
+supra.
+The specification provides: “The second mask may include any
+suitable pattern of opaque and clear features that may depend, for example,
+on the desired pattern to be formed in imaging layer 240.” Ex. 1001, 6:23–
+25 (emphasis added). We note that the second pattern must be “suitable,” in
+that the claims require that the second imaging layer be patterned in
+accordance with a second pattern “to form a second patterned layer having a
+10
+
+IPR2014-01030
+Patent 5,652,084
+second feature (distinct from the first feature).” If use of the second pattern
+did not result in a second patterned layer having a second feature, it would
+not be suitable. The second pattern nevertheless may be different from the
+first pattern, i.e. it may be a separate element, in certain aspects, such as the
+order in which it is used (claims 1, 15) and its use to generate a second
+feature (Ex. 1001, Figs. 5, 11, 16). The geometry of the second pattern,
+however, is not necessarily different from the first pattern. See, e.g.,
+Figs. 7–11, 13–16. Thus, the second pattern is a separate element, but need
+not be further defined as Patent Owner urges.
+Accordingly, we construe the term “second pattern” as “any suitable
+pattern in accordance with which the second imaging layer is selectively
+irradiated.”
+2. Additional Claim Terms
+In the Decision to Institute, we also construed the term “stabilizing” as
+“performing any process that renders a material able to withstand subsequent
+lithographic processing steps,” and the term “a second feature distinct from
+the first feature” as “a second feature that is a separate element from the first
+feature.” Dec. 6–9. The parties did not address these constructions in the
+Patent Owner Response and Petitioner’s Reply. Based on the complete
+record now before us, we see no reason to alter our earlier constructions, and
+maintain the constructions for this Final Written Decision.
+B. Anticipation by Jinbo
+We have reviewed the Petition, the Patent Owner Response, and
+Petitioner’s Reply, as well as the evidence presented by both parties in
+support of their arguments.
+
+11
+
+IPR2014-01030
+Patent 5,652,084
+1. Jinbo
+Jinbo discloses “a pattern forming method used in the process of
+manufacturing semiconductor devices or the like.” Ex. 1004, 2. Jinbo states
+that a first resist pattern and a second resist pattern are arranged in a
+prescribed relationship on a substrate (for example, a space of the second
+resist pattern is arranged in an area corresponding to a space section of the
+first resist pattern on the substrate) for forming resist patterns, and the
+patterns can become the final resist pattern. Id. at 3. Jinbo’s exemplary
+process includes forming a first resist on a substrate (id. at 4), using a mask
+having a line and space pattern to expose the first resist to exposure light to
+create a first resist pattern 13b (id. at 4–5), insolubilizing the first resist
+pattern (id. at 5), forming a second resist (id.), and using a mask to form a
+second resist pattern 15a (id.). Together the first resist pattern 13b and
+second resist pattern 15a form a resist pattern 17. Id.
+Jinbo’s Figure E, reproduced below, illustrates an exemplary product
+of such a process:
+
+Figure E depicts the product of Jinbo after second resist developing. Id.
+
+12
+
+IPR2014-01030
+Patent 5,652,084
+2. Arguments
+Petitioner challenges claims 1–8, 12, 15, and 16 as anticipated under
+35 U.S.C. § 102(b) by Jinbo. Pet. 18–29. Petitioner argues that Jinbo
+discloses every element of claim 1, relying inter alia on Jinbo Figures B, D,
+and E, and on the declaration of Richard A. Blanchard, Ph.D. Pet. 19–24,
+Ex. 1009. Petitioner also argues that Jinbo discloses every element of
+independent claim 15, referring to its claim 1 arguments. Id. at 28–29. With
+respect to claims 2–8, 12, and 16, Petitioner argues that Jinbo discloses each
+limitation of those dependent claims. Id. at 24–28, 29.
+Patent Owner argues that Jinbo does not explicitly disclose the
+limitation of patterning the second imaging layer in accordance with a
+second pattern. PO Resp. 20. Patent Owner maintains that the ’084 patent
+claims patterning two imaging layers “in accordance with two separate
+patterns, whereas Jinbo uses a single pattern and requires shifting the wafers
+between the patterning steps.” Id. at 21. Patent Owner interprets our finding
+that Jinbo reasonably supports a reading that “a mask” could be any suitable
+mask as “a testament to the fact that Jinbo does not expressly disclose a
+‘second pattern.’” Id. at 22.
+Patent Owner also argues that Jinbo does not inherently disclose a
+second pattern in accordance with which the second resist layer is patterned.
+Id. at 23. Patent Owner points to Jinbo’s technique of shifting the wafer
+stage so that the spaces of the mask will be projected on the spaces of first
+resist pattern 13b as illustrating that the “second pattern” limitation is not
+necessarily present in Jinbo. Id.
+Petitioner responds that, even if Jinbo uses the same mask in both
+patterning steps, “the use of the same mask in the second patterning step
+13
+
+IPR2014-01030
+Patent 5,652,084
+does not mean that the second imaging layer is irradiated with the same
+‘pattern.’” Reply 18. In other words, Petitioner argues, “‘pattern’ in the
+claims is not synonymous with mask.” Id. Petitioner thus argues that “Jinbo
+teaches patterning a first imaging (resist) layer using a first pattern and
+separately patterning a second imaging (resist) layer using a second pattern.”
+Reply 22. Regarding pattern placement and pattern timing, Petitioner notes
+that Patent Owner’s expert, Dr. Mack, agreed that “a pattern that’s placed in
+a different position is a different pattern” and that Jinbo has a second
+patterning step that occurs later in time than the first patterning step.” Id. at
+20–21 (citing Ex. 1017, 60:2–15; 84:24–85:3). Regardless of which claim
+construction we adopt, Petitioner argues, Jinbo still teaches the “second
+pattern” claim element, because “Jinbo clearly teaches that the patterns
+being exposed on the first and second resists are indeed different” and
+“Jinbo teaches that the second pattern is different from the first pattern in the
+order in which it is formed.” Id. at 22.
+We construe the claim term “second pattern” as “any suitable pattern
+in accordance with which the second imaging layer is selectively irradiated,”
+as discussed above. Jinbo selectively irradiates a second imaging layer,
+resulting in a second patterned layer having a second feature distinct from
+the first feature (claim 1) or a second feature, where the first and second
+features do not overlap (claims 15, 16). Ex. 1004, 4–5. Jinbo teaches a
+second patterned layer, and thus, a suitable pattern, i.e. a second pattern, that
+was used to make the second patterned layer. Id. As in the claims, Jinbo’s
+second pattern is used after the first pattern, and use of the second pattern
+results in a second patterned layer having a second feature distinct from the
+first feature. Jinbo creates features 13b using a first pattern, and then creates
+14
+
+IPR2014-01030
+Patent 5,652,084
+distinct, non-overlapping features 15a using a second pattern. Id. Under our
+claim construction, therefore, Jinbo discloses a second pattern.
+The parties have not offered any proposed constructions for the term
+“mask.” We note that the term “mask” appears in two claims, claim 6: “The
+method of claim 1, wherein the patterning step (b) includes the step of
+exposing a portion of the first imaging layer to radiation through a mask,”
+and in claim 7: “The method of claim 1, wherein the patterning step (e)
+includes the step of exposing a portion of the second imaging layer to
+radiation through a mask.” Those claims do not recite “first mask” or
+“second mask,” but rather “a mask.”
+“The doctrine of claim differentiation ‘create[s] a presumption that
+each claim in a patent has a different scope.’ The difference in meaning and
+scope between claims is presumed to be significant ‘[t]o the extent that the
+absence of such difference in meaning and scope would make a claim
+superfluous.’” Free Motion Fitness, 423 F.3d at 1351 (citations omitted).
+Patent Owner does not address directly Petitioner’s assertions that Jinbo
+anticipates claims 6 and 7. Based upon our review, the use of the term “a
+mask” in claims 6 and 7 supports Petitioner’s argument that “pattern is not
+synonymous with mask.” In addition, whether Jinbo discloses a single
+mask, or multiple masks, does not affect our analysis relative to Jinbo’s
+disclosure of a second pattern. Jinbo’s disclosure of a mask, or multiple
+masks, discloses “a mask,” as recited in claims 6 and 7.
+Patent Owner argues that the ’084 patent “could be a single mask
+having multiple patterns and then the mask might be shifted to expose a
+different pattern, but that is not what’s taught in Jinbo.” Tr. 37:8–12. Patent
+Owner instead argues that Jinbo shifts the wafer stage to create its second
+15
+
+IPR2014-01030
+Patent 5,652,084
+patterned layer, and thus does not have a “second pattern,” but rather, “the
+exact same pattern.” Id. at 37:23. We are not persuaded.
+The claims and the specification allow broadly for any suitable
+lithographic technique, including shifting the wafer stage, so Jinbo’s
+technique is consistent with those claim elements. Jinbo creates a first
+patterned layer, and then creates a second patterned layer with features
+distinct from those of the first patterned layer. Ex. 1004, 4–5. In order to do
+so, it uses a pattern that effects this result, notwithstanding the mask used.
+That pattern is a separate element in time and in space, and therefore, is a
+second pattern that is not the exact same pattern as the first pattern.
+Notwithstanding Patent Owner’s argument and cited evidence, we are
+persuaded by Petitioner’s argument and supporting evidence that Jinbo
+expressly discloses both a first pattern and a second pattern.
+We also have reviewed the arguments presented in the Petition and
+the supporting evidence regarding the anticipation of the remaining elements
+of claims 1–8, 12, 15, and 16, which were not expressly disputed by Patent
+Owner in its Response. Patent Owner has not rebutted Petitioner’s showing
+that Jinbo discloses a second pattern, nor Petitioner’s showing regarding
+anticipation by Jinbo of the remaining elements of the independent and
+dependent claims challenged in this ground. We find that Petitioner has
+established, by a preponderance of the evidence, that Jinbo anticipates
+claims 1–8, 12, 15, and 16.
+C. Obviousness Based on Jinbo and McColgin
+Petitioner challenges claim 9 as unpatentable under 35 U.S.C. § 103
+over Jinbo in view of McColgin. Pet. 32–34. Claim 9 further limits the
+stabilizing step of claim 1 with the language “wherein the stabilizing step (c)
+16
+
+IPR2014-01030
+Patent 5,652,084
+includes the step of using a silylation technique to stabilize the first
+patterned layer.” Pet. 32. We instituted inter partes review on this ground.
+Dec. 14.
+McColgin teaches a silylation technique that produces resist patterns
+“which have excellent etch resistance and superior thermal and dimensional
+stability.” Ex. 1006, 2:9–12. Petitioner argues that substitution the
+silylation stabilization of McColgin for the plasma stabilization of Jinbo
+“would merely be the simple substitution of known elements to obtain
+predictable results.” Pet. 33. More specifically, Petitioner points to the
+“direct motivation from Jinbo,” i.e. teaching a desire to make the first resist
+layer “insoluble” (Ex. 1004, 5) and encouraging use of different treatment
+methods for making the resist insoluble (id. at 6). Pet. 33.
+Patent Owner argues that claim 9 cannot be obvious because Jinbo
+does not disclose several material limitations of claim 1, from which claim 9
+depends. PO Resp. 25. Patent Owner alleges that “Petitioners failed to
+address the deficiencies of their challenge of claim 1,” and the challenge to
+claim 9 fails at least for this reason. Id.
+We have reviewed the Petition, the Patent Owner Response, and
+evidence in support of each party’s arguments. As previously discussed, we
+are persuaded that Petitioner has demonstrated, by a preponderance of the
+evidence, that Jinbo discloses every element of the independent claims.
+After reviewing of the arguments and evidence presented concerning
+dependent claim 9, we find a preponderance of the evidence establishes that
+Jinbo in combination with McColgin teaches each and every limitation of
+dependent claim 9.
+
+17
+
+IPR2014-01030
+Patent 5,652,084
+D. Obviousness Based on Jinbo and Matthews
+Petitioner challenges claims 10 and 11 as unpatentable under
+35 U.S.C. § 103 over Jinbo in view of Matthews. Pet. 34–37. Claim 10
+further limits the stabilizing step (c) of claim 1 to include “exposing the first
+patterned layer to radiation and heating the first patterned layer.” Claim 11
+further limits the stabilizing step (c) of claim 1 to include “exposing the first
+patterned layer to radiation having a wavelength in a range from
+approximately 200 nanometers to approximately 400 nanometers, and
+heating the first patterned layer at a temperature ramped to approximately
+230 degrees Celsius.” We instituted inter partes review on this ground.
+Dec. 16.
+Matthews teaches a technique that is capable of “hardening a positive
+photoresist by exposing a film of photoresist material to UV radiation while
+subjecting the film to elevated temperatures.” Ex. 1007, 2:53–58. In this
+capacity, Petitioner contends that Matthews describes using radiation
+“having wavelengths about 320 nm and below to cause the polymer to crosslink.” Pet. 36 (citing Ex. 1007, 3:57–61). In addition, Petitioner contends
+that Matthews discloses that “the temperature of the photoresist is controlled
+during the exposure to radiation,” and that a “typical [temperature] range
+therefor being about 100°–200°C. and more usually, about 120° to about
+200° C.” Pet. 36–37 (citing Ex. 1007, 4:52–57; 5:8–12). Petitioner argues
+that substitution of the hardening process of Matthews for the plasma
+stabilization of Jinbo “would merely be the simple substitution of known
+elements to obtain predictable results.” Pet. 35. Specifically, Petitioner
+points to the “direct motivation from Jinbo,” i.e. teaching a desire to make
+the first resist layer “insoluble” (Ex. 1004, 5) and encouraging use of
+18
+
+IPR2014-01030
+Patent 5,652,084
+different treatment methods for making the resist insoluble (id. at 6). Pet.
+35.
+Patent Owner argues that claims 10 and 11 cannot be obvious because
+Jinbo does not disclose all limitations of claim 1. PO Resp. 25. Patent
+Owner alleges that “Matthews does not cure deficiencies of Jinbo,” and thus
+the challenge to claims 10 and 11 fails at least for the same reasons as the
+challenge to Jinbo. Id.
+We have reviewed the Petition, the Patent Owner Response, and
+evidence in support of each party’s arguments. As previously discussed, we
+are persuaded that Petitioner has demonstrated, by a preponderance of the
+evidence, that Jinbo discloses every element of the independent claims.
+After reviewing of the arguments and evidence presented concerning
+dependent claims 10 and 11, we find a preponderance of the evidence
+establishes that Jinbo in combination with Matthews teaches each and every
+limitation of dependent claims 10 and 11.
+III.
+
+SUMMARY
+Petitioner has demonstrated, by a preponderance of the evidence, that
+
+claims 1–12, 15, and 16 of the ’084 patent are unpatentable. This is a Final
+Written Decision of the Board under 35 U.S.C. § 318(a).
+IV.
+
+ORDER
+For the reasons given, it is
+FURTHER ORDERED that claims 1–12, 15, and 16 of the ’084
+
+patent are unpatentable; and
+
+19
+
+IPR2014-01030
+Patent 5,652,084
+FURTHER ORDERED that parties to the proceeding seeking judicial
+review of this final written decision must comply with the notice and service
+requirements of 37 C.F.R. § 90.2.
+
+20
+
+IPR2014-01030
+Patent 5,652,084
+FOR PETITIONER:
+David Odell
+David L. McCombs
+Scott Cunning
+HAYNES AND BOONE, LLP
+david.odell.ipr@haynesboone.com
+david.mccombs.ipr@haynesboone.com
+scott.cunning@haynesboone.com
+FOR PATENT OWNER:
+Andriy Lytvyn
+Anton J. Hopen
+SMITH & HOPEN, P.A.
+andriy.lytvyn@smithhopen.com
+anton.hopen@smithhopen.com
+
+21
+
+

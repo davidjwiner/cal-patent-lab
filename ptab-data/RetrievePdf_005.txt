@@ -1,0 +1,922 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper No. 7
+Filed: August 14, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+TOYOTA MOTOR CORPORATION,
+Petitioner,
+v.
+CELLPORT SYSTEMS, INC.,
+Patent Owner.
+____________
+Case IPR2015-00634
+Patent 5,479,479
+____________
+
+Before JAMESON LEE, JAMES B. ARPIN, and SCOTT C. MOORE,
+Administrative Patent Judges.
+LEE, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-00634
+Patent 5,479,479
+I. INTRODUCTION
+A. Background
+Toyota Motor Corporation (“Petitioner”) filed a Petition (Paper 2,
+“Pet.”) to institute inter partes review of claims 1–29 of expired U.S. Patent
+No. 5,479,479 (Ex. 1001, “the ’479 patent”). Cellport Systems, Inc. (“Patent
+Owner”) filed a Preliminary Response (Paper 6, “Prelim. Resp.”).
+Upon consideration of the Petition and Preliminary Response, we are
+not persuaded, under 35 U.S.C. § 314(a), that Petitioner has demonstrated a
+reasonable likelihood that it would prevail in showing the unpatentability of
+any of claims 1–29 of the ’479 patent. Accordingly, we do not institute an
+inter partes review of any claim of the ’479 patent.
+B. Related Matters
+The ’479 patent has been asserted in two lawsuits in the United States
+District Court for the District of Colorado. Pet. 3; Paper 4, 2.
+C. References Relied Upon
+Petitioner relies on the following references:1
+
+1
+
+Petitioner also relies on the Declaration of John Villasenor (Ex. 1004).
+2
+
+IPR2015-00634
+Patent 5,479,479
+Reference
+Boatwright
+
+US 5,465,207
+
+Mansell
+
+US 5,223,844
+
+Hoto
+
+US 5,410,541
+
+Guy
+
+US 5,187,591
+
+Thompson
+
+US 5,444,855
+
+RS-485
+
+Standard for Electrical
+Characteristics of Generators
+and Receivers for Use in
+Balanced Digital Multipoint
+Systems, RS-485, Electronic
+Industries Association (April
+1983)
+
+3
+
+Date
+
+Exhibit
+
+Issued:
+Nov. 7, 1995
+Filed:
+Sep. 21, 1992
+Issued:
+June 29, 1993
+Filed:
+Apr. 17, 1992
+Issued:
+Apr. 25, 1995
+Filed:
+May 4, 1992
+Filed:
+Feb. 16, 1993
+Filed:
+Jan. 24, 1991
+Issued:
+Aug. 22, 1995
+Filed:
+Apr. 17, 1992
+
+Ex. 1002
+
+April 1983
+
+Ex. 1011
+
+Ex. 1014
+
+Ex. 1015
+
+Ex. 1016
+
+Ex. 1017
+
+IPR2015-00634
+Patent 5,479,479
+D. The Asserted Grounds
+Petitioner asserts the following grounds of unpatentability:2
+Reference(s)
+
+Basis
+
+Claims Challenged
+
+Boatwright, RS-485, and
+Mansell
+
+§ 103(a)
+
+1, 2, 4, 6–19, 21–25, and
+27–29
+
+Boatwright, RS-285,3
+Mansell, and Hotto
+
+§ 103(a)
+
+3 and 5
+
+Boatwright, RS-285,4
+Mansell, and Guy
+
+§ 103(a)
+
+20
+
+Boatwright, RS-285,5
+Mansell, and Thompson
+
+§ 103(a)
+
+26
+
+Mansell and RS-485
+
+§ 103(a)
+
+1, 2, 4, 6–12, 15–19, 22–
+24, and 27–29
+
+II. ANALYSIS
+A. The ’479 Patent
+The ’479 patent relates to transmitting and receiving digital
+information through an air link. Ex. 1001, Title. The specific disclosure
+
+2
+
+Petitioner’s identification of “RS-285” in the grounds of unpatentability
+identified in the table above appears to be a typographical error. Patent
+Owner has regarded “RS-285” as referring, instead, to RS-485. Hereinafter,
+we will state and regard these grounds as based on RS-485, not “RS-285.”
+3
+
+See note 2, supra.
+
+4
+
+See note 2, supra.
+
+5
+
+See note 2, supra.
+4
+
+IPR2015-00634
+Patent 5,479,479
+pertains to sending and receiving digital data between a plurality of
+peripheral devices, through a cellular telephone, to remote devices. Id. at
+Abstr. One aspect of the ’479 patent concerns providing a universal
+interface to different kinds of cellular phones in the form of an adaptor cable
+that provides for selectable coding to identify the type of the attached phone,
+and the application environment for that aspect of the invention can be that
+of a car kit environment. Id. at 2:40–55. Another aspect of the ’479 patent
+concerns using a controller attached to a common bus to which a plurality of
+peripheral devices also are attached to permit digital data to be
+communicated to and from the peripheral devices via a wireless telephone.
+Id. at 3:30–44. Figure 15 of the ’479 patent is reproduced below:
+
+5
+
+IPR2015-00634
+Patent 5,479,479
+Figure 15 shows cellular phone 10 connected to car kit controller 200
+through an interconnect cable having universal connector 45 that connects
+with car kit connector 204. Id. at 10–17. Car kit controller 200 includes bus
+logic 268 to control common bus 280 to which peripheral devices CD ROM
+292, display 288, and GPS Receiver 284 are connected. Id. at 59–61.
+With regard to operation of the system, the ’479 patent states:
+In operation, cellular phone 10 may receive RF signals
+containing data addressed to one of the peripheral devices. The
+data is passed via interconnect cable 46 to microprocessor 208.
+Microprocessor 208 formats the data according to the needs of
+the peripheral device to which the data is addressed. The data
+is then either buffered or passed directly through bus connector
+276 to the appropriate peripheral device [on] bus 280.
+Car kit controller 280 further comprises circuitry to allow
+this process to be reversed to allow any of the peripheral
+devices to send data through car kit controller 200 and cellular
+phone 10 and out of the car using RF signals. Accordingly, a
+duplex digital path is provided between bus 280 and cellular
+phone 10, for allowing digital information to be transmitted
+through car kit controller 200 in either direction.
+Id. at 12:39–54.
+Claims 1 and 17 are the only independent claims and are reproduced
+below. Other challenged claims depend, directly or indirectly from claim 1
+or claim 17.
+1.
+A method for transferring digital information over an air
+link relative to a plurality of peripheral devices communicating
+with a common bus, comprising:
+receiving signals having digital information from an air link
+using circuitry contained in a housing;
+
+6
+
+IPR2015-00634
+Patent 5,479,479
+obtaining said digital information from said signals, said signals
+also including control information related to identifying
+at least a first of a plurality of peripheral devices, said
+digital information to be received by said first of said
+plurality of peripheral devices, with said digital
+information to be received by said first peripheral device
+first being received by and outputted from a peripheral
+device controller having a processor, each of said
+plurality of peripheral devices having an address and
+each of said peripheral devices being communicable with
+each of all of the other of said plurality of peripheral
+devices and said peripheral device controller being
+addressable by each of said plurality of peripheral
+devices;
+determining an identification of said first peripheral device that
+is to receive said digital information;
+sending said digital information to said first peripheral device
+using a signal conducting common bus that each of said
+plurality of peripheral devices communicates with, said
+common bus being located externally of said circuitry
+housing;
+making a determination automatically including without
+operator intervention that second digital information
+associated with a second peripheral device is to be
+transmitted using said circuitry;
+transferring said second digital information from said second
+peripheral device to said peripheral device controller;
+and
+transmitting said second digital information from said circuitry
+through the air link to a remote device after receiving
+said second digital information by said peripheral device
+controller.
+
+7
+
+IPR2015-00634
+Patent 5,479,479
+17. An apparatus for controlling the transfer of digital
+information carried through an air link, comprising:
+circuitry contained in a housing for receiving and transmitting
+signals carried through an air link;
+a plurality of peripheral devices, each of said peripheral devices
+for receiving and/or outputting information and at least
+some of said plurality of peripheral devices, including a
+first peripheral device, for inputting and/or outputting
+digital information;
+a peripheral device controller communicating with each of said
+plurality of peripheral devices, said peripheral device
+controller receiving digital information from said
+circuitry and determining an identity of said first
+peripheral device for receiving said digital information,
+said peripheral device controller including processing
+means and in which said digital information to be
+received by said first peripheral device is first received
+by and outputted from said peripheral device controller;
+first means for interconnecting said circuitry with said
+peripheral device controller; and
+second means for interconnecting said peripheral device
+controller and each of said plurality of peripheral devices,
+said second means including a signal conducting
+common bus that each of said peripheral devices
+communicates with, said common bus being located
+externally of said circuitry housing, each of said plurality
+of peripheral devices having an address and each of said
+peripheral devices communicable with each of all of the
+other of said plurality of peripheral devices and said
+peripheral device controller being addressable by each of
+said plurality of peripheral devices, wherein digital
+information is able to be transferred, free of control by
+said peripheral device controller processor, between each
+of said plurality of peripheral devices including between
+
+8
+
+IPR2015-00634
+Patent 5,479,479
+said first peripheral device and a second peripheral
+device and is also able to be transferred from said
+peripheral device controller to each of said plurality of
+peripheral devices.
+Id. at 16:62–17:32, 18:47–19:18 (emphases added).
+B. Claim Construction
+The ’479 patent is expired. We construe expired patent claims
+according to the standard applied by the district courts. See In re Rambus,
+694 F.3d 42, 46 (Fed. Cir. 2012). Specifically, we apply the principles set
+forth in Phillips v. AWH Corp., 415 F.3d 1303, 1312–17 (Fed. Cir. 2005) (en
+banc). “In determining the meaning of the disputed claim limitation, we
+look principally to the intrinsic evidence of record, examining the claim
+language itself, the written description, and the prosecution history, if in
+evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d
+1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17).
+The words of a claim are generally given their ordinary and customary
+meaning, and that is the meaning the term would have to a person of
+ordinary skill at the time of the invention, in the context of the entire patent
+including the specification. See Phillips, 415 F.3d at 1312–1313. Claims
+are not interpreted in a vacuum but are a part of and read in light of the
+specification. See Slimfold Mfg. Co. v. Kinkead Indus., Inc., 810 F.2d 1113,
+1116 (Fed. Cir. 1987). Although it is improper to read a limitation from the
+specification into the claims, the claims still must be read in view of the
+specification of which they are a part. See Microsoft Corp. v. Multi-Tech
+Sys., Inc., 357 F.3d 1340, 1347 (Fed. Cir. 2004).
+
+9
+
+IPR2015-00634
+Patent 5,479,479
+“first means for interconnecting said
+circuitry with said peripheral device controller”
+Claim 17 recites: “first means for interconnecting said circuitry with
+said peripheral device controller.” The phrase includes the word “means.”
+Thus, the phrase presumptively is a means-plus-function element under
+35 U.S.C. § 112, paragraph 6,6 and is construed to cover the corresponding
+structure, material, or acts described in the specification and equivalents
+thereof. Williamson v. Citrix Online, LLC, 2015 WL 3687459, at *9 (en
+banc) (Fed. Cir. June 16, 2015). First, we identify the recited function
+performed by this means-plus-function element. It is “interconnecting said
+circuitry with said peripheral device controller.” The corresponding
+structure in the Specification of the ’479 patent is the interconnect cable
+shown in Figures 14 and 15, together with connector 48 at one end
+configured to attach to particular circuitry and universal connector 45 for
+attaching to parts having different connecting configurations. Ex. 1001,
+6:36–40, 7:15–20, 9:59–61, 10:10–18. Each of the disclosed embodiments
+in the ’479 patent includes the universal connector. We determine that the
+corresponding structure for this means is a cable with a connector at each of
+two ends, one of the two connectors being a universal connector having a
+structure as described in the Specification of the ’479 patent, such as that
+6
+
+Paragraphs 1 through 6 of § 112 was replaced with §§ 112(a) through
+112(f) when § 4(c) of the Leahy-Smith America Invents Act, Pub. L. No.
+112–29, 125 Stat. 284, 329 (2011)(“AIA”) took effect on September 16,
+2012. Because the patent application resulting in the ’479 patent was filed
+before the effective date of the AIA, we will refer to the pre-AIA version of
+35 U.S.C. § 112.
+10
+
+IPR2015-00634
+Patent 5,479,479
+shown in Figure 9. A more specific construction is not necessary for this
+decision.
+“processing means”
+Claim 17 recites that said peripheral device controller includes
+“processing means.” The term “processing means” includes the word
+“means.” Thus, the term presumptively is a means-plus-function limitation
+under 35 U.S.C. § 112, paragraph 6, and is construed to cover the
+corresponding structure, material, or acts described in the Specification and
+equivalents thereof. Patent Owner asserts that there is no recited function
+for this element. Prelim. Resp. 10. We disagree. The function recited is
+“processing.” Although the recited function is broad, it nevertheless is a
+recited function. Because the function recited is broad, however, the
+corresponding structure described in the Specification is not limited to
+microprocessor 208 shown in Figures 14 and 15, but also includes
+identification logic 224. The Specification describes:
+When cellular phone 10 is initially connected to car kit
+controller 200, identification logic 224 samples the pins of
+universal connector 45 through car kit connector 204 in order to
+determine the model of cellular phone 10. Two processes for
+determining the model of cellular phone 10 through sampling of
+universal connector 45 are detailed above with respect to FIGS.
+7 and 8. Upon sampling of the pins of universal connector 45,
+identification logic 224 receives coded information, regarding
+the model of cellular phone 10, which it provides to
+microprocessor 208. Microprocessor 208 then performs a table
+look-up of data stored in non-volatile memory 212.
+Ex. 1001, 10:18–30. Identification logic 224, together with
+
+11
+
+IPR2015-00634
+Patent 5,479,479
+microprocessor 208, performs the recited “processing.” Therefore, we
+determine that the corresponding structure for this means includes
+identification logic, such as identification logic 224 shown in Figure
+14 and 15.
+“circuitry contained in a housing for receiving
+and transmitting signals carried through an air link”
+Claim 17 recites “circuitry contained in a housing for receiving and
+transmitting signals carried through an air link.” This phrase does not
+include the word “means.” Thus, the phrase presumptively is not a meansplus-function limitation under 35 U.S.C. § 112, paragraph 6. Williamson,
+2015 WL at *6. However, that presumption can be overcome, such as when
+the phrase does not recite sufficiently definite structure. Id. at *7. That is
+the case here.
+First, we note that, as recited, the housing is not a part of the circuitry.
+It is the generic “circuitry” that is for receiving and transmitting signals
+carried through an air link. The Specification does not provide a definition
+for the word “circuitry.” The word “circuitry,” however, is so broad that it
+does not convey any definite structure. See MCGRAW-HILL DICTIONARY OF
+SCIENTIFIC AND TECHNICAL TERMS, 355, 615 (4th ed. 1989 ) (Defining
+“circuitry” as “[t]he complete combination of circuits used in an electrical
+and electronic system or piece of equipment” and “circuit” or “electric
+circuit” as “[a] path or group of interconnected paths capable of carrying
+electric current.”) (Ex. 3001). In the field of digital data processing,
+virtually everything that performs an operation constitutes circuitry.
+
+12
+
+IPR2015-00634
+Patent 5,479,479
+Accordingly, we construe this phrase (exclusive of the words “in a housing”)
+as a means-plus-function element under 35 U.S.C. § 112, paragraph 6. The
+function recited is “receiving and transmitting signals carried through an air
+link.” The corresponding structure described in the Specification is a
+cellular phone or cellular radio telephone. Ex. 1001, Figs. 14, 15, 8:35,
+9:59–61, 10:10–16.
+C. Alleged Obviousness of Claims 1, 2, 4, 6–19, 21–25,
+and 27–29 over Boatwright, RS-485, and Mansell
+Boatwright
+Boatwright discloses peripheral devices and data terminals on a
+vehicle, which are coupled together in a local area network, in which access
+to the peripheral devices and data terminals are provided through a common
+bus. Ex. 1002, Abstr. In a preferred embodiment, the vehicle is a forklift
+truck, and a portable data terminal and a set of peripheral devices are
+arranged on the vehicle and connected via a local area network. Id. at 3:46–
+49. Figure 1 of Boatwright is reproduced below:
+
+13
+
+IPR2015-00634
+Patent 5,479,479
+
+Figure 1 shows an onboard system including portable battery operated
+data terminal 10 which may be connected through adapter 11, and peripheral
+devices 12 (display), 13 (keyboard), and 14 (printer). Id. at 5:42–44. The
+date terminal and the peripheral devices are connected to local area network
+data bus 16. Id. at 5:46–47. Adapter 11 releasably accommodates portable
+data terminal 10 which receives and stores data obtained by optical bar code
+scanner or RF tag scanner 18. Id. at 49–52. Boatwright describes another
+embodiment that can employ multiple data terminals 10 connected to
+common bus 16. Id. at 6:4–6. Common bus 16 also is connected RS-232
+interface means 15. Id. at 8–10. RS-232 interface means 15 effects data
+exchange between data terminals and peripheral devices on common bus 16,
+and a host computer system overseeing a plurality of vehicles. Id. at 11–13.
+14
+
+IPR2015-00634
+Patent 5,479,479
+Boatwright describes that a number of data terminals may be coupled to
+common bus 16 via adapters and that the multiple terminals can share the
+peripheral devices on the vehicle. Id. at 39–44. Boatwright describes that
+communication is enabled from terminal to terminal and from any terminal
+to RS-232 interface means 15. Id. at 6:8–10.
+Figure 4, reproduced below, illustrates a similar embodiment,
+specifically for a delivery truck application. Id. at 6:47–49.
+
+Figure 4 illustrates an embodiment suitable for a delivery truck application,
+in which peripheral devices 61–67 include engine oil sensor 61, engine
+temperature sensor 62, fuel flow meter 63, tachometer 64, odometer 65, and
+printer 66. Id. at 6:47–49. In this embodiment, RF coupling means 67, a
+15
+
+IPR2015-00634
+Patent 5,479,479
+wireless modem, effects communication from the terminals and devices on
+the common bus to and from a remote host computer. Id. at 56–62.
+Boatwright describes that even the embodiment of Figure 1 may include
+such a wireless RF modem. Id. at 6:62–63.
+According to Boatwright, for either the embodiment of Figure 1 or
+Figure 4, there is a LAN (“local area network”) controller. Id. at 6:19–21,
+6:52–56. It is described that the LAN controller can be disposed within any
+terminal, RS-232 interface means 15, RF coupling means 67, or even printer
+49. Id. at 6:19–21, 6:27–32, 6:44–45, 6:56–62.
+Analysis
+Claim 1 recites:
+said digital information to be received by said first peripheral
+device first being received by and outputted from a peripheral
+device controller having a processor,
+Ex. 1001, 17:5–8.
+In that regard, claim 17 similarly recites:
+said digital information to be received by said first peripheral
+device is first received by and outputted from said peripheral
+device controller;
+Id. at 18:63–65.
+Claim 1 additionally recites:
+transferring said second digital information from said second
+peripheral device to said peripheral device controller; and
+transmitting said second digital information from said circuitry
+through the air link to a remote device after receiving said
+second digital information by said peripheral device controller.
+
+16
+
+IPR2015-00634
+Patent 5,479,479
+Id. at 17:26–32.
+As indicated above, each of claims 1 and 17 recites that digital
+information to be received by the first peripheral device first be received by
+and outputted from the peripheral device controller, and claim 1 further
+recites transferring digital information from a second peripheral device to
+the peripheral device controller prior to transmitting that digital information
+through the air link. For reasons discussed below, Petitioner’s accounting of
+these limitations of claim 1 and claim 17 as satisfied by Boatwright is
+deficient.
+First, with regard to receiving signals via an air link and obtaining
+digital information from the signals, Petitioner’s analysis with regard to
+claim 1 (Pet. 17) mixes RF coupling means 67 with the network controller
+which may be contained within RF coupling means 67. Although RF
+coupling means 67 receives signals and outputs digital information, the
+network controller contained within RF coupling means 67 does not
+necessarily take part in that activity. The same deficiency exists for
+Petitioner’s analysis with regard to claim 17. See Pet. 34–35. All activities
+of RF coupling means 67 are not automatically attributable to the network
+controller contained in RF coupling means 67. For instance, RF coupling
+means 67 may include a protocol converter, similar to RS-232 components
+15 and 37. Ex. 1002, 6:19–21.
+Second, with regard to claim 1’s requirement of the peripheral device
+controller first receiving information that is intended for a peripheral device,
+Petitioner cites to Boatwright, for this disclosure: “The network controller
+[within RF coupling means 67] . . . may contain a special buffer memory for
+17
+
+IPR2015-00634
+Patent 5,479,479
+storing data for one or more terminals . . . .” Pet. 17 (citing Ex. 1002, 7:1–
+3). With regard to the similar requirement in claim 17, Petitioner does the
+same by referring to its argument in the context of claim 1. Id. at 35.
+The cited text is taken out of context. The entire sentence reads:
+“The network controller when separate from the terminal may contain a
+special buffer memory for storing data for one or more terminals which may
+be temporarily disconnected from the network.” Ex. 1002, 7:1–4.
+As discussed above, data terminals in Boatwright are portable and
+may be removed from respective adapters that connect to the common bus.
+The cited disclosure of Boatwright conveys that, when the terminals are
+disconnected from the common bus, the network controller may store the
+data that is intended for them. Claim 1, however, recites “a plurality of
+peripheral devices communicating with a common bus” (emphasis added).
+Claim 17 recites to a common bus that “each peripheral device
+communicates with” (emphasis added). Claim 17 further recites “a
+peripheral device communicating with each of said plurality of peripheral
+devices” (emphasis added). Assuming that Boatwright’s terminal is a
+peripheral device, the configuration required by claims 1 and 17 is not met
+when the terminal is disconnected from the common bus. Thus, although
+the network controller may store information intended for disconnected data
+terminals, that is not sufficient to meet the requirement that the information
+to be received by the peripheral device is first received by and outputted
+from the peripheral device controller. Disconnected terminals are not
+communicating with either the common bus or the peripheral device
+controller.
+18
+
+IPR2015-00634
+Patent 5,479,479
+Third, with regard to claim 1’s requirement of transmitting
+information to the peripheral controller and thereafter transmitting that
+information through the air link, Petitioner’s analysis again mixes RF
+coupling means 67 with the network controller which may be contained
+within RF coupling means 67. Pet. 19. As noted above, although RF
+coupling means 67 receives information, the network controller contained
+within RF coupling means 67 does not necessarily receive that same
+information prior to transmission of the information over an air link.
+Fourth, according to claim 17, the peripheral device controller is a
+component separate from the “circuitry” that receives and transmits signals
+through an air link, because claim 17 recites: “said peripheral device
+controller receiving digital information from said circuitry.” Ex. 1001,
+18:58–60 (emphasis added). That also is the configuration for the other
+disclosed embodiments in the ’479 patent. In Petitioner’s application of
+Boatwright, the peripheral device controller is either RF coupling means 67
+or the network controller contained within RF coupling means 67. Pet. 34–
+35. In either case, Boatwright’s peripheral device controller would not be a
+separate component from the circuitry that receives and transmits signals
+through the air link, RF coupling means 67. Consequently, Petitioner has
+not adequately accounted for the relationship between the recited circuitry
+and peripheral device controller.
+Fifth, claim 17 recites “first means for interconnecting said circuitry
+with said peripheral device controller.” Ex. 1001, 18:66–67. We have
+determined that the corresponding structure for this means is a cable with a
+connector at each of two ends, one of the two connectors being a universal
+19
+
+IPR2015-00634
+Patent 5,479,479
+connector having a structure as described in the Specification of the ’479
+patent, such as that shown in Figure 9. Petitioner’s accounting of this
+limitation in its claim chart (Pet. 35) is deficient, because Petitioner
+identifies neither a cable nor a universal connector, and because Petitioner
+does not explain any equivalence between what it has identified and a cable
+having on one end thereof a universal connector.
+Sixth, claim 17 recites “circuitry contained in a housing for receiving
+and transmitting signals carried through an air link.” We have construed this
+recitation as a means-plus-function element under 35 U.S.C. § 112,
+paragraph 6, and determined that its corresponding structure in the
+Specification of the ’479 patent is a cellular phone or cellular radio
+telephone. Petitioner fails to show, sufficiently, that Boatwright’s RF
+coupling means 67, shown as RF modem 67 in Figure 4 of Boatwright, is the
+same as or equivalent to a cellular phone or a cellular radio telephone.
+Finally, claim 17 recites “processing means.” As discussed above, we
+have determined that the corresponding structure for this means includes
+identification logic such as identification logic 224 shown in Figures 14 and
+15 of the ’479 patent. Petitioner has not accounted for this identification
+logic when reading claim 17 onto the disclosure of Boatwright.
+Petitioner’s reliance on RS-485 and Mansell do not make up for the
+above-noted deficiencies in claims 1 and 17. Moreover, claims 2, 4, 6–16,
+18, 19, 21–25, and 27–29 depend, directly or indirectly, from claim 1 or
+claim 17 and Petitioner’s challenges to these claims suffer from the same
+deficiencies as the challenges to claims 1 and 17. For the foregoing
+reasons, Petitioner has not shown a reasonable likelihood that it would
+20
+
+IPR2015-00634
+Patent 5,479,479
+prevail in establishing that any of claims 1, 2, 4, 6–19, 21–25, and 27–29
+would have been obvious over Boatwright, RS-485, and Mansell.
+D. Alleged Obviousness of Claims 3 and 5
+over Boatwright, RS-485, Mansell, and Hotto
+Claim 3 depends from claim 2 which depends from claim 1. Claim 5
+depends from claim 1. Petitioner relies on Hotto to account for the
+respective features added by these dependent claims relative to the claims on
+which they depend. Petitioner’s reliance on Hotto, however, does not cure
+the deficiencies discussed above with regard to the disclosure of Boatwright.
+Accordingly, Petitioner has not shown a reasonable likelihood that it
+would prevail in establishing the unpatentability of any of claims 3 and 5 as
+unpatentable over Boatwright, RS-485, Mansell, and Hotto.
+E. Alleged Obviousness of Claim 20
+over Boatwright, RS-485, Mansell, and Guy
+Claim 20 depends from claim 19, which depends from claim 18,
+which depends from claim 17. Petitioner relies on Guy to account for the
+features added by claim 20 relative to the subject matter of claim 19.
+Petitioner’s reliance on Guy does not cure the deficiencies discussed above
+with regard to the disclosures of Boatwright.
+Accordingly, Petitioner has not shown a reasonable likelihood that it
+would prevail in establishing the unpatentability of claim 20 as unpatentable
+over Boatwright, RS-485, Mansell, and Guy.
+
+21
+
+IPR2015-00634
+Patent 5,479,479
+F. Alleged Obviousness of Claim 26 over
+Boatwright, RS-485, Mansell, and Thompson
+Claim 26 depends from claim 25, which depends from claim 17.
+Petitioner relies on Thompson to account for the features added by claim 26
+relative to the subject matter of claim 25. As noted above with respect to
+Petitioner’s reliance on Hotto, Petitioner’s reliance on Thompson also does
+not cure the deficiencies discussed above with regard to the disclosure of
+Boatwright.
+Accordingly, Petitioner has not shown a reasonable likelihood that it
+would prevail in establishing the unpatentability of claim 26 as unpatentable
+over Boatwright, RS-485, Mansell, and Thompson.
+G. Alleged Obviousness of Claims 1, 2, 4, 6–12,
+15–19, 22–24, and 27–29 over Mansell and RS-485
+Mansell
+Mansell discloses a vehicle monitoring system including a mobile
+unit. Ex. 1014, 2:55–56. The mobile unit onboard a vehicle includes an
+input unit which is responsive to an event or condition associated with the
+vehicle, and which serves to provide information describing the event or
+condition. Id. at 2:57–60. The mobile unit also has a GPS receiver that is
+responsive to navigation signals transmitted by a satellite navigation system,
+and which provides information describing the vehicle’s location based on
+the navigation signals. Id. at 60–64. The mobile unit further includes a
+mobile unit controller including a cellular telephone transmitter for
+transmitting information onto a cellular telephone communications link. Id.
+at 64–68. Information transmitted on the cellular link includes that which
+22
+
+IPR2015-00634
+Patent 5,479,479
+describes a vehicle event or condition, and information describing the
+vehicle’s location. Id. at 3:1–7. Mansell’s Figures A and 2B are reproduced
+below, in side-by-side manner:
+
+Figures 2A and 2B collectively illustrate mobile unit 100 and mobile unit
+controller 200. Mobile unit 100 includes alarm system 370, connected to
+“trunk lid open” sensor 374, “hood open” sensor 376, and “glass breakage”
+sensor 378. Id. at 11:15–22. An alarm signal would be provided from alarm
+system 370 to microcomputer 202 in mobile unit controller 200. Id. at
+12:48–52. Mobile unit 100 includes GPS receiver 314 and auxiliary position
+determining unit 390. The auxiliary position determining unit is connected
+to gyroscope 391, accelerometer 393, compass 394, and differential wheel
+rotation sensor 392, and may calculate the present location of the vehicle by
+
+23
+
+IPR2015-00634
+Patent 5,479,479
+using dead reckoning or other conventional extrapolation algorithms. Id. at
+9:54–66. Keypad 340 is provided in mobile unit 100, to serve as a human
+interface. Id. at 10:43–44. Mobile unit controller 200 is connected to
+transceiver 316, which is connected to cellular telephone antenna 316A. Id.
+at 10:25–27.
+RS-485
+RS-485 is titled: “Standard for Electrical Characteristics of
+Generators and Receivers for use in Balanced Multipoint Systems.” Ex.
+1011, 1. The lead paragraph in the “Scope” section of RS-485 reads as
+follows:
+This standard specifies the electrical characteristics of
+generators and receivers that may be employed when specified
+for the interchange of binary signals in multipoint
+interconnection of digital equipment. When implemented
+within the guideline of this standard, multiple generators and
+receivers may be attached to a common interconnecting cable.
+Ex. 1011, 6. The last paragraph in the “Scope” section of RS-485 reads:
+Any devices which are represented as complying with limits
+established by this standard shall meet the applicable
+specifications within the ranges of those factors which are
+described as appropriate for the operation of the equipment;
+such as power supply voltages, ambient temperature, and
+humidity.
+Id. Thus, RS-485 provides the characteristics of various electrical
+parameters, including their limits, for generators and receivers that may be
+attached to a common line.
+
+24
+
+IPR2015-00634
+Patent 5,479,479
+Analysis
+In claim 1, the plurality of peripheral devices are referred to as
+“communicating with a common bus.” Ex. 1001, 16:63–64. Claim 17
+similarly recites that each of the plurality of peripheral devices
+“communicates with” a “common bus.” Id. at 19:3–5. Petitioner
+acknowledges that, in Mansell, the disclosed peripheral devices do not
+communicate with each other. Ex. 1014, 45. As shown above in Figures 2A
+and 2B, each of the keypad, alarm system, GPS receiver, auxiliary position
+determining unit, etc., has its own input path to microcomputer 202 of
+mobile unit controller 200.
+Petitioner’s argument regarding the “common bus” is this:
+Although Mansell does not expressly disclose that all
+peripherals can communicate with each other, it would have
+been obvious to combine Mansell with the RS-485 bus
+protocol, which teaches this limitations. Indeed, Mansell
+discloses that an RS-485 compatible bus is preferred at least for
+communication with the keypad. Id. at 13:27–31. It therefore
+would have been obvious to program all peripheral devices to
+communicate with each other via an RS-485 bus since doing so
+would have simplified the need for alternate communication
+protocols for devices other than the keypad.
+As explained above, RS-485 provides a multidrop bus
+where “[a]ny of the slave devices on an RS-485 bus can
+communicate with any other [of] 32 slave devices without
+going through a master device.” Ex. 1018. RS-485 is
+described as a “simple hardware bus.” Ex. 1019, U.S. Patent
+No. 5,274,311 to Littlejohn at Abstract. RS-485 is also very
+well known and relatively easy to implement. See Ex. 1004 at
+¶¶ 33–46, 159–97.
+Pet. 45.
+
+25
+
+IPR2015-00634
+Patent 5,479,479
+We are not persuaded by Petitioner’s argument, which is misplaced in
+several respects. Mansell does not disclose that an RS-485 compatible bus is
+preferred for communicating with the keypad, as Petitioner states, in the
+sense that other peripheral units are expected to communicate with the
+keypad. Instead, Mansell states:
+Preferably, line driver 240 employs the RS-485 interface
+standard, allowing substantial noise tolerance over the pathway
+from the keypad in the passenger compartment to the Mobile
+Unit controller in the trunk of the vehicle.
+Ex. 1014, 13:27–31 (emphasis added). The above-quoted text concerns only
+line driver 240, which is illustrated in Figure 2A. The electrical
+characteristics adopted within the driver, according to Mansell, are for
+reducing noise and do not change the direct connection between the
+keyboard 340 and microcomputer 202 to a common bus also making a
+connection to all other peripheral units.
+Patent Owner correctly notes that Petitioner’s assertion (Pet. 45) that
+“Mansell discloses that an RS-485 compatible bus is preferred at least for
+communication with the keypad” is not adequately supported by Mansell.
+Prelim. Resp. 41. As is pointed out by Patent Owner, there is no disclosure
+in Mansell as to whether the line driver should be connected to a common
+bus to which other peripheral devices also are connected; instead, Mansell
+only discloses that the internal specifications of the line driver, for noise
+reduction purposes, comply with the standard set forth in RS-485. Prelim.
+Resp. 37–38. We further agree with the following observation of Patent
+Owner:
+
+26
+
+IPR2015-00634
+Patent 5,479,479
+Mansell really describes a communication line for the use of
+reducing noise between a peripheral device such as a keypad
+and the microcomputer. The only reason set forth for using
+such an interface is for noise reduction.
+Id. at 41. Patent Owner also correctly notes that Petitioner has pointed to no
+reason for Mansell’s keypad to receive signals from other devices. Id. at 43.
+With regard to RS-485, we have noted above that it sets standards for
+electrical characteristics of generators and receivers that may be connected
+to a common bus. It neither teaches nor suggests what specific devices
+should or should not be connected to a common bus. Thus, the lack of
+teaching in Mansell that the peripheral devices are connected to a common
+bus is not remedied by Petitioner’s reliance on RS-485. Although the
+peripheral devices “may be” or “can be” rearranged to be connected to a
+common bus, that does not constitute sufficient rationale to support a
+conclusion of obviousness. To support an adequate basis for combining
+teachings, there has to be articulated reasoning with rational underpinnings.
+In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006). Petitioner has not
+articulated sufficient reasoning with such rational underpinnings.
+Citing Exhibit 1018, Petitioner asserts that RS-485 provides a
+multidrop bus where “[a]ny of the slave devices on an RS-485 bus can
+communicate with any other [of] 32 slave devices without going through a
+master device.” Pet. 45. The Declaration of John Villasenor does the same.
+Ex. 1004 ¶ 44. Petitioner’s list of Exhibits identify Exhibit 1018 as:
+National Instruments, “A Quick Comparison of RS-232, RS422, and RS-485 Serial Communication Interfaces.”
+
+27
+
+IPR2015-00634
+Patent 5,479,479
+Pet. iv. The Declaration of John Villasenor refers to Exhibit 1018 as a white
+paper from “National Instruments.” Ex. 1004, ¶ 44. Exhibit 1018, as filed
+in the Board’s Patent Review Processing System, however, is U.S. Patent
+No. 5,334,974, and does not contain the quoted text.
+In any event, the quoted text does not help Petitioner’s position
+because RS-485 does not contain this text and, as discussed above, RS-485
+does not describe which peripheral devices should or should not be
+configured on a common bus. Also, as discussed above, Mansell describes
+using a particular line driver that meets RS-485 standard, to achieve noise
+reduction, rather than to communicate with other peripheral devices.
+Mansell does not describe peripheral devices arranged on a common bus.
+The quoted text, even assuming that the underlying paper has been
+filed by Petitioner to indicate what a RS-485 common bus may do, does not
+provide reasoning with rational underpinnings to configure Mansell’s
+peripheral devices on a common bus, where Petitioner, as here, articulates
+no need or desire, stemming from Mansell, for the peripheral devices to be
+communicating with each other. Mansell’s peripheral devices are not
+arranged on a common bus and have no identified need to communicate with
+each other.
+Petitioner’s analysis with respect to claim 17 and the claims
+depending therefrom has two additional deficiencies discussed below.
+First, claim 17 recites “first means for interconnecting said circuitry
+with said peripheral device controller.” Ex. 1001, 18:66–67. We have
+determined that the corresponding structure for this means is a cable with a
+connector at each of two ends, one of the two connectors being a universal
+28
+
+IPR2015-00634
+Patent 5,479,479
+connector having a structure as described in the specification of the ’479
+patent, such as that shown in Figure 9. Petitioner’s accounting of this
+limitation in its claim chart (Pet. 55) is deficient, because it identifies neither
+a cable nor a universal connector and because it does not explain any
+equivalence between what it has identified and a cable having a universal
+connector on one end thereof.
+Second, claim 17 recites “processing means.” As discussed above, we
+have determined that the corresponding structure for this means includes
+identification logic such as identification logic 224 shown in Figures 14 and
+15 of the ’479 patent. Petitioner has not accounted for this identification
+logic when reading claim 17 onto the teachings of Mansell.
+For the foregoing reasons, we are not persuaded that Petitioner has
+shown a reasonable likelihood that claims 1, 2, 4, 6–12, 15–19, 22–24, and
+27–29 are unpatentable, under 35 U.S.C. § 103, over Mansell and RS-485.
+III. CONCLUSION
+Petitioner has not established a reasonable likelihood that it would
+prevail in showing the unpatentability of any of claims 1–29 of the ’479
+patent.
+IV.
+
+ORDER
+
+It is
+ORDERED that the Petition is denied, and no inter partes review is
+instituted as to any claim of the ’479 patent.
+
+29
+
+IPR2015-00634
+Patent 5,479,479
+For PETITIONER:
+James Barney
+Thomas Winland
+Joshua Goldberg
+james.barney@finnegan.com
+tom.winland@finnegan.com
+joshua.goldberg@finnegan.com
+
+For PATENT OWNER:
+Gregory Howison
+Peter Thoma
+ipr@dalpat.com
+
+30
+
+

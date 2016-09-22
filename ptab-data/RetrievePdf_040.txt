@@ -1,0 +1,506 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper: 9
+Entered: September 29, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+ARDAGH GLASS INC.,
+Petitioner,
+v.
+CULCHROME, LLC,
+Patent Owner.
+____________
+Case IPR2015-00944
+Patent 5,718,737
+____________
+
+Before GRACE KARAFFA OBERMANN, CHRISTOPHER L.
+CRUMBLEY, and ELIZABETH M. ROESEL, Administrative Patent
+Judges.
+OBERMANN, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+Petitioner filed a Petition for an inter partes review of claims 1–26 of
+U.S. Patent No. 5,718,737 (Ex. 1001, “the ’737 patent”). Paper 1 (“Pet.”).
+Patent Owner filed a Preliminary Response. Paper 8 (“Prelim. Resp.”)
+
+IPR2015-00944
+Patent 5,718,737
+Applying the standard set forth in 35 U.S.C. § 314(a), which requires
+demonstration of a reasonable likelihood that Petitioner would prevail with
+respect to at least one challenged claim, we deny the Petition.
+I. BACKGROUND
+A. Related Proceedings
+Petitioner identifies a related district court action involving the ’737
+patent. Pet. 1 (citing Green Mountain Glass, LLC v. Saint-Gobain
+Containers, Inc. d/b/a Verallia North America n/k/a Ardagh Glass Inc.,
+No. 14-cv-00392 (D. Del., filed Mar. 28, 2014) (J. Sleet)).
+B. The ’737 Patent (Ex. 1001)
+The ’737 patent relates to a method of creating recycled glass
+products from mixed color glass cullet, that is, crushed or broken pieces of
+mixed-color glass. Ex. 1001, 1:14–15 (“mixed color cullet (i.e., broken
+pieces of glass of mixed colors and types) can be recycled to make useful
+glass products”). Mixed color glass cullet includes varying percentages of
+green, amber, and flint (colorless) glass. Id. at 2:1–5.
+The color distribution of glass in post-consumer solid municipal
+waste, and in typical mixed color glass cullet, varies regionally. Id. at 2:1-2.
+According to the disclosure of the ’737 patent, at the time of the invention,
+mixed color glass cullet “had only limited commercial use,” for example, “as
+an aggregate in paving material” or “land-fill cover,” and often was
+“discarded in landfills.” Id. at 2:5–8. Mixed color glass cullet, therefore,
+was “substantially less valuable than color sorted cullet.” Id. at 2:8–9.
+The invention is directed to “a process for re-using mixed colored
+glass, wherein mixed colored cullet can be used like color sorted cullet, to
+make new and useful glass products.” Id. at 2:10–13. Because “sorting is
+2
+
+IPR2015-00944
+Patent 5,718,737
+not fully effective, what is needed and provided according to the present
+invention is a method selectively to colorize and/or decolorize one of the
+colors in the mixed colored cullet to render it useful in the manufacture of
+glass products of the other color.” Id. at 2:13–17; see id. at 3:29–40 (an
+aspect of the invention is that mixed color cullet “is selectively decolorized
+and/or colorized to a desired color”).
+C. Illustrative Claim
+Independent claim 1 is illustrative and is reproduced below.
+A method of creating recycled glass products, comprising
+the steps of:
+obtaining unsorted mixed color glass cullet having glass
+of at least two different colors;
+adding to said mixed color glass cullet at least one of a
+decolorizing agent which selectively decolorizes at least one of
+the colors of said unsorted mixed color glass cullet and a
+colorizing agent which enhances a remaining color of said
+unsorted mixed color glass cullet;
+melting the mixed color glass cullet and any agent added
+in said adding step to a molten state; and
+creating a recycled glass product of said remaining color
+from the selectively colorized/decolorized molten mixed color
+glass cullet.
+Ex. 1001, 7:39–54.
+Independent claims 1, 9 and 18 are directed to methods of creating
+recycled glass products. Id. at 7:39–54; 8:14–29; 8:61–9:13. Claim 1 recites
+that such products are created from unsorted mixed color glass cullet and
+does not require any virgin (i.e., non-recycled) glass. Independent claims 9
+and 18, on the other hand, require virgin glass, either in the form of a melt
+
+3
+
+IPR2015-00944
+Patent 5,718,737
+(claim 9) or batch mixture (claim 18), where the melt or batch is “for glass
+of a particular color.” Id. at 8:19–21; 8:65–67.
+Similar to the “adding” step in claim 1, independent claims 9 and 18
+require addition of “at least one of a decolorizing agent which selectively
+decolorizes at least one of the colors of [the] unsorted mixed color glass
+cullet other than [the] particular color and a colorizing agent which enhances
+[the] particular color of [the] unsorted mixed color glass cullet,” where the
+“particular color” corresponds to the color of the virgin glass melt or batch.
+Id. at 8:22–27 (claim 9); 9:1–6 (claim 18).
+C. Evidence Relied Upon
+The Petition relies on the following prior art references:
+M. Nix & H. P. Williams, Calculation of the Redox Number of Glass
+Batches Containing Recycled Cullet, GLASTECH. BER. 63K (1990) at 271–
+279 (Ex. 1004, “Nix”).
+J. Wilsker, GB 362,938 (Dec. 8, 1931) (Ex. 1005, “Wilsker”).
+W. Dusdorf, K. Al-Hamdan, G. Nolle, Characterization and
+Stabilization of the Brown Glass Chromophore under the Aspect of Cullet
+Use, Silikattechnik 42, No. 4, pp. 112–114 (1991) (Ex. 1007, “Dusdorf”)
+(certified English translation).
+C. Baltazar-Brillante, Cullet in Amber Glass Production, presented at
+14th AFGM Conference (reprinted in glassmachineryplants&accessories, pp.
+47–51) (1989) (Ex. 1008, “Baltazar”).
+The Petition also relies on the Declaration of Dr. Subhash Risbud.
+Ex. 1009.
+
+4
+
+IPR2015-00944
+Patent 5,718,737
+D. Asserted Grounds of Unpatentability
+Reference(s)
+
+Basis
+
+Claims
+
+Nix
+
+§ 102
+
+1–26
+
+Wilsker
+
+§ 102
+
+1, 6–9, 15–18, and 24–26
+
+Nix, Wilsker, Dusdorf, and
+Baltazar
+
+§ 103
+
+1–26
+
+II. ANALYSIS
+A. Claim Construction
+In an inter partes review, claim terms in an unexpired patent are given
+their broadest reasonable interpretation in light of the specification of the
+patent in which they appear. 37 C.F.R. § 42.100(b); see In re Cuozzo Speed
+Tech., LLC, 793 F.3d 1268, 1275–79 (Fed. Cir. 2015). The ’737 patent
+appears to have expired on March 3, 2015, which would dictate an
+application of the approach set forth in Phillips v. AWH Corp., 415 F.3d
+1303 (Fed. Cir. 2005); see In re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir.
+2012) (“the Board’s review of the claims of an expired patent is similar to
+that of a district court’s review”) (internal citation omitted). The result is the
+same regardless of which claim construction standard is applied here.
+We give claim terms their ordinary and customary meaning, as
+understood by a person of ordinary skill in the art, in the context of the entire
+disclosure. In re Translogic Tech., Inc., 504 F.3d 1249, 1257 (Fed. Cir.
+2007). No claim term requires express construction for the purposes of this
+decision. See, e.g., Wellman, Inc. v. Eastman Chem. Co., 642 F.3d 1355,
+1361 (Fed. Cir. 2011) (“claim terms need only be construed ‘to the extent
+necessary to resolve the controversy’”) (quoting Vivid Techs., Inc. v. Am.
+Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999)).
+5
+
+IPR2015-00944
+Patent 5,718,737
+B. An Overview of the Asserted Prior Art
+We consider the asserted prior art as representative of the level of
+ordinary skill in the art. See Okajima v. Bourdeau, 261 F.3d 1350, 1355
+(Fed. Cir. 2001) (“[T]he absence of specific findings on the level of skill in
+the art does not give rise to reversible error ‘where the prior art itself reflects
+an appropriate level and a need for testimony is not shown’”) (quoting Litton
+Indus. Prods., Inc. v. Solid State Sys. Corp., 755 F.2d 158, 163 (Fed. Cir.
+1985)). The information presented shows the following facts about the
+asserted prior art.
+Nix discloses a method for calculating the redox number of glass
+batches containing recycled cullet. Ex. 1004, Title, 278.1 According to Nix,
+the redox state is important for forecasting the color of the glass, and an
+accurate method for calculating the redox state of a batch is necessary for
+predicting the properties of the melted glass. Id. at 271.
+Nix explains that modern container glass batches include appreciable
+quantities of recycled cullet and, for determining the redox number of those
+batches, a calculation method that includes a redox factor for recycled cullet
+is required. Id. Nix calculates “a first theoretical approximation” of a redox
+factor for recycled cullet based on several assumptions: 2000 kg of SiO2 in
+the glass batch, a typical mixture of green, flint, and amber glass found in
+Germany, a mean chemical analysis of recycled cullet, and a level of organic
+contamination in the recycled cullet. Id. at 273–75.
+Nix verifies the theoretically calculated figure by preparing laboratory
+melts of dead leaf green glass containing recycled cullet and comparing the
+1
+
+Citations to Nix, Ex. 1004, are to the original page numbers.
+6
+
+IPR2015-00944
+Patent 5,718,737
+color with melts prepared from batches of known redox number. Id. at 275–
+77. Using the calculated and verified redox number for recycled cullet, Nix
+provides the following example of a redox calculation for a dead leaf green
+glass batch containing recycled cullet:
+
+Id. at 278.
+Wilsker discloses “an improved process of glass manufacture” that
+nullifies an “objectionable colouring effect of ingredients rich in iron.”
+Ex. 1005, 1:20–26. Wilsker addresses a “peculiar bluish-green colour” that
+“is most difficult to remove” and that results from using “common red or
+brown sand having a high iron content” instead of “more costly white sand”
+in the manufacture of soda-lime glass. Id. at 1:9–32.
+Dusdorf discloses combining mixed color cullet with virgin glass
+materials. Pet. 46 (citing Ex. 1007, 4). Dusdorf states that “brown glasses
+are produced nowadays using mixed cullet.” Id. 45 (citing Ex. 1007, 3).
+Baltazar discusses “the San Miguel Glassworks experience in the use of high
+level cullet up to 80% and the use of flint/green cullet in amber glass.” Id.
+(quoting Ex. 1008, 47 (Abstract)).
+7
+
+IPR2015-00944
+Patent 5,718,737
+The Petition sets forth other assertions characterizing the disclosures
+of Dusdorf and Baltazar, with citations to declaration testimony, but no
+citations to the references themselves. Pet. 42–44. We do not accept those
+assertions, which are not consistent with applicable procedural requirements.
+See 37 C.F.R. § 42.22(a)(2) (petition must contain a “full statement of the
+reasons for the relief requested, including a detailed explanation of the
+significance of the evidence”); see also 37 C.F.R. § 42.6(a)(3) (prohibiting
+argument made in a supporting document from being incorporated by
+reference into a petition).
+C. Obviousness of Claims 1–26
+Over Nix, Wilsker, Dusdorf, and Baltazar
+Petitioner alleges that the subject matter of claims 1–26 would have
+been obvious at the time of the invention over the combined teachings of
+Nix, Wilsker, Dusdorf, and Baltazar. Pet. 5, 42. Our decision with respect
+to claim 1, and its dependent claims, turns on Petitioner’s failure to set forth
+a cogent explanation of how the combined teachings of those references
+would have suggested to a skilled artisan a method of creating a recycled
+glass product “of” a “remaining color,” where a decolorizing agent
+selectively decolorizes at least one of the colors of unsorted mixed color
+glass cullet or a colorizing agent enhances the “remaining color.” Ex. 1001,
+7:39-54 (claim 1). Nor does Petitioner, with respect to claims 9 and 18 and
+their dependent claims, explain how the combined teachings would have
+suggested a method of creating a recycled glass product of a “particular
+color,” where a decolorizing agent selectively decolorizes at least one of the
+colors of unsorted mixed color glass cullet or a colorizing agent enhances
+
+8
+
+IPR2015-00944
+Patent 5,718,737
+the “particular color” of the virgin glass melt or batch. Id. at 8:14–29; 8:61–
+9:12 (independent claims 9, and 18).
+In that regard, Petitioner shows sufficiently that Nix discloses an
+example of a dead leaf green laboratory glass melt from a batch that includes
+mixed color glass cullet. Pet. 18 (citing Ex. 1004, 278); see id. at 44–47
+(incorporating anticipation arguments as to Nix and Wilsker in the analysis
+of the obviousness ground). Petitioner argues that the carbon in that
+example is a colorizing agent within the scope of the challenged claims. Id.
+at 18. Carbon is identified in the ’737 patent as a preferred colorizing agent
+for amber glass. Ex. 1001, 6:35–42 (including carbon in list of preferred
+coloring agents for amber glass production).
+Petitioner states that carbon “is added to the batch for making dead
+leaf green glass (e.g., a particular color)” but does not show that carbon
+enhances the “dead leaf green” color of the batch. Pet. 18. In fact, the
+information presented shows that carbon, as a reducing agent, enhances an
+amber, not green, color. See Pet. 19–20 (by adding reducing agents, “the
+amber color will be enhanced by reduction of the sulfur in the cullet, since
+reduced sulfur is the source of amber color”); see also Ex. 1001, 7:5–29
+(sole example in the ’737 patent, explaining that “[t]he addition of carbon,
+(reducing agent) controls the final amber color, i.e., as carbon content
+increases, the reddish-brown hue increases”).
+According to Petitioner, dead leaf green is a “desired color” of the
+glass batch in Nix’s example. Pet. 19 (citing Ex. 1004, 278). Even
+assuming that dead leaf green is a “remaining color” in accordance with
+claim 1 or a “particular color” in accordance with claims 9 and 18, Petitioner
+does not show that this dead leaf green color is enhanced by carbon or any
+9
+
+IPR2015-00944
+Patent 5,718,737
+other colorizing agent in Nix’s example. Ex. 1001, 7:39–54; 8:14–29; 8:61–
+9:12 (independent claims). Stated in a different way, carbon is shown to
+enhance amber color, but Nix does not suggest a method of “creating a
+recycled glass product of” an amber color enhanced by carbon. Ex. 1001,
+7:39–54; 8:14–29; 8:61–9:12 (claims 1, 9, and 18).
+Petitioner also asserts that Nix discloses “a methodology for adding
+reducing agents and oxidizing agents to selectively colorize and decolorize
+particular colors by adjusting the redox numbers of the batch to arrive at a
+desired color.” Pet. 19 (emphasis omitted). That assertion misstates the
+disclosure of Nix. Petitioner directs us to no teaching in Nix of “a
+methodology” for adjusting the redox number of the dead leaf green glass of
+the example to produce amber glass, “just as was done in the Example in
+the ’737 patent.” Id. at 20. That argument is fraught with hindsight bias.
+See Graham, 383 U.S. 1, 36 (1966) (warning against a “temptation to read
+into the prior art the teachings of the invention in issue”).
+The Petition speculates, without support in Nix, that if amber glass
+were desired, a person of ordinary skill in the art would modify the example
+disclosed on page 278 of Nix (see page 7, supra) by adding reducing agents,
+such as Carbocite™, iron pyrite, or arsenic oxide. Pet. 19. Although the
+Petition cites Nix, page 272, lines 2–7 and Table 1, neither teaches or
+suggests modification of Nix’s dead leaf green batch in the manner
+postulated by Petitioner. At best, Nix suggests that “a stronger amber
+colouration” of the dead leaf green batch could be obtained by using a
+reducing atmosphere above the melt. Ex. 1004, 278. But Nix teaches that
+such extreme reducing conditions should be avoided. Id. (“care has to be
+
+10
+
+IPR2015-00944
+Patent 5,718,737
+taken . . . to ensure that extreme oxidizing or reducing conditions do not
+occur in the atmosphere above the melts.”).
+On this record, Petitioner does not direct us to disclosure in Nix
+sufficient to teach or suggest adding a decolorizing agent, which selectively
+decolorizes at least one color of unsorted mixed color glass cullet, or a
+colorizing agent, which enhances a “remaining color” of unsorted mixed
+color glass cullet or a “particular color” of a virgin glass melt or batch, as
+recited in the independent claims of the ’737 patent. We agree with Patent
+Owner that “Nix does not disclose adding any colorizing agent to enhance a
+color of the mixed color cullet, much less adding a colorizing agent to
+enhance a remaining color not decolorized.” Prelim. Resp. 12. Petitioner
+advances three other references as suggesting that feature of the invention—
+Wilsker, Dusdorf, and Baltazar—but does not provide an “articulated
+reasoning with some rational underpinning” showing how the combined
+teachings of the applied prior art would have led a skilled artisan to that
+feature. In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006) (cited with approval
+in KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007)).
+Wilsker is concerned with a “peculiar bluish-green colour” that results
+when “materials rich in iron” are used to produce soda-lime glass. Ex. 1005,
+1:9–29. Wilsker recognizes that the “objectionable” bluish-green color “is
+due solely to the fact that the iron oxide contained in the [starting] materials
+is in the ferrous state.” Id. at 1:27–32. Wilsker’s object is to nullify that
+bluish-green color, which according to Wilsker, is produced when “common
+red or brown sand having a high iron content” is used in place of “more
+costly white sand having a comparatively low iron content.” Id. at 1:15–19.
+Wilsker accomplishes that object by controlling the proportions of the
+11
+
+IPR2015-00944
+Patent 5,718,737
+ingredients containing ferric oxide and ferrous oxide and furnace conditions
+during melting. Id. at 1:37–48. Thereby, “the iron content of the finished
+glass consists of both such oxides in equal proportions by weight.” Id.
+at 1:41–44.
+Petitioner suggests that Wilsker teaches a method in which “common
+red sand selectively removes a ‘bluish-green colour’” and “iron oxide in the
+ferrous state . . . selectively enhances a ‘bluish-green colour.’” Pet. 35
+(citation omitted). Wilsker, however, irrefutably is concerned with
+nullifying, not enhancing, that “objectionable” color. See Ex. 1005, 1:20–
+36. Wilsker’s attempt to nullify the bluish-green color, moreover, is not
+shown on this record to represent a selective decolorization or colorization
+of “unsorted mixed color glass cullet” as required by each challenged claim.
+Ex. 1001, 7:45–47; 8:22–24; 9:2–5 (independent claims 1, 9, and 18).
+We recognize that Wilsker discloses an example glass batch
+containing “cullet” and “small proportions of . . . decolourising or colourcorrecting agents.” Ex. 1005, 1:98–106, 2:1–26. The information presented,
+however, does not show sufficiently that Wilsker suggests compensating for
+the colors of unsorted mixed color glass cullet by addition of those agents.
+On the contrary, Wilsker contemplates adding selected colors of glass cullet
+according to the desired whiteness of the glass. Id.at 3:5–13 (“If desired,
+white or pale green cullet may be replaced by a mixture of dark green and
+amber cullet to an extent varying between 15% and 50%, according to the
+desired whiteness of the glass . . . .”). Wilsker aims to make white soda-lime
+glass from white and red sand and suggests that limited amounts of certain
+colors of cullet can be added without degrading the white color. Id. 1:102,
+3:5–13, 3:25–26 (claim 1). But Petitioner does not direct us to disclosure in
+12
+
+IPR2015-00944
+Patent 5,718,737
+Wilsker sufficient to suggest the functionality of the decolorizing or
+colorizing agents relative to unsorted mixed color glass cullet, as recited in
+the “adding” step of independent claims 1, 9, and 18.
+Petitioner further identifies, without elaboration, Baltazar’s reference
+to a “color adjustment.” Pet. 46 (quoting Ex. 1008, 50). On this record,
+neither Wilsker nor Baltazar is shown to have suggested a method of
+creating recycled glass products, including adding a decolorizing agent,
+which selectively decolorizes at least one color of unsorted mixed color
+glass cullet, or a colorizing agent, which enhances a “remaining color” of
+unsorted mixed color glass cullet or “particular color” of a virgin glass melt
+or batch, as required by the independent claims. Ex. 1001, 7:39–54; 8:14–
+29; 8:61–9:12 (claims 1, 9, 18).
+Petitioner also directs us to Dusdorf for a disclosure of that limitation.
+Pet. 46–47 (citing Ex. 1007, 1, 6). Dusdorf discloses melting amber glass
+“under reducing conditions, generally with the addition of pulverized
+carbon.” Ex. 1007, 1. Dusdorf attempts to identify a quantitative
+relationship between glass color and chemical-analytical quantities of the
+raw materials. Id. at 6. In that context, Dusdorf states that, “if no additional
+coloring components such as Cr3+/Cr6+ are present,” then the brown glass
+color can be quantified by the concentration of iron oxides and sulfate. Id.
+On that basis, Petitioner proposes that, in Dusdorf, “brown glass is made by
+adding Carbon as a decolorizing agent and/or adding ‘coloring components
+such as Cr3+/Cr6+.[’]” Pet. 47 (citing Ex. 1007, 1, 6).
+That proposition overstates the disclosure of Dusdorf. When read in
+the context of the entire disclosure, Dusdorf’s reference to brown glass, in
+which “no additional coloring components such as Cr3+/Cr6+ are present,”
+13
+
+IPR2015-00944
+Patent 5,718,737
+fairly conveys the results of an analysis of the chromium ion content of
+brown glass, but does not fairly suggest a selective addition of chromium
+ions to enhance a color of mixed color glass cullet in a glass melt. Ex. 1007,
+6. Furthermore, Petitioner does not explain adequately how carbon, which
+on this record enhances an amber color, acts as a “decolorizing agent” in the
+brown glass batches analyzed in Dusdorf. Pet. 47 (arguing that Dusdorf’s
+“brown glass is made by adding Carbon as a decolorizing agent”); see
+Ex. 1007, 1 (discussing variations of conditions that produce olive-brown or
+gray colorizations). In that regard, Petitioner’s claim charts direct us to
+page 6 of Dusdorf, but Petitioner does not explain adequately how or why
+that disclosure would have led a person of ordinary skill in the art to
+determine “the amount of decolorizing agent to add to the batch by inputting
+certain parameters into a computer program” or how to make “brown
+glass . . . by adding Carbon as a decolorizing agent and/or adding ‘coloring
+components such as Cr3+/Cr6+.” Pet. 46–47; see id. at 49–51 (claim charts).
+Nor does Petitioner explain adequately how the teachings of Dusdorf would
+have suggested the functionality of the decolorizing or colorizing agents
+relative to unsorted mixed color glass cullet, as recited in the “adding” step
+of independent claims 1, 9, and 18.
+We have considered Petitioner’s other arguments that the combined
+teachings of the asserted prior art would have suggested the claimed method.
+Pet. 42–60. The Petition, however, does not provide analysis sufficient to
+show that Wilsker and Nix suggest the limitations of any challenged claim,
+or that Dusdorf and Baltazar “bridge the gap.” Prelim. Resp. 25. On this
+record, Petitioner is not reasonably likely to prevail in showing that any
+
+14
+
+IPR2015-00944
+Patent 5,718,737
+challenged claim is unpatentable as obvious over Nix, Wilsker, Dusdorf, and
+Baltazar.
+D. Anticipation of Claims 1–26 by Nix or Wilsker
+Petitioner challenges claims 1–26 as anticipated by Nix, and 1, 6–9,
+15–18, and 24–26 as anticipated by Wilsker. Pet. 4–5, 15, 32. Petitioner
+does not discharge its burden of establishing a reasonable likelihood of
+prevailing on either of those anticipation grounds. Accordingly, we decline
+to institute trial based on anticipation by Nix or Wilsker.
+For example, Petitioner does not show sufficiently that Nix discloses a
+method of creating a recycled glass product “of” a “remaining color” of
+unsorted mixed color glass cullet, or “of” a “particular color” corresponding
+to the color of a virgin glass melt or batch. Ex. 1001, 7:39–54; 8:14–29;
+8:61–9:12 (independent claims 1, 9, 18). Petitioner directs us to Nix’s
+general disclosure of “[m]odern container glass batches” that “include
+appreciable quantities of recycled cullet.” Pet. 20–21 (citing Ex. 1004, 271).
+But that disclosure does not describe, with sufficient specificity, a step of
+creating a recycled glass product of a “remaining” or “particular color,” as
+required by each challenged claim. Ex. 1001, 7:48, 52; 8:25, 28; 8:67, 9:4,
+10 (the independent claims).
+Nor does Petitioner show sufficiently that Wilsker anticipates any
+challenged claim. Pet. 32–41. As explained above in our analysis of the
+obviousness challenge, Wilsker does not selectively colorize or decolorize
+mixed color glass cullet, but rather, is concerned with nullifying a “peculiar
+bluish-green colour” that is produced when “red or brown sand” is selected
+over “more costly white sand” in the manufacture of commercial soda-lime
+glass. Ex. 1005, 1:9–36.
+15
+
+IPR2015-00944
+Patent 5,718,737
+Based on the information presented, Petitioner fails to show
+sufficiently that Nix or Wilsker anticipates the subject matter of any
+challenged claim.
+[U]nless a reference discloses within the four corners of the
+document not only all of the limitations claimed but also all of
+the limitations arranged or combined in the same way as recited
+in the claim, it cannot be said to prove prior invention of the
+thing claimed, and, thus, cannot anticipate under 35 U.S.C.
+§ 102.
+Net MoneyIN, Inc. v. VeriSign, Inc., 545 F.3d 1359, 1371 (Fed. Cir. 2008).
+III. CONCLUSION
+Based on the information presented in the Petition and the Preliminary
+Response, Petitioner does not show a reasonable likelihood of prevailing
+with respect to any claim challenged in the Petition.
+
+It is
+ORDERED that the Petition is denied, and no trial is instituted.
+
+16
+
+IPR2015-00944
+Patent 5,718,737
+PETITIONER:
+Matthew D. Satchwell
+Stuart E. Pollack
+DLA Piper LLP
+matthew.satchwell@dlapiper.com
+stewart.pollack@dlapiper.com
+PATENT OWNER:
+Michael R. Fleming
+Benjamin Haber
+Irell & Manella LLP
+mfleming@irell.com
+bhaber@irell.com
+
+17
+
+

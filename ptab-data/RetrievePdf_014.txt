@@ -1,0 +1,528 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 38
+Entered: August 26, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+
+NISSAN NORTH AMERICA, INC.,
+Petitioner,
+v.
+NORMAN IP HOLDINGS, LLC,
+Patent Owner.
+____________
+Case IPR2014-00563
+Patent 5,502,689
+____________
+
+Before: BRYAN F. MOORE, HYUN J. JUNG, and FRANCES L. IPPOLITO,
+Administrative Patent Judges.
+MOORE, Administrative Patent Judge.
+FINAL WRITTEN DECISION
+Inter partes review
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-00563
+Patent 5,502,689
+I.
+
+INTRODUCTION
+
+Nissan North America, Inc. (“Petitioner”) filed a Corrected Petition, on
+April 18, 2014, requesting an inter partes review of claims 1–6 and 9 of US Patent
+No. 5,502,689 (Ex. 1001, “the ’689 patent”). Paper 5 (“Pet.”). Norman IP
+Holdings, LLC (“Patent Owner”) filed a Preliminary Response on July 14, 2014.
+Paper 10 (“Prelim. Resp.”). Petitioner also indicates that the ’689 patent was or is
+involved in several district court actions. Pet. 1–4. On February 5, 2013, an ex
+parte reexamination of the ’689 patent was filed, Control No. 90/012,784 (the
+“Reexam”), which resulted in the cancellation of claims 5, 6, and 9. Ex. 3001.
+Claims 1–4 and 7–8 were not reexamined.
+On September 23, 2014, we instituted review as to claims 1–6 and 9 of the
+’689 patent and instituted trial on the grounds of unpatentability as set forth below.
+Paper 24, “Dec. on Inst.”
+Claims
+
+Grounds
+
+Reference
+
+Claims 1–6
+
+§ 102
+
+AMD1
+
+Claims 1–6 and 9
+
+§ 102
+
+Maejima2
+
+Claims 1–6 and 9
+
+§ 103
+
+AMD and Maejima
+
+1
+
+AM79C30A DIGITAL SUBSCRIBER CONTROLLER (DSC), Advanced Micro Devices,
+(June 1990) (“AMD,” Ex. 1002).
+2
+US 4,615,005, issued September 30, 1986 (“Maejima,” Ex. 1003).
+2
+
+IPR2014-00563
+Patent 5,502,689
+Patent Owner responded to the Petition (Paper 32, “PO Resp.”), and
+Petitioner replied (Paper 35, “Reply”) to Patent Owner’s response. No oral hearing
+was held in this case.
+The Board has jurisdiction under 35 U.S.C. § 6(c). As an initial matter, we
+decline to make a final ruling on independent claim 5 and dependent claims 6 and
+9, which were cancelled in the Reexam. In particular, in the Reexam, a Certificate
+was issued cancelling claims 5, 6, and 9. Ex. 3001. As a result, Petitioner’s
+challenges to these three cancelled claims are moot. In this Final Written Decision,
+issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73, we determine
+Petitioner has demonstrated by a preponderance of the evidence that the following
+claims for which trial was instituted, claims 1–4, are unpatentable.
+A. The ’689 Patent
+The ’689 Patent describes a way to reduce power consumption and conserve
+the battery life of an electronic device by stopping the device’s clock signal. Ex.
+1001, col. 1, ll. 59–63. A clock signal is a regularly timed pulse used to
+synchronize the operations of a microprocessor.
+If a microprocessor stops receiving clock pulses, it will stop executing
+instructions and enter a “power-down” or “shut-down” mode in which power
+consumption is reduced. Id. at col. 2, ll. 25–30. According to the ’689 Patent, this
+method for reducing power consumption was well known in the prior art, but it
+presented several problems. Id. at col. 2, l. 46, col. 3, l. 7. Software errors or noise
+could trigger an inadvertent entry into shut-down mode, a premature entry into
+shut-down mode, or entry into shut-down mode without any means to exit shut3
+
+IPR2014-00563
+Patent 5,502,689
+down mode. Id. at col. 2, l. 57, col. 3, l. 7. The ’689 Patent endeavors to solve
+these problems by requiring that the signal requesting that the device enter shutdown mode conform to a protocol.
+Referring to Figure 1, during normal operation, oscillator 10 generates
+regular clock pulses which are ultimately sent to various modules in a device. Ex.
+1001, col. 6, ll. 11–14, 20–22. When the device needs to enter shut-down mode, a
+signal is sent to the clock generator on line 48. Id. at col. 7, ll. 59–62. Register
+Access Circuit 20 provides a protection scheme to verify the signal on line 48. Id.
+at col. 7, l. 59, col. 8, ll. 16. This protection scheme is a predetermined protocol
+requirement, which avoids inadvertent placement of the clock generator into shutdown mode. Id. at col. 8, ll. 13–15. Once the signal on line 48 is verified, Register
+Access Circuit 20 sends a SDENTR signal along line 30 to shut-down control
+circuit 12. Id. at col. 8, ll. 33–38. This circuit sends a START TIMER signal to
+Shut-Down Entry Delay Timer 14. Id. at ll. 34–41 (emphasis added). Timer 14
+provides a delay for a “predetermined length of time” to allow one or more of the
+device modules to enter an idle state. Id. at col. 4, ll. 13–20. After this delay, a
+STOP OSCILLATOR signal is sent to Oscillator 10 to stop the clock pulses. Id. at
+col. 8, ll. 44–46. The device is now in shut-down mode.
+The “predetermined length of time” is calculated by means of a separate
+clock. This clock, which is external to the clock generator, constantly sends clock
+pulses to the Shut-Down Entry Delay Timer 14 at 280.9 Hz. Ex. 1001, col. 7, ll.
+4–10. This clock is significantly slower than the clock pulses of Oscillator 10.
+Once timer 14 receives the START TIMER signal, it waits to receive two clock
+
+4
+
+IPR2014-00563
+Patent 5,502,689
+pulses from the external clock, and then sends the STOP OSCILLATOR signal.
+Id. at col. 7, ll. 10–16.
+
+Figure 2 is represented below:
+
+Figure 2, depicted above, shows the timing of the shut-down process. At
+time t0 the SDENTR signal is asserted. Ex. 1001, col. 8, ll. 30–34. At time t1
+Timer 14 receives a first pulse from the external clock. At time t2, Timer 14
+5
+
+IPR2014-00563
+Patent 5,502,689
+receives the second pulse, and shuts down Oscillator 10. Id. at col. 8, ll. 38–42. At
+280.9 Hz, the time between each pulse of the external clock is 3.56ms. Because
+the SDENTR signal may be asserted at any time, it may take between 3.56ms and
+7.12ms for Timer 14 to receive two clock pulses from the external clock. Id. at
+col. 8, ll. 38–43.
+B. Illustrative Claim
+Claim 1 is illustrative of the claimed subject matter of the ’689 patent, and is
+reproduced below:
+1. A clock generator for an electrical system, said clock generator
+capable of providing at least one output clock signal, said clock
+generator comprising:
+means for producing said at least one output clock signal;
+means for disabling said means for producing upon reception of a
+disable activation signal;
+means for receiving a shut-down entry request signal; and
+means for verifying that said received shut-down entry request signal
+meets a predetermined protocol requirement, said means for verifying
+comprising at least two registers, said means for verifying generating
+said disable activation signal upon verification that a received shutdown entry request signal does meet said predetermined protocol
+requirement, which disable activation signal is conducted to said
+means for disabling.
+Ex. 1001, col 11, ll. 41–56.
+
+6
+
+IPR2014-00563
+Patent 5,502,689
+II.
+
+ANALYSIS
+
+A. Level of Ordinary Skill
+Neither party has made a statement about the level of ordinary skill in the art
+applicable to this case.
+
+We determine the obviousness issues guided by the
+
+evidence of the level of ordinary skill in the art presented by the references
+themselves. See Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001).
+Patent Owner does not contest Maejima is within the field of endeavor of the ’689
+patent. We treat Maejima as representative of the level of ordinary skill in the art
+at the time of the invention.
+B. Claim Construction
+The ’689 patent is expired. PO Resp. 7. While we generally construe claims
+using the broadest reasonable construction, see 37 C.F.R. § 42.100(b), “the Board’s
+review of the claims of an expired patent is similar to that of a district court’s
+review,” In re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir. 2012) (internal citations
+omitted). Thus, we construe the claims in accordance with their ordinary and
+customary meanings, as would be understood to a person of ordinary skill in the
+art, in the context of the specification. See generally Phillips v. AWH Corp., 415
+F.3d 1303 (Fed. Cir. 2005) (en banc).
+Petitioner provides constructions for several claim terms. Pet. 6–8.
+Petitioner proposes constructions for four means-plus-function limitations: means
+for producing; means for disabling; means for receiving; and means for verifying.
+Id. at 6–7. Patent Owner has not proposed constructions for any of these
+limitations. In the Decision to Institute, we determined that the Petitioner’s
+7
+
+IPR2014-00563
+Patent 5,502,689
+identification of the function and corresponding structure for these terms were
+consistent with the Specification of the ’689 Patent; therefore, we adopted them.
+Dec. 8. The parties do not dispute the constructions. PO Resp. 8; Reply 1–2.
+Based on the complete record now before us, we discern no reason to change the
+constructions; we adopt our previous analysis for the non-disputed claim terms.
+We find that none of the other terms recited in the claims need to be construed
+explicitly at this time.
+C. Claims 1–4—Anticipated by AMD (Ex. 1002)
+Petitioner argues that claims 1–4 are anticipated by AMD under 35 U.S.C.
+§ 102(b). Pet. 9–17. AMD discloses the production of an output clock signal
+(MCLK) and programmable divider, and the ability to disable this clock signal
+when a POWER-DOWN mode is entered via a signal sent via data bus. AMD
+discloses that “[t]he POWER-DOWN mode is entered by appropriate
+programming of the INIT and INIT2 registers.” Ex. 1002, 9. When entering
+POWER-DOWN mode, the DSC/IDC will begin an internal countdown of at least
+250-MCLK cycles after which both the MCLK and XTAL1 outputs are both
+stopped and held High, and the XTAL2 input will be disregarded, effectively
+stopping all clocks to conserve power. Id.
+Below we discuss independent claim 1, from which all other dependent
+claims challenged in this ground depend. Claim 1 recites “means for producing
+said at least one output clock signal.”
+The structure corresponding to this limitation is a clock divider and
+equivalents thereof. Pet. 6–7. Petitioner asserts that AMD’s disclosure of MCLK,
+8
+
+IPR2014-00563
+Patent 5,502,689
+which is described as having the following output frequencies: 12.288, 6.144,
+4.096, 3.072, 1.536, 0.768, and 0.384 MHz, meets this limitation. Id. at 10–11
+(citing Ex. 1002, 8). We are persuaded by this cited disclosure. Thus, on the
+record before us, Petitioner has shown sufficiently that AMD discloses this
+limitation.
+Claim 1 also recites “means for disabling said means for producing upon
+reception of a disable activation signal.” The structure corresponding to this
+limitation is a shut-down control circuit together with a shut-down entry delay
+timer, and equivalents thereof. Pet. 7. Petitioner asserts that AMD’s disclosure of
+POWER-DOWN mode and associated circuits, which is described as shutting
+down all clocks, meets this limitation. Id. at 11 (citing Ex. 1002, 9). We are
+persuaded by this cited disclosure. Thus, on the record before us, Petitioner has
+shown sufficiently that AMD discloses this limitation.
+Claim 1 also recites “means for receiving a shut-down entry request signal.”
+The structure corresponding with this limitation is a data bus. Pet. 8. Petitioner
+asserts that AMD’s disclosure of POWER-DOWN mode, which is described as
+being entered by “appropriate programming of the INIT and INIT2 registers
+[and] . . . is not available unless the POWER-DOWN ENABLE bit is set in the
+INIT2 register,” meets this limitation. Id. at 11 (citing Ex. 1002, 9). We are
+persuaded by this cited disclosure. Thus, on the record before us, Petitioner has
+shown sufficiently that AMD discloses this limitation.
+Claim 1 also recites
+means for verifying that said received shut-down entry request signal
+meets a predetermined protocol requirement, said means for verifying
+comprising at least two registers, said means for verifying generating
+9
+
+IPR2014-00563
+Patent 5,502,689
+said disable activation signal upon verification that a received shutdown entry request signal does meet said predetermined protocol
+requirement, which disable activation signal is conducted to said
+means for disabling.
+The structure corresponding with this limitation is a register access circuit.
+Pet. 8. Petitioner asserts that AMD’s disclosure of POWER-DOWN mode, which
+is described as being entered by “appropriate programming of the INIT and INIT2
+registers,” meets this limitation. Id. at 11 (citing Ex. 1002, 9). In addition, AMD
+requires a special predetermined write procedure to modify the INIT2 register. Id.
+Thus, on the record before us, Petitioner has shown sufficiently that AMD
+discloses this limitation.
+Patent Owner asserts that “[t]he Board’s Institution Decision likewise cites
+‘appropriate programming of the INIT and INIT2 register’ as meeting both the
+‘receiving’ and ‘verifying’ limitations, even though claim 1 clearly requires the
+‘means for receiving’ to be a separate element from the ‘means for verifying.’” PO
+Resp. 9 (citing Inst. Dec. 9.) Patent Owner suggests that separate structures have
+not been identified for each means-plus-function limitation in a claim. We
+disagree. The means for receiving is met by writing to INIT and INIT2 and
+command registers. Pet. 10. The means for verifying is met by the register access
+circuit that controls programming of INIT and INIT2. Id.
+Patent Owner asserts “Petitioner identifies the corresponding structure that
+performs the ‘means for receiving’ as a data bus and equivalents, the Petition does
+not allege that AMD actually teaches a data bus.” We disagree. Petitioner states
+that AMD discloses “a signal sent via a data bus.” Pet. 9.
+10
+
+IPR2014-00563
+Patent 5,502,689
+Patent Owner asserts “the plain language of claim 1 requires that the means
+for disabling receive the disable activation signal generated by the means for
+verifying, [but] Petitioner has not identified such a disable activation signal that is
+generated by a first ‘verifying’ component and received by a second, different
+‘disabling’ component.” PO Resp. 10–11. We disagree. AMD discloses
+“POWER-DOWN mode is not available unless the POWER-DOWN ENABLE bit
+is set in the INIT2 register.” Ex. 1002, 9. AMD discloses that “[s]election of the
+POWER-DOWN mode causes the DSC/DC to begin an Internal countdown of at
+least 250-MCLK cycles.” Id. Thus, AMD discloses that upon proper
+programming of the INIT and INIT2 registers the POWER-DOWN is verified and
+a signal must be sent to begin the internal countdown of the 250-MCLK which
+activates disable. See Pet. 10.
+Claim 2 requires that the “means for verifying” further comprises “an
+interlock mechanism capable of detecting writes to said at least two registers, and
+wherein one of said at least two registers is a dummy register.” Claim 3 requires
+“said interlock mechanism prevents write access to one of said at least two
+registers unless said predetermined protocol requirement is met.” Claim 4 requires
+that the “predetermined protocol requirement comprises a predetermined number
+of writes in a predetermined order to said at least two registers.” Petitioner relies
+on AMD’s disclosure of a special predetermined write procedure to meet these
+limitations. Pet. 12–13 (citing Ex. 1002, 9–10). We are persuaded by these
+citations.
+Patent Owner asserts “Petitioner have not shown that AMD teaches a
+predetermined number of writes to the at least two registers of the means for
+11
+
+IPR2014-00563
+Patent 5,502,689
+verifying, as AMD actually teaches writing to two registers [the Command and
+Data Registers] that are different from the registers [INIT and INIT2] alleged to be
+the means for receiving.” PO Resp. 12. We disagree. Claim 4 requires writing to
+“at least” two registers. The Petition points to INIT and INIT2 as two registers and
+the Command and Data Registers as additional registers to which writes are made.
+Pet. 13–14. We are persuaded that Petitioner has pointed to “at least two registers”
+as required by claim 4.
+To the extent that a limitation of the challenged claims is not discussed
+above, Petitioner also provides detailed explanations of how each limitation of
+claims 1–4 is disclosed by AMD. Pet. 9–17. Upon review of Petitioner’s and
+Patent Owner’s analysis and supporting evidence, we are persuaded that Petitioner
+has shown by a preponderance of evidence that claim 1, and claims 2–4, which
+depend ultimately from claim 1, are anticipated by AMD.
+D. Claims 1–4— Anticipated by Maejima (Ex. 1003)
+Petitioner argues that claims 1–4 are anticipated under 35 U.S.C. § 102(b) by
+Maejima. Pet. 17–27. Maejima discloses a method of controlling a clock signal
+supplied to a logic circuit in a data processing apparatus so as to inhibit the supply
+of the clock signal to the logic circuit or fix the level of the clock signal at a
+specific level at any time, thereby reducing the power consumption. Ex. 1003,
+Abstract. Maejima also provides a method in which the extent of the circuit
+region, for which the supply of the clock signal is inhibited, can be changed as
+desired. Id.
+
+12
+
+IPR2014-00563
+Patent 5,502,689
+Below we discuss independent claim 1, from which all other dependent
+claims challenged in this ground depend. Claim 1 recites “means for producing
+said at least one output clock signal.”
+The structure corresponding to this limitation is a clock divider and
+equivalents thereof. Pet. 6–7. Petitioner asserts that Maejima’s disclosure of clock
+generating circuit 20 and clock supplying circuit 21, which is described as
+generating clock output signals 3x to 3z, meets this limitation. Pet. 19 (citing Ex.
+1003, col. 4, ll. 18–32). We are persuaded by this cited disclosure. Thus, on the
+record before us, Petitioner has shown sufficiently that Maejima discloses this
+limitation.
+Claim 1 also recites “means for disabling said means for producing upon
+reception of a disable activation signal.” The structure corresponding to this
+limitation is a shut-down control circuit together with a shut-down entry delay
+timer, and equivalents thereof. Pet. 7. Petitioner asserts that Maejima’s disclosure
+of clock supply inhibit signal, which is described as inhibiting application of the
+external clock signal, meets this limitation. Pet. 19–20 (citing Ex. 1003, col. 2, ll.
+5–12, col. 4, ll. 46–56).
+Claim 1 also recites “means for receiving a shut-down entry request signal.”
+Petitioner asserts that Maejima’s disclosure of clock control circuit 327, which is
+described as stopping clock signals 3x to 3z, meets this limitation. Pet. 20 (citing
+Ex. 1003, col. 5, ll. 49–57). The structure corresponding with this limitation is a
+data bus. Pet. 8. Patent Owner suggests that the Petition and Dr. Mercer’s
+testimony construe receiving means as the clock supply circuit rather than a data
+bus. PO Resp. 14–15. Petitioner states that:
+13
+
+IPR2014-00563
+Patent 5,502,689
+Maejima discloses the production of an output clock signal (e.g. signals 3x–3z),
+that is output from frequency dividers 120-125, and the ability to disable this clock
+signal via decoder 27 and delay circuit 327, in response to the application of a
+clock supply inhibit instruction (signal 3d) sent as output from IR 26 via a data bus
+between decoder 27 and clock supply 21.”
+Pet. 18 (emphasis added).
+Claim 1 also recites
+means for verifying that said received shut-down entry request signal
+meets a predetermined protocol requirement, said means for verifying
+comprising at least two registers, said means for verifying generating
+said disable activation signal upon verification that a received shutdown entry request signal does meet said predetermined protocol
+requirement, which disable activation signal is conducted to said
+means for disabling.
+The structure corresponding with this limitation is register access circuit.
+Pet. 8. Petitioner asserts that Maejima’s disclosure of the process of shutting down
+clock signals 3x to 3z, which begins by putting data n in program counter PC meets
+this limitation. Pet. 20–22 (citing Ex. 1003, col. 4, ll. 43–57). Maejima discloses
+“[referring to Fig. 7] [a]fter extension of a micro instruction ‘Memory Read’ in the
+block 7h, the presence or absence of an interrupt request [in the memory address
+register] is checked in the block 7i. When the result of checking in the block 7i
+proves that the signal 2c indicative of the presence of an interrupt request appears
+from the mask gate 324, the block 7i is followed by the block 7j so as to execute
+the interrupt processing program.” Id. at 20–21.
+Patent Owner argues:
+Since Maejima teaches that the control instruction is read from
+memory 28 into instruction register 26 based on the address stored in
+14
+
+IPR2014-00563
+Patent 5,502,689
+memory address register 25, then sent to decoder 27, and finally via
+clock supply stopping signal 3d used to control clock supply 21
+(which includes clock control circuit 327), Maejima does not teach a
+“means for verifying that said disable request signal satisfies a
+predetermined protocol requirement” because the alleged “means for
+verifying” in Maejima provide the signal received by the alleged
+“means for receiving” and thus cannot verify a signal that itself is
+sending to the “means for receiving.”
+PO Resp. 17. Patent Owner provides an annotated version of Fig. 2 of Maejima,
+which is reproduced below.
+
+The annotated version of Fig. 2 of Maejima shows that Petitioner’s alleged
+means for receiving receives input from the means for verifying, not the other way
+around as required by claim 1. We agree. Petitioner does not provide an adequate
+explanation to the contrary. In its reply, Petitioner notes that “in Fig. 4, signal 3d
+enters the clock control and must pass through flip-flops 300 and 301 as the system
+loops through Fig. 7 without being interrupted by an interrupt request on lines 3l3o, which becomes signal 3r. Paper 1, 18, 20-21 (“An interrupt signal (e.g. 3l-3o)
+can unlock the clock supplying circuit 21, initiating the supply of clock signals
+15
+
+IPR2014-00563
+Patent 5,502,689
+regardless of whether the interrupt signal is masked. . . . When [an interrupt is
+present], the block 7i is followed by the block 7j so as to execute the interrupt
+processing program. [If an interrupt is not present], the block 7i is followed by
+execution of . . . the instruction fetched in the block 7g”).” Reply 11–12. This
+does not explain why the alleged shutdown entry request signal (3d) is generated
+after the verification which occurs in the MAR and IR. Compare Pet. 18
+(“Maejima discloses . . . the ability to disable this clock signal via decoder 27 and
+delay circuit 327, in response to the application of a clock supply inhibit
+instruction (signal 3d) sent as output from IR 26 via a data bus between decoder 27
+and clock supply 21.”) with id. (“Maejima discloses verification of the clock signal
+inhibit instruction using PC 23 and specific programing of two registers, MAR and
+IR.”). Thus, Petitioner has not sufficiently explained how, based on the assertions
+in the Petition, Maejima meets the limitation of a “means for verifying that said
+received shut-down entry request signal meets a predetermined protocol
+requirement,” as recited in claim 1. Thus, Petitioner has not shown sufficiently
+that Maejima discloses this limitation.
+Petitioner argues that if the Board does not find Maejima anticipates claims
+1–4, the result of this case will be inconsistent with the Reexam, which found
+similar limitations of claim 5 were met by Maejima. We disagree. In the Reexam,
+receiving a disable request signal was equated to “receiving/applying signal 2a
+at/to the main memory 28”; See Col. 4, lines 43-45 and Fig. 2).” Ex. 1019, 7.
+Here, Petitioner, who was aware of this public finding as of the filing of the
+Petition, chose to rely on “the application of a clock supply inhibit instruction
+(signal 3d) sent as output from IR 26 via a data bus between decoder 27 and clock
+16
+
+IPR2014-00563
+Patent 5,502,689
+supply 21.” Pet. 21. Thus, the relationship between the means for verifying and
+the means for receiving is different in this case. Because Petitioner took a position
+inconsistent with the position in the Reexam, Petitioner can and has received a
+different result than the Reexam.
+Upon review of Petitioner’s and Patent Owner’s analysis and supporting
+evidence, we are persuaded that Petitioner has not shown by a preponderance of
+evidence that claim 1, and claims 2–4, which depend ultimately from claim 1, are
+anticipated by Maejima.
+E. Claims 1–4 — Obviousness over AMD and Maejima
+Petitioner argues that claims 1–4 are unpatentable under 35 U.S.C. § 103(a)
+over AMD and Maejima. Pet. 54–56. Petitioner asserts this challenge because,
+inter alia, Patent Owner argued in the Reexam that Maejima lacks a
+“predetermined protocol requirement,” as recited by the all the challenged claims.
+Id. (citing Ex. 1009, 12–13). As explained above in Section II.C., we have found
+that AMD meets this limitation, as well as all other limitations of claims 1–4.
+As to motivation to combine AMD and Maejima, Petitioner states:
+A person of ordinary skill in the art at the time of the invention would
+have combined AMD and Maejima because they both pertain to
+reducing power consumption in microprocessors by stopping the
+clock signal and designs for accomplishing it. First, AMD teaches
+specifically that processors may need time to complete housekeeping
+tasks before clock signals are stopped, and the recognition and
+solution of that problem in AMD would pertain equally to other
+references disclosing clock signal stoppage designs.
+
+17
+
+IPR2014-00563
+Patent 5,502,689
+Pet. 55–56. Thus, the Petitioner has provided evidence of sufficient
+rationale to combine AMD and Maejima. Additionally, we note that the
+discussion above in Sections II. B. and II. C. provides further description of
+how Petitioner has shown sufficiently that AMD and Maejima meet the
+limitations of claims 1–4. Thus, upon review of Petitioner’s and Patent
+Owner’s analysis and supporting evidence, we are persuaded that Petitioner
+has shown by a preponderance of evidence that claim 1, and claims 2–4,
+which depend ultimately from claim 1, would have been obvious over AMD
+and Maejima.
+III. CONCLUSION
+For the reasons set forth above, we are persuaded that Petitioner has shown
+by a preponderance of the evidence that:
+1. claims 1–4 are unpatentable under 35 U.S.C. § 102 over AMD; and
+2. claim 1–4 are unpatentable under 35 U.S.C. § 103 over AMD and
+Maejima.
+We further conclude that Petitioner’s challenges to cancelled claims 5, 6,
+and 9 are moot.
+
+18
+
+IPR2014-00563
+Patent 5,502,689
+IV. ORDER
+Accordingly, it is
+ORDERED that claims 1–4 of U.S. Patent 5,502,689 have been shown to be
+unpatentable; and
+FURTHER ORDERED that, because this is a Final Written Decision, parties
+to the proceeding seeking judicial review of the decision must comply with the
+notice and service requirements of 37 C.F.R. § 90.2.
+
+19
+
+IPR2014-00563
+Patent 5,502,689
+PETITIONER:
+Sean Hsu
+HARTLINE DACUS BARGER DREYER LLP
+shsu@hdbdlaw.com
+
+PATENT OWNER:
+Minghui Yang
+Greg Donahue
+DINOVO PRICE ELLWANGER & HARDY LLP
+myang@dpelaw.com
+gdonahue@dpelaw.com
+
+20
+
+

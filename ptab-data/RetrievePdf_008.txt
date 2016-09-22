@@ -1,0 +1,2783 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 50
+Entered: January 22, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+__________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+__________
+VOLKSWAGEN GROUP OF AMERICA, INC.,
+Petitioner,
+v.
+EMERACHEM HOLDINGS, LLC,
+Patent Owner.
+__________
+Case IPR2014-01555
+Patent 5,451,558
+
+Before FRED E. McKELVEY, JAMES T. MOORE, and
+SHERIDAN K. SNEDDEN, Administrative Patent Judges.
+McKELVEY, Administrative Patent Judge.
+
+DECISION
+Final Written Decision
+37 C.F.R. § 318(a)
+I. Introduction
+Pending before the Board is entry of a Final Written Decision.
+A Petition was filed on 30 September 2014. Paper 1.
+An inter partes review trial was ordered on 16 March 2015. Paper 21,
+rehearing granted-in-part, Paper 26 (15 April 2015).
+
+IPR2014-01555
+Patent 5,451,558
+
+Patent Owner timely filed an Opposition to the Petition. Paper 29.
+Petitioner timely filed a Reply. Paper 32.
+Patent Owner has also filed a first Motion to Exclude (Paper 34) and
+a second Motion to Exclude (Paper 37). Petitioner has opposed (Paper 43).
+II. Background
+A. The Parties
+Petitioner is Volkswagen Group of America, Inc. Paper 2, page 1.
+Patent Owner is EmeraChem Holdings, LLC. Paper 6, page 2.
+B. Involved Patent
+The involved patent is expired U.S. Patent 5,451,558 (“the ʼ558
+patent”) issued 19 September 1995, based on an application filed 4 February
+1994. Ex. 1001.
+A description of the ʼ558 patent is set out below.
+Because the ʼ558 patent has expired, we have not interpreted the
+claims using the broadest reasonable interpretation. 37 C.F.R. § 42.100(b);
+In re Rambus, 694 F.3d 42, 46 (Fed. Cir. 2012) (Board’s claim construction
+of expired patent similar to district court’s) (citing Ex parte Papst-Motoren,
+1 USPQ2d 1655, 1655–56 (BPAI 1986)).
+C. Litigation
+The ʼ588 patent is involved in litigation, viz., EmeraChem Holdings,
+LLC v. Volkswagen Group of America, Inc., Volkswagen AG, and
+Volkswagen Group of America Chattanooga Operations, LLC, No.
+14-cv-132-PLR-HBG (E.D. Tenn. filed Mar. 31, 2014). Paper 2, page 1;
+Paper 6, page 1.
+
+2
+
+IPR2014-01555
+Patent 5,451,558
+
+An amended complaint was served on defendant Volkswagen Group
+of America Chattanooga Operations, LLC, on 6 November 2014. Paper 12,
+page 2.
+An amended complaint was served on defendant Volkswagen Group
+of America, Inc., on 6 November 2014. Paper 12, page 1.
+An amended complaint was served on defendant Volkswagen AG on
+8 January 2015. Id.
+D. Evidence Relied Upon
+The following prior art, listed in numerical order by exhibit number, is
+relied upon in support of the Petition:
+Name
+
+Exhibit
+No.
+
+Description
+
+Date
+
+Takeshima et al.
+“Takeshima”
+
+1004B
+
+Hoekstra
+
+1005A
+
+International Patent
+Application PCT/JP92/01279,
+published as
+WO 93/07363 A1
+U.S. Patent No. 3,849,343
+
+Kinoshita et al.
+“Kinoshita”
+
+1006A
+
+U.S. Patent No. 4,369,132
+
+18 Jan. 1983
+
+Inui et al.
+“Inui”
+
+1007B
+
+Japanese Patent Application
+Publication No. H4-367724
+
+21 Dec. 1992
+
+Stiles et al.
+“Stiles”
+
+1008A
+
+U.S. Patent No. 5,362,463
+
+3
+
+15 Apr. 1993
+
+19 Nov. 1974
+
+8 Nov. 1994
+filed
+26 Aug. 1992
+
+IPR2014-01555
+Patent 5,451,558
+
+E. Grounds
+Claims 1–45 appear in the ʼ588 patent.
+An inter partes review trial was instituted on the following claims and
+prior art (I means instituted based on § 102 unless otherwise noted; NI
+means not instituted).
+Claim
+
+Takeshima
+Ground 1
+
+Hoekstra
+Ground 2
+
+Kinoshita
+Ground 3
+
+Inui
+Ground 4
+
+Stiles
+Ground 5
+
+1
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+2
+7
+
+I
+
+I
+
+I
+
+I
+
+I
+
+8
+
+I
+
+I
+
+I
+
+I
+
+I
+
+9
+
+I–§ 103
+
+I
+
+I
+
+10
+
+I–§ 103
+
+I
+
+I
+
+11
+
+I–§ 103
+
+12
+
+I
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+14
+
+I
+
+I
+
+15
+16
+
+I
+
+17
+
+I
+
+I
+
+I
+
+19
+
+I
+
+I
+
+I
+
+21
+
+I
+
+I–§ 103
+
+22
+
+I
+
+I–§ 103
+
+23
+
+I–§ 103
+
+I–§ 103
+
+24
+
+I
+
+I
+
+31
+
+I
+
+I
+
+32
+
+I
+
+I
+
+33
+
+I
+
+I
+
+I
+
+34
+
+I
+
+I
+
+I
+
+35
+
+I
+
+I
+
+I
+
+36
+
+NI
+
+I
+
+I
+
+I
+
+I
+
+37
+
+4
+
+I
+
+IPR2014-01555
+Patent 5,451,558
+
+Claim
+
+Takeshima
+Ground 1
+
+Hoekstra
+Ground 2
+
+Kinoshita
+Ground 3
+
+38
+
+I
+
+I
+
+39
+
+I
+
+I
+
+I
+
+40
+
+I
+
+I
+
+I
+
+41
+
+I
+
+42
+
+I
+
+I
+
+NI
+
+44
+
+Inui
+Ground 4
+
+Stiles
+Ground 5
+
+I
+
+See Decision on Rehearing (Paper 26, pages 3–4). Claims of the ’558 patent
+not challenged have not been listed.
+F. Oral Argument
+Oral argument was held on 23 November 2015.
+Prior to oral argument, and based on the Petition, Opposition, and
+Reply, the Board invited the parties to address specific issues at oral
+argument. Paper 46, pages 3–4.
+A transcript of oral argument has been placed in the record. Paper 49.
+Some of the oral argument presented by both parties was not
+consistent with oral argument procedure applicable before the Board. In
+particular, arguments were made that were not based on arguments in the
+Petition, Opposition, or Reply. In addition, explanations were proffered that
+are not supported by evidence in the record or arguments previously made in
+the Petition, Opposition, or Reply. See, e.g., Transcript of Oral Argument,
+Paper 49, page 18:6 through page 19:12.
+Oral argument is governed in part by 37 C.F.R. § 42.70(a) (first
+sentence) (italics added):
+
+5
+
+IPR2014-01555
+Patent 5,451,558
+
+(a) A party may request oral argument on an issue raised
+in a paper at a time set by the Board.
+The Trial Practice Guidelines advise as follows:
+A party may rely upon evidence that has been previously
+submitted in the proceeding and may only present
+arguments relied upon in the papers previously submitted.
+No new evidence or arguments may be presented at the
+oral argument.
+Office Patent Trial Practice Guide, 77 Fed. Reg. 48756, 48768 (col. 2)
+(Aug. 14, 2012) (italics added).
+The rationale in support of the Rule and Guideline is fundamental
+fairness to an opponent. 37 C.F.R. § 42.1(b) (Part 42 “shall be construed to
+secure the just, speedy, and inexpensive resolution of every proceeding.”).
+It is not just to an opponent for a party to raise an argument not based on the
+Petition, Opposition, or Reply, or to discuss evidence not in the record.
+Why? There is no meaningful opportunity for the opponent to rebut the
+argument or address the evidence. Likewise, the Board is at a disadvantage
+because judges do not prepare for oral argument based on arguments and
+evidence not present in the record.
+To the extent that arguments and discussions took place at oral
+argument in this case contrary to the principles set out above, those
+arguments and discussions have not been considered in rendering a decision
+on the merits.
+G. The ʼ558 patent
+Figures 1A, 1B, and 1C of the ʼ558 patent are reproduced below.
+6
+
+IPR2014-01555
+Patent 5,451,558
+
+Fig. 1A depicts a schematic drawing of
+a catalyst absorber sphere.
+
+Fig. 1B depicts a magnified schematic
+representation of a portion of a catalyst absorber sphere.
+
+Fig. 1C depicts a schematic drawing of the surface
+of a monolith catalyst absorber.
+
+7
+
+IPR2014-01555
+Patent 5,451,558
+The ʼ558 patent explains:
+As shown in FIG. 1, the catalyst absorber of the
+present invention can take on different configurations.
+FIG. 1a shows a spherical catalyst absorber made up of
+an alumina sphere 10 with a platinum coating 12 and a
+carbonate coating 14 thereon. As shown in FIG. 1b, the
+surface of the sphere is very irregular so that there is an
+extremely large surface area per gram of material as
+described herein. As shown in FIG. 1c, the catalyst
+absorber can be in the form of a monolith surface
+including a ceramic or stainless steel support 20, an
+alumina layer 22, a platinum layer 24 and a carbonate
+layer 26.
+Ex. 1001A, 4:65–5:8.
+With reference to Figures 1A through 1C, independent composition
+claim 1 of the ’558 patent reads (indentation, drawing element numbers, and
+matter in brackets added):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum
+[12, 24], palladium, rhodium, cobalt, nickel, iron, copper,
+molybdenum or combinations thereof
+[2] disposed on a high surface area support [10, 20],
+[3] said catalytic component[1] being intimately and
+entirely coated with an absorber selected from a hydroxide,
+
+There is no antecedent for “said catalytic compound” in claim 1; we
+construe “said catalytic component” to refer to “an oxidation catalyst.”
+1
+
+8
+
+IPR2014-01555
+Patent 5,451,558
+
+carbonate [14, 26], bicarbonate or mixtures thereof of an alkali
+or alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:30–38.
+Figure 2 of the ʼ558 patent is reproduced below.
+
+Fig. 2 depicts a flowchart illustrating a
+process of making the catalyst.
+With reference to Figures 1 and 2, the ʼ558 patent explains:
+The method of making the catalyst absorber is
+shown in FIG. 2. The catalyst/absorber of the present
+invention is made by starting with high surface area
+alumina spheres [10] having a surface area of 50 to 350
+square meters per gram . . . . The spheres are
+approximately 1/8 inch in diameter. . . . The alumina
+spheres are washed with distilled water to remove small
+particles bound loosely to the surface. The spheres are
+then dried for about 16 hours at 300º F. to ensure that all
+of the cavities and interstices in the spheres are fully
+dried, and that the surface is free of water. The spheres
+
+9
+
+IPR2014-01555
+Patent 5,451,558
+
+are then stored in an air-tight container until ready for
+further processing.
+A solution of Pt 2-ethylhexanoate [platinum
+2-ethylhexanoate] which contained 25% Pt [platinum]
+was added to toluene to get a concentration of Pt such
+that the weight of solution equal to the toluene uptake
+would contain sufficient Pt to give a loading of 0.23
+weight percent per weight of alumina. The platinum
+coated spheres [Figs. 1A and 1B, elements 10 and 12]
+were then dried for 1 hour at 900º F. in air. The spheres
+are then cooled to approximately room temperature and
+stored in an air-tight container again. The platinum
+coated spheres [Figs. 1A and 1B, elements 10 and 12] are
+then coated with an alkali or alkaline earth carbonate or
+bicarbonate coating [Figs. 1A and 1B, element 14], the
+alkali or alkaline earth carbonate or bicarbonate being
+selected from lithium, sodium, potassium or calcium
+carbonate or bicarbonate solution, preferably, a sodium
+carbonate solution at a concentration of 14 percent by
+weight in distilled water. The water was heated to
+dissolve all of the sodium carbonate. The carbonate
+coated spheres were then dried at 300º F. for two hours.
+The final catalyst absorber had a coating of platinum in
+the amount of 0.23 weight percent added to the alumina,
+and 10.0 weight percent Na2CO3 [sodium carbonate]
+added to the alumina.
+Ex. 1001A, 5:9–47 (italics added).
+Independent method claim 33 of the ʼ558 patent reads (indentation
+and matter in brackets added):
+A process of preparing a material for removing gaseous
+pollutants comprising
+
+10
+
+IPR2014-01555
+Patent 5,451,558
+
+[1] depositing an oxidation catalyst specie [Fig. 1A, 12]
+selected from platinum, palladium, rhodium, cobalt, nickel, iron,
+copper, molybdenum or combination[s] thereof from a solution
+onto a high surface area support [Fig. 1A, 10],
+[2] drying said support and
+[3] depositing from a solution over said oxidation
+catalyst specie[s] an absorber [Fig. 1A, 14] selected from a
+hydroxide, carbonate or bicarbonate and mixtures thereof of an
+alkali or alkaline [earth] or mixtures thereof and
+[4] drying the support thereby coating said oxidation
+catalyst specie[s] with said absorber.
+Ex. 1001, col. 14:3–13.
+III. Analysis—Takeshima (Ground 1)
+A. Challenge
+According to Petitioner, claims 1, 7, 8, 14, and 32 of the ʼ558 patent
+are anticipated by Takeshima (Ex. 1004B). Paper 2, pages 12 and 17–25;
+Paper 32, pages 10–14.
+Patent Owner disagrees. Paper 29, pages 11–13.
+B. Anticipation
+To establish anticipation, a party must show by a preponderance of the
+evidence that a prior art reference expressly or inherently describes each
+claim limitation arranged as in the claim said to be anticipated. Finisar
+Corp. v. DirecTV Group, Inc., 523 F.3d 1323, 1334–35 (Fed. Cir. 2008),
+
+11
+
+IPR2014-01555
+Patent 5,451,558
+
+as further amplified by Net MoneyIN, Inc. v. VeriSign, Inc., 545 F.3d 1359,
+1371 (Fed. Cir. 2008).
+Whether a reference anticipates a claim is a question of fact. In re
+Baxter Travenol Lab., 952 F.2d 388, 390 (Fed. Cir. 1991).
+C. Claim 1
+Claim 1 reads (matter in brackets added; principal limitation in
+dispute in italics):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum,
+palladium, rhodium, cobalt, nickel, iron, copper, molybdenum
+or combinations thereof
+[2] disposed on a high surface area support,
+[3] said [catalytic] component being intimately and
+entirely coated with an absorber selected from a hydroxide,
+carbonate, bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:29–37.
+D. Petition
+The following appears in Petitioner’s claim chart (italics added):
+
+12
+
+IPR2014-01555
+Patent 5,451,558
+
+Limitation in claim 1
+said catalytic component being
+intimately and entirely coated with
+an absorber selected from a
+hydroxide, carbonate, bicarbonate or
+mixture thereof of an alkali or
+alkaline earth or mixtures thereof.
+
+Takeshima
+Platinum and barium oxide are
+carried on the alumina carrier.
+Ex. 1004[B] at Paragraphs
+[0014-15]. Figs. 5(A)-5(B) depict
+the barium oxide being disposed over
+the platinum.
+
+Paper 2, page 24 (italics added).
+Takeshima Figures 5(A) and 5(B), and a portion of Figure 1, are
+reproduced below.
+
+Fig. 1 depicts a gasoline engine
+
+13
+
+IPR2014-01555
+Patent 5,451,558
+
+Figs. 5(A) and 5(B) depict a schematic view
+of the Takeshima catalyst
+Paragraphs 0014–0016, and 0018 of Takeshima read in part:
+[0014] The NOx absorbent 18 contained in the casing 19
+uses, for example, alumina as a carrier.
+[0015] [I]t can be considered that . . . absorption and
+releasing operation is conducted by the mechanism as
+shown in Fig. 5. This mechanism will be explained by
+using as an example a case where platinum Pt and
+barium Ba [in the form of barium oxide] are carried on
+the carrier . . . .
+[0016] Namely, when the inflow of exhaust gas becomes
+considerably lean, the concentration of oxygen in the
+inflow of exhaust gas is greatly increased. As shown in
+Fig. 5(A), the oxygen O2 is deposited on the surface of
+the platinum Pt in the form of O2. On the other hand, the
+NO in the inflow of exhaust gas reacts with the O2 on the
+surface of the platinum Pt and becomes NO2 (2NO + O2
+→ 2NO2). Subsequently, a part of the produced NO2 is
+oxidized on the platinum Pt and absorbed into the
+14
+
+IPR2014-01555
+Patent 5,451,558
+
+absorbent. While bonding with the barium oxide BaO, it
+is diffused in the absorbent in the form of nitric acid ions
+NO3 as shown in Fig. 5(A). In this way, NOx is
+absorbed into the NOx absorbent 18.
+[0018] On the other hand, at this time, when the air-fuel
+ratio of the air-fuel mixture fed into the combustion
+chamber 3 is made rich and the air-fuel ratio of the
+inflow of exhaust gas becomes rich . . . a large amount
+of unburnt HC [hydrocarbons] and CO [carbon
+monoxide] is discharged from the engine, and these
+unburnt HC and CO react with the oxygen on the
+platinum Pt and are oxidized. Also, when the air-fuel
+ratio of the inflow of exhaust gas becomes rich, the
+oxygen concentration in the inflow of exhaust gas is
+extremely lowered, and therefore the NO2 is released
+from the absorbent. This NO2 reacts with the unburnt HC
+and CO as shown in Fig. 5(B) and is reduced. In this
+way, when the NO2 no longer exists on the surface of the
+platinum Pt, the NO2 is successively released from the
+absorbent. Accordingly, when the air-fuel ratio of the
+inflow of exhaust gas is made rich, the NOx is released
+from the NOx absorbent 18 in a short time.
+Petitioner’s witness, Dr. Farrauto, testified:
+35. The oxidation of CO in the “rich” exhaust stream on the
+platinum catalyst, as described in Paragraph [0018] of
+Takeshima (Ex. 1004[B]), produces more carbon dioxide in
+addition to the carbon dioxide produced by the combustion
+of the fuel.
+36. During the “rich” operations described in Takeshima,
+barium oxide in the disclosed Pt–BaO–alumina catalyst
+would convert to barium carbonate in the presence of the
+carbon dioxide in the exhaust stream.
+
+15
+
+IPR2014-01555
+Patent 5,451,558
+
+Ex. 1003A ¶¶ 35–36.
+E. Opposition
+Patent Owner argues that despite Petitioner’s claim chart stating that
+“Figs. 5(A)–5(B) depict the barium oxide being disposed over the platinum,”
+Petitioner has failed to show “that a barium carbonate absorber is over . . .
+[a] platinum group metal.” Paper 29, pages 11–12 (underlining in original).
+Patent Owner further argues that Takeshima does not describe a
+method for making its catalyst/absorber. Id., page 13.
+Patent Owner still further argues that Takeshima does not describe a
+“high surface area support.” Id., page 13:8–9.
+F. Reply
+Petitioner’s Reply suggests that Patent Owner’s sole argument is that
+“Takeshima does not . . . disclose an oxidation catalyst specie[s] intimately
+and entirely coated with an absorber.” Paper 32, page 10.
+During prosecution in response to a rejection (Ex. 2002, renumbered
+pages 70–72) of at least original claim 1 (Ex. 2002, renumbered page 31)
+based on a Wan patent, Patent Owner added “intimately and entirely coated”
+in newly presented claim 57 (Ex. 2002, renumbered page 83:2–3).
+Further according to Petitioner, the amendment was designed to make
+clear that any “alkaline earth compound [e.g., barium oxide] is not alloyed
+within the alumina [support] as a [thermal] stabilizer, but [rather is] disposed
+on top so that it can function as an absorber.” Paper 32, pages 3–4 and
+11–12.
+
+16
+
+IPR2014-01555
+Patent 5,451,558
+
+G. Discussion
+An issue before us is the meaning of “intimately and entirely coated.”
+The language “intimately and entirely coated” does not appear in the
+written description portion of the specification. As noted above, the
+language was added during prosecution in an attempt to avoid a Wan patent.
+The language “intimately and entirely coated” is consistent with
+Figures 1A, 1B, and 1C of the ’558 patent. Thus, we disagree with
+Petitioner that “the ʼ558 patent does not expressly state [i.e., disclose]
+that . . . platinum, . . . must be coated with an oxide layer.” Paper 32,
+page 8; see also Ex. 1001, col. 5:34–35.
+The Petition states that “intimately and entirely coated” is to be
+“construed to require that the absorber material must be disposed over, or on
+top of, the catalytic component relative to the high surface area support.”
+Paper 2, page 15:14–16.
+Patent Owner seems to agree. See Paper 29, page 8:5–8. Patent
+Owner goes on to say that “experts for both parties have interpreted the term
+‘entirely coated’ as meaning the amount of the absorber must be sufficient
+to form a monolayer on the surface area presented by the high surface area
+support . . . which itself is at least partially coated with the oxidation catalyst
+specie.” Id. at page 8:8–12. Lastly, Patent Owner “agrees that the
+combustion exhaust must nevertheless have access to the catalyst either
+directly, or by diffusion through the overlaying absorber. Id. at page 8:12–14.
+(italics added).
+
+17
+
+IPR2014-01555
+Patent 5,451,558
+The Reply relies on cross-examination testimony of Patent Owner’s
+witness, Dr. Mark Crocker:
+Q [by counsel for Petitioner]. Okay. Do you know if NO
+[nitrous oxide] can diffuse through [a] sodium carbonate
+[layer]?
+A [Dr. Crocker]. I have never examined that, but I would
+imagine that there is some degree of mobility of NOx
+through sodium carbonate by means of iron [ion?]
+transport, also possibly by means of molecular diffusion.
+Q. Okay. So is there a thickness of sodium carbonate
+through which no NO could diffuse through?
+A. That's a difficult question to answer. What I can say
+is that the thicker the coating, the slower the diffusion
+will likely be.
+Q. And hence, less effective the catalyst absorber will
+be?
+A. Yes, if the coating is too thick.
+Q. Do you have any sense of how thick the sodium
+carbonate would be that would render the catalyst
+absorber ineffective to catalyze the NO to NO2?
+A. Not having examined this myself, I can't give an
+answer. What I can -- or I cannot give a precise answer.
+What I can say is that, if I were designing a catalyst, I
+would try and restrict the thickness of the coating to not
+more than a couple of monolayers.
+Q. Okay. And is that recommendation stated anywhere
+in the ’558 patent?
+18
+
+IPR2014-01555
+Patent 5,451,558
+
+A. No.
+Ex.1056, page 45: 6 – page 46: 5; Paper 32, page 5.
+According to Petitioner, given Dr. Crocker’s cross-examination
+testimony, Patent Owner’s claim construction language “must fail” citing
+Talbert Fuel Sys. Patents Co.2 Paper 32, page 5.
+Petitioner has “revised” Dr. Crocker’s testimony to suit its case.
+Dr. Crocker did not testify that the claimed invention would be inoperable.
+He testified that that the effectiveness of the catalyst could be a function of
+the thickness of the absorber layer.
+Operativeness (35 U.S.C. § 101) and enablement (35 U.S.C. § 112)
+per se of a challenged patent are not patentability issues that can be raised in
+an IPR. To the extent that Petitioner seeks to raise the issue here for the sole
+purpose of establishing that Patent Owner’s claim construction “must fail,”
+and therefore claim 1 is anticipated by Takeshima, Petitioner has failed to
+prove its case. A patent is presumed to enable one skilled in the art to make
+and use the claimed invention.
+2
+
+Talbert Fuel Sys. Patents Co. v. Unocal Corp., 275 F.3d 1371, 1376 (Fed.
+Cir. 2002) (Talbert I), certiorari granted, vacated, and remanded, 537 U.S.
+602 (2003), judgment aff’d, Talbert Fuel Sys. Patents Co. v. Unocal Corp.,
+347 F.3d 1355 (Fed. Cir. 2003) (Talbert II). Talbert I was cited for the
+propositions that (1) “a [claim] construction that renders the claimed
+invention inoperable should be viewed with extreme skepticism” and
+(2) “Talbert did not demonstrate inoperability. . . .” We believe the
+propositions survived Supreme Court and Talbert II review on remand.
+However, for reasons given in this opinion, those propositions do not apply
+in the case before us.
+19
+
+IPR2014-01555
+Patent 5,451,558
+
+Dr. Crocker did not testify that one skilled in the art could not use the
+ʼ558 invention; rather, he explained how effectiveness may be a function of
+absorber layer thickness.
+A comparison of Figures 1A, 1B, and 1C of the ʼ558 patent vis-à-vis
+Figures 5(A) and 5(B) of Takeshima reveals that (1) the “material” of the
+ʼ558 patent has a layer 14, 26 covering the entire catalyst layer 12, 24,
+whereas (2) the Takeshima “material” has a corresponding element barium
+oxide layer (the NO3 – NO3 portion) that does not cover the entire catalyst
+(circular P1 portion) even if the barium oxide layer is intimately connected to
+the P1 catalyst. This detail is made clear by Dr. Crocker’s cross-examination
+testimony (Ex. 1056, page 61:10–page 63:17) creating a partially highlighted
+Exhibit 1053, reproduced below:
+
+Determining the meaning of “intimately and entirely coated” has been
+somewhat difficult, since the language does not appear in the written
+20
+
+IPR2014-01555
+Patent 5,451,558
+description portion of the specification. Use of “intimately and entirely
+coated” in claim 1 without a mention of ‘intimately and entirely coated” in
+the written description portion of the specification of the ʼ588 patent raises a
+concern expressed by Federal Circuit Judge Richard Linn:
+In case after case before my court, the central debate
+revolves around the meaning of claim terms that, for
+example, were added during prosecution and do not
+appear anywhere in the written description. For those
+cases, the meaning of the claim limitation has to be
+inferred from other words, leaving the issue open to
+unnecessary dispute and leading frequently to protracted
+and costly litigation.
+Linn, Perspectives on Becoming a Successful Examiner, 91 J. Pat. & Tm.
+Office Soc’y 418, 421 (6 June 2009).
+On the one hand, a claim construction requiring that the absorber
+layer entirely cover the catalyst layer is entirely consistent with Figs. 1a–1c
+of the ’558 patent and associated discussion in the specification. Ex. 1001,
+col. 3:38–40 (Fig. 1b showing a magnified view that is depicted as a
+completely covered catalyst layer) and col. 4:67–5:1 (describing an alumina
+sphere 10 with a platinum coating 12 and a carbonate coating 14 thereon).
+There is no hint in the specification as to the thickness of carbonate coating
+14.
+On the other hand, both experts seem to believe that “intimately and
+entirely coated” is broader than Figs. 1a–1c. Both believe that the language
+includes a material where the catalyst has direct contact with the exhaust gas,
+as opposed to being limited by a monolayer absorbent where the catalyst
+
+21
+
+IPR2014-01555
+Patent 5,451,558
+
+functions via diffusion. The direct contact option appears to us to be a postlitigation afterthought when compared to the specification, as filed. It is true
+that Dr. Crocker and Dr. Farrauto suggest that if the layer is too thick, the
+ʼ588 material may not be efficient. No degree of efficiency appears in the
+claim.
+The matter was discussed at oral argument:
+JUDGE McKELVEY: Let me ask you this: Why isn’t
+this claim [i.e., claim 1] limited to figure 1A of your patent?
+DR. RASSER [counsel for Patent Owner]: Your Honor,
+I was not present at the time when the prosecution took place.
+In my view –
+JUDGE McKELVEY: It says entirely and intimately
+coated [actually intimately and entirely coated]. Figure 1 shows
+that.
+DR. RASSER: Right.
+JUDGE McKELVEY: And tell me where else
+something is describe[d in the Specification] that would make it
+mean something different.
+DR. RASSER: There isn’t.[3]
+
+Dr. Rasser thereafter attempted to explain why the “intimately and
+entirely coated” limitation should be given a different construction.
+However, he candidly conceded that his explanation was not supported by
+any testimony. Transcript of Oral Argument, Paper 49, page17:16 through
+page 19:12. In response to a question of “Where is there testimony on that
+point,” the answer was “There isn’t.” Page 19:10–12.
+3
+
+22
+
+IPR2014-01555
+Patent 5,451,558
+We hold that “intimately and entirely coated” mean exactly what it
+says. In other words, it means the embodiment shown in Figs. 1a through 1c
+of the ʼ558 patent drawings and associated discussion in the written
+description portion of the specification.
+We appreciate why both parties would prefer a broader construction,
+i.e., “intimately and entirely coated” means (1) coated with a monolayer
+where catalytic action would occur through diffusion (our construction) as
+well as (2) direct contact with the combustion gas without diffusion.
+Petitioner would favor a broader construction because Takeshima anticipates
+a direct contact embodiment. Patent Owner would favor a broader
+construction because more “material” might infringe claim 1.
+Takeshima Figs. 5(A) and 5(B) describe an embodiment where the
+exhaust gas directly contacts the catalyst. A direct contact embodiment does
+not fall within the scope of claim 1 of the ʼ558 patent.
+Accordingly, Takeshima does not describe the “intimately and
+entirely coated” limitation of claim 1.
+Therefore, Takeshima does not anticipate claim 1 of the ʼ558 patent.
+Claim construction is an issue of law. In the event of an appeal, it is
+possible the Federal Circuit could disagree with our construction. Because
+of that possibility, and to mitigate a possibility of a need for a remand, we
+will address the applicability of Takeshima under the broader interpretation
+seemingly urged by the parties.
+Takeshima Figs. 5(A) and 5(B) do not show the monolayer
+embodiment; instead they show an embodiment where the exhaust gas
+
+23
+
+IPR2014-01555
+Patent 5,451,558
+
+directly contacts the Pt (platinum) catalyst. If it would turn out that
+“intimately and entirely coated” covers that embodiment, then Takeshima
+would anticipate claim 1 of the ʼ558 patent.
+Patent Owner further argues that there is no anticipation because
+Takeshima Figs. 5(A) and 5(B) are said not to describe a “high surface area
+support.” Paper 29, page 13:8–9.
+Patent Owner’s argument limited to Figs. 5(A) and 5(B) is somewhat
+curious. Manifestly, Takeshima describes the use of “alumina as a carrier.”
+Ex. 1004B, ¶ 0014:1–2. Dr. Farrauto testified that the “alumina carrier
+disclosed by Takeshima is a high surface area support because it has
+sufficient irregular internal surface structure to allow the deposition of an
+amount of platinum that is necessary to allow the catalyzed 2NO + O2 →
+2NO2 reaction to occur.” Ex. 1003, ¶ 29. Patent Owner’s Opposition does
+not address Dr. Farrauto’s relevant testimony. We find Dr. Farrauto’s
+testimony credible.
+We find, based on Dr. Farrauto’s testimony, that one skilled in the art
+would understand that Takeshima describes a high surface area support.
+As noted earlier, Patent Owner also maintains that Takeshima fails to
+describe a method for making its material. In effect, Patent Owner
+maintains that Takeshima does not contain an enabling disclosure.
+Takeshima is presumed to be enabling. In re Antor Media Corp., 689 F.3d
+1282 (Fed. Cir. 2012) (see Part I: a non-patent prior art publication is
+presumed to be enabling). Patent Owner has not directed our attention to
+evidence relating to any alleged lack of enablement.
+
+24
+
+IPR2014-01555
+Patent 5,451,558
+
+Patent Owner has not argued the separate patentability of dependent
+claims 7, 8, 14, and 32. Accordingly, those claims fall with claim 1. See
+Office Patent Trial Practice Guide, 77 Fed. Reg. 48756, 48532 (col. 1,
+Comment 60) (Aug. 14, 2012) (“a patent owner may waive any argument
+that a claim is separately patentable”) and Paper 22, page 5 (“Patent Owner
+is cautioned that any argument in support of patentability not raised in the
+Response will be deemed waived.”).
+I. Summary
+(1) Based on our interpretation of “intimately and entirely coated,”
+we find that challenged claims 1, 7, 8, 14, and 32 are not anticipated by
+Takeshima.
+(2) Should our interpretation be set aside on appeal in favor of the
+parties’ proposed construction, then we would find, for the reasons given
+above, that Takeshima anticipates challenged claims 1, 7, 8, 14, and 32.
+J. Decision
+We find that Petitioner has failed to establish by a preponderance of
+the evidence that Takeshima anticipates claim 1.
+Since independent claim 1 has not been shown to be anticipated, it
+follows that dependent claims 7, 8, 14 and 32 likewise have not been shown
+to be anticipated.
+
+25
+
+IPR2014-01555
+Patent 5,451,558
+
+IV. Analysis—Hoekstra (Ground 2)
+A. Challenge
+According to Petitioner, claims 1, 7–12, 14, 21–23, 32–36 and 38–42
+of the ʼ558 patent are anticipated by Hoekstra (Ex. 1005A) and claims 9–11
+and 23 are unpatentable under 35 U.S.C. § 103(a) over Hoekstra. Petition
+(Paper 2), pages 12 and 25–36; Reply (Paper 32), pages 14–18.
+Patent Owner disagrees. Opposition (Paper 29), pages 14–19.
+We did not institute with respect to claim 36 based on Hoekstra.
+Paper 26, page 4.
+Therefore claim 36 is not before us as to Ground 2.
+B. Anticipation
+To establish anticipation based on inherency, the evidence must
+establish that the missing descriptive matter is necessarily present in the
+thing described in the reference. Continental Can Co. v. Monsanto Co.,
+948 F.2d 1264, 1268 (Fed. Cir. 1991).
+Inherency cannot be established by the mere fact that a certain thing
+may result from a given set of circumstances. In re Robertson, 169 F.3d 743,
+745 (Fed. Cir. 1999). See also Hansgirg v. Kemmer, 102 F.2d 212, 214
+(CCPA 1939) (inherency may not be established by probabilities or
+possibilities; the mere fact that a certain thing may result from a given set of
+circumstances is not sufficient); Rapoport v. Dement, 254 F.3d 1053, 1063
+(Fed. Cir. 2001) (inherency, a question of fact, cannot be established by a
+preponderance of the evidence based on evidence that a certain thing may
+result from a given set of circumstances).
+
+26
+
+IPR2014-01555
+Patent 5,451,558
+
+Whether a reference inherently describes claimed subject matter is a
+question of fact. In re Fracalossi, 681 F.2d 792, 794 (CCPA 1982); In re
+Schreiber, 128 F.3d 1473 (Fed. Cir. 1997).
+C. Claim 1
+Claim 1 is again reproduced for the convenience of the reader.
+Claim 1 reads (matter in brackets added; principal limitation in
+dispute in italics):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum,
+palladium, rhodium, cobalt, nickel, iron, copper, molybdenum
+or combinations thereof
+[2] disposed on a high surface area support,
+[3] said catalytic] component being intimately and
+entirely coated with an absorber selected from a hydroxide,
+carbonate, bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:29–37.
+D. Petition
+The following appears in Petitioner’s claim chart in part (italics
+added):
+Limitation in claim 1
+said catalytic component being
+intimately and entirely coated with
+an absorber selected from a
+
+Hoekstra
+The platinum-impregnated carrier is
+coated with a selected alkaline earth
+metal compound. Ex. 1005[A] at
+27
+
+IPR2014-01555
+Patent 5,451,558
+
+hydroxide, carbonate, bicarbonate or
+mixture thereof of an alkali or
+alkaline earth or mixtures thereof.
+
+col. 3, ln. 51-55.
+The alkaline earth metal solution
+is applied to the platinum group
+metal impregnated carrier material,
+and then dried and calcined.
+Ex. 1005[A] at col. 4, ln. 24-45. At
+the completion of the drying step, but
+before the calcining step, the relevant
+disclosed catalytic composite would
+comprise a platinum group metal
+disposed on a high surface area
+alumina support, with an outer
+coating of either barium hydroxide,
+calcium hydroxide or strontium
+hydroxide covering the platinum
+group metal. Ex. 1003[A], Farrauto
+¶¶ 41-43.
+After the completion of the
+calcination of the catalytic composite
+formed using either barium oxide,
+barium nitrate or barium acetate, the
+resulting barium oxide outer coating
+is converted to barium carbonate in
+the presence of carbon dioxide. See
+Ex. 1012[A]; Ex. 1009[A] at pp. 3-4;
+Ex. 1003[A], Farrauto ¶ 44-47.
+
+Paper 2, pages 30–31(italics added).
+Portions of Example 1 of Hoekstra are mentioned in the Petition.
+Paper 2, page 27.
+Example 1 reads:
+200 grams of ⅛ inch gamma-alumina spheres
+having an average bulk density of 0.30 grams per cubic
+centimeter were immersed in 600 milliliters of an
+28
+
+IPR2014-01555
+Patent 5,451,558
+
+aqueous solution of chloroplatinic acid and palladium
+chloride contained in a steam-jacketed rotary dryer. The
+impregnating solution contained the equivalent of 2.018
+grams of platinum and .075 grams of palladium, and
+further contained .150 grams of citric acid monohydrate.
+The spheres were tumbled in the solution, and the
+solution evaporated to dryness in contact therewith. The
+impregnated spheres were then immersed in a hot
+(150 ºF.) stirred 600 milliliter aqueous solution of 40
+grams of barium oxide and 0.42 grams of [reducing
+agent] hydrazine hydrate. After about 1 minute, the
+solution was decanted and the spheres dried for 2 hours
+at 250 ºF. in a forced draft oven. The dried spheres were
+subsequently calcined in a flow of air for 2 hours at 1000
+ºF. to yield a catalytic composite containing .009 wt.
+percent platinum, .036 wt. percent palladium, and about
+9 wt. percent barium. This example demonstrates that the
+inclusion of a reducing agent, e.g., hydrazine hydrate,
+obviates leaching of the platinum group metal component
+from the carrier material during the second impregnation
+step.
+Ex. 1005, col. 4:60–col. 5:7 (italics added).
+E. Opposition
+Patent Owner maintains that Hoekstra does not describe, explicitly or
+inherently, the “intimately and entirely coated” limitation of claim 1.
+Paper 29, page 14.
+Patent Owner further maintains that Petitioner is incorrect when it
+asserts that “the [Hoekstra hydrazine hydrate] reducing agent prevents the
+leaching of the platinum group metal from the carried into the alkaline earth
+
+29
+
+IPR2014-01555
+Patent 5,451,558
+
+metal solution therefore resulting in a coating of the alkaline earth metal . . .
+over platinum.” Id. at 15; see also Paper 2, page 26, last paragraph.
+Patent Owner’s position is based in part on Hoekstra’s reported use of
+2.018g of platinum which is said to yield a material containing 1.009 wt %
+platinum prior to exposure to the alkaline earth metal compound, i.e., a
+barium compound. Paper 29, page 15, last paragraph.
+Patent Owner goes on to note that after exposure of reducing agent
+(i.e., hydrazine hydrate) and alkaline earth metal compound, the reported
+platinum loading is only 0.009 wt%. Paper 29, page 15, last line.
+As a result, says Patent Owner, nearly all of the platinum was leached
+into the solution of alkaline earth metal. Id.
+Patent Owner’s position is based on the direct testimony of
+Dr. Crocker:
+I disagree . . . that the alkaline earth metal compound will
+be coated over the platinum group metal component
+(paragraph 40 [of Dr. Farrauto’s direct testimony—Ex
+2003A]). Example 1 in Hoekstra reports the use of an
+alumina support (200 g) and a platinum solution
+(containing 2.018 g Pt) which would yield a material
+containing 1.009 wt% Pt (prior to exposure to the
+alkaline earth metal compound). After the subsequent
+exposure to the mixture of reducing agent and alkaline
+earth metal compound (in aqueous solution), the reported
+Pt loading is only 0.009 wt%. Allowing for the increase
+in the weight of the catalyst due to the deposition of the
+alkaline earth compound, it can be calculated that the
+theoretical loading of Pt should have been close to 0.8
+wt%. This indicates that nearly all of the Pt initially on
+the support was leached into the solution of the alkaline
+earth metal compound. In relative terms, over 98% of the
+30
+
+IPR2014-01555
+Patent 5,451,558
+
+Pt was lost from the carrier. In all probability this
+occurred because the Pt supported on alumina was
+exposed simultaneously to the reducing agent and the
+alkaline earth metal compound, and therefore the Pt was
+not in a reduced state (i.e., the reduction of the Pt was a
+slow reaction and should therefore have been conducted
+before the Pt was exposed to the alkaline earth metal
+compound). With regard to the small amount of Pt
+remaining on the support, it is impossible to say whether
+this was Pt that was originally on the support and that
+was not leached, or was Pt that was leached into solution
+but was then re-deposited on the catalyst. Consequently,
+there is no way to determine whether the Pt in the final
+catalyst could be under, intimately mixed into, or on top
+of the layer of alkaline earth compound, or some
+combination thereof.
+Ex. 2002 ¶ 23 (italics added).
+Patent Owner cross-examined Dr. Farrauto. With respect to the
+limitation in issue, Dr. Farrauto testified:
+Q [counsel for Patent Owner] Well, I'd like to focus on
+the platinum, because your conclusion was that you have
+a platinum-containing catalyst where the platinum is
+coated-A [by Dr. Farrauto] Yes.
+Q -- with an alkaline earth metal, and my submission to
+you is that -- or the premise there was that the platinum
+was immobilized?
+A Right. But that doesn't preclude the possibility that the
+platinum is still covered even though there's only a small
+amount of it.
+
+31
+
+IPR2014-01555
+Patent 5,451,558
+
+There's two issues to this; one is does the platinum leach
+[into the alkali layer], and the second is, is the alkali
+covering it. You only have a small amount of platinum
+and a reasonable amount of palladium, so it is still
+possible that the alkali has covered the platinum and
+palladium, even though it's only remained in a small
+amount.
+Q Is it also possible that the platinum went in solution
+and deposited back with the barium together, as if from
+the mixed solution?
+A If you believe in this calculation, then obviously that
+weight percent platinum would include that which is in
+the barium, that which is covered by the barium, et cetera,
+et cetera. So you can't tell just from -- from that alone as
+to where the platinum is.
+Q We can’t tell?
+A Well, as I said, it's possible that the platinum, such a
+small amount, might have been covered completely by
+the alkali. You can't conclude either way.
+Ex. 2003, page 142:16–144:4 (italics added).
+Based on Dr. Farrauto’s above-quoted cross-examination, it is Patent
+Owner’s position that Petitioner has failed to establish that that the “alkali
+covered the platinum” and therefore Hoekstra does not “necessarily disclose
+all claim limitations,” including the “intimately and entirely coated”
+limitation. Paper 29, page 18.
+
+32
+
+IPR2014-01555
+Patent 5,451,558
+
+F. Reply
+Based on the cross-examination of Dr. Crocker, Petitioner says that
+Dr. Crocker agrees that the “2.018” number in Hoekstra Example 1 is a
+typographical error which should instead be “0.018.” Paper 32, page 15.
+At the time of cross-examination of Dr. Crocker, as well as when the
+Reply was filed, “the originally filed Hoekstra application . . . [was] not
+available from the U.S. Patent Office.”4 Id. The significance of the
+unavailability presumably is that the “2.018” number could not be verified
+vis-à-vis the original file of the Hoekstra application. However, foreign
+counterparts report the number as “0.018.” For example, counterpart
+Canadian Patent 1,028,681 reports the number as “0.018.” Ex. 1055,
+page 8:25–26 (“The impregnating solution contained the equivalent of 0.018
+g Pt [platinum] . . .”).
+Both Dr. Farrauto and Dr. Crocker now agree that the proper number
+is “0.018”.5 See (1) Farrauto Second Declaration, Ex. 1015 ¶ 20 (“because
+all of the foreign counterparts . . . state a 0.018 g starting weight to platinum,
+I [now] believe that the “2.018 g” number . . . is a typographical error that
+should read -- 0.018 g --.”) and (2) Crocker cross-examination, Ex. 1056,
+page 69:8–70:3:
+4
+
+The Board was able to locate the file wrapper of the Hoekstra patent.
+The relevant portion of the file wrapper was forwarded to the parties on
+16 October 2015 (Paper 38—errata Paper 40) as Ex. 3002.
+5
+
+The Hoekstra file wrapper confirms the typographical error. Ex. 3002,
+page 9:1 (A208:1) and last page (Rule 312 amendment).
+
+33
+
+IPR2014-01555
+Patent 5,451,558
+
+Q [by counsel for Petitioner]. Have you ever been told
+that there are foreign counterparts to the Hoekstra patent?
+A [by Dr. Crocker]. No.
+Q. Would it change your opinion stated in Paragraph 23
+of your declaration [Ex 2002, ¶ 23 quoted above] if the
+stated 2.018 grams of platinum is a typographical error
+that should have read 0.018 grams of platinum?
+A. Yes, it would.
+Q. Okay. And if I provided to you a counterpart of
+Hoekstra that shows that it was in fact a typographical
+error, would you request of your attorneys to submit a
+corrected declaration that addresses that in Paragraph 23?
+A. Yes, I would.
+Q. Okay. I'd like to show you the Canadian version
+[Ex. 1055] of the Hoekstra patent and direct your
+attention to Page 8, Lines, 23 on, the last paragraph on
+Page 8 that bridges Pages 8 and 9.
+(DOCUMENT
+REVIEW)
+
+HANDED
+
+TO
+
+WITNESS
+
+FOR
+
+BY MR. MEYER [counsel for Petitioner]:
+Q. Does this change your opinion rendered in Paragraph
+23 of your declaration?
+A. Yes, it does.
+
+34
+
+IPR2014-01555
+Patent 5,451,558
+Dr. Crocker re-calculated assuming “0.018” was a correct number and
+determined that if 0.018 g were the starting weight of platinum (Ex. 1054),
+there would have been no leaching of platinum (Ex. 1056, page 69:9–70):
+Q [counsel for Petitioner]. Okay. I'd like to give you a
+piece of paper [Ex.1054 before calculation] and a
+calculator, if necessary, and can you do that calculation?
+A [Dr. Crocker]. Sure. So I will calculate the theoretical
+loading?
+Q. Um-hmm.
+A. Okay. (Witness complies). That is the calculation.
+That is assuming that barium is present as barium oxide.
+(DOCUMENT [Ex. 1054 after calculations] HANDED
+TO ATTORNEY [for Petitioner])
+BY MR. MEYER [attorney for Petitioner]:
+Q. Okay. And the reason that you say [in your direct
+testimony, Ex. 2002, ¶ 23] that it leaches out is because
+this number 0.84% does not match the .009 weight
+percent number on Column 5, Line 2 of Hoekstra?
+A. That is correct.
+Q. Okay. I was wondering if you could just initial and
+date that calculation?
+A. Okay. (Witness complies). Okay. Going to do . . . [the
+date] it in the American [dating system as opposed to the
+European dating system].
+Q. Okay. Now I’d like to ask you to do another
+35
+
+IPR2014-01555
+Patent 5,451,558
+
+calculation.
+A. Okay.
+Q. This time assuming a platinum loading of 0.018 grams.
+A. (Witness complies.) 0.018. That is the amount of
+platinum that is being added.
+Q. That is in there, instead of 2.018 use 0.018.
+A. Sure. Okay. And I obtain the answer 0.0075 weight
+percent.
+Q. Okay. And that number is in line with the .009 weight
+percent stated at Column 5, Line 2 of Hoekstra, correct?
+A. Correct.
+Q. Okay. Can you sign and date that one as well?
+A. (Witness complies.)
+Q. Okay.
+MR. MEYER: And I’d like to have that [the paper
+showing calculations] marked as the . . . exhibit, 1054.
+(WHEREUPON, PETITIONER'S EXHIBIT NUMBER
+1054, IS MARKED FOR IDENTIFICATION)
+G. Discussion
+The issue is: Does Hoekstra describe, explicitly or inherently, the
+“intimately and entirely coated” limitation of claim 1?
+
+36
+
+IPR2014-01555
+Patent 5,451,558
+Based in large measure on Dr. Farrauto’s direct declaration testimony,
+Petitioner maintained that Hoekstra describes the “intimately and entirely
+coated” limitation.
+Patent Owner made considerable inroads into Dr. Farrauto’s direct
+testimony during cross-examination. Based on the cross-examination
+testimony quoted above, we understand Dr. Farrauto to have testified that it
+was possible that platinum leached into the alkali layer, albeit it was possible
+it did not. Since inherency cannot be based on possibilities, based on crossexamination of Dr. Farrauto, one might conclude that Petitioner failed to
+make out its case.
+Patent Owner might have walked away from presenting an opposition
+case on the merits, arguing that Petitioner failed to make out a prima facie
+case. But, that is not what happened. Patent Owner elected to present its
+own case on non-inherency, relying on its witness Dr. Crocker. Dr. Crocker,
+contrary to Dr. Farrauto, was of the opinion that no platinum leached into
+(i.e., migrated to) the alkali layer. During cross-examination, Dr. Crocker
+agreed that the “2.018” number (Ex. 1005, col. 5:66) in Hoekstra Example 1
+was a typographical error which should have been “0.018.” Based on a
+re-analysis in view of the typographical error, Dr. Crocker continued to
+conclude that platinum did not leach into the alkali layer—in essence
+agreeing with that Petitioner that no leaching occurs.
+In reply, Patent Owner offered a Second Declaration of Dr. Farrauto
+in which he agreed that the “2.018” number was a typographical error which
+should have been “0.018.”
+
+37
+
+IPR2014-01555
+Patent 5,451,558
+
+During his original cross-examination (Ex. 2003), it is not apparent
+that Dr. Farrauto was aware of the typographical error.
+Not to be overlooked in the back-and-forth occurring from (1) initial
+arguments in the Petition, (2) subsequent counter arguments in the
+Opposition, and (3) further responsive arguments in the Reply, is the
+following: Hoekstra explicitly states in describing the result of process steps
+described in Example 1 that “[t]his example demonstrates that the inclusion
+of a reducing agent, e.g., hydrazine hydrate, obviates leaching of the
+platinum group metal component from the carrier material during the
+second impregnation step [i.e., adding a barium oxide layer].” Ex. 1005,
+col. 5:4–8 (italics added).
+Both parties presented evidence, and argument based on that evidence,
+with respect to the “intimately and entirely coated” argument. We believe it
+appropriate to consider all the admissible evidence, and arguments pro and
+con based on that evidence, in resolving anticipation vis-à-vis Hoekstra.
+Given (1) the explicit Example 1 description of no leaching,
+(2) Dr. Crocker’s agreement that there is no leaching, (3) taking into account
+Dr. Farrauto’s ultimate agreement with Dr. Crocker with respect to leaching
+and notwithstanding Dr. Farrauto’s cross-examination, which was based on
+an erroneous “2.018” number, and (4) weighing all the evidence, we find
+that the evidence establishes by a preponderance of the evidence that
+Hoekstra describes the “intimately and entirely coated” limitation of claim 1.
+We find that Hoekstra anticipates claim 1.
+
+38
+
+IPR2014-01555
+Patent 5,451,558
+We note that claim 33 does not contain an “intimately and entirely
+coated” limitation like claim 1. Rather, claim 33 calls for “coating said
+oxidation catalyst specie with said absorber.” Ex. 1001, col. 14:12–13.
+Patent Owner agrees that the limitation of claim 33 is broader
+than the limitation of claim 1. Transcript of Oral Argument, Paper 49,
+page 28:13–17.
+Assuming that Hoekstra does not describe the “intimately and entirely
+coated” limitation of claim 1, Hoekstra manifestly describes the claim 33
+coating step. Ex. 1005A, Example 1 and col. 5:18–21 (claim 1, limitation
+(b)).
+We find that Hoekstra anticipates claim 33 even if Hoekstra does not
+anticipate claim 1.
+Apart from claims 9–11 and 23, Patent Owner has not argued the
+separate patentability of the remaining claims.
+H. Claims 9–11 and 23
+1. Introduction
+An inter partes review trial as to claims 9–11 and 23 was instituted
+based on likely unpatentability under § 103(a). Paper 21, pages 18–20.
+Each of these claims recites a range, but in our institution decisions
+(Paper 21:18–19) we could not find that the range was anticipated by
+Hoekstra.
+Based on applicable precedent, and because likelihood of obviousness
+was apparent from the record, we instituted based on § 103(a). Paper 21,
+paragraph bridging pages 18–19 and page 20, third and fourth paragraphs.
+
+39
+
+IPR2014-01555
+Patent 5,451,558
+In the Opposition, “Patent Owner respectfully objects to the Board’s
+substitution and amendment to the grounds asserted in the Petition.”
+Paper 29, page 19.
+Patent Owner does not state why it “objects.” Accordingly, we have
+no basis for evaluating the objection and find no need to further elaborate on
+the objection.
+By indicating a likelihood of unpatentability in the Decision
+instituting an inter partes review trial, Patent Owner had (1) notice as well
+as (2) a full and fair opportunity to address obviousness in its Opposition.
+2. Claims 9–11
+Patent Owner does not address why the subject matter of claims 9–11
+would not have been obvious.
+The claims set out ranges that overlap with those described by
+Hoekstra.
+The evidence relied upon in the Petition, when considered in light of
+applicable binding precedent set out in the Institution Decision, supports by
+a preponderance of the evidence a prima facie case of obviousness—the
+ranges of the claims overlap the ranges described in the prior art. Paper 21,
+paragraph bridging pages 18–19.
+Because Patent Owner has not addressed obviousness, and because
+the overlapping range precedent, we hold that the subject matter of claims
+9–11 would have been prima facie obvious within the meaning of § 103(a).
+Patent Owner has presented no evidence to overcome the prima facie case.
+Claims 9–11 are unpatentable under § 103(a) over Hoekstra.
+
+40
+
+IPR2014-01555
+Patent 5,451,558
+
+3. Claim 23
+Patent Owner argues the separate patentability of claim 23. Paper 29,
+paragraph bridging pages 18–19.
+Claim 23 depends from claim 22, which in turn depends from
+claim 21, which in turn depends from claim 1 (reproduced above).
+Claim 23 limits the absorber concentration “to about 10 percent
+by weight of the material [i.e., the “material” of claim 1].”
+Patent Owner relies on direct declaration testimony by Dr. Crocker:
+Claims 21-23 of the ‘558 patent provide ranges for
+the amount of absorber, i.e., the hydroxide, carbonate, etc.
+of an alkali or alkaline earth. Hoekstra expresses the
+amount of Ba present as the metal. It asserts a range of
+about 8 to about 10 wt. percent Ba. Petitioner’s position
+is that, due to the calcination in air, the Ba of the
+Hoekstra composition is present in the form of the
+carbonate. The atomic weight of Ba is 137; the molecular
+weight of BaCO3 is 197. The range cited by Hoekstra of
+8-10 wt% Ba corresponds to 11.5–14.3 wt% BaCO3. The
+percentage of claim 23 (about 10%) is well outside the
+Hoekstra range.
+Ex. 2002 ¶ 29.
+With respect to ranges, Hoekstra states:
+The optimum alkaline earth metal content is a function of
+the density of the selected carrier material. It will be
+appreciated that carrier materials of higher density suffer
+less shrinkage at higher temperatures than do those of
+lower density, and the optimum alkaline earth metal
+content will therefore increase in the range of from about
+1 to about 20 wt. percent with decreasing density.
+Preferably the refractory carrier material is alumina
+41
+
+IPR2014-01555
+Patent 5,451,558
+
+characterized by an average bulk density of from about
+0.3 to about 0.5 grams per cubic centimeter, and the
+alkaline earth content, preferably barium, is in the range
+of from about 8 to about 10 wt. percent.
+Ex. 1005, col. 4:11–32 (italics added).
+Actually, Hoekstra describes a general range of 1–20 wt%, with a
+preferred range being 8–10%. No reason is set out in Hoekstra for the
+preference. Dr. Crocker’s calculated range of 11.5–14.3 wt% falls within
+the broad range described by Hoekstra. The Opposition presents no credible
+reason why one skilled in the art would not have expected Hoekstra’s
+compositions to be operative within the broad 1–20 wt% range. Hence, we
+are unable to find anything unobvious about a range of “about 10 weight
+percent.”
+Claim 23 is unpatentable under § 103(a) over Hoekstra.
+V. Analysis—Kinoshita (Ground 3)
+A. Challenge
+According to Petitioner, claims 1, 2, 7–10, 14, 15, 17, 19, 24, 31,
+33–40, 42, and 44 of the ʼ558 patent are anticipated by Kinoshita
+(Ex. 1006A). Petition (Paper 2), pages 12 and 36–44; Reply (Paper 32),
+pages 18–20.
+Patent Owner disagrees. Opposition (Paper 29), pages 19–25.
+B. Anticipation
+The applicable anticipation principles are set out above in connection
+with the discussion of Takeshima and Hoekstra and need not be repeated
+here.
+42
+
+IPR2014-01555
+Patent 5,451,558
+
+C. Claim 1
+Claim 1 is again reproduced for the convenience of the reader.
+Claim 1 reads (matter in brackets added; principal limitation in
+dispute in italics):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum,
+palladium, rhodium, cobalt, nickel, iron, copper, molybdenum
+or combinations thereof
+[2] disposed on a high surface area support,
+[3] said catalytic] component being intimately and
+entirely coated with an absorber selected from a hydroxide,
+carbonate, bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:29–37.
+D. Decision to Institute
+In instituting an inter partes review trial, we discussed Kinoshita
+Examples 1 and 6, as well as Table 5. Paper 21, page 22.
+Insofar as we can tell, the Opposition and Reply do not address
+Kinoshita Example 6 or Table 5.
+Rather, the parties seem satisfied to resolve any anticipation dispute
+on the basis of Kinoshita Example 3.
+
+43
+
+IPR2014-01555
+Patent 5,451,558
+
+Given that the parties have not discussed Kinoshita Example 6 or
+Table 5, we determine patentability on the basis of Kinoshita Example 3—
+not Kinoshita Example 6 and Table 5.
+E. Petition
+The following appears in Petitioner’s claim chart (limitations in
+dispute in italics):
+Limitation in claim 1
+an oxidation catalyst specie
+selected from platinum,
+palladium, rhodium, cobalt,
+nickel, iron, copper,
+molybdenum or combinations
+thereof
+said catalytic component being
+intimately and entirely coated with
+an absorber selected from a
+hydroxide, carbonate, bicarbonate or
+mixture thereof of an alkali or
+alkaline earth or mixtures thereof.
+
+Kinoshita
+Kinoshita discloses that the catalyst
+specie can be platinum, palladium
+and/or rhodium. See Ex. 1006[A] at
+col. 2, ln. 56-65; see also col. 2,
+ln. 29-39. In the catalyst of Example
+3, just platinum is used. Ex. 1006[A]
+at col. 5, ln. 3-8.
+In the catalyst of Example 3, the
+previously dried and calcined
+platinum carrying carrier was
+covered with a potassium carbonate
+outer coating. Ex. 1006 at col. 5,
+ln. 3-16; Ex. 1003[A], Farrauto
+¶¶ 50-52.
+
+Paper 2, pages 39–40 (italics added).
+According to Kinoshita:
+The catalyst according to the . . . [Kinoshita] invention
+can be produced by an appropriate process in the prior art
+in which a catalytic element is carried by a carrier. A
+process of impregnating and/or depositing the carrier
+with a liquid in which compounds containing the
+catalytic elements such ·as an alkali metal and Pt
+[platinum], Pd [palladium] and Rh [ruthenium] are
+dissolved and/or suspended and then drying it at 300° –
+44
+
+IPR2014-01555
+Patent 5,451,558
+800° C., preferably firing at 400° – 600° C. is found
+recommendable with respect to the durability and
+performance of the catalyst thus obtained.
+Ex. 1006A, col. 2:56–65.
+Kinoshita Example 3 reads:
+EXAMPLE 3
+1 l [liter] of Honeycomb carrier coated with active
+alumina (main component: cordierite; bulk density 0.6
+g/cc; cell number 300 cells/in2; cylinder 130 dia. x 76
+mm long) was immersed for 30 minutes in 2 l [liters] of
+an aqueous solution of chloroplatinic acid equivalent to
+1.25 g of Pt [platinum], thereby causing Pt to be carried.
+After drying at 110° C., the product was fired for 1 hour
+at 500° C. in the atmosphere. Then, the honeycomb thus
+carrying Pt was immersed for 1 minute in 2 l [liters] of an
+aqueous solution of potassium carbonate containing
+1 mol of K [potassium], thereby causing K to be carried.
+The product was dried at 110° C. [drying step] and fired
+for 1 hour at 500° C. in the atmosphere, thereby yielding
+a catalyst with Pt and K carried in the honeycomb. The
+carried volumes of catalytic elements and the results of
+catalyst evaluation are summarized in Table 4 [not
+reproduced]. For durability test and catalyst evaluation, a
+monolith catalyst [30 mm dia. x 28 mm long, (20 cc)]
+was cut to a specimen.
+Ex. 1006A, col. 5:1–21.
+According to Dr. Farrauto:
+At the completion of the drying step at 110° C, but
+before being fired at 500° C, Kinoshita's Example 3
+product would comprise Pt [platinum] disposed on a
+45
+
+IPR2014-01555
+Patent 5,451,558
+
+high surface area alumina support, with a coating of
+potassium carbonate completely covering the Pt.
+If this coating of potassium carbonate was
+subjected to the exhaust conditions described in the '558
+patent at column 2, lines 38-55, the potassium carbonate
+would absorb NO2 disposed within that exhaust in the
+same manner that the counterpart potassium carbonate
+absorbent disclosed in the '558 patent would.
+Ex. 1006A ¶¶ 51–52 (italics added).
+F. Opposition
+With regard to claim 1, Patent Owner argues that Kinoshita does not
+describe the “intimately and entirely coated” limitation of claim 1. Pape 29,
+page 20.
+With regard to claim 33, Patent Owner further argues that Kinoshita
+does not describe “an oxidation catalyst specie.” Id.
+Relying on direct declaration testimony of Dr. Crocker, Patent Owner
+maintains that one cannot determine “how much alumina is present in the
+catalyst and hence impossible to know the corresponding loading of
+potassium on the platinum-impregnated alumina (in wt%).” Paper 29,
+page 21.
+Dr. Crocker testified:
+I disagree with the assertion that “Kinoshita’s
+Example 3 product would comprise Pt disposed on a high
+surface area alumina support, with a coating of potassium
+carbonate completely covering the Pt.” ([P]etition at
+page 38; Farrauto, Ex. 1003A, . . . [¶¶] 50–51).
+Example 3 refers to Table 4 in Kinoshita, which reports
+the potassium loading as being 0.14 mol per 1 kg catalyst.
+46
+
+IPR2014-01555
+Patent 5,451,558
+
+However, the alumina loading on the honeycomb
+substrate in Example 3 is not disclosed, hence it is
+impossible to know how much alumina is present in the
+catalyst and hence impossible to know the corresponding
+loading of potassium on the platinum-impregnated
+alumina (in wt%). Therefore, one cannot say whether this
+amount of potassium (0.14 mol/kg) is sufficient to fully
+coat the platinum-impregnated alumina. However, a
+representative calculation can be performed. If one
+assumes a typical cordierite honeycomb density of
+435 g/L, and an alumina loading of 180 g/L (being fairly
+typical for the washcoat loading of an automotive
+catalyst), then 1 kg of catalyst would contain 293 g of
+alumina (and 707 g of honeycomb). Hence 0.14 mol
+potassium would be supported on 293 g alumina,
+equivalent to 1.87 wt%. This is not sufficient to fully coat
+the platinum-impregnated alumina.
+Ex. 2002 ¶ 32 (italics added).
+Patent Owner cross-examined Dr. Farrauto, calling our
+attention to the following:
+Q [by counsel for Patent Owner] So I could do two
+calculations, one for potassium carbonate and one for
+potassium hydroxide, and then -- well –
+A [by Dr. Farrauto] But that doesn’t guarantee that it’s
+going to cover, because adsorption could be preferred -in other words, you could get multi-layer adsorption of
+the potassium hydroxide or the potassium carbonate on
+the alumina, so it doesn't necessarily mean that it is
+going to cover the platinum, and that was basically what
+we said yesterday, and that is you're making an
+assumption just on the cross-sectional area of the
+material whether it would cover it, but there are cases
+where you could get clumps, if you may, of the nitrate or
+47
+
+IPR2014-01555
+Patent 5,451,558
+
+the carbonate, and therefore there could possibly be some
+separate platinum material that is not covered. But you
+can't a priori -- it's an ideal calculation, let's put it that
+way.
+Q But the reverse would be true, that if I find that there is
+not enough to cover even if it were perfectly distributed,
+then at least I would have that answer?
+A You can’t even make that conclusion, because perhaps
+that material will adsorb on -- selectively onto the
+platinum. In other words, materials are selective, and
+they adsorb on different surfaces. For example, water
+adsorbs on glass in a different way than it adsorbs, for
+example, on alumina, and it could be the same situation,
+it’s just that we don't know for sure unless you
+understand exactly the selectivity of adsorption on
+platinum versus, for example, on the alumina. The
+calculation that we made yesterday was a physical
+calculation based on the cross-sectional area and the
+surface area of the material. It doesn’t take into account
+the chemistry of what can happen in the interactions of
+these materials with different species.
+Ex. 2003, pages 124:6–125:21 (italics added).
+G. Reply
+Based on cross-examination of Dr. Crocker, Petitioner maintains that
+“there are a sufficient number of potassium atoms to completely cover the
+Pt [platinum] atoms.” Paper 32, page 19.
+The following portions of Dr. Crocker’s cross-examination have been
+called to our attention, to which we add the first question and answer:
+Q [by counsel for Petitioner]. At a platinum loading of
+0.23 weight percent of alumina, would there be enough
+48
+
+IPR2014-01555
+Patent 5,451,558
+
+platinum to entirely cover all of the platinum support
+with a layer of platinum?
+A [Dr. Crocker]. No, there would not.
+Q. Okay. On a microscopic level, what would the surface
+of the alumina look like when it is so loaded at 0.23
+weight percent of alumina?
+A. So essential -Q. Wait, wait. I’m sorry. 0.23 weight percent of
+platinum.
+A. Platinum. So one will have an alumina surface onto
+which had been deposited nano particles of platinum.
+These nano particles will contain or will correspond to
+essentially a cluster of platinum atoms and they will be
+randomly distributed on the catalyst surface.
+Q. Okay. And there would be spaces between?
+A. There would be spaces between them, yes.
+***
+Q. Okay. Okay. Now let’s do the same exercise for
+Example 3 which is on Page 6 of Kinoshita from, looks
+like, Lines 2 through 21 [col. 5:2–21]. Now, there is 1.25
+[col. 5:7] grams of platinum, correct?
+A. Yes.
+Q. And that 1.25 grams of platinum is 0.064 molls
+[moles] of platinum, correct? And feel free to use the
+calculator.
+A. 0.0064.
+49
+
+IPR2014-01555
+Patent 5,451,558
+
+Q. Okay. And if we compare the -- and there is 1 moll
+[mole] of potassium in the form of potassium carbonate,
+correct?
+A. That is correct.
+Q. And if we compare the 1 moll [mole] of potassium to
+the 0.064 molls [moles] of platinum, there are 156
+potassium atoms to each platinum atom, correct?
+A. So what did we say it was? One moll [mole] platinum
+divided by 0.0064 equals -- okay. That’s interesting. It’s
+giving me zero for some reason. But I’m willing to -- to
+believe your assertion, so –
+Ex. 1056, page 35:25–page 36:16 and page 72:19–73:11 (italics
+added).
+H. Discussion
+1. Claim 1
+Example 3 of Kinoshita does not explicitly describe a catalyst
+component, i.e., platinum, “intimately and entirely coated” with an absorber.
+Accordingly, Petitioner must establish that the process described in
+Kinoshita Example 3 necessarily results in a catalyst layer “intimately and
+entirely coated” with an absorber layer.
+Dr. Farrauto says it does.
+Dr. Crocker says it does not.
+On the one hand, Dr. Farrauto testified that the potassium carbonate
+completely covered the platinum catalyst. Ex. 1003A ¶ 51.
+
+50
+
+IPR2014-01555
+Patent 5,451,558
+
+On the other hand, on cross-examination, Dr. Farrauto testified that
+there is no “guarantee that it’s going to cover” and “there could possibly
+be some separate platinum material that is not covered.” Ex. 2003,
+page 124:9–10 and 21–23.
+Dr. Crocker testified on direct that because Example 3 does not
+contain sufficient detail, “one cannot say whether . . . [the] amount of
+potassium . . . is sufficient to fully coat the platinum impregnated alumina.”
+Ex. 2002 ¶ 32.
+According to Petitioner, Dr. Crocker conceded on cross-examination
+that the platinum catalyst layer was entirely coated with the absorber.
+Paper 32, page 9.
+Petitioner has not directed our attention to where Dr. Crocker made
+any compelling concession. It is true that at the end of the line of
+questioning quoted above, Dr. Crocker said “I’m willing to . . . believe
+your assertion.” Ex. 1056, page 73:10–11. However in context, crossexamination does not make clear whether “believe your assertion” means
+(1) agree that the absorber entirely coats the catalyst or (2) agree with
+counsel’s number of 0.064. We have found no follow-up question along the
+lines: “Then you agree that Kinoshita Example 3 necessarily describes an
+absorber entirely coating a catalyst layer”?
+While the matter of assigning the weight to be given to the testimony
+of the two witnesses in this case is a close call, based on the direct and crossexamination testimony with respect to Kinoshita and its Example 3, and to
+the extent that there is a conflict between Dr. Crocker’s testimony and that
+
+51
+
+IPR2014-01555
+Patent 5,451,558
+
+of Dr. Farrauto, we credit the testimony of Dr. Crocker over that of
+Dr. Farrauto.
+However, even if one were to find the testimony of Dr. Crocker and
+Dr. Farrauto evenly balanced, then a preponderance of the evidence on
+inherency does not emerge. Under those circumstances, the party with the
+burden of proof cannot be said to have proved its case. See Yamaha Int’l
+Corp. v. Hoshino Gakki Co., 840 F.2d 1572, 1580 n.11 (Fed. Cir. 1988)
+(where a party is under a burden to establish a fact by a preponderance of the
+evidence and where the evidence is so evenly balanced that no
+preponderance emerges, the party having the burden of persuasion
+necessarily loses).
+We are also concerned that Example 3 does not describe enough detail
+to indicate clearly whether there is enough potassium to cover the platinumimpregnated alumina. Ex. 2002 ¶ 32.
+According to Petitioner, Patent Owner “seeks to rewrite claims 1 and
+39 [sic—33] to require that the entirety of the alumina support be coated by
+the absorber [potassium carbonate].” Paper 32, page 18 (italics added). But,
+that is not what Dr. Crocker said. Rather, Dr. Crocker testified that there
+was not enough potassium to fully coat the “platinum-impregnated alumina.”
+Ex. 2002 ¶ 32, last sentence (italics added).
+We find that Petitioner has not established that Kinoshita describes the
+“intimately and entirely coated” limitation of claim 1.
+We further find that the subject matter of claim 1 is not inherently
+described by Kinoshita.
+
+52
+
+IPR2014-01555
+Patent 5,451,558
+Because we find that the “intimately and entirely coated” limitation is
+not described by Kinoshita, we need not reach Patent Owner’s alternative
+argument that Kinoshita fails to describe an oxidation catalyst.
+2. Claim 33
+As noted in connection with our discussion of claim 33 associated
+with Hoekstra, “coating said oxidation catalyst specie with said absorber” is
+broader than “intimately and entirely coated.”
+With respect to claim 33, we credit the testimony of Dr. Crocker and
+Dr. Farrauto, both of whom testified that the platinum catalyst was coated
+with absorber.
+Accordingly, claim 33 (and the claims 34–40, 42, and 44 dependent
+on claim 33) are anticipated by Kinoshita even though claim 1 is not
+anticipated by Kinoshita.
+VI. Analysis—Inui (Ground 4)
+A. Challenge
+According to Petitioner, claims 1, 2, 7–10, 14, 15, 17, 19, 24, 31,
+33–37, 39, 40, and 42 of the ʼ558 patent are anticipated by Inui (Ex. 1007B).
+Petition (Paper 2), pages 12 and 44–53; Reply (Paper 32), pages 20–22.
+Patent Owner disagrees. Opposition (Paper 29), pages 25–27.
+We did not institute with respect to claim 42 based on Inui. Paper 26,
+page 4.
+Therefore claim 42 is not before us as to Ground 4.
+
+53
+
+IPR2014-01555
+Patent 5,451,558
+
+B. Anticipation
+The applicable anticipation principles are set out above in connection
+with the discussion of Takeshima and Hoekstra and need not be repeated
+here.
+C. Claim 1
+Claim 1 is reproduced again for the convenience of the reader.
+Claim 1 reads (matter in brackets added; principal limitation in
+dispute in italics):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum,
+palladium, rhodium, cobalt, nickel, iron, copper, molybdenum
+or combinations thereof
+[2] disposed on a high surface area support,
+[3] said catalytic] component being intimately and
+entirely coated with an absorber selected from a hydroxide,
+carbonate, bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:29–37.
+D. Petition
+The following appears in Petitioner’s claim chart (limitations in
+dispute in italics):
+Limitation in claim 1
+an oxidation catalyst specie
+selected from platinum,
+
+Inui
+“An aqueous solution of
+dinitrodiammine platinum
+54
+
+IPR2014-01555
+Patent 5,451,558
+
+palladium, rhodium, cobalt,
+nickel, iron, copper,
+molybdenum or combinations
+thereof
+
+said catalytic component being
+intimately and entirely coated with
+an absorber selected from a
+hydroxide, carbonate, bicarbonate or
+mixture thereof of an alkali or
+alkaline earth or mixtures thereof.
+
+comprising 5 g of platinum was
+added to 100 g of activated alumina
+having a BET surface area of 100
+m2/g [sic] and mixed therewith, and
+the mixture was then dried for 2
+hours at 120° C and fired for 2 hours
+at 500° C.” Ex. 1007[B] at p. 9,
+Paragraph [0022] (emphasis added).
+In the catalyst of Exemplary
+Embodiment 4, the previously dried
+and calcined platinum-carrying
+honeycomb support was covered
+with a potassium carbonate outer
+coating. Ex. 1007[B] at p. 10,
+Paragraph [0026] & p. 9, Paragraph
+[0023]; Ex. 1003[A], Farrauto
+¶¶ 57–59.
+
+Paper 2, page 48 (italics added).
+Inui Exemplary Embodiments 1 and 4 read:
+[0022] (Exemplary Embodiment 1) An aqueous solution
+of dinitrodiammine platinum comprising 5 g of platinum
+was added to 100 g of activated alumina having a BET
+surface area of 100 m/g2 and mixed therewith, and the
+mixture was then dried for 2 hours at 120°C [drying step]
+and fired for 2 hours at 500°C. The resulting powder was
+wetground by means of a ball mill in order to obtain an
+aqueous slurry in which was immersed a commercially
+available cordierite honeycomb support (produced by
+Nippon Glass Co., Ltd.; transverse cross section having
+400 gas flow cells per square inch; diameter 33 mm ø;
+length 76 mm; volume 65 ml), after which the excess
+slurry was blown away by means of compressed air. The
+material was then dried for 2 hours at 120°C and fired for
+
+55
+
+IPR2014-01555
+Patent 5,451,558
+
+2 hours at 500°C in order to obtain a honeycomb support
+covered with platinum-supporting alumina powder.
+[0023] In addition, the resulting honeycomb support was
+immersed in a 4.3 mol/l (litre) aqueous solution of
+sodium nitrate, after which the excess solution was
+blown away by means of compressed air, and the
+resulting material was dried for 2 hours at 120°C and 35
+fired at 500°C in order to obtain completed catalyst (A).
+In this catalyst, 5 wt% of platinum and 10 wt% of sodium
+were supported with respect to the activated alumina.
+[0026] (Exemplary Embodiment 4) Completed catalyst
+(D) was obtained in the same way as in Exemplary
+Embodiment 1, except that a 2.5 mol/l aqueous solution
+of potassium carbonate was used instead of the 4.3 mol/l
+aqueous solution of sodium nitrate in Exemplary
+Embodiment 1. In this catalyst, 5 wt% of platinum and
+10 wt% of potassium were supported with respect to the
+activated alumina.
+Ex. 1007B ¶¶ 0022, 0023, and 0026 (italics added). See also
+Dr. Farrauto’s direct declaration testimony (Ex. 1003A ¶¶ 57–59).
+E. Opposition
+Patent Owner argues that Inui does not anticipate because:
+(1)
+
+Inui does not describe an oxidation catalyst;
+
+(2)
+
+Inui’s potassium carbonate is not an “absorber”;
+rather it is an adsorber; and
+
+(3)
+
+Inui teaches the use of a hydrocarbon.
+
+Paper 29, pages 25–26.
+
+56
+
+IPR2014-01555
+Patent 5,451,558
+
+1. Oxidation Catalyst
+According to Patent Owner, the Inui catalyst acts as a “Selective
+Reduction Catalyst (SCR).” Paper 29, page 25.
+Cited to support its position is direct declaration testimony of
+Dr. Crocker:
+The platinum catalyst of Inui is not an oxidation catalyst
+as this term is used in the ‘558 patent. The catalyst in Inui
+is a hydrocarbon-SCR [Selective Reduction Catalyst]
+catalyst, which reduces NOx present in the hydrocarboncontaining gas stream to N2 instead of oxidizing it to
+NO2. In the hydrocarbon-containing gas stream of Inui
+the Pt is not covered with a layer of PtO (although some
+PtO may be present), as would be the case if the Pt specie
+were an oxidation catalyst.
+Ex. 2002 ¶ 35.
+According to Patent Owner, whether the catalyst is an “oxidation”
+catalyst or a “reduction” catalyst “actually makes a difference for the
+composition of the catalyst itself.” Paper 29, page 26:1–3.
+2. Absorber v. Adsorber
+According to Patent Owner, the alkali metal carbonate of Inui is not
+an absorber; it’s an adsorber.
+Support is said to be cross-examination of Dr. Farrauto:
+Q [by counsel for Patent Owner] Frankly, I interpreted it
+the same way. And I was wondering what the role is of
+the sodium component in this catalyst. Do you have a
+point of view on that?
+A [Dr. Farrauto] It’s probably to retain NO2. In other
+words, the platinum still has to oxidize the NO to NO2,
+the NO2 is adsorbed in the sodium, and then at some
+57
+
+IPR2014-01555
+Patent 5,451,558
+
+critical point that NO2 is desorbed, and that’s not
+addressed in 19 [believed to be a reference to ¶ 0019 of
+Inui]. And then once it is in the gas phase, then the
+addition of the hydrocarbon will reduce the NOx to
+nitrogen.
+Ex. 2003, page 89:4–16 (italics added).
+3. Hydrocarbon
+According to Patent Owner, Petitioner has failed to prove its case
+because Inui teaches the addition of a hydrocarbon:
+A method for removing exhaust gas in an oxidizing
+atmosphere state through a catalyst obtained by covering
+a monolithic structure with a catalyst active ingredient
+comprising sodium and/or potassium, and platinum and a
+refractory inorganic oxide, in the presence of a
+hydrocarbon.
+Paper 29, page 26; Ex. 1007B, page 2:20–25 (underlining in original).
+Petitioner’s theory is said to require one to deviate from the
+specific teaching of Inui in order to arrive at an absorber according to
+the claims of the ʼ558 patent. Patent Owner maintains that “to do so
+is based on hindsight.” Paper 29, page 26.
+F. Reply
+From its point of view, Petitioner summarizes the situation as follows:
+At the completion of the drying step at 120° C, but
+before being fired at 500° C, Inui’s Exemplary
+Embodiment 4 product would comprise Pt [platinum]
+disposed on a high surface area alumina support, with a
+coating of potassium carbonate completely covering the
+Pt. Patent Owner does not dispute this. Moreover, the
+58
+
+IPR2014-01555
+Patent 5,451,558
+
+outer coating that Dr. Farrauto testified would adsorb
+NOx, as opposed to absorb, was a sodium compound, not
+potassium carbonate.
+Paper 32, page 20 (italics added; citations omitted).
+G. Discussion
+Patent Owner does not base its case on a failure of Inui to describe the
+“intimately and entirely coated” limitation.
+Rather, Patent Owner asserts that the Inui catalyst does not comprise
+an oxidizing catalyst and that the Inui potassium carbonate is an adsorber—
+not an absorber.
+But, what Patent Owner cannot avoid is that the Inui combination
+comprises the same elements as those set out in claim 1, all arranged in the
+same order.
+With reference to (1) the Specification of the ʼ558 patent (Ex. 1001)
+and (2) Inui (Ex. 1007B), we find that Inui describes each of the claimed
+elements arranged in the same order as follows (matter in brackets added):
+A material for removing gaseous pollutants from
+combustion exhaust [Inui, page 2:5: “a method for
+removing nitrogen oxides in exhaust gas discharged from
+an internal combustion engine”; ʼ558 patent, col. 1:9–14:
+“process for reducing . . . pollutants . . . namely nitrogen
+oxides (NOx)] catalyst for removing nitrogen oxides]
+comprising
+[1] an oxidation catalyst specie selected from
+platinum [Inui, page 9:27: platinum supported alumina
+powder; ʼ558 patent, col. 5:34: platinum; col. 14:16–17:
+platinum], palladium, rhodium, cobalt, nickel, iron,
+copper, molybdenum or combinations thereof
+59
+
+IPR2014-01555
+Patent 5,451,558
+
+[2] disposed on a high surface area support [Inui,
+activated alumina having a BET surface areas of
+100 m2/g; ʼ558 patent, col. 5:11–12: high surface area
+alumina spheres having a surface areas of 50 to 330
+square meters per gram],
+[3] said catalytic component being intimately and
+entirely coated with an absorber selected from a
+hydroxide, carbonate [Inui, page 10:21: potassium
+carbonate; ʼ558 patent,
+col. 13:7–8:
+potassium
+carbonate], bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Given that Petitioner has established that Inui describes a composition
+comprising three ingredients arranged in the same manner as that claimed,
+Petitioner has made out a prima facie case of anticipation. In re Spada, 911
+F.2d 705, 707 (Fed. Cir. 1990) (“The prima facie case is a procedural tool
+which, as used in patent examination (as by courts in general), means not
+only that the evidence of the prior art would reasonably allow the conclusion
+the examiner seeks, but also that the prior art compels such a conclusion if
+the applicant produces no evidence or argument to rebut it.”).
+Patent Owner can allege that the Inui platinum is a reducing catalyst
+whereas its platinum is an oxidation catalyst. Patent Owner can further
+allege that the Inui potassium carbonate is an adsorber whereas its potassium
+carbonate is an absorber. Patent Owner can still further allege that
+hydrocarbons must be present when using the Inui composition. But, as
+Petitioner mentions, none of these allegations alters the fact that both the
+claimed combination and the combination described by Inui comprise the
+60
+
+IPR2014-01555
+Patent 5,451,558
+
+same ingredients arranged in the same way. In our view nothing more is
+needed to establish by a preponderance of the evidence a prima facie case of
+anticipation.
+Patent Owner has not come forward with convincing evidence that the
+Inui compositions would behave differently from the claimed compositions.
+We find that the evidence establishes by a preponderance of the
+evidence that Inui describes all limitations of claim 1.
+We find that Inui anticipates claim 1.
+Patent Owner has not argued the separate patentability of the
+remaining claims involved in Ground 4.
+VII. Analysis—Stiles (Ground 5)
+A. Challenge
+According to Petitioner, claims 1, 7, 8 14–17, 19, 21–23 and 31 of
+the ʼ558 patent are anticipated by Stiles (Ex. 1008A) Petition (Paper 2),
+pages 12 and 53–59; Reply (Paper 32), pages 20–22.
+Patent Owner disagrees. Opposition (Paper 29), pages 27–30.
+We instituted an inter partes review trial as to claims 1, 7, 8, 14–19,
+and 31 based on anticipation under § 102(e) and as to claims 21–23 based on
+obviousness under § 103(a). Paper 26, page 3.
+Stiles is prior art under 35 U.S.C. §102(e). Patent Owner has made no
+effort to antedate Stiles.
+
+61
+
+IPR2014-01555
+Patent 5,451,558
+
+B. Anticipation
+The applicable anticipation principles are set out above in connection
+with the discussion of Takeshima and Hoekstra and need not be repeated
+here.
+C. Claim 1
+Claim 1 is reproduced again for the convenience of the reader.
+Claim 1 reads (matter in brackets added; principal limitation in
+dispute in italics):
+A material for removing gaseous pollutants from
+combustion exhaust comprising
+[1] an oxidation catalyst specie selected from platinum,
+palladium, rhodium, cobalt, nickel, iron, copper, molybdenum
+or combinations thereof
+[2] disposed on a high surface area support,
+[3] said [catalytic] component being intimately and
+entirely coated with an absorber selected from a hydroxide,
+carbonate, bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+Ex. 1001, col. 12:29–37.
+D. Petition
+We now turn to the arguments made in the Petition, Opposition, and
+Reply.
+The following appears in Petitioner’s claim chart (limitations in
+dispute in italics):
+
+62
+
+IPR2014-01555
+Patent 5,451,558
+
+Limitation in claim 1
+
+Stiles
+
+an oxidation catalyst specie selected
+from platinum, palladium, rhodium,
+cobalt, nickel, iron, copper,
+molybdenum or combinations
+thereof
+
+Stiles discloses a preferred
+embodiment where the absorbent
+catalyst comprises manganese oxide
+(MnO) and aluminum oxide (Al2O3).
+Ex. 1008[A] at col. 5, ln. 28-35 &
+col. 6, ln. 7-13. In an alternative
+embodiment, “adequately effective
+materials can also be made by
+substituting for the manganese oxide
+such oxides as iron, nickel, cobalt,
+zinc, copper and molybdenum and
+tungsten, combinations of these
+oxides plus manganese oxides also
+are very effective….” Ex. 1008[A] at
+col. 6, ln. 14-20 (emphasis added);
+see also Id. at p. 8 (Table 1 at
+Example Nos. 15 & 16 (NiOAl2O3)).
+The catalytic component is covered
+with an outer coating of potassium
+carbonate. Ex. 1008[A] at col. 5,
+ln. 40-44; see also Id. at p. 8, Table 1
+(“K2CO3”). “Although potassium
+carbonate is preferred, the alkali
+carbonate can be that of sodium,
+rubidium [sic] or cesium.”
+Ex. 1008[A] at col. 6, ln. 26-27;
+col. 13, ln. 3-16 (claim 8).
+Potassium, sodium, rubidium and
+cesium are all alkali metals.
+Ex. 1003[A], Farrauto ¶64.
+
+said catalytic component being
+intimately and entirely coated with
+an absorber selected from a
+hydroxide, carbonate, bicarbonate or
+mixture thereof of an alkali or
+alkaline earth or mixtures thereof.
+
+Paper 2, pages 55–56 (italics added).
+A principal difference between Ground 5 and Grounds 1–4 is the
+catalyst. Stiles does not describe use of platinum; rather Stiles describes use
+63
+
+IPR2014-01555
+Patent 5,451,558
+of other catalysts in the catalyst Markush group set out in claim 1 of the ʼ558
+patent, i.e., iron, nickel, cobalt, copper, and molybdenum.
+Petitioner’s position, based in part on its claim chart, and discussion in
+the Petition, is that Stiles describes a catalyst described as follows:
+Certain of the catalyst-adsorbent materials are
+resistant to sulfur dioxide, but the catalyst is most
+efficient in the absence of sulfur dioxide in the gas from
+which the nitrogen oxides are to be removed. The most
+effective agent for the adsorption is manganese and
+aluminum oxide co-precipitated to produce a 50/50
+mixture of finely divided mixed manganese and
+aluminum oxides powder. This powder is milled in a ball
+mill to produce a paste comprising water, the aluminum
+oxide-manganese oxide powder and some colloidal
+cerium oxide to act as strengthening agent for the dried
+milled paste. After the paste has been dried, the granules
+are derived by crushing and screening the dried paste.
+The granules are further treated by adding a solution of
+potassium carbonate which, on drying, leaves the
+potassium carbonate completely covering the interior and
+exterior of the granules.
+Ex. 1008A, col. 5:28–44 (italics added).
+Claim 1 does not include manganese in its catalyst Markush group.
+However, Stiles teaches that:
+Although manganese oxides appear to be relatively
+unique as being the most effective, adequately effective
+materials can also be made by substituting for the
+manganese oxide such oxides as iron, nickel, cobalt, zinc,
+copper and molybdenum and tungsten, combinations of
+these oxides plus manganese oxides also are very
+effective and also have some tolerance to SOx in the gas
+
+64
+
+IPR2014-01555
+Patent 5,451,558
+
+stream from which the nitrogen oxides are being
+removed.
+Ex. 1008A, col. 6:14–22 (italicized metals are included within the
+catalyst Markush group of claim 1 of the ʼ558 patent).
+Stiles also teaches that:
+The ingredients can also be impregnated onto and into a
+support such as alumina, silica, silica alumina, activated
+carbon, silicon carbide, and others well known to the art.
+The form of the supports can be granules, cylinders, rings,
+honey combs, rods, spheres and others also known to the
+art.
+Ex. 1008A, col. 11:63–col. 12:1.
+E. Opposition
+According to Patent Owner, “Stiles does not disclose an oxidation
+catalyst specie disposed on a high surface area support.” Paper 29, page 27
+(italics added).
+Patent Owner attacks Petitioner’s reliance on Stiles’ disclosure of the
+nature of the support (col. 11:63–col. 12:22) as misplaced because Example
+18 (misidentified in the Opposition as “Exhibit 18”) is said to relate to
+reduction catalyst and not the oxidation catalyst. Paper 29, page 28.
+Relevant to Patent Owner’s position, is direct declaration testimony of
+Dr. Crocker:
+According to Stiles (Example 18, last line), the
+adsorbent can have the same forms as the support
+material used in the preparation of the reduction catalyst,
+i.e., granules, cylinders, rings, honeycombs, etc.
+However, there is no statement indicating that the
+65
+
+IPR2014-01555
+Patent 5,451,558
+
+adsorbent catalyst can be prepared by impregnating the
+transition material component (i.e., as soluble salts) onto
+a support. Consequently, I disagree with the statement
+that “The adsorbent catalyst is disposed on a high surface
+area alumina support” (petition at p. 56).
+Ex. 2002 ¶ 39.
+F. Reply
+According to Petitioner, “Patent Owner’s . . . [Opposition] is limited
+to arguing that in Stiles the catalyst specie is not disposed on a high surface
+area support.” Paper 32, page 23 (italics added).
+In response, Petitioner points to cross-examination testimony of
+Dr. Crocker:
+Q [by counsel for Petitioner]. Okay. I’d like to direct
+your attention to Paragraph 37 of your declaration [Ex.
+2002]. Okay. Paragraph 37 of your declaration states that,
+“Stiles discloses the oxidizing catalyst is intimately
+mixed with alumina,” correct?
+A [Dr. Crocker]. Correct.
+Q. What is your understanding of why this is done?
+A. I presume that the inventors were trying to prepare a
+manganese-alumina mixed oxide in order to obtain a high
+manganese oxide dispersion.
+Q. What is the function performed by the alumina in this
+intimate mixing of an oxidizing catalyst and alumina?
+A. Providing that a mixed oxide is actually obtained,
+then the function of the alumina is to provide a lattice in
+which the manganese irons can reside.
+66
+
+IPR2014-01555
+Patent 5,451,558
+
+Q. So it’s like a support?
+A. Not entirely the same.
+Q. Same in some ways?
+A. In some ways it’s the same.
+Q. Okay. Why not just impregnate the oxidizing catalyst
+with the solution of potassium carbonate?
+A. I'm sorry. Can you repeat the question?
+Q. Yeah. Why include alumina at all? Why not just
+impregnate the oxidizing catalyst with the solution of
+potassium carbonate?
+A. Because manganese oxide on its own would not have
+a very high surface area and because it would be prone to
+sintering during high-temperature operation.
+Q. Okay. So the alumina prevents sintering?
+A. Correct.
+Q. So it's like a support in that way?
+A. In that sense it is like a support providing that a
+mixed oxide is indeed obtained.
+Ex. 1056, page 76:17–77:13.
+With respect to the “onto and into” discussion in col. 11: 63–64 of
+Stiles, Dr. Farrauto testified on cross-examination:
+
+67
+
+IPR2014-01555
+Patent 5,451,558
+
+Q [by counsel for Patent Owner] Then they [i.e., Stiles]
+say, “The ingredients can also be impregnated onto and
+into a support such as alumina, silica, silica alumina,
+activated carbon, silicon carbide and others well known
+to the art [Stiles, col. 11:63–66].”
+So what it [Stiles] is saying here is that you can
+make the reduction catalyst, instead of making it as a
+stand-alone powder [Stiles, col. 5:31–40 and col. 6:7–9],
+you can also put it on a support [Stiles, col. 11:63–66]?
+A [Dr. Farrauto] Exactly.
+Ex. 2003, page 67:10–19.
+G. Discussion
+On the issue of whether Stiles describes depositing a catalyst on a
+support, we credit the testimony of Dr. Farrauto over that of Dr. Crocker.
+As Dr. Farrauto explains, that there are what might be referred to as
+two embodiments described by Stiles. A first embodiment is a description
+of a catalyst in the form of a powder. A second embodiment is a description
+of a catalyst in the form of a powder impregnated “onto” a support. It is the
+second description that counts.
+Dr. Crocker notes an adsorber being a co-precipitated metal
+oxide/aluminum oxide material. Ex. 2002 ¶ 37. As Dr. Crocker further
+notes, “the oxidizing catalyst [] is not located on the alumina but is instead
+intimately mixed with it.” Id. Any intimate mixed catalyst/alumina
+component would be the powder to which Dr. Farrauto refers in his crossexamination testimony quoted above and would relate to what we refer to
+
+68
+
+IPR2014-01555
+Patent 5,451,558
+
+as a first embodiment. The powder is then placed on a support—the second
+embodiment to which we refer.
+In the Reply, Petitioner refers to claim 8 of Stiles. Paper 32, page 23.
+Claim 1 of the ʼ558 patent, with limitations from claim 8 of Stiles
+inserted therein, demonstrates the anticipatory nature of Stiles:
+A material for removing gaseous pollutants from
+combustion exhaust [Stiles, col. 13:1–2] comprising
+[1] an oxidation catalyst specie selected from . . . cobalt,
+nickel, iron, copper, molybdenum [col. 13:5 and 8–9] or
+combinations thereof
+[2] disposed on a high surface area support [col. 13:4–5],
+[3] said catalytic component being intimately [col. 13:4;
+see also col. 5:40–44] and entirely coated with an absorber
+selected from a hydroxide, carbonate [col. 13:13–15 (potassium
+carbonate)], bicarbonate or mixtures thereof of an alkali or
+alkaline earth or mixtures thereof.
+For the reasons given, we find that Petitioner has established by a
+preponderance of the evidence that Stiles describes the limitations of claim 1
+of the ʼ558 patent.
+We therefore find that Stiles anticipates claim 1 of the ʼ558 patent.
+Apart from claims 21–23, Patent Owner does not argue the separate
+patentability apart from claim 1 of the remaining claims involved in
+Ground 5. Accordingly, those claims fall with claim 1.
+
+69
+
+IPR2014-01555
+Patent 5,451,558
+
+H. Claims 21–23
+We instituted an inter partes review trial of claims 21–23 based on a
+likelihood of those claims being unpatentable under § 103. Paper 21,
+pages 32–33.
+In our institution Decision, we said:
+Claims 21–23 claim ranges of (1) 0.5–20, (2) 5–15,
+and (3) about 10. Ex. 1008A, 13:16–24.
+According to Stiles, the amount of alkali can vary
+from 5 to 50% of the total weight of the adsorbent.
+Ex. 1008A, 13:16; see id. at 6:30–31, 8:10–15.
+The Stiles range does not anticipate the ranges of
+claims 21–23. See Atofina, 441 F.3d at 999–1000.
+The claimed ranges overlap with the ranges
+described by Stiles. On that basis, there is a reasonably
+likelihood that claims 21-23 are unpatentable under
+35 U.S.C. § 103(a).
+Paper 21, pages 32–33.
+In its Opposition, “Patent Owner respectfully objects to the Board’s
+substitution and amendment to the grounds asserted in the Petition.”
+Paper 29, page 30.
+Patent Owner does not state why it “objects.” Accordingly, we have
+no basis for evaluating the objection and find no need to further elaborate on
+the objection.
+
+70
+
+IPR2014-01555
+Patent 5,451,558
+
+By indicating a likelihood of unpatentability in the Institution
+Decision, Patent Owner had (1) notice as well as (2) a full and fair
+opportunity to address obviousness in its Opposition.
+On the merits, Patent Owner acknowledges that the claimed ranges
+overlap those described by Stiles but says the ranges of Stiles are
+meaningless:
+Furthermore, with regard to dependent claims 21–
+23, Stiles at col. 6, lines 30-31, states that “the quantity of
+alkali can vary from 5 to 50% of the total weight of the
+adsorbent.” This range is so broad as to be meaningless.
+An even broader range (10–90%) is disclosed at col. 8,
+lines 14-15 of the reference. The only meaningful
+guidance provided by Stiles as to the amount of alkali
+carbonate is that “the 50% content has proved to be
+optimum.” This does not, however, provide the skilled
+person with any guidance as to the amount of alkali metal
+carbonate to use in the material of the ʼ558 patent, which
+comprises a high surface area support material. The
+ranges of claims 21, 22 and 23 of the ʼ558 patent are
+based on the total weight of the material of claim 1,
+including the high surface area support. The adsorbent of
+Stiles does not include a high surface area support
+material. The alkali carbonate amount of 50%, stated by
+Stiles to be optimum, cannot be correlated to the ranges
+of claims 21-23 of the ʼ558 patent.
+Paper 29, pages 29–30.
+The discussion quoted above is an argument of counsel and does not
+refer to any underlying evidence in the record. We are not sure what counsel
+means by “cannot be correlated.” Patent Owner does not deny that the
+ranges described by Stiles, however broad, overlap the ranges of claims
+71
+
+IPR2014-01555
+Patent 5,451,558
+21–23 of the ʼ558 patent. Rather, Patent Owner maintains that “[t]he
+adsorbent of Stiles does not include a high surface area support material”—a
+position with which we disagree for the reasons given above.
+We agree with Petitioner’s argument set out in its Reply:
+The ranges recited in claims 21-23 for the weight of
+absorbent overlap with the ranges disclosed by Stiles. See
+[the Institution] Decision (Paper 21) at pp. 32-33.
+Therefore, [the subject matter of] claims 21-23 . . .
+[would have been] prima facie obvious. MPEP §2144.05.
+[See also the cases cited on pages 18–19 of the Decision
+to institute.] Patent Owner has not rebutted this prima
+facie obviousness by establishing unexpected results in
+the ranges claimed or that Stiles teaches away from the
+claimed ranges. See In re Geisler, 116 F.3d 1465, 1469
+(Fed. Cir. 1997).
+Paper 32, page 25.
+Claims 21–23 are unpatentable under § 103(a) over Stiles.
+VIII. Motions to Exclude
+A. Introduction
+Patent Owner has filed two motions to exclude. Paper 34 and
+Paper 37.
+A motion to exclude can be based on (1) inadmissibility under the
+Federal Rules of Evidence (37 C.F.R. § 42.62) or (2) evidence presented
+contrary to the applicable rules (37 C.F.R. § 42.62 (a) and 37 C.F.R.
+§ 42.61(a) (“[e]vidence that is not taken, sought, or filed in accordance
+with . . . [Subpart 42] is not admissible.”).
+
+72
+
+IPR2014-01555
+Patent 5,451,558
+
+B. First Motion
+1. Exhibits 1015 and 1055
+Exhibit 1015 is the Second Farrauto Declaration.
+Exhibit 1055 is Canadian Patent 1,028,681.
+The exhibits are objected to basically because they were filed with
+Petitioner’s Reply. Paper 34, page 2.
+The fact that evidence is filed with a reply does not mean the evidence
+is per se inadmissible.
+The exhibits relate to the issue of whether there is a typographical
+error in Example 1 of Hoekstra, i.e., is “2.018” a typographical error which
+should be “0.018.”
+In presenting the Petition, Petitioner’s witness Dr. Farrauto explained
+why he felt Hoekstra’s Example 1 anticipates claim 1 of the ʼ558 patent.
+Dr. Crocker, Patent Owner’s witness, disagreed with Dr. Farrauto’s
+explanation.
+On cross-examination, Dr. Crocker was asked if the basis for his
+disagreement might be different if the “2.018” number should have been
+“0.018.” The underlying basis for the “2.018”number vis-à-vis the “0.018”
+number is a description of “0.018” in numerous foreign counterparts of the
+ʼ558 patent, including Canadian Patent 1028681—the only foreign patent
+document which we have considered. No objection to admissibility of the
+Canadian Patent was made during the Crocker cross-examination. 37 C.F.R.
+§ 42.64(a).
+
+73
+
+IPR2014-01555
+Patent 5,451,558
+As explained above, Dr. Crocker agreed. Based on a “0.018” number,
+Dr. Crocker came to the view that there would have been no leaching of
+platinum into the alkali layer.
+The Second Farrauto Declaration was submitted with the Reply and
+establishes that both Dr. Farrauto and Dr. Crocker both agree on the “0.018”
+number, based inter alia on the Canadian Patent.
+Petitioner’s cross-examination was relevant to direct
+declaration testimony by Dr. Crocker. Thus, the “first time in the Reply”
+(Paper 34, page 2) argument came about as a direct result of Dr. Crocker’s
+cross-examination. The objected to portion of the Second Farrauto
+Declaration is also responsive to, and essentially consistent with,
+Dr. Crocker’s cross-examination. Whether evidence is excluded is
+discretionary with the Board. How discretion is exercised is determined on
+the precise facts in each case. This can be seen, for example, in our decision
+in Corning, Inc. v. DSM IP Assets B.V., IPR2013-00047 (PTAB May 1,
+2014) (Paper 84), where some reply evidence was excluded while other
+reply evidence was not excluded.
+Patent Owner would contend, no doubt, that the excluded evidence in
+Corning is similar to the evidence sought to be excluded here.
+However, a review of the precise facts will show otherwise.
+Here, the factual question is whether limitations in claim 1 are
+inherently anticipated by Hoekstra.
+Unlike Corning, the inherency theory matured during crossexamination of Patent Owner’s witness, Dr. Crocker.
+
+74
+
+IPR2014-01555
+Patent 5,451,558
+
+Ultimately, in our view, Dr. Crocker agreed that no platinum migrated
+to the alkali metal layer—based on an analysis with a correct “0.018”
+number.
+The Reply evidence, consistent with Dr. Crocker’s testimony, agreed
+that a correct number is “0.018” and on that basis, Petitioner’s witness
+agreed with Dr. Crocker.
+Further, unlike Corning, a whole new theory of anticipation did not
+arise in the first instance with the Reply; rather, it was essentially developed
+during cross-examination of Patent Owner’s witness.
+Still further, unlike Corning where Patent Owner had no chance to
+counter the evidence based on a first instance new theory in a reply, here the
+inherency issue based on the “0.018” number came up during crossexamination. Patent Owner had an opportunity to address the “0.018”
+number on redirect and indeed did so. Ex. 1056, pages 106:23–107:11.
+Alternatively, as noted by Petitioner at oral argument, Patent Owner
+could have addressed the matter in observations. Transcript of Oral
+Argument, Paper 49, page 32:18 through page 33:5.
+Lastly, Patent Owner could have contacted the Board to urge leave
+to file a sur-reply. See Nintendo of America, Inc. v. ILife Technologies,
+IPR2015-00106 (PTAB Dec. 7, 2015) (Paper 25) and Masterimage 3D, Inc. v.
+Realding, Inc., IPR2015-00035 (PTAB Nov. 29, 2015) (Paper 58).
+
+The objection is overruled.
+Petitioner’s Reply therefore does not raise an impermissible new
+argument.
+
+75
+
+IPR2014-01555
+Patent 5,451,558
+
+2. Exhibit 1015 ¶ 10
+Patent Owner objects to the admissibility of paragraph 10 of Exhibit
+1015 (Second Farrauto Declaration). Paper 34, page 3.
+According to Patent Owner, the exhibit improperly presents new
+evidence relevant to how one skilled in the art would understand Figure 5(A)
+of Takeshima.
+Patent Owner has prevailed on whether Takeshima anticipates claim 1
+of the ʼ558 patent notwithstanding Petitioner’s view on what one skilled in
+the art would have understood about Takeshima Figure 5(A).
+The objection addresses the weight to be assigned testimony as
+opposed to admissibility.
+The objection is overruled.
+3. Portion of the Reply
+Patent Owner objects to what it characterizes as new argument on
+page 16:7–17:17 (sic—16) of Petitioner’s Reply. Paper 34, pages 3–4.
+A motion to exclude should address only admissibility of evidence—
+not whether a Reply makes a “new” argument.
+The objection is dismissed as improperly made in a motion to exclude.
+4. Exhibit 1016
+Patent Owner objects to the admissibility of Exhibit 1016. Paper 34,
+pages 4–5.
+Exhibit 1016 is a dictionary definition.
+In making our decision, we have not relied upon Exhibit 1016.
+Accordingly, the objection is dismissed as moot.
+
+76
+
+IPR2014-01555
+Patent 5,451,558
+
+C. Second Motion
+Filing of the Second Motion was authorized in an order entered
+9 October 2015. Paper 36.
+In the order, Patent Owner was told the following:
+The motion shall not include argument as to the
+merits of patentability and shall not serve in any way as
+supplementing arguments made in Patent Owner’s
+opposition on the merits.
+The motion shall be limited to (1) identifying the
+exhibit sought to be excluded and (2) a very brief
+discussion as to why it is being improperly relied upon
+by Petitioner in its Reply:
+“The exhibit sought to be excluded is Ex. ____.
+The exhibit should be excluded because [explain
+why].”
+Paper 36, page 6.
+A purpose in requiring a particular format was to make it easy for
+Petitioner to respond to the Second Motion and for the Board to analyze and
+decide the motion. See 37 C.F.R. § 42.1(b) (inexpensive resolution of
+proceeding).
+A review of the motion will immediately confirm that Patent Owner
+did not follow the format ordered and manifestly is an attempt to supplement
+arguments made in Patent Owner’s Opposition.
+The Second Motion is denied without a consideration on the merits
+based on a failure to adhere to requirements set out in the order. 37 C.F.R.
+§ 42.12(a)(1).
+
+77
+
+IPR2014-01555
+Patent 5,451,558
+
+IX. Large Documents
+The parties have filed several large documents, i.e., documents
+containing many pages.
+Examples are (1) the prosecution history (Ex. 1002—164 pages),
+(2) the Crocker cross-examination (Ex. 1056—140 pages), and (3) the
+Farrauto cross-examination (Ex. 2003—220 pages).
+With respect to these large documents, we have considered only the
+pages called to our attention by the parties in the Petition, Opposition, Reply
+or other paper or mentioned in our opinion.
+All other pages were not considered and are excluded from evidence.
+X. Judgment
+Upon consideration of the Petition, Opposition, and Reply, and for the
+reasons given, it is
+ORDERED that based on Ground 1 (Takeshima), Petitioner has not
+established by a preponderance of the evidence that any challenged claim is
+unpatentable;
+FURTHER ORDERED that based on Ground 2 (Hoekstra), Petitioner
+has established by a preponderance of the evidence that claims 1, 7, 8, 12, 14,
+21, 22, 32–35, and 38–42 of the ʼ558 patent are unpatentable under 35 U.S.C.
+§ 102(b) and claims 9–11 and 23 of the ʼ558 patent are unpatentable under
+35 U.S.C. § 103(a);
+FURTHER ORDERED that based on Ground 3 (Kinoshita),
+Petitioner has not established by a preponderance of the evidence that claims
+1–32 of the ’558 patent are anticipated by Kinoshita.
+
+78
+
+IPR2014-01555
+Patent 5,451,558
+
+FURTHER ORDERED that based on Ground 3 (Kinoshita),
+Petitioner has established by a preponderance of the evidence that claims
+33–40, 42, and 44 of the ’558 patent are anticipated by Kinoshita.
+FURTHER ORDERED that based on Ground 4 (Inui), the evidence
+establishes by a preponderance of the evidence that claims 1, 2, 7–10, 14,
+15, 17, 19, 24, 31, 33–37, 39, and 40 of the ʼ558 patent are unpatentable
+under 35 U.S.C. § 102(b).
+FURTHER ORDERED that based on Ground 5 (Stiles), the evidence
+establishes that claims 1, 7, 8, 14–17, 19, and 31 of the ʼ558 patent are
+unpatentable under 35 U.S.C. § 102(b) and that claims 21–23 of the ʼ558
+patent are unpatentable under 35 U.S.C. § 103(a).
+FURTHER ORDERED that claims 1, 2, 7–12, 14–17, 19, 21–24,
+31–42 of the ʼ558 patent are unpatentable.
+FURTHER ORDERED that because this is a final written decision,
+parties to the proceeding seeking judicial review of the decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+79
+
+IPR2014-01555
+Patent 5,451,558
+
+For PETITIONER:
+Steven F. Meyer
+ptopatentcommunication@lockelord.com
+Seth J. Atlas
+satlas@lockelord.com
+John F. Sweeney
+jsweeney@lockelord.com
+
+For PATENT OWNER:
+Michael J. Bradford
+mbradford@luedeka.com
+Jacobus C. Rasser
+koosrasser@gmail.com
+
+80
+
+

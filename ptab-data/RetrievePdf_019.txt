@@ -1,0 +1,1064 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 36
+Entered: August 26, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+NISSAN NORTH AMERICA, INC.,
+Petitioner,
+v.
+NORMAN IP HOLDINGS, LLC,
+Patent Owner.
+____________
+Case IPR2014-00564
+Patent 5,530,597
+
+Before BRYAN F. MOORE, HYUNG J. JUNG, and
+FRANCES L. IPPOLITO, Administrative Patent Judges.
+IPPOLITO, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+Inter Partes Review
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-00564
+Patent 5,530,597
+I. INTRODUCTION
+Nissan North America, Inc. (“Petitioner”) filed a Petition on April 1,
+2014, requesting an inter partes review of claims 6–9 of U.S. Patent No.
+5,530,597 (“the ’597 patent”). (Paper 1, “Pet.”) Patent Owner, Norman IP
+Holdings, LLC, waived the Preliminary Response to the Petition. Paper 7.
+On September 23, 2014, we instituted an inter partes review of claims 6–9
+on the following grounds of unpatentability alleged in the Petition:
+A. Claims 6–9 as unpatentable under 35 U.S.C. § 103 over Tokiwa1
+and Smith;2
+B. Claims 6–9 as unpatentable under 35 U.S.C. § 103 over Katayose3
+and Smith; and
+C. Claims 6 and 7 as unpatentable under 35 U.S.C. § 102(b) over
+Smith.
+Paper 18 (“Dec.”), 21.
+After institution of trial, Patent Owner filed a Patent Owner Response
+(Paper 24, “PO Resp.” ) and Petitioner filed a Reply thereto (Paper 27, “Pet.
+Reply”). Additionally, Patent Owner filed a Motion to Exclude certain
+evidence (Paper 29, “Mot. Excl.”), which Petitioner opposes (Paper 33,
+“Opp.”). In response to Petitioner’s Opposition, Patent Owner filed a Reply
+to Petitioner’s Opposition (Paper 34, “PO Reply to Mot. Excl.”).
+An oral argument was held on June 1, 2015. The transcript of the oral
+hearing has been entered into the record. Paper 35 (“Tr.”).
+
+1
+
+Japanese Pub. S61-39135, published Feb. 25, 1986 (“Tokiwa”) (Ex. 1002).
+
+2
+
+U.S. Patent No. 4,748,559, issued May 31, 1988 (“Smith”) (Ex. 1004).
+
+3
+
+U.S. Patent No. 4,930,068, issued May 29, 1990 (“Katayose”) (Ex. 1003).
+2
+
+IPR2014-00564
+Patent 5,530,597
+We have jurisdiction under 35 U.S.C. § 6(c). This Final Written
+Decision is issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73.
+Petitioner has shown, by a preponderance of the evidence, that claims
+6–9 of the ’597 patent are unpatentable.
+A. Related Proceedings
+Claims 1–6, 10, and 11 of the ’597 patent were the subject of Ex Parte
+Reexamination No. 90/012,781, filed on February 4, 2013. Ex. 1010, 2, 5.
+This reexamination resulted in Ex Parte Reexamination 5,530,597
+Certificate C1, issued April 17, 2014 (“’597 C1”), indicating that claims 1–
+5, 10, and 11 were cancelled, the patentability of claim 6 was confirmed, and
+claims 7–9 were not reexamined. Ex. 3001.
+Claims 1–6, 10, and 11 of the ’597 patent were also the subject of a
+request for a second Ex Parte Reexamination No. 90/012,901, filed by third
+party requestor ARM, Inc. on June 27, 2013. That request was denied on
+August 27, 2013. Ex. 1010, 3–4. Third party requestor ARM, Inc. filed a
+Petition for review of the denial on September 25, 2013. On April 23, 2014,
+ARM, Inc.’s Petition for review was dismissed as moot in view of the ’597
+C1 certificate. Ex. 3002.
+For other related proceedings, Petitioner provides a list of related
+matters in various federal district courts. Pet. 2–5.
+B. The ’597 Patent
+The ’597 patent describes interrupt controllers with interrupts that
+may be masked by software. Ex. 1001, 1:54–56. More particularly, the
+’597 patent describes an interrupt enable circuit “capable of allowing an
+interrupt to be enabled and disabled by software at any time except under
+conditions, dictated by hardware, at which time the interrupt becomes nonmaskable.” Id. at 3:9–12. Figure 2 of the ’597 patent is reproduced below.
+3
+
+IPR2014-00564
+Patent 5,530,597
+
+Figure 2 depicts an interrupt enable circuit that provides a maskable
+interrupt that becomes a “non-maskable interrupt while the processor is in
+the idle mode.” Id. at 5:51–52. Generally, when the SOFTWARE
+ENABLE signal is high, the interrupt request signal, INTO, will generate an
+interrupt. Id. at 5:21–23. When the SOFTWARE ENABLE signal is low,
+the interrupt is masked. Id. at 5:24–25. However, IDLE INDICATOR
+CIRCUIT 22 provides an IDLE signal on line 24 while the processor is in
+idle mode. Id. at 5:54–56. The IDLE signal is received with the
+SOFTWARE ENABLE signal by OR gate 28. Id. at 5:56–57. Thus, when
+the processor is in an idle mode, IDLE INDICATOR CIRCUIT 22 will
+assert an IDLE signal and cause the output of OR gate 28 to go high
+regardless of the state of the SOFTWARE ENABLE signal on line 26. Id. at
+5:61–65. “As long as the OR gate output 28 remains at a high level . . . [the]
+INTO [signal] on line 4 will set latch 10, thus generating the interrupt.” Id.
+at 5:65–6:1. When the processor is not in the idle mode, the IDLE signal on
+line 24 remains low, and the enabling and disabling of the interrupt will be
+determined by the SOFTWARE ENABLE signal on line 26. Id. at 6:7–10.
+C. Illustrative Claim
+Challenged claims 6–9 depend directly or indirectly from claims 1, 4,
+and/or 5, which were cancelled by the Ex Parte Reexamination No.
+
+4
+
+IPR2014-00564
+Patent 5,530,597
+90/012,781. Illustrative claim 6 and cancelled claims 1, 4, and 5 are
+reproduced below:
+1. (Cancelled) An interrupt mask disable circuit comprising:
+first logic circuitry operably coupled to receive an
+interrupt request and a mask signal and to provide an interrupt
+signal when the interrupt request is active and the mask signal
+is disabled, and to provide a non-interrupt signal when the mask
+signal is enabled regardless of whether the interrupt request is
+active or inactive; and
+second logic circuitry operably coupled to receive a
+mask activation signal and a mask override signal and to
+produce the mask signal, wherein the mask signal is enabled
+when the mask activation signal is active and the mask override
+signal is not enabled and wherein the mask signal is disabled
+when the mask override signal is active regardless of whether
+the mask activation signal is enabled or disabled.
+4. (Cancelled) The interrupt mask disable circuit of claim 1,
+wherein the mask override signal is enabled based on a
+hardware condition.
+5. (Cancelled) The interrupt mask disable circuit of claim 4,
+further comprises being incorporated within a processor, and
+wherein the hardware condition occurs when said processor is
+in a particular state.
+6. An apparatus as recited in claim 5 wherein said particular
+state comprises an idle mode.
+II. ANALYSIS
+A. Claim Construction
+The ’597 patent has expired. See Pet. 8. The Board’s review of the
+claims of an expired patent is similar to that of a district court’s review. In
+re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). We are, therefore, guided
+by the principle that the words of a claim “are generally given their ordinary
+and customary meaning” as understood by a person of ordinary skill in the
+5
+
+IPR2014-00564
+Patent 5,530,597
+art in question at the time of the invention. Phillips v. AWH Corp., 415 F.3d
+1303, 1312–13 (Fed. Cir. 2005) (en banc) (internal citation omitted).
+1. “first logic circuitry” and “second logic circuitry” (claims 6–9)
+Although the parties do not expressly propose a construction for any
+claim term (Pet. 7–8; PO Resp. 8; Tr. 37:18–38:25), the parties nonetheless
+dispute whether the terms “first logic circuitry” and “second logic circuitry”
+of the “interrupt mask disable circuit” required by claims 6–9,4 exclude an
+AND gate and an OR gate respectively (Tr. 37:23–38:8; 45:24–48:7)5.
+Specifically, Patent Owner asserts that an AND gate alone does not satisfy
+the limitations of a “first logic circuitry” and an OR gate alone does not meet
+the limitations of a “second logic circuitry.” Id. at 37:23–38:8. According
+to Patent Owner, independent claim 1 excludes the embodiment disclosed in
+Figure 2 of the ’597 patent, and, thus, claims 6–9, which depend from claim
+1, do not cover AND gate 6 (Fig. 2) as a “first logic circuitry” and OR gate
+28 (Fig. 2) as a “second logic circuitry.” Tr. 38:11–42:1.
+Petitioner disagrees with Patent Owner’s reading of “first logic
+circuitry” and “second logic circuitry” as excluding the embodiment shown
+in Figure 2 of the ’597 patent. Tr. 45:24–48:7. For the “second logic
+circuitry,” Petitioner asserts that excluding an OR gate alone would ignore
+the literal language of claim 8, which directly depends from claim 1 and
+recites that the “second logic circuitry comprises an OR gate.” Tr. 46:7–
+47:11. Similarly, Petitioner asserts that excluding an AND gate alone from
+4
+
+The terms “first logic circuitry” and “second logic circuitry” are recited in
+cancelled claim 1 from which challenged claims 6–9 depend.
+5
+We note that, as explained below in Section _III_, Patent Owner
+improperly included these arguments only in a Motion to Exclude.
+However, even if we consider those arguments we are not persuaded by
+them.
+6
+
+IPR2014-00564
+Patent 5,530,597
+meeting the “first logic circuitry” would contradict the express language of
+dependent claim 9, which recites “the first logic circuitry comprises an AND
+gate.” Id.
+To start, we note that a general principle of claim construction
+counsels against interpreting claim terms in a way that excludes
+embodiments disclosed in the specification. Oatey Co. v. IPS Corp.,
+514 F.3d 1271, 1276–77 (Fed. Cir. 2008) (“We normally do not interpret
+claim terms in a way that excludes embodiments disclosed in the
+specification”); see e.g., Verizon Servs. Corp. v. Vonage Holdings Corp.,
+503 F.3d 1295, 1305 (Fed. Cir. 2007) (rejecting proposed claim
+interpretation that would exclude disclosed examples in the specification);
+Invitrogen Corp. v. Biocrest Mfg., L.P., 327 F.3d 1364, 1369 (Fed. Cir.
+2003) (finding district court’s claim construction erroneously excluded an
+embodiment described in an example in the specification, where the
+prosecution history showed no such disavowal of claim scope); NeoMagic
+Corp. v. Trident Microsystems, Inc., 287 F.3d 1062, 1074 (Fed. Cir. 2002)
+(“It is elementary that a claim construction that excludes the preferred
+embodiment ‘is rarely, if ever correct and would require highly persuasive
+evidentiary support.”’) (quoting Vitronics Corp. v Conceptronic, Inc., 90
+F.3d 1576, 1583 (Fed. Cir. 1996)).
+Here, Patent Owner’s construction of “first logic circuitry” and
+“second logic circuitry” would exclude most, if not all, of the embodiments
+disclosed in the ’597 patent. Generally, a construction that excludes all
+disclosed embodiments is especially disfavored. Kaneka Corp. v. Xiamen
+Kingdomway Group Company, Nos. 2014-1373, 2014-1399, 2015 WL
+3613644, at *4 (Fed. Cir. Jun 10, 2015). For example, claim 6 depends from
+cancelled claim 1 and includes the “first logic circuitry” and “second logic
+7
+
+IPR2014-00564
+Patent 5,530,597
+circuitry” recited in Claim 1. Claim 6 further depends from cancelled claims
+4 and 5, and requires that the mask override signal (of the second logic
+circuitry) is enabled based on a hardware condition that occurs when a
+processor is in an idle mode. In describing the idle mode operation, the ’597
+patent refers to IDLE INDICATOR CIRCUIT 22 in the circuitry of three
+embodiments depicted in Figures 2, 3, and 4. Ex. 1001, 5:53–56, 6:33–55.
+In each of Figures 2, 3, and 4, the ’597 patent shows that a single OR gate,
+OR gate 28 alone, receives SOFTWARE ENABLE signal 26 (e.g., mask
+activation signal) and IDLE signal 24/EXTERNAL SIGNAL 32 (e.g., “mask
+override signal”). OR gate 28 also generates a signal (e.g., mask signal) that
+is input into a single AND gate, AND gate 6. Ex. 1001, 5:61–65. The ’597
+patent also shows AND gate 6 alone receives INTO signal 4 (e.g., interrupt
+request) and outputs a signal to interrupt flag IE0 10. Id. at Figs. 2–4. Thus,
+we do not agree with Patent Owner that the embodiments shown in Figure
+2–4 exclude an OR gate alone (e.g., OR gate 28) from a “second logic
+circuitry” and an AND gate alone (e.g., AND gate 6) from a “first logic
+circuitry.”
+Additionally, Figures 5a, 5b, 6, and 7 incorporate the circuitry shown
+in Figure 2. Ex. 1001, 6:64–7:2 (“FIG. 5 shows a block diagram of an
+integrated circuit . . . having the interrupt enable circuit shown in FIG. 2”),
+7:28–30 (“FIGS. 6 and 7 describe[] how the IC of FIG. 5 may be
+incorporated into the handset unit and base unit [of] a cordless telephone.”).
+Thus, the embodiments described in Figures 5a, 5b, 6, and 7 also include
+AND gate 6 alone as a first logic circuitry and OR gate 28 alone as a second
+logic circuitry. Further, remaining Figure 1 of the ’597 describes the prior
+art, not an embodiment of a disclosed invention in the ’597 patent. Id. at
+4:3.
+8
+
+IPR2014-00564
+Patent 5,530,597
+Additionally, Patent Owner argues that claim 1 should be interpreted
+to exclude embodiments of the patented invention where those embodiments
+are clearly disclaimed in the specification. Tr. 39:5–16; see North Am.
+Container, Inc. v. Plastipak Packaging, Inc., 415 F.3d 1335, 1345–46 (Fed.
+Cir. 2005) (excluding from claim scope certain embodiments in the drawings
+based on disclaimer during prosecution); see also SciMed Life Sys., Inc. v.
+Advanced Cardiovascular Sys., Inc., 242 F.3d 1337, 1344 (Fed.Cir.2001)
+(excluding subject matter from claim scope based on clear disclaimer in the
+specification), or prosecution history. However, such a construction requires
+“highly persuasive evidentiary support.” Adams Respiratory Therapeutics,
+Inc. v. Perrigo Co., 616 F.3d 1283, 1290 (Fed. Cir. 2010) (quoting Vitronics
+Corp. v. Conceptronic, Inc., 90 F.3d 1576, 1583–84 (Fed. Cir. 1996)).
+Based on the complete record before us, Patent Owner has not
+provided persuasive evidentiary support for its construction. Patent Owner
+contends that the signals shown in Figure 2 of the ’597 patent do not
+correspond to the logical relationship required by claim 1. See Tr. 41:8–
+42:1. Referring to Figure 2, Patent Owner argues that element 4 is an
+interrupt request signal and the output signal from gate 28 is a mask signal.
+According to Patent Owner, “the interrupt signal and the interrupt request
+signal are both on when the mask gate is off. And that is impossible when
+you have an AND gate. An AND gate requires that both inputs to be on for
+the output to be on.” Id. at 41:22–25. In response, Petitioner agrees that
+INT0 line 4 is an “interrupt request” and the output of OR gate 28 is a mask
+signal. Tr. 47:17–48:7.
+Looking to the Specification, we do not agree with Patent Owner that
+the Specification disclaims or excludes Figure 2 from the scope of the “first
+logic circuitry” and “second logic circuitry” limitations recited in claim 1
+9
+
+IPR2014-00564
+Patent 5,530,597
+and required in claim 6. For convenience, Figure 2 of the ’597 patent is
+reproduced below.
+
+Referring to Figure 2, the ’597 patent teaches that when idle indicator circuit
+22 asserts an idle signal on line 24, the output of OR gate 28 is “high
+regardless of the state of the SOFTWARE ENABLE signal on line 26.” Ex.
+1001, 5:61–65. The ’597 patent further teaches that “[a]s long as the OR
+gate output 28 remains at a high level, the assertion of the interrupt request
+signal INTO on line 4 will set latch 10, thus generating the interrupt.” Ex.
+1001, 5:65–6:1.
+Based on this disclosure, the ’597 patent teaches that a high output of
+gate 28, which the parties agree is a “mask signal,” would not mask the
+interrupt request, and a low output of gate 28 would not generate an interrupt
+through AND gate 6, thus masking the interrupt. In other words, the ’597
+patent teaches that the output of gate 28 is a mask signal that is disabled/off
+when output of the gate 28 is high, and active/on when the output of OR gate
+28 is low. With this relationship in mind, we do not agree with Patent
+Owner that it would be “impossible” that “the interrupt signal and the
+interrupt request signal are both on when the mask gate is off.” See Tr.
+41:22–25. As discussed, the output of OR gate 28 is high when masking is
+disabled/off, thus, “[a]s long as the OR gate output 28 remains at a high
+
+10
+
+IPR2014-00564
+Patent 5,530,597
+level, the assertion of the interrupt request signal INTO on line 4 will set
+latch 10, thus generating the interrupt.” Ex. 1001, 5:65–6:1.
+Accordingly, we are not persuaded that “first logic circuitry” and
+“second logic circuitry” excludes an AND gate alone and OR gate alone
+respectively as Patent Owner proposes.
+B. Claims 6–9 – Obviousness over Tokiwa (Ex. 1002) and Smith
+(Ex.1004)
+Petitioner argues that claims 6–9 are unpatentable under 35 U.S.C.
+§ 103(a) over Tokiwa and Smith. Pet. 9–20. As explained in further detail
+below, we have considered the arguments and evidence presented, and we
+are persuaded that Petitioner has shown, by a preponderance of the evidence,
+that claims 6–9 are unpatentable over Tokiwa and Smith.
+1. Relevant Legal Principles
+A claim is unpatentable under 35 U.S.C. § 103(a) if the differences
+between the claimed subject matter and the prior art are such that the subject
+matter, as a whole, would have been obvious at the time the invention was
+made to a person having ordinary skill in the art to which said subject matter
+pertains. KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 406 (2007). The
+question of obviousness is resolved on the basis of underlying factual
+determinations including (1) the scope and content of the prior art; (2) any
+differences between the claimed subject matter and the prior art; (3) the level
+of skill in the art; and, (4) where in evidence, so-called secondary
+considerations, including commercial success, long-felt but unsolved needs,
+failure of others, and unexpected results. Graham v. John Deere Co.,
+383 U.S. 1, 17–18 (1966) (“the Graham factors”). The level of ordinary
+skill in the art usually is evidenced by the references themselves. See
+Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001); In re GPAC
+11
+
+IPR2014-00564
+Patent 5,530,597
+Inc., 57 F.3d 1573, 1579 (Fed. Cir. 1995); In re Oelrich, 579 F.2d 86, 91
+(CCPA 1978).
+For an obviousness analysis, prior art references must be “considered
+together with the knowledge of one of ordinary skill in the pertinent art.”
+In re Paulsen, 30 F.3d 1475, 1480 (Fed. Cir. 1994) (quoting In re Samour,
+571 F.2d 559, 562 (CCPA 1978)). Moreover, “it is proper to take into
+account not only specific teachings of the reference but also the inferences
+which one skilled in the art would reasonably be expected to draw
+therefrom.” In re Preda, 401 F.2d 825, 826 (CCPA 1968). That is because
+an obviousness analysis “need not seek out precise teachings directed to the
+specific subject matter of the challenged claim, for a court can take account
+of the inferences and creative steps that a person of ordinary skill in the art
+would employ.” KSR, 550 U.S. at 418; see also In re Translogic Tech., Inc.,
+504 F.3d at 1259.
+2. Summary of Tokiwa (Ex. 1002)
+Tokiwa teaches a virtual machine system with a virtual machine
+control program (VMCP) that manages machine resources shared among
+virtual machines (VM). VMCP operates in a privileged mode and the
+operating system (OS) under the VM operates in a non-privileged status or
+privileged status. Ex. 1002, 2. “Direct execution of privileged commands
+and interrupts on the VM means that privileged commands or interrupts
+belonging to the VM are executed in nearly the same execution time as in
+the actual machine, primarily by hardware.” Id. at 3.
+Tokiwa also discloses an interrupt processing mechanism to prevent a
+VM in standby uninterruptible state rendering the actual machine itself
+uninterruptible. Ex. 1002, 4. Figure 1, reproduced below, is a logic circuit
+
+12
+
+IPR2014-00564
+Patent 5,530,597
+diagram illustrating an interval timer interrupt processing mechanism for this
+purpose.
+
+Figure 1 shows that the interval timer interrupt processing mechanism may
+include VM mode flag 13’. VM mode flag 13’ has a value of “1” when in
+VM mode and a value of “0” when in hypervisor (HPV) mode. Ex. 1002, 3.
+In VM mode, privileged commands can be executed by the VM. Id.
+Figure 1 also shows interval timer interrupt detection circuit 17 that includes
+interrupt cause detection circuit 170 for VM interval timer 21, interrupt
+cause detection circuit 172 for VMCP interval timer 22, AND gates 171,
+176, and 177, and OR gate 175 for processing the output of these interrupt
+cause detection circuits according to the contents of the external interrupt
+
+13
+
+IPR2014-00564
+Patent 5,530,597
+mask (E) of PSW 10, and the interval timer interrupt submask (IT) of CRO
+16. Id. at 4.
+Referring to Figure 1, Tokiwa describes the operation of the interrupt
+processing mechanism where an interrupt is generated by VMCP interval
+timer 22 while the direct execution mode of VM is running. In particular,
+Tokiwa states
+In this case, “1” is output from the interrupt cause detection
+circuit 172. Since the direct execution VM mode flag 13’ is
+“1,” the output of the OR circuit 175 is “1,” and as a result, the
+output of the AND circuit 177 is “1,” and the VMCP interrupt
+processing firmware 18 is started up. The firmware 18 sets the
+value of the direct execution VM mode flag 13’ to “0,” and
+reflects the interval timer interrupt to the VMCP prefix
+indicated by the VMCP prefix register 23. That is, in this case,
+when an interrupt cause is generated by the VMCP interval
+timer, the VMCP always performs interrupt, regardless of the
+contents of the interrupt masks (E and IT) (in this case these
+are used for the running VM).
+Ex. 1002, 4–5 (emphasis added). Tokiwa further discloses a second
+example where an interrupt is generated by VMCP interval timer 22 while
+the VM is not in direct execution mode. In the second example, VM mode
+flag 13’ is “0” from the start. Id. at 5. In this mode, the interrupt is possible
+only when both the E (external interrupt mask) bit of the PSW 10 and the IT
+(interval timer interrupt submask) bit of CRO 16 are ‘1,’ and the output of
+AND circuit 171 is ‘1.’ Id. This results in an output of “1” from OR circuit
+175 and an output of “1” from AND circuit 177. Id.
+3. Summary of Smith (Ex. 1004)
+Smith discloses a processor capable of reducing its power
+consumption by executing a WAIT or STOP instruction. In either the WAIT
+or STOP state, the processor again is rendered operational or restarted by an
+14
+
+IPR2014-00564
+Patent 5,530,597
+external reset or the presence of an interrupt signal. Ex. 1004, 5:25–40,
+Figs. 2–3 (flow diagrams showing execution of WAIT and STOP
+instructions). When a STOP instruction is executed, both the master clock
+oscillator and internal clocks are inhibited. Id. at 5:35–37.
+Figure 4, reproduced below, is a logic diagram illustrating an
+apparatus for inhibiting clock signal in response to the WAIT or STOP
+instructions of Figures 2 and 3 to reduce power consumption in the
+processor.
+
+As shown, Figure 4 depicts a logic diagram illustrating the WAIT
+instruction, STOP instruction, a reset signal (RST), an interrupt signal (INT),
+and a mask interrupt signal (MASK1). For masking, Smith further discloses
+that the processor includes a five-bit condition code register in which a
+“fourth bit is a mask interrupt bit and when set, disables both external and
+timer interrupts. Clearing the interrupt mask bit enables both of the
+interrupts.” Id. at 3:22–25.
+15
+
+IPR2014-00564
+Patent 5,530,597
+Referring back to Figure 4, Smith indicates that in WAIT mode, the
+presence of an INT signal and in the absence of a MASK1 signal will result
+in a logical “0” applied to the D input of flip-flop 148. Ex. 1004, 7:29–32.
+This, in turn, will result in a logical “1” applied to the reset input of WAIT
+flip-flop 98, which enables clock signals C1 and C2 and address and data
+strobe signals AS and DS. Id. at 7:43–48. If an interrupt signal should
+occur after executing a STOP instruction, then flip-flop 148 must be reset
+asynchronously because master clock oscillator 114 has been disabled. Ex.
+1004, 8:48–53. Smith adds that resetting flip-flop 148
+is accomplished as follows, a logical “1” on the interrupt input
+is applied to a first input of NAND gate 180. Since clock signal
+C2 is at a logical “0”, a logical “1” is applied to a second input
+of NAND gate 180 via inverter 182. Finally, a third input of
+NAND gate 182 is coupled to the output of STOP flip-flop 100
+which, after execution of the STOP instruction, is at a logical
+“1” level. Therefore, the output of NAND gate 180 is at a
+logical “0” level. This output is inverted by inverter 184 and
+applied to the R input of flip-flop 148.
+Id. at 8:53–63.
+4. Analysis
+We have reviewed the Petition, the Patent Owner’s Response, and
+Petitioner’s Reply, as well as the evidence discussed in each of those papers,
+and are persuaded, by a preponderance of the evidence, that claims 6–9
+would have been obvious based on Tokiwa and Smith. Below we discuss
+claim 6, which is illustrative of claims 7–9.
+Our discussion of claim 6 includes the limitations recited in cancelled
+claims 1, 4, and 5, which are required in dependent claim 6.
+
+16
+
+IPR2014-00564
+Patent 5,530,597
+Cancelled claim 1 is directed to an interrupt mask disable circuit with
+first logic circuitry operably coupled to receive an
+interrupt request and a mask signal and to provide an interrupt
+signal when the interrupt request is active and the mask signal
+is disabled, and to provide a non-interrupt signal when the mask
+signal is enabled regardless of whether the interrupt request is
+active or inactive.
+Petitioner asserts that Tokiwa’s disclosure of the interval timer interrupt
+processing mechanism, depicted in Figure 1’s logic diagram, satisfies this
+limitation. Pet. 13–14. Petitioner argues that Tokiwa provides an example
+where an interrupt cause is generated by the VMCP interval timer while the
+VM is not running in direct execution mode. Id. In that mode, “interrupt is
+possible only when both the E (external interrupt mask) bit of the PSW 10
+and the IT (interval timer interrupt submask) bit of the CRO 16 are ‘1.’” Id.
+(citing Ex. 1002, 5).
+Cancelled claim 1 further requires a
+second logic circuitry operably coupled to receive a mask
+activation signal and a mask override signal and to produce the
+mask signal, wherein the mask signal is enabled when the mask
+activation signal is active and the mask override signal is not
+enabled and wherein the mask signal is disabled when the mask
+override signal is active regardless of whether the mask
+activation signal is enabled or disabled.
+Referring, again, to Figure 1, Petitioner asserts that Tokiwa discloses a
+second example where an interrupt is generated by VMCP interval timer 22
+while VM is in direct execution mode (i.e., VM mode flag 13’ is “1”). Pet.
+14–15. Petitioner argues that in this mode, “the VMCP interval timer . . .
+always performs the interrupt, regardless of the contents of the interrupt
+masks (E and IT).” Id. (quoting Ex. 1002, 5). Essentially, Petitioner asserts
+that VM mode flag 13’ set to “1” discloses an override signal. Pet. 14.
+17
+
+IPR2014-00564
+Patent 5,530,597
+In response, Patent Owner argues that the Petition identifies the same
+circuit elements shown in Figure 1 of Tokiwa for the “first logic circuitry”
+and “second logic circuitry,” and the Decision to Institute relies on different
+states of the same circuit. PO Resp. 15. According to Patent Owner, the
+first and second logic circuitry must “be specific, separate components,
+particularly as the second logic circuitry provides the mask signal received
+by the first logic circuitry.” Id.
+We do not agree with Patent Owner that the “first logic circuitry” and
+“second logic circuitry” must be separate components. The literal language
+of claim 1 does not expressly require separate components. Nonetheless,
+even assuming these limitations require separate components, the Petition
+relies on the disclosure of Tokiwa’s interval timer interrupt mechanism (Ex.
+1002, Fig. 1), which includes separate components AND gate 177 and OR
+gate 175, for the “first logic circuitry” and the “second logic circuitry”
+respectively. Pet. 13–14; Pet. Reply 5–9. Furthermore, as discussed above,
+we determined that the scope of the claim term “first logic circuitry” can be
+met by a single AND gate and, similarly, the claim term “second logic
+circuitry” can be met by a single OR gate. See supra Claim Construction.
+Patent Owner further argues that Tokiwa’s AND gate 177 does not
+teach a “first logic circuitry” because AND gate 177 does not “provide a
+non-interrupt signal when the mask signal is enabled regardless of whether
+the interrupt request is active or inactive.” PO Resp. 16–17. Patent Owner
+relies on a set of truth tables for its position. Id.
+In its Reply, Petitioner contends that Patent Owner’s truth tables are
+incorrect and do not take into account that Tokiwa teaches “Bits E and IT
+control the output of AND gate 171, and gate 171 has a high voltage when
+interrupts are allowed (i.e., not masked).” Pet. Reply 6–7 (citing Ex. 1002,
+18
+
+IPR2014-00564
+Patent 5,530,597
+2). Petitioner further argues that gate 171 outputs a mask activation signal
+that is set when gate 171 is “0” and not set when it is “1.” Pet. Reply 7.
+Turning to Tokiwa, Figure 1 is reproduced below for convenience.
+
+Figure 1 shows a logic diagram for an interval timer interrupt processing
+mechanism that includes VM mode flag 13’. When VM mode flag 13’ is set
+to “0,” an interrupt is possible only when both the E (external interrupt
+mask) bit of the PSW 10 and the IT (interval timer interrupt submask) bit of
+CRO 16 are “1,”’ and the output of AND gate 171 is “1.” Ex. 1002, 5.
+Based on this disclosure, Petitioner argues that the output of AND gate 171
+discloses a “mask activation signal” that is enabled when the output is “0”
+and disabled when the output of AND gate 171 is “1.” Pet. Reply 7; Tr.
+15:2–16:1.
+
+19
+
+IPR2014-00564
+Patent 5,530,597
+Looking again to Figure 1 of Tokiwa, we note that the output of AND
+gate 171 is fed into OR gate 175 along with an input from VM mode flag 13.
+Furthermore, Figure 1 shows that when AND gate 171 outputs a “0” (i.e.,
+enabled “mask activation signal”) and VM mode flag 13’ is set to “0” (i.e.,
+HPV mode), the output of OR gate 175 will also be low or “0.” See Ex.
+1002, Fig. 1. In that circumstance, Petitioner argues that a low output from
+OR gate 175 teaches a “mask signal” that is enabled. Pet. Reply 8 (“OR gate
+175 is a mask signal which is set when gate 175 is ‘0’ and not set when it is
+‘1.’”)
+Petitioner further asserts that the output of OR gate 175 (i.e., mask
+signal) is input into AND gate 177, which Petitioner argues teaches a “first
+logic circuitry.” Pet. Reply 8. Petitioner contends that AND gate 177
+outputs an interrupt signal only if the interrupt request signal (see, e.g.,
+Interrupt Hold Latch 174) and the mask signal is off or disabled. Id. at 9.
+However, if the mask signal is enabled (i.e., OR gate 175 output is “0”),
+“any interrupt requests are masked/blocked.” See id.
+Based on the complete record before us, Petitioner’s arguments are
+persuasive. We agree with Petitioner that Tokiwa teaches that when the
+output of OR gate 175 is low and the “mask signal” is enabled, interrupt
+requests are masked regardless of whether there is an active or inactive
+interrupt request. Thus, we are persuaded that Tokiwa teaches a “first logic
+circuitry” as recited in claim 1 and required in claim 6.
+Next, Patent Owner argues that Tokiwa does not disclose a second
+logic circuitry that enables the mask signal “when the mask activation signal
+is active and the mask override signal is not enabled,” and disables the mask
+signal, “when the mask override signal is active regardless of whether the
+mask activation signal is enabled or disabled.” PO Resp. 17–18. Patent
+20
+
+IPR2014-00564
+Patent 5,530,597
+Owner adds that even if VM Mode Flag 13’ is viewed as the mask override
+signal, OR gate 175 does not teach a “second logic circuitry” because the
+mask signal is not disabled when the mask override signal is enabled
+regardless of whether the mask activation signal is enabled or disabled. Id.
+at 18–19.
+Based on the complete record before us, we determine Petitioner’s
+arguments are persuasive. First, we are persuaded by Petitioner’s arguments
+that Tokiwa teaches, “wherein the mask signal is disabled when the mask
+override signal is active regardless of whether the mask activation signal is
+enabled or disabled.” Specifically, Tokiwa teaches that when the VM Mode
+Flag is set to “1,” “the VMCP interval timer . . . always performs the
+interrupt, regardless of the contents of the interrupt masks (E and IT). Ex.
+1002, 5. As discussed above, Petitioner relies on this direct execution mode
+of VM Mode Flag 13’ set to “1” to teach an enabled “mask override signal.”
+Pet. 14; Pet. Reply 6–7; see PO Resp. 18–19. According to Petitioner, an
+output of “1” from VM Mode Flag 13’ teaches an active or enabled “mask
+override signal” that is input into OR gate 175. Pet. 14; Pet. Reply 6–7.
+Petitioner further argues that the output of gate 171 teaches a “mask
+activation signal” that is active/enabled when “0” and disabled when set to
+“1.” Pet. Reply 6–7. The output of gate 171 (i.e., mask activation signal) is
+also an input into OR gate 175. Id. Given the nature of OR gate 175, when
+the input from VM Mode Flag 13 is “1,” the OR gate 175 will output a “1”
+regardless of the status of the signal from gate 171 (e.g., active or disabled
+mask activation signal). Further, as discussed above, Petitioner argues that
+the output of OR gate 175 represents the “mask signal,” which is disabled
+when set to “1.” Pet. Reply 8. Thus, when VM Mode Flag 13’ is set to “1”
+and the “mask override signal” is active, the output of OR gate 175 (i.e.,
+21
+
+IPR2014-00564
+Patent 5,530,597
+mask signal) will also be set to “1” or disabled regardless of whether the
+output from gate 171 (i.e., mask activation signal) is “1” or “0.” Id. at 6–8.
+Second, we are persuaded by Petitioner’s arguments that Tokiwa
+teaches “wherein the mask signal is enabled when the mask activation signal
+is active and the mask override signal is not enabled.” Tokiwa discloses a
+HPV mode for VM Mode Flag at “0” where the VM is not running in direct
+execution mode and “interrupt is possible only when both the E (external
+interrupt mask) bit of the PSW 10 and the IT (interval timer interrupt
+submask) bit of the CRO 16 are ‘1.’” Pet. 13–14 (citing Ex. 1002, 5). As
+discussed above, Petitioner argues that the output of gate 171 teaches a mask
+activation signal that is active when the signal is low or “0.” Pet. Reply 6–7.
+When both VM Mode Flag 13’ and the output of gate 171 input “0” into OR
+gate 175, the output of OR gate 175 will be “0.” Thus, Petitioner argues that
+the output of OR gate 175 of “0” teaches an enabled mask signal when the
+mask activation signal (output of gate 175 is “0”), is active and the mask
+override signal (output of VM Mode Flag 13 is “0”) is not enabled. Id. at 8.
+We find Petitioner’s arguments persuasive.
+Claim 6 also depends from cancelled claims 4 and 5. Claim 4
+depends from claim 1 and recites that the “mask override signal is enabled
+based on a hardware condition.” Cancelled claim 5 depends from claim 4
+and requires that the interrupt mask disable circuit is incorporated within a
+processor and “the hardware condition occurs when said processor is in a
+particular state.”
+For these limitations, Petitioner relies on the VM mode and HPV
+mode for the required hardware condition and processor state. Pet. 15–17.
+Additionally, Petitioner points to Tokiwa’s description of a virtual machine
+system having a VMCP that manages resources (central processing units,
+22
+
+IPR2014-00564
+Patent 5,530,597
+main memory devices, progress status words (PSWs), control registers, and
+input/output devices). Id. at 17.
+Additionally, with respect to all of Patent Owner’s arguments directed
+to Tokiwa, Petitioner contends that collateral estoppel applies as these
+arguments were not made in response to the office actions in Ex Parte
+Reexamination No. 90/012781. Pet. Reply 4–5. In the interest of judicial
+efficiency, we need not address this issue because in considering Patent
+Owner’s arguments, we are persuaded that Petitioner has established a
+preponderance of evidence that claim 6 would have been obvious over
+Tokiwa and Smith.
+Claim 6 depends from claim 5 and further requires the “particular
+state comprises an idle mode.” For the “idle mode,” Petitioner points to
+Smith’s disclosure of an apparatus for inhibiting clock signals in response to
+a WAIT or STOP instruction. Pet. 17–19. At the oral hearing, Patent
+Owner disputed whether Smith can disclose using an idle mode as a mask
+override signal when Smith does not disclose a mask override signal. Tr.
+56:6–18, 57:1–5.
+Based on the complete record, we determine that Petitioner’s
+arguments are persuasive. Petitioner asserts Smith teaches a “mask override
+signal” because Smith discloses the ability to wake from a STOP mode
+when an interrupt is received, regardless of the mask signal. Referring to
+Figure 4, Petitioner asserts that the STOP mode, indicated by a logical “1”
+on the STOP output of flip-flop 100, is fed into the reset path of interrupt
+flip-flop 148 via NAND gate 180 and inverter 184. Pet. 21–22. The INT
+signal (at “1” when indicating an interrupt) and inverted C2 clock signal
+(“0” in STOP mode) are also inputs to NAND gate 180. Id. at 22. Based on
+these inputs, Petitioner adds that flip-flop 148 will be reset to logical “0,”
+23
+
+IPR2014-00564
+Patent 5,530,597
+regardless of the MASK1 signal. Id. Thus, Petitioner argues that Smith
+discloses an override that allows an interrupt to cause the processor to
+operate out of a low-power state, even if the interrupt is masked. Id. at 9–10.
+Petitioner also argues that “[a] person of ordinary skill in the art would have
+known that combining Smith’s ‘idle mode’ circuitry within Tokiwa’s
+interrupt mask disable circuitry would yield predictable, expected and
+beneficial results” of keeping a mask signal from preventing the processor
+from waking from an interrupt when in a low power state. Id. at 10.
+We are persuaded that Petitioner has established by a preponderance
+of the evidence that claim 6 would have been obvious over Tokiwa and
+Smith. Further, Petitioner provides detailed explanations of how each
+limitation of claims 7–9 is taught or suggested by the combination of
+Tokiwa and Smith. Pet. 19–20. For example, Petitioner asserts that
+Tokiwa’s OR gate 175 discloses “wherein the second logic circuitry
+comprises an OR gate” for claim 8. Accordingly, we are persuaded that
+Petitioner has established by a preponderance of the evidence that claims 7–
+9 would have been obvious over Tokiwa and Smith.
+C. Claims 6–9 – Obviousness Over Katayose and Smith
+Petitioner argues that claims 6–9 are unpatentable under 35 U.S.C.
+§ 103 over Katayose and Smith. Pet. 7, 48–60. As explained in further
+detail below, we have considered the arguments and evidence presented, and
+concludes that Petitioner has established by a preponderance of the evidence
+that claims 6–9 would have been obvious over Katayose and Smith.
+1. Summary of Katayose (Ex. 1003)
+Katayose discloses a data processor with two different interrupt
+processing modes. Ex. 1003, 1:7–10. Katayose calls the first mode a
+“vector interrupt” mode and the second mode a “macroservice” mode. Id. at
+24
+
+IPR2014-00564
+Patent 5,530,597
+3:6–7, 17–28. In the vector interrupt mode, vectors are assigned to
+peripheral devices and an interrupt circuit to specify a “head address of
+respective interrupt routines held in a program memory.” Id. at 1:59–60.
+This allows selection of a program appropriate to the interrupt request from
+a plurality of interrupt processing programs. Id. at 1:52–60. In the
+macroservice mode, “if the interrupt request is generated, the execution of
+the current program is interrupted and an ordinary program execution
+operation of the CPU is stopped.” Id. at 3:18–22.
+Referring to Figure 1, Katayose describes interrupt controller 100,
+which includes interrupt request flag 102 and mode designation (MS/INT)
+Flag 104. Ex. 1003, 4:19–22. When a processing request is generated from
+a peripheral device and interrupt request flag 102 is set, controller 100
+makes the INTRQ signal active and reads the content of the mode
+designation flag 104 to make the MS/INT signal active or inactive. Id. at
+4:52–57. When the MS/INT signal is low, execution unit 200 executes the
+vector interrupt. Id. at 4:63–65. When the MS/INT signal is high, interrupt
+processing occurs through macroservice mode. Id. at 5:11–13.
+Figure 6, reproduced below, shows a logic circuit diagram for an
+interrupt controller. Ex. 1003, 3:65–66.
+
+25
+
+IPR2014-00564
+Patent 5,530,597
+
+Figure 6’s logic circuit diagram includes interrupt flag 102, mode
+designation flag 104, and interrupt processing circuit 112. Additionally,
+Figure 6 includes logic gates 160A, B, and C, which respectively receive
+interrupt request flags 102A, B, and C; mode designation flags 104A, B, and
+C; and an EI flag signal. Ex. 1003, 14:16–21. The EI flag signal is an
+interrupt enable flag that is set when an interrupt processing is allowed and
+is reset when an interrupt processing is already being executed or when an
+interrupt should be inhibited. Id. at 2:6–9.
+When mode selection flag 104 is set (i.e., macroservice mode) and
+interrupt request flag 102A is set, AND-OR logic 160A generates a high
+level output regardless of the EI flag signal. Ex. 1003, 14:33–36. The
+execution unit detects that the INTRQ signal is set to high and the MS/INT
+signal is set to high, and executes macroservice. Id. at 14:50–52. In vector
+interrupt mode, mode designation flag 104 is reset and the MS/INT signal is
+low. If EI flag signal 220 is at a high level, the output of AND-OR gate
+160A is high. Id. at 14:63–68. If EI flag signal 220 is low, the output of
+26
+
+IPR2014-00564
+Patent 5,530,597
+AND-OR logic 160A is brought to a low level and the AND-OR gate
+maintains its output at a low level regardless of the content of the
+corresponding interrupt request flag. Id. at 15:13–17.
+2. Analysis
+Below we discuss claim 6, which is illustrative of claims 7–9. Again,
+our discussion of claim 6 includes the limitations recited in cancelled claims
+1, 4, and 5, which are required in dependent claim 6.
+Cancelled claim 1 recites an interrupt mask disable circuit with
+first logic circuitry operably coupled to receive an
+interrupt request and a mask signal and to provide an interrupt
+signal when the interrupt request is active and the mask signal
+is disabled, and to provide a non-interrupt signal when the mask
+signal is enabled regardless of whether the interrupt request is
+active or inactive.
+To meet this limitation, Petitioner asserts that Katayose discloses AND gates
+160A, 160B, and 160C, which receive signals respectively from interrupt
+request flags 102A, 102B, and 102C and OR gates. Pet. 48; see also id. at
+52–53 (claim chart). Petitioner adds that one of the signals from the OR
+gates is EI flag, which allows activation of a mask signal. Id. We are
+persuaded by Petitioner’s arguments.
+Cancelled claim 1 further requires a
+second logic circuitry operably coupled to receive a mask
+activation signal and a mask override signal and to produce the
+mask signal, wherein the mask signal is enabled when the mask
+activation signal is active and the mask override signal is not
+enabled and wherein the mask signal is disabled when the mask
+override signal is active regardless of whether the mask
+activation signal is enabled or disabled.
+Petitioner asserts that Katayose’s mode selection flag 104 provides a mask
+override signal. Pet. 48; see also id. at 53–54 (claim chart). “When high,
+27
+
+IPR2014-00564
+Patent 5,530,597
+the mode selection flag 104 signal causes the output of the OR gate to be
+high, which will cause the interrupt to fire even if the EI flag is set to low
+(i.e., the interrupt is masked).” Pet. 48. We are persuaded by Petitioner’s
+argument.
+In response, Patent Owner first argues that the Petition identified one
+of circuit elements 102, 104, or 160 shown in Figure 6 of Katayose as the
+alleged first logic circuitry and second logic circuitry, whereas the Board’s
+institution decision identifies AND gates 160 as the alleged first logic
+circuitry and mode selection flag 104 as the alleged second logic circuitry.
+PO Resp. 19–21. For clarity of the record, Patent Owner’s characterization
+of the Decision to Institute is incorrect. The Decision to Institute the instant
+inter partes review was based on the evidence and arguments presented in
+the Petition. Dec. 2. The Decision to Institute generally refers to the
+evidence and arguments presented in the Petition (including elements 104
+and 160 of Katayose), and does not depart from Petitioner’s arguments
+presented in the Petition on this point. Dec. 16–17 (citing Pet. 48, 52–54).
+Next, Patent Owner argues that Katayose does not teach a first logic
+circuitry “to provide an interrupt signal when the interrupt request is active
+and the mask signal is disabled, and to provide a non-interrupt signal when
+the mask signal is enabled regardless of whether the interrupt request is
+active or inactive.” PO Resp. 20–21. Patent Owner further relies on a set of
+truth tables to argue that the circuit shown in Figure 6 of Tokiwa does not
+disclose the recited logical relationship. Id. Patent Owner also argues that
+Petitioner has not identified elements disclosed in Katayose that correspond
+to the second logic circuitry. Id. at 23.
+Petitioner argues that the circuit shown in Figure 6 includes three
+AND-OR logics 160A/B/C which respectively receive the interrupt request
+28
+
+IPR2014-00564
+Patent 5,530,597
+flags 102A/B/C, and the mode designation flags 104A/B/C, and which also
+commonly receive the EI flag signal. Pet. 52 (citing Ex. 1003, 14:10–26).
+Petitioner further argues that the EI flag signal represents a mask activation
+signal. Pet. 48; Pet. Reply 10. Petitioner adds that “[w]hen activated, the
+mask signal causes EI flag to generate a low level output, and the interrupt
+will not be activated because the signal from the OR gate into AND gate
+160A, for example, would be low.” Id. Petitioner asserts that the mask
+override signal is represented by flip-flop 104A/B/C. Id. (citing Ex. 1003,
+1:65–2:9, 14:30–36). Petitioner further asserts that EI flag 220 and mode
+selection flag 104 signals are inputs of the OR gates of 160A/B/C, whose
+outputs represent the mask signal as an input to the AND gates of 160A/B/C.
+Pet. 48; Pet. Reply 10. Petitioner also argues the interrupt request is
+represented by flip-flop 102A/B/C, and it is also an input to the AND gates.
+Id.
+Based on the complete record, Petitioner’s arguments are persuasive.
+Looking at the gates of 160A, the AND gate receives a processing request
+from interrupt flag 102A when interrupt flag 102A is set. Ex. 1003, 4:52–
+57. The AND gate also receives the input from interrupt flag 102A and the
+output from the OR gate of 160A. Id. at Fig. 6. When interrupt flag 102A is
+set (i.e., interrupt request signal set) and the output of OR gate 160A is high
+(i.e., mask signal disabled), the output of the AND will be high, allowing
+interrupts. Id. at 14:27–49, 6:26–40, Fig. 6. However, when the output of
+the OR gate is low (i.e., mask signal is enabled), the output of the AND gate
+will also be low regardless of whether the interrupt request from interrupt
+flag is set or not. Id. at Fig. 6.
+Additionally, OR gate of 160A receives inputs from EI flag 220 and
+mode selection flag 104. Petitioner argues that EI flag 220 provides a mask
+29
+
+IPR2014-00564
+Patent 5,530,597
+activation signal and mode selection flag 104 provides a mask override
+signal. Pet. 48; Pet. Reply 10. Katayose teaches that when the mode
+selection flag 104 is set, the system processes interrupts in “macroservice
+mode.” Ex. 1003, 4:52–57, 5:11–13. Thus, in this circumstance, OR gate of
+160A will have a high output, disabled mask signal, regardless of the input
+from EI flag 220. The output of the OR gate will be low (i.e., mask signal
+enabled) when the signals from EI flag 220 and mode selection flag 104 are
+both low.
+Cancelled claim 4 depends from claim 1 and recites that the “mask
+override signal is enabled based on a hardware condition.” Cancelled
+claim 5 depends from claim 4 and requires that the interrupt mask disable
+circuit is incorporated within a processor and “the hardware condition occurs
+when said processor is in a particular state.”
+For these limitations, Petitioner asserts that Katayose discloses
+controller 100, which includes interrupt request flag 102 and mode
+designation flag 104. Pet. 55–56. Petitioner adds that Katayose describes a
+“third case” where the mode designation flag 104 is set for the macroservice
+mode and both the INTRQ and MS/INT signal are rendered active to a high
+level regardless of the content of EI flag 218. Id. at 54. We understand
+Petitioner’s position to be that the macroservice mode meets the limitations
+of a hardware condition and processor state recited in cancelled claims 4 and
+5. We are persuaded by Petitioner’s arguments.
+Claim 6 depends from claim 5 and further requires the “particular
+state comprises an idle mode.” For the “idle mode,” Petitioner points to
+Smith’s disclosure of an apparatus for inhibiting clock signals in response to
+a WAIT or STOP instruction. Pet. 58. Petitioner further asserts that Smith
+discloses receiving an INT signal after executing a STOP instruction,
+30
+
+IPR2014-00564
+Patent 5,530,597
+whereby flip-flop 148 is reset regardless of the state of the MASK1 signal.
+Id. at 22, 58–59. Petitioner asserts several reasons why one of ordinary skill
+in the art would have combined the alleged teachings in Katayose and Smith.
+Id. at 50–51. These reasons include that combining the different interrupt
+modes described in Katayose with the idle mode disclosed in Smith would
+reduce power consumption and “‘provide an apparatus for disabling clock
+signals in an intelligent manner until further processor operations become
+necessary.’” Id. at 50 (citing Ex. 1004, 2:2–15).
+Accordingly, we are persuaded that Petitioner has established by a
+preponderance of the evidence that claim 6 would have been obvious over
+Katayose and Smith. Further, Petitioner provides detailed explanations of
+how each limitation of claims 7–9 is taught or suggested by the combination
+of Katayose and Smith, which we find persuasive. Pet. 59–60. Thus, we are
+persuaded that Petitioner also has demonstrated by a preponderance of the
+evidence that claims 7–9 would have been obvious over Katayose and
+Smith.
+D. Claims 6 and 7 – Anticipation by Smith (Ex. 1004)
+Petitioner argues that claims 6 and 7 are unpatentable under 35 U.S.C.
+§ 102(b) over Smith. Pet. 20–29. Below, we discuss claim 6, which is
+illustrative of claims 7–9.
+Based on the complete record, we agree with Patent Owner and
+Petitioner that it is not clear from the Petition which elements in Smith are
+relied upon by the Petitioner for this challenge. PO Resp. 8–13; Tr. 44:17–
+20, 45:10–22 (Petitioner states “we do recognize . . . that there are some
+concerns with the 15 specific teachings of Smith, whether it anticipates”).
+For example, referring to Figure 4 of Smith, Petitioner argues that Smith
+teaches an “INT (interrupt) signal and a MASK1 signal are inputs to NAND
+31
+
+IPR2014-00564
+Patent 5,530,597
+gate 154, the output of which feeds to the D input of the interrupt flip-flop
+148.” Pet. 21. The Petition further notes that “mask interrupt signal
+(MASK[1]) is applied to inverter 156 the output of which is coupled to a
+second input of NAND gate 154.” Pet. 24. Petitioner also argues that Smith
+discloses overriding the mask signal via the output of STOP flip-flop 100.
+Id. at 21. Petitioner asserts
+The STOP mode is indicated by a logical “1” on the STOP
+output of flip-flop 100, which is fed into the reset path of the
+interrupt flip-flop 148. The inputs to NAND gate 180, which
+controls the reset of the interrupt flip-flop 148) are the STOP
+signal, the INT signal, and an inverted version of clock signal
+C2 (which Smith describes as always “0” while in STOP
+mode). Accordingly, when the device is in STOP mode (the
+STOP signal is “1”) and an interrupt is received (the INT signal
+is “1”), the interrupt flip-flop 148 will be reset to logical “0”,
+indicating an interrupt, regardless of the state of the MASK1
+signal.
+Id. at 21–22 (citing Ex. 1002, 8:48–65).
+Based on this discussion in the Petition, it is unclear how Smith
+discloses a mask signal. For example, if Petitioner relies on the MASK1
+signal to teach a mask signal, Petitioner has not demonstrated by a
+preponderance of the evidence that Smith teaches a second logic circuitry
+that produces the MASK1 signal. Furthermore, to the extent that the
+Petition argues that other components disclosed in Smith teach the mask
+signal, we decline to speculate on what aspects of Smith satisfy this
+limitation.
+Accordingly, for claims 6–9, we determine that Petitioner has not
+shown, by a preponderance of the evidence, that these claims are anticipated
+by Smith.
+
+32
+
+IPR2014-00564
+Patent 5,530,597
+III. MOTION TO EXCLUDE
+A motion to exclude is required to preserve an objection to the
+admissibility of evidence. 37 C.F.R. § 42.64(c). Patent Owner seeks to
+exclude the following evidence: (1) Petitioner’s citations to the ’597 patent
+on the basis that these improperly advance claim construction positions
+(Mot. Excl. 1–3); (2) Exhibits 1012 (Ex Parte Reexamination Certificate for
+the ’597 patent) and 1013 (Notice of Intent to Issue Ex Parte Reexamination
+Certificate for the ’597 patent) on the basis that these are not relevant and
+constitute a new ground of unpatentability (id. at 4–6); and (3) Petitioner’s
+arguments presented on pages 5–15 of Petitioner’s Reply directed to truth
+tables and “complementary relationships” on the basis these arguments are
+speculative and not supported by evidence in the record (id. at 6–15).
+A motion to exclude is neither a substantive sur-reply, nor a proper
+vehicle for arguing whether a reply or supporting evidence is of appropriate
+scope. Zynga Inc. v. Personalized Media Commc’ns, LLC, IPR2013-00162,
+slip op. at 3 (PTAB Aug. 28, 2013) (Paper 16); Berk-Tek LLC v. Belden
+Tech., Inc., IPR2013-00057, slip op. at 3 (PTAB Oct. 31, 2013) (Paper 39).
+In this case, the Patent Owner Response raised several substantive
+issues that were not raised in the Petition. These include the proper
+construction of the “first logic circuitry” and “second logic circuitry” (PO’s
+Resp. 14–16) and whether Tokiwa teaches these limitations (id. at 14–19),
+both of which we have discussed extensively.
+Petitioner was entitled to rebut Patent Owner’s arguments concerning
+the construction of the first and second logic circuitry limitations. Pet.
+Reply 2–3. A petitioner’s reply to a patent owner response may address
+only issues raised in the corresponding opposition. Office Patent Trial
+Practice Guide, 77 Fed. Reg. 48,756, 48,767 (Aug. 14, 2012). Although the
+33
+
+IPR2014-00564
+Patent 5,530,597
+Patent Owner contends there is no dispute regarding the claim terms “first
+logic circuitry” and “second logic circuitry,” Patent Owner attempts to
+directly address the substance of the dispute in its Motion to Exclude. More
+specifically, Patent Owner attempts to bolster its argument that the claim
+language “first logic circuitry” excludes an AND gate alone and “second
+logic circuitry” excludes an OR gate alone. Mot. Excl. 2; PO Resp. 14–16.
+This is an improper use of a motion to exclude, which does not afford for an
+opportunity for Patent Owner to present arguments that belong in a surreply. Additionally, we note that the parties were given an opportunity to
+clarify respective claim construction issues at the oral hearing. Tr. 37:18–
+42:1, 46:5–48:7.
+Petitioner was also entitled to rebut Patent Owner’s arguments
+concerning the objective criteria of non-obviousness. Pet. Reply 5–13
+(addressing the combination of Tokiwa and Smith and Katayose and Smith).
+Patent Owner presented several arguments based on truth tables that Patent
+Owner asserted represented the logical relationships disclosed in Tokiwa and
+Katayose. PO Resp. 16–24. In response to Patent Owner’s arguments based
+on its truth tables, Petitioner’s Reply contained alternative truth tables based
+on Petitioner’s reading of the references. Pet. Reply 7–13; Tr. 24:1–25:17.
+In challenging Patent Owner’s truth tables, Petitioner relies on a
+complementary relationship theory to support its own truth tables. Pet.
+Reply 7–13; Tr. 13:24–16:1. Patent Owner contends that this theory is not
+supported by any evidence in the record. Even assuming Patent Owner is
+correct, a motion to exclude addresses the admissibility of evidence, and not
+how much weight to give an argument.
+Finally, we are not persuaded that Petitioner’s reliance on Exhibits
+1012 and 1013 for a collateral estoppel theory constitutes a new ground of
+34
+
+IPR2014-00564
+Patent 5,530,597
+unpatentability. Petitioner was entitled to rebut Patent Owner’s nonobviousness arguments by relying on rebuttal evidence challenging
+arguments raised in the Patent Owner’s Response. Moreover, we note that
+we considered all of Patent Owner’s arguments concerning Tokiwa without
+determining whether collateral estoppel applies. Upon review of the
+complete record, we determine, as discussed above, that Petitioner has
+demonstrated by a preponderance of the evidence that Tokiwa and Smith
+render claims 6–9 of the ’597 patent unpatentable. Thus, at the very least,
+Patent Owner’s Motion to Exclude Exhibits 1012, and 1013 should be
+denied as moot.
+In consideration of the above, we deny Patent Owner’s Motion to
+Exclude in its entirety.
+IV.
+
+CONCLUSION
+
+Petitioner has shown, by a preponderance of the evidence, that claims
+6–9 of the ’597 patent are unpatentable.
+IV. ORDER
+In consideration of the foregoing, it is hereby:
+ORDERED that claims 6–9 of the ’597 patent have been shown, by a
+preponderance of the evidence, to be unpatentable over Tokiwa and Smith;
+FURTHER ORDERED that claims 6–9 of the ’597 patent have been
+shown, by a preponderance of the evidence, to be unpatentable over
+Katayose and Smith;
+FURTHER ORDERED that claims 6–9 of the ’597 patent have not
+been shown by a preponderance of the evidence to be unpatentable as
+anticipated by Smith;
+FURTHER ORDERED that Patent Owner’s Motion to Exclude is
+DENIED; and
+35
+
+IPR2014-00564
+Patent 5,530,597
+FURTHER ORDERED that because this is a final written decision of
+the Board under 35 U.S.C. § 318(a), parties to the proceeding seeking
+judicial review of the decision must comply with the notice and service
+requirements of 37 C.F.R. § 90.2.
+
+PETITIONER:
+Sean Hsu
+shsu@hdbdlaw.com
+PATENT OWNER:
+Minghui Yang
+myang@dpelaw.com
+Greg Donahue
+gdonahue@dpelaw.com
+
+36
+
+

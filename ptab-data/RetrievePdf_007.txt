@@ -1,0 +1,954 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 24
+Entered: February 2, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+NHK SEATING OF AMERICA, INC.,
+Petitioner,
+v.
+LEAR CORPORATION,
+Patent Owner.
+Case IPR2014-01202
+Patent 5,378,043 C2
+
+Before RICHARD E. RICE, MITCHELL G. WEATHERLY, and
+CARL M. DeFRANCO, Administrative Patent Judges.
+WEATHERLY, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a)
+I.
+
+INTRODUCTION
+
+A. BACKGROUND
+NHK Seating of America, Inc. (“NHK”) filed a Petition (Paper 1,
+“Pet.”) requesting an inter partes review of claims 2, 4, 6, 8, 9, 13–20, 28–
+31, 43–49, 55–60, 62–68, 70, 78, 80, 81, 84–90, 93, and 94 of U.S. Patent
+
+IPR2014-01202
+Patent 5,378,043 C2
+No. 5,378,043 C1 (Ex. 1001, “the ’043 patent”). 1 NHK supported the
+Petition with a declaration from Richard W. Kent, PhD (Ex. 1012). Lear
+Corporation (“Lear”) timely filed a Preliminary Response. Paper 6 (“Prelim.
+Resp.”). On February 3, 2015, based on the record before us at the time, we
+instituted an inter partes review of all challenged claims, Paper 7
+(“Institution Decision” or “Dec.”), on the following grounds:
+References
+
+Basis
+
+Japanese Utility Model Registration § 102(b)
+Request S55–34468 (“JP ’468”)
+(Ex. 1007 with certified translation at
+Ex. 1008)
+U.S. Patent No. 3,802,737
+(“Mertens”) (Ex. 1009) and U.S.
+Patent No. 3,186,763 to R.A. Ferrara
+(“Ferrara”) (Ex. 1010)
+
+§ 103
+
+Claims challenged
+2, 4, 6, 8, 9, 28–31,
+57, 78, and 80
+
+2, 4, 6, 8, 9, 13–20,
+31, 43–49, 55–60, 62–
+68, 70, 81, 84–90, 93,
+and 94
+
+Dec. 15–16.
+After we instituted this review, Lear filed a Patent Owner Response in
+opposition to the Petition (Paper 11, “Resp.”) that was supported by the
+declaration of David C. Viano, PhD (Ex. 2004). NHK filed a Reply in
+support of the Petition (Paper 13, “Reply”).
+
+1
+
+When we cite to any portion of Exhibit 1001, we will include a reference to
+the original version of the ’043 patent or the reexamination certificate, series
+C1, as needed for clarity. Additionally, Exhibit 1001 includes only the first
+of two reexamination certificates for U.S. Patent No. 5,378,043. The second
+reexamination proceeding resulted in U.S. Patent No. 5,378,043 C2,
+reflecting that the patentability of claims 2–9, 13–51, and 54–96 was
+confirmed and claims 52 and 53 were not subject to reexamination during
+the second reexamination proceeding. Exhibit 1006, 9.
+2
+
+IPR2014-01202
+Patent 5,378,043 C2
+Lear also filed a Motion to Strike and/or Exclude the Testimony of
+NHK’s Expert, Richard W. Kent. Paper 15 (“Motion” or “Motion to
+Exclude”). NHK opposed the Motion to Exclude. Paper 17 (“Mot. Opp.”).
+Lear filed a Reply in support of the Motion. Paper 19 (“Mot. Reply”). Lear
+did not move to amend any claim in the ’043 patent.
+We heard oral argument on September 9, 2015. A transcript is entered
+as Paper 23 (“Tr.”).
+For the reasons expressed below, we conclude that NHK has
+demonstrated, by a preponderance of evidence, that claims 2, 4, 6, 8, and
+28–31 are unpatentable but has failed to do so for claims 13–20, 31, 43–49,
+55–60, 62–68, 70, 81, 84–90, 93, and 94. We also deny Lear’s Motion to
+Exclude.
+B. RELATED MATTERS
+NHK identified as a related proceeding the following co-pending
+district court proceedings as potentially being affected by a decision in this
+proceeding: Lear Corporation v. NHK Seating of America, Inc., Case No.
+2:13-cv-12937-SJM-RSW (E.D. Mich.), filed July 5, 2013, and served July
+24, 2013; Lear Corporation v. TS Tech USA Corporation, et al., Case No.
+2:11-cv-00245-MHW-NMK (S.D. Ohio), filed March 21, 2011; and Lear
+Corporation v. TS Tech USA Corporation, et al., Case No. 2:10-cv-14302,
+filed October 26, 2010 (E.D. Mich). Pet. 1. NHK also identified as related
+proceedings four completed Ex Parte Reexaminations including:
+90/009,250 filed August 14, 2008; 90/011088 filed July 9, 2010; 90/012,770
+filed January 23, 2013, and 90/012,999 filed September 16, 2013. Id. Lear
+identified six other inter partes review proceedings as being directed to
+patents alleged to be infringed in the district court litigation with NHK,
+
+3
+
+IPR2014-01202
+Patent 5,378,043 C2
+including: IPR 2014-00925 (U.S. Patent No. 8,434,818); IPR 2014-00957
+(U.S. Patent No. 7,455,357); IPR 2014-01079 (U.S. Patent No. 6,631,949);
+IPR 2014-01101 (U.S. Patent No. 6,631,955); IPR 2014-01026 (U.S. Patent
+No. 6,655,733); and IPR 2014-01200 (U.S. Patent No. 6,955,397). Prelim.
+Resp. 1.
+C. THE ’043 PATENT
+The ’043 patent is directed to “seat headrest arrangements.” Ex. 1001,
+1:5–6. Claims 2 and 57 are the only independent claims among the
+challenged claims, with claim 2 being illustrative and reciting:
+2. A vehicle seat and headrest arrangement comprising:
+a seat bun frame having fore and aft ends;
+a seatback frame joined to the bun frame means adjacent the aft
+end of the bun frame; and
+a headrest pivotally attached with the seatback frame along a
+pivotal axis generally perpendicular to the fore and aft
+direction whereby, upon a rear impact of a vehicle in which
+the arrangement is mounted, the pivotal attachment allows the
+headrest to move in a forward direction toward the head of an
+occupant of the vehicle seat, wherein the headrest has a
+cushion portion;
+an impact target operatively associated with the cushion portion
+and pivotally associated with the seatback frame, wherein a
+force upon the impact target causes the headrest to rotate
+forwardly; and
+a spring operatively associated with the seatback frame biasing
+the headrest against pivotal movement.
+Ex. 1001, C1, 1:26–45.
+The ’043 patent describes two embodiments of the headrest in which
+“upon a rear vehicle impact, the headrest moves in a forward direction
+toward the head of a vehicle seat occupant.” Ex. 1001, Abstract. The
+4
+
+IPR2014-01202
+Patent 5,378,043 C2
+colorized versions of Figures 2 and 3 shown below illustrate the first
+embodiment.
+
+Figure 2 of the ’043 patent
+illustrates the upper portion of a
+seatback frame and an embodiment
+of the active headrest arrangement.
+
+Figure 3 of the ’043 patent
+illustrates a side view of the
+headrest of Fig. 2 indicating the way
+in which the headrest moves
+forward at impact.
+
+Two posts 8 (pink) extend from headrest cushion 6 (pink) and are held
+to impact plate 10 (green) via alignment members 12 (green). Id. at 1:43–
+50. Impact plate 10 (green) is pivotally connected to cross frame member 4
+(yellow) with clips 16 (red) so that impact plate 10 (green) pivots around
+cross member 4 (yellow) along axis 13. Id. at 1:45–56. Spring 18 (purple),
+which is held to impact plate 10 (green) by clips 20, wraps around frame
+sides 22 (yellow) and cross member 4 (yellow) to bias headrest cushion 6
+(pink) against rotation. Id. at 1:59–64. Rearward loading of impact plate 10
+(green) will cause headrest cushion 6 (pink) to overcome the biasing force of
+spring 18 (purple), causing headrest cushion 6 (pink) to pivot about fixed
+pivotal axis 13 toward the head of a seat occupant. Id. at 1:64–66.
+5
+
+IPR2014-01202
+Patent 5,378,043 C2
+The colorized versions of Figures 4 and 5 of the ’043 patent shown
+below illustrate the second embodiment of the headrest.
+
+Figure 4 of the ’043 patent
+illustrates the upper portion of a
+seatback frame and a second
+embodiment of the active headrest
+arrangement.
+
+Figure 5 of the ’043 patent illustrates
+a side view of the headrest of Fig. 4
+indicating the way in which the
+headrest moves upward and forward
+at impact.
+
+Headrest posts 30 (pink) are held to cross member 4 (yellow) by
+penetration through bushings 42 (white) that are mounted in clips 32 (red)
+fitted onto cross member 4 (yellow). Id. at 2:15–18. Posts 30 (pink) extend
+
+6
+
+IPR2014-01202
+Patent 5,378,043 C2
+through bushings 42 (white) and have loop sections 44 (pink) that extend
+around angular cam guides 46 (orange). Id. at 2:18–23. Cam guides 46
+(orange) have a generally downward slope projecting forward from sides 22
+(yellow). Id. An impact plate 34 (green) is attached to the posts 30 (pink)
+by clips 38. Id. at 2:22–23. Spring 18 (purple) wraps around frame sides 22
+(yellow) and cross member 4 (yellow) to bias headrest cushion 6 (pink)
+against rotation. Id. at 2:23–24.
+The axis of rotation 51 will be constant with respect to the clips
+32 [red]. However, the projection of the axis of rotation on the
+post 30 at the initial impact will be translated to point 53 due to
+the extending upward motion of the posts 30. Therefore, the axis
+of rotation of the post 30 with respect to the cross member 4 is
+nonfixed with respect to the post 30.
+Id. at 2:38–45. Accordingly, as posts 30 (pink) and headrest 6 (pink) are
+simultaneously rotated and translated, the original location of axis of rotation
+51 moves to point 53. As a result, posts 30 (pink) and headrest 6 (pink)
+pivot about a moving axis of rotation during actuation. Id. at 2:25–45.
+II. CLAIM INTERPRETATION
+The ’043 patent expired June 1, 2013. For claims of an expired
+patent, our claim interpretation analysis is similar to that of a district court.
+See In re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). Claim terms are
+given their ordinary and customary meaning as those terms would be
+understood by a person of ordinary skill in the art at the time of the invention
+and in the context of the entire patent disclosure. In re Translogic Tech.,
+Inc., 504 F.3d 1249, 1257 (Fed. Cir. 2007). We apply this standard to the
+claims of the expired ’043 patent.
+NHK proposes interpretations for (1) “pivotally attached,” Pet. 17,
+(2) “operatively associated” and “operably associated,” id. at 18,
+7
+
+IPR2014-01202
+Patent 5,378,043 C2
+(3) “bushing,” id. at 18–19, (4) “at least one cam guide member” and “a cam
+guide,” id. at 19, and (5) “effectively extends upwardly” and “extend
+upwardly,” id. at 19–20.
+We determine that of these terms, only “pivotally attached with” and
+“pivotally mounted to” require express interpretation to address issues that
+the parties present regarding the differences between the prior art and the
+challenged claims. We address “pivotally attached with” and “pivotally
+mounted to” below and otherwise interpret the remaining terms according to
+the standard referenced above.
+A. HEADREST PIVOTALLY ATTACHED WITH THE SEATBACK FRAME
+The entire disputed phrase at issue recites “a headrest pivotally
+attached with the seatback frame.” Ex. 1001, C1 1:32–33 (claim 2), C1
+4:12–13 (claim 57). The “headrest” is recited as having “a cushion portion”
+and no other affirmatively recited elements in independent claim 2. Id. at C1
+1:38. The “headrest” in independent claim 57 is recited without referring to
+any particular component of the headrest. Id. at C1 4:8–27. Both claims
+require that rearward force applied to an impact target causes the headrest to
+rotate or pivot forwardly. Id. at C1 1:41–43 (claim 2), C1 4:23–25 (claim
+57).
+In the Petition, NHK argued that we should interpret “pivotally
+attached” to mean that “an ‘element is attached to and rotates on a point.’”
+Pet. 17 (citing Ex. 1013; Ex. 1012 ¶ 40). In its Reply, NHK maintained its
+initial interpretation of “pivotally attached” and contended that interpretation
+of the term was not necessary to resolve issues in this proceeding. Reply 5.
+Lear contends that “‘pivotally attached’ requires interpretation” and provides
+a proposed interpretation, discussed below. Resp. 11. NHK contends that
+
+8
+
+IPR2014-01202
+Patent 5,378,043 C2
+Lear’s proposed interpretation is improper. Reply 8–11. For the reasons
+expressed below, we adopt neither party’s interpretation of “headrest
+pivotally attached with the seatback frame.”
+Lear argues that we should interpret “pivotally attached” to mean
+“pivotally joined or fastened” but excluding “unattached contact.”
+Resp. 13–14 (citing Ex. 2004 ¶ 84). Lear relies in substantial part upon
+testimony from Dr. Viano, an inventor of the ’043 patent, to support its
+argument that a headrest being “pivotally attached” requires “an affirmative
+joining or fastening of the headrest to the seatback frame such that if the
+seatback frame is detached from the seat bun frame and removed from the
+vehicle the headrest would remain attached.” Id. at 27 (citing Ex. 2004
+¶¶ 77–82, 91–93). We consider Dr. Viano’s testimony on the meaning of
+“pivotally attached” to be extrinsic evidence entitled to little weight
+regarding the ultimate conclusion on the meaning of “pivotally attached
+with.” 2 Lear’s argument is unpersuasive because, as explained below, we
+find that it is inconsistent with the Specification and language in certain
+claims that depend from claims 2 and 57, and would preclude claims 2 and
+57 from covering all embodiments disclosed in the Specification.
+
+2
+
+“[E]xtrinsic evidence consisting of expert reports and testimony is
+generated at the time of and for the purpose of litigation and thus can suffer
+from bias that is not present in intrinsic evidence.” Phillips v. AWH Corp.,
+415 F.3d 1303, 1318 (Fed. Cir. 2005) “[E]xtrinsic evidence may be useful to
+the court, but it is unlikely to result in a reliable interpretation of patent
+claim scope unless considered in the context of the intrinsic evidence. Id. at
+1319; see also Teva Pharm. USA, Inc. v. Sandoz, Inc., 135 S. Ct. 831, 841
+(2015) (“Experts may be examined to explain terms of art, and the state of
+the art, at any given time, but they cannot be used to prove the proper or
+legal construction of any instrument of writing.”) (internal citations omitted).
+9
+
+IPR2014-01202
+Patent 5,378,043 C2
+The Specification describes two embodiments in which structures are
+“joined or fastened” to the seatback frame, namely, a first embodiment in
+which plate 10 having clamped ends 14 with clips 16, and springs 18 are
+joined to the frame 2, id. at 1:54–64, and a second embodiment in which
+spring 18, clips 32, and cam guides 46 are joined to frame 2, id. at 2:15–24.
+Headrest cushion 6 never touches frame 2 in either embodiment, but instead
+is connected to posts 8 (first embodiment) or 30 (second embodiment).
+“[T]he presence of a dependent claim that adds a particular limitation gives
+rise to a presumption that the limitation in question is not present in the
+independent claim.” Phillips v. AWH Corp., 415 F.3d 1303, 1315 (Fed. Cir.
+2005) (citation omitted). Dependent claims 6 and 59 recognize that the posts
+are structures different than the headrest by reciting that the headrest “is
+separated from the seatback frame by a post.” Ex. 1001, C1 1:52–54 (claim
+6), C1 4:31–32 (claim 59). The principle of claim differentiation instructs us
+to interpret “headrest” in claims 2 and 57 to refer to the headrest without the
+posts. Even if we were to interpret “headrest” to encompass the posts,
+however, posts 8 (first embodiment) and posts 30 (second embodiment) also
+never touch the seatback frame. Instead, the posts along with other
+structures functionally link the headrest to the frame.
+For the first embodiment, headrest 6 on “posts 8 are adjustable
+vertically with respect to the plate 10 in a manner conventional for that of
+vehicle seat headrests.” Ex. 1001, 1:51–53. That is, posts 8 slide up and
+down relative to plate 10. Figures 2 and 3 of the Specification illustrate
+posts 8 in a manner that implies the ability to remove posts 8 entirely from
+alignment members 12 in impact plate 10. See id. Figs. 2, 3. Posts 8 of the
+first embodiment are thus in sliding and perhaps easily removable contact
+
+10
+
+IPR2014-01202
+Patent 5,378,043 C2
+with impact plate 10, which is in turn pivotally “joined” to cross member 4
+with clips 16. Id. at 1:56–59. Nevertheless, posts 8 neither touch nor are
+joined to cross member 4.
+For the second embodiment, posts 30 are designed to slide within
+bushings 42 within clips 32 that are “fitted on the cross member.” Id.
+at 2:15–18. Posts 30 are never “in contact” with cross member 4 of frame 2.
+The way in which loop sections 44 wrap around cam guides 46 would
+prevent posts 30 from being completely removed from bushings 42. Id.
+at 2:26–32. Nevertheless, the “unattached” sliding relationship between the
+posts and the frame would not be within the scope of Lear’s proposed
+interpretation of “pivotally attached” because posts 30 neither touch nor are
+joined to frame 2.
+Other dependent claims also support a broad reading of “headrest
+pivotally attached with the seatback frame.” Dependent claims 15 and 65
+further recite that the “seatback frame comprises a cross member” and that
+“the headrest is operably connected to the cross member.” These claims
+imply that a headrest that is “operably connected to the cross member” is a
+narrower type of “a headrest pivotally attached with the seatback frame.”
+Dependent claims 18 and 68, which depend directly from claims 2 and 57,
+further recite that the “seatback frame comprises a cross member” and that
+“the headrest is pivotally connected to the cross member.”
+The Specification also instructs the reader that the claims define the
+scope of the invention rather than the embodiments illustrated as follows:
+“While this invention has been described in terms of preferred embodiments
+thereof, it will be appreciated that other forms could readily be adapted by
+one skilled in the art. Accordingly, the scope of this invention is to be
+
+11
+
+IPR2014-01202
+Patent 5,378,043 C2
+considered limited only by the following claims.” Id. at 3:23–27.
+Accordingly, we broadly interpret “a headrest pivotally attached with the
+seatback frame” in claims 2 and 57 as referring to headrests that are
+“pivotally attached with the seatback frame” via other structures. The
+headrest must also be “attached with the seatback frame” in a manner that
+meets the functional requirement recited in claims 2 and 57 that a force
+applied to the impact target causes the headrest to rotate forwardly.
+B. TARGET . . . PIVOTALLY MOUNTED TO THE SEATBACK FRAME
+Independent claim 57 recites “a target pivotally mounted to the
+seatback.”3 Ex. 1001, C1 at 4:20. NHK does not address this phrase in its
+Petition except to characterize claim 57 as being “substantially similar” to
+claim 2. Pet. 33; see also id. at 16–20 (interpreting other claim terms). Lear
+argues that we should interpret “pivotally mounted” to mean the same thing
+as “pivotally attached,” namely “pivotally joined or fastened” and not
+encompassing “unattached contact.” Resp. 17–19. In its Reply, NHK
+argues that we should interpret “pivotally mounted” more broadly than
+“pivotally attached.” Reply 17. Without analyzing any portion of the
+Specification or other claims, NHK relies upon a definition of the verb
+
+3
+
+Lear misquotes claim 57 when arguing whether JP ’468 describes the
+claimed target as “a target pivotally mounted to the seatback frame.”
+Resp. 30. Except for this particular phrase, “seatback” is recited three other
+times within claim 57 as “seatback frame.” Additionally, twenty claims that
+depend from claim 57 uniformly recite “seatback frame” without once
+reciting “seatback” alone. See Ex. 1001, C1 4:31–6:23 (uniformly reciting
+“seatback frame” in dependent claims 59, 63–68, 70–76, 78, 82, and 85–88).
+Accordingly, we interpret this phrase as if it recited “seatback frame” rather
+than “seatback” alone because we determine that a skilled artisan would
+interpret the phrase that way.
+12
+
+IPR2014-01202
+Patent 5,378,043 C2
+“mount” in the American Heritage Collegiate Dictionary, Third Edition, as
+meaning “to set in position for use.” Id. (citing Ex. 1020).
+We are not persuaded that either party’s interpretation is completely
+correct. In describing the first embodiment of the seat arrangement, which is
+illustrated in the colorized version of Figure 2 shown below right, the
+Specification uses “pivotally mounted” in relation to the target as follows:
+An impact target or plate 10
+[green] is pivotally mounted to
+the cross member 4 [yellow]
+along a fixed pivotal axis 13
+generally perpendicular to the
+fore and aft direction of the
+vehicle. . . .
+The plate 10 [green]
+mentioned
+previously
+is
+pivotally mounted with respect to
+the cross member 4 [yellow] by
+virtue of its clamped ends 14
+[green]. The clamped ends 14
+[green] are joined to the cross member 4 [yellow] by the use of a
+metal clip 16 [red] which has flanges 26 [red] that pop into
+apertures 15 (only one shown) of the claimped end 14 [green].
+Ex. 1001, 1:45–59 (emphasis added). This portion of the Specification
+explains and Figure 2 clearly illustrates that the target (plate 10) is in
+physical contact with and “joined” to cross member 4 of seatback frame 2
+via clips 16 with flanges 26 that “pop into apertures 15” on clamped end 14
+of plate 10. Plate 10 is described expressly as capable pivoting along axis
+13. Id. at 1:45–49. Additionally, the same lay dictionary proffered by NHK
+defines “mount” in the same sense in which it is used in the Specification as
+meaning “[t]o fix securely to a support.” Ex. 1020. We do not find Lear’s
+reliance on the definition of “mount” at Engineering-Dictionary.org to be of
+13
+
+IPR2014-01202
+Patent 5,378,043 C2
+significant weight because the proffered definition is for the noun form and
+the claim uses the verb form of “mount.” Based on our review of all this
+evidence, we interpret “a target pivotally mounted to the seatback” to require
+that the target be directly joined to the seatback in a manner that permits the
+target to pivot along the axis specified in the claim.
+III. THE CHALLENGES TO PATENTABILITY
+We instituted a review of the patentability of claims 2, 4, 6, 8, 9, 13–
+20, 28–31, 43–49, 55–60, 62–68, 70, 78, 80, 81, 84–90, 93, and 94 of the
+’043 patent on the grounds that those claims may be anticipated or obvious
+in light of one or more of JP ’468, Mertens, and Ferrara. Dec. 7–13.
+“A claim is anticipated only if each and every element as set forth in
+the claim is found, either expressly or inherently described, in a single prior
+art reference.” Verdegaal Bros. v. Union Oil Co. of Cal., 814 F.2d 628, 631
+(Fed. Cir. 1987) (citation omitted). The Supreme Court in KSR
+International Co. v. Teleflex Inc., 550 U.S. 398 (2007) reaffirmed the
+framework for determining obviousness as set forth in Graham v. John
+Deere Co., 383 U.S. 1 (1966). As observed by the Court in KSR, the factual
+inquiries set forth in Graham that are applied for establishing a background
+for determining obviousness under 35 U.S.C. § 103(a) are summarized as
+follows:
+1. Determining the scope and content of the prior art.
+2. Ascertaining the differences between the prior art and the claims at
+issue.
+3. Resolving the level of ordinary skill in the pertinent art.
+4. Considering objective evidence, if present, indicating obviousness or
+nonobviousness.
+
+14
+
+IPR2014-01202
+Patent 5,378,043 C2
+KSR, 550 U.S. at 406. With these standards in mind, we address each
+challenge below.
+A. THE PARTIES’ POST-INSTITUTION ARGUMENTS
+In our Institution Decision, we concluded that the argument and
+evidence adduced by NHK demonstrated a reasonable likelihood that:
+(1) JP ’468 anticipated claims 2, 4, 6, 8, 9, 28–31, 57, 78, and 80, Dec. 7–9,
+and (2) the combination of Mertens and Ferrara rendered claims 2, 4, 6, 8, 9,
+13–20, 31, 43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94 obvious, id.
+at 11–13. We must now determine whether NHK has established by a
+preponderance of the evidence that the specified claims are unpatentable
+over the cited prior art. 35 U.S.C. § 316(e). In this connection, we
+previously instructed Lear that “any arguments for patentability not raised in
+the [Patent Owner Response] will be deemed waived.” Paper 8, 5; see also
+37 C.F.R. § 42.23(a) (“Any material fact not specifically denied may be
+considered admitted.”). Additionally, the Board’s Trial Practice Guide states
+that the Patent Owner Response “should identify all the involved claims that
+are believed to be patentable and state the basis for that belief.” Office
+Patent Trial Practice Guide, 77 Fed. Reg. 48,756, 48,766 (Aug. 14, 2012).
+In response to the first challenge by NHK listed above, Lear argues
+that JP ’468 fails to describe a headrest “pivotally attached with the seatback
+frame” as recited in claims 2, 4, 6, 8, 9, 28–31, 57, 78, and 80. Resp. 25–29.
+Lear also argues that JP ’468 fails to describe “an impact target operatively
+associated with the cushion portion and pivotally associated with the
+seatback frame” as recited in claims 2, 4, 6, 8, 9, and 28–31. Id. at 29–30.
+Lastly, Lear argues that JP ’468 fails to describe “a target pivotally mounted
+to the seatback” as recited in claims 57, 78, and 80. Id. at 30. Lear does not
+
+15
+
+IPR2014-01202
+Patent 5,378,043 C2
+contest that JP ’468 describes all other elements of claims 2, 4, 6, 8, 9, 28–
+31, 57, 78, and 80. In response to the second challenge by NHK listed
+above, Lear does not contest that the combination of Mertens and Ferrara
+describes all elements of claims 2, 4, 6, 8, 9, 13–20, 31, 43–49, 55–60, 62–
+68, 70, 81, 84–90, 93, and 94. See id. at 31–45 (arguing only that a skilled
+artisan would not have been motivated to combine Mertens and Ferrara as
+NHK suggests). Accordingly, the record now contains unrebutted arguments
+and evidence presented by NHK regarding the manner in which the asserted
+prior art teaches all other elements of the claims against which that prior art
+is asserted. We, therefore, find that the preponderance of the evidence of
+record developed at trial supports our conclusion the alleged prior art
+describes all limitations of the reviewed claims except for those that Lear
+identifies above.
+B. ANTICIPATION OF CLAIMS 2, 4, 6, 8, 9, 28–31, 57, 78, AND 80 BY
+JP ’468
+NHK contends that JP ’468 anticipates claims 2, 4, 6, 8, 9, 28–31, 57,
+78, and 80, and sets forth the evidence from JP ’468 to support its
+contentions in detailed claim charts. Pet. 23–32. NHK also proffers the
+testimony of Dr. Kent to explain the manner in which JP ’468 describes all
+the limitations recited in claims 2, 4, 6, 8, 9, 28–31, 57, 78, and 80.
+Ex. 1012, ¶¶ 48–57. Based on the record before us at the time, we
+preliminarily determined that NHK had established a reasonable likelihood
+of showing that JP ’468 anticipates claims 2, 4, 6, 8, 9, 28–31, 57, 78, and
+80. Dec. 7–10. For the reasons expressed below, NHK persuades us by a
+preponderance of evidence that JP ’468 anticipates claims 2, 4, 6, 8, 9, and
+28–31, but fails to do so for claims 57, 78, and 80.
+
+16
+
+IPR2014-01202
+Patent 5,378,043 C2
+1. Overview of JP ’468
+The operation of JP ’468 may be understood by referring to the
+colorized version of Figure 1 of JP ’468 that is shown below.
+
+Figure 1 of JP ’468 illustrates a mechanism for moving a headrest
+upward and forward during a rear-end collision.
+JP ’468 discloses a rear seat assembly having among other elements,
+seat back 7 with frame member 8 (green) that rotates around axis 10.
+Ex. 1008, 5. Headrest 15 (pink), which is separated from the seat back 7 by
+space S, is secured to a top end of arm 16 (brown) and together they are
+pivotally attached to a bracket 18 (blue) at the top part of the floor
+member 1′. Id. at 6. Headrest 15 is normally held in the position shown in
+the solid lines of Fig. 1 by its own weight or the biasing force of a spring
+(not illustrated). Id. The bottom end of arm 16 is thus “brought into contact
+with frame member 8 at the back part of seat back 7 in its normal position.”
+Id. at 5. Upon a rear impact to the vehicle, seat back 7 tilts rearward and
+frame member 8 presses the bottom end of arm 16 toward floor member 1′.
+17
+
+IPR2014-01202
+Patent 5,378,043 C2
+Id. at 7. This rotation of arm 16 causes headrest 15 to rotate upward and
+forward to meet the occupant’s head. Id.
+2. Lear’s Arguments
+Lear argues that JP ’468 fails to anticipate various groups of claims 2,
+4, 6, 8, 9, 28–31, 57, 78, and 80 for three reasons. Namely, JP ’468 does not
+describe: (1) a “headrest pivotally attached with the seatback frame along a
+pivotal axis” as recited in claims 2, 4, 6, 8, 9, 28–31, 57, 78, and 80, (2) “an
+impact target pivotally associated with the seatback frame” as recited in
+claims 2, 4, 6, 8, 9, and 28–31, and (3) “a target pivotally mounted to the
+seatback” as recited in claims 57, 78, and 80. Resp. 25–30. We address
+each in turn below.
+a) Claims 2, 4, 6, 8, 9, 28–31, 57, 78, and 80: Whether JP ’468
+Describes the Headrest Being Pivotally Attached with the
+Seatback Frame
+Independent claims 2 and 57, and thus dependent claims 4, 6, 8, 9,
+28–31, 78, and 80, recite “a headrest pivotally attached with the seatback
+frame along a pivotal axis.” Ex. 1001, C1 1:32–33. Lear argues that JP ’468
+fails to describe a headrest that meets this limitation because the headrest is
+not “joined or fastened to the seatback frame” and thus is not “attached”
+pivotally or otherwise to the seatback frame. Resp. 25–29 (citing Ex. 2004.
+Lear contends that JP ’468 itself confirms that “attached” must mean joined
+or fastened because JP ’468 states that its headrest 15 is pivotally attached to
+bracket 18 by means of a pin 17. Id. at 26 (citing Ex. 1008, 5:5–9; Ex. 2004
+¶¶ 91–105; Ex. 1012 ¶ 50). By contrast to arm 16 being pivotally attached at
+one end to bracket 18 via pin 17, Lear argues that the other end of arm 16 is
+merely in sliding contact with the surface of frame member 8 and thus not
+joined or fastened to frame member 8. Id. (citing Ex. 2004 ¶ 98). Lear
+18
+
+IPR2014-01202
+Patent 5,378,043 C2
+contends that headrest 15 is not attached to frame 8 because if seatback
+frame 8 of JP ’468 were removed from the vehicle, headrest 15 would
+remain in the vehicle pivotally attached to floor member 1′. Id. (citing
+Ex. 2004 ¶ 92, Ex. 2013, 29:11–30:16). We agree that the preponderance of
+evidence demonstrates that arm 16 has a free end that is in sliding contact
+with frame 8 and that the free end of arm 16 is not directly secured to
+frame 8.
+NHK contends that, even though the free end of arm 16 is not directly
+secured to frame 8, the “headrest is pivotally attached with the seatback
+frame” because the claim does not require that the headrest be attached to
+the frame but merely that it be attached with the frame. Reply 6–7. NHK
+reasons that Lear’s arguments are based on Lear’s erroneous interpretation
+of “attached with” as meaning “attached to.” Id. NHK argues that Lear
+ignores a commonly understood meaning of “attach” as referring to
+“connect.” See Reply 8 (citing dictionary definition of “attach” offered by
+Lear in Ex. 2007). NHK further contends that the ’043 patent “places no
+restriction on the manner of pivotal attachment beyond there being a pivotal
+relationship of the elements.” Id. NHK also argues that JP ’468 never
+defines “pivotally attached” as requiring a particular type of connection
+between elements but instead merely describes one example of pivotal
+attachment, a pin. Id. at 9–10.
+NHK persuades us by a preponderance of evidence that JP ’468
+describes a headrest that is pivotally attached with the seatback frame. For
+the reasons expressed in part II.A above, we interpret “headrest pivotally
+attached with the seatback frame” more broadly than proposed by Lear. We
+interpret “pivotally attached with” to encompass a relationship between the
+
+19
+
+IPR2014-01202
+Patent 5,378,043 C2
+headrest and seatback frame that involves the headrest being functionally
+linked via intervening structures to the seatback frame so that the headrest
+rotates forward in response to a rearward force applied to an impact target.
+Under our interpretation, JP ’468 describes “a headrest pivotally attached
+with the seatback frame.” We find that intervening structures physically join
+headrest 15 of JP ’468 to its frame member 8. Frame member 8, with its
+supporting arm 9 (the alleged seatback frame), is pivotally joined at axis 10
+to bracket 5 of seat cushion support member 4 (the alleged bun frame),
+which is joined to floor 1 and thus also floor member 1′. Ex. 1008, 3–5,
+Figure 1. Headrest 15 is connected to arm 16, which is pivotally joined via
+pin 17 to bracket 18 “at the top part of floor member 1′.” Id. at 5. Headrest
+15 is attached to frame 8 via the intervening structures described above and
+pivots about the recited axis. Accordingly, we find that a preponderance of
+evidence demonstrates that headrest 15 is “pivotally attached with the
+seatback frame” as recited in claims 2 and 57.
+b) Claims 2, 4, 6, 8, 9, and 28–31: Whether JP ’468 Describes
+an Impact Target Pivotally Associated with the Seatback
+Frame
+Independent claim 2, and its dependent claims 4, 6, 8, 9 and 28–31,
+recites “an impact target operatively associated with the cushion portion and
+pivotally associated with the seatback frame.” Ex. 1001, C1 1:39–41. Lear
+argues that JP ’468 fails to meet these recited requirements based on its
+interpretation of “pivotally associated with the seatback frame” as meaning
+“directly or indirectly pivotally attached to the seatback frame such that it
+actuates the active head restraint independent of the seatback frame
+position.” Resp. 29. Lear cites testimony from Dr. Viano and his
+understanding of the way in which the embodiments of the seat arrangement
+20
+
+IPR2014-01202
+Patent 5,378,043 C2
+described in the Specification operate as support for its interpretation. Id.
+(citing Ex. 2004 ¶¶ 104–05). Dr. Viano’s testimony cites no independent
+evidence to corroborate his interpretation of “pivotally associated with the
+seatback frame.” See Ex. 2004 ¶¶ 104–05. Lear argues that under its
+interpretation, arm 16 of JP ’468 cannot be an impact target because it does
+not actuate the headrest independent of movement of the seatback frame.
+Resp. 29–30.
+We need not consider extrinsic evidence to discern the meaning of the
+claim because we find the plain language of the claim to be clear. The claim
+expressly recites that the impact target is “pivotally associate with the
+seatback frame.” “Pivotally associated” thus merely requires that the impact
+target pivot in relation to the seatback frame. Additionally, we find that
+Lear’s interpretation improperly attempts to incorporate characteristics of
+the specific embodiments described in the Specification that are not
+expressly stated in the claim. The Specification merely describes examples
+of the claimed invention and explicitly asserts that variations of those
+embodiments are within the scope of the claims. Ex. 1001, 3:23–27.
+Moreover, Lear’s proposed interpretation of “pivotally associated with the
+seatback frame” is based on Dr. Viano’s otherwise unsupported testimony.
+We ascribe little weight to that testimony because Dr. Viano, as an inventor,
+is subject to bias and he cites no independent evidence in support of his
+conclusions.
+NHK persuades us by a preponderance of evidence that arm 16 of
+JP ’468 both pivots in relation to seatback frame 8 and is associated with
+headrest 15. Arm 16 is secured to the top end of arm 16. Ex. 1008, 6.
+Headrest 15 is biased rearward either by its own weight or a spring, which
+
+21
+
+IPR2014-01202
+Patent 5,378,043 C2
+results in arm 16 being biased upward to contact frame member 8. Pet. 27–
+28 (citing Ex. 1008, 5, Fig. 1). When frame member 8 pivots rearward in
+response to load imparted by the occupant in a collision, frame member 8
+applies rearward force to arm 16 (the alleged impact target) causing arm 16
+to rotate relative to frame 8. Id. at 28 (citing Ex. 1008, 6). Claim 2 requires
+nothing more to describe “an impact target operatively associated with the
+cushion portion and pivotally associated with the seatback frame.”
+Accordingly, NHK persuades us by a preponderance of evidence that
+JP ’468 describes the impact target of claims 2, 4, 6, 8, 9, and 28–31.
+c) Claims 57, 78, and 80: Whether JP ’468 Describes a Target
+Pivotally Mounted to the Seatback
+Lear argues that JP ’468 fails to describe “a target pivotally mounted
+to the seatback” as recited in claim 57 and thus its dependent claims 78 and
+80. Resp. 30 (emphasis removed). Lear contends that we should interpret
+“target pivotally mounted to the seatback” as requiring that the target be
+joined or fastened to the seatback frame. Id. at 17–19. Lear contends that
+arm 16 of JP ’468 is not joined or fastened to the seatback frame and thus
+fails to meet this requirement of claim 57.
+In the Petition, NHK contends that JP ’468 describes all elements of
+claim 57 “for similar reasons listed above with respect to claim 2.” Pet. 33.
+Claim 2, recites “an impact target . . . pivotally associated with the seatback
+frame” rather than “a target pivotally mounted to the seatback.” Compare
+Ex. 1001, C1 1:39–41 (claim 2) with C1 4:20 (claim 57). NHK identifies
+arm 16 as the “impact target” of claim 2 and thus by incorporation also as
+the “target” of claim 57. NHK argues that the target being “mounted to the
+seatback” does not require that the target be joined or fastened to the
+seatback because we should interpret “mounted” to mean “to set in position
+22
+
+IPR2014-01202
+Patent 5,378,043 C2
+for use” based on a proffered definition in a lay dictionary. Reply 17 (citing
+Ex. 1020).
+For the reasons expressed in part II.B above, we interpret “target
+pivotally mounted to the seatback” to mean that the target is directly joined
+to the seatback frame in a manner that permits the target to pivot around the
+axis specified in the claim. Under this interpretation, Lear persuades us that
+JP ’468 fails to describe the target recited in claims 57, 78, and 80. Arm 16
+of JP ’468 (the alleged target) is directly joined via pin 17 to bracket 18 “at
+the top part of floor member 1′,” not frame 8 (the alleged seatback frame).
+Ex. 1008, 5. The other end of arm 16 slides along frame 8 while remaining
+in contact with frame 8 throughout normal operation of headrest 15.
+Ex. 1008, 5–6, Figure 1; Ex. 2004 ¶¶ 97–102; Ex. 2013, 28:6–9. We find
+that this type of sliding contact between frame 8 and arm 16 does not
+constitute being directly joined to arm 16 as required. We determine that a
+preponderance of evidence establishes that arm 16 is not “a target pivotally
+mounted to the seatback” as recited in claim 57 and its dependent claims 78
+and 80. Accordingly, NHK has not persuaded us that JP ’468 anticipates
+claims 57, 78, and 80.
+3. Conclusion
+For the reasons expressed above, NHK has persuaded us by a
+preponderance of evidence that JP ’468 describes “a headrest pivotally
+attached with the seatback frame” and “an impact target operatively
+associated with the cushion portion and pivotally associated with the
+seatback frame.” For the reasons expressed in part III.A above, NHK has
+persuaded us by a preponderance of evidence that JP ’468 describes all other
+elements of claims 2, 4, 6, 8, 9, and 28–31. NHK has failed to persuade us
+
+23
+
+IPR2014-01202
+Patent 5,378,043 C2
+by a preponderance of evidence that JP ’468 describes “a target pivotally
+mounted to the seatback” as recited in claims 57, 78, and 80. Accordingly,
+we conclude that NHK has demonstrated by a preponderance of evidence
+that JP ’468 anticipates claims 2, 4, 6, 8, 9, and 28–31, but has failed to do
+so for claims 57, 78, and 80.
+C. OBVIOUSNESS OF CLAIMS 2, 4, 6, 8, 9, 13–20, 31, 43–49, 55–60, 62–
+68, 70, 81, 84–90, 93, AND 94 IN VIEW OF MERTENS AND FERRARA
+We preliminarily determined on the record before us at the time that
+NHK had established a reasonable likelihood of showing that the
+combination of Mertens and Ferrara renders claims 2, 4, 6, 8, 9, 13–20, 31,
+43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94 unpatentable as obvious.
+Dec. 14–16. The dispute at trial focuses upon whether a skilled artisan
+would have been motivated to combine the spring biasing the headrest
+against rotation that is described by Ferrara with the seat arrangement
+described in Mertens “to mitigate whiplash risk” as alleged by NHK. For
+the reasons expressed below, NHK does not persuade us that claims 2, 4, 6,
+8, 9, 13–20, 31, 43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94 are
+unpatentable as obvious in view of the combination of Mertens and Ferrara.
+1. NHK’s Argument and Evidence in the Petition
+NHK contends that Mertens describes all elements recited in claims 2,
+4, 6, 8, 9, 13–20, 31, 43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94 except
+for the “spring operatively associated with the seatback frame biasing the
+headrest against pivotal movement” which is recited in independent claims 2
+and 57 and thus required by all claims challenged as obvious. Pet. 57–59.
+NHK contends that Ferrara describes such a spring and that a skilled artisan
+would have found it obvious “to employ Ferrara’s shaft 22, sleeve 24, and
+spring 48 to Mertens’s headrest frame to mitigate whiplash risk in severe
+24
+
+IPR2014-01202
+Patent 5,378,043 C2
+rear-end collisions by absorbing the impact of the passenger’s head hitting
+the headrest.” Id. at 58 (citing Dr. Kent’s testimony at Ex. 1012 ¶¶ 79–81).
+Dr. Kent expands upon the obviousness rationale that NHK expresses in the
+Petition when he testifies that “[a]s shown in FIG. 2d of Mertens '737, the
+headrest moves slightly backwards in a rear end collision. Thus, it would
+have been obvious to use the mechanism in Ferrara to cushion the head as it
+moves backwards as shown in FIG. 2d of Mertens '737.” Ex. 1012 ¶ 81.
+NHK offers nothing more in its Petition to support its obviousness
+challenge.
+2. Analysis of Lear’s Arguments and NHK’s Reply
+Lear does not dispute NHK’s contentions that the combination of
+Mertens and Ferrara describes all elements of claims 2, 4, 6, 8, 9, 13–20, 31,
+43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94. See Resp. 1–46 (not
+addressing any aspect of claims 2, 4, 6, 8, 9, 13–20, 31, 43–49, 55–60, 62–
+68, 70, 81, 84–90, 93, and 94). Instead, Lear argues that a skilled artisan
+would not have been motivated to employ Ferrara’s spring in Mertens’s seat
+arrangement “to mitigate whiplash risk” as NHK contends. Resp. 31–45.
+More specifically, Lear contends that a skilled artisan would have
+known that incorporating Ferrara’s spring into Mertens’s headrest would
+increase rather than decrease the risk of whiplash injury. Id. at 40–41. Dr.
+Viano testifies that “whiplash is associated with neck extension” and is
+prevented “by limiting the relative movement between the head and the
+upper torso” and minimizing “rearward movement of the headrest . . . as
+much as possible.” Ex. 2004 ¶ 132. Dr. Viano further testifies that “adding
+the Ferrara spring to Mertens would increase the risk of whiplash” because
+Ferrara’s spring allows the headrest to move rearward in a collision. Id. at
+
+25
+
+IPR2014-01202
+Patent 5,378,043 C2
+¶ 133. Dr. Viano opines that a skilled artisan would not have even
+considered adding the spring of Ferrara to Mertens because it would increase
+the risk of whiplash injury. Id. at ¶ 134.
+NHK responds that Lear’s contention that using Ferrara’s spring
+would increase the risk of whiplash injury rests upon “conclusory opinions”
+of Dr. Viano” and is not supported by “actual evidence.” Reply 18. NHK
+contends that Dr. Viano, on cross-examination, “conceded . . . that whiplash
+can be caused not only by movement of the neck, but also by a severe blow
+to the head.” Id. at 20 (citing Ex. 1018, 5:1–52:24). NHK also argues that
+Dr. Viano “conceded that Ferrara’s system is directed to preventing injury,
+such as a severe blow to the head.” Id. (citing Ex. 1018, 46:10–48:9). NHK
+concludes, without citing any evidence, that “Ferrara’s system of allowing
+movement of the headrest to prevent such a blow to the head from striking
+the rigid headrest would in fact have the effect of reducing whiplash.” Id. at
+20–21.
+On the factual question of whether using Ferrara’s spring in Mertens’s
+headrest would increase or decrease the risk of whiplash injury, we are not
+persuaded by either party’s argument. Rather we determine that the
+preponderance of evidence demonstrates that the presence of Ferrara’s
+spring in the seat arrangement of Ferrara or Mertens would neither increase
+nor decrease the risk of whiplash injury.
+Ferrara’s spring is intended to improve a headrest that is “provided to
+increase passenger comfort, and to lessen or prevent ‘whiplash’ or similar
+
+4
+
+Our review of Dr. Viano’s testimony reveals that NHK likely intended to
+cite Ex. 1018, 51:1–52:2. We do not consider the testimony at Ex. 1018,
+5:1–50:25 to be probative to NHK’s contention.
+26
+
+IPR2014-01202
+Patent 5,378,043 C2
+injuries in the event of certain types of collisions.” Ex. 1010, 1:13–16.
+Ferrara’s improvement relies upon its spring 48, which permits the headrest
+to rotate rearward only when the occupant’s head strikes the headrest with
+sufficient force to “flatten the cushion of the headrest to the point that his
+head would then impact an essentially rigid structure.” Id. at 1:16–25, 2:55–
+3:2. Ferrara says nothing about whether its spring increases or decreases the
+risk of whiplash but rather focuses on how its spring adds compliance to the
+headrest to avoid impact-based head injury. Dr. Viano recognized that
+providing compliance in a headrest has advantages as follows:
+Head injury, which is different than whiplash, is associated
+with impact between the head and head restraint. The prevention
+of head injury depends on cushioning the head, thereby
+extending the duration of loading and lowering the forces. It is
+desirable to have some cushioning provided by the head restraint,
+but too much deformation of the head restraint can increase
+whiplash risks.
+Ex. 2004 ¶ 137. Dr. Viano also testifies that whiplash injuries are associated
+with relatively low-speed collisions and that compliance in the headrest
+would prevent impact-based head injuries that occur in high-speed
+collisions. Ex. 2004 ¶ 140; Ex. 1018, 55:23–56:12. Ferrara’s spring adds
+compliance to the headrest by permitting the headrest to move in severe
+impacts when insufficient compliance in the padding of the headrest results
+in the headrest being “an essentially rigid structure” that could harm cause
+impact-based head injury. Ex. 1010, 1:13–25, 2:55–3:2.
+Accordingly, we find no evidentiary justification for Lear’s argument
+that Ferrara describes a headrest that increases the risk of whiplash. Rather,
+we determine that Ferrara describes improving a whiplash-mitigating
+
+27
+
+IPR2014-01202
+Patent 5,378,043 C2
+headrest so that it does not suffer the disadvantage of causing head injury in
+severe collisions resulting from the occupant’s head hitting a rigid structure.
+Similarly, we are not persuaded by NHK’s argument that using
+Ferrara’s spring would decrease the risk of whiplash injury. To the extent
+that Ferrara improves a headrest, it does so by providing the compliance that
+Dr. Viano recognized to reduce the risk of impact-based head injury in highspeed collisions. Ferrara never describes its spring, which softens a blow to
+the occupant’s head, as reducing the risk of whiplash injury, and the
+testimony from Dr. Viano that NHK cites does not support such a
+conclusion. Rather, Dr. Viano merely testifies that it is “possible” for “some
+blows to the head” to cause whiplash, Ex. 1018, 51:1–52:2, and whether
+such a blow causes whiplash “depends on so many factors,” id. at 52:4–53:1.
+Dr. Viano never testifies that Ferrara’s spring reduces the risk of whiplash
+injury, and NHK cites no evidence to support such a conclusion.
+Because NHK fails to establish that using Ferrara’s spring in
+Mertens’s headrest would “mitigate whiplash risk,” NHK’s proffered
+rationale for using Ferrara’s spring in Mertens’s headrest and, thus, NHK’s
+obviousness challenge is unpersuasive. “[A] patent composed of several
+elements is not proved obvious merely by demonstrating that each of its
+elements was, independently, known in the prior art. KSR Int’l Co. v.
+Teleflex Inc., 550 U.S. 398, 418 (2007). A challenge “on obviousness
+grounds cannot be sustained by mere conclusory statements; instead, there
+must be some articulated reasoning with some rational underpinning to
+support the legal conclusion of obviousness.” Id. (quoting In re Kahn, 441
+F.3d 977, 988 (C.A.Fed.2006)). The argument and evidence proffered by
+NHK does not establish any credible reason to combine Ferrara’s spring with
+
+28
+
+IPR2014-01202
+Patent 5,378,043 C2
+Mertens’s headrest. Nor does NHK proffer any evidence to establish
+whether a skilled artisan would have considered Ferrara’s spring 48 to have
+been an obvious substitute for Mertens’s torsion member 85 to permit
+rearward rotation of the headrest in severe collisions. NHK bears the burden
+of proving obviousness of the challenged claims by a preponderance of
+evidence, and we conclude that it has failed to do so in this case.
+Accordingly, we conclude that NHK has failed to establish that the
+combination of Mertens and Ferrara renders claims 2, 4, 6, 8, 9, 13–20, 31,
+43–49, 55–60, 62–68, 70, 81, 84–90, 93, and 94 unpatentable as obvious
+under 35 U.S.C. § 103.
+IV. LEAR’S MOTION TO EXCLUDE
+We have reviewed Lear’s Motion to Exclude, NHK’s Opposition to
+the Motion, and Lear’s Reply in support of the Motion. Based on our
+review, we deny the Motion in all respects for one or both of the following
+reasons: (1) the Motion is moot because it seeks to exclude evidence not
+considered or relied upon in rendering this Decision or (2) the Motion
+addresses issues more appropriate to determining the weight ascribed to the
+evidence rather than the admissibility of evidence. In rendering this
+Decision, we determine and ascribe the appropriate weight to all proffered
+evidence and, when appropriate, comment upon the weight ascribed.
+V. CONCLUSION
+For the reasons expressed above, we conclude that NHK has shown
+by a preponderance of the evidence that JP ’468 anticipates claims 2, 4, 6, 8,
+9, and 28–31 of the ’043 patent under 35 U.S.C. § 102(b), but has failed to
+do so for claims 57, 78, and 80. We also conclude that NHK has failed to
+establish by a preponderance of evidence that the combination of Mertens
+
+29
+
+IPR2014-01202
+Patent 5,378,043 C2
+and Ferrara renders claims 2, 4, 6, 8, 9, 13–20, 31, 43–49, 55–60, 62–68, 70,
+81, 84–90, 93, and 94 unpatentable as obvious under 35 U.S.C. § 103.
+VI. ORDER
+For the reasons given, it is:
+ORDERED that claims 2, 4, 6, 8, 9, and 28–31 of the ’043 patent are
+held unpatentable;
+FURTHER ORDERED that claims 13–20, 31, 43–49, 55–60, 62–68,
+70, 81, 84–90, 93, and 94 are not held unpatentable;
+FURTHER ORDERED that Lear’s Motion to Exclude is denied; and
+FURTHER ORDERED that because this is a Final Written Decision,
+parties to the proceeding seeking judicial review of the Decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+30
+
+IPR2014-01202
+Patent 5,378,043 C2
+PETITIONER:
+William H. Mandir
+John F. Rabena
+SUGHRUE MION PLLC
+wmandir@sughrue.com
+jrabena@sughrue.com
+
+PATENT OWNER:
+John M. Halan
+Frank A. Angileri
+BROOKS KUSHMAN P.C.
+jhalan@brookskushman.com
+fangileri@brookskushman.com
+
+31
+
+

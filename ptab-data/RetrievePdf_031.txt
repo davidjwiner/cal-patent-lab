@@ -1,0 +1,758 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 9
+Entered: February 16, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+SAMSUNG ELECTRONICS CO., LTD.,
+Petitioner,
+v.
+MOBILE TELECOMMUNICATIONS TECHNOLOGIES, LLC,
+Patent Owner.
+____________
+Case IPR2015-01727
+Patent 5,659,891
+____________
+Before MEREDITH C. PETRAVICK, SCOTT A. DANIELS, and
+MIRIAM L. QUINN, Administrative Patent Judges.
+DANIELS, Administrative Patent Judge.
+
+DECISION
+Decision Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01727
+Patent 5,659,891
+I. INTRODUCTION
+A. Background
+Petitioner, Samsung Electronics Co., Ltd., filed a Petition to institute
+an inter partes review of claims 1–5 of U.S. Patent No. 5,659,891 (“the ’891
+patent”). Paper 3 (“Pet.”). Patent Owner, Mobile Telecommunications
+Technologies, LLC, timely filed a Preliminary Response. Paper 8 (“Prelim.
+Resp.”).
+We have authority to determine whether to institute an inter partes
+review under 35 U.S.C. § 314 and 37 C.F.R. § 42.4(a). Upon consideration
+of the evidence in the Petition and the Preliminary Response, we determine
+that Petitioner has not established a reasonable likelihood of prevailing on
+the claims challenged in the Petition. Accordingly, we do not institute an
+inter partes review of any of the challenged claims of the ’891 patent.
+B. Additional Proceedings
+The ’891 patent is also challenged, currently, by Petitioner in
+IPR2015-01726. Petitioner states that the ’891 patent is asserted against
+Petitioner in the U. S. District Court for the Eastern District of Texas,
+Mobile Telecommunications Technologies, LLC v. Samsung Electronics Co.,
+Case No. 2:15-CV-183. Pet. 1. Petitioner also notes that the ’891 patent is
+asserted against other parties in at least (1) Mobile Telecommunications
+Technologies, LLC v. Apple, Inc., Case No. 2:13-CV-258 (“the Apple
+lawsuit”); (2) Mobile Telecommunications Technologies, LLC v. Leap
+Wireless International, Inc., Case No. 2:13-CV-885 (“the Leap lawsuit”); (3)
+Mobile Telecommunications Technologies, LLC v. T-Mobile USA, Inc., Case
+No. 2:13-CV-886, (“the T-Mobile lawsuit”); and (4) Mobile
+
+2
+
+IPR2015-01727
+Patent 5,659,891
+Telecommunications Technologies, LLC v. AT&T Mobility LLC, Case No.
+2:14-CV-897, all in the Eastern District of Texas. Id. at 1–2.
+Petitioner states further that the ’891 patent was also challenged in
+other inter partes review proceedings, namely Apple Inc. v. Mobile
+Telecommunications Technologies, LLC, Case IPR2014-01035 (PTAB filed
+June 27, 2014); and T-Mobile USA, Inc. v. Mobile Telecommunications
+Technologies, LLC, Case IPR2015-00018 (PTAB filed Oct. 3, 2014).1 Id. at
+2.
+The ’891 Patent
+The ’891 patent (Ex. 1001), titled “Multicarrier Techniques in
+Bandlimited Channels,” generally relates to a method for multicarrier
+modulation (“MCM”) using geographically co-located transmitters to
+achieve a higher frequency transmission capacity within FCC emission mask
+limits. The method provides for a plurality of overlapping subchannels
+within a single bandlimited channel to provide higher data transmission
+capacity for a mobile paging system. Ex. 1001, 2:15–59. The technique
+involves transmitting a plurality of paging carriers, in corresponding
+overlapping subchannels, from the same location and within the maskdefined bandlimited channel, without bandlimiting each of the individual
+subchannels. Id. In this way, with the center frequencies of the plurality of
+modulated carriers within the single bandlimited channel, an optimum
+
+1
+
+IPR2014-01035 and IPR2015-00018 were both terminated pursuant to
+settlement agreements between the respective parties. See T-Mobile USA,
+Inc. v. Mobile Telecomms. Techs., LLC, Case IPR2015-00018 (PTAB filed
+Oct. 3, 2014) (Paper 14); Apple Inc. v. Mobile Telecomms. Techs., LLC,
+Case IPR2014-01035 (PTAB filed June 27, 2014) (Paper 21).
+3
+
+IPR2015-01727
+Patent 5,659,891
+transmission capacity is provided and the plurality of carriers may emanate
+from the same transmission source, i.e., an antenna. Id.
+An annotated version of Figure 3B of the ’891 patent, reproduced
+below, depicts two adjacent carriers asymmetrically located within a single,
+mask-defined, bandlimited channel.
+
+As depicted by Figure 3B of the ’891 patent, above, two carriers 32a
+and 32b are shown operating over two subchannels (no reference number)
+within a bandlimiting mask (annotated in yellow) defining the channel. The
+subchannels are asymmetrically aligned within the mask resulting in partial
+subchannel overlap. Id. at 4:24–30. The center frequencies of the carriers
+32a and 32b are shown by the vertical dashed lines, and, concomitant with
+the subchannels, carriers 32a and 32b also overlap. According to the ’891
+patent, geographic co-location of the transmitters reduces interference
+problems between adjacent subcarriers, thus allowing the spacing between
+subchannels to be reduced. Id. at 4:12–20. The ’891 patent explains that the
+practical implications of such an asymmetrical arrangement are a greater
+
+4
+
+IPR2015-01727
+Patent 5,659,891
+range of operating parameters, essentially because more subchannels can be
+fit within the bandlimited mask without undue interference. Id. at 4:36–46.
+C. Illustrative Claim
+Claims 1, 3, and 5 are independent. Each of dependent claims 2 and 4
+depend directly from claims 1 and 3 respectively. Claim 1 illustrates the
+claimed subject matter and is reproduced below:
+1. A method of operating a plurality of paging carriers in
+a single mask-defined, bandlimited channel comprising the
+step of transmitting said carriers from the same location with
+said carriers having center frequencies within said channel
+such that the frequency difference between the center frequency
+of the outer most of said carriers and the band edge of the mask
+defining said channel is more than half the frequency difference
+between the center frequencies of each adjacent carrier.
+The Alleged Grounds of Unpatentability
+Petitioner contends that the challenged claims are unpatentable on the
+following specific grounds.2
+References
+
+Basis
+
+Claims Challenged
+
+Cimini 3
+
+§ 103
+
+1–4
+
+Cimini, Raith 4, and
+
+§ 103
+
+5
+
+Alakija 5
+2
+
+Petitioner supports its challenge with a Declaration of Dr. Apostolos K.
+Kakaes, Ph.D. (Ex. 1003, “Kakaes Decl.”). See infra.
+3
+Ex. 1013, Leonard J. Cimini Jr., Analysis and Simulation of a Digital
+Mobile Channel Using Orthogonal Frequency Division Multiplexing, IEEE
+TRANSACTIONS ON COMM. 665 (1985).
+4
+Ex. 1014, WO 89/08355 (Sept. 8, 1989).
+5
+Ex. 1015, C. Alakija & S.P. Stapleton, A Mobile Base Station Phased
+Array Antenna, IEEE INT’L CONF. ON SELECTED TOPICS WIRELESS COMM.,
+June 1992, at 118.
+5
+
+IPR2015-01727
+Patent 5,659,891
+
+II. CLAIM CONSTRUCTION
+A. Legal Standard
+The ’891 patent is expired, and “the Board’s review of the claims of
+an expired patent is similar to that of a district court’s review.” In re
+Rambus, Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). In this context, claim terms
+generally are given their ordinary and customary meaning, as understood by
+a person of ordinary skill in the art, at the time of the invention, taking into
+consideration the language of the claims, the specification, and the
+prosecution history of record because the expired claims are not subject to
+amendment. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir.
+2005) (en banc).
+1. Single mask-defined, bandlimited channel
+Independent claims 1, 3, and 5 recite a “single mask-defined,
+bandlimited channel.” According to Petitioner, the term means: “a channel
+confined to a frequency range.” 6 Pet. 5. Petitioner urges that we adopt the
+same construction set forth in other IPR decisions construing this term and
+as the District Court construed the same term in the T-Mobile lawsuit.
+Patent Owner proposes we interpret the term as a “channel confined to a
+frequency range and power spectral density mask.” Prelim. Resp. 10.
+The ’891 patent indicates that a mask-defined bandlimited channel is
+applied where “[t]he FCC requires signals to be confined within emission
+limit masks in order to prevent interference caused by signals straying or
+spilling into adjacent channels.” Ex. 1001, 1:57–59. In the context of the
+6
+
+In the Apple lawsuit, the parties stipulated that a “single mask-defined,
+bandlimited channel” means, “a channel confined to a frequency range.”
+Ex. 1006, 76.
+6
+
+IPR2015-01727
+Patent 5,659,891
+’891 patent, a “bandlimited channel” is also where “carriers operating at
+different frequencies are fit within a single bandwidth allocation in a manner
+consistent with FCC mask requirements.” Id. at 5:15–19. The Specification
+thus describes this term essentially as a single range of frequencies in the
+frequency band where a spectral power mask limits the frequency range.
+We agree with Patent Owner’s position that one of ordinary skill in
+the art would have at least a bachelor’s degree in electrical engineering,
+several years of experience in wireless telecommunications “and would
+possess knowledge regarding frequency, amplitude, and masks as used in
+telecommunications.” Prelim. Resp. 10. Because one of ordinary skill in
+the art understands the concepts and relationship of frequency, channel,
+bandwidth and mask, Patent Owner’s claim construction is essentially a
+restatement of the plain meaning of the claim language itself. That is, one of
+ordinary skill in the art would understand from a reasonable reading of the
+claim language on its face that a “bandlimited channel” is a single limited
+frequency range, and that a “mask” is the constraint applied to define that
+limited frequency range. Petitioner’s claim construction, on the other hand,
+states that the channel is “confined,” but that does not sufficiently, in our
+view, account for the term “mask-defined,” as it is recited expressly in the
+claims. This is consistent with the Specification further explaining that
+“carriers operating at different frequencies are fit within a single bandwidth
+allocation in a manner consistent with FCC mask requirements.” Ex. 1001,
+5:11–19.
+Although both parties have proposed claim constructions for this
+phrase, on the record before us we are not apprised as to any reason why this
+phrase needs to be construed apart from the plain language of the claim.
+7
+
+IPR2015-01727
+Patent 5,659,891
+Accordingly, we interpret this phrase according to its plain and ordinary
+meaning as understood by one of ordinary skill in the art in light of the
+specification.
+2. Plurality of transmitters
+Independent claim 5 recites a “plurality of transmitters.” According
+to Petitioner, the term means: “at least two transmitters.” Pet. 5. Patent
+Owner does not provide a construction.
+It is well settled that “‘plurality,’ when used in a claim, refers to two
+or more items, absent some indication to the contrary.” Dayco Prods., Inc.
+v. Total Containment, Inc., 258 F.3d 1317, 1327-28 (Fed. Cir. 2001) (citing
+York Prods., Inc. v. Cent. Tractor Farm & Family Ctr., 99 F.3d 1568, 1575
+(Fed. Cir. 1996)). Thus, for purposes of this Decision, we interpret
+“plurality of transmitters” as two or more transmitters.
+3. Band edge
+Independent claims 1, 3, and 5 recite the limitation, “the band edge,”
+without proper antecedent basis. Patent Owner proposes that “the band
+edge” means “the innermost frequencies at which the mask requires
+attenuation of the signal.” Prelim. Resp. 14. Petitioner contends that “the
+band edge” should be construed as “a band edge of the single mask-defined,
+bandlimited channel.” Pet. 7.
+On its face, in each of claims 1, 3, and 5, the limitation reads in
+context “the band edge of the mask defining said channel” (emphasis added),
+clearly referring to the mask in the “single mask-defined, bandlimited
+channel” limitation. Patent Owner asserts that the edges of a mask are
+defined with respect to frequency on the y-axis, not power as shown on the
+x-axis, for example in Figures 3B and 4 of the ’891 patent. Prelim. Resp.
+8
+
+IPR2015-01727
+Patent 5,659,891
+15–17. We agree with this position to an extent, because as we discussed
+above, one of ordinary skill in the art would have understood a bandlimited
+channel defined by a mask as essentially a single range of frequencies in the
+frequency band along the y-axis where a spectral power mask limits the
+frequency range. Ex. 1001, 5:15–19.
+Our review of the Specification reveals, however, no evidence of the
+term “innermost,” or any persuasive description or definition of “band edge”
+that portrays the mask having, for instance, innermost and outermost edges.
+In the Brief Description of the Drawings, the Specification describes the
+graph in Figure 3A as, “a graph depicting two submasks defining two
+subchannels in a single, mask-defined bandlimited channel.” Id. at 3:11–12
+(emphasis added). In Figure 3A, below, the single mask-defined
+bandlimited channel 31 is illustrated by two spaced apart vertical lines (∆y =
+0) extending from the frequency (f) (y-axis) with each vertical line joined by
+two diagonal lines to a horizontal line (∆x = 0). Id. at 4:24–34.
+
+Because there are no values shown on the x or y axis, Figure 3A in the
+’891 patent illustrates, somewhat arbitrarily, the boundaries, or edges, in
+9
+
+IPR2015-01727
+Patent 5,659,891
+terms of frequency and power of a “single mask-defined bandlimited
+channel.”
+Keeping Patent Owner’s assertion in mind, i.e. that the band limited
+channel is specifically the frequency range along the y-axis, (Prelim. Resp.
+15–17), than the vertical lines (∆y = 0) at their intersection with the y-axis
+depict the frequency boundaries, or edges, of the single mask defined
+bandlimited channel. The Specification of the ’891 patent explains that an
+emission mask attenuates the signal at the “band edge”:
+The FCC requires signals to be confined within emission limit
+masks in order to prevent interference caused by signals
+straying or spilling into adjacent channels. FCC masks typically
+require the power spectral density of a signal to be attenuated at
+least 70 dB at the band edge.
+Ex. 1001, 1:57–61 (emphasis added). The Specification depicts an example
+of attenuation at 70dB, 10 kHz from the center frequency, in Figure 4,
+shown below:
+
+10
+
+IPR2015-01727
+Patent 5,659,891
+Figure 4 is a graph of an FCC emissions mask requiring the power
+spectral density to be attenuated to at least 70dB within 10 kHz from center
+frequency. Id. at 16–18.
+From the Specification and the drawings, it is a reasonable reading of
+the written description to understand “the band edge” as the vertical lines at
+10 kHz either side of the center frequency. What is not clear from the
+description, is that “the band edge” is, or includes, the specific frequencies
+between 5 and 10 kHz along the diagonal line, such that an “innermost”
+frequency, e.g. 5 kHz from center frequency, is the claimed “band edge.”
+Patent Owner contends that construing the band edge as, “the
+innermost frequencies at which the mask requires attenuation of the signal”
+is proper because the Specification states that “the frequency difference
+between the center frequency of each carrier and the nearest band edge of
+the mask is greater than half the frequency difference between the center
+frequencies of the two carriers.” Prelim. Resp. 18 (quoting Ex. 1001, 4:30–
+35). We are not persuaded at this point in the proceeding to read such a
+limitation from the Specification into the claims. As an initial matter, on
+their face, claims 1, 3, and 5 simply recite “the band edge,” not the “nearest
+band edge.” Ex. 1001, 6:9, 21, 40–41. See Phillips, 415 F.3d at 1314
+(“Quite apart from the written description and the prosecution history, the
+claims themselves provide substantial guidance as to the meaning of
+particular claim terms.”). Although understanding the claim language may
+be aided by the explanations contained in the written description, it is
+important not to import into a claim limitations that are not a part of the
+claim. See Hill-Rom Servs., Inc. v. Stryker Corp., 755 F.3d 1367, 1371 (Fed.
+Cir.), cert. denied, 135 S. Ct. 719 (2014) (“While we read claims in view of
+11
+
+IPR2015-01727
+Patent 5,659,891
+the specification, of which they are a part, we do not read limitations from
+the embodiments in the specification into the claims.”). The Specification
+support relied on by Patent Owner is an embodiment relating to
+asymmetrically located subchannels as shown for example in Figure 3B. It
+is well-settled that a particular embodiment appearing in the written
+description may not be read into a claim when the claim language is broader
+than the embodiment. SuperGuide Corp. v. DirecTV Enters., Inc., 358 F.3d
+870, 875 (Fed. Cir. 2004).
+Additionally, we consider the Specification to understand how one of
+ordinary skill in the art would have interpreted specific claim terms. Phillips
+415 F.3d at 1313 (“Importantly, the person of ordinary skill in the art is
+deemed to read the claim term not only in the context of the particular claim
+in which the disputed term appears, but in the context of the entire patent,
+including the specification.”). The embodiment disclosed in the
+Specification of the ’891 patent to which Patent Owner refers does not,
+however, describe or define the term “nearest band edge” with any
+specificity. The Specification states:
+[i]n accordance with this asymmetry, the frequency difference
+between the center frequency of each carrier and the nearest
+band edge of the mask is greater than half the frequency
+difference between the center frequencies of the two carriers
+Ex. 1001 4:30–34. We understand this embodiment to define, in the
+circumstance of asymmetrically located subchannels, a relative frequency
+difference between the center frequency and the nearest band edge. But we
+are not persuaded from the context of the description that one of ordinary
+skill in the art would have understood that the “nearest band edge” includes
+merely frequencies along diagonal lines as shown for example in Figures
+12
+
+IPR2015-01727
+Patent 5,659,891
+3A, 3B and 4. Indeed, from a plain reading of the Specification and
+observing Figure 3B, it is at least as likely from this description that the
+“nearest band edge” refers to the vertical line depicting the band edge of the
+mask on the left side of Figure 3B, reproduced below, and its relationship to
+the center frequency of the left-most carrier 32a, as compared with the
+vertical line depicting the band edge of the mask, farther away, on the right
+side of Figure 3B.
+
+Figure 3B of the ’891 patent, above, depicts two carriers 32a and 32b
+operating over two subchannels (no reference number) within a bandlimited
+mask (also no reference number) defining the channel.
+Additionally, Patent Owner argues that their asserted construction is
+consistent with the District Court’s construction in the Leap lawsuit. Prelim.
+Resp. 17–18. We have reviewed the District Court’s Claim Construction
+Order (Ex. 1007) in the Leap lawsuit. At this stage of the proceeding,
+13
+
+IPR2015-01727
+Patent 5,659,891
+however, we recognize that we have not been presented with the same
+evidence and arguments presented to the District Court.
+Nothing in the intrinsic or extrinsic record proffered by Patent Owner,
+at this point in the proceeding, persuades us that “band edge” should be
+construed as “innermost band edge” or a “nearest band edge” in accordance
+with Patent Owner’s characterization of an embodiment described in the
+Specification. Accordingly, we are not persuaded that the evidence supports
+Patent Owner’s asserted claim construction for the reasons stated above. For
+purposes of this Decision, “the band edge” means: “a band edge of the single
+mask-defined, bandlimited channel.”
+4. Each adjacent carrier
+Patent Owner asserts that “each adjacent carrier” should be construed
+as “every single carrier, two of which having a common endpoint or border.”
+Prelim. Resp. 28–29. Specifically, Patent Owner relies upon the definition
+of “adjacent” as meaning “having a common endpoint or border,” from
+Merriam-Webster’s Online Dictionary. Id. (citing Adjacent, MERRIAMWEBSTER, http://www.merriam-webster.com/dictionary/adjacent).
+Petitioner argues that the term should be given its plain and ordinary
+meaning. Pet. 8.
+Upon review, we disagree with Patent Owner that the meaning of
+“adjacent” as used in the ’891 patent is limited to requiring that adjacent
+carriers must have a common endpoint or border. When construing claims,
+our “focus must begin and remain centered on the language of the claims
+themselves, for it is that language that the patentee chose to use ‘to
+particularly point[ ] out and distinctly claim[ ] the subject matter which the
+patentee regards as his invention.’” Brookhill-Wilk 1, LLC v. Intuitive
+14
+
+IPR2015-01727
+Patent 5,659,891
+Surgical, Inc., 326 F.3d 1215, 1220 (Fed. Cir. 2003) (alterations in original)
+(quoting Interactive Gift Express, Inc. v. Compuserve Inc., 256 F.3d 1323,
+1331 (Fed. Cir. 2001)). Nowhere in the specification or claims do we find
+the phrase “having a common endpoint or border.” Nor have the parties
+pointed to any description indicating such a requirement. In the context of
+the claims, “adjacent” means simply “next to.” Consulting MerriamWebster’s Online Dictionary from this perspective, we note that “adjacent”
+is also defined as “immediately preceding or following.” MERRIAMWEBSTER, http://www.merriam-webster .com/dictionary/adjacent (last
+visited Feb. 10, 2016. This dictionary definition aligns with the claim
+language and is consistent with use of the term throughout the Specification.
+The Specification states that:
+Moreover, the carriers need not be symmetrically or
+evenly spaced within the mask defining the channel. That is, the
+frequency spacings between adjacent carriers, while symmetric
+to each other, can be smaller than the frequency spacings
+between the band edges of the mask and the nearest respective
+carrier. Indeed, carrier spacings may be irregular such that the
+carriers are asymmetrically located within the mask without
+incurring undue interference.
+Ex. 1001, 4:15–23 (emphasis added). We understand in the context of
+this disclosure that adjacent carriers (i.e., carriers next to one another) may
+have symmetric frequency spacings with respect to one another, or
+potentially “irregular” asymmetrical spacing with respect to one another,
+within the mask. Id. Whether the carriers are symmetric or asymmetrically
+spaced, we find no persuasive intrinsic or extrinsic evidence requiring that
+adjacent carriers must have a common endpoint or border as Patent Owner
+asserts.
+15
+
+IPR2015-01727
+Patent 5,659,891
+Consequently, for the purpose of this Decision, we construe the term
+“adjacent” in the phrase “each adjacent carrier,” according to its plain and
+ordinary meaning in the context of the claims and Specification, to mean
+“next to.”
+5. Other constructions
+We decline to provide explicit constructions for the remaining claim
+terms provided by the parties. In the case of “paging carriers,” the
+construction is immaterial to our Decision to Institute, as the parties do not
+dispute that certain elements are disclosed by the prior art. For the words
+“operating” and “transmitter,” we do not consider the proffered
+constructions to provide any clarity over the terms themselves.
+III. ANALYSIS
+We turn now to Petitioner’s asserted grounds of unpatentability to
+determine whether Petitioner has met the threshold standard of 35 U.S.C.
+§ 314(a).
+A. Claims 1–4 – Obviousness over Cimini in view of the ordinary
+skill in the art
+Petitioner asserts that claims 1–4 would have been obvious over
+Cimini. Pet. 11. We determine that Petitioner has not established a
+reasonable likelihood of prevailing on its assertion that claims 1–4 are
+obvious for the reasons explained below.
+1. Overview of Cimini
+Cimini is titled “Analysis and Simulation of a Digital Mobile Channel
+Using Orthogonal Frequency Division Multiplexing,” and relates to
+problems associated with multi-path signal propagation in a mobile cellular
+system when carrier signals being transmitted to a mobile unit are scattered,
+16
+
+IPR2015-01727
+Patent 5,659,891
+for example by buildings and other structures. Ex. 1013 § I. Another issue
+Cimini explains is co-channel interference in a cellular system caused by
+“mobiles simultaneously using the same channel in different locations.” Id.
+Cimini proposes to improve mobile cellular systems by providing symbols,
+i.e. carriers, that are transmitted simultaneously in parallel, and rather than
+being “divided into N nonoverlapping frequency subchannels . . . [a] more
+efficient use of bandwidth can be obtained with a parallel system if the
+spectra of the individual subchannels are permitted to overlap.” Id.; see also
+id. § II. Cimini teaches a modulation scheme using Orthogonal Frequency
+Division Multiplexing (“OFDM”), for N subcarrier frequencies across a
+bandwidth ∆f. Cimini explains further with respect to the subcarrier
+bandwidth ∆f that:
+For orthogonal frequency spacing and strictly band-limited
+spectra (bandwidth ∆f) with δ = ½ ∆f = ½ N∆t, β = log 2 M
+bits/s/Hz. In reality, however, the spectra overflow this
+minimum bandwidth by some factor . . .
+Id. § II. A.
+In Figure 10, below, Cimini depicts a “[d]ata setup used in
+simulations” illustrating subcarrier group 1, subcarrier group 2, and
+subcarrier group 3 along with Pilot signals extending across a 7.5 kHz
+channel or “data window.” Id. § III. B.
+
+17
+
+IPR2015-01727
+Patent 5,659,891
+With respect to Figure 10 above, Cimini describes 86 subcarriers
+across 5 kHz with each subcarrier separated by ∆f 58.59 Hz and all within
+subcarrier groups 1–3. Id. § III. C. Pilot carriers account for 2 kHz between
+the subcarrier groups, and, Cimini further explains that “the design of a
+mobile telephone system must also include measures to limit adjacent
+channel interference. This is accomplished by leaving 250 Hz gaps at each
+end of the band.” Id. § III. B.
+2. Discussion
+As discussed below, claims 1–4 are asserted to be unpatentable over
+Cimini under 35 U.S.C. § 103(a).
+Section 103(a) forbids issuance of a patent when “the differences
+between the subject matter sought to be patented and the prior art are such
+that the subject matter as a whole would have been obvious at the time the
+invention was made to a person having ordinary skill in the art to which said
+subject matter pertains.” In Graham v. John Deere Co., 383 U.S. 1 (1966),
+the Court set out a framework for applying the statutory language of § 103:
+Under § 103, the scope and content of the prior art are to
+be determined; differences between the prior art and the
+claims at issue are to be ascertained; and the level of
+ordinary skill in the pertinent art resolved. Against this
+background, the obviousness or nonobviousness of the
+subject matter is determined.
+Id. at 17. “While the sequence of these questions might be reordered in any
+particular case, the factors continue to define the inquiry that controls.” KSR
+Int’l Co. v. Teleflex Inc., 550 U.S. 398, 407 (2007).
+For an inter partes review, under the statute, any petition must
+“identif[y] . . . with particularity . . . the grounds on which the challenge to
+each claim is based.” 35 U.S.C. § 312(a)(3). Petitioner has the burden of
+18
+
+IPR2015-01727
+Patent 5,659,891
+proof to establish that it is entitled to the requested relief. Id. § 42.20(c).
+The Petition must include a full statement of the reasons for the relief
+requested, including a detailed explanation of the significance of the
+evidence. Id. § 42.22(a). The Petition must include a statement of the
+relevance of the evidence to the challenge raised. 37 C.F.R. § 104(b)(5).
+“The Board may exclude or give no weight to the evidence where a party
+has failed to state its relevance or to identify specific portions of the
+evidence that support the challenge.” Id. “Thus, we will address only the
+basis, rationale, and reasoning put forth by the Petitioner in the petition, and
+resolve all vagueness and ambiguity in Petitioner’s arguments against the
+Petitioner.” Liberty Mutual Ins. Co. v. Progressive Casualty Ins. Co., Case
+CBM2012-00003, slip op. at 10 (PTAB Oct. 25, 2012) (Paper 8). It is
+Petitioner’s responsibility “to explain specific evidence that support its
+arguments, not the Board’s responsibility to search the record and piece
+together what may support Petitioner’s arguments.” Dominion Dealer Sols.,
+LLC v. AutoAlert, Inc., Case IPR2013-00225, slip op. at 4 (PTAB Oct. 10,
+2013) (Paper 15).
+Against this general background, we consider the reference, the level
+of ordinary skill in the art, as well as other evidence and arguments on which
+Petitioner relies.
+a. Claim 1
+Petitioner argues that Cimini discloses a plurality of carriers operating
+in a “narrow-band digital mobile channel.” Pet. 14–15 (quoting Ex. 1013,
+Abstract). Also, Petitioner contends that, although Cimini describes a
+mobile cellular network, one of ordinary skill in the art would have known
+that a pager was “one of the most well-known devices for operation in a
+19
+
+IPR2015-01727
+Patent 5,659,891
+‘narrow-band digital mobile channel’” described by Cimini. Id. at 15.
+Petitioner further asserts that Cimini discloses a “mask-defined bandlimited
+channel” as recited in claim 1 because Cimini “specifies that the spectra is
+‘strictly band-limited’ [and] one of ordinary skill in the art would understand
+the channel described by Cimini to be mask-defined and bandlimited.” Id. at
+13 (quoting Ex. 1013, 3 § II.A) (citing Ex. 1003 ¶ 21). Based on this
+disclosure, Petitioner argues essentially that the 7.5 kHz channel shown in
+Cimini’s Figure 10, above, is a “mask-defined bandlimited channel.” Id.
+Additionally, Petioner’s declarant, Dr. Kakaes, states that one or ordinary
+skill “would have at least a B.S. degree in electrical engineering, computer
+science, computer engineering, or equivalent education. This person would
+also need to have at least two years of experience in the design and
+configuration of wireless paging systems, or other two-way wireless
+communications systems.” Ex. 1003 ¶ 10.
+Patent Owner contends that a person of ordinary skill in the art would
+have possessed “a bachelor’s degree in electrical [engineering] or its
+equivalent and about four years working in the field of wireless
+telecommunications networks and would possess knowledge regarding
+frequency, amplitude, and masks as used in telecommunications, or
+equivalent education and work experience.” Prelim. Resp. 10. Based on the
+level of ordinary skill in the art, upon which the parties essentially agree, we
+are persuaded by Patent Owner’s contention that one of ordinary skill at the
+time of filing of the application that became the ’891 patent, would have
+understood “[a] mask in telecommunications . . . to be an emission mask or
+power spectral density mask,” and that “the bandlimited channel is defined
+by a single power spectral density mask.” Id. at 10–11.
+20
+
+IPR2015-01727
+Patent 5,659,891
+Based on the level of ordinary skill in the art, as we turn to address the
+scope and content of the prior art, we are not persuaded by Petitioner’s
+evidence and analysis that Cimini, as understood by one of ordinary skill in
+the art, discloses either expressly or inherently a “mask-defined bandlimited
+channel.”
+As an initial matter, we are not persuaded that the plain reading of the
+phrase used in Cimini, “strictly band-limited spectra,” describes a frequency
+spectra “mask” as one of ordinary skill in the art would understand it. The
+“mask,” as described in the specification of the ’891 patent, is a specific
+requirement that defines frequency attenuation or emission limit
+requirements that confines the spectral limits of a signal within a proscribed
+bandwidth. See Ex. 1001, 1:56–61, 2:8–9, 4:24–27, Fig. 3A. Cimini, on the
+other hand, never discusses, states, or explains any such mask requirement.
+In Cimini, the phrase “strictly band-limited spectra” understood in context,
+describes orthogonal frequency spacing, i.e. a minimum bandwidth ∆f ,
+between carriers, and the relationship of overlapping carrier frequencies,
+“[i]n reality, however, the spectra overflow this minimum bandwidth by
+some factor α.” Ex. 1013, 3 § II.A. According to Cimini the ∆f = 58.59 Hz
+value is the spacing between each of the 86 carriers that permits some carrier
+overlap and sufficient transmission efficiency across the three carrier groups.
+Id. § III.C.
+The Petition points us to the disclosure in Cimini explaining “that the
+spectra in which the parallel systems operate are ‘strictly band-limited.’”
+Pet. 12 (quoting Ex. 1013, 3 § II.A.). Cimini, for its part, never discusses
+how the spectra is band-limited. The Petition does not provide any evidence
+or explanation with respect to Cimini that “strictly band-limited” either
+21
+
+IPR2015-01727
+Patent 5,659,891
+expressly or inherently means that a spectral mask is involved. Indeed, the
+fact that Cimini describes carrier overlap in the context of “band-limited
+spectra” indicates that the carrier signals are not confined or attenuated by a
+mask.
+Petitioner turns to its declarant, Dr. Kakaes, for support of its position,
+and argues further that one of ordinary skill in the art would have understood
+that Cimini teaches a mask-defined channel. Pet. 13 (citing Ex. 1003 ¶ 21).
+Dr. Kakaes states that:
+[b]ecause Cimini describes this channel as a 7.5 kHz “data
+window” (Ex. SAM1013, p. 8, § III(B)) and specifies that the
+spectra is “strictly band-limited” (Ex. SAM1013, p. 8, § II(A)),
+one of ordinary skill in the art would have understood the
+channel described by Cimini to be mask-defined and
+bandlimited.
+Ex. 1003 ¶ 21. Dr. Kakaes’s testimony cites to the term “data window”
+likening this term to “strictly band-limited” and simply concludes that these
+terms mean, to one of skill in the art, a “mask.” Dr. Kakaes provides no
+further justification, technical explanation or evidence to support the
+conclusion that one of ordinary skill in the art would understand a
+connection or association between the terms “data window,” “band-limited
+spectra,” and “mask.” On this issue, Dr. Kaekes’s bare testimony that a
+“data window” is understood as a spectral mask, without more, is entitled to
+little weight. Indeed, Dr. Kakaes’s testimony does not define or explain a,
+“mask,” at all, but simply states in his Declaration that Cimini describes a
+“7.5 kHz mask-defined, bandlimited channel.” See Id. at ¶ 22.
+Our review indicates that the term “data window” in Cimini is used
+once in the asserted reference as a synonym for “channel.” See Ex. 1013,
+§III. B. We are not apprised of any evidence in Cimini itself, or provided
+22
+
+IPR2015-01727
+Patent 5,659,891
+any cogent explanation or additional evidence from Dr. Kakaes’s testimony,
+that a “data window” is a term of art or would be understood by one of
+ordinary skill in the art, as a mask. Neither are we persuaded, as discussed
+above, by a plain reading of Cimini that “strictly bandlimited” means, or
+infers, a mask.
+Addressing Cimini’s disclosure of a 7.5 kHz channel as shown in
+Figure 10, Patent Owner argues that “a bandlimited spectrum of a channel is
+just a set of values or frequencies of the channel and does not read on a
+single mask-defined, bandlimited channel.” Prelim. Resp. 39. We agree
+with this position to an extent. The Specification of the ’891 patent clearly
+explains that “[t]he FCC requires signals to be confined within emission limit
+masks in order to prevent interference caused by signals straying or spilling
+into adjacent channels.” Ex. 1001, 1:57–59 (emphasis added). Claim 1 does
+not recite merely a “bandlimited channel,” but a “mask-defined bandlimited
+channel.” The term “mask-defined” cannot be read out of the plain and
+ordinary meaning of the claim. See Stumbo v. Eastman Outdoors, Inc., 508
+F.3d 1358, 1362 (Fed. Cir. 2007) (denouncing claim constructions that
+render phrases in claims superfluous). Bicon Inc. v. Straumann Co., 441
+F.3d 945, 950 (Fed. Cir. 2006) (“claims are interpreted with an eye toward
+giving effect to all terms in the claim”). The plain meaning of the claim, on
+its face, includes the “mask-defined bandlimited channel” limitation, as it is
+the mask that tells the reader specifically how the channel is bandlimited.
+We are not persuaded, on the record before us that Petitioner has
+provided sufficient evidence showing that it would have been obvious to a
+person of ordinary skill in the art that Cimini discloses or teaches a “maskdefined, bandlimited channel” as recited in claim 1. Accordingly, for the
+23
+
+IPR2015-01727
+Patent 5,659,891
+reasons above, Petitioner has not established a reasonable likelihood of
+prevailing on the ground of unpatentability of claim 1 as obvious over
+Cimini.
+b. Claim 3
+Petitioner advances essentially the same arguments for independent
+claim 3, as asserted with respect to claim 1. See Pet. 18–21.
+For its part, Patent Owner argues that claim 3 is not obvious for the
+same reasons as claim 1. See generally Prelim. Resp. 33.
+For the reasons provided above, we are not persuaded that Petitioner
+has established a reasonable likelihood of prevailing on the ground of
+unpatentability of independent claim 3 as obvious over Cimini under 35
+U.S.C. § 103.
+c. Claims 2 and 4
+With respect to claims 2 and 4, Petitioner explains that the additional
+limitation of subchannel “overlap” recited in those claims is also found in
+Cimini. Pet. 17–18, 21–22. Patent Owner asserts that claims 2 and 4 are not
+obvious over Cimini because their respective base claims 1 and 3 are not
+obvious, and because claims 2 and 4 recite additional features. Prelim.
+Resp. 50.
+Based upon our analysis, above, we agree with Patent Owner that
+dependent claims 2 and 4 have not been shown to be obvious over Cimini,
+because claims 1 and 3, from which they depend, have not been shown to be
+obvious over Cimini.
+B. Claim 5 – Obviousness over Cimini, Raith, and Alakija
+Petitioner has not established a reasonable likelihood of prevailing on
+its assertion that claim 5 is obvious for the reasons explained below.
+24
+
+IPR2015-01727
+Patent 5,659,891
+Petitioner alleges for substantially the same reasons as for claim 1 that
+Cimini “specifies that the spectra is ‘strictly band-limited’, which one of
+ordinary skill in the art would understand as being mask-defined.” Pet. 23
+(quoting Ex. 1013 § II.A). As discussed, we do not find these arguments
+and evidence persuasive, and Petitioner does not explain how Raith nor
+Alakija cure this defect with respect to the claimed “mask-defined,
+bandlimited channel” recited in claim 5.
+Accordingly, based on the record before us, Petitioner has not
+established a reasonable likelihood of prevailing on the ground of
+unpatentability of claim 5 as obvious over Cimini, Raith, and Alakija.
+IV.
+
+SUMMARY
+
+For the forgoing reasons, we do not institute inter partes review of the
+’891 patent on the alleged grounds of unpatentability.
+V. ORDER
+After due consideration of the record before us, it is:
+ORDERED that the Petition is denied and no trial is instituted.
+
+25
+
+IPR2015-01727
+Patent 5,659,891
+
+For PETITIONER:
+Heath Briggs
+GREENBERG TRAURIG, LLP
+BriggsH@gtlaw.com
+Patrick J. McCarthy
+GREENBERG TRAURIG, LLP
+McCarthyP@gtlaw.com
+
+For PATENT OWNER:
+John R. Kasha
+Kasha Law LLC
+john.kasha@kashalaw.com
+Craig Steven Jepson
+Reed & Scardino LLP
+cjepson@reedscardino.com
+Kirk D. Dorius
+Reed & Scardino LLP
+kdorius@reedscardino.com
+
+26
+
+

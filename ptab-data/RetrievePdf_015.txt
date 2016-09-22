@@ -1,0 +1,687 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 28
+Entered: August 7, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+_______________
+TOSHIBA CORPORATION, TOSHIBA AMERICA, INC.,
+TOSHIBA AMERICA ELECTRONIC COMPONENTS, INC.,
+and TOSHIBA AMERICA INFORMATION SYSTEMS, INC.,
+Petitioner,
+v.
+INTELLECTUAL VENTURES II LLC,
+Patent Owner.
+_______________
+Case IPR2014-00418
+Patent 5,500,819
+_______________
+
+Before JACQUELINE WRIGHT BONILLA, TREVOR M. JEFFERSON,
+and DAVID C. McKONE, Administrative Patent Judges.
+JEFFERSON, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-00418
+Patent 5,500,819
+I. INTRODUCTION
+A. Background
+Toshiba Corporation, Toshiba America, Inc., Toshiba America Electronic
+Components, Inc., and Toshiba America Information Systems, Inc. (collectively,
+“Petitioner”) filed a Petition (Paper 1, “Pet.”) to institute an inter partes review of
+claims 1–11 and 17–19 of U.S. Patent No. 5,500,819 (Ex. 1001, “the ’819 patent”).
+See 35 U.S.C. § 311. Intellectual Ventures II LLC (“Patent Owner”) filed a
+Preliminary Response (Paper 6, “Prelim. Resp.”). Pursuant to 35 U.S.C. § 314, in
+our Decision to Institute (Paper 7, “Dec.”), we instituted this proceeding as to
+claims 1–11 and 17–19 of the ’819 patent. Dec. 19.
+Patent Owner filed a Patent Owner Response (Paper 15, “PO Resp.”) and
+Petitioner filed a Corrected Petitioner’s Reply to Patent Owner’s Response
+(Paper 23, “Reply”). An oral hearing in this matter was held on May 6, 2015
+(Paper 27, “Tr.”).
+We have jurisdiction under 35 U.S.C. § 6(c). This Final Written Decision is
+issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73. For the reasons that
+follow, Petitioner has demonstrated by a preponderance of the evidence that claims
+1–11 and 17–19 of the ’819 patent are unpatentable.
+B. Related Matters
+Patent Owner has sued Petitioner for infringement of the ’819 patent in
+Intellectual Ventures I LLC v. Toshiba Corp., No. 1:13-cv-00453 (D. Del.). Pet. 1;
+Paper 5 (Patent Owner’s Mandatory Notices).
+C. The ’819 Patent
+The ’819 patent, titled “Circuits, Systems and Methods for Improving Page
+Accesses and Block Transfers In A Memory System,” issued on March 19, 1996,
+
+2
+
+IPR2014-00418
+Patent 5,500,819
+and addresses control circuitry that controls the exchange of data between
+read/write circuitry and first and second slave circuitry. Ex. 1001, Abstract. The
+’819 patent discloses circuits for improving page accesses and block transfers in
+memory. Id. at 1:7–10. The “invention provide[s] for the construction of a
+memory which includes an array of volatile memory cells, address decode circuitry
+for selecting rows and/or columns of cells in the memory array, and master sense
+amplifier circuitry for reading and writing data into those selected cells.” Id. at
+2:52–57. The invention also includes “[a]t least two sets of latching circuitry . . .
+coupled to the master sense amplifiers for temporarily storing data being
+exchanged with the master sense amplifiers during read and write operations to the
+array of memory cells.” Id. at 2:57–61.
+Figure 2 of the ’819 patent, shown below, provides an exemplary block
+diagram of the memory system disclosed.
+
+Figure 2 depicts a block diagram of memory system 200 with an M x N array of
+flash memory cells 201, with wordlines (rows) 203 and bitlines (columns) 204.
+Id. at 5:52–57, 3:25–26. Representative memory cell 202 is located at the
+
+3
+
+IPR2014-00418
+Patent 5,500,819
+intersection of wordline 203 and bitline 204. Id. at 5:58–60. “[Bitlines] 204 of
+memory array 201 are coupled to a bank 208 of master sense amplifiers,” which
+are coupled via “bus 209 to a first bank 210 (bank 1) of slave sense amplifiers and
+a second bank 211 (bank 2) of slave sense amplifiers.” Id. at 6:8–12. “Slave sense
+amplifier banks 210 and 211 are further coupled by a local data I/O bus 212 to
+column decoder circuitry 213.” Id. at 6:12–14. The challenged claims are directed
+to a memory that includes control circuitry that controls the sensing of data from
+cells via the master sense amplifiers, the temporary storage of those data in the first
+and second bank of slave sense amplifiers, and the rewriting of those data back in
+the memory array at the same or different locations.
+D. Illustrative Claims
+Illustrative independent claims 1, 7, and 17 (Ex. 1001, 8:20–44 (claim 1),
+8:60–9:20 (claim 7), 11:8–12:3 (claim 17)) are reproduced below:
+1.
+
+A memory comprising:
+
+an array of rows and columns of volatile memory cells;
+addressing circuitry for providing access to selected ones
+of said memory cells;
+master read/write circuitry for reading and writing data
+into said selected ones of said cells;
+first slave circuitry for storing data for exchange with
+said master read/write circuitry;
+second slave circuitry for storing data for exchange with
+said master read/write circuitry; and
+control circuitry for controlling exchange of data between
+said master read/write circuitry and said first and
+second slave circuitry, said control circuitry
+operable during a move operation to:
+
+4
+
+IPR2014-00418
+Patent 5,500,819
+control sensing by said master read/write circuitry of data
+from a said row in said array selected by said
+addressing circuitry;
+control transfer of said data from said master read/write
+circuitry to a selected one of said first and second
+slave circuitry; and
+control writing of said data through said master
+read/write circuitry to a second said row in said
+array selected by said addressing circuitry.
+7.
+
+A memory system comprising:
+
+an array of memory cells arranged in rows and columns,
+each said row associated with a conductive
+wordline and each said column associated with a
+conductive bitline;
+a row decoder coupled to said wordlines;
+a bank of master sense amplifiers coupled to said bitlines;
+a plurality of banks of slave sense amplifiers coupled to
+said master sense amplifiers;
+a column decoder coupled to each of the plurality of
+banks of slave sense amplifiers; and
+control circuitry coupled to said row decoder, said bank
+of master sense amplifiers and said banks of slave
+sense amplifiers, said control circuitry including
+mode control circuitry coupled to said row decoder
+and said master sense amplifiers and multiplexer
+control circuitry coupled to said mode control
+circuitry and said plurality of banks of slave sense
+amplifiers, said control circuitry operable during a
+move operation to:
+control sensing by said master sense amplifiers of data
+from a said row in said array selected by said row
+decoder;
+
+5
+
+IPR2014-00418
+Patent 5,500,819
+control transfer of said data from said master sense
+amplifiers to a selected one of said banks of slave
+sense amplifiers;
+control writing of said data through said master sense
+amplifiers to a second said row in said array
+selected said row decoder.
+17.
+
+A method of performing a block transfer within a
+memory including an array of memory cells
+arranged in rows and columns, each said row
+associated with a conductive wordline and each
+said column associated with a conductive bitline,
+comprising the steps of:
+
+selecting a row in the array;
+sensing the bitlines of the array to read data stored in the
+cells of the selected row with a bank of master
+sense amplifiers;
+latching the data read from the cells of the selected row
+in a bank of slave sense amplifiers;
+writing the data stored in the slave sense amplifiers
+through the master sense amplifiers to different
+cells in the array.
+E. The Asserted Ground
+We instituted trial on the ground alleging that claims 1–11 and 17–19 are
+unpatentable under 35 U.S.C. § 103(a) as obvious over Ogawa ’577,1 Ogawa
+’045,2 and JP ’832.3 Dec. 19.
+1
+
+Ex. 1003, Ogawa, US 4,745,577, issued May 17, 1988, filed Nov. 15, 1985
+(“Ogawa ’577”).
+2
+
+Ex. 1005, Ogawa, US 4,773,045, issued Sept. 20, 1988, filed Oct. 16, 1985
+(“Ogawa ’045”).
+3
+
+Ex. 1006, Ogawa, Japanese Patent Application H3-46832, published July 17,
+1991 (Japan priority application 59-245802 for Ogawa ’577) (“JP ’832”).
+6
+
+IPR2014-00418
+Patent 5,500,819
+II. ANALYSIS
+A. Claim Construction
+The ’819 patent, which was filed September 30, 1994 and issued March
+1996, expired. See PO Resp. 13 n.1; Reply 4. “[T]he Board’s review of the claims
+of an expired patent is similar to that of a district court’s review.” In re Rambus,
+Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). Because the expired claims of the patent are
+not subject to amendment, we apply the principle set forth in Phillips v. AWH
+Corp., 415 F.3d 1303, 1312 (Fed. Cir. 2005) (en banc) (quoting Vitronics Corp. v.
+Conceptronic, Inc., 90 F.3d 1576, 1582 (Fed. Cir. 1996)), that “words of a claim
+‘are generally given their ordinary and customary meaning,’” as understood by a
+person of ordinary skill in the art in question at the time of the invention. “In
+determining the meaning of the disputed claim limitation, we look principally to
+the intrinsic evidence of record, examining the claim language itself, the written
+description, and the prosecution history, if in evidence.” DePuy Spine, Inc. v.
+Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing
+Phillips, 415 F.3d at 1312–17).
+Petitioner asserts that claim terms should be given their ordinary and
+customary meanings, as the patentee did not act as a lexicographer or provide
+special meaning for any claim terms. Pet. 8. Patent Owner has not disputed
+Petitioner’s conclusion and provides no alternate construction for any claim terms
+on this record.
+Based on the present record, we determine that no express claim
+construction is necessary for any claim term for purposes of this Decision.
+
+7
+
+IPR2014-00418
+Patent 5,500,819
+B. Asserted Prior Art
+1. Ogawa ’577 (Ex. 1003)
+Ogawa ’577 describes “[a] semiconductor memory device with shift
+registers used for a video RAM.” Ex. 1003, Abstract. Specifically, Ogawa ’577
+discloses “a memory cell array, bit lines, and word lines, a pair of shift registers,
+and transfer gate circuits arranged between the bit lines and the shift registers.” Id.
+Figure 2 of Ogawa ’577, reproduced below, shows a semiconductor memory
+device with shift registers. Id. at 2:10–12.
+
+Figure 2 of Ogawa ’577 shows “a dynamic RAM 1 of an open bit-line type, groups
+of transfer gates 21 and 22, and shift registers 3 and 4.” Id. at 3:19–21. Data are
+provided via input lines 32 and 42 of shift registers 3 and 4. Data also are
+delivered through output lines 33 and 43 from shift registers 3 and 4. Id. at 3:22–
+25. Figure 2 shows that “RAM 1 includes sense amplifiers 101, 102, . . . 10n”; “bit
+lines (BL) 111, 112, . . . 11n”; “word lines (WL) 131, 132, . . . 13n”; and “bit lines
+̅̅̅̅) 121, 122, . . . 12n.” Id. at 3:29–36. Ogawa ’577 discloses that shift registers
+(BL
+
+8
+
+IPR2014-00418
+Patent 5,500,819
+3 and 4 can be used for reading and writing in various combinations for the parallel
+transfer of data between registers and for a scroll display operation.
+2. JP ’832 (Ex. 1006)
+JP ’832 is a Japanese counterpart application to Ogawa ’577. Pet. 8;
+Ex. 1003, at [30] Foreign Application Priority Data; Ex. 1006, 1 (21) [Application
+Number]. JP ’832 discloses the use of shift registers to transfer data from cells in a
+selected row of a memory array to different cells in the selected row in the array.
+Ex. 1006, 10–11.
+JP ’832 relates to random access memory (RAM) equipped with a shift
+register for high-speed reading and writing. Ex. 1006, 8. Figure 1 of JP ’832 is
+shown below.
+
+Figure 1 of JP ’832 shows a block diagram of open-bit-line RAM 10 with two shift
+registers, SRA and SRB. Ex. 1006, 8–9. JP ’832 discloses a video RAM
+comprising two shift registers SRA, SRB used to write a row of data into memory
+cells at the intersection of wordlines (WL) and bitlines (BL and ̅̅̅̅
+BL) of RAM
+memory array 10. Ex. 1006, 9–10. JP ’832 further discloses reading data from one
+portion of the array, storing that data in the shift registers SRA and SRB, and
+writing that data in parallel to a different portion of the array or wordline (WL).
+
+9
+
+IPR2014-00418
+Patent 5,500,819
+Ex. 1006, 10–11. Specifically, JP ’832 discloses writing via the shift registers,
+SRA and SRB, from one wordline to a new wordline in array 10. Ex. 1006, Fig. 6.
+Figure 6 of JP ’832 is shown below.
+
+Figure 6 depicts shift registers SRA and SRB being used to transfer data from cells
+in a selected row WLi in memory array 10, to different cells in the selected row
+WLj in memory array 10 along with New Data inserted in a portion of shift
+register A. Ex. 1006, 10–11. Figure 6(a) discloses that data of WLi is transferred
+first to shift register SRB from DRAM 10. Figure 6(b) shows that WLi is then
+transferred from SRB to shift register SRA, where new data may be serially added
+from INA to SRA. Id. Figure 6(c) shows that the data of shift register SRA is
+transferred in parallel back to different wordline WLj, although “the transfer
+destination may be WLi rather than WLj.” Ex. 1006, 9–10.
+3. Ogawa ’045 (Ex. 1005)
+Ogawa ’045 shares an inventor with Ogawa ’577 and JP ’832 and discloses a
+“semiconductor memory device including a RAM and shift register for enabling
+parallel transfer of a one-word line amount of data of the RAM portion between
+the RAM portion and the shift register.” Ex. 1005, Abstract. Specifically,
+
+10
+
+IPR2014-00418
+Patent 5,500,819
+Ogawa ’045 discloses a VRAM memory circuit, that has a bit line/sense amplifier
+configuration like that of Ogawa ’577, and that writes data stored in a shift register
+1 to memory cells formed at the intersection of wordlines (“WL”) and bitlines
+̅̅̅̅”) through “sense amplifiers No. 1 to No. 8” for “making either of
+(“BL” and “BL
+̅̅̅̅̅, BL2 and BL2
+̅̅̅̅̅, . . . an H (high) level and the other an L
+the bit lines BL1 and BL1
+(low) level.” Ex. 1005, 3:56–58, 3:40–65. Figures 1A and 1B of Ogawa ’045 are
+provided below.
+
+Figures 1A and1B (collectively, Figure 1) illustrate a schematic of prior art video
+RAM that uses shift register (SR) to write to BL-2 or ̅̅̅̅
+BL-2 via sense amplifiers
+(Sense Amp No. 2). Ex. 1005, 3:40–65, 2:40–41. Shift registers 101 to 108 are
+serial input shift registers. Id. at 2:67–3:1. The RAM of Figure 1 has eight pairs of
+̅̅̅̅-1 to BL
+̅̅̅̅-8. Id. at 3:2–4. The RAM also has eight
+bit lines BL-1 to BL-8 and BL
+sense amplifiers No. 1 to No. 8 arranged at the center of Figure 1. Id. at 3:5–7.
+The pairs of BL and ̅̅̅̅
+BL bitlines are connected through the sense amplifiers. Id. at
+3:9–11.
+
+11
+
+IPR2014-00418
+Patent 5,500,819
+C. Asserted Grounds of Unpatentability
+1. Obviousness of Claims 1–11 and 17–19 over Ogawa ’577
+(Ex. 1003), Ogawa ’045 (Ex. 1005), and JP ’832 (Ex. 1006)
+With respect to claims 1–6, Petitioner provides claim charts, as well as the
+Declaration of Robert Murphy (Ex. 1004), in support of its contention that the
+disclosure in Ogawa ’045 (Ex. 1005) teaches the common technique of using a
+sense amplifier on a bit line to write data stored in a shift register to either BL or
+̅̅̅̅. Pet. 24–25 (citing Ex. 1004 ¶¶ 32, 33); Ex. 1005, 3:40–65. Petitioner also
+BL
+contends that the combination of the disclosure in Ogawa ’577 with the techniques
+known to one of ordinary skill in the art as disclosed in Ogawa ’045 and JP ’832
+render claims 1–6 and 17–19 obvious. Pet. 24–25, 32–33, 34–36. With respect to
+claim 7–11, Petitioner provides claim charts showing the claim limitations and the
+corresponding disclosure in JP ’832. Pet. 38–59. Petitioner also provides
+argument and discussion regarding the disclosures of Ogawa ’045 and Ogawa
+’577, and citations to the Murphy Declaration (Ex. 1004 ¶¶ 40–84) supporting the
+argument that the cited references together render claims 7–11 obvious. Pet. 38–
+60.
+a. Scope of the Challenged Claims
+Patent Owner contends that the challenged independent claims are limited to
+a “move/copy operation …, which moves data to slave circuitry and then writes the
+data to memory using the same slave circuitry.” PO Resp. 12. Patent Owner
+further avers that the ’819 patent confers significant advantages over the
+Ogawa ’577 and JP ’832 data transfer methods, which insert an additional write
+operation from one bank of alleged slave circuitry to a different alleged bank of
+slave circuitry prior to writing data to the memory array. PO Resp. 2 (citing
+Ex. 2001, Declaration of William R. Huber, D.Sc., P.E., ¶¶ 33–34), 4. Relying on
+12
+
+IPR2014-00418
+Patent 5,500,819
+the Declaration of Dr. Huber, Patent Owner argues that independent claims 1, 7,
+and 17 and the ’819 patent specification require that data is read from the memory
+array to a bank of slave sense amplifiers and then data is written from the same
+bank of slave sense amplifiers to the memory array. PO Resp. 7 (citing Ex. 2001
+¶ 32).
+Patent Owner’s arguments are not commensurate in scope with language in
+the claims themselves. Claim 1 recites sensing data by master read/write circuitry
+and transferring “said data” to one of two slave circuits and “writing of said data
+through said master read/write circuitry.” Ex. 1001, 8:35–43. Thus, claim 1
+requires writing “said data” back to memory through the master read/write
+circuitry, but does not require writing such data by use of the same slave circuit.
+Independent claim 7 has similar limitations. Id. at 9:15–20.
+Claim 17 requires writing “the data stored in the slave sense amplifiers”
+back to memory through the master sense amplifiers. Id. at 12:1–3. Specifically,
+claim 17 latches the data read from a selected row into “a bank of slave sense
+amplifiers” and “writ[es] the data stored in the slave sense amplifiers through the
+master sense amplifiers to different cells in the array.” Id. at 11:17–12:3. Here,
+claim 17 recites writing of the data “through the master sense amplifiers” and does
+not limit the writing only to the same bank of slave sense amplifiers. It is
+informative that claim 18, which depends from the broader independent claim 17,
+explicitly recites a step of writing data from one set of slave sense amplifiers to a
+second set of slave sense amplifiers and then writing that data into different cells in
+the array. In sum, data can be moved to a different slave sense amplifier before
+being written back to the array to comply with independent claim 17 and
+dependent claim 18.
+
+13
+
+IPR2014-00418
+Patent 5,500,819
+Accordingly, we are not persuaded by Patent Owner’s argument that claim
+17 is limited to the same data using the same slave sense amplifiers. We note that
+Patent Owner’s Response fails to discuss the scope of claim 18, which depends
+from independent claim 17. See generally PO Resp. 43 (referencing challenged
+dependent claims). Patent Owner’s argument at the hearing that both claim 17 and
+claim 18 are limited to transfers of data within the same bank of slave sense
+amplifiers (Tr. 30:9–22) is not supported by the plain reading of the limitations
+(Ex. 1001, 11:17–12:3).
+In addition, Patent Owner’s arguments that independent claims 1, 7, and 17,
+are limited to the same data using the same sense amplifiers improperly read
+limitations from the specification into the claims. See Thorner v. Sony Comput.
+Entm’t Am. LLC, 669 F.3d 1362, 1365 (Fed. Cir. 2012). Patent Owner’s
+arguments rely heavily on the ’819 patent’s description of the so-called
+“move/copy” operation using the same slave circuitry. See PO Resp. 1–7
+(discussing advantages of move/copy operation). Limitations should not be
+imported from preferred embodiments into the claims absent a clear disclaimer of
+claim scope in the specification. See In re Am. Acad. of Sci. Tech Ctr., 367 F.3d
+1359, 1369 (Fed. Cir. 2004). Patent Owner has not identified such a clear
+disclaimer of claim scope in the specification of the ’819 patent.
+Patent Owner argues that the specification as a whole excludes or disavows
+the interbank transfer among the slave circuitry in the copying of data back into the
+array. Tr. 41:24–42:17. Patent Owner has not shown, however, that the intrinsic
+evidence limits the independent claims to copying data using the same slave
+circuitry (or slave sense amplifiers). Indeed, for example, the file history shows
+that the Applicant amended the independent claims by adding the copying and
+slave sense amplifier limitations at issue, and described the amendment as being
+14
+
+IPR2014-00418
+Patent 5,500,819
+directed to writing the same data back through associated slave circuitry, but not
+expressly requiring the same slave circuitry. Ex. 1002, 49–52, 55–56, 59–60. As
+stated above, claims 1, 7, and 17 recite that the data is written to the array
+“through” the sense amplifier. We are not persuaded that claims 1, 7, and 17 are
+limited to copying of data using only the same sense amplifiers.
+Finally, we also are not persuaded by Patent Owner’s argument that
+Petitioner’s expert, Dr. Murphy, agrees that the scope of claim 1 is limited to use
+of the same slave circuitry. PO Resp. 14 n.8 (citing Ex. 1002, 32:14–33:14);
+Tr. 35:18–36:22. We find that Dr. Murphy’s testimony merely addresses the
+description of the ’819 patent specification (Ex. 1002, 32:14–33:14) and not the
+scope or interpretation of claim 1. We do not agree with Patent Owner’s argument
+that the embodiments and general description of the ’819 patent limit the claims to
+use of the “same” sense amplifier for the copy functions. Accordingly, we
+conclude that independent claims 1, 7, and 17 do not require copying of the data
+using the same slave circuitry.
+b. The Prior Art
+Petitioner contends that the combination of the disclosure in Ogawa ’577
+with the techniques known to one of ordinary skill in the art, as disclosed in
+Ogawa ’045 and JP ’832, renders claims 1–6 and 17–19 obvious. Pet. 24–25, 32–
+33, 34–36. Petitioner cites the Murphy Declaration in support of the understanding
+of one of ordinary skill in the art with respect to the cited references. Pet. 28–38
+(citing Ex. 1004 ¶¶ 20, 26, 27, 32–36, 38, 39). Petitioner further contends that the
+combination of Ogawa ’577 and Ogawa ’045, from the same inventor and field of
+technology, “would have made it obvious to one of ordinary skill in the art that
+data written from the slave circuitry (shift registers 3 and 4) to the cells of the
+memory array (RAM 1) is written through the master read/write circuitry (sense
+15
+
+IPR2014-00418
+Patent 5,500,819
+amplifiers 101, 102, 103, . . . , 10n).” Pet. 25 (citing Ex. 1004 ¶ 33). Specifically,
+Petitioner asserts that the block data transfer in JP ’832, in combination with the
+scroll display operation in Ogawa ’577, teaches the limitations of dependent claims
+18 and 19, which require writing the data via the master sense amplifiers to
+different memory cells in the selected row. Pet. 33–38. Petitioner also provides
+claim charts and citations to the Murphy Declaration (Ex. 1004 ¶¶ 38–39) in
+support of its argument that JP ’832, Ogawa ’577, and Ogawa ’045 teach the
+limitations of claims 18 and 19.
+We agree with Petitioner’s expert, Dr. Murphy, that one of ordinary skill in
+the art would have understood that, during the scroll display operation of
+Ogawa ’577, the data is sensed, written, and transferred back to the memory array
+through the sense amplifiers. Ex. 1004 ¶ 32. Similarly, we find Dr. Murphy’s
+testimony credible that the block data transfer process in JP ’832 and scroll display
+operation in Ogawa ’577 teach writing data via master sense amplifiers to the same
+or different locations in the memory array. Ex. 1004 ¶¶ 37–39. Based on such
+evidence and the record overall, we determine that Petitioner has established that
+the combination of Ogawa ’577 and Ogawa ’045 teaches the writing of data stored
+in shift registers to memory cells at the intersection of wordlines and bitlines
+through sense amplifiers. Ex. 1004 ¶ 33. We find that Petitioner has shown by a
+preponderance of the evidence that Ogawa ’577, Ogawa ’045, and JP ’832 teach
+the limitations of claims 1–11 and 17–19.
+We address Patent Owner’s arguments that the prior art does not teach or
+suggest the limitations of the challenged claims below.
+Because Ogawa ’577 and JP ’832 both use multiple different alleged slave
+circuitry, Patent Owner alleges that these references do not teach or suggest the use
+
+16
+
+IPR2014-00418
+Patent 5,500,819
+of the same slave circuitry as required in claims 1, 7, and 17. PO Resp. 9–11.
+Patent Owner further argues that Ogawa ’577, JP ’832, and Ogawa ’045 each
+disclose using different slave circuits for writing data. PO Resp. 15–25. We
+disagree with Patent Owner. As discussed above, claims 1, 7, and 17 of the ’819
+patent do not exclude the use of an intervening slave sense amplifier when writing
+data “through” a sense amplifier. Indeed, claim 18, which depends from
+independent claim 17, indicates that such an intermediate transfer among slave
+sense amplifiers is within the scope of the broader independent claim 17.
+Accordingly, we are not persuaded by Patent Owner’s argument regarding the use
+of different slave circuitry in the writing process by Ogawa ’577 and JP ’832.
+Patent Owner also contends that Ogawa ’577 and JP ’832 disclose writing
+data to memory without sense amplifiers. PO Resp. 32–35; Ex. 2001 ¶¶ 70–72,
+Figs. 9, 10. Thus, Patent Owner contends that Ogawa ’577 and JP ’832 do not
+teach or suggest writing data through the sense amplifiers into the memory array.
+PO Resp. 32–35. We are not persuaded by Patent Owner’s argument or cited
+expert testimony that rely on alternate arrangements to construct an embodiment
+that does not use sense amplifiers to write data to the memory. Id. Patent Owner
+relies on a single embodiment in Ogawa ’577 that purports to write data to the left
+and right portions of an array using only shift registers. PO Resp. 34. Patent
+Owner’s arguments for JP ’832 also rely on a similar circuit arrangement found in
+alternate embodiments. PO Resp. 34 (citing Ex. 1006, 4). These alternate circuit
+arrangements, however, do not negate the express teaching of Ogawa ’577 that
+“[a] pair of data busses (not shown [in Figure 2 of Ogawa ’577]) are provided
+along the sense amplifiers 101, 102, 103, . . . , 10n for writing or reading the data.”
+Ex. 1003, 3:34–36. In addition, we credit the testimony of Petitioner’s expert,
+Dr. Murphy, who states that it was common to use sense amplifiers in write
+17
+
+IPR2014-00418
+Patent 5,500,819
+operations and that Figure 2 of Ogawa ’577 teaches the use sense amplifiers and
+bitlines to write to data on the left and right sides of the memory array. Ex. 1004
+¶ 28; see also Ex. 2002, 64:10–65:1, 69:1–71:6. We determine that Petitioner has
+established that Ogawa ’577 teaches writing data through the sense amplifiers.
+c. Control Circuitry of Claims 1 and 7
+Claim 1 recites: “A memory comprising: . . . control circuitry for controlling
+exchange of data . . . .” Claim 7 recites: “A memory system comprising: . . .
+control circuitry . . . including mode control circuitry . . . and multiplexer control
+circuitry . . . .” Petitioner contends that one of ordinary skill in the art would have
+recognized that control circuitry, not explicitly illustrated in Figure 2 of
+Ogawa ’577, is inherent to generating the signals used to control the exchange of
+data between the master read/write circuitry (sense amplifiers) and the first and
+second slave circuitry (shift registers 3 and 4), as expressly disclosed in
+Ogawa ’577. Pet. 16 (citing Ex. 1004 ¶ 23). Thus, Petitioner asserts that the
+control circuitry is disclosed inherently in Figure 2 of Ogawa ’577. Id.
+Petitioner has shown sufficiently that such control is inherent in the memory
+system to execute the read/write circuitry and slave circuitry as disclosed in
+Ogawa ’577. Pet. 16. We agree with Petitioner that “[o]ne of ordinary skill in the
+art would have recognized that although control circuitry is not explicitly
+illustrated in Figure 2 [of Ogawa ’577], control circuitry is required to operate
+every element shown in the figure, including generating the first and second
+control signals that control transfer gates 21 and 22, respectively.” Pet. 16 (citing
+Ex. 1004 ¶ 23). Patent Owner does not dispute that control circuitry is present
+inherently, but disagrees with where a person of ordinary skill in the art would
+understand it is located with respect to Figure 2 of Ogawa ’577. PO Resp. 36, 38–
+40. Accordingly, Patent Owner’s argument and expert testimony arbitrarily places
+18
+
+IPR2014-00418
+Patent 5,500,819
+the inherent control circuitry outside of Figure 2 of Ogawa ’577. PO Resp. 37–38
+(citing Ex. 20021 ¶ 76, Fig. 11, which shows control circuitry external to Figure 2
+of Ogawa ’577).
+We agree with Petitioner that control circuitry as recited in claim 1 would
+“necessarily be provided to control the transfer gates . . . used to transfer data from
+the master read/write circuitry . . . to the selected one of the first and or second
+slave circuitry.” Pet 17 (citing Ex. 1004 ¶ 25), 19 (citing Ex. 1004 ¶ 26). We find
+credible the testimony of Petitioner’s expert that control circuitry not shown
+explicitly in Ogawa ’577 Figure 2 (but inherent) is required to operate the move
+operation, such as the scroll operation. Ex. 1004 ¶ 23. Patent Owner does not
+dispute that a control circuit is necessarily present in Ogawa’s Figure 2. In
+addition, Patent Owner does not provide evidence sufficient to outweigh
+Petitioner’s evidence that the control circuit as inherently disclosed teaches or
+suggests the claimed control circuitry of claims 1 and 7.See Par Pharm., Inc. v.
+TWI Pharms., Inc., 773 F.3d 1186 (Fed. Cir. 2014) (stating that in order to rely on
+inherency in an obviousness analysis, “the limitation at issue necessarily must be
+present, or the natural result of the combination of elements explicitly disclosed by
+the prior art”). Thus, after consideration of Patent Owner’s argument, we
+nevertheless are persuaded, by Petitioner’s evidence, that the claimed control
+circuitry of claims 1 and 7 are disclosed in Figure 2 of Ogawa ’577.
+d. Column Decoder of Claim 7
+Claim 7 recites “a column decoder coupled to each of the plurality of banks
+of slave sense amplifiers.” Petitioner contends “that a column decode function
+must be implemented to achieve the data shifting (shift-in or shift-out) function
+performed by the scroll display operation.” Pet. 41 (citing Ex.1004 ¶ 44).
+Specifically, Figure 6 of JP ’832 shows that data is shifted out of shift registers
+19
+
+IPR2014-00418
+Patent 5,500,819
+SRA and SRB. Ex. 1006, 10–11. Petitioner has provided sufficient expert
+testimony that this operation requires column addresses to identify the data shifted
+in and out of the appropriate registers and that such a decoder would have been
+obvious to a person of ordinary skill in the art. Ex. 1004 ¶¶ 44, 45.
+We are not persuaded by Patent Owner’s argument that, because there are
+alternate ways to implement the column decode function, the column decoder
+limitation of claim 7 is not disclosed inherently in JP ’832. PO Resp. 41–42 (citing
+Ex. 2001 ¶ 81). Petitioner has argued that the function was inherent or that it
+would have been obvious to use a column decoder in the system of JP ’832.
+Pet. 41–42 (citing Ex. 1004 ¶¶ 44–45 (stating that a column decoder was inherently
+disclosed “or it would have been obvious to use a column decoder” to implement
+the shifting performed in JP ’832)). Thus, Petitioner’s contention on the column
+decoder of claim 7 does not rely on inherency alone. We credit the testimony of
+Petitioner’s expert and conclude that it would have been obvious to one of ordinary
+skill in the art to use a column decoder to implement the shift required in the scroll
+display operation of JP ’832.
+e. Teaching Away
+Patent Owner contends that Ogawa ’577 and JP ’832 teach away from being
+combined with Ogawa ’045 (PO Resp. 26–37) because (1) the implementation of
+Ogawa ’045’s techniques would be counter to the goals of Ogawa ’577 and
+JP ’832 to quickly read data from and write data to memory (PO Resp. 26–28) and
+(2) one of skill in the art would not combine the references because Ogawa ’577
+and JP ’832 improve upon Ogawa ’045 and render the proposed combinations
+improper (PO Resp. 28–32). The case law concerning teaching away makes clear
+that “a reference may be said to teach away when a person of ordinary skill, upon
+reading the reference, would be discouraged from following the path set out in the
+20
+
+IPR2014-00418
+Patent 5,500,819
+reference, or would be led in a direction divergent from the path that was taken by
+the applicant.” In re Gurley, 27 F.3d 551, 553 (Fed. Cir. 1994). As discussed
+below, we are not persuaded that Ogawa ’577 and JP ’832 teach away from being
+combined with Ogawa ’045.
+Patent Owner’s teaching away arguments rely on the stated goals and
+improvements of Ogawa ’577 and JP ’832 over Ogawa ’045. We agree with our
+colleagues that “[t]here is no requirement that anything disclosed in a prior art
+reference, such as its stated purpose, goal, or objectives, must be preserved or
+further developed by every reliance on its teachings as prior art. All of the
+disclosures of a prior art reference, including non-preferred embodiments, must be
+considered.” Garmin Int’l v. Cuozzo Speed Techs., LLC, Case IPR2012-00001,
+slip op. at 36 (PTAB Nov. 13, 2013) (Paper 59) (citing In re Lamberti, 545 F.2d
+747, 750 (CCPA 1976); In re Susi, 440 F.2d 442, 446 n.3 (CCPA 1971) (one is not
+“taught away” from a “particularly preferred embodiment” by the suggestion that
+something else may be even better)). We also note that it is not enough to
+demonstrate that there are differences among the prior art references to show that
+they teach away from Petitioner’s proposed combination. See In re Beattie, 974
+F.2d 1309, 1312–13 (Fed. Cir. 1992).
+In the present case, we are not persuaded by Patent Owner’s narrow reading
+of the prior art references based on the goals and improvements of the Ogawa ’577
+and JP ’832 references. A prior art reference must be considered for everything it
+teaches by way of technology and is not limited to the particular invention it is
+describing and attempting to protect. See EWP Corp. v. Reliance Universal Inc.,
+755 F.2d 898, 907 (Fed. Cir. 1985). We are not persuaded by Patent Owner’s cited
+evidence or argument that a person of ordinary skill, upon reading the Ogawa ’577
+and JP ’832 references, would have been discouraged from combining these
+21
+
+IPR2014-00418
+Patent 5,500,819
+references with the teachings of Ogawa ’045. Accordingly, we disagree with
+Patent Owner’s argument that Ogawa ’577 and JP ’832 teach away from being
+combined with Ogawa ’045.
+f. Conclusion of Obviousness
+We have considered the arguments and evidence presented by the Petitioner
+and Patent Owner. We conclude that Petitioner has shown that each element of
+claims 1–11 and 17–19 is taught by the combination of Ogawa ’577, JP ’832, and
+Ogawa ’045. We have considered Petitioner’s rationale to combine the prior art—
+that it is from the same inventor and field of technology—and find it persuasive.
+We have considered Patent Owner’s arguments and find them
+unpersuasive. Finally, after considering the full record, we conclude that Petitioner
+has shown, by a preponderance of the evidence, that claims 1–11 and 17–19 would
+have been obvious over Ogawa ’577, JP ’832, and Ogawa ’045.
+III.
+
+CONCLUSION
+For the foregoing reasons, Petitioner has demonstrated by a preponderance
+
+of the evidence that claims 1–11 and 17–19 of the ’819 patent are unpatentable
+under 35 U.S.C. § 103 as obvious over Ogawa ’577, JP ’832, and Ogawa ’045.
+IV.
+
+ORDER
+For the reasons given, it is
+ORDERED that, based on a preponderance of the evidence, claims 1–11 and
+
+17–19 of U.S. Patent No. 5,500,819 are held unpatentable as obvious over
+Ogawa 577, JP ’832, and Ogawa ’045;
+FURTHER ORDERED, because this is a final written decision, the parties
+to this proceeding seeking judicial review of our Decision must comply with the
+notice and service requirements of 37 C.F.R. § 90.2.
+
+22
+
+IPR2014-00418
+Patent 5,500,819
+
+23
+
+IPR2014-00418
+Patent 5,500,819
+PETITIONER:
+Gianni Minutoli
+Gianni.minutoli@dlapiper.com
+Kevin Hamilton
+Kevin.hamilton@dlapiper.com
+
+PATENT OWNER:
+Lori Gordon
+Lgordon-PTAB@skgf.com
+Michael Specht
+Mspecht-PTAB@skgf.com
+Omar Amin
+Oamin-PTAB@skgf.com
+
+24
+
+

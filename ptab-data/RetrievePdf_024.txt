@@ -1,0 +1,826 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 22
+Entered: November 16, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+_______________
+COALITION FOR AFFORDABLE DRUGS VI LLC,
+Petitioner,
+v.
+CELGENE CORPORATION,
+Patent Owner.
+_____________
+Case IPR2015-01169
+Patent 5,635,517
+______________
+
+Before TONI R. SCHEINER, JACQUELINE WRIGHT BONILLA, and
+TINA E. HULSE, Administrative Patent Judges.
+BONILLA, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01169
+Patent 5,635,517
+I.
+
+INTRODUCTION
+
+Coalition For Affordable Drugs VI LLC (“Petitioner” or “CFAD”)
+filed a Petition requesting inter partes review of claims 1–10 of U.S. Patent
+No. 5,635,517 (Ex. 1001, “the ’517 Patent”). Paper 1 (“Pet.”). Celgene
+Corporation (“Patent Owner”) filed a Preliminary Response. Paper 16
+(“Prelim. Resp.”). We have jurisdiction under 35 U.S.C. § 314(a), which
+provides that an inter partes review may not be instituted “unless . . . there is
+a reasonable likelihood that the petitioner would prevail with respect to at
+least 1 of the claims challenged in the petition.”
+Upon consideration of the Petition and the Preliminary Response, and
+for the reasons explained below, we determine that Petitioner has not
+established a reasonable likelihood that it would prevail in showing the
+unpatentability of any claim challenged in the Petition. Accordingly, we
+decline to institute an inter partes review.
+A. Related Proceedings
+The parties indicate that the ’517 patent is the subject of a district
+court proceeding, Celgene Corporation v. Natco Pharma Ltd., C.A. No.
+2:10-cv-5197 (D.N.J.) (including consolidated related C.A. No. 2:12-cv4571 (D.N.J.)). Pet. 8; Paper 7. On October 27, 2015, the Board instituted
+inter partes reviews of challenged claims in two unrelated patents owned by
+Patent Owner, challenged by Petitioner, in Case Nos. IPR2015-01092 (Paper
+20), IPR2015-01096 (Paper 21), IPR2015-01102 (Paper 21), and IPR201501103 (Paper 22).
+B. The ’517 Patent
+The ’517 patent is directed to methods of reducing levels of tumor
+necrosis factor α (“TNFα”) in a mammal by administering “amino
+2
+
+IPR2015-01169
+Patent 5,635,517
+substituted 2-(2,6-dioxopiperidin-3-yl)-1-oxoisoindolines and 1,3dioxoisoindolines,” i.e., certain thalidomide analogs with an added amino
+group (-NH2) in a benzene ring of the chemical structure. Ex. 1001, 1:6–11;
+see also Pet. 1, 15–16 (showing chemical structures of thalidomide and
+compounds recited in claims 3–10).
+The ’517 patent discloses that TNFα is a cytokine released by
+mononuclear phagocytes in response to immunostimulators. Ex. 1001,
+1:14–16. Excessive or unregulated TNFα production has been implicated in
+a number of diseases. Id. at 1:21–3:18. “Decreasing TNFα levels and/or
+increasing cAMP levels” may help treat “many inflammatory, infectious,
+immunological or malignant diseases.” Id. at 3:59–4:6.
+The ’517 patent describes the discovery that certain compounds
+“decrease the levels of TNFα and elevate the levels of adenosine 3’,5’-cyclic
+monophosphate” (“cAMP”), and that such compounds have the formula:
+
+Id. at 4:20–33. Thus, the disclosed compounds have an amino group (-NH2)
+group attached to a carbon in the left 6-carbon benzene ring portion and, in
+some compounds, X is a C=O and Y is a CH2 in the 5-carbon ring portion.
+C. Illustrative Claims
+The ’517 patent contains ten claims. Independent claims 1 and 10 and
+dependent claims 2 and 7 are representative, and are reproduced below.
+1. The method of reducing undesirable levels of TNFα in a
+mammal which comprises administering thereto an effective
+3
+
+IPR2015-01169
+Patent 5,635,517
+amount of a compound of the formula:
+
+in which in said compound one of X and Y is C=O and the
+other of X and Y is C=O or CH2.
+2. The method according to claim 1 in which X is C=O and Y
+is CH2.
+7. The method according to claim 1 in which each of X and Y
+is C=O.
+10. A compound selected from the group consisting of
+1-oxo-2-(2,6-dioxopiperidin-3-yl)-5-aminoisoindoline,
+1-oxo-2-(2,6-dioxopiperidin-3-yl)-4-aminoisoindoline,
+1-oxo-2-(2,6-dioxopiperidin-3-yl)-6-aminoisoindoline, and
+1-oxo-2-(2,6-dioxopiperidin-3-yl)-7-aminoisoindoline.
+Dependent claims 3–6 depend from claim 2, and claims 8 and 9 depend from
+claim 7.
+D. Proposed Grounds of Unpatentability
+Petitioner advances three grounds of unpatentability under 35 U.S.C.
+§ 103 in relation to the challenged claims in the ’517 patent (Pet. 11):
+References
+Piper (Ex. 1002)1 in view of Kaplan (Ex. 1003)2
+
+1
+
+Statutory
+Basis
+
+Challenged
+Claims
+
+§ 103
+
+1, 7–9
+
+Piper et al., Anti-inflammatory immunosuppressive thalidomide analogs,
+49(4) INT’L J. OF LEPROSY 511–512 (1981) (“Piper”) (Ex. 1002)
+2
+Kaplan et al., U.S. Patent No. 5,385,901, filed Oct. 2, 1992, issued Jan. 31,
+1995 (“Kaplan”) (Ex. 1003).
+4
+
+IPR2015-01169
+Patent 5,635,517
+References
+
+Statutory
+Basis
+
+Challenged
+Claims
+
+Piper in view of Kaplan, Agrawal (Ex. 1004),3
+and WO ’085 (Ex. 1005)4
+
+§ 103
+
+2–6, 10
+
+Piper in view of Kaplan, Agrawal, and Keith
+(Ex. 1006)5
+
+§ 103
+
+2–6, 10
+
+In addition, Petitioner supports its challenges in the Petition with the
+Declaration of Clayton H. Heathcock, Ph.D. (Ex. 1007). Pet. 11.
+II.
+
+ANALYSIS
+
+A. Claim construction
+For inter partes review, claim terms in an unexpired patent are given
+their broadest reasonable interpretation in light of the patent specification.
+37 C.F.R. § 42.100(b); In re Cuozzo Speed Techs., LLC, 793 F.3d 1268,
+1278–79 (Fed. Cir. 2015). Claim terms are given their ordinary and
+customary meaning, as would be understood by one of ordinary skill in the
+art in the context of the entire disclosure. In re Translogic Tech., Inc.,
+504 F.3d 1249, 1257 (Fed. Cir. 2007). Any special definition for a claim
+term must be set forth in the specification with reasonable clarity,
+deliberateness, and precision. In re Paulsen, 30 F.3d 1475, 1480 (Fed. Cir.
+1994).
+3
+
+Agrawal et al., Structure activity relationship studies of thalidomide
+analogs as anti-inflammatory and immunosuppressive agents, 49(4) INT’L J.
+OF LEPROSY 512 (1981) (“Agrawal”) (Ex. 1004).
+4
+D’Amato et al., WO 94/20085, published Sept. 15, 1994 (“WO ‘085”)
+(Ex. 1005).
+5
+Keith & Walters, NATIONAL TOXICOLOGY PROGRAM’S CHEMICAL
+SOLUBILITY COMPENDIUM (Lewis Publishers, Inc. 1992) (“Keith”) (Ex.
+1006).
+5
+
+IPR2015-01169
+Patent 5,635,517
+Petitioner presents chemical names and structures for the different
+compounds recited in claims 3–6 and 8–10 of the ’517 patent. Pet. 13–16.
+Patent Owner does not dispute those names and structures. Prelim. Resp. 4–
+5. We are persuaded that the chemical names and structures provided in the
+Petition (Pet. 15–16) in relation to those compounds correspond to the
+ordinary and customary meaning of the recited terms as understood by one
+of ordinary skill in the art, consistent with disclosures in the specification.
+Notably, all compounds recited in the challenged claims contain an
+amino group (-NH2) on the benzene ring of the compound. Id.; Ex. 1001,
+claims 1–10. We determine that other claim terms need not be construed
+explicitly for purposes of this Decision.
+B. Asserted ground of obviousness of claims 1 and 7–9 over Piper
+(Ex. 1002) and Kaplan (Ex. 1003)
+Petitioner contends that claims 1 and 7–9 of the ’517 patent would
+have been obvious over Piper and Kaplan. Pet. 24–36. Petitioner contends
+that “one of ordinary skill in the art would have readily combined the
+teachings of Piper and Kaplan to develop thalidomide analogs having one or
+both of [anti-inflammatory and immunosuppressive] functional activities for
+use in effectively treating at least [erythema nodosum leprosum] by reducing
+TNFα.” Pet. 32–33 (citing Ex. 1007 ¶¶ 112–115). Petitioner also contends
+that one would have reasonably expected “Piper’s amino-thalidomide
+analogs AH 14 and AH 13 to successfully exhibit the same activity as their
+common parent compound (thalidomide) because AH 14 and AH 13 have
+high structural similarity to the parent and also exhibit at least one key
+activity of the parent (i.e., anti-inflammation or immunosuppression).” Pet.
+33–35 (citing Ex. 1007 ¶¶ 116–128).
+6
+
+IPR2015-01169
+Patent 5,635,517
+1. Piper (Ex. 1002)
+Piper discloses that thalidomide is effective in controlling erythema
+nodosum leprosum (“ENL”) reactions in lepromatous leprosy. Ex. 1002,
+511, 1st col. Piper states that ENL has two clinically relevant cites of action:
+(1) an anti-inflammatory cite of action, detectable in a “carrageenan” assay
+in rats, and (2) an immunosuppressive site of action, detectable in a plaque
+forming cells (“PFC”) assay in mice. Using those two assays, Piper
+screened “[a]pproximately 50 thalidomide analogs.” Id. at 511, 2nd col.
+Discussing over 40 different analogs in particular, Piper states that it
+screened “[t]hirteen α-substituted glutarimides with changes in the 6
+membered phthalimide moiety.” Id. In this context, in addition to other
+compounds, Piper discusses “[f]our compounds involv[ing] electron
+donating substitutions (amino- or hydroxyl-) on the 6 membered phthalimide
+system.” Id. Regarding those four compounds, Piper states that “three are
+active in carrageenan (4-hydroxythalidomide or AH 20, 3hydroxythalidomide or AH 22, and 4-aminothalidomide or AH 13),” and
+“[o]ne, AH 20, is active in PFC and one, 3-aminothalidomide or AH 14,
+enhances PFC.” Id. Thus, according to Piper, AH 22 (3-hydroxy) and AH
+13 (4-amino) are “active” in the carrageenan assay, i.e., exhibit antiinflammatory activity, AH 20 (4-hydroxy) is “active” in both assays, and
+AH 14 (3-amino) “enhances PFC.” Id.
+Piper also discusses “[t]wo compounds represent[ing] changes in the 5
+membered ring system of the phthalimide moiety and two involv[ing] major
+alterations of the phthalimide system.” Id. Two out of those four
+compounds, “EM 12 and glutethimide, are active in carrageenan.” Id.
+
+7
+
+IPR2015-01169
+Patent 5,635,517
+Although a number of disclosed compounds are active in only one or
+neither assay, Piper states, in addition to AH 20, that a “pyridine N-oxidesubstituted phthalimide, AH 3, has activity in both systems.” Id. Piper also
+teaches that D,L-thalidomide and D-thalidomide are active in both assays,
+although L-thalidomide is only active in the PFC assay. Id. at 512, 1st col.;
+see also Prelim. Resp. 23 (contending that D-thalidomide, AH 3, and AH 20
+were active in both assays, but “[f]or the remaining compounds, some were
+active in one but not both assays, while some were inactive in both.”). Piper
+does not mention TNFα. Ex. 1002, 511–12.
+2. Kaplan (Ex. 1003)
+Kaplan discloses methods for treating toxic concentrations of TNFα
+using thalidomide and certain analogs of thalidomide, such as “preferred
+compounds” encompassed by formula II:
+
+Ex. 1003, 4: 4–26. Kaplan teaches that “[e]specially preferred compounds”
+are compounds A–H, which include compounds C, D, G, and H depicted
+below.
+
+8
+
+IPR2015-01169
+Patent 5,635,517
+
+Id. at 4:26–5:39. The parties do not dispute that compound H corresponds to
+EM 12 in Piper. Pet. 30; Prelim. Resp. 30.
+Figures 1–4 in Kaplan show results of assays testing the effect of
+thalidomide and/or a TNFα inhibitor pentoxyfylline (“PTN”) on induced
+TNFα production, protein synthesis by human peripheral blood monocytes,
+levels of different cytokines, and inhibition of reverse transcriptase
+production. Ex. 1003, 8:29–10:48. Figures 5–7 show results in assays
+measuring the inhibition of reverse transcriptase (“RT”) production, for
+example in cells stimulated with TNFα, comparing the effect of thalidomide
+and PTN with compounds C, D, G, and H. Id. at 10:49–60.
+Figure 5 indicates that compound G presents the highest percent of
+RT inhibition, and compound D presents the second highest. Id. at Fig. 5.
+Figures 6 and 7 present more variable results in relation to compounds C, D,
+G, and H, as compared to thalidomide, but in all three figures, compound G
+presents the highest percentage inhibition activity. Id. at Figs. 5–7.
+In its background section, Kaplan teaches that “thalidomide has long
+been employed for the treatment of erythema nodosum leprosum (ENL),”
+among other diseases. Id. at 2:42–55. Additionally, Kaplan discloses that
+9
+
+IPR2015-01169
+Patent 5,635,517
+TNFα is “one of several cytokines released mainly by mononuclear
+phagocytes together with several other cytokines in response to stimuli to the
+immune system.” Id. at 2:56–59; see also id. at 3:41–49 (stating that TNFα,
+IL-1, IL-6, IL-8, GM-CSF “are necessary for a proper immune response”
+and “produced by mononuclear phagocytes,” and “[s]till other cytokines are
+produced by the T-cells”). In addition to being associated with the
+destruction of tumor cells, and present “in response to immunostimulators
+such as bacterial and viral infections,” TNFα “is markedly elevated in ENL.”
+Id. at 2:60–3:2.
+Kaplan teaches that toxicity associated with TNFα is observed in
+conditions such as cachexia, septic shock, and infections with retroviruses
+(e.g., HIV). Id. at 3:3–40. Kaplan further discloses that “antiinflammatory
+and immunosuppressive steroids such as prednisolone and dexamethasone
+have been employed to treat the debilitating effects of TNFα,” but those
+“agents also block the production of other cytokines so that the patients
+become susceptible to life threatening infections.” Id. at 3:50–55.
+3. Analysis
+We agree with Petitioner that Piper discloses, among other
+thalidomide analogs, the three compounds known as 3-aminothalidomide
+(AH 14), 4-aminothalidomide (AH 13), and EM-12, which have the
+following chemical structures.
+
+10
+
+IPR2015-01169
+Patent 5,635,517
+Pet. 3, 27–28. Petitioner persuades us that the composition recited in claim
+8 corresponds to AH 14, and, therefore, compositions recited in method
+claims 1, 7, and 8 encompass AH 14. Pet. 29. Petitioner also persuades us
+that the composition recited in claim 9 corresponds to AH 13, and, therefore,
+compositions recited in method claims 1, 7, and 9 encompass AH 14. Id.
+As noted above, both Piper and Kaplan teach that thalidomide is
+effective to treat ENL reactions in leprosy. Piper teaches that ENL involves
+two cites of action, i.e., anti-inflammatory activity (measured by the
+carrageenan assay) and immunosuppressive activity (measured by the PFC
+assay). Piper teaches that most of the 50 screened analogs are active in only
+one or neither assay. Piper teaches that thalidomide itself, as well as two
+analogs, AH 3 and AH 20, are active in both assays. None of those three
+compounds contains an amino group on the benzene ring, as required by
+each of the challenged claims. See Prelim. Resp. 23 (presenting chemical
+structures).
+Petitioner refers us to two compounds in Piper (of the 50 screened) as
+analogs having an amino group on the benzene ring, AH 13 and AH 14. Pet.
+26–28. Petitioner and Patent Owner agree that AH 13 is active in only one
+assay, the carrageenan (anti-inflammatory) assay. Pet. 26; Prelim. Resp. 29.
+Petitioner asserts that AH 14 is only active in the other assay, the PFC
+(immunosuppressive) assay, but Patent Owner contends that AH 14 actually
+is active in neither assay. Pet. 26; Prelim. Resp. 13, 28–29. Evidence cited
+by Patent Owner persuades us that AH 14 is inactive in both assays—that
+the statement in Piper that AH 14 “enhances PFC” means that AH 14 is
+immunostimulatory, not immunosuppressive. Id. at 28–29 (citing Ex. 1002,
+511; Ex. 2029, 69–70).
+11
+
+IPR2015-01169
+Patent 5,635,517
+Petitioner agrees that Kaplan does not disclose thalidomide analogs
+having an amino group on the benzene ring, but points to EM 12, also
+disclosed in Piper, called compound H in Kaplan. Pet. 30; Ex. 1002, 511,
+2nd col.; Ex. 1003, 5:30–39. EM 12 contains no amino group on the
+benzene ring, but contains one C=O on the 5-carbon ring. Pet. 28, 30–31.
+Petitioner contends that Kaplan teaches a method of inhibiting TNFα
+production by administering EM 12, citing claim 1 in Kaplan (Ex. 1003),
+which recites a compound encompassing EM 12. Pet. 30. Petitioner also
+contends that Kaplan indicates that EM 12 is one of eight “[e]specially
+preferred” analogs disclosed in the reference. Id. at 31; Ex. 1003, 4:27–5:39.
+Independent claim 1 and dependent claims 7–9 of the ’517 patent
+recite methods of reducing TNFα levels in a mammal by administering
+certain thalidomide analogs having an amino group on the benzene ring. As
+Patent Owner points out, Piper does not mention TNFα. Prelim. Resp. 19;
+Ex. 1002, 511–12. Consequently, Petitioner necessarily combines certain
+teachings in Piper (disclosing AH 13 and AH 14, each having an amino
+group on the benzene ring) with those in Kaplan (disclosing methods of
+inhibiting TNFα using different thalidomide analogs). As such, Petitioner’s
+contentions regarding reasons to combine relevant teachings from the two
+references, as well as assertions regarding a reasonable expectation of
+success in performing recited methods, are critical to our analysis. Pet. 32–
+35.
+a) Alleged Reasons to Combine Piper and Kaplan
+Petitioner contends that disclosures in Piper and Kaplan “would have
+been easily combined by one of ordinary skill” because “each one teaches
+the same parent compound (thalidomide) and various analogs thereof in
+12
+
+IPR2015-01169
+Patent 5,635,517
+relation to treating the same condition (ENL).” Pet. 32–33 (citing Ex. 1007,
+¶¶ 112–115). We are not persuaded, however, that Piper sufficiently teaches
+or suggests that AH 13, AH 14, or EM 12 would be useful to treat ENL.
+Piper discloses that ENL involves two mechanisms of action, and, therefore,
+suggests that compounds exhibiting both activities (as measured in the two
+assays) might be useful to treat ENL. Such compounds include D, L- and Dthalidomide (expressly disclosed in Piper as useful to treat ENL), AH 3, and
+AH 20. We are not persuaded that Piper teaches or suggests sufficiently that
+any other disclosed compounds active in only one or neither assay, such as
+AH 13, AH 14, or EM 12, would have been effective in treating ENL.
+In addition, Patent Owner persuades us that Kaplan does not teach
+treating ENL with any compound other than thalidomide itself. Prelim.
+Resp. 16–17. Kaplan does not describe using any of the disclosed analogs,
+e.g., any of compounds A–H, such as EM 12, to treat ENL. Rather, at most,
+in its background section, Kaplan states that “thalidomide has long been
+employed for the treatment” of ENL, as well as other diseases, and that
+TNFα “is markedly elevated in ENL.” Ex. 1003, 2:42–55, 3:1–2.
+Petitioner contends that Kaplan teaches using EM 12 to reduce TNFα
+levels, and both Piper and Kaplan “teach the well-known analog EM 12, and
+that anti-inflammatory and immunosuppressive properties are important to
+the efficacy and activity of thalidomide and its analogs.” Pet. 30–33 (citing
+Ex. 1007 ¶¶ 90–120). Thus, according to Petitioner, “one of ordinary skill in
+the art would have readily combined the teachings of Piper and Kaplan to
+develop thalidomide analogs having one or both of these important
+functional activities for use in effectively treating at least ENL by reducing
+TNFα.” Id.
+13
+
+IPR2015-01169
+Patent 5,635,517
+We agree with Petitioner that both Piper and Kaplan disclose EM 12
+and at least Piper suggests that both “anti-inflammatory and immunosuppressive properties are important to the efficacy and activity of
+thalidomide and its analogs.” Id. As discussed above, however, we are not
+persuaded that Piper discloses sufficiently that EM 12, which exhibits only
+anti-inflammatory activity in Piper, would have been useful to treat ENL.
+Moreover, while Kaplan suggests that EM 12 may be useful to reduce TNFα
+levels, Kaplan, alone or in combination with Piper, does not suggest
+sufficiently that a thalidomide analog containing an amino group on the
+benzene ring (in contrast to compounds, including EM 12, disclosed in
+Kaplan) would be useful to reduce TNFα levels.
+Piper, which discusses ENL, does not mention TNFα, nor does it
+establish a relationship between results from the two assays regarding ENL’s
+two sites of action (carrageenan and/or PFC) and TNFα levels. Prelim.
+Resp. 19–20. Kaplan, at most, states that thalidomide is useful to treat ENL
+and reduce TNFα levels, and that TNFα levels are “markedly elevated in
+ENL.” Ex. 1003, 2:42–45, 3:1–2. Nonetheless, and even if Kaplan also
+suggests that EM 12 may reduce TNFα levels, the reference does not suggest
+sufficiently that by doing so, EM 12 would be useful to treat ENL. In
+addition, while Piper discloses EM 12 (among many analogs), and may
+indicate that this analog is active in the carrageenan assay (i.e., has at least
+some anti-inflammatory activity), we agree with Patent Owner that neither
+Piper nor Kaplan (which is silent on the two Piper assays) establishes
+sufficiently that anti-inflammatory activity alone by any analog (such as AH
+13) necessarily corresponds to an ability to reduce TNFα levels.
+
+14
+
+IPR2015-01169
+Patent 5,635,517
+Additional information cited by Patent Owner further persuades us
+that Petitioner does not establish sufficiently that a link exists between
+treating ENL and reducing TNFα levels. For example, Patent Owner
+provides information indicating that EM 12, which Kaplan suggests may
+reduce TNFα, only “has marginal activity in the carrageenan assay with
+activity at the highest dose tested but no activity in lower doses, and it lacks
+activity in the PFC assay.” Prelim. Resp. 43–44 (citing Ex. 2028, 673, 1st
+col.; Ex. 2029, 70). Such evidence runs counter to the notion that an
+ordinary artisan would have understood that one could treat ENL by using
+any thalidomide analog (such as EM 12) that reduces TNFα, as Petitioner
+suggests. Pet. 33.
+Furthermore, as noted by Patent Owner and stated in Kaplan, immune
+responses involve a number of different biological molecules, including
+cytokines such as IL-1, IL-6, IL-8, GM-CSF, as well as other cytokines
+produced by T-cells, in addition to TNFα. As Patent Owner notes, “some
+anti-inflammatory agents, such as nonsteroidal anti-inflammatory drugs
+(NSAIDs), actually increase TNFα production in rheumatoid synovia and
+whole blood.” Prelim. Resp. 22 (citing Ex. 2020, Abstract). Information
+before us, therefore, fails to establish sufficiently a correlation between antiinflammatory activity (as measured in the carrageenan assay in Piper) with a
+reduction in TNFα levels in particular, even assuming the references indicate
+that EM 12 does both things.
+Lastly, as noted by Patent Owner, data in Kaplan suggests that
+compound G works better than EM 12 to inhibit TNFα, indicating that
+Kaplan does not favor using EM 12 in particular. Ex. 1003, Figures 5–7;
+Prelim. Resp. 33–34.
+15
+
+IPR2015-01169
+Patent 5,635,517
+Thus, at most, Piper and Kaplan together indicate that thalidomide is
+useful to both treat ENL and reduce TNFα levels, and EM 12 (and other
+analogs lacking the amino group on the benzene ring) may reduce TNFα,
+even if EM 12 exhibits activity in only one out of two relevant sites of action
+for ENL. Petitioner does not establish sufficiently that an ordinary artisan
+reading those two references would have had reason to pick AH 13 or AH
+14 (out of over 40 analogs discussed in Piper) in particular for use in a
+method to reduce TNFα levels (disclosed in Kaplan in relation to different
+analogs).
+b) Alleged Reasonable Expectation of Success
+Petitioner also contends that an ordinary artisan would have
+reasonably expected Piper’s AH 14 and AH 13 to exhibit the same activity
+as thalidomide because AH 14 and AH 13 have high structural similarity to
+that parent compound and exhibit “at least one key activity of the parent
+(i.e., anti-inflammation or immunosuppression).” Pet. 33. In support,
+Petitioner refers to EM 12 and its activities (as shown in Piper and Kaplan),
+and cites Dr. Heathcock’s Declaration for the proposition that “those of
+ordinary skill may expect compounds of high structural similarity that have
+an important functional activity in common to have other activities in
+common as well.” Pet. 34 (citing Ex. 1007, ¶¶ 118, 119). We note that
+other than referring to Piper and Kaplan generally, the cited paragraphs in
+Dr. Heathcock’s Declaration cite no evidence in support of that proposition.
+Ex. 1007, ¶¶ 118, 119.
+Other information of record before us, by contrast, indicates that even
+the smallest of chemical differences in thalidomide analogs impacts
+biological activity. Teachings in Piper alone indicate that different analogs,
+16
+
+IPR2015-01169
+Patent 5,635,517
+even those differing only by the addition and/or location of a single
+“electron donating” group on the benzene ring, exhibit different activities.
+Piper discusses “[t]hirteen α-substituted glutarimides with changes in the 6
+membered phthalimide moiety.” Ex. 1002, 511, 2nd col. Of those, many
+are active in one or the other assay (carrageenan or PFC) or neither assay.
+Among those thirteen, Piper also discusses “[f]our compounds involv[ing]
+electron donating substitutions (amino- or hydroxyl-) on the 6 membered
+phthalimide system.” Id. Among those four compounds, and even among
+the two compounds containing an amino group on the 6-carbon benzene ring
+(AH 13 and AH 14), Piper found differing results in the two assays. For
+example, Piper states that AH 13 is active in the carrageenan assay but not
+the PFC assay, while AH 14 “enhances PFC” and is inactive in the
+carrageenan assay. Id.; see also Prelim. Resp. 29 (noting differing assay
+results for thalidomide and different analogs, including those with a
+hydroxyl group on the benzene ring, AH 22 and AH 20).
+Thus, Patent Owner persuades us, consistent with binding case law,
+that “even minor structural modifications to a chemical compound can have
+significant and highly unpredictable effects on functionality,” as evidenced
+by Piper and other references of record here. Prelim. Resp. 26–27 (citing
+relevant Federal Circuit and other case law) (citations omitted). We are not
+persuaded by Petitioner’s contention that “those of ordinary skill may expect
+compounds of high structural similarity that have an important functional
+activity in common to have other activities in common as well.” Pet. 34.
+When arguing a reasonable expectation of success, Petitioner also
+contends that “by disclosing steroids [prednisolone and dexamethasone] that
+exhibit anti-inflammation, immunosuppression, and TNFα inhibition,
+17
+
+IPR2015-01169
+Patent 5,635,517
+Kaplan identifies another direct relationship—i.e., between compounds that
+are anti-inflammatory or immunosuppressive and compounds that block
+TNFα.” Pet. 34–35 (citing Ex. 1007 ¶ 120 (citing Ex. 1003, 3:50–55)).
+Petitioner does not contend, however, that either steroid is a thalidomide
+analog. In addition, Kaplan teaches that those steroids exhibit both antiinflammatory and immunosuppressive activities, similarly to thalidomide,
+but unlike EM 12 (as disclosed in Piper). In any event, Kaplan’s discussion
+about steroids unrelated in structure does not indicate sufficiently that one
+would have expected entirely different compounds (e.g., AH 13 or AH 14)
+to reduce TNFα levels.
+4. Conclusion
+For the reasons discussed above, Petitioner has not established a
+reasonable likelihood of prevailing on the ground that claims 1 and 7–9 of
+the ’517 patent would have been obvious over Piper in view of Kaplan.
+C. Asserted ground of obviousness of claims 2–6 and 10 over Piper,
+Kaplan, Agrawal (Ex. 1004), and WO ’085 (Ex.1005)
+Petitioner contends that claims 2–6 and 10 of the ’517 patent would
+have been obvious over Piper, Kaplan, Agrawal, and WO ’085. Pet. 37–52.
+In relation to Piper and Kaplan, Petitioner raises similar contentions to those
+discussed above. Id. at 39–40. Petitioner additionally relies on Agrawal
+(published alongside Piper), which discusses carrageenan and PFC assay
+results using thalidomide analogs, and WO ’085, which discloses methods of
+inhibiting angiogenesis using thalidomide and thalidomide analogs. Id. at
+40–42. Petitioner again contends that an ordinary artisan would have had
+reason to combine teachings in those references to reach the recited methods
+
+18
+
+IPR2015-01169
+Patent 5,635,517
+and compounds, and one would have had a reasonable expectation of
+success in doing so. Id. at 43–49.
+1. Agrawal (Ex. 1004)
+Like Piper, Agrawal describes a study in an effort to develop
+thalidomide analogs that are effective in controlling ENL—again using the
+carrageenan (anti-inflammatory) and PFC (immunosuppressive) assays.
+Agrawal discusses many different analogs, including “analogs containing
+NO2, COOH, NH2, or OH groups.” Ex. 1004, 512, 2nd col. In this context,
+Agrawal states that “agents containing the electron donating groups such as
+3 or 4-hydroxy and 4-aminothalidomide retained the anticarrageenan
+activity, whereas the analogs with electron withdrawing groups such as 4nitro or 4-carboxy were not active in this assay.” Id. Agrawal goes on to
+state, however, that “the biological activity in the PFC assay did not
+correlate with electronic properties since not only the 4-nitro and 4-carboxy
+analogs but also the 4-hydroxythalidomide was active in this system.” Id.
+Thus, consistent with teachings in Piper, Agrawal indicates that 4hydroxythalidomide (AH 20) is active in both assays, and 3-hydroxythalidomide (AH 22) and 4-aminothalidomide (AH 13) are active only in the
+carrageenan assay. While it does not discuss 3-aminothalidomide (AH 14)
+per se, teachings in Agrawal also are consistent with the fact that AH 14 is
+inactive in both assays, as indicated in Piper.
+Agrawal also states that study results “suggest that modifications in
+the parent thalidomide molecule can be made which retain the antiinflammatory and immunosuppressive activity, but yet may be expected to
+alter the neurotoxic and teratogenic properties.” Id. (emphasis added). Like
+Piper, therefore, Agrawal suggests that thalidomide analogs that exhibit both
+19
+
+IPR2015-01169
+Patent 5,635,517
+anti-inflammatory and immunosuppressive activities (i.e., active in both
+assays) would be useful to treat EML.
+2. WO ’085 (Ex. 1005)
+WO ’085 discloses methods for preventing unwanted angiogenesis by
+administering thalidomide and “related compounds.” Ex. 1005, 1:20–25.6
+As noted in WO ’085, angiogenesis is the generation of new blood vessels
+into a tissue or organ. Id. at 1:28–29.
+WO ’085 discloses that “[s]pecific preferred compounds . . . of the
+present invention include thalidomide, its precursors, metabolites and
+analogs,” and that “[p]articular analogs include EM-12, N-phthaloyl-DLglutamic acid (PGA) or N-phthaloyl-DL-glutamine anhydride.” Id. at 14:8–
+12. WO ’085 discloses using “epoxides of thalidomide, EM-12 and EM138” (id. at 16:1–15) and that the epoxides can be hydrolyzed to form six
+compounds, including the two compounds reproduced below.
+
+Id. at 16:20–17:9. WO ’085 further teaches that “the hydroxyl group can be
+on carbons 1, 2, 3, 4, 5 and 6 of the benzene ring.” Id. at 17:10–11.
+3. Analysis—Claims 2–6
+Claims 2–6 of the ’517 patent depend from claim 1, and recite
+methods of reducing TNFα in a mammal by administering compositions
+
+6
+
+Page citations in relation to Ex. 1005 refer to pages numbers in the
+original document, located at the top of the reference.
+20
+
+IPR2015-01169
+Patent 5,635,517
+corresponding to thalidomide analogs having an amino group on the benzene
+ring, and a single C=O in the 5-carbon ring.
+In relation to those claims, Petitioner contends that Agrawal teaches a
+preference for amino-substituted analogs, as well as “a preference for
+analogs with an amino- or hydroxyl substituted benzo ring.” Pet. 40–41
+(citing Ex. 1004, 512, Ex. 1007 ¶¶ 87–89, 139 (similarly discussing and
+citing Agrawal)). We are not persuaded.
+As discussed above, Agrawal, like Piper, discloses the testing of many
+thalidomide analogs and suggests that analogs exhibiting both antiinflammatory and immunosuppressive activities (i.e., active in both the
+carrageenan and PFC assays) would be useful to treat ENL. Ex. 1004, 512;
+see also Pet. 41–42 (referring to that teaching in Agrawal). Both Piper and
+Agrawal indicate that 4-hydroxythalidomide (AH 20) is active in both
+assays, 3-hydroxy-thalidomide (AH 22) and 4-amino-thalidomide (AH 13)
+are active only in the carrageenan assay (not the PFC assay), and 3-aminothalidomide (AH 14) is inactive in both assays. Thus, at most, both
+references suggest a preference, in the context of treating ENL, for an analog
+with a hydroxyl group at a specific location in the benzene ring (4-hydroxy,
+not 3-hydroxy), and no particular preference for analogs with an amino
+group on the benzene ring.
+Petitioner contends that WO ’085 “teaches that each of thalidomide,
+EM 12, and 3-, 4-, 5-, and 6-hydroxyl-substituted EM 12 inhibit
+angiogenesis,” and that “EM 12 is a more potent inhibitor of angiogenesis
+than thalidomide.” Pet. 42. Petitioner then contends that an ordinary artisan
+“would have readily combined the teachings” of the four cited references “to
+develop thalidomide analogs having an amino or hydroxyl-substituted benzo
+21
+
+IPR2015-01169
+Patent 5,635,517
+ring, and at least one important functional activity of thalidomide (i.e., antiinflammation or immunosuppression) for use in effectively treating at least
+ENL by reducing TNFα.” Id. at 43–44 (citing Ex. 1007 ¶¶ 145–153).
+Petitioner does not point us to anything in Agrawal or WO ’085 that
+overcomes the deficiencies mentioned above in relation to Petitioner’s
+assertion that an ordinary artisan would have combined the teachings of
+Piper and Kaplan to develop thalidomide analogs having an amino group on
+the benzene ring for use in reducing TNFα levels.
+As discussed above, teachings in Agrawal and Piper are very similar
+and, at best, suggest a preference for an analog with a hydroxyl group at a
+specific location in the benzene ring (4-hydroxy, not 3-hydroxy), without
+sufficiently indicating a preference for analogs with an amino group on the
+benzene ring. In addition, Kaplan, the only cited reference to discuss
+methods of reducing TNFα, does not discuss, much less indicate a
+preference for, thalidomide analogs with an amino group on the benzene
+ring.
+In relation to WO ’085, Petitioner does not explain or reasonably
+support that inhibiting angiogenesis correlates to reducing TNFα. Even
+assuming Petitioner had established such a correlation, however, all four
+references in combination potentially would have suggested a preference for
+EM 12 or EM 12 containing a 4-hydroxyl group in the benzene ring. For the
+reasons discussed above, however, we are not persuaded that any of the four
+references, either alone or in combination, sufficiently suggests using a
+thalidomide analog containing an amino group on the benzene ring, whether
+to treat ENL, reduce TNFα, or inhibit angiogenesis.
+
+22
+
+IPR2015-01169
+Patent 5,635,517
+Petitioner’s discussion of WO ’085 does not persuade us “that
+structural similarity is reasonably predictive of functional similarity.” Pet.
+42 (citing Ex. 1007 ¶¶ 94–96, 140–141). We likewise are not persuaded by
+Petitioner’s assertions regarding a reasonable expectation of success, which
+again rely on contentions that an ordinary artisan “would have reasonably
+expected other structurally similar analogs of thalidomide and EM 12 to
+behave like their parent compounds.” Id. at 44–45 (citing Ex. 1007 ¶¶ 155–
+165). As discussed above, information of record, such as Piper and
+Agrawal, indicates that one of ordinary skill would have known that even
+small chemical differences in thalidomide analogs impacted biological
+activity. For example, Piper and Agrawal indicate that the absence or
+presence, as well as the specific location, of a hydroxyl or amino group on
+the benzene ring impacts whether that analog exhibits anti-inflammatory
+and/or immunosuppressive activity (as tested in carrageenan and PFC
+assays).
+In addition, as Petitioner concedes, neither Kaplan (the only reference
+discussing TNFα) nor WO ’085 discloses the use of a thalidomide analog
+containing an amino group on the benzene ring. Pet. 47. As Petitioner also
+recognizes, no cited reference discloses the use of an EM 12 analog
+containing an amino group on the benzene ring. Id. For the reasons
+discussed above, we are not persuaded that any cited reference, either alone
+or in combination, reasonably suggests substituting a hydroxyl group with
+an amino group on the benzene ring to produce a thalidomide analog useful
+in reducing TNFα levels.
+
+23
+
+IPR2015-01169
+Patent 5,635,517
+4. Analysis—Claim 10
+We likewise are not persuaded that an ordinary artisan would have
+had sufficient reason to prepare any of the four compounds recited in claim
+10. All four compounds in claim 10 comprise an amino group on the
+benzene ring (like AH 13 and AH 14) and a single C=O in the 5-carbon ring
+(like EM 12). Petitioner has not established sufficiently, with reasonable
+underpinnings, why one would have produced such compounds for any
+reason, for example to produce analogs that inhibit angiogenesis (discussed
+in WO ’085). As Petitioner notes, none of the cited references disclose EM
+12 (or other analog having a single C=O in the 5-carbon ring) modified to
+have an amino group on the benzene ring. Pet. 47. While WO ’085 teaches
+a compound having a hydroxyl group on the benzene ring (like AH 20) and
+a single C=O on the 5-carbon ring (like EM 12), Petitioner does not explain
+sufficiently why one would substitute the hydroxyl group in that analog with
+an amino group.
+For example, we are not persuaded that Petitioner contends or
+reasonably establishes a link between inhibiting angiogenesis (disclosed in
+WO ’085), treating ENL (or anti-inflammatory and/or immuno-suppressive
+activities) (disclosed in Piper and Agrawal), and/or reducing TNFα
+(disclosed in Kaplan). Petitioner’s general arguments regarding the “known
+activities and structures of thalidomide, EM 12, and structurally similar
+amino- and hydroxyl-substituted analogs thereof” do not establish that link,
+nor reasonably provide a reason to make the specific hydroxyl to amino
+substitution needed here.
+Piper and Agrawal disclose that AH 20 (4-hydroxythalidomide), but
+not AH 22 (3-hydroxylthalidomide), exhibits both anti-inflammatory and
+24
+
+IPR2015-01169
+Patent 5,635,517
+immunosuppressive activities (both sites of action for ENL). Ex. 1002, 511,
+2nd col. Kaplan discloses EM 12 (Ex. 1003, 5:30–39), and WO ’085
+discloses EM 12 with a hydroxyl group on any of carbons 1, 2, 3, 4, 5 and 6
+of the benzene ring (Ex. 1005, 17). Thus, at most, even if we assume a link
+exists between treating ENL, reducing TNFα, and/or inhibiting
+angiogenesis, the four references would have led an ordinary artisan to make
+a specific version from a genus disclosed in WO ’085, i.e., a species of EM
+20 modified to include a hydroxyl group at the same location in the benzene
+ring as AH 20. For the same reasons discussed above, Petitioner’s assertion
+that “known activities and structures of thalidomide, EM 12, and structurally
+similar amino- and hydroxyl-substituted analogs” would have provided a
+reason to prepare a thalidomide analog having an amino group on the
+benzene ring is not supported reasonably by information before us. Pet. 43.
+Furthermore, we are not persuaded that the compounds of claim 10
+correspond to only a “few known options” of possible relevant thalidomide
+analogs, as Petitioner contends. Pet. 48. As noted by Patent Owner, the
+cited references disclose a large number of possible thalidomide analogs.
+See Prelim. Resp. 42 n.15 (“WO ’085 alone discloses billions of thalidomide
+analogs,” “Kaplan discloses over one hundred,” “Piper discloses
+‘approximately 50 thalidomide analogs,’” and “Agrawal discloses various
+modifications suggesting hundreds of additional analogs”) (citations
+omitted). Of those many possible thalidomide analogs, the cited references
+suggest that a subset of analogs—analogs lacking an amino group on the
+benzene ring—may be useful to treat ENL, reduce TNFα, or inhibit
+angiogenesis. Information before us does not establish adequately that one
+of ordinary skill in the art would have had reason to modify one specific
+25
+
+IPR2015-01169
+Patent 5,635,517
+analog disclosed in WO ’085 (out of many) to prepare the specific “four
+amino-substituted EM 12 analogs” recited in claim 10. Pet. 48.
+5. Conclusion
+For the reasons discussed above, Petitioner has not established a
+reasonable likelihood of prevailing on the ground that claims 2–6 and 10 of
+the ’517 patent would have been obvious over Piper in view of Kaplan,
+Agrawal, and WO ’085.
+D. Asserted ground of obviousness of claims 2–6 and 10 over Piper,
+Kaplan, Agrawal, and Keith (Ex.1006)
+Petitioner contends that claims 2–6 and 10 of the ’517 patent would
+have been obvious over Piper, Kaplan, Agrawal, and Keith. Pet. 52–59. In
+relation to Piper, Kaplan, and Agrawal, Petitioner asserts similar contentions
+to those discussed above. Id. at 52–55. In this ground, Petitioner
+additionally relies on Keith, which, as Petitioner notes, discloses “solubility
+information for a variety of chemical compounds, including thalidomide and
+EM 12.” Pet. 55 (citing Ex. 1006 at 190, 397).
+Petitioner does not explain adequately how Keith overcomes the
+deficiencies mentioned above in relation to Petitioner’s assertion that an
+ordinary artisan would have combined the teachings of Piper, Kaplan, and
+Agrawal—deficiencies equally applicable to the assertion in this ground—to
+practice the methods of claims 2–6, or prepare the specific compounds
+recited in claim 10.
+At most, Petitioner argues, based on Keith, that an ordinary artisan
+would have known that thalidomide and EM 12 “are practically insoluble in
+water.” Pet. 55 (citing Ex. 1007 ¶ 178). Petitioner also contends, citing
+conclusory statements by Dr. Heathcock in support, that “increasing the
+26
+
+IPR2015-01169
+Patent 5,635,517
+solubility of a drug can significantly enhance its bioavailability,” and that an
+ordinary artisan “would have generally known that the addition of an
+electron donating substituent (e.g., an amino or hydroxyl group) to the benzo
+ring of EM 12 would likely increase its solubility.” Id. (citing Ex. 1007
+¶¶ 178, 187). Thus, according to Petitioner, “one would have been driven to
+aminate EM 12 in order to improve its poor solubility.” Id. at 55–56 (citing
+Ex. 1007 ¶¶ 178, 187–188).
+For all the reasons discussed above, information before us does not
+suggest or point adequately to modifying EM 12 or another relevant
+compound to contain an amino group on the benzene ring. Keith does not
+overcome that deficiency by merely disclosing the solubility of EM 12 and
+thalidomide. Even assuming one would have had reason to prepare a more
+soluble thalidomide analog, Patent Owner persuades us that an ordinary
+artisan would have faced “a potentially limitless list of modifications,”
+without sufficient guidance pointing to the addition of an amino group on
+the benzene ring in particular. Prelim. Resp. 54–55.
+For the reasons discussed above, Petitioner has not established a
+reasonable likelihood of prevailing on the ground that claims 2–6 and 10 of
+the ’517 patent would have been obvious over Piper in view of Kaplan,
+Agrawal, and Keith.
+III. CONCLUSION
+For the foregoing reasons, the information presented in the Petition
+and accompanying evidence does not establish a reasonable likelihood that
+Petitioner would prevail in showing the unpatentability of claims 1–10 of the
+’517 patent.
+
+27
+
+IPR2015-01169
+Patent 5,635,517
+IV. ORDER
+It is
+ORDERED that the Petition is denied and no trial is instituted.
+
+For PETITIONER:
+Jeffrey Blake
+jblake@merchantgould.com
+Dianna El Hioum
+delhioum@merchantgould.com
+
+For PATENT OWNER:
+Francis Cerrito
+nickcerrito@quinnemanuel.com
+Anthony Insogna
+aminsogna@jonesday.com
+
+28
+
+

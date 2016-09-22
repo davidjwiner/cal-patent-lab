@@ -1,0 +1,489 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 6
+Entered: August 25, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+VOLKSWAGEN GROUP OF AMERICA, INC.,
+Petitioner,
+v.
+SIGNAL IP, INC.,
+Patent Owner.
+____________
+Case IPR2015-00968
+Patent 5,714,927 B1
+____________
+
+Before DONNA M. PRAISS, PETER P. CHEN, and
+JASON J. CHUNG, Administrative Patent Judges.
+CHUNG, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-00968
+Patent 5,714,927 B1
+I.
+
+INTRODUCTION
+
+Petitioner, Volkswagen Group of America, Inc., filed a Petition
+requesting an inter partes review of claims 1, 2, and 6 of U.S. Patent No.
+5,714,927 B1 (Ex. 1001, “the ’927 patent”). Paper 2 (“Pet.”). In response,
+Patent Owner, Signal IP, Inc., filed a Preliminary Response. Paper 5
+(“Prelim. Resp.”). We have jurisdiction under 35 U.S.C. § 314, which
+provides that an inter partes review may not be instituted “unless . . . the
+information presented in the petition . . . shows that there is a reasonable
+likelihood that the petitioner would prevail with respect to at least 1 of the
+claims challenged in the petition.”
+For the reasons set forth below, we deny institution of inter partes
+review of the ’927 patent.
+A. Related Matters
+Petitioner indicates that the ’927 patent also has been asserted in the
+following proceedings: Signal IP, Inc. v. Ford Motor Company, No. 2-14cv-13729 (E.D. Mich.); Signal IP, Inc. v. Mercedes-Benz USA, LLC et al.,
+No. 2-14-cv-03109 (C.D. Cal.); Signal IP, Inc. v. Fiat USA, Inc. et al., No.
+2-14-cv-13864 (E.D. Mich.); Signal IP, Inc. v. BMW of North America, LLC
+et al., No. 2-14-cv-03111 (C.D. Cal.); Signal IP, Inc. v. Jaguar Land Rover
+North America, LLC, No. 2-14-cv-03108 (C.D. Cal.); Signal IP, Inc. v.
+Volkswagen Group of America, Inc. d/b/a Audi of America, Inc. et al., No. 214-cv-03113 (C.D. Cal.); Signal IP, Inc. v. Porsche Cars North America,
+Inc., No. 2-14-cv-03114 (C.D. Cal.); Signal IP, Inc. v. Volvo Cars of North
+America, LLC, No. 2-14-cv-03107 (C.D. Cal.); Signal IP, Inc. v. Subaru of
+2
+
+IPR2015-00968
+Patent 5,714,927 B1
+America, Inc., No. 2-14-cv-02963 (C.D. Cal.); Signal IP, Inc. v. Nissan
+North America, Inc., No. 2-14-cv-02962 (C.D. Cal.); Signal IP, Inc. v.
+Mitsubishi Motors of America, Inc., No. 8-14-cv-00497 (C.D. Cal.); Signal
+IP, Inc. v. Mazda Motor of America, Inc., No. 8-14-cv-00491 (C.D. Cal.);
+Signal IP, Inc. v. Kia Motors America, Inc., No. 2-14-cv-02457 (C.D. Cal.);
+and Signal IP, Inc. v. American Honda Motor Co., Inc. et al., No. 2-14-cv02454 (C.D. Cal.). Paper 3.
+B. The ’927 Patent
+The ’927 patent relates to side detection vehicle radar systems that
+control an alarm or alert indicator to increase the perceived coverage of a
+vehicle’s blind spot. Ex. 1001, 1:7–10. Figure 4 of the ’927 patent is
+reproduced below.
+
+As illustrated in Figure 4 of the ’927 patent, the radar system on the
+host vehicle 50 extends the perceived coverage of the vehicle’s blind spots
+54, 62 by zone extensions 56, 64. Id. at 4:7–21. The system prevents or
+minimizes radar signal dropouts due to signal flickers in order to improve
+the zone of coverage in a vehicle side radar detection system and minimizes
+3
+
+IPR2015-00968
+Patent 5,714,927 B1
+annoying alert activity when passing stationary or slow moving targets. Id.
+at 2:10–15. The time of alert signal activation is measured and compared to
+a threshold time. Id. at 2:16–17. When the alert time is greater than or
+equal to the threshold time, a longer sustain time is applied to hold the alert
+signal on, which bridges the dropout periods due to low radar signal
+reflectivity. Id. at 2:25–28.
+C. Illustrative Claim
+Claim 1 is the only independent claim challenged. Claims 2 and 6
+depend from claim 1. Claim 1, reproduced below, is illustrative.
+1.
+In a radar system wherein a host vehicle uses radar to
+detect a target vehicle in a blind spot of the host vehicle driver,
+a method of improving the perceived zone of coverage response
+of automotive radar comprising the steps of:
+determining the relative speed of the host and target
+vehicles;
+selecting a variable sustain time as a function of relative
+vehicle speed;
+detecting target vehicle presence and producing an alert
+command;
+activating an alert signal in response to the alert
+command;
+at the end of the alert command, determining whether the
+alert signal was active for a threshold time; and
+if the alert signal was active for the threshold time,
+sustaining the alert signal for the variable sustain time, wherein
+the zone of coverage appears to increase according to the
+variable sustain time.
+Ex. 1001, 5:28–6:2.
+
+4
+
+IPR2015-00968
+Patent 5,714,927 B1
+D. Prior Art Relied Upon
+Petitioner relies upon the following prior art references:
+Bernhard
+Bernhard GB1
+Pakett
+Fujiki
+
+US 5,521,579
+GB 2277653 A
+US 5,325,096
+US 4,053,026
+
+May 28, 1996
+Nov. 2, 1994
+June 28, 1994
+Oct. 11, 1977
+
+(Ex. 1003)
+(Ex. 1004)
+(Ex. 1005)
+(Ex. 1006)
+
+E. Asserted Grounds of Unpatentability
+Petitioner asserts the following ground of unpatentability:
+Challenged Claims
+1, 2, and 6
+
+Basis
+§ 103(a)
+II.
+
+References
+Bernhard, Pakett, Fujiki
+
+ANALYSIS
+
+A. Claim Construction
+In an inter partes review, claim terms in an unexpired patent are given
+their broadest reasonable construction in light of the specification of the
+patent in which they appear. 37 C.F.R. § 42.100(b); see also In re Cuozzo
+Speed Techs., LLC, No. 2014-1301, 2015 WL 4097949, at *7, 8 (Fed. Cir.
+2015) (“Congress implicitly approved the broadest reasonable interpretation
+standard in enacting the AIA,” and “the standard was properly adopted by
+PTO regulation.”). Under the broadest reasonable interpretation standard,
+claim terms are given their ordinary and customary meaning as would be
+understood by one of ordinary skill in the art in the context of the entire
+
+Petitioner asserts that Bernhard GB “provides substantially the same
+teachings as Bernhard” and that the Petition includes parallel citations to
+Bernhard GB. Pet. 8 n.1. For purposes of this Decision, citations herein are
+to Bernhard only.
+5
+1
+
+IPR2015-00968
+Patent 5,714,927 B1
+disclosure. In re Translogic Tech., Inc., 504 F.3d 1249, 1257 (Fed. Cir.
+2007).
+Although the parties do not propose constructions for any specific
+claim terms, we determine that it is necessary to construe the distinction, if
+any, between “alert command” and “alert signal” recited in claim 1.
+Although the doctrine of claim differentiation creates a presumption that
+“alert command” and “alert signal” are different in scope, this presumption
+can be overcome by written description or prosecution history. See
+Seachange Int’l, Inc. v. C-Cor Inc., 413 F.3d 1361, 1369 (Fed. Cir. 2005).
+In this case, the Specification of the ’927 patent refers to “alert commands”
+as element 42 in Figure 3c and “alert signal” as element 46 in Figure 3d. Ex.
+1001, 3:57–4:7. Figures 3c and 3d of the ’927 patent are reproduced below.
+
+Figure 3c of the ’927 patent depicts the alert commands 42 as raw alert data.
+The Specification of the ’927 patent further describes the relationship
+between alert commands and alert signals as follows:
+Generally most or all of the gaps 44 [from the alert commands
+42] are removed and any remaining gaps 44 are minimized by
+this method which is especially successful at higher relative
+speeds where the target discrimination algorithm is most
+effective. At the same time, because of the sustaining effect,
+the sustained alert signal 46 is longer by a period 48 than the
+alert command, thereby extending the zone of coverage as
+perceived by the driver.
+Ex. 1001, 3:67–4:7.
+6
+
+IPR2015-00968
+Patent 5,714,927 B1
+Without a sustaining action the visual or audio alert signal will
+mimic the alert commands 42.
+Id. at 3:61–62 (emphasis added).
+Accordingly, we construe “alert command” as raw alert data that is
+used to generate an “alert signal” and we construe “alert signal” as a signal
+that provides a visual or audio alert to a driver.
+B. Principles of Law
+A patent claim is unpatentable under 35 U.S.C. § 103(a) if the
+differences between the claimed subject matter and the prior art are such that
+the subject matter, as a whole, would have been obvious at the time the
+invention was made to a person having ordinary skill in the art to which said
+subject matter pertains. KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 406
+(2007). The question of obviousness is resolved on the basis of underlying
+factual determinations including: (1) the scope and content of the prior art;
+(2) any differences between the claimed subject matter and the prior art;
+(3) the level of ordinary skill in the art; and (4) objective evidence of
+nonobviousness. Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966).
+In that regard, an obviousness analysis “need not seek out precise
+teachings directed to the specific subject matter of the challenged claim, for
+a court can take account of the inferences and creative steps that a person of
+ordinary skill in the art would employ.” KSR, 550 U.S. at 418; see also
+Translogic, 504 F.3d at 1259. A prima facie case of obviousness is
+established when the prior art itself would appear to have suggested the
+claimed subject matter to a person of ordinary skill in the art. In re Rinehart,
+531 F.2d 1048, 1051 (CCPA 1976).
+7
+
+IPR2015-00968
+Patent 5,714,927 B1
+The level of ordinary skill in the art is reflected by the prior art of
+record. See Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001);
+In re GPAC Inc., 57 F.3d 1573, 1579 (Fed. Cir. 1995); In re Oelrich,
+579 F.2d 86, 91 (CCPA 1978).
+C. Claims 1, 2, and 6 Challenge Based on Prior Art
+Petitioner asserts that claims 1, 2, and 6 are unpatentable under
+35 U.S.C. § 103(a) as obvious over the combination of Bernhard, Pakett, and
+Fujiki. Pet. 8. To support its contentions, Petitioner provides detailed
+explanations as to how the prior art meets each claim limitation. Id. at 8–39.
+Petitioner also relies upon a Declaration of Dr. David M. Bevly, who has
+been retained as an expert witness by Petitioner for the instant proceeding.
+Ex. 1002.
+1. Bernhard (Exs. 1003 and 1004)
+Bernhard, titled “Method for Providing Guiding Assistance for
+Vehicle Changing Lane,” describes assisting a motor vehicle when changing
+from a current lane to an adjacent lane. Ex. 1003, Abstract. Figure 7 of
+Bernhard is reproduced below.
+
+As shown in Figure 7 of Bernhard, the radar system VR of the vehicle
+detects the current traffic situation and the system determines a simulation in
+8
+
+IPR2015-00968
+Patent 5,714,927 B1
+advance to decide if a lane change is possible. Id. at 6:51–55. Detecting the
+current traffic situation includes calculating and measuring the distance and
+speed of other vehicles. Id. at 6:55–7:42. If all the measured distances are
+greater than the calculated safety distances, a possible lane change is
+signaled. Id. at Abstract.
+2. Pakett (Ex. 1005)
+Pakett, titled “Smart Blind Spot Sensor,” describes sensing the
+presence of obstacles in a vehicle’s blind spots and generating an indicator
+signal notifying the vehicle operator of the presence of the obstacle. Ex.
+1005, Abstract. The indicator may be an illuminated indicator or an audible
+indicator. Id. A “persistence period” is the amount of time it takes the
+vehicle with the mounted radar system to travel 15 feet. Id. at 6:43–46.
+When an obstacle is first detected, CPU 31 waits throughout the persistence
+period before responding, such that, during the persistence period, no
+warnings are sent to the driver indicators. Id. at 6:46–51. After the
+persistence period, a warning is sent to the driver indicators. Id. at 6:51–55.
+3. Fujiki (Ex. 1006)
+Fujiki, titled “Logic Circuit for an Automatic Braking System for a
+Vehicle,” describes prolonging vehicle braking for a time or a distance. Ex.
+1006, Abstract. The braking is prolonged to overcome multiple reflections
+of a radar signal that falsely indicates momentary “safe” signals. Id. Figure
+8 of Fujiki is reproduced below.
+
+9
+
+IPR2015-00968
+Patent 5,714,927 B1
+
+As illustrated in the flow chart of Figure 8 above, if the equations in stage 1
+are satisfied, then the program goes to stage 2 to activate the braking system
+and return to START. Ex. 1006, 5:49–55. When the equations are no
+longer satisfied, the program proceeds to stage 3 and a determination is
+made whether the brake system has just been activated. Id. at 5:55–57. If
+the brake is on, the program proceeds to stage 4 where the braking system is
+further activated for an additional time. Id. at 57–67.
+4. Claim 1
+Claim 1 recites “at the end of the alert command, determining whether
+the alert signal was active for a threshold time.” As discussed in Section
+II.A., supra, we construe “alert command” as raw alert data that is used to
+generate an alert signal and “alert signal” as a visual or audio alert signal.
+Petitioner alleges that Pakett and Fujiki teach the limitation “at the end of the
+alert command, determining whether the alert signal was active for a
+threshold time.” We are not persuaded that either Pakett or Fujiki teach or
+suggest this limitation as properly construed.
+The cited portions of Pakett relied upon by Petitioner teach that a
+sample and hold circuit 23 outputs a signal to a low pass filter 27 that
+10
+
+IPR2015-00968
+Patent 5,714,927 B1
+removes high-frequency components. Pet. 20–21, 32; Ex. 1002 ¶ 14; Ex.
+1005, 5:14–31. Further, the cited portions of Pakett relied upon by
+Petitioner teach that the low pass filter 27 then outputs a signal to a square
+wave generator 29 that generates a square wave transition when an obstacle
+has been detected, which Petitioner maps to the limitation “at the end of the
+alert command, determining whether the alert signal was active for a
+threshold time” as recited in claim 1. Pet. 20–21, 32; Ex. 1002 ¶ 14; Ex.
+1005, 5:14–31; 5:37–39. We are not persuaded that Pakett’s sample and
+hold circuit 23, low pass filter 27, and square wave generator 29 teach or
+suggest “at the end of the alert command, determining whether the alert
+signal was active for a threshold time” (emphasis added).
+Petitioner additionally relies on another section of Pakett to map to the
+aforementioned limitation. Pet. 32–33. Specifically, the cited portions of
+Pakett relied upon by Petitioner teach when an obstacle is detected, a CPU
+34 waits a persistence period before responding to additional transitions,
+which Petitioner maps to the limitation “at the end of the alert command,
+determining whether the alert signal was active for a threshold time” as
+recited in claim 1. Pet. 32–33; Ex. 1002, ¶ 13; Ex. 1005, 6:43–56. We are
+not persuaded the cited portion of Pakett teaches or suggests “at the end of
+the alert command, determining whether the alert signal was active for a
+threshold time” (emphasis added) because Pakett states “[d]uring the
+persistence period, no warnings are sent to the driver indicators” (emphasis
+added). Ex. 1005, 6:43–56. Pakett merely teaches alert commands (e.g.,
+raw alert data that is used to generate an alert signal as construed in Section
+II.A., supra) being active during the persistence period because Pakett
+11
+
+IPR2015-00968
+Patent 5,714,927 B1
+teaches an alert signal (e.g., a visual or audio alert signal as construed in
+Section II.A., supra) cannot be active during the persistence period. Id.
+Petitioner also relies on Fujiki for teaching the limitation “at the end
+of the alert command, determining whether the alert signal was active for a
+threshold time” as recited in claim 1. The cited portions of Fujiki relied
+upon by Petitioner teach if the equations in stage 1 are satisfied, then the
+program goes to stage 2 and the braking system is activated and returns to
+START until the equations at stage 2 are no longer satisfied. Pet. 33; Ex.
+1006, 5:49–55. When the equations at stage 2 are no longer satisfied, the
+program proceeds to stage 3, and a determination is made whether the brake
+system has just been activated. Petitioner maps this teaching to the
+limitation “at the end of the alert command, determining whether the alert
+signal was active for a threshold time” as recited in claim 1. Pet. 33; Ex.
+1006, 5:55–57. We are not persuaded that determining whether a brake
+system has been activated, as disclosed in Fujiki, teaches or suggests “at the
+end of the alert command, determining whether the alert signal was active
+for a threshold time” as recited in claim 1 (emphasis added).
+5. The Combination of Bernhard, Pakett, and Fujiki
+Petitioner contends that the combination of Bernhard, Pakett, and
+Fujiki teaches all of the limitations of claims 1, 2, and 6 rendering the claims
+unpatentable under 35 U.S.C. § 103(a). Pet. 16–37. Petitioner argues “it
+was well known at the time the ’927 patent was filed to combine the features
+of the object detection systems of Pakett and Fujiki with the object detection
+systems used in Bernhard” for the following reasons:
+12
+
+IPR2015-00968
+Patent 5,714,927 B1
+[E]ach of Bernhard, Pakett, and Fujiki describe radar systems
+for detecting obstacles in the vicinity of a vehicle, and
+controlling warning systems to alert the driver to the presence
+of the detected obstacles.
+Id. at 37.
+Fujiki applies the same principles [as the ’927 patent] in
+sustaining the alert condition, i.e., sustaining the brakes, for a
+sustain time that varies as a function of relative vehicle speed.
+Id. at 38 (citing Ex. 1002 ¶¶ 16–18).
+It would have been obvious to modify radar-based object
+detection systems . . . such as described by Bernhard, with the
+sustained alerts of Pakett and Fujiki, and more particularly, the
+alert sustained as a function of relative vehicle speed of Fujiki,
+to ensure that the alert condition is only released under safe
+conditions.
+Id. at 39.
+Patent Owner argues that Petitioner’s assertion it would have been
+obvious to combine the references does not attempt to “explain why this is
+so and does not even articulate what the person of ordinary skill in the art
+would understand from the combination of references being proposed.”
+Prelim. Resp. 22. The Petition is said to “merely catalog[] the parts of the
+claims and attempt[s] to provide an index as to where those disparate parts
+may be found in the cited references.” Id. at 23. Patent Owner further
+argues that the combination of Bernhard, Pakett, and Fujiki would lead to a
+different result than the ’927 patent claims and, specifically
+result in a system in which a radar system (perhaps, for sake of
+argument, used to detect objects in a vehicle’s blind-spot) uses
+one or more techniques (e.g., measurements of Doppler shift as
+taught by Pakett) to detect objects in adjacent lanes and the like,
+and which employs a “persistence period” (as taught by Pakett)
+13
+
+IPR2015-00968
+Patent 5,714,927 B1
+during which no warnings are provided to a driver so as to filter
+out stationary objects or other objects deemed to be of no
+interest. After the expiration of a persistence period, the system
+would, if an alert indication has been activated, check to see
+whether or not the “warning has been on display for more than
+one second without being reactivated.” If so the system would
+cease displaying the warning. However, in all instances when
+an alert was displayed, regardless of how long it was displayed,
+the system would maintain the alert indication, as taught by
+Fujiki. Such a system is manifestly different from that recited
+in claim 1 of the ’927 Patent.
+Id. at 14–18 (footnotes and citations omitted).
+We agree with Patent Owner. An invention “composed of several
+elements is not proved obvious merely by demonstrating that each of its
+elements was, independently, known in the prior art.” KSR, 550 U.S. at 418.
+A determination of unpatentability on a ground of obviousness, must also
+include “‘articulated reasoning with some rational underpinning to support
+the legal conclusion of obviousness.’” Id. (quoting In re Kahn, 441 F.3d
+977, 988 (Fed. Cir. 2006)). The obviousness evaluation “should be made
+explicit,” and it “can be important to identify a reason that would have
+prompted a person of ordinary skill in the relevant field to combine the
+elements in the way the claimed new invention does.” Id.
+Rather than articulated reasoning with rational underpinnings as to
+why one of ordinary skill in the art would have looked to Bernhard and
+Pakett’s alerting system when an obstacle is detected in a blind spot with
+Fujiki’s braking system, Petitioner has provided only conclusory motivation
+contentions. Petitioner’s argument lacks any reason, absent impermissible
+hindsight, why one of ordinary skill in the art would have equated Fujiki’s
+14
+
+IPR2015-00968
+Patent 5,714,927 B1
+sustaining the brakes with Bernhard and Pakett’s sustaining an alert to arrive
+at the claimed invention. See, e.g., Pet. 38 (“Like the ’927 patent addresses
+this problem by sustaining the alert as a function of relative vehicle speed,
+Fujiki applies the same principles in sustaining the alert condition, i.e.,
+sustaining the brakes, for a sustain time that varies as a function of relative
+vehicle speed.”). As discussed in Sections II.C.1 and II.C.2., supra,
+Bernhard and Pakett each pertain to an alert system when obstacles are
+detected in blind spots. Fujiki, on the other hand, pertains to a braking
+system and does not mention or otherwise relate to blind spots.
+Accordingly, Petitioner’s rationale is premised on a “bare recitation of
+disparate claim elements scattered throughout multiple prior art references
+stitched together with flawed logic and unsound conclusions.” Prelim. Resp.
+23.
+Moreover, Pakett teaches if a displayed warning has been displayed
+for more than one second without reactivation, CPU 31 causes the warning
+to cease being displayed. Ex. 1005, 7:64–8:10. In contrast, Fujiki teaches a
+braking system that extends the braking time of a brake regardless of
+whether a threshold time has been reached. Ex. 1006, 5:52–67; Fig. 8.
+Pakett’s alert signal displaying for an additional one second is thus
+conditioned on receiving an activation signal one second earlier, whereas
+Fujiki extends the braking time of a brake regardless of any condition (e.g.,
+threshold time) being reached. Ex. 1005, 7:64–8:10; Ex. 1006, 5:52–67; Fig.
+8.
+Petitioner’s excerpts from Bernhard, Pakett, and Fujiki about radarsystems are generic and bear no relation to any specific combination of prior
+15
+
+IPR2015-00968
+Patent 5,714,927 B1
+art elements. Specifically, Petitioner “fails to explain why a person of
+ordinary skill in the art would have combined elements from specific
+references in the way the claimed invention does.” ActiveVideo Networks,
+Inc. v. Verizon Commc’ns, Inc., 694 F.3d 1312, 1328 (Fed. Cir. 2012).
+Thus, we are not persuaded that the Petition demonstrates a reasonable
+likelihood that Petitioner would prevail in establishing unpatentability of
+claims 1, 2, and 6.
+III. CONCLUSION
+For the foregoing reasons, we are not persuaded the information
+presented in the Petition establishes a reasonable likelihood that Petitioner
+would prevail in establishing unpatentability of claims 1, 2, and 6 as obvious
+over Bernhard, Pakett, and Fujiki.
+IV. ORDER
+For the foregoing reasons, it is
+ORDERED that the Petition is denied as to all challenged claims and
+no trial is instituted.
+
+16
+
+IPR2015-00968
+Patent 5,714,927 B1
+PETITIONER:
+Michael Lennon
+Clifford Ulrich
+Michelle Carniaux
+Kenyon & Kenyon LLP
+ptab@kenyon.com
+
+PATENT OWNER:
+Tarek Fahmi
+Ascenda Law Group, PC
+tarek.fahmi@ascendalaw.com
+
+17
+
+

@@ -1,0 +1,1094 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 55
+Entered: September 9, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+MOTOROLA MOBILITY LLC,
+Petitioner,
+v.
+INTELLECTUAL VENTURES I LLC,
+Patent Owner.
+____________
+Case IPR2014-00500
+Patent 5,790,793
+____________
+
+Before MICHAEL W. KIM, PATRICK R. SCANLON, and
+KRISTINA M. KALAN, Administrative Patent Judges.
+KALAN, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+Case IPR2014-00500
+Patent 5,790,793
+I. INTRODUCTION
+Motorola Mobility LLC (“Petitioner”) filed a Petition (“Pet.”) to
+institute an inter partes review of claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26,
+28, 30, 33–35, 37, 39, and 40 of U.S. Patent No. 5,790,793 (“the ’793
+patent”) pursuant to 35 U.S.C. § 311–319. Paper 4. Intellectual Ventures I
+LLC (“Patent Owner”) filed a Preliminary Response (“Prelim. Resp.”).
+Paper 7. We instituted trial on all challenged claims. Paper 12 (“Dec.”).
+During trial, Patent Owner filed a Patent Owner Response (Paper 21,
+“PO Resp.”), which was accompanied by a Declaration from Mark T. Jones,
+Ph.D. Ex. 2013. Petitioner filed a Reply to the Patent Owner Response.
+Paper 28 (“Pet. Reply”). A hearing for this proceeding was held on May 5,
+2015. A transcript of the hearing has been entered into the record. Paper 47
+(“Tr.”).
+We have jurisdiction under 35 U.S.C. § 6. This Final Written
+Decision is issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73.
+We determine that Petitioner has shown by a preponderance of the evidence
+that claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26, 28, 30, 33–35, 37, 39, and 40
+of the ’793 patent are unpatentable. Patent Owner’s Motion to Exclude
+(Paper 35) is dismissed-in-part and denied-in-part.
+A. Related Proceedings
+Petitioner represents that the ’793 patent has been asserted against it
+by Intellectual Ventures I LLC and Intellectual Ventures II LLC in
+Intellectual Ventures I LLC v. Motorola Mobility LLC, No. 0:13-cv-61358RSR (S.D. Fla.) (“the district court case”). Pet. 1–2; Ex. 1013.
+
+2
+
+Case IPR2014-00500
+Patent 5,790,793
+B. The ’793 Patent
+The ’793 patent relates to “a method and system for sending and
+receiving Uniform Resource Locators (URLs) in electronic mail over the
+Internet.” Ex. 1001, Abstract. Figure 4 of the ’793 patent is reproduced
+below.
+
+3
+
+Case IPR2014-00500
+Patent 5,790,793
+Figure 4 illustrates a flow chart which contains an exemplary process of
+the ’793 patent. Id. at 5:1–2.
+C. Illustrative Claims
+Of the challenged claims, claims 1, 10, 21, 30, and 39 are
+independent. Claim 1 is illustrative of the claims at issue:
+1. A method of communicating between computers, comprising
+the steps of:
+creating a message at a first computer, said message including a
+reference to a predetermined location;
+transmitting, by the first computer, said message to a second
+location; and
+receiving said message by a computer at the second location;
+decoding said message by the computer at the second location
+by retrieving data from the predetermined location,
+automatically by a single application, without requiring user
+interaction, into the computer at the second location.
+Ex. 1001, 9:3–15.
+D. Prior Art Supporting Instituted Unpatentability Grounds
+Payne
+
+U.S. 5,715,314
+
+Feb. 3, 1998
+
+(Ex. 1007)
+
+Steve Putz, Interactive Information Services Using World-Wide Web
+Hypertext, Xerox Palo Alto Research Center (April 20, 1994) (Ex. 1011).
+Steve Putz, Interactive Information Services Using World-Wide Web
+Hypertext, Computer Networks and ISDN Systems 27 (1994) 273–280
+(Ex. 1012).1
+
+1
+
+Petitioner represents that Putz (Ex. 1011) was reprinted at a later date, and
+submits the reprint as Ex. 1012. Pet. 4. Petitioner also represents that “these
+references [Ex. 1011 and Ex. 1012] have the same disclosure, in different
+formats.” Id. at 29. In our discussion of Putz, we refer to Exhibit 1011.
+
+4
+
+Case IPR2014-00500
+Patent 5,790,793
+E. Instituted Unpatentability Grounds
+We instituted an inter partes review of claims 1, 4–6, 8, 10, 13–15,
+17, 21, 24–26, 28, 30, 33–35, 37, 39, and 40 of the ’793 patent on the
+following grounds. Dec. 24.
+Reference(s)
+Payne
+
+Basis
+§ 102(e)
+
+Putz
+
+§ 102(a)
+
+Claims Challenged
+1, 4–6, 8, 10, 13–15, 17, 21, 24–26,
+28, 30, 33–35, 37, 39, 40
+1, 4–6, 8, 10, 13–15, 17, 21, 24–26,
+28, 30, 33–35, 37, 39, 40
+
+II. ANALYSIS
+A. Claim Construction
+The Board interprets claims in an unexpired patent using the broadest
+reasonable construction in light of the specification of the patent in which
+they appear. 37 C.F.R. § 42.100(b); In re Cuozzo Speed Techs., LLC, 793
+F.3d 1268, 1277–79 (Fed. Cir. 2015), reh’g en banc denied, 2015 WL
+4100060 (Fed. Cir. July 8, 2015); see also Office Patent Trial Practice
+Guide, 77 Fed. Reg. 48756, 48766 (Aug. 14, 2012). Under that
+construction, claim terms are given their ordinary and customary meaning,
+as would be understood by one of ordinary skill in the art in the context of
+the entire patent disclosure. In re Translogic Tech., Inc., 504 F.3d 1249,
+1257 (Fed. Cir. 2007).
+Both parties present their claim construction arguments under the
+broadest reasonable interpretation standard. PO Resp. 6; Pet. Reply 1.
+Although neither party has noted the expiration date of the ’793 patent, it
+appears that the ’793 patent expired on August 4, 2015. We construe
+expired patent claims according to the standard applied by the district courts.
+See In re Rambus, Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). Specifically, we
+5
+
+Case IPR2014-00500
+Patent 5,790,793
+apply the principles set forth in Phillips v. AWH Corp., 415 F.3d 1303, 1312
+(Fed. Cir. 2005).
+Claim terms generally are given their ordinary and customary
+meaning, unless it appears from the specification or the file history that they
+were used differently by the inventor, in a clear, deliberate, and precise
+manner. In re Paulsen, 30 F.3d 1475, 1480 (Fed. Cir. 1994). Prosecution
+history disclaimers, like lexicographic meanings, must be clear and
+unambiguous: “[W]hile the prosecution history can inform whether the
+inventor limited the claim scope in the course of prosecution, it often
+produces ambiguities created by ongoing negotiations between the inventor
+and the PTO. Therefore, the doctrine of prosecution disclaimer only applies
+to unambiguous disavowals.” Grober v. Mako Prods., Inc., 686 F.3d 1335,
+1341 (Fed. Cir. 2012) (citing Abbott Labs. v. Sandoz, Inc., 566 F.3d 1282,
+1289 (Fed. Cir. 2009)). Disavowal must be “unmistakable” and
+“unambiguous.” Dealertrack, Inc. v. Huber, 674 F.3d 1315, 1322 (Fed. Cir.
+2013).
+In its Response, Patent Owner proposes that the term “by the first
+computer” in claims 1 and 21 be construed as “at the discretion of the first
+computer.” PO Resp. 8. Patent Owner proposes similar constructions for
+the term “by a computer at the first location” in claims 10 and 30 (“at the
+discretion of the computer at the first location”) and the term “computer for
+transmitting” in claim 39 (“computer for transmitting at its own discretion”).
+Id. Patent Owner argues that the Specification “distinguishes prior-art pull
+communications from inventive push communications,” and that the proper
+interpretation of the foregoing terms, therefore, “should reflect the nature of
+the inventive push communications” described in the Specification. Id. at 7–
+
+6
+
+Case IPR2014-00500
+Patent 5,790,793
+8 (citing Ex. 2013 ¶¶ 26, 28). Patent Owner argues further that the
+prosecution history supports its construction, because there is a clear and
+unmistakable disavowal of anything related to “pull” communications. Id.
+at 6–7.
+Petitioner argues that “no evidence supports giving ‘by’ anything but
+its plain and ordinary meaning.” Pet. Reply 4; Tr. 8:8–9. Petitioner further
+argues that the Specification’s only disclosed embodiment, POP3, is a “pull”
+system rather than a “push” system, which contravenes Patent Owner’s
+argument that the Specification only describes “push” functions in
+conjunction with the claimed invention. Pet. Reply 4–5. Concerning
+disavowal, Petitioner responds that disavowal must be clear and
+unmistakable, and there is no disavowal where an applicant’s statements are
+amenable to multiple reasonable interpretations. Reply 2–3; Tr. 12:10–17.
+Petitioner argues that the alleged disavowal was unrelated to the “by,” in that
+the amendment in the prosecution history was to the decoding step (rather
+than the transmitting step). Tr. 59:10–15. Petitioner further argues that
+Patent Owner’s uncertainty as to why the Examiner used the word
+“discretion” is “anything but clear disavowal.” Id. at 59:16–60:4.
+We are unpersuaded that the “by” terms identified by Patent Owner
+should be accorded anything other than their ordinary and customary
+meaning, which in the context of the relevant claim limitations, is a
+computer’s performance of a given action. Regarding Patent Owner’s
+arguments concerning the Specification, Patent Owner concedes that the
+term “discretion” appears neither in the claims nor in the Specification. Tr.
+43:22–25. Instead, Patent Owner would have us infer “discretion” based on
+an allegedly clear and unmistakable disavowal of “pull” communications in
+
+7
+
+Case IPR2014-00500
+Patent 5,790,793
+the Specification. As an initial matter, we are unpersuaded that there is a
+sufficiently definitive relationship between “pull” communications and
+“discretion” to infer that a disavowal of “pull” communications requires the
+inclusion of the term “discretion” in a proper construction of “by.”
+Moreover, we are unpersuaded that disclosure of exemplary “pull”
+communications in the Background section and use of “push”
+communications in a non-limiting embodiment of the Specification, without
+more, constitutes a clear and unmistakable disavowal of “pull”
+communications, especially where the referenced embodiment in the
+Specification actually may refer to “pull” communications.
+Moreover, we do not find sufficient evidentiary support for Patent
+Owner’s assertion that a proper interpretation of the “by” terms “should
+reflect the nature of the inventive push communications described in the
+specification.” PO Resp. 8. Although Patent Owner’s expert opines that
+Patent Owner’s proposed construction “properly reflect[s] the applicant’s
+and the Office’s mutual understanding” (Ex. 2013 ¶ 28), he further testifies
+that in his experience he does not recall using (or not using) or hearing
+someone else using the term “discretion” to describe what a computer does.
+Ex. 1032, 43:12–22. Petitioner’s expert, conversely, opines that the
+“concept of a computer transmitting at its own discretion, or creating a
+message at its own discretion have no meaning in or currency in computer
+engineering.” Ex. 1030 ¶ 17. We credit Petitioner’s expert that a person of
+ordinary skill in the art would understand “by” to describe, generally, a
+computer’s performance of an action. Pet. Reply 1–2 (citing Ex. 1030 ¶ 16).
+To be sure, the word “discretion” does appear in the prosecution
+history. Patent Owner, however, points to no persuasive evidence in the
+
+8
+
+Case IPR2014-00500
+Patent 5,790,793
+prosecution history or elsewhere supporting its assertion that the “by” terms
+identified above should be limited to actions taken at the relevant computer’s
+“discretion.” Patent Owner characterizes the word “discretion” as being
+“used by the examiner to restate his . . . understanding of the push concept.”
+Tr. 46:13–14. We have no further insight on this record, however, into the
+Examiner’s reasoning or what the Examiner meant by using the word
+“discretion.” Moreover, because Patent Owner did not respond to the
+Examiner’s “discretion” comment during prosecution, the connection
+between the proposed “by” construction, the push concept, and the use of the
+word “discretion” is tenuous at best, and certainly not clear and
+unmistakable, as required for any determination of disavowal.
+The term “by” occurs throughout independent claims 1, 10, 21, and
+30, referring to actions not only by the first computer, but also by the second
+computer or by a single application. In each case the term “by” indicates a
+computer or application simply performing the action indicated, whether it
+be transmitting a message, receiving a message, or decoding a message.
+Tr. 10:21–22. Patent Owner has proffered a push/pull explanation as to why
+the term “by” should be construed as Patent Owner proposes, but has not
+explained persuasively why we should treat “by” as it relates to actions by
+the first computer any differently than “by” as it is used elsewhere in the
+claims. Thus, we determine that the “by” terms identified by Patent Owner
+do not require “discretion,” and instead indicate a computer’s performance
+of a given action without further limitation. We note that we would reach
+this conclusion under both the broadest reasonable interpretation standard
+and the standard applied by the district courts.
+
+9
+
+Case IPR2014-00500
+Patent 5,790,793
+In the Decision to Institute, we determined that the term “displaying
+the message and the data from the predetermined location” did not require
+express construction. Dec. 12–13. Regarding the “means” terms, Petitioner
+in its Petition proposed that the several terms containing “means” in claims
+21 and 28 qualify as terms under 36 U.S.C. § 112, sixth paragraph.2 Pet. 6–
+7. We determined that the various “means” terms of claim 21 and 28 were
+means-plus-function elements under § 112, ¶ 6, and adopted Petitioner’s
+construction of the terms “means for creating,” “means for transmitting,”
+“means for receiving,” and “means . . . for decoding,” and Patent Owner’s
+construction of “means for displaying.” Dec. 12. Neither party now
+proposes a different construction of these terms. We note that, in the
+Petition and Preliminary Response, the parties represented that the “means”
+terms constructions proposed to the Board were also proposed and agreed
+upon in the district court case. Pet. 6; Prelim. Resp. 6–7. We have reviewed
+our analysis in the Decision to Institute, and have determined, on the record
+presently before us, that application of the district court standard does not
+change our construction of the various terms reciting “means” set forth in
+the Decision to Institute. Dec. 9–12. Based on the complete record now
+before us, we see no reason to alter our earlier constructions, and maintain
+these constructions for this Final Written Decision.
+
+2
+
+Section 4(c) of the Leahy-Smith America Invents Act, Pub. L. No. 11229,
+125 Stat. 284 (2011) (“AIA”) re-designated 35 U.S.C. § 112, ¶ 6, as
+35 U.S.C. § 112(f). Because the ’793 patent has a filing date prior to
+September 16, 2012, the effective date of § 4(c) of the AIA, we refer to the
+pre-AIA version of 35 U.S.C. § 112.
+
+10
+
+Case IPR2014-00500
+Patent 5,790,793
+B. Alleged Anticipation of Claims 1, 4–6, 8, 10, 13-15, 17, 21, 24–26, 28, 30,
+33–35, 37,39, and 40 Under 35 U.S.C. § 102(e), Based on Payne
+We have reviewed the Petition, the Patent Owner Response, and
+Petitioner’s Reply, as well as the relevant evidence discussed in those
+papers. Petitioner asserts that claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26, 28,
+30, 33–35, 37, 39, and 40 are unpatentable under 35 U.S.C. § 102(e) as
+anticipated by Payne. Pet. 13–28. Petitioner refers to Ex. 1014 (Declaration
+of Peter Alexander, Ph.D.) to support its anticipation arguments. Id.
+Payne discloses a network-based sales system including at least one
+buyer computer for operation by a user desiring to buy a product, at least one
+merchant computer, and at least one payment computer. Ex. 1007, Abstract.
+Figure 1 of Payne is reproduced below:
+
+Figure 1 shows a block diagram of a network sales system. Id. at
+3:59–60.
+(i)
+
+Independent Claims 1 and 10
+
+Petitioner argues that Payne discloses a method for communicating
+between computers, as recited in claim 1, including two embodiments of
+
+11
+
+Case IPR2014-00500
+Patent 5,790,793
+creating a message at a first computer, said message including a reference to
+a predetermined location, and transmitting, by the first computer, said
+message to a second location. Pet. 15 (citing Ex. 1007, 4:35–45). Petitioner
+argues that in the first embodiment, the first computer is the payment
+computer, the message includes an access URL, and the payment computer
+sends a message to the buyer computer. Petitioner argues that in the second
+embodiment, the first computer is the merchant computer, the message
+includes payment URL A, and the merchant computer sends a message to
+the buyer computer. Id. at 16–20.
+Petitioner further argues that Payne discloses two embodiments of
+receiving said message by a computer at the second location and decoding
+said message by the computer at the second location, as recited in claim 1.
+Petitioner argues that in the first embodiment, the buyer computer receives
+the message sent by the payment computer, automatically decodes the URL,
+and retrieves a “fulfillment document.” Pet. 20–22. Petitioner argues that in
+the second embodiment, the buyer computer receives the message sent by
+the merchant computer, automatically decodes the URL, and retrieves a
+“confirmation document.” Id. Petitioner argues that Payne discloses
+decoding of URLs to retrieve data from a predetermined location, in that the
+URLs are transmitted in standard HTTP requests and in HTTP redirect
+responses, and Payne uses standard HTTP protocol methodology for
+redirecting an HTTP request automatically to a different URL. Pet. 13–14
+(citing Ex. 1014 ¶¶ 64–67).
+Petitioner argues that independent claim 10 and its dependent claims
+have essentially the same limitations as claim 1 and its dependent claims and
+
+12
+
+Case IPR2014-00500
+Patent 5,790,793
+that, therefore, “Payne anticipates these claims in the same manner as
+described in the charts for claims 1, 4, 5, 6, and 8 above.” Pet. 26.
+Patent Owner, in its Response, argues generally that Payne does not
+anticipate the aforementioned claims under either the first embodiment or
+“primary embodiment” theory, or the second embodiment or “alternate
+embodiment” theory. PO Resp. 17, 34. Patent Owner argues that “[t]he
+alternate embodiment theory is a mere variation of the pull communications
+of the primary embodiment theory.” Id. at 34.
+Concerning the transmitting step, Patent Owner argues that the HTTP
+message in the first embodiment of Payne is not transmitted or “pushed” by
+the payment computer at the payment computer’s discretion, relying on
+Patent Owner’s proffered construction of the term “by a first computer,”
+which requires that the first computer “push” a message to the second
+location. Id. at 19. Patent Owner argues similarly that the HTTP message in
+the second embodiment is not transmitted at the merchant computer’s
+discretion. Id. at 34. Patent Owner notes that Petitioner’s expert doesn’t
+remember Payne “having anything that one of ordinary skill in the art would
+understand to be a push system.” Ex. 2019, 64:8–16; Tr. 48:6–8.
+Petitioner responds that “Patent Owner’s sole argument that this
+[transmitting] limitation is not disclosed relies on its proposed claim
+construction for ‘by,’ which as explained above, is incorrect.” Pet. Reply 6.
+We have not adopted Patent Owner’s construction of the term “by,” as
+discussed supra. Thus, there is no requirement that the transmitting action
+be taken at the “discretion” of the first computer. Independent claims 1 and
+10 require only that the action of transmitting the first message be done by
+the first computer. The payment computer of Payne in the first embodiment
+
+13
+
+Case IPR2014-00500
+Patent 5,790,793
+sends the first message. Ex. 1007, 7:31–39 (“The payment computer then
+sends a redirect to access URL to the buyer computer (step 90), which sends
+the access URL to the merchant computer (step 92).”); Pet. 19–20, 26. The
+merchant computer of Payne in the second embodiment sends the first
+message. Ex. 1007, 5:48–53 (“merchant computer provides payment VRL
+A to the buyer computer in response to the purchase product message.”);
+Pet. 20; 26. Therefore, we determine that the transmitting limitation is
+anticipated by Payne.
+With respect to the decoding step in the first embodiment and in the
+second embodiment, Patent Owner argues that the buyer computer does not
+“decode” the HTTP message automatically, without requiring user
+interaction. PO Resp. 19, 35. Patent Owner takes the position that the user
+at the buyer computer controls the purchase process and repeatedly requests
+action by the merchant computer (in the first embodiment) or requests action
+by the payment computer (in the second embodiment). PO Resp. 21, 37.
+Although Patent Owner agrees that Payne sends a redirect, Patent Owner
+argues that Petitioner’s reliance on extrinsic evidence to show how a redirect
+works is flawed, in that the extrinsic evidence (RFC 1945 (Ex. 1019)) does
+not antedate the critical date. Id. at 21–22, 38. Patent Owner also argues
+that Payne does not disclose that the redirect operation is automatic, because
+some embodiments of Payne require user interaction, which purportedly
+defeats Petitioner’s inherency argument. Tr. 50:9–51:12.
+Petitioner disputes Patent Owner’s contention that Payne requires user
+interaction for the buyer computer to perform the decoding step, either in the
+primary embodiment or in the alternate embodiment. Pet. Reply 6–7.
+Petitioner asserts that any user interaction steps occur before or after the
+
+14
+
+Case IPR2014-00500
+Patent 5,790,793
+steps recited in the claim, and therefore that Patent Owner’s contentions are
+irrelevant. Id. at 7. Petitioner also argues that Payne discloses “automatic
+(without user interaction) redirection of a web browser based on a standard
+HTTP request message that includes a URL (such as the access URL).” Id.
+With respect to the decoding step in the first embodiment, we find that
+the buyer computer of Payne decodes the message without user interaction,
+sending the access URL to the merchant computer to retrieve the fulfillment
+document. Ex. 1007, 7:46–50 (“the merchant computer verifies that the
+buyer computer network address is the same as the buyer network address in
+the access URL (step 101), and if so, sends a fulfillment document to the
+buyer computer (step 102), which is displayed by the buyer computer (step
+104)”), Figs. 2H, 10. With respect to the decoding step in the second
+embodiment, we find that the buyer computer sends the payment URL to the
+payment computer to automatically retrieve the confirmation document. Id.
+at 5:53–60 (“buyer computer then sends the payment URL A it has received
+from the merchant computer to the payment computer.”), id. at 6:5–14
+(“payment computer sends a payment confirmation document to the buyer
+computer,”), Fig. 6 (showing an example of the confirmation document), id.
+at 4:7–9.
+We are persuaded by Petitioner’s arguments and evidence, supported
+by Dr. Alexander’s testimony, that the redirection of a web browser based
+on a standard HTTP request message including a URL disclosed in Payne is
+automatic. Tr. 28:2–9. In discussing HTTP protocol methodology as it
+relates to Payne, Dr. Alexander states that the “HTTP protocol is described
+in various Internet RFCs.” Ex. 1014 ¶¶ 65–66. As an example, he relies on,
+and cites in a footnote, a March 1995 publication describing the HTTP
+
+15
+
+Case IPR2014-00500
+Patent 5,790,793
+protocol, to establish the knowledge of one of ordinary skill in the art at the
+time of the invention. Id. at ¶66; Pet. 14. Patent Owner objects to Dr.
+Alexander’s reliance on the March 1995 publication, on the ground that the
+first page of Exhibit 1019, a later version of the March 1995 publication
+submitted by Petitioner with its Petition, shows a date of May 1996. PO
+Resp. 21–22, 38. Patent Owner’s objection, however, does not account
+properly for the express reliance by Dr. Alexander on the March 1995
+publication referenced in his declaration. Ex. 1014 ¶ 66 n.4. We can accord
+appropriate weight to an expert’s testimony, taking into account the expert’s
+understanding of the level of skill in the art at the time of the invention, and
+the later submission of the March 1995 publication as Exhibit 1036. See,
+e.g., Yorkey v. Diab, 601 F.3d 1279, 1284 (Fed. Cir. 2010) (holding the
+Board has discretion to give more weight to one item of evidence over
+another “unless no reasonable trier of fact could have done so”); In re Am.
+Acad. of Sci. Tech Ctr., 367 F.3d 1359, 1368 (Fed. Cir. 2004) (“[T]he Board
+is entitled to weigh the declarations and conclude that the lack of factual
+corroboration warrants discounting the opinions expressed in the
+declarations.”). Moreover, given the “comprising” construction of claims 1
+and 10, the method may include additional steps before and after the
+disputed steps, but whether those additional steps require user interaction
+does not change our analysis of the steps at issue in claims 1 and 10. See
+Invitrogen Corp. v. Biocrest Mfg., L.P., 327 F.3d 1364, 1368 (Fed. Cir.
+2003).
+On this record, we are persuaded by Petitioner’s arguments that
+Payne, by a preponderance of the evidence, anticipates claims 1 and 10 of
+the ’793 patent.
+
+16
+
+Case IPR2014-00500
+Patent 5,790,793
+(ii)
+
+Independent Claims 21 and 30
+
+Independent Claims 21 and 30 are means-plus-function claims.
+Petitioner argues that independent claims 21 and 30 and their respective
+disputed dependent claims “have essentially the same limitations as Claims
+1, 4, 5, 6, and 8” and that, therefore “Payne anticipates these claims in the
+same manner as described in the charts for claims 1, 4, 5, 6, and 8 above.”
+Pet. 25 (citation and footnote omitted).
+Patent Owner argues that the Petition “suffers from a complete failure
+of proof for claims 21 and 30” in that (a) Payne does not disclose the
+transmitting means of claim 21 or the corresponding structure, and that the
+payment/merchant computer sends the HTTP message to the buyer computer
+directly, not via a server; (b) the HTTP message with the access URL in
+claims 21 and 30 is not created or transmitted at the payment/merchant
+computer’s discretion (relying on its earlier claim construction arguments);
+and (c) Payne does not disclose the decoding means of claims 21 and 30,
+because the Petition does not explain how Payne discloses the corresponding
+structure of the decoding means. PO Resp. 22–29 (first embodiment), 38–43
+(second embodiment).
+Petitioner identified, and we construed, the transmitting means’
+corresponding structure as including Step 404 (TRANSMIT DOCUMENT
+VIA ELECTRONIC MAIL OR OTHER SERVER). Pet. 6–7; Dec. 11–12.
+Petitioner responds that (a) Payne discloses the transmitting means of claim
+21 and its corresponding structure, in that the HTTP message with the access
+URL is transmitted via a payment computer (first embodiment) or merchant
+computer (second embodiment): “In other words, the ‘payment computer’
+(primary) or the ‘merchant computer’ (alternate) is the ‘other server.’” Pet.
+
+17
+
+Case IPR2014-00500
+Patent 5,790,793
+Reply 8–9 (citing Pet. 19–20, 26; Ex. 1007, 5:48–53, 7:31–39, Fig. 2G.).
+We are persuaded by Petitioner’s arguments that the structure identified in
+the ’793 patent is found in Payne. Use of the term “via” in step 404 does not
+require an additional step or structure in the transmission process. See also
+Step 406 (RECEIVE DOCUMENT VIA ELECTRONIC MAIL OR OTHER
+MEANS). In this case, “via” means that the document can be sent by a
+server such as the payment computer or the merchant computer.
+Patent Owner’s arguments for its point (b) rely on its proposed
+construction of the terms “by the first computer” in claim 21 and “by a
+transmitting computer at a first location” in claim 30. We have considered
+and discussed the proposed constructions, and for substantially the reasons
+given above, are not persuaded by Patent Owner’s arguments on this point.
+Petitioner identified, and we construed, the decoding means’
+corresponding structure as including Step 408 (WHAT IS THE
+DOCUMENT TYPE). Pet. 7; Dec. 11–12. Patent Owner’s argument (c) is
+that because Payne’s HTTP message is always the same type of message,
+Payne’s computers need not and likely do not determine whether the
+message could be another type. PO Resp. 27, 41. Payne states that “in
+preferred embodiments the URL is sent in a standard HTTP request
+message,” and also allows that a URL message may be specified as a
+redirection. Ex. 1007, 9:51–54. Petitioner responds that the examination of
+redirect commands is an examination of the document type. Pet. Reply 9.
+Petitioner further argues that Payne’s access URL could be one of many
+other messages capable of being sent via standard HTTP protocol. Id. at 9–
+10. We are not persuaded by Patent Owner’s speculation that Payne’s
+computers “need not and likely do not” determine the document type. PO
+
+18
+
+Case IPR2014-00500
+Patent 5,790,793
+Resp. 27, 41. In determining whether the message is one type or another, we
+find that the decoding means would need to examine the document type.
+On this record, we are persuaded by Petitioner’s arguments that
+Payne, by a preponderance of the evidence, anticipates claims 21 and 30 of
+the ’793 patent.
+(iii)
+
+Independent Claim 39
+
+Patent Owner refers to and relies on its earlier arguments for claims
+21 and 30 to argue that claim 39 is not anticipated, because (a) the HTTP
+message with the access URL is not transmitted at the payment/merchant
+computer’s discretion, (b) Payne does not disclose examining a type of the
+message, and (c) Payne does not disclose the transmitting means. PO Resp.
+29–30, 43–44.
+For the same reasons given above, we are not persuaded by Patent
+Owner’s arguments. On this record, we are persuaded that Petitioner has
+demonstrated by a preponderance of the evidence that Payne discloses the
+limitations of claims 39.
+(iv)
+
+Dependent Claims 5, 14, 25, and 34
+
+Patent Owner argues that claims 5, 14, 25, and 34 are not anticipated
+by Payne, because Payne does not automatically retrieve data “without the
+user requesting the retrieval of the data corresponding to the URL.” PO
+Resp. 30, 44. Specifically, Patent Owner argues that Payne’s user at the
+buyer computer explicitly requests the retrieval of the fulfillment document
+associated with the access URL, at least twice, and retrieval of the
+confirmation document. Id. Petitioner responds that Patent Owner’s
+argument “focuses only on irrelevant steps that occur before or after the
+steps recited in the claims.” Reply 10. We are persuaded by Petitioner’s
+
+19
+
+Case IPR2014-00500
+Patent 5,790,793
+earlier arguments that the computer automatically takes the steps required by
+claims 5, 14, 25, and 34, without user interaction. Moreover, given the
+“comprising” construction of claims 5, 14, 25, and 34, the method may
+include additional steps before and after the disputed steps, but whether
+those additional steps require user interaction does not change our analysis
+of the steps at issue.
+On this record, we are persuaded by Petitioner’s arguments that
+Payne, by a preponderance of the evidence, anticipates claims 5, 14, 25, and
+34 of the ’793 patent.
+(v)
+
+Dependent Claims 8, 17, 28, and 37
+
+Patent Owner argues that claims 8, 17, 28, and 37, which recite
+additional limitations for “display,” are not anticipated by Payne, because
+Payne does not display any part of the HTTP message from the payment
+computer to the buyer computer (first embodiment) or from the merchant
+computer to the buyer computer (second embodiment). PO Resp. 32, 47.
+We agree with Petitioner that Payne discloses displaying the message.
+Figure 10 of Payne is “a screen snapshot of a fulfillment document that the
+merchant computer sends to the buyer computer,” as in Petitioner’s proposed
+first embodiment. Ex. 1007, 4:20–21. Figure 6 of Payne is “a screen
+snapshot of a confirmation document that the payment computer sends to the
+buyer computer,” as in Petitioner’s proposed second embodiment. Id. at
+4:7–8. Figures 6 and 10 clearly indicate display of a URL in a field
+denominated “Document URL”. Dr. Alexander testifies that “the browser
+URL field designated “Document URL” in Figure 10 is the access URL––
+representing a message that was sent from the merchant computer to the
+buyer computer.” Ex. 1014, 42. He further testifies that in the alternate
+
+20
+
+Case IPR2014-00500
+Patent 5,790,793
+embodiment, the “‘Document URL’ in Fig. 6 is the payment URL.” Id. at
+45. We agree with Petitioner that in Figure 10 of Payne, the Document URL
+is consistent with the Access URL (the message in the first embodiment),
+and in Figure 6 of Payne, the Document URL is consistent with the Payment
+URL (the message in the second embodiment). Pet. Reply 10–11.
+On this record, we are persuaded by Petitioner’s arguments that
+Payne, by a preponderance of the evidence, anticipates claims 8, 17, 28, and
+37 of the ’793 patent.
+(vi)
+
+Appendix E
+
+Patent Owner argues that Exhibit 1008 (“Appendix E”) was not part
+of Payne’s application, and is not part of Payne for the purposes of § 102(e).
+PO Resp. 9–15. In our Decision to Institute, we stated that our reasons for
+instituting rely on portions of Payne’s specification cited by Petitioner, not
+on Appendix E. Dec. 17. Here, we find similarly that our reasons for
+reaching our determination do not rely on Appendix E. Accordingly, for
+purposes of this final decision, we need not reach the merits of Patent
+Owner’s arguments regarding Appendix E.
+(vii) Conclusion
+Based on the information presented, Petitioner has demonstrated by a
+preponderance of the evidence that challenged claims 1, 4–6, 8, 10, 13–15,
+17, 21, 24–26, 28, 30, 33–35, 37, 39, and 40 are unpatentable as anticipated
+by Payne.
+
+21
+
+Case IPR2014-00500
+Patent 5,790,793
+D.
+Alleged Anticipation of Claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26,
+28, 30, 33–35, 37, 39, and 40 Under 35 U.S.C. § 102(a), Based on Putz
+Petitioner asserts that claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26, 28,
+30, 33–35, 37, 39, and 40 are unpatentable under 35 U.S.C. § 102(a) as
+anticipated by Putz. Pet. 29–40.
+Putz discloses certain interactive World-Wide Web servers that
+produce information displays and documents dynamically, rather than just
+providing access to static files. Ex. 1011, 1. Putz gives examples such as
+the PARC Map Viewer, which uses a geographic database to create and
+display maps of any part of the world on demand, and the Digital Tradition
+folk music server, which provides access to a large database of song lyrics
+and melodies. Id.
+The first unnumbered figure of Putz (“Figure 1”) is reproduced below:
+
+Putz’s Figure 1 shows an overview of the system described by Putz. Id. at 2.
+(i) Putz as Prior Art
+Patent Owner contends that the Petition does not establish that the
+Putz references are printed publications that are prior art under § 102(a). PO
+Resp. 13–14. Patent Owner argues that its own evidence, i.e., a Section 131
+affidavit filed in the subject patent’s original prosecution indicating
+conception prior to December 20, 1994, supports a conclusion that Putz is
+not prior art. Id. at 14. As we noted in our Decision to Institute, the earliest
+
+22
+
+Case IPR2014-00500
+Patent 5,790,793
+date mentioned in the Section 131 affidavit was November 24, 1994.
+Dec. 22–23.
+Petitioner responds that Putz is prior art, by virtue of at least its
+inclusion in a publication distributed to at least 380 attendees of the First
+International Conference on the World-Wide Web which took place on May
+25–27, 1994. Pet. Reply 11 (citing Ex. 1028, 2–3). Petitioner also relies on
+Putz’s public availability on the First International Conference on WorldWide Web website by at least mid-June 1994. Id. at 11–12 (citing Ex. 1023,
+3–5). Finally, Petitioner relies on the testimony of Steve Putz, stating that
+Putz is prior art and qualifies as a printed publication, to support its
+argument. Id. at 12 (citing Ex. 1023, Ex. 1028).
+Although the ultimate determination of whether a document is a
+printed publication is a question of law, it is a question that is closely based
+on the underlying facts and circumstances surrounding the disclosure of a
+document to members of the public. Suffolk Techs., LLC v. AOL Inc., 752
+F.3d 1358, 1364 (Fed. Cir. 2014); SRI Int’l, Inc. v. Internet Sec. Sys., Inc.,
+511 F.3d 1186, 1192 (Fed. Cir. 2008); In re Klopfenstein, 380 F.3d 1345,
+1350 (Fed. Cir. 2004). Public accessibility is a key question in determining
+whether a document is a printed publication and is determined on a case-bycase basis. Suffolk Techs., 752 F.3d at 1364. To qualify as a printed
+publication, a document “must have been sufficiently accessible to the
+public interested in the art.” In re Lister, 583 F.3d 1307, 1311 (Fed. Cir.
+2009).
+“A given reference is ‘publicly accessible’ upon a satisfactory
+showing that such document has been disseminated or otherwise made
+available to the extent that persons interested and ordinarily skilled in the
+
+23
+
+Case IPR2014-00500
+Patent 5,790,793
+subject matter or art exercising reasonable diligence, can locate it.” SRI
+Int’l, 511 F.3d at 1194 (quoting Bruckelmyer v. Ground Heaters, Inc., 445
+F.3d 1374, 1378 (Fed. Cir. 2006)).
+Putz, on its face, has a date of April 20, 1994. Ex. 1011, 1. Putz also
+indicates, in its front-page footer, that the document was “[p]repared for the
+First International Conference on World-Wide Web, May 25–27, in Geneva,
+Switzerland.” Id. Petitioner states that Putz was “presented at the First
+International Conference on the World-Wide Web, held at CERN in Geneva,
+Switzerland, in May, 1994.” See http://www94.web.cern.ch/WWW94/
+Welcome.html.” Pet. 3–4. Petitioner also cites to a “list of the formal
+presentations given at the conference, which references” Putz. Id. at 4
+(citing http://www94.web.cern.ch/WWW94/PrelimProcs.html). Petitioner
+submitted copies of these cited webpages with the Petition as Exhibit 1006.3
+Id.
+Exhibit 1006, which on its face denotes that the aforementioned
+webpage was accessed on August 30, 2013, indicates that the
+abovementioned conference took place on May 25–27, 1994, and that “[t]his
+page remains of interest as a report and as pointer to the next ones.”
+Ex. 1006, 1. It also states that the “three days in Geneva were attended by
+380 participants from all over the world.” Id. The page indicates that the
+“proceedings will be published in two forms, and until then, the preliminary
+proceedings [linked] are available for inspection.” Id. On the linked
+“Preliminary Proceedings” page, which includes links “to the PostScript
+files as submitted,” Putz appears as item 38. Id. at 2, 6.
+3
+
+Patent Owner objected to Exhibit 1006 (Exhibit 2020, 2), but did not make
+it a part of its Motion to Exclude.
+
+24
+
+Case IPR2014-00500
+Patent 5,790,793
+The evidence submitted with the Petition supports that Putz was
+delivered orally at the First International Conference on the World-Wide
+Web held on May 25–27, 1994. See Mass. Inst. of Tech. v. AB Fortia, 774
+F.2d 1104, 1109 (Fed. Cir. 1985) (holding that a paper delivered orally at a
+conference attended by 50–500 people, and later distributed to at least six
+people, was a printed publication). The “List of PostScript files for the
+WWW94 advance proceedings” includes a link to Putz, illustrating that the
+linked document was disseminated or otherwise made available to the extent
+that persons interested and ordinarily skilled in the subject matter or art
+exercising reasonable diligence could locate it.
+Mr. Putz’s testimony, which we find credible, confirms that he gave
+an oral presentation of the material contained in Exhibit 1011 at the
+conference. Ex. 1023 ¶ 8, Ex. 1028 ¶ 4. According to Mr. Putz, he visited
+the conference webpage no later than mid-June 1994 and downloaded a copy
+of his document; he states that the webpage “currently is in the same
+condition, with the same contents, as I remember it being in when I accessed
+it.” Ex. 1023 ¶¶ 14–15. See Thompson v. Bank of Am. N.A., 783 F.3d 1022,
+1027 & n.9 (5th Cir. 2015) (citing Osborn v. Butler, 712 F. Supp. 2d 1134,
+1146–47 (D. Idaho 2010)). Finally, Mr. Putz confirms that all attendees of
+the conference were given a copy of “Advance Proceedings,” which
+included copies of the articles presented at the conference. Ex. 1028 ¶¶ 5–6.
+
+25
+
+Case IPR2014-00500
+Patent 5,790,793
+Based on the totality of evidence regarding presentation and
+dissemination of Putz, we determine that Putz was publicly accessible as of
+at least mid-June 1994, and thus is prior art4.
+(ii)
+
+Independent Claims 1 and 10
+
+Petitioner argues that Putz discloses a method for communicating
+between computers, as recited in claim 1, including creating a message at a
+first computer, said message including a reference to a predetermined
+location, and transmitting, by the first computer, said message to a second
+location. Pet. 31–34; Ex. 1011, 2, Fig. 1. Petitioner states that an HTML
+document is created in Putz that includes an IMG element with a URL
+specifying the appropriate map image, Ex. 1011, 3, and that the message
+created by the HTTP web server is transmitted to the client computer in the
+form of an HTTP response. Pet. 33–34; Ex. 1011, 2.
+Petitioner further states that Putz discloses receiving said message by
+the client computer, i.e., the computer at the second location, and decoding
+said message by the computer at the second location as recited in claim 1.
+Pet. 34–35. Petitioner argues that the client computer receives the HTTP
+response (Ex. 1011, 2), and that the web browser automatically decodes the
+<IMG> tag with no user interaction required, because Putz uses standard
+web browsers that inherently operate in that manner for fetching images
+identified by <IMG> tags. Pet. 34; Ex. 1011, 5; Tr. 23:14–21.
+
+4
+
+We are persuaded that the evidence submitted with the Petition alone is
+sufficient to support our determination as to the public accessibility of Putz.
+Nevertheless, we acknowledge the testimony of Mr. Putz himself, which
+leaves little doubt that our determination is correct.
+
+26
+
+Case IPR2014-00500
+Patent 5,790,793
+Patent Owner argues that claims 1 and 10 are not anticipated by Putz
+because, first, the HTML response with the image URL is not transmitted at
+the server’s discretion, but rather, the client computer is manually activated
+to retrieve it under a user’s direct manual control. PO Resp. 52. Patent
+Owner points to Dr. Alexander’s testimony that he doesn’t remember Putz
+having anything to do with push. Ex. 2019, 64:7–9; Tr. 49:2–3. Second,
+Patent Owner argues, the client does not “decode” the HTML response
+automatically, without requiring user interaction. PO Resp. 53.
+Petitioner, referring back to its earlier argument regarding claim
+construction of the term “by,” argues that the transmitting limitation of
+claims 1 and 10 “only requires transmission of a message by a first computer
+to a second location, it does not require transmission of a message ‘at the
+discretion’ of the first computer to a second location.” Pet. Reply 12; Tr.
+23:9–13. Petitioner further argues, regarding the decoding step, that the web
+browser at the client computer in Putz fetches or retrieves the images
+identified by the <IMG> tag from the URL location, thus requiring no user
+interaction. Pet. Reply 13. Petitioner argues that the “user interaction” all
+occurs before any of the limitations—transmitting, creating, receiving,
+decoding—of the claimed method. Tr. 23:21–24.
+Referring to our discussion of the “by” terms, we are not persuaded
+that the transmitting step must be taken at the discretion of the first
+computer. Thus, it is enough that the first computer transmits a message to a
+second location. Putz’s first computer, i.e., a web server, transmits an
+HTML document with an embedded URL image element to a second
+location, i.e., a client computer. Ex. 1011, 2; Pet. 29–30, 33–34. Thus, we
+find that this element is anticipated by Putz.
+
+27
+
+Case IPR2014-00500
+Patent 5,790,793
+Regarding the decoding step, we agree with Petitioner that steps taken
+before or after a retrieval step are immaterial. See Invitrogen Corp., 327
+F.3d at 1368. Putz provides that the “HTML document is created which
+includes an IMG element with a URL specifying the appropriate map
+image.” Ex. 1011, 3. We are persuaded that this language and the
+Petitioner’s evidence support adequately a finding that the client browser of
+Putz fetches or retrieves and automatically decodes, without user interaction,
+the images identified by the <IMG> tag from the URL location.
+On this record, we conclude that Petitioner has demonstrated by a
+preponderance of the evidence that claims 1 and 10 are anticipated by Putz.
+(iii)
+
+Independent Claims 21 and 30
+
+Patent Owner argues that (1) Putz does not disclose the transmitting
+means of claim 21; (2) for claims 21 and 30, that Putz does not disclose that
+the HTML response with the image URL is created at the server’s
+discretion; and (3) Putz does not disclose the decoding means of claims 21
+and 30. PO Resp. 54–58.
+Petitioner argues, regarding Patent Owner’s argument (1) that Putz
+discloses the structure of the transmitting means as, for example, an HTML
+document containing an embedded URL image element, transmitted via a
+web server (i.e., the “other server”) to a client computer. Pet. Reply 13.
+Petitioner further argues, regarding Patent Owner’s argument (3) that the
+decoding means, and its corresponding structure, is disclosed in Putz, as
+there are multiple document types (i.e. images, SGML) in Putz that are
+examined. Id. at 14.
+For argument (1), we agree with Petitioner that Putz discloses the
+transmitting means of claim 21. As discussed, Petitioner identifies, and we
+
+28
+
+Case IPR2014-00500
+Patent 5,790,793
+construe, the transmitting means’ corresponding structure as including Step
+404 (TRANSMIT DOCUMENT VIA ELECTRONIC MAIL OR OTHER
+SERVER). Pet. 6–7; Dec. 11–12. We are persuaded by Petitioner’s
+arguments that the web server of Putz corresponds properly to the recited
+“other server.” Use of the term “via” in step 404 does not require an
+additional step or structure in the transmission process. See also Step 406
+(RECEIVE DOCUMENT VIA ELECTRONIC MAIL OR OTHER
+MEANS). In this case, “via” means that the document can be sent by a
+server, such as Putz’s web server.
+Patent Owner’s argument (2) relies on its proposed construction of the
+terms “by the first computer” in claim 21 and “by a transmitting computer at
+a first location” in claim 30. We have considered and discussed the
+proposed constructions above, and for substantially the reasons given above,
+are not persuaded by Patent Owner’s arguments on this point.
+Finally, for argument (3), we agree with Petitioner that Putz examines
+multiple document types. Pet. Reply 14. As discussed, Petitioner identifies,
+and we construe, the decoding means’ corresponding structure as including
+Step 408 (WHAT IS THE DOCUMENT TYPE). Pet. 7; Dec. 11–12.
+Petitioner argues that the MIME-type parameters used in the HTTP response
+message of Putz can specify document types, such as images. Pet. Reply 13.
+Putz also discloses HTML, “which is a . . . SGML document type allowing
+structured text with links,” (Ex. 1011, 1) and thus Petitioner argues that
+multiple document types are examined in Putz. Id. We are not persuaded by
+Patent Owner’s speculation that “[Putz’s] computers “need not and likely do
+not determine whether the message could be another type.” PO Resp. 58. In
+
+29
+
+Case IPR2014-00500
+Patent 5,790,793
+determining whether the message is one type or another, we find that the
+decoding means would need to examine the document type.
+On this record, we conclude that Petitioner has demonstrated by a
+preponderance of the evidence that claims 21 and 30 are anticipated by Putz.
+(iv)
+
+Independent Claim 39
+
+Patent Owner refers to and relies on its earlier arguments for claims
+21 and 30 to argue that claim 39 is not anticipated, because (i) the HTML
+response with the image URL is not transmitted at the server’s discretion,
+(ii) Putz does not disclose examining a type of the message, and (iii) Putz
+does not disclose the recited transmitting means. PO Resp. 58–59.
+For the same reasons given above, we are not persuaded by Patent
+Owner’s arguments. We are persuaded that Petitioner has demonstrated by a
+preponderance of the evidence that Putz discloses the limitations of claims
+39.
+(v)
+
+Dependent Claims 5, 14, 25, and 34
+
+Patent Owner argues that claims 5, 14, 25, and 34 are not anticipated
+by Putz, because Putz does not automatically retrieve data “without the user
+requesting the retrieval of the data corresponding to the URL.” PO Resp.
+59. Specifically, Patent Owner argues that Putz’s user at the client computer
+explicitly requests the retrieval of the map image associated with the image
+URL by clicking or selecting a web page URL. Id. Petitioner responds that
+the “web browser on the client computer automatically retrieves the map
+image from the image source without user interaction and thus anticipates
+these claims.” Pet. Reply 14. We are persuaded by Petitioner’s earlier
+arguments that the computer of Putz automatically takes the steps required
+by claims 5, 14, 25, and 34, without user interaction, notwithstanding any
+
+30
+
+Case IPR2014-00500
+Patent 5,790,793
+earlier step that may be taken by a user at a client computer. Moreover,
+given the “comprising” construction of claims 5, 14, 25, and 34, the method
+may include additional steps before and after the disputed steps, but whether
+those additional steps require user interaction does not change our analysis
+of the steps at issue.
+On this record, we conclude that Petitioner has demonstrated by a
+preponderance of the evidence that claims 5, 14, 25, and 34 are anticipated
+by Putz.
+E. Remaining Claims
+Petitioner argues that “Patent Owner does not address claims 4, 6, 13,
+15, 24, 26, 33, 35 and 40; thus concedes Payne discloses each of these
+limitations.” Pet. Reply 11. Petitioner also argues that “Patent Owner does
+not address claims 4, 6, 8, 13, 15, 17, 24, 26, 28, 33, 35, 37 and 40, thus
+conceding that Putz . . . discloses each of the limitations of these claims.”
+Id. at 14.
+As discussed, we find that Petitioner has established, by a
+preponderance of the evidence, that Payne anticipates independent claims 1,
+10, 21, 30, and 39, and dependent claims 5, 14, 25, and 34 as well as 8, 17,
+28, and 37. We further find that Petitioner has established, by a
+preponderance of the evidence, that Putz anticipates independent claims 1,
+10, 21, 30, and 39, and dependent claims 5, 14, 25, and 34. We have
+reviewed the arguments presented in the Petition and the supporting
+evidence regarding the anticipation of the remaining claims as identified by
+Petitioner (Pet. Reply 11, 14), which were not disputed by Patent Owner in
+its Response. Patent Owner, in its Response, relies solely on its arguments
+and evidence concerning the independent claims and additional dependent
+
+31
+
+Case IPR2014-00500
+Patent 5,790,793
+claims identified in its Response. In the Scheduling Order, we cautioned
+Patent Owner that any arguments for patentability not raised in the Response
+would be deemed waived. Paper 13, 3. After reviewing of the arguments
+and evidence presented concerning the remaining claims, we find a
+preponderance of the evidence establishes that Payne expressly discloses the
+limitations of claims 4, 6, 13, 15, 24, 26, 33, 35 and 40, and that Putz
+discloses the limitations of claims 4, 6, 8, 13, 15, 17, 24, 26, 28, 33, 35, 37
+and 40.
+F.
+
+Real Parties in Interest
+The Petition, in its real-party-in-interest section, identified Google as
+
+a party that holds more than a 10% ownership of Petitioner. Dec. 8. In the
+Decision to Institute, we determined that the Petition sufficiently identified
+all real parties-in-interest pursuant to 35 U.S.C. § 312(a)(2). Id. at 9. Patent
+Owner argues that the Decision to Institute relies on a legally incorrect
+interpretation of the statute. PO Resp. 15. In its Response, Patent Owner
+presents no substantially new arguments that require revisiting our
+determination regarding identification of real parties-in-interest. We,
+therefore, decline to dismiss the Petition for the same reasons given in the
+Decision to Institute.
+G.
+
+Patent Owner’s Motion to Exclude
+Patent Owner filed a Motion to Exclude (Paper 35, “Mot. to Excl.”),
+
+to which Petitioner responded (Paper 38, “Resp. to Mot. to Excl.”), and
+Patent Owner filed a Reply (Paper 39, “Reply on Mot. to Excl.”). Patent
+Owner’s Motion seeks to exclude (i) Exhibit 1008 (Payne Appendix E) as
+irrelevant and confusing; (ii) Exhibit 1019 (RFC 1945) as irrelevant and
+confusing; (iii) Exhibit 1035 (Payne prosecution history) as needlessly
+
+32
+
+Case IPR2014-00500
+Patent 5,790,793
+cumulative of Exhibit 2003; and (iv) Exhibit 1036 (RFC 1945 draft) as
+improper reply evidence, not a printed publication, and prejudicial. Mot. to
+Excl. 1–12.
+Petitioner argues that (i) Exhibit 1008 is relevant, admissible, and not
+confusing; (ii) Exhibit 1019 is relevant, admissible, and not confusing;
+(iii) Exhibit 1035 contains the complete prosecution history of Payne, unlike
+the excerpted prosecution history in Exhibit 2003, and therefore is not
+cumulative; and (iv) Exhibit 1036 is relevant, admissible, and proper reply
+evidence. Resp. to Mot. to Excl. 1–11.
+As an initial matter, we note that we do not rely upon Exhibit 1008 or
+Exhibit 1035 in our present determination. We therefore need not decide the
+Motion to Exclude as to those Exhibits; it is dismissed as moot.
+The moving party has the burden of proof to establish that it is entitled
+to the requested relief. 37 C.F.R. § 42.20(c). A motion to exclude is neither
+a substantive sur-reply, nor a proper vehicle for arguing whether a reply or
+supporting evidence is of appropriate scope. Zynga Inc. v. Personalized
+Media Commc’ns, LLC, IPR2013-00162, slip op. at 3 (PTAB Aug. 28,
+2013) (Paper 15); Berk-Tek LLC v. Belden Tech., Inc., IPR2013-00057, slip
+op. at 3 (PTAB Oct. 31, 2014) (Paper 39).
+Patent Owner’s objections to Exhibits 1019 and 1036 are directed to
+the weight that the information disclosed therein should be afforded, rather
+than to its admissibility. It is within our discretion to assign the appropriate
+weight to be accorded to the information in Exhibits 1019 and 1036. The
+Board, sitting as a non-jury tribunal with administrative expertise, is wellpositioned to determine and assign appropriate weight to evidence presented.
+Gnosis S.P.A. v. S. Ala. Med. Sci. Found., IPR2013-00118, slip op. at 43
+
+33
+
+Case IPR2014-00500
+Patent 5,790,793
+(PTAB June 20, 2014) (Paper 64); see also Donnelly Garment Co. v. NLRB,
+123 F.2d 215, 224 (8th Cir. 1941) (“One who is capable of ruling accurately
+upon the admissibility of evidence is equally capable of sifting it accurately
+after it has been received.”). We thus decline to exclude Exhibits 1019 and
+1036.
+Accordingly, the Motion to Exclude is dismissed as to Exhibits 1008
+and 1035, and denied as to Exhibits 1019 and 1036.
+SUMMARY
+Petitioner has demonstrated, by a preponderance of the evidence, that
+claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–26, 28, 30, 33–35, 37, 39, and 40 of
+the ’793 patent are unpatentable under 35 U.S.C. § 102(e) as anticipated by
+Payne, and unpatentable under 35 U.S.C. § 102(a) as anticipated by Putz.
+This is a Final Written Decision of the Board under 35 U.S.C. § 318(a).
+ORDER
+For the reasons given, it is
+ORDERED that Patent Owner’s Motion to Exclude is dismissed as to
+Exhibits 1008 and 1035 and denied as to Exhibits 1019 and 1036.
+FURTHER ORDERED that claims 1, 4–6, 8, 10, 13–15, 17, 21, 24–
+26, 28, 30, 33–35, 37, 39, and 40 of the ’793 patent are unpatentable; and
+FURTHER ORDERED that parties to the proceeding seeking judicial
+review of this final written decision must comply with the notice and service
+requirements of 37 C.F.R. § 90.2.
+
+34
+
+Case IPR2014-00500
+Patent 5,790,793
+PETITIONER:
+John C. Alemanni
+Theodore G. Brown, III
+Christopher Schenck
+Shayne O’ Reilly
+Mitchell G. Stockwell
+KILPATRICK TOWNSEND & STOCKTON LLP
+jalemanni@kilpatricktownsend.com
+tbrown@kilpatricktownsend.com
+cschenck@kilpatricktownsend.com
+soreilly@kilpatricktownsend.com
+mstockwell@kilpatricktownsend.com
+PATENT OWNER:
+Brenton R. Babcock
+Ted M. Cannon
+Curtis R. Huffmire
+Bridget A. Smith
+John R. King
+KNOBBE, MARTENS, OLSON & BEAR, LLP
+2BRB@knobbe.com
+2tmc@knobbe.com
+2crh@knobbe.com
+2bzs@knobbe.com
+2jrk@knobbe.com
+Donald Coulman
+INTELLECTUAL VENTURES
+dcoulman@intven.com
+
+35
+
+

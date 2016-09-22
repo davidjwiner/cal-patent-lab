@@ -1,0 +1,879 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 29
+Entered: December 3, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+ST. JUDE MEDICAL, INC., ST. JUDE MEDICAL S.C., INC.,
+PACESETTER, INC., and BIOTRONIK, INC.,
+Petitioner,
+v.
+ATLAS IP LLC,
+Patent Owner.
+____________
+Case IPR2014-009161
+Patent 5,371,734
+____________
+Before BARBARA A. BENOIT, LYNNE E. PETTIGREW, and
+GEORGIANNA W. BRADEN, Administrative Patent Judges.
+PETTIGREW, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+1
+
+Case IPR2015-00534 has been joined with this proceeding.
+
+IPR2014-00916
+Patent 5,371,734
+I. INTRODUCTION
+We have jurisdiction to hear this inter partes review under 35 U.S.C.
+§ 6(c). This Final Written Decision is issued pursuant to 35 U.S.C. § 318(a)
+and 37 C.F.R. § 42.73. For the reasons discussed herein, Petitioner has
+shown by a preponderance of the evidence that claims 6, 11, 14, and 21 of
+U.S. Patent No. 5,371,734 are unpatentable.
+A. Procedural History
+St. Jude Medical, Inc., St. Jude Medical S.C., Inc., and Pacesetter, Inc.
+(collectively, “St. Jude”) filed a Petition for inter partes review of claims 6,
+11, 14, 21, and 44 of U.S. Patent No. 5,371,734 (Ex. 1001, “the
+’734 patent”). Paper 2 (“Pet.”). Atlas IP LLC (“Patent Owner”) filed a
+Preliminary Response. Paper 6 (“Prelim. Resp.”). On December 8, 2014,
+we instituted an inter partes review of claims 6, 11, 14, and 21 of the
+’734 patent on asserted grounds of unpatentability. Paper 7 (“Dec.”).
+Subsequent to institution, Biotronik, Inc. (“Biotronik”) filed a Petition
+and a Motion for Joinder with the instant proceeding. Biotronik, Inc. v. Atlas
+IP LLC, Case IPR2015-00534, Papers 1, 2. We instituted an inter partes
+review and granted the Motion, joining Biotronik with St. Jude (collectively,
+“Petitioner”) in this inter partes review. Paper 17.
+Patent Owner filed a Patent Owner Response to the Petition, Paper 16
+(“PO Resp.”), and Petitioner filed a Reply to the Patent Owner Response,
+Paper 18 (“Reply”). An oral hearing was held on July 15, 2015, and a
+transcript of the hearing was entered into the record. Paper 22.
+On October 29, 2015, the United States Court of Appeals for the
+Federal Circuit issued precedential opinions in appeals from decisions in two
+district court cases involving the ’734 patent. See Atlas IP, LLC v.
+2
+
+IPR2014-00916
+Patent 5,371,734
+Medtronic, Inc., No. 2015-1071, 2015 WL 6550622 (Fed. Cir. Oct. 29,
+2015) (“Medtronic”); Atlas IP, LLC v. St. Jude Med., Inc., 804 F.3d 1185
+(Fed. Cir. 2015) (“St. Jude”). Pursuant to our authorization, the parties filed
+supplemental briefing addressing the impact of the Medtronic and St. Jude
+Federal Circuit opinions on this proceeding. Papers 24, 25, 27.
+B. Related Matters
+The parties indicate that the ’734 patent has been asserted in several
+district court actions. Pet. 1; Paper 5, 1. In one of those cases, Patent Owner
+asserted the ’734 patent against St. Jude. Atlas IP, LLC v. St. Jude Med.,
+Inc., No. 1:14-cv-21006 (S.D. Fla.). The Federal Circuit recently vacated
+the district court’s summary judgment of non-infringement in that case and
+remanded for further proceedings. St. Jude, 804 F.3d at 1190. The other
+recent Federal Circuit decision was an appeal from summary judgment
+rulings by the district court in Atlas IP, LLC v. Medtronic, Inc., No. 1:13-cv23309. In that case, the Federal Circuit affirmed the district court’s
+summary judgment of non-infringement, reversed the district court’s
+summary judgment of no anticipation or obviousness, and remanded for
+further proceedings. Medtronic, 2015 WL 6550622, at *10.
+C. The ’734 Patent
+The ’734 patent relates to a medium access control (“MAC”) protocol
+for use in wireless network communications. Ex. 1001, 1:16–30. According
+to the Summary of the Invention, the MAC protocol described in the
+’734 patent combines beneficial aspects of time division multiple access
+(“TDMA”) techniques, such as predictable transmission opportunities, with
+aspects of packet reservation multiple access (“PRMA”) techniques, such as
+effective allocation of available bandwidth. Id. at 5:14–19. The Summary
+3
+
+IPR2014-00916
+Patent 5,371,734
+of the Invention further states that the disclosed protocol “obtains significant
+reductions in battery power drain by permitting the receivers as well as the
+transmitters of the communicator stations to be powered off during a
+majority of the time, but selectively and predictably powered on to send or
+receive relevant communications.” Id. at 5:25–33.
+For communication among a group of communicators, one
+communicator is designated as a “hub” and the remaining communicators
+are designated as “remotes.” Id. at 5:42–44. Figure 3 of the ’734 patent,
+reproduced below, illustrates a communication cycle in accordance with the
+MAC protocol described in the ’734 patent:
+
+Figure 3 illustrates communication cycle 70 established by the hub to control
+outbound transmissions from the hub to the remotes and to control inbound
+transmissions from the remotes to the hub. Id. at 7:12–18. Outbound
+4
+
+IPR2014-00916
+Patent 5,371,734
+portion 72 begins with information interval 76, during which the hub
+transmits control and other information to the remotes. Id. at 11:56–59.
+This information indicates the predetermined times when each remote will
+be able to participate in the communication cycle. Id. at 11:60–62.
+Broadcast interval 78 allows the hub to broadcast the same information to all
+of the remotes. Id. at 11:62–66. Directed packet interval 80 allows the hub
+to transmit frames to specifically identified remotes. Id. at 11:67–12:1.
+Outbound portion 82 concludes with alternative information interval 82,
+during which the hub repeats the information provided in information
+interval 76. Id. at 12:1–9.
+During inbound portion 74, those remotes that have requested a
+transmission opportunity to transmit messages to the hub are provided with
+an opportunity to do so. Id. at 12:14–17. Figure 3 shows transmission
+opportunities 84, labeled “TXOP 1” to “TXOP n.” Id. at Fig. 3. All remotes
+initially receive a transmission opportunity (or “Txop”) “with (at least) a
+predefined minimum duration on each communication cycle 70, whether or
+not they have any frames to transmit.” Id. at 12:27–30. The hub may adjust
+the duration of transmission opportunities based on observed traffic patterns
+and information received from the remotes regarding the amount of data
+each remote has queued for transmission. Id. at 12:30–34. In addition, if a
+transmission opportunity is not used by a remote for a predefined number of
+communication cycles, the hub may cancel the transmission opportunity for
+that remote in subsequent cycles. Id. at 12:41–46. Following transmission
+opportunities 84 in inbound portion 74, Txop request interval 86 allows
+remotes that recently have joined the group or have not been allocated a
+transmission opportunity to transmit messages to the hub to request
+5
+
+IPR2014-00916
+Patent 5,371,734
+allocation of a transmission opportunity in the next communication cycle.
+Id. at 12:47–53.
+Based on information about the intervals in a communication cycle
+received from the hub, the remotes can determine in advance when they
+should expect to receive frames transmitted from the hub and when they
+may transmit frames to the hub. Id. at 5:47–54, 13:29–33. As a
+consequence, remotes can power down their receivers and transmitters at
+other times to conserve battery power. Id. at 5:54–66, 13:33–36.
+D. Illustrative Claim
+Claims 6, 11, 14, and 21 of the ’734 patent are independent and
+contain many of the same limitations. Claim 6 is illustrative of the claimed
+subject matter:
+6. A communicator for wirelessly transmitting frames to
+and receiving frames from a[t] least one additional
+communicator in accordance with a predetermined medium
+access control protocol, the communicators which transmit and
+receive the frames constituting a Group, each communicator
+including a transmitter and a receiver for transmitting and
+receiving the frames respectively, the medium access control
+protocol controlling each communicator of the Group to effect
+predetermined functions comprising:
+designating one of the communicators of the Group as a
+hub and the remaining the [sic] communicators of the Group as
+remotes;
+the hub establishing repeating communication cycles,
+each of which has intervals during which the hub and the
+remotes transmit and receive frames;
+the hub transmitting information to the remotes to
+establish the communication cycle and a plurality of
+predeterminable intervals during each communication cycle, the
+intervals being ones when the hub is allowed to transmit frames
+to the remotes, when the remotes are allowed to transmit frames
+6
+
+IPR2014-00916
+Patent 5,371,734
+to the hub, and when each remote is expected to receive a frame
+from the hub;
+the remotes powering off their transmitters during times
+other than those intervals when the remote is allowed to
+transmit frames to the hub, by using the information transmitted
+from the hub;
+the remotes powering off their receivers during times
+other than those intervals when the remote is expected to
+receive a frame from the hub, by using the information
+transmitted from the hub;
+the hub assigning transmission opportunities to the
+remotes, each transmission opportunity being an interval for a
+remote to transmit frames to the hub;
+the hub transmitting transmission opportunity allocation
+information in a frame transmitted by the hub; and
+the hub allocating a number of transmission opportunities
+during at least one communication cycle which is at least one
+less in number than the number of remotes in the Group.
+Ex. 1001, 46:16–58.
+
+7
+
+IPR2014-00916
+Patent 5,371,734
+E. Grounds of Unpatentability
+We instituted an inter partes review of claims 6, 11, 14, and 21 of the
+’734 patent on the following grounds of unpatentability:
+Reference(s)
+
+Basis
+
+Natarajan 19922
+Natarajan 1992 and Bella3
+Natarajan ’5424 and Bantz5
+Natarajan ’542, Bantz, and Bella
+
+35 U.S.C. § 102(a)
+35 U.S.C. § 103(a)
+35 U.S.C. § 103(a)
+35 U.S.C. § 103(a)
+
+Challenged
+Claim(s)
+6, 14, and 21
+11
+6, 14, and 21
+11
+
+II. DISCUSSION
+A. Claim Construction
+The ’734 patent expired on January 29, 2013. See Pet. 14; Ex. 1001.
+For claims of an expired patent, the Board’s claim construction analysis is
+similar to that of a district court. See In re Rambus, 694 F.3d 42, 46 (Fed.
+Cir. 2012). In this context, claim terms “are generally given their ordinary
+and customary meaning” as understood by a person of ordinary skill in the
+art in question at the time of the invention. Phillips v. AWH Corp., 415 F.3d
+1303, 1312–13 (Fed. Cir. 2005) (en banc). “In determining the meaning of
+the disputed claim limitation, we look principally to the intrinsic evidence of
+record, examining the claim language itself, the written description, and the
+2
+
+K.S. Natarajan et al., Medium Access Control Protocol for Wireless LANs
+(An Update), IEEE P802.11/92-39, Mar. 9, 1992 (Ex. 1011,
+“Natarajan 1992”).
+3
+U.S. Patent No. 4,542,499, issued Sept. 17, 1985 (Ex. 1026, “Bella”).
+4
+U.S. Patent No. 5,241,542, issued Aug. 31, 1993 (Ex. 1003,
+“Natarajan ’542”).
+5
+U.S. Patent No. 5,123,029, issued June 16, 1992 (Ex. 1014, “Bantz”).
+8
+
+IPR2014-00916
+Patent 5,371,734
+prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic
+Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips,
+415 F.3d at 1312–17).
+1. “repeating communication cycles, each of which has intervals during
+which the hub and the remotes transmit and receive frames”
+Each challenged claim includes the following limitation, referred to
+by the parties as the “each” limitation: “repeating communication cycles,
+each of which has intervals during which the hub and the remotes transmit
+and receive frames.” E.g., Ex. 1001, 46:29–31 (claim 6). In the Decision on
+Institution, we construed this claim limitation “to require that each
+communication cycle include intervals during which the hub and remotes are
+allowed to transmit and receive, without requiring actual transmission of
+frames.” Dec. 12. We based our construction on the language of the claims,
+including additional language referring to “intervals . . . when the hub is
+allowed to transmit frames to the remotes [and] when the remotes are
+allowed to transmit frames to the hub.” Id. at 10 (citing Ex. 1001, 46:36–
+39). We also considered the written description of the ’542 patent, which
+speaks of transmission opportunities during which remotes are provided an
+opportunity to transmit messages to the hub. Id. (citing Ex. 1001, 12:14–
+17).
+After institution, Patent Owner argued that this inter partes review
+turns on a single claim construction issue—whether the recited limitation
+“requires that, in each communication cycle, there be at least one interval in
+which a remote transmits frames to the hub, or whether there need only be
+an ‘opportunity’ for such transmission.” PO Resp. 1 (emphasis omitted). In
+advocating for the former construction, Patent Owner relied on the district
+9
+
+IPR2014-00916
+Patent 5,371,734
+court’s holding in Atlas v. Medtronic that “[t]he plain meaning necessitates
+the hub and the remotes transmit and receive frames during each
+communication cycle, not that the hub and the remotes simply may do so
+during a communication cycle as Medtronic argues.” Atlas IP, LLC v.
+Medtronic, Inc., No. 1:13-cv-23309, 2014 WL 5305577, at *3 (S.D. Fla.
+Oct. 15, 2014); see PO Resp. 2.
+After the oral hearing in this proceeding, the Federal Circuit addressed
+the proper construction of the “each” limitation in claims of the ’734 patent.
+On appeal from summary judgment in the Medtronic case, the Federal
+Circuit rejected the district court’s so-called “plain meaning” construction,
+also urged by Patent Owner here. Medtronic, 2015 WL 6550622, at *10.
+Instead, the Federal Circuit determined that context was necessary to resolve
+the facial uncertainty of the claim language. Id. at *8. The court analyzed
+the relevant contextual evidence, including the additional claim language
+and references to transmission opportunities in the written description that
+we cited in our claim construction discussion in the Decision on Institution.
+Id. at *9. With analysis similar to ours, the Federal Circuit held, as we did,
+that the claim language, properly construed, requires only that each cycle
+have one or more intervals in which remotes are allowed to transmit frames.
+Id.
+Thus, the Federal Circuit, in a precedential opinion, rejected the same
+“plain meaning” claim construction argument made by Patent Owner in this
+proceeding. Also, as in this proceeding, Patent Owner provided no extrinsic
+evidence, so the court construed the disputed limitation based on intrinsic
+evidence—the claim language and the written description. Moreover, the
+court used the same Phillips-based claim construction approach that the
+10
+
+IPR2014-00916
+Patent 5,371,734
+Board applies when a patent has expired. Accordingly, in our patentability
+analysis we will apply the Federal Circuit’s construction of the “each”
+limitation, which, with respect to transmission by remotes, requires only that
+each cycle have one or more intervals during which remotes are allowed to
+transmit.
+2. “the hub transmitting information to the remotes to establish the
+communication cycle and a plurality of predeterminable
+intervals during each communication cycle”
+Each challenged claim includes the following limitation: “the hub
+transmitting information to the remotes to establish the communication cycle
+and a plurality of predeterminable intervals during each communication
+cycle.” E.g., Ex. 1001, 46:32–35 (claim 6). Petitioner proposed that this
+“transmitting” limitation be construed as “the hub transmitting to the
+remotes information necessary to know in advance the starting time and
+duration for the communication cycle and the plurality of predesignated
+intervals during each communication cycle.” Pet. 19 (emphasis added). We
+did not construe this limitation expressly in the Decision on Institution, and
+Patent Owner did not propose a construction in either the Preliminary
+Response or the Patent Owner Response. Indeed, the “transmitting”
+limitation was not a point of contention during the trial, as the parties
+maintained that the proceeding turned on the correct construction of the
+“each” limitation and whether the prior art disclosed that limitation. See
+PO Resp. 1; Reply 1.
+The “transmitting” limitation, however, was at issue in the two district
+court non-infringement summary judgment rulings reviewed by the Federal
+Circuit. In Medtronic, the Federal Circuit construed the “transmitting”
+limitation (in conjunction with “the hub establishing repeating
+11
+
+IPR2014-00916
+Patent 5,371,734
+communication cycles”) to “require the hub to define and transmit the start
+time and duration of each communication cycle and its constituent intervals
+in advance,” i.e., before the transmission opportunities for the remotes
+begin. Medtronic, 2015 WL 6550622, at *6 (emphasis added). In St. Jude,
+vacating summary judgment of non-infringement under the district court’s
+erroneous construction, the Federal Circuit further held that the
+“transmitting” limitation “does not require that the cycle’s starting time and
+duration be communicated to the remotes even earlier, i.e., before the
+communication cycle begins.” St. Jude, 804 F.3d at 1188.
+The Federal Circuit’s construction of the “transmitting” limitation is
+consistent with that proffered by Petitioner in this proceeding in that both
+constructions require the hub to transmit the start time and duration of the
+communication cycle and its constituent intervals in advance. The Federal
+Circuit’s opinions clarify that start time and duration must be transmitted “in
+advance” of the time at which the remotes may begin transmitting, but need
+not be transmitted “in advance” of the communication cycle. Because the
+Federal Circuit construed the “transmitting” limitation in precedential
+opinions under the same claim construction standard the Board uses for
+expired patents, we will apply the court’s construction of the “transmitting”
+limitation in our patentability analysis.
+3. “frame”
+The parties do not dispute the proper construction of the claim term
+“frame,” which we construed in the Decision on Institution as “an ordered
+group of bits, such as a packet, used to carry information between network
+stations.” Dec. 9. We address this term here only to highlight that “frame”
+is used in the ’734 patent in a manner different from how it is used in some
+12
+
+IPR2014-00916
+Patent 5,371,734
+of the prior art. Id. (citing Pet. 16). Specifically, a “frame” in
+Natarajan 1992 and Natarajan ’542 is similar to a “communication cycle” in
+the ’734 patent, whereas a data “packet” in Natarajan 1992 and
+Natarajan ’542 is equivalent to a “frame” in the ’734 patent. Id. (citing
+Pet. 16); see Ex. 1002 ¶ 99.
+B. Anticipation by Natarajan 1992—Claims 6, 14, and 21
+Petitioner contends that claims 6, 14, and 21 are unpatentable under
+35 U.S.C. § 102(a) as anticipated by Natarajan 1992, relying on declaration
+testimony of Dr. Zygmunt Haas. Pet. 20–34 (citing Ex. 1002 ¶¶ 78–147).
+Patent Owner responds, arguing only that under the proper claim
+construction, Natarajan 1992 does not disclose the “each” limitation.
+PO Resp. 5–7. Having considered the parties’ contentions and supporting
+evidence, we determine that Petitioner has demonstrated by a preponderance
+of the evidence that claims 6, 14, and 21 are unpatentable as anticipated by
+Natarajan 1992.
+1. Natarajan 1992
+Natarajan 1992 describes a MAC protocol for wireless local area
+networks (LANs). Ex. 1011, 1. The network architecture includes a finite
+number of Access Points through which mobile stations communicate.
+Id. at 2. Inbound and outbound communication between an Access Point
+and mobile stations is structured as a sequence of frames. Id. at 3. Figure 1
+shows the frame structure of the MAC protocol described in Natarajan 1992:
+
+13
+
+IPR2014-00916
+Patent 5,371,734
+
+Id. at 3. As shown in Figure 1, a frame contains three time intervals—
+Periods A, B, and C. Id. In the first interval (Period A), outbound traffic is
+transmitted from the Access Point to mobile stations. Id. In the second
+interval (Period B), bandwidth is allocated for contention-free inbound data
+transmitted from mobile stations to the Access Point. Id. The third interval
+(Period C) is used for contention-based transmission from mobile stations to
+the Access Point. Id. During this interval, mobile stations can submit
+requests for bandwidth in subsequent frames. Id. at 7.
+Immediately before each of Periods A, B, and C, the Access Point
+broadcasts control information to the mobile stations in a header, shown as
+AH, BH, and CH in Figure 1. Id. at 4. Header AH identifies the start of the
+information frame and contains, among other control data, the lengths of
+Periods A, B, and C (TA, TB, and TC in Figure 1), as well as the lengths of
+Headers AH, BH, and CH (TAH, TBH, and TCH). Id. (Fig. 2 showing
+control information in Header AH). These parameters inform the mobile
+stations how much time is allocated to each of the intervals and headers in
+the current frame. Id. at 4–5. The lengths of the intervals are adjusted to
+enable bandwidth to be allocated on a demand-driven basis. Id. at 6.
+14
+
+IPR2014-00916
+Patent 5,371,734
+Header AH also includes a list of mobile stations that will receive data
+packets from the Access Point during Period A. Id. at 4–5. On correct
+reception of Header AH, each mobile station can determine whether it will
+receive packets from the Access Point during Period A. Id. at 5. A mobile
+station that does not expect to receive data during Period A can power down
+its receiver at the beginning of Period A, and set a timer to power on the
+receiver at the end of Period A, just in time to receive Header BH. Id. at 20.
+Header BH identifies the beginning of Period B. Id. at 5. The control
+information in Header BH includes a list of ordered pairs indicating the
+mobile stations that are allowed to transmit data packets to the Access Point
+during Period B, and the number of time slots in Period B allocated to each
+mobile station. Id. at 5–6. Based on the information in Header BH, a
+mobile station can determine whether it has been allocated slots during
+Period B and will power on its transmitter and transmit packets according to
+the ordered slot allocation information. Id. at 6, 20.
+2. Limitations Common to Claims 6, 14, and 21
+We begin our anticipation analysis with the limitations that
+independent claims 6, 14, and 21 have in common. Natarajan 1992 discloses
+a “communicator” (i.e., mobile station or Access Point) for wirelessly
+transmitting to and receiving “frames” (i.e., packets) from an “additional
+communicator” (i.e., mobile station or Access Point) “in accordance with a
+predetermined medium access control protocol” (i.e., a MAC protocol for
+wireless LANs). Ex. 1011, 3; see Pet. 21–22; Ex. 1002 ¶¶ 98–99.
+Natarajan 1992 also discloses communicators “constituting a Group,” e.g.,
+two mobile stations registered with the same Access Point, as shown in
+Figure 7. Ex. 1011, 10; see Pet. 22–23; Ex. 1002 ¶¶ 102–03. Each of
+15
+
+IPR2014-00916
+Patent 5,371,734
+Natarajan 1992’s communicators (i.e., mobile stations and Access Points)
+includes “a transmitter and a receiver for transmitting and receiving frames
+respectively.” See Ex. 1011, 20 (mobile stations have transmitters and
+receivers); id. at 12 (mobile station units can be Access Points); Pet. 23;
+Ex. 1002 ¶¶ 105–06. The MAC protocol disclosed in Natarajan 1992
+“designat[es] one of the communicators of the Group as a hub and the
+remaining communicators of the Group as remotes” when it explicitly
+designates a mobile station to provide the control functions of an Access
+Point, leaving the remaining mobile stations to act as remotes. Ex. 1011, 12;
+see Pet. 24; Ex. 1002 ¶¶ 109–14; Ex. 1001, 10:39–41 (the ’734 patent
+indicating that communicators other than the hub are designated as remotes).
+Natarajan 1992 also discloses the “each” limitation. In the MAC
+protocol described in Natarajan 1992, the “hub establish[es] repeating
+communication cycles” (i.e., sequences of frames having the structure
+shown in Figure 1 of Natarajan 1992). Ex. 1011, 3; see Pet. 26; Ex. 1002
+¶¶ 115–16. Each communication cycle (frame) has “intervals” during which
+the hub transmits frames received by the remotes—Period A (the period for
+outbound traffic from the Access Point to the mobile stations), as well as
+Headers AH, BH, and CH. Ex. 1011, 4–6; see Pet. 26–27; Ex. 1002 ¶ 117.
+With respect to transmission by the remotes, the proper construction
+of the “each” limitation requires only that each cycle have one or more
+intervals during which remotes are allowed to transmit. See supra
+Section II.A.1. Period B is such an interval, as it contains allocated slots
+during which individual mobile stations are allowed to transmit packets to
+the Access Point. See Ex. 1011, 5–6; Pet. 27; Ex. 1002 ¶ 118. The
+individual slots within Period B are also intervals. See Pet. 27; Ex. 1002
+16
+
+IPR2014-00916
+Patent 5,371,734
+¶ 122. Patent Owner’s argument that Period B is not an interval meeting the
+requirements of the claim is unpersuasive because it is premised on an
+incorrect claim construction requiring at least one interval in which a remote
+actually transmits to the hub. See PO Resp. 5–7. As explained previously,
+the Federal Circuit has rejected Patent Owner’s proffered construction of the
+“each” limitation. See supra Section II.A.1.
+The MAC protocol described in Natarajan 1992 also satisfies the
+“transmitting” limitation. As construed by the Federal Circuit, this
+limitation requires the hub to define and transmit the start time and duration
+of each communication cycle and its constituent intervals before the time at
+which the remotes may begin transmitting. See supra Section II.A.2.
+Additional claim language requires that the intervals be “ones when the hub
+is allowed to transmit frames to the remotes, when the remotes are allowed
+to transmit frames to the hub, and when each remote is expected to receive a
+frame from the hub.” E.g., Ex. 1001, 46:36–40 (claim 6).
+First, Natarajan 1992 discloses the three different types of intervals
+recited in the “transmitting” limitation. Period A and Headers AH, BH, and
+CH are intervals when the hub (Access Point) is allowed to transmit to the
+remotes (mobile stations). Ex. 1011, 4–6; see Pet. 29; Ex. 1002 ¶¶ 124–25.
+Period B and its individual slots are intervals when the remotes (mobile
+stations) are allowed to transmit to the hub (Access Point). Ex. 1011, 5; see
+Pet. 29; Ex. 1002 ¶ 126. Headers AH, BH, and CH are intervals when each
+remote is expected to receive a frame from the hub (i.e., when the Access
+Point broadcasts control information to the mobile stations). Ex. 1011, 4–6;
+see Pet. 29–30; Ex. 1002 ¶ 127.
+
+17
+
+IPR2014-00916
+Patent 5,371,734
+Next, Natarajan 1992’s hub (Access Point) defines and transmits the
+start time and duration of a communication cycle (frame) before the
+transmission opportunities for the remotes (mobile stations) begin.
+Specifically, Header AH, transmitted by the Access Point to the mobile
+stations at the beginning of a frame, includes parameters identifying the
+lengths of Periods A, B, and C (i.e., TA, TB, and TC) and the lengths of
+Headers AH, BH, and CH (i.e., TAH, TBH, and TCH). Ex. 1011, 4–5; see
+Pet. 27–28; Ex. 1002 ¶¶ 119–20. According to Natarajan 1992, Header AH
+identifies the start of the information frame, and the information contained
+therein (i.e., TA, TB, TC, TAH, TBH, and TCH) tells the mobile stations the
+duration of the frame. Ex. 1011, 4–5; see Pet. 27–28; Ex. 1002 ¶ 120. The
+Access Point broadcasts Header AH prior to the time at which the remotes
+may begin transmitting, which occurs during Period B. See Ex. 1011, 3
+(Fig. 1).
+The Access Point in Natarajan 1992 also defines and transmits the
+start time and duration of the intervals in the communication cycle (frame)
+prior to the time at which the remotes may begin transmitting. As noted,
+Header AH, transmitted at the beginning of the frame, contains the timing
+information for Periods A, B, and C and for Headers AH, BH, and CH.
+Ex. 1011, 4–5; see Pet. 27–28; Ex. 1002 ¶¶ 119–20. In addition, Header BH
+contains the timing information for the individual slots in Period B in the
+form of an ordered list of mobile stations and the number of slots allocated
+to each mobile station, allowing each mobile station to know when and for
+how long it may transmit to the Access Point. Ex. 1011, 5–6; see Pet. 28;
+Ex. 1002 ¶ 122. Header BH is sent immediately before Period B, and thus is
+transmitted before the first remotes (mobile stations) are permitted to
+18
+
+IPR2014-00916
+Patent 5,371,734
+transmit. See Ex. 1011, 3 (Fig. 1). Because the Access Point transmits the
+start time and duration of the frame and all relevant intervals—Periods A, B,
+and C; Headers AH, BH, and CH; and the individual slots in Period B—
+before the transmission opportunities for the mobile stations begin,
+Natarajan 1992 discloses the “transmitting” limitation as construed by the
+Federal Circuit.
+In supplemental briefing that we authorized after the Federal Circuit
+decided the Medtronic and St. Jude appeals, Patent Owner contends
+Petitioner did not account for the Federal Circuit’s construction of the
+“transmitting” limitation in its unpatentability analysis. Paper 25, 5. We are
+not persuaded by Patent Owner’s argument. The Petition, with ample
+citation to Natarajan 1992 and to Dr. Haas’s testimony for support, provided
+a detailed explanation of when the hub (Access Point) in Natarajan 1992
+transmits the start time and duration of both the communication cycle
+(frame) and its constituent intervals. See Pet. 26–29 (citing Ex. 1002
+¶¶ 115–23). As discussed above, Natarajan 1992’s Access Point transmits
+all the relevant timing information in advance of the time at which the
+remotes (mobile stations) may begin transmitting (i.e., Period B), which is
+all that is required under the Federal Circuit’s construction of the
+“transmitting” limitation. For purposes of determining whether
+Natarajan 1992 anticipates, it is immaterial that the “transmitting” limitation
+does not require the timing information to be transmitted even earlier, i.e.,
+before the communication cycle begins.
+Finally, Natarajan 1992 discloses the remotes (mobile stations)
+“powering off their transmitters during times other than those intervals when
+the remote is allowed to transmit frames [and] powering off their receivers
+19
+
+IPR2014-00916
+Patent 5,371,734
+during times other than those intervals when the remote is expected to
+receive a frame from the hub, by using the information transmitted from the
+hub.” As set forth in Natarajan 1992, a mobile station uses knowledge of
+receiver and transmitter schedules, based on the information transmitted
+from the hub in Headers AH, BH, and CH, to minimize power consumption
+“when the mobile station is neither actively transmitting nor actively
+receiving information.” Ex. 1011, 20; see Pet. 30; Ex. 1002 ¶¶ 129–33.
+More specifically, a mobile station turns its transmitter off except (i) during
+the slots allocated to the mobile station for transmission during Period B
+according to the information received in Header BH, and (ii) if the mobile
+station wishes to transmit during contention-based Period C. Ex. 1011, 20.
+Similarly, a mobile station turns its receiver off except (i) when it expects to
+receive Headers AH, BH, and CH, and (ii) during Period A if the mobile
+station is in Header AH’s list of mobile stations that will receive data during
+Period A. Id.; see Ex. 1002 ¶ 132.
+3. Remaining Limitations in Claims 6, 14, and 21
+In addition to the limitations that appear in all of the challenged
+claims, Natarajan 1992 discloses the remaining limitations recited in claims
+6, 14, and 21. First, as recited in claim 6, Natarajan 1992 discloses “the hub
+assigning transmission opportunities to the remotes, each transmission
+opportunity being an interval for a remote to transmit frames to the hub”
+(i.e., the slots allocated in Period B for mobile stations to transmit to the
+Access Point). Ex. 1011, 5–6; see Pet. 31. Natarajan 1992 also discloses
+“the hub transmitting transmission opportunity allocation information in a
+frame transmitted by the hub” (i.e., slot allocation information transmitted to
+the mobile stations in Header BH). Ex. 1011, 5–6; see Pet. 31. Lastly, with
+20
+
+IPR2014-00916
+Patent 5,371,734
+respect to “the hub allocating a number of transmission opportunities during
+at least one communication cycle which is at least one less in number than
+the number of remotes in the Group,” Natarajan 1992 explains that some
+mobile stations do not have allocated slots in Period B during a particular
+frame (i.e., do not have transmission opportunities) and put their receivers to
+sleep for the entire length of Period B. Ex. 1011, 20; see Pet. 31–32;
+Ex. 1002 ¶¶ 136–37.
+Natarajan 1992 also discloses the additional limitations in claim 14
+(Ex. 1001, 49:63–68): “the hub establishing the length of each
+communication cycle” (i.e., the lengths of Periods A, B, and C, and lengths
+of headers AH, BH, and CH) and “the hub transmitting a frame containing
+information describing the length of the communication cycle prior to the
+end of the communication cycle whose length is established” (i.e., Header
+AH, sent at the beginning of a frame, containing the lengths of Periods A, B,
+and C, and lengths of headers AH, BH, and CH). Ex. 1011, 4 (Fig. 2); see
+Pet. 32–33; Ex. 1002 ¶¶ 140–44.
+Finally, Natarajan 1992 discloses “the hub transmitting two frames
+containing information to establish the plurality of predeterminable intervals
+during each communication cycle,” as recited in claim 21. See Ex. 1001,
+51:3–9. Header AH is a first frame containing timing information for
+Periods A, B, and C, and for Headers AH, BH, and CH. Ex. 1011, 4–5; see
+Pet. 33; Ex. 1002 ¶ 146. Header BH is a second frame containing timing
+information for the allocated slots in Period B. Ex. 1011, 5–6; see Pet. 33;
+Ex. 1002 ¶ 146. The second frame (Header BH) also “occur[s] before the
+intervals in which the remotes are allowed to transmit frames to the hub,” as
+
+21
+
+IPR2014-00916
+Patent 5,371,734
+required by claim 21, because it is transmitted before Period B. Ex. 1011, 3
+(Fig. 1); see Pet. 34; Ex. 1002 ¶ 147.
+4. Conclusion
+For the foregoing reasons, we determine that Petitioner has shown by
+a preponderance of the evidence that claims 6, 14, and 21 are anticipated by
+Natarajan 1992.
+C. Obviousness over Natarajan 1992 and Bella—Claim 11
+Petitioner contends that claim 11 is unpatentable under 35 U.S.C.
+§ 103(a) over the combination of Natarajan 1992 and Bella, relying on
+declaration testimony of Dr. Haas. Pet. 34–38 (citing Ex. 1002 ¶¶ 148–67).
+With regard to this ground and the other asserted obviousness grounds,
+Patent Owner argues only that none of the cited prior art teaches the “each”
+limitation under the district court’s construction, which the Federal Circuit
+has rejected. See PO Resp. 7–8. As discussed in the previous section,
+Natarajan 1992 discloses the “each” limitation under the proper claim
+construction.
+In addition to reciting limitations included in claim 6, claim 11
+requires the hub to “monitor[] the frames transmitted by each remote during
+its transmission opportunity” and to “revok[e] a previous transmission
+opportunity allocation of a remote which has not transmitted more than a
+predetermined number of frames during a previous number of
+communication cycles.” Ex. 1001, 48:31–36. For the reasons explained
+below, we are persuaded by Petitioner’s argument that the combination of
+Natarajan 1992 and Bella teaches these additional limitations and that a
+person of ordinary skill in the art would have combined the references in the
+manner asserted. See Pet. 34–38.
+22
+
+IPR2014-00916
+Patent 5,371,734
+Bella describes a system for medium access control in a LAN that
+carries data and voice traffic. Ex. 1026, 1:9–16; see Ex. 1002 ¶ 150. Bella’s
+system combines contention-based communications with TDMA-like time
+slots that may be reserved for voice traffic. Ex. 1026, 2:3–34, 3:10–31; see
+Pet. 35; Ex. 1002 ¶¶ 153–54. A communicator device that has voice traffic
+to transmit sends a booking packet to reserve a time slot during which it will
+regularly transmit speech packets. Ex. 1026, 3:65–4:2, 9:50–55; see
+Ex. 1002 ¶ 154. This reservation persists until it is cancelled. Ex. 1026,
+10:26–33; see Pet. 35; Ex. 1002 ¶ 154. Cancellation occurs when the
+communicator device that has reserved the time slot stops transmitting
+packets, so the time slot passes unused. Ex. 1026, 11:9–13; see Pet. 35;
+Ex. 1002 ¶ 155. Other stations monitor packets transmitted on the network
+and interpret the lack of packets in the time slot as a cancellation of the
+reservation. Ex. 1026, 11:9–13; see Pet. 35; Ex. 1002 ¶ 155.
+Petitioner relies on a combination of Bella’s time slot cancellation
+method with the system of Natarajan 1992 to satisfy the additional
+limitations of claim 11. Pet. 34–38; Ex. 1002 ¶¶ 161–67. Like Bella,
+Natarajan 1992 describes a system in which mobile stations make
+reservation requests for slot allocation. Ex. 1011, 7–8; see Pet. 37–38;
+Ex. 1002 ¶ 165. If a mobile station requests isochronous service, the
+requested number of slots will be allocated to the mobile station in Period B
+of every frame until the mobile station cancels the allocation by sending a
+cancellation request. Ex. 1011, 8; see Pet. 36, 38; Ex. 1002 ¶ 166. Thus,
+Natarajan 1992 teaches “revoking a previous transmission opportunity
+allocation of a remote,” as recited in claim 11, when the hub receives a
+cancellation request from the remote. See Pet. 37–38; Ex. 1002 ¶ 166–67. If
+23
+
+IPR2014-00916
+Patent 5,371,734
+the system of Natarajan 1992 instead utilized Bella’s cancellation method,
+which revokes a previous transmission allocation when a remote transmits
+no packets in a communication cycle, we are persuaded by Petitioner’s
+argument that the combination would result in “the hub revoking a previous
+transmission opportunity allocation of a remote which has not transmitted
+more than a predetermined number of frames” (zero) “during a previous
+number of communication cycles” (one). See Pet. 37–38; Ex. 1002 ¶ 167.
+Furthermore, if Natarajan 1992 employed the cancellation technique of
+Bella, the hub would be “monitoring the frames transmitted by each remote
+during its transmission opportunity.” See Pet. 37; Ex. 1002 ¶¶ 162, 164.
+Petitioner also has articulated sufficient reasoning with some rational
+underpinning to support the legal conclusion that the subject matter of
+claim 11 would have been obvious to one of ordinary skill in the art in view
+of the combined teachings of the references. See KSR Int’l Co. v. Teleflex,
+Inc., 550 U.S. 398, 418 (2007); Pet. 35–37; Ex. 1002 ¶¶ 156–60. According
+to Petitioner, for example, the combination would simplify the cancellation
+method of Natarajan 1992 by allowing the hub to revoke a time slot
+allocation when the remote stops transmitting. Pet. 36; Ex. 1002 ¶ 158.
+Relying on Dr. Haas’s testimony for support, Petitioner also asserts that
+using Bella’s cancellation method makes even more sense when the remotes
+are mobile, as in Natarajan 1992, because they may move outside of the
+hub’s range abruptly and be unable to cancel their own reservations. Pet. 37;
+Ex. 1002 ¶ 159. Moreover, we are persuaded by Petitioner’s position that
+only ordinary skill would be required to implement the reservation and
+cancellation method of Bella in the Natarajan 1992 system. See Pet. 37;
+Ex. 1002 ¶ 160.
+24
+
+IPR2014-00916
+Patent 5,371,734
+For these reasons, having considered the parties’ contentions and
+supporting evidence, we determine that Petitioner has shown by a
+preponderance of the evidence that claim 11 would have been obvious over
+the combination of Natarajan 1992 and Bella.
+D. Obviousness over Natarajan ’542 and Bantz—Claims 6, 14, and 21
+Petitioner contends that claims 6, 14, and 21 are unpatentable under
+35 U.S.C. § 103(a) over Natarajan ’542 and Bantz, relying on declaration
+testimony of Dr. Haas. Pet. 43–58 (citing Ex. 1002 ¶¶ 195–257). In
+response, Patent Owner contends only that Natarajan ’542 does not disclose
+the “each” limitation for the same reasons argued with respect to
+Natarajan 1992. PO Resp. 7.
+1. Natarajan ’542
+As Petitioner notes, Natarajan ’542 is a United States patent
+describing Natarajan’s work and is similar in substance to Natarajan 1992.
+Ex. 1003; see Pet. 43. Figure 4 illustrates the frame structure of the MAC
+protocol described in Natarajan ’542:
+
+Ex. 1003, Fig. 4. As shown in Figure 4, a frame contains three time
+intervals—Periods A, B, and C—just as in Natarajan 1992. Id. at 4:28–38.
+Period A is for outbound traffic from a base station to mobile stations;
+Period B is for contention-free inbound traffic from mobile stations to the
+25
+
+IPR2014-00916
+Patent 5,371,734
+base station; and Period C is for contention-based inbound traffic. Id. As in
+Natarajan 1992, immediately preceding each interval is a header containing
+control information from which a mobile station can determine when to
+power on and off its transmitter and receiver. Id. at 4:41–5:60. Header BH
+contains an ordered list of mobile stations that are allowed to transmit data
+packets to the base station during Period B and the bandwidth allocated to
+each mobile station. Id. at 5:9–19.
+2. Bantz
+Bantz, which shares a co-inventor with Natarajan ’542, describes a
+MAC protocol for use in wireless networks. Ex. 1014. Like Natarajan ’542,
+Bantz describes a frame (or communication cycle) with intervals for inbound
+and outbound traffic between a base station and mobile stations. See id. at
+Fig. 3A. Of particular note is Bantz’s teaching that the protocol described
+therein “may be implemented in a distributed file system composed of only
+remote stations, one of which is designated as a base station. Moreover, the
+designation of the base station can be made to be dynamic . . . .”
+Id. at 11:53–57.
+3. Analysis
+Petitioner contends that Natarajan ’542 teaches most of the limitations
+of claims 6, 14, and 21. Pet. 47–58. Petitioner’s detailed analysis is similar
+to that presented with respect to anticipation of these claims by
+Natarajan 1992, a substantially similar reference. Id. The one exception is
+that Petitioner relies on Bantz for teaching the “designating” limitation
+recited in each of claims 6, 14, and 21. Id. at 44, 49. We agree with
+Petitioner that Bantz teaches designating a “hub” (i.e., base station that
+coordinates and relays communications between mobile stations) and
+26
+
+IPR2014-00916
+Patent 5,371,734
+designating the remaining mobile stations as “remotes.” Ex. 1014, 4:1–18,
+11:50–62; see Pet. 49; Ex. 1002 ¶¶ 224–25. We also are persuaded by
+Petitioner’s analysis that Natarajan ’542 discloses the remaining limitations
+of claims 6, 14, and 21, including the “each” limitation and “transmitting”
+limitation as properly construed, for reasons similar to those explained with
+respect to anticipation by Natarajan 1992. See Pet. 47–58.
+Moreover, we are persuaded that Petitioner has provided sufficient
+reasoning with some rational underpinning to support the conclusion of
+obviousness based on the combination of Natarajan ’542 and Bantz, which
+Petitioner describes as “the incorporation of known techniques (those of
+Bantz) for their known functions with a known base system (described in
+Natarajan ’542), without unpredictable results.” Id. at 46–47 (citing KSR,
+550 U.S. at 415–20); see Ex. 1002 ¶¶ 209–10. For example, Bantz teaches
+that the ability to designate a base station dynamically is advantageous in the
+event that a currently designated base station should fail, a feature that
+would have been desirable in the network disclosed in the related
+Natarajan ’542 reference. See Ex. 1014, 11:52–61; Pet. 44–45; Ex. 1002
+¶¶ 203–04.
+Having considered the parties’ contentions and supporting evidence,
+we determine that Petitioner has shown by a preponderance of the evidence
+that claims 6, 14, and 21 would have been obvious over the combination of
+Natarajan ’542 and Bantz.
+E. Obviousness over Natarajan ’542, Bantz, and Bella—Claim 11
+Petitioner contends that claim 11 is unpatentable under 35 U.S.C.
+§ 103(a) over the combination of Natarajan ’542, Bantz, and Bella, relying
+on declaration testimony of Dr. Haas. Pet. 58–59; see Ex. 1002 ¶¶ 262–69.
+27
+
+IPR2014-00916
+Patent 5,371,734
+Patent Owner makes no additional arguments directed specifically to this
+asserted ground. See PO Resp. 7–8.
+For reasons discussed in the previous two sections, Natarajan ’542
+teaches most of the limitations of claim 11, except for the “designating”
+limitation (taught by Bantz) and the “monitoring” and “revoking” limitations
+(taught by the combination of Natarajan ’542 and Bella). See Pet. 58–59.
+Also for reasons discussed previously, Petitioner has articulated sufficient
+reasoning with some rational underpinning to support a conclusion of
+obviousness in view of the combined teachings of the references. See id. As
+Petitioner points out, the only material difference between Natarajan ’542
+and Natarajan 1992 is that although Natarajan ’542 discloses mobile stations
+sending bandwidth requests to the base station, it does not expressly disclose
+requests for isochronous service, in which bandwidth is reserved in all future
+frames until cancelled. See Pet. 58; Ex. 1002 ¶ 262; Ex. 1003, 5:63–64.
+Nevertheless, Petitioner contends, with support from Dr. Haas, that carrying
+voice and other isochronous traffic would have been desirable in the relevant
+timeframe, so that it would have been obvious to add the capability to
+Natarajan ’542 by using booking packets as taught by Bella, combined with
+Bella’s method for cancelling, or revoking, the reservation. See Pet. 58–59;
+Ex. 1002 ¶¶ 262–64.
+Having considered the parties’ contentions and supporting evidence,
+we determine that Petitioner has shown by a preponderance of the evidence
+that claim 11 would have been obvious over the combination of
+Natarajan ’542, Bantz, and Bella.
+
+28
+
+IPR2014-00916
+Patent 5,371,734
+III. CONCLUSION
+Based on the evidence and arguments, Petitioner has demonstrated by
+a preponderance of the evidence that (i) claims 6, 14, and 21 of the
+’734 patent are anticipated by Natarajan 1992, (ii) claim 11 is unpatentable
+for obviousness over the combination of Natarajan 1992 and Bella;
+(iii) claims 6, 14, and 21 are unpatentable for obviousness over the
+combination of Natarajan ’542 and Bantz; and (iv) claim 11 is unpatentable
+for obviousness over the combination of Natarajan ’542, Bantz, and Bella.
+IV. ORDER
+Accordingly, it is:
+ORDERED that claims 6, 11, 14, and 21 of U.S. Patent No. 5,371,734
+have been shown to be unpatentable.
+This is a final written decision. Parties to the proceeding seeking
+judicial review of the decision must comply with the notice and service
+requirements of 37 C.F.R. § 90.2.
+
+29
+
+IPR2014-00916
+Patent 5,371,734
+FOR PETITIONERS:
+Matthew A. Smith
+Zhuanjia Gu
+TURNER BOYD LLP
+smith@turnerboyd.com
+gu@turnerboyd.com
+Jeffrey M. Olson
+Matthew S. Jorgenson
+SIDLEY AUSTIN LLP
+jolson@sidley.com
+mjorgenson@sidley.com
+
+FOR PATENT OWNER:
+Matthew Pasulka
+ATLAS IP, LLC
+mpasulka@hotmail.com
+George C. Summerfield
+STADHEIM AND GREAR, LTD.
+summerfield@stadheimgrear.com
+
+30
+
+

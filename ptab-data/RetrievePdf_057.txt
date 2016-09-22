@@ -1,0 +1,415 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 15
+Entered: November 20, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+AMERICAN MEGATRENDS, INC.,
+MICRO-STAR INTERNATIONAL CO., LTD,
+MSI COMPUTER CORP.,
+GIGA-BYTE TECHNOLOGY CO., LTD., AND
+G.B.T., INC.,
+Petitioner,
+v.
+KINGLITE HOLDINGS INC.
+Patent Owner
+____________
+Case IPR2015-01188
+Patent 5,836,013
+
+Before PHILLIP J. KAUFFMAN, GLENN J. PERRY, TREVOR M.
+JEFFERSON, and BRIAN J. McNAMARA, Administrative Patent Judges.
+PERRY, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+Case IPR2015-01188
+Patent 5,836,013
+INTRODUCTION
+American Megatrends, Inc., Micro-Star International Co., Ltd., MSI
+Computer Corp., Giga-Byte Technology Co., Ltd., and G.B.T., Inc.,
+(collectively, “Petitioner”) filed a Petition (Paper 6, “Pet.”) to institute an
+inter partes review of claims 1, 2, 7, 10, 14, and 18 of Patent 5,836,013 (“the
+’013 Patent”) pursuant to 35 U.S.C. § 311 et seq. Patent Owner Kinglite
+Holdings, Inc. filed a preliminary response (Paper 13, “Prelim. Resp.”) to
+the Petition.
+We have jurisdiction under 35 U.S.C. § 314(a), which provides that an
+inter partes review may not be instituted unless the information presented in
+the Petition shows “there is a reasonable likelihood that the petitioner would
+prevail with respect to at least 1 of the claims challenged in the petition.”
+Upon consideration of the Petition, Patent Owner’s Preliminary Response,
+and the evidence of record, we conclude Petitioner has not established a
+reasonable likelihood it would prevail with respect to at least one of the
+challenged claims. We, therefore, deny the Petition.
+Real Parties in Interest
+Petitioner names no real parties in interest other than the parties listed
+as Petitioner. See Pet. 7.
+Related Matters
+Petitioner indicates that the ’013 Patent is involved in the following
+litigation: Kinglite Holdings Inc. v. Giga-Byte Tech. Co. Ltd., et al., CV 1404989 JVS (PJWx) (C.D. Ca); and Kinglite Holdings Inc. v. Micro-Star Int’l
+Co. Ltd., et al., CV 14-03009 JVS (PJWx) (C.D. Ca). Pet. 6.
+Petitioner indicates that the following inter partes reviews are related.
+American Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01079
+2
+
+Case IPR2015-01188
+Patent 5,836,013
+(U.S. Pat. No. 6,373,498 B1); American Megatrends Inc., et al. v. Kinglite
+Holdings Inc., IPR2015-01081 (U.S. Pat. No. 5,987,604); American
+Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01094 (U.S. Pat.
+No. 6,401,202 B1); American Megatrends Inc., et al. v. Kinglite Holdings
+Inc., IPR2015-01132 (U.S. Pat. No. 6,523,123 B2); American Megatrends
+Inc., et al. v. Kinglite Holdings Inc., IPR2015-01133 (U.S. Pat. No.
+5,732,268); American Megatrends Inc., et al. v. Kinglite Holdings Inc.,
+IPR2015-01140 (U.S. Pat. No. 6,519,659 B1); American Megatrends Inc., et
+al. v. Kinglite Holdings Inc., IPR2015-01141 (U.S. Pat. No. 6,633,976 B1);
+American Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01188
+(U.S. Pat. No. 5,836,013); American Megatrends Inc., et al. v. Kinglite
+Holdings Inc., IPR2015-01189 (U.S. Pat. No. 5,836,013); American
+Megatrends Inc., et al. v. Kinglite Holdings Inc.,, IPR2015-01191 (U.S. Pat.
+No. 6,892,304 B1); and American Megatrends Inc., et al. v. Kinglite
+Holdings Inc., IPR2015-01197 (U.S. Pat. No. 6,487,656 B1). Paper 14, 1–2.
+THE ’013 PATENT (Ex. 1001)
+Described Invention
+The ’013 Patent describes chipset (platform)-independent methods for
+compressing and decompressing system ROM code of a computer (e.g.
+BIOS, setup program, and one or more option ROMs). Ex. 1001, Abstract.
+Compressing takes into account chipset particulars needed for reading to and
+writing from registers associated with a particular chipset by appending
+computer specific information (e.g., shadow RAM table) to the
+uncompressed ROM file before compressing portions of it. Id.
+Illustrative Claim
+Claim 1 of the ’013 Patent is illustrative of the challenged claims:
+3
+
+Case IPR2015-01188
+Patent 5,836,013
+1. In a computer having a processor and storage, a
+computer-implemented method for generating a system read
+only memory (ROM) computer file that can access the ROM of
+a target computer, the method comprising the steps of:
+receiving, for processing by the processor, a system
+ROM computer file comprising a non-compressible
+portion and one or more compressible portions,
+including a setup program and one or more option
+ROM images,
+the
+non-compressible
+portion
+comprising
+a
+decompression program;
+appending, to the non-compressible portion, information
+on accessing the ROM of a target computer;
+compressing, via the processor, each compressible
+portion to generate compressed data;
+generating, via the processor, a compressed system ROM
+computer file comprising the compressed data and the
+appended non-compressible portion; and
+storing the compressed system ROM computer file in the
+storage.
+PETITIONER’S CHALLENGE
+Petitioner contends that claims 1, 2, 7, 10, 14, and 18 are unpatentable
+under 35 U.S.C. §103 because they are obvious based on Schieve1 and
+AAPA2. Petitioner’s challenges are supported by the testimony of Gabriele
+Sartori, Ph.D. Ex. 1014. Pet. 13.
+Schieve describes how to run large diagnostic routines without taxing
+a computer’s operating system resources. Schieve decompresses previously
+compressed diagnostic routines into video RAM and runs them out of video
+RAM in an environment created by a boot loader. Ex. 1002, Abstract.
+1
+
+U.S. Patent 5,530,847 – Schieve et al., issued June 25, 1996 (Ex. 1002,
+“Schieve”)
+2
+The Applicant Admitted Prior Art includes ’013 Patent Figures 1–3 (Prior
+Art) and other “admissions” in the Specification (collectively “AAPA”).
+4
+
+Case IPR2015-01188
+Patent 5,836,013
+CLAIM CONSTRUCTION
+The patent at issue will expire before a final written decision is issued.
+The Board’s review of the claims of an expired patent is similar to that of a
+district court’s review. Therefore, the principles set forth by the court in
+Phillips v. AWH Corp., (words of a claim generally are given their ordinary
+and customary meaning as understood by a person of ordinary skill in the art
+in question at the time of the invention) should be applied because the
+expired claims are not subject to amendment.
+Although the parties propose constructions for “setup program”
+(claims 1, 8, and 10); “conventional memory” (claim 10); “decompressing
+each compressed portion in the conventional memory to a location in the
+memory” (claim 10); and “compressible” and “non-compressible” (all
+challenged claims), we find it necessary to construe only “conventional
+memory” in order to resolve the scope of claim 10. See Vivid Techs., Inc. v.
+Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999) (only those terms
+which are in controversy need to be construed, and only to the extent
+necessary to resolve the controversy).
+Conventional memory: Petitioner argues that “conventional memory”
+should be construed to encompass “any kind of RAM in a personal
+computer” because a person of ordinary skill in the art “would understand
+that video RAM and other kinds of RAM were conventional as of the time
+of invention.” Pet. 10.
+Patent Owner argues that “conventional memory” refers specifically
+to the basic 640K of memory available for running DOS programs (also
+called DOS memory or low DOS memory. Prelim. Resp. 10 (citing to Ex.
+1001, Fig. 1, 2:45–58).
+5
+
+Case IPR2015-01188
+Patent 5,836,013
+Figure 1 (Prior Art) of the ’013, reproduced below, is a graphical
+representation of typical memory map in a personal computer.
+
+The ’013 patent explains Figure 1 as follows:
+FIG. 1 is an example graphical representation of a typical
+memory map 100 in a computer (e.g., an IBM compatible
+personal computer, any Intel central processing unit (CPU)
+-based machine, or similar computing devices). Memory
+100 is generally divided into two areas: conventional
+memory 110 and upper memory 120. Conventional memory
+110 comprises a random access memory (RAM) 112 address
+space that is set aside for use by operating systems and
+application programs. Conventional memory 110 is, for
+example, located in the 0 to 9FFFFh (Where “h” indicates
+hexadecimal notation) address range of memory 100. Upper
+memory 120 is used by the computer hardWare. Upper
+memory 120 is, for example, located in the AOOOOh to
+FFFFFh address range of memory 100. The first 128 kilo
+6
+
+Case IPR2015-01188
+Patent 5,836,013
+bytes (“K”) of upper memory 120 addresses are generally
+used for video memory 122. The remaining upper memory
+addresses (e. g., 0000h to 100000h or the end of memory) are
+set aside for read only memory (ROM) 130.
+Ex. 1001, 2:45–63. We understand from this passage that “conventional
+memory” referred only to lower memory and not to upper memory.
+While we agree with Petitioner that video RAM and other kinds of
+RAM were conventional in the sense that they were known and used, we are
+not persuaded that the term “conventional memory” should be construed to
+include video RAM. The Specification clearly identifies what was meant by
+“conventional memory.” We therefore adopt Patent Owner’s construction.
+For purposes of this decision, “conventional memory” refers to the basic
+640K of memory available for running DOS programs.
+PETITIONER’S PRIOR ART CHALLENGE
+We turn now to Petitioner’s prior art challenge and Patent Owner’s
+arguments set forth in its Preliminary Response to determine whether
+Petitioner has met the threshold standard of 35 U.S.C. § 314(a).
+Petitioner contends that claims 1, 2, 7, 10, 14, and 18 would have been
+obvious based on Schieve and AAPA under 35 U.S.C. § 103(a), relying on
+the supporting testimony of Gabrielle Sartori, Ph.D. Pet. 14–29. Claims 1
+and 10 are independent. Claims 2 and 7 depend from claim 1 and claims 14
+and 18 depend from claim 10.
+Patent Owner argues that the Petition should be denied because at
+least following limitations are not taught by the cited prior art:
+- copying the compressed system ROM computer file from the ROM
+to conventional memory (claims 10, 14, and 18);
+- non-compressible portion/compressed portions (all challenged
+7
+
+Case IPR2015-01188
+Patent 5,836,013
+claims);
+- setup program (claims 1, 2, 7, 10, 14, and 18) and option ROM
+images (claims 1, 2, and 7) are included in the compressible/compressed
+portion; and
+- appending, to the non-compressible portion, information on
+accessing the ROM of a target computer (claims 1, 2, and 7).
+Prelim. Resp. 1.
+“copying . . . to conventional memory and decompressing
+each compressed portion in the conventional memory to a
+location in the memory” (claim 10)
+Petitioner relies upon Schieve as meeting the claim 10 limitation
+“copying . . . to conventional memory and decompressing each compressed
+portion in the conventional memory to a location in the memory.” Pet. 27.
+Petitioner reasons that video RAM can be thought of as being in either
+memory subsystem; that diagnostic routines “could” be stored in system
+RAM; and that a PHOSITA would understand that copying a compressed
+file to RAM and then decompressing it would be faster because RAM is
+faster than ROM. Id.
+Patent Owner argues that Schieve does not disclose this claim
+limitation. Prelim. Resp. 12. Patent Owner notes that Schieve decompresses
+data into video memory and therefore teaches away from storing
+decompressed diagnostic routines in conventional memory or anywhere
+other than in video RAM. Id. at 12–13 (citing Ex. 1002, 3:46–51, 6:18–26,
+Fig. 4, and claims 1, 8, 17, 21, 29, and 33).
+In claim 10, we read the antecedent basis for “the memory” as
+“conventional memory,” the only “memory” referred to in the claim and
+appearing just before “the memory.”
+8
+
+Case IPR2015-01188
+Patent 5,836,013
+Schieve explains solving the problem of running large diagnostic files
+on a computer that would otherwise tax BIOS hardware handling routines:
+In the attainment of the above noted primary object, the
+present invention is the first to provide a method of
+loading diagnostic routines in a computer system
+comprising the steps of (l) executing a boot loading
+routine stored in non-volatile memory within the computer
+system, the boot loading routine including a
+decompression routine, (2) decompressing a driver routine
+and a compressed diagnostic routine stored in the non
+volatile memory into video RAM, the driver routine
+providing an environment in lieu of an operating system of
+the computer system within which to execute the
+diagnostic routine and (3) executing the driver routine
+under control of the boot loading routine.
+Ex. 1002, 3:13–25.
+In accordance with our construction of “conventional memory,” we
+agree with Patent Owner’s argument that Schieve’s teaching to a PHOSITA
+is to utilize video RAM, and not conventional memory, for running a
+decompressed diagnostic routine. Schieve’s Figure 2 is reproduced below
+(with annotation).
+
+9
+
+Case IPR2015-01188
+Patent 5,836,013
+
+Schieve describes Figure 2 as a partial block diagram of a PC architecture.
+Ex. 1002, 4:39–40. Video RAM 232 is shown in Figure 2 in a subsystem
+separate from memory subsystem 220. As discussed above, the ’013 patent
+itself, in Figure 1 (Prior Art), demonstrates that “conventional memory”
+(RAM 112) is separate and distinct from “video memory” (video memory
+122). Accordingly, this limitation of claim 10 is not met by Schieve.
+“a non-compressible portion . . . the non-compressible portion
+comprising a decompression program.” (claims 1, 2, and 7)
+Petitioner argues that Schieve discloses “a non-compressible portion
+and one or more compressible portions . . . . include[ing] a setup program
+and one or more option ROM images, [the non-compressible portion
+comprising a decompression program].” Pet. 18–19. Petitioner relies upon
+AAPA (Fig. 3 of the ’013 patent) with regard to the setup and option ROM
+requirements of this claim limitation. Pet. 18. Petitioner relies upon
+Schieve as teaching the desirability of compressing any routine of the BIOS,
+assuming it is capable of being compressed. Pet. 19 (citing to Ex. 1014, par.
+10
+
+Case IPR2015-01188
+Patent 5,836,013
+49). Dr. Sartori’s testimony at paragraph 49 of Ex. 1014 states:
+49. In Schieve, the system ROM is comprised of a flash
+ROM, which has limited memory space. To counteract
+these limitations, Schieve teaches the general desirability
+of compressing data files where possible, such that “the
+object [of the Schieve’s invention] is simply to compress
+the data to fit it within the confines of flash ROM [sic].”
+(Ex. 1002, 6:5–8) (emphasis omitted).
+Petitioner argues that Schieve describes a decompression routine. Pet.
+24 (citing Ex. 1002, 3:13–25) (reproduced above). Exhibit 1002 at column
+3, lines 13–25 discloses that the boot loading routine includes a
+decompression routine. It further discloses that the driver routine and the
+diagnostic routine must have been compressed (they are being
+decompressed). It also tells us that the driver routine provides an
+environment for executing the diagnostic routine. However, we find nothing
+in this passage that instructs that the decompressing routine should be stored
+in a non-compressible portion.
+The remaining portion of the SUMMARY OF THE INVENTION
+(containing the above-quoted passage) discusses the importance of correctly
+storing the diagnostic routine so that the decompression routine can properly
+decompress it for use. Id. at 3:25–51.
+Patent Owner argues that Schieve and AAPA do not disclose “a noncompressible portion . . . the non-compressible portion comprising a
+decompression program.” Prelim. Resp. 13. We agree.
+“The setup program and one or more option ROM images are
+included in the compressible portion”(claims 1, 2, and 7)
+Petitioner relies upon Schieve’s visual interface by which a user
+selects the diagnostic routines as corresponding to the claimed setup
+11
+
+Case IPR2015-01188
+Patent 5,836,013
+program because it “accomplishes the [same] functionality” of a setup
+program that is stored with BIOS. Pet. 18.
+Patent Owner argues that Schieve and AAPA do not disclose “the
+setup program and one or more option ROM images are included in the
+compressible portion.” Prelim. Resp. 14–17. The AAPA discloses optional
+ROM images, as well as a setup program that accomplishes the same
+functionality of a conventional setup program stored with BIOS. Id. (citing
+Ex. 1001, 1:40–41). The art does not disclose the setup program and the
+option ROM images that are included in a compressible portion of a system
+ROM computer file, as required.
+We agree with Patent Owner that Petitioner has not demonstrated that
+this claim feature is taught by Schieve and AAPA.
+For the above-stated reasons, Petitioner’s showing regarding claims 1
+and 10 is deficient. Therefore we do not institute. The Petition has at least
+the following additional shortcomings.
+“appending, to the noncompressible portion, information on
+accessing the ROM of a target computer”(claims 1, 2, and 7)
+Petitioner argues that Schieve teaches “appending, to the
+noncompressible portion, information on accessing the ROM of a target
+computer” because Schieve’s boot loading and compressed diagnostic
+routines are “checksum tested” to make certain of code integrity. Pet. 20
+(citing Ex. 1002, 5:57–60). Further, according to Petitioner, “the boot
+loading routine decompresses a first diagnostic routine from flash ROM into
+video RAM (block 470).” Id. (citing Ex. 1002, 5:57–60).
+We do not regard comparing checksums as appending information on
+accessing the ROM of a target computer.
+12
+
+Case IPR2015-01188
+Patent 5,836,013
+“generating, via the processor, a compressed system ROM
+computer file comprising the compressed data and the
+appended non-compressible portion.” (claims 1, 2, and 7)
+Patent Owner further argues with respect to claim 1 that Schieve does
+not disclose “generating, via the processor, a compressed system ROM
+computer file comprising the compressed data and the appended noncompressible portion.” Prelim. Resp. 18–19.
+We agree. Because Schieve does not disclose the “appending” step,
+discussed above, Schieve also fails to disclose this limitation, which requires
+generating a file containing the appended information.
+“the system ROM computer file comprises a basic
+input/output system (BIOS) and the BIOS
+comprises the non-compressible portion” (claim 2)
+Patent Owner argues that Schieve does not disclose “the system ROM
+computer file comprises a basic input/output system (BIOS) and the BIOS
+comprises the non-compressible portion” Prelim. Resp. 19.
+This limitation appears in claim 2, which depends from claim 1.
+Petitioner contends that “Schieve discloses that the ROM computer file is a
+BIOS and the BIOS comprises the non-compressible portion.” Pet. 22
+(citation omitted). Petitioner does not provide explain sufficiently why this
+is the case. Schieve also does not specify any components that are noncompressible, as discussed above.
+Claims 7, 14, and 18
+Claim 7 depends from claim 1. For the reasons stated above with
+respect to claim 1, we are persuaded by Patent Owner’s arguments. Claims
+14 and 18 are not separately argued.
+
+13
+
+Case IPR2015-01188
+Patent 5,836,013
+CONCLUSION
+For the foregoing reasons, we determine that the information
+presented in the Petition does not establish a reasonable likelihood that
+Petitioner would prevail in establishing the unpatentability of claims 1, 2, 7,
+10, 14, and 18 under 35 U.S.C. § 103 as obvious over Schieve and the
+AAPA.
+ORDER
+Accordingly, it is
+ORDERED that pursuant to 35 U.S.C. § 314, an inter partes review is
+hereby denied as to all grounds raised in the Petition for the reasons stated
+above and no trial is instituted.
+
+PETITIONER:
+Vivek Ganti
+Gregory Ourada
+HILL, KERTSCHER & WHARTON, LLP
+vg@hkw-law.com
+go@hkw-law.com
+PATENT OWNER
+Christopher Frerking
+chris@ntknet.com
+George C. Summerfield
+STADHEIM & GREAR LTD.
+summerfield@stadheimgrear.com
+
+14
+
+

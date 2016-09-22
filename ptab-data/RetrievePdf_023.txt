@@ -1,0 +1,1425 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 50
+Entered: February 3, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+
+VTECH COMMUNICATIONS, INC., and
+UNIDEN AMERICA CORPORATION,
+Petitioner,
+v.
+SHPERIX INCORPORATED,
+Patent Owner.
+
+Case IPR2014-01431
+Patent 5,581,599
+
+Before HOWARD B. BLANKENSHIP, JONI Y. CHANG, and
+BEVERLY M. BUNTING, Administrative Patent Judges.
+CHANG, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-01431
+Patent 5,581,599
+
+I.
+
+INTRODUCTION
+
+VTech Communications, Inc. and Uniden America Corporation
+(collectively, “VTech”) filed a Petition requesting an inter partes review of
+claims 1–13 and 17–19 of U.S. Patent 5,581,599 (Ex. 1001, “the ’599
+patent”). Paper 2 (“Pet.”). Patent Owner Spherix Incorporated (“Spherix”)
+filed a Preliminary Response. Paper 11 (“Prelim. Resp.”). Upon
+consideration of the Petition and Preliminary Response, we determined that
+there is a reasonable likelihood that VTech would prevail in challenging
+claims 1–7 and 18 as unpatentable under 35 U.S.C. § 103(a), but not with
+respect to claims 8–13, 17, and 19. Pursuant to 35 U.S.C. § 314, we
+instituted this trial as to claims 1–7 and 18 of the ’599 patent. Paper 13
+(“Dec.”), 33.
+Subsequent to institution, Spherix filed a Patent Owner Response
+(Paper 25, “PO Resp.”), and VTech filed a Reply to the Patent Owner
+Response (Paper 28, “Reply”). An oral hearing1 was held on September 28,
+2015.2
+We have jurisdiction under 35 U.S.C. § 6(c). This Final Written
+Decision is entered pursuant to 35 U.S.C. § 318(a). For the reasons set forth
+below, we determine that VTech has shown by a preponderance of the
+evidence that claims 1–7 and 18 of the ’599 patent are unpatentable.
+
+1
+
+The oral hearings for this trial and IPR2014-01432 were consolidated.
+
+2
+
+A transcript of the oral hearing is entered in the record as Paper 47 (“Tr.”).
+2
+
+IPR2014-01431
+Patent 5,581,599
+
+A. Related Matter
+VTech indicates that the ’599 patent has been asserted in Spherix Inc.
+v. VTech Telecomm., Ltd., No. 3:13-cv-3494-M (N.D.Tex.) and Spherix Inc.
+v. Uniden Corp., No. 3:13-cv-3496-M (N.D.Tex.). Pet. 58.
+B. The ’599 Patent
+The ’599 patent relates to a telephone system having an interactive
+cordless telephone handset and an associated base station. Ex. 1001, Abs.
+Figure 1 of the ’599 patent is reproduced below.
+
+Figure 1 of the ’599 patent illustrates a telephone system 10 that
+includes base station 11 and cordless handset 13. Id. at 2:54–64. Cordless
+handset 13 includes dial pad 15 and display screen 16. Id. Base station 11
+includes dial pad 17 and function keys. Id. at 2:65–3:1.
+
+3
+
+IPR2014-01431
+Patent 5,581,599
+
+C. Illustrative Claim
+Of the instituted claims, claims 1 and 18 are the only independent
+claims. Claims 2–7 depend, either directly or indirectly, from claim 1.
+Claim 1, reproduced below, is illustrative:
+1. A method for displaying data and processing appearances
+thereof from an alphanumeric display screen of a cordless
+handset in user-interactive radio communication with an
+associated base station of a cordless telephone terminal in
+onhook communication with a telephone exchange, wherein said
+base station comprises a memory device, and wherein said
+memory device comprises first and second submemories, said
+method comprising the steps of:
+generating predetermined command and alphanumeric
+data from selected ones of key operations at the handset;
+enabling first processor means at the handset for
+displaying keyed alphanumeric data on the screen and
+concurrently transmitting the alphanumeric data and commands
+to the base station;
+enabling second processor means at the base station for
+receiving the alphanumeric data and commands, retrievably
+storing the data in a first submemory of the base station and
+operably responding to the commands;
+capturing service data from an incoming telephone call
+received at the base station;
+testing the service data at the base station to confirm its
+validity;
+retrievably storing the valid data in a second submemory
+of the base station and concurrently transmitting the valid data to
+the handset for display on the screen;
+generating a set of user-interactive prompts having
+predetermined appearances on the display screen; and
+4
+
+IPR2014-01431
+Patent 5,581,599
+
+accessing individual ones of the first and second
+submemories via key operations at the handset corresponding to
+the user-interactive prompts for selectively processing and
+editorially revising the alphanumeric data stored in the
+submemories while under display screen observation.
+Ex. 1001, 12:57–13:23 (emphases added).
+
+D. Prior Art Relied Upon
+VTech relies upon the following prior art references:
+Martensson
+Schneyer
+Figa
+Nishihara
+Obata
+Silver
+
+US 6,349,212 B1
+US 5,388,150
+US 4,924,496
+US 5,561,712
+US 5,251,250
+US 4,882,745
+
+Feb. 19, 2002
+Feb. 7, 1995
+May 8, 1990
+Oct. 1, 1996
+Oct. 5, 1993
+Nov. 21, 1989
+
+(Ex. 1002)
+(Ex. 1003)
+(Ex. 1004)
+(Ex. 1008)
+(Ex. 1010)
+(Ex. 1015)
+
+Bell Communication Research, SPCS Customer Premises Equipment
+Data Interface, BELLCORE TECHNICAL REFERENCE TR-TSY-000030 Issue 1
+(1988) (Ex. 1012, “Bellcore I”).
+Bell Communication Research, CLASS Feature: Calling Number
+Delivery, BELLCORE TECHNICAL REFERENCE TR-TSY-000031 Issue 2 (1998)
+(Ex. 1013, “Bellcore II”).3
+
+3
+
+We also refer to Bellcore I and Bellcore II, collectively, as “Bellcore
+Technical References.”
+5
+
+IPR2014-01431
+Patent 5,581,599
+
+E.
+
+The Instituted Ground of Unpatentability
+
+We instituted the instant trial based on the sole ground that claims 1–7
+and 18 of the ’599 patent are unpatentable under 35 U.S.C. § 103(a) over the
+combination of Figa and Martensson. Dec. 33.
+
+II.
+
+ANALYSIS
+
+A. Claim Construction
+The ’599 patent was issued from U.S. Patent Application
+No. 08/175,534, filed on December 30, 1993, and has expired. Ex. 1001, at
+[22]; Pet. 7–10; PO Resp. 21. For claims of an expired patent that cannot be
+amended, the Board’s claim interpretation analysis is similar to that at
+district court. In re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). The
+words of a claim “are generally given their ordinary and customary
+meaning,” as understood by one of ordinary skill in the art at the time of the
+invention. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir. 2005)
+(en banc). “In determining the meaning of the disputed claim limitation, we
+look principally to the intrinsic evidence of record, examining the claim
+language itself, the written description, and the prosecution history, if in
+evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d
+1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17).
+There is a “heavy presumption” that a claim term carries its ordinary
+and customary meaning. CCS Fitness, Inc. v. Brunswick Corp., 288 F.3d
+1359, 1366 (Fed. Cir. 2002) (citation omitted). To overcome this
+6
+
+IPR2014-01431
+Patent 5,581,599
+
+presumption, the patentee must “clearly set forth” and “clearly redefine” a
+claim term away from its ordinary meaning. Bell Atlantic Network Servs.,
+Inc. v. Covad Commc’ns Grp., Inc., 262 F.3d 1258, 1268 (Fed. Cir. 2001).
+The disavowal must be “unmistakable” and “unambiguous.” Dealertrack,
+Inc. v. Huber, 674 F.3d 1315, 1322 (Fed. Cir. 2012).
+VTech agrees with Spherix’s claim constructions submitted
+previously in the related district court proceeding, to give the claim terms
+their ordinary and customary meaning. Pet. 8–10 (citing Ex. 1009;
+Ex. 1021). Subsequent to Institution, Spherix urges us to adopt all of the
+constructions entered in the Claim Construction Order (Ex. 2012) by the
+District Court. PO Resp. 22–23.
+Although a district court’s interpretation of a claim term recited in the
+involved patent is instructive, we nevertheless are not bound by that
+construction. See Power Integrations, Inc. v. Lee, 797 F.3d 1318, 1326
+(Fed. Cir. 2015) (“There is no dispute that the board is not generally bound
+by a prior judicial construction of a claim term.”). We note that patent
+claims have a presumption of validity in a district court proceeding. In
+contrast, there is no presumption of validity in an inter partes review, and,
+therefore, we will not be applying a rule of construction with an aim to
+preserve the validity of claims. Further, we observe that the parties’
+arguments and supporting evidence submitted here are different than those
+presented in the district court proceeding. For instance, Spherix argued in
+the district court proceeding that the claim elements “first processor means”
+and “second processor means” are not means-plus-function limitations.
+7
+
+IPR2014-01431
+Patent 5,581,599
+
+Prelim. Resp. 17; Ex. 2012, 33–52. Here, however, Spherix urges us in this
+inter partes review to construe these claim terms as means-plus-function
+limitations under § 112, ¶ 6.4 PO Resp. 22–23.
+In any event, we have reviewed and considered the District Court’s
+Claim Construction Order insofar as its reasoned analysis is relevant to the
+issues before us regarding the patentability of claims 1–7 and 18 of the ’599
+patent and the claim terms in dispute here. See Power Integrations, 797
+F.3d at 1326 (“The fact that the board is not generally bound by a previous
+judicial interpretation of a disputed claim term does not mean, however, that
+it has no obligation to acknowledge that interpretation or to assess whether it
+is consistent with the broadest reasonable construction of the term.”). Based
+on this record before us, we discern no inconsistency between our
+determination of the patentability issues in dispute here and the District
+Court’s claim constructions.
+We are mindful that only those terms, which are in controversy, need
+to be construed, and only to the extent necessary to resolve the controversy.
+Vivid Techs., Inc. v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir.
+1999). For purposes of this Final Written Decision, we determine that it is
+necessary to address only the following claim terms or elements expressly:
+
+4
+
+Section 4(c) of the AIA re-designated 35 U.S.C. § 112, ¶ 6, as § 112(f).
+Pub. L. No. 112-29, 125 Stat. 284, 296–07 (2011). Because the ’599 patent
+has a filing date before September 16, 2012 (effective date), we will refer to
+the pre-AIA version of § 112, in this Decision.
+8
+
+IPR2014-01431
+Patent 5,581,599
+
+the preamble of claims 1 and 18, “first submemory,” “second submemory,”
+“service data,” “concurrently transmitting the alphanumeric data and
+commands,” “first processor means,” and “second processor means.”5
+Therefore, it is not necessary for us to adopt all of the District Court’s claim
+constructions, as requested by Spherix.
+Preambles of Independent Claims 1 and 18
+“In general, a preamble limits the invention if it recites essential
+structure or steps, or if it is ‘necessary to give life, meaning, and vitality’ to
+the claim.” Catalina Mktg. Int’l, Inc. v. Coolsavings.com, Inc., 289 F.3d
+801, 808 (Fed. Cir. 2002) (citations omitted). “Conversely, a preamble is
+not limiting ‘where a patentee defines a structurally complete invention in
+the claim body and uses the preamble only to state a purpose or intended use
+for the invention.’” Id. In other words, the preamble is regarded as limiting
+if it recites essential structure that is important to the invention or necessary
+to give meaning to the claim. NTP, Inc. v. Research In Motion, Ltd., 418
+F.3d 1282, 1305–06 (Fed Cir. 2005).
+The preambles of claims 1 and 18 recite:
+A method for displaying data and processing appearances thereof
+from an alphanumeric display screen of a cordless handset in
+user-interactive radio communication with an associated base
+station of a cordless telephone terminal in onhook
+
+5
+
+The district court did not construe the preamble of claims 1 and 18 nor the
+terms “service data,” “first submemory,” and “second submemory.”
+Ex. 2012, 104.
+9
+
+IPR2014-01431
+Patent 5,581,599
+
+communication with a telephone exchange, wherein said base
+station comprises a memory device, and wherein said memory
+device comprises first and second submemories, said method
+comprising the steps of:
+Ex. 1001, 12:57–64, 15:26–33 (emphases added).
+The preambles of claims 1 and 18 recite essential structural elements
+of the claimed method pertaining to the cordless handset, base station, and
+memory device, rather than merely stating the purpose or intended use of the
+claimed method or apparatus. For instance, the recitation of “said memory
+device comprises first and second submemories” in the preambles of the
+claims sets forth the structural limitation that the first and second
+submemories are portions of the same memory device. Although the bodies
+of the claims recite first and second submemories, they do not recite a
+memory device, much less the structural relationship between the
+submemories and the memory device. It is apparent that the bodies of the
+claims do not recite the complete invention, and that the claim drafter of the
+’599 patent chose to use both the preamble and the body of each claim to
+define the subject matter of the claimed method. See Bell Commc’ns
+Research v. Vitalink Commc’ns Corp., 55 F.3d 615, 620 (Fed. Cir. 1995)
+(noting that if the claim drafter “chooses to use both the preamble and the
+body to define the subject matter of the claimed invention, the invention so
+defined, and not some other, is the one the patent protects.” (emphasis in
+original)).
+Moreover, the recitation of a “cordless handset in user-interactive
+radio communication with an associated base station” in the preambles of
+10
+
+IPR2014-01431
+Patent 5,581,599
+
+claims 1 and 18 describes a fundamental characteristic of the claimed
+method—namely, the handset referenced in the bodies of the claims is a
+cordless handset. The Specification states that “a principal objective of the
+present invention is to provide a digital data display in the cordless handset.”
+Ex. 1001, 1:51–53 (emphasis added). Essentially, the preambles of the
+claims recite structural elements that are important to the claimed invention.
+See Vizio, Inc. v. ITC, 605 F.3d 1330, 1340 (Fed. Cir. 2010) (“[T]he ‘for
+decoding’ language . . . is properly construed as a claim limitation, and not
+merely a statement of purpose or intended use for the invention, because
+‘decoding’ is the essence or a fundamental characteristic of the claimed
+invention.”); Poly-America, L.P. v. GSE Lining Tech., Inc., 383 F.3d 1303,
+1309-10 (Fed. Cir. 2004) (“blown-film” in the preamble was limiting where
+the specification was “replete with references to the invention as a ‘blownfilm’ liner” and described it as a fundamental characteristic of the
+invention).
+In consideration of the foregoing, we determine that the preambles of
+claims 1 and 18 are entitled to patentable weight.
+“first submemory” and “second submemory”
+Claims 1 and 18 recite “wherein said base station comprises a
+memory device, and wherein said memory device comprises first and second
+submemories.” Ex. 1001, 12:57–24, 15:31–33 (emphasis added).
+VTech agrees with Spherix’s claim constructions submitted in the
+district court proceeding, which is to give these claim terms their ordinary
+11
+
+IPR2014-01431
+Patent 5,581,599
+
+and customary meaning. Pet. 8–10. For example, VTech points out Spherix
+asserted that “‘[s]ubmemory’ is simply an engineering shorthand way of
+saying ‘a portion of the memory.’” Id. at 8 (citing Ex. 1009, 18).
+In its Patent Owner Response, however, Spherix urges us to construe
+the claim terms “first submemory” and “second submemory” as “a first
+logically distinct portion of a physical memory” and “a second logically
+distinct portion of the same said physical memory,” respectively. PO Resp.
+24–25 (emphases added). Spherix alleges that its current proposed
+constructions would make clear that the first submemory and the second
+submemory are separate portions of a physical memory, and they must be
+portions of the same physical memory device. Id. (citing Ex. 2010 ¶¶ 62–
+67, 74). Spherix further maintains that its proposed constructions submitted
+here are consistent with the prosecution history, the Specification of the ’599
+patent, and the ordinary and customary meaning of these terms. Id.
+We have considered the evidence cited by Spherix that purportedly
+supports its current proposed claim constructions. We observe that adopting
+those constructions would import improperly an extraneous feature into the
+claims—namely, “logically distinct portion of a physical memory.” It is
+well-settled that if a feature is not necessary to give meaning to what the
+inventor means by a claim term, it would be “extraneous” and should not be
+read into the claim. Renishaw PLC v. Marposs Societa’ per Azioni, 158
+F.3d 1243, 1249 (Fed. Cir. 1998); E.I. du Pont de Nemours & Co. v. Phillips
+Petroleum Co., 849 F.2d 1430, 1433 (Fed. Cir. 1988). More importantly,
+Spherix does not provide sufficient evidence or reasoning to overcome the
+12
+
+IPR2014-01431
+Patent 5,581,599
+
+“heavy presumption” that a claim term carries its ordinary and customary
+meaning. See CCS Fitness, 288 F.3d at 1366.
+We observe that the cited portions of the prosecution history merely
+contain a copy of the ’599 patent (Ex. 2016, 16, 20–21) and the examiner’s
+amendment cited by Spherix provides no explanation as to why the
+amendment—adding “sub” before “memory”—was made (Ex. 2020, 4–5).6
+PO Resp. 25. It is unclear how the prosecution history supports Spherix’s
+current proposed claim constructions. Spherix also does not proffer any
+meaningful explanation as to whether there is a prosecution history
+disclaimer or whether there is a clear and deliberate disavowal. See PO
+Resp. 24–25. At most, the portions of the prosecution history cited by
+Spherix are ambiguous. It is well-settled that “the doctrine of prosecution
+disclaimer only applies to unambiguous disavowals.” Grober v. Mako
+Prods., Inc., 686 F.3d 1335, 1341 (Fed. Cir. 2012) (citing Abbott Labs. v.
+Sandoz, Inc., 566 F.3d 1282, 1289 (Fed. Cir. 2009)). “It is inappropriate to
+limit a broad definition of a claim term based on prosecution history that is
+itself ambiguous.” Inverness Med. Switz. GmbH v. Warner Lambert Co.,
+309 F.3d 1373, 1382 (Fed. Cir. 2002).
+Further, based on our review of the portions of the Specification cited
+by Spherix, we note that the term “submemory” is not used in the
+Specification. See Reply 19; PO Resp. 24–25 (citing Ex. 1001, 4:13–23,
+
+6
+
+All references to the page numbers of Exhibits 2016 and 2020 refer to the
+exhibit page number on the bottom right corner of the page.
+13
+
+IPR2014-01431
+Patent 5,581,599
+
+7:23–35, 9:33–67). In fact, the cited portions of the Specification merely
+disclose storing data in a nonvolatile NVRAM (memory), and are silent as to
+storing data in a submemory or a logically distinct portion of a memory.
+Ex. 1001, 4:13–23 (“the data is retrievably stored in a nonvolatile NVRAM
+34”); 7:23–35 (“such data is stored in a non-volatile NVRAM 34”); 9:33–67
+(“In the case of storing the corresponding name, storage occurs in the
+nonvolatile memory NVRAM 34 in which the directory resides.”).
+Spherix’s expert witness, Dr. Paul Franzon, testifies that the Specification
+describes storing separate lists of alphanumeric data in logically separate
+memory portions that are part of a single physical memory device. Ex. 2010
+¶ 64. Dr. Franzon’s testimony, however, also is unsupported, as the portions
+of the Specification cited by Dr. Franzon are likewise silent as to storing
+data “in logically separate memory portions” of a memory device. Ex. 1001,
+9:33–67 (storing predialed alphanumeric data in the NVRAM 34); 4:13–23,
+7:23–34 (storing captured caller ID service data in the NVRAM 34). It is
+unclear how those cited portions of the Specification support Spherix’s
+current proposed claim constructions. “Although an inventor is indeed free
+to define the specific terms used to describe his or her invention, this must
+be done with reasonable clarity, deliberateness, and precision.” In re
+Paulsen, 30 F.3d 1475, 1480 (Fed. Cir. 1994). In this proceeding before us,
+Spherix points to nothing that defines the “submemory” claim terms with
+“reasonable clarity, deliberateness, and precision.”
+With respect to the ordinary and customary meaning of these
+“submemory” claim terms as would be understood by a person of ordinary
+14
+
+IPR2014-01431
+Patent 5,581,599
+
+skill in the art, Dr. Franzon testifies that “[t]echniques for partitioning a
+single physical memory into separate registers for different types of data or
+functions would have been well known to a POSITA in December 1993.”
+Ex. 2010 ¶ 66. During cross-examination, Dr. Franzon implied that storing
+two lists in one memory device necessarily means that those lists have to be
+logically separate, and further explained that logically separate, “in the view
+of the person of ordinary skill in the art, is to treat those two lists as . . . not
+being one joint list, . . . because you have got to find the information again.”
+Ex. 1024, 108:3–24. Further, as VTech points out, Spherix previously
+asserted in the district court proceeding that the plain and ordinary meaning
+of the term “submemory” is “a portion of the memory.” Pet. 8–10; Reply
+18–19; Ex. 1009, 18. In that light, we determine that the claim terms “first
+submemory” and “second submemory” should be given their ordinary and
+customary meaning as would be understood by a person with ordinary skill
+in the art at the time of the invention, in that the term “submemory” means
+“a portion of the memory.”
+“service data”
+Claim 1 recites “testing the service data at the base station to confirm
+its validity,” and claim 2 further recites “wherein the service data comprises
+digitally encoded calling line identification data including a caller’s name, a
+directory number sequence, date and time of call.” Ex. 1001, 13:11–12, 24–
+27 (emphases added).
+
+15
+
+IPR2014-01431
+Patent 5,581,599
+
+Because Spherix raised the issue of whether the combination of Figa
+and Martensson renders these limitations concerning service data in its
+Preliminary Response, we construed the term “service data” in the Decision
+of Institution. Dec. 8–9, 18–21. Specifically, we construed the claim term
+“service data” as “caller identification information,” in light of the
+Specification. Dec. 9; Ex. 1001, 4:10–13. Subsequent to institution, in its
+Patent Owner Response, Spherix agrees that “caller identification
+information” is within the proper scope of the “service data” in the context
+of the claims of the ’599 patent. PO Resp. 21. VTech does not propose a
+different claim construction as to this claim term. See generally Reply.
+Upon review of the present record in its entirety, we discern no reason to
+change our claim construction for this Final Written Decision.
+“concurrently transmitting the alphanumeric data and commands”
+Claims 1 and 18 recite “displaying keyed alphanumeric data on the
+screen and concurrently transmitting the alphanumeric data and commands
+to the base station.” Ex. 1001, 13:1–4, 15:34–37 (emphasis added). Spherix
+urges us to adopt the District Court’s claim construction, which is “plain and
+ordinary meaning.” PO Resp. 22–23 (citing Ex. 2012, 104). We agree. As
+District Court found, the claim language, in light of the Specification,
+indicates that the term “concurrently” as used in the claim limitation does
+not refer to both “displaying” and “transmitting” but rather refers to
+“transmitting the alphanumeric data and commands to the base station.”
+Ex. 2012, 24; Ex. 1001, 8:42–55, Fig. 6b. According to the District Court’s
+16
+
+IPR2014-01431
+Patent 5,581,599
+
+finding, “the specification does not state that each time an alphanumeric data
+is keyed, it is concurrently transmitted.” Ex. 2012, 25; Ex. 1001, 9:2–28 (the
+displayed number is not transmitted to the base station until the users strikes
+the command key to dial the number). We also agree with the District
+Court’s finding that a person of ordinary skill in the art would have
+understood that the term “concurrently” only requires the transmission of the
+alphanumeric data and commands to occur within the same interval of time,
+and not at the same instant of time. Ex. 2012, 33.
+Based on the evidence in this record, we determine that the claim term
+“concurrently transmitting the alphanumeric data and commands” should be
+given its ordinary and customary meaning. See Phillips, 415 F.3d at 1312.
+“first processor means” and “second processor means”
+Claims 1 and 18 each recite:
+A method for displaying data and processing appearances . . .
+enabling first processor means at the handset for displaying
+keyed alphanumeric data on the screen and concurrently
+transmitting the alphanumeric data and commands to the base
+station;
+enabling second processor means at the base station for receiving
+the alphanumeric data and commands, retrievably storing the
+data in a first submemory of the base station and operably
+responding to the commands;
+Ex. 1001, 12:57–13:8, 15:26–42 (emphases added).
+Spherix argued in the district court proceeding that the claim elements
+“first processor means” and “second processor means” are not means-plus17
+
+IPR2014-01431
+Patent 5,581,599
+
+function limitations subject to § 112, ¶ 6, because they are in method claims
+and the claims themselves disclose the necessary structure for performing
+the recited function. PO Resp. 26; Ex. 1009, 14–23. In contrast, Spherix
+urges us in this inter partes review to construe these claim elements as
+means-plus-function limitations, and that VTech’s Petition is defective for
+applying Spherix’s proposed claim constructions previously presented in the
+District Court. PO Resp. 26–30; Pet. 8–10.
+We are unpersuaded by Spherix’s argument that we must hold the
+Petition as defective. It was reasonable for VTech to treat these claim
+elements in dispute as non-means-plus-function limitations at the time of
+filing the Petition because Spherix, who is the patent owner and drafter of
+the claims, maintained that these claim elements are not means-plus-function
+limitations in the district court proceeding. Spherix also concedes that, at
+the time of filing of the Petition, the parties were engaged in a good faith
+dispute as to whether these claim elements are in fact means-plus-function
+limitations under § 112, ¶ 6. See PO Resp. 26. Moreover, as Spherix
+acknowledges, the District Court recognized that having a means-plusfunction limitations in a method claim is a “somewhat novel issue.” Id. at 26
+n.4; Ex. 2005, 89–95, 102–107. Based on the totality of the circumstances,
+we decline to hold VTech’s Petition as defective.
+With regard to the issue of whether the “processor means” claim
+elements should be construed as means-plus-function limitations in this inter
+partes review, we observe at the outset that this claim construction
+determination does not affect the patentability determination of claims 1–7
+18
+
+IPR2014-01431
+Patent 5,581,599
+
+and 18 of the ’599 patent, based on the prior art in this record. In other
+words, our determination on patentability of claims 1–7 and 18 of the ’599
+patent is the same whether or not we adopt the District Court’s claim
+constructions as to these claim terms. For convenience, we reproduce those
+District Court’s claim constructions below (Ex. 2012, 104).
+
+B. Principles of Law
+A patent claim is unpatentable under 35 U.S.C. § 103(a) if the
+differences between the claimed subject matter and the prior art are such that
+the subject matter, as a whole, would have been obvious at the time the
+invention was made to a person having ordinary skill in the art to which said
+subject matter pertains. KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 406
+(2007). The question of obviousness is resolved on the basis of underlying
+19
+
+IPR2014-01431
+Patent 5,581,599
+
+factual determinations including: (1) the scope and content of the prior art;
+(2) any differences between the claimed subject matter and the prior art;
+(3) the level of ordinary skill in the art; and (4) objective evidence of
+nonobviousness. Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966).
+C. The Level of Ordinary Skill in the Art
+In determining the level of ordinary skill in the art at the time of the
+invention, we note that various factors may be considered, including “type of
+problems encountered in the art; prior art solutions to those problems;
+rapidity with which innovations are made; sophistication of the technology;
+and educational level of active workers in the field.” In re GPAC, Inc.,
+57 F.3d 1573, 1579 (Fed. Cir. 1995) (citing Custom Accessories, Inc. v.
+Jeffrey-Allan Indus., Inc., 807 F.2d 955, 962 (Fed. Cir. 1986)).
+In its Preliminary Response, Spherix raised the issue of whether
+VTech articulated in its Petition the knowledge of a person with ordinary
+skill in the art. Prelim. Resp. 24–25. In our Decision on Institution, we
+determined that Spherix’s arguments are unpersuasive. Dec. 9–12. After
+institution, Spherix does not maintain those arguments, but rather proffers its
+own definition as to a person with ordinary skill in the art, in the context of
+the ’599 patent. PO Resp. 20–21.
+At the outset, we observe that VTech’s Petition provides a description
+of the technology in the relevant art at the time of the claimed invention of
+the ’599 patent, including a discussion regarding caller identification and
+cordless telephone systems in general with supporting factual evidence.
+20
+
+IPR2014-01431
+Patent 5,581,599
+
+Pet. 2–7. For instance, VTech explains that caller identification technology
+dates back to the late 1960’s and early 1970’s, and that, by the time of the
+’599 patent filing date, caller identification standards and protocols were
+adopted and set forth in Bellcore Technical References. Pet. 2 (citing
+Exs. 1012, 1013). Indeed, according to the ’599 patent, the feature of calling
+number identification “refers to a contemporary method and protocols of
+data transfers which are defined in Bellcore Technical References”
+(Exs. 1012, 1013). Ex. 1001, 4:4–8.
+Further, it is well-settled that the level of ordinary skill in the art may
+be reflected by the prior art of record, as here. Okajima v. Bourdeau,
+261 F.3d 1350, 1355 (Fed. Cir. 2001). One of ordinary skill is presumed to
+be aware of all pertinent prior art. Standard Oil Co. v. American Cyanamid
+Co., 774 F.2d 448, 454 (Fed. Cir. 1985). In that regard, VTech explains that
+cordless telephone handsets, having a display screen and features for
+creating and modifying telephone directories from the cordless handset,
+were well known in the art, as evidenced by the prior art of record, including
+Martensson, Nishihara, and Silver. Pet. 4–6 (citing Ex. 1002; Ex. 1008;
+Ex. 1015). Indeed, according to the ’599 patent, cordless telephones were
+popular, at the time of the invention, in domestic, business, and industrial
+environments, due to their unrestricted freedom of movement. Ex. 1001,
+1:12–19. Telephone services in both voice and data communications were
+available to support a wide range of applications in the network. Id. at 1:20–
+26. It was also common to store and display a telephone directory at the
+subscriber’s telephone device. Id. at 1:26–36.
+21
+
+IPR2014-01431
+Patent 5,581,599
+
+In support of its contentions, VTech further directs us to a Declaration
+of Dr. David Lyon. See, e.g., Pet. 2–7 (citing Ex. 1006 ¶¶ 36–46). Dr. Lyon
+testifies that a “person of ordinary skill in the relevant art of the ’599 Patent
+would have had a Bachelor of Science in electrical engineering, computer
+science, or another related field such as applied physics, and two to four
+years of experience working with and/or designing telecommunication
+systems.” Ex. 1006 ¶ 28 (emphasis added). In its Patent Owner Response,
+Spherix alleges that a person having ordinary skill in the art would have a
+bachelor’s degree in electrical engineering with two to three years of
+experience designing and coding processor-based circuits and systems for
+communications systems and devices, or the equivalent. PO Resp. 20 (citing
+Ex. 1009; Ex. 1022 ¶ 12). Spherix acknowledges that the minor differences
+in the parties’ definitions have no practical consequence. PO Resp. 20–21.
+For the foregoing reasons, we are persuaded that VTech’s description
+of the caller identification and cordless telephone technology known in the
+art, at the time of the invention, suffices as an articulated discussion on the
+knowledge and skill of a person with ordinary skill in the art to substantiate
+VTech’s obviousness analysis.
+D. Obviousness
+VTech asserts that claims 1–7 and 18 are unpatentable under
+35 U.S.C. § 103(a) as obvious over the combination of Figa and Martensson.
+Pet. 44–52. In support of this asserted ground of unpatentability, VTech
+provides detailed explanations as to how the combination of cited prior art
+22
+
+IPR2014-01431
+Patent 5,581,599
+
+references renders the claims at issue obvious. Id. VTech also relies upon
+Dr. Lyon’s Declaration. Ex. 1006.
+Spherix responds that the combination of Figa and Martensson does
+not disclose every claim element. PO Resp. 36–41. Spherix also argues that
+VTech fails to articulate a rationale to combine the technical teachings
+disclosed in the prior art references. Id. at 32–36. To support its
+contentions, Spherix relies upon a Declaration of Dr. Franzon. Ex. 2010.
+In our discussion below, we begin with a brief overview of Figa and
+Martensson, and then we turn to the contentions presented by the parties,
+focusing on the deficiencies alleged by Spherix.
+Figa
+Figa discloses an automatic telephone caller identification system,
+which utilizes the Automatic Number Identification service offered by the
+telephone company. Ex. 1004, 1:8–12, 3:47–50. The system includes a
+directory of telephone numbers and parties associated with the telephone
+numbers. Id. at 2:45–47. The system has a detector to identify the incoming
+call number. Id. at 3:65–67. The system compares the incoming call
+number with the telephone numbers listed in the directory to identify the
+party associated with the incoming call, and then displays the incoming call
+number and the identified associated party. Id. at 2:48–53. The system also
+records the incoming call number and the date and time of the call. Id. at
+2:53–56.
+
+23
+
+IPR2014-01431
+Patent 5,581,599
+
+Figure 2 of Figa, reproduced below, illustrates a telephone caller
+identification system implemented within a portable telephone console (id.
+at 4:12–14).
+
+As depicted in Figure 2 of Figa, the telephone system has console 24
+(a base station) and hand receiver 28 (a hand set). Console 24 includes
+control panel 26 (a user interface), having display 23, alpha keypad 36,
+numeric keypad 38, and control keypad 40. Id. at 4:12–19. Display 23 is
+used to display information regarding incoming or outgoing telephone calls.
+Id. at 4:19–22.
+Martensson
+Martensson describes a cordless telephone system, comprising a base
+station coupled to a telephone network, and a cordless handset capable of
+communicating with other telephones on the network via radio
+communication with the base station. Ex. 1002, 1:7–11. According to
+Martensson, a variety of cordless telephone systems existed at the time of
+24
+
+IPR2014-01431
+Patent 5,581,599
+
+the invention. Id. at 1:14–15. A common feature of these well-known
+systems is a cordless handset having a display and keypad for dialing
+telephone numbers, displaying data stored in memory, and performing other
+functions. Id. at 1:43–50.
+First submemory and second submemory
+The preambles of claims 1 and 18 recite “wherein said base station
+comprises a memory device, and wherein said memory device comprises
+first and second submemories.” Ex. 1001, 12:62–4, 15:31–33 (emphasis
+added). As discussed above, these preambles are entitled to patentable
+weight. Claims 1 and 18, in the body, further recite “retrievably storing the
+[alphanumeric] data in a first submemory of the base station,” and
+“retrievably storing the valid [service] data in a second submemory of the
+base station.” Id. at 13:7–8, 13–14, 15:41–42, 16:3–4 (emphases added).
+By virtue of their dependency, each of challenged claims 2–6 also requires
+these “submemory” limitations.
+Spherix argues that neither VTech’s Petition nor Dr. Lyon’s
+Declaration discusses a “first submemory” and a “second submemory.” PO
+Resp. 40–41. Spherix also alleges that “Martensson does not disclose
+separate submemories in the base station for storing information in logically
+distinct portions of the memory.” Id. (emphasis added). Spherix further
+submits that Figa does not disclose “a cordless telephone base station with
+memories.” Id. (emphasis added).
+
+25
+
+IPR2014-01431
+Patent 5,581,599
+
+Spherix’s arguments are unavailing. At the outset, Spherix overlooks
+VTech’s explanations as how the combination of Figa and Martensson
+discloses every limitation of the claims, and VTech’s claim charts that point
+out the specific portions of Figa, Martensson, and Dr. Lyon’s Declaration as
+support. Pet. 2–7, 45–52 (citing Ex. 1002, Ex. 1004, Ex. 1006). To the
+extent that Spherix requires the prior art or Dr. Lyon’s testimony to use the
+exact terminology as the claim language, an obviousness analysis is not an
+ipsissimis verbis test. See In re Gleave, 560 F.3d 1331, 1334 (Fed. Cir.
+2009). Rather, a prima facie case of obviousness is established when the
+prior art itself would appear to have suggested the claimed subject matter to
+an artisan. In re Rinehart, 531 F.2d 1048, 1051 (CCPA 1976).
+Spherix’s argument that “Martensson does not disclose separate
+submemories in the base station for storing information in logically distinct
+portions of the memory” is misplaced. PO Resp. 40–41 (emphasis added).
+As discussed above, we decline to adopt Spherix’s proposed claim
+constructions for the claim terms “first submemory” and “second
+submemory” that improperly import an extraneous feature into the claims—
+namely, “a logically distinct portion of a physical memory.” See Renishaw,
+158 F.3d at 1249. Rather, these claim terms are given their ordinary and
+customary meaning as would be understood by a person with ordinary skill
+in the art, in that the term “submemory” means “a portion of the memory.”
+Applying the proper claim construction, we determine that VTech has
+shown by a preponderance of the evidence that Figa in view of Martensson
+renders the “submemory” limitations obvious. Notably, Martensson
+26
+
+IPR2014-01431
+Patent 5,581,599
+
+describes a telephone system having a base station and a cordless handset.
+Ex. 1002, 1:7–11. The system allows the user at the cordless handset to
+select a service from a predetermined set of services, including storing or
+retrieving a telephone number in or from a memory. Id. at 2:66–3:6; 6:5–59.
+Martensson discloses several ways in which users can enter a
+telephone number into a memory and retrieve the number from the memory.
+In particular, Martensson discloses: (1) a cordless handset having a
+conventional user interface—a display and keypad that includes a set of
+alphanumeric keys and a set of function and menu keys (id. at 1:43–67);
+(2) a cordless handset having a voice-activated dialing function (id. at 4:12–
+5:21); and (3) a cordless handset having a display and keypad that allows the
+user to select the desired number and commands through menu options (id.
+at 6:5–51, Fig. 2). It is reasonably clear from Martensson’s disclosure that
+features of one embodiment are combinable with features in another
+embodiment. Id. at 2:18–22, 6:52–59. For example, Martensson discloses a
+cordless handset having both the conventional user interface and the voiceactivated dialing function (id. at 2:18–22), and a cordless handset that
+accepts a combination of spoken commands and menu selected options (id.
+at 6:54–59).
+
+27
+
+IPR2014-01431
+Patent 5,581,599
+
+Figure 2 of Martensson is reproduced below.
+
+Figure 2 of Martensson depicts cordless handset 20a, having display
+16, talk key 27, and scroll keys 17a, 17b. Id. at 6:5–11. Messages and
+instructions are transmitted by radio communication between cordless
+handset 20a and base station 1 in the form of a private branch exchange. Id.
+at 3:41–48; 6:15–17, 44–51.
+To place a call, the user presses talk key 27 at handset 20a, and then
+base station 1 returns a message to handset 20a, which causes display 16 to
+show what options are available in a menu format—“1. MAKE CALL;
+2. TRANSFER NO.; 3. RETRIEVE NO.” Id. at 6:24–30. If the user
+selects MAKE CALL, base station 1 returns a message, causing display 16
+to show a list of all the names and/or telephone numbers and/or locations
+stored in the associated memory portion of base station memory 15. Id. at
+6:32–36. When the user selects an option using scroll keys 17a, 17b, and
+28
+
+IPR2014-01431
+Patent 5,581,599
+
+confirms the selection by depressing talk key 27, an instruction will be
+generated by the local microprocessor and relayed to base station 1, which
+will respond accordingly and perform the requested service. Id. at 6:24–51.
+Base station 1 also directs incoming calls to the respective handset.
+Id. at 5:50–52. If the incoming call includes a Calling Line Identification
+signal identifying the caller, base station 1 generates an announcement of the
+call and transmits the message to handset 20a. Id. at 5:55–60. Then, a
+message is displayed in menu format on display 16. Id. at 6:15–17. The
+user can move cursor 13 to point to a particular option by depressing scroll
+keys 17a, 17b, and select the desired option by depressing talk button 27
+when cursor 13 is pointed at the appropriate option. Id. at 6:15–22.
+Memory 15 may “have portions associated respectively with each of
+the other handsets 2b, 2c . . . 2n, and thus constituting a remote telephone
+directory for each handset.” Id. at 5:6–21. Additionally, Dr. Franzon
+acknowledges that “[t]echniques for partitioning a single physical memory
+into separate registers for different types of data or functions would have
+been well known to a POSITA in December 1993.” Ex. 2010 ¶ 66.
+Given the evidence before us, we determine that an ordinarily skilled
+artisan would have recognized that Martensson discloses storing telephone
+numbers, telephone directories, messages, instructions, and other data in
+respective portions or submemories of a memory device at the base station
+in a manner that they are retrievable—i.e., disclosing a base station that has
+a “memory device comprises first and second submemories,” and is capable
+29
+
+IPR2014-01431
+Patent 5,581,599
+
+of “retrievably storing the [alphanumeric] data in a first submemory of the
+base station,” as required by claims 1–7 and 18.
+In addition, Spherix’s argument that Figa does not disclose a cordless
+telephone base station with memories is without merit. PO Resp. 40–41.
+Spherix’s argument is premised that Figa’s handset is not cordless.
+Attacking the references individually does not undermine VTech’s showing
+of obviousness, as VTech’s asserted ground is based upon the combination
+of Figa and Martensson. See In re Keller, 642 F.2d 413, 426 (CCPA 1981).
+As VTech points out, Figa discloses a telephone system with a display
+screen, microprocessor, and memory, for displaying caller identification
+information. Pet. 2–4, 44; Ex. 1004, 1:50–3:12, Figs. 2, 3. Also, VTech
+asserts that it would have been obvious to combine Figa’s system with
+Martensson’s cordless telephone. Pet. 45. Indeed, the evidence in this
+record shows that an ordinarily skilled artisan would have readily
+appreciated the advantages of substituting a cordless handset for a corded
+handset. Ex. 1001, 1:12–14 (“Cordless telephones have proven to be
+popular in domestic, business and industrial environments due to their
+unrestricted freedom of movement.”); Ex. 1002, 1:64–67 (“Both displays
+and keypads [on the telephone handset itself] have certainly gained universal
+acceptance in the cordless telephone industry and indeed there is a high level
+of commonality of the keypad for telephone applications generally.”).
+Therefore, the combination of Figa and Martensson discloses a telephone
+system having a cordless handset and a base station. Pet. 44–52.
+30
+
+IPR2014-01431
+Patent 5,581,599
+
+Spherix’s arguments also fail to consider Figa as a whole. See In re
+Hedges, 783 F.2d 1038, 1041 (Fed. Cir. 1986) (noting that when evaluating
+claims for obviousness, “the prior art as a whole must be considered.”); In re
+Merck & Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986) (noting that a
+reference “must be read, not in isolation, but for what it fairly teaches in
+combination with the prior art as a whole”).
+Notably, Figa discloses a portable telephone console (base station)
+that receives caller information, logs incoming and outgoing calls, stores a
+directory of names and telephone numbers, and has the capability to search,
+add to, delete from, or edit the directory. Ex. 1004, 3:53–64, Fig. 2.
+Figure 3 (sheet 1 of 3) of Figa is reproduced below:
+
+As shown in Figure 3 (sheet 1 of 3), Figa’s base station comprises
+control and timing circuit 42, memory 46, address and data buses, and
+system I/O circuit 49. Circuit 42 includes microprocessor 44, which controls
+system 10 by executing instructions that are stored in memory 46. Ex. 1004,
+31
+
+IPR2014-01431
+Patent 5,581,599
+
+5:12–26. Memory 46 utilizes programmable read-only memory (PROM) 54
+for storing program code and random access memory (RAM) 56 for storing
+telephone log and directory data. Id. In a preferred embodiment PROM 54
+consists of 24 Kbytes of memory area and RAM 56 is an 8-K static RAM.
+Id. With this RAM capacity, it is possible to store approximately 40
+directory entries (at 51 bytes each) and 80 log entries (at 26 bytes each). Id.
+Additionally, as we previously discussed in the Decision on Institution, Figa
+discloses receiving data messages that include the incoming telephone
+numbers and checksum data, and testing the service data at the base station
+to confirm its validity. Dec. 18–21; Ex. 1004, 3:47–50, 4:12–14, 6:12–30,
+Figs. 2–3; Ex 1012, 5–6, Figs. 1–2; Ex. 1013; Ex. 1014, 4:10–30, Fig. 3. In
+that light, one with ordinary skill in the art would have recognized that Figa
+discloses storing telephone log and directory data, including incoming data
+messages and valid service data, in respective portions or submemories of a
+memory device at the base station in a manner that they are retrievable—i.e.,
+disclosing a base station that has a “memory device comprises first and
+second submemories,” and is capable of “retrievably storing the valid
+[service] data in a second submemory of the base station,” as required by
+claims 1–7 and 18.
+For the foregoing reasons, we determine that VTech has demonstrated
+by a preponderance of the evidence that the combination of Figa and
+Martensson renders obvious the aforementioned “first submemory” and
+“second submemory” limitations as required by claims 1–7, and 18. We
+also note that, even if we were to adopt Spherix’s claim constructions,
+32
+
+IPR2014-01431
+Patent 5,581,599
+
+requiring “submemory” to mean a logically distinct portion of a physical
+memory (PO Resp. 24–25), the combination of Figa and Martensson would
+still render these claim limitations obvious because, during
+cross-examination, Dr. Franzon implies that storing two lists in one memory
+device necessarily means that those lists have to be logically separate, and
+further explains that logically separate, “in the view of the person of
+ordinary skill in the art, is to treat those two lists as . . . not being one joint
+list, . . . because you have got to find the information again.” Ex. 1024,
+108:3–25.
+As to other structural features recited in the preambles of claims 1 and
+18, we also determine that VTech has demonstrated by a preponderance of
+the evidence that combination of Figa and Martensson discloses those
+structural features. See, e.g., Pet. 2–7, 44–45; Ex. 1002, 1:43–63, 3:40–4:4,
+6:5–59, Fig. 2; Ex. 1004, 4:12–19, 5:12–26, Figs. 2, 3.
+Concurrently transmitting alphanumeric data and commands
+In its Patent Owner Response, Spherix contends that the combination
+of Figa and Martensson does not disclose the “concurrently transmitting”
+limitation—namely, “concurrently transmitting the [keyed] alphanumeric
+data and commands to the base station,” as recited in claims 1 and 18. PO
+Resp. 36–39. In that regard, Spherix advances several arguments. Id.
+First, Spherix argues that the Petition and supporting evidence are
+silent as to whether the prior art references disclose that limitation. PO
+Resp. 38. We are not persuaded by that argument because Spherix again
+33
+
+IPR2014-01431
+Patent 5,581,599
+
+overlooks VTech’s explanations and claim charts set forth in the Petition
+(Pet. 2–7, 44–52), and improperly requires the Petition, prior art, and
+Dr. Lyon’s testimony to use the exact terminology as the claim language.
+See Gleave, 560 F.3d at 1334.
+Second, Spherix argues that the “concurrently transmitting” limitation
+is “intrinsic to the way in which the disclosed ‘predialing’ embodiment is
+expressed in the claims,” and it is “also essential to the way in which handset
+battery life is optimized in the system architecture disclosed in the ’599
+Patent.” PO Resp. 36–37. However, nothing in the claims requires us to
+read the “predialing” embodiment or the handset battery life disclosure from
+the Specification into the claims. See Deere & Co. v. Bush Hog, LLC, 703
+F.3d 1349, 1354 (Fed. Cir. 2012) (explaining that one must not import
+limitations from the specification that are not part of the claim).
+Third, Spherix argues that Martensson does not disclose the
+“concurrently transmitting” limitation because Martensson’s handset has no
+alphanumeric keys, and does “not generate alphanumeric data from key
+presses at all.” PO Resp. 36–39. According to Spherix, there is no express
+disclosure that the alphanumeric data is transmitted from the handset to the
+base station, and Martensson already stored the data at the base station. Id.
+at 39. Spherix further contends that Martensson specifically discloses that
+the alphanumeric data and commands are not concurrently transmitted. Id.
+at 38–39 (citing Ex. 1002, 4:65–5:5; Ex. 2010 ¶ 86).
+Spherix’s arguments are unavailing. As the initial matter, the
+arguments are not commensurate with the scope of the claims. See In re
+34
+
+IPR2014-01431
+Patent 5,581,599
+
+Self, 671 F.2d 1344, 1348 (CCPA 1982) (stating that limitations not
+appearing in the claims cannot be relied upon for patentability). Spherix
+attempts to limit the claim term “keyed alphanumeric data” narrowly to
+require the alphanumeric data to be the specific telephone number being
+dialed and to be generated by a key pad that has an individual key for each
+digits of 0–9. Nothing in the claims requires such a key pad, much less
+generating alphanumeric data or telephone number by pressing a separate
+key for each digit, as Spherix essentially alleges. PO Resp. 36–38. Rather,
+claim 1 recites “generating predetermined command and alphanumeric data
+from selected ones of key operations at the handset.” Ex. 1001, 12:65–67
+(emphasis added).
+As discussed above, Martensson discloses a cordless handset, having
+a display and keypad that enables a user to generate predetermined
+commands and alphanumeric data from selected key operations by utilizing
+the display, talk key, and scroll keys. Ex. 1002, 6:5–51, Fig. 2. In
+particular, to place a call, the user presses the talk key to establish the
+communication between the handset and the base station. Id. at 6:24–27.
+The base station then returns a message to the handset, which causes the
+display to show the available options. Id. at 6:27–30. The user points to the
+desired option using the scroll keys, and confirms the selection by
+depressing the talk key. Id. at 6:31–32. If the user selects the option of
+making a call, the base station returns another message, displaying a list of
+the names/telephone numbers/locations stored in the memory. Id. at 6:32–
+36. When the user selects the desired telephone number using the scroll
+35
+
+IPR2014-01431
+Patent 5,581,599
+
+keys and confirms the selection by depressing the talk key, an instruction is
+generated by the local microprocessor at the handset and relayed by radio
+communication to the base station. Id. at 6:37–51. Viewing Martensson as
+a whole, we are persuaded that the local microprocessor and other features
+of the cordless handset are enabled to display the keyed alphanumeric data
+on the display screen and to transmit concurrently the keyed alphanumeric
+data and commands to the base station, as required by the claims at issue.
+Even if the claim language was to require a traditional numeric
+keypad to generate the “keyed alphanumeric data” as Spherix essentially
+alleges, such a feature was well known in the art, as described in
+Martensson. Ex. 1002, 1:43–63. Martensson discloses a keypad that
+comprises: a set of alphanumeric keys that includes a key for each of the
+digits 0–9, and a set of function and menu keys. Id. Therefore, viewing
+Martensson as a whole, we are not persuaded by Spherix’s argument that
+Martensson’s handset does not have alphanumeric keys or it does not
+generate alphanumeric data from pressing the keys.
+Nor are we persuaded by Spherix’s contention that Martensson
+already stored the alphanumeric data at the base station. PO Resp. 39.
+Again, Spherix’s contention is not commensurate with the scope of the
+claims. See Self, 671 F.2d at 1348. To the extent that Spherix is interpreting
+the claim language to require the alphanumeric data to be pre-dialed
+immediately before the transmission, such interpretation would import
+improperly an extraneous feature into the claims. See Renishaw, 158 F.3d at
+1249. As noted by the district court in its Claim Construction Order, the
+36
+
+IPR2014-01431
+Patent 5,581,599
+
+Specification of the ’599 patent “does not state that each time an
+alphanumeric data is keyed, it is concurrently transmitted.” Ex. 2012, 25;
+Ex. 1001, 9:2–28 (the displayed number is not transmitted to the base station
+until the users strikes the command key to dial the number). Importantly, as
+discussed above, the telephone numbers were entered or generated by the
+user at the handset. Ex. 1002, 2:66–3:20 (the predetermined set of services
+includes remote dialing and storing or retrieving a telephone number in or
+from a memory); 5:17–21 (“[M]emory 15 may also have portions associated
+respectively with each of the other handsets . . . and thus constituting a
+remote telephone directory for each handset.” (emphasis added).).
+Also, Spherix’s contention that Martensson discloses that the
+alphanumeric data and commands are not concurrently transmitted is
+without merit. PO Resp. 38–39 (citing Ex. 1002, 4:65–5:5; Ex. 2010 ¶ 86).
+Spherix’s contention and supporting expert testimony are based improperly
+on the premise that Martensson’s data are “being transmitted one data
+element at a time.” Ex. 2010 ¶ 86 (citing Ex. 1002, 4:65–5:5 (“As each digit
+is recognized by the voice recognition device 12 in the PBX 1 . . .”)
+(emphasis added by Dr. Franzon). The passage of Martensson relied upon
+by Dr. Franzon is silent as to how the alphanumeric data are being
+transmitted to the base station, but instead merely discloses how the voice
+recognition device recognizes the telephone number at the base station.
+Ex. 1002, 4:65–5:5. In fact, as discussed above, Martensson discloses that
+the selected telephone number and commands are transmitted concurrently
+as an instruction generated by the local microprocessor, from the cordless
+37
+
+IPR2014-01431
+Patent 5,581,599
+
+handset to the base station when the user selects the desired telephone
+number and confirms the selection by depressing the talk key. Id. at 6:5–51
+(“Also, when a menu option is chosen and confirmed by actuation of the
+handset key 27 an appropriate instruction will be generated by the handset
+under control of a local microprocessor and relayed by radio communication
+to the PBX 1 which will respond accordingly and remotely perform the
+requested service on behalf of the handset 20a.”), Fig. 2.
+For the foregoing reasons, we determine that VTech has demonstrated
+by a preponderance of the evidence that the combination of Figa and
+Martensson renders obvious the aforementioned “concurrently transmitting”
+claim limitation, as required by claims 1–7 and 18.
+First processor means and second processor means
+Spherix argues that VTech fails to map the claim elements “first
+processor means” and “second processor means” to the prior art. PO Resp.
+39–40. As support, Dr. Franzon testifies that none of the references
+discloses the specific structural components that are required by “first
+processor means” and “second processor means,” as construed by the
+District Court. Ex. 2010 ¶¶ 80, 84, 95.
+We are not persuaded by Spherix’s argument and supporting expert
+testimony. As we discussed above, it was reasonable for VTech to treat
+these claims elements as non-means-plus-function limitations at the time of
+filing the Petition. Although VTech did not identify specifically the
+corresponding structures in its Petition, as Dr. Franzon testified in the district
+38
+
+IPR2014-01431
+Patent 5,581,599
+
+court proceeding, an ordinarily skilled artisan nevertheless would have been
+able to derive the corresponding structures from the claim language itself,
+including the structural components recited in the preamble. Ex. 1022 ¶¶ 30,
+45. Dr. Franzon also indicated that an artisan would have understood that
+“such a cordless telephone would necessarily consist of a handset and a base
+station, each consisting of a processor, a modem, a keypad and a memory
+(among other hardware components).” Id. In its Petition, VTech explains
+how the combination of Figa and Martensson discloses every limitation of
+the claims, and points out the specific portions of Figa, Martensson, and
+Dr. Lyon’s Declaration as support. See, e.g., Pet. 2–7, 45–52; Ex. 1006,
+¶¶ 89–98. Based on VTech’s explanations and supporting evidence, it
+would have been reasonably clear to an ordinarily skilled artisan that the
+combination of Figa and Martensson discloses the “processor means” claim
+elements, as construed by the District Court.
+Significantly, neither Spherix’s argument nor Dr. Franzon’s testimony
+identifies a single feature of the corresponding structures that is not known
+in the art or is not disclosed in the prior art of record. PO Resp. 39–40;
+Ex. 2010 ¶¶ 80, 84, 95. In fact, Dr. Franzon testified in the district court
+proceeding that a person having ordinary skill in the art would have
+understood how to program the cordless handset processor and the base
+station processor to perform each of the recited functions; and, in its off-theshelf state, each processor “would be configured to send and receive both
+commands and data with a host of peripheral devices such as keypads,
+modems, display devices, and storage.” Ex. 1022 ¶¶ 30–32, 45–47.
+39
+
+IPR2014-01431
+Patent 5,581,599
+
+Moreover, as discussed above, the combination of Figa and Martensson
+discloses: (1) a cordless handset that includes a local microprocessor,
+display, keypad, transceiver, two-way communication system, and memory,
+“for displaying keyed alphanumeric data on the screen and concurrently
+transmitting the alphanumeric data and commands to the base station,” as
+required by claims 1 and 18; and (2) a base station that includes a processor,
+transceiver, data buses, two-way communication system, and memory, “for
+receiving the alphanumeric data and commands, retrievably storing the data
+in a first submemory of the base station and operably responding to the
+commands,” as required by claims 1 and 18. See, e.g., Ex. 1002, 1:43–63,
+3:49–4:4, 4:34–21, 6:5–59, Fig. 2; Ex. 1004, 4:12–19, 5:12–26, Figs. 2, 3.
+In short, the corresponding structures for performing the recited
+functions of the “processor means” claim elements, as construed by the
+District Court, are no more than combining known elements according to
+their established functions, yielding predictable results. See KSR, 550 U.S.
+at 417 (noting that the predictable use of prior art elements according to their
+established functions is obvious). Therefore, even if we were to adopt the
+District Court’s claim constructions for the “processor means” elements in
+the instant inter partes review, it would have been obvious to one with
+ordinary skill in the art to utilize such processor means in a cordless
+telephone system, in view of Figa and Martensson.
+
+40
+
+IPR2014-01431
+Patent 5,581,599
+
+Rationale to combine Figa and Martensson
+Spherix contends that VTech fails to provide reasoning with rational
+underpinning to combine Figa and Martensson. PO Resp. 32–35. In that
+regard, Spherix advances several arguments. Id.
+First, Spherix argues that VTech fails to explain why one with
+ordinary skill in the art “would have been motivated to combine Figa and
+Martensson to solve the technical problem addressed by the ’599 patent.”
+PO Resp. 32–35. This argument is misplaced because “the problem
+motivating the patentee may be only one of many addressed by the patent’s
+subject matter.” KSR, 550 U.S. at 420. “Under the correct analysis, any
+need or problem known in the field of endeavor at the time of the invention
+and addressed by the patent can provide a reason for combining the elements
+in the manner claimed.” Id. In short, VTech’s reasons to combine “are not
+limited to the same motivation that may have motivated the inventors.” See
+PAR Pharm., Inc., v. TWI Pharms., Inc., 773 F.3d 1186, 1197 (Fed. Cir.
+2014); Alcon Reasearch, Ltd. v. Apotex Inc., 687 F.3d, 1362, 1369 (Fed. Cir.
+2012) (noting that the courts “have repeatedly held that the motivation to
+modify a prior art reference to arrive at the claimed invention need not be
+the same motivation that the patentee had”). “Motivation to combine may
+be found in many different places and forms.” Allergan, Inc. v. Sandoz, Inc.,
+726 F.3d 1286, 1292 (Fed. Cir. 2013); see also Alza Corp. v. Mayland Labs.,
+Inc., 464 F.3d 1286, 1294 (Fed. Cir. 2006) (stating that the motivation to
+combine does not have to be explicitly stated in the prior art, and can be
+
+41
+
+IPR2014-01431
+Patent 5,581,599
+
+supported by testimony of an expert witness regarding knowledge of a
+person of skill in the art at the time of invention).
+Here, as Dr. Lyon testifies, cordless phones were invented in the late
+1960’s and 1970’s, and, at the time of the invention, cordless phones with
+handsets that included microprocessors and displays were well known.
+Ex. 1006 ¶ 43. Indeed, according to the ’599 patent, at the time of the
+invention, “[c]ordless telephones have proven to be popular in domestic,
+business and industrial environments due to their unrestricted freedom of
+movement.” Ex. 1001, 1:12–19. Additionally, a cordless handset that has a
+display and keypad was well known in the art and gained universal
+acceptance in the cordless telephone industry, as evidenced by Martensson.
+Ex. 1002, 1:14–67, 2:24–34, 6:5–59, Fig. 2. Given the evidence regarding
+the various advantages of a cordless handset, we are persuaded by VTech’s
+contention that it would have been obvious to an ordinarily skilled artisan, in
+view of Martensson, to use a cordless handset with Figa’s telephone system,
+providing the convenience and advantages of a cordless handset—e.g.,
+unrestricted freedom of movement and not limited by the length of a cord.
+See KSR, 550 U.S. at 417 (“[I]f a technique has been used to improve one
+device, and a person of ordinary skill in the art would recognize that it would
+improve similar devices in the same way, using the technique is obvious
+unless its actual application is beyond his or her skill.”).
+Second, Spherix argues that VTech provides “just one argument in
+support of combining Figa and Martensson – that the references are both
+directed to ‘caller ID,’” and that the Board in the Decision on Institution
+42
+
+IPR2014-01431
+Patent 5,581,599
+
+articulated its own rationale to combine the prior art teachings. PO Resp.
+33–34. Spherix’s argument, however, narrowly focuses on one aspect of the
+reasons articulated by VTech for combining Figa and Martensson, and also
+characterizes the Decision on Institution incorrectly.
+VTech’s Petition and supporting evidence articulate at least five
+reasons to combine the prior art teachings—e.g., “[i]mproving Figa by
+making the simple addition of a cordless handset” and “[u]sing Figa’s
+disclosure in a cordless phone as the industry moved from corded to cordless
+phones.” Reply 21 (citing Pet. 14, 29–30, 44–45). Furthermore, Dr. Lyon
+testifies that “[a]s phones developed over time, features from corded phones
+were used in cordless phones and later in cellular phones.” Ex. 1006 ¶ 94.
+Spherix does not address all of the reasons articulated by VTech for
+using a cordless handset in Figa’s telephone system. PO Resp. 33–34.
+Instead, Spherix focuses on one aspect of VTech’s explanation regarding the
+advantages of implementing caller identification capabilities and telephone
+directories in telephone systems (Pet. 2–3). PO Resp. 33–34. In its Patent
+Owner Response, Spherix acknowledges that engineers in the industry at the
+time of the invention were tasked with expanding cordless phone technology
+to include corded phone functionality, which confirms that an ordinarily
+skilled artisan would have readily appreciated the convenience and
+advantages of a cordless telephone handset. Id. at 6–7.
+Contrary to Spherix’s characterization that the Board entered its own
+rationale to combine, we determined in the Decision on Institution that
+VTech explains sufficiently how the combination of Figa and Martensson
+43
+
+IPR2014-01431
+Patent 5,581,599
+
+discloses every limitation of the claims, and that VTech’s reasons to
+combine the prior art teachings are supported by the evidence in the record,
+including the prior art disclosures that describe various advantages of using a
+cordless handset. See Dec. 12–26; Ex. 1001, 1:12–19; Ex. 1002, 1:14–67.
+Third, Spherix, based on Dr. Franzon’s testimony, argues that an
+ordinarily skilled artisan would not have been motivated to combine Figa
+and Martensson “due to Martensson’s negative drain on handset battery
+life.” PO Resp. 36. Dr. Franzon’s testimony, however, is premised
+improperly upon his own conjecture that “Martensson would have a
+significant impact on the battery life of the handset because they require a
+longer radio connection between the handset and base station as compared to
+a ‘predialing’ embodiment as shown in the ’599 Patent.” Ex. 2010 ¶ 92.
+Dr. Franzon does not explain with sufficient specificity why Martensson
+would have a “significant impact” on the battery life of the handset.
+Dr. Franzon’s testimony narrowly focuses on Martensson’s voice
+recognition disclosure and ignores other teachings of Martensson. See, e.g.,
+Ex. 1002, 6:5–51, Fig. 2. The passage of Martensson relied upon by
+Dr. Franzon’s testimony, in fact, is silent as to how the alphanumeric data
+are being transmitted to the base station, the battery life of a handset, and the
+length of the radio communication; that passage of Martensson merely
+discloses how the voice recognition device recognizes the telephone number
+at the base station. Id. at 4:62–5:5. Additionally, the Specification of the
+’599 patent, at most, describes a generic battery and a conventional means
+for charging the battery. Ex. 1001, 3:1–5 (“Although not appearing in
+44
+
+IPR2014-01431
+Patent 5,581,599
+
+FIG. 1, it will be understood that an electrical connection for battery
+charging is established in a conventional manner by means of corresponding
+mating electrical contacts in the handset 13 and the cradle 14.”).
+Dr. Franzon does not explain why an ordinarily skilled artisan would not
+have been able to charge Martensson’s cordless handset using a
+conventional means.
+Finally, Spherix argues that Martensson would not enable an artisan to
+overcome the technical challenges of implementing the relevant
+functionality of Figa in a cordless phone system. PO Resp. 34–35 (citing
+Ex. 2010 ¶¶ 89–92). Spherix also alleges that Martensson teaches away
+from the suggested combination because Martensson’s invention is directed
+toward eliminating the alphanumeric keys on the cordless handset. Id.
+Spherix’s argument, however, does not identify in particularity what
+the technical challenges are. PO Resp. 34–35; Ex. 2010 ¶¶ 89–92. In fact,
+the Specification of the ’599 patent acknowledges that cordless telephones
+are popular in various environments, and telephones having displays and
+directories are quite common. Ex. 1001, 1:12-36. The Specification only
+identifies a single problem in connection with a cordless handset not having
+an all-function display. Id. at 1:37–46. But, a cordless handset having such
+a display and a keypad for entering data and performing other functions is a
+well-known feature at the time of the invention. Ex. 1002, 1:42–67, 6:5–59.
+Also Spherix’s arguments again fail to consider Martensson as a
+whole, in light of the general knowledge of an ordinarily skilled artisan. See
+Perfect Web Techs., Inc. v. InfoUSA, Inc., 587 F.3d 1324, 1329 (Fed. Cir.
+45
+
+IPR2014-01431
+Patent 5,581,599
+
+2009) (The obviousness analysis may include “recourse to logic, judgment,
+and common sense available to the person of ordinary skill that do not
+necessarily require explication in any reference or expert opinion.”). “A
+reference must be considered for everything it teaches by way of technology
+and is not limited to the particular invention it is describing and attempting
+to protect.” EWP Corp. v. Reliance Universal Inc., 755 F.2d 898, 907 (Fed.
+Cir. 1985); In re Applied Materials, Inc., 692 F.3d 1289, 1298 (Fed. Cir.
+2012). When considering whether a claimed invention would have been
+obvious, “the knowledge of such an artisan is part of the store of public
+knowledge that must be consulted.” Randall Mfg. v. Rea, 733 F.3d 1355,
+1362 (Fed. Cir. 2013); Ariosa Diagnostics v. Verinata Health, Inc., 805 F.3d
+1359, 1365 (Fed. Cir. 2015).
+Viewing Martensson as a whole in light of the general knowledge of
+an artisan, we are not persuaded by Spherix’s argument that Martensson
+teaches away from using a keypad for generating alphanumeric data. See In
+re Susi, 440 F.2d 442, 446 n.3 (CCPA 1971) (noting that disclosed examples
+and preferred embodiments do not constitute a teaching away from a broader
+disclosure of non-preferred embodiments.). A reference does not teach
+away, if it merely expresses a general preference for an alternative invention,
+but does not “criticize, discredit, or otherwise discourage” investigation into
+the invention claimed. In re Fulton, 391 F.3d 1195, 1201 (Fed. Cir. 2004).
+Spherix’s argument focuses solely on Martensson’s voice-recognition
+disclosure, and ignores all other teachings of Martensson. See Merck & Co.,
+Inc. v. Biocraft Labs. Inc., 874 F.2d 804, 807 (Fed. Cir. 1989) (“[A]ll
+46
+
+IPR2014-01431
+Patent 5,581,599
+
+disclosures of the prior art, including unpreferred embodiments, must be
+considered.” (quoting In re Lamberti, 545 F.2d 747, 750 (CCPA 1976)). In
+fact, Martensson specifically discloses that using a keypad for generating
+alphanumeric data was well known at the time of the invention. Ex. 1002,
+1:43–63. Martensson also indicates that “[b]oth displays and keypads have
+certainly gained universal acceptance in the cordless telephone industry and
+indeed there is a high level of commonality of the keypad for telephone
+applications generally.” Id. at 1:64–67. More importantly, Martensson
+discloses a cordless handset, having both voice-recognition capability and
+manual dialing keypad. Id. at 2:19–22; 6:52–57. Therefore, we do not
+discern that Martensson criticizes, discredits, or otherwise discourages using
+a keypad for generating alphanumeric data.
+Viewing the evidence in this entire record, we observe that Spherix
+does not provide sufficient or credible evidence that explains why utilizing a
+cordless handset in a telephone system, such as the one disclosed in Figa,
+would be “uniquely challenging” or otherwise beyond the level of an
+ordinary skilled artisan, in light of Martensson. See Leapfrog Enters., Inc. v.
+Fisher-Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007) (citing KSR, 550
+U.S. at 418) (finding that Leapfrog failed to present evidence that the
+inclusion a “reader” into the device as issue was “uniquely challenging”).
+Based on the foregoing, we determine that VTech has articulated reasoning
+with rational underpinnings for combining Figa with Martensson.
+
+47
+
+IPR2014-01431
+Patent 5,581,599
+
+Conclusion on Obviousness
+For the reasons discussed above, we determine that VTech has
+demonstrated by a preponderance of the evidence that claims 1–7 and 18 of
+the ’599 patent are unpatentable under § 103(a) over the combination of Figa
+and Martensson.
+E. Motion to Exclude Evidence
+Spherix filed a Motion to Exclude Evidence, seeking to
+exclude a portion of the deposition transcript of Dr. Franzon (Ex. 1024,
+124:17–125:8) and four paragraphs of the Declaration of Dr. Lyon (Ex. 1025
+¶¶ 4, 8, 9, 10), because the evidence purportedly exceeds the proper scope of
+a reply under 37 C.F.R. § 42.23(b). Paper 35 (“Mot.”), 1–3.
+Notwithstanding that Spherix acknowledges that a motion to exclude
+evidence is not an appropriate mechanism for presenting arguments that a
+reply or reply evidence exceeds the proper scope of reply under 37 C.F.R.
+§ 42.23(b), Spherix ignores our Order (Paper 16, 3), as well as the Board’s
+trial rules and practice, by presenting such arguments in its Motion to
+Exclude Evidence. Mot. 3 n.1. Spherix could have sought relief under 37
+C.F.R. § 42.20 during this trial, but did not do so. See Belden Inc. v. BerkTeck LLC, 805 F.3d 1064, 1081–82 (Fed. Cir. 2015) (noting that “if the
+petitioner submits a new expert declaration with its Reply, the patent owner
+can respond in multiple ways”); see also id. (“The tribunal has broad
+discretion to regulate the presentation of evidence under Fed. R. Evid.
+611(a).”). We remind counsel of Spherix that they are required to comply
+48
+
+IPR2014-01431
+Patent 5,581,599
+
+with the Office Patent Trial Practice Guide and the Board’s Rules of Practice
+for Trials, as set forth in Part 42 of Title 37, Code of Federal Regulations.
+In any event, we did not rely upon the evidence that Spherix seeks to
+exclude, and, therefore, it is not necessary for us to assess the merits of
+Spherix’s Motion to Exclude Evidence. Accordingly, Spherix’s Motion to
+Exclude Evidence is dismissed as moot.
+III. CONCLUSION
+For the foregoing reasons, we determine that VTech has demonstrated
+by a preponderance of the evidence that claims 1–7 and 18 of the ’599 patent
+are unpatentable under § 103(a) over the combination of Figa and
+Martensson.
+IV. ORDER
+In consideration of the foregoing, it is:
+ORDERED that claims 1–7 and 18 of the ’599 patent are held
+unpatentable;
+FURTHER ORDERED that Spherix’s Motion to Exclude Evidence is
+dismissed as moot; and
+FURTHER ORDERED that, because this is a final written decision,
+parties to the proceeding seeking judicial review of the decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+49
+
+IPR2014-01431
+Patent 5,581,599
+
+For PETITIONER:
+James R. Nuttall
+John L. Abramic
+STEPTOE & JOHNSON LLP
+jnuttall@steptoe.com
+jabramic@steptoe.com
+Brian C. McCormack
+BAKER & MCKENZIE LLP
+brian.mccormack@bakermckenzie.com
+
+For PATENT OWNER:
+Tarek N. Fahmi
+ASCENDA LAW GROUP, PC
+tarek.fahmi@ascendalaw.com
+Steven W. Hartsell
+SKIERMONT DERBY LLP
+shartsell@skiermontderby.com
+Donald Puckett
+NELSON BUMGARDNER
+puckett@nelbum.com
+
+50
+
+

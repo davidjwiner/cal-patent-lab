@@ -1,0 +1,988 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 55
+Entered: November 30, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+MARVELL SEMICONDUCTOR, INC.,
+Petitioner,
+v.
+INTELLECTUAL VENTURES I LLC,
+Patent Owner.
+____________
+Case IPR2014-00548
+Patent 5,712,870
+____________
+Before THOMAS L. GIANNETTI, JAMES A. TARTAL, and
+PATRICK M. BOUCHER, Administrative Patent Judges.
+TARTAL, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-00548
+Patent 5,712,870
+Petitioner, Marvell Semiconductor, Inc., filed a substitute corrected
+Petition requesting an inter partes review of claims 1–20 of U.S. Patent
+No. 5,712,870 (“the ’870 patent”). Paper 12 (“Pet.”). Based on the
+information provided in the Petition, we instituted a trial pursuant to
+35 U.S.C. § 314(a) of: (1) claims 1, 2, 4–6, 8, 10, 11, 13, 14, and 16–20 as
+obvious over Fischer1 and Nakamura2 under 35 U.S.C. § 103(a); and, (2)
+claims 9 and 15 as obvious over Fischer, Nakamura, and Tsuda.3 Paper 16
+(“Institution Decision” or “Inst. Dec.”). We did not institute trial on claims
+3, 7, or 12. Id. Additionally, in a separate order, we vacated our decision to
+institute trial on claims 8 and 9, which depend from claim 7, and dismissed
+inter partes review of those claims. Paper 54.
+After institution of trial, Patent Owner, Intellectual Ventures I LLC,
+filed a Patent Owner’s Response (Paper 30, “Response” or “PO Resp.”) and
+Petitioner filed a Corrected Reply (Paper 53, “Reply”). The Petition is
+supported by a Declaration (Exhibit 1003) and a Reply Declaration (Exhibit
+1013) of Prof. Zhi Ding. Patent Owner filed observations on the crossexamination of Prof. Ding (Paper 43), and Petitioner filed a response to
+Patent Owner’s observations (Paper 46). Patent Owner also filed a Motion
+to Exclude (Paper 44) portions of Prof. Ding’s Reply Declaration (Exhibit
+1013), to which Petitioner filed an opposition (Paper 47) and Patent Owner
+further filed a reply (Paper 48). The Patent Owner Response is supported by
+a Declaration of Dr. Ghobad Heidari (Ex. 2006).
+1
+
+U.S. Patent No. 5,371,734, issued Dec. 6, 1994 (Ex. 1004, “Fischer”)
+U.S. Patent No. 4,856,027, issued Aug. 8, 1989 (Ex. 1005, “Nakamura”)
+3
+U.S. Patent No. 5,619,507, issued Apr. 8, 1997 (Ex. 1009, “Tsuda”) from
+U.S. Application Number 08/268,454 filed June 30, 1994.
+2
+2
+
+IPR2014-00548
+Patent 5,712,870
+A transcript of the Oral Hearing conducted on September 11, 2015, is
+entered as Paper 50 (“Tr.”).
+We issue this Final Written Decision pursuant to 35 U.S.C. § 318(a)
+and 37 C.F.R. § 42.73. For the reasons that follow, Petitioner has shown by
+a preponderance of the evidence that claims 1, 4–6, 10, and 13–20 of the
+’870 patent are unpatentable.
+I.
+A.
+
+BACKGROUND
+The ’870 patent (Ex. 1001)
+
+The ’870 patent issued January 27, 1998, from U.S. Application No.
+08/508,462, filed July 31, 1995. Ex. 1001. The ’870 patent, titled “Packet
+Header Generation and Detection Circuitry,” describes a device for
+receiving and transmitting direct sequence spread spectrum (“DSSS”)
+signals using a single integrated device for converting and demodulating an
+RF signal into a serial data signal. Id. at Abstract. In particular, according
+to the ’870 patent, “[c]ritical timing relationships during the acquisition and
+demodulation of the received signal are satisfied by the use of an integrated
+circuit specially designed to perform all operations needed to convert the
+physical signal to a[] media access circuit level data signal.” Id.
+According to the ’870 patent, standards for the communication of
+signals in a wireless Local Area Network (“LAN”) system typically utilize a
+message format consisting of a fixed length preamble having fields for
+power ramping, synchronization, a signal field, a descrambling seed, and a
+unique word identifier, followed by the data, and then a Cyclical
+Redundancy Check (“CRC”) field. Id. at 4:41–49. The preamble may be
+modulated onto the carrier signal using digital Binary Phase Shift Keyed
+3
+
+IPR2014-00548
+Patent 5,712,870
+(“BPSK”) modulation, and the data and CRC signals may be modulated
+using either BPSK or Quaternary Phase Shift Keyed (“QPSK”) modulation.
+Id. at 4:49–56. As explained by Patent Owner, the ’870 patent “is directed
+to circuitry for demodulating a header portion of a signal that has been
+BPSK modulated and for demodulating a data portion of the signal that has
+been QPSK modulated.” PO Resp. 6.
+Figure 2 of the ’870 patent is reproduced below.
+
+Figure 2 illustrates a functional block diagram of a communications
+transceiver, including antennae 20, 22 and selector switch 28 that connects
+antenna coupler 26 to either a transmit circuit or a receive circuit. Ex. 1001,
+4:59–66. In the receive circuit, the incoming signal is first amplified by
+RF/IF converter 30, and then further amplified by quadrature Intermediate
+Frequency (“IF”) modulator/demodulator 42. The amplified signal may be
+4
+
+IPR2014-00548
+Patent 5,712,870
+split into I and Q (in-phase (real) and quadrature (imaginary)) components.
+Id. at 5:5–15. The I and Q component signals may be provided to a
+baseband processor that converts the analog signals to digital signals at A/D
+converters 54, 56, and then despreads the spread spectrum signal through
+despreader 58. Id. at 5:24–28. The despread signal may be demodulated by
+Differential Phase Shift Keyed (“DPSK”) demodulator 60 to provide a
+digital data signal to be passed to an application system through interface
+circuit 62. Data to be transmitted may follow a similar return path, passing
+through modulator 64, data spreader 66, and modulator/demodulator 42;
+after which it is upconverted to RF by RF/IF converter 30 and then provided
+to one of the antennae, as selected by switch 24.
+Figure 3 of the ’870 patent is reproduced below.
+
+5
+
+IPR2014-00548
+Patent 5,712,870
+Figure 3 illustrates a functional block diagram of a baseband
+processor for use in a transceiver in accordance with the claimed invention.
+Id. at 4:36–37, 6:50–51. The output signal from correlators 84, 86 is
+converted from I and Q form to polar form by Cartesian-to-polar converter
+88 to reduce the need for duplicate hardware for independent I and Q
+channels. Id. at 7:23–28. The polar signal is provided to PSK demodulator
+100, followed by differential decoder 102 and data descrambler 104. Id. at
+8:3–6. The PSK demodulator can demodulate both BPSK and QPSK
+signaling, allowing the preamble of a received signal to be in BPSK and the
+data in either BPSK or QPSK. Id. at 8:6–10. Descrambled data may be
+provided to processor interface 114, which may control the passage of the
+data to another device such as a media access control (“MAC”) circuit.
+According to the ’870 patent, providing the entire baseband processor onto a
+single chip benefits accurate and timely demodulation of received signals
+and the extraction of data. Id. at 8:67–9:3.
+The baseband processor may be used to transfer packetized, serial
+data received in a physical layer to a MAC layer. Id. at 9:10–14. Header
+information imbedded in the packetized data is used to control the physical
+layer. Id. at 9:10–14. The header information may include a signal field to
+specify the signaling type used to modulate the data as either DPSK or
+QPSK, as well as a unique word. Id. at 9:14–18. The baseband processor
+may receive header information in BPSK and in QPSK. Id. at 9:18–20.
+According to the ’870 patent, “the timing of switching the receiver from one
+signal[]ing format to another is time critical.” Id. at 9:20–22. In accordance
+
+6
+
+IPR2014-00548
+Patent 5,712,870
+with the ’870 patent, all of the header detection and similar physical layer
+tasks may be imbedded into a single device. Id. at 9:22–23.
+Further, during demodulation of the header, header data is monitored
+and used both to identify the type of signaling to be used for the data and to
+select between plural antennae. Id. at 9:45–48. In receiving the header, the
+baseband processor converts the serial data into a parallel word that is
+compared to preselected values for the unique word and signaling fields. Id.
+at 9:50–53. When the unique word is found, a field counter detects header
+fields, including the signaling field, which, when detected, is “used to switch
+the receiver modulator/demodulator between BPSK and QPSK at the correct
+time with respect to the data portion of the packet.” Id. at 9:56–63.
+In describing the ’870 patent, Patent Owner draws attention to certain
+features it identifies as technological advances, including the integration of
+multiple components on a single device, an antenna diversity scheme, and a
+digital demodulator for both BPSK and QPSK demodulation. PO Resp. 6–9.
+B.
+
+Illustrative Claims
+
+Claims 1 and 10 of the ’870 patent are illustrative of the claims at
+issue:
+1. A circuit for detecting a message header in a signal which
+has been transmitted using direct sequence spread spectrum
+modulation, comprising a single device having:
+means for receiving an analog signal having modulated
+thereon in a spread spectrum format a message having a
+header portion and a data portion;
+means for converting said analog signal into a digital signal;
+means for demodulating the header of the digital signal
+using digital binary phase shift keyed (BPSK)
+demodulation and for demodulating the data portion of
+7
+
+IPR2014-00548
+Patent 5,712,870
+the same message using quarter[n]ary phase shift keyed
+demodulation (QPSK);
+means contained on said single device for timing a transition
+from BPSK mo[d]ulation to QPSK modulation; and,
+means for providing the demodulated data signal to a media
+access control (MAC) layer.
+10. In a communication system capable of receiving RF
+direct sequence spread spectrum signals, said system having a
+message header detection circuit comprising a single device
+having:
+an analog receiver for receiving a spread spectrum
+modulated signal having a header portion and a data
+portion;
+an analog-to-digital converter operable on said modulated
+signal;
+a digital demodulator for binary phase shift keyed (BPSK)
+demodulation of said header portion and qua[r]ternary
+phase shift keyed (QPSK) demodulation of said data
+portion;
+a timer for transitioning between the BPSK demodulation
+and the QPSK demodulation; and,
+an interface for providing the demodulated data signal to a
+media access control (MAC) layer.
+II. ANALYSIS
+A.
+
+Claim Construction
+
+The Board interprets claims of an unexpired patent using the broadest
+reasonable construction in light of the specification of the patent in which
+they appear. 37 C.F.R. § 42.100(b); In re Cuozzo Speed Techs., LLC, 793
+F.3d 1268, 1277–79 (Fed. Cir. 2015), (Fed. Cir. 2015) (“We conclude that
+Congress implicitly approved the broadest reasonable interpretation standard
+in enacting the AIA.”), reh’g en banc denied, 793 F.3d 1297 (Fed. Cir.
+2015), petition for cert. filed, No. 15-446 (U.S. Oct. 6, 2015). Consistent
+8
+
+IPR2014-00548
+Patent 5,712,870
+with the broadest reasonable construction, claim terms are presumed to have
+their ordinary and customary meaning, as understood by a person of
+ordinary skill in the art, in the context of the entire patent disclosure. In re
+Translogic Tech., Inc., 504 F.3d 1249, 1257 (Fed. Cir. 2007).
+In the Decision to Institute we made a number of initial claim
+construction determinations that Patent Owner does not contest in its
+Response and that Petitioner does not address in its Reply. We determined
+the broadest reasonable construction of “timer for transitioning between the
+BPSK demodulation and the QPSK demodulation,” consistent with its usage
+in the Specification of the ’870 patent, is “a time measurement device that
+determines the time for transitioning between the BPSK demodulation and
+the QPSK demodulation.” Inst. Dec. 11. We also determined that a “single
+monolithic device” includes one integrated circuit. Id.
+Claims 1 and 2 include several terms recited as “means” for
+performing identified functions, which are presumptively construed under
+35 U.S.C. § 112, ¶ 6.4 With respect to the construction of the following
+limitations, in the Institution Decision we agreed with the parties in their
+identification of the appropriate corresponding structure. Inst. Dec. 12–13.
+
+4
+
+Section 4(c) of the Leahy-Smith America Invents Act (“AIA”) redesignated 35 U.S.C. § 112, ¶ 6, as 35 U.S.C. § 112(f). Pub. L. No. 112–29,
+125 Stat. 284, 296 (2011). Because the ’870 patent has a filing date before
+September 16, 2012 (effective date of § 4(c)), we refer to the pre-AIA
+version of § 112.
+9
+
+IPR2014-00548
+Patent 5,712,870
+Claim Limitation
+1
+
+1
+1
+
+1
+2
+
+means for receiving an analog signal
+having modulated there on in a spread
+spectrum format a message having a
+header portion and a data portion
+means for converting said analog signal
+into a digital signal
+
+Corresponding
+Structure
+antennae 20, 225 (Pet.
+17–18; Prelim. Resp.
+14–15)
+
+analog-to-digital (A/D)
+converters 54, 56 (Pet.
+18; Prelim. Resp. 15)
+means for demodulating the header of the PSK demodulator 1006
+digital signal using digital binary phase
+(Pet. 19; Prelim. Resp.
+shift keyed (BPSK) demodulation and for 16)
+demodulating the data portion of the same
+message using quarter[n]ary phase shift
+keyed demodulation (QPSK)
+means for providing the demodulated
+interface circuit 62
+data signal to a media access control
+(Pet. 22–23; Prelim.
+(MAC) layer
+Resp. 18)
+means for adjusting said means for timing processor interface 114
+to account for headers of variable length
+(Pet. 24; Prelim. Resp.
+19)
+
+We also agreed with Petitioner’s assertion that the corresponding structure
+for “means . . . for timing a transition from BPSK mo[d]ulation to QPSK
+modulation” recited in claim 1 is identified in the ’870 patent as processor
+interface 114. Id. at 13. Having considered whether any of these
+
+5
+
+Petitioner’s additional inclusion of RF/IF converter 30 as corresponding
+structure for receiving an analog signal is not supported by the ’870 patent
+specification, which explains RF/IF converter 30 amplifies the incoming
+signal.
+6
+Although Petitioner refers to demodulator 60, Petitioner’s declarant,
+Prof. Zhi Ding, like Patent Owner, more specifically identifies the PSK
+Demodulator. See Ex. 1003 ¶ 43.
+10
+
+IPR2014-00548
+Patent 5,712,870
+determinations should be changed in light of the evidence introduced during
+trial, we are not persuaded any modification is necessary.
+B.
+
+Obviousness Over Fischer and Nakamura
+
+Petitioner asserts that claims 1, 2, 4–6, 10, 11, 13, 14, and 16–20 are
+unpatentable as obvious over Fischer and Nakamura. Pet. 13–31.
+1.
+
+Summary of Fischer
+
+Fischer is titled “Medium Access Control Protocol for Wireless
+Network.” Fischer “relates to a technique and protocol for connecting
+multiple distinct computer resources by radio frequency (RF) or other
+wireless communications to establish a single logical network of the
+resources to permit communication between the distinct resources similar to
+that of a local area network (LAN).” Ex. 1004, 1:16–21. More particularly,
+Fischer relates to a medium access control (“MAC”) technique or protocol
+for selectively activating and deactivating transmitters and receivers to save
+electrical power consumed while still permitting LAN-like functionality. Id.
+at 1:21–27.
+
+11
+
+IPR2014-00548
+Patent 5,712,870
+Figure 4 of Fischer is reproduced below.
+
+Fischer Figure 4 is a block diagram of communicator 60. Id. at 7:19.
+“Each communicator 60 has a network interface 36, a microcontroller 90, a
+read only memory (ROM) 92, a random access memory (RAM) 94, and a
+RF modem 96, all of which are interconnected by a bus 98.” Id. at 14:46–
+50. “RF signals are transmitted to and received by the communicators at the
+RF modem 96.” Id. at 15:4–5. “The transmitting and receiving RF modems
+96 perform all of the necessary spreading, modulation, demodulation, and
+despreading functions to successfully transfer the frames between
+communicators.” Id. at 15:35–39.
+
+12
+
+IPR2014-00548
+Patent 5,712,870
+Figure 5 of Fischer is reproduced below.
+
+Fischer Figure 5 is a block diagram of RF modem 96, a component of
+communicator 60 as shown in Fischer Figure 4. RF signals are transmitted
+from or received by antennas 100 and 102. When selection switch 106 is in
+the received position, signals pass through filter 104, are applied to noise
+amplifier 108, supplied to filter 110, applied to radio device 112, and then
+applied to coherent demodulator 114. Radio device 112 performs both a
+radio receiving function and an amplifying function. Coherent demodulator
+114 extracts the base band data from the RF carrier signal which has been
+BPSK or QPSK7 modulated, and also functions as a coherent correlator for
+the spread spectrum sequence which modulates the data. Id. at 16:21–47.
+7
+
+Fischer and Nakamura refer to “QPSK” as “quadrature phase-shift keying,”
+which we understand to be the same as Quarternary Phase Shift Keyed
+modulation. See Ex. 1001, 4:52–53.
+13
+
+IPR2014-00548
+Patent 5,712,870
+2.
+
+Summary of Nakamura
+
+Nakamura, titled “Carrier Recovery Phase-Locked Loop,” relates to a
+carrier recovery phase-locked loop for recovering a carrier from a timedivided received wave, and more particularly to a carrier recovery phaselocked loop (PLL) suitable for recovering a carrier from a digitized QPSK
+modulated wave. Ex. 1005, 1:6–12. Nakamura notes that a preamble
+received in the form of a BPSK modulated wave is superior to the QPSK
+modulated wave in point of noise-proof capability. Id. at 2:26–30. As a
+result, Nakamura uses a PLL circuit for carrier recovery comprising a first
+means, responsive to a received burst signal, for preparing a phase
+comparator’s characteristic adapted for the BPSK modulated wave, second
+means for preparing a phase comparator’s characteristic adapted for the
+QPSK modulated wave, and switching means for selectively supplying
+output signals from the first and second means to the PLL circuit. Id. at
+2:31–41.
+
+14
+
+IPR2014-00548
+Patent 5,712,870
+Figure 4 of Nakamura is reproduced below.
+
+Nakamura Figure 4 is a circuit diagram illustrating a carrier recovery phaselocked loop. Ex. 1005, 3:4–5. Digital type binary/quadrature phase
+comparator characteristic switching circuit 54 may demodulate a header
+portion of a digital signal using BPSK and a data portion using QPSK. Id. at
+6:41–53. “When the output signal of the band-pass filter 31 exceeds a
+predetermined level, the comparator 32 sends an output signal to a timer 34,
+thereby informing the timer 34 of the arrival of the received signal.” Id. at
+6:21–25. Timer 34 permits switch 14 to transfer from terminal A to terminal
+B either after the lapse of a predetermined time corresponding to the
+duration of the preamble following the reception of the output signal from
+the comparator 32 or by detecting the repetitive duration of the preamble.
+Id. at 6:31–40.
+15
+
+IPR2014-00548
+Patent 5,712,870
+3.
+
+Claims 1, 10, and 17
+
+Petitioner argues that each of independent claims 1, 10, and 17 is
+unpatentable as obvious over Fischer and Nakamura. Pet. 15–26.
+Notwithstanding the fact that claim 1 recites “means” for performing
+identified functions, whereas claims 10 and 17 do not recite “means”
+limitations, the three claims recite similar subject matter, and Petitioner
+advances the same reasoning in its analysis of all three claims. Id. Patent
+Owner’s Response also generally addresses claims 1, 10, and 17 collectively
+in a similar manner. PO Resp. 10–31. Although our analysis below
+primarily focuses on claim 1, our determinations with respect to claim 1
+apply for the same reasons to the identified similar limitations of claims 10
+and 17.
+a. Claim 1 – “A circuit for detecting a message header in a signal
+which has been transmitted using direct sequence spread spectrum
+modulation, comprising a single device having”
+Claim 10 – “In a communication system capable of receiving RF
+direct sequence spread spectrum signals, said system having a message
+header detection circuit comprising a single device having”
+Claim 17 – “A direct sequence spread spectrum receiver, said
+receiver having a physical layer associated with the receiving of RF
+signals and a media access control (MAC) layer associated with the
+using of data within said RF signals, said physical layer comprising a
+single device”
+Petitioner has shown that Fischer RF modem 96 is a circuit
+comprising a single device, which, in its capacity as a receiver, can detect a
+message header in a signal that has been transmitted using DSSS, as recited
+in claim 1 of the ’870 patent. See Pet. 15–17 (citing Ex. 1003 ¶¶ 34–36, 39,
+41). Fischer RF modem 96 transmits and receives signals that employ DSSS
+16
+
+IPR2014-00548
+Patent 5,712,870
+modulation and demodulation, and Fischer’s communicator 60 includes
+microcontroller 90 that provides a MAC layer, which implements a MAC
+protocol. Ex. 1004, 14:46–61, Fig. 6. Patent Owner does not dispute
+Petitioner’s assertion that Fischer teaches each of these limitations.
+b. Claim 1 – “means for receiving an analog signal having modulated
+thereon in a spread spectrum format a message having a header portion
+and a data portion”
+Claims 10 and 17 – “an analog receiver for receiving a spread
+spectrum modulated signal having a header portion and a data portion”
+Petitioner has shown that antennae 20, 22 of the ’870 patent
+correspond to the claimed “means for receiving.” Pet. 17–18. As is
+apparent from Fischer Figure 5, RF modem 96 preferably has at least two
+antennas 100 and 102. Ex. 1004, 15:5–6. We find persuasive Petitioner’s
+contention that Fischer RF modem 96 meets the “means for receiving”
+element recited in claim 1, including Petitioner’s explanation of how radio
+device 112 within RF modem 96 is equivalent to structure identified in the
+’870 patent specification as performing the claimed “receiving” function.
+See Pet. 17–18 (citing Ex. 1003 ¶¶ 35, 37, 43). Patent Owner does not
+dispute Petitioner’s assertion that Fischer teaches each of these limitations.
+c. Claim 1 – “means for converting said analog signal into a digital
+signal”
+Claims 10 and 17 – “an analog-to-digital converter operable on said
+modulated signal”
+Petitioner has shown that analog-to-digital (A/D) converters 54, 56 of
+the ’870 patent correspond to the claimed “means for converting.” Pet. 18.
+Petitioner also has shown that Fischer RF modem 96 includes coherent
+demodulator 114, which constitutes a means for converting an analog signal
+17
+
+IPR2014-00548
+Patent 5,712,870
+(“having modulated thereon in a spread spectrum format a message having a
+header portion and a data portion”) into a digital signal, as claimed. See Pet.
+19; Reply 2–4; Ex. 1003 ¶ 38; Ex. 1013 ¶¶ 1–5. Fischer states that coherent
+demodulator 114 “extracts the base band data from the RF carrier signal
+which has been BPSK or QPSK modulated,” and “also functions as a
+coherent correlator for the spread spectrum sequence which modulates the
+data.” Ex. 1004, 16:43–47.
+We do not find persuasive Patent Owner’s argument that nothing in
+Fischer teaches that the comparators in coherent demodulator 114 convert a
+“‘spread spectrum modulated’ analog signal into a digital signal,” as
+opposed to “other analog signals.” See PO Resp. 13. To the contrary,
+Fischer states that “[t]he communicators preferably transmit and receive
+messages over a wireless physical layer provided by a direct-sequence,
+spread spectrum (DSSS) radio data link.” Ex. 1004, 14:24–27. Fischer
+further explains that “[s]ince many of the signals in the coherent
+demodulator 114 are analog signals, the coherent demodulator 114 includes
+comparators to establish digital waveforms.” Ex. 1004, 16:58–60. As
+shown in Figure 5 of Fischer, the coherent demodulator 114 is followed by
+spread spectrum correlator and decoder 130, which “handles the
+demodulator 114 output to regenerate the unspread data.” Ex. 1004, 17:58–
+60. Thus, we agree with Petitioner, as supported by Prof. Ding, that a person
+of ordinary skill in the art “would have understood Fischer to describe that
+the demodulator 114 converts the analog DSSS modulated messages
+received by antennas 100/102 to digital signals and outputs these digital
+
+18
+
+IPR2014-00548
+Patent 5,712,870
+DSSS modulated messages in I and Q format to spread spectrum correlator
+and decoder 130.” Reply 3–4; Ex. 1013 ¶ 5.
+d. Claim 1 – “means for demodulating the header of the digital signal
+using digital binary phase shift keyed (BPSK) demodulation and for
+demodulating the data portion of the same message using quarter[n]ary
+phase shift keyed demodulation (QPSK)”
+Claims 10 and 17 – “a digital demodulator for binary phase shift
+keyed (BPSK) demodulation of said header portion and qua[r]ternary
+phase shift keyed (QPSK) demodulation of said data portion”
+Petitioner has shown that PSK demodulator 100 of the ’870 patent
+corresponds to the claimed “means for demodulating.” Pet. 19. Although
+Fischer’s RF modem 96 provides a demodulator that may be configured for
+using either BPSK or QPSK, Petitioner concedes that “Fischer does not
+disclose the use of BPSK and QPSK in a single implementation, nor does
+Fischer disclose the application of one to the header portion and the other to
+the data portion.” Pet. 13–14.
+Petitioner instead relies upon Nakamura, in combination with Fischer,
+as teaching the claimed means for demodulating the header using BPSK and
+the data portion using QPSK. For the reasons that follow, we are persuaded
+by this argument. There is no dispute that Fischer’s coherent demodulator
+114 is a means for demodulating a digital signal using BPSK or QPSK
+demodulation. See PO Resp. 15 (“The coherent demodulator 114 extracts
+the base band data from the RF carrier signal which has been BPSK or
+QPSK modulated.” (quoting Ex. 1004, 16:43–45)). We do not find
+persuasive Patent Owner’s argument that Fischer’s specific implementation
+supports only BPSK or QPSK modulation. PO Resp. 14–16. Petitioner has
+shown persuasively that Fischer’s RF modem 96 is not limited to exclusive
+19
+
+IPR2014-00548
+Patent 5,712,870
+support of only BPSK or only QPSK modulation; to the contrary, modem 96
+may be configured to select either form of modulation. Reply 10–11; Ex.
+1013 ¶ 10. Thus, while Fischer does not disclose the use of BPSK and
+QPSK in a single implementation, as Petitioner concedes, Petitioner has
+demonstrated that Fischer has the capability of using either. See Reply 10–
+11; Ex. 1004, 17:35–43; Ex. 1013 ¶ 10.
+Moreover, Patent Owner’s extensive argument that Fischer, alone,
+does not disclose the claimed means for demodulating is not persuasive
+because Petitioner does not rely only on Fischer as disclosing the means for
+demodulating. In re Keller, 642 F.2d 413, 425 (CCPA 1981) (test for
+obviousness is what the combined teachings of the prior art would have
+suggested to the hypothetical person of ordinary skill). See PO Resp.14–16.
+As noted supra, Petitioner relies on Nakamura in combination with Fischer.
+Similarly, we find not persuasive Patent Owner’s argument that Nakamura
+fails to disclose demodulation, as Petitioner does not rely only on Nakamura
+as teaching demodulation. See PO Resp. 17–23.
+There is no dispute that Nakamura teaches the use of a switch to
+transition from BPSK during a preamble portion of a signal to QPSK during
+the data portion of the signal, albeit for phase comparison and not
+demodulation. PO Resp. 18–19. As Petitioner has demonstrated that
+Fischer and Nakamura, together, teach the elements necessary to constitute
+means for demodulating, as claimed, the issue that remains, which is
+addressed below, is whether Petitioner has articulated a sufficient rationale
+for the asserted combination.
+
+20
+
+IPR2014-00548
+Patent 5,712,870
+e. Claim 1 – “means contained on said single device for timing a
+transition from BPSK modulation to QPSK modulation”
+Claims 10 and 17 – “a timer for transitioning between the BPSK
+demodulation and the QPSK demodulation”
+Petitioner has shown that “for timing a transition from BPSK
+modulation to QPSK modulation,” the ’870 patent discloses timer 34 and
+processor interface 114, “which determines whether a received signal
+includes a bit pattern (e.g., a unique word), and which ‘is used to switch the
+receiver modulator/demodulator between BPSK and QPSK’ when the bit
+pattern is deemed present, thereby controlling the timing of the transition.”
+Ex. 1003 ¶ 17, quoting Ex. 1001, 9:61–63. Patent Owner concedes that
+Nakamura teaches the use of a switch transfer mechanism, including timer
+34, to transition from BPSK to QPSK, again, in the context of phase
+comparison, not demodulation. PO Resp. 19–20. Patent Owner’s extensive
+analysis of how the carrier recovery PLL of Nakamura could be incorporated
+into a receiver processing chain, proffered to show that “Nakamura does not
+teach using the carrier recovery PLL circuit for BPSK and QPSK digital
+demodulation” (id. at 22), is unpersuasive. PO Resp. 19–23. “The test for
+obviousness is not whether the features of a secondary reference may be
+bodily incorporated into the structure of the primary reference.” Keller, 642
+F.2d at 425.
+Patent Owner also argues that Petitioner improperly combines
+alternative embodiments of Nakamura’s switch transfer mechanism, the first
+of which is purportedly based on detecting the arrival of the non-modulated
+duration portion of the preamble, while the second is based on detecting the
+repetitive duration of the preamble. PO Resp. 23; Ex. 2006 ¶ 62. We
+21
+
+IPR2014-00548
+Patent 5,712,870
+disagree. Nakamura does not describe these as “alternative embodiments,”
+but instead presents them as variations in implementation details of the same
+embodiment:
+Since the duration of the preamble added as the heading
+to the transmission level is predetermined, the timer 34 permits
+the switch 14 to transfer from terminal A to terminal B after the
+lapse of predetermined time following the reception of the
+output signal from the comparator 32.
+The manner of transferring the switch 14 is not limited to
+the above but for example, the switch 14 may be transferred by
+detecting the repetitive duration of the preamble.
+Ex. 1005, 6:31–40; see also 4:1–4, 6:41–47 (distinguishing a first
+“embodiment” of the invention because it is “adapted for handling analog
+signals” from a “second embodiment” for “handling digital signals,” not
+because of the switch transfer mechanism).
+Patent Owner argues that Nakamura does not suggest that timer 34 is
+used when transfer is prompted by the detection of the repetitive duration.
+PO Resp. 27. We find insufficient support for Patent Owner’s assertion that
+Nakamura’s use of a repetitive duration to trigger switch 14 obviates the
+need for a timer. See Ex. 2006 ¶ 63. We first find that claims 10 and 17
+only require “a timer for transitioning between the BPSK demodulation and
+the QPSK demodulation,” rendering Patent Owner’s arguments over how
+the timer is prompted beyond the scope of claims 10 and 17. We further
+understand Nakamura to teach the use of timer 34 to permit switch 14 to
+transfer from BPSK modulation (terminal A) to QPSK modulation (terminal
+B) after the lapse of a predetermined time. See Ex. 1003 ¶ 27. In one
+example, that timer is triggered when the output signal of band-pass filter 31
+22
+
+IPR2014-00548
+Patent 5,712,870
+exceeds a predetermined threshold. Ex. 1005, 6:22–23. In another example,
+Nakamura indicates that “switch 14 may be transferred by detecting the
+repetitive duration of the preamble.” Id. at 6:37–40. In either example, we
+are persuaded by a preponderance of the evidence that Nakamura suggests
+using a timer as disclosed in both Figures 1 and 4.
+We also find not persuasive Patent Owner’s argument that
+Nakamura’s switch transfer mechanism is “too imprecise” to be suitable for
+timing a transition between BPSK demodulation and QPSK demodulation
+because wireless channel conditions “may result in a short delay” and
+excessive noise or interference in the wireless channel “may cause an
+advance in detecting the preamble.” PO Resp. 31–35. To the contrary,
+Petitioner has shown that Nakamura’s switch transfer mechanism is suitable
+for transitioning between BPSK demodulation and QPSK demodulation, and
+has identified various components from the combination with Fischer that
+would lead one of ordinary skill in the art to have expected the timing
+mechanism to have sufficient precision “under most, if not all, channel
+conditions.” Ex. 1013 ¶¶ 6–9; see Reply 6–8. Claims 1, 10, and 17 do not
+require any specific level of precision and we determine that the speculative
+concerns over potential impediments do not support Patent Owner’s
+assertion that a person of ordinary skill in the art would not have had a
+reasonable expectation of success if relying on the timing control teachings
+of Nakamura.
+Patent Owner further argues that Nakamura does not disclose “bit
+detection.” PO Resp. 28–31. Patent Owner’s argument is beyond the scope
+of claims 10 and 17, which do not require “bit detection.” Claim 1 also does
+23
+
+IPR2014-00548
+Patent 5,712,870
+not recite “bit detection,” but Petitioner contends that the ’870 patent
+describes structure corresponding to the “means . . . for timing” based on
+whether a “bit pattern” is detected. Pet. 24. Patent Owner argues, as
+supported by Dr. Heidari, that “detecting the repetitive duration of the
+preamble” in Nakamura corresponds to “detecting repetitive (alternating)
+180-degree shifts in the received analog RF phase-modulated signal,” not to
+detecting individual modulation bits for “bit detection.” PO Resp. 29–30;
+Ex. 2006 ¶¶ 66–75. According to Patent Owner, Nakamura performs “no
+identification of individual digital bits (i.e., binary ones (1s) or zeros (0s)).”
+PO Resp. 30. Nakamura, however, expressly states that:
+In the case of the digitized quadrature phase shift keying,
+the preamble added as the heading to the transmission burst
+signal typically has non-modulated duration in which all bits
+are “0” or “1” and repetitive duration in which “0” and “1” are
+repeated, and the nonmodulated duration is used for carrier
+recovery and the repetitive duration for timing recovery.
+Ex. 1005, 2:20–26. According to Prof. Ding, “by ‘detecting the repetitive
+duration of the preamble,’ Nakamura’s circuit necessarily detects the bit
+pattern represented by the repetitive duration,” and “describes such detection
+as useful in transferring switch 14.” Ex. 1013 ¶ 17. We are persuaded that
+Nakamura’s teaching of detecting a repetitive duration in the preamble for
+timing corresponds to the use of the detection of a unique word for timing a
+transition in the ’870 patent. See Reply 15–16.
+
+24
+
+IPR2014-00548
+Patent 5,712,870
+f. Claim 1 – “means for providing the demodulated data signal to a
+media access control (MAC) layer”
+Claims 10 and 17 – “an interface for providing the demodulated data
+signal to a media access control (MAC layer)”
+Petitioner has shown that interface circuit 62 of the ’870 patent
+corresponds to the claimed “means for providing the demodulated data
+signal to a media access control (MAC) layer.” Pet. 22–23. Fischer’s RF
+modem 96 generates a demodulated data signal and, through interface 122,
+provides the signal to microcontroller 90, which implements a MAC layer,
+and, in turn, implements a MAC protocol. Pet. 25; Ex. 1003 ¶¶ 35, 39.
+Patent Owner does not substantively dispute Petitioner’s assertion that
+Fischer teaches each of these limitations.
+4.
+
+Claims 2 and 11
+
+Claim 2 depends from claim 1 and further requires “means for
+adjusting said means for timing to account for headers of variable length.”
+Similarly, claim 11, which depends from claim 10, further requires “wherein
+said timer is adjustable to account for headers of variable length.” Petitioner
+has shown that processor interface 114 of the ’870 patent corresponds to the
+claimed “means for adjusting.” Pet. 24. Petitioner asserts that Fischer RF
+modem 96 may transmit and receive transfer units that include a header of
+variable length, and includes a spread spectrum controller 116 for control
+and timing which is structurally equivalent to processor interface 114 of the
+’870 patent. Pet. 26–27.
+The Petition makes no mention of Nakamura in its discussion of the
+additional limitations of claims 2 and 11. Yet in reply, Petitioner argues that
+“[i]n view of Fischer’s variable length preambles, a [person of ordinary skill
+25
+
+IPR2014-00548
+Patent 5,712,870
+in the art] would have found it obvious to utilize Nakamura’s timer function
+and its repetitive duration function.” Reply 15. Petitioner may not rely on a
+new argument asserting that Nakamura teaches the additional limitations for
+claims 2 and 11 presented for the first time in its Reply. Moreover,
+Petitioner fails to address how either Fischer or Nakamura teaches means for
+adjusting means for timing when Fischer contains no timer, and when the
+timer of Nakamura is described as being based on a predetermined period of
+time. See Ex. 1005, 6:31–36 (“timer 34 permits the switch 14 to transfer
+from terminal A to terminal B after the lapse of predetermined time”); see
+also Ex. 2006, ¶¶ 83–84. Petitioner’s contention that “Nakamura’s timer is
+also flexible” is insufficiently supported by any reference to either
+Nakamura or the declaration of Prof. Ding. See Reply 16–17; see also
+Ex. 1013 (no discussion of claims 2 or 11). Petitioner has not demonstrated
+that the features of claims 2 or 11 are disclosed by the combination of
+Fischer and Nakamura.
+5.
+
+Claims 4, 5, 6, 13, 14, 16, and 18–20
+
+Petitioner has persuasively shown that each of the additional
+limitations of dependent claims 4, 5, 6, 13, 14, 16, and 18–20 are taught by
+the combination of Fischer and Nakamura. For example, claims 4, 14, and
+19 all require a “single monolithic device.” Petitioner has shown that
+Fischer RF modem 96 is a single monolithic device, and that Fischer
+communicator 60 is a circuit contained on a single monolithic device that
+includes RF modem 60. See Pet. 27–28; Ex. 1003 ¶¶ 41–42. Petitioner has
+also shown that RF modem 96 includes coherent demodulator 114 that
+provides in-phase and quadrature data outputs that are responsive to an
+26
+
+IPR2014-00548
+Patent 5,712,870
+analog signal that has in-phase and quadrature components, corresponding to
+the requirements of an analog signal “in the form of in-phase and quadrature
+components” as recited in claims 5 and 16. See Pet. 28–29; Ex. 1003 ¶ 38.
+With respect to the limitations of claims 6, 16, and 20 requiring PN
+modulation and phase shift keyed modulation, Petitioner has shown that
+Fischer discloses RF modem 96 supports BPSK or QPSK, and that it would
+have been obvious to implement direct sequence spread modulation by using
+PN modulation. See Pet. 29; Ex. 1003 ¶¶ 34, 37. We are also persuaded that
+Fischer discloses the “antenna selection circuitry” as recited in claim 13 and
+the “serial data stream” as recited in claim 18. See Pet. 30–31; Ex. 1003
+¶ 40. Patent Owner does not substantively dispute Petitioner’s assertion that
+Fischer teaches each of these limitations.
+6.
+
+Rationale for the Combination of Fischer and Nakamura
+
+To demonstrate that the challenged claims are unpatentable, Petitioner
+argues that it would have been obvious to use Fischer’s demodulator in a
+BPSK mode for the preamble portion of the patent and Fischer’s QPSK
+mode for the data portion of the same packet by integrating the timing and
+control teachings of Nakamura to transition from BPSK to QPSK into
+Fischer’s coherent demodulator 114. See Pet. 20–21; Reply 10. Petitioner
+reasons that a person of ordinary skill in the art would have been motivated
+to combine Fischer and Nakamura “in order to improve reliability of
+wireless network communications.” Pet. 13.
+In particular, Petitioner contends that reliability and efficiency would
+be enhanced by integrating BPSK demodulation of the header portion, as
+taught by Nakamura, to the QPSK implementation of Fischer, thereby
+27
+
+IPR2014-00548
+Patent 5,712,870
+utilizing the reliability advantages of BPSK relative to QPSK to improve
+synchronization of the header portion. Id. at 14. Nakamura further explains
+the benefit of using BPSK for the preamble (or header) as being superior to
+QPSK “in point of noise-proof capability.” Ex. 1005, 2:26–30. Fischer also
+explains that BPSK “functionally is identical to QPSK functionality, other
+than for data rate (half as fast), and synchronization time.” Ex. 1004, 16:9–
+11. Thus, Petitioner asserts that a person of ordinary skill in the art “would
+have combined Fischer and Nakamura in order to balance the improvement
+of reliability gained through the application of BPSK to the header with the
+maintenance of efficiency through the continued application of QPSK to
+other portions of the packet.” Reply 5.
+Patent Owner contends that “[i]f reliability alone is the concern,” then
+“the most reliable method is to use BPSK for the entire packet (as taught by
+Fischer).” PO Resp. 38. We are not, however, persuaded that “reliability
+alone is the concern.” Nakamura and Fischer clearly teach a benefit to using
+both BPSK and QPSK consisting of improved reliability for BPSK with
+enhanced speed from QPSK. Thus, we find Patent Owner’s contention that
+those of skill “would not look beyond the teachings of Fischer”
+unpersuasive. See id. Likewise, Patent Owner’s contention that Fischer
+already teaches improved reliability by using longer preambles has no
+bearing on whether one of ordinary skill in the art would have also looked to
+Nakamura for other means of improving reliability. See id. at 39. We find
+that Petitioner articulates sufficient reasoning with rational underpinnings.
+See In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006) (cited with approval in
+KSR Int’l. Co. v. Teleflex, Inc., 550 U.S. 398, 418 (2007)).
+28
+
+IPR2014-00548
+Patent 5,712,870
+C.
+
+Obviousness Over Fischer, Nakamura, and Tsuda
+
+Petitioner asserts that claim 15, which depends from claim 10, is
+unpatentable as obvious over Fischer, Nakamura, and Tsuda. Pet. 34–37.
+Claim 15 relates to resetting the circuit if no unique word within a message
+header “is acquired within a predetermined period of time.”
+Tsuda is titled “Method and Apparatus for Establishing and
+Maintaining Frame Synchronization in a Satellite Communication System.”
+Ex. 1009. As explained by Petitioner, Tsuda describes a frame
+synchronization system that detects a unique word (UW) within a preamble.
+Pet. 35. Tsuda describes an aperture generator to control the detection
+aperture of a UW detector, in which the aperture of the UW detector is the
+time period that the UW detector remains “open” to detect the
+communication signal. Ex. 1009, 2:30–33, 8:1–5. The UW detector is
+permitted “to detect a unique word only during that time period designated
+by the aperture signal.” Ex. 1009, 2:32–33. Tsuda further explains a
+process whereby the aperture generator continues to generate a series of
+aperture signals to enable the UW detector to detect subsequent unique
+words in the communication signal, and frame synchronization is only
+established after the UWs have been detected a number (“I”) of consecutive
+times. Id. at 2:34–45.
+Patent Owner’s argument that Tsuda relies only on a failure to detect
+unique words over a number of consecutive times, not a “predetermined
+period of time,” as claimed, is not persuasive. See PO Resp. 40–46. We
+agree with Petitioner that whether Tsuda repeats the process a number of
+consecutive times has no bearing on the fact that Tsuda discloses the recited
+29
+
+IPR2014-00548
+Patent 5,712,870
+claim limitation. Patent Owner concedes that Tsuda teaches that “if a unique
+word is not detected in the first frame, processing will be returned to step
+101 in a first amount of time.” PO Resp. 45. That, alone, teaches the
+additional limitation of claim 15.
+As a rationale to support the combination of Tsuda with Fischer and
+Nakamura, Petitioner contends that improvements to the reliability of
+Nakamura’s bit detection would follow from integration of Tsuda’s
+“techniques that utilize a combination of patterns within fixed data and
+unique words to enable reliable detection of bit patterns.” Pet. 34. We find
+not persuasive Patent Owner’s argument that because Tsuda uses unique
+words for a different purpose from the ’870 patent, one of ordinary skill in
+the art would not look to Tsuda to address problems solved by the ’870
+patent. PO Resp. 46–47. Claim 15 is not limited to a particular purpose and
+Tsuda, like Fischer and Nakamura, is in the same field of endeavor of
+wireless communications and modulation schemes. See Pet. 34. We find
+that Petitioner articulates sufficient reasoning with rational underpinnings to
+support the described combination of Tsuda with Fischer and Nakamura.
+
+30
+
+IPR2014-00548
+Patent 5,712,870
+D.
+
+Conclusion
+
+Petitioner has shown by a preponderance of the evidence that claims
+1, 4–6, 10, 13, 14, and 16–20 would have been obvious over Fischer and
+Nakamura, and that claim 15 would have been obvious over Fischer,
+Nakamura, and Tsuda. Petitioner has not shown by a preponderance of the
+evidence that claims 2 and 11 would have been obvious over Fischer and
+Nakamura.
+III. MOTION
+A.
+
+Patent Owner’s Motion to Exclude
+
+Patent Owner seeks to exclude paragraphs 2–5 of the Reply
+Declaration of Prof. Ding (Exhibit 1013) and U.S. Patent No 4,649,549 (“the
+’549 patent”). Paper 44. Patent Owner contends the material sought to be
+excluded is “new evidence necessary to make out a prima facie case” and
+“new evidence that could have been presented in a prior filing.” Id. at 1–2.
+Patent Owner further asserts that paragraph 4 of Exhibit 1013 is inadmissible
+hearsay testimony regarding the ’549 patent. Id. at 2. Petitioner opposes the
+Motion (Paper 47) and Patent Owner filed a Reply (Paper 48).
+As the movant, Patent Owner has the burden of proof to establish that
+it is entitled to the requested relief. See 37 C.F.R. § 42.20(c). For the
+reasons stated below, Patent Owner’s motion to exclude is denied.
+Having considered the parties’ contentions and evidence, we are not
+persuaded that paragraphs 2–5 of the Reply Declaration of Prof. Ding should
+be excluded. A motion to exclude is not a mechanism to argue that a reply
+contains new arguments or relies on evidence necessary to make out a prima
+facie case. A motion to exclude, for instance, must state why the evidence is
+31
+
+IPR2014-00548
+Patent 5,712,870
+inadmissible (e.g., based on relevance or hearsay), identify the
+corresponding objection in the record, and explain the objection. See
+37 C.F.R. § 42.64(c); Office Patent Trial Practice Guide, 77 Fed. Reg.
+48,756, 48,767 (Aug. 14, 2012). Whether a reply contains arguments or
+evidence that are outside the scope of a proper reply under 37 C.F.R.
+§ 42.23(b) is left to our determination.
+Nor has Patent Owner shown that paragraph 4 of Prof. Ding’s Reply
+Declaration (Exhibit 1013) regarding the ’549 patent is inadmissible
+hearsay. Patent Owner contends that any testimony about the ’549 patent is
+hearsay because the ’549 patent “has not itself been offered into evidence in
+this Proceeding.” Paper 44, 9. The ’549 patent, however, is discussed in
+Fischer. See Ex. 1004, 17:19–22. Patent Owner cross-examined Prof. Ding
+regarding the ʼ549 patent at his deposition. Ex. 2008, 78:2–83:12. Patent
+Owner does not explain why this does not avoidany hearsay problems that
+might be raised by Prof. Ding’s testimony regarding the patent. We are,
+therefore, not persuaded that any mention of the ’549 patent in Prof. Ding’s
+reply declaration is necessarily hearsay and should be excluded.
+IV. ORDER
+In consideration of the foregoing, it is hereby:
+ORDERED that, based on a preponderance of the evidence, claims 1,
+4–6, 10, and 13–20 of U.S. Patent No. 5,712,870 are unpatentable;
+FURTHER ORDERED that, based on a preponderance of the
+evidence, claims 2 and 11 of U.S. Patent No. 5,712,870 have not been shown
+to be unpatentable;
+
+32
+
+IPR2014-00548
+Patent 5,712,870
+FURTHER ORDERED that Patent Owner’s motion to exclude
+evidence is denied; and
+FURTHER ORDERED that, because this is a Final Written Decision,
+the parties to the proceeding seeking judicial review of the decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+33
+
+IPR2014-00548
+Patent 5,712,870
+PETITIONER
+Walter Renner
+Jeremy Monaldo
+Indranil Mukerji
+Adam Shartzer
+David Holt
+Joseph V. Colaianni, Jr.
+FISH & RICHARDSON, P.C.
+axf@fr.com
+IPR27410-0023IP1@fr.com
+IPR27410-0021IP1@fr.com
+PATENT OWNERS
+Herbert D. Hart, III
+Jonathan R. Sick
+Peter McAndrews
+Michael Carrozza
+Aaron Barkoff
+Kirk Vander Leest
+Michael Cruz
+McANDREW, HELD & MALLOY, LTD.
+hhart@mcandrews-ip.com
+jsick@mcandrews-ip.com
+pmcandrews@mcandrews-ip.com
+mcarrozza@mcandrews-ip.com
+abarkoff@mcandrews-ip.com
+kvanderleest@mcandrews-ip.com
+mcruz@mcandrews-ip.com
+James Hietala
+Tim Seeley
+INTELLECTUAL VENTURES I LLC
+jhietala@intven.com
+tim@intven.com
+
+34
+
+

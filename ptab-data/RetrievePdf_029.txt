@@ -1,0 +1,840 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 13
+Entered: February 17, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+_______________
+ALLSCRIPTS HEALTHCARE SOLUTIONS, INC., CERNER
+CORPORATION, CERNER HEALTH SERVICES, INC.,
+EPIC HOSTING, LLC, and EPIC SYSTEMS CORPORATION,
+Petitioner,
+v.
+UNILOC LUXEMBOURG S.A.,
+Patent Owner.
+_____________
+Case IPR2015-01615
+Patent 5,682,526
+______________
+
+Before KALYAN K. DESHPANDE, JACQUELINE WRIGHT BONILLA,
+and MIRIAM L. QUINN, Administrative Patent Judges.
+BONILLA, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01615
+Patent 5,682,526
+I.
+
+INTRODUCTION
+Allscripts Healthcare Solutions, Inc., Cerner Corporation, Cerner
+
+Health Services, Inc., Epic Hosting, LLC, and Epic Systems Corporation
+(collectively “Petitioner”) filed an Amended Petition requesting an inter
+partes review of claims 1–7, 10–19, and 25 of U.S. Patent No. 5,682,526
+(Ex. 1001, “the ’526 patent”). Paper 10 (“Petition” or “Pet.”). Uniloc
+Luxembourg S.A. (“Patent Owner”) filed a Preliminary Response to the
+Petition. Paper 12 (“Prelim. Resp.”). Under 35 U.S.C. § 314(a), an inter
+partes review may not be instituted unless it is determined that there is “a
+reasonable likelihood that the petitioner would prevail with respect to at least
+1 of the claims challenged in the petition.”
+We determine that Petitioner has not established a reasonable
+likelihood that it would prevail in showing the unpatentability of any claim
+challenged in the Petition. Accordingly, we decline to institute an inter
+partes review.
+A. Related Proceedings
+The parties identify multiple suits filed by Patent Owner against
+Petitioner and other defendants in relation to the ’526 patent in the U.S.
+District Court for the Eastern District of Texas. The parties indicate that
+those cases have been consolidated into a single case, Uniloc USA, Inc. v. EMDS, Inc., Civil Action No. 6:14-cv-625 (consolidated) (E.D. Tex). Pet. 1;
+Paper 9.
+B. Proposed Grounds of Unpatentability
+Petitioner advances ten grounds of unpatentability under 35 U.S.C.
+§ 102(b) or § 103(a) in relation to claims 1–7, 10–19, and 25 of the
+’526 patent (Pet. 11–12):
+2
+
+IPR2015-01615
+Patent 5,682,526
+Reference(s)
+
+Statutory Challenged
+Basis
+Claims
+
+Norden-Paul (Ex. 1009)1
+
+§ 102(b)
+
+1–3, 10, and 25
+
+Norden-Paul (Ex. 1009) and Potter (Ex. 1015)2
+
+§ 103(a)
+
+1–3
+
+Norden-Paul (Ex. 1009) and Brimm (Ex. 1016)3
+
+§ 103(a)
+
+10 and 25
+
+Musen (Ex. 1010)4
+
+§ 102(b)
+
+4–7
+
+Musen (Ex. 1010) and Norden-Paul (Ex. 1009)
+
+§ 103(a)
+
+4–7
+
+COSTAR (Ex. 1011) 5
+
+§ 102(b)
+
+11–13
+
+COSTAR (Ex. 1011) and Norden-Paul (Ex.
+1009)
+
+§ 103(a)
+
+11–13
+
+Nolan (Ex. 1012) 6
+
+§ 102(b)
+
+14
+
+Nolan (Ex. 1012) and Norden-Paul (Ex. 1009)
+
+§ 103(a)
+
+14
+
+Norden-Paul (Ex. 1009) and Salas (Ex. 1013) 7
+
+§ 103(a)
+
+15–19
+
+1
+
+Norden-Paul et al., U.S. Patent No. 4,878,175, filed Nov. 3, 1987, issued
+Oct. 31, 1989 (“Norden-Paul”).
+2
+Potter et al., U.S. Patent No. 4,733,354, filed Nov. 23, 1984, issued Mar.
+22, 1988 (“Potter”).
+3
+Brimm et al., U.S. Patent No. 5,072,383, filed Aug. 24, 1990, issued Dec.
+10, 1991 (“Brimm”).
+4
+Musen, Automated Generation of Model-Based Knowledge-Acquisition
+Tools, Pitman Publishing (1989) (“Musen”).
+5
+How to Use the Medical Data Module; A User’s Manual for the COSTAR
+System (March 1981) (“COSTAR”).
+6
+Nolan et al., U.S. Patent No. 5,253,362, filed Jan. 29, 1990, issued Oct. 12,
+1993 (“Nolan”).
+7
+Salas et al., U.S. Patent No. 5,317,686, filed Mar. 10, 1993, issued May
+31, 1994 (“Salas”).
+3
+
+IPR2015-01615
+Patent 5,682,526
+In addition, Petitioner supports its challenges in the Petition with a
+Declaration by Dr. Bryan Bergeron (“Bergeron Decl.”) (Ex. 1017).
+C. The ’526 Patent
+The ’526 patent is directed to computer systems and methods for
+organizing, recording, and displaying patient medical information. Ex.
+1001, 1:8–11, 1:66–2:2. The methods involve the use of a patient
+information hierarchy and “patient data flowsheets, which define views in
+which the patient data stored according to the hierarchy may be entered and
+viewed.” Id. at 2:1–9.
+Users may “add, modify, and rearrange global or local patient
+information parameters that make up the hierarchy.” Id. at 2:9–11.
+Parameters correspond to pieces of patient data. Id. at 5:2–4. One example
+is a “cough parameter” that indicates “whether a particular patient at a
+particular time exhibits no cough, a non-productive cough, or a productive
+cough.” Id. at 5:4–7. Another option is a “normal” value, i.e., a result value
+for a parameter for “a well patient.” Id. at 5:24–36, 11:34–52, Fig. 4.
+“Global” patient information parameters “share a single set of result values
+for each patient,” as compared to “local” parameters that “each have their
+own set of result values for each patient.” Id. at 3:29–39.
+Users may “customize flowsheets used for entering and displaying
+result values of parameters,” and “expand and contract overview
+encapsulating parameters to display or hide the encapsulated parameters
+encapsulated therein.” Id. at 2:11–17. In addition, users also may “link a
+result value of one parameter to other parameters, causing the linked-to
+parameters to be displayed when the result value is entered.” Id. at 2:17–20.
+
+4
+
+IPR2015-01615
+Patent 5,682,526
+D. Claims
+Claims 1, 4, 10, 11, 14, and 15 of the challenge claims are
+independent. Claims 1, 4, 11, and 14 are representative, and are reproduced
+below.
+1. A method in a computer system for designing, under the
+control of a user, a patient information hierarchy, the hierarchy
+containing a plurality of parameters including a linked-from
+parameter having a linked-from possible result value that is
+linked to one or more linked-to parameters, the method
+comprising the steps of:
+(a) receiving an instruction from the user to create a new
+parameter within the patient information hierarchy;
+(b) in response to step (a), creating a new parameter within
+the patient information hierarchy;
+(c) receiving an instruction from the user to specify a
+plurality of indicated possible result values for the new
+parameter;
+(d) in response to step (c), specifying the indicated possible
+result values as possible result values of the new
+parameter;
+(e) receiving an instruction from the user to link an indicated
+linked-from possible result value among the possible result
+values of the new parameter to one or more indicated
+linked-to parameters contained within the patient
+information hierarchy; and
+(f) in response to step (e), within the patient information
+hierarchy, linking the indicated linked-from possible result
+value to the indicated linked-to parameters, such that the
+new parameter is a linked-from parameter, and such that,
+when the new parameter is displayed for a particular
+patient, if the new parameter has the linked-from possible
+result value, the linked-to parameters are displayed in
+conjunction with the new parameter.
+
+5
+
+IPR2015-01615
+Patent 5,682,526
+4. A method in a computer system for designing, under the
+control of a user, a patient information hierarchy, the patient
+information hierarchy containing a plurality of parameters that
+may be displayed in conjunction with a particular patient, the
+parameters including both result parameters that may have a
+result value for each patient and encapsulating parameters that
+each identify and encapsulate one or more other parameters to
+represent them together at a higher conceptual level, the method
+comprising the steps of:
+(a) receiving an instruction to create a first result parameter
+that may have a result value for each patient, the
+instruction specifying a parameter name and a data type;
+(b) in response to step (a), creating within the patient
+information hierarchy a first result parameter having the
+parameter name and data type specified in the instruction
+received in step (a);
+(c) receiving an instruction to create a second result parameter
+that may have a result value for each patient, the
+instruction specifying a parameter name and a data type;
+(d) in response to step (c), creating within the patient
+information hierarchy a second result parameter having the
+parameter name and data type specified in the instruction
+received in step (c);
+(e) receiving an instruction to create a first encapsulating
+parameter and for encapsulating one or more other
+parameters to represent them together at a higher
+conceptual level, the instruction specifying a parameter
+name and a list of encapsulated parameters, the specified
+list of encapsulated parameters including the first result
+parameter and excluding the second result parameter;
+(f) in response to step (e), creating within the patient
+information hierarchy a first encapsulating parameter
+having the parameter name and the list of encapsulated
+parameters specified in the instruction received in step (e);
+(g) receiving an instruction to display the patient information
+hierarchy for a particular patient in a user-selected
+6
+
+IPR2015-01615
+Patent 5,682,526
+flowsheet, the user-selected flowsheet including the second
+result parameter and the first encapsulatory parameter; and
+(h) in response to step (g), displaying a list of parameters
+including the first encapsulating parameter and the second
+result parameter and excluding the first result parameter.
+11. A method in a computer system for designing and
+maintaining the contents of a plurality of named parameters
+identified by parameter identifiers that may contain result
+values for a particular patient, the parameters being arranged in
+a patient information hierarchy, the method comprising the
+steps of:
+(a) receiving instructions from a user to create a parameter
+having a first name at a first location in the patient
+information hierarchy and a second location in the patient
+information hierarchy, the instructions further specifying
+that the parameter having the first name is a global
+parameter;
+(b) in response to step (a), creating parameters at the first and
+second locations in the patient information hierarchy that
+are both identified by a first parameter identifier;
+(c) receiving instructions from a user to create a parameter
+having a second name at a third location in the patient
+information hierarchy and a fourth location in the patient
+information hierarchy, the instructions further specifying
+that the parameter having the second name is a local
+parameter;
+(d) in response to step (c), creating a parameter at the third
+location in the patient information hierarchy that is
+identified by a second parameter identifier and creating a
+parameter at the fourth location in the patient information
+hierarchy that is identified by a third parameter identifier,
+wherein the second and third parameter identifiers are
+distinct.
+14. A method in a computer system for designing and
+maintaining the contents of a patient information hierarchy
+comprised of a plurality of parameters that may contain result
+7
+
+IPR2015-01615
+Patent 5,682,526
+values for a particular patient, the patient information hierarchy
+having associated with it a flowsheet for displaying and
+modifying the result values of a subset of the parameters of the
+patient information hierarchy for a particular patient, the subset
+of the parameters that may be displayed and modified using the
+flowsheet including a parameter of a patient note type, having a
+result value comprising an author name field, a time field, and a
+note text field, the method comprising the steps of:
+(a) receiving an instruction from the user to display parameter
+result values for a selected patient using the flowsheet;
+(b) in response to step (a), displaying parameter result values
+for the selected patient using the flowsheet such that the
+result value of the parameter of the patient note type is
+displayed in an abbreviated form in conjunction with the
+other parameters in the subset, such that at least a portion
+of the author name field is displayed;
+(c) receiving an indication that the user has selected the result
+value of the parameter of the patient note type is displayed
+in an abbreviated form; and
+(d) in response to step (c), displaying the entire contents of the
+result value of the parameter of the patient note type, such
+that the complete contents of the author name, time and
+note text fields are displayed.
+Id. at 12:40–13:2, 13:27–14:7, 15:11–38, 16:30–58.
+II.
+
+ANALYSIS
+A. Claim construction
+Petitioner provides proposed constructions of certain terms in the
+
+challenged claims, as previously construed by the U.S. District Court for the
+Central District of California in a case also involving the ’526 patent at issue
+here. Pet. 9–10 (referring to Uniloc v. Compulink Business Systems, Inc.,
+Nos. 2:11-cv-10122; 2:13-cv-03246; 2:13-cv-03244 (C.D. Cal.) (Ex. 1020)).
+Patent Owner does not dispute those constructions, but contends that
+8
+
+IPR2015-01615
+Patent 5,682,526
+Petitioner incorrectly sets forth the standard for claim construction in this
+case as the broadest reasonable interpretation in light of the patent
+specification (“BRI”). Prelim. Resp. 7–9; see also 37 C.F.R. § 42.100(b)
+(stating that in an inter partes review, claim terms in an unexpired patent are
+given their broadest reasonable interpretation in light of the patent
+specification). According to Patent Owner, because the ’526 patent expired
+on July 20, 2015, we should apply the Phillips standard of claim
+construction. Id. (referring to Phillips v. AWH Corp., 415 F.3d 1303, 1314
+(Fed. Cir. 2005) (en banc)).8
+Because the ’526 patent has expired, we agree that the Phillips claim
+construction standard applies here. See Toyota Motor Corp. v. Cellport Sys.,
+
+8
+
+When addressing claim construction, Patent Owner asserts:
+A notable difference between these two standards is that the
+BRI standard confines its analysis to the content of the patent
+specification (intrinsic evidence only), while the Phillips
+standard considers both intrinsic evidence (the claims,
+specification and prosecution history) and extrinsic evidence
+(dictionary definitions and expert testimony).
+
+Prelim. Resp. 8 (citing a “Law360.com” article in support).
+The above assertion does not describe accurately the BRI analysis. As
+part of BRI, we certainly consider the specification and the claim terms
+themselves. In this context, however, claim terms are given their ordinary
+and customary meaning, as would be understood by one of ordinary skill in
+the art in the context of the entire disclosure. In re Translogic Tech., Inc.,
+504 F.3d 1249, 1257 (Fed. Cir. 2007). Thus, if cited to us with sufficient
+specificity, we consider all relevant intrinsic evidence (including prosecution
+history) and extrinsic evidence (such as dictionary definitions and expert
+testimony) before us when engaging in a BRI analysis. Such evidence can
+help us determine the broadest reasonable interpretation in light of the patent
+specification. See Microsoft Corp. v. Proxyconn, Inc., 789 F.3d 1292, 1298
+(Fed. Cir. 2015); Straight Path IP Grp., Inc. v. Sipnet EU S.R.O., 806 F.3d
+9
+
+IPR2015-01615
+Patent 5,682,526
+Inc., Case IPR2015-00633, slip op. at 8–10 (PTAB Aug. 14, 2015) (Paper
+11); cf. In re Rambus Inc., 694 F.3d 42, 46 (Fed. Cir. 2012) (“While claims
+are generally given their broadest possible scope during prosecution, the
+Board’s review of the claims of an expired patent is similar to that of a
+district court’s review.”) (internal citation omitted).
+With that in mind, and based on a review of the information before us,
+we adopt the constructions presented by Petitioner, as provided by the
+district court and uncontested by either party in this case. Pet. 9–10; Prelim.
+Resp. 8–10. In addition, we also construe “normal result values” as recited
+in dependent claim 25. The specification of the ’526 patent indicates that a
+“normal” result value corresponds to “a result value for the parameter [for]
+that a well patient.” Ex. 1001, 5:24–36, 11:33–52. Thus, we construe
+“normal result values” to refer to medical information values that one would
+obtain from a “normal” or “well” patient. We determine that express
+construction of other terms is not necessary to our analysis on whether to
+institute. Vivid Techs., Inc. v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803
+(Fed. Cir. 1999) (only claim terms in controversy need to be construed, and
+only to the extent necessary to resolve the controversy).
+
+1356, 1362 (Fed. Cir. 2015) (“The plain meaning of the claim language is
+therefore not overridden by the specification. And the plain meaning is
+positively confirmed by the prosecution history, which we have indicated is
+to be consulted even in determining a claim’s broadest reasonable
+interpretation.”); TriVascular, Inc. v. Samuels, No. 2015-1631, slip op. 6–7
+(Fed. Cir. Feb. 5, 2016).
+10
+
+IPR2015-01615
+Patent 5,682,526
+B. Asserted anticipation of claims 1–3, 10, and 25 by Norden-Paul
+(Exh. 1009)
+Petitioner contends that Norden-Paul anticipates claims 1–3, 10, and
+25 of the ’526 patent. Pet. 12–17, 41–47. Petitioner contends that during
+prosecution of the ’526 patent, Patent Owner “did not contest the presence of
+any element of claims 1–3 in Norden-Paul except element (f) of claim 1,
+which requires ‘linking the indicated linked-from possible result value to the
+indicated linked-to parameters.’” Id. at 12–13 (citing Ex. 1004, 7–8).
+Petitioner then argues that Norden-Paul teaches the recited “linking”
+functionality, referring to Figure 8 in the reference. Pet. 13–14 (citing Ex.
+1009, Fig. 8, 13:57–14:6; Ex. 1017 ¶¶ 33, 34).
+Even assuming that Figure 8 and the cited passages in Norden-Paul
+describe a “linking” of a value to parameters in some fashion, Petitioner
+does not address adequately other recited aspects in claims 1–3, such as
+elements (a)–(d) in claim 1 or limitations recited in claims 2 and 3, in its
+analysis portion of the Petition. Petitioner’s assertions about what the
+Examiner or Patent Owner may have stated during prosecution of the
+challenged patent is not sufficient to indicate that Norden-Paul describes all
+other relevant limitations at issue here. Thus, we necessarily turn to claim
+charts provided by Petitioner toward the end of its Petition.
+Petitioner’s claim charts provide citations and block quotes from
+certain references in relation to some limitations in challenged claims. For a
+number of limitations, however, Petitioner incorporates by reference
+citations and quotes as set out in relation to earlier limitations in the charts.
+For example, in relation to four limitations of claim 1 and nearly all
+limitations recited in claims 2 and 3, Petitioner’s chart states “See claim 1
+element (a),” or (d), (a)–(d), or (e). Pet. 42–45.
+11
+
+IPR2015-01615
+Patent 5,682,526
+Although in theory such claim charts, especially in conjunction with
+analysis elsewhere in the Petition, could indicate sufficiently where each
+element of a claim is disclosed in a reference, the Petition here does not. As
+noted above, the analysis section of the Petition fails to explain adequately
+where and how Norden-Paul discloses the majority of limitations in
+challenged claims 1–3. The claim charts fail to sufficiently fill in the blanks.
+For example, in relation to elements (c) and (d) of claim 1, Petitioner
+cites Figure 8 and quotes a portion of Norden-Paul that describes a nurse
+entering “an item of information” into a form using a computer mouse and
+selecting an item from a list of entries displayed in a pop-up window, or by
+typing information directly into a pop-up window. Pet. 42–43 (citing Ex.
+1009, 9:1–14, Fig. 8). Petitioner asks us to infer, but does not explain
+adequately how, the cited disclosures describe receiving an instruction from
+a user to specify, or specifying, “a plurality of indicated possible result
+values for the new parameter,” as required in elements (c) and (d) of claim 1.
+Ex. 1001, 12:51–56 (emphasis added). Specifically, Petitioner does not
+explain sufficiently how entering or selecting “an item” in a form or pop-up
+window (in Norden-Paul) corresponds to specifying a “plurality” of result
+values, as required in claim 1.
+In relation to elements (e) and (f) in claim 1, Petitioner’s claim chart
+points us to “claim 1 elements (a)–(d),” without explaining or sufficiently
+indicating how disclosures cited or quoted therein describe “receiving an
+instruction from the user to link an indicated linked-from possible result
+value . . . to one or more indicated linked-to parameters,” as recited in
+element (e), for example. Id. at 12:57–61. Likewise, Petitioner’s analysis
+section does not provide an adequate explanation as to where and how
+12
+
+IPR2015-01615
+Patent 5,682,526
+Norden-Paul describes all aspects of elements (e) and (f). Providing general
+and conclusory statements regarding “linking,” citing Figure 8, and referring
+to “parameters” and a discussion of Figure 8 in Norden-Paul, is insufficient
+to demonstrate a reasonable likelihood of prevailing. Pet. 12–14 (citing Ex.
+1009, Fig. 8, 13:57–14:6).
+Petitioner also contends that Norden-Paul anticipates independent
+claim 10 and its dependent claim 25. Pet. 15–17, 45–47. Petitioner’s
+contentions here suffer similar failings to those noted above. In its analysis
+section, Petitioner only refers to a general statement made by Patent Owner
+during prosecution, discusses “default values” generally (a term not recited
+in claims 10 or 25), and asserts in a conclusory manner that “storing of result
+values” (presumably referring to “storing” in element (e) in claim 10) is
+inherently disclosed by Norden-Paul. Id. at 15–16. Thus, again, Petitioner
+necessarily relies on its claim charts, which fail to adequately fill in the gaps
+in the analysis section for the same reasons discussed above. Id. at 45–47.
+For instance, Petitioner does not explain sufficiently how Norden-Paul
+describes the different elements of claim 10 involving “a selected flowsheet
+group.” Petitioner does not indicate how to construe the term “selected
+flowsheet group,” nor identify sufficiently where Norden-Paul describes
+such a group. Petitioner refers to a number of different figures in NordenPaul, and, in relation to element (a) of claim 10, quotes a passage discussing
+“a Vital Signs Form of the Flowsheet Section” in reference to “the use of the
+Vital Signs Parameter Table” presented in Figure 8. Id. This one reference
+to a “Flowsheet Section” in Norden-Paul is insufficient to explain where
+Norden-Paul describes “a selected flowsheet group of a selected flowsheet,”
+as recited in the claim. In addition, regarding certain elements of claim 10,
+13
+
+IPR2015-01615
+Patent 5,682,526
+the claim chart refers to “claim elements 1 (g) and (h),” which do not exist in
+claim 1 or elsewhere in the claim chart. Id. at 46.
+Overall, the citations and quotes in the claim charts do not explain
+adequately how Norden-Paul describes each aspect of every claim element
+individually, much less a combination of all of elements (a)–(e) in a single
+method, as recited in claim 10.
+In addition, in relation to dependent claim 25, Petitioner appears to
+equate “normal result values” recited in that claim with any “default” values.
+Id. at 16–17, 47. As noted above, we construe the claim term “normal result
+values” to refer to medical information values that one would obtain from a
+“normal” or “well” patient generally. In its discussion of “default” values,
+Petitioner does not explain adequately where Norden-Paul describes
+associating a “plurality of the parameters specified by the selected flowsheet
+group of the selected flowsheet” with “normal result values for these
+parameters,” as required in claim 25. Id. at 16–17, 47; Ex. 1001, 20:5–8.
+Upon consideration of the Petition and cited information therein, we
+are not persuaded that Petitioner adequately points to where Norden-Paul
+describes, expressly or inherently, all elements of claims 1–3, 10, and 25.
+Pet. 12–17, 41–47.
+C. Asserted obviousness of claims 1–3 over Norden-Paul and Potter
+(Ex. 1015) and claims 10 and 25 over Norden-Paul and Brimm
+(Ex. 1016)
+Petitioner further argues that “linking,” as recited in claim 1, is also
+taught in Potter. Pet. 17–19. Thus, according to Petitioner, even if NordenPaul does not anticipate claims 1–3, those claims are obvious over NordenPaul in view of Potter. Id. As noted above, however, even if we assume that
+Norden-Paul and/or Potter discloses the “linking” of a value to a parameter,
+14
+
+IPR2015-01615
+Patent 5,682,526
+Petitioner does not explain adequately where and how either or both
+references disclose or suggest the majority of limitations in challenged
+claims 1–3. In its discussion of Potter (id.), Petitioner does not overcome
+the deficiencies discussed above in relation to Norden-Paul (id. at 12–15,
+41–45), which are equally relevant to Petitioner’s obviousness assertion
+here.
+Petitioner’s contentions regarding the obviousness of claims 10 and
+25 over Norden-Paul and Brimm suffer similar deficiencies. Pet. 19–20.
+Petitioner does not explain adequately how Norden-Paul and/or Brimm
+disclose or suggest each aspect of every claim element individually, much
+less a combination of all recited elements in a single method, as required in
+claims 10 and 25. Petitioner’s discussion of what Brimm discloses does not
+explain sufficiently how disclosures in either reference correspond to the
+different limitations recited in claims 10 and 25 (id.), nor overcome the
+deficiencies noted above in relation to Petitioner’s arguments regarding
+Norden-Paul (id. at 15–17, 45–47).
+D. Asserted anticipation of claims 4–7 by Musen (Exh. 1010)
+Petitioner contends that Musen anticipates claims 4–7 of the ’526
+patent. Pet. 20–25, 47–52. Petitioner argues that Musen discloses creating
+and displaying “encapsulating parameters,” as recited in the preamble and
+elements (e)–(h) in claim 4, and elements recited in claims 5–7. Id. at 20–
+22. Petitioner further contends that Musen teaches “a user-defined patient
+hierarchy using prior art systems OPAL, PROTÉGÉ, and ONCOCIN,” and
+that a user can add a plurality of parameters, including “data items that have
+result values and that may be displayed in a flowsheet.” Id. at 22.
+According to Petitioner, a hierarchy in Musen “includes encapsulating
+15
+
+IPR2015-01615
+Patent 5,682,526
+parameters that identify the result parameters and represent them in a higher
+conceptual level,” and the “conceptual levels are shown both in the forms
+used to create the hierarchy and the flowsheets that are output from the
+hierarchy.” Id. at 22–23.
+Independent claim 4 recites a number of different steps, i.e., elements
+(a)–(h), involving, for example, “a first result parameter,” “a second result
+parameter,” “a first encapsulating parameter,” “(g) receiving an instruction
+to display the patient information hierarchy for a particular patient in a userselected flowsheet [that includes] the second result parameter and the first
+encapsulatory parameter,” and “(h) . . . displaying a list of parameters
+including the first encapsulating parameter and the second result parameter
+and excluding the first result parameter.” Ex. 1001, 13:27–14:7.
+The analysis portion of the Petition does not explain sufficiently how
+Musen describes the majority of the limitations recited in challenged claim
+4. Pet. 21–23. In fact, except in relation to “encapsulating parameters”
+generally, it is not clear which specific limitations Petitioner means to
+address, versus others not addressed. Thus, we again necessarily turn to
+Petitioner’s claim charts. Id. at 47–51.
+In the claim charts, Petitioner does not indicate sufficiently how
+Musen describes each aspect of every claim element individually, much less
+as a combination in a single method, as required in claim 4. As an initial
+matter, the copy of Musen provided by Petitioner as Exhibit 1010 is very
+difficult to read. Moreover, in relation to element (h) in claim 4, for
+instance, Petitioner quotes a passage from pages 172–173 of Musen (and
+cites page 274 of Appendix A). Id. at 50–51. Petitioner does not explain
+sufficiently how the quoted and citied portions of Musen describe
+16
+
+IPR2015-01615
+Patent 5,682,526
+“displaying a list of parameters including the first encapsulating parameter
+and the second result parameter and excluding the first result parameter”
+(emphasis added). Petitioner does not explain how the cited portions of
+Musen describe a system that displays some parameters while excluding a
+“first result parameter” (“having the parameter name and data type specified
+in the instruction”), as created in steps (a) and (b) of claim 4.
+In addition, from what we can read in Exhibit 1010, Musen appears to
+be a 280-page document describing a number of different systems, which
+include, as Petitioner notes, the three systems of OPAL, PROTÉGÉ, and
+ONCOCIN. Ex. 1010, ix–xi (indicating that pp. 8–115 discuss ONCOCIN,
+pp. 116–130, 137 discuss OPAL, pp. 131–185 discuss PROTÉGÉ, pp. 186–
+270 discuss “generic” and other “forms”), 273 (Appendix A “PROTÉGÉ
+Database Relations), 277 (“Editor Database Relations”). In its claim chart,
+Petitioner points to widely spanning page ranges in Musen, such as pages 5,
+13–15, 172–175, 177, 274, with inadequate discussion as to how those cited
+passages relate to each other based on the different systems described. Pet.
+47–51 (citing Ex. 1010, 14–15, 177, 13–15, 174–175, 5, 172–173, 274). As
+a general matter, we cannot tell from the Petition how Musen describes each
+and every recited aspect of the preamble and elements (a)–(h) of claim 4, or
+whether all such aspects are described as part of a single method as required
+in claim 4.
+In its discussion of dependent claims 5–7, the Petition does not
+overcome the problems mentioned above in relation to independent claim 4.
+Pet. 23–25, 51–52. Furthermore, we agree with Patent Owner that the
+Petition suffers additional deficiencies in relation to claims 5 and 6 in
+particular, for the reasons noted in the Preliminary Response. Prelim. Resp.
+17
+
+IPR2015-01615
+Patent 5,682,526
+11–21. Although we give “weight” to evidence cited by Petitioner, we agree
+with Patent Owner that Petitioner does not indicate adequately how the
+portions of Musen cited by Petitioner describe receiving an instruction from
+a user to “expand” (claim 5) or “collapse” (claim 6) a “first encapsulating
+parameter.” Id.; Pet. 23–24 (citing Ex. 1010, 5–6, 93), 51 (citing Ex. 1010,
+13–14, in relation to claim 5, id. at 5–6, 93, in relation to claim 6).
+At most, regarding claim 6, Petitioner points us to “an icon”
+depicted in two figures in Musen (Ex. 1010, 6, 93), and asserts that “when
+clicked, condenses the data types by collapsing the encapsulated parameters,
+resulting in a display of only the encapsulating parameters.” Pet. 24.
+Neither Petitioner, nor the paragraphs of Dr. Bergeron’s Declaration cited by
+Petitioner in support, explain adequately where Musen itself describes what
+that icon means. Pet. 23–24 (citing Ex. 1017 ¶¶ 69–70), 51; see also Ex.
+1017 ¶¶ 64, 71 (citing Ex. 1010, 6, 93). We cannot tell from looking at the
+icon alone what it conveys to an ordinary artisan, much less that it conveys
+the steps of receiving an instruction from a user to “expand” or “collapse” a
+“first encapsulating parameter,” as recited in claims 5 and 6. Conclusory
+statements by Petitioner and its declarant in this regard, which only cite the
+icon itself in support, are insufficient in the absence of more information.
+Id.
+Upon consideration of the Petition and cited information therein, we
+are not persuaded that Petitioner adequately points to where Musen
+describes, expressly or inherently, all elements of claims 4–7. Pet. 20–25,
+47–52.
+
+18
+
+IPR2015-01615
+Patent 5,682,526
+E. Asserted obviousness of claims 4–7 over Musen and Norden-Paul
+Petitioner further argues that claims 4–7 would have been obvious
+over Musen in view of Norden-Paul. Pet. 26–27. In this regard, Petitioner
+asserts that Norden-Paul discloses certain subject matter, without indicating
+with sufficient specificity how certain disclosures in that reference
+correspond to the different limitations of claims 4–7. Id. In short, in this
+ground, we cannot tell from Petitioner’s arguments what exact aspects of the
+claims are disclosed in one or both references and/or why one might have
+combined different recited elements from the two references into a single
+method. Moreover, Petitioner does not overcome the deficiencies discussed
+above in relation to Musen, which are equally relevant to Petitioner’s
+obviousness assertion here.
+F. Asserted anticipation of claims 11–13 by COSTAR (Exh. 1011) or
+obviousness of claims 11–13 over COSTAR and Norden-Paul
+Petitioner contends that COSTAR describes all elements recited in
+claims 11–13 of the ’526 patent. Pet. 27–34, 52–57. Independent claim 11,
+from which claims 12 and 13 depend, recites a method comprising elements
+(a)–(d), which involve creating different parameters, i.e., global or local
+parameters, in different locations and having different names. Ex. 1001,
+15:11–38.
+Petitioner discusses COSTAR in the context of “global” and “local”
+parameters generally, as those terms are recited in elements (a) and (c) of
+claim 11. Pet. 27–30. In relation to elements (c) and (d) otherwise,
+however, Petitioner argues that those two elements “simply require the same
+steps that occurred in elements (a) and (b) to be reiterated with a third and
+fourth location and a second identifier,” and assert that operation of the
+COSTAR system “would necessarily dictate” that such steps “would be
+19
+
+IPR2015-01615
+Patent 5,682,526
+performed more than once.” Id. at 30–31; see also id. at 54 (relying on
+“claim element (a)” in relation to elements (c) and (d)). In other words,
+Petitioner relies on an inherency position in relation to elements (c) and (d).
+Id. In support, Petitioner argues that “[a]s explained by Dr. Bergeron, if
+there were not more than two parameters to be identified, there would be
+such little patient information that the hierarchy described by COSTAR
+would have no purpose.” Id. at 31 (citing Ex. 1017 ¶¶ 83, 84, 88).
+As an initial matter, Petitioner’s assertion that the COSTAR system
+would otherwise “have no purpose” if it identifies only two parameters is
+inadequate to demonstrate inherency. Petitioner’s arguments do not explain
+sufficiently how recited limitations (c) and (d) are “necessarily present” in a
+method described in COSTAR. Schering Corp. v. Geneva Pharms., 339
+F.3d 1373, 1377 (Fed. Cir. 2003) (stating that “a prior art reference may
+anticipate without disclosing a feature of the claimed invention if that
+missing characteristic is necessarily present, or inherent, in the single
+anticipating reference”).
+Moreover, elements (c) and (d) of claim 11 require more than simply
+performing elements (a) and (b) “more than once.” Pet. 30–31. For
+example, element (c) requires “a local parameter element” at “a third
+location,” and element (d) recites “creating a parameter at the third location
+in the patient information hierarchy that is identified by a second parameter
+identifier and creating a parameter at the fourth location in the patient
+information hierarchy that is identified by a third parameter identifier,
+wherein the second and third parameter identifiers are distinct.” Id. at
+15:32–38. Petitioner does not explain adequately where COSTAR describes
+all aspects of those elements. Id. at 30–31, 54.
+20
+
+IPR2015-01615
+Patent 5,682,526
+Petitioner’s assertions regarding anticipation of dependent claims 12
+and 13, each of which recite a number of additional elements, suffer from
+similar deficiencies. Id. at 31–34. Likewise, Petitioner’s assertion of
+obviousness of claims 11–13 over COSTAR in view of Norden-Paul does
+not overcome the deficiencies discussed above in relation to COSTAR,
+which are equally relevant to Petitioner’s obviousness assertion here. Id. at
+34–35.
+Upon consideration of the Petition and cited information therein, we
+are not persuaded that Petitioner adequately indicates how COSTAR
+describes, expressly or inherently, all elements of claims 11–13. Pet. 27–35,
+52–57. We also are not persuaded that Petitioner adequately indicates how
+COSTAR, either alone or in combination with Norden-Paul, teaches or
+suggests, expressly or inherently, all elements of those claims. Id.
+G. Asserted anticipation of claim 14 by Nolan (Exh. 1014) or
+obviousness of claim 14 over Nolan and Norden-Paul
+Petitioner contends that Nolan describes all elements recited in claim
+14 of the ’526 patent. Pet. 35–36, 57–58. Independent claim 14 recites a
+method comprising elements (a)–(d), which involve displaying parameter
+result values “in an abbreviated form in conjunction with the other
+parameters in the subset, such that at least a portion of the author name field
+is displayed” (element (b)), as well as “displaying the entire contents of the
+result value of the parameter . . . , such that the complete contents of the
+author name, time and note text fields are displayed” (element (d)). Ex.
+1001, 16:30–58.
+The Petition, both in its analysis section and relevant claim chart, fails
+to explain adequately how Nolan describes a method that involves, for
+example, displaying parameter values in “an abbreviated form” where “at
+21
+
+IPR2015-01615
+Patent 5,682,526
+least a portion of the author name field is displayed,” and then “displaying
+the entire contents” where “the complete contents of the author name, time
+and note text fields are displayed.” Id.; Pet. 35–36, 57–58. The Petition
+does not discuss or mention abbreviations, for example, except in the claim
+chart where it reproduces elements of claim 14. Pet. 35–36, 57–58. In
+addition, Petitioner’s general reference to “claim 14 preamble and claim
+elements (a)–(c)” in the claim chart does not explain with sufficient
+specificity where Nolan discloses element (d) of claim 14. Id. at 58.
+Likewise, Petitioner’s assertion of obviousness of claim 14 over
+Nolan in view of Norden-Paul does not overcome the deficiencies discussed
+above in relation to Nolan, which are equally relevant to Petitioner’s
+obviousness assertion here. Id. at 37–38.
+Upon consideration of the Petition and cited information therein, we
+are not persuaded that Petitioner adequately indicates how Nolan describes,
+expressly or inherently, all elements of claim 14. Pet. 34–38, 57–58. We
+also are not persuaded that Petitioner adequately indicates how Nolan, either
+alone or in combination with Norden-Paul, teaches or suggests, expressly or
+inherently, all elements of that claim. Id.
+H. Asserted obviousness of claims 15–19 over Norden-Paul and Salas
+(Ex. 1013)
+Petitioner argues claims 15–19 of the ’526 patent would have been
+obvious over Norden-Paul in view of Salas. Pet. 38–41. Independent claim
+15, from which claims 16–19 depend, recites a method comprising elements
+(a)–(e), involving displaying parameters and “the parameter placeholder
+specified by the selected flowsheet group of the selected flowsheet for the
+specified patient” (element (b)), replacing the specified parameter
+placeholder with a selected parameter of the patient information hierarchy
+22
+
+IPR2015-01615
+Patent 5,682,526
+(elements (c) and (d)), and displaying specified parameters, “including the
+selected parameter and excluding the parameter placeholder” (element (e)).
+Ex. 1001, 16:59–17:22.
+Petitioner argues that, during prosecution of the ’526 patent, Patent
+Owner did not contest an Examiner’s rejection of claims 15–19 based on
+Norden-Paul, “except to argue that ‘[t]he disclosed macro parameters differ
+from the placeholders recited in these claims . . . in that they are not replaced
+with a parameter selected by the user.” Pet. 39–40 (quoting Ex. 1004, 10).
+According to Petitioner, “[t]o the extent that Norden-Paul does not teach the
+function of replacing or renaming a placeholder with a parameter,” Salas
+provides that teaching. Id. at 40–41. Petitioner does not provide a claim
+chart in relation to claims 15–19. Id. at 41–58.
+Even if we assume Salas teaches “the function of replacing or
+renaming a placeholder with a parameter” as Petitioner argues, the Petition
+does not address adequately all recited aspects in claims 15–19. Id. at 38–
+41. Petitioner’s assertions here about what the Patent Owner stated during
+prosecution of the challenged patent is insufficient to indicate that NordenPaul and/or Salas discloses or suggests all relevant limitations at issue. The
+Petition does not explain sufficiently how its discussion of disclosures in
+Norden-Paul and Salas corresponds to the multiple elements of claim 15, or
+limitations recited in dependent claims 16–19, either individually or
+collectively in each method, as recited in those claims.
+Upon consideration of the Petition and cited information therein, we
+are not persuaded that Petitioner adequately indicates how Norden-Paul,
+either alone or in combination with Salas, discloses or suggests all
+limitations of claims 15–19. Pet. 38–41.
+23
+
+IPR2015-01615
+Patent 5,682,526
+III.
+
+CONCLUSION
+For the foregoing reasons, we are not persuaded that the Petition
+
+establishes a reasonable likelihood that Petitioner would prevail in showing
+that claims 1–7, 10–19, and 25 of the ’526 patent are unpatentable under 35
+U.S.C. § 102(b) or § 103(a).
+
+IV.
+
+ORDER
+Accordingly, it is
+ORDERED that the Petition is denied and no inter partes review is
+
+instituted.
+
+24
+
+IPR2015-01615
+Patent 5,682,526
+For PETITIONER:
+A. Taylor Corbitt
+Brian D. Siff
+SCHIFF HARDIN LLP
+tcorbitt@schiffhardin.com
+bsiff@schiffhardin.com
+
+For PATENT OWNER:
+Sean D. Burdick
+UNILOC USA, INC.
+sean.burdick@unilocusa.com
+Brett Mangrum
+ETHERIDGE LAW GROUP
+brett@etheridgelaw.com
+
+25
+
+

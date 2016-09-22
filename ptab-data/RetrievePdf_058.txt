@@ -1,0 +1,215 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 15
+Entered: November 20, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+AMERICAN MEGATRENDS, INC.,
+MICRO-STAR INTERNATIONAL CO., LTD,
+MSI COMPUTER CORP.,
+GIGA-BYTE TECHNOLOGY CO., LTD., AND
+G.B.T., INC.,
+Petitioner,
+v.
+KINGLITE HOLDINGS INC.
+Patent Owner
+____________
+Case IPR2015-01189
+Patent 5,836,013
+
+Before PHILLIP J. KAUFFMAN, GLENN J. PERRY,
+TREVOR M. JEFFERSON, and BRIAN J. McNAMARA,
+Administrative Patent Judges.
+PERRY, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+Case IPR2015-01189
+Patent 5,836,013
+INTRODUCTION
+American Megatrends, Inc., Micro-Star International Co., Ltd., MSI
+Computer Corp., Giga-Byte Technology Co., Ltd., and G.B.T., Inc.,
+(collectively, “Petitioner”) filed a Petition (Paper 6, “Pet.”) to institute an
+inter partes review of claims 1–28 of Patent 5,836,013 (“the ’013 Patent”)
+pursuant to 35 U.S.C. § 311 et seq. Patent Owner Kinglite Holdings, Inc.
+filed a Preliminary Response (Paper 13, “Prelim. Resp.”) to the Petition.
+We have jurisdiction under 35 U.S.C. § 314(a), which provides that an
+inter partes review may not be instituted unless the information presented in
+the Petition shows “there is a reasonable likelihood that the petitioner would
+prevail with respect to at least 1 of the claims challenged in the petition.”
+Upon consideration of the Petition, Patent Owner’s Preliminary Response,
+and the evidence of record, we conclude Petitioner has not established a
+reasonable likelihood it would prevail with respect to at least one of the
+challenged claims. We, therefore, deny the Petition.
+Real Parties in Interest
+Petitioner names no real parties in interest other than the parties listed
+as Petitioner.
+Related Matters
+Petitioner indicates that the ’013 Patent is asserted against Micro-star
+International Co., Ltd. and MSI Computer Corp. in the District Court for the
+Central District of California in Kinglite Holdings Inc. v. Micro-Star Int’l
+Co. Ltd., et al., CV 14-03009 JVS (PJWx) (C.D. Ca). Pet. 6; Paper 7, 1.
+Petitioner indicates that the following inter partes reviews are related.
+American Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01079
+(U.S. Pat. No. 6,373,498 B1); American Megatrends Inc., et al. v. Kinglite
+2
+
+Case IPR2015-01189
+Patent 5,836,013
+Holdings Inc., IPR2015-01081 (U.S. Pat. No. 5,987,604); American
+Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01094 (U.S. Pat.
+No. 6,401,202 B1); American Megatrends Inc., et al. v. Kinglite Holdings
+Inc., IPR2015-01132 (U.S. Pat. No. 6,523,123 B2); American Megatrends
+Inc., et al. v. Kinglite Holdings Inc., IPR2015-01133 (U.S. Pat. No.
+5,732,268); American Megatrends Inc., et al. v. Kinglite Holdings Inc.,
+IPR2015-01140 (U.S. Pat. No. 6,519,659 B1); American Megatrends Inc., et
+al. v. Kinglite Holdings Inc., IPR2015-01141 (U.S. Pat. No. 6,633,976 B1);
+American Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01188
+(U.S. Pat. No. 5,836,013); American Megatrends Inc., et al. v. Kinglite
+Holdings Inc., IPR2015-01189 (U.S. Pat. No. 5,836,013); American
+Megatrends Inc., et al. v. Kinglite Holdings Inc., IPR2015-01191 (U.S. Pat.
+No. 6,892,304 B1); and American Megatrends Inc., et al. v. Kinglite
+Holdings Inc., IPR2015-01197 (U.S. Pat. No. 6,487,656 B1). Paper 7, 1–2.
+THE ’013 Patent (Ex. 1001)
+Described Invention
+The ’013 Patent describes chipset (platform)-independent methods for
+compressing and decompressing system ROM code of a computer (e.g.,
+BIOS, setup program, and one or more option ROMs). Ex. 1001, Abstract.
+Compressing takes into account chipset particulars needed for reading to and
+writing from registers associated with a particular chipset by appending
+computer specific information (e.g., from a shadow RAM table) to the
+uncompressed ROM file before compressing portions of it. Id.
+Illustrative Claim
+Claim 1 of the ’013 Patent below is illustrative of the challenged
+claims:
+3
+
+Case IPR2015-01189
+Patent 5,836,013
+1. In a computer having a processor and storage, a
+computer-implemented method for generating a system read
+only memory (ROM) computer file that can access the ROM of
+a target computer, the method comprising the steps of:
+receiving, for processing by the processor, a system
+ROM computer file comprising a non-compressible
+portion and one or more compressible portions,
+including a setup program and one or more option
+ROM images,
+the non-compressible portion comprising a
+decompression program;
+appending, to the non-compressible portion, information
+on accessing the ROM of a target computer;
+compressing, via the processor, each compressible
+portion to generate compressed data;
+generating, via the processor, a compressed system ROM
+computer file comprising the compressed data and the
+appended non-compressible portion; and
+storing the compressed system ROM computer file in the
+storage.
+PETITIONER’S CHALLENGES
+Petitioner contends that claims 10–13, 18, and 20 are unpatentable
+under 35 U.S.C. § 102 as anticipated by Kikinis CIP;1 and that claims 1–9,
+14–17, 19, and 21–28 are obvious under 35 U.S.C. § 103 based on Kikinis
+CIP, Research Disclosure,2 and Begur.3 Pet. 14. Petitioner’s challenges rely
+upon the testimony of Gabriele Sartori, Ph.D. Ex. 1014. Pet. 13.
+KIKINIS CIP AS PRIOR ART
+All of Petitioner’s challenges rely on Kikinis CIP. Pet. 25–31 and 47–
+1
+
+U.S. Patent 6,523,079 B2—Kikinis et al., issued February 18, 2003 (Ex.
+1005, “Kikinis CIP”).
+2
+RESEARCH DISCLOSURE; January, 1992, Number 333; Kenneth
+Mason Publications Ltd. (Ex. 1008, “Research Disclosure”).
+3
+U.S. Patent 5,202,994—Begur et al., issued April 13, 1993 (Ex. 1006,
+“Begur”).
+4
+
+Case IPR2015-01189
+Patent 5,836,013
+59.
+The following is an image of a portion of the first page of Kikinis CIP
+specifying its “related U.S. Application Data.”
+
+Petitioner contends that although U.S. Application 09/785,574 (“ the
+’574 Application”) resulting in issuance of Kikinis CIP was filed after the
+critical date (August 11, 1994) of the ’013 Patent, the effective date of
+Kikinis CIP reaches back in time to before the ’013 Patent critical date
+through a priority claim to abandoned U.S. Patent Application 08/019,592
+(“the ’592 application”) which was filed on February 19, 1993. Pet. 14.
+Petitioner argues that: 1) “the Kikinis CIP [which] restates the salient
+description of the compressed BIOS of the [’592] application” (id.); 2)
+“Kikinis et al. applied for substantially the same invention years before the
+filing of the application of the [’]013 Patent” (id. at 16); and 3) the “Kikinis
+CIP issued as U.S. Pat. No. 6,523,079 (Ex. 1005, which incorporates the
+entirety of the Kikinis Application [(referring to the ’592 application)] by
+reference).” Id. at 17. Petitioner argues “how similar the conceptions of the
+[’]013 Patent and [the Kikinis (’592) application] are” by comparing claim
+12 of the ’592 application with claim 10 of the ’013 Patent. Pet. 18–19.
+Patent Owner contends that Kikinis CIP is not prior art against the
+challenged claims because the ’592 application went abandoned on June 18,
+1997 (Ex. 1010, 3), well before the filing (February 15, 2001) of the ’574
+application. Further, Patent Owner argues that there is no “incorporation by
+5
+
+Case IPR2015-01189
+Patent 5,836,013
+reference” into the ’574 application. Prelim. Resp. 7.
+We have reviewed Kikinis CIP and find that although there may be
+subject matter in it that also appears in the ’592 application, we do not find
+an explicit “incorporation by reference” of the ’592 application.
+Furthermore, Patent Owner is correct that the ’592 application went
+abandoned well before the filing of the ’574 application. Thus, there is no
+direct continuity between the ’592 application and the ’574 application.
+We note from the “Related U.S. Application Data,” above that Kikinis
+CIP also recites that the ’574 application is a continuation of application
+08/683,567 (“the ’567 application”) which, in turn, is a continuation-in-part
+of the ’592 application. However, there is no evidence presented in this
+record concerning the subject matter of the ’567 application. Petitioner has
+not traced the subject matter relied upon from the ’592 application through
+the ’567 application. Given that the ’567 application is a continuation-inpart of the ’592 application, we make no assumption regarding the extent of
+any common subject matter between them.
+Accordingly, Petitioner has not established that Kikinis CIP is entitled
+to the benefit of the ’592 application.
+CONCLUSION
+For the subject matter of Kikinis CIP on which Petitioner relies,
+Petitioner has not established a priority date prior to the critical date of the
+’013 Patent. All of Petitioner’s challenges rely upon Kikinis. We therefore
+determine that the Petition does not establish a reasonable likelihood that
+Petitioner would prevail in establishing the unpatentability of claims 1–28
+under 35 U.S.C. § 102 or § 103 based on Kikinis CIP alone and in
+combination.
+6
+
+Case IPR2015-01189
+Patent 5,836,013
+
+ORDER
+Accordingly, it is
+ORDERED that pursuant to 35 U.S.C. § 314, an inter partes review is
+hereby denied as to all grounds raised in the Petition for the reasons stated
+above and no trial is instituted.
+
+PETITIONER:
+Vivek Gabti
+Gregory Ourada
+HILL, KERTSCHER & WHARTON, LLP
+vg@hkw-law.com
+go@hkw-law.com
+PATENT OWNER
+Christopher Frerking
+chris@ntknet.com
+George C. Summerfield
+STADHEIM & GREAR LTD.
+summerfield@stadheimgrear.com
+
+7
+
+

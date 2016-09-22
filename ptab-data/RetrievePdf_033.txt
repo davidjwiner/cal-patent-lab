@@ -1,0 +1,198 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper No. 18
+Entered: October 27, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+APOTEX INC.,
+Petitioner,
+v.
+MERCK SHARP & DOHME CORP.,
+Patent Owner.
+____________
+Case IPR2015-00419
+Patent 5,691,336
+____________
+
+Before LORA M. GREEN, ZHENYU YANG, and
+ROBERT A. POLLOCK, Administrative Patent Judges.
+YANG, Administrative Patent Judge.
+
+DECISION
+Order Denying Petitioner’s Request for Rehearing
+37 C.F.R. § 42.71
+
+IPR2015-00419
+Patent 5,691,336
+INTRODUCTION
+Apotex Inc. (“Petitioner”) filed a Petition for an inter partes review of
+claims 1, 3–8, and 10–25 of U.S. Patent No. 5,691,336 (“the ’336 patent,”
+Ex. 1001). Paper 1 (“Pet.”). The Board denied the Petition. Paper 14
+(“Dec.”). Petitioner filed a Request for Rehearing. Paper 15 (“Reh’g
+Req.”). Petitioner also filed a Petition under 37 C.F.R. § 41.3, suggesting
+reconsideration by an expanded panel. Paper 16.
+For the following reasons, we deny Petitioner’s Request for
+Rehearing. The Acting Chief Administrative Judge declined to expand the
+panel.
+
+STANDARD OF REVIEW
+When rehearing a decision on institution, the Board reviews the
+decision for an abuse of discretion. 37 C.F.R. § 42.71(c). An abuse of
+discretion occurs when a decision was based on an erroneous conclusion of
+law or clearly erroneous factual findings, or a clear error of judgment. In re
+Gartside, 203 F.3d 1305, 1315–16 (Fed. Cir. 2000).
+The party requesting rehearing bears the burden of showing the
+decision should be modified. 37 C.F.R. § 42.71(d). Specifically, a request
+for rehearing must identify all matters the party believes the Board
+misapprehended or overlooked. Id.
+
+DISCUSSION
+In our Decision denying the Petition, we determined that Petitioner
+has failed to sufficiently explain why, at the time of the ’336 patent
+2
+
+IPR2015-00419
+Patent 5,691,336
+invention, a skilled artisan would have chosen compound 96 of Dorn ’699 to
+further develop its prodrug, which is the subject matter of the challenged
+claims. Dec. 12. In its Request, Petitioner argues that we erred in
+concluding that compound 96 is not a lead compound. Reh’g Req. 1. We
+are not persuaded.
+Petitioner relies on In re Dillon, 919 F.2d 688 (Fed. Cir. 1990) (en
+banc). According to Petitioner, “[u]nder Dillon, structural similarity alone is
+sufficient to provide motivation to a person skilled in the art (“POSA”) to
+modify a prior art compound.” Id. at 7. Dillon did not hold so. Instead,
+Dillon held that “structural similarity between claimed and prior art subject
+matter, proved by combining references or otherwise, where the prior art
+gives reason or motivation to make the claimed compositions, creates a
+prima facie case of obviousness.” Dillon, 919 F.2d at 692 (emphasis added).
+In other words, a patent challenger must provide “some articulated reasoning
+with some rational underpinning to support the legal conclusion of
+obviousness,” independent of the structural similarity. See KSR Int’l Co. v.
+Teleflex Inc., 550 U.S. 398, 418 (2007). Indeed, the Federal Circuit has
+repeatedly explained so. See e.g., Daiichi Sankyo Co., Ltd. v. Matrix
+Laboratories, Ltd., 619 F.3d 1346, 1352 (Fed. Cir. 2010) (“Proof of
+obviousness based on structural similarity requires . . . evidence that a
+medicinal chemist of ordinary skill would have been motivated to select and
+then to modify a prior art compound (e.g., a lead compound) to arrive at a
+claimed compound . . . .”). “Absent a reason or motivation based on such
+prior art evidence, mere structural similarity between a prior art compound
+3
+
+IPR2015-00419
+Patent 5,691,336
+and the claimed compound does not inform the lead compound selection.”
+Otsuka Pharm. Co. v. Sandoz, Inc., 678 F.3d 1280, 1292 (Fed. Cir. 2012).
+We recognize that the motivation to select and modify a lead
+compound need not be explicit in the art. Daiichi, 619 F.3d at 1352. Here,
+however, Petitioner does not offer any persuasive evidence or otherwise
+explain why a skilled artisan would have selected compound 96 of Dorn
+’699 for modification. As we pointed out in the Decision, Dorn ’699 lists
+over 600 compounds by their chemical names but provides no activity data
+for any of them. Dec. 11. Under such circumstances, Petitioner’s failure to
+articulate any reason why one of ordinary skill in the art would have selected
+compound 96 is fatal to its obviousness analysis.
+Petitioner contends that our lead compound analysis conflicts with Ex
+parte Dong, Appeal No. 2011-010047 (P.T.A.B. Jan. 28, 2013), and Ex
+parte Cao, Appeal No. 2010-004081 (B.P.A.I. Sept. 19, 2011). Id. at 2–6.
+According to Petitioner, we must follow Dong and Cao, in which the panels
+affirmed obviousness rejections, even though the prior art taught numerous
+compounds and did not provide activity data. Id. We disagree. First, the
+Board did not designate either Dong or Cao as precedential. Thus, those
+opinions do not bind this panel. More importantly, obviousness, while a
+question of law, is based on underlying factual findings. Graham v. John
+Deere Co., 383 U.S. 1, 17–18 (1966). And the facts in this case are
+distinguishable from those in Dong and Cao. For example, the reference in
+Dong did not only list the prior art compound among hundreds of others, it
+actually made the compound. Dong, 2013 WL 5375700, *3. In contrast, in
+this case, Dorn ’699 prepared over 90 specific compounds in Examples 1–85
+4
+
+IPR2015-00419
+Patent 5,691,336
+and 88–93. Ex. 1003, 60:58–102:1, 121:26–122:60. It also taught how to
+make nearly 500 other specific compounds in Examples 86 and 87. Id. at
+102:2–121:25. Dorn ’699, however, neither actually prepared compound 96,
+nor taught how to make it. Because of the different facts, the approach in
+Dong does not apply in this case.
+In the Decision, we also denied the Petition on an independent basis.
+We contrasted a body of well-studied, potent tachykinin receptor antagonists
+with Dorn ’699, which reported no biological or pharmacokinetic data. Dec.
+9. Petitioner argues that we erred in stating that a skilled artisan would have
+pursued those more promising compounds. Reh’g Req. 12 (citing Dec. 9).
+We are not persuaded. Our determination is not, as Petitioner asserts, an
+“assumption,” but a conclusion based on the evidence of record. Dec. 9
+(citing Prelim. Resp. 16–18, which in turn, relies on Exs. 2001–05, 2007,
+2008). Indeed, as Patent Owner pointed out in its Preliminary Response, by
+the time of the ’336 patent invention, very potent, selective tachykinin
+receptor antagonists with desirable pharmacokinetic properties had been
+discovered. Prelim. Resp. 17 (citing Ex. 2007). Specifically, Patent Owner
+itself identified compound 7b, a “highly potent” tachykinin receptor
+antagonist, as a lead for further optimization. Id. at 18 (citing Ex. 2005).
+Petitioner contends that those studies “do not disclose the numerous,
+specific human therapeutic applications disclosed in Dorn ʼ699 . . . that
+would have motivated those skilled in the art to pursue development of
+Dorn’s compounds.” Reh’g Req. 12. We disagree. For example, prior art
+teaches that compounds modulating or blocking activity of tachykinin are
+suitable for treating human diseases, such as pain, inflammation, rheumatoid
+5
+
+IPR2015-00419
+Patent 5,691,336
+arthritis, asthma, and bronchial hyperactivity. Ex. 2007, 315. In other
+words, one of ordinary skill would have had sufficient reason to pursue those
+promising compounds, instead of starting with Dorn ’699.
+Petitioner further contends that Patent Owner’s Preliminary Response
+is inconsistent with statements by the inventors during the prosecution.
+Reh’g Req. 13–15. This argument amounts to an unauthorized, improper
+reply to the Preliminary Response. Moreover, because Petitioner did not
+explain why a skilled artisan would have selected compound 96, we do not
+need to address whether a skilled artisan would have subsequently modified
+compound 96 based on the teachings of Murdock.
+In sum, in the Petition, Petitioner did not establish a reasonable
+likelihood that it would prevail in showing Dorn ’699, in combination with
+other asserted prior art, would have rendered the challenged claims obvious.
+On rehearing, we see no error in our fact findings or conclusions of law.
+Thus, we conclude that Petitioner has not demonstrated that we abused our
+discretion in denying institution of the challenged claims. We deny the
+Request for Rehearing. The Acting Chief Administrative Judge declined to
+expand the panel.
+
+ORDER
+Accordingly, it is
+ORDERED that Petitioner’s Request for Rehearing is denied.
+
+6
+
+IPR2015-00419
+Patent 5,691,336
+PETITIONER:
+Kenneth J. Burchfiel
+Grant S. Shackelford
+SUGHRUE MION, PLLC
+kburchfiel@sughrue.com
+gshackelford@sughrue.com
+
+PATENT OWNER:
+Bruce M. Wexler
+Preston K. Ratliff II
+Gregory A. Morris
+Naveen Modi
+PAUL HASTINGS LLP
+brucewexler@paulhastings.com
+prestonratliff@paulhastings.com
+gregorymorris@paulhastings.com
+naveenmodi@paulhastings.com
+Gerard M. Devlin
+Richard C. Billups
+MERCK SHARP & DOHME CORP.
+gerard_devlin@merck.com
+richard_billups@merck.com
+
+7
+
+

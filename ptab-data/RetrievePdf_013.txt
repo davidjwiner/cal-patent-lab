@@ -1,0 +1,1480 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 24
+Entered: October 16, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+_______________
+UBISOFT ENTERTAINMENT SA,
+Petitioner,
+v.
+PRINCETON DIGITAL IMAGE CORPORATION,
+Patent Owner.
+_______________
+Case IPR2014-00635
+Patent 5,513,129
+_______________
+
+Before BENJAMIN D. M. WOOD, TRENTON A. WARD, and
+BETH Z. SHAW, Administrative Patent Judges.
+WOOD, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+IPR2014-00635
+Patent 5,513,129
+I.
+A.
+
+INTRODUCTION
+
+Background
+
+Ubisoft Entertainment SA (“Petitioner”) filed a Petition (Paper 3,
+“Pet.”) requesting an inter partes review of claims 1–23 of U.S. Patent No.
+5,513,129 (Ex. 1001, “the ’129 patent”). Princeton Digital Image
+Corporation (“Patent Owner”) filed a Preliminary Response (Paper 8,
+“Prelim. Resp.”). We instituted an inter partes review of claims 1–13, 15–
+18, and 21–23 based on the following grounds of unpatentability:
+Reference[s]
+
+Basis
+
+Claims Challenged
+
+Tsumura1
+
+§ 102(b)
+
+10 and 11
+
+Lytle2
+
+§ 102(b)
+
+5–7, 9–12, 16–18, 22, and 23
+
+Adachi3
+
+§ 102(b)
+
+1, 12, 13, 15, and 21
+
+Lytle and Adachi
+
+§ 103(a)
+
+1, 8, 12, 13, 15, and 21
+
+Thalmann4 and Williams5
+
+§ 103(a)
+
+1–4, 12, 13, 15, and 21
+
+Decision on Institution (“Dec. on Inst.”) 24–25.
+
+1
+
+Tsumura et al., US 5,208,413 (iss. May 4, 1993) (“Tsumura,” Ex. 1002).
+
+2
+
+Wayne T. Lytle, Driving Computer Graphics Animation from a Musical
+Score, Scientific Excellence in Supercomputing, The IBM 1990 Contest
+Prize Papers 643–686 (Keith R. Billingsley et al. ed., 1992) (“Lytle,” Ex.
+1003).
+3
+
+Adachi et al., US 5,048,390 (iss. Sept. 17, 1991) (“Adachi,” Ex. 1004).
+
+4
+
+Daniel Thalmann, Using Virtual Reality Techniques in the Animation
+Process, Proc. Virtual Reality Systems, British Computer Society 1-20
+(1992) (“Thalmann,” Ex. 1006).
+5
+
+Williams et al., US 5,430,835 (iss. July 4, 1995) (“Williams,” Ex. 1005).
+
+2
+
+IPR2014-00635
+Patent 5,513,129
+After the Board instituted trial, Patent Owner filed a Patent Owner
+Response (Paper 14, “PO Resp.”), to which Petitioner replied (Paper 16,
+“Pet. Reply”). Oral Hearing was held on July 7, 2015, and the Hearing
+Transcript (Paper 23, “Tr.”) had been entered in the record.
+We have jurisdiction under 35 U.S.C. § 6(c). This Final Decision is
+entered pursuant to 35 U.S.C. § 318(a). We determine that Petitioner has
+shown by a preponderance of the evidence that claims 1–13, 15–18, and 21–
+23 are unpatentable.
+B.
+
+Related Proceedings
+
+The parties represent that the ’129 patent is the subject of the
+following district court proceedings: (1) Princeton Digital Image Corp. v.
+Ubisoft Entertainment SA, Case No. 1:13-cv-00335-LPS-CJB (D. Del.);
+(2) Princeton Digital Image Corp. v. Harmonix Music Systems, Inc., Case
+No. 1:12-cv-01461 (D. Del); and (3) Princeton Digital Image Corp. v.
+Activision Publishing, Inc., Case No. 2:12-cv-01134 (C.D. Cal.) (dismissed).
+Pet. 59; Mandatory Notice by Patent Owner under 37 C.F.R. § 42.8 (Paper
+7), 1–2.
+In addition, the’129 patent was the subject of an inter partes review in
+Harmonix Music Sys., Inc. v. Princeton Digital Image Corp., Case IPR201400155 (“’155 IPR”) (PTAB May 9, 2014) (Paper 26). In that proceeding,
+the Board determined that claims 10, 11, 22, and 23 are unpatentable. ’155
+IPR, Paper 26, 29.
+C.
+
+The ’129 Patent
+
+The ’129 patent relates to systems and methods for controlling a
+computer system—in particular, a “virtual reality” computer system—using
+audio signals. Ex. 1001, 29:1–64, 29:65–30:65. The ’129 patent uses the
+
+3
+
+IPR2014-00635
+Patent 5,513,129
+terms “virtual reality,” “virtual world,” and “virtual environment”
+interchangeably “to describe a computer-simulated environment (intended to
+be immersive) which includes a graphic display (from a user’s first person
+perspective, in a form intended to be immersive to the user).” Id. at 1:22–
+27.6 A component of the disclosed invention, referred to as an “Acoustic
+Etch,” receives music (in electronic, acoustic, or optical form) and processes
+it to generate signals to control the VR computer system. Id. at 4:54–67.
+For example, the Acoustic Etch can use a known algorithm to “extract a
+rhythm signal indicative of the beat of some frequency band of the music . . .
+or of some other parameter of a frequency band of the music,” and use the
+extracted signal to control the movement of a virtual dancer. Id. at 5:4–10.
+The Acoustic Etch also can supply prerecorded control tracks or
+generate control signals from prerecorded control tracks. Id. at 5:11–17.
+“The control tracks can be generated automatically (e.g., by electronic signal
+processing circuitry) in response to a music signal and then recorded, or can
+be generated in response to manually asserted commands from a person
+(while the person listens to such music signal) and then recorded.” Id. at
+5:21–26.
+Figure 2 of the ’129 patent is reproduced below:
+
+6
+
+We adopt the ’129 patent’s use of the abbreviation “VR” to denote “virtual
+reality,” “virtual environment,” or “virtual world.” Ex. 1001, 1:2033.
+
+4
+
+IPR2014-00635
+Patent 5,513,129
+Figure 2 above depicts a diagram of a computer system in which a control
+track is recorded on, and played back from, first medium 1A, e.g., a video
+game cartridge; and a corresponding music signal is recorded on, and played
+back from, second medium 1, e.g., a compact disk (“CD”). Id. at 8:58–65.
+Analog-to-digital (“A-to-D”) conversion circuit 4 within Acoustic Etch 3'
+receives and digitizes the control track from first medium 1A and the music
+signal from second medium 1. Id. at 8:33–35. Analyzer 5 within Acoustic
+Etch 3' receives the digitized output and generates control signals by
+processing the control track and music signal, and outputs the control signals
+through interface 6 to VR processor 7. Id. at 8:38–42. VR processor 7 “is a
+computer programmed with software for implementing a virtual
+environment” and “can cause image data representing a virtual environment
+to be displayed on display device 8.” Id. at 8:1–4. VR processor 7 uses the
+control signals to control generation of the virtual environment. Id. at 8:41–
+44.
+Figure 5 of the ’129 patent, which depicts a system for creating a
+control track, is reproduced below:
+
+5
+
+IPR2014-00635
+Patent 5,513,129
+
+Figure 5 depicts “a block diagram of a system for creating an audio tape
+with control tracks.” Id. at 7:29–31. In Figure 5, multitrack tape player unit
+100 is loaded with master tape 100T and outputs music signals 101A, 101B.
+Id. at 13:11–15. Signal conditioners 120A, 120B receive music signals
+101A, 101B and output analog control signals 121A, 121B to A-to-D
+converter/microprocessor 130X for generating a digital control track. Id. at
+13:16–26. Microprocessor 130X outputs a serial data stream to tape
+interface (“IF”) converter 140X, which sends output data signal 141X to 4track audio tape recording unit 180 for recording onto 4-track audio cassette
+tape 180T. Id. at 13:16–31.
+
+6
+
+IPR2014-00635
+Patent 5,513,129
+Figure 5 also illustrates assembly of switches 150 (or other means by
+which a human operator can input digital signals) that “feeds parallel digital
+data to microprocessor 130Y.” Id. at 13:33–36. Microprocessor 130Y
+generates another control track in response to this input data, and sends it,
+via tape IF converter 140Y, to 4-track audio tape recording unit 180. Id. at
+13:42–48. Two-track tape playing unit 170, loaded with master tape 170T,
+is time-synchronized with multitrack tape player unit 100 through SMPTE
+synchronizer 190, and outputs left and right audio signals 170L, 170R to 4track audio tape recording unit 180. Id. at 13:49–55. In this way, 4-track
+audio cassette tape 180T contains audio signals 170L, 170R (which are
+typically music signals) and “two other tracks containing control tracks
+corresponding to the audio signals.” Id. at 13:56–59.
+Virtual objects that can be generated by the VR processor are
+illustrated in “the display of a virtual environment shown in FIG. 11.” Id. at
+18:15–17. Figure 11 of the ’129 patent is reproduced below.
+
+7
+
+IPR2014-00635
+Patent 5,513,129
+Figure 11 depicts examples of virtual objects that can be created by
+the VR program of the invention. Id. at 7:47–48, 14:39–40. Cylindrical
+objects 310A, 310B “are fixed in space, but change height over time.” Id. at
+14:44–45. The height of objects 310A, 310B can be “controlled via the
+control track information and the two heights indirectly represent the first
+two audio channels.” Id. at 18:23–26. For example, if the first two audio
+channels are recordings of a bass drum and snare drum, respectively, then
+one cylinder (e.g., 310A) would change height in response to the base drum
+and the other cylinder (e.g., 310B) would change height in response to the
+snare drum. Id. at 18:27–33.
+D.
+
+Illustrative Claims
+
+Claims 1, 5, 10, 12, 16, 21, and 22 are independent. The remaining
+claims upon which institution was granted are dependent from these
+independent claims. Dec. on Inst. 24–25. Claims 1 and 5 are each drawn to
+a method for controlling production of a virtual environment by a virtual
+reality computer system; claim 10 is drawn to a method of controlling a
+computer system; claims 12, 16, and 21 are each drawn to a virtual reality
+computer system; and claim 22 is drawn to a computer system. Independent
+claims 1 and 22 are illustrative of the claimed subject matter and are
+reproduced below:
+1. A method for controlling production of a virtual
+environment by a virtual reality computer system, including
+the steps of
+(a) processing music signals to generate control signals having
+music and/or control information; and
+(b) operating the virtual reality computer system in response to
+the control signals to generate said virtual environment.
+
+8
+
+IPR2014-00635
+Patent 5,513,129
+22. A computer system, including:
+means for prerecording a control track having audio and/or
+control information corresponding to an audio signal; and
+a processor which receives the control track and which is
+programmed with software for operating the computer
+system in response to said control track.
+II.
+A.
+
+ANALYSIS
+
+Claim Construction
+
+The ’129 patent expired on July 14, 2013. “[T]he Board’s review of
+the claims of an expired patent is similar to that of a district court’s review.”
+In re Rambus, Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). Because the expired
+claims of the patent are not subject to amendment, we apply the principle set
+forth in Phillips v. AWH Corp., 415 F.3d 1303, 1312 (Fed. Cir. 2005)
+(en banc) (quoting Vitronics Corp. v. Conceptronic, Inc., 90 F.3d 1576, 1582
+(Fed. Cir. 1996)), that “words of a claim ‘are generally given their ordinary
+and customary meaning’” as understood by a person of ordinary skill in the
+art in question at the time of the invention. “In determining the meaning of
+the disputed claim limitation, we look principally to the intrinsic evidence of
+record, examining the claim language itself, the written description, and the
+prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic
+Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips,
+415 F.3d at 131217).
+We expressly construe below only those claim terms that require
+analysis to resolve arguments related to the patentability of the challenged
+claims. See Vivid Techs., Inc. v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803
+(Fed. Cir. 1999) (holding that “only those [claim] terms need to be construed
+that are in controversy, and only to the extent necessary to resolve the
+
+9
+
+IPR2014-00635
+Patent 5,513,129
+controversy”). All other terms will be accorded their ordinary and
+customary meaning as would be understood by one of ordinary skill at the
+time of the invention.
+1.
+
+“virtual environment” (claims 1, 5–9, and 12–21)
+
+Petitioner asserts that the term “virtual environment” should be
+construed to mean “a computer-simulated environment which includes a
+graphic display, and optionally also sounds which simulate environmental
+sounds.” Pet. 4. Petitioner alleges that “parenthetical statements of ‘intent’”
+appearing in the description of the term “virtual environment,” such as
+“intended to be immersive” and “from a user’s first person perspective” ,
+should not be accounted for in the claim construction analysis. Id. To the
+extent the parentheticals are incorporated in the construction, Petitioner
+argues that the construction should encompass the exemplary virtual
+environments described in the Specification, such as virtual hands clapping,
+dancing characters, and lyrics. Id. at 4–5.
+In the Decision on Institution, we included these so-called
+“parenthetical statements of intent” into our construction, because the ’129
+patent expressly defined “virtual environment” to include those statements.
+Dec. on Inst. 8. Petitioner fails to persuaded us to modify that construction;
+thus, as in the Decision on Institution, we adopt the Specification’s express
+definition of “virtual environment,” which is “a computer-simulated
+environment (intended to be immersive) which includes a graphic display
+(from a user’s first person perspective, in a form intended to be immersive to
+the user), and optionally also sounds which simulate environmental sounds.”
+Id. (quoting Ex. 1001, 1:22–33).
+
+10
+
+IPR2014-00635
+Patent 5,513,129
+However, we agree with Petitioner that the term should be construed
+to encompass the specific embodiments that the ’129 patent describes. As
+the Federal Circuit has noted, “the specification is always highly relevant to
+the claim construction analysis,” and, in fact, “is the single best guide to the
+meaning of a disputed term.” Phillips, 415 F.3d at 1315 (internal citation
+and quotation marks omitted). Here, given that the Specification does not
+elucidate what it means by “intended to be immersive to the user,” and given
+that the phrase is subjective, we find the specific embodiments discussed in
+the Specification to be particularly informative.
+As part of “the preferred VR program,” Figure 11 depicts a group of
+simple cylindrical objects that appear to change height in response to the
+sound of drums. Ex. 1001, 18:16–33. Also in the “preferred VR program
+embodiment,” words representing the lyrics of a song are displayed as the
+words are vocalized. Id. at 18:49–53. Further, as Petitioner notes, the
+Specification teaches that the graphic display generated by a VR system can
+be either two-dimensional or three-dimensional, and can be displayed on a
+single flat screen display that need not be stereoscopic. Pet. 4 (citing Ex.
+1001, 1:34–35, 8:7–13).7 Given that a claim construction that excludes a
+preferred embodiment is “rarely, if ever, correct,” Vitronics, 90 F.3d at 1583,
+it is appropriate to construe “virtual environment” broadly enough to
+encompass these displays.
+
+7
+
+The Specification also discloses embodiments of the “VR system” that
+perform operations such as: using a rhythm signal extracted from music “to
+control the rhythm of a virtual dancer,” “displaying virtual hands clapping in
+time to the beat of the music,” or a virtual “stick figure dancing in time” to
+the music. Id. at 5:1–10, 11:36–41, 58–62, 12:18–24.
+
+11
+
+IPR2014-00635
+Patent 5,513,129
+2.
+
+Means-Plus-Function Claim Terms
+
+Several terms relevant to this decision are means-plus-function claim
+terms. “An element in a claim for a combination may be expressed as a
+means . . . for performing a specified function without the recital of
+structure, material, or acts in support thereof, and such claim shall be
+construed to cover the corresponding structure, material, or acts described in
+the specification and equivalents thereof.” 35 U.S.C. § 112 ¶ 6.8 We
+construe such a limitation by first determining the claimed function and,
+second, identifying the structure or materials disclosed in the Specification
+that correspond to the means for performing that function. See Kemco Sales,
+Inc. v. Control Papers Co., 208 F.3d 1352, 1360 (Fed. Cir. 2000). With
+respect to the second step, “structure disclosed in the specification is
+‘corresponding’ structure only if the specification or prosecution history
+clearly links or associates that structure to the function recited in the claim.”
+Golight, Inc. v. Wal-Mart Stores, Inc., 355 F.3d 1327, 1334 (Fed. Cir. 2004)
+(citations and quotation marks omitted). Structural features that do not
+actually perform the recited function do not constitute corresponding
+structure and thus do not serve as claim limitations. Asyst Techs, Inc. v.
+Empak, Inc., 268 F.3d 1364, 1369–70 (Fed. Cir. 2001) (citations omitted).
+
+8
+
+Section 4(c) of the Leahy-Smith America Invents Act, Pub. L. No.
+11229, 125 Stat. 284 (2011) (“AIA”) re-designated 35 U.S.C. § 112 ¶ 6, as
+35 U.S.C. § 112(f). Because the ’129 patent has a filing date prior to
+September 16, 2012, the effective date of § 4(c) of the AIA, we refer to the
+pre-AIA version of 35 U.S.C. § 112.
+
+12
+
+IPR2014-00635
+Patent 5,513,129
+a.
+
+“means for supplying a first signal selected from a
+group consisting of a control signal having music
+and/or control information generated in response to
+a music signal, a prerecorded control track having
+music and/or control information corresponding to
+the music signal, and a control signal having music
+and/or control information generated in response to
+the prerecorded control track” (claim 12)
+
+The recited function is “supplying a first signal selected from a group
+consisting of [1] a control signal having music and/or control information
+generated in response to a music signal, [2] a prerecorded control track
+having music and/or control information corresponding to the music signal,
+and [3] a control signal having music and/or control information generated
+in response to the prerecorded control track.” We agree with the Petitioner
+that the function is written as a Markush group, meaning that the three
+options are presented in alternative form. See Fresenius USA, Inc. v. Baxter
+Int'l, Inc., 582 F.3d 1288, 1298 (Fed. Cir. 2009) (holding that an element
+written in Markush form is disclosed by the prior art if one alternative in the
+Markush group is in the prior art).9 However, Petitioner does not contend
+that any of the asserted prior-art references or combinations of references
+discloses the third option. Therefore, our analysis focuses on the first two
+options.
+
+9
+
+In the ’155 IPR Final Written Decision, we construed terms using “and/or”
+to require alternatives as well, e.g., the term “a control signal having music
+and/or control information” reads on a control signal having music, or a
+control signal having control information, or a control signal having both
+music and control information. ’155 IPR, Paper 26, 10. Neither party
+disputes this particular construction, and we apply it for purposes of this
+Final Written Decision.
+
+13
+
+IPR2014-00635
+Patent 5,513,129
+Petitioner contends that the required structure may be only an audio
+source, such as a tape player or CD player, presumably based on the
+reasoning that the “first signal” may be “a control signal having . . . music.”
+Pet. 6. Alternatively, according to Petitioner, if the first signal is “a control
+signal having control information generated in response to a music signal,”
+the required structure is a processor “programmed with software for
+implementing algorithms such as ‘those related to simple filtering and
+analysis [] of the same type used by well known graphic equalizers’ to
+process a music signal to produce control information and pass it on to a VR
+computer.” Id. (citing Ex. 1001, 5:1–7, 11:28–39, 4:29–33, Fig. 4).
+Petitioner further contends that if, instead, the first signal is “‘a prerecorded
+control track having control information corresponding to the music signal,’
+the processor is programmed with software to ‘implement the extraction of
+the control information from a control track.’” Id. at 7 (quoting Ex. 1001,
+11:1–4; citing Id. at 8:55–57, Figs. 1, 2, 4).
+Patent Owner, on the other hand, contends that the structure necessary
+to perform the claimed function includes:
+[A] media player having signal outputs, a sound processor
+connected to one or more of the media player outputs, an audio
+amplifier connected to the sound processor, one or more tape IF
+converters connected to one or more of the media player
+outputs, an audio source such as a microphone, a multichannel
+audio digital [sic, digitizer] with serial output connected to one
+or more outputs of the media player and to an audio source, a
+microprocessor having inputs connected to the tape IF
+converters and programmed to generate control signals.
+PO Resp. at 11–12. In other words, according to Patent Owner, the required
+structure includes all of the components depicted in Figure 6 that are
+“connected to the inputs of the VR system 250 and the VR display 260.”
+
+14
+
+IPR2014-00635
+Patent 5,513,129
+PO Resp. 12. Patent Owner asserts that Petitioner’s recitation of
+corresponding structure is incorrect because it omits components that are
+necessary to perform the recited function. PO Resp. 13–14.
+In its Reply, Petitioner contends that Patent Owner’s “proposed
+structure includes numerous elements that are not necessary to perform any
+of the recited functions,” such as (using the numerical identifiers in Figure 6)
+multichannel audio digitizer 245, sound processor 205, microphone 248, and
+audio amplifier 210. Pet. Reply 2–3 (citing Ex. 1001, 10:51–65, 17:13–22,
+19:15–22; Ex. 1013 ¶ 19). Petitioner also asserts that the ’129 patent
+contemplates a digital “alternative embodiment” that would render other
+components, such as tape IF converters, unnecessary. Id. at 3. (citing Ex.
+1001, 20:32–34; Ex. 1013 ¶ 20).10
+Having reviewed the ’129 patent, we determine that the Specification
+clearly associates the following structure with the first two recited functions:
+(1) a source of music and/or a control track, such as a four-track audio tape,
+video-game cartridge or compact disk (CD); and (2) a processor
+programmed to generate control signals from the input music and/or control
+track and send the control signals to the VR processor. For example, in
+discussing Figure 1, the Specification states:
+10
+
+The parties make essentially the same arguments with respect to two other
+means-plus-function limitations: “means for receiving said music signal in
+digital or analog form, and processing said music signal to produce control
+information for modification of objects in the virtual environment” (claim
+13); and “means for supplying the music signal to the means for producing
+the virtual environment” (claim 18). See PO Resp. 15–16, 21–22; Pet. Reply
+5–8. The analysis that follows applies equally to these limitations, and we
+determine that the structure that corresponds to the “supplying” function of
+claim 12 also corresponds to the functions recited in these limitations.
+
+15
+
+IPR2014-00635
+Patent 5,513,129
+An analog-to-digital conversion circuit within Acoustic Etch
+unit 3 receives and digitizes a music signal from source 1. The
+music signal is optionally accompanied by one or more
+prerecorded control tracks corresponding to the music signal. .
+. . Analyzer 5[11] within Acoustic Etch unit 3 receives the
+digitized output of [music source 1 via analog-to-digital
+converter 4], and generates control signals by processing the
+music signal (or both the music signal and the control tracks).
+The control signals output from analyzer 5 are supplied through
+interface 6 to VR processor 7 for use within processor 7 for
+controlling generation of the virtual environment.
+Ex. 1001, 8:33–44 (emphasis added); see also id. at 11:21–24 (“[i]n
+operation, the [Acoustic Edge device used in the Figure 1 system] takes in
+music and processor 5 [within the Acoustic Edge] processes it to produce
+control information [that is] passed on to the VR computer”). Likewise,
+referring to Figure 6, the Specification states that
+Microprocesor unit 240 is programmed with software for
+generating control signals for VR graphics system 250 in
+response to one or both of data streams 221Y and 221X, and
+outputs a serial data stream indicative of such control signals to
+virtual reality (VR) graphics system 250. . . . Microprocessor
+unit 240 . . . combines both control signals 221Y and 221X and
+converts this digital data into a serial data stream suitable for
+processing by the VR system, for example in the format of a
+RS232 or MIDI data stream.
+Id. at 14:2–7, 16:62–65.
+The Specification contemplates several possible sources for the music
+or control track, such as a four-track audio tape, video game cartridge, CD,
+Digital Audio Tape (DAT), or live performance. Ex. 1001, 4:41–44, 8:62–
+
+11
+
+The Specification uses “analyzer” and “processor” interchangeably. Ex.
+1001, 11:28–30.
+
+16
+
+IPR2014-00635
+Patent 5,513,129
+65, 17:7–22, 20:10–13, Figs. 1, 2, 5, 6. The Specification also contemplates
+that the processor that receives the music signal and/or control tracks and
+generates control signals therefrom may be separate from the VR processor,
+or may be “embodied in the VR processor.” Id. at 8:44–51, Figs. 1, 6.
+The Specification discusses additional components that may be used
+in some configurations, but not in others. For example, depending on the
+specific music or control-track source—e.g., tape player, CD, video-game
+cartridge, or live performance—components such as sound processors,
+amplifiers, analog-to-digital converters, Tape IF converters, and
+microphones may be used. Id. at 9:56–10:2, 10:51–65, 11:11–17, 16:56–61,
+17:7–22, 19:15–22, Figs. 4, 6, 9. We do not consider these optional
+components to be corresponding structure in all cases, because they are not
+necessary for every implementation of the invention. See Wenger Mfg., Inc.
+v. Coating Mach. Sys., Inc., 239 F.3d 1225, 1233 (Fed. Cir. 2001) (holding
+that it is improper to “import . . . structural limitations from the written
+description that are unnecessary to perform the claimed function”) (internal
+citation omitted).
+b.
+
+“means for receiving the first signal and
+influencing action within a virtual environment in
+response to said first signal” (claim 12)
+
+The recited function is “receiving the first signal and influencing
+action within a virtual environment in response to said first signal.” Patent
+Owner contends that the corresponding structure is “a virtual reality system
+connected to the microprocessor and outputting video signals and a virtual
+reality display connected to the virtual reality system,” e.g., VR system 250
+and display unit 260 depicted in Figure 6. PO Resp. 14–15 (internal
+quotation marks omitted). Petitioner disagrees that a virtual reality display
+
+17
+
+IPR2014-00635
+Patent 5,513,129
+is necessary structure for performing the recited function. Pet. Reply 4–5.
+We agree with Petitioner. It is VR processor 7 (Figures 1 and 2) or VR
+system 250 (Figure 6) that receives the control information and generates the
+virtual environment. Ex. 1001, 8:38–44, 11:21–24, 14:2–7, 16:62–65.
+Accordingly, the structure necessary to perform the recited function is a
+processor suitably programmed to carry out the function.12
+c.
+
+“means for prerecording a control track having
+music and/or control information corresponding to
+a music signal” (claim 16); “means for
+prerecording a control track having audio and/or
+control information corresponding to an audio
+signal” (claim 22)
+
+The recited function for the limitation in claim 22 is “prerecording a
+control track having audio and/or control information corresponding to an
+audio signal.” As Patent Owner notes, the recited function for claim 16 “is
+the same except that the term ‘audio’ is replaced with ‘music,’ a particular
+type of audio.” PO Resp. 17. Patent Owner argues that the structure
+corresponding to these functions is that depicted in Figure 5, i.e.,
+[A] first media player unit, one or more input devices, one or
+more microprocessors programmed with software to generate a
+control track from audio data and other input data and
+connected to the input devices, one or more interface converters
+connected to the one or more microprocessors, a second media
+player unit, a synchronizer connected to the first and second
+media player units, and a media recorder connected to the one
+or more interface converters and the second media player unit.
+
+12
+
+The same analysis and result apply to the limitation in claim 16 requiring
+a “means for producing the virtual environment in response to said
+prerecorded control track.”
+
+18
+
+IPR2014-00635
+Patent 5,513,129
+PO Resp. 17. Petitioner responds that Figure 5 “encompasses multiple
+disclosed structural embodiments, any of which can perform these claimed
+functions,” and that not all of the components depicted in Figure 5 are
+necessary for each embodiment. Pet. Reply 6.
+As we noted in the Final Written Decision in the ’155 IPR (Paper 26,
+11), the Specification does not describe prerecording a control track having
+audio, but rather distinguishes prerecorded control tracks from prerecorded
+audio. See Ex. 1001, 4:41–45 (“The system includes means for interfacing
+between the computer software which controls production of the virtual
+world, and live or prerecorded music (and/or prerecorded control tracks).”);
+id. at 5:11–20 (“As an alternative (or in addition [to)] extracting signals from
+music itself . . . [,] one or more prerecorded control tracks corresponding to
+the music [can be supplied].”); id. at 9:61–63 (“Acoustic Etch unit 3´´ of
+FIG. 4 can receive digital prerecorded music and/or control track or analog
+prerecorded music and/or control track.”). Therefore, we focus on the
+function of prerecording a control track having control information
+corresponding to an audio (or music) signal.
+We determine that the structure identified in the Specification as
+necessary to perform the function of prerecording a control track having
+control information corresponding to an audio (or music) signal includes:
+(i) a first media player unit (e.g., four-track tape player, CD or DAT
+playback device), a microprocessor for generating a control track from the
+received data from the media player unit, and a media recorder (id. at 13:11–
+31, 20:10–13); or (ii) one or more input devices for inputting signals, a
+microprocessor for generating a control track from the received signals, and
+a media recorder (id. at 13:32–48, 20:10–13).
+
+19
+
+IPR2014-00635
+Patent 5,513,129
+We disagree with Patent Owner that interface converters, e.g., tape IF
+converters 140X, 140Y, are always necessary for this function. The
+Specification indicates that “[t]he recording medium for the inventive
+prerecorded control tracks does not need to be a four-track audio tape” and
+that“ [CD] and Digital Audio Tape (DAT) formats already offer control
+track capabilities.” Ex. 1001, 20:10–14. We also disagree with Patent
+Owner that a second media player unit, e.g., element 170, and synchronizer,
+e.g., element 190, are necessary, because these particular structures relate to
+the audio component, as opposed to the control track component. Ex. 1001,
+13:50–59, Fig. 5.
+d.
+
+“means for supplying the audio signal to the
+processor” (claim 23)
+
+The recited function is “supplying the audio signal to the processor.”
+Patent Owner argues that the corresponding structure comprises “an analyzer
+[5] connected to an audio source [1] and an interface [6] connected to the
+analyzer [5] and to a processor [7].” PO Resp. 22–23 (citing Ex. 1001,
+8:38–40, 4345, 9:4–6, Fig. 2; Ex. 2006 ¶ 19). Petitioner counters that
+Patent Owner is attempting to import unnecessary structure, and that the
+only required structure is a music source and general purpose computer. Pet.
+Reply 8.
+In light of the Specification’s disclosure of an embodiment in which
+the music signal goes directly to the processor (Ex. 1001, 8:45–47), we
+disagree with Patent Owner that the analyzer and interface of Figure 2 are
+always necessary to perform the claimed function of supplying the audio
+signal to the processor. We determine, instead, that the structure disclosed
+in the Specification necessary to perform the claimed function of supplying
+
+20
+
+IPR2014-00635
+Patent 5,513,129
+the audio signal to the processor includes: (i) four-track tape and four-track
+tape playing unit and a multichannel audio digitizer, (ii) a live microphone
+and a multichannel audio digitizer, or (iii) a CD or DAT playback device.
+B.
+
+Claims 10 and 11—Anticipation by Tsumura
+
+Petitioner contends that Tsumura anticipates claims 10 and 11.
+1.
+
+Tsumura
+
+Tsumura describes a vocal display device that displays both lyrics and
+“data useful for the enhancement of the singer’s presentation[,] such as the
+strength of the vocals and the pitch.” Ex. 1002, Abstr. The basic
+configuration includes memory means 110, vocal data reading means 120,
+current lyric position indicator 130, and image control means 140. Id. at
+Fig. 1. Memory means 110 stores music data for a large number of different
+pieces of music. Id. at 2:39–43. On receipt of output from vocal data
+reading means 120 and current lyric position indicator 130, image control
+means 140 “controls . . . visual display medium 150 in such a way that it
+displays the strength data extracted from the vocal data relating to a given
+block in advance of the corresponding music while at the same time
+displaying the lyric position within said block in time with the corresponding
+music.” Id. at 4:57–64. In one embodiment, the configuration further
+includes comparator 541 which can “compar[e] the strength levels of actual
+vocal renditions with strength data and display[] an appropriate instruction
+on screen in accordance with the results of said comparison,” such as “sing
+more quietly,” “as you are,” or “sing more loudly.” Id. at 11:38–60.
+Tsumura discloses a means for “extract[ing] the vocal data” from memory,
+and an “image generating means” that “synchronizes and compares stored
+pitch data with a detected frequency of the user’s vocal performance to
+
+21
+
+IPR2014-00635
+Patent 5,513,129
+generate “control messages displayed to the user,” such as “lower your
+pitch[],” “as you are,” or “raise your pitch.”
+2.
+
+Analysis
+
+Claim 10 recites a “method for controlling a computer system,”
+including the steps of “(a) prerecording a control track having audio and/or
+control information corresponding to an audio signal; and (b) operating the
+computer system in response to said prerecorded control track.” Petitioner
+contends that Tsumura describes storing “music data for a large number of
+different pieces of music,” each item of music data containing “vocal data,”
+including “stored pitch data,” relating to the vocal features of the music.
+Pet. 18–19 (citing Ex. 1002, 2:40–65, Figs. 2, 3). According to Petitioner,
+this disclosure corresponds to claim 10’s “prerecording” step. Id. at 20.
+Petitioner further contends that comparing the strength and pitch of actual
+vocal renditions with strength and pitch data in memory, and then generating
+control messages based on that comparison and displaying them to a user,
+corresponds to claim 10’s “operating” step. Id. at 20.
+Patent Owner disputes that Tsumura teaches the limitations of
+claim 10. Patent Owner quotes its declarant, Dr. Jay P. Kesan, as stating that
+“Tsumura does not disclose that the computer system is operated in response
+to a prerecorded control track having audio or control information; it instead
+merely discloses the display of the words of a song along with suggestions to
+a singer while playing the music.” PO Resp. 44–45 (quoting Declaration of
+Dr. Jay P. Kesan, Ex. 2002 ¶ 42). Petitioner responds that Tsumura
+“changes [the] display” in accordance with prerecorded music and vocal
+data, and in that sense operates the computer system in accordance with that
+data. Pet. Reply 11–12.
+
+22
+
+IPR2014-00635
+Patent 5,513,129
+There is no dispute that Tsumura’s teaching of storing music data,
+including “stored pitch data” and other vocal data relating to the vocal
+features of the music, corresponds to claim 10’s step of “prerecording a
+control track having audio and/or control information corresponding to an
+audio signal;” stored music data constitute the control track, and the vocal
+data, including the pitch and strength data, constitute the claimed control
+information that corresponds to an audio signal. Further, we agree with
+Petitioner that Tsumura teaches operating the computer system in
+accordance with this control track, in that, among other things, the computer
+system will display messages to a user that depend on a comparison of the
+stored data and the user’s vocal performance.
+We have considered Patent Owner’s contrary evidence and
+arguments, but do not find them persuasive. Neither Patent Owner nor Dr.
+Kesan explains why generating and displaying messages to a user based on
+the comparison of stored music data and the user’s actual voice does not
+constitute ”operating the computer system in response to said prerecorded
+control track,” as recited in claim 10. Given Dr. Kesan’s failure to support
+his position with any analysis, we accord that position little weight. See
+Velander v. Garner, 348 F.3d 1359, 1371 (Fed. Cir. 2003) (affirming the
+Board’s determination to give little weight to an expert’s “broad conclusory
+statements”).
+Claim 11 depends from claim 10 and additionally recites the steps of
+“(c) supplying the audio signal to the computer system; and (d) operating the
+computer system in response to both the audio signal and the prerecorded
+control track.” Petitioner asserts that Tsumura discloses supplying the music
+to a music reproduction means of the disclosed system, which corresponds
+
+23
+
+IPR2014-00635
+Patent 5,513,129
+to the “supplying step,” and discloses reproducing the music in
+synchronization with displayed lyrics and vocal instructions by using a delay
+circuit to compensate for system lag, which corresponds to the “operating”
+step. Pet. 20–21 (citing Ex. 1002, 3:22–24, 61–64, 8:24–50, 12:3–6, Fig.
+15). Patent Owner responds that Tsumura does not meet claim 11’s
+additional limitations because its system “merely plays the audio (i.e.,
+music).” PO Resp. 45 (citing Ex. 2002 ¶ 42). But Patent Owner does not
+address Petitioner’s contention that Tsumura does not merely play the music,
+but synchronizes the playback with the display of lyrics and vocal
+instructions to the user. We agree with Petitioner that this synchronized
+playback corresponds to the step of operating the computer system in
+response to the audio signal and the prerecorded control track.
+For the above reasons, we determine that Petitioner has shown by a
+preponderance of the evidence that Tsumura anticipates claims 10 and 11.
+C.
+
+Claims 5–7, 9–12, 16–18, 22, and 23—Anticipation by Lytle
+
+Petitioner contends that claims 5–7, 9–12, 16–18, 22, and 23 are
+anticipated by Lytle.
+1.
+
+Lytle
+
+Lytle describes a method and system—the “Computer
+Graphics/Electronic Music System” (CGEMS)—for “algorithmically
+controlling computer graphics animation from a musical score” to create
+video work “consisting entirely of visually simulated musical instruments
+synchronized to their synthesized soundtrack counterparts.” Ex. 1003, 644–
+45. CGEMS “perform[s] the music-to-graphics mapping operation[],
+receiv[es] a MIDI [musical instrument digital interface] file as input and
+produc[es] as output a series of parameter files which are passed to the
+
+24
+
+IPR2014-00635
+Patent 5,513,129
+graphics application” to animate musical instruments. Id. at 656. “A variety
+of different mapping modules can be built, each tailored to the
+characteristics of a specific instrument.” Id. The CGEMS “produce[s] an
+animation of a completely synthetic graphical concert entitled More Bells
+and Whistles.” Id. at 665. Figure 200 of Lytle is reproduced below.
+
+Figure 200 depicts an animation frame from More Bells and Whistles
+animated concert. Id. at 649, 672. The frame depicts an arrangement of
+musical instruments including a pipe organ, drums, and bells. Id. at Fig.
+200. Lytle’s generated environment comprises graphical instruments
+ranging from realistic to abstract or cartoon-like. Id. at 647, 666. Figure
+202, reproduced below, shows several different graphical depictions of the
+same three-note phrase:
+
+25
+
+IPR2014-00635
+Patent 5,513,129
+
+As shown in Figure 202, a musical phrase can be graphically represented by
+the movement of piano keys, a dancer, etc.
+2.
+
+Analysis
+a.
+
+Independent Claims 5 and 10
+
+Claim 5 recites a “method for controlling production of a virtual
+environment by a virtual reality computer system” including the steps of “(a)
+prerecording a control track having audio and/or control information
+corresponding to an audio signal; and (b) operating the virtual reality
+computer system in response to said prerecorded control track to generate
+
+26
+
+IPR2014-00635
+Patent 5,513,129
+said virtual environment.” Claim 10 contains similar “prerecording” and
+“operating” steps but is drawn more broadly to a method of controlling a
+computer system.
+With respect to independent claim 5, Petitioner alleges that Lytle
+discloses a method for controlling production of a virtual environment by a
+virtual reality computer system in that Lytle discloses “[a] method for
+algorithmically controlling computer graphics animation from a musical
+score.” Pet. 23 (citing Ex. 1003, 644). Petitioner alleges that Lytle discloses
+prerecording a control track having audio and/or control information
+corresponding to an audio signal in that Lytle discloses that “[s]equencers
+store encoded musical scores as MIDI data files, which contain timing
+information relating to each musical aspect.” Id. at 25 (citing Ex. 1003,
+646).
+Petitioner further alleges that Lytle discloses operating the virtual
+reality computer system in response to said prerecorded control track to
+generate said virtual environment because “Lytle discloses a workstation
+computer and supercomputer programmed with software for creating and
+controlling computer graphics animation in a computer-simulated
+environment by mapping musical MIDI data from the MIDI input file to 3D
+instrument objects.” Pet. 26. As Petitioner notes, Lytle discloses that the
+MIDI data file is transferred to a supercomputer, where “CGEMS reads the
+MIDI file, performs mapping operations, and produces graphics parameter
+files,” which are “directed to object generator programs that construct
+completed instrument objects.” Id. at 26 (citing Ex. 1003, 664); see also Ex.
+1003, 665–666, Figs. 199, 215, 216 (discussing implementation of
+percussion element animation). The completed instrument objects, “along
+
+27
+
+IPR2014-00635
+Patent 5,513,129
+with the remaining static objects, reflectance information, lighting, and other
+environment description data are passed to the image generator that
+produces the given frame.” Id. at 27 (citing Ex. 1003 at 664, 666–667).
+Petitioner asserts that “Lytle illustrates that the computer-simulated
+environment is rendered from a perspective similar to what a person’s avatar
+would see through their own eyes, if they were playing the animated
+instrument objects (i.e., first person perspective).” Id. at 24–25 (citing Ex.
+1003, cover, Figs. 215, 216). Petitioner makes similar allegations with
+respect to claim 10. Id. at 29–30.
+Patent Owner responds with several counter arguments. First, Patent
+Owner argues that Lytle does not disclose operating the virtual reality
+computer system in response to said prerecorded control track to generate
+said virtual environment. PO Resp. 31–34. Patent Owner asserts that “the
+claimed ‘virtual environment’ requires much more,” i.e., “the display of the
+environment from the user’s perspective such that the user feels that he or
+she is part of the environment.” Id. at 33. According to Patent Owner,
+“there is no indication in Lytle that the displayed video would change to
+match a corresponding change in a user’s perspective.” Id. Patent Owner
+argues that it is not enough that Lytle’s video be “inspirational” or
+“mesmeriz[ing]” to children, as even a book or a video can have such effects
+to some people. Id. at 34.
+In its Reply, Petitioner responds that Patent Owner’s “narrow
+interpretation of a ‘virtual environment’ is inconsistent with the ’129 patent
+specification,” noting, e.g., that the ’129 patent discloses that a virtual
+environment may be displayed on a non-stereoscopic, two-dimensional
+display, may consist only of cylinders that change height in response to a
+
+28
+
+IPR2014-00635
+Patent 5,513,129
+control track, or the display of song lyrics as the song is being sung. Pet.
+Reply 9.
+We agree with Petitioner that this argument is based on an overly
+narrow construction of “virtual environment.” The ‘’129 patent does not
+expressly define “virtual environment” to have the characteristic of changing
+a video display to match a corresponding change in a user’s perspective.
+Thus, Lytle’s alleged failure to teach this feature is not dispositive. Further,
+we construed “virtual environment” above to encompass the examples that
+Petitioner notes. Lytle discloses displays that are similar to, and at least as
+“immersive” as, these embodiments in the ’129 patent. For example, as with
+the ’129 patent, Lytle discloses moving an animated dancer in response to
+the beat of from a control track. For these reasons, we find that Lytle
+discloses “operating the virtual reality computer system in response to said
+prerecorded control track to generate said virtual environment,” as recited in
+claim 5.13
+Patent Owner next argues that Petitioner “improperly picked and
+chose different parts from different systems from Lytle” in arguing that
+Lytle anticipates claims 5 and 10. PO Resp. 36. According to Patent
+Owner, Petitioner combined parts from “i) a system that did not even exist
+(i.e., an imagined, ideal music graphics production environment) and ii) the
+system of FIG. 199 of Lytle.” Id. (citing Pet. 24). Relying on the testimony
+of its expert, Dr. Kesan, Patent Owner contends that “the two systems
+13
+
+Patent Owner also argues that Lytle does not disclose a “virtual reality
+computer system” because Lytle does not disclose producing a virtual
+environment. PO Resp. 35. Because, for the reasons stated above, we find
+that Lytle discloses producing a virtual environment, we also find that Lytle
+discloses a virtual reality computer system.
+
+29
+
+IPR2014-00635
+Patent 5,513,129
+referenced by the Petitioner are significantly different and incompatible,” in
+that in the “ideal environment,” the “music, mapping, and graphics
+applications would all run concurrently on a single machine, allowing
+simultaneous editing of musical, graphical, and mapping parameters,”
+whereas the system depicted in Figure 199 “separately records audio and
+video on two separate tapes, and then combines the audio and video from the
+two separate tapes onto a third tape.” Id. at 36–37 (citing Ex. 2002 ¶ 57; Ex.
+1003, 655–656) (internal quotation marks omitted).
+Petitioner disagrees with this characterization of its anticipation
+argument based on Lytle. Petitioner asserts that it “never suggested merging
+components from two systems,” but rather “rel[ies] on the system of Fig.
+199 in Lytle.” Pet. Reply 9. According to Petitioner, “since claim 5 ‘does
+not require that a single machine handle music input and graphic
+applications,’ whether or not the Fig. 199 system in Lytle can be performed
+on a single machine is irrelevant.” Id. at 10.
+We agree with Petitioner. We have reviewed Petitioner’s analysis
+supporting its contention that Lytle anticipates claims 5 and 10, and are
+persuaded that Petitioner relies on the actual system depicted in Figure
+199—which utilizes a workstation to design and preview instrument element
+motion and a supercomputer to render the animation segments—rather than
+any idealized system in which the music, mapping, and graphics applications
+would run concurrently on a single machine. In other words, Petitioner
+relies on the system depicted in Figure 199 as performing both steps recited
+in claims 5 and 10. Pet. 23–30. For example, in asserting that Lytle teaches
+the prerecording step in claim 5, Petitioner refers to Lytle’s teaching of using
+a computer to produce a MIDI file, and then transferring the MIDI data file
+
+30
+
+IPR2014-00635
+Patent 5,513,129
+to a supercomputer to render the animation in accordance with the MIDI
+data file. Pet. 25–26. This is consistent with the workflow depicted in
+Figure 199. Likewise, in discussion of the operating step in claim 5,
+Petitioner discusses using a separate workstation computer and
+supercomputer, as depicted in Figure 199. Id. at 26–27 (citing, e.g., Fig.
+199).
+Having considered the record before us, as well as the parties
+arguments , we determine that Petitioner has shown by a preponderance of
+the evidence that Lytle anticipates claims 5 and 10.
+b.
+
+Dependent claims 6, 7, 9, and 11
+
+Petitioner alleges that Lytle anticipates claims 6, 7, and 9, which
+depend from claim 5, and claim 11, which depends from claim 10. Pet. 27–
+30. Patent Owner does not raise separate arguments in support of the
+patentability of these claims. We have reviewed the record and find that
+Petitioner has shown by a preponderance of the evidence that Lytle
+anticipates claims 6, 7, 9, and 11.
+c.
+
+Independent claim 12
+
+Independent claim 12 is drawn to a “virtual reality computer system,”
+including “means for supplying a first signal selected from a group
+consisting of a control signal having music and/or control information
+generated in response to a music signal, a prerecorded control track having
+music and/or control information corresponding to the music signal, and a
+control signal having music and/or control information generated in response
+to the prerecorded control track”; and “means for receiving the first signal
+and influencing action within a virtual environment in response to said first
+signal.” Petitioner asserts that Lytle anticipates claim 12. Pet. 30.
+
+31
+
+IPR2014-00635
+Patent 5,513,129
+According to Petitioner, Lytle discloses a means for supplying a “first
+signal” in the form of a prerecorded control track having music and/or
+control information corresponding to the music signal, in that Lytle
+describes using a personal computer programmed with music sequencing
+software to supply a MIDI file to a supercomputer. Id. at 25–26, 30 (citing
+Ex. 1003, 644, 646, 648–650, Fig. 199). Petitioner further asserts that Lytle
+discloses a means for receiving this first signal and influencing action within
+a virtual environment in response to it, in that Lytle describes a
+supercomputer programmed to read the MIDI file and create, move, and
+modify the 3D virtual instrument objects in the virtual environment in
+response to the MIDI file. Id. at 26–27, 30.
+Patent Owner argues that Lytle does not anticipate claim 12 for many
+of the same reasons as addressed for claims 5 and 10 above, i.e., Lytle’s
+alleged failure to disclose a virtual environment, and Petitioner’s alleged
+reliance on a combination of incompatible Lytle embodiments to support its
+anticipation case. As with claims 5 and 10, we are equally unpersuaded by
+Patent Owner’s arguments with respect to claim 12.
+In addition, Patent Owner disputes that Lytle discloses structure
+corresponding to the means for supplying a first signal, because Lytle does
+not disclose “a sound processor connected to a media player, an audio
+amplifier connected to the sound processor, a tape IF converter, an audio
+source, a multichannel audio digitizer with serial output connected to a
+media player and the audio source, or a microprocessor having inputs
+connected to the tape IF converters and programmed to generate control
+signals.” PO Resp. 27. Petitioner responds that this position is based on
+
+32
+
+IPR2014-00635
+Patent 5,513,129
+Patent Owner’s “faulty means plus function claim construction analysis.”
+Pet. Reply 8.
+We agree with Petitioner’s arguments. As discussed above in
+construing this limitation, we determined that the components that Patent
+Owner alleges are missing from Lytle are not, in fact, structure that
+corresponds to the “supplying” function, because they are not needed in
+every implementation of the invention. Moreover, we agree with Petitioner
+that Lytle describes the required structure, e.g., a media player or source and
+a processor programmed with music sequencing software. 14
+Having considered the record before us, we determine that Petitioner
+has shown by a preponderance of the evidence that Lytle anticipates claim
+12, as well as its dependent claims 13–15.
+d.
+
+Independent Claims 16 and 22
+
+Independent claim 16 is drawn to a “virtual reality computer system”
+comprising “means for prerecording a control track having music and/or
+control information corresponding to a music signal,” and “means for
+producing the virtual environment in response to said prerecorded control
+track.” Claim 22 contains a similar “prerecording” limitation, and a
+“processor which receives the control track and which is programmed with
+software for operating the computer system in response to said control
+track.”
+14
+
+Patent Owner raises essentially the same argument with respect to its
+assertion that Lytle does not disclose the “means for supplying the music
+signal to the means for producing the virtual environment” limitation of
+claim 18, and the “means for supplying the audio signal to the processor”
+limitation of claim 23. PO Resp. 30–31. For the reasons set forth above, we
+reject these arguments as well.
+
+33
+
+IPR2014-00635
+Patent 5,513,129
+Petitioner alleges that Lytle anticipates these claims. Concerning the
+“prerecording” limitations of claims 16 and 22, Petitioner asserts that (1)
+Lytle discloses a computer running music sequencing software that produces
+a MIDI file that is transferable to a supercomputer, and (2) the disclosed
+structure is the personal computer programmed with music sequencing
+software and associated synthesizers. Pet. 30 (citing Ex. 1003, 644, 646,
+648–650, Fig. 199). Petitioner also asserts that Lytle discloses the claimed
+means for producing the virtual environment in response to the prerecorded
+control track, as set forth in its analysis with respect to claim 5. Id. at 30–31.
+Finally, Petitioner contends that Lytle teaches the processor of claim 22, i.e.,
+the supercomputer that receives the MIDI input file and is programmed with
+software to control computer graphics animation in a computer-simulated
+environment using mappings of MIDI data to instrument objects. Id. at 32.
+Patent Owner argues that Lytle does not anticipate claim 16 for many
+of the same reasons as addressed for claims 5 and 10 above. As with claims
+5 and 10, we are equally unpersuaded by Patent Owner’s arguments with
+respect to claim 16.
+Further, Patent Owner argues that Lytle does not disclose structure
+corresponding to the “prerecording” functions of claims 16 and 22.
+According to Patent Owner, Lytle does not disclose “a sound processor
+connected to an output of a media player, an audio amplifier connected to
+the sound processor, one or more tape IF converters connected to an output
+of the media player, a multichannel audio digitizer with serial output
+connected to an output of the media player, a microprocessor having inputs
+connected to the tape IF converters.” PO Resp. 29 (quoting Ex. 2002 ¶ 46).
+
+34
+
+IPR2014-00635
+Patent 5,513,129
+Petitioner responds that this position is based on Patent Owner’s
+“faulty means plus function claim construction analysis.” Pet. Reply 8. We
+agree with Petitioner. In construing these limitations, we determined that the
+components that Patent Owner alleges Lytle does not disclose are not, in
+fact, structure that corresponds to the “prerecording” functions, because they
+are not necessary for every implementation of the invention. Moreover, we
+agree with Petitioner that Lytle discloses the required structure. Pet. 30–32.
+Therefore, we find Patent Owner’s argument unpersuasive.
+Finally, Patent Owner argues that Lytle does not disclose structure
+corresponding to the function recited in the “means for producing a virtual
+environment in response to the prerecorded control track” limitation of claim
+16. PO Resp. 28–29. Relying on Dr. Kesan’s testimony, Patent Owner
+asserts that Lytle fails to disclose “a sound processor connected to an output
+of a media player, an audio amplifier connected to the sound processor, one
+or more tape IF converters connected to an output of the media player, a
+multichannel audio digitizer with serial output connected to an output of the
+media player, a microprocessor having inputes connected to the tape IF
+converters.” Id. at 29 (quoting Ex. 2002 ¶ 46). We disagree. As an initial
+matter, Patent Owner did not argue that the corresponding structure included
+all of these allegedly missing components. In any event, we agree with
+Petitioner that Lytle does disclose corresponding structure, i.e., a
+supercomputer programmed to read the MIDI files and create, move, and
+modify the virtual musical instruments accordingly.
+Accordingly, having considered the record before us, we determine
+that Petitioner has shown by a preponderance of the evidence that Lytle
+
+35
+
+IPR2014-00635
+Patent 5,513,129
+anticipates claims 16 and 22, as well as claims 17 and 18, which depend
+from claim 16, and claim 23, which depends from claim 22.
+D.
+
+Claims 1, 12, 13, 15, and 21—Anticipation by Adachi
+
+Petitioner contends that claims 1, 12, 13, 15, and 21 are anticipated by
+Adachi. Pet. 33–37.
+1.
+
+Adachi
+
+Adachi discloses a “tone visualizing apparatus for visualizing an
+inputted audio signal to thereby display an image corresponding to this audio
+signal.” Ex. 1004, Abstr. Envelope detecting circuit 5 detects audio signal
+characteristics, and “display control circuit 9 displays an image including a
+predetermined object and its background on the display screen of . . . display
+unit 11.” Id. at 5:8–9, 35–37. Display control circuit 9 can “magnify or
+reduce the scale of displayed background image in response to the amplitude
+of envelope indicated by the envelope information . . . so that mutual
+relation between the object and background will be changed and therefore
+sense of distance of the object will be controlled.” Id. at 5:45–51. In an
+example involving display of a singer singing a song in front of a band, “it is
+possible to express the sense of distance of the singer from audience side by
+moving position of the singer to the center position or backward position.”
+Id. at 5:59–64.
+2.
+
+Analysis
+
+With respect to independent claim 1, Petitioner alleges that Adachi
+discloses a method for controlling production of a virtual environment by a
+virtual reality computer system, in that Adachi discloses a tone visualizing
+apparatus that adjusts the sense of distance of an object three-dimensionally.
+Pet. 33–34 (citing Ex. 1004, Abstr., 1:60–2:11, 5:22–64, 16:33–36).
+
+36
+
+IPR2014-00635
+Patent 5,513,129
+Petitioner further alleges that Adachi discloses processing music signals to
+generate control signals having music and/or control information, in that
+Adachi discloses envelope detecting circuit 5 receiving an audio signal and
+the audio signal being “effected by AM detection and integration so that an
+envelope signal corresponding to scale (i.e., level or amplitude) of this
+inputted audio signal is generated.” Id. at 35 (citing Ex. 1004, 5:6–30)
+(emphasis omitted). Petitioner also alleges that Adachi discloses operating
+the virtual reality computer system in response to the control signals to
+generate the virtual environment, in that Adachi discloses generating a threedimensional environmental in which the perceived distance between an
+object and its background image can be controlled. Id. (citing Ex. 1004,
+5:2–64, 16:15–36).
+With respect to claim 12, Petitioner alleges that Adachi discloses the
+function of supplying a “first signal” that is a “control signal having music
+and/or control information generated in response to a music signal,” as well
+as the required structure to perform that function. That is, according to
+Petitioner, Adachi uses an “audio input” and “envelope detecting circuit” or
+“Fast Fourier Transform circuit” (the required structure) for processing a
+musical tone signal to detect musical parameters such as level/amplitude,
+tone color, tone volume, and/or frequency (by detecting spectrum signal
+components) (i.e., control information) and pass the musical parameters on
+to a CPU. Pet. 35–36 (citing Ex. 1004, 5:6–30, 5:65–6:2, 8:63–9:5, Figs. 1,
+5). Petitioner further asserts that Adachi discloses means for receiving the
+first signal and influencing action within a virtual environment in response
+to it, in that Adachi discloses a CPU and display control unit programmed to
+use detected musical parameters (i.e., a control signal) to select objects for
+
+37
+
+IPR2014-00635
+Patent 5,513,129
+display on a three-dimensional image display unit such as a stereoscopic
+television, and to control the perceived distance between an object and its
+background image in a three-dimensional computer-simulated environment.
+Id. at 36 (citing Ex. 1004, 5:2–6:64, 16:15–36, Fig. 1).
+With respect to claim 21, Petitioner contends that Adachi discloses a
+source of a music signal, i.e., an “audio input” that produces a musical tone
+analog signal. Id. at 37 (citing Ex. 1004, 5:5–12, 5:22–30, Fig. 1).
+According to Petitioner, “Adachi discloses the source of a musical signal as,
+for example, an electric musical instrument (e.g., keyboard) or a non-electric
+musical instrument (e.g., violin, guitar, piano, etc.).” Id. (citing 6:26–32,
+10:21–22, 12:25–26, Figs. 2, 3, 10). Petitioner also contends that Adachi
+teaches an apparatus for extracting information from the music signal for
+modification of objects in a virtual environment, relying on essentially the
+same disclosure as for the required structure of the “supplying” means-plusfunction limitation of claim 12. Id. (citing Ex. 1004, Abst., 5:6–30, 5:65–
+6:2, 8:63–9:5).
+Patent Owner responds that Adachi does not disclose the “means for
+supplying” limitation of claim 12. According to Patent Owner, Adachi does
+not disclose a number of components that are part of the corresponding
+structure or equivalents thereof for the recited function. Petitioner responds
+that Patent Owner’s argument is based on a flawed construction of claim
+12’s “supplying” limitation. Pet. Reply 10. We agree, for the reasons set
+forth above in our construction of this limitation and in the discussion of
+Lytle’s anticipation of claim 12. Further, we agree with Petitioner that
+Adachi discloses corresponding structure, i.e., “audio input” and “envelope
+
+38
+
+IPR2014-00635
+Patent 5,513,129
+detecting circuit” or “Fast Fourier Transform circuit.” Pet. 35–36 (citing Ex.
+1004, 5:6–30, 5:65–6:2).
+Patent Owner further argues that Adachi does not disclose generating
+a virtual environment or operating a virtual reality computer system as
+recited in claims 1, 12, and 21. PO Resp. 40–43. Patent Owner initially
+notes that in the Decision on Institution, we determined that Adachi
+discloses a virtual environment because “[i]n an example involving display
+of a singer singing a song in front of a band, ‘it is possible to express the
+sense of distance of the singer from audience side by moving position of the
+singer to the center position or backward position.” Id. at 41 (quoting Dec.
+on Inst. 16). But, according to Patent Owner, the claimed “virtual
+environment’ requires the display to change with a change in the perspective
+of the user in particular (e.g., user’s position, user’s viewing angle), not a
+change in the perspective of just anything.” Id. In Patent Owner’s view,
+“[t]here is no disclosure in Adachi of a change in the display based on a
+change in the position of a user in the audience,” e.g., “there is no disclosure
+in Adachi of a singer appearing larger in a display in response to a user in
+the audience moving toward the singer.” Id. at 42. But, as discussed above,
+a “virtual environment,” as properly construed in light of the Specification,
+does not require such a change in perspective. The absence of any such
+teaching in Adachi is, therefore, of no moment. Moreover, we maintain our
+conclusion that the disclosure of moving the position of singer toward or
+away from the audience based on the music volume falls within the meaning
+of the claimed “virtual environment.”
+
+39
+
+IPR2014-00635
+Patent 5,513,129
+Having considered the record before us, we determine that Petitioner
+has shown by a preponderance of the evidence that claims 1, 12, 13, 15, and
+21 are anticipated by Adachi.
+E.
+
+Claims 1, 8, 12, 13, 15, and 21—Obviousness over Lytle and
+Adachi
+
+We find that independent claims 1, 12, and 21 and dependent claims
+8, 13, and 15 would have been obvious over Lytle and Adachi. Pet. 46–50.
+Petitioner relies on Lytle’s disclosure of utilizing MIDI data to animate
+virtual objects and its recognition that musical encoding schemes other than
+MIDI can be utilized (Pet. 46 (citing Ex. 1003, 646, 649–651, 667)), and
+Adachi’s disclosure of detecting musical parameters using a circuit and
+processing music signals to generate a digital signal supplied to a computer
+(id. (citing Ex. 1004, 5:6–30, 5:65–6:2, 8:63–9:5, Figs. 1, 5)). Petitioner
+further states that “a skilled artisan would have recognized that modifying
+Lytle to process a music signal to generate a control signal that is transmitted
+to a computer system as described by Adachi would be beneficial,” would
+not affect operation, and would have yielded predictable results. Pet. 46–47
+(citing Ex. 1007 ¶¶ 56, 57); see Ex. 1007 ¶ 57 (“Lytle recognized that a
+direct music signal could be used to drive the animations in his system,
+but . . . did not expressly describe[] such a technique. . . . [T]he combination
+of Lytle and Adachi is nothing more than providing the step of processing a
+direct music signal and using that data to operate the virtual environment of
+Lytle.”).
+In response, Patent Owner first argues that the combination of Lytle
+and Adachi does not teach or suggest a “method of controlling production of
+a virtual environment,” or “generat[ing] said virtual environment,” as
+
+40
+
+IPR2014-00635
+Patent 5,513,129
+required by independent claims 1 and 5; does not teach or suggest
+“influencing action within a virtual environment” as recited in independent
+claim 12; and does not teach or suggest “modification of objects in a virtual
+environment,” as recited in independent claim 21. Id. at 47–48. Patent
+Owner bases this argument on the same construction of “virtual
+environment” that we rejected above. Accordingly, we find this argument
+unpersuasive. 15 We also find unpersuasive Patent Owner’s argument that
+the combination of Lytle and Adachi does not teach the “supplying”
+limitation of claim 12, for the reasons set forth above in discussing the same
+argument made with respect to each of the references individually.
+Having reviewed the parties’ contentions and the evidence of record,
+we agree with Petitioner that the combination teaches all of the limitations of
+claims 1, 8, 12, 13, 15, and 21, and that a person of ordinary skill in the art
+would have been motivated to combine Lytle with the Adachi’s method of
+processing music signals. Accordingly, we determine that Petitioner has
+shown by a preponderance of the evidence that that claims 1, 8, 12, 13, 15,
+and 16 would have been obvious over the combination of Lytle and Adachi.
+F.
+
+Claims 1–4, 12, 13, 15, and 21—Obviousness over Thalmann
+and Williams
+
+Petitioner contends that claims 1–4, 12, 13, 15, and 21 would have
+been obvious over Thalmann and Williams. Pet. 50–58.
+
+15
+
+For this reason, Patent Owner also contends that the combination of Lytle
+and Adachi does not teach or suggest a “virtual reality computer system.”
+PO Resp. 48–50. We also find this argument unpersuasive.
+
+41
+
+IPR2014-00635
+Patent 5,513,129
+1.
+
+Thalmann
+
+Thalmann describes virtual reality devices like audio input devices for
+use with animation techniques, stating that “[a]udio input may be . . .
+considered as a way of interactively controlling animation.” Ex. 1006, 2, 4.
+In connection with real-time audio input, input data might include “sounds,
+speech,” and the application might be “facial animation (speech).” Id. at 5.
+2.
+
+Williams
+
+Williams describes a method for synchronizing actions and sounds for
+display on the visual display of a computer system. Ex. 1005, Abstr., 1:9–
+11. The method includes the steps of playing a sound recording,
+determining the locations in the recording where predetermined actions are
+to be displayed, and measuring the time that elapses when the recording is
+played from a reference point (e.g., the beginning of the recording) to the
+locations where the predetermined actions are to be displayed. Id. at 2:48–
+53. The predetermined actions can be associated with the time positions or
+locations in the recording manually or automatically. Id. at 4:37–39. In the
+case of automatic association, “different sound features or combinations of
+features, such as intensity, frequency, percussive or fricative sounds, can
+signal which actions should be associated with which time positions.” Id. at
+4:41–46. In other words, the sound at a particular time position associates a
+certain action display at that same time position. Id. at 4:55–58.
+3.
+
+Analysis
+
+Having reviewed the parties’ contentions and the evidence of record,
+we agree with Petitioner that the combination of Thalmann and Williams
+teaches all of the limitations of claims 1–4, 12, 13, 15, and 21, and that a
+person of ordinary skill in the art would have been motivated to combine
+
+42
+
+IPR2014-00635
+Patent 5,513,129
+Thalmann with Williams. With respect to independent claim 1, we agree
+with Petitioner that Williams discloses processing music signals to generate
+control signals having music and/or control information in that Williams
+discloses “processing a sound recording . . . and automatically associating
+predetermined animations . . . with time positions in the sound recording by
+analyzing features of the recording.” Id. at 53. Further, we agree with
+Petitioner that the combination of Thalmann and Williams renders obvious
+the step of operating the virtual reality computer system in response to the
+control signals to generate the virtual environment in that Thalmann
+describes generation of computer-simulated animations in response to sound
+and/or speech input, and Williams discloses a specific example of operating
+a computer system to measure elapsed time in a sound recording and display
+predetermined actions associated with time positions in the sound recording.
+Id. at 53–54. We agree that “one of ordinary skill in the art would have
+recognized that modifying Thalmann to process a music signal to generate a
+control signal, as taught by Williams . . . would achieve the result described
+by Thalmann.” Id. at 51 (citing Ex. 1007 ¶ 33) (“[M]odifying Thalmann to
+be used with the audio processing described in Williams would be desirable
+in order to achieve Thalmann’s stated goal of using audio input to drive
+animation in a virtual world.”).
+We are not persuaded by Patent Owner’s arguments in response.
+Specifically, we are not persuaded that: the combination of Thalmann and
+Williams does not teach or suggest (1) the “supplying” limitation of claim
+12; and (2) “processing music signals to generate control signals having
+music and/or control information” and “operating the virtual reality
+computer system in response to the control signals to generate said virtual
+
+43
+
+IPR2014-00635
+Patent 5,513,129
+environment” as recited in independent claim 1 and similarly recited in
+independent claims 12 and 21. We have reviewed the evidence of record
+and the parties’ contentions in this regard, and find these arguments
+unpersuasive. We also find unpersuasive Patent Owner’s argument that the
+combination of Thalmann and Williams does not teach or suggest the
+limitation in claim 3 that “at least one characteristic of the virtual object
+changes in response to at least one of the music signals” (see PO Resp. 54–
+55) because we find that Williams discloses that movements of a character’s
+mouth, face, and body are synchronized with music, and Williams teaches
+processing of music signals.
+Accordingly, we determine that Petitioner has shown by a
+preponderance of the evidence that claims 1, 8, 12, 13, 15, and 16 would
+have been obvious over the combination of Thalmann and Williams.
+III.
+
+CONCLUSION
+
+For the reasons stated above, we determine that Petitioner has shown
+by a preponderance of the evidence that claims 1–13, 15–18, and 21–23 are
+unpatentable.
+IV.
+
+ORDER
+
+For the reasons given, it is
+ORDERED that claims 1–13, 15–18, and 21–23 of the ’129 patent are
+held unpatentable.
+
+This is a Final Decision. Parties to the proceeding seeking judicial
+review of the decision must comply with the notice and service requirements
+of 37 C.F.R. § 90.2.
+
+44
+
+IPR2014-00635
+Patent 5,513,129
+
+PETITIONER:
+Eric A. Buresh
+Mark C. Lang
+ERISE IP, P.A.
+eric.buresh@eriseip.com
+mark.lang@eriseip.com
+
+PATENT OWNER:
+Dr. Gregory J. Gonsalves
+gonsalves@gonsalveslawfirm.com
+Robert R. Axenfeld
+O’KELLY ERNST & BIELLI, LLC
+raxenfeld@oeblegal.com
+
+45
+
+

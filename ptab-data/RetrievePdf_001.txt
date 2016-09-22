@@ -1,0 +1,860 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 50
+Entered: December 15, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+UNIVERSAL REMOTE CONTROL, INC.,
+Petitioner,
+v.
+UNIVERSAL ELECTRONICS, INC.,
+Patent Owner.
+____________
+Case IPR2014-01102
+Patent 5,228,077
+____________
+Before HOWARD B. BLANKENSHIP, SALLY C. MEDLEY, and
+LYNNE E. PETTIGREW, Administrative Patent Judges.
+PETTIGREW, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+I. INTRODUCTION
+We have jurisdiction to hear this inter partes review under 35 U.S.C.
+§ 6(c). This Final Written Decision is issued pursuant to 35 U.S.C. § 318(a)
+and 37 C.F.R. § 42.73. For the reasons discussed herein, Petitioner has
+
+IPR2014-01102
+Patent 5,228,077
+shown by a preponderance of the evidence that claim 13 of U.S. Patent
+No. 5,228,077 is unpatentable.
+A. Procedural History
+Petitioner, Universal Remote Control, Inc., filed a Petition for inter
+partes review of claim 13 of U.S. Patent No. 5,228,077 (Ex. 1001, “the ’077
+patent”). Paper 1 (“Pet.”). Patent Owner, Universal Electronics, Inc., filed a
+Preliminary Response. Paper 7 (“Prelim. Resp.”). On January 6, 2015, we
+instituted an inter partes review of claim 13 of the ’077 patent on one
+ground of unpatentability, pursuant to 35 U.S.C. § 314. Paper 9 (“Dec.”).
+Subsequent to institution, Patent Owner filed a Patent Owner
+Response in both unredacted (confidential) form (Paper 14) and revised
+redacted form (Paper 46, “PO Resp.”), along with a Motion to Seal
+(Paper 16). Petitioner filed a Reply in both unredacted (confidential) form
+(Paper 20) and revised redacted form (Paper 47, “Pet. Reply”), along with a
+Corrected Motion to Seal (Paper 23).
+Petitioner filed a Motion to Exclude (Paper 30, “Pet. Mot. to
+Exclude”) certain portions of Exhibits 1053 and 1054. Patent Owner filed
+an Opposition to the Motion to Exclude (Paper 37), and Petitioner filed a
+Reply (Paper 39).
+Patent Owner filed a Motion to Exclude (Paper 31, “PO Mot. to
+Exclude”) Exhibit 1043, and portions of Petitioner’s Reply that rely on
+Exhibit 1043. Petitioner filed an Opposition to the Motion to Exclude
+(Paper 35), and Patent Owner filed a Reply (Paper 38). Patent Owner filed a
+Motion for Observations (Paper 32), and Petitioner filed a Response to the
+Observations (Paper 36).
+
+2
+
+IPR2014-01102
+Patent 5,228,077
+A consolidated oral hearing for IPR2014-01102, IPR2014-01103,
+IPR2014-01104, and IPR2014-01106 was held on August 19, 2015, and a
+transcript of the hearing is included in the record (Paper 49, “Tr.”).
+B. Related Matters
+According to the parties, the ’077 patent is involved in the following
+lawsuit: Universal Electronics, Inc. v. Universal Remote Control, Inc.,
+No. SACV 13-00984-AG-JPR (C.D. Cal.). Pet. 1; Paper 4, 2.
+C. The’077 Patent
+The ’077 patent relates to a remote control that includes an input with
+a set of keys or push buttons for inputting commands into the remote
+control, infrared (IR) signal output circuitry for supplying an infrared signal
+to a controlled device, and a central processing unit (CPU) coupled to the
+input and to the signal output circuitry. Ex. 1001, Abstract, Fig. 8 (operating
+circuitry), Fig. 9B (keyboard circuit). Memory is coupled to the CPU and
+stores code data for creating IR lamp driver instructions for causing the
+infrared signal output circuitry to emit infrared signals to control a variety of
+devices. Id. Code data may be supplied from outside the remote control
+through data coupling circuitry, which includes terminal structure, coupled
+to the CPU. Id. Code data is supplied via a data transmission system that
+includes coupling circuitry for coupling the terminal structure directly to a
+computer, through a modem and telephone line to a computer, or to a
+television set. Id.
+
+3
+
+IPR2014-01102
+Patent 5,228,077
+Figure 20 of the ’077 patent is reproduced below:
+
+Figure 20 is a fragmentary perspective view of a connector having
+conversion circuitry and a battery case cover by which data can be input into
+the random access memory of the operating circuitry of a remote control
+device. Ex. 1001, 3:36–41. Signal coupling and converting assembly 206
+includes connector assembly 207, cable 208, and cover plate 210 for battery
+compartment 45 (Fig. 7). Id. at 18:41–44. Cover plate 210 has three pins
+212, 214, and 216 on its underside, which are positioned to connect with
+three serial ports 1, 2, and 3 (Fig. 7) of the remote control device. Id. at
+18:44–47. Pins 212, 214, and 216 are connected by three wire conductors
+224, 226, and 228 in cable 208 to connector assembly 207, which contains
+conversion circuitry 230. Id. at 18:47–51. Conversion circuitry 230
+(Figs. 21, 22) enables using some of the nine sockets 250 of connector
+assembly 207 for communication with serial ports 1, 2, and 3 via pins 212,
+214, and 216. Id. at 18:51–57.
+
+4
+
+IPR2014-01102
+Patent 5,228,077
+D. Claim 13
+Claim 13 is reproduced below:
+13. A universal remote control system including a
+universal remote control comprising input means including a
+set of keys or push buttons for inputting commands into the
+remote control, infrared signal output means for supplying an
+infrared signal to a controlled device including IR lamp driver
+circuitry, a central processing unit (CPU) coupled to said input
+means and to said signal output means, a single, non-volatile
+read-write memory coupled to said CPU and data coupling
+means including terminal means comprising a receiving port
+coupled to said CPU for enabling code data for creating
+appropriate IR lamp driver instructions for causing said infrared
+signal output means to emit infrared signals which will cause
+specific functions to occur in a specific controlled device, for
+operating a variety of devices to be controlled, to be supplied
+from outside said remote control through said receiving port of
+said terminal means directly to said CPU for direct entry to said
+memory to enable said remote control to control various
+devices to be controlled upon the inputting of commands to the
+keys of the input means and a data transmission system
+including coupling means for coupling said terminal means to a
+computer directly, through a modem to a telephone line, or
+through a television set to a television signal picked up by the
+television set, said coupling means including a cable, first
+connector means for connection to said terminal means at one
+end of said cable, and interface connector means at the other
+end of said cable for connecting directly to a computer, or
+through a modem and a telephone line to a computer, or to a
+television set which receives data in a television signal from a
+computer.
+Id. at 23:8–38.
+
+5
+
+IPR2014-01102
+Patent 5,228,077
+E. Ground of Unpatentability
+We instituted an inter partes review on the sole ground that claim 13
+is unpatentable under 35 U.S.C. § 103(a) over the combination of Ciarcia1
+and Hastreiter.2
+II. ANALYSIS
+A. Real Party-in-Interest
+Petitioner certifies that Universal Remote Control, Inc. (“URC”) is the
+real party-in-interest. Pet. 1. Patent Owner, however, contends that
+Petitioner failed to also name Ohsung Electronics Co., Ltd. and Ohsung
+Electronics U.S.A., Inc. (collectively, “Ohsung”), a supplier of products to
+URC, as real parties-in-interest. PO Resp. 26–30.
+Section 312(a) of Title 35 of the United States Code provides that a
+petition for inter partes review under 35 U.S.C. § 311 may be considered
+only if, among other things, the petition identifies all real parties-in-interest.
+35 U.S.C. § 312(a)(2). Whether a non-identified party is a real party-ininterest to a proceeding is a highly fact-dependent question. Office Patent
+Trial Practice Guide, 77 Fed. Reg. 48,756, 48,759 (Aug. 14, 2012) (“Trial
+Practice Guide”) (citing Taylor v. Sturgell, 553 U.S. 880 (2008)). “A
+common consideration is whether the non-party exercised or could have
+exercised control over a party’s participation in a proceeding.” Trial
+Practice Guide, 77 Fed. Reg. at 48,759 (citing Taylor, 553 U.S. at 895). The
+concept of control generally means that “it should be enough that the
+nonparty has the actual measure of control or opportunity to control that
+1
+
+Steve Ciarcia, Build a Trainable Infrared Master Controller, BYTE,
+Mar. 1987, at 113 (Ex. 1005).
+2
+U.S. Patent No. 4,667,181, issued May 19, 1987 (Ex. 1004).
+6
+
+IPR2014-01102
+Patent 5,228,077
+might reasonably be expected between two formal coparties.” Id. (quoting
+18A Charles Alan Wright, Arthur R. Miller & Edward H. Cooper, Federal
+Practice & Procedure § 4451 (2d ed. 2011)).
+Patent Owner argues that Ohsung exercised or could have exercised
+control over Petitioner’s participation in this proceeding based on the close
+relationship between Petitioner and Ohsung. PO Resp. 27. In support of
+that argument, Patent Owner first directs us to evidence to support the notion
+that URC and Ohsung share at least one employee. According to Patent
+Owner, Mr. Jak You is a “key remote control executive [who] identifies
+himself as both an Ohsung and URC employee.” Id. The evidence cited by
+Patent Owner dates back to August 8, 2001 (Ex. 2019), July 16, 2012
+(Ex. 2018), and July 2013 (Ex. 2021), and shows at most that Mr. You first
+worked for Petitioner (URC) and then worked for Ohsung. Such evidence,
+however, does not tend to show that Mr. You, around the time the Petition
+was filed, held himself out as working for both Ohsung and Petitioner, or
+that Ohsung and Petitioner share employees.
+In any event, and even assuming that URC and Ohsung share an
+employee, we do not agree with Patent Owner that such sharing of one
+employee (Mr. You) suggests that Ohsung exercised or could have exercised
+control over Petitioner’s participation in this proceeding. For instance,
+Mr. You is said to have been a director of engineering for URC. Id. at 28.
+Patent Owner has not shown that Mr. You was in a position within Ohsung
+to persuade Ohsung or Petitioner to make a litigation decision to pursue an
+inter partes review.
+Moreover, we are not persuaded by Patent Owner’s argument that
+URC having previously paid for office space used by an Ohsung employee
+7
+
+IPR2014-01102
+Patent 5,228,077
+suggests that Ohsung has reciprocated by paying for anything associated
+with this proceeding or controlled the proceeding in any other way. See id.
+at 28–29. If anything, the evidence tends to show that URC, not Ohsung,
+pays for expenses such as the costs associated with this proceeding.
+We also have considered Patent Owner’s argument that the closeness
+of the relationship between Ohsung and URC is exemplified by a settlement
+and license agreement (Ex. 2050) between Patent Owner and Petitioner, a
+provision of which obligates Ohsung to pay royalties to Patent Owner. See
+PO Resp. 29–30. Patent Owner argues that the agreement strongly suggests
+that Ohsung may have had the opportunity to control, direct, or influence the
+present proceeding. Id. at 30. The agreement was executed in 2004, and
+provides for the payment of royalties in 2005, 2006, and 2007. Ex. 2050, 5,
+9. Patent Owner has not shown that the agreement exemplifies a close
+relationship in 2014 when the Petition in this proceeding was filed.
+Moreover, the agreement and royalties are directed to a set of patents, none
+of which is the patent involved in this proceeding. Id. at 1. Accordingly, we
+are not persuaded by this argument.
+Lastly, we are not persuaded by Patent Owner’s argument that
+because URC and Ohsung share litigation counsel in a related case, Ohsung
+has controlled, or had the opportunity to control, this proceeding. See PO
+Resp. 27. In summary, based on the totality of arguments and evidence
+presented, we are not persuaded that Ohsung is a real party-in-interest in this
+proceeding.
+B. Claim Interpretation
+The ’077 patent has expired and, thus, cannot be amended. For claims
+of an expired patent, the Board’s claim interpretation is similar to that of a
+8
+
+IPR2014-01102
+Patent 5,228,077
+district court. See In re Rambus, Inc., 694 F.3d 42, 46 (Fed. Cir. 2012). “In
+determining the meaning of the disputed claim limitation, we look
+principally to the intrinsic evidence of record, examining the claim language
+itself, the written description, and the prosecution history, if in evidence.”
+DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014
+(Fed. Cir. 2006) (citing Phillips v. AWH Corp., 415 F.3d 1303, 1312–17
+(Fed. Cir. 2005) (en banc)). However, there is a “heavy presumption” that a
+claim term carries its ordinary and customary meaning. CCS Fitness, Inc. v.
+Brunswick Corp., 288 F.3d 1359, 1366 (Fed. Cir. 2002). Construction of a
+“means-plus-function” limitation under 35 U.S.C. § 112, sixth paragraph,
+involves two steps: first identifying the function explicitly recited in the
+claim, and then identifying the corresponding structure set forth in the
+written description that performs the particular function set forth in the
+claim. Asyst Techs, Inc. v. Empak, Inc., 268 F.3d 1364, 1369–70 (Fed. Cir.
+2001).
+Petitioner proffers constructions for several means-plus-function
+terms (Pet. 15–17), and Patent Owner weighs in on those constructions
+(PO Resp. 4–13). For purposes of this Final Written Decision, we determine
+that those terms do not require express construction. Patent Owner also
+contends that Petitioner’s failure to propose a construction for “terminal
+means” in accordance with 35 U.S.C. § 112, sixth paragraph, is fatal to the
+Petition. PO Resp. 2–3. We agree with Petitioner, however, that “terminal
+means” as used in claim 13 is not a means-plus-function limitation requiring
+an analysis under § 112, sixth paragraph, because the claim does not recite a
+function performed by the “terminal means.” See Pet. Reply 11 (citing
+Rodime PLC v. Seagate Tech., Inc., 174 F.3d 1294, 1302 (Fed. Cir. 1999)).
+9
+
+IPR2014-01102
+Patent 5,228,077
+For this Final Written Decision, we determine that only the term
+“code data” requires express construction, as the key dispute between the
+parties focuses on that claim term. That term appears in the following
+limitation of claim 13: “data coupling means including terminal means
+coupled to said CPU for enabling code data for creating appropriate IR
+lamp instructions for causing said infrared signal output means to emit
+infrared signals . . . to be supplied from outside said remote control.”
+Ex. 1001, 23:16–24 (emphasis added).
+Patent Owner argues that “code data” means “instructions and timing
+information for generating an infrared signal.” PO Resp. 14. Both parties
+agree that the term “code data” includes timing information or data, but they
+do not agree that the term “code data” also includes instructions.3 Id.;
+Pet. Reply 4; Tr. 13, 40, 59. It is necessary for us to construe the phrase
+because the parties dispute whether the prior art (Ciarcia) describes
+supplying code data to the remote control from outside the remote control
+(e.g., a computer connected through a cable to the remote control). In
+particular, Patent Owner agrees that Ciarcia describes supplying timing data
+to the remote control, but contends that Ciarcia does not describe supplying
+instructions to the remote control. PO Resp. 17–19. For the reasons that
+follow, we determine that “code data” includes timing information or data,
+but need not include instructions.
+
+3
+
+Patent Owner refers to instructions as programming (computer
+instructions) or computer executable instructions. PO Resp. 19; Ex. 2029
+¶ 61; Tr. 66. Patent Owner contrasts instructions with timing information,
+which, it submits, constitutes data. PO Resp. 16; Tr. 64.
+10
+
+IPR2014-01102
+Patent 5,228,077
+We begin with the plain language of the claim. Claim 13 recites
+“enabling4 code data for creating appropriate IR lamp instructions for
+causing said infrared signal output means to emit infrared signals.” Based
+on the words of the claim, “instructions” are created using “code data.”
+Thus, the claim language differentiates “code data” from “instructions” and
+expressly refers to “instructions” when the claimed subject matter is directed
+to instructions. Moreover, claim 13 does not define or further explain what
+“code data” means. For example, there is nothing in claim 13 that would
+lead us to believe that data, albeit code data, should be construed to mean
+data plus programming or executable computer instructions. The phrase is
+“code data,” not “code data and instructions.”
+We next turn to the Specification of the ’077 patent. Patent Owner
+focuses on the following passage from the Specification of the ’077 patent in
+support of its argument that code data includes instructions:
+In the method for learning or acquiring code data for
+infrared codes disclosed herein, no counting of pulses is carried
+out. Instead the method involves the following steps:
+(a) receiving a transmission of a train of pulses from a remote
+control transmitter;
+(b) recording the point-in-time of an edge of each pulse in a
+train of the pulses;
+(c) transforming the recorded point-in-time data into a list of
+instructions for generating a replica of the train of pulses;
+(d) timing the duration of a train of the pulses;
+(e) timing the period between trains of pulses;
+
+4
+
+During oral hearing, counsel for Petitioner argued that due to the word
+“enabling,” claim 13 does not require that anything actually be supplied
+from outside the remote control. Tr. 87–88. This argument was not raised
+prior to oral hearing, and therefore we do not consider it.
+11
+
+IPR2014-01102
+Patent 5,228,077
+(f) associating a function key of the universal remote control
+device 10 with the time duration of the train of pulses and
+the list of instructions for generating a replica of the train
+of pulses;
+(g) determining whether or not repetitions of the transmission
+of train of pulses is present;
+(h) ignoring repetitions of the train of pulses;
+(i) noting that repetitions are present; and
+(j) storing for use in a universal remote control device, the
+information acquired in steps (c), (d), (e), (f), and (i).
+Ex. 1001, 9:52–10:7.
+Patent Owner argues that step (c) identifies instructions, and steps (d),
+(e), (f), and (i) identify timing information. PO Resp. 15. Patent Owner
+further argues that Figure 14 and the corresponding text of the Specification
+of the ’077 patent confirm that the phrase “code data” is different from an IR
+code or signal, and is used to generate the IR code based on instructions and
+timing data. Id. at 15–16 (citing Ex. 2029 ¶¶ 52–56). We have reviewed the
+testimony of Patent Owner’s declarant, Mr. Alex Cook, in support of the
+proposed construction. Neither he nor Patent Owner discusses any other
+passages in the Specification of the ’077 patent. Rather, his explanation for
+why we should narrowly construe “code data” focuses solely on one
+embodiment of the Specification. See Ex. 2029 ¶¶ 51–56.
+In contrast to the example cited by Patent Owner, there are several
+passages in the ’077 patent that describe code data as separate and distinct
+from instructions or instruction codes:
+Incoming data is received serially at serial port 3 and conveyed
+to input port 112, when it is desired to update the code data
+and/or instructions in the RAM 54.
+Ex. 1001, 8:28–31 (emphasis added).
+
+12
+
+IPR2014-01102
+Patent 5,228,077
+After the infrared code is deciphered, the code data
+therefor and instructions for generating such code (see the flow
+chart in FIG. 14) are stored in a programming computer 200
+(FIG. 10) and the device is programmed as explained below.
+It is to be noted that the circuitry has no ROM and all
+instruction codes and code data are loaded directly into the
+RAM 54. This allows for infinite upgradability in the field via
+the serial ports 1, 2, 3.
+Id. at 8:45–53 (emphases added).
+(6) The multiplexing of the address and data lines
+between the RAM 54 and the CPU 56 enables scrambling of the
+instruction codes and the code data so that the memory image
+in the RAM 54 is encrypted.
+Id. at 21:19–22 (emphasis added). In addition, the parent of the ’077 patent
+teaches that only the timing information is part of “code data”: “In learning
+the infrared code and transforming same to code data . . . , only the time
+duration of the pulses . . . as well as the time duration of the pause between
+bursts are sensed and used to learn and later to generate the infrared codes.”
+Ex. 1007, 1:57–66 (emphasis added).
+From the above passages, a person of ordinary skill in the art would
+have understood that code data need not include instructions. In other
+words, the above passages indicate that “instructions” or instruction codes
+are separate from “code data.” If code data necessarily included instructions
+or instruction codes, there would be no occasion for the Specification to
+refer to instructions or instruction codes separately from code data. Yet, the
+Patent Owner Response and the supporting testimony of Mr. Cook
+(Ex. 2029) are silent with respect to these passages.
+Lastly, the Specification of the ’077 patent describes that code data for
+the infrared codes “may be obtained from vendor information sheets and
+13
+
+IPR2014-01102
+Patent 5,228,077
+specifications, can be determined using the methods disclosed in U.S. Pat.
+Nos. 4,623,887 and 4,626,848, or by the method disclosed herein.”
+Ex. 1001, 9:47–51. Again, the Patent Owner Response and the supporting
+testimony of Mr. Cook (Ex. 2029) are silent with respect to this passage and
+the other ways that code data may be obtained or determined. In summary,
+there are many passages in the Specification of the ’077 patent that tend to
+support not construing “code data” as Patent Owner would like, yet neither
+the Patent Owner Response nor the supporting testimony of Mr. Cook
+(Ex. 2029) discusses any of those other passages. Rather, Patent Owner’s
+arguments and Mr. Cook’s testimony are confined to discussing only the one
+embodiment that Patent Owner argues supports the contention that code data
+always includes instructions. For the reasons discussed above, we are not
+persuaded by Patent Owner’s arguments that “code data” necessarily
+includes instructions. Based on the record before us, the term “code data”
+includes timing information or data, but need not include instructions.
+C. Obviousness over Ciarcia and Hastreiter
+Petitioner contends that claim 13 is unpatentable under 35 U.S.C.
+§ 103(a) as obvious over the combination of Ciarcia and Hastreiter. Pet. 41–
+51. In its Petition, Petitioner explains how the combination of Ciarcia and
+Hastreiter collectively meets each claim limitation and articulates a rationale
+for combining the references. Id. Petitioner also relies on a Declaration of
+Stephen D. Bristow to support the assertions made in connection with the
+Petition. Ex. 1009.
+Patent Owner argues that neither Ciarcia nor Hastreiter meets the
+“code data” limitation of claim 13. PO Resp. 17–19. Patent Owner also
+argues there is insufficient reason to combine Ciarcia and Hastreiter. Id. at
+14
+
+IPR2014-01102
+Patent 5,228,077
+19–22. Lastly, Patent Owner argues that secondary considerations weigh in
+favor of the nonobviousness of claim 13. Id. at 22–25. To support its
+contentions, Patent Owner relies on a Declaration of Mr. Alex Cook
+(Ex. 2029) and a Declaration of Mr. Ramzi Ammari (Ex. 2030).5
+Ciarcia
+Ciarcia describes a trainable remote control (Master Controller) with a
+keypad for inputting commands into the remote control. Ex. 1005, 114.6
+The remote control includes a central processing unit (CPU) (Intel 8031
+microprocessor, IC1), memory (RAM IC11) coupled to the CPU, and
+infrared LEDs and driver circuitry that produce an IR signal to a controlled
+device. Id. at 114–115. The remote control may be connected to a personal
+computer using three wires from an RS-232 interface. Id. at 119 (“The serial
+connector is an RJ-11 telephone jack instead of the usual 25-pin DB-25
+connector. Only three wires are required: data from the PC, data to the PC,
+and signal ground.”). The personal computer is connected to the remote
+control via the RS-232 interface and is “used to set up menus of devices
+(receivers, CD players, tape decks) and functions for each device (turn on,
+play forward, etc.).” Id. at 114. Once a menu is downloaded to the remote
+control, each function is taught and tested, after which a completed menu
+and synthesis data are uploaded to the personal computer and “stored on disk
+(in case you want to load it into another Master Controller or add another
+device later without retraining all of them).” Id.
+
+5
+
+Patent Owner also has filed a revised redacted version of Mr. Ammari’s
+Declaration. Ex. 2064.
+6
+Citations are to the reference’s magazine page numbers rather than the
+exhibit page numbers.
+15
+
+IPR2014-01102
+Patent 5,228,077
+Hastreiter
+Hastreiter describes keyboard data input assemblies, including
+circuitry for minimizing the number of interconnections with a
+microprocessor or other apparatus with which a keyboard is used. Ex. 1004,
+1:5–10. In particular, Hastreiter describes a keyboard circuit that uses
+diodes between row and column lines of the keyboard, similar to the
+keyboard circuit described in the ’077 patent. See, e.g., Ex. 1001, Fig. 9B;
+Ex. 1004, Figs. 1, 2.
+Petitioner’s Assertions
+Petitioner relies on Ciarcia to meet all of the limitations of claim 13,
+with the exception of the “input means.” Pet. 41–51. Based on its
+construction of “input means” to include at least the corresponding structure
+of a keyboard circuit as shown in Fig. 9B of the ’077 patent, Petitioner relies
+on the keyboard circuit of Hastreiter in combination with Ciarcia to meet the
+“input means.” Id. at 15, 27–28, and 42–44. Petitioner points to teachings
+in Hastreiter that the keyboard design can be used to minimize the required
+number of interconnections with a microprocessor or other apparatus with
+which a keyboard is used. Id. at 44; Ex. 1004, 1:5–11. Mr. Bristow opines
+that skilled artisans at the time of the invention would have understood that
+Hastreiter’s keyboard circuit could have been used in Ciarcia’s remote
+control to minimize connections to the microprocessor. Ex. 1009 ¶ 60.
+Code Data
+Patent Owner does not contest that any feature is missing from the
+combination of Ciarcia and Hastreiter other than supplying from outside the
+remote control (e.g., a computer connected through a cable to the remote
+control) “code data” to the remote control. PO Resp. 17–19. Petitioner
+16
+
+IPR2014-01102
+Patent 5,228,077
+accounts for this limitation by relying on the description in Ciarcia of
+downloading completed menu and synthesis data to the same or different
+Master Controller. Pet. 20, 48; Ex. 1005, 114; Ex. 1009 ¶¶ 58–59; Tr. 31–
+32.
+According to Patent Owner, the code data limitation is missing
+because Ciarcia does not describe supplying “code data” comprising
+instructions from a computer to the remote control. PO Resp. 18–19. As
+explained above in the claim construction section, Patent Owner has not
+shown that “code data” necessarily includes instructions. Rather, as stated
+above, “code data” includes timing information or data, but need not include
+instructions, e.g., programmable software code. Patent Owner concedes that
+Ciarcia describes downloading timing information to the remote control.
+Id. at 18; Ex. 1053, 357; Tr. 41.
+Based on the record before us, Petitioner has shown by a
+preponderance of the evidence that all of the limitations in claim 13 are met
+by the combination of Ciarcia and Hastreiter.
+Combining Ciarcia and Hastreiter
+Patent Owner argues that it would not have been obvious to combine
+Ciarcia and Hastreiter. PO Resp. 19–22. As explained above, Petitioner
+articulates a rationale with supporting evidence for combining Ciarcia and
+Hastreiter. In particular, Petitioner points to teachings in Hastreiter that the
+keyboard design can be used to minimize the required number of
+interconnections with a microprocessor or other apparatus with which a
+keyboard is used. Pet. 44; Ex. 1004, 1:5–11. Mr. Bristow opines that skilled
+artisans at the time of the invention would have understood that Hastreiter’s
+keyboard circuit could have been used in Ciarcia’s remote control to
+17
+
+IPR2014-01102
+Patent 5,228,077
+minimize connections to the microprocessor. Ex. 1009 ¶ 60. Accordingly,
+we are not persuaded by Patent Owner’s conclusory assertion that “[t]he
+Petition fails to articulate any reason why one having ordinary skill in the art
+would have been motivated to combine Ciarcia with Hastreiter.” PO
+Resp. 19.
+Patent Owner also argues that because Hastreiter says nothing about
+remote controls, it is not in the same field as Ciarcia, directing attention to
+Mr. Cook’s testimony, who testifies to the same. Id. at 20; Ex. 2029 ¶ 74.
+The test for determining whether a prior art reference constitutes analogous
+art to the claimed invention is: (1) whether the prior art is from the same
+field of endeavor, regardless of the problem addressed, and (2) if the
+reference is not within the field of the inventor’s endeavor, whether the
+reference still is reasonably pertinent to the particular problem with which
+the inventor is involved. See In re Bigio, 381 F.3d 1320, 1325 (Fed. Cir.
+2004).
+Here, Patent Owner has not explained sufficiently why Hastreiter is
+from a field of endeavor different from that of the claimed invention. Patent
+Owner’s comparison between the fields of endeavor of Ciarcia and
+Hastreiter misses the mark. In any event, Patent Owner’s argument that
+Hastreiter is not in the same field as Ciarcia is conclusory, as is Mr. Cook’s
+testimony. Neither explains why that is so. In addition, Patent Owner has
+not addressed the second prong of the above test. And, importantly, during
+cross-examination, Mr. Cook testified that the field of “keypad design is
+inherently a field that people in remote controls are aware of.” Ex. 1053,
+427:21–25. Such a statement would tend to support a finding that Hastreiter
+is analogous art. Hastreiter is concerned with circuitry interconnections
+18
+
+IPR2014-01102
+Patent 5,228,077
+between a microprocessor and a keyboard data input assembly and even
+goes as far as to state that it is applicable for apparatuses that use keyboards.
+Ex. 1004, 1:5–10. The claimed invention recites a remote control (an
+apparatus) with an input means including a set of keys or pushbuttons for
+inputting commands (e.g., a keyboard), where the input means is coupled to
+a microprocessor, which processes the commands. Based on the record
+before us, we find that Hastreiter is analogous art.
+Patent Owner also argues that Ciarcia teaches away from any
+combination with Hastreiter. PO Resp. 21. Patent Owner argues that the
+keypad arrangement disclosed in Hastreiter is unnecessarily complex to be
+used in Ciarcia’s remote, and that a person of ordinary skill in the art would
+not have looked to Hastreiter for a keyboard data input assembly that
+minimized the number of diode switches used (interconnections) because the
+Ciarcia remote control only has six keys, such that minimizing
+interconnections would not be a concern. Id.; Ex. 2029 ¶¶ 67–73, 81, 83.
+We are not persuaded by Patent Owner’s arguments.
+Hastreiter is not limited to only keyboards “having a large number of
+hard keys,” as Mr. Cook asserts. Ex. 2029 ¶ 78. Rather, Hastreiter explains
+that although a five by five array of keyboard conductors is shown, a person
+having ordinary skill in the art would have understood that “the present
+invention may be easily adapted to a square matrix of any size.” Ex. 1004,
+3:31–34. For this reason, we do not give substantial weight to Mr. Cook’s
+testimony that Hastreiter is limited to only keyboards having a large number
+of keys, and thus is unnecessarily complex to be used in Ciarcia’s remote,
+because that testimony is not supported by what Hastreiter actually conveys
+to a person of ordinary skill in the art. For similar reasons, we do not give
+19
+
+IPR2014-01102
+Patent 5,228,077
+substantial weight to Mr. Cook’s testimony that “Ciarcia’s remote control
+would not benefit from Hastreiter’s keypad arrangement because Ciarcia’s
+remote has very few keys” and that the “benefit of Hastreiter’s keypad
+arrangement increases as the number of keys required grows larger.”
+Ex. 2029 ¶ 83. Again, Hastreiter is not limited to only keypads with a large
+number of keys, and even Mr. Cook recognizes that, although the benefit
+may increase with more keys on a keypad, there is still a benefit from the
+Hastreiter arrangement of reducing the number of electrical interconnections
+between the keypad and the microprocessor. Id. “[I]f a technique has been
+used to improve one device, and a person of ordinary skill in the art would
+recognize that it would improve similar devices in the same way, using the
+technique is obvious unless its actual application is beyond his or her skill.”
+KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 417 (2007).
+Objective Evidence of Nonobviousness
+Factual inquiries for an obviousness determination include secondary
+considerations based on evaluation and crediting of objective evidence of
+nonobviousness. Graham v. John Deere Co., 383 U.S. 1, 17 (1966).
+Notwithstanding what the teachings of the prior art would have suggested to
+a person of ordinary skill in the art at the time of the claimed invention, the
+totality of evidence submitted, including objective evidence of
+nonobviousness, may lead to a conclusion that the claimed invention would
+not have been obvious to one with ordinary skill in the art. In re Piasecki,
+745 F.2d 1468, 1471–72 (Fed. Cir. 1984).
+There must be a demonstrated “nexus” between the merits of the
+claimed invention and the evidence of secondary considerations before that
+evidence is accorded substantial weight in an obviousness determination.
+20
+
+IPR2014-01102
+Patent 5,228,077
+Simmons Fastener Corp. v. Ill. Tool Works, Inc., 739 F.2d 1573, 1575 (Fed.
+Cir. 1984); Stratoflex, Inc. v. Aeroquip Corp., 713 F.2d 1530, 1539 (Fed.
+Cir. 1983); see also In re Huang, 100 F.3d 135, 140 (Fed. Cir. 1996); In re
+Fielder, 471 F.2d 640, 642 (CCPA 1973). “Nexus” is a legally and factually
+sufficient connection between the objective evidence and the claimed
+invention, such that the objective evidence should be considered in
+determining nonobviousness. Demaco Corp. v. F. Von Langsdorff Licensing
+Ltd., 851 F.2d 1387, 1392 (Fed. Cir. 1988). In the absence of an established
+nexus with the claimed invention, secondary consideration factors such as
+commercial success, satisfaction of a long-felt but unresolved need,
+licensing, and copying by others are not entitled to much, if any, weight and
+generally have no bearing on the legal issue of obviousness. See In re
+Vamco Machine & Tool, Inc., 752 F.2d 1564, 1577 (Fed. Cir. 1985).
+The burden of showing that there is a nexus lies with the Patent Owner. Id.;
+see In re Paulsen, 30 F.3d 1475, 1482 (Fed. Cir. 1994).
+Patent Owner argues that several of the patents owned by Patent
+Owner, including the ’077 patent, were licensed by a substantial portion of
+the industry, showing commercial acquiescence and competitor acceptance
+of Patent Owner’s licensed patents. PO Resp. 23–24. The mere existence of
+several licensees, without more specific information about the circumstances
+surrounding the licensing, is not a good indicator of nonobviousness. In
+EWP Corp. v Reliance Universal Inc., 755 F.2d 898, 907–08 (Fed. Cir.
+1985), the Court of Appeals for the Federal Circuit stated:
+Such [licensing] programs are not infallible guides to
+patentability. They sometimes succeed because they are
+mutually beneficial to the licensed group or because of business
+judgments that it is cheaper to take licenses than to defend
+21
+
+IPR2014-01102
+Patent 5,228,077
+infringement suits, or for other reasons unrelated to the
+unobviousness of the licensed subject matter.
+Here, we are not told the circumstances surrounding the licenses.
+Patent Owner directs us to no testimony from any licensee with regard to
+why the licensee took a license from Patent Owner. It is unknown how
+much of the decision to take a license stems from a business cost-benefit
+analysis with regard to defending an infringement suit or from another
+business reason, rather than from acknowledged merits of the claimed
+invention. Patent Owner also does not disclose how many entities refused to
+take a license or why some entities, if any, refused to take a license. Four
+licensees may not represent a very successful licensing program if the field
+of potential application of Patent Owner’s technology includes a large
+number of potential licensees.
+Patent Owner also argues that its upgradeable remotes and those of
+one of its licensees (Logitech’s Harmony Remotes) have enjoyed
+tremendous commercial worldwide success. PO Resp. 24. In particular,
+Patent Owner argues that it is a market leader in original equipment
+manufacturing of universal remote controls and made approximately $1.6
+billion in worldwide gross sales from 2000 to 2013. Id. at 24–25. Patent
+Owner argues that Logitech is the established market leader in consumer
+universal remote controls since 2007 and that from 2007 through 2014,
+Logitech averaged $100 million in worldwide net sales of remote controls, a
+substantial number of sales containing the technology of the claimed
+invention. Id. at 25.
+Patent Owner does not describe for us the components or manner of
+operation of the products sold by it or Logitech. Rather, Patent Owner
+22
+
+IPR2014-01102
+Patent 5,228,077
+directs us to several paragraphs from the Ammari Declaration. Ex. 2064.7
+Mr. Ammari directs us to claim charts that were created during litigation
+between Patent Owner and Logitech, along with user manuals of several of
+Logitech’s remote control products. Id. ¶¶ 20–24. Mr. Ammari testifies that
+the manuals depict remotes that are upgradeable via a connection to a
+computer and that when using a Harmony Remote, a user uses software or
+an online service to configure downloaded code data to the remote control.
+Id. ¶¶ 23, 24. Such a showing does not establish a nexus between the
+alleged commercially successful products and the claimed invention.
+First, we do not know the context of the litigation between Logitech
+and Patent Owner, such as whether Logitech agreed to the charge of
+infringement. Based on the record before us, Patent Owner has not
+established that the infringement charts are meritorious insofar as showing a
+nexus is concerned. Moreover, Patent Owner has not shown sufficiently that
+any of the Logitech manuals would have conveyed to a user to use
+“Logitech’s desktop software or an online service to configure downloaded
+code data to the remote control” as Mr. Ammari contends. Ex. 2064 ¶ 24.
+We do not give much weight to Mr. Ammari’s testimony in this regard
+because it is conclusory. He does not direct us to where in any of the
+manuals there is a description of configuring a remote control to download
+code data to the remote control.
+In any event, we do not know why $100 million of Logitech’s or
+$1 billion of Patent Owner’s sales constitutes commercial success. It is well
+established that absolute sales numbers without market share data does not
+7
+
+At the time of his declaration, Mr. Ammari was employed by Patent Owner
+and has been employed by Patent Owner since 1997. Ex. 2064 ¶¶ 1, 4.
+23
+
+IPR2014-01102
+Patent 5,228,077
+establish commercial success. See, e.g., In re Huang, 100 F.3d at 140.
+Patent Owner’s Response does not discuss and present market share
+information.
+In addition, Patent Owner must prove that the sales were a direct
+result of the unique characteristics of the invention, and not a result of
+economic and commercial factors unrelated to the quality of the patent
+subject matter. In re Applied Materials, Inc., 692 F.3d 1289, 1299–1300
+(Fed. Cir. 2012). In addition, “if the commercial success is due to an
+unclaimed feature of the device,” or “if the feature that creates the
+commercial success was known in the prior art, the success is not pertinent.”
+Ormco Corp., v. Align Tech., Inc., 463 F.3d 1299, 1312 (Fed. Cir. 2006); see
+also In re Kao, 639 F.3d 1057, 1070 (Fed. Cir. 2011) (requiring a
+determination of “whether the commercial success of the
+embodying product resulted from the merits of the claimed invention as
+opposed to the prior art or other extrinsic factors”). Here, Patent Owner has
+not directed us to evidence to explain the reasons for the alleged commercial
+success of Logitech’s and Patent Owner’s remote controls.
+For all of the foregoing reasons, Patent Owner has failed to establish
+the necessary “nexus” between the evidence of alleged commercial success
+and the invention claimed.
+Conclusion
+We have considered the entirety of the evidence before us, including
+the evidence of obviousness and the evidence of licensing and commercial
+success submitted by Patent Owner as indicia of nonobviousness. On
+balance, the evidence of obviousness outweighs the evidence of
+nonobviousness with respect to claim 13. The evidence of obviousness is
+24
+
+IPR2014-01102
+Patent 5,228,077
+strong and the evidence of nonobviousness is weak, for the reasons
+discussed above. All of Patent Owner’s arguments have been considered.
+Petitioner has proved by a preponderance of the evidence that
+claim 13 is unpatentable over the combination of Ciarcia and Hastreiter.
+D. Patent Owner’s Motion to Exclude
+Patent Owner moves to exclude Exhibit 1043 and portions of
+Petitioner’s Reply that rely on Exhibit 1043 as not relevant to the
+proceeding. PO Mot. to Exclude 1. The parties refer to Exhibit 1043 as a
+data sheet for an Intel 8254 Programmable Interval Timer (PIT). Ciarcia
+describes an 8254 PIT that is programmed to generate IR signals. Ex. 1005,
+118–119. In its Reply, Petitioner relies on the 8254 PIT data sheet to show
+the details of the 8254 PIT used in the Ciarcia described device. Pet.
+Reply 14. We did not and need not consider such arguments or evidence in
+connection with the Reply. We have determined that Petitioner has
+demonstrated, by a preponderance of the evidence, that claim 13 is
+unpatentable, without considering Petitioner’s arguments regarding the
+details of the Intel 8254 PIT used in the device described in Ciarcia.
+Accordingly, we dismiss Patent Owner’s Motion to Exclude.
+E. Petitioner’s Motion to Exclude
+Petitioner moves to exclude portions of Exhibits 1053 and 1054,
+which are deposition transcripts of Patent Owner’s witness, Mr. Alex Cook.
+With respect to both exhibits, Petitioner moves to exclude portions of
+Mr. Cook’s testimony for, among other reasons, being unreliable. Pet. Mot.
+to Exclude 1. In particular, Petitioner moves to exclude Exhibit 1053 at
+419:1–2, 419:14–15, 420:5–21, 421:8–422:2, and 422:9–13, and
+
+25
+
+IPR2014-01102
+Patent 5,228,077
+Exhibit 1054 at 745:4–8, 745:15–746:1, 746:13–747:4, 747:11–16, 747:22,
+748:2, 749:10–11, 749:17–21, and 750:23–751:3. Id.
+Petitioner has not shown that Patent Owner relied on either
+Exhibit 1053 or 1054 in support of its papers filed in this proceeding, nor do
+we find that Patent Owner relied on either exhibit in support of its papers
+filed in this proceeding. Moreover, Petitioner has not shown that it relied on
+the objected to portions of either exhibit in support of its papers filed in this
+proceeding, nor do we find that Petitioner relied on the objected to portions
+of either exhibit in support of its papers filed in this proceeding. Because we
+were not directed to the objected to portions of the evidence in any papers
+before us, we did not and need not consider the objected to portions of
+Exhibits 1053 and 1054 in rendering this decision. Accordingly, we dismiss
+Patent Owner’s Motion to Exclude.
+F. Motions to Seal
+Patent Owner and Petitioner each filed several papers (e.g., Paper 14)
+and exhibits (e.g., Exhibits 1050 and 1051) under seal, along with motions to
+seal (Papers 16 and 23) and a protective order (Ex. 2065). The motions are
+unopposed and are granted.
+There is an expectation that information will be made public where
+the information is identified in a Final Written Decision, and that
+confidential information that is subject to a protective order ordinarily would
+become public 45 days after final judgment in a trial, unless a motion to
+expunge is granted. 37 C.F.R. § 42.56; Office Patent Trial Practice Guide,
+77 Fed. Reg. at 48,761. In rendering this Final Written Decision, it was not
+necessary to identify, or discuss in detail, any confidential information. A
+party who is dissatisfied with this Final Written Decision may appeal the
+26
+
+IPR2014-01102
+Patent 5,228,077
+Decision pursuant to 35 U.S.C. § 141(c), and has 63 days after the date of
+this Decision to file a notice of appeal. 37 C.F.R. § 90.3(a).
+In view of the foregoing, the confidential documents filed in the
+instant proceeding will remain under seal, at least until the time period for
+filing a notice of appeal has expired or, if an appeal is taken, the appeal
+process has concluded. The record for the instant proceeding will be
+preserved in its entirety, and the confidential documents will not be
+expunged or made public, pending appeal. Notwithstanding 37 C.F.R.
+§ 42.56 and the Office Patent Trial Practice Guide, neither a motion to
+expunge confidential documents nor a motion to maintain these documents
+under seal is necessary or authorized at this time. See 37 C.F.R. § 42.5(b).
+III. CONCLUSION
+Based on the evidence and arguments, Petitioner has demonstrated by
+a preponderance of the evidence that claim 13 of the ’077 patent is
+unpatentable under 35 U.S.C. 103(a) as obvious over the combination of
+Ciarcia and Hastreiter.
+IV. ORDER
+Accordingly, it is:
+ORDERED that claim 13 of U.S. Patent No. 5,228,077 has been
+shown to be unpatentable;
+FURTHER ORDERED that the parties’ respective motions to seal are
+granted;
+FURTHER ORDERED that the parties’ respective motions to exclude
+evidence are dismissed; and
+
+27
+
+IPR2014-01102
+Patent 5,228,077
+FURTHER ORDERED that, because this is a final written decision,
+parties to the proceeding seeking judicial review of the decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+FOR PETITIONER:
+Douglas A. Miro
+dmiro@ostrolenk.com
+Keith J. Barkaus
+kbarkaus@ostrolenk.com
+Peter H. Kang
+pkang@sidley.com
+Theodore W. Chandler
+tchandler@sidley.com
+Ferenc Pazmandi
+fpazmandi@sidley.com
+FOR PATENT OWNER:
+Eric J. Maiers
+maierse@gtlaw.com
+Michael A. Nicodema
+nicodemam@gtlaw.com
+James J. Lukas
+lukasj@gtlaw.com
+Matthew Levinstein
+levinsteinm@gtlaw.com
+Robbie Harmer
+harmer@gtlaw.com
+
+28
+
+

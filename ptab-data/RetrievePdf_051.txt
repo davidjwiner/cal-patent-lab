@@ -1,0 +1,512 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 8
+Entered: February 12, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+
+BROAD OCEAN TECHNOLOGIES, LLC,
+Petitioner,
+v.
+NIDEC MOTOR CORPORATION,
+Patent Owner.
+____________
+Case IPR2015-01663
+Patent 5,818,194
+____________
+
+Before BENJAMIN D. M. WOOD, JAMES A. TARTAL, and
+PATRICK M. BOUCHER, Administrative Patent Judges.
+BOUCHER, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+On August 3, 2015, Broad Ocean Technologies, LLC (“Petitioner”)
+filed a Petition (Paper 3) pursuant to 35 U.S.C. §§ 311–319 to institute an
+inter partes review of claims 1, 3, 6, 8, 13, 21, 23, 32–34, and 39 of U.S.
+Patent No. 5,818,194 (“the ’194 patent”). Nidec Motor Corporation (“Patent
+Owner”) filed a Preliminary Response (Paper 7, “Prelim. Resp.”) on
+
+IPR2015-01663
+Patent 5,818,194
+November 18, 2015. Applying the standard set forth in 35 U.S.C. § 314(a),
+which requires demonstration of a reasonable likelihood that Petitioner
+would prevail with respect to at least one challenged claim, we deny the
+Petition and do not institute an inter partes review.
+
+I. BACKGROUND
+A. The ’194 Patent (Ex. 1001)
+The ’194 patent describes a “blower motor unit having a variable
+speed motor and that is suitable for direct, drop-in replacement in a
+residential HVAC (heating, ventilation, and air conditioning) system that
+employs a PSC [permanent split capacitor] motor.” Ex. 1001, abst. Figures
+1 and 3 of the ’194 patent are reproduced below.
+
+Figure 1 (top) illustrates a schematic circuit of a prior-art HVAC system, and
+Figure 3 (bottom) provides a schematic block diagram that illustrates a drop2
+
+IPR2015-01663
+Patent 5,818,194
+in replacement, rectangle 10 of Figure 3, for a portion of Figure 1, namely
+rectangle 10A of Figure 1. Id. at col. 3, l. 61, col. 4, ll. 20–23.
+Figure 1 shows a “typical configuration of a fixed speed HVAC motor
+used in residential systems,” with single-phase AC input power supplied
+through connections L1 (the hot side of the AC supply) and N (the neutral
+side at earth potential). Id. at col. 1, ll. 30–36. Power to fixed- or multiplespeed motor M1 is controlled by relay R1 and switch S1, which control
+whether L1C is energized for cooling operation or L1H is energized for
+heating operation. Id. at col. 1, ll. 38–56.
+The ’194 patent states that “state-of-the[-]art HVAC systems use
+electronic variable speed motor controllers,” instead of the fixed- or
+multiple-speed motors illustrated in Figure 1, and asserts that the “standard
+approach for implementing variable speed motors is different from and
+generally more complex than the system used for fixed speed motors.” Id. at
+col. 2, ll. 1–5; see id. at col. 1, ll. 65–67. Accordingly, the ’194 patent
+proposes providing “a ‘drop in’ replacement of a PSC motor in an HVAC
+system to realize [advantages associated with variable-speed motor
+implementations] without requiring changes to the HVAC system.” Id. at
+col. 2, ll. 50–53.
+Such drop-in replacement is illustrated in Figure 3, in which fixed- or
+multiple-speed motor M1 is replaced with rectifier 12, system 14, variable
+speed control and power converter 16, and variable-speed motor M3. Id. at
+col. 4, ll. 20–29. The same inputs, L1C, L1H, and N, are used for both the
+fixed- or multiple-speed system of Figure 1 and the variable-speed system of
+Figure 3. Id. at col. 4, ll. 29–34. System 14 includes a multiplexing unit and
+a reference source. Id. at col. 4, ll. 25–26. The ’194 patent contemplates
+
+3
+
+IPR2015-01663
+Patent 5,818,194
+embodiments in which voltage or current sensing is used to convert a signal
+from an AC source (connected to either L1C or L1H) to a logic level signal,
+and may use corresponding configurations for rectifier 12. Id. at col. 4,
+l. 41–col. 5, l. 5. The multiplexing unit may select one of heating and
+cooling references, depending on which of the inputs L1H or L1C is
+energized with an applied current, so that the selected reference signal is
+applied to a reference input of the variable-speed motor. Id. at col. 8, ll. 6–
+30.
+
+B. Illustrative Claims
+Claims 1 and 39 of the ’194 patent are illustrative of the claims at
+issue:
+1. A variable speed blower motor unit comprising:
+a variable speed motor having at least two operating
+speeds and a reference input for selecting an operating speed;
+a power input comprising a first and a second current
+input, each of the current inputs coupled to the motor so that an
+operating current applied to either of the current inputs supplies
+operating power to the motor;
+a multiplexing unit coupled to the power input and the
+motor reference input, the multiplexing unit selecting one of at
+least a pair of reference signals and applying the selected
+reference signal to the reference input, the selection depending
+upon which of the first and the second current inputs has an
+operating current applied thereto; and
+a reference source coupled to the multiplexing unit and
+supplying the at least a pair of reference signals thereto.
+39. A method of controlling a variable speed motor comprising
+the steps of:
+(a) generating a plurality of reference signals for
+application to a reference input of the motor;
+
+4
+
+IPR2015-01663
+Patent 5,818,194
+(b) supplying operating power to the motor via one of a
+plurality of current inputs;
+(c) selecting one of the plurality of reference signals for
+application to the reference input of the motor in accordance with
+which one of the plurality of current inputs is supplying operating
+power to the motor; and
+(d) applying the selected one of the plurality of reference
+signals to the reference input of the motor to thereby select an
+operating speed of the motor.
+C. References
+Petitioner relies on the following references.
+Ballard
+Dempsey
+Collins
+Ohi
+Shahrodi
+
+US 4,946,096
+US 4,815,524
+US 3,911,677
+US 5,043,642
+US 5,126,642
+
+Aug. 7, 1990
+Mar. 28, 1989
+Oct. 14, 1975
+Aug. 27, 1991
+June 30, 1992
+
+Ex. 1003
+Ex. 1004
+Ex. 1005
+Ex. 1006
+Ex. 1007
+
+D. Asserted Grounds of Unpatentability
+Petitioner challenges claims 1, 3, 6, 8, 13, 21, 23, 32–34, and 39 on
+the following grounds. Pet. 1.
+References
+Ballard and Collins
+Dempsey and Collins
+Ballard, Collins, and Ohi
+Ballard, Collins, and Shahrodi
+
+Basis
+§ 103(a)
+§ 103(a)
+§ 103(a)
+§ 103(a)
+
+Claim(s) Challenged
+1, 6, 8, 21, 23, and 39
+1, 6, 8, 21, 23, and 39
+3 and 32–34
+13
+
+E. Related Proceedings
+The parties assert that the ’194 patent is the subject of Nidec Motor
+Corp. v. Broad Ocean Motor LLC, 2:15-cv-00443-JRG-RSP (E.D. Tex.).
+Pet. 1; Paper 6, 2. Patent Owner also identifies Nidec Motor Corp. v.
+
+5
+
+IPR2015-01663
+Patent 5,818,194
+SNTech, Inc., 4:12-cv-00115 (E.D. Mo.) as involving the ’194 patent.
+Paper 6, 2.
+
+II. ANALYSIS
+A. Claim Construction
+Only terms which are in controversy need to be construed, and then
+only to the extent necessary to resolve the controversy. Vivid Techs., Inc. v.
+Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999).
+
+1. “variable speed blower motor” and “variable speed motor”
+The preamble of independent claim 1 recites a “variable speed blower
+motor unit.” Independent claim 1 also recites, as an element in the body of
+the claim, a “variable speed motor.” A “variable speed motor” is also
+recited in the body of independent claim 21 and in the preamble of claim 39,
+which is directed to a “method of controlling a variable speed motor.”
+Petitioner contends that a person of ordinary skill in the art “would
+understand the term ‘variable speed blower motor’ to denote a motor capable
+of being operated at more than one setting to drive a device that moves air,”
+supporting its position with testimony by Michael D. Sidman, Ph.D. Pet. 14
+(citing Ex. 1008 ¶ 28). Petitioner does not expressly address construction of
+“variable speed motor,” or otherwise distinguish the term from “variable
+speed blower motor.” In responding to Petitioner’s proposed construction of
+“variable speed blower motor,” Patent Owner contends that “one of ordinary
+skill in the art reading the specification would understand that a ‘variable
+speed motor’ is a motor that can be electronically controlled to produce a
+wide range of speeds rather than a fixed set of one or more separate speeds.”
+
+6
+
+IPR2015-01663
+Patent 5,818,194
+Prelim. Resp. 9. We find the parties’ articulated positions relevant to
+construing both “variable speed blower motor” and “variable speed motor.”
+First, we are not persuaded that the preamble’s recitation of a
+“variable speed blower motor” in claim 1 is limiting because “the body of
+the claim fully and intrinsically sets forth the complete invention, including
+all of its limitations.” See Pitney Bowes, Inc. v. Hewlett-Packard Co., 182
+F.3d 1298, 1305 (Fed. Cir. 1999). Because “the preamble offers no distinct
+definition of any of the claimed invention’s limitations, but rather merely
+states . . . the purpose or intended use of the invention, . . . the preamble is of
+no significance to claim construction.” Id. (citing Rowe v. Dror, 112 F.3d
+473, 478 (Fed. Cir. 1997); Corning Glass Works v. Sumitomo Elec. U.S.A.,
+Inc., 868 F.2d 1251, 1257 (Fed. Cir. 1989); Kropa v. Robie, 187 F.2d 150,
+152 (CCPA 1951)). Accordingly, we do not construe expressly “variable
+speed blower motor.”
+Second, we are not persuaded by Petitioner’s reasoning as it applies to
+construction of “variable speed motor.” Petitioner observes that the ’194
+patent “states that [the] objective of the invention is [to] create a variable
+speed blower motor replacement unit that can be used as a drop-in
+replacement unit for the PSC motor,” and that “[t]his objective is achieved
+by allowing the replacement variable speed motor to have the same electrical
+connections as the original PSC motor.” Pet. 13 (citing Ex. 1001, col. 3, ll.
+13–16, col. 4, ll. 13–16). Although we find Petitioner’s characterization of
+the ’194 patent accurate in this respect, we agree with Patent Owner that
+Petitioner’s proposed construction “encompasses the older-style PSC motor
+replaced,” i.e., captures multiple-speed motors. Prelim. Resp. 6–7. The
+
+7
+
+IPR2015-01663
+Patent 5,818,194
+’194 patent expressly distinguishes between multiple-speed and variable
+speed motors:
+The discussion to this point has concerned fixed speed motors,
+or multiple-speed motors, the speeds of which are controlled by
+the selection of taps on the motor winding. Today, state-of-theart HVAC systems use electronic variable speed motor
+controllers. The standard approach for implementing variable
+speed motors is different from and generally more complex than
+the system used for fixed speed motors.
+Ex. 1001, col. 1, l. 65–col. 2, l. 5. We further agree with Patent Owner that
+Dr. Sidman relies on insufficient intrinsic evidence to support the broader
+construction proposed by Petitioner. Prelim. Resp. 7 (citing Ex. 1008 ¶ 28).
+For purposes of this Decision, we construe “variable speed motor” as
+a motor that can be controlled to produce a range of speeds rather than one
+or more fixed or preset speeds.
+
+2. “multiplexing unit”
+Each of independent claims 1 and 21 recites a “multiplexing unit.”
+Petitioner proposes that the term be construed as “a unit that is capable of
+providing, at an output, different electrical signals based on one or more
+inputs.” Pet. 17 (citing Ex. 1008 ¶ 31). Patent Owner does not propose a
+construction of the term. Because our analysis does not require that we do
+so, we do not construe the term expressly for purposes of this Decision.
+
+B. Ballard and Collins
+Petitioner challenges claims 1, 6, 8, 21, 23, and 39 as unpatentable
+under 35 U.S.C. § 103(a) over Ballard and Collins; challenges claims 3 and
+
+8
+
+IPR2015-01663
+Patent 5,818,194
+32–34 as unpatentable under 35 U.S.C. § 103(a) over Ballard, Collins, and
+Ohi; and challenges claim 13 as unpatentable under 35 U.S.C. § 103(a) over
+Ballard, Collins, and Shahrodi. Pet. 12.
+Ballard describes “a method and apparatus for temporarily operating a
+furnace from an auxiliary power source.” Ex. 1003, col. 1, ll. 7–9. Figure 1
+of Ballard is reproduced below.
+
+Figure 1 provides a schematic illustration of electrical circuitry in a
+residential furnace powered by an AC power source connected across
+terminals L1 and L2 via junction box 12 and lines 13 and 14, which are
+connected respectively to main power lines 16 and 17. Id. at col. 3, ll. 23–
+29. The furnace is grounded by ground wire 18. Id. at col. 3, ll. 29–30.
+Auxiliary circuit 20, which includes auxiliary lines 21 and 22, and DC
+battery 23, is automatically connected upon loss of power to terminals L1
+
+9
+
+IPR2015-01663
+Patent 5,818,194
+and L2 by a relay circuit that includes relay R1, relay contacts 28 and 29 in
+lines 16 and 21 respectively, and relay contacts 31 and 32 in lines 17 and 22
+respectively. Id. at col. 3, l. 40–col. 4, l. 6. Petitioner contends that a person
+of ordinary skill in the art “would understand that the input connections of
+Ballard closely map the L1H, L1C and N input connections of the device
+disclosed in Figure 1 of the ‘194 patent,” and supports its contention with
+testimony by Dr. Sidman. Pet. 20 (citing Ex. 1008 ¶ 41). Petitioner further
+asserts that “Ballard senses AC house voltage at the input mains connections
+L1 and L2 by the coil of 33 of ‘low heat only relay’ R2 and provides that
+indication to the microprocessor,” contending that, to a person of ordinary
+skill in the art, “this is equivalent to the sensing of AC power across input
+connections L1C and N in the ’194 patent.” Id. (citing Ex. 1008 ¶ 41).
+Collins describes a hydraulically operated injection molding machine
+for molding synthetic resin materials. Ex. 1005, col. 1, ll. 16–18. The sole
+drawing of Collins is reproduced below.
+
+10
+
+IPR2015-01663
+Patent 5,818,194
+The drawing of Collins illustrates a system in which “an essentially
+conventional variable speed drive” responds to instructions from controller 4
+to vary power supplied to variable-speed DC electric motor 1 from AC
+source 3 via AC/DC converter 2. Id. at col. 3, ll. 20–27. Petitioner contends
+that “Collins teaches both a multiplexing unit and a reference source for
+operation of a variable speed DC electric motor,” and supports that
+contention with testimony by Dr. Sidman. Pet. 21 (citing Ex. 1008 ¶¶ 59,
+60); see Pet. 21–23. Patent Owner does not contest the assertion.
+
+1. Combination of Ballard and Collins
+Petitioner contends that a person of ordinary skill in the art “would
+have been motivated to improve the base device of Ballard with the
+improvement found in Collins.” Pet. 24. Petitioner purports to apply the
+framework set forth in “Exemplary Rationale C” in the Manual of Patent
+Examining Procedure (“MPEP”) § 2143 for use of a known technique to
+improve similar devices in the same way. Id. at 24–26. That section of the
+MPEP sets forth a threshold requirement that “Office personnel must resolve
+the Graham [i.e., Graham v. John Deere Co., 383 U.S. 1 (1966)] factual
+inquires.” MPEP § 2143.I.C. After resolving such factual inquiries,
+Office personnel must articulate the following:
+(1) a finding that the prior art contained a “base” device
+(method, or product) upon which the claimed invention can be
+seen as an “improvement;”
+(2) a finding that the prior art contained a “comparable”
+device (method, or product that is not the same as the base
+device) that has been improved in the same way as the claimed
+invention;
+(3) a finding that one of ordinary skill in the art could have
+applied the known “improvement” technique in the same way to
+
+11
+
+IPR2015-01663
+Patent 5,818,194
+the “base” device (method, or product) and the results would
+have been predictable to one of ordinary skill in the art; and
+(4) whatever additional findings based on the Graham
+factual inquiries may be necessary, in view of the facts of the
+case under consideration, to explain a conclusion of obviousness.
+Id. Petitioner identifies the “base” device as Ballard’s “residential furnace
+with a circulation motor that can be run at low or high speed modes
+corresponding to the respective low or high mode of the burner that is
+connected to a residential AC power source but can automatically connect to
+a second auxiliary power source.” Pet. 25 (citing Ex. 1003, abst., col. 2, ll.
+11–14). Petitioner further identifies the “comparable” device as that
+disclosed by Collins, “in that its speed and torque are controlled by a
+variable speed drive.” Id. (citing Ex. 1008 ¶ 63). Petitioner reasons that
+“the device of Collins provides an improvement in the form of a controller
+that incorporates twelve digital switch units that enables a steady reference
+signal corresponding to a particular motor speed to be set.” Id. (citing Ex.
+1005, col. 3, ll. 27–33; Ex. 1008 ¶ 63).
+First, even effecting the combination articulated by Petitioner does not
+arrive at the structures claimed in independent claims 1 and 21 of the ’194
+patent, nor does it arrive at the method claimed in independent claim 39.
+Underlying Petitioner’s analysis for each of these independent claims is its
+position that “Ballard discloses the (1) variable speed motor, (2) reference
+input and (3) power inputs.” See Pet. 17. But the multiple-speed motor
+described by Ballard is not a “variable speed motor,” as we have construed
+the term. Rather, “Ballard discloses a multiple fixed speed motor of the type
+replaced by the invention claimed in the ’194 patent.” Prelim. Resp. 21
+(citing Ex. 1003, col. 1, ll. 59–63; Ex. 1008 ¶ 38).
+12
+
+IPR2015-01663
+Patent 5,818,194
+Second, we are not persuaded that Petitioner has identified adequately
+in Collins a “comparable” device that has been improved in the same way as
+the claimed invention. That is, Petitioner has not demonstrated sufficiently
+that Collins is analogous art, as necessary for a reference to qualify as prior
+art for an obviousness determination under 35 U.S.C. § 103(a). See In re
+Klein, 647 F.3d 1343, 1348 (Fed. Cir. 2011). “Two criteria have evolved for
+determining whether prior art is analogous: (1) whether the art is from the
+same field of endeavor, regardless of the problem addressed, and (2) if the
+reference is not within the field of the inventor’s endeavor, whether the
+reference still is reasonably pertinent to the particular problem with which
+the inventor is involved.” In re Clay, 966 F.2d 656, 658 (Fed. Cir. 1992).
+(citing In re Deminski, 796 F.2d 436, 442 (Fed. Cir. 1986); In re Wood, 599
+F.2d 1032, 1036 (CCPA 1979)). Petitioner has not shown that controlling
+various stages of an injection molding machine is within the same field of
+endeavor as the ’194 patent, which is concerned with HVAC systems and
+“an improved variable speed control . . . designed to be connected to the
+standard power terminals used for a permanent split capacitor (PSC) motor.”
+Ex. 1001, col. 1, ll. 9–10. Nor has Petitioner demonstrated sufficiently that
+Collins’s driving of hydraulic pumps is reasonably pertinent to that
+particular problem.
+Dr. Sidman testifies that, in his opinion, “the device of Collins is a
+comparable device to the device[] of Ballard . . . in that the motor’s speed or
+torque can be controlled by a variable speed drive.” Ex. 1008 ¶ 63. Such
+reasoning presumes that Ballard describes a variable speed motor that could
+benefit from the variable control taught by Collins, a presumption we find
+unwarranted in light of our construction of the term “variable speed motor.”
+
+13
+
+IPR2015-01663
+Patent 5,818,194
+For the foregoing reasons, we conclude that Petitioner has not
+demonstrated a reasonable likelihood of prevailing on its challenge of
+independent claims 1, 21, or 39 as unpatentable under 35 U.S.C. § 103(a)
+over Ballard and Collins, nor has it demonstrated a reasonable likelihood of
+prevailing on its challenge of claims 3, 6, 8, 13, 23, or 32–34, which suffers
+from the same deficiencies.
+
+C. Dempsey and Collins
+Petitioner challenges claims 1, 6, 8, 21, 23, and 39 as unpatentable
+under 35 U.S.C. § 103(a) over Dempsey and Collins. Pet. 12. Dempsey
+relates to “a speed control system for a furnace air delivery blower operating
+continuously.” Ex. 1004, col. 1, ll. 8–10. In particular, Dempsey addresses
+a problem of “condensate dwell” that results from condensation of flue gases
+within a furnace’s heat exchanger during the beginning of a heating cycle,
+when the heat exchanger is cold. Id. at col. 1, ll. 31–36. To overcome this
+problem, Dempsey discloses sensing when the blower is in a continuous
+mode of operation—if such a mode is sensed at the start of a heating cycle,
+the blower is automatically turned off, and a predetermined period of time is
+allowed to elapse for the heat exchanger to warm after ignition. Id. at col. 2,
+ll. 28–36.
+Figure 3 of Dempsey is reproduced below.
+
+14
+
+IPR2015-01663
+Patent 5,818,194
+
+Figure 3 illustrates the control circuitry of a forced-air furnace that includes
+the above-described sensing capability. Id. at col. 3, ll. 13–14. Blower
+motor 32 is powered by parallel leads 41 and 42 for low- and high-speed
+connections, respectively. Id. at col. 3, ll. 22–28. Normally, relay contact
+43 (connected to low-speed lead 41) is closed and relay contact 44
+(connected to high-speed lead 42) is open. Id. at col. 4, ll. 21–27. As
+Petitioner observes, “relay contacts 43 and 44 are controlled to cause the
+blower motor to operate at either low or high speeds.” Pet. 37 (citing Ex.
+15
+
+IPR2015-01663
+Patent 5,818,194
+1004, col. 4, ll. 31–34). Dempsey thus discloses a multiple-speed motor
+with two fixed speeds. See Prelim. Resp. 29 (citing Ex. 1008 ¶ 50).
+Dempsey implements its control mechanism with microprocessor 62. Ex.
+1004, col. 4, l. 36–col. 5, l. 18.
+Petitioner identifies Collins as teaching “a multiplexing unit and a
+reference source.” Pet. 37. Petitioner’s analysis of claims 1, 6, 8, 21, 23,
+and 39 generally parallels its analysis of its challenge of those claims as
+unpatentable under 35 U.S.C. § 103(a) over Ballard and Collins. That is,
+Petitioner purports to apply the framework set forth in “Exemplary
+Rationale C” of MPEP § 2143 to argue that claims 1, 6, 8, 21, 23, and 39
+would have been obvious over the combination of Dempsey and Collins,
+identifying the furnace of Dempsey as a “base” device and the Collins
+device as a “comparable” device that has been improved in the same way as
+the claimed invention. Id. at 37–39.
+Our analysis also parallels our analysis of the Ballard-Collins grounds.
+First, the multiple-speed motor described by Dempsey is not a “variable
+speed motor,” as we have construed the term. Second, Petitioner has not
+persuaded us that it has identified adequately in Collins a “comparable”
+device that has been improved in the same way as the claimed invention, as
+Petitioner contends. Petitioner has not demonstrated sufficiently that Collins
+is analogous art because it has not shown persuasively that Collins is either
+within the same field of endeavor as the ’194 patent or reasonably pertinent
+to the problem of improved variable speed control designed to be connected
+to the standard power terminals used for a PSC motor. See supra.
+
+16
+
+IPR2015-01663
+Patent 5,818,194
+Accordingly, we conclude that Petitioner has not demonstrated a
+reasonable likelihood of prevailing on its challenge of claims 1, 6, 8, 21, 23,
+and 39 as unpatentable under 35 U.S.C. § 103(a) over Dempsey and Collins.
+
+III. ORDER
+In consideration of the foregoing, it is hereby:
+ORDERED that the Petition is denied and no inter partes review is
+instituted.
+
+17
+
+IPR2015-01663
+Patent 5,818,194
+PETITIONER
+Steven Myer
+smeyer@lockelord.com
+Joseph A. Farco
+jfarco@lockelord.com
+Lithaw L. Lim
+hlim@lockelord.com
+ptopatentcommunication@lockelord.com
+PATENT OWNER
+Scott R. Brown
+sbrown@hoveywilliams.com
+Matthew B. Walters
+mwalters@hoveywilliams.com
+litigation@hoveywilliams.com
+HOVEY WILLIAMS LLP
+
+18
+
+

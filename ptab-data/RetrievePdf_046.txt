@@ -1,0 +1,542 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 9
+Entered: July 20, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+MICRON TECHNOLOGY, INC. and
+UNIFIED PATENTS, INC.
+Petitioners,
+v.
+MLC INTELLECTUAL PROPERTY, LLC,
+Patent Owner.
+
+Case IPR2015-00504
+Case IPR2015-005171
+Patent 5,764,571
+
+Before KEVIN F. TURNER, DONNA M. PRAISS, and
+PETER P. CHEN, Administrative Patent Judges.
+TURNER, Administrative Patent Judge.
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+1
+
+We use this caption in this paper to indicate that this Decision applies to, and is
+entered in, both cases. The parties are not authorized to use this caption.
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+I.
+A.
+
+INTRODUCTION
+
+Background
+Petitioner, Micron Technology, Inc. (“Micron”), filed a Petition (IPR2015-
+
+00504, Paper 2, “Pet.”) to institute an inter partes review of claims 1, 9, 10, 12, 30,
+32, 42, and 45 (the “challenged claims”) of U.S. Patent No. 5,764,571 (Ex. 1001,
+the “’571 Patent”). See 35 U.S.C. § 311. Patent Owner, MLC Intellectual
+Property, LLC, filed a Preliminary Response (Paper 7, “Prelim. Resp.”). We have
+jurisdiction under 35 U.S.C. § 314(a).
+Subsequently, Petitioner Unified Patents, Inc. filed a Petition (IPR201500517, Paper 1) to institute an inter partes review of the same challenged claims of
+the ’571 Patent. The proposed grounds in each petition are the same and each
+reference relied on in the ’504 Petition also is relied on in the ’517 Petition. Both
+petitions rely on the same Declaration by Dr. R. Jacob Baker (Ex. 1003), and also
+rely on additional exhibits, identical in each. This is acknowledged by Patent
+Owner (IPR2015-00517, Paper 7, 2), where Patent Owner points out that Ex. 1011
+in the ’504 Petition was not included in the ’517 Petition because it was indicated
+as being not available because that exhibit allegedly is confidential. Id. at 2–3.
+Patent Owner also suggests that Micron “lift[ed] the Micron Petition and
+photocop[ied] the supporting exhibits” (id. at 2), but we need not reach such a
+conclusion to decide the merits of the petitions filed. The issues presented in each
+case are essentially the same. Accordingly, to facilitate the just, speedy, and
+inexpensive resolution of these cases, we address both Petitions in this Decision.2
+
+2
+
+All citations to the record are to the ’504 Petition (generally, “Pet.”), unless
+indicated otherwise.
+2
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+We review the Petitions under 35 U.S.C. § 314, which provides that an inter
+partes review may not be instituted “unless . . . there is a reasonable likelihood that
+the petitioner would prevail with respect to at least 1 of the claims challenged in
+the petition.”
+Based on our review of the record, we conclude that neither Petitioner is
+reasonably likely to prevail in demonstrating that at least one of the challenged
+claims is not patentable, based on the Petitions filed. See 35 U.S.C. § 314.
+B.
+
+Grounds
+Petitioners contend that the challenged claims are unpatentable under
+
+35 U.S.C. § 103(a) over two grounds (Pet. 3):
+(1) claims 1, 9, 10, 12, 30, 42, and 45 as obvious over Kitamura3; and
+(2) claims 1, 9, 12, 30, 32, 42, and 45 as obvious over Mehrotra4.
+C.
+
+Related Proceedings
+Petitioner states that the ’571 Patent is or was at issue in MLC Intellectual
+
+Property, LLC v. Micron Technology, Inc., No. 3:14-cv-03657 (N.D. Cal.); BTG
+International Inc. v. Apple Inc. et al., No. 2:09-cv-00223 (E.D. Tex. July 20,
+2009); BTG International Inc. v. Samsung Electronics Co. LTD et al., No. 2:08-cv00482 (E.D. Tex.); and MLC Flash Memory Devices and Products Containing
+Same, Inv. No. 337-TA-683 (Completed). Pet. 1.
+
+3
+
+Japanese Unexamined Patent Application Publication No. S62-34398, Ex. 1015,
+where we rely on the certified English translation thereof, Ex. 1010 (“Kitamura”).
+4
+U.S. Patent No. 5,172,338 (“Mehrotra”).
+3
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+II.
+A.
+
+THE ’571 PATENT
+
+Overview
+The ’571 Patent is titled, “Electrically Alterable Non-Volatile Memory with
+
+N-Bits per Cell,” and “relates to non-volatile memory (NVM) devices; and, more
+particularly, is concerned with an apparatus and method for programming and/or
+verifying programming of a multi-level NVM device with stable reference
+voltages.” Ex. 1001, 1:17–21. The ’571 Patent asserts to develop “a multi-bit
+semiconductor memory cell that has the non-volatile characteristic of a mask
+programmable read-only-memory (ROM) and the electrically alterable
+characteristic of a multi-bit per cell DRAM,” such as a multi-bit per cell
+electrically alterable non-volatile memory (EANVM). Id. at 2: 31–37.
+An embodiment of the ’571 Patent discloses a reading process for a memory
+cell configured to store two bits of information, and thus having four memory
+states such as (0,0), (1,0), (0,1), and (1,1), and having three sense amplifiers (154,
+156 and 158) to determine the current memory state of the memory cell, as shown
+in Figure 6 below. Id. at 7:9–55.
+
+4
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+Figure 6 is a block diagram for reading a multi-bit per cell EANVM system.
+Each of the three sense amplifiers uses a different reference signal/voltage (i.e.,
+Ref 1, Ref 2, and Ref 3) to collectively distinguish between the four memory
+states, and they collectively output a two bit representation of the memory state at
+I/O terminals 162 and 164. Id. at 7:3138.
+
+B.
+
+Illustrative Claim
+Of the challenged claims, claims 1, 9, 12, 30, 42, and 45 are independent
+
+claims. Claim 1 is illustrative and recites:
+1.
+
+A multi-level memory device comprising:
+
+an electrically alterable non-volatile multi-level memory cell
+for storing input information in a corresponding one of Kn
+predetermined memory states of said multi-level memory cell, where
+K is a base of a predetermined number system, n is a number of bits
+stored per cell, and Kn >2;
+memory cell programming means for programming said multilevel memory cell in accordance with said input information;
+reference voltage selecting means for selecting one of a
+plurality of reference voltages in accordance with said input
+information, each of said reference voltages corresponding to a
+different one of said predetermined memory states; and
+comparator means for comparing a voltage of said multi-level
+memory cell with the selected reference voltage, said comparator
+means further generating a control signal indicating whether the state
+of said multi-level memory cell is the state corresponding to said input
+information.
+Ex. 1001, 12:626.
+
+5
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+III.
+
+CLAIM CONSTRUCTION
+
+As a step in our analysis for determining whether to institute a trial, we
+interpret the claims. Consistent with the statute and the legislative history of the
+Leahy-Smith America Invents Act, Pub. L. No. 11229, 125 Stat. 284 (2011)
+(“AIA”), we analyze patentability using the broadest reasonable interpretation of
+the claims in an unexpired patent. See 37 C.F.R. § 42.100(b); Office Patent Trial
+Practice Guide, 77 Fed. Reg. 48,756–48,963 (Aug. 14, 2012).
+For the purposes of this decision, and on this record, we determine that no
+claim term needs express interpretation apart from the following. See Vivid Techs.,
+Inc. v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999) (only those
+terms which are in controversy need to be construed, and only to the extent
+necessary to resolve the controversy).
+A.
+
+Reference Voltage Selection
+Claim 1 recites “reference voltage selecting means for selecting one of a
+
+plurality of reference voltages,” with claims 9, 12, and 30 reciting “selecting
+device which selects one of a plurality of reference signals,” and claims 42 and 45
+reciting “selecting one of a plurality of predetermined reference signals.”
+Petitioners acknowledge that the means-plus-function element in claim 1 is
+“governed by 35 U.S.C. § 112, ¶ 6,” and that the construction of the claim term in
+claim 1 “is applicable to claim terms” recited in claims 9, 12, 30, 42, and 45,
+discussed above. Pet. 5, 8.
+Petitioners assert that “the verify reference voltage select circuit 222 selects
+and provides such a reference voltage to the comparator,” and is the corresponding
+structure described in the specification. Id. at 56 (citing Ex. 1003 ¶¶ 4552). For
+
+6
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+purposes of this Decision, we construe the referenced claim terms according to that
+structure and apply the same to the analysis below.
+B.
+
+“Reference Voltages” “Reference Signals”
+All of the independent claims of the challenged claims recite either
+
+“reference signals” or “reference voltages.” Petitioners emphasize that “a person
+of ordinary skill in the art would have interpreted these features to be broad enough
+to include and be met by either a digital reference voltage/ signal or an analog
+reference voltage/signal.” Id. at 10 (citing Ex. 1003 ¶¶ 53–58). For purposes of
+this Decision, we construe the reference voltages and signals terms as being met by
+either digital or analog reference voltages/signals, and apply that construction to
+the analysis below.
+
+IV.
+A.
+
+OBVIOUSNESS OVER KITAMURA
+
+Overview
+On the record before us, for the reasons that follow, we are not persuaded
+
+there is a reasonable likelihood that Petitioners will prevail in demonstrating that
+the challenged claims are unpatentable over Kitamura.
+Petitioners contend that challenged claims 1, 9, 10, 12, 30, 42, and 45 are
+unpatentable under 35 U.S.C. § 103(a) over Kitamura. Pet. 19–38. Specifically,
+Petitioners argue that Kitamura teaches most aspects of the claimed subject matter,
+and proposes to modify Kitamura by combining specific circuitry disclosed “for
+use in performing the programming function (e.g., applying a program signal) of
+the ‘memory cell programming means’ and ‘programming signal source.’” Id. at
+25–26. Patent Owner counters that Kitamura does not teach or suggest a
+
+7
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+“reference voltage selecting means,” or “reference voltages,” per the challenged
+claims. Prelim. Resp. 4–10.
+B.
+
+Analysis
+Petitioners contend that Kitamura discloses an electrically alterable, non-
+
+volatile memory device with a memory cell capable of storing two bits of
+information, requiring four memory states. Pet. 19–20 (citing Ex. 1010 ¶ 6).
+
+Figure 1 of Kitamura illustrates a block diagram for its memory device.
+Petitioners contend that the memory device of Kitamura includes memory
+cell 1, which can be programmed to one of four memory states. Ex. 1010 ¶¶ 9, 14.
+The cell is programmed by iteratively applying writing signals/programming
+pulses to the cell to move the memory state to its desired state, whereby the
+programming ceases when then device determines that the memory cell is correctly
+programmed based on a comparison of a signal representing the current memory
+state of the cell with a signal representing the desired memory state (9 in Fig. 1).
+
+8
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+Id. The desired memory state signal is produced by D/A (digital-to-analog)
+conversion circuit 10 based on the inputs B0 and B1. Id. at ¶¶ 9–11, 14. The
+memory device also includes A/D (analog-to-digital) conversion circuit 13 to read
+and output (D0 and D1) the current state of the memory cell. Id.
+Petitioners also contend that “the D/A conversion circuit 10 converts the two
+digital bits B0 and B1 to an analog signal by selecting the analog signal that
+corresponds to bits B0 and B1,” and provide a mapping table (Table 1) as an
+example of input B0 and B1 values and output analog signals. Pet. 22–23.
+Petitioners’ declarant, Dr. R. Jacob Baker, further provides that one of ordinary
+skill in the art would have known to configure the output voltages of D/A
+conversion circuit 10 to be toward the middle of ranges used to read the different
+states to reduce false reads. Ex. 1003 ¶¶ 74–75. Dr. Baker also provides that the
+output of the D/A conversion circuit may be non-linear or random in the circuits
+employed by Kitamura. Id. at ¶ 76. Dr. Baker continues with an example of how
+an output voltage may be chosen (id. at ¶¶ 77–79), but this discussion goes beyond
+and indeed, does not cite to the explicit disclosure of Kitamura.
+Patent Owner contends that based on evidence and arguments submitted in
+the Petitions, Petitioners have not demonstrated that the D/A conversion circuit
+makes a selection of any type, or selects among a plurality of reference voltages.
+Prelim. Resp. 6. Patent Owner elaborates that both Kitamura and Petitioners
+discuss the D/A conversion circuit as converting the input bits, not selecting a
+reference signal or voltage, and that selection cannot mean the same as conversion
+if applying plain meanings to both terms. Id. at 6–8. Lastly, Patent Owner points
+out that Petitioners have relied solely upon D/A conversion circuit 10 of Kitamura
+to teach the selecting device / selecting one of a plurality of reference signals in
+
+9
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+accordance with the input information elements of the claims. Id. at 9–10 (citing
+Pet. 29–30). We agree with Patent Owner.
+Kitamura is largely silent as to the specific functioning of the D/A
+conversion circuit 10. Kitamura discloses that D/A conversion circuit 10 and A/D
+conversion circuit 13 “preferably share a voltage dividing element and a reference
+voltage supply (for the purpose of making their characteristics uniform),” and level
+differences to maximize the operating margin (Ex. 1010 ¶ 11), but does not
+disclose a “selection” between reference voltages or signals. Although Petitioners
+emphasize the obviousness of certain elements of the challenged claims (Pet. 25–
+26), the obviousness of selecting a reference voltage versus outputting a voltage
+from a D/A conversion is not discussed. Indeed, Dr. Baker’s discussion is clear
+(Ex. 1003 ¶¶ 74–79) as to how the output voltages could be set, but it remains
+unclear how Kitamura itself suggests the examples proffered. The normal function
+of a D/A converter is not to select between reference voltages, but to render the
+digital input into analog form. We are not persuaded that Kitamura teaches or
+suggests the selection of one of a plurality of reference voltages in accordance with
+the input information, per the challenged claims. In addition, the Petitions fail to
+provide any rationale for why Kitamura’s disclosure of D/A conversion renders the
+selection of a reference voltage or signal obvious.
+For these reasons, Patent Owner’s contentions that Kitamura does not teach
+or suggest “reference voltage selecting means,” or equivalent elements, or
+“reference voltages,” per the challenged claims, are persuasive.
+C.
+
+Conclusion
+Having considered the Petitions and Patent Owner’s Preliminary Response,
+
+we determine that Petitioners have not demonstrated a reasonable likelihood of
+
+10
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+prevailing in establishing that challenged claims 1, 9, 10, 12, 30, 42, and 45 are
+unpatentable as obvious over Kitamura.
+
+V.
+A.
+
+OBVIOUSNESS OVER MEHROTRA
+
+Overview
+On the record before us, for the reasons that follow, we are not persuaded
+
+there is a reasonable likelihood that Petitioners will prevail in demonstrating that
+the challenged claims are unpatentable over Mehrotra.
+Petitioners contend that challenged claims 1, 9, 12, 30, 32, 42, and 45 are
+unpatentable under 35 U.S.C. § 103(a) over Mehrotra. Pet. 38–58. Specifically,
+Petitioners argue that Mehrotra teaches most aspects of the claimed subject matter,
+and proposes that it would have been obvious to implement digital and analog
+versions of the verification elements of the challenged claims. Id. at 42–45. Patent
+Owner counters that Mehrotra does not teach or suggest a “reference voltage
+selecting means,” per the challenged claims. Prelim. Resp. 10–16.
+B.
+
+Analysis
+Petitioners contend that Mehrotra discloses an electrically alterable, non-
+
+volatile memory device with memory cells each capable of storing more than one
+bit of information. Pet. 38 (citing Ex. 1004, 2:14–15). Mehrotra’s memory device
+130 includes Read Circuits 220 to read the current memory state of a memory cell
+in Addressable EEPROM Array 60, Read/Program Latches and Shift Registers
+(RPLSR) 190 to select and determine the reference signal corresponding to the
+desired memory state for a memory cell, and Compare Circuit 200, as illustrated in
+Figure 5, reproduced below. Id. at 7:59–8:27.
+
+11
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+
+Figure 5 (partial) is a block diagram for Mehrotra’s EEPROM system.
+Petitioners also contend that the Compare Circuit receives information from
+the RPLSR and information corresponding to the current memory state of the
+memory cell through the Read Circuits, and compares the current memory state to
+the desired memory state to determine if the memory cell is correctly programmed
+to the desired memory state. Pet. 39 (citing Ex. 1004, 20:4–16).
+Patent Owner contends that Petitioners have purported to identify the
+“reference voltage selection means” as the RPLSR circuit of Mehrotra, but such a
+circuit does not make a selection, per the challenged claims. Prelim. Resp. 11.
+12
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+Patent Owner continues that Mehrotra discloses that data to be programmed into a
+memory cell are latched or stored in the RPLSR circuit, but that Petitioners have
+provided “no evidence that latching or storing of data bits involves a ‘selection’ or
+a selection of ‘one of a plurality of voltage references.’” Id. at 11–12 (citing Ex.
+1004, 19:27–56, 65–66). Additionally, Patent Owner points out that Mehrotra’s
+RPLSR circuit provides a similar function to the 2-bit input latch/buffer 224,
+discussed in the ’571 Patent (Ex. 1001, 8:40–43, Fig. 8), which is different from
+the verify reference voltage select circuit 222, also discussed in the ’571 Patent and
+acknowledged by Petitioners as the corresponding structure for the claimed
+“reference voltage selecting means.” Prelim. Resp. 14–15. Lastly, Patent Owner
+argues that Mehrotra also fails to disclose “a plurality of reference voltages in
+accordance with said input information.” Id. at 16. We agree with Patent Owner.
+Petitioners allege that “the RPLSR 190, selects and provides a voltage or
+current signal(s) or waveform(s) that represents the desired memory state to the
+Compare Circuit.” Pet. 40. However, Mehrotra details that “the data [are] staged
+for programming the addressed cell by being sent via a serial data line 259 to a set
+of read/program latches and shift registers 190.” Ex. 1004, 8:25–27. This
+indicates that the RPLSR receives data and sets registers, but does not disclose that
+a reference voltage or signal, from a plurality of reference signals or voltages, is
+selected by the RPLSR, per the challenged claims. Although it appears that the
+RPLSR produces a reference signal, representing the input information in bit form
+of the desired memory state, we are not persuaded that this is the same as the
+selection of one of a plurality of reference voltages in accordance with the input
+information, per the challenged claims.
+In addition, Petitioners and Petitioners’ declarant, Dr. Baker, discuss at
+length the obviousness of producing an analog implementation of Mehrotra’s
+13
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+digital verify process through the Compare Circuit (Pet. 42–45, Ex. 1003 ¶¶ 98–
+104). Although it might have been obvious to devise an analog implementation of
+Mehrotra’s verify process, Mehrotra provides no teaching or suggestion that such
+an implementation would select a reference voltage or signal in such an analog
+implementation. Any analog implementation of a digital process, and vice versa,
+would maintain the same function prescribed, to be considered obvious. Without
+some other suggestion for the selection of a reference voltage or signal, we are not
+persuaded that such a transformation (digital to analog) would necessarily meet the
+limitations of the challenged claims.
+Additionally, although Petitioners and Dr. Baker discuss Kokubun5 and Lee6
+with respect to analog voltage comparison circuits for memory devices being
+generally well known in the art (Pet. 43, Ex. 1003 ¶¶ 98–100), we agree with
+Patent Owner that Petitioners have not sought institution of grounds over Mehrotra
+in combination with Kokubun, Lee, or some combination of all three. Prelim.
+Resp. 17. There is no discussion in the Petitions of such combinations and the
+mere recitation of elements being prior art is not necessarily sufficient to show
+obviousness. “[A] patent composed of several elements is not proved obvious
+merely by demonstrating that each of its elements was, independently, known in
+the prior art.” KSR Int’l Co. v. Teleflex, Inc., 550 U.S. 398, 418 (2007).
+For these reasons, Patent Owner’s contentions that Mehrotra does not teach
+or suggest “reference voltage selecting means,” or equivalents, per the challenged
+claims, are persuasive.
+
+5
+6
+
+U.S. Patent No. 4,952,821.
+U.S. Patent No. 5,319,348.
+14
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+C.
+
+Conclusion
+Having considered the Petitions and Patent Owner’s Preliminary Response,
+
+we determine that Petitioners have not demonstrated a reasonable likelihood of
+prevailing in establishing that challenged claims 1, 9, 12, 30, 32, 42, and 45 are
+unpatentable as obvious over Mehrotra.
+
+VI.
+
+DUPLICATION OF EFFORT
+
+Patent Owner contends that the grounds of the ’517 Petition should be
+denied because they are duplicative of the grounds provided in the ’504 Petition.
+IPR2015-00517, Prelim. Resp. 19–20. Given that we institute on no ground
+recited in either Petition, Patent Owner’s contentions are moot.
+
+VII. MOTION TO SEAL
+Petitioner Micron also filed a Motion to Seal (IPR2015-00504, Paper 3),
+requesting that the Infringement Contentions filed as Exhibit 1011 to the Petition
+be treated as Protective Order Material and be sealed such that Exhibit 1011 is
+available only to the Board, and parties to the Petition in accord with 37 C.F.R. §
+42.55. Petitioner Micron asserts that the Exhibit contains proprietary information
+(“[t]he Infringement Contentions include proprietary information concerning
+the operation of Petitioner’s products, which is information not publically made
+available by Petitioner”), and sought use of the default protective order set forth in
+the Office Patent Trial Practice Guide. Paper 3, 1–2. Patent Owner has not
+opposed this Motion.
+The standard for granting a motion to seal is “good cause,” reflecting the
+strong public policy for making all information in inter partes review proceedings
+
+15
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+open to the public. 37 C.F.R. § 42.54. The moving party bears the burden of
+showing that the relief requested should be granted. 37 C.F.R. § 42.20(c). This
+includes showing that the information is truly confidential, and that such
+confidentiality outweighs the strong public interest in having an open record. See
+Garmin Int’l v. Cuozzo Speed Techs., LLC, Case IPR2012-00001, slip op. at 3
+(PTAB Mar. 14, 2013) (Paper 36). Petitioner Micron has made a sufficient
+showing.
+Accordingly, the Motion to Seal Exhibit 1011 is granted.
+
+VIII. ORDER
+For the reasons given:
+It is ORDERED that the Petitions are denied as to all challenged claims;
+It is FURTHER ORDERED that no inter partes review is instituted;
+It is FURTHER ORDERED that Petitioner Micron’s Motion to Seal is
+granted;
+It is FURTHER ORDERED that the proposed protective order appended as
+Exhibit A to Paper 3 (IPR2015-00504) is entered in this proceeding;
+It is FURTHER ORDERED that Exhibit 1011 in IPR2015-00504
+remains sealed.
+
+16
+
+IPR2015-00504
+IPR2015-00517
+Patent 5,764,571
+PETITIONERS:
+Micron Technology, Inc.
+Timothy W. Riffe
+Adam R. Shartzer
+FISH & RICHARDSON P.C.
+riffe@fr.com
+IPR36144-0014IP1@fr.com
+Unified Patents, Inc
+Linda J. Thayer
+Rachel L. Emsley
+FINNEGAN, HENDERSON, FARABOW, GARRETT & DUNNER, LLP
+linda.thayer@finnegan.com
+rachel.emsley@finnegan.com
+Jonathan Stroud
+UNIFIED PATENTS INC.
+jonathan@unifiedpatents.com
+PATENT OWNER:
+Jason S. Angell
+Robert E. Freitas
+Daniel J. Weinberg
+FREITAS ANGELL & WEINBERG LLP
+jangell@fawlaw.com
+rfreitas@fawlaw.com
+dweinberg@fawlaw.com
+
+17
+
+

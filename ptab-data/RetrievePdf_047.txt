@@ -1,0 +1,297 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 27
+Date Entered: August 19, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+APPLE INC.,
+Petitioner
+v.
+WISCONSIN ALUMNI RESEARCH FOUNDATION,
+Patent Owner.
+____________
+Case IPR2014-01567
+Patent 5,781,752
+____________
+Before JUSTIN T. ARBES, BRIAN J. McNAMARA, and
+J. JOHN LEE, Administrative Patent Judges.
+McNAMARA, Administrative Patent Judge.
+
+DECISION ON REQUEST FOR REHEARING
+37 C.F.R. § 42.71(d)
+
+Case IPR2014-01567
+Patent 5,781,752
+On May 15, 2015, Apple Inc. (“Petitioner”) filed a request for rehearing,
+Paper 25 (“Req. Reh’g”), of our Decision Denying Institution of Inter Partes
+Review, Paper 23 (“Dec. on Inst.”), entered on April 15, 2015. The burden of
+showing a decision should be modified lies with the party challenging the decision.
+37 C.F.R. § 42.71(d). When rehearing a decision on petition, the Board will
+review the decision for an abuse of discretion. 37 C.F.R. § 42.71(c). The request
+must specifically identify all matters the party believes the Board misapprehended
+or overlooked, and the place where each matter was previously addressed. 37
+C.F.R. § 42.71(d). For the reasons discussed below, Petitioner’s Request for
+Rehearing is DENIED.
+U.S. Patent No. 5,781,752 (“the ’752 Patent”) concerns systems, such as an
+instruction level parallel (ILP) processing unit, in which it is possible to execute an
+instruction that loads data into a processing unit before the appropriate data for that
+instruction has been stored or updated, resulting in an error that cannot be ignored.
+Dec. on Inst. 3 (citing Ex, 1001, col. 1, l. 50–col. 2, l. 12). The ’752 Patent notes
+that in an ILP processor, data speculation circuits detect data dependencies and
+report to a retirement circuit that writes final results to memory or squashes the
+result of any mis-speculation, i.e., an instruction that executed out of program
+order and produced an erroneous result because the instruction was in fact
+dependent on an earlier instruction in the execution order. Ex. 1001, col. 2, l. 60–
+col. 3, l. 8. According to the ’752 Patent, data speculation circuitry known at the
+time of the invention speculated on all memory accesses or none at all. Id. at col.
+3, ll. 8–11.1
+The ’752 Patent states that the invention is based on the recognition that
+most data dependence mis-speculations can be attributed to a few static
+1
+
+Petitioner disputed this characterization, citing Hesson (Ex. 1003). Pet. 7.
+2
+
+Case IPR2014-01567
+Patent 5,781,752
+STORE/LOAD instruction pairs that exhibit “temporal locality” and that if one
+LOAD/STORE pair of instructions causes a data mis-speculation at a given point
+in time, it is highly likely the same pair will soon cause another mis-speculation.
+Id. at col. 3, ll. 54–57. Dec. on Inst. 4 (citing Ex. 1001, col 3, 54–57). If an
+instruction has no history of mis-speculation, it is executed without further inquiry;
+but if there has been a mis-speculation for a given load instruction, a predictor
+based on the past history of mis-speculation determines whether the instruction
+should be executed or delayed. Id. (citing Ex. 1001, col. 3, l. 64–col. 4, l. 4,
+col. 11, ll. 19–24).
+Petitioner contends that starting from the Hesson reference, there are three
+ways to track prediction based on the history of load-store mis-speculation: (1) by
+store instruction (as taught by Hesson); (2) by load instruction; and (3) by loadstore pair (as taught by Steely). Req. Reh’g 2 (citing Pet. 35–36). Hesson
+discloses a store violation condition and the use of a store barrier cache to predict
+whether a store violation condition is likely to occur, and, if so, to restrict the issue
+of instruction to the load/store unit until the store instruction has been executed and
+it is once again safe to proceed with out-of-order execution. Dec. on Inst. 10
+(citing Ex. 1003, at col. 2, ll. 1–7). In Steely, tags indicate whether memory
+reference instructions previously reordered and executed experienced a collision.
+Id. at 11 (citing Ex. 1004, Abstract, col. 2, ll. 64–66). The second time a
+troublesome load-store pair is encountered, the system will not reorder the load in
+front of the store. Id. (citing Ex. 1004, col. 48, ll. 51–53).
+The Petition concedes that Hesson does not expressly describe a process that
+associates a prediction with a particular data consuming [e.g., load] instructions, as
+recited in claim 1, but contends that a person of ordinary skill would have
+considered that distinction to have been an obvious variation of the processor
+3
+
+Case IPR2014-01567
+Patent 5,781,752
+described in Hesson in view of the teaching in Steely. Dec. on Inst. 12 (citing Pet.
+27–28, citing Colwell Decl., Ex. 1002 ¶ 64). Patent Owner contends that the
+inventors of the ’752 Patent recognized that the goals of prediction in such systems
+need not be constrained, as in Hesson, or abandoned, as in Steely. Id. at 12–13
+(citing Prelim. Resp. 9). Therefore, our Decision Denying Institution focused on
+the propriety of Petitioner’s proposed combination of the references, which
+substitutes the store-load pairs from Steely’s all-or-nothing approach, for the data
+producing store instructions in Hesson’s predictive approach. Id. at 14.
+In our Decision Denying Institution, we determined that, in view of the
+alternative approaches cited by Patent Owner, we were not persuaded by
+Petitioner’s argument that only the three alternatives identified by Petitioner would
+be considered by one of ordinary skill. Id. at 16. In the Request for Rehearing,
+Petitioner argues that on this point we failed to consider Hesson (Ex. 1003) as the
+starting point of our analysis. Req. Reh’g 2. The Petition, however, also states
+that one of ordinary skill would have recognized that “any of these three
+approaches could have been used in a predictor for predicting data dependences in
+an out-of-order processor.” Pet. 36. Patent Owner’s citation to other references
+was a rebuttal to Petitioner’s assertion that only three approaches exist to predict
+data dependencies in an out-of-order processor.
+According to Petitioner, we overlooked or misapprehended the specific
+disclosure in Hesson of a dynamic prediction for load-store mis-speculation
+associated with the store instruction alone. Req. Reh’g 7–8. However, in our
+Decision Denying Institution, we noted explicitly Petitioner’s contention that
+Hesson and Steely approach the same problem using similar solutions, i.e., by
+storing information in the memory about instructions that have mis-speculated in
+the past, and using that stored information to determine whether to allow
+4
+
+Case IPR2014-01567
+Patent 5,781,752
+speculative execution of currently pending instructions. Dec. on Inst. 12 (citing
+Pet. 29–30). Thus, we did not overlook or misapprehend Petitioner’s arguments.
+Petitioner argues that alternatives discussed in the Patent Owner Preliminary
+Response are irrelevant because these alternatives address the problem of data
+dependency mis-speculation generally, rather than tracking predictions based upon
+an instruction’s history of mis-speculation in Hesson. Req. Reh’g 3, 6 (citing
+Prelim. Resp. 25). As discussed above, we recognized Hesson’s predictive
+approach to data producing store instructions and Steely’s all-or-nothing approach
+to store-load pairs. In the context of these different approaches, Patent Owner’s
+identification of other approaches to speculation,2 is relevant to the problem
+presented in the ’752 Patent and in Hesson, i.e., predicting data dependencies in an
+out-of-order processor, as described in the Petition. Pet. 36.
+Petitioner next contends that we misapprehended or overlooked the
+motivation to modify Hesson to avoid delaying all load instructions. Req. Reh’g
+8–10. According to Petitioner, Hesson does not disclose any advantage to delaying
+all load instructions, as opposed to only those load instructions that are predicted to
+mis-speculate, but instead describes a benefit as to when load instructions may
+resume executing. Id. at 9.
+Our Decision Denying Institution quotes directly from Hesson concerning
+the delay of all load instructions. Hesson makes this point even more succinctly in
+the Abstract:
+The apparatus . . . incorporates a unique store barrier
+cache which is used to dynamically predict whether or
+not a store violation condition is likely to occur and, if so,
+2
+
+E.g., based on the value of the data, rather than its storage, or on the address of
+the storage location, or on predicting when a store instruction would have
+completed so that a load can proceed safely. Dec. on Inst. 15.
+5
+
+Case IPR2014-01567
+Patent 5,781,752
+to restrict the issue of instructions to the load/store unit
+until the store instruction has been executed and it is once
+again safe to proceed with out-of-order execution. The
+method implemented by the apparatus delivers
+performance within one percent of theoretically possible
+with apriori knowledge of load and store addresses.
+Ex. 1003, Abstract. This is illustrated in Fig. 2A, which indicates at step 56 that, if
+the store barrier bit is set in the rename unit, the apparatus issues the oldest
+instruction from the reservation station that has all of its source operands ready
+excluding any load instructions that follow the store in program order. Id. at Fig.
+2A.
+Hesson further discloses:
+The apparatus incorporates a unique store barrier cache
+which is used to dynamically predict whether or not a
+store violation condition is likely to occur and, if so, to
+restrict the issue of instructions to the load/store unit until
+the store instruction has been executed and it is once
+again safe to proceed with out-of-order execution. The
+method implemented delivers performance within one
+percent of theoretically possible with apriori knowledge
+of load and store addresses.
+Id. at col. 2, ll. 1–9. Hesson further states:
+Store violation and violation persistence history
+information is used to control the dispatch of instructions
+by the rename unit 12 in such a manner as to prevent all
+load instructions from issuing until the store instruction
+that had previously been violated has successfully
+proceeded through the execution stage of the instruction
+pipeline. Indeed, the store barrier condition is used as a
+[sic] instruction dispatch filter to permit arithmetic and
+logical condition from proceeding but not subsequent
+load instructions. The store instruction is permitted to
+execute once all its dependencies including the store data
+6
+
+Case IPR2014-01567
+Patent 5,781,752
+are resolved. Load instructions are once again permitted
+to proceed after the violated store instruction has
+executed and, as a result, not request the cache memory
+location that the store instruction is about to updated
+[sic]. . . . Permitting all load instruction to proceed after
+the store instruction has executed versus after it has
+written back has two benefits. First, all load instructions
+are held up at the instruction issue stage a minimum
+amount of time and, second, history information on the
+persistence or lack of persistence of this store violation is
+provided. By dynamically controlling the issue and
+execution of load instructions according to a single
+violation condition and its history information using the
+store barrier cache 11, significant performance
+advantages are achieved over the prior art.
+Id. at col. 6, ll. 3–30. The Request for Rehearing cites some of the same material
+quoted above. Req. Reh’g 9 (citing Ex. 1003, col. 6, ll. 20–23). Our Decision
+Denying Institution quotes a longer segment of the same disclosure from Hesson.
+Dec. on Inst. 17–18 (citing Ex. 1003, col. 6, ll. 11–30). Thus, we did not overlook
+Hesson’s disclosure. We merely recognized that Hesson discloses delaying all
+load instructions, while Petitioner emphasizes circumstances that determine when
+such load instructions are no longer delayed.
+According to Petitioner, rather than view Hesson’s design of delaying all
+load instructions as an advantage, one of ordinary skill would have been motivated
+to pursue alternatives that delay only load instructions associated with problematic
+store instructions as disclosed in Steely. Req. Reh’g 9. Petitioner takes this
+positon, notwithstanding Hesson’s assertion, quoted above, that it provides
+“significant performance advantages . . . over the prior art” and “delivers
+performance within one percent of theoretically possible with apriori knowledge of
+load and store addresses.” Our Decision Denying Institution also considered
+Patent Owner’s evidence, including publications and citations by Patent Owner’s
+7
+
+Case IPR2014-01567
+Patent 5,781,752
+declarant to testimony by Simon Steely, that the approach in the ’752 Patent was
+viewed skeptically by members of the relevant engineering community. Dec. on
+Inst. 18–19.
+Given the performance level asserted by Hesson, and the evidence that
+solutions proposed in the ’752 Patent were viewed skeptically by members of the
+relevant community, we were not persuaded by Petitioner’s contention that a
+person of ordinary skill would have been motivated to incorporate Steely’s all-ornothing approach to store-load pairs into Hesson’s predictive approach based on
+store instructions. Although Petitioner disagrees with our conclusion, Petitioner
+has not shown it to be an abuse of discretion.
+The final point raised in Petitioner’s Request for Rehearing is that we
+misapprehended or overlooked what modifying Hesson’s store barrier cache
+actually would entail. Req. Reh’g 10–14. Petitioner asserts three sub-points.
+First, Petitioner asserts we misapprehended its proposed modification, which
+Petitioner asserts adds a column to the store barrier cache, but does not require
+identifying every load instruction or increase the number of rows resulting in
+longer search times. Id. at 10–11 (citing Pet. 37–38, Dec. on Inst. 22). Second,
+Petitioner asserts that we misapprehended how Petitioner’s proposed combination
+would address multiple loads depending from a single store. Id. at 12–13. Third,
+Petitioner asserts that we misapprehended Petitioner’s proposed modification to
+Hesson, which would only require the addition of a column to the store barrier
+cache and would not increase the search time. Id. at 13–14. Petitioner’s sub-points
+are closely related and represent arguments we could not have overlooked because
+they were not made in the Petition.
+As we noted in our Decision Denying Institution, Petitioner argued that one
+of ordinary skill readily would have integrated Steely into Hesson by adding into
+8
+
+Case IPR2014-01567
+Patent 5,781,752
+Hesson’s store barrier entry cache for the violated store condition a single field
+identifying the load instruction address. Dec. on Inst. 20 (citing Pet. 38). The
+Petition states:
+With Hesson’s store barrier cache 11 so modified (per the
+teaching of Steely), a problematic store instruction would
+delay only the load instruction stored in the same entry of
+the cache 11. . . . Hesson’s predictions (i.e., the history
+bits on each line of the cache 11) would be associated
+with both a load instruction and a store instruction. . . .
+[I]n Hesson as modified in view of Steely, each
+prediction would be “associated with a particular data
+consuming [e.g., load] instruction” as recited in Claim 1.
+Pet. 38–39. As Patent Owner pointed out, Petitioner does not explain how multiple
+store-load pairs would be approached. Dec. on Inst. 21–22 (citing Prelim.
+Resp. 42–44). Petitioner asserts in the Request for Rehearing that “multiple load
+instructions that mis-speculate with the same store instruction will receive separate
+entries corresponding with each unique load-store pair that separately causes a misspeculation.” Req. Reh’g 12 (citing Pet. 38). This language is not found in the
+Petition, nor is there any explanation why such “separate entries” would not
+encompass additional rows in the table for each store-load pair. Thus, we are not
+persuaded that we overlooked or misapprehended any arguments in the Petition
+concerning how Hesson and Steely would be combined.
+In consideration of the above, Petitioner has not demonstrated that we
+overlooked or misapprehended the matters before us and Petitioner’s Request for
+Rehearing is DENIED.
+
+9
+
+Case IPR2014-01567
+Patent 5,781,752
+
+PETITIONER:
+Richard Goldenberg
+richard.goldenberg@wilmerhale.com
+Lauren Fletcher
+lauren.fletcher@wilmerhale.com
+PATENT OWNER:
+Gary Frischling
+gfrischling@irell.com
+Hong Zhong
+apple-warf_IPRgroup@irell.com
+
+10
+
+

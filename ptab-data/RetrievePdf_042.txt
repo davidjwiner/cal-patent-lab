@@ -1,0 +1,808 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 8
+Entered: December 16, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+TOYOTA MOTOR CORPORATION,
+Petitioner,
+v.
+CELLPORT SYSTEMS, INC.,
+Patent Owner.
+_______________
+Case IPR2015-01422
+Patent 5,732,074
+_______________
+
+Before JAMESON LEE, JAMES B. ARPIN, and SCOTT C. MOORE,
+Administrative Patent Judges.
+MOORE, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01422
+Patent 5,732,074
+I.
+
+INTRODUCTION
+
+Toyota Motor Corporation (“Petitioner”) filed a Petition to institute an
+inter partes review of claims 1–21 (Paper 2, “Pet.”) of U.S. Patent No.
+5,732,074 (Ex. 1001; “the ’074 Patent”). Cellport Systems, Inc. (“Patent
+Owner”) filed a Preliminary Response (Paper 7, “Prelim. Resp.”). We have
+jurisdiction under 35 U.S.C. § 314(a), which provides that an inter partes
+review may not be instituted “unless . . . there is a reasonable likelihood that
+the petitioner would prevail with respect to at least 1 of the claims
+challenged in the petition.”
+On this record and for the reasons discussed below, we do not institute
+an inter partes review of any claim of the ’074 Patent. The Petition is
+denied.
+II.
+A.
+
+BACKGROUND
+Related Proceedings
+
+This is the second petition for inter partes review of the ’074 Patent
+filed by Petitioner. On February 2, 2015, Petitioner filed its Petition in
+IPR2015-00633, seeking inter partes review of claims 1–21 of the ’074
+Patent. IPR2015-00633, Paper 2. On August 14, 2015, we instituted an
+inter partes review as to claims 12–21 of the ’074 Patent. IPR2015-00633,
+Paper 11.
+The ’074 Patent is also the subject of two patent infringement lawsuits
+filed by Patent Owner: Cellport Systems, Inc. v. Toyota Motor Sales, U.S.A.,
+Inc. , Case No. 14-cv-1632 (D. Colo.); and Cellport Systems, Inc. v. BMW of
+North America, LLC , Case No. 14-cv-1631 (D. Colo.). Pet. 2; Paper 5.
+
+2
+
+IPR2015-01422
+Patent 5,732,074
+B.
+
+The ’074 Patent
+
+The ’074 Patent is directed generally to facilitating the
+communication of information between a remote computer and a vehicle.
+Ex. 1001, Abstract. For example, the ’074 Patent describes a
+communication system that is compatible with standardized network
+communication links, such as the Internet and a controller area network used
+in vehicles. Id. The system uses a controller inside the vehicle to facilitate
+communication between the remote computer (which uses, e.g., an Internetbased communication link) and the controller area network used within the
+vehicle. Id.
+Figure 1, reproduced below, illustrates an embodiment of the claimed
+subject matter.
+
+Figure 1 is a block diagram that depicts the general components of an
+apparatus for bi-directional communication between one or more remote
+stations 10a–10n and a vehicle. Ex. 1001, 5:26–29, 41–43. The remote
+
+3
+
+IPR2015-01422
+Patent 5,732,074
+stations communicate by way of a standardized remote network
+communications link 14, such as the Internet. Id. at 5:49–62. The remote
+stations transmit information to, and receive information from, the vehicle
+over an airlink by way of remote airlink transfer protocol modem 20, which
+may use a cellular digitized packet data (“CDPD”) configuration. Id. at
+5:63–6:8.
+Wireless device 18 is located at the vehicle and also has the capability
+to receive and transmit information via the airlink. Ex. 1001, 6:3–5.
+Wireless device 18 is associated operatively with modem 20, and
+communicates with controller 30 (also contained within the vehicle) through
+network protocol converter 26 using device interface 22. Id. at 6:5–14.
+Controller interface 34 (mislabeled “14” in Figure 1) electrically links
+controller 30 with vehicle standardized network 40. Id. at 6:37–39. Like
+remote standardized network 14, vehicle standardized network 40 is an
+established and previously developed type of network. Id. at 6:45–47.
+Vehicle standardized network 40 interfaces with certain components in a
+vehicle (i.e., physical vehicle devices 50a–50n), and provides message and
+data-handling functions associated with sending and receiving data to or
+from physical vehicle devices 50a–50n. Id. at 6:39–50.
+
+4
+
+IPR2015-01422
+Patent 5,732,074
+Figure 2 of the ’074 Patent further illustrates an embodiment of the
+claimed subject matter and is reproduced below.
+
+Figure 2 is a detailed block diagram that illustrates greater details of a
+particular embodiment of the apparatus depicted in Figure 1. Ex. 1001,
+5:29–30, 7:23–25, Fig. 2. In this embodiment, remote station 10a
+communicates with modem 76 using the Internet 68 (the standardized
+remote network communications link). See id. at 7:25–36. Controller 30
+communicates with physical vehicle devices 50a–50n via controller area
+network 124 (the vehicle standardized network), and controller area network
+124 includes control network 122 and bus 126. See id. at 10:10–50. In this
+embodiment, the network protocol converter (which was depicted as a
+separate component in Figure 1) is integrated into controller 30. See id. at
+8:1–8, 24–29, Fig. 2. Controller 30 also includes processor 90 and web
+server 102. Id. Web server 102 is a commercially available Internet-related
+product that services information related requests in http (hypertext
+5
+
+IPR2015-01422
+Patent 5,732,074
+transmission protocol) format. Id. at 8:40–45. Controller 30 further
+includes CGI-bin (common gateway interface-binary) 110, which acts as a
+link between the web server and a number of short executable programs
+stored in program memory 114. Id. at 8:58–63.
+C.
+
+Illustrative Claim
+
+Challenged claims 1, 3, 4, 5, 7, 12, 16, and 21 are independent. Each
+of the remaining challenged claims depends, directly or indirectly, from one
+of these independent claims. Claim 1 is illustrative and is reproduced below.
+1. An apparatus for information transmission involving one
+or more remote stations and a vehicle, comprising:
+at least a first remote station including computer means
+located at a distance from a vehicle;
+a wireless device for location in the vehicle for use in sending
+and receiving information including data relative to said
+first remote station over an airlink;
+a plurality of different vehicle devices associated with the
+vehicle and with each of said vehicle devices for at least
+one of receiving and sending said information;
+controller means including processing means in the vehicle
+for controlling the sending and receiving of said
+information using said wireless device between said first
+remote station and the vehicle, said controller means
+further including first standard network communication
+means for use in presenting information for transmission
+over the airlink in a first format that is acceptable to a first
+standardized network that includes the airlink, wherein
+said first network communication means enables said
+information to be provided to multiple users that utilize
+different makes of communication equipment, different
+processing hardware and different applications software
+executable by said processing means of said controller
+6
+
+IPR2015-01422
+Patent 5,732,074
+means, said first standard network communication means
+including a web server in the vehicle for responding to a
+plurality of service related requests and providing said
+information in said first format for transmission to said
+computer means at said first remote station using said
+wireless device; and
+a second standard network communication means, different
+from said first standard network communication means, in
+communication with said controller means for presenting
+information in a second format that is acceptable to a
+second standardized network, with said second
+standardized network communication means
+communicating with said vehicle devices for sending and
+receiving said information relative thereto and in which
+said controller means enables said information to be
+properly communicated between said first and second
+standardized networks.
+Ex. 1001, 14:55–15:27.
+D.
+
+References Relied Upon
+
+Petitioner alleges that the challenged claims are unpatentable over the
+following references:
+References
+
+Exhibit Nos.
+
+Jonathan Magid et al., THE WEB SERVER BOOK, TOOLS
+& TECHNIQUES FOR BUILDING YOUR OWN INTERNET
+INFORMATION SITE (Ventana Press, 1st ed. 1995)
+(“Magid”)
+
+1007
+
+Y. U. Cao et al., A Remote Robotics Laboratory on the
+Internet (UCLA Commotion Lab. 1995) (“Cao”)
+
+1019
+
+CAN Specification, Version 2.0 (Robert Bosch GmbH
+1991) (“CAN”)
+
+1023
+
+US 5,309,351 (filed Sept. 2, 1992, issued May 3, 1994)
+(“McCain”)
+
+1029
+
+7
+
+IPR2015-01422
+Patent 5,732,074
+US 4,658,509 (filed Sept. 12, 1985, issued Apr. 21,
+1987) (“Juengel”)
+E.
+
+1030
+
+Asserted Grounds of Unpatentability
+
+References
+
+Statutory Basis
+
+Challenged Claims
+
+Cao and CAN
+
+35 U.S.C. § 103
+
+21
+
+Cao, CAN, and Magid
+
+35 U.S.C. § 103
+
+1–7, 9, 10, 12, 13,
+and 16–19
+
+Cao, CAN, Magid, and
+McCain
+
+35 U.S.C. § 103
+
+8 and 15
+
+Cao, Magid, and Juengel
+
+35 U.S.C. § 103
+
+11, 14, and 20
+
+III.
+A.
+1.
+
+ANALYSIS
+
+Claim Construction
+
+Claim Construction Standard
+The’074 Patent will expire on January 16, 2016, which is before any
+
+final decision likely would be issued. Pet. 10; Prelim. Resp. 9. Both parties
+have proposed that the claims be construed in accordance with the standard
+used by U.S. district courts and set forth in Phillips v. AWH Corp., 415 F.3d
+1303, 1314 (Fed. Cir. 2005) (en banc). Pet. 9–10; Prelim. Resp. 9.
+Pursuant to 37 C.F.R. § 42.100(b), “[a] claim in an unexpired patent
+shall be given its broadest reasonable construction in light of the
+specification of the patent in which it appears.” But here, given the patent’s
+pending expiration, we will analyze Petitioner’s arguments through the lens
+of the claim construction standard that will apply to any final written
+decision. Thus, we construe the claims in accordance with the standard set
+
+8
+
+IPR2015-01422
+Patent 5,732,074
+forth in Phillips.1 37 C.F.R. § 42.5(b); cf. In re Rambus Inc., 694 F.3d 42,
+46 (Fed. Cir. 2012) (“While claims are generally given their broadest
+possible scope during prosecution, the Board’s review of the claims of an
+expired patent is similar to that of a district court’s review.”) (internal
+citation omitted).
+“In determining the meaning of the disputed claim limitation, we look
+principally to the intrinsic evidence of record, examining the claim language
+itself, the written description, and the prosecution history, if in evidence.”
+DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014
+(Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17). The words of a
+claim generally are given their ordinary and customary meaning, which is
+the meaning the term would have to a person of ordinary skill at the time of
+the invention, in the context of the entire patent including the specification.
+See Phillips, 415 F.3d at 1312–13. Claims are not interpreted in a vacuum
+but are a part of and read in light of the specification. See Slimfold Mfg. Co.
+v. Kinkead Indus., Inc., 810 F.2d 1113, 1116 (Fed. Cir. 1987). Although it is
+improper to read a limitation from the specification into the claims, the
+claims still must be read in view of the specification. See Microsoft Corp. v.
+Multi-Tech Sys., Inc., 357 F.3d 1340, 1347 (Fed. Cir. 2004).
+2.
+
+“controller means”; “processing means”
+Each of independent claims 1, 3, 4, 5, and 7 recites a “controller
+
+means including processing means in the vehicle for controlling the sending
+
+1
+
+Our constructions of the disputed claim terms set forth below likely would
+have been the same had we applied broadest reasonable interpretation
+standard.
+9
+
+IPR2015-01422
+Patent 5,732,074
+and receiving of said information using said wireless device between said
+first remote station and the vehicle” (emphasis added). Because the claim
+terms “controller means” and “processing means” include the word
+“means,” they are presumptively means-plus-function claim limitations
+under 35 U.S.C. § 112, ¶ 6,2 and would be construed to cover the
+corresponding structure, material, or acts described in the specification and
+equivalents thereof. Williamson v. Citrix Online, LLC, 792 F.3d 1339, 1348
+(Fed. Cir. 2015) (en banc). This presumption, however, “can be rebutted if
+the evidence intrinsic to the patent and any relevant extrinsic evidence so
+warrant.” Personalized Media Commc’ns, LLC v. Int’l Trade Comm’n, 161
+F.3d 696, 704 (Fed. Cir. 1998).
+The parties propose the following constructions for these claim terms
+(see Pet. 10–11; Prelim. Resp. 13–15):
+
+2
+
+Paragraphs 1 through 6 of 35 U.S.C. § 112 were replaced with §§ 112(a)
+through 112(f) when § 4(c) of the Leahy-Smith America Invents Act
+(“AIA”) took effect on September 16, 2012. Because the patent application
+resulting in the ’074 Patent was filed before the effective date of the AIA,
+we will refer to the pre-AIA version of 35 U.S.C. § 112.
+10
+
+IPR2015-01422
+Patent 5,732,074
+Claim
+Term
+
+Petitioner’s Construction
+
+Patent Owner’s
+Construction
+
+controller
+means
+
+35 U.S.C. § 112, ¶ 6, claim
+limitation.
+
+Not a 35 U.S.C. 112, ¶ 6,
+claim limitation.
+
+Identified Function:
+Controlling the sending and
+receiving of said information
+using said wireless device
+between said first remote
+station and the vehicle.
+
+“A controller”
+
+Corresponding Structure:
+Processor 90, TCP/IP stack 98,
+data memory 106, and program
+memory 114.
+processing 35 U.S.C. § 112, ¶ 6, claim
+means
+limitation.
+
+35 U.S.C. § 112, ¶ 6, claim
+limitation.
+
+Identified Function:
+Processing.
+
+Identified Function:
+Controlling the sending and
+receiving of said
+information using said
+wireless device between
+said first remote station and
+the vehicle.
+
+Corresponding Structure:
+A microprocessor.
+
+Corresponding Structure:
+Processor 90 in conjunction
+with real time operating
+system 94.
+
+Patent Owner argues that the presumption that the “controller means”
+is a means-plus-function limitation is overcome because this limitation lacks
+an associated function. Prelim. Resp. 13. We agree. The grammatical
+structure of the claim and, in particular, the fact that the functional language
+11
+
+IPR2015-01422
+Patent 5,732,074
+cited by Petitioner appears immediately after the recitation of the
+“processing means” evidences an intent to associate this functional language
+with the “processing means” claim limitation. Thus, for purposes of this
+Decision, we construe “processing means” as a means-plus-function claim
+limitation having a recited function of “controlling the sending and receiving
+of said information using said wireless device between said first remote
+station and the vehicle.”
+“Structure disclosed in the specification qualifies as ‘corresponding
+structure’ if the intrinsic evidence clearly links or associates that structure to
+the function recited in the claim.” Williamson, 792 F.3d at 1352. The
+Specification of the ’074 Patent indicates that the sending and receiving of
+vehicle information between the remote station and the vehicle is controlled
+by processor 90 in conjunction with real time operating system 94. See Ex.
+1001, 8:1–23, 13:54–56. Data memory 106 is not linked clearly to the
+recited function because data memory 106 merely stores information, and
+does not control the sending and receiving of information. See id. 8:45–58,
+9:31–45, 10:58–64, 13:8–10, 23–26. Thus, the structure in the Specification
+that corresponds to the “processing means” is “processor 90 in conjunction
+with real time operating system 94.”
+Despite the rebuttable presumption, we do not construe “controller
+means” as a means-plus-function claim limitation. The presumption is
+overcome because the claim language does not link the “controller means”
+to a specific recited function. See York Prod., Inc. v. Cent. Tractor Farm &
+Family Ctr., 99 F.3d 1568, 1574 (Fed. Cir. 1996) (“Without a ‘means’
+sufficiently connected to a recited function, the presumption in use of the
+word ‘means’ does not operate.”). In addition, the presumption is overcome
+12
+
+IPR2015-01422
+Patent 5,732,074
+when the claim specifies detailed structure sufficient to perform any recited
+or implicit function, e.g., controlling. See TriMed, Inc. v. Stryker Corp., 514
+F.3d 1256, 1259–60 (Fed. Cir. 2008) (“Sufficient structure exists when the
+claim language specifies the exact structure that performs the functions in
+question without need to resort to other portions of the specification or
+extrinsic evidence for an adequate understanding of the structure.”); Altiris,
+Inc. v. Symantec Corp., 318 F.3d 1363, 1376 (Fed. Cir. 2003). Each of
+independent claims 1, 3, 4, 5, and 7 recites that the “controller means”
+includes the “processing means” and the “first standard network
+communication means.” As discussed herein, the processing means and the
+first standard network communication means are means-plus-function claim
+limitations that are defined in terms of specific structures disclosed in the
+Specification. Moreover, the recited “controller” is also a structure that is
+sufficient to perform any recited or implicit function of the “controller
+means.” The rebuttable presumption also is overcome because the controller
+means claim limitation is associated with these structures. Thus, in
+accordance with the ordinary and customary meaning of the claim language,
+and consistent with the Specification (see Ex. 1001, 2:66–3:29, 6:11–37,
+8:1–45), for purposes of this Decision, we construe “controller means” as “a
+controller.”
+3.
+
+“first standard network communication means”
+Each of independent claims 1, 3, 4, 5, and 7 also recites a “controller
+
+means further including first standard network communication means for
+use in presenting information for transmission over the airlink in a first
+format that is acceptable to a first standardized network that includes the
+13
+
+IPR2015-01422
+Patent 5,732,074
+airlink” (emphasis added). The parties propose the following constructions
+for the “first standard network communication means” claim limitation (see
+Pet. 11; Prelim. Resp. 15–17):
+Claim Term
+
+Petitioner’s
+Construction
+
+Patent Owner’s
+Construction
+
+first standard
+network
+communication
+means
+
+35 U.S.C. § 112, ¶ 6,
+claim limitation.
+
+35 U.S.C. § 112, ¶ 6,
+claim limitation.
+
+Identified Function:
+Presenting information
+for transmission over the
+airlink in a first format
+that is acceptable to a
+first standardized
+network that includes the
+airlink.
+
+Identified Function: Use
+in presenting
+information for
+transmission over the
+airlink in a first format
+that is acceptable to a
+first standardized
+network that includes the
+airlink.
+
+Corresponding Structure:
+A CDPD network
+interface or two-way
+paging interface in
+conjunction with a
+controller.
+
+Corresponding Structure:
+Network protocol
+converter 26.
+
+The proper function associated with a means-plus-function limitation
+is the function explicitly recited in the claim. In re Teles AG
+Informationstechnologien, 747 F.3d 1357, 1367–68 (Fed. Cir. 2014) (“[t]he
+statute does not permit limitation of a means-plus-function claim by
+adopting a function different from that explicitly recited in the claim”)
+(citation omitted). Each of independent claims 1, 3, 4, 5, and 7 recites the
+
+14
+
+IPR2015-01422
+Patent 5,732,074
+following function for the first standard network communication means:
+“use in presenting information for transmission over the airlink in a first
+format that is acceptable to a first standardized network that includes the
+airlink.” Thus, for purposes of this Decision, this is the proper recited
+function of the “first standard network communication means.”
+The Specification of the ’074 Patent links network protocol converter
+26 to the recited function of the first standard network communication
+means claim limitation. See Ex. 1001, 6:19–31. Petitioner argues that the
+CDPD paging interface and two way paging interface described at column 2,
+lines 31–52, of the ’074 Patent are structures that correspond to this claim
+limitation. Pet. 12. These structures, however, are not clearly associated or
+linked in the Specification to the recited function of the first standard
+network communication means limitation. See Ex. 1001, 2:31–52;
+Williamson, 792 F.3d at 1352. Thus, the structure in the Specification that
+corresponds to the “first standard network communication means” is
+“network protocol converter 26.”
+4.
+
+Other Disputed Claim Terms
+Petitioner and Patent Owner have proposed constructions for several
+
+other claim terms. However, “claim terms need only be construed ‘to the
+extent necessary to resolve the controversy.’” Wellman, Inc. v. Eastman
+Chem. Co., 642 F.3d 1355, 1361 (Fed. Cir. 2011) (quoting Vivid Techs., Inc.
+v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999)); see also EMI
+Grp. N. Am., Inc. v. Intel Corp., 157 F.3d 887, 895 (Fed. Cir. 1998) (holding
+that the construction of a given claim term was “irrelevant” because it did
+
+15
+
+IPR2015-01422
+Patent 5,732,074
+not affect the underlying controversy between the parties). No express
+constructions for the other claim terms are necessary at this time.
+B.
+1.
+
+Asserted Grounds of Unpatentability
+
+Overview
+Petitioner argues that challenged claims 1–21 are unpatentable under
+
+35 U.S.C. § 103. Pet. 9. A patent claim is unpatentable under 35 U.S.C.
+§ 103 if the differences between the claimed subject matter and the prior art
+are “such that the subject matter as a whole would have been obvious at the
+time the invention was made to a person having ordinary skill in the art to
+which such subject matter pertains.” The question of obviousness under 35
+U.S.C. § 103 is resolved on the basis of underlying factual determinations,
+including: (1) the scope and content of the prior art; (2) any differences
+between the claimed subject matter and the prior art; (3) the level of skill in
+the art;3 and (4) objective evidence of nonobviousness, i.e., secondary
+considerations.4 Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966).
+2.
+
+Obviousness of Claims 1–11
+a.
+
+Overview of Cao
+
+Cao is a technical paper that describes remote robotics laboratory
+system that includes a base station and ten (10) small mobile robots. Ex.
+1019, 1, 6. The mobile robots include on-board Unix-based workstations.
+Id. at 1. The base station and the on-board Unix workstations of the robots
+3
+
+For purposes of this Decision, we consider the cited references to be
+representative of the level of ordinary skill in the art. See Okajima v.
+Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001).
+4
+The current record does not contain arguments regarding secondary
+considerations.
+16
+
+IPR2015-01422
+Patent 5,732,074
+communicate using Proxim radio modems and the TCP/IP protocol. See Ex.
+1019, 6.
+b.
+
+Overview of CAN
+
+CAN is a technical specification for a Controller Area Network
+(“CAN”). See Ex. 1023, 1, 8.
+c.
+
+Overview of Magid
+
+Magid is a book that describes tools and techniques for building
+Internet information sites. Ex. 1007, 1. Magid describes the use of web
+servers (Ex. 1009, 7–8) and common gateway interface (“CGI”) scripts (see
+id. at 27–28), in order to implement an Internet website.
+d.
+
+Overview of McCain
+
+McCain is a U.S. patent that describes a data and communication
+system that provides for the interchange of data between a host computer,
+individual personal computers, a hand-held computing unit, and factory
+machinery. Ex. 1029, Abstract.
+e.
+
+Overview of Juengel
+
+Juengel is a U.S. patent that describes a battery operated probe. Ex.
+1030, Abstract. The probe detects a low-battery condition, and wirelessly
+transmits information to a remote receiver indicating that the battery power
+in the probe is low. Id.
+
+17
+
+IPR2015-01422
+Patent 5,732,074
+f.
+
+Analysis
+
+For the reasons that follow, we are not persuaded that the information
+presented in the Petition shows that there is a reasonable likelihood that the
+Petitioner will prevail in its obviousness challenge to claims 1–11.
+Each of independent claims 1, 3, 4, 5, and 7 recites the “first standard
+network communication means” claim limitation. Claims 2, 6, and 8–11
+depend from claim 1 and, thus, incorporate this limitation by way of
+dependence. A petition for inter partes review “must specify where each
+element of the claim is found in the prior art patents or printed publications
+relied upon.” 37 C.F.R. § 42.104(b)(4). Because the “first standard network
+communication means” is a means-plus-function claim limitation, Petitioner
+is required to show that both the recited function of this claim limitation and
+the corresponding structure or an equivalent are present in the applied
+references. Fresenius USA, Inc. v. Baxter Int’l, Inc., 582 F.3d 1288, 1299
+(Fed. Cir. 2009) (“[A] challenger who seeks to demonstrate that a meansplus-function limitation was present in the prior art must prove that the
+corresponding structure—or an equivalent—was present in the prior art.”).
+The Petition does not identify any structure in the applied references
+that is allegedly identical or equivalent to the corresponding structure of the
+“first standard network communication means” claim limitation, i.e.,
+network protocol converter 26. Petitioner’s entire argument concerning the
+“first standard network communication means” of claims 1, 3, 4, 5, and 7, is
+reproduced below:
+Cao discloses a “first standard network communications
+means” (i.e., wireless Proxim radio link with base station) that
+uses Internet Protocol for “presenting information for
+transmission over the airlink in a first format that is acceptable
+18
+
+IPR2015-01422
+Patent 5,732,074
+to a first standardized network that includes the airlink” (i.e.,
+TCP/IP format). See Ex. 1019 at 6; see also supra Section
+VIII.A.4.
+Pet. 40. Though Petitioner alleges that the “wireless Proxim radio link with
+base station” of Cao performs the recited function of the “first standard
+network communication means,” Petitioner does not compare the structure
+of the “wireless Proxim radio link with base station” of Cao to the structure
+of network protocol converter 26. Cited Section VIII.A.4 of the Petition
+similarly does not address the structure of the “wireless Proxim radio link
+with base station” of Cao. See Pet. 18–20. Thus, the Petition does not
+identify any structure in the applied references that is allegedly identical or
+equivalent to the corresponding structure of the “first standard network
+communication means” claim limitation.
+For the foregoing reasons, the Petition fails to show persuasively that
+the “first standard network communication means” claim limitation is found
+in the references that Petitioner relies upon with respect to claims 1–11.
+Thus, the information presented in the Petition is not sufficient to
+demonstrate a reasonable likelihood that Petitioner will prevail in
+demonstrating that claims 1–11 are unpatentable.
+3.
+
+Obviousness of Claims 12–21
+We already have instituted inter partes review as to claims 12–21 of
+
+the ’074 Patent. IPR2015-00633, Paper 11. We have discretion to decline
+to institute a second inter partes review as to these claims. See 35 U.S.C.
+§ 314(a) & 37 C.F.R. § 108 (institution is discretionary); 35 U.S.C. § 325(d)
+& 37 C.F.R. 42.122(a) (termination is discretionary where there are multiple
+proceedings before the Office involving the same patent); see also Asustek
+19
+
+IPR2015-01422
+Patent 5,732,074
+Computer, Inc. v. Exotablet, Ltd., Case IPR2015-00043, slip op. at 9–10
+(PTAB Apr. 23, 2015) (Paper 6) (declining to institute a second review
+challenging the same claims on different grounds). We construe our rules to
+secure the just, speedy, and inexpensive resolution of every proceeding. 37
+C.F.R. § 42.1(a). We approach our discretion to decline review on a caseby-case basis. See, e.g., Conopco, Inc. v. Procter & Gamble Co., Case
+IPR2014-00628, slip op. at 10 (PTAB Oct. 20, 2014) (Paper 21).
+The Petition in IPR2015-00633 was filed on February 2, 2015.
+IPR2015-00633, Paper 1. The Patent Owner filed its Preliminary Response
+in IPR2015-00633 on May 20, 2015. IPR2015-00633, Paper 8. The Petition
+in this proceeding was not filed until June 19, 2015. Paper 2.
+The 4½ month delay between Petitioner’s first and second Petitions is
+problematic for several reasons. First, the timing of this Petition makes
+consolidation impractical, and, thus, frustrates the interest of judicial
+economy. The oral hearing in IPR2015-00633 is set for April 14, 2016.
+IPR2015-00633, Paper 12. Thus, it would not be practical to institute a
+second inter partes review and consolidate that proceeding with IPR201500633. See 35 U.S.C. § 315(d). Assuming that Petitioner has shown here a
+reasonable likelihood that claims 12–21 are unpatentable, two separate trials
+would be necessary, requiring the parties, as well as the Board, to expend
+significant additional resources. Second, even if we were to institute a
+second inter partes review involving claims 12–21, Petitioner might be
+unable to “maintain” the second inter partes review upon issuance of a final
+written decision in IPR2015-00633. 35 U.S.C. § 325(e)(1) provides that any
+final written decision in IPR2015-00633 on the patentability of claims 12–21
+would preclude Petitioner from “maintain[ing] a proceeding before the
+20
+
+IPR2015-01422
+Patent 5,732,074
+Office . . . on any ground that the petition raised or reasonably could have
+raised during [the earlier] post-grant review.” Thus, instituting a second
+inter partes review may result in a significant waste of time and resources
+for the parties and for Board. See 37 C.F.R. § 42.1(b) (“This part shall be
+construed to secure a just, speedy, and inexpensive resolution of every
+proceeding.”). Third, the timing of the second Petition raises the potential
+for gamesmanship. Petitioner did not file this Petition until one month after
+Patent Owner filed its Preliminary Response in IPR2015-00633. The timing
+of the second Petition gave Petitioner the opportunity to preview the
+arguments set forth in the Patent Owner Preliminary Response in IPR201500633.
+Petitioner also has not provided an adequate explanation for the 4½
+month delay between the filing of this Petition and the filing of its previous
+Petition. Though Petitioner alleges that it was not aware of Cao “at the time
+it filed Petition No. 2015-00633” (Pet. 2), Petitioner does not state when and
+under what circumstances, during the 4½ months that preceded the filing of
+the current Petition, it became aware of Cao. Cao is a technical paper that
+was published by a major research university in the United States, and, thus,
+it is not clear on this record why Petitioner was unable to locate Cao at an
+earlier date. See Ex. 1019, 1.
+We further note that Petitioner has not identified any meaningful
+distinctions between the arguments regarding claims 12–21 in this Petition
+and the arguments Petitioner set forth in its earlier Petition. For instance,
+Petitioner does not explain in what ways the grounds asserted against claims
+12–21 in this proceeding are superior to the grounds against the same claims
+and on the basis of which we instituted trial in IPR2015-00633.
+21
+
+IPR2015-01422
+Patent 5,732,074
+In view of the foregoing, we exercise our discretion and decline to
+institute a second inter partes review as to claims 12–21 of the ’074 Patent.
+IV.
+
+ORDER
+
+Accordingly, it is
+ORDERED that the Petition is denied, and no inter partes review is
+instituted as to any claim of the ’074 Patent.
+
+22
+
+IPR2015-01422
+Patent 5,732,074
+For PETITIONER:
+James R. Barney
+Thomas W. Winland
+Joshua L. Goldberg
+FINNEGAN, HENDERSON, FARABOW, GARRETT & DUNNER, LLP
+james.Barney@finnegan.com
+tom.winland@finnegan.com
+joshua.goldberg@finnegan.com
+Toyota-Cellport-IPR@finnegan.com
+
+For PATENT OWNER:
+Gregory M. Howison
+Peter J. Thoma
+HOWISON & ARNOTT, LLP
+ipr@dalpat.com
+
+23
+
+

@@ -1,0 +1,263 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 23
+Entered: March 8, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+DENSO CORPORATION,
+Petitioner,
+v.
+NETLATCH, LLC,
+Patent Owner.1
+____________
+Case IPR2015-00473
+Patent 5,530,431 B2
+____________
+
+Before KEN B. BARRETT, JAMES P. CALVE, and
+BART A. GERSTENBLITH, Administrative Patent Judges.
+BARRETT, Administrative Patent Judge.
+
+JUDGMENT AND FINAL WRITTEN DECISION2,3
+Request for Adverse Judgment
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+1
+
+The use of labels, reflecting the originally-captioned status of the parties,
+to identify the parties is for purposes of convenience only.
+2
+A similar decision is being filed concurrently in IPR2015-00481.
+3
+Unless otherwise indicated, citations herein to Papers are to those filed in
+this case, IPR2015-00473, and citations to Exhibits are to those filed in the
+related case, IPR2015-00481. Exhibits 1017–1028 filed in the related 481
+case also may be found in this 473 case as attachments to Papers 18–20.
+
+IPR2015-00473
+Patent 5,530,431
+I.
+
+BACKGROUND
+
+A. Procedural Posture
+On December 19, 2014, Petitioner in IPR2015-00473, DENSO
+Corporation (“DENSO”), filed a Petition (Paper 1, “Pet.”) for an inter partes
+review of U.S. Patent No. 5,530,431 B2 (“the ’431 patent”). The Petition
+challenged the patentability of claims 14, 17, 18, 27, 31, and 33 of the
+’431 patent. Pet. 1. On the Petition’s caption, DENSO named as patent
+assignees “Netlatch LLC (and/or Peter F. Wingard and/or the Bankruptcy
+Estate of Peter F. Wingard, and/or The Wingard Co.),” and indicated the
+following:
+The ownership of U.S. Patent No. 5,530,431 has been contested
+in litigation (see, e.g., Wingard v. Smart Motors Toyota, No.
+3:14-cv-403 (W.D. Wis.) at, e.g., Dkt. Nos. 24-25, 28-36).
+Therefore, out of an abundance of caution, all possible owners
+of record are named. Netlach [sic] LLC is the assignee on the
+assignment most recently filed with the U.S. Patent and
+Trademark Office.
+Pet. Caption Page n.1. According to the certificate of service, the Petition
+was served on the above-identified possible patent assignees, including the
+Bankruptcy Trustee. Netlatch, LLC (“Netlatch”), filed a Power of Attorney
+in this matter indicating it is the “[a]ssignee of record of the entire interest”
+in the ’431 patent. Paper 6.
+On July 15, 2015, we instituted an inter partes review of claims 14,
+17, 27, and 31 of the ’431 patent. Paper 9. Netlatch filed a response to the
+Petition on October 28, 2015. Paper 15.
+In an email on December 21, 2015 (2:53 PM), Petitioners in the
+related case IPR2015-00481, Continental Automotive GmbH, Kia Motors
+Corporation, and Kia Motors America, Inc. (collectively, “Continental”)
+2
+
+IPR2015-00473
+Patent 5,530,431
+requested, on behalf of all petitioners in this case, IPR2015-00473, and
+related case IPR2015-00481, a teleconference with the Board. Continental
+represented in that email that the Bankruptcy Court recently had decided the
+ownership issue and that the ownership of the ’431 patent had been assigned
+to Continental. By that email, a teleconference was requested “to discuss the
+issue and the best way to move forward with the IPRs in view of the present
+ownership status and ruling about the past ownership.”
+In a responsive email on December 21, 2015 (4:21 PM), Netlatch
+asserted that the Bankruptcy Court’s Order did not change the ownership of
+the ’431 patent, as recorded in the USPTO, and specifically that “the
+Bankruptcy Court only granted the motion ‘to sell personal property of the
+Debtor [Mr. Peter Wingard][;]’ [] however, this did not deal with the proper
+assignment to Netlatch.” Netlatch further stated in the email:
+There is no court order reversing the assignment to Netlatch.
+The proper course of action by the Trustee should have been to
+file an adversary proceeding against Netlatch.[4] The Trustee
+did not file an action against Netlatch. Accordingly, Netlatch,
+as shown by the assignment record is still the current owner
+pursuant to 35 U.S.C. 261. There has been no ruling against
+Netlatch as to its ownership of the patent and no ruling
+directing Netlatch to transfer the ’431 patent. In fact, there has
+been a complete disregard for 35 U.S.C. 261 and no due
+process, adversary proceeding to deal with Netlatch’s proper
+
+4
+
+Netlatch’s current counsel in these subject IPRs proposed in certain
+district court litigations “to re-open Plaintiff’s bankruptcy case to have the
+Bankruptcy Court explicitly consider the patent-at-issue to bring finality and
+certainty to the ownership of the patent-at-issue in the future in this and
+other cases.” Ex. 1020, 1; see also Ex. 1026, 1 (motion to join Netlatch as
+co-plaintiff with Mr. Wingard and referencing the ’431 patent).
+3
+
+IPR2015-00473
+Patent 5,530,431
+ownership of the ’431 patent as properly recorded with the
+USPTO.
+On January 13, 2016, a conference call was held between respective
+counsel for the parties to IPR2015-00473 and IPR2015-00481 and
+Administrative Patent Judges Calve, Gerstenblith, and Barrett. During the
+conference call, the bankruptcy and ownership issues were explored and
+potential disposition of the two cases was discussed, with all parties being
+heard. The Board indicated that it would like briefing on the issues and an
+Order establishing a briefing schedule was issued. Paper 17. In due course,
+DENSO filed its Submission of Statement Regarding the Ownership of U.S.
+Patent No. 5,530,431. Papers 18–20. Similarly, Continental filed its
+Statement Regarding the Ownership of U.S. Patent No. 5,530,431.
+IPR2015-00481, Paper 18 (hereinafter “Continental’s Ownership
+Statement”). Netlatch did not file a paper to address the ownership issues,
+although it was authorized to do so. See Paper 17, 3.
+B. The Bankruptcy Proceedings
+The named-inventor of the ’431 patent is Peter F. Wingard.
+Ex. 1001, [76]. In June of 2010, Mr. Wingard filed for Chapter 7
+bankruptcy. Ex. 1018, 4.5 Mr. Wingard purportedly assigned the
+’431 patent to the Wingard Company in November 2007 and prior to the
+bankruptcy filing. See id. at 3–4. At some point thereafter, the Wingard
+
+5
+
+Exhibit 1018 is the transcript of a telephonic ruling by the Bankruptcy
+Court on the Trustee’s motion for authorization to sell the ’431 patent. The
+Court’s findings of fact and conclusions of law were placed on the record
+during that ruling. Exhibit 1028 is the Bankruptcy Court’s Order granting
+the motion for the reasons stated during the telephonic hearing.
+4
+
+IPR2015-00473
+Patent 5,530,431
+Company purportedly assigned the patent back to Mr. Wingard, who then
+purportedly assigned the patent to Netlatch in exchange for a sixty percent
+interest in Netlatch. See Paper 6 (listing the alleged chain of title); see also
+IPR2015-00481, Ex. 1007, 3 (assignment to Netlatch as recorded with the
+USPTO at Reel/Frame 033799/0714). Netlatch’s ownership claim in the
+’431 patent rests on the existence of the purported assignment from
+Mr. Wingard to the Wingard Company in November 2007. See Ex. 1018, 3–
+4. Before the Bankruptcy Court, Mr. Wingard was unable to produce the
+assignment that allegedly occurred in November 2007. Id. at 6.
+On August 4, 2015, the Bankruptcy Trustee filed a motion in the
+Bankruptcy Court for authorization to sell the ’431 patent. See id. at 2;
+Ex. 1027 (motion). In the bankruptcy proceedings, counsel for Netlatch
+entered an appearance as counsel of record for “the third parties, James H.
+Muhl Jr. and NetLatch LLC.” Ex. 1025. Additionally, Netlatch filed an
+objection to the Trustee’s proposed sale (Ex. 1022), and a witness and
+exhibit list (Ex. 1019). A full evidentiary hearing was conducted by the
+Bankruptcy Court to determine whether the Wingard Company or
+Mr. Wingard held title to the ’431 patent at the time of the bankruptcy filing.
+See Ex. 1018, 2. In ruling on the motion, the Bankruptcy Court summarized
+the key issue as follows:
+Mr. Muhl formed the Netlatch Company in 2014, and the
+431 patent[] was assigned to him on July 28, 2014, but if the
+Court finds that Mr. Wingard owned the patent [at the time of
+the bankruptcy filing], that assignment is totally void because
+he [Mr. Muhl and Netlatch] couldn’t have gotten it from the
+[Wingard] company since it was owned by Mr. Wingard.
+Id. at 8 (emphasis added). The Court evaluated the circumstantial evidence
+and the credibility of Mr. Wingard regarding the alleged November 2007
+5
+
+IPR2015-00473
+Patent 5,530,431
+assignment, and found that neither weighed in favor of Mr. Wingard. Id.
+at 9–10. The Court ultimately found, “at the time of the [bankruptcy] filing,
+that the patent was owned by Mr. Wingard personally, and, therefore,
+became part of the [Bankruptcy] Estate,” and the Court granted the Trustee’s
+motion to sell the patent. Id. at 10, 11; see also Ex. 1020 (Order granting the
+motion). The time to appeal the order has expired and no appeal was sought.
+Ex. 1017, 2 (citing Fed. R. Bankr. P. 8002).
+In an assignment dated December 17, 2015, the Bankruptcy Trustee
+assigned to Continental the entire right, title, and interest in the ’431 patent.
+Ex. 1017. An assignment from the Trustee to Continental Automotive
+GmbH is recorded in the USPTO at Reel/Frame 037329/0544. Ex. 3001.
+II.
+
+ANALYSIS
+
+In light of the Bankruptcy Court’s Order and the authorized sale of the
+’431 patent, we recognize Continental as the current owner of the
+’431 patent for purposes of this inter partes review proceeding. Continental
+asserts in the related 481 case: “because Continental is now the patent
+owner and has represented that the 431 patent claims are invalid, the claims
+should be found unpatentable either by way of a final determination or in
+response to a request for adverse judgment.” IPR2015-00481, Continental’s
+Ownership Statement 5.6 Continental also indicates that the same request
+
+6
+
+Continental also asserts that, in both cases, Netlatch should be dismissed
+as a party and that all papers filed by Netlatch expunged. Continental’s
+Ownership Statement 5; see also id. at 5 n.4. Continental does not persuade
+us that those steps are necessary. See 37 C.F.R. § 41.14 (“The record of a
+proceeding, including documents and things, shall be made available to the
+public, except as otherwise ordered.”); Office Patent Trial Practice Guide,
+6
+
+IPR2015-00473
+Patent 5,530,431
+for relief applies in this case, IPR2015-00473. Id. at 5 n.4.
+A party may request judgment against itself at any time during a
+proceeding. 37 C.F.R. § 42.73(b). Pursuant to 37 C.F.R. § 42.73(b)(3),
+“[c]oncession of unpatentability” may be construed as a request for adverse
+judgment.
+We understand Continental to expressly request entry of adverse
+judgment against itself as the current patent owner. IPR2015-00481,
+Continental’s Ownership Statement 5. Additionally, we treat Continental’s
+concession that certain challenged claims are unpatentable (id. at 5; see
+IPR2015-00481, Paper 4 (Petition) 3–4 (challenging claims 14, 17, 31, and
+33 of the ’431 patent)) as a request for adverse judgment at least as to those
+claims. 37 C.F.R. § 42.73(b)(3). Under these circumstances, entry of
+judgment adverse to Patent Owner Continental is appropriate.
+III.
+
+ORDER
+
+In consideration of the foregoing, it is
+ORDERED that, for purposes of this proceeding, Continental is
+recognized as the Patent Owner;
+FURTHER ORDERED that Patent Owner Continental’s request for
+adverse judgment under 37 C.F.R. § 42.73(b) with respect to claims 14, 17,
+27, and 31 of U.S. Patent No. 5,530,431 B2 is granted; and
+FURTHER ORDERED that, because this is a Final Written Decision,
+parties to the proceeding seeking judicial review of this Decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+77 Fed. Reg. 48,756, 48,760 (Aug. 14, 2012) (referring to “the public’s
+interest in maintaining a complete and understandable file history”).
+7
+
+IPR2015-00473
+Patent 5,530,431
+For PETITIONER:
+Paul Steadman
+Matthew Satchwell
+DLA PIPER LLP (US)
+paul.steadman@dlapiper.com
+DENSO-Wingard-ipr@dlapiper.com
+For PATENT OWNER:
+Vivek Ganti
+HILL, KERTSCHER & WHARTON
+vg@hkw-law.com
+Charlena Thorpe
+THE LAW OFFICE OF CHARLENA THORPE
+charlena.thorpe@charlenathorpe.com
+
+8
+
+

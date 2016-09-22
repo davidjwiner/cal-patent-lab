@@ -1,0 +1,644 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 15
+Entered: January 19, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+HEWLETT-PACKARD CO.,
+Petitioner,
+v.
+U.S. PHILIPS CORPORATION,
+ORANGE, S.A.,
+TDF SAS, and
+INSTITUT FÜR RUNDFUNKTECHNIK GMBH,
+Patent Owners.
+____________
+Case IPR2015-01506
+Patent 5,539,829
+____________
+Before BRIAN J. McNAMARA, SCOTT A. DANIELS, and
+JENNIFER MEYER CHAGNON, Administrative Patent Judges.
+DANIELS, Administrative Patent Judge.
+
+DECISION
+Denial of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01506
+Patent 5,539,829
+I.
+
+INTRODUCTION
+
+A. Background
+Petitioner, Hewlett-Packard Co. filed a Petition to institute an inter
+partes review of claims 1–22 of U.S. Patent No. 5,539,829 (“the ’829
+patent”). Paper 2 (“Pet.”). Patent Owners, U.S. Philips Corporation,
+Orange, S.A., TDF SAS, and Institut Für Rundfunktechnik GmbH1 filed a
+Preliminary Response. Paper 13 (“Prelim. Resp.”).
+We have authority to determine whether to institute an inter partes
+review under 35 U.S.C. § 314 and 37 C.F.R. § 42.4(a). Upon consideration
+of the evidence and arguments in the Petition and the Preliminary Response,
+we determine that Petitioner has failed to establish a reasonable likelihood of
+prevailing on the claims challenged in the Petition. For the reasons
+expressed below, we do not institute an inter partes review of claims 1–22
+of the ’829 patent.
+B. Additional Proceedings
+Petitioner states that the ’829 patent is the subject of a civil action in
+the U.S. District Court for the Eastern District of Virginia, Audio MPEG,
+Inc. v. Hewlett-Packard Co., Case No. 2:15-cv-00073-HCM-RJK, filed
+February 20, 2015, and is unaware of any other related matter involving the
+’829 patent. Pet. 1.
+C. The ’829 Patent and Illustrative Claim
+The ’829 patent describes a digital transmission system for improving
+the replication of a digital signal sent from a transmitter to a receiver,
+specifically, “a wideband digital signal with a significant reduction of the
+1
+
+Patent Owners indicate Audio MPEG, Inc. is also a real-party-in-interest in
+this proceeding. Paper 5, 2.
+2
+
+IPR2015-01506
+Patent 5,539,829
+distortion present in the replica generated in the receiver.” Ex. 1002, 2:22–
+24. Claim 1 illustrates the claimed subject matter and is reproduced below:
+1. A digital transmission system, for producing a replica
+of a digital signal comprising at least a first component and a
+second component, comprising:
+an encoder including analysis means for altering said digital
+signal to obtain a plurality of sub-signals, including at
+least a first sub-signal and a second sub-signal from said
+first component and said second component respectively,
+signal combination means for combining said first subsignal and said second sub-signal to obtain a composite
+sub-signal,
+signal generator means for generating an indicator signal
+indicating that said first sub-signal and said second subsignal are combined,
+transmission means for transmitting said indicator signal,
+said composite sub-signal, and sub-signals which have
+not been combined,
+receiving means for receiving the signals which were
+transmitted,
+means, responsive to the received indicator signal and
+composite subsignal, for generating a signal related to at
+least one of said first component and said second
+component, and
+a decoder including synthesis means for combining the
+transmitted subsignals and the signal related to at least
+one of said first component and said second component
+to produce said replica of the digital signal.
+
+3
+
+IPR2015-01506
+Patent 5,539,829
+D. The Alleged Ground of Unpatentability
+Petitioner contends that the challenged claims are unpatentable on the
+following specific ground.2
+References
+MUSICAM3
+
+Basis
+§ 102
+II.
+
+Claims Challenged
+1–22
+
+CLAIM CONSTRUCTION
+
+Because we do not reach the issue of anticipation based on our
+determination below, no claim construction is necessary.
+III.
+
+ANALYSIS
+
+We address, below, the issue of whether MUSICAM, the only
+purported prior art reference asserted in the Petition, is a printed publication
+because it is dispositive of the sole asserted ground of unpatentability under
+35 U.S.C. § 102 in the Petition and determinative of whether Petitioner has
+met the threshold standard of 35 U.S.C. § 314(a).
+A. Whether MUSICAM is a Printed Publication
+The parties do not dispute that MUSICAM discloses the limitations
+recited in the ’829 patent. Pet. 9. The threshold issue, therefore, is whether
+MUSICAM qualifies as prior art for purposes of 35 U.S.C. § 102. Id.;
+Prelim. Resp. 13–14. As explained below, we are not persuaded that
+Petitioner has made a sufficient showing that MUSICAM is a printed
+publication.
+2
+
+Petitioner supports its challenge with a Declaration of Dr. Nikil Jayant,
+Ph.D. (Ex. 1004). See infra.
+3
+ISO/IEC JTC1/SC2/WG8, MUSICAM, Coded Representation of Picture
+and Audio Information, MPEG 89/206, December 28, 1989 (Ex. 1027)
+(“MUSICAM”).
+
+4
+
+IPR2015-01506
+Patent 5,539,829
+1. Legal Standard
+Petitioner has the initial burden of production of evidence establishing
+that asserted references are applicable as prior art. Dynamic Drinkware LLC
+v. Nat’l Graphics, Inc., 800 F.3d 1375, 1379 (Fed. Cir. 2015).
+The Federal Circuit has held that “public accessibility” is the
+touchstone in determining whether a reference is a “‘printed publication’”
+under § 102. In re Hall, 781 F.2d 897, 898–99 (Fed. Cir. 1986). “A
+reference is publicly accessible ‘upon a satisfactory showing that such
+document has been disseminated or otherwise made available to the extent
+that persons interested and ordinarily skilled in the subject matter or art
+exercising reasonable diligence, can locate it. . . .”’ Kyocera Wireless Corp.
+v. Int’l Trade Comm’n, 545 F.3d 1340, 1350 (Fed. Cir. 2008) (quoting SRI
+Int’l, Inc. v. Internet Sec. Sys. Inc., 511 F.3d 1186, 1194 (Fed. Cir. 2008)).
+The determination of whether a document is a “‘printed publication’” under
+35 U.S.C. § 102(b) involves a case-by-case inquiry into the facts and
+circumstances surrounding its disclosure to members of the public. In re
+Klopfenstein, 380 F.3d 1345, 1350 (Fed. Cir. 2004). The party seeking to
+introduce the reference “should produce sufficient proof of its dissemination
+or that it has otherwise been available and accessible to persons concerned
+with the art to which the document relates and thus most likely to avail
+themselves of its contents.” In re Wyer, 655 F.2d 221, 227 (CCPA 1981).
+2. Overview of MUSICAM
+MUSICAM is a document that was submitted to an ISO (International
+Organization for Standardization) sponsored working group called
+
+5
+
+IPR2015-01506
+Patent 5,539,829
+“MPEG/Audio group” on December 28, 1989.4 Pet. 3; Prelim. Resp. 8.
+Petitioner explained that the MPEG/Audio group was formed in 1988
+including various companies “to propose a standardized audio coder to be
+used in conjunction with a planned standardized video coder.” Pet. 11
+(citing Ex. 1004 ¶¶ 65–70). MUSICAM is an acronym for: Masking
+Pattern Adapted Universal Sub-band Integrated Coding and Multiplexing.
+Ex. 1027, 2. MUSICAM was one of the proposals for a standardized audio
+coder, and according to Patent Owners, “MUSICAM includes a detailed
+description of a sub-band coding algorithm, including the basic parameters,
+the selection of sub-bands to be transmitted, the manner in which they are to
+be formatted for transmission, and methods for decoding sub-bands and
+reconstructing the replica.” Prelim. Resp. 8.
+3. Discussion
+Petitioner asserts that MUSICAM is a printed publication that
+qualifies as prior art under 35 U.S.C. § 102(a) and thus anticipates claims 1–
+22 of the ’829 patent. Pet. 3, 9–19. Patent Owners dispute this assertion,
+pointing out that the USPTO has already determined that MUSICAM was
+not a printed publication in two ex parte reexamination proceedings and
+argues that the evidence of record in this proceeding also fails to support a
+finding that MUSICAM is a printed publication.5 Prelim. Resp. 2–4, 14–26.
+Petitioner argues specifically that all documents and proposals,
+including MUSICAM, provided to the MPEG Audio/group were not subject
+4
+
+As stated in the February 1989 MPEG/Audio group meeting report, MPEG
+stands for Moving Picture Coding Experts Group. Ex. 1010, 1.
+5
+See Ex parte Reexamination of Gerardus C.P. Lokhoff et al., U.S. Patent
+No. 5,777,992 C1, No. 90/009,344; Ex parte Reexamination of Gerardus
+C.P. Lokhoff et al., U.S. Patent No. 5,323,396 C1, No. 90/009,345.
+
+6
+
+IPR2015-01506
+Patent 5,539,829
+to non-disclosure or confidentiality agreements and were, therefore,
+available to the interested public.6 Pet. 10–12. Petitioner points to an
+October 1989 MPEG Audio/group meeting report as evidence that the
+working group documents would be freely available to persons outside the
+specific members of the MPEG Audio Group. Id. at 12. The report states in
+relevant part:
+[T]he Chairman stated again his intention to provide the full
+collection of documents available at MPEG meeting to all
+MPEG members and to suitably identified Corresponding
+Members. The large attendance of MPEG meetings and the
+associated load in copies and mailing however had to be
+alleviated by defining precisely MPEG membership. He
+proposed that the following individuals will receive the full
+collection of documents corresponding to meeting:
+• Those who took part in that meeting;
+• Those who informed by fax/mail/telex their inability to
+attend that meeting;
+• Corresponding members in other standards bodies.
+The membership list will be changed every meeting to
+implement the above rule.
+In addition to the above those who will express by
+fax/mail/telex their interest to receive only the meeting reports
+will receive them on permanent basis.
+The meeting agreed to the proposal.
+
+6
+
+The meeting reports of the MPEG/Audio group generally refer to the
+technical information, documents, and presentations, including MUSICAM,
+that were to be submitted for consideration by the working group as part of
+the standard, as a “proposal,” “proposal package,” or “proposals.” See
+Ex. 1023, 1; Ex. 1010, 3; Ex. 1029, 14.
+
+7
+
+IPR2015-01506
+Patent 5,539,829
+Ex. 1010, 3. Petitioner alleges further evidence that subsequent
+MPEG/Audio group meeting reports indicate that proposals to the group
+should include a “level of detail sufficient for others to reproduce the
+results will be required in October 1989.” Pet. 13 (citing Ex. 1023, 1).
+Petitioner argues that
+[a]ccordingly, MUSICAM was dated in October 1989,
+submitted and then presented to dozens of parties – without any
+evidence of an NDA or other confidentiality agreement – and
+those parties were free to take MUSICAM with them back to
+their own companies so that they could attempt to “reproduce
+the results.”
+Pet. 14 (citing Ex. 1026; Ex. 1028, 7; Ex. 1023, 1; Ex. 1004 ¶ 78).
+Additionally, Petitioner cites to evidence purportedly indicating that
+the working group had a procedure for circulating a non-disclosure
+agreement but that no submissions or proposals were subjected to this
+procedure. Id. Also, Petitioner notes that an updated version of MUSICAM
+was provided at a working group meeting in December 1989 and formally
+catalogued on December 28, 1989. Pet. 15 (citing Ex. 1027; Ex. 1004
+¶¶ 77–78).
+According to Petitioner, given the above evidence, the facts that
+purportedly prove MUSICAM is a printed publication are that MUSICAM
+was:
+• Promised in May of 1989 to be provided by October of 1989
+so that others could reproduce the results [Ex. 1023 at 1;
+Ex. 1010 at 3–4]
+• Provided and then described in October 1989 and December
+1989 to over 30 individuals [Ex. 1026; Ex. 1029 at 1, 7, 16–17]
+• Cataloged as MPEG document number 89-206 [Ex.1026,
+Ex. 1029 at 14]
+
+8
+
+IPR2015-01506
+Patent 5,539,829
+• Labeled with a copyright date of October 11, 1989 [Ex. 1026]
+• Revised and re-distributed by the end of December 1989
+[Ex. 1027]
+• Freely available to any member of the MPEG/Audio group,
+without any member being subject to confidentiality or nondisclosure obligations [Ex. 1029 at 15; Ex. 1025 at 2]
+Pet. 15–16. We address each of these asserted facts below.
+The MPEG/Audio group meeting report of May 1989 (Ex. 1023)
+refers to, inter alia, a time line for meetings and submitting proposals to the
+working group and the level of detail necessary for a proposal, i.e., items and
+information the group believed necessary to appropriately evaluate any
+proposal. Ex. 1023, 1. The report indicates that detailed proposals “will be
+required in October 1989,” and as discussed above, be sufficiently detailed
+“for others to reproduce the results.” Id. This evidence is helpful as an
+initial matter to understand that the working group required essentially full
+disclosure of algorithms and hardware implementations to develop the
+standard. Petitioner, however, does not explain sufficiently how this fact
+leads to the conclusion that the proposals as submitted to the working group
+were publicly available. The working group’s stated desire, or requirement,
+for reproducible information and a certain level of detail in proposal
+documents, such as MUSICAM, certainly facilitates the efforts of the
+working group, but does not inform us as to whether these proposals were
+freely available to the interested public, or on the contrary, maintained with
+some level of confidentiality. Petitioner appears to infer that the high level
+of detail and disclosure in the proposals indicates that documents such as
+MUSICAM were intended to be shared openly and publicly. Pet. 13–14.
+On the other hand, it is at least as likely that the level of detail and
+
+9
+
+IPR2015-01506
+Patent 5,539,829
+information provided in the proposals, so that group members could
+reproduce the results, was provided by submitting members due to some
+level of confidentiality afforded such documents within the working group.
+For example, as discussed in further detail below, the meeting records of the
+MPEG/Audio group expressly state that submitted information and
+proposals were restricted to the members of the MPEG/Audio group. Ex.
+1029, 15. The level of detail and disclosure in the proposals, as requested by
+the working group does not, therefore, persuade us that such documents
+were publicly available to any interested person upon submission to the
+MPEG/Audio group.
+We are also not persuaded by the fact that these detailed and
+reproducible proposals were disseminated “to over 30 individuals” indicates
+that such documents were publicly available. Pet. 16. The 30 or so listed
+individuals that participated in the working group meeting on October 18–
+20, 1989 are apparently members of the MPEG/Audio working group, and
+Petitioner has not alleged that any were not. Ex. 1029, 16–17. Indeed, as
+recorded in the written meeting report (Ex. 1029), the listed individuals who
+attended this meeting were reminded during the meeting “that the
+distribution of the detailed descriptions of algorithms is restricted to the
+MPEG/Audio group and therefore, nobody is allowed to distribute these
+documents outside the MPEG/Audio group.” Id. at 15.
+A first version of MUSICAM was submitted to the MPEG/Audio
+group as a proposal at the October 18–20, 1989 working group meeting and
+was provided with a copyright notice as reproduced below:
+
+10
+
+IPR2015-01506
+Patent 5,539,829
+Ex. 1026, 4. The copyright notice, illustrated above, includes the date of
+October 11, 1989 and the submitting development group CCETT, IRT, and
+Philips. Id.; Ex. 1029, 14. There were other proposals submitted at this
+meeting as well, and MUSICAM was further designated as document MPEG
+89/206 and dated October 18, 1989 as submitted to the working group.
+Ex. 1026, 1. Petitioner does not explain, however, why the copyright notice
+and the working group document designation are evidence of public
+disclosure and availability. A copyright notice may be placed on a
+document regardless of its level of confidentiality or disclosure, and the
+evidentiary weight of the notice is statutorily defined as specifically
+applicable to defense of copyright infringement. See 17 U.S.C. § 401(d).
+Here, the fact that the authors attached a copyright notice to MUSICAM and
+the working group designated the document with a specific paper number is
+not, without more, persuasive evidence of public disclosure and availability
+of MUSICAM as of any particular date.
+We also are not persuaded that the revision of MUSICAM submitted
+on December 28, 1989 to the MPEG/Audio group is an indication of public
+disclosure and availability.7 Ex. 1027, 1. MUSICAM and its coding
+algorithm apparently were revised in light of certain guidelines discussed at
+the October 18–20, 1989 working group meeting. The meeting report states
+7
+
+MPEG 89/206 as submitted on October 18, 1989 was titled “Universal
+Subband Coding,” not MUSICAM. Ex. 1026, 1. The revised version of
+MPEG 89/206 submitted December 28, 1989 was titled “MUSICAM.”
+Ex. 1027, 1. As do the parties, we refer to both documents as MUSICAM
+and where necessary differentiate between the two documents according to
+their respective submission dates to the working group. See Pet. 13–14;
+Prelim. Resp. 18–19.
+
+11
+
+IPR2015-01506
+Patent 5,539,829
+that “[e]very algorithm proposer should – if necessary – revise his detailed
+description in such a way that it matches the guideline.” Ex. 1029, 15.
+Subsequently, the revised version of MUSICAM was submitted to the
+working group December 28, 1989. Ex. 1027, 1. Petitioner has not
+explained why the revised submission on December 28th, provides any more
+evidence than does the October 18th submission, that MUSICAM was
+disseminated outside of the MPEG/Audio group or made available to the
+interested public. Petitioner argues that the December 28th submission is
+corroborated by Professor Musmann at the University of Hanover, but this
+fact does not provide any evidence of disclosure outside the working group
+because Professor Musmann is listed as an MPEG/Audio group member in
+the October 18–20, 1989 meeting report. See Ex. 1029, 16. Professor
+Musmann is in fact designated as the Chairman of the MPEG/Audio group.
+Id. at 1.
+Petitioner alleges that MUSICAM was “[f]reely available to any
+member of the MPEG/Audio group, without any member being subject to
+confidentiality or non-disclosure obligations.” Pet. 16. This asserted fact by
+Petitioner is not, in our review of the record, entirely accurate. First, there
+was an obligation, or at least an expectation, of non-disclosure within the
+working group. The meeting report from October 18–20, 1989 states clearly
+that “[t]he chairman reminded all participants that the distribution of the
+detailed descriptions of algorithms is restricted to the MPEG/Audio group
+and therefore, nobody is allowed to distribute these documents outside the
+MPEG/Audio group.” Ex. 1029, 15. Professor Musmann, the Chairman of
+the MPEG/Audio group, not only reminded the participants at the meeting,
+but additionally, his warning to not distribute the proposal documents
+
+12
+
+IPR2015-01506
+Patent 5,539,829
+outside the working group is explicitly reiterated in the written meeting
+report. Id. Indeed, Professor Musmann stated in subsequent correspondence
+that once given a MPEG document number, “documents identified in this
+way were only accessible to the members of the MPEG standardization
+group.” Ex. 2004.
+We agree with Petitioner that there is no evidence of any member of
+the MPEG/Audio group submitting, or signing a confidentiality or nondisclosure agreement. Pet. 14. This fact, either alone or in combination with
+those discussed above, is not persuasive because obligations of nondisclosure and non-dissemination can arise apart from specific written and
+executed agreements. Cordis Corp. v. Boston Sci. Corp., 561 F.3d 1319,
+1333–34 (Fed. Cir. 2009) (“‘[W]here professional and behavioral norms
+entitle a party to a reasonable expectation’ that information will not be
+copied or further distributed, ‘we are more reluctant to find something a
+‘printed publication.’” (quoting Klopfenstein, 380 F.3d at 1351)). The
+Federal Circuit has not required explicit written agreements to affirm a
+finding that disclosed material was not a printed publication. See N.
+Telecom, Inc. v. Datapoint Corp., 908 F.2d 931, 936 (Fed. Cir. 1990).
+We also are not persuaded by Petitioner’s assertion that the working
+group’s discussion, at a meeting in July 1989, with respect to additional
+safeguards of written non-disclosure agreements, means that documents or
+proposals without such written agreements were free to be distributed
+outside the MPEG/Audio group. See Pet. 14–15 (citing Ex. 1025, 2). First,
+the meeting report from July 4–6, 1989 states that the MPEG/Audio group
+agreed that “[d]etailed descriptions of algorithms and software should not be
+disseminated.” Ex. 1025, 2. In the context of the meeting report, and
+
+13
+
+IPR2015-01506
+Patent 5,539,829
+membership in the MPEG/Audio group, a reasonable reading of this
+admonition is that the detailed descriptions should not be disseminated
+outside the working group. Second, the July meeting report noted that
+discussion regarding the ISO’s position on written non-disclosure
+agreements resolved into a recommendation that any non-disclosure forms
+or agreements that members believed necessary should be circulated early
+before the scheduled October 1989 meeting. Id. We discern no evidence in
+this July meeting report that documents or proposals submitted to the
+working group must be subject to a written non-disclosure or confidentiality
+agreement to preclude dissemination outside the working group. In fact, we
+understand the opposite. What we apprehend, in the context of the report
+from the July meeting, is that the MPEG/Audio group members were
+discussing, and in effect balancing, the factors of: (1) sufficient disclosure of
+information under the group’s own self-regulated restrictions on
+dissemination and disclosure so that a standard could be effectively
+determined by the working group; with (2) an individual’s, or perhaps a
+company’s, concern to maintain its technology proprietary and undisclosed
+to all interested persons and the world at large. No further discussion of
+non-disclosure agreements, or evidence of submission of any non-disclosure
+documents, appears to have occurred following the July working group
+meeting.8 Contrary to Petitioner’s assertion that “in July 1989, [] the parties
+8
+
+The Chairman of the MPEG/Audio group, Professor Musmann, posed two
+questions for potential discussion in the October 1989 meeting in regards to
+this balancing of factors:
+• Are there regulations for non-disclosure agreements within the ISO?
+• Is there any regulation for rejecting parties who insist on a
+non-disclosure agreement?
+
+14
+
+IPR2015-01506
+Patent 5,539,829
+had agreed that anyone attempting to restrict dissemination of standards
+documents would need to circulate a non-disclosure agreement” (Pet. 14),
+we determine that a more reasonable understanding of this evidence is that
+the MPEG/Audio group and its constituent members were sufficiently
+assured that disclosure of documents including algorithms, and software and
+hardware implementations for audio coding would be maintained within the
+working group membership and not disseminated to parties outside the
+MPEG/Audio group. See Ex. 1010, 3; Ex. 1025, 2 (July 1989 meeting
+report admonishing members that “[d]etailed descriptions of algorithms and
+software should not be disseminated”); Ex. 1029, 15 (October 1989 meeting
+report reminding working group members that “distribution of the detailed
+descriptions of algorithms is restricted to the MPEG/Audio group and
+therefore, nobody is allowed to distribute these documents outside the
+MPEG/Audio group”).
+Turning to Petitioner’s assertion based on the meeting reports that the
+members of the MPEG/Audio group “were free to take the reference back to
+their company so that they could attempt to recreate the results,” we are not
+apprised by any evidence that MUSICAM was ever disseminated outside the
+working group. Pet. 17. As explained by Petitioner’s expert, Dr. Jayant,
+group members “were free to take the information discussed at the MPEG
+meetings and disclosed in the various documents back to their companies so
+that they could use them to develop their proposals.” Ex. 1004 ¶ 78.
+Dr. Jayant also testified “that those of us in the working group would have
+the freedom to discuss the concepts from the working group with our
+Ex. 1025, 2. No answers or further discussions as to these questions are
+noted in the meeting report from October 1989. Ex. 1029.
+
+15
+
+IPR2015-01506
+Patent 5,539,829
+colleagues who were not in attendance and/or not part of the working
+group.” Id. ¶ 68. Tellingly, Dr. Jayant does not state that the members
+could freely disseminate or otherwise distribute the MUSICAM reference or
+any other documents from the working group to anyone not a member of the
+working group. Dr. Jayant testifies merely that as a member, he had
+“freedom to discuss the concepts.” Id. Neither Dr. Jayant nor Petitioner
+point to any evidence that persuades us that members disseminated
+MUSICAM or any other reference or document, even once, to any party
+outside the working group.9 See Pet. 10–19, Ex. 1004 ¶¶ 65–78. It appears
+to the contrary, that Dr. Jayant treated MUSICAM and any other reference
+including detailed descriptions of algorithms and related software and
+hardware with confidential deference consistent with the working group’s
+agreement to restrict access to MPEG/Audio group members. See Ex. 1029,
+15.
+We are unpersuaded also that the facts here comport with those in
+Massachusetts Institute of Technology v. AB Fortia, 774 F.2d 1104, 1109
+(Fed. Cir. 1985), as Petitioner contends. Pet. 17–18. In Massachusetts
+Institute of Technology, the Federal Circuit determined a contested reference
+was prior art where Dr. David Levine, a researcher in cell culturing at
+Massachusetts Institute of Technology, gave a copy of his paper (“the
+Birmingham paper”) to the head of the conference at which Dr. Levine
+9
+
+We note that the written report from the October 1989 meeting specifically
+permitted dissemination of a single reference, “[t]he list of agreed test
+sequences (document MPEG 89/166), which contains the exact source
+informations, [sic] can be distributed without restrictions.” Ex. 1029, 16.
+We find no such evidence, nor does Petitioner point to any, that such
+permissions were applied to MUSICAM or any other reference.
+
+16
+
+IPR2015-01506
+Patent 5,539,829
+presented the paper, and “[a]fterward, copies were distributed on request,
+without any restrictions, to as many as six persons, more than one year
+before the filing date of the [ ] patents.” Id. at 1108–09. In Cooper
+Cameron Corp. v. Kvaerner Oilfield Products, 291 F.3d 1317 (Fed. Cir.
+2002), which Petitioner cites also in support of its position that MUSICAM
+is a printed publication, the Federal Circuit was not persuaded that “a single
+confidentiality notice relating to financial information on the fourth page of
+its 130 pages,” rendered the documents inaccessible as prior art where
+employees averred that the documents were not considered confidential and
+were distributed to outside parties and contractors. Id. at 1324. In both
+cases that Petitioner relies on, there was substantial evidence that no
+restrictions were placed on dissemination of the papers and documents, and
+further that the papers and documents were in fact freely distributed outside
+of the scientific conference in Massachusetts Institute of Technology, and
+distributed to entities beyond the joint venture members in Cooper Cameron
+Corp.
+The facts presented here are different. The MPEG/Audio group
+through its Chairman and written meeting reports consistently cautioned the
+working group members that the proposals and related information were
+restricted to MPEG/Audio group membership and were not to be
+disseminated beyond the group. See Ex. 1025, 2; Ex. 1029, 15. Indeed, no
+evidence of dissemination outside of the working group has been presented
+by Petitioner. The facts as presented here align more appropriately with our
+colleagues’ Decision in Samsung Electronics Co. v. Rembrandt Wireless
+Technologies, LP, Case IPR2014-00514 (PTAB Sept. 9, 2014) (Paper 18).
+In Samsung, the Board determined that although non-members could attend
+
+17
+
+IPR2015-01506
+Patent 5,539,829
+meetings of the IEEE 802.11 working group and provide an email address to
+the chair of the working group to receive information and a password to
+access the documents on an open server, that the Standard Draft was not
+publicly available. Id. at 6–10. The Board explained that there was no
+evidence that the potentially interested public, or anyone outside the 802.11
+working group, would have been made aware of the meetings or known to
+contact the chair to be added to the email list and hence access the Standard
+Draft on the open server. Id. at 9. In light of the dearth of evidence
+suggesting public availability, the Board determined that the Standard Draft
+was therefore not a printed publication. Id. at 9–10.
+Moreover, in Samsung the Board noted “the fact that an interested
+individual needed to contact IEEE in order to obtain a password or other
+means of accessing Draft Standard (and needed to know who to contact in
+the first place) weighs against public accessibility.” Id. at 9. Similarly, in
+the present case although the MPEG/Audio group was not a “closed” group,
+i.e., new members could be added, there was a protocol for defining
+members of the working group to whom documents would be provided and
+the protocol was generally known only to those in the working group. See
+Ex. 1010, 3. Even more compelling than in Samsung, in the present case we
+are not apprised of any evidence that MUSICAM or other reference
+documents were available to anyone via the internet or posted on an open, or
+even a secure, server of any type.
+The evidence, particularly the working group’s written meeting
+reports, in this proceeding is persuasive that access to references such as
+MUSICAM and other algorithm informational documents beyond the
+working group was restricted. The evidence of individual member behavior,
+
+18
+
+IPR2015-01506
+Patent 5,539,829
+such as Professor Musmann and Dr. Jayant, also shows consistent conduct of
+the individual members of the MPEG/Audio group not disseminating such
+documents. Also weighing in favor of MUSICAM not being a printed
+publication is the lack of any evidence that it was ever accessed or even
+available to anyone outside the working group. Altogether, the evidence
+weighs in favor of finding MUSICAM is not a printed publication.
+Therefore, based on the evidence Petitioner provided, we conclude Petitioner
+has not made a sufficient showing that MUSICAM was a printed publication
+as of December 28, 1989 or earlier, available to an interested individual in
+MPEG audio coding upon the exercise of reasonable diligence.
+4. Asserted Grounds of Unpatentability
+Because Petitioner has not met its burden in establishing that
+MUSICAM is a “printed publication,” and thus, prior art, Petitioner has not
+shown a reasonable likelihood of prevailing on the ground asserted.
+IV.
+
+SUMMARY
+
+For the foregoing reasons, we determine that the information
+presented in the Petition fails to establish a reasonable likelihood that
+Petitioner would prevail on the alleged ground of unpatentability with
+respect to each of claims 1–22 of the ’829 patent.
+V.
+
+ORDER
+
+For the reasons given, it is
+ORDERED that no trial is instituted as to any of the challenged
+claims.
+
+19
+
+IPR2015-01506
+Patent 5,539,829
+PETITIONER:
+Walter Renner
+Roberto Devoto
+FISH & RICHARDSON P.C.
+axf@fr.com
+IPR18296-0055IP1@fr.com
+PATENT OWNER:
+Stephen Elliot
+James Williams
+SULLIVAN & CROMWELL LLP
+elliotts@sullcrom.com
+williamsj@sullcrom.com
+
+20
+
+

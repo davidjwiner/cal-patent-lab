@@ -1,0 +1,258 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 10
+Enter: January 20, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+INTERMIX MEDIA, LLC,
+Petitioner,
+v.
+BALLY GAMING, INC.,
+Patent Owner.
+____________
+Case CBM2015-00154
+Patent 5,816,918
+____________
+Before MICHAEL P. TIERNEY, PATRICK R. SCANLON, and
+HYUN J. JUNG, Administrative Patent Judges.
+JUNG, Administrative Patent Judge.
+DECISION
+Denying Institution of Covered Business Method Patent Review
+37 C.F.R. § 42.208
+
+CBM2015-00154
+Patent 5,816,918
+I.
+
+INTRODUCTION
+Intermix Media, LLC (“Petitioner”) filed a Petition (Paper 1, “Pet.”),
+
+requesting institution of a covered business method patent review of claims
+1–34, 38, 39, and 45–77 of U.S. Patent No. 5,816,918 (Ex. 1001, “the ’918
+patent”). Bally Gaming, Inc. (“Patent Owner”) filed a Preliminary Response
+(Paper 9, “Prelim. Resp.”). We have jurisdiction under 35 U.S.C. § 324.
+We determine that information in the Petition does not demonstrate it
+is more likely than not that Petitioner would prevail with respect to claims
+1–34, 38, 39, and 45–77 of the ’918 patent. 35 U.S.C. § 324(a).
+Accordingly, we do not institute a covered business method patent review as
+to those claims for the reasons that follow.
+A. Related Proceedings
+The ’918 patent is the subject of Bally Gaming, Inc. v. eUniverse, Inc.,
+No. 3:03-cv-0062-LRH-VPC (D. Nev.) and Bally Gaming, Inc. v.
+Worldwinner.com Inc., No. 3:03-cv-0063-LRH-VPC (D. Nev.). Pet. 14;
+Paper 5, 1–2.
+The ’918 patent was also the subject of Reexamination No.
+90/006,601, and an ex parte Reexamination Certificate issued on June 30,
+2014 that canceled claims 35–37 and 40–44 and amended claims 34, 38, 39,
+45, and 46. Additionally, claims 1, 3, 15–22, 24, 25, 28, 32–34, 39, 73–75
+and 77 of the ’918 patent have been challenged in related covered business
+method patent review CBM2015-00155.
+B. The ’918 Patent (Ex. 1001)
+The ’918 patent relates to “redemption games allowing a player to
+receive one or more prizes in connection with playing the game.” Ex. 1001,
+1:16–19. Figure 1 of the ’918 patent is reproduced below.
+2
+
+CBM2015-00154
+Patent 5,816,918
+
+Figure 1 is a block diagram of a game apparatus. Id. at 4:62–63,
+5:49–51. The ’918 patent states that “prize information is automatically
+determined for each of the prizes, the prize information being determined in
+view of a desired profitability of the game apparatus.” Id. at 4:1–4. Game
+unit 10 can include game processor 12; monetary input device 14 that, for
+example, can be a coin deposit slot or credit card reader; player input device
+16 such as buttons, keyboards, dials, joystick controls, touch screen, track
+ball, or any other input used in playing a game; game output device 18, such
+as display screen 56; universal ticket dispenser 20 that can dispense
+vouchers for redeeming prizes; specific prize ticket dispenser 22; and
+communication device 24 for optionally communicating with other game
+apparatuses. Id. at 6:10–14, 6:34–50, 7:4–10, 7:52–61, 8:13, 8:32–35,
+11:35–39.
+Of the challenged claims, claims 1, 15, 21, 34, 38, 39, 45, 47, 59, and
+73 are independent, and claims 34, 38, 39, and 45 were amended during
+reexamination. Claim 1 is reproduced below:
+3
+
+CBM2015-00154
+Patent 5,816,918
+1. A method for providing a prize redemption system for
+a game apparatus, said prize redemption system being
+customizable by an operator, said method comprising:
+receiving a prize list on a game apparatus, said prize list
+including names of a plurality of prizes available to be won by
+playing said game apparatus, wherein said game apparatus
+receives monetary income from players in exchange for use of
+said game apparatus, and wherein said players may win prize
+credits by playing said game apparatus;
+receiving a cost of each of said prizes on said game
+apparatus; and
+determining on said game apparatus a prize cost to be
+associated with each of said plurality of prizes, said prize cost
+being in terms of prize credits and determined in view of a
+desired profitability of said game apparatus, and wherein a player
+of said game apparatus may select one of said prizes by
+exchanging a number of prize credits equal to said prize cost of
+said selected prize.
+C. Challenge
+Petitioner solely challenges claims 1–34, 38, 39, and 45–77 as
+unpatentable under 35 U.S.C. § 101. Pet. 1, 15–80.
+
+II.
+
+ANALYSIS
+A. Asserted Ground Under 35 U.S.C. § 101
+On the merits, the information in the Petition does not demonstrate it
+
+is more likely than not that claims 1–34, 38, 39, and 45–77 of the ’918
+patent are unpatentable under 35 U.S.C. § 101.
+In Alice Corp. Pty, Ltd. v. CLS Bank Int’l, 134 S. Ct. 2347 (2014), the
+Supreme Court clarified the process for analyzing claims to determine
+whether claims are directed to patent-ineligible subject matter. In Alice, the
+Supreme Court applied the framework set forth previously in Mayo
+4
+
+CBM2015-00154
+Patent 5,816,918
+Collaborative Services v. Prometheus Laboratories, Inc., 132 S. Ct. 1289
+(2012), “for distinguishing patents that claim laws of nature, natural
+phenomena, and abstract ideas from those that claim patent-eligible
+applications of these concepts.” Alice, 134 S. Ct. at 2355. The first step in
+the analysis is to “determine whether the claims at issue are directed to one
+of those patent-ineligible concepts.” Id. If they are directed to a patentineligible concept, the second step in the analysis is to consider the elements
+of the claims “individually and ‘as an ordered combination”’ to determine
+whether there are additional elements that “‘transform the nature of the
+claim’ into a patent-eligible application.” Id. (quoting Mayo, 132 S. Ct. at
+1297, 1298,). In other words, the second step is to “search for an ‘inventive
+concept’––i.e., an element or combination of elements that is ‘sufficient to
+ensure that the patent in practice amounts to significantly more than a patent
+upon the [ineligible concept] itself.’” Id. (alteration in original)
+(quoting Mayo, 132 S. Ct. at 1294). Further, the “prohibition against
+patenting abstract ideas ‘cannot be circumvented by attempting to limit the
+use of the formula to a particular technological environment’ or adding
+‘insignificant postsolution activity.”’ Bilski v. Kappos, 561 U.S. 593, 610–
+11 (2010) (quoting Diamond v. Diehr, 450 U.S.175, 191–92 (1981)).
+For the first step of the Alice test, Petitioner argues that (1)
+independent claim 15 is directed to the abstract idea of “receiving money
+from a player, allowing a player to play a game, providing a dynamic set of
+prizes to the player based on various factors, and allowing the player to
+choose and redeem a prize”; (2) independent claim 1 is directed to the
+abstract idea of “providing a list of prizes to game players, where the cost of
+each prize is determined based on the number of credits and desired
+5
+
+CBM2015-00154
+Patent 5,816,918
+profitability of the apparatus”; (3) independent claim 21 is directed to the
+abstract idea of “providing prizes for a game, where the cost of the prizes is
+determined based on the desired payout and profitability of the game”; (4)
+independent claims 34, 38, and 45 are directed to the abstract idea of
+“providing a tournament for a game of skill over a network” and “providing
+a menu for presenting and selecting prizes based on prize credits”; (5)
+independent claim 39 is directed to the abstract idea of “providing a
+tournament game”; (6) independent claim 47 is directed to the abstract idea
+of “providing a list of prizes to game players, where the cost of each prize is
+automatically determined based on the number of credits and desired payout
+and profitability of the apparatus”; (7) independent claim 59 is directed to
+the abstract idea of “providing a list of prizes to game players, where the
+cost of each prize is automatically determined based on the number of
+credits and desired payout and profitability of the apparatus”; and (8)
+independent claim 73 is directed to the abstract idea of “providing prizes for
+a game, where the cost of the prizes is determined based on the desired
+payout.” Pet. 28, 35, 37, 40–41, 42, 44, 46, 48–49. Petitioner additionally
+asserts abstract ideas for each of the challenged dependent claims. Id. at 50–
+80.
+As for the second step of the Alice test, Petitioner contends that any
+recited structures are generic, the remaining claim elements are directed to
+the abstract idea or well known, or the claims do not recite a technical
+solution to a technical problem. Pet. 31–33 (claim 15), 35–36 (claim 1), 37–
+39 (claim 21), 41 (claims 34, 38, 45), 42–43 (claim 39), 44–45 (claim 47),
+47 (claim 59), 49 (claim 73), 50–80 (dependent claims 2–14, 16–20, 22–33,
+
+6
+
+CBM2015-00154
+Patent 5,816,918
+46, 48–58, 60–72, 74–77). For example, with respect to claim 15, Petitioner
+states
+- Element [a] claims the abstract idea of displaying a prize table.
+- Element [b] claims the abstract idea of receiving an input of the
+prizes available for players of the games, and the ability to
+receive money from players, both of which the ‘918 Patent
+admits were commonly known and which are computer
+implementations of previously-manual processes.
+- Element [c] claims the abstract idea of receiving payout input
+from the operator, which is expressed in terms of the monetary
+value of the prizes versus the amount of money received.
+- Element [d] claims the abstract idea of determining cost of each
+prize in accordance with the desired payout and profitability.
+- Element [e] claims the abstract idea of receiving monetary
+input.
+- Element [f] claims the abstract idea of implementing the game
+process and providing a player with a score.
+- Element [g] claims the abstract idea of displaying a prize
+selection screen with a plurality of prizes and a prize cost (i.e., a
+price list).
+- Element [h] claims the abstract idea of the player selecting a
+prize that has a cost less than the number of credits the player
+has.
+- Element [i] claims the abstract idea of the player receiving a
+redemption coupon or other indication for redeeming a prize.
+Id. at 32–33.
+Petitioner fails to provide a credible analysis considering the elements
+of the challenged claims “individually and ‘as an ordered combination”’ to
+determine whether the additional elements transform the nature of the
+challenged claims into a patent-eligible application in accordance with the
+second step of the Alice analysis. The Petition fails to provide a credible and
+sufficient explanation as to whether an element or combination of elements
+is sufficient to ensure that the ’918 patent in practice amounts to
+7
+
+CBM2015-00154
+Patent 5,816,918
+significantly more than a patent upon the ineligible concept itself. The
+Petition, instead, asserts cursory and conclusory arguments with no or
+insufficient evidence that the additional claim elements are well known or
+recite generic structure. See Pet. 31–80. Petitioner’s failure to do a full
+analysis under Alice constitutes a breach of 37 C.F.R. § 42.304(b)(4), as well
+as 35 U.S.C. § 322(a)(3), which requires identifying the grounds “with
+particularity.”
+
+III.
+
+CONCLUSION
+For the foregoing reasons, we determine that the information in the
+
+Petition does not demonstrate that it is more likely than not that claims 1–34,
+38, 39, and 45–77 of the ’918 patent are unpatentable in the sole challenge
+under 35 U.S.C. § 101.
+
+IV.
+
+ORDER
+Accordingly, it is ORDERED that the Petition is denied for the
+
+reasons discussed, and no trial is instituted.
+
+8
+
+CBM2015-00154
+Patent 5,816,918
+For PETITIONER:
+Evan Finkel
+Christopher K. Dorsey
+PILLSBURY WINTHROP SHAW PITTMAN LLP
+evan.finkel@pillsburylaw.com
+christopher.dorsey@pillsburylaw.com
+For PATENT OWNER:
+Barry Bretschneider
+BAKER & HOSTETLER LLP
+bbretschneider@bakerlaw.com
+
+9
+
+

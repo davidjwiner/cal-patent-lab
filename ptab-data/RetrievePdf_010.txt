@@ -1,0 +1,352 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper No. 7
+Filed: October 28, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+TOYOTA MOTOR CORPORATION,
+Petitioner,
+v.
+CELLPORT SYSTEMS, INC.,
+Patent Owner.
+____________
+Case IPR2015-01423
+Patent 5,479,479
+____________
+
+Before JAMESON LEE, JAMES B. ARPIN, and SCOTT C. MOORE,
+Administrative Patent Judges.
+LEE, Administrative Patent Judge.
+
+DECISION
+Denying Institution of Inter Partes Review
+37 C.F.R. § 42.108
+
+IPR2015-01423
+Patent 5,479,479
+I. INTRODUCTION
+A. Background
+Toyota Motor Corporation filed a Petition (Paper 2, “Pet.”) to institute
+inter partes review of claims 1–29 of expired U.S. Patent No. 5,479,479
+(Ex. 1001, “the ’479 patent”). Patent Owner, Cellport Systems, Inc., filed a
+Preliminary Response (Paper 6, “Prelim. Resp.”).
+Upon consideration of the Petition and Preliminary Response, we
+reject the Petition under 35 U.S.C. § 325(d), because substantially the same
+prior art and substantially the same arguments previously were presented by
+Petitioner in IPR2015-00634. Accordingly, we do not institute an inter
+partes review of any claim of the ’479 patent. The Petition is denied.
+B. Related Matters
+The ’479 patent has been asserted in two lawsuits in the United States
+District Court for the District of Colorado. Pet. 4; Paper 5, 2. The ’479
+patent also is the subject of a petition filed by Toyota Motor Corporation, the
+same petitioner as in this proceeding, in IPR2015-00634.
+C. Evidence Relied Upon by Petitioner
+Petitioner relies on the following references:1
+
+1
+
+Petitioner also relies on the Declaration of John Villasenor (Ex. 1004).
+2
+
+IPR2015-01423
+Patent 5,479,479
+Reference
+
+Date
+
+Exhibit
+
+Issued:
+Nov. 7, 1995
+Filed:
+Sep. 21, 1992
+Issued:
+June 29, 1993
+Filed:
+Apr. 17, 1992
+Issued:
+Apr. 25, 1995
+Filed:
+May 4, 1992
+Filed:
+Feb. 16, 1993
+Filed:
+Jan. 24, 1991
+Issued:
+Aug. 22, 1995
+Filed:
+Apr. 17, 1992
+
+Ex. 1002
+
+Boatwright
+
+US 5,465,207
+
+Mansell
+
+US 5,223,844
+
+Hoto
+
+US 5,410,541
+
+Guy
+
+US 5,187,591
+
+Thompson
+
+US 5,444,855
+
+CAN
+
+1992
+Szydlowski, C., CAN
+Specification 2.0: Protocol and
+Implementations, SAE Technical
+Paper 921603, Future
+Transportation Technology
+Conference and Exposition,
+Costa Mesa, California August
+10–13, 1992
+
+3
+
+Ex. 1014
+
+Ex. 1015
+
+Ex. 1016
+
+Ex. 1017
+
+Ex. 1026
+
+IPR2015-01423
+Patent 5,479,479
+D. The ’479 Patent
+The ’479 patent relates to transmitting and receiving digital
+information through an air link. Ex. 1001, Title. The specific disclosure
+pertains to sending and receiving digital data between a plurality of
+peripheral devices, through a cellular telephone, to remote devices. Id. at
+Abstr. One aspect of the ’479 patent concerns providing a universal
+interface to different kinds of cellular phones in the form of an adaptor cable
+that provides for selectable coding to identify the type of the attached phone,
+and the application environment for that aspect of the invention can be that
+of a car kit environment. Id. at 2:40–55. Another aspect of the ’479 patent
+concerns using a controller attached to a common bus to which a plurality of
+peripheral devices also are attached to permit digital data to be
+communicated to and from the peripheral devices via a wireless telephone.
+Id. at 3:30–44. Figure 15 of the ’479 patent is reproduced below:
+
+4
+
+IPR2015-01423
+Patent 5,479,479
+Figure 15 shows cellular phone 10 connected to car kit controller 200
+through an interconnect cable having universal connector 45 that connects
+with car kit connector 204. Id. at 10:10–17. Car kit controller 200 includes
+bus logic 268 to control common bus 280 to which peripheral devices CD
+ROM 292, display 288, and GPS Receiver 284 are connected. Id. at 11:59–
+61.
+With regard to operation of the system, the ’479 patent states:
+In operation, cellular phone 10 may receive RF signals
+containing data addressed to one of the peripheral devices. The
+data is passed via interconnect cable 46 to microprocessor 208.
+Microprocessor 208 formats the data according to the needs of
+the peripheral device to which the data is addressed. The data
+is then either buffered or passed directly through bus connector
+276 to the appropriate peripheral device [on] bus 280.
+Car kit controller 200 further comprises circuitry to allow
+this process to be reversed to allow any of the peripheral
+devices to send data through car kit controller 200 and cellular
+phone 10 and out of the car using RF signals. Accordingly, a
+duplex digital path is provided between bus 280 and cellular
+phone 10, for allowing digital information to be transmitted
+through car kit controller 200 in either direction.
+Id. at 12:39–54.
+II. ANALYSIS
+Title 35, Section 325(d) of the U.S. Code provides, in pertinent part:
+In determining whether to institute or order a proceeding under
+this chapter, chapter 30, or chapter 31, the Director may take
+into account whether, and reject the petition or request because,
+the same or substantially the same prior art or arguments
+previously were presented to the Office.
+The following table shows the alleged grounds of unpatentability
+5
+
+IPR2015-01423
+Patent 5,479,479
+asserted by Petitioner in this proceeding:
+Reference(s)
+Boatwright, CAN, and
+Mansell
+Boatwright, CAN,
+Mansell, and Hotto
+Boatwright, CAN,
+Mansell, and Guy
+Boatwright, CAN,
+Mansell, and Thompson
+Mansell and CAN
+
+Basis
+§ 103(a)
+
+Claim(s) Challenged
+1, 2, 4, 6–19, 21–25, and
+27–29
+
+§ 103(a)
+
+3 and 5
+
+§ 103(a)
+
+20
+
+§ 103(a)
+
+26
+
+§ 103(a)
+
+1, 2, 4, 6–12, 15–19, 22–
+24, and 27–29
+
+The following table shows the alleged grounds of unpatentability
+Petitioner previously alleged in IPR2015-00634:
+Reference(s)
+Boatwright, RS-4852, and
+Mansell
+Boatwright, RS-485,
+Mansell, and Hotto
+Boatwright, RS-485,
+Mansell, and Guy
+Boatwright, RS-485,
+Mansell, and Thompson
+Mansell and RS-485
+
+Basis
+§ 103(a)
+
+Claim(s) Challenged
+1, 2, 4, 6–19, 21–25, and
+27–29
+
+§ 103(a)
+
+3 and 5
+
+§ 103(a)
+
+20
+
+§ 103(a)
+
+26
+
+§ 103(a)
+
+1, 2, 4, 6–12, 15–19, 22–
+24, and 27–29
+
+2
+
+Standard for Electrical Characteristics of Generators and Receivers for
+Use in Balanced Digital Multipoint Systems, RS-485, Electronic Industries
+Association (April 1983).
+6
+
+IPR2015-01423
+Patent 5,479,479
+But for substituting CAN for RS-485, the alleged grounds of
+unpatentability in this proceeding are the same as those grounds of
+unpatentability in IPR2015-00634. The Petition in IPR2015-00634 was
+filed on February 5, 2015, prior to filing of the Petition in this proceeding on
+June 19, 2015. Despite the substitution of CAN for RS-485, the prior art
+and arguments presented in this proceeding are substantially the same as
+those previously presented in IPR2015-00634.
+Each of Boatwright, Mansell, Hotto, Guy, and Thompson is applied in
+the same manner in this case, i.e., based on the same teachings therein,
+against the same claims of the ’479 patent, as it was previously applied in
+IPR2015-00634. Although in this case Petitioner has replaced RS-485 with
+CAN, both RS-485 and CAN disclose a standard for a bus useable to
+connect multiple devices. CAN was published in 1992, whereas RS-485
+was published in 1983. The teaching that is required from each to cure the
+deficiency of the other prior art references is the same.
+Petitioner makes no explanation as to why the disclosure of CAN is
+substantively and meaningfully different from the disclosure of RS-485,
+insofar as the claimed subject matter of the challenged claims is concerned.
+Citing page 3 of CAN, Petitioner refers to CAN as disclosing a bus protocol
+“designed” for use in vehicles. Pet. 3. We have reviewed the cited portion
+of CAN and do not see any disclosure that CAN was designed specifically
+for use in vehicular systems, as opposed to other environments. Rather,
+CAN simply is useable in vehicular systems. Even assuming that CAN was
+designed specifically for use in vehicular systems, that fact would be
+inconsequential because it is not reasonably disputable that the RS-485 bus
+7
+
+IPR2015-01423
+Patent 5,479,479
+standard is useable on vehicles. Petitioner does not identify any
+functionality provided by the CAN standard, significant to the claimed
+subject matter of the challenged claims, that it believes the RS-485 standard
+does not provide. In that regard, we note that in the Petition in IPR201500634 (Paper 2, 45), Petitioner asserted that RS-485 discloses a bus in which
+any slave device on an RS-485 bus can communicate with any other of 32
+slave devices without going through a master device. Petitioner also
+asserted in that previous Petition (id. at 21) that the RS-485 standard “was a
+well-known bus protocol providing a simple way to interconnect peripherals
+such that they could be communicable with each other.”
+Additionally, Petitioner presents no argument or evidence that CAN
+was not known or available to Petitioner at the time of filing of the Petition
+in IPR2015-00634. Without explanation, Petition seeks another opportunity
+to challenge the same claims on essentially the same grounds, albeit not
+based on the identical set of prior art references. Such a second bite at the
+apple wastes the Board’s limited resources and imposes undue burden on the
+Patent Owner. Also, the Petition in this case was filed on June 19, 2015,
+subsequent to the filing of Patent Owner’s Preliminary Response in
+IPR2015-00634 on May 20, 2015. Especially given the similarity between
+the earlier application of RS-485 and the application here of the CAN
+standard, the opportunity to read Patent Owner’s Preliminary Response in
+IPR2015-00634, prior to filing the Petition here, is unjust. See 35 U.S.C.
+§ 314(a) (“The Director may not authorize an inter partes review unless . . .”;
+emphasis added); 37 C.F.R. §§ 42.1(b), 108(b).
+
+8
+
+IPR2015-01423
+Patent 5,479,479
+On this record, we exercise our discretion and “reject the petition”
+because substantially the same prior art and substantially the same
+arguments previously were “presented to the Office” in IPR2015-00634.
+35 U.S.C. § 325(d); see also Unilever, Inc., v. The Proctor & Gamble Co.,
+Case IPR2014-00506, slip op. at 6 (PTAB July 7, 2014) (Paper 17)
+(informative).
+III. ORDER
+Accordingly, it is
+ORDERED that the Petition is denied, and no inter partes review is
+instituted as to any claim of the ’479 patent.
+
+For PETITIONER:
+James Barney
+Thomas Winland
+Joshua Goldberg
+FINNEGAN, HENDERSON, FARABOW, GARRETT & DUNNER, LLP
+james.barney@finnegan.com
+tom.winland@finnegan.com
+joshua.goldberg@finnegan.com
+
+For PATENT OWNER:
+Gregory Howison
+Peter Thoma
+HOWISON &ARNOTT
+ipr@dalpat.com
+
+9
+
+

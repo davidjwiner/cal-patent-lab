@@ -1,0 +1,216 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 9
+Entered: November 20, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+VOLKSWAGEN GROUP OF AMERICA, INC.,
+Petitioner,
+v.
+SIGNAL IP, INC.,
+Patent Owner.
+____________
+Case IPR2015-00968
+Patent 5,714,927 B1
+____________
+
+Before DONNA M. PRAISS, PETER P. CHEN, and
+JASON J. CHUNG, Administrative Patent Judges.
+CHUNG, Administrative Patent Judge.
+
+DECISION
+Denying Petitioner’s Request for Rehearing
+37 C.F.R. § 42.71
+
+IPR2015-00968
+Patent 5,714,927 B1
+I.
+
+INTRODUCTION
+
+Petitioner, Volkswagen Group of America, Inc., filed a Request for
+Rehearing of our Decision (Paper 6, “Dec.”) denying inter partes review of
+claims 1, 2, and 6 of U.S. Patent No. 5,714,927 B1 (Ex. 1001, “the
+’927 patent”). Paper 7 (“Req.”).
+For the reasons set forth below, Petitioner’s Request for Rehearing is
+denied.
+II.
+
+STANDARD OF REVIEW
+
+Under 37 C.F.R. § 42.71(c), “[w]hen rehearing a decision on petition,
+a panel will review the decision for an abuse of discretion.” An abuse of
+discretion may be determined if a decision is based on an erroneous
+interpretation of law, if a factual finding is not supported by substantial
+evidence, or if the decision represents an unreasonable judgment in weighing
+relevant factors. See Star Fruits S.N.C. v. U.S., 393 F.3d 1277, 1281 (Fed.
+Cir. 2005); Arnold P’ship v. Dudas, 362 F.3d 1338, 1340 (Fed. Cir. 2004);
+In re Gartside, 203 F.3d 1305, 1315–16 (Fed. Cir. 2000). The request must
+identify, with specificity, all matters that the moving party believes the
+Board misapprehended or overlooked. See 37 C.F.R. § 42.71(d).
+III. DISCUSSION
+In its Request, Petitioner argues that: (1) the Examiner previously
+considered Bernhard as “prior art made of record and not relied upon,” and
+stated that Bernhard disclosed “at the end of the alert command, determining
+whether the alert signal was active for a threshold time,” as recited in
+claim 1 (Req. 3–4); (2) Pakett, Fujiki, and the Declaration of Dr. David M.
+2
+
+IPR2015-00968
+Patent 5,714,927 B1
+Bevly (“the Bevly Declaration,” Ex. 1002) disclose “selecting a variable
+sustain time as a function of relative vehicle speed” and “if the alert signal
+was active for the threshold time” because the Board’s Decision does not
+conclude that Pakett, Fujiki, and the Bevly Declaration do not disclose these
+claim limitations (Req. 5–6); (3) none of the claim terms were in
+controversy, and even if “alert signal” were in controversy, the Board
+misconstrued “alert signal” as “a signal that provides a visual or audio alert
+to a driver” because the Specification of the ’927 patent discloses an “alert
+signal” output from a microprocessor in the format of an “information
+signal” (Req. 6–9); and (4) the references are combinable because it is not
+necessary for there to be a motivation to combine, and the Decision
+overlooked teachings in Bernhard, Pakett, and Fujiki and how these
+references relate to the claims of the ’927 patent (Req. 9–12). We address
+Petitioner’s arguments in turn.
+Regarding Petitioner’s first argument, we previously considered
+Petitioner’s arguments concerning Bernhard. Dec. 8. Petitioner’s argument
+that the Examiner found that Bernhard discloses “determining whether the
+alert signal was active for a threshold time” is not supported by the record.
+As Petitioner acknowledges, the Examiner did not rely on Bernhard to reject
+“at the end of the alert command, determining whether the alert signal was
+active for a threshold time,” as recited in claim 1, because the Examiner
+considered Bernhard “prior art made of record and not relied upon”
+(emphasis added). See Req. 3 (quoting Pet. 5–6). At most, the Examiner
+described Bernhard as disclosing “a method for providing guiding assistance
+for a vehicle in changing lane.” See Pet. 5–6. Moreover, Petitioner has not
+3
+
+IPR2015-00968
+Patent 5,714,927 B1
+proffered how Bernhard teaches or suggests “at the end of the alert
+command, determining whether the alert signal was active for a threshold
+time,” as recited in claim 1. See Pet. 32–33. Accordingly, we did not abuse
+our discretion in declining to institute for reasons not argued in the Petition.
+As for Petitioner’s second argument, our Decision denying institution
+was not based on whether Pakett, Fujiki, and the Bevly Declaration disclose
+“selecting a variable sustain time as a function of relative vehicle speed” and
+“if the alert signal was active for the threshold time” as recited in claim 1.
+Accordingly, we did not misapprehend or overlook Pakett, Fujiki, and the
+Bevly Declaration.
+Regarding Petitioner’s third argument, we properly determined that “it
+is necessary to construe the distinction, if any, between ‘alert command’ and
+‘alert signal’ recited in claim 1.” Dec. 6. Moreover, we must apply the
+broadest reasonable meaning to the claim language, taking into account any
+definitions presented in the specification. Id. (citing In re Bass, 314 F.3d
+575, 577 (Fed. Cir. 2002)). As a result, we turned to the Specification to
+construe “alert command” and “alert signal.” Id. We construed “alert
+signal” as “a signal that provides a visual or audio alert to a driver” because
+of the Specification’s disclosure corresponding to Figures 3c and 3d. Id. at
+6–7. Although Petitioner contends the Specification discloses “[a]n output
+port of the microprocessor carries an alert signal to the alert signal devices”
+(Req. 7–8 (citing Ex. 1001, 3:26–27)), we consider the microprocessor’s
+outputted alert signal as merely an “information signal” and the alert signal
+devices’ outputted signals as “alert signals.” Petitioner similarly considers
+4
+
+IPR2015-00968
+Patent 5,714,927 B1
+Fujiki’s “information signal” to be the same as the output signal from the
+microprocessor to the alert signal devices. Req. 8.
+In defining “alert signal,” however, the Specification recites “[t]he
+algorithm for sustaining the alert signal is generally represented by the flow
+chart of FIG. 5” (emphasis added). Ex. 1001, 4:22–23. Figure 5 of the
+’927 patent is reproduced below.
+
+Figure 5, above, “is a flow chart representing an algorithm for carrying out
+the invention,” which means Figure 5 defines the invention’s algorithm for
+sustaining the alert signal and is not merely an embodiment of the invention.
+Ex. 1001, 2:53–54 (emphasis added). Element 84 illustrates determining
+whether the “alert [signal] devices [were] active for [at least the] threshold
+time,” which provides a definition for “determining whether the alert signal
+5
+
+IPR2015-00968
+Patent 5,714,927 B1
+was active for a threshold time” as recited in claim 1. Ex. 1001, Fig. 5.
+Thus, element 84 of Figure 5 requires determining whether a visual or audio
+alert on the alert signal devices were active for at least the threshold time in
+order to determine whether the alert signal devices were active.
+Accordingly, we did not misapprehend or overlook other portions of the
+Specification when construing “alert command” and “alert signal.” Even if
+“alert signal” were construed correctly as “information signal,” which it is
+not, Petitioner has not shown persuasively how the cited portions of Pakett
+and Fujiki teach or suggest “at the end of the alert command, determining
+whether the [information signal] was active for a threshold time” as recited
+in claim 1.
+Regarding Petitioner’s fourth argument, its explanation for the alleged
+motivation to combine is conclusory and lacks any evidence of a reason to
+combine. Dec. 12–16. We did not overlook or misapprehend, as Petitioner
+alleges, that
+Bernhard discloses a radar-based object detection system for
+detecting objects all around the vehicle. The Board’s Decision
+also does not address the comparisons made between the
+’927 patent and the prior art. For example, the Petition
+describes on pages 37 to 38 that, “[j]ust as described in the
+’927 patent, Pakett and Fujiki each describe sustaining the alert,
+even when a hazardous condition is no longer sensed, to ensure
+that the hazardous condition has passed before the signal is
+removed,” and that “[i]n both the ’927 patent and in Fujiki, the
+alert condition is sustained as a function of the relative vehicle
+speed to address concerns of prematurely indicating that no
+objects are in the vicinity of the vehicle.”
+Req. 10–11.
+6
+
+IPR2015-00968
+Patent 5,714,927 B1
+Although Bernhard does include “forward, rear, and blind spot radar
+devices,” as Petitioner argues (Req. 12; Ex. 1003, Fig. 7), Bernhard and
+Pakett “pertain to an alert system when obstacles are detected in blind spots
+[on the side of a vehicle, whereas] Fujiki . . . pertains to a braking system
+[for monitoring obstacles in front of a vehicle] and does not mention or
+otherwise relate to blind spots” (Dec. 15). In particular, Bernhard’s
+“invention relates to a process for providing guidance assistance for a
+vehicle in changing lanes from a current lane to an adjacent lane”
+(emphasis added) and Pakett’s “invention relates to automotive radar
+systems, and more particularly to a radar system for sensing the presence of
+obstacles in a vehicle’s ‘blind spots’” (emphasis added). Ex. 1003, 1:8–10;
+Ex. 1005, 1:9–11. In contrast, Fujiki’s “invention relates to an automatic
+safety braking system for a motor vehicle” by monitoring obstacles in the
+“front of the vehicle” (emphasis added). Ex. 1006, 1:5–6, 1:31–32, 2:35–38,
+Fig. 3A. We, thus, disagree with Petitioner because “[a]n invention
+‘composed of several elements is not proved obvious merely by
+demonstrating that each of its elements was, independently, known in the
+prior art.’” Dec. 14 (citing KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 418
+(2007). Accordingly, we did not abuse our discretion in determining that
+Petitioner’s rationale for combining the references was insufficient.
+For the foregoing reasons, Petitioner has not shown that the Board
+abused its discretion in declining to institute a trial.
+
+7
+
+IPR2015-00968
+Patent 5,714,927 B1
+IV. ORDER
+Accordingly, it is hereby ORDERED that Petitioner’s request for
+rehearing is denied.
+
+PETITIONER:
+Michael Lennon
+Clifford Ulrich
+Michelle Carniaux
+Kenyon & Kenyon LLP
+ptab@kenyon.com
+
+PATENT OWNER:
+Tarek Fahmi
+Ascenda Law Group, PC
+tarek.fahmi@ascendalaw.com
+
+8
+
+

@@ -1,0 +1,1820 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 58
+Entered: October 19, 2015
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+INTERNATIONAL BUSINESS MACHINES CORPORATION,
+Petitioner,
+v.
+INTELLECTUAL VENTURES II LLC,
+Patent Owner.
+Case IPR2014-006601
+Patent 5,745,574
+
+Before KRISTEN L. DROESCH, JENNIFER S. BISK, and
+JUSTIN BUSCH, Administrative Patent Judges.
+BUSCH, Administrative Patent Judge.
+
+FINAL WRITTEN DECISION
+35 U.S.C. § 318(a) and 37 C.F.R. § 42.73
+
+1
+
+Case IPR2014-01410 has been consolidated with the instant proceeding.
+
+IPR2014-00660
+Patent 5,745,574
+I. INTRODUCTION
+A. Background
+International Business Machines Corporation (“Petitioner”) filed a
+second corrected Petition requesting an inter partes review of claims 18–31
+(the “challenged claims”) of U.S. Patent No. 5,745,574 (Ex. 1004,2 “the ’574
+patent”) under 35 U.S.C. §§ 311–319. Paper 13 (“Petition” or “Pet.”).
+Petitioner also filed another Petition requesting an inter partes review of
+claim 30 of the ’574 patent. IPR2014-01410, Paper 2 (“1410 Pet.”). On
+October 20, 2014, we instituted an inter partes review in IPR2014-00660.
+Paper 19 (“Decision” or “Dec. on Inst.”). On December 18, 2014, we
+instituted an inter partes review in IPR2014-01410 and consolidated that
+trial with the instant trial. IPR2014-01410, Paper 8 (“1410 Dec. on Inst.”).
+Intellectual Ventures II LLC (“Patent Owner”) filed a Patent Owner
+Response. Paper 29 (“Response” or “PO Resp.”). Petitioner filed a Reply.
+Paper 37 (“Reply”). An oral hearing was held on June 11, 2015.3
+We have jurisdiction under 35 U.S.C. § 6(c), and this Final Written
+Decision is issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73.
+For the reasons that follow, we determine Petitioner has shown by a
+preponderance of the evidence that claims 18–31 are unpatentable.
+B. Related Proceedings
+Petitioner indicates the ’574 patent is at issue in several district court
+proceedings involving numerous parties, none of which name Petitioner as a
+defendant. Pet. 2; Paper 16, 2–3. Petitioner also indicates that the ’574
+patent is the subject of co-pending inter partes review Case IPR2014-00724.
+2
+
+All Papers and Exhibits referenced in this final written decision refer to
+papers filed in the record for IPR2014-00660, unless otherwise noted.
+3
+The record includes a transcript of the oral hearing. Paper 57 (“Tr.”).
+2
+
+IPR2014-00660
+Patent 5,745,574
+Paper 16, 3.
+C. The ’574 Patent
+The ’574 patent relates to public key encryption (PKE), which is used
+for securing and authenticating transmissions over unsecure networks. Ex.
+1004, 1:6–8, 1:10–2:9. To use PKE for authenticating transmissions, a
+transmitted message is encrypted with a sender’s private encryption key (a
+key known only to the sender, sometimes referred to as a “secret key”) that
+can only be decrypted by the sender’s public encryption key (freely
+available), ensuring that the message was sent by the sender. Id. at 1:57–65.
+A public key infrastructure (PKI), with a hierarchical system of encrypting
+lower nodes’ public keys, allows for a common point of trust between two
+parties who wish to communicate with each other. Id. at 3:16–39. The ’574
+patent explains that some of the problems with conventional PKE systems
+include that such systems do not have a “consistent public key infrastructure
+which can actually and automatically provide the certifications required for a
+public key system[, a] hierarchical arrangement of certifying authorities
+which can cross policy certifying authority boundaries[, or a convenient and
+transparent] way for permitting secure transactions to cross organizational
+boundaries.” Id. at 4:41–51. The ’574 patent purports to “provid[e] a full,
+correct, consistent and very general security infrastructure which will
+support global secure electronic transactions across organizational, political
+and policy certifying authority boundaries.” Id. at 4:55–59.
+
+3
+
+IPR2014-00660
+Patent 5,745,574
+The challenged claims recite various processes used within a PKI
+system to request, issue, and update public key certificates, add nodes or
+entities to the hierarchy, and verify and validate certificates received. Figure
+4 of the ’574 patent is reproduced below:
+
+Figure 4 depicts a logical representation of a portion of a hierarchical PKI
+and one way in which that infrastructure may be used to verify transactions.
+Ex. 1004, 8:17–29. As can be seen in Figure 4, a hierarchy includes
+certification authorities (CAs) CA1–CA4 and users U1 and U2. Id. at Fig. 4.
+Not depicted in Figure 4, at a level above CA1, is a policy certifying
+authority (PCA), “which defines a particular set of certification policies
+[and] set[s] the standards for their particular certification sub-hierarchies.”
+Id. at 9:26–30. Each of the CAs follows the policies set by the PCA they fall
+under and can then certify subordinate CAs “in a hierarchical fashion until
+ultimately the end users are certified at the bottom of the hierarchy.” Id. at
+9:37–42.
+In order for U2 to be added to the hierarchy and obtain a public key
+certificate, which will allow U2 to send communications that can be verified
+and validated by a recipient, U2 would send an application for registration to
+the PCA. Ex. 1004, 13:65–67. Any other node would follow the same
+4
+
+IPR2014-00660
+Patent 5,745,574
+procedure in order to participate in the PKI and obtain certificates, so that
+CAs may certify other nodes, and users may send communications that can
+be verified and validated by a recipient. The PCA may accept or reject the
+application for registration. Id. at 14:1–7. If the PCA accepts the
+application, the new node is added to a network map certification
+infrastructure database, and the node performs steps to obtain a certificate.
+Id. at 15:59–67.
+A CA or user obtains a certificate by generating new public and
+private keys, generating a certificate including the newly generated public
+key and any other information required by the policies established by the
+PCA, self-signing the certificate, and sending the certificate in a message to
+the issuing CA (the CA above it in the hierarchy) to request a signature from
+that CA. Ex. 1004, 14:24–34, 15:4–9. The CA uses policies established by
+the PCA to authenticate the request. Id. at 14:35–41. If authenticated, the
+CA signs the certificate, stores a copy and/or sends a copy to a certificate
+repository, and issues the certificate by sending the signed certificate back to
+the CA or user in a reply message. Id. at 14:47–52.
+When a node’s certificate expires, the node follows a similar process
+of generating new keys and requesting issuance of a new certificate from its
+issuing CA. If the issuing CA determines that the requesting node is an
+already-existing node, the issuing CA also marks the node’s old certificate
+as revoked and adds it to a certificate revocation list (CRL). Ex. 1004,
+14:43–47.
+The requesting node authenticates the reply message received from
+the issuing CA by comparing the public key in the signed certificate with the
+public key that corresponds to the private key used for signing the message
+
+5
+
+IPR2014-00660
+Patent 5,745,574
+sent from the node to the issuing CA. Ex. 1004, 14:54–60, 15:10–22. If the
+keys match, the node stores the signed certificate. Id. at 14:54–63. If the
+node is a CA with subordinate nodes to which it issued signed certificates,
+the CA must update those certificates. Id. at 15:22–25. The CA sends resigned certificates to each of its subordinate nodes (if any), which results in
+each subordinate node iteratively receiving a new signed certificate and
+determining whether that node has subordinate nodes for which it needs to
+reissue certificates. Id. at 15:44–58.
+Once a node receives a signed certificate from its issuing CA, other
+nodes in the PKI may verify and validate the certificate. Ex. 1004, 1:57–65,
+3:22–39, 6:65–7:20, 11:66–12:43. Referring back to Figure 4, U1 may
+receive a signed message from user U2. Id. at 12:1–2, Fig. 4. U2 may send a
+certificate with the signed message or, in cases where U2 does not send a
+certificate, U1 may request the certificate from U2. Id. at 12:7–13. U1 also
+may request a certificate from CA2 and CA3. Id. at 12:12–13. Certificates
+may be obtained from the owner of the certificate, the CA that issued the
+certificate, or from a common repository. Id. at 13:32–35. Each node may
+store a certificate for itself and every CA above that node to the highest level
+node (e.g., a PCA or a Policy Registration Authority (PRA), which is above
+a PCA in the PKI hierarchy), such that in the example depicted in Figure 4,
+U2 may store a certificate for itself and a certificate for each of CA1, CA2,
+and CA3. Id. at 12:2–6. As seen in Figure 4, node CA1 is the lowest point in
+the hierarchy in common between U1 and U2 and is known as the common
+point of trust between U1 and U2. Id. at 12:41–43, Fig. 4.
+Upon receiving a response to a request for a certificate from a node
+(e.g., U2, CA2, and CA3), U1 extracts, verifies, and stores the certificate. Ex.
+
+6
+
+IPR2014-00660
+Patent 5,745,574
+1004, 12:17–20. U1 may then authenticate the received certificates starting
+at the top of the hierarchy. Id. at 12:22–42. U1 already has a known valid
+certificate for CA1 and uses CA1’s public key to authenticate CA2’s
+certificate that was issued by CA1. Id. at 12:22–27. The process is iterated
+using CA2’s public key to authenticate CA3’s certificate, then using CA3’s
+public key to authenticate U2’s certificate. Id. at 12:27–39.
+For reliable certification, U1 should also obtain a CRL to ensure that
+each certificate has not been revoked. Ex. 1004, 12:65–67. U1 can send a
+request to CA1, CA2, and CA3 (or, alternatively, to a common repository) for
+the CRL maintained by each CA. Id. at 12:67–13:3, 13:14–24.
+D. Illustrative Claims
+Of the challenged claims in the ’574 patent, claims 18, 23, 28, 30, and
+31 are independent. Claims 18, 23, 28, 30, and 31 each are directed to
+methods for implementing various portions of the process of using PKE to
+certify secure communications. Therefore, claims 18, 23, 28, 30, and 31 are
+illustrative, and recite:
+18. In a certification system for secure communications
+containing computer processes arranged in a certification
+infrastructure, a method of requesting and issuing a public key
+certificate, comprising:
+a. at a requesting computer process, generating a data structure
+containing the data items required for a public key certificate,
+including a public key, self-signing the data structure and
+sending the signed data structure as a certificate signature
+request to a computer process authorized as an issuing
+certification authority, and
+b. at said computer process authorized as an issuing certification
+authority, verifying the authenticity of said request, and if
+authentic, certifying and returning the data structure in a
+certificate signature reply.
+
+7
+
+IPR2014-00660
+Patent 5,745,574
+23. In a global network with secure communications
+containing computer processes arranged in a certification
+infrastructure, a method of verifying a signed data structure sent from
+a sender to a receiver, comprising:
+a. obtaining a public key certificate for every computer process in
+the infrastructure between the sender and a common point of
+trust in the infrastructure and
+b. verifying the authenticity of signatures iteratively, beginning
+with the common point of trust.
+28. In a certification system for secure communications
+containing computer processes arranged in a certification
+infrastructure, a method of validating public key certificates,
+comprising:
+using the certificate revocation lists of each computer process
+between a computer process or user whose certificate is being
+validated and a point of trust in common with the computer
+process or user which is validating the certificate to ensure the
+certificates being used in the validation process do not appear
+on any certificate revocation list.
+30. In a computer system for secure communications
+containing computer processes arranged in a certification
+infrastructure, a method of updating certificates, comprising:
+a. at a first computer process, which possesses a certificates to be
+updated, updating the current certificate by
+a.1. receiving a new signed certificate from a computer process
+which is authorized to issue the new signed certificate,
+a.2. revoking the current certificate previously used for
+verification of certificates of subordinate computer
+processes,
+a.3. issuing new certificates to all subordinate computer
+processes for which certificates had been previously signed
+by the first computer process and copying to all subordinate
+computer processes the new certificate to be used for
+verification of new subordinate certificates, and
+b. iteratively performing the distribution of the new certificate to
+all subsequent subordinate computer processes, until all
+8
+
+IPR2014-00660
+Patent 5,745,574
+computer processes subordinate in the infrastructure to said first
+computer process have the new certificates.
+31. In a certification system for secure communications
+containing computer processes arranged in a certification
+infrastructure, a method of adding a new computer process to the
+infrastructure, comprising:
+a. adding a new component to a representation of a certification
+infrastructure at a location indicative of where the said
+computer process is to be added,
+b. creating entries in a certificate storage database at least at both
+said new computer process and at the computer process
+authorized to certify the said new process,
+c. obtaining a signed certificate for the said new computer process
+from said computer process authorized to certify the new
+process and storing it at the said new computer process.
+Ex. 1004, 19:4761, 20:816, 20:3242, 20:4667, 21:114.
+E. The Evidence of Record
+Petitioner relies upon the following references as its basis for
+challenging claims 18–31 of the ’574 patent.4
+Reference
+Kapidzic
+
+PKI Report
+
+Printed Publications
+Nada Kapidzic & Alan Davidson, A
+Certificate Management System:
+Structure, Functions and Protocols,
+Proc. of the Symposium on Network
+and Distributed System Security, IEEE
+Computer Society Press, 153–160 (Feb.
+16–17, 1995)
+Shimshon Berkovits et al., Public Key
+Infrastructure Study: Final Report,
+MITRE Report on NIST Request for
+Study on Policy and Legal Issues
+Related to the Operation and
+
+4
+
+Exhibit[s]
+1006, 1007
+(“Kapidzic”)
+
+1008
+(“PKI Report”)
+
+Petitioner also proffers the declarations of Dr. Matthew Blaze. See Ex.
+1001; IPR2014-01410, Ex. 1001.
+9
+
+IPR2014-00660
+Patent 5,745,574
+Reference
+RFC 1422
+
+RFC 1424
+
+Printed Publications
+Management of the PKI (April 1, 1994)
+Steve Kent, Request for Comments
+1422: Privacy Enhancement for
+Internet Electronic Mail: Part II:
+Certificate-Based Key Management,
+Network Working Group of the
+Internet Engineering Task Force (IETF)
+(1993)
+Burton S. Kaliski, Jr., Request for
+Comments 1424: Privacy Enhancement
+for Internet Electronic Mail: Part IV:
+Key Certification and Related Services,
+Network Working Group of the
+Internet Engineering Task Force (IETF)
+(1993)
+
+Exhibit[s]
+1009, 1010, 1011
+(“RFC 1422”)
+
+1012, 1013
+(“RFC 1424”)
+
+F. The Asserted Grounds of Unpatentability
+The Board instituted inter partes review on the following asserted
+grounds of unpatentability under 35 U.S.C. §§ 102, 103 (Dec. on Inst. 29;
+1410 Dec. on Inst. 13):
+Statutory Ground
+§ 102(a)
+§ 102(b)
+§ 103
+§ 102(b)
+§ 102(b)
+§ 103
+
+Reference[s]
+Kapidzic
+PKI Report
+PKI Report
+RFC 1424
+RFC 1422
+RFC 1422 and RFC 1424
+
+Challenged Claim[s]
+18–31
+23–25, 27, 28
+18–22, 26, 29–31
+18
+23–29
+19–22, 31
+
+II. ANALYSIS
+A. Claim Construction
+In an inter partes review, claim terms are given their broadest
+reasonable interpretation in light of the specification in which they appear
+and the understanding of others skilled in the relevant art. See 37 C.F.R.
+§ 42.100(b). Applying that standard, we interpret the claim terms of the
+
+10
+
+IPR2014-00660
+Patent 5,745,574
+’574 patent according to their ordinary and customary meaning in the
+context of the written description. See In re Translogic Tech., Inc., 504 F.3d
+1249, 1257 (Fed. Cir. 2007) (quoting Phillips v. AWH Corp., 415 F.3d 1303,
+1312 (Fed. Cir. 2005) (en banc)). Patent Owner submits proposed claim
+constructions for three terms or phrases—process, common certificate
+repository, and verified by a direct inquiry to the certification authority. PO
+Resp. 11–15. Petitioner argues the plain and ordinary meaning should be
+attributed to each term. Reply 8–12.
+“computer process”
+Patent Owner argues that “the broadest reasonable interpretation of
+‘process’ . . . include[s] ‘computer program instructions running on a
+computer.’”5 PO Resp. 11. Patent Owner alleges that its proposed
+construction is consistent with the specification of the ’574 patent because
+the description of Figure 1A explains that each block in the flow chart “is
+implemented as a computer process running on a computer.” Id.
+Petitioner argues Patent Owner’s proposed construction is unlimited
+and indefinite because it provides no clear bounds and merely states that it
+would “include computer program instructions running on a computer.”
+Reply 8–9 (emphasis added) (internal citations omitted). Petitioner asserts
+that Patent Owner’s proposed construction does not clarify the claim
+language and, in fact, introduces ambiguity.
+5
+
+The heading for the portion of the Response directed to Patent Owner’s
+arguments addressing the construction of process is similar to, but
+inconsistent with, arguments made in that section. Specifically, Patent
+Owner’s heading is: “The proper interpretation of ‘process’ is ‘a computer
+program loaded into memory and executing in a processor.’” The reasons
+discussed herein for declining to adopt Patent Owner’s proposed
+construction apply equally to the construction identified in the heading.
+11
+
+IPR2014-00660
+Patent 5,745,574
+Petitioner also submits that Patent Owner implicitly excludes human
+intervention from its proposed construction. Reply 9. Petitioner argues that
+manual intervention is not excluded from the challenged claims, which recite
+methods “comprising” steps performed at a computer process. Id. at 12–13.
+In support of its arguments, Petitioner points to the ’574 patent’s disclosure
+that “[t]he appropriate process can be invoked manually by commands as
+well.” Id. at 13 (quoting Ex. 1004, 17:59–67) (emphasis omitted).
+Petitioner further argues Patent Owner’s declarant, Dr. Frederic T. Chong ,
+admitted that the ’574 patent contemplates manually invoking a process. Id.
+(citing Ex. 1030, 94:17–25). Thus, Petitioner argues that the recitation of
+computer processes does not exclude all manual intervention, and that the
+plain and ordinary meaning is clear from the specification. Id.
+We agree with Petitioner that Patent Owner’s proposed construction
+adds no clarity to the meaning of the term “process.” We further agree that
+“process,” or more specifically, “computer process,” as recited in each of the
+challenged claims, should be given its plain and ordinary meaning. To the
+extent that there might have been ambiguity as to the plain and ordinary
+meaning, the references in the’574 patent to computer processes support the
+idea that a skilled artisan would have understood what was meant by the
+recitation of the term. In particular, the’574 patent discloses that “[e]ach
+user or certification authority of the infrastructure has access to a computer
+process which comprises appropriate certification software and storage areas
+for storing data structures.” Ex. 1004, 5:55–57. The’574 patent explains
+that the invention is directed to a certification system, which:
+includes computer processes implementing certification
+servers, certification clients and certification protocols, in
+which one or more first computer processes are associated with
+
+12
+
+IPR2014-00660
+Patent 5,745,574
+at least one initial (root) registration authority, one or more
+second computer processes are associated with policy
+certification authorities, one or more third computer processes
+are associated with certification authorities, and one or more
+end-user computer processes or application computer processes
+are associated with respective end-users or user applications.
+Id. at 6:1–13 (emphasis added); see id. at 1:64–66. The’574 patent further
+explains that the processes are arranged in a hierarchy, that each of these
+processes may hold certified data structures (i.e., certificates), and that
+“users and applications of said system are logically located at end-points of
+certification chains in a certification infrastructure.” Id. at 6:14–22.
+The computer processes use “a common application programming
+interface [API] for access to encryption and certification services,” and the
+API “is a set of certification functions which can be invoked by commands
+or by messages, such as an http command, an email message or program to
+program communication.” Ex. 1004, 5:62–67. Figures 7 through 27 of the
+’574 patent “describe a set of processes which collectively form the
+certification system, functions, and certification infrastructure of this
+invention.” Id. at 13:53–55. “The commands and processes described in
+FIGS 7-2[7] thus present a set of protocol and programming primitives
+which may be invoked either directly by a user or by part of an application
+process running on the user’s or CA’s computer.” Id. at 13:57–61. The’574
+patent further explains that a certification server process continuously
+monitors incoming messages and commands, which may be invoked
+manually, and determines which of the certification functions described in
+Figures 7 through 27 should be called. Id.at 17:55–67.
+Moreover, as discussed above, the’574 patent refers to entities
+(including PCA, CAs, and users) as being associated with computer
+13
+
+IPR2014-00660
+Patent 5,745,574
+processes. See, e.g., Ex. 1004, 1:64–66. Throughout the specification and,
+in particular in the description of the specific messages and “processes
+which collectively form the certification system” (see id. at 13:53–17:54),
+the ’574 patent refers to entities as sending and receiving messages and
+executing processes. The ’574 patent refers to these processes and entities
+interchangeably. Id.
+Thus, an ordinarily skilled artisan would have understood that the
+recited computer processes are instances of a computer program or programs
+running on the various computers, each of which may be associated with
+different nodes or entities (e.g., policy certification authorities, certification
+authorities, user applications) that carry out the tasks involved in the
+certification system described by the ’574 patent. Functions specifically
+recited as being performed at or by a computer process obviously exclude
+performance of that function that does not involve a computer process.
+Beyond steps explicitly recited as performed at or by a computer process,
+however, we find nothing in the recitations of a computer process that would
+exclude manual invocation or other manual intervention.
+“common certificate repository”
+Patent Owner argues that the broadest reasonable interpretation of
+“common certificate repository” is “a repository that stores public key
+certificates for all certification authorities [in the certification
+infrastructure].” PO Resp. 12. Patent Owner asserts that the ’574 patent,
+which states that a “common certificate repository may contain public key
+certificates for all certification authorities in the hierarchy,” requires a
+construction that a common certificate repository keeps a certificate for each
+
+14
+
+IPR2014-00660
+Patent 5,745,574
+and every certification authority in the infrastructure. Id. (quoting Ex. 1004,
+5:51–52).
+Petitioner points to the fact that the ’574 patent discloses that the
+common certificate repository may include public key certificates for all
+CAs and/or CRLs for multiple users or processes in the hierarchy. Reply 10.
+Thus, Petitioner argues that the ’574 patent uses the permissive “may” and
+alternative “or,” indicating that a common certificate repository may store,
+some, all, or none of the certificates in the hierarchy or infrastructure. Id.
+Because we use the broadest reasonable interpretation for construing
+claims, we decline to limit the construction of common certificate repository
+to require storage of public key certificates for all CAs, or even all CAs
+within a hierarchy or infrastructure. Other than declining to adopt Patent
+Owner’s proposed narrowing of the plain and ordinary meaning of a
+common certificate repository, we do not find it necessary to provide an
+explicit construction of the term.
+Whether recitation of a method step introduced by “may” further limits a
+claim
+Before we address the parties’ arguments regarding the construction
+of “verified by a direct inquiry to the certification authority,” recited in claim
+25, we must first address the use of “may” to introduce limitations in claims
+25–27. “[O]ptional elements do not narrow the claim because they can
+always be omitted.” In re Johnston, 435 F.3d 1381, 1384 (Fed. Cir. 2006).
+Claims that use the term “may” to introduce a limitation are permissive and,
+thus, do not narrow the scope of the claim. Id. Thus, the use of the term
+“may” or “may also” in claims 25–27 is not limiting. Specifically, claims
+25–27, which recite “[t]he method of verifying of claim 23 in which a public
+
+15
+
+IPR2014-00660
+Patent 5,745,574
+key certificate . . . may” be obtained or verified by various steps, do not
+further limit claim 23, from which they depend.
+We are not persuaded by Patent Owner’s argument that claim 25,
+which recites that the method of claim 23 “may also be verified by a direct
+inquiry,” “provides an alternative” approach to the iterative approach recited
+in claim 23. PO Resp. 14; see Johnston, 435 F.3d at 1385. Therefore, for
+purposes of this inter partes review, we construe claims 25–27 to be of the
+same scope as, and stand or fall with, independent claim 23.
+With respect to claim 22, which recites in part that “the new
+certificate may contain either the existing or a new public key,” the parties
+appear to agree that the recited language requires the certificate to have
+either the existing public key or a new public key. However, we find that
+the permissive language in claim 22 also fails to further limit the claim. The
+claim could have recited that the certificate contains (as opposed to may
+contain) either the existing or a new public key. Therefore, we find the
+scope of claim 22 to be the same as if the claim recited: “The method of
+claim 18, performed upon expiration of an existing certificate.”
+“verified by a direct inquiry to the certification authority”
+The parties dispute the proper construction of this phrase. However,
+we need not reach this issue because the disputed phrase is recited only in
+claim 25 as part of a non-limiting clause. As discussed above, we construe
+claims 25–27 to be of the same scope as claim 23.
+B. The Asserted Grounds
+1. Anticipation of Claims 18–31 by Kapidzic
+Petitioner asserts claims 18–31 are unpatentable as anticipated by
+Kapidzic, and provides a chart showing where Kapidzic allegedly discloses
+
+16
+
+IPR2014-00660
+Patent 5,745,574
+each limitation. Pet. 8–25; 1410 Pet. 6–28. As explained below, we
+conclude that Petitioner has met its burden to show, by a preponderance of
+the evidence, as required by 35 U.S.C. § 316(e), that claims 18–31 are
+unpatentable as anticipated by Kapidzic.
+a. Kapidzic (Ex. 1007)
+Kapidzic is one paper in a collection of papers, which were the subject
+of a symposium on network and distributed system security. Ex. 1007, 2;
+Ex. 1006, 1. Kapidzic discloses a “Certificate Management System (CMS),”
+which “is a networked system for generation, distribution, storage and
+verification of certificates for use in a variety of security enhanced
+applications.” Ex. 1007, 5.
+Figure 1 of Kapidzic is reproduced below:
+
+Figure 1 depicts a logical representation of a hierarchy within a public key
+infrastructure of the CMS disclosed by Kapidzic. Ex. 1006, 6.
+
+17
+
+IPR2014-00660
+Patent 5,745,574
+b. Whether Kapidzic Is Prior Art
+Patent Owner argues that Kapidzic is not prior art under § 102(a)
+because “to the extent that Kapidzic discloses any of the concepts of claims
+18–31 of the ’574 patent, these concepts were derived from Dr. Sead Muftic,
+the sole inventor of those concepts.” PO Resp. 18 (citing Ex. 2005 ¶ 13).
+Specifically, Patent Owner asserts that “Dr. Muftic conceived of the
+concepts claimed in the ’574 patent,” and “[t]he concepts described in
+Kapidzic also originated from Dr. Muftic.” Id. at 19. Patent Owner
+acknowledges that testimony of the inventor of the ’574 patent is not, by
+itself, enough to show conception, and that Patent Owner must provide
+sufficient corroborative evidence that all of the ideas in Kapidzic are
+attributable to Dr. Muftic. See Tr. 28:11–29:12, 34:20–24, 37:16–38:5.
+Patent Owner further acknowledges that, in order to be disqualified as a
+prior art reference under § 102(a), Kapidzic needs to be only Dr. Muftic’s
+work. Id. at 41:5–19.
+Dr. Muftic testifies that: (1) he conceived of all the concepts described
+in Kapidzic; (2) Dr. Nada Kapidzic was his Ph.D. student from about 1992
+to 1997; (3) Mr. Alan Davidson was his Licentiate student from about 1992
+to 1995; (4) he explained the details of the concepts in Kapidzic to Dr.
+Kapidzic, who wrote about them under Dr. Muftic’s direction and
+supervision; (5) Mr. Davidson wrote a computer program prototype
+implementing the concepts of the system described in Kapidzic, and Mr.
+Davidson assisted Dr. Kapidzic in writing Kapidzic; (6) he omitted his name
+from Kapidzic to allow Dr. Kapidzic and Mr. Davidson to receive
+publication credit to help build their academic careers; (7) he has had a
+similar practice in other situations to aid students in building their academic
+
+18
+
+IPR2014-00660
+Patent 5,745,574
+careers and attend conferences; (8) he had already co-authored two papers
+(Exs. 2002, 2004, collectively “the two co-authored articles”) in the same
+area and multiple articles in the field of computer security and “did not deem
+it important to list [him]self as an author on the Kapidzic article”; and (9) the
+contributions in Kapidzic are his contributions, not Dr. Kapidzic’s or Mr.
+Davidson’s. Ex. 2005 ¶¶ 13–16, 19–22, 25–33. Patent Owner submits that
+Dr. Muftic’s testimony is supported by circumstantial evidence, namely: (1)
+the co-authors of Kapidzic (i.e., Nada Kapidzic and Alan Davidson) were
+Dr. Muftic’s graduate students; (2) Dr. Muftic is listed as co-author, with Dr.
+Kapidzic, on a paper published around the same time as Kapidzic and
+relating to the same area (Ex. 2002); and (3) Dr. Muftic is listed as coauthor, with Dr. Kapidzic and Mr. Davidson, on another paper published
+around the same time and relating to the same area (Ex. 2004). PO Resp.
+19–21; Tr., 29:8–23, 30:18–31:2, 39:17–40:2.
+At oral argument, Patent Owner pointed, for the first time, to
+additional evidence that it argues corroborates Dr. Muftic’s testimony.
+Specifically, at oral argument Patent Owner pointed to: (1) a portion of Dr.
+Kapidzic’s doctoral thesis (Ex. 2006), which thanks Dr. Muftic for his
+“supervision and constant generation of new ideas” (Ex. 2006, page H); and
+(2) Dr. Chong’s testimony that events similar to those Dr. Muftic described
+regarding the history of Kapidzic “are commonplace in the academic
+community” (Ex. 2007 ¶ 31). Tr. 29:24–30:12, 33:1–14, 40:3–12. Patent
+Owner asserts that the two co-authored articles corroborate the fact that Dr.
+Kapidzic and Mr. Davidson were Dr. Muftic’s graduate students (Tr. 36:14–
+24), and that Patent Owner only needs to provide sufficient circumstantial
+
+19
+
+IPR2014-00660
+Patent 5,745,574
+evidence to corroborate Dr. Muftic’s statements. Id. at 29:10–12, 37:7–14
+(citing Cooper v. Goldfarb, 154 F.3d 1321, 1330 (Fed. Cir. 1998)).
+Petitioner argues that Patent Owner has only uncorroborated
+testimony from Dr. Muftic that the ideas in Kapidzic all originated from Dr.
+Muftic. Reply 4–7. As referenced by Petitioner, the requirement for
+corroboration of inventor testimony “arose out of a concern that inventors
+testifying in patent infringement cases would be tempted to remember facts
+favorable to their case by the lure of protecting their patent or defeating
+another’s patent.” Mahurkar v. C.R. Bard, Inc., 79 F.3d 1572, 1577 (Fed.
+Cir. 1996); see Reply 5. Petitioner argues Dr. Muftic is biased and points to
+Dr. Muftic’s deposition testimony, in which he stated that he had a “personal
+pride interest that [the ’574] patent stands as valid and firm.” Reply 5
+(quoting Ex. 1031, 55:15–17). Petitioner asserts Dr. Muftic admitted he has
+no written records to corroborate his claim that he conceived of the ideas in
+Kapidzic. Petitioner also argues Dr. Muftic was not able to identify with
+specificity which ideas he contributed to the two co-authored articles. Id. at
+6 (citing Ex. 1031, 36:4–37:15, 49:23–50:15, 51:2–51:12). Finally,
+Petitioner points to Dr. Kapidzic’s doctoral thesis as further evidence that
+the ideas in Kapidzic were hers and Mr. Davidson’s, not Dr. Muftic’s. In
+particular, Petitioner points to the “Publications Overview” section of Dr.
+Kapidzic’s thesis, which states that she “was the main designer of the overall
+CMS system, as well as of the CMS Client [and t]he functionality of CMS
+servers (CAs) was designed by the author in co-operation with Alan
+Davidson.” Ex. 2006, 3–4; see Tr. 60:17–20. That section continues by
+stating that Kapidzic, referred to in the thesis as “KAP2,” was “published as
+the result of the author’s work,” “presents the overall design of CMS (done
+
+20
+
+IPR2014-00660
+Patent 5,745,574
+by the author), as well as its functions and protocols (done by the author in
+co-operation with Alan Davidson),” and “represents the bases for Chapter 3
+of this thesis.” Ex. 2006, 4 (emphases added).
+Although we agree that authorship of articles is not necessarily
+determinative of whose ideas are present in a paper, we do not find Patent
+Owner has sufficiently corroborated Dr. Muftic’s testimony to establish that
+the entirety of Kapidzic can be attributed solely to Dr. Muftic. Patent Owner
+asserts that the Federal Circuit’s decision in Cooper stands for the
+proposition that every point of Dr. Muftic’s testimony does not need to be
+corroborated. Tr. 37:7–12. Cooper specifically states, however, that
+“sufficient circumstantial evidence of an independent nature can satisfy the
+corroboration requirement.” Cooper, 154 F.3d at 1330 (emphasis added).
+We agree with Patent Owner that it has sufficiently established that Dr.
+Kapidzic and Mr. Davidson were students advised by Dr. Muftic at the time
+Kapidzic was written. We also agree that Patent Owner has sufficient
+circumstantial evidence to corroborate that Dr. Muftic was at least working
+in the same field at around the same time. The circumstantial evidence also
+appears to corroborate that Dr. Muftic may have contributed to Kapidzic, at
+least in an advisory role. What we find lacking, however, is sufficient
+independent circumstantial evidence corroborating Dr. Muftic’s testimony
+that the entirety of the ideas in Kapidzic originated with Dr. Muftic.
+Other than Dr. Muftic’s own testimony, there is no evidence on record
+regarding which aspects of either of the two co-authored articles were his.
+See Reply 6. Even looking to Dr. Muftic’s testimony, Patent Owner has not
+established sufficiently which aspects of Kapidzic it alleges originated with
+Dr. Muftic. See Ex. 2005 ¶¶ 13, 17, 24–26, 33. In fact, Dr. Kapidzic’s
+
+21
+
+IPR2014-00660
+Patent 5,745,574
+doctoral thesis, as discussed above, directly contradicts Dr. Muftic’s
+testimony, and states that the ideas in Kapidzic were those of only Dr.
+Kapidzic and Mr. Davidson. Ex. 2006, 3. Dr. Kapidzic’s thesis was
+submitted approximately two years after Kapidzic was published, whereas
+Dr. Muftic’s testimony is nearly two decades later. Id. at page B. Moreover,
+Dr. Muftic was Dr. Kapidzic’s advisor and, presumably, had an opportunity
+to review the thesis. Weighing the submitted evidence, we find Patent
+Owner has not established that Kapidzic is entirely the work of Dr. Muftic.
+Therefore, Patent Owner has not established that Kapidzic should be
+disqualified as prior art.
+c. Claims 18, 19, and 21
+Kapidzic discloses a requester in a CMS sending a certificate request
+message to a certificate authority (CA) and the CA sending back a message
+with a signed certificate, which Petitioner maps to “a method of requesting
+and issuing a public key certificate,” as recited in the preamble of
+independent claim 18. Pet. 8, 10 (citing Ex. 1007, 5, 7, 8). Kapidzic further
+discloses a CA generating a pair of keys (public and private), and sending a
+self-signed certificate created from the public key to a parent CA. Ex. 1007,
+7–8. Petitioner maps that disclosure of Kapidzic to the first method step
+reciting that one process generates a certificate with a public key, self-signs
+the certificate, and sends the self-signed certificate in a request to an issuing
+CA. Pet. 8, 10. Kapidzic also discloses the parent CA verifies the request,
+signs the certificate, and sends a reply back to the requester, which Petitioner
+maps to the recited step of the issuing CA process “verifying the authenticity
+of said request, and . . . certifying and returning the” certificate to the
+requesting process in a reply. Id. at 8, 11 (citing Ex. 1007, 7–8).
+
+22
+
+IPR2014-00660
+Patent 5,745,574
+Kapidzic uses the same terminology to describe the process recited in
+independent claim 18. The Petition and Dr. Matthew Blaze’s Declaration
+both refer to Kapidzic’s description of its certification process in support of
+the argument that Kapidzic discloses the method recited in independent
+claim 18. Pet. 9–11; Ex. 1001 ¶¶ 74, 77. Dr. Blaze also references Figure 2
+of Kapidzic (Ex. 1001 ¶ 74), which is reproduced below:
+
+Figure 2 depicts an example of a certification process of a CA by its parent
+CA (in this case a PCA) in the CMS disclosed by Kapidzic. Ex. 1007, 7.
+Patent Owner argues that “Kapidzic does not state anywhere that the
+certification authorities (CAs) or other components of the CMS are
+processes that perform these features.” PO Resp. 22. Patent Owner asserts
+that Kapidzic’s certification process, which Patent Owner submits requires
+manual intervention, does not meet the method recited in claim 18, which
+includes “at said computer process . . . verifying the authenticity of said
+[certificate signature] request, and if authentic, certifying and returning the
+23
+
+IPR2014-00660
+Patent 5,745,574
+data structure in a certificate signature reply.” Id. Patent Owner specifically
+points to the disclosures in Kapidzic that the certificate signature request and
+reply messages are sent as “e-mail letters” and that verifying the identity of a
+requester “will normally require manual intervention,” arguing that sending
+email messages cannot be used to automate certification because it requires
+manual inspection. Id. at 22–24 (quoting Ex. 1007, 7–8).
+Petitioner argues Patent Owner’s assertion that “[v]erifying the
+identity of the requester ‘will normally require manual intervention and . . .
+is defined to be [an] off-line process,’” (PO Resp. 23) is not relevant,
+because claim 18 requires verifying the authenticity of a certificate signature
+request, not the identity of a requester. Reply 14. Petitioner further argues
+that, to the extent that claim 18 does require a computer process to verify an
+identify, Kapidzic teaches such a step because the disclosure that manual
+intervention is normally required indicates that manual intervention is not
+required, at least some of the time. Id. at 14–15.
+As discussed above, we do not find persuasive Patent Owner’s claim
+construction argument that all manual intervention is excluded by the claim.
+Nevertheless, we evaluate Petitioner’s arguments as applied to the properly
+construed claims to ascertain whether Kapidzic discloses performing the
+recited step as claimed. The steps that claim 18 recites as being performed
+“at a computer process” are “generating a data structure,” “sending the
+signed data structure,” “verifying the authenticity of said [certificate
+signature] request,” and “certifying and returning the data structure.” In the
+context of Kapidzic, it is clear that generating a data structure, which
+includes generating RSA keys and which is subsequently sent via email,
+sending the signed data structure, which is done via email, and returning the
+
+24
+
+IPR2014-00660
+Patent 5,745,574
+data structure, which is also done via email, are all steps that involve
+computer processes. See Ex. 1007, 7–8. Thus, our focus is on whether
+Kapidzic discloses verifying the authenticity and certifying the data structure
+“at a computer process.”
+With respect to the certifying step, Kapidzic explains that “[i]f all the
+checks verify successfully, the parent CA signs the certificate and . . . creates
+a Certificate Signature Reply that contains the signed certificate.” Ex. 1007,
+8. This description indicates that the certification done by the parent CA
+includes “signing” the electronic data structure and, thus, involves a
+computer process. The verifying the authenticity step also requires a
+computer process. For example, even if verifying an identity is required and
+such verification is done manually, the issuing CA at least needs to be able
+to read the data structure it received by email as part of the process of
+verifying an identity. Thus, we find that Kapidzic discloses “at said
+computer process . . . verifying the authenticity of said request.” We also
+find persuasive Petitioner’s argument that, at least some of the time, manual
+intervention would not be required. We find this argument particularly
+persuasive in light of Kapidzic’s disclosure in Section 8 that the integration
+of signing and storage/retrieval protocols “opens the opportunity for the
+CMS to fully automate the process of certificate retrieval and verification,
+independent of any other system,” and that “CMS UAs provide APIs [7],
+which enable different security enhanced applications to be easily interfaced
+with the CMS, supplying them with verified certificates.” Ex. 1007, 11
+(emphasis added). In fact, that disclosure in Kapidzic appears to indicate
+that Kapidzic contemplates an entirely automated certificate management
+system, such that every process disclosed by Kapidzic, not just the
+
+25
+
+IPR2014-00660
+Patent 5,745,574
+processes relied upon by Petitioner for disclosing the subject matter recited
+in the challenged claims, could be done at a computer process.
+Claim 19 depends from claim 18 and further recites “storing the
+received signed certificate at said requesting computer process.” Claim 21
+depends from claim 18 and recites performing the method of claim 18
+“when adding a new entity to a certification infrastructure, which entity may
+be [a] policy certification authority, certification authority, application[,] or
+end-user.” Petitioner points to Kapidzic’s disclosure of storing the received
+certificate (Pet. 11–12 (quoting Ex. 1007, 8)) and performing the method of
+claim 18 when registering a new CA (Pet. 12–13 (quoting Ex. 1007, 7)).
+Patent Owner only argues that claims 19 and 21, which depend from claim
+18, are patentable for the same reasons as argued with respect to claim 18.
+PO Resp. 25, 26. For the reasons discussed above, we find Petitioner has
+demonstrated, by a preponderance of the evidence, that claims 18, 19, and
+21 are anticipated by Kapidzic.
+d. Claim 20
+Claim 20 depends from claim 18 and further recites “storing the
+received signed certificate or copy of a signed certificate at a common
+certificate repository.” Petitioner points to the X.500 directories as meeting
+the common repository because Kapidzic discloses that the X.500 directories
+may be used “for storage and distribution of certificates.” Pet. 12 (quoting
+Ex. 1007, 5); see also Ex. 1007, 11. Patent Owner argues Kapidzic does not
+disclose a common certificate repository, because Kapidzic discloses storing
+certificates in multiple locations. PO Resp. 25–26.
+As discussed above, we do not agree with Patent Owner’s proposed
+construction of a common certificate repository. We agree with Petitioner
+
+26
+
+IPR2014-00660
+Patent 5,745,574
+that the X.500 directories may serve as a repository for multiple certificates
+within a hierarchy and, therefore, meet the plain and ordinary meaning of a
+common certificate repository. Therefore, we find Petitioner has
+demonstrated, by a preponderance of the evidence, that claim 20 is
+anticipated by Kapidzic.
+e. Claim 22
+Claim 22 depends from claim 18 and further recites performing the
+method of claim 18 “upon expiration of an existing certificate, where the
+new certificate may contain either the existing or a new public key.” Ex.
+1004, 19:6220:7. Petitioner argues that a skilled artisan would have
+understood the expiration of keys to result in expiration of a certificate and,
+thus, performing the method of claim 18 upon expiration of a certificate is
+disclosed. Pet. 13 (citing Ex. 1001 ¶¶ 95–99). Patent Owner argues that
+Kapidzic discloses performing the process that Petitioner maps to the subject
+matter of claim 18 “when a current pair of keys expires,” not when the
+certificate expires. PO Resp. 26–27. Patent Owner argues expiration of
+keys is not the same as the expiration of a certificate. Id. at 27.
+We find persuasive Petitioner’s argument, supported by expert
+testimony (Ex. 1001 ¶ 97), that the expiration of keys results in the
+expiration of a certificate and, thus, that the disclosed method would be
+performed upon expiration of an existing certificate. Therefore, we find
+Petitioner has demonstrated, by a preponderance of the evidence, that claim
+22 is anticipated by Kapidzic.
+f. Claims 23–27
+Kapidzic discloses a CA sending a “Certificate Reply” message
+“contain[ing] the requested certificate as well as all the certificates in the
+
+27
+
+IPR2014-00660
+Patent 5,745,574
+certificate verification path, up to the top of the hierarchy,” which Petitioner
+maps to “obtaining a public key certificate for every computer process in the
+infrastructure between the sender and a common point of trust in the
+infrastructure,” as recited in independent claim 23. Pet. 8, 14 (citing Ex.
+1007, 8). Kapidzic also discloses “verif[ying] the signatures of the
+certificates from the message, starting from the PCA’s certificate” down to
+the lowest level certificate in the message, which Petitioner maps to
+“verifying the authenticity of signatures iteratively, beginning with the
+common point of trust,” as recited in claim 23. Pet. 14–15 (citing Ex. 1007,
+6, 8). The portions of Kapidzic cited by Petitioner explain that the
+verification process, when requesting a certificate, is the same process used
+when initially receiving a signed certificate. Ex. 1007, 8.
+Patent Owner argues that Kapidzic does not explain how the
+certificate “of a second user” that is being verified was received and, thus,
+Kapidzic does not disclose verifying the certificate of a sender. PO Resp.
+28–29. Patent Owner further argues that, because Kapidzic does not
+disclose “processes,” claim 23 is not anticipated by Kapidzic. Id. at 29–30.
+Petitioner argues that a process returning a Certificate Reply message in
+response to a request renders that process a “sender,” and that it is the
+certificates for that sender and for each process up the hierarchy to a
+common point of trust that are being verified. Pet. 13–14.
+We have already discussed above that Kapidzic discloses computer
+processes generally. Moreover, as discussed above, the ’574 patent explains
+that each of the entities in a hierarchy is associated with a process. Given
+the context of how the ’574 patent informs a proper construction of
+performing the recited steps at or by a computer process, we find
+
+28
+
+IPR2014-00660
+Patent 5,745,574
+unpersuasive Patent Owner’s arguments that Kapidzic lacks processes or
+that Kapidzic does not obtain public key certificates for each process. In
+view of the disclosure of the ’574 patent, we find Kapidzic’s chain of
+certificates returned to a requester meets the recited certificates for each
+computer process.
+Claims 24–27 depend from claim 23. Claim 24 further recites that “a
+public key certificate for every computer process in the infrastructure
+between the sender and a common point of trust is also verified against all
+relevant certificate revocation lists.” Petitioner points to Kapidzic’s
+disclosure of checking each certificate being verified against CRLs (Pet. 15
+(quoting Ex. 1007, 10)). Patent Owner only argues that claim 24 is
+patentable for the same reasons as argued with respect to claim 23. PO
+Resp. 30. As discussed above, we find the scope of claims 25–27 to be the
+same as claim 23. Thus, for the reasons discussed above, we find Petitioner
+has demonstrated by a preponderance of the evidence that claims 23–27 are
+anticipated by Kapidzic.
+g. Claims 28 and 29
+Kapidzic discloses “[t]he certificate verification process must
+therefore include a check that the otherwise seemingly valid certificate has
+not been revoked.” Ex. 1007, 10. Kapidzic also discloses “check[ing] the
+certificate against the current CRL of the same issuer” for every certificate
+being verified. Id. Petitioner maps those disclosures of Kapidzic to the
+method of validating a public key including using CRLs “of each computer
+process between a computer process or user whose certificate is being
+validated and a point of trust in common with the computer process or user
+which is validating the certificate,” as recited in independent claim 28. Pet.
+
+29
+
+IPR2014-00660
+Patent 5,745,574
+9, 17–19. Kapidzic also discloses storing CRLs for later use in verification
+after retrieval of CRLs and obtaining CRLs if they are not available locally,
+which Petitioner maps to “[t]he method of claim 28 in which retrieved
+certificate revocation lists are stored locally in the computer at which the
+certificate is being validated,” as recited in dependent claim 29. Id. at 19
+(citing Ex. 1007, 10–11).
+Patent Owner again argues that Kapidzic does not disclose computer
+processes. PO Resp. 35–36. Patent Owner also asserts that Kapidzic merely
+discloses checking each certificate against a current CRL of the same issuer.
+Id. at 34–35. Patent Owner appears to argue that each certificate must be
+checked against multiple CRLs. Id. Patent Owner only argues that claim
+29, which depends from claim 28, is patentable for the same reasons as
+argued with respect to claim 28. Id. at 36.
+Petitioner argues Patent Owner’s assertion that each certificate must
+be checked against multiple CRLs is based on a flawed construction of the
+claim language. PO Resp. 16. Petitioner asserts that Patent Owner’s
+implicit construction is not consistent with the specification of the ’574
+patent, which explains that certificates are identified in CRLs by a unique
+serial number generated by an issuer and, therefore, each certificate only
+needs to be checked against the CRL of the CA that issued the respective
+certificate. Id.
+To the extent Patent Owner argues each certificate needs to be
+checked against multiple CRLs, we agree with Petitioner that such implicit
+construction is flawed. As discussed by Petitioner, the ’574 patent discloses
+issuing CAs managing CRLs (and assigning the serial numbers used to
+identify certificates in the CRLs). Thus, the appropriate construction of
+
+30
+
+IPR2014-00660
+Patent 5,745,574
+claim 28 in light of the specification would include using the CRL created at
+each CA to ensure that each certificate issued by that respective CA does not
+appear on that CRL, i.e., the CRL retrieved from the respective issuing CA.
+We have already addressed Patent Owner’s assertion that Kapidzic does not
+disclose processes generally and find that each CRL is associated with a
+particular CA and its processes. Therefore, we find Petitioner has
+demonstrated, by a preponderance of the evidence, that claims 28 and 29 are
+anticipated by Kapidzic.
+h. Claim 30
+Kapidzic discloses that a new key pair may need to be generated when
+the key expires or is believed to be compromised and that “[w]hen a new
+key pair is generated by some CA, the same procedure is followed as in the
+original certification.” Ex. 1007, 9. Kapidzic also discloses that “[a]fter reissuance of a CA’s certificate, the whole certification sub-hierarchy
+underneath that CA becomes invalidated” such that the CA needs to re-sign
+all certificates it has issued with its new key and inform its subordinates of
+the change so that the entire sub-hierarchy can be updated iteratively. Id. at
+10–11. Petitioner maps those disclosures of Kapidzic to the method of
+updating certificates recited in independent claim 30. Pet. 9, 19–22 (citing
+Ex. 1007, 5, 8–11); 1410 Pet. 6–28.
+As an initial matter with respect to claim 30, we briefly address Patent
+Owner’s argument that we “consolidate[d] IBM’s proceedings to cure IBM’s
+deficient earlier Petition,” and that such consolidation was an “improper”
+exercise of our discretion to consolidate matters. PO Resp. 36–40. We
+exercised our discretion to consolidate Case No. IPR2014-01410 with the
+instant proceeding in order “[t]o administer the proceedings more
+
+31
+
+IPR2014-00660
+Patent 5,745,574
+efficiently,” which we are authorized to do under 35 U.S.C. § 315(d). 1410
+Dec. on Inst. 13. Furthermore, as evidenced by our institution of review of
+claim 30 based on the Petition, we found there were no deficiencies with
+respect to claim 30 that needed to be “cured.” See Dec. on Inst.; see also Ex.
+3001 (denying authorization for Petitioner to correct its petition after the
+Preliminary Response was filed, and informing the parties that we would
+consider the Petition as filed).
+Substantively, Patent Owner argues that Kapidzic does not disclose
+several of the steps of claim 30. For clarity, to analyze these arguments we
+provide an explanation of how the method of claim 30 is performed using a
+simple exemplary infrastructure wherein process A has subordinate
+processes M and N, and process M has subordinate processes X and Y. In
+this example, M is the recited “first computer process,” A is the recited
+“computer process which is authorized to issue the new signed certificate,”
+and X and Y are the recited “subordinate computer processes [of process
+M].” In this example, therefore, M “possesses a certificate[] to be updated.”
+According to the process recited in claim 30, M’s certificate is updated by
+“receiving a new signed certificate [MC2] from” A, and revoking M’s
+“current certificate [MC1] previously used for verification of certificates of”
+X and Y. The receiving step is not disputed by Patent Owner as being
+disclosed by Kapidzic.
+Patent Owner argues that, even though Kapidzic discloses revoking a
+certificate when its keys change, Kapidzic does not disclose the next step—
+revoking certificates that were previously used for verification—because no
+reference to revoking certificates in Kapidzic explicitly states that the
+certificate to be revoked was used to verify certificates of subordinate
+
+32
+
+IPR2014-00660
+Patent 5,745,574
+computers. PO Resp. 40–41. Patent Owner’s argument is unpersuasive.
+Kapidzic discloses revoking a certificate that was used to verify subordinate
+processes’ certificates. In fact, in Patent Owner’s subsequent argument, it
+cites one of the passages in Kapidzic explaining that changing keys of a CA
+“affects the certification hierarchy, since all certificates of direct
+subordinates have been signed with the old secret key.” PO Resp. 42
+(quoting Ex. 1007, 9 (emphasis added)). In our example, that passage of
+Kapidzic discloses that, prior to revocation of M’s current certificate (MC1),
+certificates of M’s direct subordinates, X and Y, “have been signed with”
+MC1. Thus, when revoking MC1, Kapidzic discloses revoking a certificate
+that was previously used for verification.
+The next recited step is “issuing new certificates [XC2 and YC2] to all
+subordinate computer processes [X and Y, respectively] for which
+certificates had been previously signed by the first computer process [M].”
+Patent Owner does not appear to dispute that Kapidzic discloses this step of
+claim 30. Regardless, Petitioner points to Kapidzic’s disclosure of the
+process that occurs in response to updating keys in a certificate. Pet. 21
+(quoting Ex. 1007, 8–10); 1410 Pet. 12. In particular, Petitioner points to
+the explanation in Kapidzic of sending “Certificate Re-Sign” messages using
+the same format as the “Certificate Signature Reply” messages. Pet. 21;
+1410 Pet. 12. We agree that Kapidzic discloses the recited step of issuing
+new certificates to subordinate processes.
+The next recited steps, which Patent Owner argues are not disclosed
+by Kapidzic, are “copying to all subordinate computer processes the new
+certificate to be used for verification of new subordinate certificates” and
+iteratively distributing new certificates. PO Resp. 41–44. Patent Owner
+
+33
+
+IPR2014-00660
+Patent 5,745,574
+argues claim 30 recites copying a newly issued certificate (which is used to
+verify subordinate computers’ certificates) to the subordinate computers,
+whereas Kapidzic discloses using the newly-issued certificate to certify new
+certificates for each of its subordinate computers that are copied to each
+respective subordinate computer and will, in turn, be used by those
+subordinates to certify each of their subordinate computers’ certificates. PO
+Resp. 42–43. Patent Owner argues the recited “iteratively performing the
+distribution” step also relates to distributing the newly signed certificate,
+which we refer to in this example as MC2. We agree with Patent Owner
+regarding the disclosure of Kapidzic. We disagree, however, with Patent
+Owner’s implicit claim construction, which we find inconsistent with what
+the ’574 patent discloses.
+In our example, Patent Owner argues that claim 30 requires copying
+MC2 (M’s newly issued certificate) to each of its subordinate processes, X
+and Y (and iteratively to further subordinate processes of X and Y). A
+review of the claim, in light of the specification, leads us to a different
+construction. Continuing with our example, we construe the claim to require
+copying XC2 to X and copying YC2 to Y. Initially, looking at the language
+of the claim, we note that step “a.1” recites “receiving a new signed
+certificate [MC2],” and step “a.3” recites “issuing new certificates [XC2 and
+YC2] to all subordinate computer processes.” Ex. 1007, 20:51–58
+(emphasis added). The disputed copying step recites “copying to all
+subordinate computer processes the new certificate to be used for
+verification.” Id. at 20:59–61 (emphasis added). Thus, the claim language
+refers back to the “new certificates” (i.e., XC2 and YC2) rather than
+referring to the “new signed certificate” (i.e., MC2), supporting a
+
+34
+
+IPR2014-00660
+Patent 5,745,574
+construction that “the new certificate” being copied to a subordinate
+computer process is a respective new certificate that is “to be used” by that
+process to verify its subordinate processes’ certificates.
+Moreover, a review of the processes described in the ’574 patent
+supports this construction. Ex. 1004, Figs. 8, 9, 12, 13, 15, 16, 14:24–53,
+15:4–32, 15:44–58. Specifically, the “Update__CA” process described in
+the ’574 patent, which invokes additional processes and sends various
+messages, describes copying a newly issued certificate to each subordinate
+computer process (through a “Certificate__Resign__Reply” message) so that
+each respective subordinate computer process may use that certificate to
+certify its subordinate computer processes. Id. The process may then repeat
+if the subordinate computer process has its own subordinate computer
+processes. Id. at 15:48–51. The process disclosed does not describe copying
+a newly issued parent certificate (MC2 in our example) to one of its
+subordinate computer processes (X and Y in our example). Therefore, we
+are persuaded that Kapidzic discloses the recited copying and iterative
+distribution steps.
+Patent Owner also repeats its argument that Kapidzic does not teach
+processes. Patent Owner’s argument regarding Kapidzic’s processes already
+has been addressed above. Therefore, we find Petitioner has demonstrated,
+by a preponderance of the evidence, that claim 30 is anticipated by Kapidzic.
+i. Claim 31
+Kapidzic discloses establishing the CMS hierarchy in a top-down
+manner. Ex. 1007, 7. Kapidzic discloses that establishment of a CA
+includes two phases—registration and certification (the request for and
+signing of a certificate discussed above in the section describing Kapidzic).
+
+35
+
+IPR2014-00660
+Patent 5,745,574
+Id. In order to register itself, a CA may provide a suggested “relative
+distinguished name” and the name of its parent CA, which specifies its place
+in the CMS hierarchy. Id. Upon receipt of that information, the PCA may
+generate a unique distinguished name (DN) for the CA and “[t]he PCA
+updates its local database with the CA’s DN, address and its position in the
+hierarchy.” Id. Petitioner maps the disclosures of Kapidzic related to
+registration of a CA to “adding a new component to a representation of a
+certification infrastructure at a location indicative of where the said
+computer process is to be added,” as recited in independent claim 31. Pet. 9,
+23 (citing Ex. 1007, 7).
+As part of the certification process in the CMS, Kapidzic discloses
+that the parent CA verifies a request from a CA desiring certification, signs
+the certificate, stores a local copy, and sends a reply with the signed
+certificate back to the requesting CA. Ex. 1007, 8. Kapidzic also discloses
+that the requesting CA verifies the signatures of the certificates from the
+reply message (including its own requested certificate) and stores the
+certificates in a local database. Id. Petitioner maps those disclosures to
+“creating entries in a certificate storage database at least at both said new
+computer process and at the computer process authorized to certify the said
+new process,” and “obtaining a signed certificate for the said new computer
+process from said computer process authorized to certify the new process
+and storing it at the said new computer process,” as recited in independent
+claim 31. Pet. 23–25 (citing Ex. 1007, 7, 8).
+Patent Owner argues only that Kapidzic does not disclose that CAs or
+other CMS components are processes. For the reasons discussed in the
+claim construction section, we find Kapidzic discloses computer processes.
+
+36
+
+IPR2014-00660
+Patent 5,745,574
+Moreover, we find that those processes are associated with the various CMS
+entities or components and that the portions of Kapidzic pointed to by
+Petitioner disclose the recited steps of claim 31. Therefore, we find
+Petitioner has demonstrated, by a preponderance of the evidence, that claim
+31 is anticipated by Kapidzic.
+2. Anticipation of Claims 23–25, 27, and 28 by PKI Report and
+Obviousness of Claims 18–22, 26, and 29–31 over PKI Report
+Petitioner asserts claims 18–31 are unpatentable as anticipated by, or
+obvious in view of, PKI Report, and provides a chart showing where PKI
+Report allegedly discloses or teaches each limitation. Pet. 25–43. As
+described below, we conclude that Petitioner has met its burden to show, by
+a preponderance of the evidence, as required by 35 U.S.C. § 316(e), that
+claims 18–30 are unpatentable as anticipated by, or obvious in view of, PKI
+Report. We further conclude, however, that Petitioner has not met its burden
+to show, by a preponderance of the evidence, that claim 31 is unpatentable
+as obvious in view of PKI Report.
+a. PKI Report (Ex. 1008)
+PKI Report is the result of a study requested by the NIST (National
+Institute of Standards and Technology) and conducted by the MITRE
+Corporation to study “alternatives for automated management of public keys
+and of the associated public key certificates for the Federal Government.”
+Ex. 1008, 5, 6 (emphasis added). PKI Report addresses issues of a public
+key infrastructure (PKI) for automatically managing public keys using
+public key certificates. Id. at 6. PKI Report includes user and technical
+“requirements that relate to the generation and distribution of keys, to the
+obtaining of public key certificates and to the distribution of” CRLs. Id.
+
+37
+
+IPR2014-00660
+Patent 5,745,574
+The entities within the PKI may be arranged in a hierarchical structure. Id.
+at 7.
+The PKI described in PKI Report may be used for encrypting
+messages to ensure confidentiality, but the focus of PKI Report is verifying
+the sender of a message. Ex. 1008, 18. In order to verify the signature on a
+message, a recipient must be confident in the integrity of the public key used
+to decrypt the signed message. Id. at 18, 22. The verifier may have
+confidence in the integrity of the key used to decrypt a message “because it
+was manually delivered [or the verifier] obtained it from a certificate signed
+by an entity for which he holds a public key he trusts.” Id. at 22. Thus, the
+verifier must hold a chain of trusted keys back to a common point of trust,
+for which the verifier obtained a key “in a trusted ‘out-of-band’ manner.”
+Id. This chain of trust is called a certification path (id. at 23) and allows for
+a hierarchical system of validating a certificate by starting with the common
+point of trust and iteratively obtaining the key at the next level until the
+sender’s certificate may be verified using the issuing CA’s key. Id. at 22,
+23. In particular, a “certification path is a sequence of CAs, the first being a
+CA for which the verifier holds a trusted copy of the public key and the last
+being the CA that issued the certificate certifying the needed PKI entity’s
+public key.” Id. at 23.
+Recognizing that keys in global systems may originate from anywhere
+in the world, PKI Report studied alternatives for establishing an automated
+system to manage and distribute keys electronically, namely a PKI. Ex.
+1008, 19. The purposes of the desired PKI include generating public key
+certificates binding the identity of users to their public keys, providing users
+
+38
+
+IPR2014-00660
+Patent 5,745,574
+with easy access to other users’ certificates, and providing users with timely
+information regarding revocation of certificates. Id.
+b. Claims 18–22
+Petitioner argues PKI Report describes various embodiments but that
+the various embodiments contain “complementary architectures and methods
+for managing public key certificates, such that one having ordinary skill in
+the art would be motivated to combine their teachings,” and that developing
+a single infrastructure using the desired aspects was the point of the study
+that resulted in PKI Report. Pet. 27 (citing Ex. 1001, ¶¶ 186189). Dr.
+Blaze explains that PKI Report “examined the disclosed standards to
+develop the PKI infrastructure,” such that “PKI Report can be readily
+combined with the disclosed standards used to develop the PKI Report.” Ex.
+1001 ¶ 189. We have reviewed PKI Report, Dr. Blaze’s testimony, and the
+combinations proposed in Petitioner’s challenges. On this record, we are
+persuaded that Petitioner’s rationale for combining the various embodiments
+is reasonable.
+PKI Report explains that a goal of the study is to “design [a public
+key] infrastructure that will allow users to establish chains of trust” and “to
+facilitate trusted electronic correspondence beyond those users with whom
+one has manually exchanged public keys.” Ex. 1008, 23. PKI Report
+“addresses the issues related to a Public Key Infrastructure (PKI), which will
+automatically manage public keys through the use of public key
+certificates.” Id. at 6. PKI Report describes a process for a user or CA to
+obtain a public key certificate including sending a self-signed request
+including the public key to an issuing CA and the issuing CA verifying the
+signature on the request, generating and signing a certificate using its private
+
+39
+
+IPR2014-00660
+Patent 5,745,574
+key, and sending the signed certificate back to the requester. Id. at 125.
+Petitioner maps those disclosures of PKI Report to the method of requesting
+and issuing a public key certificate recited in independent claim 18. Pet. 25–
+26, 28–29 (citing Ex. 1008, 6, 23, 62, 125).
+Patent Owner argues PKI Report does not disclose that the
+components of the certification infrastructure are processes, and that
+certification according to PKI Report requires manual intervention. PO
+Resp. 47–49. Petitioner argues that Patent Owner’s argument is based on an
+improper construction because the claim does not recite that a process
+verifies an identity, but rather requires verifying authenticity of a request.
+Reply 14. Petitioner also asserts that, although not required by claim 18,
+PKI Report does disclose verifying an identity using a computer process
+because PKI Report discloses verifying user identity using a smart card,
+which would require the use of a computer process.
+For the reasons discussed above with respect to the disclosure of the
+’574 patent, our construction of computer process, and the disclosure of PKI
+Report, we find PKI Report discloses using computer processes as part of
+the certification infrastructure. As disclosed by PKI Report, one point of the
+study was to establish an automated system for managing and distributing
+keys electronically. Ex. 1008, 19. Moreover, PKI report generally discloses
+that CAs (or other entities) generate keys and verify and certify
+subordinates’ certificates. Id. at 62. These disclosures of executing
+procedures regarding the generation and analysis of electronic data
+structures involve the use of computer processes. See, e.g., id. (“it was
+assumed that the user had either software or hardware that was capable of
+generating the key pair for the user”). As discussed above, the relevant
+
+40
+
+IPR2014-00660
+Patent 5,745,574
+inquiry is whether PKI Report teaches using the computer processes as
+recited in the challenged claims.
+Regarding claim 18, we agree with Petitioner that verifying identity
+using a smart card would be done at a computer process. Reply 15 (citing
+Ex. 1032 ¶¶ 8–9). Moreover, we agree that the claim does not recite that a
+computer process verifies an identity, but rather that a computer process is
+used to verify authenticity of a request. See Reply 14. PKI Report discloses
+that a CA “verifies the subject’s signature on both the certificate and the
+encapsulated text.” Ex. 1008, 62, 125. This verification meets the recited
+step of “at said computer process . . . verifying the authenticity of said
+request,” because any verification of the electronic signature and
+encapsulated text involves the use of a computer process.
+Petitioner also provides arguments mapping various disclosures of
+PKI Report to the additional limitations recited in claims 19–22, which
+depend from claim 18. Pet. 29–31 (citing Ex. 1008, 51, 62, 64, 67, 113).
+Patent Owner only argues claim 19 is patentable for the same reasons argued
+with respect to claim 18. PO Resp. 49–50.
+Patent Owner asserts claim 20 is patentable because PKI Report
+teaches each CA depositing certificates at different directory servers, which
+is the opposite of a common repository. Id. at 50 (citing Ex. 1008, 50).
+Patent Owner’s argument, however, is directed to a portion of PKI Report
+discussing backup servers – i.e., the existence of multiple directory servers
+to increase system reliability in case one directory server goes down. See
+Ex. 1008, 50. That same section explains that a system employing a “hot
+backup,” which holds “exactly the same information as the primary server,”
+might have only one (replicated) repository for certificates. Id. Thus, even
+
+41
+
+IPR2014-00660
+Patent 5,745,574
+under Patent Owner’s proposed construction, PKI Report discloses a
+common repository. Moreover, even assuming that two directory servers are
+not identical, PKI report teaches that each directory server could hold
+multiple certificates and would therefore meet the broadest reasonable
+construction of the recited common repository.
+Patent Owner argues Petitioner has not established that the
+certification process recited in claim 18 is performed when adding a new
+entity to the infrastructure, as recited in claim 21. Patent Owner argues
+claim 22, which depends from claim 21, is patentable for the same reasons
+as asserted with respect to claim 21. Petitioner asserts PKI Report teaches
+that new CAs may be required for different reasons, that an entity may
+request to have its public key certified, and that addition of a new CA
+requires certification. Pet. 28–30; Reply 17–18 (citing Ex. 1001 ¶ 216). We
+are persuaded by Petitioner’s argument.
+Therefore, for the reasons discussed above, we find Petitioner has
+demonstrated, by a preponderance of the evidence, that the subject matter of
+claims 18–22 would have been obvious in view of PKI Report.
+c. Claims 23–27
+As mentioned above, a PKI Report certification path includes each
+CA in the path between the sender and the common point of trust. Ex. 1008,
+23. Based on those disclosures, Petitioner maps the receipt of the
+certification path to “obtaining a public key certificate for every computer
+process in the infrastructure between the sender and a common point of trust
+in the infrastructure,” as recited in claim 23. Pet. 32–33. PKI Report further
+discloses verifying each certificate in the path, starting with the certificate
+signed by the common point of trust and iteratively using the decrypted key
+
+42
+
+IPR2014-00660
+Patent 5,745,574
+to verify the certificate at the next lower level in the hierarchy until the
+certificate of the CA that signed the sender’s certificate is verified. Ex.
+1008, 63–34. Petitioner maps that disclosure of PKI Report to “verifying the
+authenticity of signatures iteratively, beginning with the common point of
+trust,” as recited in claim 23. Pet. 33 (citing Ex. 1008, 23, 63–64).
+Patent Owner argues PKI Report does not anticipate claim 23 because
+PKI Report does not teach that CAs are processes and only teaches obtaining
+“one or more” additional certificates to verify a sender’s certificate. PO
+Resp. 51–52. We do not agree with Patent Owner regarding its assertion
+about processes for the reasons already discussed above. We also are not
+persuaded by Patent Owner’s assertions that PKI Report’s disclosure of
+obtaining “one or more” additional certificates does not meet the recited step
+of obtaining a certificate for every process between the sender and the
+common point of trust.
+First, in the simple case where there are no intervening processes
+between the sender and the common point of trust, PKI Report explicitly
+indicates that it would obtain a certificate for every process. Second, it is
+clear from the context that the reference in PKI Report to the possible need
+for a recipient to “obtain one or more additional certificates . . . in order to
+verify the signature on the sender’s certificate” is a general statement that
+the sender’s certificate (unless it is the common point of trust) will not be
+enough to verify the signature on the sender’s certificate. Ex. 1008, 63. PKI
+Report explains that a certification path includes every process between the
+sender and a common point of trust and that, a recipient receives a
+certification path along with a signed document and must obtain all
+certificates within the certification path. Id. at 23, 63–64.
+
+43
+
+IPR2014-00660
+Patent 5,745,574
+Claims 24–27 depend from claim 23. Claim 24 further recites that “a
+public key certificate for every computer process in the infrastructure
+between the sender and a common point of trust is also verified against all
+relevant certificate revocation lists.” Petitioner points to PKI Report’s
+disclosure of checking each certificate being verified against CRLs. Pet. 34
+(quoting Ex. 1008, 63). Patent Owner only argues that claim 24 is
+patentable for the same reasons as argued with respect to claim 23. PO
+Resp. 52. As discussed above, we find the scope of claims 25–27 to be the
+same as claim 23. Thus, for the reasons discussed above, we find Petitioner
+has demonstrated, by a preponderance of the evidence, that claims 23–25
+and 27 are anticipated by, and claim 26 would have been obvious6 in view
+of, PKI Report.
+d. Claims 28 and 29
+PKI Report discloses checking each certificate against the appropriate
+CRL before using it, which Petitioner maps to the method of validating a
+public key certificate using CRLs, as recited in claim 28. Pet. 35–36 (citing
+Ex. 1008, 6, 23, 63). PKI Report also discloses that a user may store CRLs
+locally, which Petitioner maps to “retrieved certificate revocation lists are
+stored locally in the computer at which the certificate is being validated,” as
+recited in dependent claim 29. Id. at 37 (citing Ex. 1008, 165).
+
+6
+
+Petitioner challenged claim 26 as obvious in view of PKI Report. Because
+we determine it is of the same scope as claim 23, and we find claim 23 is
+anticipated by PKI Report, it follows that claim 23 would have been obvious
+in view of PKI Report. See, e.g., Cohesive Techs., Inc. v. Waters Corp., 543
+F.3d 1351, 1365 (Fed. Cir. 2008) (explaining distinctions between
+anticipation and obviousness, but noting that “prior art references that
+anticipate a claim will usually render that claim obvious”).
+44
+
+IPR2014-00660
+Patent 5,745,574
+With respect to claim 28, Patent Owner argues PKI Report does not
+disclose that CAs or other certification infrastructure components are
+processes, so it does not disclose using CRLs “of each computer process.”
+PO Resp. 55. PKI Report discloses that each CA is responsible for
+generating CRLs for all of the certificates it issues and, as Petitioner argues,
+PKI Report discloses checking appropriate CRLs. Pet. 36; see Ex. 1008, 23,
+40–41, 63, 66. PKI Report discusses various ways of storing and retrieving
+CRLs, but regardless of the chosen implementation, a CRL associated with a
+PKI Report CA meets the recited limitation of a CRL of a computer process
+because the processes executing the CA function are the processes that
+would create and maintain the CRL associated with that CA. Thus, because
+each CA has an associated CRL and every certificate between the sender and
+a common point of trust is verified against an appropriate CRL, it follows
+that PKI Report discloses checking the CRL for each process between the
+sender and a common point of trust. See Ex. 1008, 23, 40–41, 63, 66.
+Patent Owner argues only that claim 29, which depends from claim
+28, is patentable for at least the same reasons as asserted with respect to
+claim 28. PO Resp. 55. For the reasons discussed above, we find Petitioner
+has demonstrated, by a preponderance of the evidence, that claim 28 is
+anticipated by PKI Report and the subject matter of claim 29 would have
+been obvious in view of PKI Report.
+e. Claim 30
+PKI Report’s disclosure of iteratively updating certificates is similar
+to the iterative update procedure disclosed in Kapidzic and the ’574 patent.
+Specifically, PKI Report recognizes that certificates may expire or become
+compromised, resulting in revocation of certificates, which will require the
+
+45
+
+IPR2014-00660
+Patent 5,745,574
+entities to generate new keys and request new signed certificates from an
+issuing CA. Pet. 39–40; Ex. 1008, 65–66. PKI Report also recognizes the
+need for a CA with a compromised key to reissue all certificates it generated
+using its new key. Pet. 40; Ex. 1008, 66. Thus, for each subordinate CA,
+the process would be repeated until all subordinates in the hierarchy were
+updated. Petitioner maps those disclosures to the method of updating
+certificates recited in claim 30. Pet. 26, 37–40 (citing Ex. 1008, 23, 63, 65–
+66, 125).
+Patent Owner argues claim 30 is patentable over PKI Report for
+essentially the same reasons asserted with respect to the challenge based on
+Kapidzic – i.e., PKI Report does not disclose processes and PKI Report does
+not disclose copying to all subordinate processes the new certificate. PO
+Resp. 55–57.
+For the same reasons discussed above, we disagree with Patent
+Owner’s implicit construction of claim 30. We find Petitioner has
+demonstrated, by a preponderance of the evidence, that claim 30 is
+anticipated by PKI Report.
+f. Claim 31
+Petitioner maps PKI Report’s disclosure of adding new CAs to the
+hierarchy, and storing certificates at both an issuing CA and the entity (a
+user or CA) that requested a signed certificate, to the method of adding a
+new process to the infrastructure recited in claim 31. Pet. 26–27, 40–43
+(citing Ex. 1008, 6, 23, 44–45, 50–51, 69, 113, 125). Petitioner points to
+Figures 4-2 and 7-1 of PKI Report, which depict a hierarchy similar to the
+hierarchy depicted in Figure 1A of the ’574 patent, and asserts those figures
+are logical representations of PKI Report’s certification infrastructure.
+
+46
+
+IPR2014-00660
+Patent 5,745,574
+Reply 18. Patent Owner argues PKI Report teaches adding a PCA and new
+CAs but does not teach “adding a new component to a representation of a
+certification infrastructure,” as recited in claim 31. PO Resp. 58–59.
+We agree with Petitioner that the hierarchy shown in the figures of
+PKI Report depicts a hierarchy similar to that shown in the ’574 patent.
+Nonetheless, Petitioner merely points to a figure that explains the
+arrangement of the infrastructure disclosed by PKI Report. Petitioner does
+not point to anything in PKI Report that teaches or suggests adding a
+component to a representation of the certification infrastructure as part of
+the method of adding the component to the infrastructure. Therefore, on this
+record, we find Petitioner has not demonstrated, by a preponderance of the
+evidence, that the subject matter of claim 31 would have been obvious in
+view of PKI Report.
+3. Anticipation of Claim 18 by RFC 1424, Anticipation of Claims
+23–29 by RFC 1422, and Obviousness of Claims 19–22, and 31
+over RFC 1422 and RFC 1424
+Petitioner asserts claims 18–29 and 31 are unpatentable as anticipated
+by RFC 1424 or RFC 1422, or as obvious in view of the combination of
+RFC 1422 and RFC 1424, supported by a chart showing where RFC 1422
+and RFC 1424 allegedly teach or disclose each limitation. Pet. 43–61. As
+described below, we conclude that Petitioner has met its burden to show, by
+a preponderance of the evidence, as required by 35 U.S.C. § 316(e), that
+claims 18–29 and 31 are unpatentable as anticipated by RFC 1422 or RFC
+1424, or obvious in view of the combination of RFC 1422 and RFC 1424.
+a. RFC 1422 (Ex. 1011) and RFC 1424 (Ex. 1013)
+RFC 1422 and RFC 1424 are two “of a series of documents defining
+privacy enhancement mechanisms for electronic mail transferred using
+
+47
+
+IPR2014-00660
+Patent 5,745,574
+Internet mail protocols.” Ex. 1011, 1. Specifically, RFC 1422 “defines a
+supporting key management architecture and infrastructure, based on publickey certificate techniques, to provide keying information to message
+originators and recipients,” and RFC 1424 describes “key certification,
+certificate revocation list (CRL) storage, and CRL retrieval.” Id.;
+Ex. 1013, 1.
+b. Combination of RFC 1422 and RFC 1424
+Petitioner asserts that an ordinarily skilled artisan would have
+combined RFC 1422 and RFC 1424 because the two documents “were
+published by the same working group of the Internet Engineering Task
+Force, are different parts of the same standard for Privacy Enhancement for
+Internet Electronic Mail, cite each other, and discuss being used together.”
+Pet. 44–45. Moreover, RFC 1424 states that its services are required by
+RFC 1422. Id. at 45 (citing Ex. 1013, 1). We have reviewed RFC 1422 and
+RFC 1424 and the combinations proposed in Petitioner’s challenges, and we
+are persuaded that Petitioner’s rationale for combining RFC 1422 with RFC
+1424 is reasonable.
+c. Claims 18–22
+Petitioner asserts claim 18 is anticipated by RFC 1424 and the subject
+matter of claims 19–22, which depend from claim 18, would have been
+obvious over a combination of RFC1422 and RFC 1424. Pet. 43, 46–47,
+53–55.
+RFC 1424 discloses a requester sending a certification request, which
+includes a “public key in the form of a self-signed certificate,” to a
+certification authority service that is higher in the infrastructure hierarchy
+than the requester. Ex. 1013, 2–3. RFC 1424 further discloses that the
+
+48
+
+IPR2014-00660
+Patent 5,745,574
+certification authority service verifies the signature of the self-signed
+certificate, signs the certificate and sends the signed certificate back to the
+requester in a reply message, which “includes a certification path.” Id. at 3.
+Petitioner maps those disclosures of RFC 1424 to the method of requesting
+and issuing a certificate, as recited in claim 18. Pet. 46–48 (citing Ex. 1013,
+2, 3).
+Patent Owner argues that RFC 1424 uses emails to send certificates
+and certification requests and that the Petition does not explain how the
+emails of RFC 1424 could be automatically processed “to teach or suggest
+the process-based limitations.” PO Resp. 60–61. Patent Owner asserts that
+RFC 1424 does not describe CAs as processes, and that a skilled artisan
+would understand that manual intervention is necessary. Id. at 61.
+As with Kapidzic and PKI Report, Petitioner argues that RFC 1422
+and RFC 1424 disclose computer processes, notwithstanding the fact that
+RFC 1422 and RFC 1424 describe processes that may involve manual
+intervention. Reply 12–13. As with Kapidzic and PKI Report, we agree
+with Petitioner that RFC 1422 and RFC 1424 disclose computer processes,
+and we focus on whether the references disclose or teach the recited steps
+are performed at a computer process. Similar to our analysis of claim 18
+with respect to Kapidzic and PKI Report, we find that RFC 1424 describes
+computer processes performing the recited steps of generating and sending a
+data structure and verifying, certifying, and returning the data structure.
+Claims 19–22 depend from claim 18. Petitioner provides arguments
+mapping RFC 1422 to the additional limitations recited in claims 19–22.
+Pet. 53–55 (citing Ex. 1011, 4, 8, 11–12). Patent Owner argues claims 19–
+22 are patentable for the same reasons as asserted with respect to claim 18.
+
+49
+
+IPR2014-00660
+Patent 5,745,574
+PO Resp. 68–70. Patent Owner also asserts claim 20 is patentable because
+RFC 1422 does not teach a common repository. PO Resp. 69. We find that
+the directory servers disclosed in RFC 1422 are used to store multiple
+certificates and, therefore, meet our construction of a common repository.
+Thus, for the reasons discussed, we find Petitioner has demonstrated, by a
+preponderance of the evidence, that claim 18 is anticipated by RFC 1424 and
+that the subject matter of claims 19–22 would have been obvious in view of
+RFC 1422 and RFC 1424.
+d. Claims 23–27
+Petitioner asserts claims 23–27 are anticipated by RFC 1422. Pet. 43–
+44, 48–51. RFC 1422 explains that its key management architecture is
+compatible with the existing authentication framework described by the
+X.509 standard. Ex. 1011, 1. RFC 1422 discloses that a message may
+include a full certification path so that the recipient can validate a PCA
+certificate and, using the key from each validated certificate, iteratively
+move down the certification path until the certificate for the sender of the
+message is validated. Id. at 25. Petitioner maps those disclosures to the
+method of verifying a signed data structure, as recited in independent claim
+23. Pet. 48–49 (citing Ex. 1011, 1, 25).
+Petitioner points to portions of RFC 1422 explaining that a recipient
+receives a full certification path, which has been described as every entity
+between the sender and a common point of trust. Pet. 48–49 (citing Ex.
+1011, 25). Petitioner also argues RFC 1422 discloses iteratively validating a
+certificate for each entity in the certification path. Id.
+Patent Owner argues RFC 1422 does not disclose CAs are processes,
+and that RFC 1422 discloses manual intervention such that validation is
+
+50
+
+IPR2014-00660
+Patent 5,745,574
+performed by a person, not a process. PO Resp. 62–65. Patent Owner also
+asserts that RFC 1422 does not teach obtaining a certificate for every
+process in the infrastructure. Id. at 65.
+We agree with Petitioner’s arguments. Moreover, as discussed above,
+the disclosed processes, which involve electronic messages and certificates,
+are of the type that computer processes would have been used in those steps.
+Thus, we agree with Petitioner that RFC 1422 discloses performing the
+recited method steps at a computer process.
+Claims 24–27 depend from claim 23. Claim 24 further recites that “a
+public key certificate for every computer process in the infrastructure
+between the sender and a common point of trust is also verified against all
+relevant certificate revocation lists.” Petitioner points to portions of RFC
+1422 that disclose checking each certificate against a CRL from the
+certificate’s issuer. Pet. 49 (quoting Ex. 1011, 27). Patent Owner only
+argues that claim 24 is patentable for the same reasons as argued with
+respect to claim 23. PO Resp. 52. As discussed above, we find the scope of
+claims 25–27 to be the same as claim 23. Thus, for the reasons discussed
+above, we find Petitioner has demonstrated, by a preponderance of the
+evidence, that claims 23–27 are anticipated by RFC 1422.
+e. Claims 28 and 29
+Petitioner asserts claims 28 and 29 are anticipated by RFC 1422. Pet.
+44, 51–53. RFC 1422 discloses that “[e]ach certificate also must be checked
+against the current CRL from the certificate’s issuer to ensure that revoked
+certificates are not employed,” which Petitioner maps to the method of
+validating a public key certificate using CRLs, as recited in claim 28. Id. at
+51–52 (citing Ex. 1011, 1, 2, 27). RFC 1422 also discloses that a user may
+
+51
+
+IPR2014-00660
+Patent 5,745,574
+store locally CRLs from any of the various levels of CAs, which Petitioner
+maps to “retrieved certificate revocation lists are stored locally in the
+computer at which the certificate is being validated,” as recited in claim 29.
+Id. at 52–53 (citing Ex. 1011, 13).
+Patent Owner argues RFC 1422 does not disclose processes and, thus,
+does not disclose checking CRLs of each computer process in the
+certification path. PO Resp. 67–68. We disagree.
+As discussed above, RFC 1422 discloses that each CA keeps a CRL
+for all revoked certificates that it has issued, and we interpret the CRL
+associated with each CA to be a CRL of the process executing the CA
+functions. Therefore, we find Petitioner has demonstrated, by a
+preponderance of the evidence, that claims 28 and 29 are anticipated by RFC
+1422.
+f. Claim 31
+Petitioner asserts the subject matter of claim 31 would have been
+obvious in view of RFC 1422 and RFC 1424. Pet. 44, 58–61. Patent Owner
+argues the combination of RFC 1422 and RFC 1424 does not teach adding a
+new component to a representation of a certification infrastructure.
+RFC 1424 discloses a process for an entity to obtain a signed
+certificate from a certification authority above it in the hierarchy. Ex. 1013,
+2–3. RFC 1422 discloses a general hierarchy for a PKI, including PCAs,
+CAs, and users. Ex. 1011, 3. RFC 1422 further discloses that both user
+entities and CAs may store certificates and CRLs in order to allow for
+operation without common repositories. Id. at 12, 22. Petitioner maps those
+disclosures of RFC 1422 and RFC 1424 to the method of adding a new
+
+52
+
+IPR2014-00660
+Patent 5,745,574
+process to the infrastructure, as recited in claim 31. Pet. 58–60 (citing Ex.
+1011, 1, 3, 12, 16, 22; Ex. 1013, 2).
+Petitioner also argues that the directory tree is a representation of the
+infrastructure and that adding a CA (or other entity) involves adding that
+entity to the directory tree. Pet. 58–59; Reply 19–20. RFC 1422 explains
+that a node (e.g., CA) has a “DN [distinguished name] subordination
+requirement,” and that CAs “are syntactically constrained to refer to
+subordinate entities in the X.500 directory information tree (DIT).” Ex.
+1011, 16. Thus, we agree that RFC 1422 teaches adding a new component
+to a representation of the infrastructure. Therefore, we find Petitioner has
+demonstrated by a preponderance of the evidence that the subject matter of
+claim 31 would have been obvious in view of the combination of RFC 1422
+and RFC 1424.
+C. Motions to Exclude
+1. Patent Owner’s Motion to Exclude Evidence
+Patent Owner moves to exclude, under 37 C.F.R. § 42.64(c), Exhibits
+1033 and 1034, and paragraphs 6, 7, 13, and 14 of Exhibit 1032. Paper 39.
+Patent Owner submits that Exhibits 1033 and 1034 have little or no
+probative value, significantly confuse the issues, and are irrelevant because
+they are the basis for new obviousness analysis that improperly modifies
+Petitioner’s anticipation or obviousness challenges set out in the Petition. Id.
+at 8–9; see also id. at 1–7. Patent Owner argues paragraphs 6, 7, 13, and 14
+of Exhibit 1032 (Dr. Matthew Blaze’s Responsive Declaration) should be
+excluded because the probative value of that testimony is outweighed by the
+dangers of unfair prejudice and confusing the issues. Patent Owner further
+argues that the additional testimony conflates obviousness analysis with
+
+53
+
+IPR2014-00660
+Patent 5,745,574
+anticipation analysis, and improperly adds a reference to certain obviousness
+challenges. Id. at 8–9.
+Petitioner argues that paragraphs 6, 7, 13, and 14 of Dr. Blaze’s
+Responsive Declaration merely respond to Patent Owner’s argument
+regarding how an ordinarily skilled artisan would have understood certain
+prior art disclosures, and asserts that Exhibits 1033 and 1034 are merely
+evidence to support Dr. Blaze’s opinion. Paper 51, 1.
+We are capable of discerning whether Petitioner’s arguments in its
+Reply, and the evidence submitted in support thereof, were necessitated by
+Patent Owner’s arguments, or whether such arguments constitute new
+evidence. We are further able to determine whether Petitioner’s reference to
+additional documents improperly changes the scope of its anticipation or
+obviousness arguments, and are capable of giving Petitioner’s arguments
+and evidence appropriate weight. Therefore, there is no danger of unfair
+prejudice or confusing the issues. Moreover, in this case, we agree with
+Petitioner that its submitted declaration and supporting evidence merely
+respond to Patent Owner’s arguments regarding how a skilled artisan would
+have understood certain disclosures in the references submitted in support of
+the unpatentability arguments in the Petition. We have not considered the
+content of these exhibits or declaration testimony to the extent that evidence
+may go beyond merely providing context regarding how a skilled artisan
+would have understood references in the previously-submitted evidence to
+terms relating to X.509 standards. Accordingly, Patent Owner’s Motion to
+Exclude is denied.
+
+54
+
+IPR2014-00660
+Patent 5,745,574
+2. Petitioner’s Motion to Exclude Evidence
+Petitioner moves to exclude, under 37 C.F.R. § 42.64(c), the entirety
+of Exhibits 2007 (Dr. Chong’s Declaration) and 1030 (Transcript of Dr.
+Chong’s Deposition). Paper 41.
+Patent Owner responds that the objections were untimely, citing
+37 C.F.R. § 42.64(b)(1), which requires that any objection to evidence
+submitted during a trial must be served within five business days of service
+of the evidence to which the objection is directed. Paper 49, 3–6. Petitioner
+submits that no objection was served prior to Dr. Chong’s deposition
+“because the unreliability and inadmissibility of his entire testimony only
+become apparent upon cross-examination.” Paper 41, 1–2; Paper 53, 3–4.
+Petitioner asserts that its objections to both the deposition testimony and the
+declaration were, therefore, timely because Dr. Chong’s Declaration was the
+subject “of his entire deposition testimony and is thus ‘deposition evidence’
+under 37 C.F.R. § 42.64(a).” Paper 53, 4.
+With respect to Dr. Chong’s Declaration, we disagree with
+Petitioner’s characterization of that evidence as being “deposition evidence,”
+and subject to objections under 37 C.F.R. § 42.64(a). Deposition evidence
+does not include the underlying declaration.
+Thus, objections to Dr. Chong’s Declaration are governed by
+37 C.F.R. § 42.64(b)(2), which provides that a party relying on evidence to
+which an objection is timely served may respond to the objection by serving
+supplemental evidence within ten business days of service of the objection.
+Dr. Chong’s Declaration appears to have been served on Petitioner on
+February 6, 2015. PO Resp., Cert. of Serv. Petitioner argues it objected to
+Dr. Chong’s Declaration on March 19, 2015, at the deposition of Dr. Chong.
+
+55
+
+IPR2014-00660
+Patent 5,745,574
+Paper 41, 1–2; Paper 53, 3–4. That objection was almost six weeks after
+Petitioner was served with the Declaration and, thus, nearly five weeks late.
+Petitioner’s late objection to Dr. Chong’s Declaration was, thus, prejudicial
+to Patent Owner because Patent Owner could have responded with
+supplemental evidence to cure alleged deficiencies. Patent Owner’s Motion
+to Exclude with respect to Exhibit 2007 is dismissed as untimely.
+Because Dr. Chong’s Declaration (Ex. 2007) is not excluded from the
+record, we find Dr. Chong’s deposition transcript is relevant to provide
+context to, and assess the credibility of, Dr. Chong’s declaration testimony.
+Petitioner’s Motion to Exclude Dr. Chong’s deposition testimony, submitted
+in this proceeding as Ex. 1030, is denied.
+III. CONCLUSION
+For the foregoing reasons, we determine that Petitioner has
+demonstrated by a preponderance of the evidence that claims 18–31 of the
+’574 patent are anticipated by Kapidzic, claims 23–25, 27, and 28 are
+anticipated by PKI Report, claims 18–22, 26, 29, and 30 are unpatentable as
+obvious over PKI Report, claim 18 is anticipated by RFC 1424, claims 23–
+29 are anticipated by RFC 1422, and claims 19–22 and 31 are unpatentable
+as obvious over RFC 1422 and RFC 1424.
+IV. ORDER
+Accordingly, it is:
+ORDERED that claims 18–31 of the ’574 patent are determined to be
+unpatentable;
+FURTHER ORDERED that Patent Owner’s Motion to Exclude
+Evidence is denied;
+
+56
+
+IPR2014-00660
+Patent 5,745,574
+FURTHER ORDERED that Petitioner’s Motion to Exclude Evidence
+with respect to Exhibit 2007 is dismissed;
+FURTHER ORDERED that Petitioner’s Motion to Exclude Evidence
+with respect to Exhibit 1030 is denied; and
+FURTHER ORDERED that, because this is a Final Written Decision,
+parties to the proceeding seeking judicial review of the decision must
+comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+57
+
+IPR2014-00660
+Patent 5,745,574
+PETITIONER:
+Kenneth Adamo
+Brent Ray
+Alicia Shah
+Joel Merkin
+Eugene Goryunov
+David W. Higer
+KIRKLAND & ELLIS LLP
+kenneth.adamo@kirkland.com
+brent.ray@kirkland.com
+alicia.shah@kirkland.com
+jmerkin@kirkland.com
+eugene.goryunov@kirkland.com
+david.higer@kirkland.com
+
+PATENT OWNER:
+Brenton Babcock
+Ted Cannon
+Scott Raevsky
+Bridget Smith
+KNOBBE, MARTENS, OLSON & BEAR, LLP
+2brb@knobbe.com
+2tmc@knobbe.com
+2sxr@knobbe.com
+2bzs@knobbe.com
+Donald Coulman
+Tim Seeley
+INTELLECTUAL VENTURES II LLC
+dcoulman@intven.com
+tim@intven.com
+
+58
+
+
