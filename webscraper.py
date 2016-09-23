@@ -16,10 +16,10 @@ def convert_date(arg):
 	date = arg.split("/")
 	return int(date[2] + date[0] + date[1])
 
-with open('uspto_data.csv', 'w') as csvfile:
+with open('uspto_data_2.csv', 'w') as csvfile:
 	writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
 	writer.writerow(["Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
-	for curr in range(1,1691):
+	for curr in range(1691,1692):
 		print("Page: " + str(curr))
 		link = "https://e-foia.uspto.gov/Foia/DispatchBPAIServlet?SearchRng=decDt&docTextSearch=&page=60&d-3995525-p="+ str(curr)+ "&txtInput_EndDate=09%2F21%2F2016&SearchId=&Objtype=ser&txtInput_StartDate=09%2F01%2F1951"
 		
