@@ -23,7 +23,7 @@ def download_file(download_url,name):
     file_.close()
     print("Completed")
 
-with open('uspto_data.csv', 'w') as csvfile:
+with open('uspto_data_2.csv', 'w') as csvfile:
 	writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
 	writer.writerow(["Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
 	for curr in range(1691,1692):
