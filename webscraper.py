@@ -1,6 +1,6 @@
 
 from bs4 import BeautifulSoup
-import urllib, unicodecsv
+import urllib, unicodecsv, urllib2
 
 
 #Converts string to integer. If "NONE" is in the string, return -1.
@@ -11,12 +11,19 @@ def str_to_int(arg):
 
 #Converts string date "01/24/2001" to int 20010124
 def convert_date(arg):
-	if "NONE" in arg:
+	if "NONE" in arg or not arg or arg.isspace():
 		return -1
 	date = arg.split("/")
 	return int(date[2] + date[0] + date[1])
 
-with open('uspto_data_2.csv', 'w') as csvfile:
+def download_file(download_url,name):
+    response = urllib2.urlopen(download_url)
+    file_ = open(name, 'w')
+    file_.write(response.read())
+    file_.close()
+    print("Completed")
+
+with open('uspto_data.csv', 'w') as csvfile:
 	writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
 	writer.writerow(["Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
 	for curr in range(1691,1692):
