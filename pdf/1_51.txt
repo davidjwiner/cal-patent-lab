@@ -1,0 +1,350 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/991,502
+
+11/08/2010
+
+Tomas Nylander
+
+3000-488
+
+9442
+
+27820
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+WITHROW & TERRANOVA, PLLC
+106 Pinedale Springs Way
+Cary, NC 27511
+
+HOANG, THAI D
+
+ART UNIT
+
+PAPER NUMBER
+
+2463
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@wt-ip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TOMAS NYLANDER, MATS BUCHMAYER,
+and JARI VIKBERG
+
+Appeal2015-004677
+Application 12/991,502 1
+Technology Center 2400
+
+Before LARRY J. HUME, SCOTT B. HOWARD, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+HUME, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) of the Final
+Rejection of claims 1-8 and 14--17. Appellants have withdrawn
+claims 9-13 from consideration. We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+We REVERSE.
+
+1
+
+According to Appellants, the real party in interest is Telefonaktiebolaget
+LM Ericsson (publ). App. Br. 2.
+
+Appeal2015-004677
+Application 12/991,502
+STATEMENT OF THE CASE 2
+The Invention
+Appellants' disclosed and claimed "invention relates to a method and
+arrangement in a telecommunication system, in particular to paging
+optimization in an evolved UTRAN (E-UTRAN) applying so called Home
+eNodeBs ... [and m]ore particularly, the present invention relates to
+methods and arrangements in a gateway node and a core network node for
+paging a communication device." Spec. 1, 11. 5-9 ("Technical Field").
+Exemplary Claims
+Claims 1 and 2, reproduced below, are representative of the subject
+matter on appeal (emphases added to contested limitations):
+A method in a gateway node for forwarding a
+page message to a communication device, wherein the gateway
+node serves a plurality of radio base stations, wherein a radio
+communication system comprises the gateway node; the
+communication device and said plurality of radio base stations,
+the method comprising:
+1.
+
+receiving the page message and a list of Closed
+Subscriber Group (CSG) Identities, in conjunction therewith,
+wherein each of the CSG Identities is indicative of which radio
+base stations among said plurality of radio base stations the
+communication device is allowed to access;
+
+2
+
+Our decision relies upon Appellants' Appeal Brief ("App. Br.," filed
+Feb. 19, 2014); Examiner's Answer ("Ans.," mailed June 6, 2014); Final
+Office Action ("Final Act.," mailed Aug. 21, 2013); and the original
+Specification ("Spec.," filed Nov. 8, 2010). We note Appellants did not file
+a Reply Brief in response to the factual findings and legal conclusions in the
+Examiner's Answer.
+2
+
+Appeal2015-004677
+Application 12/991,502
+selecting, based on the list of CSG Identities received in
+conjunction with the received page message, a subset of radio
+base stations among said plurality of radio base stations; and
+
+forwarding the page message to each radio base station
+in the selected subset of radio base stations, whereby the
+communication device is paged only via radio base stations that
+the communication device is allowed to access.
+2.
+The method according to Claim 1, further
+configuring the gateway node, before receiving the page
+message, to select the subset of radio base stations based on the
+list of CSG Identities that will be received in conjunction with
+the page message.
+
+Prior Art
+The Examiner relies upon the following prior art as evidence in
+rejecting the claims on appeal:
+Gupta et al. ("Gupta") US 2009/0094680 Al
+
+Apr. 9, 2009
+
+Rejections on Appeal
+RI.
+
+Claim 2 stands rejected under 35 U.S.C. § 112, second
+
+paragraph, as being indefinite. Ans. 3.
+R2.
+
+Claims 1-8 and 14-17 stand rejected under 35 U.S.C. § 102(e)
+
+as being anticipated by Gupta. Ans. 4.
+ISSUES AND ANALYSIS
+In reaching this decision, we consider all evidence presented and all
+arguments actually made by Appellants. We do not consider arguments that
+Appellants could have made but chose not to make in the Briefs, and we
+deem any such arguments waived. 37 C.F.R. § 41.37(c)(l)(iv).
+
+3
+
+Appeal2015-004677
+Application I2/99I,502
+We agree with particular arguments advanced by Appellants with
+respect to the indefiniteness Rejection RI of claim 2 and anticipation
+Rejection R2 of claim I for the specific reasons discussed below. We
+highlight and address specific findings, arguments, and conclusions
+regarding claims I and 2 for emphasis as follows.
+1.
+
+§ I I2,
+
+iJ 2 Rejection RI of Claim 2
+
+Issue 1
+
+Appellants argue (App. Br. I 0) the Examiner's rejection of claim 2
+under 35 U.S.C. § I I2, second paragraph, as being indefinite is in error.
+These contentions present us with the following issue:
+Did the Examiner err in concluding "[i]t is confusing how 'to select
+the subset of radio base stations based on the list of CSG Identities that will
+be received in conjunction with the page message' 'before receiving the page
+message', wherein the page message comprises the list of CSG [Closed
+
+Subscriber Group]," in connection with the definiteness of dependent
+claim 2 under§ I I2? Ans. 3--4.
+Analysis
+
+Appellants contend:
+Claim 2 is about configuring the gateway node to be able to
+perform a selection step once the CSG identities are received
+with the page message. The gateway node would need to be so
+configured so that once the page message and CSG identities
+are received, it can perform other steps. This claim appears
+clear on its face, and Applicants respectfully request
+reconsideration and allowance of the claim.
+App. Br. IO (emphasis added).
+
+4
+
+Appeal2015-004677
+Application 12/991,502
+While Appellants' argument appears to be conclusory, relating to
+preparatory configuration actions to be taken by the gateway node in
+advance of receiving the page message and the actual CSG Identities list, we
+do not agree with the Examiner's conclusion that the current recitation of
+claim 2 is confusing, and reasonably interpreted as being inconsistent with
+the recitations of claim 1.
+"[I]f a claim is amenable to two or more plausible claim constructions,
+the USPTO is justified in requiring the applicant to more precisely define the
+metes and bounds of the claimed invention by holding the claim ...
+indefinite." Ex parte Miyazaki, 89 USPQ2d 1207, 1211 (BP AI 2008)
+(precedential). See also In re Packard, 751F.3d1307, 1324 (Fed. Cir.
+2014), (J. Plager concurring) ("In my view (and that of the per curiam
+
+court), it is within the authority of the USPTO to so interpret the applicable
+standard").
+We disagree with the Examiner's conclusion of indefiniteness because
+claim 1, from which claim 2 depends, recites "receiving the page message
+and a list of Closed Subscriber Group (CSG) Identities, in conjunction
+
+therewith" (emphasis added), which can reasonably be interpreted as the list
+of CSG Identities being received at the same time as the page message.
+Dependent claim 2 recites, "configuring the gateway node, before receiving
+
+the page message, to select the subset of radio base stations based on the list
+of CSG Identities that will be received .... "
+Thus, claim 2 does not require, and explicitly disclaims, the page
+message needing to be received in order to configure the gateway node. We
+read this limitation as merely requiring preparatory action to configure the
+
+5
+
+Appeal2015-004677
+Application 12/991,502
+gateway node to account for the fact that CSG Identities will be received in
+the future. 3
+Therefore, on this record, we are persuaded of at least one error in the
+Examiner's resulting legal conclusion of indefiniteness of dependent claim 2.
+2.
+
+§ 102(e) Rejection R2 of Claims 1-8 and 14--17
+
+Issue 2
+Appellants argue (App. Br. 10-12) the Examiner's rejection of claim 1
+under 35 U.S.C. § 102(e) as being anticipated by Gupta is in error. These
+contentions present us with the following issue:
+Did the Examiner err in finding the cited prior art discloses a "method
+in a gateway node for forwarding a page message to a communication
+device" that includes, inter alia, the steps of "receiving the page message
+and a list of Closed Subscriber Group (CSG) Identities, in conjunction
+therewith; wherein each of the CSG Identities is indicative of which radio
+base stations among said plurality of radio base stations the communication
+device is allowed to access," and "forwarding the page message to each
+radio base station in the selected subset of radio base stations, whereby the
+communication device is paged only via radio base stations that the
+communication device is allowed to access," as recited in claim 1?
+
+Analysis
+Appellants contend, "Gupta has not been shown to disclose a network
+node that forwards any message to a selected subset of radio base stations.
+3
+
+Although not before us on Appeal, we leave it to the Examiner to
+determine whether claim 2 meets the enablement requirement of 35 U.S.C.
+§ 112, first paragraph.
+6
+
+Appeal2015-004677
+Application 12/991,502
+Instead, in Gupta, the communication device (or access terminal -
+
+a mobile
+
+phone) requests access to an access point that it may or may not have access
+to .... The access point must then determine whether to grant access based
+on the access list ... [but] in the present claims, no determination is made
+because only radio base stations that have been selected will page the
+communications device." App. Br. 11 (citing Gupta i-fi-153-54). In
+particular, Appellants contend Gupta does not disclose "receiving" or
+"forwarding" a page message, as claimed. Id.
+Anticipation of a claim under 35 U.S.C. § 102 occurs when each
+claimed element and the claimed arrangement or combination of those
+elements is disclosed, inherently or expressly, by a single prior art reference.
+Therasense, Inc. v. Becton, Dickinson & Co., 593 F.3d 1325, 1332 (Fed. Cir.
+
+2010). A reference inherently discloses an element of a claim "if that
+missing characteristic is necessarily present, or inherent, in the single
+anticipating reference." Schering Corp. v. Geneva Pharms.; 339 F.3d 1373;
+1377 (Fed. Cir. 2003) (citation omitted) (emphasis added). "Inherency,
+however, may not be established by probabilities or possibilities. The mere
+fact that a certain thing may result from a given set of circumstances is not
+sufficient." Therasense, 593 F.3d at 1332 (citing Cont'! Can Co. USA, Inc.
+v. Monsanto Co., 948 F.2d 1264,1269 (Fed. Cir. 1991)).
+
+We agree with Appellants' arguments, and disagree with the
+Examiner's findings regarding the disclosure of Gupta. We disagree with the
+Examiner because, while Gupta generally discloses access control, there is
+no explicit disclosure of a page message, nor is there any evidence of record
+that would support a finding that such a page message is inherently disclosed
+by the disclosure of Gupta.
+7
+
+Appeal2015-004677
+Application 12/991,502
+Therefore, based upon the findings above, on this record, we are
+persuaded of at least one error in the Examiner's reliance on the cited prior
+art to disclose the disputed "page message" limitations of claim 1, such that
+we cannot sustain the Examiner's anticipation rejection of independent
+claim 1, or independent claim 8 which recites the contested limitations in
+commensurate form. For the same reasons, we cannot sustain the
+anticipation rejection of dependent claims 2-8 and 14--17 which variously
+depend from claims 1 and 8.
+CONCLUSIONS
+(1)
+
+The Examiner erred with respect to indefiniteness Rejection RI
+
+of claim 2 under 35 U.S.C. § 112, second paragraph, and we do not sustain
+the rejection.
+(2)
+
+The Examiner erred with respect to anticipation Rejection R2 of
+
+claims 1-8 and 14--17 under 35 U.S.C. § 102(e) over the cited prior art of
+record, and we do not sustain the rejection.
+DECISION
+We reverse the Examiner's decision rejecting claims 1-8 and 14--17.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+REVERSED
+
+8
+
+

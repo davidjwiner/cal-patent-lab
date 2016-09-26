@@ -1,0 +1,491 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/940,075
+
+11/05/2010
+
+Steven J. Bullied
+
+0012840U;
+67097-1376PUS1
+
+6715
+
+54549
+
+7590
+
+09/23/2016
+
+CARLSON, GASKEY & OLDS/PRATT & WHITNEY
+400 West Maple Road
+Suite 350
+Birmingham, MI 48009
+
+EXAMINER
+YUEN, JACKY
+
+ART UNIT
+
+PAPER NUMBER
+
+1735
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ptodocket@cgolaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte STEVEN J. BULLIED, CARL R. VERNER, and
+GAURAVM. PATEL
+
+Appeal2015-005799
+Application 12/940,075
+Technology Center 1700
+
+Before BRADLEY R. GARRIS, ELIZABETH M. ROESEL, and
+MICHAEL G. MCMANUS, Administrative Patent Judges.
+ROESEL, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 6-8, 10, 11, and 18-25. We have jurisdiction
+under 35 U.S.C. § 6(b ).
+We AFFIRM.
+
+1
+
+United Technologies Corporation is identified as the real party in interest.
+App. Br. 1.
+
+Appeal2015-005799
+Application 12/940,075
+STATEivIENT OF THE CASE
+
+Claimed Invention
+Appellants claim a die casting system. Independent claims 6, 18, and
+23 are representative of the subject matter on appeal and are reproduced
+below from Appellants' Claims Appendix, with bold added to identify the
+limitations that are the focus of Appellants' arguments:
+6. A die casting system, comprising:
+a die comprised of a plurality of die components that
+define a die cavity;
+a shot tube in fluid communication with said die cavity,
+wherein said shot tube includes an integrated melting unit
+configured to heat a charge of material from a position inside of
+said shot tube, said shot tube including a first sleeve of a first
+material and a second sleeve of a second, different material;
+a shot tube plunger moveable within said shot tube to
+communicate said charge of material into said die cavity; and
+
+wherein each of said die, said shot tube, said
+integrated melting unit and said shot tube plunger are
+positioned within a vacuum chamber.
+18. A die casting system, comprising:
+a die that defines a die cavity;
+a shot tube in fluid communication with said die cavity,
+wherein said shot tube includes an integrated melting unit
+configured to heat a charge of material from a position inside of
+said shot tube without preheating said charge of material
+from a position outside of said shot tube, said shot tube
+including a first sleeve of a first material and a second sleeve of
+a second, different material; and
+a shot tube plunger moveable within said shot tube to
+communicate said charge of material into said die cavity.
+23. A die casting system, comprising:
+
+2
+
+Appeal2015-005799
+Application 12/940,075
+a die that defines a die cavity;
+a shot tube in fluid communication with said die cavity,
+said shot tube including a first sleeve that extends inside of said
+die and a second sleeve that is disposed outside of said die,
+wherein said first sleeve is a graphite sleeve and said second
+sleeve is a ceramic sleeve;
+a gate that connects said shot tube to said die cavity;
+an integrated melting unit that includes an induction coil
+positioned around said second sleeve and configured to heat a
+charge of material from a position inside of said second sleeve;
+a power source that powers said induction coil;
+
+a cooled copper shot tube plunger moveable within
+said shot tube to communicate said charge of material into
+said die cavity; and
+a vacuum chamber that includes a vacuum source that
+applies a vacuum within said vacuum chamber, wherein said
+die, said shot tube, said integrated melting unit and said cooled
+copper shot tube plunger are disposed within said vacuum
+chamber.
+App. Br. 11-13.
+
+References
+Fujino et al.
+
+us 4,842,038
+
+Mueller
+Linden, Jr. et al.
+
+us 5,048,592
+us 5, 195,572
+
+Taniguchi et al.
+
+US 6,189,600 Bl
+
+Perrella et al.
+
+US 6,354,359 B2
+
+Muramatsu et al.
+
+US 2007/0215306 Al
+
+3
+
+June27, 1989
+("Fujino")
+Sept. 17, 1991
+Mar. 23, 1993
+("Linden")
+Feb.20,2001
+("Taniguchi")
+Mar. 12, 2002
+("Perrella")
+Sept. 20, 2007
+("Muramatsu")
+
+Appeal2015-005799
+Application 12/940,075
+Rejections
+1. Claims 6, 7, 11, and 22 are rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Fujino, Taniguchi, and Linden. Final Action 3-5. 2
+2. Claim 8 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Fujino, Taniguchi, Linden, and Muramatsu. Id. at 5---6.
+3. Claim 10 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Fujino, Taniguchi, Linden, and Perrella. Id. at 6-7.
+4. Claims 18 and 21 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Fujino and Linden. Id. at 7-8.
+5. Claim 19 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Fujino, Linden, and Taniguchi. Id. at 9.
+6. Claim 20 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+
+Fujino, Linden, and Mueller. Id. at 9-10.
+7. Claims 23-25 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Fujino, Taniguchi, Linden, Muramatsu, and Perrella. Id.
+at 10-14.
+ANALYSIS
+Appellants' arguments are directed to independent claims 6, 18, and
+23 and dependent claim 8 only. Appellants present no separate argument
+regarding the other claims. See App. Br. 3-9. As a consequence, the
+remaining dependent claims stand or fall together with their parent
+independent claims, and we confine our discussion to claims 6, 8, 18, and
+23.
+
+2
+
+Final Action mailed June 19, 2014.
+4
+
+Appeal2015-005799
+Application 12/940,075
+Claim 6
+
+The Examiner finds that Fujino discloses a die casting system
+embodying all limitations of claim 6, except "said shot tube including a first
+sleeve of a first material and a second sleeve of a second, different material"
+and "wherein each of said die, said shot tube, said integrated melting unit
+and said shot tube plunger are positioned within a vacuum chamber." Final
+Action 3--4. The Examiner finds that these limitations are taught by Linden
+and Taniguchi, respectively, and provides a reason for modifying the die
+casting system of Fujino to include each of these features. Id. at 4--5.
+Appellants argue that the Examiner's proposed modification of Fujino
+in view of Taniguchi would render Fujino's apparatus unsatisfactory for its
+intended purpose and offer no benefit. App. Br. 4--6. Appellants
+additionally argue that the proposed modification of Fujino in view of
+Linden would cause "significant problems" that would lead a person of
+ordinary skill in the art away from the proposed modification. Id. at 6-7.
+For the reasons set forth in the Final Action, the Answer, and below,
+we are not persuaded that Appellants identify reversible error in the
+Examiner's rejection of claim 6.
+Appellants argue that one of the main objectives of Fujino is
+simultaneous melting and injection, which would not be possible if the die
+were under vacuum because the vacuum chamber would have to be broken
+to remove each casting from the die. App. Br. 4; Reply Br. 2. Appellants'
+argument is unsupported by evidence and does not persuasively refute the
+Examiner's finding that a person of ordinary skill in the art would have
+positioned the entire die casting apparatus in a vacuum chamber in order to
+prevent formation of an oxide film on the molten metal. Final Action 4;
+
+5
+
+Appeal2015-005799
+Application 12/940,075
+Ans. 3. The Examiner's finding is supported by Fujino, which recognizes
+that formation of oxides on molten metal surfaces degrades productivity and
+product quality. Fujino, 1:45-53. The Examiner's finding is further
+supported by Taniguchi, which discloses that, for the purpose of preventing
+the molten metal from forming an oxide film, the entire die casting
+apparatus, including the casting mold, is maintained in a vacuum. Taniguchi
+8:25-30.
+Appellants do not direct us to evidence in Fujino, Taniguchi, or
+elsewhere in the record to support their argument that the vacuum chamber
+would have to be broken to remove each casting from the die. App. Br. 4;
+Reply Br. 2. Taniguchi discloses removing a cast article from a casting
+mold disposed in a vacuum chamber, Taniguchi, 8:25-30, 9:20-23, but does
+not mention breaking the vacuum during this removal step. While attorney
+arguments are helpful when directing us to evidence in the record, the
+arguments themselves do not constitute evidence. In re Geisler, 116 F.3d
+1465, 1471 (Fed. Cir. 1997) (attorney argument cannot take the place of
+evidence).
+We are also not persuaded that simultaneous melting and injection is a
+"main objective" of Fujino, as argued by Appellants. App. Br. 4; Reply Br.
+2. Appellants explain that Fujino achieves this objective with a staged
+injection cycle that utilizes two injection sleeves. App. Br. 4 (citing Fujino
+4:3-12). As correctly noted by the Examiner, however, Fujino also
+discloses embodiments utilizing a single injection sleeve. Ans. 4; Fujino
+4:30-33, 6: 13-34, Fig. 5. As discussed above, Appellants fail to provide
+evidence sufficient to support their assertion that simultaneous melting and
+injection could not be achieved by placing the entire die casting apparatus in
+
+6
+
+Appeal2015-005799
+Application 12/940,075
+a vacuum chamber. Even if we accepted this assertion, however, we are not
+persuaded that the proposed modification runs counter to Fujino, which
+discloses embodiments that have a single injection sleeve enabling
+sequential, but not simultaneous, melting and injection. Fujino 4:30-33,
+6: 13-34, Fig. 5.
+Appellants argue that "the preheating, melting and injection sections
+of Fujino are already placed in a vacuum generating chamber" and
+"[t]herefore, there is no risk of the molten metal of Fujino forming an oxide
+film and the proposed modification offers no benefit." App. Br. 6. We
+disagree. The Examiner finds that positioning the entire die casting
+apparatus in a vacuum chamber provides a benefit, namely preventing
+formation of an oxide film on the molten metal. Final Action 4; Ans. 3. The
+Examiner's finding is supported by Taniguchi, which discloses this benefit.
+Taniguchi, 8:25-30. Although Fujino discloses that thermal efficiency can
+be improved by placing sections of the die casting apparatus in a vacuum,
+Fujino 4: 16-21, Taniguchi teaches that placing the entire apparatus,
+including the casting mold (die), in a vacuum provides an additional benefit.
+Taniguchi, 8:25-30 (vacuum prevents formation of oxide film on molten
+metal); see also Fujino, 1:45-53 (oxide films "degrade the productivity and
+quality of the products").
+We are not persuaded by Appellants' argument that modification of
+Fujino in view of Linden would lead one of ordinary skill in the art away
+from the Examiner's proposed modification. App. Br. 6; Reply Br. 2-3.
+Appellants rely on Linden's disclosure that "high pressure stresses ... have
+caused significant problems when ceramics have been employed in die
+casting machines in the past." Linden, 6: 18-20. Despite these problems,
+
+7
+
+Appeal2015-005799
+Application 12/940,075
+Linden discloses embodiments in which the injection sleeve is composed, in
+whole or in part, of ceramic material. Id. at 6: 11-26. Linden teaches
+advantages of such injection sleeves, including prolonged life, material cost
+savings, and reduced manufacturing cost. Id. at 6:2-13. Linden states that a
+pour hole in the injection sleeve avoids high pressure stresses that have
+caused problems in the past, id. at 6: 13-20, but does not indicate that a pour
+hole is the only way to avoid high pressure stresses. We are not persuaded
+that a person of ordinary skill in the art would be unable to design a ceramic
+injection sleeve without a pour hole that avoids the problems noted in
+Linden.
+A preponderance of the evidence demonstrates that Appellants' claim
+6 is directed to a die casting system comprising known components,
+including a vacuum chamber and a shot tube having first and second sleeves
+made of different materials, where each of these components performs its
+established function, and the combination yields no more than one would
+expect from such an arrangement. KSR Int'! Co. v. Teleflex Inc., 550 U.S.
+398, 417 (2007).
+Based on the foregoing, the weight of the evidence supports the
+Examiner's conclusion of obviousness. Therefore, the§ 103(a) rejection of
+claim 6 is sustained.
+Claim 8
+
+Claim 8 depends from claim 6 and recites: "wherein said first sleeve
+is a graphite sleeve and said second sleeve is a ceramic sleeve." App. Br.
+11.
+
+The Examiner finds that Muramatsu teaches a die casting system
+including a graphite sleeve. Final Action 6 (citing Muramatsu i-f 35). The
+8
+
+Appeal2015-005799
+Application 12/940,075
+Examiner concludes that it would have been obvious to combine
+Muramatsu's graphite sleeve with Linden's ceramic sleeve to obtain the
+advantages disclosed in each reference. Id.
+Appellants argue that Muramatsu' s disclosed benefits can be achieved
+only by using a single graphite sleeve and only if the plunger tip is also
+made of graphite. App. Br. 8.
+For the reasons set forth in the Final Action, the Answer, and below,
+we are not persuaded that Appellants identify reversible error in the
+Examiner's rejection of claim 8.
+Appellants' argument is unsupported by evidence and does not
+persuasively refute the Examiner's conclusion that a person of ordinary skill
+in the art would have combined Muramatsu's graphite sleeve with Linden's
+ceramic sleeve to obtain the disclosed advantages of each material. Final
+Action 6; Ans. 6-7.
+The Examiner's conclusion is supported by Linden, which discloses a
+two-piece shot sleeve composed of two sections, both of which are
+composed of high temperature resistant material. Linden 3:56-4:4. In one
+embodiment, one sleeve section is composed of steel and another sleeve
+section is composed, in whole or in part, of ceramic. Id. at 4: 1--4, 6:2-26.
+According to Linden, ceramic prolongs the life of the sleeve. Id. at 6: 11-13.
+The Examiner's conclusion is also supported by Muramatsu, which discloses
+a die casting machine including a sleeve, which is preferably composed of
+graphite. Muramatsu i-fi-13, 15, 28, 33. Muramatsu discloses a number of
+reasons to select graphite as the material for the sleeve, including thermal
+conductivity, non-reactivity with molten metal, laminar flow of the metal,
+and slidable property of graphite. Muramatsu i135.
+
+9
+
+Appeal2015-005799
+Application 12/940,075
+We are not persuaded by Appellants' contention that ivluramatsu' s
+disclosed benefits can only be achieved when graphite is used to make a
+one-piece sleeve. Muramatsu's disclosed reasons for selecting graphite
+relate to properties of the material, not the particular configuration of the
+sleeve as one-piece or two-piece. Muramatsu ,-r 3 5 (discussing thermal
+conductivity, non-reactivity, laminar flow, and slidable property of graphite
+sleeve). Appellants do not direct us to evidence or technical reasoning
+sufficient to persuade us that the Examiner errs in relying on the properties
+of graphite, as disclosed in Muramatsu, as providing reasons for selecting
+the same material for use in a two-piece sleeve, as taught by Linden.
+To the extent that Appellants argue that Muramatsu' s benefits can
+only be obtained when graphite is used both for the sleeve and the plunger
+tip, that argument does not support patentability of Appellants' claim 8,
+which does not specify the material for the plunger tip.
+Based on the foregoing, the weight of the evidence supports the
+Examiner's conclusion of obviousness. Therefore, the § 103(a) rejection of
+claim 8 is sustained.
+Claim 18
+
+Appellants refer back to their arguments in support of claim 6
+regarding modification of Fujino to include the two-piece shot tube of
+Linden. App. Br. 8. For the reasons discussed above, these arguments are
+not persuasive of reversible error.
+Appellants additionally argue that the Examiner errs in rejecting claim
+18 over Fujino and Linden because the Fujino system includes a preheater
+and is not capable of melting without preheating the charge material. App.
+Br. 8-9.
+10
+
+Appeal2015-005799
+Application 12/940,075
+For the reasons set forth in the Final Action, the Answer, and below,
+we are not persuaded that Appellants identify reversible error in the
+Examiner's rejection of claim 18.
+Claim 18 recites: "an integrated melting unit configured to heat a
+charge of material from a position inside of said shot tube without
+preheating said charge of material from a position outside of said shot tube."
+App. Br. 12. Appellants do not dispute the Examiner's finding that Fujino
+discloses an integrated melting unit in the form of heaters 31 shown in
+Fujino Figure 1. Final Action 7 (citing Fujino 3 :20-30). Appellants also do
+not dispute the Examiner's finding that Fujino's heaters 31 are configured to
+heat a charge of material from a position inside of said shot tube. Id. (citing
+3:40-50). According to Fujino, heaters 31 may be induction heaters
+mounted on the outer surface of the injection sleeve-the same type of
+structure as disclosed in Appellants' Specification for performing the recited
+function. Compare Fujino 3 :22-24, with Spec. i-f 31 ("the integrated melting
+unit 225 includes an induction coil 227 mounted about the shot tube 224").
+The Examiner is correct that claim 18' s recitation, "without
+preheating said charge of material from a position outside of said shot tube,"
+is a functional limitation. Final Action 7; Ans. 8. The Examiner's finding
+that Fujino discloses structure (heaters 31) equivalent to Appellants'
+disclosed structure is sufficient to shift the burden to Appellants to show that
+Fujino's structure is not capable of performing the recited function. In re
+
+Schreiber, 128 F.3d 1473, 1478 (Fed. Cir. 1997). Appellants do not provide
+evidence or technical reasoning sufficient to persuade us that Fujino's
+disclosed heaters 31 are not capable of heating a charge of material without
+preheating. The opposite finding is supported by Fujino, which discloses an
+
+11
+
+Appeal2015-005799
+Application 12/940,075
+embodiment including induction heaters, where a preheater is optional.
+Fujino, 4:54--56, 5:64--68 (Fig. 3 embodiment includes heaters 35 and 36,
+e.g., induction heaters, where billet is supplied directly to injection sleeve
+without preheating).
+Based on the foregoing, the weight of the evidence supports the
+Examiner's conclusion of obviousness. Therefore, the § 103(a) rejection of
+claim 18 is sustained.
+Claim 23
+
+Appellants refer back to their arguments in support of claims 6 and 8
+regarding the Examiner's proposed modifications of Fujino in view of
+Taniguchi, Linden, and Muramatsu. App. Br. 9. For the reasons discussed
+above, these arguments are not persuasive of reversible error.
+Appellants argue that claim 23 is not obvious for the additional reason
+that it recites a cooled copper shot tube plunger that would not achieve any
+of the benefits detailed by Muramatsu when used with a graphite shaft. Id.
+
+For the reasons set forth in the Final Action, the Answer, and below,
+we are not persuaded that Appellants identify reversible error in the
+Examiner's rejection of claim 23.
+Appellants' argument is unsupported by evidence or technical
+reasoning sufficient to identify error in the Examiner's rejection. We are not
+persuaded that at least some of the benefits of graphite identified by
+Muramatsu-thermal conductivity, non-reactivity, laminar flow, and
+slidable property---could not be obtained when combining a graphite
+injection sleeve with a cooled copper shot tube plunger. Ans. 9-10.
+
+12
+
+Appeal2015-005799
+Application 12/940,075
+Based on the foregoing, the weight of the evidence supports the
+Examiner's conclusion of obviousness. Therefore, the § 103(a) rejection of
+claim 23 is sustained.
+CONCLUSION OF LAW AND DECISION
+The decision of the Examiner is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a) (1).
+AFFIRMED
+
+13
+
+

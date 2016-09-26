@@ -1,0 +1,423 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/486,274
+
+06/17/2009
+
+Jay A. Morrison
+
+2009P09284US
+
+4836
+
+28524
+
+7590
+
+09/23/2016
+
+SIEMENS CORPORATION
+INTELLECTUAL PROPERTY DEPARTMENT
+3501 Quadrangle Blvd Ste 230
+Orlando, FL 32817
+
+EXAMINER
+HTAY,AYE SU MON
+
+ART UNIT
+
+PAPER NUMBER
+
+3745
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdadmin.us@siemens.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JAY A. MORRISON
+
+Appeal2014-003095
+Application 12/486,274
+Technology Center 3700
+
+Before NEALE. ABRAMS, ANNETTE R. REIMERS,
+and ERIC C. JESCHKE, Administrative Patent Judges.
+ABRAMS, Administrative Patent Judge.
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Jay A. Morrison (Appellant) appeals under 35 U.S.C. § 134 from the
+Examiner's Final decision rejecting claims 1, 5-12, 15-17, 20 and 23. We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM-IN-PART.
+
+Appeal2014-003095
+Application 12/486,274
+THE INVENTION
+The invention is directed to stationary airfoil having an improved
+trailing edge. Claim 1, reproduced below, is illustrative of the claimed
+subject matter.
+1. An airfoil comprising:
+a suction side and a pressure side joined along a trailing
+edge;
+wherein a trailing edge portion of the airfoil is configured
+to take a wavelike form along a radial direction of the airfoil;
+wherein an amplitude of said wavelike form varies from a
+maximum value at the trailing edge to zero at a predetermined
+distance along a chord length of the airfoil;
+and wherein said amplitude of said wavelike form at said
+trailing edge is approximately equal to a thickness of the trailing
+edge.
+
+THE PRIOR ART
+The Examiner relies upon the following as evidence of
+unpatentability:
+Presz, Jr. et al.
+("Presz")
+Burke et al.
+("Burke")
+Wood et al.
+("Wood")
+
+us 4,830,315
+
+May 16, 1989
+
+US 7,247,003 B2
+
+July 24, 2007
+
+US 2009/0013532 Al
+
+Jan. 15,2009
+
+THE REJECTIONS
+The following rejections stand under 35 U.S.C. § 103(a);
+Claims 1, 5 and 7 on the basis of Presz and "Engineering Expedient." 1
+Claim 6 on the basis of Presz and Engineering Expedient.
+Claim 8 on the basis of Presz, Engineering Expedient, and Wood.
+
+1
+
+Explained infra at 3.
+2
+
+Appeal2014-003095
+Application 12/486,274
+Claims 9-11, 15, 16, 20 and 23 on the basis of Presz and Wood.
+Claims 12 and 17 on the basis of Presz, Wood and Burke.
+OPINION
+Claims 1, 5 and 7
+Obviousness - Presz and Engineering Expedient
+
+Independent claim 1 recites an airfoil having a suction side and a
+pressure side. Among the limitations is that the airfoil comprises a trailing
+edge having a trailing edge portion configured to a wave-like form with an
+amplitude that "varies from a maximum value at the trailing edge to zero at a
+predetermined distance along a chord of the airfoil," and wherein the
+"amplitude [at said] trailing edge is approximately equal to a thickness of the
+trailing edge." App. Br. 3. With reference to Figure 9, the Examiner has
+found that all of the subject matter recited in independent claim 1 is
+disclosed in Presz, except for the limitation regarding the amplitude of the
+wavelike form at the trailing edge. Final Act. 6. However, it is the
+Examiner's position that this limitation would have been obvious "as an
+engineering expedient for the purpose of providing a desired operating angle
+
+of attack" (Final Act. 6, (emphasis added)), based upon the following
+reasonmg:
+It is common practice for engineers in the art of airfoil
+
+design to consider the amplitude of the wavelike form at the
+trailing edge. This common practice is further supported by
+Presz, Jr. et al. disclosing that "optimizing the size and shape of
+the troughs and ridges may have to be done by trial and error,
+and will depend, for example, on the desired operating angle of
+attack and the nominal airfoil cross-sectional shape," (Column 8,
+Line 9-13 ), and the wavelike form (troughs and ridges) may
+"encompass any amplitude which provides beneficial results"
+(Column 8, Line 25-27).
+
+3
+
+Appeal2014-003095
+Application 12/486,274
+Id.
+As explained in detail on pages 3 and 4 of the Appeal Brief, Appellant
+disputes the Examiner's conclusion, arguing that Presz does not specifically
+disclose the amplitude of troughs and ridges 32, 34, 38 and 40, shown in
+Figures 5A and 5B, but teaches that the amplitude encompasses "any
+amplitude which provides beneficial results," which is described as being "at
+least the same as and most preferably about twice the maximum thickness T
+of the separation region (col. 8 lines 19-20)." Appellant argues that, as
+shown in Presz Figures 1 and 3, to achieve the "beneficial results," the
+maximum thickness of the separation region is much greater than the
+thickness of the trailing edge, and urges that "even the minimum amplitude
+is much greater than the thickness of the trailing edge." Appeal Br. 4. With
+reference to Presz column 8, lines 24 and 25, Appellant points out that Presz
+"warns against a design in which the amplitude is too low," as this "may
+result in delaying the onset of separation, without preventing it completely."
+Id. Appellant goes on to state that it would not be "common practice for
+engineers" to disregard the teachings of Presz and "reduce the amplitude of
+the troughs and ridges [] to below a minimum[], thereby removing beneficial
+results and introducing known performance disadvantages which undermine
+the performance of the airfoil." Id. Thus, Appellant concludes, "the
+proposed modification would render Presz [] unsatisfactory for its intended
+purpose of delaying or preventing boundary layer separation. Accordingly,
+the rejection is fatally deficient, since the proposed modification [] cannot be
+used to support the rejection of independent claim 1, per MPEP 2143.01."
+Id. See also Reply Br. 2-3.
+
+4
+
+Appeal2014-003095
+Application 12/486,274
+We are persuaded by Appellant's arguments that the evidence
+provided by the Examiner does not establish that Appellant's claim 1 would
+have been obvious to one of ordinary skill in the art. Presz states that the
+objectives of the invention are reducing the drag on an airfoil at high
+loading, increasing lift capabilities, reducing the tendency to stall,
+eliminating two-dimensional boundary layer separation on the surface, and
+operating at higher angles of attack. Presz col. 3, 11. 5-14. To accomplish
+these objectives, Presz teaches that the airfoil have a "thin trailing edge"
+with a "series of alternating, adjoining troughs and ridges forming wave-like
+surface undulations which terminate at the trailing edge .... Consequently,
+the trailing edge has a wave-like shape." Id. at col. 3, 11. 19-30. Presz
+describes this arrangement in the following manner:
+To have the desired effect of preventing or reducing streamwise
+two-dimensional boundary layer separation on the airfoil
+surface, it is believed that the sum of the depth and height of the
+troughs and ridges respectively at the trailing edge (i.e., the peakto-peak wave amplitude at the trailing edge) will need to be
+substantially greater than the 99% boundary layer thickness
+immediately forward of the upstream ends of the troughs. It is
+believed that best results are obtained when peak to peak
+amplitude at the trailing edge is comparable to the thickness of
+the separation bubble (or wake) which would be expected to
+occur at the trailing edge at a selected angle of attack for which
+the airfoil is designed, if the airfoil did not incorporate the
+troughs and ridges of the present invention. This will generally
+result in trough depth and ridge heights many times larger (often
+orders of magnitude larger) than the boundary layer thickness.
+Col. 3, 1. 54---col. 4, 1. 3.
+Thus, Presz teaches that the objectives of the invention are
+accomplished by the airfoil having a thin trailing edge, and that the
+amplitude of the troughs and ridges is related to the thickness of the
+5
+
+Appeal2014-003095
+Application 12/486,274
+boundary layer on the surface of the airfoil. There is no mention in Presz of
+a relationship between the amplitude of the troughs and ridges and the
+thickness of the trailing edge of the airfoil. Therefore, we cannot agree with
+the Examiner that one of ordinary skill in the art would have been motivated
+to relate the amplitude of the troughs and ridges to the thickness of the
+trailing edge in the manner recited in Appellant's claim 1, based upon Presz'
+broad statement that "optimizing the size and shape of the troughs and ridges
+may have to be done by trial and error, and will depend upon, for example,
+on the desired operating angle of attack and the nominal airfoil crosssectional shape" (see Final Act. 6; see also Ans. 5).
+The rejection of independent claim 1 and dependent claims 5 and 7 is
+not sustained.
+Claim 6
+Obviousness - Presz and Engineering Expedient
+
+Claim 6 adds to claim 1 the requirement that the wavelength of the
+wavelike form along the trailing edge of the airfoil "is in a range of 2-4
+times the thickness of the trailing edge." The Examiner's position is that "it
+appears that Presz, Jr. et al. teaches a wavelength (see Figure 1 of the
+Detailed Action) of the wavelike form along the trailing edge is a range of 24 times a thickness of the trailing edge (Column 9, Line 48-58; Figure 9)."
+Final Act. 8. As an alternative, it is the Examiner's view that Presz shows
+this limitation in Figure 15 and, because Appellant has not disclosed that this
+wave form solves any stated problem or is for any particular purpose, it
+would have been an obvious matter of design choice to so modify the Presz
+wave form. Id. at 8-9.
+
+6
+
+Appeal2014-003095
+Application 12/486,274
+Be that as it may, as stated supra, it is our decision that the combined
+teachings of Presz and Engineering Expedient fail to render obvious the
+subject matter recited in claim 1, from which claim 6 depends, and therefore
+the Examiner's rejection of claim 6 also is not sustained.
+
+Claim 8
+Obviousness-Presz, Engineering Expedient and Wood
+Claim 8 further limits claim 1 by requiring that the wavelike form
+recited in claim 1 comprise "a tapered square wave form comprising
+alternating flat levels having different relative elevations joined by
+respective sloped sections joining the alternating flat levels." The Examiner
+has cited Wood for this teaching, concluding that it would have been
+obvious to so modify the Presz airfoil in such a manner in view of the
+showing in Wood's Figure 8. Final Act. 9.
+However, the teachings of Wood fail to overcome the deficiencies
+noted supra in the rejection of claiml, and therefore the rejection of claim 8
+also is not sustained.
+
+Claims 9-11, 15, 16, 20 and 23
+Obviousness - Presz and Wood
+Independent claim 9 is directed to a system comprising a stationary
+airfoil and a rotating airfoil. The Examiner has found that Presz discloses all
+of the subject matter recited in claim 9 except for "[t]he wavelike form [that]
+comprises a tapered square wave form comprising alternating flat levels
+having different relative elevations joined by respective sloped sections
+joining the alternating levels." Final Act. 11. However, the Examiner takes
+the position that this feature is taught by Wood, and it would have been
+obvious to one of ordinary skill in the art to modify the waveform of Presz
+by "replacing" it with the one disclosed by Wood "for the purpose of
+7
+
+Appeal2014-003095
+Application 12/486,274
+reducing the amplitude of the wake flow," because Presz "discloses that
+'optimizing the size and shape of the troughs and ridges may have to be
+done by trial and error, and will depend, for example, on the desired
+operating angle of attack and the nominal airfoil cross-sectional shape,'
+(Column 8, Line 9-13)." Final Act. 11-12. In response to Appellant's
+arguments in the Appeal Brief, the Examiner has further explained that
+the modification of the waveform of Presz, Jr. et al. has been
+done only to the shape of the wavelike form and not the chord.
+No "second modification" has been done to equalize the chord
+of the Presz, Jr. et al. as argued by the Appellant (Page 9 of
+Appeal Brief). Since the chord of Presz, Jr. et al. has always
+remained constant, there is no need to modify the chord and only
+the shape of the wavelike pattern has been modified as taught by
+Wood.
+Ans. 21 (emphasis added).
+Appellant initially argues that the modification proposed by the
+Examiner would not have been obvious because Wood teaches that, as
+shown in Figure 7, the trailing edge of the disclosed airfoil has varying
+chord lengths, and this would cause the Presz airfoil to be unsatisfactory for
+its intended purpose. See App. Br. 6-9. Appellant also asserts that the
+proposed modification was the result of "impermissible hindsight
+reconstruction" of the Wood airfoil. Id. at 9. On pages 3 and 4 of the Reply
+Brief, Appellant contends that the Examiner set forth the rejection in terms
+of "replacing it (wave form of Presz) with the tapered square wave as taught
+by Wood et al.," and that such "replacing" necessarily would necessarily
+also cause the modified Presz airfoil to comprise the varying chord lengths
+of Wood, and thus not disclose the Appellant's claimed invention.
+
+8
+
+Appeal2014-003095
+Application 12/486,274
+Based upon the Examiner's explanation on page 21 of the Answer
+(supra at 8), our understanding of the rejection is that the Examiner's
+
+proposed modification to Presz is limited to modifying the cross-sectional
+shape of the trailing edge portion of the airfoil from the curvilinear shape
+
+shown in Presz' Figures 9 and 10 to a tapered square-like cross-sectional
+shape, as disclosed in Wood's Figure 8, with the chord length disclosed by
+Presz remaining constant along the trailing portion of the airfoil rather than
+being variable, as in Wood. We are not convinced otherwise by Appellant's
+arguments in the Appeal Brief (pages 7-9), which focus upon the variable
+chord lengths in the Wood arrangement, or in the Reply Brief (pages 2--4),
+which reinforce the position set forth in the Appeal Brief and add that
+because the Examiner used the term "replacing" in the original statement of
+the rejection, the variable chord lengths of Wood must be part of the
+modification to Presz. Nor are we persuaded by Appellant's arguments that
+one of ordinary skill in the art would not have been motivated to make the
+proposed modification to the Presz airfoil in view of Presz' teaching that
+"optimizing the size and shape of the troughs and ridges may have to be
+done by trial and error, and will depend, for example, on the desired
+operating angle of attack and the nominal airfoil cross-sectional shape."
+Adv. Act. 2. It is our view that this teaching of Presz provides the necessary
+motivation for one of ordinary skill in the art to combine the references in
+the manner proposed by the Examiner, and overcomes Appellant's assertion
+that the Examiner arrived at the modification by the hindsight afforded by
+viewing Appellant's disclosure. Regarding Appellant's argument suggesting
+that the proposed modification would render the Presz airfoil unsatisfactory
+for its intended purpose and therefore cannot be used to support the rejection
+
+9
+
+Appeal2014-003095
+Application 12/486,274
+(App. Br. 8, 9), we point out that Appellant has not provided evidence or
+persuasive argument in support of this conclusion.
+Therefore, although we have carefully considered all of Appellant's
+arguments with regard to claim 9, we have concluded that the combined
+teachings of Presz and Wood render the subject matter recited in claim 9
+obvious, and the rejection of claim 9 is sustained. Because Appellant has
+chosen to allow dependent claims 10, 11 and 20 to stand or fall with claim 9,
+from which they depend (App. Br. 9), the like rejection of these claims also
+is sustained.
+Independent claim 15 is directed to a system comprising a row of
+stationary airfoils upstream of a row of rotating airfoils. Appellant has
+argued claim 15 separateI y from claim 9, although it recites that each
+stationary airfoil comprise the same wavelike form at the trailing edge as
+was present in claim 9. Again, the Examiner acknowledges that this feature
+is not present in Presz, but finds that it is disclosed in Figure 8 of Wood, and
+that it would have been obvious to modify the Presz structure to incorporate
+it, based upon the same reasoning as was advanced in the rejection of claim
+9. See Final Act. 13, 14. Appellant's arguments regarding this rejection are
+the same as those made against the rejection of claim 9. See App. Br. 10, 11.
+The rejection of claim 15 is sustained for the same reasons as claim 9.
+Appellant has stated that dependent claims 16 and 23 stand or fall with claim
+9 (App. Br. 11), and therefore the rejection of these two claims also is
+sustained.
+
+10
+
+Appeal2014-003095
+Application 12/486,274
+
+Claims 12 and 17
+Obviousness - Presz and Wood
+Claim 12 depends from claim 9, and claim 17 from claim 15.
+Appellant has chosen to have these claims stand or fall with the claims from
+which they depend. App. Br. 11. This being the case the rejection of these
+two claims is sustained.
+DECISION
+The rejection of claims 1, 5 and 7 as being obvious in view of Presz
+and Engineering Expedient, is not sustained.
+The rejection of claim 6 as being obvious in view of Presz and
+Engineering Expedient, is not sustained.
+The rejection of claim 8 as being obvious in view of Presz,
+Engineering Expedient, and Wood, is not sustained.
+The rejection of claims 9-11, 15, 16, 20 and 23 as being obvious in
+view of Presz and Wood, is sustained.
+The rejection of claims 12 and 17 as being obvious in view of Presz,
+Wood and Burke, is sustained.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 1.136(a)(l )(iv).
+AFFIRMED-IN-PART
+
+11
+
+

@@ -1,0 +1,417 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/595,147
+
+01/26/2010
+
+Rudolf Moser
+
+EPROV-0030
+
+1916
+
+23599
+
+7590
+
+09/23/2016
+
+MILLEN, WHITE, ZELANO & BRANIGAN, P,C
+2200 CLARENDON BLVD.
+SUITE 1400
+ARLINGTON, VA 22201
+
+EXAMINER
+DONOHUE, SEAN R
+
+ART UNIT
+
+PAPER NUMBER
+
+1618
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@mwzb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RUDOLF MOSER, ROGER SCHIBLI,
+CRISTINA MAGADELANA MULLER, VIOLA GROEHN,
+URS FELIX MICHEL, CHRISTOF SPARR, and
+THOMAS LEIGHTON MINDT 1
+
+Appeal2014-008436
+Application 12/595,147
+Technology Center 1600
+
+Before DEMETRA J. MILLS, ERIC B. GRIMES, and
+JOHN G. NEW, Administrative Patent Judges.
+NEW, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+1
+
+Appellants state the real party-in-interest is MERCK & CIE. App. Br. 1.
+
+Appeal2014-008436
+Application 12/595,147
+SUMMARY
+Appellants file this appeal under 35 U.S.C. § 134(a) from the
+Examiner's Final Rejection of claims 9, 10, 12, 15-18, 20, 21, 23, 24, 2628, 33, 40, 41, 44, 45, and 47 which stand rejected as unpatentable under 35
+U.S.C. § 103(a) as being obvious over the combination of Christopher P.
+Leamon et al., Folate-mediated Drug Delivery: Effect ofAlternative
+
+Conjugation Chemistry, 7(3) J. DRUG TARGETING 157-69 (1999)
+("Leamon"), Green et al. (US 2005/0227985 A9, October 13, 2005)
+("Green"), Thomas L. Mindt et al., Click to Chelate: Synthesis and
+
+Installation of Metal Chelates into Biomolecules in a Single Step, 128 J. AM.
+CHEM. Soc. 15096-97 (2006) ("Mindt"), and Jae Kyoung Pak et al., NE:
+
+Functionalization ofMetal and Organic Protected L-Histidine for a Highly
+Efficient, Direct Labeling of Biomolecules with [Te(OH2)3(C0)3], 9 CHEM.
+EUR. J. 2053-61 ("Pak").
+\Ve have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+NATURE OF THE CLAIMED INVENTION
+Appellants' invention is directed to novel folate-conjugates and the
+corresponding metal-chelate complexes as well as pharmaceutical
+compositions thereof, their method of production and their use in diagnostic
+and therapeutic medical applications, such as diagnostic imaging and
+radiotherapy. Spec., 1, 11. 6-10.
+
+2
+
+Appeal2014-008436
+Application 12/595,147
+REPRESENTATIVE CLAIM
+Appellants argue all of the claims on appeal together. Independent
+claim 9 is representative and recites:
+9.
+
+A compound according to formula III,
+
+III
+wherein
+X1, X2, X3, X4 and Xs are independently of each other C or N;
+Y1, Y2 are independently of each other C, 0 or N,
+Rl and R2 are independently of each other H, Hal, -OR', -NHR',
+C1-C12 alkyl, C1-C12 alkoxy, C1-C12 alkanoyl, C1-C12 alkenyl, C1C 12 alkynyl, (C 1-C 12 alkoxy)carbonyl, and (C 1-C 12 alkylamino)
+carbonyl,
+R' is Hor C1-C6 alkyl,
+R3 and R4 are independently of each other H, formyl,
+iminomethyl, nitroso, C1-C12 alkyl, C1-C12 alkoxy, C1-C12
+alkanoyl, halosubstituted C1-C12 alkanoyl,
+
+Rs is H, CN, Hal, N02, C1-C12 alkyl, C1-C12 alkoxy, C1-C12
+alkanoyl, C12 alkenyl, C1-C12 alkynyl, (C1-C12 alkoxy) carbonyl,
+and (C1-C12 alkylamino) carbonyl,
+p has a value of 0, 1 or 2,
+q has a value of 1 to 7,
+
+3
+
+Appeal2014-008436
+Application 12/595,147
+r is 0 or 1,
+R6 and R7 are independently of each other H, straight chain or
+branched C1-C12 alkyl, which is unsubstituted or substituted by
+at least one CN, Hal or N02, or a group of formula IV,
+
+IV
+wherein
+Z1, Z2, are, independently of each other, CH or N,
+Z3 is C orN,
+S2, S3, S4 are independently of each other a single bond or a
+spacer group,
+Ra, Ra', Rb are independently of each other H, -OR', -COOR', NHR', -CONHR', -SR', a phosphine or a heterocyclic group, or
+a folate or derivative thereof, and
+wherein of groups Ra, Ra' and Rb at least two adjacent groups are
+a donor group -OH, -COOH, -NHR', -CONH2, -SH, a phosphine
+or a heterocyclic group,
+Re is H, C02R', COR', -S03R', -NHR', or straight-chain or
+branched C1-C12 alkyl, which is unsubstituted or substituted by
+at least one CN, Hal, or N02, or a folate or derivative thereof,
+mis 0, 1, 2, 3, or 4, and
+n is 1 or 2,
+
+4
+
+Appeal2014-008436
+Application 12/595,147
+with the proviso that at least one of R6 and R7 is a group of
+formula IV.
+App. Br. 12-13.
+ISSUES AND ANALYSES
+We agree with, and adopt, the Examiner's findings and conclusion
+that the appealed claims are prima facie obvious over the cited prior art
+references. We address the arguments raised by Appellants below.
+
+Issue
+
+Appellants argue the Examiner erred in finding that the compounds of
+claim 9 are obvious over the prior art. App. Br. 4.
+
+Analysis
+
+Appellants dispute the Examiner's conclusion that the claims on
+appeal are prima facie obvious over the combined cited prior art. App. Br.
+4. Specifically, Appellants argue that the references relied upon by the
+Examiner do not support a finding that combining pteroates, pteroate
+dipeptides, or "non-peptide" folic acid analogs with the histidine-like portion
+of a histidine/bombesin conjugate would have been obvious to one of
+ordinary skill in the art at the time the claimed invention was made. Id.
+Appellants also contend that none of the references provide any suggestion
+of a linker structure in accordance with Formula III of claim 9. Id.
+Appellants also dispute the Examiner's finding that Leamon teaches
+the parent structure Pte-Glu (i.e., folic acid), and that this structure is "a
+compound of instant formula III." App. Br. 5 (citing Leamon 159, Fig. 1).
+
+5
+
+Appeal2014-008436
+Application 12/595,147
+Appellants contend Pte-Glu is not a compound of claim 9's formula Ill since
+it does not meet claim 9's requirement that at least one of R6 and R7 is a
+group of formula IV.
+Appellants assert that Green teaches the use of linkers that do not
+contain peptide bonds, i.e., "non-peptide" folic acid analogs. App. Br. 6.
+Appellants contend that, rather than proposing an alternative to a Pte-Glu
+linkage, Green is specifically teaching a replacement of the Pte-Glu linkage
+and therefore teaches away from Leamon.
+Moreover, Appellants argue, Green teaches a very broad genus of
+"non-peptide" folic acid analogs and, as defined by Green's formula I,
+teaches a further very large number of possible linkers. Id. at 7 (citing
+Green, Formula I ,-i,-i 37--48). Appellants point to the two exemplary
+embodiments explicitly taught by Green, CYK4-013 and CY 4-036, and to
+their intermediates, and argue that these do not suggest the linker of formula
+III. Id. at 7-8 (citing Green, Figs. 2, 3).
+Appellants argue Pak teaches compounds (viz., Pak's compounds 7a
+and 7b ), which can be coupled to a free amino group of a biomolecule via
+the acetyl group to form an amide bond (e.g., the acetyl group can be reacted
+with an NH2 group of a peptide as shown in scheme 1). App. Br. 9.
+Appellants contend Pak teaches that the Na can be deprotected and the ester
+subjected to hydrolysis, thereby freeing all three of the coordination sites for
+chelation (i.e., Na, N 8, and COO} Id. (citing Pak schemes 1, 2; 2055).
+Appellants argue that a person of ordinary skill in the art would not
+have been motivated to modify the pteroate dipeptide Pte-Gly-Cys of
+Leamon by replacing the cysteine moiety with a histidine moiety. App. Br.
+9. According to Appellants, even though Mindt teaches histidine-like
+
+6
+
+Appeal2014-008436
+Application 12/595,147
+structures, i.e., 1, 2, 3-triazole-4-yl alanines, a person of ordinary skill would
+find no reason to look to the disclosures of Mindt or Pak to modify the
+dipeptide folate ligands taught by Leamon, i.e., Pte-yGlu-Cys, Pte-aGlu-Cys,
+and Pte-Gly-Cys. Id. Appellants further argue a person of ordinary skill
+would modify the resultant compound to "optionally include a linker as
+taught by Green," because Green teaches linkers that represent many
+thousands of possible compounds. Id. (citing, e.g., Green ,-i,-i 84-89).
+Moreover, argue Appellants, the linkers of Green do not contain peptide
+bonds, i.e., they form "non-peptide" folic acid analogs. Appellants contend
+the compound proposed in the rejection is explicitly a dipeptide compound
+(Pte-Gly-His). Consequently, Appellants argue, Green either teaches away
+from the proposed modification, by suggesting linkers that contain no amino
+acids, or provides no suggestion to modify the ligands taught by Leamon in
+such a manner that the resultant compound retains a dipeptide structure, let
+alone has the proposed structure of Pte-Gly-His. Id. at 9-10.
+The Examiner responds that Leamon teaches Pte-G lu, a compound
+that reads in part on Appellants' claimed formula III. Ans. 9. The Examiner
+finds Leamon also teaches dipeptide conjugate
+
+125
+
+1-BSA-Cys-Glu-Pte
+
+exhibits substantially increased binding to HeLa cells relative to controls and
+125
+
+1-BSA-Glu-Pte; consequently Leamon would have motivated a person of
+
+ordinary skill to attach an additional spacer moiety, such as an amino acid, to
+the distal end of the glutamyl moiety. Id. The Examiner finds Leamon
+expressly teaches that carbodiimide-activated Pte-Glu or any of the pteroatedipeptide derivatives afforded equipotent delivery of functionally active
+cytotoxic enzyme into treated cells. Id. at 9-10 (citing Leamon 168).
+
+7
+
+Appeal2014-008436
+Application 12/595,147
+The Examiner relies upon Green as teaching diagnostic imaging of
+folate receptor-positive cells using Pte-linker-diagnostic agent conjugates.
+The Examiner finds Green teaches that folate-binding proteins involved in
+endocytosis are less sensitive to modification of the folate molecule than the
+membrane transport proteins, and often recognize folate conjugates. Ans.
+10. The Examiner finds that both targeting and uptake of the Pte-linkerconjugated diagnostic and therapeutic agents are enhanced and that Green
+suggests a wide range of chelators and metals may be attached to folate
+derivatives. Id.
+The Examiner next finds Pak teaches derivatizing biologically active
+molecules for radiopharmaceutical purposes. Ans. 10. Specifically, the
+Examiner finds Pak teaches that the targeting vector has to be ( 1) derivatized
+with appropriate chelator for 99mTc; (2) should be labeled with high specific
+activity; and (3) retain its physiochemical properties and its affinity for the
+corresponding receptor. Id. The Examiner finds Pak teaches histidine
+derivatized at the £-nitrogen as an efficient chelator of [99mTc(OH2)3(C0)3t.
+The Examiner finds that histidine derivatized at the £-nitrogen reads on
+formula IV of claim 9. Id. at 10-11.
+In summary, the Examiner concludes that a person of ordinary skill in
+the art would have combined the prior art teachings with a reasonable
+expectation of success because Leamon and Green teach the Pte-Glu (folate)
+compound confers binding to high affinity folate recognition sites, such as
+sites on tumor cells. See Final Act. 9. Green suggests incorporation of a
+linker and diagnostic moiety, such as a chelating agent suitable for binding
+99
+
+mTc, into folate derivatives to enable visualization with SPECT. Id. Pak
+
+teaches that the introduction of tripodal NE-derivatized histidine into a
+
+8
+
+Appeal2014-008436
+Application 12/595,147
+biomolecule enables labeling with 99mTc to yield a single
+radiopharmaceutical compound of very high specific activity without further
+purification. Id.
+We are not persuaded by Appellants' arguments. We agree with the
+Examiner that Leamon teaches folic acid derivatives comprising pteroic acid
+and dipeptides that can bind macromolecules and still be capable of binding
+to folic acid receptor species linked to endocytosis. See Leamon 167.
+Furthermore, we agree with the Examiner that Green teaches a folic acid
+mimetic conjugated to a diagnostic or therapeutic agent to enable selective
+delivery of the agent to the targeted cell population. See Green Abstr.
+Green also teaches chelation of metals to these linkers, including 99mTc. See,
+e.g., Green ,-i 106. We also agree with the Examiner that Pak teaches
+
+histidine (an amino acid) linker complexes that can chelate 99mTc and are
+capable of being bound to biomolecules with pendant amines. See Pak
+Abs tr.
+We conclude that a person of ordinary skill would be motivated to
+combine the teachings of the cited prior art references. All of the references
+are analogous art from the same highly-specialized field of endeavor and
+would be within the scope of the knowledge of a person of ordinary skill.
+We agree with the Examiner that such an artisan would realize that
+combining the references would provide a desirable means by which a
+radioactive marker such as 99mTc can be targeted specifically at cells
+expressing the appropriate folic acid receptors.
+Appellants contend that Leamon does not teach the entire claimed
+molecule because it does not teach that a moiety of formula IV must be
+attached to either R6 or R7. However, Leamon does teach (and Appellants
+
+9
+
+Appeal2014-008436
+Application 12/595,147
+do not dispute) formula Ill of claim 9, and it is not necessary that a single
+reference teach the entire composition when the rejection is based on
+obviousness over a combination of references. See In re Keller, 642 F.2d
+413, 426 (C.C.P.A. 1981). Moreover, Pak explicitly teaches histidine, which
+corresponds to formula IV and is an amino acid capable of forming a peptide
+linkage to the glutamate moiety of folate. Indeed, the Pte-Glu-His dipeptide
+folate derivative is explicitly depicted as a specific embodiment in Figure 1
+of Appellants' Specification.
+Appellants also argue that their claimed folate-conjugate compounds
+of the present application show an unexpected high tumor-to-blood value,
+which proves the high potency of the compounds for applications in
+diagnostic imaging and treatment of tumors. App. Br. 4 (citing Spec. Tables
+la and 2a). Although it may well be true that the claimed compounds do
+show excellent results, Appellants do not demonstrate that the results are
+unexpectedly different when compared with the closest prior art. See In re
+Baxter Travenol Labs., 952 F.2d 388, 392 (Fed. Cir. 1991) ("[W]hen
+unexpected results are used as evidence of nonobviousness, the results must
+be shown to be unexpected compared with the closest prior art"). Indeed,
+the prior art cited by the Examiner directly suggests that a number of
+different folate-dipeptide compounds are capable of being internalized into
+the cytosol via endocytosis. See, e.g., Leamon 167; Green ,-i 21.
+Nor are we persuaded by Appellants' argument that Green teaches
+away from the teachings of Leamon and their claimed invention because
+Green specifically teaches a replacement of the Pte-Glu linkage. See App.
+Br. 6. Green explicitly acknowledges the Pte-Glu linkage, as well as other
+Pte-amino acid linkages, and teaches non-peptide linkages as an alternative.
+
+10
+
+Appeal2014-008436
+Application 12/595,147
+
+See Green iJ 22 ("A folic acid analog capable of expanding the number or
+diversity of agents, via the conjugates of such agents and these folic acid
+analogs, presentable to target cells would be advantageous"). However, a
+reference teaches away when "a person of ordinary skill, upon reading the
+reference, would be discouraged from following the path set out in the
+reference, or would be led in a direction divergent from the path that was
+taken by the applicant." In re Gurley, 27 F.3d 551, 553 (Fed. Cir. 1994).
+Appellants point to no teachings of Green that would necessarily discourage
+or divert a person of ordinary skill from either the teachings of Leamon or
+their claimed invention. Furthermore, merely teaching an alternative or
+equivalent method does not teach away from the use of a claimed method.
+
+See, e.g., In re Dunn, 349 F.2d 433, 438 (C.C.P.A. 1965).
+Finally, we are not convinced by Appellants' implicit allegation that
+the Examiner impermissibly employed hindsight reasoning in combining the
+references. See App. Br. 10. We have related supra our reasoning as to why
+a person of ordinary skill in this sophisticated art would be motivated to
+combine the analogous art references cited by the Examiner. Moreover,
+Appellant point to no finding of the Examiner's that could have been
+gleaned only from Appellants' Specification or was not within the scope of
+knowledge of a person of ordinary skill in the art at the time Appellants'
+application was filed. See In re McLaughlin, 443 F.2d 1392, 1395 (C.C.P.A.
+1971).
+Consequently, and for the reasons we have set forth, we affirm the
+Examiner's rejection of the claims on appeal.
+
+DECISION
+
+11
+
+Appeal2014-008436
+Application 12/595,147
+The Examiner's rejection of claims 9, 10, 12, 15-18, 20, 21, 23, 24,
+26-28, 33, 40, 41, 44, 45, and 47 as unpatentable under 35 U.S.C. § 103(a)
+is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a)(l). See 37 C.F.R.
+§ l.136(a)(l )(iv).
+
+AFFIRMED
+
+12
+
+

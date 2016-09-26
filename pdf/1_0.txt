@@ -1,0 +1,169 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/223,313
+
+09/01/2011
+
+Adam H. Li
+
+7114-95711-US
+
+7127
+
+37123
+
+7590
+
+09/21/2016
+
+FITCH EVEN TABIN & FLANNERY, LLP
+120 SOUTH LASALLE STREET
+SUITE 1600
+CHICAGO, IL 60603-3406
+
+EXAMINER
+KARIM, ZIAUL
+
+ART UNIT
+
+PAPER NUMBER
+
+2127
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+Ex parte ADAM H. LI, AIXIN LIU, and DJUNG NGUYEN
+____________
+Appeal 2015-003342
+Application 13/223,313
+Technology Center 2100
+____________
+Before CARLA M. KRIVAK, BETH Z. SHAW, and
+NABEEL U. KHAN, Administrative Patent Judges.
+SHAW, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeals under 35 U.S.C. § 134(a) from the Examiner’s
+Final Rejection of claims 1–13, which are the only claims currently pending
+in this application. App. Br. 3. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+INVENTION
+The invention is for automation of residential appliances. Spec. ¶ 3.
+
+Appeal 2015-003342
+Application 13/223,313
+Claim 1, which is illustrative, reads as follows:
+1. An apparatus comprising:
+home-automation edge-component interfaces;
+a control circuit operably coupled to the home-automation edgecomponent interfaces, wherein the control circuit is configured
+to interact with home-automation edge components using a
+common application programming interface.
+REJECTIONS AT ISSUE
+The Examiner rejected claims 1–13 under 35 U.S.C. § 102(b) as being
+anticipated by Clayton (US 2008/0183316 A1; July 31, 2008). Ans. 2–8.
+
+ISSUES
+Appellants argue that the Examiner’s rejections are in error. App. Br.
+7–17; Reply Br. 1–5. The dispositive issue presented by these arguments
+are:
+Did the Examiner err in finding the Clayton discloses “wherein the
+control circuit is configured to interact with home-automation edge
+components using a common application programming interface,” as recited
+in claim 1?
+
+ANALYSIS
+We have reviewed Appellants’ arguments in the Briefs, the
+Examiner’s rejection, and the Examiner’s response to Appellants’
+arguments. We adopt as our own the findings and reasons set forth in the
+rejection from which this appeal is taken and in the Examiner’s Answer in
+response to Appellant’s Appeal Brief. See Ans. 2–9. We highlight and
+address specific arguments and findings for emphasis as follows.
+
+2
+
+Appeal 2015-003342
+Application 13/223,313
+Appellants argue that Clayton fails to disclose “wherein the control
+circuit is configured to interact with home-automation edge components
+using a common application programming interface,” as recited in claim 1.
+App. Br. 7–17. Appellants refer to the Specification, which defines an
+application programming interface as “a particular set of rules and
+specifications that software programs can follow to compatibly and
+successfully communicate with one [sic] other.” Spec. ¶ 49.
+As Appellants point out, Clayton does not use the words “API” or
+“application programming interface.” App. Br. 8. However, anticipation “is
+not an ‘ipsissimis verbis’ test.” In re Bond, 910 F.2d 831, 832-33, 15
+USPQ2d 1566, 1567 (Fed. Cir. 1990) (citing Akzo N.V. v. United States Int'l
+Trade Comm'n, 808 F.2d 1471, 1479 & n.11, 1 USPQ2d 1241, 1245 & n.11
+(Fed. Cir. 1986)). “An anticipatory reference . . . need not duplicate word
+for word what is in the claims.” Standard Havens Prods. v. Gencor Indus.,
+953 F.2d 1360, 1369 (Fed. Cir. 1991).
+Here, the Examiner maps the recited application programming
+interface to the “common communication interface” of Clayton. See Ans. 3
+(citing Clayton ¶ 90). The Examiner also cites to Clayton’s disclosure of
+“communications between the automation controller 12 and the peripheral
+devices 16.” Ans. 8 (citing Clayton ¶ 50). We agree with the Examiner’s
+findings, and are therefore not persuaded by Appellants’ arguments (see
+Reply Br. 2–5) that Clayton’s disclosure is too general to be the application
+programming interface recited in claim 1. Indeed, we agree that Clayton’s
+communication interface includes “a particular set of rules and specifications
+that software programs can follow to compatibly and successfully
+communicate with one another,” which is the definition of an API in
+
+3
+
+Appeal 2015-003342
+Application 13/223,313
+Appellants’ Specification. In the absence of sufficient evidence or line of
+technical reasoning to the contrary, the Examiner’s findings are reasonable
+and we find no reversible error.
+Because Appellants have not presented separate patentability
+arguments or have reiterated substantially the same arguments as those
+previously discussed for patentability above (see Br. 7–17), the remaining
+pending claims fall for the same reasons as claim 1. See 37 C.F.R.
+§ 41.37(c)(1)(iv).
+
+DECISION
+The decision of the Examiner rejecting claims 1–13 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(1). See 37 C.F.R.
+§ 1.136(a)(1)(iv).
+
+AFFIRMED
+
+4
+
+

@@ -1,0 +1,514 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+90/013,418
+
+12/12/2014
+
+6,493,377 B2
+
+3 lAE-202659
+
+1043
+
+36139
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+EPSTEIN & GERKEN
+14006 Glen Mill Road
+ROCKVILLE, MD 20850
+
+YIGDALL, MICHAEL J
+
+ART UNIT
+
+PAPER NUMBER
+
+3992
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte LINEX TECHNOLOGIES, INC.
+Patent Owner and Appellant
+
+Appeal2016-007605
+Reexamination Control 90/013,418
+United States Patent 6,493,377 B2
+Technology Center 3900
+
+Before JAMES T. MOORE, JOHN A. JEFFERY, and
+JENNIFER L. McKEOWN, Administrative Patent Judges.
+JEFFERY, Administrative Patent Judge.
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+DECISION ON APPEAL
+Appellant appeals under 35 U.S.C. §§ 134 and 306 the Examiner's
+decision to reject claims 1-15, 22-29, and 32-37. 1 We have jurisdiction
+under 35 U.S.C. §§ 134 and 306.
+We affirm.
+
+STATEMENT OF THE CASE
+This proceeding arose from a request for ex parte reexamination filed
+on December 12, 2014 of United States Patent 6,493,377 B2 ("the '377
+patent"), issued to Schilling et al. on December 10, 2002.
+The '377 patent describes a wireless distributed network for reducing
+power and power variations when transmitting packets having spreadspectrum modulation. Specifically, the system includes remote stations and
+nodes, where a node's spread-spectrum transceiver communicates with the
+remote stations over radio waves. See generally Abstract; col. 2, 1. 20 - col.
+3, 1. 22. Claim 1 is illustrative of the invention and is reproduced below:
+1.
+A distributed network, spread-spectrum system,
+compnsmg:
+a plurality of remote stations;
+a plurality of fixed nodes forming the distributed network
+for covering a particular geographic area, the plurality of fixed
+
+1
+
+Although Appellant indicates that claims 1--4, 10, 22, and 28-3 7 stand
+finally rejected, the Examiner nevertheless indicates that claims 1-15, 2229, and 32-37 are finally rejected. Compare App. Br. 2 with Final Act. 1, 8;
+Ans. 2. Because the Examiner does not indicate that any ground of rejection
+is withdrawn and reiterates on page 2 of the Answer that claims 1-15, 2229, and 32-37 are rejected, we presume that these claims are so rejected.
+2
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+nodes including a hub node, each fixed node covering a microcell having a radius less than one mile;
+each fixed node including, a plurality of spread-spectrum
+transceivers for communicating, using packets having spreadspectrum modulation, over radio waves, with the plurality of
+remote stations, each packet having a source address and a
+destination address;
+a particular remote station of the plurality of remote
+stations being capable of accessing, using radio waves, a first
+fixed node in the distributed network, employing traffic
+information sent by the first fixed node, and sending one or
+more packets to the first fixed node thereby using minimum
+power;
+a store-and-forward subsystem, coupled to the spreadspectrum transceiver, for storing and forwarding one or more
+packets to and from the remote station, and for storing and
+forwarding the one or more packets to and from another fixed
+node in the plurality of fixed nodes;
+a flow-control subsystem, coupled to the store-andfof'l{ard subsystem, for controlling the store-and-fof'l{ard
+subsystem, to store each packet arriving at the spread-spectrum
+transceivers, said flow-control subsystem communicating
+traffic information between each of the fixed nodes in the
+plurality of fixed nodes, with the traffic information including
+traffic density at each of the nodes, said flow-control
+subsystem, responsive to the traffic information and to a packet
+having the destination address to the hub node, for routing the
+packet through appropriate nodes to the hub node, said flowcontrol subsystem, responsive to the traffic at each fixed node,
+each packet having a destination address to a first recipient
+node, for transmitting the packet from the hub node to an
+appropriate node, routing the pack.et to the first recipient node,
+said flow-control subsystem, responsive to the traffic
+congestion and to a plurality of packets having voice data, for
+routing the plurality of packets through a path in the plurality of
+
+3
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+fixed nodes to ensure that the plurality of packets arrive
+sequentially; and
+said hub node, responsive to an information packet
+arriving from a central office, for routing the information packet
+to a second recipient node.
+RELATED PROCEEDINGS
+This appeal is said to be related to various proceedings. First, on page
+1 of the Appeal Brief, Appellant informs us of two civil proceedings and an
+
+ex parte reexamination proceeding (Control No. 90/013,627) for U.S. Patent
+7, 176,503 B2 which is a continuation of the '377 patent as noted on page 13
+of the Brief. No decision has been rendered in the '62 7 appeal.
+On page 15 of the Appeal Brief, Appellant also refers to three other
+related ex parte reexamination proceedings, namely Control Numbers
+90/013,002 ("'002 proceeding"); 90/013,001 ("'001 proceeding"); and
+90/013;400 ("'400 proceeding"). The '002 proceeding involves the '377
+patent, and the latter two proceedings involve the '503 patent. App. Br. 15.
+Reexamination certificates have issued in these three proceedings.
+
+THE REJECTION
+The Examiner rejected claims 1-15, 22-29, and 32-37 under
+35 U.S.C. § 103(a) as unpatentable over RICOCHET TECHNOLOGY
+OVERVIEW, http://web.archive.org/web/19991012055521/http:/www.
+metricom.com/individuals/techover.htm ("Ricochet"), Young (US
+5,719,868; Feb. 17, 1998), Robert E. Kahn et al., Advances in Packet Radio
+
+Technology, 66 IEEE PROC. 1468, 1468-78 (1978) ("Kahn"), and Michael
+B. Pursley et al., Routingfor Multimedia Traffic in Wireless Frequency-Hop
+
+4
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+Communication Networks, 17 IEEE J. SELECTED AREAS IN COMM. 784,
+
+784--92 (1999) ("Pursley 2"). 2 Final Act. 8-56. 3
+
+SUBSTANTIAL NEW QUESTION OF PATENTABILITY (SNQ)
+In the Reply Brief, Appellant argues that an SNQ was not raised in
+this proceeding because, among other things, Ricochet was cited as a
+primary reference in the '400 proceeding along with Kahn and Young, and
+Ricochet was found to not use traffic information at nodes to route signals
+through the system. Reply Br. 2-5, 33-34. Appellant further contends that
+no SNQ exists because the prior art of record in the '002 proceeding was
+found to not anticipate the two node-based limitations noted on page 11 of
+the Reply Brief, and that ostensibly no prior art added in this proceeding
+contributes any information sufficient to modify these earlier findings. Id. at
+11-12. Moreover, Appellant argues that because points were made in the
+'001 proceeding that the cited references did not disclose plural transceivers
+at each node, there is allegedly no SNQ in this proceeding. Id. at 27-28.
+Appellant adds that because the point was made in the '002 proceeding that
+none of the cited references accessed and selected a neighboring node based
+on traffic information as claimed, there is allegedly no SNQ in this
+proceeding. Id. at 31-32.
+
+2
+
+Although another reference to Pursley ("Pursley 1") is cited in this
+proceeding (Ans. 2), only Pursley 2 is cited in the rejection.
+3
+Throughout this opinion, we refer (1) the Final Rejection mailed October
+16, 2015 ("Final Act."); (2) the Appeal Brief filed March 28, 2016 ("App.
+Br."); (3) the Examiner's Answer mailed May 4, 2016 ("Ans."); and (4) the
+Reply Brief filed July 5, 2016 ("Reply Br.").
+5
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+These arguments are unavailing. First, Appellant's SNQ arguments
+are raised for the first time in the Reply Brief and are, therefore, deemed to
+be waived as untimely. Under 37 C.F.R. § 41.41(b)(2), 4 we do not consider
+any argument raised in the Reply Brief which ( 1) was not raised in the
+Appeal Brief, or (2) is not responsive to an argument raised in the
+Examiner's Answer, unless good cause is shown-an exception that is
+inapplicable here. Therefore, Appellant's SNQ arguments are improper for
+that reason alone.
+Second, MPEP § 22 74(VI) requires that Appellant request
+reconsideration of the SNQ issue before the Examiner before we can review
+that issue-a requirement that has not been satisfied here. Although this
+section provides two non-limiting examples of when this reconsideration can
+be requested, namely in a patent owner's statement or response under 37
+C.F.R. §§ 1.530 and 1.111, respectively, this request must be nevertheless
+made before the Appeal Brief. See§ 2274(VI) (requiring that a patent
+owner first request consideration before the Examiner, and then seek review
+of the Examiner's SNQ determination before the Board); see also id.
+(requiring a patent owner identify in its Appeal Brief the communication in
+which the owner first requested reconsideration of the SNQ before the
+Examiner). Therefore, even if Appellant's Appeal Brief raised the SNQ
+issue for the first time in this proceeding-which it does not because this
+
+4
+
+This rule applies to this ex parte reexamination appeal as well as ex parte
+appeals. See MANUAL OF PATENT EXAMINING PROCEDURE (MPEP) § 2273
+(9th ed. Rev. 07.2015, Nov. 2015).
+6
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+issue was raised for the first time in the Reply Brief-such an argument
+would still be untimely and, therefore, not before us.
+That is not to say, however, that despite an Appellant's not complying
+with the procedural mandates of MPEP § 2274(VI), the Board cannot review
+the Examiner's SNQ determination that is so facially improper that no
+reasonable mind could accept it such that there is no substantial evidence to
+support the determination. See In re Gartside, 203 F.3d 1305, 1312 (Fed.
+Cir. 2000). One such circumstance would be when it is indisputably clear
+from the record that a patentability question deemed as an SNQ was already
+decided in the original examination, for no procedural rule can enable
+reexamination under those circumstances. See In re Recreative
+Technologies Corp., 83 F.3d 1394, 1396-98 (Fed. Cir. 1996).
+But that is not the case here. Although there is some overlap in the
+references cited in the above-noted reexamination proceedings identified in
+the Reply Brief that are said to preclude an SNQ (see Reply Br. 2-5, 11-12,
+27-28, 31-34), the rejections are not the same, for they involve different
+claims, and rely on different evidence, findings, and conclusions. Moreover,
+these rejections are based on different combinations of prior art referencesa distinction that further establishes that these rejections constitute different
+grounds of rejection despite citing identical references. See In re McDaniel,
+293 F.3d 1379, 1384 (Fed. Cir. 2002) (noting that obviousness rejection that
+added a prior art reference (Grot) to a combination of other prior art
+references did not share a common ground of rejection with claims rejected
+as obvious over those other references).
+
+7
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+As the Examiner explained during prosecution, the Ricochet reference
+is presented in a new light in this proceeding, namely with respect to nodes
+in a distributed network that ( 1) cover a microcell having a radius of less
+than one mile, and (2) transmit traffic information allowing a remote station
+to access a first node in a distributed network using minimum power. See
+Office Action Ordering Reexamination 13-15 (mailed Feb. 12, 2015).
+Because of these new and non-cumulative teachings, as well as those in
+various other cited prior art references, an SNQ was deemed to be raised
+and, therefore, reexamination was ordered. Id. at 7-16. On this record, we
+see no error in these findings and conclusions.
+Accordingly, we are unpersuaded of error in the Examiner's SNQ
+determination even if the issue was before us-which it is not.
+
+THE OBVIOUSNESS REJECTION
+The Examiner finds that Ricochet discloses many recited elements of
+claim 1 except for (1) each fixed node including plural transceivers, and (2)
+each packet having a source and destination address, but cites Young and
+Kahn, respectively, for teaching these features. Final Act. 8-13. The
+Examiner also cites Pursley 2 for teaching that ( 1) traffic information
+includes traffic density, and (2) packets carry voice traffic. Id. at 12-13.
+Based on these collective teachings, the Examiner concludes that the claim
+would have been obvious. Id. at 8-13.
+Appellant argues that the cited prior art does not disclose the recited
+distributed network spread-spectrum system that uses plural spread-spectrum
+transceivers at each fixed node as claimed. App. Br. 16. According to
+
+8
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+Appellant, skilled artisans would not have combined the cited references as
+the Examiner proposes because (1) the goals of those references and the
+'377 patent differ; (2) the proposed combination requires redesigning
+Ricochet's system, thus greatly impacting Ricochet's principle of operation;
+and (3) the cited references are non-analogous art. App. Br. 16-44; Reply
+Br. 5-33.
+
+ISSUES
+(1) Under§ 103, has the Examiner erred in rejecting claim 1 by
+finding that Ricochet, Young, Kahn, and Pursley 2 collectively would have
+taught or suggested a distributed network spread-spectrum system where
+each fixed node includes plural spread-spectrum transceivers?
+(2) Is the Examiner's proposed combination of these references
+supported by articulated reasoning with some rational underpinning to
+justify the Examiner's obviousness conclusion? This issue turns on whether
+the proposed combination would destroy Ricochet' s principle of operation,
+and whether the cited references constitute analogous art.
+
+ANALYSIS
+We begin by noting that this dispute involving the Examiner's
+obviousness rejection turns solely on the two issues presented in our issue
+statement. As indicated previously, in addition to Appellant's combinability
+arguments, only one limitation was contested in the Appeal Brief, namely
+that each fixed node includes plural spread-spectrum transceivers. See App.
+Br. 16. Accord Ans. 3--4 (responding to this argument). Accordingly,
+
+9
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+Appellant's arguments presented for the first time in the Reply Brief that the
+cited references allegedly fail to show a different limitation, namely a remote
+station that can select and access a first fixed node based on traffic
+information (Reply Br. 11, 32), are deemed to be waived as untimely and
+are, therefore, not before us. See 37 C.F.R. § 41.41(b)(2).
+Turning to the rejection, the Examiner acknowledges that Ricochet's
+distributed network spread-spectrum system includes a single transceiver at
+each fixed node, but lacks plural transceivers at each fixed node. Final Act.
+9; Ans. 3. To cure this deficiency, the Examiner cites Young's teaching of
+using radios with multiple transmitters and receivers, including transceivers.
+Final Act. 9 (citing Young, col. 2, 11. 22-25); Ans. 3--4. In light of this
+teaching, the Examiner concludes that providing plural transceivers in lieu of
+a single transceiver at a fixed node in Ricochet would have been obvious to,
+among other things, increase the number of communications channels-a
+fact further evidenced by the Matsumoto reference. Ans. 4--5. 5
+We see no error in this position. Ricochet's spread-spectrum, packetswitching system uses a mesh architecture where radio transceivers, called
+"Microcell Radios," are typically mounted on street lights or utility poles,
+and placed every quarter to half mile in a checkerboard pattern. Ricochet,
+E4, E25. 6 Notably, each radio employs 162 channels---each of which is 160
+kHz wide---over which transmissions are "spread." Id.
+
+5
+
+Although this reference was not cited in the rejection, it is nonetheless
+cited as evidence of knowledge within the level of ordinary skill in art at the
+time of the invention. Ans. 4.
+6
+Although the Ricochet reference consists of various exhibits labeled
+"B5.1" to "B5.9," the reference is paginated consecutively from pages "El"
+10
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+Given this limited number of channels for a particular transceiver, we
+see no reason why additional transceivers could not be provided in Ricochet
+as the Examiner proposes to, among other things, expand the number of
+channels, particularly given Young's teaching in column 2, lines 25 and 26
+that radios containing multiple transmitters and receivers were known in the
+art. Even assuming, without deciding, that Young does not mention these
+multi-transceiver radios again either in the cited reference or in later patents
+as Appellant contends (Reply Br. 16, 21 ), such silence does not obviate the
+fact that the reference nevertheless teaches that multi-transceiver radios are
+known in the art, even if this teaching appears only once in the reference.
+And even assuming, without deciding, that Young does not enable any
+disclosed embodiment using multiple transmitters as Appellant contends (id.
+at 17-19), that alone is not dispositive, for it is well settled that published
+subject matter is prior art for all that it teaches in obviousness
+determinations---even if the reference itself is not enabling. See In re Antor
+
+Media Corp., 689 F.3d 1282, 1292 (Fed. Cir. 2012) (citing Symbol Techs.
+Inc. v. Opticon Inc., 935 F.2d 1569, 1578 (Fed. Cir. 1991)). In any event, a
+reference's teachings are not considered in a vacuum, but rather considered
+together with the knowledge of ordinarily skilled artisans. See In re
+
+Paulsen, 30 F.3d 1475, 1480-81 (Fed. Cir. 1994). Cited references, then, do
+not have to explain every detail to render a claimed invention obvious since
+the reference is speaking to those skilled in the art. Id. at 1480.
+
+to "E27." For clarity, we refer to Ricochet's pages consistent with this
+numbering scheme.
+11
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+Here, we see no error in the Examiner's reliance on Young for the
+limited purpose for which it was cited, namely that radios containing
+multiple transceivers were known in the art, and that providing multiple
+transceivers in lieu of a single transceiver in each of Ricochet's fixed nodes
+would have been obvious to, among other things, increase the number of
+channels-a predictable result. Ans. 4--5. Appellant's arguments regarding
+Young's individual shortcomings in this regard (see Reply Br. 15-21) do not
+show nonobviousness where, as here, the rejection is based on the cited
+references' collective teachings. See In re Merck & Co., Inc., 800 F.2d
+1091, 1097 (Fed. Cir. 1986). That Young may not pertain to spreadspectrum systems as Appellant contends (Reply Br. 33) is of no consequence
+here given the limited purpose for which Young was cited, namely to show
+that radios containing multiple transceivers were known in the art, and that
+providing known multi-transceiver radios in lieu of single-transceiver radios
+in Ricochet's spread-spectrum system would have been obvious. Ans. 4--5.
+Nor are we persuaded that the proposed combination would destroy
+Ricochet's principle of operation as Appellant contends (App. Br. 16-17), or
+otherwise render Ricochet unsuitable for its intended purpose. See In re
+Gordon, 733 F.2d 900, 902 (Fed. Cir. 1984). Appellant contrasts Ricochet's
+
+concatenating the path from the source to the destination via a central
+"Name Server" with Young's establishing a single direct path at each node
+to prevent interference. App. Br. 16-17. Appellant also asserts that
+Ricochet' s terminals access multiple fixed nodes, but Young's terminals are
+co-located and mobile. Id. at 17. Based on these differences, Appellants
+
+12
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+reason that the proposed combination would eliminate Ricochet's core
+function where terminals and nodes are separate entities. Id.
+But as the Examiner indicates, the Examiner does not propose to
+physically combine Ricochet's nodes with those of Young, but rather merely
+relies on Young for a limited purpose, namely to show that radios containing
+multiple transceivers were known in the art, and that providing known multitransceiver radios in Ricochet' s spread-spectrum system would have been
+obvious. Ans. 4--5. It is well settled that "a determination of obviousness
+based on teachings from multiple references does not require an actual,
+physical substitution of elements." In re Mouttet, 686 F.3d 1322, 1332 (Fed.
+Cir. 2012) (citations omitted). Nor is the test for obviousness whether a
+secondary reference's features can be bodily incorporated into the structure
+of the primary reference. In re Keller, 642 F.2d 413, 425 (CCPA 1981).
+Rather, the test is what the combined teachings of the references would have
+suggested to those of ordinary skill in the art. Id. And here, the Examiner's
+proposed combination predictably uses prior art elements according to their
+established functions to yield a predictable result. See KSR Int 'l Co. v.
+
+Teleflex, Inc., 550 U.S. 398, 417 (2007).
+Lastly, we see no error in the Examiner's findings that the cited
+references constitute analogous art. Prior art is analogous if it is ( 1) from the
+same field of endeavor as that of Appellant's invention regardless of the
+problem addressed, or (2) reasonably pertinent to the particular problem with
+which the inventor is involved. In re Bigio, 381F.3d1320, 1325 (Fed. Cir.
+2004 ). Here, the Examiner finds that the cited references are in the same
+field of endeavor because each cited reference relates to (1) wireless
+
+13
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+communication in a distributed network of nodes, and (2) transmission of
+packets over the network. Ans. 5-7. The Examiner also finds that the cited
+references are reasonably pertinent to Appellant's problems pertaining to (1)
+reducing power levels; (2) increasing network capacity; and (3) creating a
+flexible and dynamically adaptable network. Id. at 7-10. Despite
+Appellant's arguments to the contrary (App. Br. 17--44; Reply Br. 7-11),
+Appellant does not persuasively rebut the Examiner's findings in this regard
+(Ans. 5-10) which we adopt as our own.
+Therefore, we are not persuaded that the Examiner erred in rejecting
+claim 1, and claims 2-15, 22-29, and 32-37 not argued separately with
+particularity.
+
+CONCLUSION
+The Examiner did not err in rejecting claims 1-15, 22-29, and 32-37
+under§ 103.
+
+DECISION
+The Examiner's decision rejecting claims 1-15, 22-29, and 32-37 is
+affirmed.
+Requests for extensions of time in this ex parte reexamination
+proceeding are governed by 37 C.F.R. § 1.550(c). See 37 C.F.R. § 41.50(±).
+
+14
+
+Appeal2016-007605
+Reexamination Control 90/013 ,418
+Patent US 6,493,377 B2
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+
+AFFIRMED
+
+cc: Third Party Requester
+SHEPP ARD MULLIN RICHTER & HAMPTON LLP
+379 Lytton Avenue
+Palo Alto, CA 94301
+
+15
+
+

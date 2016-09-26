@@ -1,0 +1,350 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/632,943
+
+12/08/2009
+
+Barrett Morris Kreiner
+
+6657-59601
+
+4800
+
+35690
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+MEYERTONS, HOOD, KIVLIN, KOWERT & GOETZEL, P,C
+P.O. BOX 398
+AUSTIN, TX 78767-0398
+
+WONG, ALLEN C
+
+ART UNIT
+
+PAPER NUMBER
+
+2488
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patent_docketing@intprop.com
+ptomhkkg@gmail.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BARRETT MORRIS KREINER and
+JOSEPH E. PAGE JR.
+
+Appeal2015-003104
+Application 12/632,943
+Technology Center 2400
+
+Before DEBRA K. STEPHENS, HUNG H. BUI, andl
+AARON W. MOORE, Administrative Patent Judges.
+
+STEPHENS, Administrative Patent Judge.
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a Non-Final
+Rejection of claims 2-21. We have jurisdiction under 35 U.S.C. § 6(b).
+Claim 1 has been cancelled.
+
+We AFFIRM.
+
+Appeal2015-003104
+Application 12/632,943
+STATEMENT OF THE INVENTION
+According to Appellants, the claims are directed to a video recorder
+for producing surveillance data (Abstract; Spec. i-f 6). Claim 2, reproduced
+below, is representative of the claimed subject matter:
+2. A video recorder, comprising:
+a processor;
+a buffer in communication with the processor; and
+a memory device in communication with the processor;
+wherein the processor is configured to:
+store video data in the buffer; and
+in response to an occurrence of a first event and a
+nonoccurrence of a second event, transfer at least a portion
+of the video data from the buffer to the memory device.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Murphy
+Basir
+Langfahl
+Kreiner
+
+US
+US
+US
+US
+
+6,225,890 B 1
+2003/0154009 Al
+6,741,165 Bl
+7,667,731 B2
+
+2
+
+May 1, 2001
+Aug. 14, 2003
+May 25, 2004
+Feb.23,2010
+
+Appeal2015-003104
+Application 12/632,943
+REJECTIONS 1
+Claims 2, 3, and 5-21 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Langfahl and Basir (Non-Final Act. 7-17).
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Langfahl, Basir, and Murphy (Non-Final Act. 17-18).
+
+ISSUES
+We disagree with Appellants' conclusions and adopt as our own:
+( 1) the findings and reasons set forth by the Examiner in the action from
+which this appeal is taken; and (2) the reasons set forth by the Examiner in
+the Answer in response to the Appeal Brief. With respect to the claims
+argued by Appellants, we highlight and address specific findings and
+arguments for emphasis as follows.
+
+35 U.S.C. § 103(a): Claims 2, 3, and 5-21
+
+Appellants assert their claimed invention, as recited in claim 2, is not
+obvious over Langfahl and Basir (App. Br. 8-13). The issues presented by
+the arguments are:
+Issue 1 a: Has the Examiner erred in finding the combination of
+
+Langfahl and Basir teaches or suggests "in response to an occurrence of a
+first event and a nonoccurrence of a second event, transfer at least a portion
+of the video data from the buffer to the memory device," as recited in
+independent claim 1 and similarly recited in independent claims 9 and 16?
+1
+
+The rejection of claims 2, 7, 9, 14, 16, and 21 on the ground of nonstatutory obviousness-type double patenting, as being unpatentable over
+claims 1 and 12 of Kreiner, has been withdrawn by the Examiner (Ans. 910).
+3
+
+Appeal2015-003104
+Application 12/632,943
+
+Issue 1b: Has the Examiner erred in finding the combination of
+Langfahl and Basir teaches or suggests "wherein the second event is an
+authorization event," as recited in dependent claim 11?
+
+ANALYSIS
+Appellants argue Langfahl does not teach "nonoccurrence of a second
+event," rather, Langfahl only teaches capturing video data in response to
+occurrence of a first event (App. Br. 10). More specifically, Appellants
+contend Langfahl teaches some action to be taken when an event occurs, but
+does not describe the action is taken in response to a nonoccurrence of a
+second event (id. at 10-11). According to Appellants, even in Langfahl's
+"failsafe mode," Langfahl teaches the camera captures images at various
+intervals and indeed, Langfahl always capture images without determination
+of an "occurrence of a first event and a nonoccurrence of a second event"
+(id. at 11 ). Appellants assert the security response and the emergency
+
+response are not the claimed two events because both involve capturing and
+sending the video data (id.).
+Appellants argue the Examiner is reading the limitation "and a
+nonoccurrence of a second event" out of the claim (Reply Br. 4). Appellants
+additionally argue although where the camera is pointed may change
+between security responses and emergency response, video data is stored
+regardless (id.). Specifically, Appellants assert, as shown in Langfahl's
+Figures 5 and 6, regardless of whether a security or emergency response is
+triggered, Langfahl's system receives and transmits images regardless of
+which response is triggered (id.).
+
+4
+
+Appeal2015-003104
+Application 12/632,943
+We are not persuaded by Appellants' arguments. Initially, we note
+the term "event" is not defined explicitly in Appellants' Specification.
+Claim 2 recites transferring at least a portion of the video data upon
+occurrence of a first event and a nonoccurrence of a second event -
+
+not that
+
+video data is only recorded or transferred upon occurrence of a first event
+and a nonoccurrence of a second event. Indeed, claim 2 does not preclude
+recording or transferring video even if both events occur.
+Thus, in light of the broad, but reasonable, interpretation of "event,"
+we are not persuaded Langfahl fails to teach the disputed limitation. Rather,
+we find, as set forth by the Examiner, Langfahl discloses two events: a
+security event and an emergency event (Ans. 10; Langfahl 3:30-47, 5:606:4). Langfahl further teaches a motion sensor, door sensors, a hood sensor,
+and a trunk sensor are used in triggering an alarm to indicate a security
+event, turning the imaging device toward the security event, and recording
+the event (Langfahl 3:30-52). Langfahl additionally teaches a frontal
+sensor, a rear sensor, and an airbag sensor are used to indicate an emergency
+event, turning the imaging device toward the emergency event, and
+recording the event (id. at 3:53--4:12). The security event sensors are
+connected to an alarm which is connected to a control unit, and the
+emergency sensors are connected to the control unit (id. at 3:30-33, 3:5361, Fig. 3). The control unit distinguishes the type of response by
+determining which sensor has been triggered (id. at 4:21-24).
+We further agree with the Examiner that Langfahl teaches "in
+response to an occurrence of a first event and a nonoccurrence of a second
+event transfer at least a portion of the video data" because Langfahl
+discloses when the alarm is triggered by one of the sensors, the triggered
+
+5
+
+Appeal2015-003104
+Application 12/632,943
+alarm is detected by the control unit which determines if a false trigger has
+occurred (Ans. 13; Langfahl 5:60-61). Thus, we determine Langfahl
+teaches, or at least suggests, if the control unit determines a false trigger has
+not occurred, then a second event has not occurred and the first event
+(security event) has occurred.
+Accordingly, we are not persuaded by Appellants' arguments and
+determine the combination of Langfahl and Basir teaches "in response to an
+occurrence of a first event and a nonoccurrence of a second event,
+transferring at least a portion of the video data," as recited in claim 2.
+We further note the claim language is broad enough to cover, for
+example, occurrence of a security event (first event) and nonoccurrence of
+the camera system or computer system failing (second event).
+Similarly, claim 9 recites "determining that the first event has
+occurred" and "determining that a second event has not occurred." For the
+reasons set forth with respect to claim 2, we also find the combination of
+Langfahl and Basir teaches the disputed limitation. Specifically, Langfahl
+teaches a first event occurring and determining whether a false trigger has
+occurred (Ans. 13; Langfahl 5:60-61). Thus, if a false trigger is determined
+to not have occurred, at least a portion of the video data is transferred.
+Lastly, claim 16 recites "determining that the first event has occurred
+and that a second event associated with the first event has not occurred."
+For the reasons set forth with respect to claims 2 and 9, we are not persuaded
+of error in the Examiner's findings or reasoning.
+With respect to claim 11, Appellants argue Langfahl does not disclose
+"wherein the second event is an authorization event" (App. Br. 15).
+According to Appellants, Langfahl' s emergency event is triggered by a
+
+6
+
+Appeal2015-003104
+Application 12/632,943
+bumper or airbag sensor; however, Appellants argue the "emergency event"
+is not an "authorization event" (id.).
+Appellants have not persuaded us of error in the Examiner's findings
+and reasoning (Ans. 18; Final Act. 12). Initially, as a matter of claim
+construction, we determine the term "authorization event" is not defined
+explicitly in Appellants' Specification. The Examiner finds Langfahl' s
+security breach teaches a first event and an emergency event (an authorized
+event) teaches a second event (Ans. 18). Taking a broad, but reasonable
+interpretation of the term "authorization event," we agree with the Examiner
+that an emergency event is an authorization event. Therefore, it follows, we
+are not persuaded the Examiner erred in finding the combination of Langfahl
+and Basir teaches the disputed limitation.
+Accordingly, we are not persuaded the Examiner erred in finding the
+combination of Langfahl and Basir teaches or suggests the limitations as
+recited in independent claims 2, 9, and 16, dependent claim 11, and
+dependent claims 3, 5-8, 10, 12-15, and 17-21, not separately argued.
+Therefore, we sustain the rejection of claims 2, 3, and 5-21 under
+35 U.S.C. § 103(a) for obviousness over Langfahl and Basir.
+
+35 U.S.C. § 103(a): Claim 4
+
+Appellants assert the claimed invention as recited in claim 4, is not
+obvious over Langfahl, Basir, and Murphy (App. Br. 17-18). The issue
+presented by the arguments is:
+Issue 2: Has the Examiner erred in concluding the combination of
+
+Langfahl, Basir, and Murphy teaches or suggests "wherein the second event
+
+7
+
+Appeal2015-003104
+Application 12/632,943
+is a presence of a token indicating that the attempted vehicle entry is
+authorized," as recited in claim 4?
+
+ANALYSIS
+With respect to claim 4, Appellants contend the combination of
+Langfahl, Basir, and Murphy fails to teach "wherein the second event is a
+presence of a token indicating that the attempted vehicle entry is authorized"
+(App. Br. 13-15). Appellants admit Murphy teaches "the use of 'a token,
+presented by a would-be vehicle driver, containing personal information'
+which can be used to identify the driver and determine whether or not he/she
+is authorized" (App. Br. 14 (citing Murphy 14:46-65)). However, according
+to Appellants, the Examiner has not shown the relevance of Murphy's token
+to a nonoccurrence of a second event, wherein the second event is a presence
+of a token, as recited in claim 4 (App. Br. 14; Reply Br. 6). Additionally,
+Appellants assert the Examiner has not shown why it would have been
+obvious to combine the teachings of Murphy with those of Langfahl (App.
+Br. 14; Reply Br. 6).
+We are not persuaded by Appellants' arguments. The Examiner has
+articulated reasoning with some rational underpinning - "[by] permitting the
+determination of whether the person attempting to gain access to the vehicle
+is authorized or permitted to access and drive the vehicle so as to prevent
+unauthorized personnel from accessing the vehicle" (Ans. 16; Non-Final
+Act. 17-18). Appellants have not persuaded us this reasoning is in error.
+In the Reply Brief, Appellants, for the first time, present an argument
+that the Examiner used improper hindsight (Reply Br. 6); however,
+Appellants have not explained why, nor is it apparent that, these arguments
+
+8
+
+Appeal2015-003104
+Application 12/632,943
+were necessitated by a new point in the Examiner's Answer or any other
+circumstance constituting "good cause" for its belated presentation.
+Therefore, Appellants have not shown that we should consider the new
+argument.
+Accordingly, we are not persuaded the Examiner erred in finding the
+combination of Langfahl, Basir, and Murphy teaches or suggests the
+limitations as recited in claim 4. Therefore, we sustain the rejection of claim
+4 under 35 U.S.C. § 103(a) for obviousness over Langfahl, Basir, and
+Murphy.
+
+DECISION
+The Examiner's rejection of claims 2, 3, and 5-21 under 35 U.S.C.
+§ 103(a) as being unpatentable over Langfahl and Basir is affirmed.
+The Examiner's rejection of claim 4 under 35 U.S.C. § 103(a) as
+being unpatentable over Langfahl, Basir, and Murphy is affirmed.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

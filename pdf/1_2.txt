@@ -1,0 +1,365 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/526,438
+
+06/18/2012
+
+Michael Muller
+
+CAM920100007US2
+(257DIV)
+
+2228
+
+46321
+
+7590
+
+09/23/2016
+
+CRGOLAW
+STEVEN M. GREENBERG
+7900 Glades Road
+SUITE 520
+BOCA RATON, FL 33434
+
+EXAMINER
+SALL, EL HADJI MALICK
+
+ART UNIT
+
+PAPER NUMBER
+
+2457
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@crgolaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MICHAEL MULLER and AMY D. TRAVIS
+
+Appeal2014-009641
+Application 13/526,438
+Technology Center 2400
+
+Before CAROLYN D. THOMAS, DEBRA K. STEPHENS, and
+JEREMY J. CURCURI, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-7. Final Act. 1. We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+Claims 1-7 are provisionally rejected on the ground of nonstatutory
+obviousness-type double patenting over Application No. 12/828,263. Ans.
+4.
+
+Claim 3 is rejected under 35 U.S.C. § 112, first paragraph, as failing
+to comply with the written description requirement. Ans. 4--5.
+Claims 1-7 are rejected under 35 U.S.C. § 103(a) as obvious over
+Kenoyer et al. (US 2006/0256738 Al, published Nov. 16, 2006) and Colby
+et al. (US 6,625,643 Bl, published Sept. 23, 2003). Ans. 5-8.
+
+Appeal2014-009641
+Application 13/526,438
+We affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to "scheduling e-meetings in a
+collaborative computing environment." Spec. i-f 1. Claim 1 is illustrative and
+reproduced below:
+1.
+A method for e-meeting requirements assurance in
+e-meeting management, the method comprising:
+selecting a scheduled e-meeting for an invitee in memory
+of a computer;
+retrieving resource requirements published in a document
+for the selected scheduled e-meeting, the document indicating
+required resource requirements for the selected scheduled emeeting, the required resource requirements including at least
+one of a particular Web browser, a particular revision of the
+particular Web browser, and a pre-installed computer program;
+inspecting local computing resources of the invitee;
+comparing the local computing resources to the retrieved
+resource requirements to identify local resource deficiencies;
+and,
+generating a notice of the local resource deficiencies to the
+invitee prior to a scheduled date and time for thee-meeting.
+ANALYSIS
+THE WRITTEN DESCRIPTION REJECTION OF CLAIM
+
+3
+
+The Examiner finds claim 3 fails to comply with the written
+description requirement. Ans. 4--5. The Examiner finds "Applicant
+discloses 'extracting a reference .... ' which is not described in the
+disclosure." Ans. 5.
+Claim 3 (emphasis added) is reproduced below:
+
+2
+
+Appeal2014-009641
+Application 13/526,438
+3.
+The method of claim 1, wherein retrieving resource
+requirements published for the selected scheduled e-meeting,
+comprises:
+
+extracting a reference to a remote resource requirements
+document from the scheduled e-meeting; and,
+retrieving resource requirements from the referenced
+remote resource requirements document.
+Appellants present the following principal arguments:
+"[C]laim 3 of Appellants' originally filed specification recites
+
+1.
+
+the language 'extracting a reference to a remote resource requirements
+document from the scheduled e-meeting. "' App. Br. 4; see also Reply Br.
+2-3.
+Appellants' originally filed Specification (i-f 16) describes the
+
+11.
+
+recited (claim 3) extracting a reference. App. Br. 4--5; see also Reply Br. 3.
+In response, the Examiner explains "'extracting a reference ... ' is
+definitely not the same as 'determining the resource requirements of a e•
+
+1...
+
+•
+
+-C
+
+•
+
+•
+
+•
+
+•
+
+1....
+
+1...
+
+•
+
+meetmg uy usmg a re1erence m an e-meetmg mvite WuiCu pomts to a
+remotely disposed requirements document, which lists the required resources
+of thee-meeting'. Furthermore, such limitation was nowhere to be found in
+the cited paragraph 16." Ans. 9.
+Appellants have persuaded us that the Examiner erred in rejecting
+claim 3 for failing to meet the written description requirement.
+"[T]he test for sufficiency [of the written description] is whether the
+disclosure of the application relied upon reasonably conveys to those skilled
+in the art that the inventor had possession of the claimed subject matter as of
+the filing date." Ariad Pharm., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351
+(Fed. Cir. 2010) (en bane).
+Currently pending claim 3 is the same as original claim 3.
+3
+
+Appeal2014-009641
+Application 13/526,438
+Appellants' original Specification 1 (if 16) discloses:
+The invite 130 can include a requirements reference 150 to
+requirements document 160 of required resources for the invitee.
+The e-meeting 140 can be scheduled in calendar 120 of the
+computer 110. Thereafter, before the scheduled date and time of
+the e-meeting 140, the resources of the computer 110 can be
+inspected by resource inspector 170 and compared to those of the
+requirements document 160.
+First, original claim 3 provides a satisfactory description to support
+currently pending claim 3 because currently pending claim 3 is the same as
+original claim 3, and we determine a skilled artisan would have recognized
+that Appellants had possession of the claimed subject matter based on the
+content of original claim 3.
+Second, the original Specification (if 16) provides a satisfactory
+description to support currently pending claim 3 because a skilled artisan
+would have understood that the original Specification (if 16) disclosures "The invite 130 can include a requirements reference 150 to requirements
+document 160" and "the resources of the computer 110 can be inspected by
+resource inspector 170 and compared to those of the requirements document
+160" -
+
+describe extraction of the reference 150 from the invite 130 to
+
+permit access to the requirements document 160.
+Thus, we find the above disclosures in the Specification adequate to
+convey reasonably to those skilled in the art that Appellants had possession
+of the recited "extracting a reference to a remote resource requirements
+document from the scheduled e-meeting" as of the filing date.
+
+1
+
+In our analysis, to decide whether or not the inventors had possession of
+the claimed subject matter as of the filing date, we refer to the original
+Specification at paragraph 16.
+4
+
+Appeal2014-009641
+Application 13/526,438
+In addition, in response to the Final Action, on December 3, 2013,
+Appellants filed amendments to Specification i-fi-f 16, 22. The Advisory
+Action mailed December 19, 2013 indicates that these amendments will be
+entered. However, in the Response to Arguments section of the Examiner's
+Answer, the Examiner states that the amended paragraphs 16 and 22 were
+not entered. See Ans. 9. Although we did not rely on the amendments in
+determining sufficient written description was present, should prosecution of
+this application continue, the Examiner should clarify the status of these
+amendments to the Specification i-fi-f 16, 22. Because we find Appellants had
+possession of the recited "extracting a reference to a remote resource
+requirements document from the scheduled e-meeting" as of the filing date,
+for the same reasons, we find that Appellants proffered amendments to the
+Specification paragraphs 16 and 22 do not introduce new matter.
+We, therefore, do not sustain the Examiner's rejection of claim 3.
+
+THE OBVIOUSNESS REJECTION OF CLAIMS
+
+1-7 OVER KENOYER AND COLBY
+
+The Examiner finds Kenoyer and Colby teach all limitations of claim
+1. Ans. 5---6. The Examiner relies on Colby's microphone and camera check
+
+for teaching the recited (claim 1) "retrieving resource requirements
+published" and the recited (claim 1) "inspecting local computing resources
+of the invitee." Ans. 6 (citing Colby col. 32, 1. 38 - col. 33, 1. 35); see also
+Ans. 10 (Colby's microphone and camera check are resource requirements).
+The Examiner relies on Colby and Kenoyer for teaching the recited (claim 1)
+"the required resource requirements including at least one of a particular
+Web browser, a particular revision of the particular Web browser, and a preinstalled computer program." Ans. 11 ("In paragraph 35, Kenoyer discloses
+
+5
+
+Appeal2014-009641
+Application 13/526,438
+the video conferencing system components including a display, which
+Examiner construes as 'the web browser' satisfying one of the
+requirement[ s] of 'at least one [of] a ... ' Furthermore, Colby discloses an IE4
+browser (i.e. particular browser) ([col. 30, 11. 32-36; col. 31, 11. 19-24]).").
+Appellants present the following principal arguments:
+1.
+
+"Colby discloses retrieving resource requirements from a
+
+database and performing checks via an ActiveX control on a microphone
+and a camera. But Colby fails to teach or suggest that the retrieved resource
+requirements are published in a document for a selected scheduled emeeting." App. Br. 8-9; see also Reply Br. 6 ("Colby suggests that the
+resource requirements are used to configure the network for a broadcast, so
+to establish an ASP stream path. As such, 'Check Microphone' and 'Check
+Camera' are not resource requirements.").
+11.
+
+"There is nothing in Kenoyer that indicates that the required
+
+resource requires a particular Web browser, a particular version of the Web
+browser, or a preinstalled computer program." App. Br. 10; see also Reply
+Br. 6-7 (Kenoyer's display is not a Web browser).
+Appellants persuade us that the Examiner erred in finding Colby
+teaches retrieving published resource requirements.
+First, we agree with Appellants (see App. Br. 8-9, Reply Br. 5---6) that
+Colby's "Check Microphone" and "Check Camera" are not resource
+requirements published in a document. Colby discloses:
+The resource requirements will be retrieved from the InterVU
+database and passed to the InterVU network topology manager
+using ASP technology when the "Start" button on the ActiveX
+control is selected. The topology manager will configure the
+network for the broadcast and return the connection information
+to the ActiveX control. This will establish the ASP stream path
+6
+
+Appeal2014-009641
+Application 13/526,438
+through the firewall tunnel, from the encoder to the NetShow
+servers.
+Colby col. 32, 11. 55---63.
+Thus, Colby's "resource requirements" relate to the network
+configuration and are not directed to resource requirements for an invitee.
+Colby further discloses the publisher performing microphone and camera
+checks. See Colby col. 33, 11. 1---6. However, these checks are unrelated to
+Colby's resource requirements. Further, even to the extent these checks
+could be considered as related to resource requirements, these checks are
+performed using ActiveX controls, and the Examiner has not shown how
+ActiveX controls relate to the inspecting and comparing of local computing
+resources, as recited in claim 1.
+In addition, Appellants also persuade us that the Examiner erred in
+finding Kenoyer and Colby teach the recited (claim 1) "the required resource
+requirements including at least one of a particular Web browser, a particular
+revision of the particular Web browser, and a pre-installed computer
+program."
+We adopt the plain meaning of "Web browser" in the computer
+context. The plain meaning of "Web browser" in the computer context is
+"Software that lets a user view HTML documents and access files and
+software related to those documents." MICROSOFT COMPUTER
+DICTIONARY 562 (5th ed. 2002). In light of this plain meaning, we find
+the Examiner erred in finding Kenoyer' s display teaches the recited Web
+browser or revision thereof.
+Second, although Colby discloses (Colby col. 30, 11. 32-36; col. 31, 11.
+19-24) initiating an IE4 browser, which is a particular Web browser, the
+Examiner does not explain how or why, nor do we readily see how or why,
+7
+
+Appeal2014-009641
+Application 13/526,438
+Colby's IE4 browser is related to Colby's "resource requirements" which
+relate to the network configuration. See Colby col. 32, 11. 55---63. Thus,
+neither Kenoyer nor Colby teaches the recited (claim 1) "the required
+resource requirements including at least one of a particular Web browser, a
+particular revision of the particular Web browser, and a pre-installed
+computer program."
+We, therefore, do not sustain the Examiner's rejection of claim 1, or
+of claims 2-7, which depend from claim 1.
+
+THE PROVISIONAL REJECTION OF CLAIMS 1-7
+OVER APPLICATION No. 12/828, 263
+The Examiner provisionally rejected claims 1-7 on the ground of
+nonstatutory obviousness-type double patenting over Application No.
+12/828,263. Ans. 4.
+Appellants do not present any arguments with respect to this
+provisional rejection. See App. Br. 3, FN 1.
+We, therefore, pro form a sustain the Examiner's provisional rejection
+of claims 1-7.
+
+ORDER
+The Examiner's decision rejecting claims 1-7 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l ).
+AFFIRMED
+
+8
+
+

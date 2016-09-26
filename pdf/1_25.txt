@@ -1,0 +1,252 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/131,395
+
+06/02/2008
+
+Arnn Keshava Murthy
+
+82241282
+
+5744
+
+56436
+
+7590
+
+09/23/2016
+
+Hewlett Packard Enterprise
+3404 E. Harmony Road
+Mail Stop 79
+Fort Collins, CO 80528
+
+EXAMINER
+JORDAN, KIMBERLY L
+
+ART UNIT
+
+PAPER NUMBER
+
+2194
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+hpe.ip.mail@hpe.com
+mkraft@hpe.com
+chris.mania@hpe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ARUN KESHAVA MURTHY,
+CRETAN ASWATHANARAYANA, and
+NEDUCHERALATHANSHANMUGAM
+
+Appeal2015-002464
+Application 12/131,395
+Technology Center 2100
+
+Before DANIEL N. FISHMAN, JOSEPH P. LENTIVECH, and
+AARON W. MOORE, Administrative Patent Judges.
+LENTIVECH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final rejection of claims 1-5, 7-12, and 14--19. Claims 6, 13,
+and 20 have been canceled. App. Br. 3. We have jurisdiction over the
+pending claims under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is Hewlett-Packard
+Development Company, LP. App. Br. 3.
+
+Appeal2015-002464
+Application 12/131,395
+STATEMENT OF THE CASE
+
+Appellants' Invention
+Appellants' invention generally relates to multiplexing reserved ports.
+Spec. ,-r 1. In response to receiving a request to communicate with a host, it
+is determined whether a mapping exists between the host and a first remote
+procedure call (RPC) client handle. Id. ,-r 4. If a mapping does not exist
+between the host and the RPC client handle, a second RPC client handle is
+determined to establish a mapping. Id. The mapping facilitates RPC
+(remote procedure call) communication with the host. Id. Claim 1, which is
+illustrative, reads as follows:
+1.
+
+A method, comprising:
+
+configuring a remote procedure control (RPC) application
+to utilize a shared pool of RPC handles wherein a handle is a
+structure stored in cache that includes transport address
+information of a remote host, each handle bound independently
+to a limited number of reserved ports dedicated to the RPC
+application, to enable a connection to a number of hosts greater
+than the limited number of reserved ports, without a 1 to 1
+
+mapping of limited number of reserved ports, associated with the
+pool of RPC handles to the number of hosts;
+receiving a request to communicate with a host;
+determining whether a mapping exists between the host
+and a first remote procedure call (RPC) 2 client handle; and
+in response to determining that the mapping does not exist
+between the host and the first RPC client handle, determining a
+second RPC client handle, from the pool of RPC handles, to
+establish the mapping by filling the transport address of the host,
+
+2
+
+In claim 1, Appellants use the acronym "RPC" to refer to "remote
+procedure control" and "remote procedure call." In this Decision, we use
+the acronym "RPC" to refer to "remote procedure call."
+2
+
+Appeal2015-002464
+Application 12/131,395
+the established mapping facilitating RPC communication with
+the host,
+wherein determining the second RPC client handle
+includes utilizing a least recently used (LRU) queue where each
+element within the LRU queue is bound to one of the limited
+number of reserve ports, wherein the LRU queue is shared
+among other cache elements.
+Rejections
+
+Claims 1-5, 7-12, and 14--19 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over the combination of Aiken et al. (US 7, 120, 697
+B2; issued Oct. 10, 2006) ("Aiken"), Bull, AIX Communications
+Programming Concepts, chapter 8 (2002) ("Bull"), and Boucher et al. (US
+
+2004/0030745Al; published Feb. 12, 2004) ("Boucher"). Final Act. 2-7.
+
+Issue on Appeal
+
+Did the Examiner err in finding that the combination of Aiken, Bull,
+and Boucher teaches or suggests "wherein determining the second RPC
+client handle includes utilizing a least recently used (LRU) queue where
+each element within the LRU queue is bound to one of the limited number of
+reserve ports, wherein the LRU queue is shared among other cache
+elements," as recited in claim 1?
+
+ANALYSIS
+Appellants do not separately argue claims 1-5, 7-12, 14--19 but,
+instead, rely on the same arguments for all of these claims. See App. Br. 810; Reply Br. 2-3. We select claim 1 as representative, and claims 2-5, 712, 14--19 stand or fall with claim 1. 37 C.F.R. § 41.37(c)(l)(iv).
+
+3
+
+Appeal2015-002464
+Application 12/131,395
+
+Claim 1
+
+Appellants contend the combination of Aiken, Bull, and Boucher does
+not teach or suggest the disputed limitations. App. Br. 8-10; Reply Br. 2-3.
+According to Appellants, the Examiner states Aiken and Bull do not teach or
+suggest "wherein the LRU queue is shared among other cache elements" and
+relies on Boucher for teaching this limitation. Appellants contend "Boucher
+does not address and therefore does not teach or suggest an LRU queue that
+is shared among other cache elements." App. Br. 8-9. Appellants further
+contend:
+Aiken appears to teach, "structure or structures for the
+DVIP A are retrieved from the coupling facility and a lock placed
+on the structure( s) to prevent other communications protocol
+stacks from accessing the structure. This may prevent two stacks
+from simultaneously selecting the same port." (Column 19,
+Lines 55-60). In addition, Bull appears to teach, "A client
+program can minimize port mapper calls by caching the port
+numbers of recently called remote programs." (Page 144,
+Paragraph 4). Furthermore, the Boucher [reference] states, "The
+complete set of CCBs exists in host memory, but a subset of these
+may be "owned" by the card at any given time. This subset is
+the CCB cache. The INIC can own (cache) up to 256 CCBs at
+any given time." (Paragraph 0081 ). Thus, the Aiken, Bull, and
+Boucher references appear to teach that the CCBs can exist in
+host memory and/or cache memory, but do not address that the
+LRU queue is shared among other cache elements.
+Reply Br. 3.
+We do not find Appellants' contentions persuasive. Non-obviousness
+cannot be established by attacking the references individually when the
+rejection is predicated upon a combination of prior art disclosures. See In re
+
+4
+
+Appeal2015-002464
+Application 12/131,395
+Merck & Co. Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986). Here, the
+
+Examiner finds:
+Aiken teaches a port is selected for connection between a
+client and a server (column 4: 28-30) and a port is selected from
+a shared pool of ports (figure 4 and associated description, figure
+12, and column 19: 54-61). Bull discloses a limited number of
+reserved port numbers, and ports are mapped dynamically to
+remote programs since the number of remote programs is large
+compared to the number of ports (page 143, last paragraph- page
+144, first paragraph). Boucher discloses a LRU queue and the
+acquisition of CCB (communication control block that contains
+context associated with a connection (IP addresses and ports))
+buffers controlled by a LRU mechanism (paragraphs 0526, 0584
+and 0081 ). The combination discloses dynamic binding of RPC
+ports, where the range of reserved port numbers is small
+compared to the number of remote programs, utilizing a LRU
+queue.
+Ans. 7-8. Based on these findings, the Examiner concludes the combined
+teachings of Aiken, Bull, and Boucher teach or suggest the disputed
+limitations. Id. Appellants' contentions are directed to the references
+individually and fail to address what the combined teachings of the
+references would have taught or suggested to one of ordinary skill in the art.
+As such, Appellants' contentions are unpersuasive of error.
+Accordingly, we sustain the Examiner's rejection of claim 1 and
+claims 2-5, 7-12, and 14--19, which fall with claim 1.
+
+5
+
+Appeal2015-002464
+Application 12/131,395
+DECISION
+We affirm the Examiner's rejection of claims 1-5, 7-12, and 14--19
+under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

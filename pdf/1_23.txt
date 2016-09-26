@@ -1,0 +1,274 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/255,439
+
+10/21/2008
+
+Silky Chathukutty
+
+H00019410/4874/108099
+
+3340
+
+92556
+
+7590
+
+09/23/2016
+
+HONEYWELL/HUSCH
+Patent Services
+115 Tabor Road
+P.O.Box 377
+MORRIS PLAINS, NJ 07950
+
+EXAMINER
+MA, WING
+
+ART UNIT
+
+PAPER NUMBER
+
+2456
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentservices-us@honeywell.com
+amy.hammer@huschblackwell.com
+pto-chi@huschblackwell.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SILKY CHATHUKUTTY, CHAITHANYA HOLLA,
+and JEETENDRA KUMAR MALLIREDDY
+
+Appeal2015-003507
+Application 12/255,439
+Technology Center 2400
+
+Before DEBRA K. STEPHENS, KEVIN C. TROCK, and
+JESSICA C. KAISER, Administrative Patent Judges.
+KAISER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Introduction
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1--4, 6-16, and 18, all of the pending claims. 2 We have jurisdiction
+under 35 U.S.C. § 6(b). 3
+We affirm.
+1
+
+According to Appellants, the real party in interest is Honeywell
+International, Inc. (App. Br. 2).
+2
+Claims 5 and 17 have been canceled. (App. Br. 14, 17).
+3
+We note that a January 26, 2015 "Communication Re: Appeal" purports to
+dismiss this appeal for failing to pay the appeal forwarding fee. However,
+we note that the appeal forwarding fee was timely paid on December 9,
+2014, and thus, this appeal was properly docketed with the Board on
+February 12, 2015.
+
+Appeal2015-003507
+Application 12/255,439
+
+EXEMPLARY CLAIM
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter with disputed limitations emphasized:
+1.
+A method for video surveillance in a system having a
+plurality of cameras and a plurality of operators viewing video
+from the plurality of cameras, comprising steps of:
+creating a plurality of logical camera groups embodied on
+a touch screen display of a control device, each group comprising
+a list of at least one of the plurality of cameras and where the at
+least one camera of each group is shown as a respective
+pushbutton;
+tracking a subject using a current camera; and
+the control device changing from the current camera to a
+next camera in response to an operator of the plurality of
+operators of the system clicking on one of the respective
+pushbuttons of the plurality of logical groups;
+the control device displaying a list associated with the next
+camera of operators of the plurality of operators available to
+receive handover; and
+the operator handing over the tracked subject to another
+of the plurality of operators via selection of the other operator
+from the list associated with the next camera,
+wherein the control device provides the list of cameras in
+the logical camera group on the touch screen display and the
+next camera is selected by the operator from the list and wherein
+the clicking displays the list of other operators of the plurality of
+operators on the touch screen display for hand over of the
+tracked subject.
+REJECTION
+The Examiner made the following rejection:
+
+2
+
+Appeal2015-003507
+Application 12/255,439
+Claims 1--4, 6-16, and 18 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Chin (US 7,777,783 Bl; issued Aug. 17, 2010),
+Pinter (US 2006/0220796 Al; published Oct. 5, 2006), and Oya (US
+6,208,379 Bl; issued Mar. 27, 2001). (Final Act. 3-8).
+
+ISSUES
+Issue 1: Did the Examiner err in finding the combination of Chin,
+
+Pinter, and Oya teaches or suggests:
+the control device displaying a list associated with the next
+camera of operators of the plurality of operators available to
+receive handover; and the operator handing over the tracked
+subject to another of the plurality of operators via selection of the
+other operator from the list associated with the next camera,
+wherein the control device provides the list of cameras in the
+logical camera group on the touch screen display and the next
+camera is selected by the operator from the list and wherein the
+clicking displays the list of other operators of the plurality of
+operators on the touch screen display for hand over of the tracked
+subject,
+as recited in claim 1 and similarly recited in claims 7 and 13?
+Issue 2: Did the Examiner improperly combine the teachings and
+
+suggestions of Chin, Pinter, and Oya?
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments that the Examiner has erred. We disagree with Appellants'
+conclusions. We adopt as our own the findings and reasons set forth by the
+Examiner in the Final Action (Final Act. 3-8) from which this appeal is
+taken and the findings and reasons set forth in the Examiner's Answer in
+
+3
+
+Appeal2015-003507
+Application 12/255,439
+response to Appellants' Appeal Brief (Ans. 8-14). We highlight and address
+specific findings and arguments for emphasis as follows.
+
+Issue 1
+
+Appellants argue the Examiner erred in finding the combination of
+Chin, Pinter, and Oya teaches or suggests:
+the control device displaying a list associated with the next
+camera of operators of the plurality of operators available to
+receive handover; and the operator handing over the tracked
+subject to another of the plurality of operators via selection of the
+other operator from the list associated with the next camera,
+wherein the control device provides the list of cameras in the
+logical camera group on the touch screen display and the next
+camera is selected by the operator from the list and wherein the
+clicking displays the list of other operators of the plurality of
+operators on the touch screen display for hand over of the tracked
+subject,
+as recited in claim 1 and similarly recited in claims 7 and 13. (App. Br. 8;
+Reply Br. 2-5). Specifically, Appellants contend Chin "is merely directed to
+a method of tracking a target among a number of cameras" (App. Br. 8).
+Appellants further contend Pinter is "merely directed to sending video feeds
+to other operators when a first operator ends his/her shift, needs a break,
+etc." (Reply Br. 4 (citing Pinter i-fi-120-21)) and is "provided for testing and
+enhancing the alertness of operators who monitor video surveillance
+systems" (App. Br. 8 (citing Pinter Abstract); Reply Br. 2). Appellants
+further contend Oya "merely discloses the display of access privileges of
+camera operators." (App. Br. 8).
+We are not persuaded because Appellants' contentions are not
+responsive to the Examiner's rejection over the combination of Chin, Pinter,
+and Oya. Appellants merely describe the alleged operation of the references
+4
+
+Appeal2015-003507
+Application 12/255,439
+and then assert in a conclusory fashion that the references do not teach the
+disputed limitations. (See App. Br. 7; see also Reply Br. 2-5). Indeed, the
+Examiner has set forth with specificity the basis of the rejection over the
+combination of Chin, Pinter, and Oya. Accordingly, Appellants' arguments
+are not sufficient to persuade us that the Examiner erred in finding the
+combination of Chin, Pinter, and Oya teaches or suggests the disputed
+limitations, as recited in claim 1 and similarly recited in claims 7 and 13.
+
+Issue 2
+
+Appellants argue the Examiner improperly combined Chin, Pinter,
+and Oya. (App. Br. 8-11; Reply Br. 6). Specifically, Appellants argue there
+is "no reason to combine the references" because "none of the cited
+references are directed to the problem solved by the claimed invention."
+(App. Br. 11 ).
+We are not persuaded because Appellants have not proffered
+sufficient evidence or argument to persuade us the Examiner's reasoning is
+in error. Appellants' arguments (see App. Br. 9-11; see also Reply Br. 6) do
+not address the Examiner's rationale for combining Chin and Pinterallowing more human operators to provide surveillance to increase
+"alertness, vigilance, and accuracy" and to prevent "financial damage as
+well as physical danger" (Ans. 8; Final Act. 4--5}-or the Examiner's
+rationale for combining Chin, Pinter, and Oya-"improv[ing] user
+operability" and convenience (Ans. 9; Final Act. 5).
+To the extent Appellants argue Chin, Pinter, and Oya are nonanalogous art because "none of the cited references are directed to the
+problem solved by the claimed invention" (App. Br. 11 ), we agree with the
+
+5
+
+Appeal2015-003507
+Application 12/255,439
+Examiner's finding that Appellants' claimed invention, Chin, Pinter, and
+Oya "are all in the same field of endeavor: video surveillance" (Ans. 14
+(citing Chin 1:10-25; Pinteri-f 8; Oya 1:5-9)). Innovention Toys, LLCv.
+MGA Entm 't, Inc., 637 F.3d 1314, 1321 (Fed. Cir. 2011) (stating that the
+
+scope of analogous art includes art "from the same field of endeavor,
+regardless of the problem addressed"). Appellants have not persuasively
+responded to this finding (see Reply Br. 5---6).
+Accordingly, we are not persuaded the Examiner improperly
+combined the teachings of Chin, Pinter, and Oya.
+
+Remaining Claims
+
+Appellants do not argue separate patentability for dependent claims 24, 6, 8-12, 14--16, and 18, which depend directly or indirectly from claims 1,
+7, and 13. (See App. Br. 8-11). For the reasons set forth above, therefore,
+we are not persuaded the Examiner erred in rejecting these claims.
+Accordingly, we sustain the Examiner's rejections of claims 2--4, 6, 8-12,
+14--16, and 18. See 37 C.F.R. § 41.37(c)(l)(iv).
+
+DECISION
+The Examiner's rejection of claims 1--4, 6-16, and 18 under 35 U.S.C.
+§ 103(a) as being unpatentable over Chin, Pinter, and Oya is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

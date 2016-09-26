@@ -1,0 +1,342 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/664,177
+
+05/05/2010
+
+Henrik Johansson
+
+FDEHN38.001APC
+
+1609
+
+22878
+
+7590
+
+09/23/2016
+
+Agilent Technologies, Inc. in care of:
+CPA Global
+P. 0. Box 52050
+Minneapolis, MN 55402
+
+EXAMINER
+POHNERT, STEVEN C
+
+ART UNIT
+
+PAPER NUMBER
+
+1634
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPOPS.LEGAL@agilent.com
+Agilentdocketing@cpaglobal.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HENRIK JOHANSSON and OLOF ERICSSON 1
+
+Appeal2014-002943
+Application 12/664, 177
+Technology Center 1600
+
+Before DEMETRA J. MILLS, ULRIKE W. JENKS, and JOHN G. NEW
+Administrative Patent Judges.
+JENKS, Administrative Patent Judge.
+
+uECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) involving claims directed
+to a method of introducing target nucleic acid molecules into a DNA
+sequence. The Examiner rejects the claims as obvious. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is Agilent Technologies,
+Inc. (App. Br. 3.)
+
+Appeal2014-002943
+Application 12/664, 177
+STATEMENT OF THE CASE
+According to the Specification, the invention is directed to the field of
+multiplex DNA analysis. (Spec. 1.) The invention provides
+means to equip a target nucleic acid molecule population with
+both common sequence elements and individual sequence
+elements unique for single targets and or subpopulations within
+the selected target sequences. The common elements can
+subsequently be utilized for e.g. amplification of all selected
+target sequences while the individual sequence elements can be
+used for e.g. analysis, quantification or sorting of the respective
+target molecules.
+(Id. at 3.)
+
+Claims 1-7 are on appeal, and can be found in the Claims Appendix
+of the Appeal Brief. Claim 1 is representative of the claims on appeal, and
+reads as follows (emphasis added):
+1. A method for introducing common and/or individual
+sequence elements in a target nucleic acid molecule in a sample
+containing sample nucleic acid molecules, comprising the steps:
+
+i) hybridizing a sample comprising single stranded nucleic acid
+molecules with primary, secondary, and tertiary probe nucleic
+acid molecules, wherein the 3 '-end of the tertiary probe
+comprises a part complementary to the primary probe and the
+5'-end of the tertiary probe comprises a part complementary to a
+5'-part of the target nucleic acid molecule; the 3'-end of the
+secondary probe is complementary to a 3'-part of the target
+nucleic acid molecule and the 5'-end of the secondary probe is
+not complementary to the target nucleic acid molecule; wherein
+said primary, secondary and tertiary probes comprise said
+common and/or individual sequence elements;
+ii) ligating the 3'-end of the primary probe to the 5'-end of the
+target nucleic acid molecule; and
+iii) introducing said common and/or individual sequence
+elements in said target nucleic acid molecule by elongating the
+
+2
+
+Appeal2014-002943
+Application 12/664,177
+3'-end of the secondary probe or elongating the 3' end of the
+nucleic acid molecule, using a nucleic acid polymerase.
+(App. Br. 10, Claims Appendix.)
+Appellants seek review of the Examiner's rejection of claims 1-7
+under 35 U.S.C. § 103(a) as unpatentable over Weismann. 2 Because the
+claims are not separately argued, we focus our discussion on representative
+claim 1. Claims 2-7 stand or fall with that claim. 37 C.F.R. § 41.37
+(c)(1 )(iv).
+
+Obviousness over Weissman
+The issue is: Does the preponderance of evidence of record support
+the Examiner's conclusion that Weissman teaches using single stranded
+nucleic acids in the hybridization steps as required by the method claimed?
+
+Findings of Fact
+We adopt the Examiner's findings of fact and reasoning regarding the
+scope and content of the prior art as set forth in the Examiner's Answer and
+the Final Action dated April 4, 2013 ("Final Act."). For emphasis only we
+highlight the following:
+FPL The Examiner finds that Weissman's Fig lG (reproduced below FF2)
+shows nucleic acids having "single stranded portions" (Ans. 8). The
+Examiner's annotated Fig. 1G is shown below:
+
+FIG~
+
+1G
+
+---s)
+
+~----J•
+
+b3~-~-------~
+
+-------3'c
+
+3~-------·-----------
+
+2
+
+Weissman et al., US 6,57 6,448 B2, issued June 10, 2003.
+
+3
+
+Appeal2014-002943
+Application 12/664,177
+Fig. 1G (Ans. 7) shows the Examiner's identified single stranded
+nucleic acid regions as a, b, c, and d (Ans. 8).
+FF2. With reference to Fig. lG-lI, reproduced below, Weissman discloses
+probes and primers for the production of a rolling circle amplification
+(RCA) template.
+
+FIG. 1G
+fi'_
+~~· _________ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-__~'.______________________-~_:_-__-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- - - - - 3'
+...., , . ,............ u
+
+3~
+
+f
+
+~
+'1
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . , .....
+
+...-.-.-.-.-.-..-..-.-.-...-.-......-.-..-..-....-...-.-.-.-....-....-.-.-..-.-..-.-.-.-..-.-.-.-..-.-..-.-.-..-.-....-.-.-...-..-...........-..........-...-.-.-..-.............-.
+
+FIG. 1H
+
+FIG. 1l
+
+Fig. lH-lI show, the hybridization of primers and subsequent
+circularization of the replication template.
+A partially double-stranded adapter is used to circularize a
+double stranded DNA fragment for use as an RCA template.
+The adapter which has appropriate overhangs on its ends to
+4
+
+Appeal2014-002943
+Application 12/664, 177
+allow ligation to both ends of the DNA fragment (FIG. lG) can
+be used such that annealing of the ends results in a circularized
+adapter-fragment construct (FIG. lH) and ligation seals the
+nicks (FIG. II)
+(Weissman 5: 51-58).
+FF3. Weissman also teaches that "[t]he single-stranded DNA product of
+rolling circle amplification can itself be replicated by annealing of
+complementary primers which can be extended in conventional primer
+elongation reactions or in hyberbranching reactions in which
+exponential amplification occurs" (Weissmann 3: 49-54).
+FF4. The Specification provides that "depending on the source of nucleic
+acids, the sample may have to be prepared to some extent. If genomic
+DNA is used as source DNA it will advantageously be fragmented to
+achieve complete denaturation of the double stranded DNA into single
+stranded DNA available to probe hybridization" (Spec. 10 (emphasis
+
+added)).
+FF5. The Specification provides that the method step includes "denaturing
+the sample nucleic acid molecules, if the sample nucleic acid
+molecules are double-stranded, to obtain single stranded sample
+nucleic acid molecules" (Spec. 3 (emphasis added)).
+Analysis
+
+We have reviewed Appellants' contentions that the Examiner erred in
+rejecting claims 1-7 as obvious over the cited art. (App. Br. 4--9.) We
+disagree with Appellants' contentions and adopt the findings concerning the
+scope and content of the prior art and conclusions set forth in the Examiner's
+Answer and the Final Act. For emphasis, we highlight and address the
+following:
+
+5
+
+Appeal2014-002943
+Application 12/664, 177
+Appellants contend that "Weisman's own disclosure makes it quite
+clear that his sample is denatured and then renatured to produce double
+strand molecules prior to hybridization with the oligonucleotides" (Reply Br.
+3--4). Thus, "Weismann's suggestion to use molecules that are 'denatured
+and re-annealed' is not a suggestion to use single stranded nucleic acid
+molecules" as suggested by the Examiner (App. Br. 7). "[D]ouble stranded
+nucleic acid molecules are required in Weissman's method because only
+double stranded nucleic acid molecules ... [are] capable of being amplified
+by rolling circle amplification" (id. at 6).
+We are not persuaded. "[D]uring examination proceedings, claims are
+given their broadest reasonable interpretation consistent with the
+specification." In re Hyatt, 211F.3d1367, 1372 (Fed. Cir. 2000). The
+Examiner interprets that "[t]he claims require 'single stranded nucleic acids'
+however the claims do not specifically require the single stranded nucleic
+acids are completely single stranded or merely a portion is single stranded"
+(Ans. 8; see also Advisory Action3 ("the claim can be broadly interpreted as
+having nucleic acid molecules which are partially or completely single
+stranded")). This interpretation is consistent with the Specification. The
+Specification clarifies that the need to be single stranded is to achieve
+hybridization with a probe (FF4 and FF5). Thus, the Specification makes it
+clear that the purpose of being "single stranded" is to achieve hybridization
+with the probes and primers. In light of the teaching of the Specification we
+find no error with the Examiner's claim interpretation that the nucleic acid
+sequence needs to be single stranded only so far and for so long that it
+
+3
+
+Office Action dated June 14, 2013.
+6
+
+Appeal2014-002943
+Application 12/664, 177
+allows hybridization with the requisite probes and the nucleic acid that is the
+target for amplification.
+The Examiner finds, and Appellants do not contest (see Reply Br. 3),
+that "denaturing of nucleic acids followed by re-annealing (or hybridization)
+to form heterohybrids inherently requires double stranded nucleic acids to
+denature forming single stranded nucleic acids so as to allow them to
+hybridize to another strand to form a heterohybrid" (Ans. 1O; see also
+Advisory Action ("the claims as presented inherently require conditions that
+allow for the target nucleic acid and probe to be single stranded prior to the
+hybridization and annealing, which would include 're-annealing,' to provide
+conditions in which the complex of step i) is formed to allow for subsequent
+hybridization step"); see FFl and FF2). Additionally, although not relied on
+by the Examiner in making the rejection, we note that Weissman teaches that
+the product of the rolling circle amplification is a single-stranded DNA that
+can be further processed using complementary primers in conventional
+reactions (FF3).
+Appellants also contend that the Examiner's reliance on the language
+of claim 7 is in error because the claim "does not imply or suggest that the
+sample recited in claim 1 can be denatured and then reannealed to make
+double strands prior to starting the method of claim 1" (App. Br. 9).
+We are not persuaded, as explained by the Examiner, the claimed
+method is not limited solely to the use of single stranded DNA, in other
+words, DNA that is single stranded for the entire length of the nucleic acid
+string. If double stranded DNA is used, then the additional step of preparing
+the sample to obtain single stranded DNA for the purpose of hybridizing
+probes to the DNA is needed as explained by the Specification (see FF4 and
+
+7
+
+Appeal2014-002943
+Application 12/664, 177
+FF5). The Examiner's point is that the claim language of claim 1 is open
+and can include additional steps (see Ans. 8), such as a denaturing step. See
+
+Invitrogen Corp. v. Biocrest Mfg., L.P., 327 F.3d 1364, 1368 (Fed. Cir.
+2003) ("The transition 'comprising' in a method claim indicates that the
+claim is open-ended and allows for additional steps."). We agree with the
+Examiner's interpretation that the inclusion of an additional step is
+encompassed by the method as set out in claim 1.
+Based on the preponderance of the evidence of record, we conclude
+that the evidence cited by the Examiner supports a prima facie case of
+obviousness with respect to claim 1, and Appellants have not provided
+sufficient rebuttal evidence or evidence of secondary considerations that
+outweighs the evidence supporting the prima facie case. Arguments not
+made are waived. See 37 C.F.R. § 41.37(c) (1) (iv).
+
+SUMMARY
+We affirm the rejection of claim 1under35 U.S.C. § 103(a) as
+unpatentable over W eismann. Claims 2-7 were not separately argued and
+fall with claim 1. 37 C.F.R. § 41.37 (c)(l)(iv).
+
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+8
+
+

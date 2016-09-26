@@ -1,0 +1,204 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/002,652
+
+01/05/2011
+
+Norman P. Brown
+
+82595322
+
+2608
+
+22879
+
+7590
+
+09/23/2016
+
+HP Inc.
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+LI, SIDNEY
+
+ART UNIT
+
+PAPER NUMBER
+
+2136
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte NORMAN P. BROWN
+
+Appeal2015-004840
+Application 13/002,652
+Technology Center 2100
+
+Before CAROLYN D. THOMAS, JEFFREYS. SMITH, and
+TERRENCE W. McMILLIN, Administrative Patent Judges.
+SMITH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-004840
+Application 13/002,652
+STATEivIENT OF THE CASE
+This is an appeal under 35 U.S.C. § 134(a) from the Examiner's final
+rejection of claims 1-15. The rejection of claims 16-20 has been
+withdrawn. We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+
+Representative Claim
+1.
+A method for updating a thin client operating system
+(OS) image, comprising:
+writing a service OS from a network device to memory of a thin
+client device, the service OS being written over a first portion of an
+old OS image, the first portion including a portion of a current OS of
+the thin client device;
+rebooting the thin client device using the service OS;
+subsequent to rebooting the thin client device and using the
+service OS, writing a large part of a new OS image from the network
+to the memory of the thin client in a series of portions, the large part
+of the ne\x1 OS image being \x1ritten over a second portion of the old
+OS image without writing over the service OS in the first portion; and
+writing a final small part of the new OS image over the service
+OS in the first portion.
+
+Prior Art
+Frazer
+Saliou
+Skan
+
+US 2005/0055595 Al
+US 2005/0228978 Al
+US 7,698,698 B2
+
+Mar. 10, 2005
+Oct. 13, 2005
+Apr. 13, 2010
+
+Examiner's Rejections
+Claims 1, 4---6, 8, 9, 11-13, and 15 stand rejected under 35 U.S.C.
+
+§ 102(e) as anticipated by Skan.
+
+2
+
+Appeal2015-004840
+Application 13/002,652
+Claims 2, 3, and 14 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Skan and Saliou.
+Claims 7 and 10 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Skan and Frazer.
+
+ANALYSIS
+
+Section 102 rejection of claims 1, 4-6, 8, 9, 11-13, and 15
+Claim 1 recites "writing a service OS from a network device to
+memory of a thin client device, the service OS being written over a first
+portion of an old OS image, the first portion including a portion of a current
+OS of the thin client device."
+The Examiner finds the update agent of Skan, which is part of the
+minimal core image that is received, is written in the memory locations of
+the core operating system of the device. Ans. 12 (citing Skan, col. 7, 11. 1540; Fig. 2). According to the Examiner, column 7 and Figure 2 of Skan
+disclose the update agent is in the core operating system, therefore, it was
+written over a portion of an old OS image. Id. Appellant contends the
+update agent of Skan is not written over the core OS image because the
+update agent already exists on the core OS image. Reply Br. 5---6.
+We agree with Appellant. Skan discloses a download agent that
+receives an update package, transferred over-the-air from a remote server to
+a mobile device, and stores the update package in flash. Col. 6, 1. 64 to col.
+7, 1. 4. The update agent accesses and decodes the update package and
+applies the decoded update instructions to a firmware image stored in flash,
+to convert the original image into a new image. Col. 7, 11. 8--40; Fig. 2.
+
+3
+
+Appeal2015-004840
+Application 13/002,652
+Although the update agent decodes the update package, and applies
+the decoded update instructions to firmware stored in the flash to convert an
+original image into a new image, the update agent itself is not written over
+the original image in the firmware. Rather, the decoded update instructions
+are written over the original image by the update agent. Skan, col. 7, 11. 840; Fig. 2. However, the Examiner does not rely on the decoded update
+instructions that are written over the old image to describe the claimed
+"service OS being written over a first portion of an old OS image." Instead,
+the Examiner relies on the update agent itself (Final Act. 3--4; Ans. 12),
+which is not written over the old image.
+We do not sustain the rejection of independent claim 1 under
+35 U.S.C. § 102. Claims 4---6, 8, 9, 11-13, and 15 either contain or depend
+from a claim containing a limitation similar to that found in claim 1 for
+which the rejection fails.
+
+Section 103 rejections of claims 2, 3, 7, 10, and 14
+
+The Examiner has not persuasively explained how the additional
+references cited in the 103 rejections teach or suggest "writing a service OS
+from a network device to memory of a thin client device, the service OS
+being written over a first portion of an old OS image, the first portion
+including a portion of a current OS of the thin client device," as required by
+independent claims 1, 9, and 13. Accordingly, we do not sustain the
+rejections of dependent claims 2, 3, 7, 10, and 14 under 35 U.S.C. § 103.
+
+4
+
+Appeal2015-004840
+Application 13/002,652
+DECISION
+The rejection of claims 1, 4---6, 8, 9, 11-13, and 15 under 35 U.S.C.
+
+§ 102(e) as anticipated by Skan is reversed.
+The rejection of claims 2, 3, and 14 under 35 U.S.C. § 103(a) as
+unpatentable over Skan and Saliou is reversed.
+The rejection of claims 7 and 10 under 35 U.S.C. § 103(a) as
+unpatentable over Skan and Frazer is reversed.
+
+REVERSED
+
+5
+
+

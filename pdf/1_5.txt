@@ -1,0 +1,272 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/449,080
+
+04/17/2012
+
+Jonathan Mark Butzine
+
+242633-5/GEMS:0393-1/YOD
+
+5503
+
+68174
+
+7590
+
+09/22/2016
+
+GE HEALTHCARE
+c/o FLETCHER YODER, PC
+P.O. BOX 692289
+HOUSTON, TX 77269-2289
+
+EXAMINER
+NGUYEN, NAM V
+
+ART UNIT
+
+PAPER NUMBER
+
+2682
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________________
+Ex parte JONATHAN MARK BUTZINE and
+JEREMY PATRICK HANNON
+____________________
+Appeal 2015-005460
+Application 13/449,080
+Technology Center 2600
+____________________
+
+Before JOSEPH L. DIXON, JAMES R. HUGHES, and ERIC S. FRAHM,
+Administrative Patent Judges.
+DIXON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal 2015-005460
+Application 13/449,080
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a rejection of claims 1–
+3, 6–13, and 15–23. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+The invention relates to an X-ray imaging system that uses a handheld
+interface device and is configured to track the location of the handheld
+interface device (Spec. ¶ 5). Claim 1 reproduced below, is illustrative of the
+claimed subject matter:
+1.
+
+An X-ray system comprising:
+
+an imaging system including a source of X-ray radiation,
+an X-ray image receptor, control circuitry for controlling the
+source of X-ray radiation, and a wireless interface; and
+a handheld interface device configured to communicate
+wirelessly with the imaging system, wherein the handheld
+interface device is configured to communicate wirelessly with
+the imaging system to communicate a signal to initiate an X-ray
+exposure, and wherein the handheld interface device comprises
+a tracking device located within the handheld interface device;
+wherein the imaging system is configured to track a
+location of the handheld interface device via the tracking device
+and to use the location as an input for at least one control function
+of the imaging system.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Makrinos
+Uzuyama
+Haumann
+
+US 5,206,894
+US 5,416,819
+US 6,285,742 B1
+2
+
+Apr. 27, 1993
+May 16, 1995
+Sept. 4, 2001
+
+Appeal 2015-005460
+Application 13/449,080
+Kemink
+Hills
+Mazess
+Butzine
+
+US 6,563,430 B1
+US 6,581,000 B2
+US 6,608,884 B1
+US 8,174,358 B2
+
+May 13, 2003
+June 17, 2003
+Aug. 19, 2003
+May 8, 2012
+
+REJECTIONS
+The Examiner made the following rejections:
+Claims 1–3, 6–11, 13, 15, 16, and 18–21 stand rejected under 35
+U.S.C. § 103(a) as being unpatentable over Haumann, Makrinos, Hills, and
+Mazess.
+Claims 12 and 17 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Haumann, Makrinos, Hills, Mazess, and Kemink.
+Claim 14 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Haumann, Makrinos, Hills, Mazess, and Uzuyama.
+Claims 1–3, 6–13, and 15–23 stand rejected under the non-statutory
+ground of obviousness-type double patenting over U.S. Patent 8,174,358 B2
+to Butzine in view of Hills.
+
+ANALYSIS
+The Obviousness Rejections
+The Examiner finds the combination of Haumann, Makrinos, Hills,
+and Mazess discloses all the limitations of independent claim 1, including
+that Hills teaches “the handheld interface device comprises a tracking device
+located within the handheld interface device,” and that Mazess teaches “the
+imaging system is configured to track a location of the handheld interface
+device via the tracking device” (see Final Act. 3–6). In combining the Hills
+reference with Hamann and Makrinos, the Examiner concludes it would
+have been obvious to use Hills’ position tracking module in Haumann’s C3
+
+Appeal 2015-005460
+Application 13/449,080
+arm X-ray device with remote control because it “would provide the exact
+position location of the medical device to control and trigger the functions of
+the medical device” (Final Act. 5).
+Appellants contend “Hills is completely silent with regard to the
+tracking device being disposed within a handheld interface device that
+wirelessly interfaces with an imaging system” (App. Br. 9). Further,
+Appellants contend “the Examiner’s reasoning for modifying the remote
+control with the tracking device in Haumann is flawed. Specifically, if the
+remote control of Haumann wirelessly communicated with the C-arm X-ray
+device . . . knowing the position of the user handling the remote control
+would not provide the exact position of the C-arm X-ray device.” Id. We
+agree with Appellants.
+Hills discloses a “position tracking device 14 may be configured to
+receive the indication that is transmitted by the distance sensor 12 and, based
+thereon, determine the real-time position of the user 18” (Hills col. 3, ll. 50–
+53). Further, Hills discloses the position tracking device “may be embodied
+as, for example, a mobile computing device such as a laptop computer or a
+personal digital assistant” (Hill col. 3, ll. 53–55). Even if we agree with the
+Examiner that Hills teaches a “handheld interface device comprises a
+tracking device located within the handheld interface device,” as recited in
+claim 1, Hill does not relate to tracking a handheld interface device that “is
+configured to communicate wirelessly with the imaging system to
+communicate a signal to initiate an X-ray exposure,” as also recited in claim
+1. Although Mazess teaches tracking the location of a physician’s headmounted display for use with a fluoroscopic X-ray machine (Mazess col. 4,
+ll. 36–39), this is performed in order to “present an orientationally accurate
+image corresponding to the head mount wearer’s field of view” (Mazess
+4
+
+Appeal 2015-005460
+Application 13/449,080
+Abstract). Accordingly, Mazess suggests a tracking feature for a headmounted display in the context of an imaging system, but does not suggest a
+tracking feature in a handheld interface device that communicates with an
+imaging system to initiate an X-ray exposure, as claimed.
+While we find the Examiner has not shown there to be a suggestion in
+the cited prior art for implementing Hills’ tracking device in a handheld
+device for initiating an X-ray exposure, we note that “the analysis need not
+seek out precise teachings directed to the specific subject matter of the
+challenged claim, for [the Board] can take account of the inferences and
+creative steps that a person of ordinary skill in the art would employ.” KSR
+Int’l Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007). In this case, however,
+the Examiner’s conclusion of obvious fails to provide a satisfactory rationale
+for implementing Hills’ tracking device in a handheld device configured “to
+communicate a signal to initiate an X-ray exposure,” as recited in claim 1.
+The Examiner’s statement that combining Hills with Haumann “would
+provide the exact position location of the medical device to control and
+trigger the functions of the medical device” (Final Act. 5) does not reflect
+the inferences or creativity of a person of ordinary skill in the art. To the
+contrary, it is not clear how a tracking device in a handheld interface device
+would aid in locating the position of a medical device that the handheld
+interface device was intended to control. Rather, a tracking device on the
+handheld interface device would only aid in locating the position of the
+handheld interface device. Therefore, one of ordinary skill in the art would
+not have been motivated to combine Hills with Haumann for the reason
+provided by the Examiner.
+We are, therefore, constrained by the record to find the Examiner
+erred in rejecting independent claim 1, independent claims 11 and 18 which
+5
+
+Appeal 2015-005460
+Application 13/449,080
+recite commensurate limitations, and dependent claims 2, 3, 6–10, 12, 13,
+15–17, and 19–23 for similar reasons.
+
+The Double Patenting Rejection
+For the double patenting rejection, Appellants rely on the same
+arguments regarding Hills discussed above with respect to the obviousness
+rejection of claim 1 (see App. Br. 13). However, the arguments directed to
+Hills presented for the obviousness rejection do not carry the same
+persuasive weight when considering U.S. Patent 8,174,358 B2 to Butzine,
+which forms the basis of the double patenting rejection (see Final Act. 10–
+11). Butzine’s claim 1 recites “the imaging system is configured to track a
+location of the handheld interface device,” which is the feature we find
+missing from the prior art combination of the obviousness rejection
+discussed above. In the double patenting rejection, the Examiner finds
+Butzine’s only shortcoming is not explicitly reciting a tracking device in the
+handheld interface device, and relies on Hills for disclosing a tracking
+device (Final Act. 11). The Examiner does not need to show that it would
+have been obvious to track a handheld interface device configured for use
+with an imaging system, as is the case with the obviousness rejection.
+Rather, the Examiner only need show it would have been obvious to use a
+tracking device to perform location tracking. Appellants’ arguments (see
+App. Br. 7–9) do not show the Examiner failed in this respect.
+We are, therefore, not persuaded the Examiner erred in rejecting claim
+1, and claims 2, 3, 6–13, and 15–23 not specifically argued separately.
+CONCLUSIONS
+Under 35 U.S.C. § 103(a), the Examiner erred in rejecting claims 1–3,
+6–13, and 15–23.
+6
+
+Appeal 2015-005460
+Application 13/449,080
+Under the doctrine of non-statutory obviousness-type double
+patenting, the Examiner did not err in rejecting claims 1–3, 6–13, and 15–23.
+
+DECISION
+For the above reasons, the Examiner’s decision rejecting claims 1–3,
+6–13, and 15–23 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(1)(iv).
+
+AFFIRMED
+
+7
+
+

@@ -1,11 +1,12 @@
 
 from bs4 import BeautifulSoup
-import urllib, unicodecsv, urllib2
+import urllib, unicodecsv, urllib2, time
+from subprocess import call
 
-
+homepage = "https://e-foia.uspto.gov/Foia/"
 #Converts string to integer. If "NONE" is in the string, return -1.
 def str_to_int(arg):
-	if "NONE" in arg:
+	if "NONE" in arg or not arg or arg.isspace():
 		return -1
 	return int(arg)
 
@@ -23,58 +24,79 @@ def download_file(download_url,name):
     file_.close()
     print("Completed")
 
-with open('uspto_data_2.csv', 'w') as csvfile:
-	writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
-	writer.writerow(["Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
-	for curr in range(1691,1692):
-		print("Page: " + str(curr))
-		link = "https://e-foia.uspto.gov/Foia/DispatchBPAIServlet?SearchRng=decDt&docTextSearch=&page=60&d-3995525-p="+ str(curr)+ "&txtInput_EndDate=09%2F21%2F2016&SearchId=&Objtype=ser&txtInput_StartDate=09%2F01%2F1951"
-		
-		r = urllib.urlopen(link).read()
-		soup = BeautifulSoup(r, "lxml")
-		table = soup.find("table", {"id": "efoiaLst"})
-		table = table.tbody
-		rows = table.find_all('tr')
 
-		row_num = 0
-		for row in rows:
-			row_num +=1
-			print("Row: " + str(row_num))
-			cols = row.find_all('td')
+#Downloads html of links to all tables in USPTO and saves them to html folder.
+def download_html():
+	for curr in range(187,1692):
+		response = urllib2.urlopen("https://e-foia.uspto.gov/Foia/DispatchBPAIServlet?SearchRng=decDt&docTextSearch=&page=60&d-3995525-p="+ str(curr)+ "&txtInput_EndDate=09%2F21%2F2016&SearchId=&Objtype=ser&txtInput_StartDate=09%2F01%2F1951")
+		webContent = response.read()
 
-			app_id = cols[0].a.get('name').strip()
+		f = open("html/" + str(curr) + ".html", 'w')
+		f.write( webContent)
+		f.close()
 
-			appeal_no = cols[1].string.strip()
+def convert_pdf():
+	folder = "pdf/"
+	for page in range(1,1692):
+		for row in range(60):
+			call(["pdftotext", folder + str(page) + "_" + str(row) + ".pdf"])
 
-			interf_no = cols[2].string.strip()
+def main():
+	with open('uspto_data.csv', 'w') as csvfile:
+		writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
+		writer.writerow(["PDF No","Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
+		for curr in range(1,2):
+			print("Page: " + str(curr))
+			link = "html/" + str(curr) + ".html"
+			r = urllib.urlopen(link).read()
+			soup = BeautifulSoup(r, "lxml")
+			table = soup.find("table", {"id": "efoiaLst"})
+			table = table.tbody
+			rows = table.find_all('tr')
 
-			pub_no = cols[3].string.strip()
+			row_num = 0
+			for i in range(len(rows)):
+				row = rows[i]
+				row_num +=1
+				print("Row: " + str(row_num))
+				cols = row.find_all('td')
 
-			date = convert_date(cols[4].string)
+				app_id = cols[0].a.get('name').strip()
 
-			patent_no = cols[5].string.strip()
+				pdf = cols[0].find_all('a')[1].get('href')
+				pdf_no = str(curr) + "." + str(i)
+				download_file(homepage+pdf, "pdf/" + str(curr) +"_" + str(i) +  ".pdf")
 
-			issue_date = convert_date(cols[6].string)
+				appeal_no = cols[1].string.strip()
 
-			decis_date = convert_date(cols[7].string)
+				interf_no = cols[2].string.strip()
 
-			inven_name = cols[8].string.strip()
+				pub_no = cols[3].string.strip()
 
-			case_no = cols[9].string.strip()
+				date = convert_date(cols[4].string)
 
-			output = [app_id,appeal_no, interf_no, pub_no, date, patent_no, issue_date, decis_date, inven_name, case_no]
-			new_output = []
-			for elem in output:
-				if type(elem) == str:
-					new_output.append(elem.encode("utf-8"))
-				else:
-					new_output.append(elem)
-			writer.writerow(new_output)
+				patent_no = cols[5].string.strip()
+
+				issue_date = convert_date(cols[6].string)
+
+				decis_date = convert_date(cols[7].string)
+
+				inven_name = cols[8].string.strip()
+
+				case_no = cols[9].string.strip()
+
+				output = [pdf_no,app_id,appeal_no, interf_no, pub_no, date, patent_no, issue_date, decis_date, inven_name, case_no]
+				new_output = []
+				for elem in output:
+					if type(elem) == str:
+						new_output.append(elem.encode("utf-8"))
+					else:
+						new_output.append(elem)
+				writer.writerow(new_output)
 
 
 
-
-
-
+# download_html()
+convert_pdf()
 
 # print(table.td.a.get('name'))

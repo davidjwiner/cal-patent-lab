@@ -1,0 +1,351 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121748,141
+
+03/26/2010
+
+Leonard J. Sharpless
+
+1015292-000318
+
+4576
+
+119138
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+BUCHANAN INGERSOLL & ROONEY PC - LAM RESEARCH CORP
+1737 KING STREET, SUITE 500
+ALEXANDRIA, VA 22314
+
+LEE,AIDENY
+
+ART UNIT
+
+PAPER NUMBER
+
+1718
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ADIPDOCl@BIPC.COM
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE
+THE PA TENT TRIAL AND APPEAL BOARD
+
+Ex parte LEONARD J. SHARPLESS, 1
+Hanneet Singh, and Michael S. Kang
+
+Appeal2015-001714
+Application 12/748,141
+Technology Center 1700
+
+Before MARK NAGUMO, MICHAEL P. COLAIANNI and
+JENNIFER R. GUPTA, Administrative Patent Judges.
+NAGUMO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Leonard J. Sharpless, Harmeet Singh, and Michael S. Kang ("Lam")
+timely appeal under 35 U.S.C. § 134(a) from the Final Rejection2 of
+claims 1-3, 5-13, and 15-20, which are all of the pending claims. 3 We have
+jurisdiction. 35 U.S.C. § 6. We reverse for reasons given by Lam.
+
+1
+
+The real party in interest is identified as Lam Research Corporation
+("Lam") (Appeal Brief, filed 2 July 2014 ("Br."), 2.).
+2
+
+Office action mailed 25 September 2013 ("Final Rejection"; cited as
+"FR").
+3
+
+Notice of Panel Decision from Pre-Appeal Brief Review (29 May 2014).
+
+Appeal2015-001714
+Application 12/748,141
+OPINION
+A.
+
+Introduction4
+The subject matter on appeal relates to a replaceable upper chamber
+
+section 244 5 of a plasma reaction chamber 202, illustrated in Fig. 1, below .
+
+---
+
+..----~-----~---.
+
+242
+'
+
+231
+
+G/i,S DISTRIBUTlON
+?YSTEM (222)
+
+FIG. 1
+MATCHING
+NETWORK
+
+M1\TCH!MG
+NET\NORt{
+(236)
+
+0UUJ
+COOLING
+SYSTEM (240)
+
+{Fig. 1 shows plasma reaction chamber 202 with replaceable upper
+section 244}
+The '141 Specification teaches that upper chamber section 244 is
+typically a machined aluminum cylinder having a conical inner surface
+4
+
+Application 12/748,141, Replaceable upper chamber section ofplasma
+processing apparatus, filed 26 March 2010, claiming the benefit of a
+provisional application filed 27 March 2009. We refer to the substitute
+specification filed 5 May 2010 as the '" 141 Specification," which we cite as
+"Spec."
+5
+
+Throughout this Opinion, for clarity, labels to elements are presented in
+bold font, regardless of their presentation in the original document.
+2
+
+Appeal2015-001714
+Application 12/748,141
+coated with a plasma-resistant material such as a thermally sprayed yttria
+coating. (Spec. 3 [0010], 4 [0015].) It is said to be desirable to remove the
+upper chamber section for cleaning, but the yttria coating is easily damaged,
+and it is sometimes preferred to replace the chamber section rather than
+cleaning it. (Id. at 3 [0010].) Moreover, alignment is critical for proper
+gasket sealing (Id. at 3 [0011].) Furthermore, the substantial amount of
+material in the upper chamber section is said to result in a large thermal
+mass that can store thermal energy from the plasma process for extended
+periods and make control of multi-step multi-temperature processing more
+difficult. (Id. at 3 [0012]-4 [0013].) In particular, the Specification
+indicates that "heat-flow variations originating from the upper chamber
+section may cause the substrate temperature to vary outside narrow recipe
+parameters." (Id. at 4 [0013].)
+The inventors seek patent protection for a replaceable upper chamber
+section 300, shown in Fig. 3, below right.
+262
+
+254
+
+FIG. 3
+
+FIG. 2
+
+{Annotated Fig. 2 (left) shows a prior art upper chamber section}
+{Annotated Fig. 3 (right) shows an inventive upper chamber section 300}
+3
+
+Appeal2015-001714
+Application 12/748,141
+Upper chamber section 300 is said to have improved thermal characteristics
+due to thermal choke 314-the thin-walled section of the cylinder that
+minimizes thermal transfer to the bottom chamber section 250-compared to
+the substantially constant-width wall of the prior art upper chamber section
+illustrated supra in Fig. 2 (left).
+Claim 1 is representative and reads:
+A replaceable upper chamber section of a plasma reaction
+chamber in which semiconductor substrates can be processed,
+compnsmg:
+a monolithic metal cylinder having
+a conical inner surface which has a largest diameter at a
+lower end thereof,
+an upper flange extending horizontally outward away from
+the conical inner surface and
+a lower flange extending horizontally away from the
+conical inner surface;
+an upper annular vacuum sealing surface adapted to seal
+against a dielectric window of the plasma chamber;
+a lower annular vacuum sealing surface adapted to seal
+against a bottom section of the plasma chamber;
+
+a thermal choke at a lower portion of the cylinder effective
+to minimize transfer of heat across the lower vacuum
+sealing surface,
+the thermal choke defined by a thin metal section having
+a thickness of less than 0.25 inch and extending at
+least 25 % of the length of the conical inner surface; and
+a thermal mass section at an upper portion of the cylinder,
+the thermal mass section defined by a portion of the
+cylinder between the conical inner surface, an outer
+surface extending vertically from the upper flange, a
+horizontal surface extending from an upper end of the
+thermal choke, and the upper flange.
+(Br., Claims App. 1; some indentation, paragraphing, and emphasis added.)
+4
+
+Appeal2015-001714
+Application 12/748,141
+The Examiner maintains the following grounds of rejection6 :
+
+6
+
+A.
+
+Claims 1, 3, 8, 10, 13, 15, and 20 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Sharpless,7 Knowlton, 8 and Ikeda. 9
+
+Al.
+
+Claims 9, 12, 16, and 19 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Sharpless, Knowlton, and Ikeda, and Chang. 10
+
+A2.
+
+Claims 2 and 17 stand rejected under 35 U.S.C. § 103(a) in
+view of the combined teachings of Sharpless, Knowlton, and
+Ikeda, and Tyler. 11
+
+A3.
+
+Claims 5, 11, and 18 stand rejected under 35 U.S.C. § 103(a)
+in view of the combined teachings of Sharpless, Knowlton,
+and Ikeda, and Yoshida. 12
+
+A4.
+
+Claim 6 stands rejected under 35 U.S.C. § 103(a) in view of
+the combined teachings of Sharpless, Knowlton, and Ikeda,
+and Cho. 13
+
+A5.
+
+Claim 7 stands rejected under 35 U.S.C. § 103(a) in view of
+the combined teachings of Sharpless, Knowlton, and Ikeda,
+and Rice. 14
+
+Examiner's Answer mailed 30 September 2014 ("Ans.").
+
+7
+
+Leonard J. Sharpless and Keith Comendant, Apparatus for an optimized
+plasma chamber top piece, U.S. Patent Application Publication
+2006/0000413 Al (2006). (Issued as U.S. Patent No. 7,789,791
+(24 August 2010), assigned to Lam Research Corp.).
+8
+
+Gregory D. Knowlton, et al., Heat transfer delay, U.S. Patent
+No. 6,298,784 Bl (2001).
+9
+
+Fumihide Ikeda and Y asuhiro Inokuchi, Substrate processing apparatus,
+U.S. Patent No. 6, 132,553 (2000).
+10
+
+Chris Chang, U.S. Patent No. 7,220,497 B2 (2007).
+
+11
+
+James Scott Tyler, U.S. Patent No. 6,972,071 Bl (2005).
+
+12
+
+Kohei Yoshida et al., U.S. Patent No. 6,113,732 (2000).
+
+13
+
+Byung Chul Cho et al., U.S. Patent Application Publication 2004/0149212
+Al (2004).
+5
+
+Appeal2015-001714
+Application 12/748,141
+B.
+
+Discussion
+Findings of fact throughout this Opinion are supported by a
+
+preponderance of the evidence of record.
+Lam urges that the Examiner has provided no reason to combine the
+teachings of Sharpless, which are directed to a plasma processing chamber
+comprising a replaceable upper chamber section, with the teachings of
+Knowlton, which are directed to a heat transfer delay provided by a heat
+transfer device in propellant, pyrotechnic, and explosive devices. Lam
+argues that the mere prior existence of thermal chokes-a fact that Lam
+acknowledges-does not suffice to demonstrate that it would have been
+obvious to incorporate such a thermal choke as a thin (less than 0.25 inch
+thick) walled section of the upper chamber section as required by the
+appealed claims. (See Br. 6, 2d para.; App. Br. 7, 3d para.)
+The weight of the evidence of record, including the references and the
+rationale of the rejections, supports Lam's arguments. The optimized
+chamber sections described by Sharpless reportedly weigh about 80% less
+than the prior art upper chamber sections (Sharpless 3 [0029]) and also have
+a thermal mass about 80% less than the [then] existing non-optimized top
+pieces (id. at [0042]). Although we note that Sharpless teaches that the
+relative small thermal mass allows temperature corrections by the cooling
+system to be "substantially synchronized" (id.), the Examiner has not
+directed our attention to any substantial concern expressed by Sharpless with
+the adverse consequences of heat transfer in the prior art upper chamber
+sections or in the lighter, ergonomically optimized chamber sections. The
+14
+
+Rice et al., U.S. Patent No. 6,095,083 (2000).
+6
+
+Appeal2015-001714
+Application 12/748,141
+only place such concerns are expressed in the present record appear to be in
+the disclosure of the '141 Specification. Hindsight, however, is not an
+appropriate basis for the legal conclusion of obviousness.
+The Examiner makes no findings regarding Ikeda, which is directed to
+thermal reaction furnaces for semiconductor substrate processing (Ikeda,
+col. 1, 11. 5-11 ), or regarding any of the other references, that cure the
+fundamental defect of the attempted combination of teachings of Sharpless
+and Knowlton.
+We therefore reverse the rejections of record.
+C.
+
+Order
+It is ORDERED that the rejection of claims 1-3, 5-13, 15-20 is
+
+reversed.
+REVERSED
+
+7
+
+

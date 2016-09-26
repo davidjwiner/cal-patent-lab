@@ -1,0 +1,191 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121738,306
+
+04/28/2010
+
+Timo Taisto Haataja
+
+089229.00354
+
+1186
+
+32294
+
+7590
+
+09/23/2016
+
+Squire PB (NV A/DC Office)
+8000 TOWERS CRESCENT DRIVE
+14THFLOOR
+VIENNA, VA 22182-6212
+
+EXAMINER
+WHIPPLE, BRIAN P
+
+ART UNIT
+
+PAPER NUMBER
+
+2454
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPGENERALTYC@SQUIREpb.COM
+SONIA.WHITNEY@SQUIREpb.COM
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TIMO TAISTO HAATAJA and PERTTI TAPIO KASANEN
+
+Appeal2015-002932
+Application 12/738,306
+Technology Center 2400
+
+Before CARLA M. KRIVAK, CARL W. WHITEHEAD JR, and
+ADAM J. PYONIN, Administrative Patent Judges.
+WHITEHEAD JR., Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants are appealing the Final Rejection of claims 21--41 under
+35 U.S.C. § 134(a). Appeal Brief 5. We have jurisdiction under 35 U.S.C.
+
+§ 6(b) (2012).
+We affirm.
+Introduction
+The invention is directed to pausing push services transmissions from
+the server when the user terminal is switched on but is not in actual use.
+Specification 2: 15-17.
+
+Representative Claim
+21. A method, comprising:
+
+Appeal2015-002932
+Application 12/738,306
+transmitting messages of at least one push service from a server to a
+user terminal, the server sending the messages of the push service without a
+separate request for a single transmission by the user terminal;
+defining for a user terminal at least two separate activation states, each
+of the activation states corresponding to a predefined functionality set of a
+switched-on user terminal, wherein the functionality set is presently
+applicable to the user;
+detecting in the user terminal a current activation state of the user
+terminal;
+sending an indication on the detected current activation state of the
+user terminal from the user terminal to the server; and
+adjusting the sending of messages from the server to the user terminal
+according to the indication on the current activation state of the user terminal
+sent by the user terminal,
+wherein at least one of the at least two activation states comprises a
+power-save mode.
+Rejections on Appeal
+
+Claims 21-25, 31, 32 and 36-41 stand rejected under 35 U.S.C.
+§ 103(a) as being unpatentable over Zhao (US Patent Application
+Publication Number 2004/0224694 Al; published November 11, 2004) and
+Narayanaswami (US Patent Number 8, 117,299 B2; issued February 14,
+2012). Final Rejection 7-11.
+Claims 26-30 and 33-35 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Zhao, Narayanaswami and Fleck (US Patent
+Application Publication Number 2005/0066006 Al; published March 24,
+2005). Final Rejection 11-12.
+ANALYSIS
+Rather than reiterate the arguments of Appellants and the Examiner,
+we refer to the Appeal Brief (filed October 22, 2014), the Reply Brief (filed
+January 23, 2015), the Answer (mailed November 24, 2014) and the Final
+Rejection (mailed April 4, 2014) for the respective details. We have
+2
+
+Appeal2015-002932
+Application 12/738,306
+considered in this decision only those arguments Appellants actually raised
+in the Briefs.
+Appellants argue the Examiner's obviousness rejection of independent
+claim 21 is erroneous because: (a) there is "No Reason (such as teaching,
+motivation, or suggestion) to Combine [the] References;" (b) "'Reachable'
+and 'Unreachable' are not Activation States;" (c) there is "No Obvious Way
+to Modify Zhao in view ofNarayanaswami;" and (d) there is "No Obvious
+Benefit of [the] Alleged Combination." Appeal Brief 15-22.
+The Examiner finds the combination of Zhao and Narayanaswami
+discloses the claimed invention. Final Rejection 8. We agree with the
+Examiner's findings. Zhao discloses:
+A method and system of reachability indication between a
+wireless device and at least one push server, the method
+comprising the steps of: sending device status information from
+the wireless device to the at least one push server; and receiving
+the status information at the at least one push server; wherein the
+at least one push server is enabled to selectively start and stop
+serving the wireless device on the basis of the status information.
+Zhao Abstract.
+This is-in essence-what the claimed invention is directed towards.
+See claim 21; Specification 2. The Examiner relies upon Narayanaswami to
+disclose having a power-save mode as an activation state, and finds that it
+would be obvious to one of ordinary skill in the art to modify Zhao' s
+activation states to include a power save mode or state. Final Rejection 8-9;
+see also Narayanaswami 2:20-31, claim 1. We do not find Appellants'
+arguments persuasive because they are merely conclusory. 1 For the same
+
+1
+
+Attorney "argument ... cannot take the place of evidence." In re Pearson,
+494 F.2d 1399, 1405 (CCPA 1974). See, e.g., In re Geisler, 116 F.3d 1465,
+3
+
+Appeal2015-002932
+Application 12/738,306
+reasons, we are not persuaded the Examiner erred in rejecting the remaining
+claims 22--41. See Appeal Brief 22-32. Rather than replicate the
+Examiner's findings, we adopt as our own (1) the findings and reasons set
+forth by the Examiner in the action from which this appeal is taken and (2)
+the reasons set forth by the Examiner in the Examiner's Answer in response
+to Appellants' Appeal Brief. See Final Rejection 7-12; Answer 10-22.
+
+DECISION
+The Examiner's obviousness rejections of claims 21--41 are affirmed.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv). See 37
+C.F.R. § 41.50(±).
+
+AFFIRivIED
+
+1470 (Fed. Cir. 1997) (attorney arguments or conclusory statements are
+insufficient to rebut a prima facie case).
+4
+
+

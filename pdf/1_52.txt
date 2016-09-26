@@ -1,0 +1,511 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/989,822
+
+10/27/2010
+
+Gert-Jan Koolen
+
+SILG2016N02US
+
+3108
+
+119997
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+Michael C Stephens, Jr,
+22779 Montrose Court
+Los Gatos, CA 95033
+
+YANG, AMYX
+
+ART UNIT
+
+PAPER NUMBER
+
+2844
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mike@stephenspatents.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE
+THE PA TENT TRIAL AND APPEAL BOARD
+
+Ex parte GERT-JAN KOOLEN 1
+
+Appeal2015-003531
+Application 12/989,822
+Technology Center 2800
+
+Before MARK NAGUMO, N. WHITNEY WILSON, and
+BRIAND. RANGE, Administrative Patent Judges.
+NAGUMO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Gert-Jan Koolen ("Koolen") timely appeals under 35 U.S.C. § 134(a)
+from the Final Rejection2 of claims 1-7 and 9-20, which are all of the
+pending claims. We have jurisdiction. 35 U.S.C. § 6. We affirm.
+
+1
+
+The real party in interest is identified as NXP B.V. (Appeal Brief,
+filed 25 July 2014 ("Br."), 1.)
+2
+
+Office action mailed 29 April 2014 ("Final Rejection"; cited as "FR").
+
+Appeal2015-003531
+Application 12/989,822
+OPINION
+A.
+
+Introduction3
+The subject matter on appeal relates to a driving circuit for LED
+
+lighting that provides a dimming curve for the LED lighting that has an
+exponential shape like that of an incandescent lamp, rather than the linear
+dimming curve characteristic of LEDs driven by conventional constant
+current drivers. The '822 Specification explains that an incandescent bulb
+controlled by a phase-cut dimmer, operating in a pulse width modulation
+(PWM) mode, does not have a constant light output throughout the 60 Hz
+phase provided by the AC mains. As shown in Figure 1, below,
+
+0
+
+0.2
+
+04
+
+06
+
+0.8
+
+{Figure 1 shows dimmer curves for incandescent (+) and LED ( •) lighting
+against dimmer knob settting}
+3
+
+Application 12/989,822, Dim range enhancement for LED driver
+connected to phase-cut dimmer, filed 27 October 2010 as the national stage
+of PCT/IB2009/051760, filed 30 April 2009, claiming the benefit of an
+application filed 7 May 2008 in the EPO. We refer to the
+'"822 Specification," which we cite as "Spec."
+2
+
+Appeal2015-003531
+Application 12/989,822
+the response of an incandescent lamp at dimmer settings below about 0.6 is
+exponential. The eye, however, is said to respond logarithmically to
+changes in light intensity, such that we perceive the exponential response of
+the incandescent light as linear. (Spec. 2, 11. 3-5.) For the same reason, we
+perceive the linear response of the LED as non-linear. An object of the
+invention is to provide a driver 1004 for LED lighting that provides "a
+dimming curve more compatible with the physiological sensitivity of the
+human eye." (Id. at 11. 11-13.) Such a driver is shown in the block diagram
+of Figure 5, below.
+
+"'""""""""""""""""...
+
+:
+
+:~"""""""""""""""""~
+
+_J 10 ! • i ..,..,
+
+!,........._ _ _ _ __..,
+
+I .
+
+[__:_J • L..'.'.'.:_j
+
+!
+
+r"""~"~"""~
+. . . ~~--...!
+
+~"""::~~'""! 1 r"""~'~~"""~
+l......~.l~ ____ .i . L.... ~~J _____ j
+
+100
+{Figure 5 shows a block diagram of an LED driving circuit}
+
+Phase-cut dimmer 10 operates by cutting out or "chopping" a portion
+of each half-cycle of the 60 Hz AC power. (See, e.g., Shteynberg 5 Figure 4,
+reproduced on the following page, showing the phase modulated output
+voltage from a standard dimmer switch (Shteynberg 4 [0032].)
+
+4
+
+Throughout this Opinion, for clarity, labels to elements are presented in
+bold font, regardless of their presentation in the original document.
+5
+
+Full cite infra at 5 n. 7.
+3
+
+Appeal2015-003531
+Application 12/989,822
+{Shteynberg Figure 4 is shown below}
+
+a
+
+)
+
+{Shteynberg Figure 4 shows the phase modulated ("chopped") output
+voltage from a standard dimmer switch; firing angle a= 0 corresponds to
+full power; a = 180 corresponds to no power delivered to the lamp}
+The resulting chopped signal is rectified (made all positive) by rectifier 22,
+and the rectified signal powers driver 26. The average voltage of the
+chopped rectified signal is detected by sensor 24, which provides a control
+signal to driver 26, so the power sent to LEDs 30 is controlled appropriately.
+Claim 1 is representative and reads:
+A driving circuit [100] configured to drive a LED light
+source [30], said driving circuit comprising:
+a rectifier [22] configured to rectify a signal supplied by a
+phase-cut dimmer [10];
+a sensor [24] configured to detect an average voltage of
+the rectified signal; and
+a switched mode power supply [26] configured to drive
+said LED light source
+based on a signal that is output by said sensor [24],
+said signal having a voltage level proportional to said
+detected average voltage and
+said switched mode power supply [26] being powersupplied by the rectified signal,
+
+4
+
+Appeal2015-003531
+Application 12/989,822
+wherein said LED light source has a non-linear dimming
+curve and the detected average voltage is proportional to a
+dimmer knob level.
+(Claims App., Br. 11; some indentation, paragraphing, emphasis, and
+bracketed labels to elements shown in Figure 5 (shown supra) added.)
+The Examiner maintains the following ground of rejection6 :
+Claims 1-7 and 9-20 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Shteynberg, 7 Kriparos, 8 and Thrasher. 9
+B.
+
+Discussion
+Findings of fact throughout this Opinion are supported by a
+
+preponderance of the evidence of record.
+The Examiner finds that Shteynberg describes, in Figure 7, shown on
+the following page, a driving circuit for LEDs that includes all elements
+required by the claims but for specifying that: (a) LED light source [140] has
+a non-linear dimming curve; (b) that sensor [165] detects the average voltage
+of the rectified AC signal; and (c) that dimmer switch 75 comprises a
+dimmer knob. (FR 4-5.)
+
+6
+
+Examiner's Answer mailed 5 December 2014 ("Ans.").
+
+7
+
+Anatoly Shteynberg and Harry Rodriguez, Current regulator for
+modulating brightness levels of solid state lighting, U.S. Patent Application
+Publication 2007/0182338 Al (2007).
+8
+
+Daniel J. Kriparos, Electrical control for an LED light source, including
+dimming control, U.S. Patent No. 6,683,419 (2004).
+9
+
+Larry E. Thrasher et al., Lighting system, apparatus, and method, U.S.
+Patent No. 6,174,067 Bl (2001).
+5
+
+Appeal2015-003531
+Application 12/989,822
+{Shteynberg Figure 7, is reproduced below}
+
+ma
+
+2-00
+
+r-------------------------·--·-----.)~'"--------------=··-i
+i 160
+~
+i ~-_-..................................
+i
+I
+
+!CQNTffiXLEA
+;
+
+; ..-------J
+V.
+
+,.....__:.,..~
+
+r----------- I
+
+L.
+
+'
+
+'1,·.
+
+'
+
+~- 203
+:
+''
+:'
+
+~
+
+"'"
+
+'"v"'···-~
+"'""[''At.
+fllm_.!~.
+t,.,,.."'
+"-'"" ~""'--1"'.
+.J \..
+
+'
+
+!
+
+tG5
+
+l
+
+~ ~ ~ :~~~ ~ ~
+
+!
+
+'
+
+uu
+
+l
+
+FS
+
+)
+
+~-~~~~,,
+
+• : CONTROL
+
+:
+
+: mm;
+
+'-·---·t--···-'
+
+• ·
+
+170
+
+'
+
+rHO
+
+F - - - "" • '>
+
+155 ~- ~~~~~y- .:
+
+2:M
+
+.75
+
+100
+
+202
+
+I
+
+S-WHCHlNG
+POWER
+
+SUPPLY
+
+I; - - 1
+..____ _ _........+-,
+I
+
+•
+
+:
+
+:
+
+:~
+
+I
+
+I
+
+i
+
+J
+110
+
+120
+
+~
+
+15.Q
+
+j ::
+~
+
+o
+
+I !:
+; "
+
+[~~iJ~ij- ------ - - -- __ _J i~IW
+L
+
+7- --------,
+
+95
+
+{Fig. 7: dimmer switch 75 with current regulator 200, driving LEDs 140}
+More particularly, the Examiner finds (FR 4), that Shteynberg shows
+dimmer switch 75 connected to AC mains 35. The output of dimmer
+switch 75 is rectified by rectifier 110, and impedance-matched by unit 120 to
+switching power supply 150, which drives LEDs 140. In Shteynberg's
+words, "[t]he RMS and nominal voltage sensors 165, 170 (and/or
+memory 155) are utilized to provide emulation of the optical performance of
+an incandescent lamp 95." (Shteynberg 5 [0049].)
+The Examiner finds that Kriparos illustrates that the linear LED
+versus nonlinear incandescent bulb problem is known in the art, and that it is
+known to correct the response of the LED so "[t]he LED light source mimics
+
+6
+
+Appeal2015-003531
+Application 12/989,822
+an operation of an incandescent light source with respect to a dimming
+control" (Kriparos, Abstract, 2d sentence).
+The Examiner finds further that Thrasher shows that it is known to
+sense either the output of the dimmer switch directly or the rectified output.
+(FR 4, last para., citing Thrasher, col. 13, 11. 53-57, which reads, "[o]ne of
+ordinary skill in the art will appreciate that linear-load circuit 250 can sense
+AC signal 204 directly or indirectly, for example, by sensing first rectified
+signal 208 or second rectified signal 209" (italic emphasis added).)
+
+Koolen urges that the Examiner fails to provide any articulated
+reasoning supporting application of Thrasher's teachings to Shteynberg.
+(Br. 5, 2d para.) Although rather terse, read in the context of Thrasher, we
+are not persuaded of harmful error in this aspect of the rejection. Thrasher,
+at column 13, describes the response of an electronic isolation transformer
+shown in Figure 4 (not reproduced here) to input AC signal 204. Thrasher
+teaches that "AC signal 204 can be ... an output signal of a dimmer switch."
+(Thrasher, col. 10, 11. 50-52.) Thus, Thrasher's AC signal 204 corresponds,
+in certain embodiments, to the output of Shteynberg's dimmer switch 75.
+Shteynberg compares the output of dimmer switch 75 to the un-dimmed AC
+signal and controls the output of switching power supply 150, which is
+driven by the rectified dimmer switch output, to power the LED lamps.
+Thus, Thrasher's teaching that either the output of the dimmer switch or the
+rectified output of the dimmer switch can be used for control purposes
+would have suggested that the rectified output of Shteynberg' s dimmer 75
+could be measured and used for the same purposes as the modulated but
+unrectified output.
+
+7
+
+Appeal2015-003531
+Application 12/989,822
+The Examiner finds further that Thrasher teaches that dimmer
+switches "typically have a rotatable knob that adjusts the intensity of the
+lights" (Thrasher, col. 3, 11. 35-36). Koolen urges that "Thrasher fails to
+disclose a dimmer knob circuit configured to drive a LED light source."
+(Br. 5, last para.) Koolen urges further that Thrasher's knob is not
+compatible with Shteynberg's dimmer switch 75, which "operates in the
+context of solid state lighting, wherein it performs the function of 'regulating
+brightness by phase modulation of the input AC voltage."' (Br. 7, 11. 2-5.)
+These arguments are not persuasive of harmful error. Thrasher
+teaches that "MO [manually operated] dimmer switches are installed on the
+power line leading to the light, and typically have a rotatable knob that
+adjusts the intensity of the lights." (Thrasher col. 3, 11. 35-37.) This is the
+same position occupied by Shteynberg dimmer switch 75, and the same
+function of switch 75. One of the objectives of Shteynberg (as well as of
+the '822 Specification) is to provide driving circuits that allow presentlyused dimmer switches to be used with LED bulbs as well as with
+incandescent bulbs. (Shteynberg 5 [0049].)
+Koolen argues that "Thrasher's teachings of using a manually
+operable dimmer switch would render Shteynberg unsatisfactory for its
+intended purpose because Shteynberg' s dimmer switch needs to act as a
+phase modulator." (Br. 7, 11. 5-7.) Kool en appears to conflate the function
+of Thrasher's "manually operated" ("MO") dimmer switch with the entire
+driver circuit. Shteynberg does teach that "current regulator 100 is
+compatible with existing lighting infrastructure, and may be coupled directly
+to a dimmer switch 75 for receiving a phase-modulated AC voltage derived
+from the AC line voltage (AC mains)." (Shteynberg 5 [0045].) The phase
+8
+
+Appeal2015-003531
+Application 12/989,822
+modulated voltage from a standard dimmer switch is shown supra in
+Shteynberg Figure 4. Koolen has not directed our attention to any credible
+evidence that the standard dimmer switch differs in any substantial way from
+the dimmer switch mentioned by Thrasher. For essentially the same reasons,
+we find no persuasive merit in Koolen's arguments that Thrasher's MO
+switch is incompatible with Shteynberg because "it must be installed directly
+on a power line" and because "[i]t does not function by phase modulation"
+(Br. 7, last para.)
+Finally, Koolen criticizes the Examiner's reliance on Kriparos and
+Thrasher. Kriparos, according to Koolen, teaches a specialized controller,
+not a manually operable dimmer switch (Br. 8, 1st para.), so the teachings
+are incompatible. These arguments are not persuasive because Kriparos
+stands as evidence that the nonlinear behavior of incandescent lamps was
+known, and further, that it was a known objective to provide drivers for LED
+light sources that provide the desired nonlinear response to dimmer
+control-an objective disclosed by Shteynberg, as discussed supra at 6.
+C.
+
+Order
+It is ORDERED that the rejection of claims 1-7 and 9-20 is affirmed.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a).
+AFFIRMED
+
+9
+
+

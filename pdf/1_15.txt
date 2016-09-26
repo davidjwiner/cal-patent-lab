@@ -1,0 +1,254 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+111928,251
+
+10/30/2007
+
+Dominik Grosse-Schulte
+
+NUANCE-003PUS/061579USORG
+
+115788
+
+7590
+
+09/23/2016
+
+Nuance
+c/o Daly, Crowley, Mofford and Durkee, LLP
+354A Turnpike Street
+Suite 301A
+Canton, MA 02021-2714
+
+CONFIRMATION NO.
+
+7093
+
+EXAMINER
+ADESANYA, OLUJIMI A
+
+ART UNIT
+
+PAPER NUMBER
+
+2658
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ip.inbox@nuance.com
+docketing@dc-m.com
+amk@dc-m.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DOMINIK GROSSE-SCHULTE, MOHAMED KRINI, and
+GERHARD UWE SCHMIDT
+Appeal2015-000121 1
+Application 11/928,251
+Technology Center 2600
+
+Before JEAN R. HOMERE, NABEEL U. KHAN, and
+AMBER L. HAGY, Administrative Patent Judges.
+HOMERE, Administrative Patent Judge.
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of claims 1-24, which constitute all of the
+claims pending in this appeal. App. Br. 2. We have jurisdiction under 35
+U.S.C. § 6(b).
+We affirm.
+
+1
+
+Appellants identify the real party in interest as Nuance Communications,
+Inc. App. Br. 2.
+
+Appeal2015-000121
+Application 11/928,251
+Appellants' Invention
+
+Appellants' invention is directed to a signal processing method and
+system for enhancing the quality of a speech input signal. Spec. i-f 5. In
+particular, a noise reduction circuit (110) is utilized to filter out unwanted
+noise from the input signal (104), thereby producing a noise reduced signal.
+Further, a signal reconstruction circuit (120) extracts from the input speech
+signal (104) an excitation portion and a spectral envelope, which are then
+combined to reconstruct the input speech signal (104). Id. Subsequently, a
+signal combining circuit (140) combines the noise-reduced signal and the
+reconstructed speech signal to thereby generate an enhanced speech output
+wherein perturbed portions of the noise-reduced signal are replaced with
+corresponding portions of the reconstructed speech signal based on the their
+respective signal to noise ratios. Id. i-fi-1 19-23.
+Illustrative Claim
+
+Independent claim 1 is illustrative, and reads as follows:
+1. A method for processing a speech input signal, comprising:
+estimating an input-signal-to-noise ratio or a signal-tonoise ratio of the speech input signal;
+generating an excitation signal corresponding to the
+speech input signal;
+extracting a spectral envelope of the speech input signal;
+reconstructing the speech input signal based on the excitation
+signal and the extracted spectral envelope;
+filtering the speech input signal with a noise reduction
+circuit to generate a noise reduced signal; and
+replacing perturbed portions of the noise reduced signal
+with the corresponding portions of the reconstructed speech
+signal based on the input-signal-to-noise ratio or the signal-tonoise ratio to generate an enhanced speech output signal.
+Rejections on Appeal
+
+2
+
+Appeal2015-000121
+Application 11/928,251
+
+Claims 1-3, 6, 10-13, 16, 20-22, and 24 stand rejected under 35
+U.S.C. § 103 (a) as being unpatentable over the combination ofDreiseitel et
+al, "Evaluation of Algorithms for Speech Enhancement" and Tilp "SingleChannel Noise Reduction with Pitch-Adaptive Post-Filtering."
+Claims 5, 15, and 23 stands rejected under 35 U.S.C. § 103 (a) as
+being unpatentable over the combination of Dreiseitel, Tilp, and Pyke
+"Extrapolation of Wideband Speech From the Telephone Band."
+Claims 7-9 and 17-19 stand rejected under 35 U.S.C. § 103 (a) as
+being unpatentable over the combination of Dreiseitel, Tilp, and
+Zakarauskas (US 2005/0222842 Al, published Oct. 6, 2005).
+ANALYSIS
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 4--13, and the Reply Brief, pages 2-10. 2
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We are unpersuaded by Appellants' contentions. Except as
+otherwise indicated herein below, we adopt as our own the findings and
+reasons set forth in the Examiner's Answer in response to Appellants'
+Appeal Brief. Ans. 2--49. However, we highlight and address specific
+arguments and findings for emphasis as follows.
+
+2
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed March 4, 2014), the Reply Brief (filed
+September 11, 2014) and the Answer (mailed July 11, 2014) for their
+respective details. We have considered in this Decision only those
+arguments Appellants actually raised in the Briefs. Any other arguments
+Appellants could have made but chose not to make in the Briefs are deemed
+to be waived. See 37 C.F.R. § 41.37(c)(l)(iv) (2012).
+
+3
+
+Appeal2015-000121
+Application 11/928,251
+Regarding the rejection of claim 1, Appellants argue that the
+combination of Dreiseitel and Tilp does not teach or suggest "replacing
+portions of the noise reduced signal with the corresponding portions of the
+reconstructed speech signal based on the input-signal-to-noise ratio or the
+signal to-noise ratio to generate an enhanced speech output signal." App.
+Br. 5-12, Reply Br. 2-9. In particular, Appellants argue Dreiseitel teaches a
+bandwidth extension system with a bandpass path and a bandstop path while
+Tilp teaches a system having an attenuated highpass path and a lowpass path
+filtered with pitch frequency. App. Br. 3. According to Appellants,
+Dreiseitel simply extends telephone bandwidth by combining nonoverlapping frequency bands without regards to signal to noise ratio (SNR).
+Id. at 7. Likewise, Appellants submit the noise reduction and filtering
+
+disclosed in Tilp merely attenuates noise components below the pitch
+frequency and between the harmonics of voiced speech, as opposed to
+replacing any portion of a filtered signal. Id. at 8-11. Appellants therefore
+submit that because "reconstructing a signal is performed on a signal without
+any noise reduction, it would not make sense to reconstruct the signal after
+noise reduction in the context of the claimed invention since the signal is
+performed due to low SNR." Id. at 12. This argument is not persuasive.
+As correctly noted by the Examiner, Appellants' argument is
+tantamount to an individual attack against Dreiseitel and Tilp, as opposed to
+an argument against the combination thereof. Ans. 30. In particular, we
+agree with the Examiner that Dreiseitel' s disclosure of splitting an input
+speech into overlapping blocks to thereby filter out unwanted noise
+components based on the SNR therein teaches filtering an speech input
+signal to generate a noise reduced signal. Ans. 30 (citing Dreiseitel 433).
+
+4
+
+Appeal2015-000121
+Application 11/928,251
+Likewise, we agree with the Examiner that Dreiseitel' s disclosure of
+combining the extracted spectral envelope with the excitation portion of the
+speech input signal teaches combining complementary portions of the input
+signal to produce a reconstructed speech signal. Id. at 32-33 (citing
+Dreiseitel, Fig. 11.11 ). Additionally, we agree with the Examiner that Tilp's
+disclosure of combining a noise reduced input signal with a reconstructed
+input signal wherein the different portions thereof have been weighted to
+determine whether the SNR exceeds a predetermined threshold teaches
+replacing perturbed portions in the noise reduced signal to produce an
+enhanced input signal. Id. at 37-38 (citing Tilp, sec. 2.2, Fig. 2). In other
+words, we agree with the Examiner that the proposed combination of
+Dreiseitel and Tilp would predictably result in the noise reduced signal and
+reconstructed signal covering the same frequency range such that noise
+reduced signal portions identified as being perturbed based on their SNR can
+be replaced with corresponding ones from the reconstructed signal. Id. at
+41--47. Accordingly, we are not persuaded the Examiner erred in rejecting
+claim 1.
+Regarding the rejection of claim 2, Appellants argue the Examiner
+erred in finding the combination of Dreiseitel and Tilp teaches or suggests
+all the limitations recited in the claim. App. Br. 13. This argument is not
+persuasive because it fails to identify an error in the Examiner's finding.
+Appellants are reminded that merely reciting the claim limitations and
+findings relied upon by the Examiner in the rejection is not a responsive
+argument. Such a response to the Examiner's findings is insufficient to
+persuade us of Examiner error, as mere attorney arguments and conclusory
+statements that are unsupported by factual evidence are entitled to little
+
+5
+
+Appeal2015-000121
+Application 11/928,251
+probative value. Jn re Geisler, 116 F.3d 1465, 1470 (Fed. Cir. 1997); see
+also In re De Blauwe, 736 F.2d 699, 705 (Fed. Cir. 1984); Ex parte Belinne,
+No. 2009-004693, slip op. at 7-8 (BPAI Aug. 10, 2009) (informative); see
+also In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011) ("[W]e hold that the
+Board reasonably interpreted Rule 41.37 to require more substantive
+arguments in an appeal brief than a mere recitation of the claim elements and
+a naked assertion that the corresponding elements were not found in the
+prior art."); cf In re Baxter Travenol Labs., 952 F.2d 388, 391 (Fed. Cir.
+1991) ("It is not the function of this court to examine the claims in greater
+detail than argued by an appellant, looking for [patentable] distinctions over
+the prior art.") Accordingly, we sustain the rejection of claim 2.
+Regarding claims 3-24, because Appellants reiterate substantially the
+same arguments as those previously discussed for patentability of claims 1,
+and 2 above, claims 3-24 fall therewith. See 37 C.F.R. § 41.37(c)(l)(iv).
+DECISION
+For the above reasons, we affirm the Examiner's rejections of claims
+1-24.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

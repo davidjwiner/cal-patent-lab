@@ -1,0 +1,2327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd "> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+
+
+
+
+<head>
+
+<script type="text/javascript" src="https://components.uspto.gov/js/ais/google-analytics.js"></script>
+	<!-- START USPTO GLOBAL HEADER HEAD INFO -->
+		<meta charset="utf-8">		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<!-- USPTO Global Header CSS -->
+		<link rel="stylesheet" type="text/css" href="uhf/css/usptostrap.min.css">
+		<link rel="stylesheet" type="text/css" href="uhf/css/uspto-header-styles.css">
+		<!--[if lt IE 9]>
+			  <script src="uhf/scripts/html5shiv.min.js"></script>
+			  <script src="uhf/scripts/respond.min.js"></script>
+			  <link rel="stylesheet" type="text/css" href="uhf/css/ie8.css">
+		<![endif]-->
+		
+	<!-- END USPTO GLOBAL HEADER HEAD INFO -->
+
+</head>
+
+
+
+
+
+
+<script language="JavaScript" src="script/AnchorPosition.js"></script>
+<script language="JavaScript" src="script/PopupWindow.js"></script>
+<script language="JavaScript" src="script/CalendarPopup.js"></script>
+
+<script language="JavaScript" src="script/date.js"></script>
+<script language="JavaScript" src="script/validateDateTime.js"></script>
+<script language="JavaScript" src="script/errormsgs.js"></script>
+ 
+<script language="JavaScript">
+	// Create CalendarPopup object and specify properties
+	var cal = new CalendarPopup();	//Popup window
+	//var cal = new CalendarPopup("divCalendar");	//DIV window
+	cal.showYearNavigation();
+</script>
+<noscript>Javascript calendar function to select dates</noscript>
+
+
+<title>FOIA Final Decisions - View in sections</title>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function clearText(clr) {
+	if (document.SearchEfoia.identifier.value !='inv') {
+		if (clr.name == "SearchId") {
+			document.SearchEfoia.txtInput_EndDate.value="";
+			document.SearchEfoia.txtInput_StartDate.value="";
+			document.SearchEfoia.docTextSearch.value="";
+		} else {
+			document.SearchEfoia.SearchId.value="";
+		}
+	}
+}
+ 
+function submit()
+{
+document.SearchEfoia.submit();
+}
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}  
+MM_reloadPage(true);
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+} 
+   
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+} 
+
+function init()
+{
+
+if (document.SearchEfoia.txtInput_StartDate.value.length >0)
+{
+    document.SearchEfoia.txtInput_StartDate.focus();
+}
+// #6000 John Fadgen (Raytheon) 8/7/2006 - Changed from "else" for in the case of TTABReadingRoom.jsp where
+//         the "SearchId" box will be hidden if the identifier uses a dropdown menu.
+else if(document.SearchEfoia.SearchId.style.display!="none")
+{
+    document.SearchEfoia.SearchId.focus();
+}
+
+}
+//-->   
+
+</script>
+
+<!-- SITE STYLE SHEET START -->
+
+<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, print" />
+<!-- SITE STYLE SHEET END -->
+
+
+</head>
+   
+  
+<body>
+<!-- USPTO GLOBAL HEADER -->
+		<!--Start global header -->
+		<div id="usptoGlobalHeader">	
+			<div class="uspto-header-top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="http://www.uspto.gov" target="_blank" class="uspto-logo" title="United States Patent and Trademark Office - An Agency of the Department of Commerce"></a>
+							<div class="pull-right" id="uspto-header-links">
+								<span><a href="http://www.uspto.gov/about-us" target="_blank">About Us</a></span>
+								<span><a href="http://www.uspto.gov/careers" target="_blank">Careers</a></span>
+								<span><a href="http://www.uspto.gov/about-us/contact-us" target="_blank">Contact Us</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	    <!--end global header -->
+
+		<!-- START MAIN CONTENT AREA -->
+		<div id="mainArea">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+
+<table width="100%" border="0" cellpadding="3" cellspacing="0" bgcolor="#F0F0F0">
+  <tr>
+    <td bgcolor="#F0F0F0" >
+      <table border="0" cellspacing="0" cellpadding="1">
+        <tr>
+          <td class="vertbarsmall">
+              <b><a href="http://www.uspto.gov/web/offices/dcom/gcounsel/index.htm">Boards&nbsp;&amp;&nbsp;Counsel</a> &gt; </b>
+              <b><a href="http://www.uspto.gov/ptab">PTAB</a> &gt; </b>
+              <span class="caption">Final Decisions of the Patent Trial and Appeal Board</span></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#F0E0AA" class="vertbarsmall"><img src="http://www.uspto.gov/images/blank.gif" alt="" width="15" height="1" border="0"/></td>
+  </tr>
+</table>
+<br/>
+
+
+
+
+
+
+
+
+<p> Welcome to the USPTO e-FOIA page.  Through this page you can search for publicly available final decisions rendered by the Patent Trial and Appeal Board.In the field below you can enter a proceeding number to search the collection of available decisions.If you do not have a proceeding number but you know the caption of the case you are looking for, for example ABC Co. v. University of Illinois, or you know a text string found in thecase you can search the collection by using the "Search Document Text" field by typing the text string in the search field.The Final Decision date range starts on July 1, 1997 </p>
+
+
+
+
+
+<body onload="init()">
+<form name="SearchEfoia" method="get" action="DispatchBPAIServlet"
+onsubmit="AdvGenerateReport.disabled=1;btnGenerateReport.disabled=1;">
+<!-- COPY -->
+<table class="searchForm"  style="frame:box">
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<label for="identifier" class="vertbarsmall">Search by Identifier:&nbsp;</label>
+		</td>
+		<td class="td" nowrap="nowrap">
+			<select name="Objtype" id="identifier" size="1" onchange="clearText(this)" title="Select Identifier to Search by">
+				<option value="ser" title="Application Number" selected>Application No</option>
+				<option value="pat" title="Patent Number" >Patent No</option>
+				<option value="appeals" title="Appeal Number" >Appeal No</option>
+				<option value="intf" title="Interferences" >Interference No</option>
+				<option value="pub" title="Publication Number" >Publication No</option>
+				<option value="inv" title="Inventor Name" >Inventor Name</option>
+					<!-- Added 110612 PRPS -->
+				<option value="pro" title="Case Number" >Case No</option>
+			</select> &nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<label for="anumber" class="vertbarsmall">Identifier:&nbsp;</label>
+		</td>
+		<td class="td" nowrap="nowrap">
+			<input title="Search Identifier" id="anumber" type="text" 
+			    size="15" maxlength="15" name="SearchId" value=""
+			    onkeypress="clearText(this)" onkeydown="clearText(this)" onchange="clearText(this)"/>
+		</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap" style="text-align:right">
+
+		</td>
+		<td class="td" nowrap="nowrap">
+			<input id="btnGenerateReport" title="Get Information" type="submit" value="Get Info"/>
+		</td>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<label for="SearchRng" class="vertbarsmall">Search by Range:&nbsp;</label>
+		</td>
+		<td class="td" nowrap="nowrap">
+			<select title="Select Identifier to Search by Range" name="SearchRng" id="SearchRng" size="1" 
+			    onkeypress="clearText(this)" onkeydown="clearText(this)"  onchange="clearText(this)" >
+				<option value="decDt" title="Decision Date" selected>Decision date</option>
+				<option value="issDt" title="Issue Date" >Issue date</option>
+				<option value="pubDt" title="Publication Date" >Publication date</option>
+			</select> &nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<span id="rptInput_StartDate" class="vertbarsmall">
+				<label for="txtInput_StartDate">Start Date <span style="font-size:smaller;"><em>(mm/dd/yyyy)</em>:</span></label>
+			</span>
+		</td>
+		<td class="td" nowrap="nowrap">
+			<input alt="Start Date" title="Start Date" id="txtInput_StartDate" 
+			    size="10" name="txtInput_StartDate" 
+			    onkeypress="clearText(this)" onkeydown="clearText(this)" onchange="clearText(this)"
+			    value="09/01/1951" maxlength="10"/>
+			<a id="anchorCal2" onclick="cal.select(document.SearchEfoia.txtInput_StartDate,'anchorCal2', 'MM/dd/yyyy'); return false;" href="#" name="anchorCal2">
+				<img alt="Calendar for Start Date" src="img/calendar.gif" width="25px" height="19px" border="0" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<span id="rptInput_EndDate" class="vertbarsmall">
+				<label for="txtInput_EndDate">End Date <span style="font-size:smaller;"><em>(mm/dd/yyyy)</em>:</span></label>
+			</span>
+		</td>
+		<td class="td" nowrap="nowrap">
+		    <input alt="End Date" id="txtInput_EndDate" 
+		        size="10" title="End Date" name="txtInput_EndDate" 
+			    onkeypress="clearText(this)" onkeydown="clearText(this)" onchange="clearText(this)"
+		        value="09/21/2016" maxlength="10"/>
+
+			<a id="anchorCal3" onclick="cal.select(document.SearchEfoia.txtInput_EndDate,'anchorCal3', 'MM/dd/yyyy'); return false;" href="#" name="anchorCal3">
+				<img alt="Calendar for End Date" src="img/calendar.gif" border="0" width="25px" height="19px" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="labelCol" nowrap="nowrap" style="vertical-align:top;padding-top:7px;">
+			<label for="docTextSearch" class="vertbarsmall">Search Document Text:&nbsp;</label>
+		</td>
+		<td class="td">
+			<input title="Search Document Text" id="docTextSearch" type="text" 
+			    onkeypress="clearText(this)" onkeydown="clearText(this)" onchange="clearText(this)"
+			    size="50" maxlength="100" name="docTextSearch" value=""/>
+				
+			    <br/><div class="textSearchMessage">Search syntax:  Use the operators AND, OR, and AND NOT between search terms along with parentheses, e.g. (&#034;john deere&#034; or graham) and not &#034;prior art&#034;
+			    </div>
+			    
+		</td>
+	</tr>
+	<tr>
+		<td class="td" nowrap="nowrap">
+			<span id="page" class="vertbarsmall">
+			<label for="pageRw">Records per Page:&nbsp;</label>
+            </span>
+		</td>
+		<td class="td" nowrap="nowrap">
+			<select name="page" id="pageRw" size="1">
+				<option value="60" title="60 per Page" selected>60</option>
+				<option value="45" title="45 per Page" >45</option>
+				<option value="30" title="30 per Page" >30</option>
+				<option value="15" title="15 per Page" >15</option>				
+			</select> &nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td nowrap="nowrap" style="text-align:left">
+			<input id="AdvGenerateReport" alt="Get Information" title="Get Information"	
+			    type="submit" value="Get Info"/>
+
+			<span style="padding-left: 30px;"></span>
+						
+			<a class="retrieve" href="DispatchBPAIServlet?RetrieveRecent=30">Retrieve Decisions from the past 30 days</a> 
+		</td>
+	</tr>
+</table>
+<!-- END COPY -->
+<br/>
+</form>
+
+
+
+ 
+
+<a name="results"></a>
+
+<div class="main-container">	
+
+
+
+
+  <span style="font-weight:bold;">All files are in Adobe PDF</span>
+  <br/><a title="Download PDF Plugin" href="http://www.uspto.gov/web/menu/plugins/pdf.htm"
+			style="font-size: 10px;">Download PDF Plugin</a><br/><br/>
+
+	<span class="sansserif" style="">
+        
+Document Types:  (D) - Decision, (J) - Judgment, (M) - Decision on Motions, 
+(O) - Order, (R) - Rehearing on Decision, (S) - Subsequent Decision <br/>
+	    * - Sorted Column<br/>
+	</span>
+    <br/>
+
+
+    <p class="display">Search By Decison&#x20;date&#x20;range&#x20;&#x3a;&#x20;From&#x20;07&#x2f;01&#x2f;1997&#x20;to&#x20;09&#x2f;21&#x2f;2016</p>
+
+
+ <span class="pagebanner">101,455 items found, displaying 57,361 to 57,420.</span><span class="pagelinks">[<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=1&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">First</a>/<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=956&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Prev</a>] <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=953&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 953">953</a>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=954&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 954">954</a>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=955&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 955">955</a>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=956&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 956">956</a>, <strong>957</strong>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=958&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 958">958</a>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=959&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 959">959</a>, <a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=960&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951" title="Go to page 960">960</a> [<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=958&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Next</a>/<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;d-3995525-p=1691&amp;page=60&amp;txtInput_EndDate=09%2F21%2F2016&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Last</a>]</span>
+<table id="efoiaLst" summary="The results of a BPAI Reading Room search" class="displayTable">
+<caption>
+	Final Decisions of the Patent Trial and Appeal Board</caption>
+<thead>
+<tr>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=0&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Application No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=1&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Appeal No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=2&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Interference No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=3&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Publication No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=4&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Publication Date <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=5&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Patent No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=6&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Issue Date <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=7&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">*Decision Date <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=8&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Inventor Name <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th>
+<th scope="col" class="sortable">
+<a href="DispatchBPAIServlet;jsessionid=A8C2C99E32456030FDA56188F0D4FD03.prod_cidmext_jboss1_jvm2?SearchRng=decDt&amp;docTextSearch=&amp;page=60&amp;d-3995525-p=1&amp;d-3995525-s=9&amp;txtInput_EndDate=09%2F21%2F2016&amp;d-3995525-o=2&amp;SearchId=&amp;Objtype=ser&amp;txtInput_StartDate=09%2F01%2F1951">Case No <img src='img/sort.gif' alt='sort' width='20' height='20' border='0' align='absmiddle'></a></th></tr></thead>
+<tbody>
+<tr class="odd">
+<td>
+		<a name="90009310"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011007063-09-29-2011-1">
+		
+		90009310</a> - (D)
+	</td>
+<td>
+			2011007063
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte 7291182 et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11533075"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010002704-09-29-2011-1">
+		
+		11533075</a> - (D)
+	</td>
+<td>
+			2010002704
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070062058A1
+	</td>
+<td>03/22/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Perez
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11545393"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010010812-09-29-2011-1">
+		
+		11545393</a> - (D)
+	</td>
+<td>
+			2010010812
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070029262A1
+	</td>
+<td>02/08/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Dart et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11581183"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010001064-09-29-2011-1">
+		
+		11581183</a> - (D)
+	</td>
+<td>
+			2010001064
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070037372A1
+	</td>
+<td>02/15/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Kavalieros et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11360141"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd105712-09-29-2011-1">
+		
+		11360141</a> - (J)
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+			105712
+	</td>
+<td>
+		20070027098A1
+	</td>
+<td>02/01/2007</td>
+<td>
+		          
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		DAVIS et al. V. Raz et al. 
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11357473"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011272-09-29-2011-1">
+		
+		11357473</a> - (D)
+	</td>
+<td>
+			2009011272
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070198780A1
+	</td>
+<td>08/23/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Boyd et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11395994"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010005404-09-29-2011-1">
+		
+		11395994</a> - (D)
+	</td>
+<td>
+			2010005404
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070289814A1
+	</td>
+<td>12/20/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Sawyer
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11478455"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010006579-09-29-2011-1">
+		
+		11478455</a> - (D)
+	</td>
+<td>
+			2010006579
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070015902A1
+	</td>
+<td>01/18/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Rappoport et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11462049"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010006480-09-29-2011-1">
+		
+		11462049</a> - (D)
+	</td>
+<td>
+			2010006480
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070033091A1
+	</td>
+<td>02/08/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Ravikumar et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11265342"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009008824-09-29-2011-1">
+		
+		11265342</a> - (D)
+	</td>
+<td>
+			2009008824
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070101135A1
+	</td>
+<td>05/03/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Saba et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11256728"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010003366-09-29-2011-1">
+		
+		11256728</a> - (D)
+	</td>
+<td>
+			2010003366
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060060506A1
+	</td>
+<td>03/23/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Siskin et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11272565"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009014301-09-29-2011-1">
+		
+		11272565</a> - (D)
+	</td>
+<td>
+			2009014301
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060141429A1
+	</td>
+<td>06/29/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Schutte et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11298438"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009009495-09-29-2011-1">
+		
+		11298438</a> - (D)
+	</td>
+<td>
+			2009009495
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070133135A1
+	</td>
+<td>06/14/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Kilroy et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11157019"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009013883-09-29-2011-1">
+		
+		11157019</a> - (D)
+	</td>
+<td>
+			2009013883
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050284648A1
+	</td>
+<td>12/29/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Frauhammer et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11172492"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012126-09-29-2011-1">
+		
+		11172492</a> - (D)
+	</td>
+<td>
+			2010012126
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070016449A1
+	</td>
+<td>01/18/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Cohen et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="11001436"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009007106-09-29-2011-1">
+		
+		11001436</a> - (D)
+	</td>
+<td>
+			2009007106
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060114864A1
+	</td>
+<td>06/01/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Fuccello et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11042256"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009013759-09-29-2011-1">
+		
+		11042256</a> - (D)
+	</td>
+<td>
+			2009013759
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060168414A1
+	</td>
+<td>07/27/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Nobunaga et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10905604"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009010638-09-29-2011-1">
+		
+		10905604</a> - (D)
+	</td>
+<td>
+			2009010638
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060155739A1
+	</td>
+<td>07/13/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Broder et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10947093"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010010977-09-29-2011-1">
+		
+		10947093</a> - (D)
+	</td>
+<td>
+			2010010977
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050153847A1
+	</td>
+<td>07/14/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Chambard et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10953849"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009008696-09-29-2011-1">
+		
+		10953849</a> - (D)
+	</td>
+<td>
+			2009008696
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060070048A1
+	</td>
+<td>03/30/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Li et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10951938"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010011915-09-29-2011-1">
+		
+		10951938</a> - (D)
+	</td>
+<td>
+			2010011915
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		8204798   
+	</td>
+<td>06/19/2012</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Barbeau et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10721382"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010004083-09-29-2011-1">
+		
+		10721382</a> - (D)
+	</td>
+<td>
+			2010004083
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20040104457A1
+	</td>
+<td>06/03/2004</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Tan et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10846724"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011274-09-29-2011-1">
+		
+		10846724</a> - (D)
+	</td>
+<td>
+			2009011274
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050278464A1
+	</td>
+<td>12/15/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Claseman
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10844369"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010004866-09-29-2011-1">
+		
+		10844369</a> - (D)
+	</td>
+<td>
+			2010004866
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050255195A1
+	</td>
+<td>11/17/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Steinhauer
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10879927"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010000686-09-29-2011-1">
+		
+		10879927</a> - (D)
+	</td>
+<td>
+			2010000686
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050289363A1
+	</td>
+<td>12/29/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Tsirkel et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10873714"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012047-09-29-2011-1">
+		
+		10873714</a> - (D)
+	</td>
+<td>
+			2010012047
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050183326A1
+	</td>
+<td>08/25/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Lin et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10565322"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011008002-09-29-2011-1">
+		
+		10565322</a> - (D)
+	</td>
+<td>
+			2011008002
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20060182797A1
+	</td>
+<td>08/17/2006</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Karavas et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10555286"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012157-09-29-2011-1">
+		
+		10555286</a> - (D)
+	</td>
+<td>
+			2010012157
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070179183A1
+	</td>
+<td>08/02/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Jimenez Mayorga et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10592017"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010006746-09-29-2011-1">
+		
+		10592017</a> - (D)
+	</td>
+<td>
+			2010006746
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20080241044A1
+	</td>
+<td>10/02/2008</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Kuebelbeck
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10594780"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011001681-09-29-2011-1">
+		
+		10594780</a> - (D)
+	</td>
+<td>
+			2011001681
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20070282147A1
+	</td>
+<td>12/06/2007</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Gulevich et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10627162"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010004515-09-29-2011-1">
+		
+		10627162</a> - (D)
+	</td>
+<td>
+			2010004515
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20040152832A1
+	</td>
+<td>08/05/2004</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Kirchmeyer et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10648590"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009014038-09-29-2011-1">
+		
+		10648590</a> - (D)
+	</td>
+<td>
+			2009014038
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050045498A1
+	</td>
+<td>03/03/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Purcell et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10674448"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010005994-09-29-2011-1">
+		
+		10674448</a> - (D)
+	</td>
+<td>
+			2010005994
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050069458A1
+	</td>
+<td>03/31/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Hodes et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10427699"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009012936-09-29-2011-1">
+		
+		10427699</a> - (D)
+	</td>
+<td>
+			2009012936
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030229616A1
+	</td>
+<td>12/11/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Wong
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10413849"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010009940-07-17-2012-2">
+		
+		10413849</a> - (R)
+	</td>
+<td>
+			2010009940
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030209499A1
+	</td>
+<td>11/13/2003</td>
+<td>
+		          
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Haase
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10413849"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010009940-09-29-2011-1">
+		
+		10413849</a> - (D)
+	</td>
+<td>
+			2010009940
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030209499A1
+	</td>
+<td>11/13/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Haase
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10509410"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009010626-09-29-2011-1">
+		
+		10509410</a> - (D)
+	</td>
+<td>
+			2009010626
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050185149A1
+	</td>
+<td>08/25/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Lurkens et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10504554"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011279-09-29-2011-1">
+		
+		10504554</a> - (D)
+	</td>
+<td>
+			2009011279
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050216480A1
+	</td>
+<td>09/29/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Wefers et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10522471"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010000355-09-29-2011-1">
+		
+		10522471</a> - (D)
+	</td>
+<td>
+			2010000355
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20050206086A1
+	</td>
+<td>09/22/2005</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Bell et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10258980"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009014881-09-29-2011-1">
+		
+		10258980</a> - (D)
+	</td>
+<td>
+			2009014881
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030227567A1
+	</td>
+<td>12/11/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Plotnick et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10257802"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011817-09-29-2011-1">
+		
+		10257802</a> - (D)
+	</td>
+<td>
+			2009011817
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030171905A1
+	</td>
+<td>09/11/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Wagner et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10366091"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011273-09-29-2011-1">
+		
+		10366091</a> - (D)
+	</td>
+<td>
+			2009011273
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030182303A1
+	</td>
+<td>09/25/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Gibson
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10363640"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011549-09-29-2011-1">
+		
+		10363640</a> - (D)
+	</td>
+<td>
+			2009011549
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20040007177A1
+	</td>
+<td>01/15/2004</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Ohmi et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10387614"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009014518-09-29-2011-1">
+		
+		10387614</a> - (D)
+	</td>
+<td>
+			2009014518
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20040181596A1
+	</td>
+<td>09/16/2004</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Sabiers et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="09325193"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd105712-09-29-2011-1">
+		
+		09325193</a> - (J)
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+			105712
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		6406705   
+	</td>
+<td>06/18/2002</td>
+<td>09/29/2011</td>
+<td>
+		DAVIS et al. V. Raz et al. 
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="09843659"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009007636-09-29-2011-1">
+		
+		09843659</a> - (D)
+	</td>
+<td>
+			2009007636
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		8180684   
+	</td>
+<td>05/15/2012</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Wittsche
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="09931577"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010003974-09-29-2011-1">
+		
+		09931577</a> - (D)
+	</td>
+<td>
+			2010003974
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20020031188A1
+	</td>
+<td>03/14/2002</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Negishi et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10097934"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009012940-09-29-2011-1">
+		
+		10097934</a> - (D)
+	</td>
+<td>
+			2009012940
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20020138563A1
+	</td>
+<td>09/26/2002</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte Trivedi
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="95001010"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011005771-09-29-2011-2">
+		
+		95001010</a> - (D)
+	</td>
+<td>
+			2011005771
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/29/2011</td>
+<td>
+		Ex Parte 7090906 et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10063937"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009011044-09-28-2011-1">
+		
+		10063937</a> - (D)
+	</td>
+<td>
+			2009011044
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030225448A1
+	</td>
+<td>12/04/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Gerberding
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="10128598"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009013645-09-28-2011-1">
+		
+		10128598</a> - (D)
+	</td>
+<td>
+			2009013645
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20030131097A1
+	</td>
+<td>07/10/2003</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Kasriel et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="10155723"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2009013106-09-28-2011-1">
+		
+		10155723</a> - (D)
+	</td>
+<td>
+			2009013106
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20040205512A1
+	</td>
+<td>10/14/2004</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Hoover et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="95001309"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011010923-09-28-2011-1">
+		
+		95001309</a> - (D)
+	</td>
+<td>
+			2011010923
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte 7559414 B2 et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="95001030"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011008243-09-28-2011-1">
+		
+		95001030</a> - (D)
+	</td>
+<td>
+			2011008243
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte 6985494 et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11898557"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010009496-09-28-2011-1">
+		
+		11898557</a> - (D)
+	</td>
+<td>
+			2010009496
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20080008876A1
+	</td>
+<td>01/10/2008</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Laird et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="12000576"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2011009784-09-28-2011-1">
+		
+		12000576</a> - (D)
+	</td>
+<td>
+			2011009784
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Lee
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="11968376"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010010761-09-28-2011-1">
+		
+		11968376</a> - (D)
+	</td>
+<td>
+			2010010761
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20080102249A1
+	</td>
+<td>05/01/2008</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Ristoski et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="12156897"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012459-09-28-2011-1">
+		
+		12156897</a> - (D)
+	</td>
+<td>
+			2010012459
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		20090304762A1
+	</td>
+<td>12/10/2009</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte Li
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="odd">
+<td>
+		<a name="90007861"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012530-09-28-2011-1">
+		
+		90007861</a> - (D)
+	</td>
+<td>
+			2010012530
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte 6933608 et al
+	</td>
+<td>
+			NONE
+			</td></tr>
+<tr class="even">
+<td>
+		<a name="90008629"></a>
+				<!-- Added 110712 PRPS -->
+		
+		<a target="_self" href="RetrievePdf?system=BPAI&flNm=fd2010012530-09-28-2011-1">
+		
+		90008629</a> - (D)
+	</td>
+<td>
+			2010012530
+	</td>
+<td>
+			NONE
+	</td>
+<td>
+		NONE
+	</td>
+<td>NONE</td>
+<td>
+		          
+	</td>
+<td>NONE</td>
+<td>09/28/2011</td>
+<td>
+		Ex Parte 6933608 et al
+	</td>
+<td>
+			NONE
+			</td></tr></tbody></table>		
+
+</div>
+
+</body>
+
+
+
+    <!-- FOOTER START -->
+    <table border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+      <tr>
+        <td>
+            <table width="100%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#C0C0C0">
+              <tr>
+                <td align="center"><strong>KEY</strong>: 
+                  <img src="http://www.uspto.gov/images/20ebiz.gif" width="20" height="12" border="0" align="middle" alt="e Biz"/>=online
+                  business system&nbsp;
+                  <img src="http://www.uspto.gov/images/20fees.gif" alt="fees" width="20" height="12" align="middle"/>=fees 
+                  <img src="http://www.uspto.gov/images/20forms.gif" width="20" height="12" border="0" align="middle" alt="forms"/>=forms
+                  <img src="http://www.uspto.gov/images/20help.gif" alt="help" width="20" height="12" align="middle"/>=help 
+                  <img src="http://www.uspto.gov/images/20laws.gif" alt="laws and regs" width="20" height="12" align="middle"/>=laws/regulations 
+                  <img src="http://www.uspto.gov/images/glossary.gif" alt="definition" width="15" height="15" align="middle"/>=definition
+                  (glossary)</td>
+              </tr>
+            </table>
+            <p class="smalltext"><i>Is there a question about what the USPTO
+                can or cannot do that you cannot find an answer for? Send questions
+                about USPTO programs and services to the</i><b> <a href="http://www.uspto.gov/web/menu/feedback.html">USPTO Contact Center (UCC)</a>. 
+                </b><i>You can suggest
+                    USPTO webpages or material you would like featured
+                    on this section by </i> <i>E-mail
+                    to the </i><b><a href="mailto:webmaster@uspto.gov?subject=site_question">webmaster@uspto.gov</a></b><i>.
+                    While we cannot promise to accommodate all requests, your
+                    suggestions will be considered and may lead to other improvements
+                    on the website. </i></p>
+        </td>
+      </tr>
+</table>
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr bgcolor="#ffffff">
+      <td  align="right" valign="top" bgcolor="#F0F0F0">
+        <div align="center">
+          <hr/>
+          <span class="vertbarsmall">
+            |<a href="#skipnav2" class="darkbg"></a><a href="http://www.uspto.gov">HOME</a> 
+            | <a href="http://www.uspto.gov/web/navaids/siteindx.htm">INDEX</a>
+            | <a href="http://www.uspto.gov/web/menu/search.html">SEARCH</a>
+		    | <a href="http://www.uspto.gov/ebc/indexebc.html"><em>e</em>BUSINESS</a>
+		    | <a href="http://www.uspto.gov/web/menu/feedback.html">HELP</a> 
+		    | <a href="http://www.uspto.gov/web/doc/privact.htm">PRIVACY POLICY</a>&nbsp;
+          </span><a name="skipnav2"></a>
+        </div>
+          <p align="right" class="tinytext">
+          <script ><!--hide from non-JavaScript browsers
+          document.write("Last Modified: "+document.lastModified);
+          // end hiding -->
+          </script>
+        <noscript class="tinytext">
+          javascript displays date of file obtained from webserver
+        </noscript></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+<!-- FOOTER END -->
+						<!-- END CONTENT HERE -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MAIN CONTENT AREA -->
+		
+		<!-- ACTUAL FOOTER CONTENT START FROM HERE -->
+		<div id="usptoAppFooter">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="uspto-footer-top col-sm-12">
+						<div class="uspto-footer-logo col-sm-10">
+							<a class="logo" href="http://www.uspto.gov/" title="United States Patent and Trademark Office - An Agency of the Department of Commerce">
+								<span class="sr-only">United States Patent and Trademark Office - An Agency of the Department of Commerce</span>
+							</a>
+						</div>
+						<div class="uspto-footer-watermark col-sm-2" title="United States Patent and Trademark Office - An Agency of the Department of Commerce">
+							<span class="sr-only">United States Patent and Trademark Office - An Agency of the Department of Commerce</span>
+						</div>
+					</div>
+					<div class="uspto-footer-middle col-sm-12">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-topic"> Browse By Topic <i class="icon icon-sort-desc icon-inverse"></i> </button>
+						</div>
+						<div class="uspto-footer-column col-sm-3 collapse navbar-collapse" id="navbar-collapse-topic">
+							<h2>Browse By Topic</h2>
+							<ul>
+								<li><a href="http://www.uspto.gov/patent">Patents</a></li>
+								<li><a href="http://www.uspto.gov/trademark">Trademarks</a></li>
+								<li><a href="http://www.uspto.gov/learning-resources">Learning &amp; Resources</a></li>
+								<li><a href="http://www.uspto.gov/about-us">About the USPTO</a></li>
+								<li><a href="http://www.uspto.gov/learning-and-resources/glossary">Glossary</a></li>
+								<li><a href="http://www.uspto.gov/careers">Careers</a></li>
+								<li><a href="http://www.uspto.gov/about-us/contact-us">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-about"> About This Site <i class="icon icon-sort-desc icon-inverse"></i> </button>
+						</div>
+						<div class="uspto-footer-column col-sm-3 collapse navbar-collapse" id="navbar-collapse-about">
+							<h2>About This Site</h2>
+							<ul>
+								<li><a href="http://www.uspto.gov/using-usptogov/accessibility-uspto-website">Accessibility</a></li>
+								<li><a href="http://www.uspto.gov/privacy-policy">Privacy Policy</a></li>
+								<li><a href="http://www.uspto.gov/terms-use-uspto-website">Terms of Use</a></li>
+								<li><a href="http://www.uspto.gov/about-us/security">Security</a></li>
+								<li><a href="http://www.uspto.gov/blog/ebiz/ ">Systems Status</a></li>
+								<li><a href="http://www.uspto.gov/sitemap">Site Map</a></li>
+							</ul>
+						</div>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-uspto"> USPTO Background <i class="icon icon-sort-desc icon-inverse"></i> </button>
+						</div>
+						<div class="uspto-footer-column col-sm-3 collapse navbar-collapse" id="navbar-collapse-uspto">
+							<h2>USPTO Background</h2>
+							<ul>
+								<li><a href="http://www.uspto.gov/about-us/performance-and-planning/federal-activities-inventory-reform-fair-act">Federal Activity Inventory Reform Act (FAIR)</a></li>
+								<li><a href="http://www.uspto.gov/about-us/performance-and-planning">USPTO Budget and Performance</a></li>
+								<li><a href="http://www.uspto.gov/learning-and-resources/ip-policy/electronic-freedom-information-act-e-foia">Freedom of Information Act</a></li>
+								<li><a href="http://www.uspto.gov/learning-and-resources/information-quality-guidelines">Information Quality Guidelines</a></li>
+							</ul>
+						</div>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-federal"> Federal Government <i class="icon icon-sort-desc icon-inverse"></i> </button>
+						</div>
+						<div class="uspto-footer-column col-sm-3 collapse navbar-collapse" id="navbar-collapse-federal">
+							<h2>Federal Government</h2>
+							<ul>
+								<li><a href="http://www.regulations.gov" target="_blank">Regulations.gov<span class="ext"><span class="sr-only"> (link is external)</span></span></a></li>
+								<li><a href="http://www.stopfakes.gov" target="_blank">StopFakes.gov<span class="ext"><span class="sr-only"> (link is external)</span></span></a></li>
+								<li><a href="http://www.usa.gov" target="_blank">USA.gov<span class="ext"><span class="sr-only"> (link is external)</span></span></a></li>
+								<li><a href="http://www.commerce.gov" target="_blank">Department of Commerce<span class="ext"><span class="sr-only"> (link is external)</span></span></a></li>
+								<li><a href="http://www.uspto.gov/learning-and-resources/ip-policy/enforcement/strategy-targeting-organized-piracy-stop">Strategy Targeting Organized Piracy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- jQuery --> 
+		<script src="uhf/scripts/jquery.min.js"></script> 
+		<!-- Bootstrap Core JavaScript --> 
+		<script src="uhf/scripts/bootstrap.min.js"></script>
+
+
+</html>

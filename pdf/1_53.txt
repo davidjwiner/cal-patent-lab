@@ -1,0 +1,292 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/978,859
+
+12/27/2010
+
+Roiger BRUNNBERG
+
+1406/696
+
+1993
+
+25297
+
+7590
+
+09/23/2016
+
+Jenkins, Wilson, Taylor & Hunt,
+3100 Tower Blvd.
+Suite 1200, University Tower
+Durham, NC 27707
+
+EXAMINER
+
+P,A,
+
+WANG, ERICH
+
+ART UNIT
+
+PAPER NUMBER
+
+2469
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@jwth.com
+mmcjunkin@jwth.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HOLGER BRUNNBERG, MARTIN OBERMALER,
+and DARLUSZ KRAKOWSKI
+
+Appeal2015-003114
+Application 12/978,859
+Technology Center 2400
+
+Before CAROLYN D. THOMAS, JOHN F. HORVATH, and
+KARA L. SZPONDOWSKI, Administrative Patent Judges.
+THOMAS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants seek our review under 35 U.S.C. § 134(a) from the
+Examiner's final rejection of claims 1-10, all the pending claims in the
+present application. See Claim Appendix; see also App. Br. 3--4. We have
+jurisdiction over the appeal under 35 U.S.C. § 6(b).
+We AFFIRM-IN-PART.
+
+Appeal2015-003114
+Application 12/978,859
+The present invention relates generally detecting a defective node
+which is connected to a bus. See Abstract.
+Claim 1 is illustrative:
+1.
+A method for detecting a defective node which is
+connected to a bus, comprising:
+incrementing, by a node, an internal error counter
+in a normal operating state of the node when an error is
+detected,
+switching the node to an isolated operating state of
+the node, in which the node does not exchange any messages
+via the bus if the internal error counter of the node exceeds a
+predetermined error threshold value,
+switching the node from the isolated operating
+state to the normal operating state when a condition is fulfilled,
+detecting the switching of the node from the
+isolated operating state to the normal operating state as state
+change, and
+detecting the node as being defective if a rate of
+the detected state changes exceeds an adjustable change rate or
+a number of detected state changes exceeds an adjustable state
+change threshold value.
+
+Appellants appeal the following rejections: 1
+RI. Claim 1 is rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kuban (US 2008/0274689 Al; Nov. 6, 2008) and Muto
+(US 4,951,281; Aug. 21, 1990) (see Ans. 3); and
+R2. Claims 2-10 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kuban, Muto, and Seven (US 2007/0018719 Al; Jan. 25,
+2007) (see Ans. 5).
+
+1
+
+The Examiner noted typographical errors and modified the grounds of
+rejection set forth in the Office Action dated February 28, 2014 due to the
+dependency discrepancies noted by Appellants (see Ans. 3, 20; see also
+App. Br. 8). In order to expedite matters, we shall accept this modification.
+2
+
+Appeal2015-003114
+Application 12/978,859
+ANALYSIS
+
+Procedural Matter
+Appellants contend that "[ t ]he amendments and new claims in the
+after-final amendment filed on March 29, 2014 should have been entered"
+(App. Br. 4). ln particular, the Examiner refused to enter the after-final
+amendment (see Ans. 19). \Ve take this opportunity to direct Appellants'
+attention to 1\!IPEP § 1201, which states:
+The line of demarcation between appealable matters for the
+Board of Patent Appeals and Interferences (Board) and
+petitionable matters for the Director of the U.S. Patent and
+Trademark Office (Director) should be carefully observed. The
+Board will not ordinarily hear a question that should be decided
+by the Director on petition, and the Di rector will not ordinarily
+entertain a petition where the question presented is a matter
+appealable to the Board.
+1\!lPEP § 1201,
+
+gth
+
+ed., rev. July 2008.
+
+In the prese11t
+
+case~
+
+it appears i\.ppellants 11ave not filed a petition to
+
+resolve the Examiner's refusal to enter proposed amendments prior to the
+matter reaching the Board. The Examiner's refusal to enter an amendment is
+reviewable by petition under 37 C.F.R. § 1.181 and thus not within the
+jurisdiction of the Board. 37 C.F.R. § 1.127 (2009); In re Mindick, 371 F.2d
+892, 894 (CCP A 1967) (holding that the refusal of an examiner to enter an
+arnendment after final rejection of claims is a matter of discretion, and any
+abuse of discretion is remedied by a Rule 181 petition to the Commissioner
+of Patents, and not by appeal to the Board of Appeals).
+In the present case, it would have been desirable for the Appellants to
+have resolved the refusal to enter proposed amendments by petition prior to
+the matter reaching the Board.
+
+3
+
+Appeal2015-003114
+Application 12/978,859
+
+Claim
+
+j
+
+Issue 1: Did the Examiner err in finding that Kuban and Muto
+collectively teaches or suggests detecting the node as being defective if a
+rate of the detected state changes exceeds an adjustable change rate, as set
+forth in claim 1?
+Appellants contend "counter B of Muto is tracking cumulated errors,
+but not the number or rate of state changes" (App. Br. 6). "None of the
+counters as taught by Muto are concerned with counting state changes ...
+the two desired results requires that the nodes be in opposing states" (id. at
+7).
+In response, the Examiner finds that "Muto discloses 'detecting the
+
+node as being defective' ... and 'if a number' ... 'exceeds an
+adjustable' ... 'threshold value' ... [and] Kuban teaches 'detected state
+changes"' (Ans. 15). We agree with the Examiner.
+Specifically, the Examiner is relying on the combined teachings of
+Muto and Kuban to teach or suggest detecting the node as being defective
+
+if
+
+a rate of the detected state changes exceeds an adjustable change rate or a
+number, as set forth in claim 1. For example, the Examiner relies on
+Kuban' s disclosure of state changes in that Kuban discloses
+[t]he error counters are incremented and decremented ... based
+on the type of error detected and the error state of the node ...
+nodes 112 with high error counts may be put in the passive state
+. . . . If their error counts are reduced ... they are allowed to
+rejoin the bus 114 in the active state
+
+(see Kuban i-f 45). Appellants' contentions fail to address the Examiner's
+aforementioned findings regarding Kuban, importantly because the
+Examiner imports Muto merely to highlight detecting the node as being
+
+4
+
+Appeal2015-003114
+Application 12/978,859
+
+defective if a number exceeds an adjustable threshold value (see ivluto 17: 15), not for counting state changes.
+Thus, Appellants' arguments do not take into account what the
+collective teachings of the prior art would have suggested to one of ordinary
+skill in the art and is, therefore, ineffective to rebut the Examiner's prima
+facie case of obviousness. See In re Keller, 642 F.2d 413, 425 (CCPA 1981)
+("The test for obviousness is not whether the features of a secondary
+reference may be bodily incorporated into the structure of the primary
+reference; nor is it that the claimed invention must be expressly suggested in
+any one or all of the references. Rather, the test is what the combined
+teachings of the references would have suggested to those of ordinary skill
+in the art.") (Citations omitted). This reasoning is applicable here.
+Accordingly, we sustain the Examiner's rejection of claim 1.
+
+Claims 2-10
+Issue 2: Has the Examiner met the burden of establishing that Seven
+
+constitutes analogous art?
+Appellants contend that "Seven is non-analogous art" (App. Br. 8)
+because "[t]his field of art [in Seven] is not even remotely related to the
+problem of the presently disclosed and claimed subject matter" (id. at 9).
+The field of endeavor test "requires the PTO to determine the
+appropriate field of endeavor by reference to explanations of the invention's
+subject matter in the patent application, including the embodiments,
+function, and structure of the claimed invention." In re Bigio, 381 F.3d
+1320, 1325 (Fed. Cir. 2004) (citation omitted). Here, the Examiner is silent
+about Appellants' field of endeavor and does not cite any evidence in the
+
+5
+
+Appeal2015-003114
+Application 12/978,859
+Specification supporting a conclusion that Appellants' field of endeavor is
+the same as Seven. See id. at 1326 ("[T]he PTO must show adequate
+support for its findings on the scope of the field of endeavor in the
+application's written description and claims, including the structure and
+function of the invention."). Thus, we agree with Appellants' contentions
+that the Examiner fails "to investigate the technical content and teachings of
+the instant patent application" (see Reply Br. 3).
+Likewise, the Examiner does not make any findings in support of a
+determination that Seven is analogous art under the second test. "A
+reference is reasonably pertinent if ... it is one which, because of the matter
+with which it deals, logically would have commended itself to an inventor's
+attention in considering his problem." In re Klein, 647 F.3d 1343, 1348
+(Fed. Cir. 2011) (quoting In re Clay, 966 F.2d 656, 659 (Fed. Cir. 1992).
+
+See also In re Oetiker, 977 F.2d 1443, 1447 (Fed. Cir. 1992) ("[I]t is
+necessary to consider 'the reality of the circumstances' ... -in other words,
+common sense-in deciding in which fields a person of ordinary skill would
+reasonably be expected to look for a solution to the problem facing the
+inventor."). Here, the Examiner does not identify the problem with which
+Appellants are involved, or explain how Seven is pertinent to that problem.
+Because the Examiner has not met the burden of establishing that
+Seven constitutes analogous art, we do not sustain the rejection of claims 210 as obvious in view of the cited references.
+
+DECISION
+We reverse the Examiner's§ 103(a) rejection of claims 2-10.
+We affirm the Examiner's§ 103(a) rejection of claim 1.
+
+6
+
+Appeal2015-003114
+Application 12/978,859
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+7
+
+

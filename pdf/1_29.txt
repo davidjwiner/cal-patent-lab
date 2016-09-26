@@ -1,0 +1,468 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/577,785
+
+10/13/2009
+
+Yasuhiko MATSUOKA
+
+348777USOCONT
+
+5012
+
+22850
+
+7590
+
+09/23/2016
+
+OBLON, MCCLELLAND, MAIER & NEUSTADT, LLP,
+1940 DUKE STREET
+ALEXANDRIA, VA 22314
+
+EXAMINER
+BUIE-HATCHER, NICOLE M
+
+ART UNIT
+
+PAPER NUMBER
+
+1767
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentdocket@oblon.com
+oblonpat@oblon.com
+ahudgens@oblon.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE
+THE PA TENT TRIAL AND APPEAL BOARD
+
+Ex parte YASUHIKO MATSUOKA, 1
+Kunio Watanabe, and Hiroki Kamiya
+
+Appeal2014-008335 2
+Application 12/577,785
+Technology Center 1700
+
+Before CATHERINE Q. TIMM, MARK NAGUMO, and
+JEFFREY R. SNAY, Administrative Patent Judges.
+NAGUMO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Y asuhiko Matsuoka, Kunio Watanabe, and Hiroki Kamiya
+("Matsuoka") timely appeal under 35 U.S.C. § 134(a) from the Final
+Rejection 3 of claims 1, 3, 5, 7, 9-11, and 13-1 7, which are all of the pending
+claims. We have jurisdiction. 35 U.S.C. § 6. We affirm.
+
+1
+
+The real party in interest is identified as Asahi Glass Company, Ltd.
+(Appeal Brief, filed 24 April 2014 ("Br."), 1.)
+2
+
+Heard 15 September 2016. Counsel's clear and vigorous advocacy at Oral
+Argument is noted with appreciation.
+3
+
+Office action mailed 13 November 2013 ("Final Rejection").
+
+Appeal2014-008335
+Application 12/577,785
+OPINION
+A.
+
+Introduction4
+The subject matter on appeal relates to a method of making
+
+fluoropolymers by emulsion polymerization in the presence of a
+fluorocarboxylic acid as the emulsifier, at a pH of 1 to 3.0. (Spec. 1, 11. 7-9.)
+The Specification reveals that the present reagent of choice for emulsifiers
+for such polymerization reactions is ammonium perfluoro-octanoate, which
+is said not to hinder polymerization to high molecular weights by chain
+transfer reactions. (Id. at 11. 12-16.) The '785 Specification discloses,
+however, that there are concerns about the accumulation of this emulsifier in
+the environment as well as adverse health effects. (Id. at 11. 20-22.) As a
+consequence, alternatives are being sought, but, according to the
+Specification, the yield of polymer per unit time is not improved.
+(Id. at 11. 22-23, citing prior art patent documents at 11. 26-27.)
+
+The claimed process is said to provide improved yields of polymer per
+unit time, as well as high molecular weight. (Id. at 3, 11. 10-12.) The etheric
+oxygen content, fluorine content, and chain length of the fluorocarboxylic
+acid may be adjusted to modify the surface activity and emulsion
+stabilization properties. (Id. at 4, 11. 14-26.) Moreover, the Specification
+teaches that using the fluorocarboxylic acid, rather than its salt, means it is
+not necessary to add a mineral acid or strong organic acid to the salt to adjust
+
+4
+
+Application 12/577,785, Method for producingfluoropolymer using
+fluorocarboxylic acid compound, filed 13 October 2009 as a continuation
+under 35 U.S.C. § 371 of PCT/JP08/56699, filed 3 April 2008, claiming the
+benefit of an application filed in Japan on 13 April 2007. We refer to the
+'"785 Specification," which we cite as "Spec."
+2
+
+Appeal2014-008335
+Application 12/577,785
+the pH. (Id. at 5, 11. 3-6.) "Accordingly," in the words of the Specification,
+"the fluorocarboxylic acid is superior to the alkali metal or the ammonium
+salt of the same fluorocarboxylic acid, since some steps can be omitted in
+the production and the production is easy." (Id. at 5, 11. 8-10.)
+Fluorinated polymer products are said to include high molecular
+weight modified polytetrafluoroethylene ("PTFE") that is not meltprocessable, melt-processable fluoropolymers, and fluoroelastomers.
+(Id. at 1, 11. 12-14) The emulsion polymerization provides fine powders
+(id. at 9, 11. 14-16) with very low amounts of residual fluorinated emulsifier
+(id. at 11. 1-3), which can be recovered and re-used (id. at 11. 6-9).
+
+The Specification teaches that the product powder may be used, e.g., as a
+raw material for molded products, dispersed as an emulsion useful as a
+coating material, or as a binder or additive. (Id. at 13, 11. 4-10.)
+Sole independent claim 1 is representative and reads:
+A method for producing a fluoropolymer, which comprises
+mixing an aqueous medium with
+a fluoromonomer and
+a polymerization catalyst,
+polymerizing the fluoromonomer by emulsion polymerization
+in the presence of the polymerization catalyst in the
+aqueous medium containing a fluorocarboxylic acid
+compound having at most 6 carbon atoms and
+at most 3 etheric oxygen atoms per molecule,
+wherein the aqueous medium has a pH of 1 to 3.0
+during a period beginning before the polymerization
+catalyst and the fluoromonomer are mixed with the
+aqueous medium through the end of the polymerizing, and
+wherein the fluorocarboxylic acid compound is in the acid form.
+
+(Claims App., Br. 36; some indentation, paragraphing, and emphasis added.)
+
+3
+
+Appeal2014-008335
+Application 12/577,785
+The Specification states expressly that "the time period of 'during the
+polymerization' is a period of from the beginning to the end of the
+polymerization," and "[t]he pH at the [beginning] of the polymerization
+means a pH of an aqueous medium before the polymerization catalyst and
+the fluoromonomer are introduced thereto." (Spec. 4, 11. 7-10.)
+The Examiner maintains the following grounds of rejection: 5
+
+5
+
+A.
+
+Claims 1, 3, 7, 9-11, and 13-17 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Nomura6 and Hintzer. 7
+
+Al.
+
+Claims 1, 3, 5, 11, 13, and 14 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Nomura and Funaki. 8
+
+B.
+
+Claims 1, 3, 7, 9-11, and 13-17 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Tanaka9 and Hintzer.
+
+Examiner's Answer mailed 23 May 2014 ("Ans.").
+
+6
+
+Junpei Nomura et al., Process for producing elastic fluorocopolymer and
+crosslinkedfluororubber, U.S. Patent Application Publication
+2007/0167581 Al (19 July 2007), based on an application filed 3 January
+2007; assigned to Asahi Glass Co., Ltd.; H. Kamiya is a common inventor.
+7
+
+Klaus Hintzer et al., Method of makingfluoropolymer dispersion, U.S.
+Patent Application Publication 2007/0015864 Al (18 January 2007), based
+on an application filed 25 May 2006.
+8
+
+Hiroshi Funaki et al., Process for the recovery offluorine-containing
+emulsifiers, EP 1514848 Al (2005); assigned to Asahi Glass Co., Ltd.;
+H. Kamiya is a common inventor.
+9
+
+Hiroyuki Tanaka et al., Fluorine-containing elastomer composition
+excellent in plasma-aging prevention effect and shaped article made thereof,
+U.S. Patent Application Publication 2006/0235140 Al (19 October 2006),
+based on a PCT application filed 21 April 2004.
+4
+
+Appeal2014-008335
+Application 12/577,785
+B 1.
+
+B.
+
+Claims 1, 3, 5, 9-11, 13, and 14 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Tanaka and Funaki.
+
+Discussion
+Findings of fact throughout this Opinion are supported by a
+
+preponderance of the evidence of record.
+Briefly, the Examiner finds that Nomura and Tanaka disclose
+emulsion polymerization of fluorinated monomers at acidic pH ranges that
+overlap (Ans. 2, citing Nomura 3 [0052]) or that meet (Ans. 6, citing
+Tanaka 6 [0097]) the range of pH 1-3.0 required by the claims before and
+during polymerization. The Examiner finds that neither Nomura nor Tanaka
+discloses a fluorocarboxylic acid as required by claim 1, but finds that both
+Hintzer (Ans. 2, citing Hintzer [O 114 ], [O 117] and [0085]) and Funaki
+(Ans. 4, citing Funaki [0049]-[0052]) disclose using such fluorinated
+carboxylic acids as emulsifiers in the emulsion polymerization of fluorinated
+monomers. The Examiner reasons that it would have been obvious to use
+disclosed materials for their designated purposes.
+Rejections A (Nomura)
+
+Matsuoka urges that although Nomura teaches that the pH for
+emulsion polymerization is adjusted within a broad range (pH 1 to 9) (Br. 6,
+11. 4-7), those broad teachings do not include a teaching or suggestion that
+the pH be maintained in the range of pH 1 to 3.0 throughout the entire
+polymerization (id. at 11. 16-1 7). In particular, Matsuoka points out, the pH
+described in the Examples varies greatly during polymerization.
+(Id. at 11. 17-18, and at para. bridging 15-16, citing Nomura 6 [0089]-
+
+5
+
+Appeal2014-008335
+Application 12/577,785
+[0090], Example 1, "Acidic Polymerization," starting at pH 7.0 and ending
+at pH 2.0.) Moreover, as Matsuoka argues, although Nomura does disclose
+fluorocarboxylic acids as emulsifiers, Nomura "clearly prefers ammonium
+salts, listing no acids but several salts .... " (Br. 18, 1st para., citing
+Nomura [0038] and [0039].)
+Matsuoka urges that Hintzer treats carboxylic acids and their salts as
+interchangeable. (Br. 16, last para, citing Hintzer [0017].) Moreover,
+Matsuoka points out, Hintzer exemplifies only the use of ammonium salts.
+(Br. 16, last para., citing Hintzer 10-11 [0170] (Table 1).) Accordingly, in
+Matsuoka's view, the Examiner erred in holding that Hintzer would have
+suggested using fluorocarboxylic acids within the scope of the appealed
+claims in the processes taught by Nomura.
+These arguments are not persuasive of harmful error. As the
+Examiner points out repeatedly (Ans. 10-12 10), all of the teachings of a
+reference, including non-preferred embodiments, must be considered. As
+for the silence of Nomura on maintaining the pH below 3.0 throughout the
+polymerization, Nomura's teachings that the pH at the time of the emulsion
+polymerization is adjusted from 1 to 7, preferably from 1 to 5
+(Nomura 3 [0052]) would have suggested starting the polymerization in the
+range of pH 1 to 3. Because the evidence of record indicates that the change
+in hydrogen ion concentration is not large compared to the hydrogen ion
+concentration in the pH range of 1 to 3, 11 we conclude that the pH would,
+10
+
+We caution that constant repetition of a principal may diminish the impact
+of the underlying fact-finding, analysis and reasoning.
+11
+
+In the examples in Nomura as well as in the comparative examples of
+the '785 Specification, the pH tends to fall by several pH units, e.g.,
+6
+
+Appeal2014-008335
+Application 12/577,785
+more likely than not, remain within that range during polymerization, and
+the Examiner's holding of prima facie obviousness therefore is supported by
+a preponderance of the evidence of record.
+Matsuoka urges further that the artisan would not have expected any
+difference between using an ammonium salt emulsifier and an acid
+emulsifier in a fluoropolymer production process. (Br. 18, 11. 10-13.)
+Indeed, Hintzer states, "[f]or the sake of convenience, the term 'fluorinated
+carboxylic acid' is hereinafter used to indicate the free acid as well as salts
+thereof." (Hintzer 2 [0017].) In contrast, according to Matsuoka, the acid
+emulsifiers of Examples 1 and 2 show superior results compared to the
+corresponding ammonium salt emulsifiers of Comparative Examples 1 and 2
+reported in the Specification at pages 11-13 and in Table 1. (Id. at 18,
+11. 13-18; Table 1 is reproduced on the following page.) In particular,
+Matsuoka urges that the polymerization rate is substantially higher (about
+25% higher for Example 1, about 22% higher for Example 2) than the
+polymerization rates of the comparative examples. (Br. 19, 1. 8.) Similarly,
+Matsuoka urges that the standard specific gravities ("SSG") (2.163
+compared to 2.173, and 2.167 compared to 2.171) are substantially lower,
+and indicate high molecular weight and excellence in physical properties.
+(Id. at 20, 11. 20-24.)
+
+from 6.69 to 2.94 (corresponding to an increase in H+ concentration from
+about 2 x 10-7 (log- 1(-6.69)) to about 4 x 10-3 (log- 1(-2.94)) mol/l.
+In Example 2 in the Specification, the pH drops from about 2.41
+(H+ concentration of 3.9 x 10-3) to about 2.08 (H+ concentration
+of 8.3 x l0- 3). (See Table 1, reproduced infra.)
+7
+
+Appeal2014-008335
+Application 12/577,785
+{Table 1 is shown below}
+TABLE 1
+
+The difficulty with these arguments is that, based on only two
+Examples and two Comparative Examples, we have little evidence to
+support the conclusion that the differences are significant (in particular, we
+have no way to assess the scatter in the data), let alone to determine if the
+results are unexpected. \Veighed against the suggestions by Nomura that
+acidic emulsion polymerizations in the range of pH 1 to 3 would be useful,
+discussed supra, we find the weight of the evidence insufficient to carry
+Matsuoka's arguments for unexpected results.
+Matsuoka's further arguments for the patentability of dependent
+claims 5, 7, 10, and 13 rely on the arguments for unexpected results, which,
+in Matsuoka's view, "unquestionably show unexpected results." (Br. 29,
+
+11. 11-12; 30, 1. 12; 31, 11. 12-13; 32, 1. 17.) As indicated supra, however,
+
+8
+
+Appeal2014-008335
+Application 12/577,785
+the quantity of the data are not such that the significance of the better results
+can be assessed as unquestionably showing unexpected results. 12
+Matsuoka urges that the Examiner errs in finding that the fluorinecontaining acids listed in Funaki paragraph [0051] are emulsifiers. Rather,
+according to Matsuoka, "it is the salts of those listed acids that are the
+emulsifiers for polymerization." (Br. 22, last two lines.) On this point, the
+weight of the evidence supports Matsuoka. The grammatical subject of the
+first sentence of Funaki [0050] is "the fluorine-containing emulsifier," which
+is described as "preferably a salt of a perfluoroalkanoic acid,
+a co-hydroperfluoroalkanoic acid, .... " The subject of each of the
+remaining sentences of Funaki [0050] is the salt. Thus, the acids named in
+paragraphs [0050], [0051] and [0052] are most naturally read as the acids
+used to form the salts named in paragraphs [0053]-[006 l].
+It has not escaped our notice that Funaki is primarily concerned with
+
+recovering fluorine-containing emulsifiers (see the title), after coagulation of
+an emulsion-polymerization product. Thus, the teachings of Funaki are not
+directed towards the conditions of the emulsion polymerization. We have
+also noted that Funaki teaches that, "[i]n the present invention, the fluorine12
+
+In the event of further examination, we remind the Examiner of a caution
+issued long ago by our reviewing court: "Prima facie obviousness is a legal
+conclusion, not a fact. Facts established by rebuttal evidence must be
+evaluated along with the facts on which the earlier conclusion was reached,
+not against the conclusion itself. ... [A] final finding of obviousness may of
+course be reached, but such finding will rest upon evaluation of all facts in
+evidence, uninfluenced by any earlier conclusion reached by an earlier board
+upon a different record." In re Rinehart, 531 F.2d 1048, 1052
+(CCPA 1976), quoted in In re Piasecki, 745 F.2d 1468, 1472-73 (Fed.
+Cir. 1984).
+9
+
+Appeal2014-008335
+Application 12/577,785
+containing emulsifier highly concentrated in the aqueous solution (B) can be
+
+precipitated in the form of a free acid by adjusting the pH of the aqueous
+solution (B) to an acidity of at most pH 4." (Funaki col. 8 [0045].)
+On the present record, the weight of the evidence is that the Examiner
+erred in finding that Funaki teaches free fluorinated acids as emulsifiers, or
+that Funaki would have suggested that free fluorinated acids be used as
+emulsifiers. However, the evidence of record indicates that at some pH
+below pH 4 and above pH 1, the salts would convert to free acids. Thus, the
+"condition" recited in claim 1, that "the fluorocarboxylic acid compound is
+in the acid form" is not an independent condition, but merely a statement of
+fact for that pH range. In particular, claim 1 does not require that the pH be
+obtained by any particular route. The pH may be obtained by adding an
+appropriate amount of strong mineral acid to ammonium salts of
+fluorocarboxylic acids, as well as by adding only fluorinated carboxylic
+acids. As long as either addition is done before the introduction of the
+initiator and the fluoromonomer, the conditions defining the period recited in
+claim 1 would be met.
+
+Rejections B (Tanaka)
+Matsuoka urges that Tanaka discloses salts of fluorocarboxylic acids
+as emulsifiers, not the acids themselves. (Br. 8, 1st full para., and 23, last
+para., both citing Tanaka 6 [0095].) Matsuoka quotes (Br. 25) the most
+relevant part of Tanaka [0097] cited by the Examiner, which reads,
+[o ]ther polymerization conditions are not specifically limited,
+but it is preferable that the pH ofpolymerization solution is
+set as strongly acidic of less than 3 in order to obtain the
+
+10
+
+Appeal2014-008335
+Application 12/577,785
+polymer product having a carboxyl group at the end and/or a
+branched chain without acid treatment described later."
+(Tanaka 6 [0097].) However, Matsuoka urges that the following two
+paragraphs, [0098] and [0099], show that "the pH of the polymerization
+reaction mixture is not maintained at not more than 3 during the entire
+polymerization process. Rather, the pH must be adjusted to at most 3 by
+acid treatment in order for coagulation, after the polymerization." (Br. at
+para. bridging 25-26.)
+Read in context, we find it more plausible to read Tanaka [0098]
+and [0099] as describing the alternative acid treatment method "described
+later" in Tanaka [0097]. Thus, Tanaka [0097] describes a process in which a
+carboxylic acid group is added to the end of the emulsion-polymerized
+elastomeric fluoropolymer during polymerization, rather than a terminal
+ammonium or metallic salt is converted to a carboxyl group by an acid
+treatment following the polymerization.
+Matsuoka's arguments regarding the combinations of the teachings of
+Hintzer and the teachings of Funaki with the teachings of Tanaka parallel the
+arguments regarding Nomura, and we find them unpersuasive for the same
+reasons.
+C.
+
+Order
+It is 0 RD ERED that the rejection of claims 1, 3, 7, 9-11, and 13-1 7
+
+under 35 U.S.C. § 103(a) in view of the combined teachings of Nomura and
+Hintzer is affirmed.
+
+11
+
+Appeal2014-008335
+Application 12/577,785
+It is ORDERED that the rejection of claims 1, 3, 5, 11, 13, and 14
+
+under 35 U.S.C. § 103(a) in view of the combined teachings of Nomura and
+Funaki is affirmed.
+It is ORDERED that the rejection of claims 1, 3, 7, 9-11, and 13-17
+
+under 35 U.S.C. § 103(a) in view of the combined teachings of Tanaka and
+Hintzer is affirmed.
+It is ORDERED that the rejection of claims 1, 3, 5, 9-11, 13, and 14
+
+under 35 U.S.C. § 103(a) in view of the combined teachings of Tanaka and
+Funaki is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a).
+AFFIRMED
+
+12
+
+

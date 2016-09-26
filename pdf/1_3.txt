@@ -1,0 +1,132 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/490,020
+
+06/06/2012
+
+Theodore R. Carraher
+
+RSW920080355US2
+
+1495
+
+75532
+
+7590
+
+09/23/2016
+
+LEE LAW, PLLC
+IBM SVLIP
+P.O. BOX 189
+PITTSBORO, NC 27312
+
+EXAMINER
+WEINRICH, BRIAN E
+
+ART UNIT
+
+PAPER NUMBER
+
+2169
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@leelawpllc.com
+docketing_archive@leelawpllc.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte THEODORE R. CARRAHER and JAKE PALMER
+
+Appeal2015-003201
+Application 13/490,020
+Technology Center 2100
+
+Before JASON V. MORGAN, MELISSA A. RAAP ALA, and
+NABEEL U. KHAN, Administrative Patent Judges.
+RAAP ALA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a final
+rejection of claims 1-24.
+We have reviewed Appellants' contentions in the Briefs, the
+Examiner's rejection and the Examiner's response to Appellants'
+contentions. We concur with Appellants' conclusion that the Examiner fails
+to establish the combination of Eddings (US 7, 788,245 B 1; Aug. 31, 2010)
+and Bowden (US 2007/0073704 Al; March 29, 2007) teaches or suggests a
+uniform resource locator (URL) to the ML document with an appended page
+
+Appeal2015-003201
+Application 13/490,020
+anchor that comprises a text identifier of a markup language tag located
+within the ML document proximate to the location of a search term within
+the ML document ("URL limitation"), as recited in independent claims 1, 9,
+
+and 17.
+The Examiner relies on Eddings to teachings the URL limitation.
+Final Act. 3; see also Ans. 6. As correctly identified by Appellants (App.
+Br. 16-18), Eddings describes embedding of a search-engine URL into a
+"href' tag of a document to obtain search results for the search term (e.g.,
+"golden retriever"). See Eddings col. 10, 1. 55---col. 11, 1. 35. We agree with
+Appellants that an embedded link to invoke a search engine to search for a
+specified term (e.g., a link to www.google.com to search for the term
+"golden retriever") is not a URL to a ML document with an appended page
+anchor.
+Appellants persuade us the Examiner has not established the
+combination of Eddings and Bowden teaches or suggests the URL
+limitation. The Examiner has not found the additional reference of record,
+Jensen, teaches or suggests this limitation. Accordingly, we will not sustain
+the 35 U.S.C. § 103(a) rejections of independent claims 1, 9, and 17 and the
+remaining claims, which depend directly or indirectly from one of claims 1,
+9, and 17. 1
+
+1
+
+We do not reach the additional contentions presented by Appellants
+because the identified issue is dispositive of the appeal.
+2
+
+Appeal2015-003201
+Application 13/490,020
+DECISION
+The Examiner's decision to reject claims 1-24 under 35 U.S.C.
+§ 103(a) is reversed.
+REVERSED
+
+3
+
+

@@ -1,0 +1,331 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/028,595
+
+02/16/2011
+
+Yusuke MIYAZAWA
+
+1946-0095
+
+9088
+
+60803
+
+7590
+
+09/22/2016
+
+Paratus Law Group, PLLC
+620 Herndon Parkway
+Suite 320
+Herndon, VA 20170
+
+EXAMINER
+RODRIGUEZ, JOSEPH G
+
+ART UNIT
+
+PAPER NUMBER
+
+2623
+
+MAILDATE
+
+DELIVERY MODE
+
+09/22/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte YUSUKE MIYAZAWA, IKUO YAMANO, and
+FUMINORI HOMMA 1
+
+Appeal2015-006551
+Application 13/028,595
+Technology Center 2600
+
+Before LINZY T. McCARTNEY, JAMES W. DEJMEK, and
+KAMRAN JIVANI, Administrative Patent Judges.
+DEJMEK, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-17. We have jurisdiction over the pending claims under 35 U.S.C.
+§ 6(b).
+
+We affirm.
+
+1
+
+Appellants identify Sony Corporation as the real party in interest. App.
+Br. 3.
+
+Appeal2015-006551
+Application 13/028,595
+STATEMENT OF THE CASE
+Introduction
+
+Appellants' claimed invention is directed to an information processing
+device "capable of reducing a user manipulation load by actively using a
+change of an input state due to operation of a manipulating body." Spec.
+
+i-f 5. In a disclosed embodiment, a judgment is made as to whether the
+manipulating body is in an input state or a standby state. Spec. i-f 7. For
+example, according to the Specification, if a user's finger is in contact with
+(or located within a proximity detection area) of a touch screen, the device is
+in an input state; if a user's finger is not in contact with the surface of a
+touch screen, the device is in a standby state. Spec. i-f 27; Fig. 1.
+Claim 1 is representative of the subject matter on appeal and is
+reproduced below with the disputed limitation emphasized in italics:
+1.
+An information processing device comprising text input
+processing circuitry configured to:
+
+detect a state of a user's manipulating body in a
+manipulation area, wherein the manipulation area comprises at
+least one of a touch input area on a text input screen or a
+proximity input area over the text input screen;
+determine whether the user's manipulating body is in a
+text input state or a text standby state based on at least one of
+position or presence in the manipulation area, wherein:
+the text input state allows for execution of at least
+one user text input process based on at least one of position,
+movement, or presence of the user's manipulating body in the
+manipulation area, and
+the text standby state represents a disengagement of
+active input of the user's manipulating body in the manipulation
+area; and
+
+2
+
+Appeal2015-006551
+Application 13/028,595
+determine a process to be executed from a plurality of text
+input processes based on the user's manipulating body
+transitioning from the text input state to the text standby state.
+
+The Examiner's Rejections
+1.
+
+Claims 1, 2, 6-9, and 12-17 2 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Jung (US 2009/0251423 Al; Oct. 8,
+2009) and Kushler et al. (US 7, 098,896 B2; Aug. 29, 2006) ("Kushler").
+Final Act. 2-7.
+2.
+
+Claims 3-5 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Jung, Kushler, and Seo et al. (US 8,482,532 B2; July 9,
+2013) ("Seo"). Final Act. 8-9.
+3.
+
+Claims 10 and 11 stand rejected under 35 U.S.C. § 103(a) as
+
+being unpatentable over Jung, Kushler, and Nagasaka et al. (US 7,292,228
+B2; Nov. 6, 2007) ("Nagasaka"). Final Act. 9-10.
+
+Issue on Appeal
+Did the Examiner err in finding the combination of Jung and Kushler
+teaches or suggests "a process to be executed from a plurality of text input
+
+2
+
+We note that in the Final Office Action, the heading for the rejection
+related to these claims identifies claims 1, 2, 6-9, 12, and 13. Final Act. 2.
+However, the Examiner has included (albeit with what appears to be
+typographical errors referencing claims 15 and 16) rejections for claims 1, 2,
+6-9, and 12-17. See Final Act. 2-7. Additionally, we note Appellants do
+not appear to have been prejudiced by these typographical errors and have
+identified correctly that claims 1, 2, 6-9, and 12-17 were rejected under 35
+U.S.C. § 103(a) as being unpatentable over Jung and Kushler. App. Br. 5.
+Thus, we determine such typographical errors to be harmless.
+
+3
+
+Appeal2015-006551
+Application 13/028,595
+processes based on the user's manipulating body transitioning from the text
+input state to the text standby state," as recited in claim 1?
+
+ANALYSIS 3
+Claims 1, 2, 6--9, and 12-17
+
+Appellants contend that Kushler, as relied upon by the Examiner, fails
+to teach or suggest "a process to be executed from a plurality of text input
+processes based on the user's manipulating body transitioning from the text
+input state to the text standby state," as recited in claim 1. App. Br. 12;
+Reply Br. 4--5. In particular, Appellants assert Kushler fails to disclose a
+text standby state and, accordingly, there is no transition between a text
+input state and a text standby state. App. Br. 12-13. Additionally,
+Appellants contend the Examiner unreasonably interprets the claimed text
+standby state as being taught by the state when contact with the touch screen
+in Kushler has ended (i.e., Kushler's "breaking contact"). App. Br. 13-15.
+Kushler is directed to word-based text input using continuous contact
+with a touch sensitive screen. Kushler, Abstract. Kushler teaches that a user
+may input a word using one continuous motion in contacting the screen.
+Kushler, col. 6, 11. 40-42. Kushler further teaches the user is presented with
+a list of matching words or may "request the system to display further
+potentially matching words if the desired word does not appear in the list."
+Kushler, col. 6, 11. 51-53. Additionally, as identified by the Examiner (see
+
+3
+
+Throughout this Decision, we have considered the Appeal Brief, filed
+November 20, 2014 ("App. Br."); the Reply Brief, filed June 18, 2015
+("Reply Br."); the Examiner's Answer, mailed on April 21, 2015 ("Ans.");
+and the Final Office Action ("Final Act."), mailed on May 21, 2014, from
+which this Appeal is taken.
+4
+
+Appeal2015-006551
+Application 13/028,595
+Final Act. 3), Kushler states: "The user enters a word by contacting the
+screen and tracing out a continuous pattern that passes through or near each
+letter of the word in sequence, and breaking contact with the screen when
+the last letter of the word is reached." Kushler, col. 7, 11. 35-38.
+The Examiner finds, and we agree, the tracing of a continuous pattern,
+as taught in Kushler corresponds to the claimed text input state. Final
+Act. 3; Adv. Act. 1 (mailed July 28, 2014); Ans. 11. Additionally, the
+Examiner finds, and we agree, the state when the user has broken contact
+with the surface of the touch screen, as taught by Kushler, corresponds to the
+claimed text standby state.
+"[T]he PTO must apply the broadest reasonable meaning to the claim
+language, taking into account any definitions presented in the specification."
+In re Am. Acad. of Sci. Tech. Ctr., 367 F. 3d 1359, 1364 quoting In re Bass,
+314 F.3d 575, 577 (Fed. Cir. 2002).
+Contrary to Appellants' contentions, we do not find the Examiner's
+determination that the claimed text standby state encompasses the state when
+a user breaks contact with the touch screen surface, as described in Kushler
+is erroneous. As stated in Appellants' Specification, the state judgment unit
+"may judge that the manipulating body is in the standby state when the
+manipulating body is separated from the manipulation surface." Spec. i-f 16.
+In other words, Appellants' state judgment unit would judge (determine) that
+the manipulating body is in the standby state (i.e., text standby state) when
+the manipulating body breaks contact from the touch screen surface. Thus,
+we find the Examiner's interpretation of the claimed text standby state is
+reasonable and consistent with the Specification.
+
+5
+
+Appeal2015-006551
+Application 13/028,595
+Additionally, Appellants belatedly argue for the first time in the Reply
+Brief that "Kushler still does not teach or fairly suggest to 'determine a
+process to be executed from a plurality of text input processes based on the
+user's manipulating body transitioning from the text input state to the text
+standby state."' Reply Br. 4. Rather, Appellants assert that after the user
+breaks contact with the touch screen, Kushler stops the generation of any
+input signals and the only process executed by Kushler occurs when an input
+signal is being generated (i.e., the user is in contact with the surface). Reply
+Br. 4--5
+This argument was not made in the Appeal Brief, but could have been,
+and is not responsive to any new evidence set forth by the Examiner in the
+Answer. In the absence of a showing of good cause by Appellants, this
+argument is untimely and deemed waived. "Any argument raised in the
+reply brief which was not raised in the appeal brief, or is not responsive to
+an argument raised in the examiner's answer, including any designated new
+ground of rejection, will not be considered by the Board for purposes of the
+present appeal, unless good cause is shown." 37 CPR 41.41(b)(2) (2012);
+see also Ex parte Nakashima, 93 USPQ2d 1834, 1837 (BPAI 2010)
+
+(informative) (explaining that arguments and evidence not presented timely
+in the principal brief, will not be considered when filed in a Reply Brief,
+absent a showing of good cause explaining why the argument could not have
+been presented in the principal brief); see also Ex parte Borden, 93 USPQ2d
+1473, 1474 (BP AI 2010) (informative) ("[T]he reply brief [is not] an
+opportunity to make arguments that could have been made in the principal
+brief on appeal to rebut the Examiner's rejections, but were not.").
+
+6
+
+Appeal2015-006551
+Application 13/028,595
+Nonetheless, Appellants' argument is unpersuasive because the
+Examiner finds, and we agree, Kushler teaches the ability to input multiple
+words. Final Act. 3; Ans. 11. After inputting a word (and transitioning to a
+text standby state), Kushler teaches the user may select the desired words
+from a list of possible selections "or request the system to display further
+potentially matching words if the desired word does not appear in the list."
+Kushler, col. 6, 11. 51-53; see also Ans. 11. Thus, we agree with the
+Examiner that Kushler (in combination with Jung) teaches "determin[ing] a
+process to be executed from a plurality of text input processes based on the
+user's manipulating body transitioning from the text input state to the text
+standby state," as recited in claim 1. See Final Act. 3.
+For the reasons discussed supra, we are unpersuaded of Examiner
+error. Accordingly, we sustain the Examiner's rejection of independent
+claim 1 and claims 2, 6-9 and 14--17, which depend therefrom and were not
+argued separately. See App. Br. 11-15. For similar reasons, we also sustain
+the Examiner's rejection of independent claims 12 and 13, which recite
+similar limitations and were not argued separately. 4 See App. Br. 11-15.
+Claims 3-5
+Regarding the rejection of dependent claims 3-5, Appellants assert the
+additional reference, Seo, fails to remedy the alleged deficiencies of Kushler,
+as argued with respect to claim 1. App. Br. 16. We are not persuaded by
+4
+
+In the event of further prosecution, we note that claim 13 is directed to a
+"computer-readable recording medium." Appellants' Specification does not
+limit the medium to non-transitory media, but rather recites "[t]he recording
+medium may be a magnetic disk, an optical disk and the like, for example."
+Spec. i-f 20. We invite the Examiner to determine whether claim 13
+comports with the requirements of 35 U.S.C. § 101.
+7
+
+Appeal2015-006551
+Application 13/028,595
+Appellants' contention that Seo fails to resolve the deficiencies of Kushler
+because, as discussed supra, we agree with the Examiner's findings of
+Kushler and there are no deficiencies that would need to be resolved by Seo.
+Accordingly, we sustain the Examiner's rejection of claims 3-5.
+
+Claims 10 and 11
+
+Regarding the rejection of dependent claims 10 and 11, Appellants
+assert the additional reference, Nagasaka, fails to remedy the alleged
+deficiencies of Kushler, as argued with respect to claim 1. App. Br. 16. We
+are not persuaded by Appellants' contention that Nagasaka fails to resolve
+the deficiencies of Kushler because, as discussed supra, we agree with the
+Examiner's findings of Kushler and there are no deficiencies that would
+need to be resolved by Nagasaka.
+Accordingly, we sustain the Examiner's rejection of claims 10 and 11.
+
+DECISION
+We affirm the Examiner's decision to reject claims 1-17.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 41.50(±).
+AFFIRMED
+
+8
+
+

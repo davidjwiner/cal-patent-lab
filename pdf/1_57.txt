@@ -1,0 +1,406 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/924,351
+
+09/24/2010
+
+Bryan W. Kluttz
+
+97-200-113
+
+7789
+
+35467
+
+7590
+
+09/23/2016
+
+BIOMERIEUX INC.
+100 RODOLPHE STREET
+DURHAM, NC 27712
+
+EXAMINER
+BOWERS, NATHAN ANDREW
+
+ART UNIT
+
+PAPER NUMBER
+
+1799
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+USPatents@biomerieux.com
+USPatents@na.biomerieux.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRYAN W. KLUTTZ, GEOFF A. MCKINLEY, FABIO GENNARI,
+MICHEL GUY, CHRISTOPHER COTTER, LUIGI CATANZARITI, LOUIS
+GRAZIANO, BRUNO COLIN, CECILE PARIS, and JACQUES DACHAUD 1
+
+Appeal2013-009068
+Application 12/924,351
+Technology Center 1700
+
+Before CHUNG K. PAK, MARK NAGUMO, and JEFFREY W. ABRAHAM,
+Administrative Patent Judges.
+PAK, Administrative Patent Judge.
+DECISION ON APPEAL
+This is a decision on an appeal under 35 U.S.C. § 134(a) from the
+Examiner's decision2 finally rejecting claims 9-27. We have jurisdiction under 35
+U.S.C. § 6(b).
+We REVERSE.
+STATEMENT OF THE CASE
+The subject matter on appeal is directed to a test device "for performing
+nucleic acid amplification reactions." Spec. 2, 11. 16-17 and 5, 11. 5-7. "The test
+device has a first reaction chamber containing a first nucleic acid amplification
+
+1
+
+The real party in interest is said to be bioMeriux, Inc. Appeal Brief filed March
+13, 2013 ("App. Br.") at 1.
+2
+Final Action entered September 19, 2012 ("Final Act.") at 1-9 and the
+Examiner's Answer entered May 17, 2013 ("Ans.") at 2-6.
+
+Appeal2013-009068
+Application 12/924,351
+reagents ... and a second reaction chamber either containing, or in fluid
+communication with, a second nucleic acid amplification reagent .... " Id. at 6,
+
+11. 1-7.
+
+This test device is used in conjunction with an amplification station and is
+
+said to "substantially eliminate[] the risk of contamination, and provide a
+convenient, simple and easy to use approach for nucleic acid amplification
+reactions." Id at 5, 11. 5-7.
+Figure 2, a test device (test strip) having a cover member according to one
+preferred embodiment of the invention, is reproduced below:
+
+.:·
+....
+
+~~-:-.:./'
+
+~"~""
+
+Figure 2 shows a test strip or device 10 having a dual chamber reaction vessel 12
+that includes two separate reaction chambers A and B, with chamber A containing
+a heat stable sample/amplification reagent and chamber B containing a heat labile
+enzymatic reagent. Spec. 18, 1. 10-19, 1. 3. "The[se] two chambers are linked to
+each other by a fluid channel or connecting conduit 50 extending from the first
+chamber [A] to the second chamber [BJ" with various fluid flow control means,
+2
+
+Appeal2013-009068
+Application 12/924,351
+such as a valve. Id. at 19, 11. 7-11. The test strip or device 10 also "includes a
+plurality of hybridization and wash wells 13" and an associated cover member 14
+comprising a pair of resilient legs 20, a rear portion 22, a second or forward portion
+24, an integral hinge portion 26, an edge 30, and a central aperture 28 having a
+porous mesh filter placed therein. Id. at 19, 11. 18-19 and 22, 1. 19-23, 1. 18. "A
+sealing membrane [(not shown) having a free edge 32]. .. is applied to the upper
+surface 15 of the test strip or device [lOJ to cover the wells 13 and dual chamber
+reaction vessel 12, after the wells [13J and vessel 12 have been pre-loaded with the
+appropriate enzyme, reagent wash or buffer solution, etc." Id. at 20, 1. 21-21, 1. 1
+and 23, 11. 18-21.
+Details of the appealed subject matter are recited in illustrative claims 9 and
+21, which are reproduced below from the Claims Appendix of the Appeal Brief
+(with disputed limitations in italicized form and bracketed reference characters of
+Figure 2):
+9. A disposable nucleic acid amplification test device [lOJ for
+insertion into an amplification station conducting an amplification
+reaction using the test device [lOJ, the test device [lOJ comprising:
+a body defining a first chamber [A J for receiving a sample and a
+second chamber [BJ for conducting a nucleic acid amplification
+reaction therein;
+a conduit [50J connecting the first chamber [AJ to the second
+chamber [BJ;
+a nucleic acid amplification reaction enzyme in fluid
+communication with the second chamber [BJ;
+a valve [not shown in Figure 2J controlling the flow of the
+sample through the conduit [50J; and
+wherein the portion of the body of the test device [lOJ defining
+the second chamber [BJ has an external configuration sized and
+shaped so as to place the second chamber into thermal contact with
+controlled heating elements provided in the analytical instrument
+when the test device [lOJ is inserted into the instrument, the controlled
+
+3
+
+Appeal2013-009068
+Application 12/924,351
+heating elements regulating the temperature of the second chamber
+[BJ; and
+wherein the test device [l OJ is constructed and arranged with a
+cover [l 4J connected to the test device [l OJ moveable from a first
+position covering the first chamber [AJ to a second position so as to
+enable a user to supply the sample into the first chamber [AJ directly.
+21. A disposable nucleic acid amplification test device
+compnsmg:
+a first chamber [A J containing a first reaction reagent;
+a second chamber [BJ containing a second reaction reagent;
+an intermediate chamber [not shown in Figure 2J between the
+first chamber [A J and the second chamber [BJ;
+an externally, mechanically actuated flow control element [not
+shown in Figure 2J selectively providing fluid communication
+between the first chamber [A J and the intermediate chamber [not
+shown in Figure 2J; and
+a cover [l 4J connected to the test device moveable from a first
+position covering the first chamber [AJ to a second position exposing
+the first chamber [AJ so as to enable a user to supply the sample into
+the first chamber [AJ directly.
+App. Br. 16-17 and 19, Claims Appendix.
+The Examiner maintains the following grounds of rejection:
+1.
+
+Claims 9, 10, 14, 15, and 19-27 under 35 U.S.C. §103(a) as
+
+unpatentable over Zanzucchi (US 5,858,804 issued Jan. 12, 1999) in view of
+
+4
+
+Appeal2013-009068
+Application 12/924,351
+Anderson (US 2006/0246490 Al published Nov. 2, 2006) and Gerdes (US
+5,955,351 published Sept. 21, 1999);
+2.
+
+Claims 11-13 and 16 under 35 U.S.C. §103(a) as unpatentable over
+
+Zanzucchi in view of Anderson, Gerdes, and Thomas (US 4,330,627 issued May
+18, 1982); and
+3.
+
+Claims 17 and 18 under 35 U.S.C. § 103(a) as unpatentable over
+
+Zanzucchi in view of Anderson, Gerdes and Schnipelsky (US 5,229,297 issued Jul.
+20, 1993). Final Act. 2-9 and Ans. 2-6.
+DISCUSSION
+Having considered the evidence on this appeal record in light of the
+respective positions advanced by the Examiner and Appellants, we do not sustain
+the Examiner's decision rejecting claims 9-27 under 35 U.S.C. §103(a)
+substantially for the reasons set forth at pages 4 through 12 of the Appeal Brief and
+pages 3 and 4 of the Reply Brief filed July 10, 2013 ("Reply Br."). We add the
+following primarily for emphasis.
+Figure lB of Zanzucchi relied upon by the Examiner is reproduced below:
+
+FIG. 18
+
+5
+
+Appeal2013-009068
+Application 12/924,351
+Figure 1B illustrates a micro laboratory disc 14 having a large number of modules
+48 in "parallel" connected to well 46 to perform a large number of tests, with each
+module defining loading channel 34 and/or 50 (identified by the Examiner as a
+chamber at page 3 of the Final Action) and a plurality of wells 36, 40, 42, and 44
+connected by channel 38. See, e.g., Zanzucchi, col. 4, 11. 21-30 and 55-62 and col.
+5, 11. 3-6. One or more capillary tubes 32 containing a sample (not shown in
+Figure lB) is loaded into loading channel 34 or into loading channel 50 for vertical
+insertion into the loading channel 34. See, e.g., Zanzucchi, col. 4, 11. 15-27. "As
+the sample loading tube 32 is inserted into the loading channel 34, a sealant, which
+can be adhered to the edge of the capillary sample tube 32 or to the loading
+channel 34, seals the capillary tube 32 to the channel 34." Zanzucchi, col. 5, 1. 65col. 6, 1. 2.
+The sample is then subsequently treated in a series of wells 36, 40, 42, and
+44, with first well 36 being used for separating or filtering the sample from the
+loading channel 34 and second well 40 being used for amplifying the separated or
+filtered sample from first well 36 via using the conventional PCR method. See,
+
+e.g., Zanzucchi, col. 4, 11. 35--44. Because a significant vapor pressure may
+develop in first well 36, valves 62 and 63 (not shown in Figure lB) are used to
+prevent "a back pressure in both directions [of first well 36]-back toward the
+sample loading channel 34 and forward to the succeeding second well 40."
+Zanzucchi, col. 9, 11. 34-54.
+Once all of the wells have been prepared and loaded, "a glass cover plate 63
+[not shown in Figure lB] is affixed to the microlaboratory disc 14 ... to complete
+a capillary structure for the connecting channel 3 8 [(identified by the Examiner as
+a conduit at page 3 of the Final Action)] and to ensure that fluids in the well do not
+evaporate." Zanzucchi, col. 8, 11. 35-39. "The cover plate 63 can be made of the
+
+6
+
+Appeal2013-009068
+Application 12/924,351
+same or different material as the microlaboratory disc, but the thermal coefficient
+of expansion of the cover plate 63 and the material used to make the
+microlaboratory disc 14 must be similar." Zanzucchi, col. 8, 11. 38--43. "The
+sealing temperature required to seal the cover plate 63 to the disc 14 must also be
+below the flow temperature of the disk material to prevent distortion of the etched
+channels and wells." Zanzucchi, col. 8, 11. 42--46.
+The Examiner acknowledges that Zanzucchi does not disclose, inter alia, "a
+cover connected to the test device moveable from a first position covering the first
+chamber to a second position so as to enable a user to supply the sample into the
+first chamber directly" as recited in claims 9 and 21. 3 Final Act. 4. To account for
+
+3
+
+The Examiner also acknowledges that Zanzucchi does not indicate that its
+"second chamber [(second well 40)] has an external configuration sized and shaped
+so as to place the second chamber into thermal contact with controlled heating
+elements provided in the analytical instrument when the test device
+[(microlaboratory disc 14)] is inserted into the instrument" as recited in claim 9
+because it describes using heating elements ,~1ithin the test device to conduct
+amplification in second well 40. Final Act. 3. However, the Examiner finds, and
+Appellants do not dispute, that "Anderson discloses a microfluidic amplification
+test device in which at least one first chamber (Figure 3 :206) [configured to
+separate a sample] is in communication with a second chamber (Figure 3 :210)
+configured to conduct PCR. Paragraphs [0166]-[0167] [of Anderson] teach that
+the test device itself may include a heating element, or, alternatively, ... contact
+heating elements provided within an associated analytical instrument ('the
+amplification chamber will incorporate a controllable heater disposed within or
+adjacent to the amplification chamber')." Compare Final Act. 3--4 with App. Br.
+8-9; see also Anderson iJiJ164-166. Stated differently, there is no dispute that a
+heating element can be provided in the associated analytical instrument
+(Zanzucchi's station 16 not shown in Figure lB) for heating second well 40
+(configured for PCR amplification) of the micro laboratory disc taught by
+Zanzucchi per the teachings of Anderson. Id. Implicit in this suggestion in the
+applied prior art is that second well 40 of the micro laboratory disc taught by
+Zanzucchi must also be designed or shaped to be fitted into and heated by
+Zanzucchi's station (analytical instrument) having such heating element. Thus,
+7
+
+Appeal2013-009068
+Application 12/924,351
+this missing feature in the microlaboratory disc taught by Zanzucchi, the Examiner
+relies upon the disclosure of Gerdes. Final Act. 4-5. Figure 1 of Gerdes relied
+upon by the Examiner is reproduced below:
+_,.-?.
+---~c-···r(
+i!: t1:
+
+!,_.:;;.,_,,,
+id
+
+In Gerdes' Figure 1, "an extraction, amplification and detection device consists of
+a first hollow elongated cylinder 1 having one closed end and an integrally-molded
+cover 3 hinged to the opposing, open end and a second hollow elongated cylinder 2
+[having an aperture 13 not shown] that is positioned contiguously inside the first
+cylinder 1 and capable of relative rotation." Gerdes, col. 6, 11. 36--42; see also
+Final Act. 4-5. "The first cylinder 1 further consists of 2 chambers: a reservoir 16
+and a detection chamber 20, said detection chamber further consisting of a pad 9
+and a strip 10." Gerdes, col. 6, 11. 45-47. "When sample is introduced into the
+device, nucleic acid extraction and amplification takes place in the second cylinder
+2 .... " Id. at col. 6, 11. 58-60; see also Final Act. 4-5. The second cylinder 2 is
+rotated "relative to the first cylinder l" to lock into positions A, B, and C, with
+positions B and C allowing the amplified sample from the second cylinder 2 to
+
+Appellants' argument directed to the external configuration and the shape of a
+second well for conducting PCR amplification does not convince us of harmful
+error in the Examiner's §103(a) rejections.
+
+8
+
+Appeal2013-009068
+Application 12/924,351
+flow into the reservoir 16 and the detection chamber 20, respectively. Gerdes, col.
+6, 1. 64-col. 7, 1. 12; see also Final Act. 4-5.
+Based on Figure lB of Zanzucchi and Figure 1 of Gerdes discussed supra,
+the Examiner concludes that "[a]t the time of the invention, it would have been
+obvious to provide the opening to the first chamber 50 of Zanzucchi with a cover
+component capable of being moved from a first position to a second position in
+order to enable the addition of fluid." Final Act. 5.
+However, on this record, the Examiner has not demonstrated that Gerdes'
+hinged cap or cover suitable for a rotating cylinder (test tube) device would be
+useful for the microlaboratory disc taught by Zanzucchi. As correctly stated by
+Appellants, "Zanzucchi's cover 63 (Fig. 5B) must remain fixed and sealed to the
+top of the device in order to define a capillary channel 3 8 ... and allow fluid to
+move along the channels from the sample introduction well 50 to the remaining
+wells ... and to prevent the fluids pre-loaded into the wells from evaporating after
+manufacture." App. Br. 9-10. In particular, Zanzucchi discloses that:
+When all of the wells have been prepared and loaded, a glass cover
+plate 63 is affixed to the microlaboratory disc 14, as shown in FIG.
+5B, to complete a capillary structure for the connecting channel 3 8
+and to ensure that fluids in the wells do not evaporate[.] The cover
+plate 63 can be made of the same or different material as the
+micro laboratory disc, but the thermal coefficient of expansion of the
+cover plate 63 and the material used to make the microlaboratory disc
+14 must be similar. The sealing temperature required to seal the cover
+plate 63 to the disc 14 must also be below the flow temperature of the
+disk material to prevent distortion of the etched channels and wells.
+The use of electric fields to seal the cover plate to the disk is suitable
+because sealing will take place at a lower temperature than the flow
+temperature, e.g., about 700° C. or less, which is well below the flow
+temperature of silicon, about l 400°C., or of Coming 7059 glass,
+(about 844° C.), available from Coming Glass Co., for example.
+[Zanzucchi, col. 8 lines 3 5-51.]
+
+9
+
+Appeal2013-009068
+Application 12/924,351
+
+Zanzucchi also discloses that"[ a]s the sample loading [capillary] tube 32 is
+inserted into the loading channel 34, a sealant, which can be adhered to the edge of
+the capillary sample tube 32 or to the loading channel 34, seals the capillary tube
+32 to the channel 34." Zanzucchi, col. 5, 1. 65-col. 6, 1. 2; see also Reply Br. 3.
+Zanzucchi further teaches using an alternate, but similar, configuration involving
+the capillary tube 32 inserted into the loading channel 50. Zanzucchi, col. 4, 11. 1527 and col. 6, 11. 2-8; see also Reply Br. 3. In other words, Zanzucchi teaches
+using both the cover 63 and the capillary tube 32 containing a sample to seal the
+surface of its micro laboratory disc to form capillary channels connecting sealed
+chambers to prevent evaporation of the sample during the use of the
+microlaboratory disc in an analytical device (station 16) as indicated supra. Such
+cover and capillary tube also allow Zanzucchi's microlaboratory disc to have up to
+1500 parallel modules for conducting broad DNA screening in parallel, i.e.,
+conducting a large array of parallel tests at the same time, without evaporating
+samples, during their use in the analytical device. Zanzucchi, col. 5, 11. 3-12.
+On this record, the Examiner does not identify any prior art teaching or
+evidence that would have indicated that Gerdes' hinged cap or cover would be
+useful for the purposes taught by Zanzucchi, i.e., suitable for forming capillary
+channels connecting sealed chambers in a manner that would allow Zanzucchi' s
+microlaboratory disc to have up to 1500 parallel modules useful for conducting a
+large array of parallel tests, without causing any evaporation of the sample, in a
+particular analytical device. Final Act. 3-1 O; Ans. 2-6. Hence, we concur with
+Appellants that a preponderance of the evidence does not support the Examiner's
+determination that the applied prior art would have rendered the subject matter
+
+10
+
+Appeal2013-009068
+Application 12/924,351
+recited in claims 9-27 obvious to one of ordinary skill in the art within the
+meaning of 35 U.S.C. § 103(a).
+ORDER
+In view of the foregoing, the decision of the Examiner to reject claims 9-27
+under 35 U.S.C. § 103(a) is REVERSED.
+REVERSED
+
+11
+
+

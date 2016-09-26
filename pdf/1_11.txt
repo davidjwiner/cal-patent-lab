@@ -1,0 +1,223 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/628,421
+
+09/27/2012
+
+Fang Hao
+
+ALU/812082-US-NP
+
+9308
+
+46363
+
+7590
+
+09/23/2016
+
+Tong, Rea, Bentley & Kim, LLC
+ALCATEL-LUCENT USA INC.
+12 Christopher Way
+Suite 105
+Eatontown, NJ 07724
+
+EXAMINER
+SCOTT, RANDY A
+
+ART UNIT
+
+PAPER NUMBER
+
+2453
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@trbklaw.com
+ipsnarocp@nokia.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FANG HAO, MURALI KODIALAM,
+TIRUNELL V. LAKSHMAN, and SARIT MUKHERJEE
+
+Appeal2015-005462
+Application 13/628,421
+Technology Center 2400
+
+Before JOSEPH L. DIXON, JAMES R. HUGHES, and ERIC S. FRAHM,
+Administrative Patent Judges.
+DIXON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1-10, 12-15, 19, and 20. 1 We have jurisdiction under 35 U.S.C. § 6(b).
+
+We affirm.
+The invention relates to "allocation of resources in a distributed cloud
+system" (Spec. 1:6-7). Claim 1, reproduced below, is illustrative of the
+claimed subject matter:
+
+1
+
+Claims 16-18 are objected to as containing allowable subject matter, and,
+are, thus, not subject to the appeal (see Final Act. 3).
+
+Appeal2015-005462
+Application 13/628,421
+1.
+An apparatus for processing a request for resources of a
+distributed cloud system including a plurality of data centers,
+compnsmg:
+a processor and a memory communicatively connected to
+the processor, the processor configured to:
+receive a request for resources of the distributed
+cloud system, wherein the request for resources comprises
+a request for cloud resources and an indication of an
+amount of cloud resources requested; and
+determine a resource mapping for the resource
+request based on the request for resources and information
+associated with the distributed cloud system, the resource
+mapping comprising a mapping of the requested cloud
+resources to cloud resources of multiple data centers of the
+plurality of data centers and an identification of network
+resources configured to support communications for the
+mapped cloud resources of the multiple data centers,
+wherein the identified network resources comprise
+network resources configured to support communications
+between at least two data centers of the multiple data
+centers.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Kudo
+Warncke
+Baker
+Banerjee
+
+US
+US
+US
+US
+
+2009/0144393 Al
+2010/0318454 Al
+7,953,000 B2
+2012/0239792 Al
+
+2
+
+June 4, 2009
+Dec. 16, 2010
+May31,2011
+Sept. 20, 2012
+
+Appeal2015-005462
+Application 13/628,421
+REJECTIONS
+The Examiner made the following rejections:
+Claims 1-10, 12, 13, 15, 19, and 20 stand rejected under 35 U.S.C
+§ 103(a) as being unpatentable over Warncke, Banerjee, and Kudo.
+Claim 14 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Warncke, Banerjee, Kudo, and Baker.
+
+ANALYSIS
+Appellants contend "Kudo fails to teach or suggest an identification of
+network resources configured to support communications for mapped cloud
+resources of multiple data centers where the identified network resources
+include network resources configured to support communications between at
+
+least two data centers" (App. Br. 13). We disagree with Appellants.
+We note the Examiner relies on Banerjee for disclosing "an
+identification of network resources configured to support communications
+for the mapped cloud resources of the multiple data centers," and relies on
+Kudo only for disclosing "wherein the identified network resources
+comprise network resources configured to support communications between
+at least two data centers of the multiple data centers" (Final Act. 4--5). Kudo
+discloses migrating an application running on one data center to another data
+center (see Kudo, Abstract). As part of this migration, Kudo discloses:
+At step 1314, migration requester program 123 [of a first
+data center] sends migration request document 13 to the request
+address 1002 of the destination second data center that was read
+in step 1312.
+At step 1320, migration acceptor program 121 of the
+second data center receives the migration request document 13
+that was sent from migration requester program 123 of the first
+3
+
+Appeal2015-005462
+Application 13/628,421
+data center in step 1314, and invokes resource manager
+program 122 to determine if the migration request can be
+accepted.
+(Kudo, i-fi-167---68). Here, we find the sending of a migration request
+document from one data center to another meets the claim 1 limitation
+"network resources configured to support communications between at least
+two data centers." Appellants argue that the content of Kudo' s migration
+request document relates only to specifications of network requirements for
+the application to be migrated, i.e., whether the VPN capacity available
+between a data center and a customer is sufficient, and does not relate to
+requirements for communications between the data centers (see Reply Br. 24). Appellants' arguments, however, miss the point that the sending of a
+migration request document from one data center to another itself shows
+Kudo discloses "network resources configured to support communications
+between at least two data centers," as recited in claim 1, regardless of the
+content of the migration request document. Specifically, Kudo discloses
+"multiple data centers 1Oa, 1Ob, 1Oc are connected to each other for
+communication through a network 12" (Kudo, i131). The broad language of
+claim 1 does not recite any specific requirements for the network resources
+that support inter-data center communications.
+We are, therefore, not persuaded the Examiner erred in rejecting claim
+1, and claims 2-10, 12-15, 19, and 20 not specifically argued separately.
+
+CONCLUSION
+The Examiner did not err in rejecting claims 1-10, 12-15, 19, and 20
+under 35 U.S.C. § 103(a).
+
+4
+
+Appeal2015-005462
+Application 13/628,421
+DECISION
+For the above reasons, the Examiner's rejections of claims 1-10, 1215, 19, and 20 are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

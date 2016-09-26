@@ -1,0 +1,237 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121701,823
+
+02/08/2010
+
+Paolo Fontanot
+
+2009P01767
+
+1844
+
+27350
+
+7590
+
+09/23/2016
+
+LERNER GREENBERG STEMER LLP
+Box SA
+P.O. BOX 2480
+HOLLYWOOD, FL 33022-2480
+
+EXAMINER
+LIN, JASON
+
+ART UNIT
+
+PAPER NUMBER
+
+2121
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+boxsa@patentusa.com
+docket@patentusa.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte PAOLO FONTANOT
+
+Appeal2015-007128
+Application 12/701,823
+Technology Center 2100
+
+Before LARRY J. HUME, LINZY T. McCARTNEY, and JOYCE CRAIG,
+Administrative Patent Judges.
+
+McCARTNEY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant appeals under 35 U.S.C. § 134(a) from a rejection of claims
+1-14. We have jurisdiction under 35 U.S.C. § 6(b ).
+
+We AFFIRM.
+
+Appeal2015-007128
+Application 12/701,823
+STATEMENT OF THE CASE
+The present patent application concerns "a method and a system for
+scheduling a manufacturing process planned by an Enterprise Resource
+Planning (ERP) and produced by equipment of a shop floor, wherein within
+a Manufacturing Executing System (MES) a production scheduler is
+provided to schedule tasks of the manufacturing process." Spec. i-f 3. Claim
+1 illustrates the claimed subject matter:
+1.
+A method of scheduling a manufacturing process planned
+by an enterprise resource planning and performed by equipment
+of a shop floor, wherein a production scheduler within a
+manufacturing executing system schedules tasks of the
+manufacturing process, the method which comprises the
+following steps:
+displaying a current production schedule by way of an
+interactive Gantt-chart;
+displaying in the interactive Gantt-chart for each piece of
+equipment of the shop floor time periods already scheduled and
+time periods still unscheduled;
+with a pointing device, selecting for a specific piece of
+equipment, one of the time periods still unscheduled being
+displayed on the interactive Gant chart;
+querying a production database for the specific piece of
+equipment to find at least one task that can be performed by the
+specific piece of equipment and that fits into the time period still
+unscheduled; and
+if a single task is found, scheduling the task, or if a
+plurality of tasks are found, scheduling at least one of the
+plurality of tasks, by way of a decision entered by a user
+interaction or by way of a decision determined automatically by
+a selection preference.
+
+2
+
+Appeal2015-007128
+Application 12/701,823
+REJECTIONS
+Claims 1-14 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over Baird et al. (US 2007 /0094661 A 1; April 26, 2007), Chua et al. (US
+2005/0154625 Al; July 14, 2005), Castellani et al. (US 2002/0077878 Al;
+June 20, 2002), Van Den Nieuwelaar et al. (US 2005/0102723 Al; May 12,
+2005), and Zhang et al., "Self-Construction Production Scheduling System,"
+Proc. of the 2006 IEEE Int'l Conf. on Automation Sci. & Engineering
+(2006).
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellant's
+arguments, and we disagree with Appellant that the Examiner erred.
+Appellant has waived arguments Appellant failed to raise or properly
+develop in Appellant's briefing. See 37 C.F.R. § 41.41(b)(2).
+Appellant argues "Chua et al. would not have suggested modifying
+Baird et al. 's method for scheduling a personal or collaborative task to be the
+method defined by claim 1." Br. 9. According to Appellant, "Baird et al. are
+not in the slightest bit concerned with scheduling a manufacturing process
+planned by an enterprise resource planning and performed by equipment of a
+shop floor." Id. at 7, 10. Appellant asserts "[i]t would not have been
+predictable and therefore, it would not have been obvious to have
+incorporated a manufacturing process planned by an enterprise resource
+planning and performed by equipment of a shop floor into Baird et al. 's
+teaching of scheduling personal or collaborative tasks for members of an
+organization." Id. at 10.
+We find Appellant's arguments unpersuasive. Appellant's arguments
+largely rest on the fact that Baird's "goals do not include scheduling a
+
+3
+
+Appeal2015-007128
+Application 12/701,823
+manufacturing" as recited in the claims. Id. at 5. But "neither the particular
+motivation nor the avowed purpose of the [inventor] controls" an
+obviousness analysis. KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 419
+(2007). "The use of patents as references is not limited to what the patentees
+describe as their own inventions or to the problems with which they are
+concerned. They are part of the literature of the art, relevant for all they
+contain." In re Heck, 699 F.2d 1331, 1333 (Fed. Cir. 1983). Here, the
+Examiner found one of ordinary skill in the art would have been motivated
+to combine Chua's teachings with Baird's "to improve utilization by
+scheduling jobs for execution that are deemed to be best suited based on a
+set [of] rules." Final Act. 4--5 (citing Chua Abstract). Appellant's assertion
+that Baird is not concerned with scheduling a manufacturing process does
+not persuade us that the Examiner erred.
+In addition, Appellant has offered little in the way of persuasive
+evidence or reasoning to support the contention that the Examiner's
+combination of Chua's and Baird's teachings would not have been
+predictable. Appellant simply asserts that "it would have not have been
+predictable and therefore, it would not have been obvious" to combine
+Baird's and Chua's teachings because Baird teaches "scheduling personal or
+collaborative task for members of an organization." App. Br. 10. But as
+noted by the Examiner, Baird explicitly discloses that Baird's method of
+scheduling tasks applies to machines and devices. See Ans. 3; Baird i-f 24.
+Appellant has simply failed to adequately explain why the Examiner's
+combination of Baird's and Chua's teachings would not have been
+predictable. Accordingly, we find this argument unavailing.
+
+4
+
+Appeal2015-007128
+Application 12/701,823
+Appellant also contends the Examiner has not explained how or why
+one of ordinary skill in the art would have combined Baird's and Van Den
+Nieuwelaar's respective querying methods to obtain the "querying" step
+recited in claim 1. See Br. 11-13. Appellant argues Examiner's "motivation
+does not address the established functions of the respective steps of the two
+teachings." Id. (emphasis omitted); see also id. at 12. According to
+Appellant, it would not have been predictable to combine Van Den
+Nieuwelaar's querying method with Baird's querying method, given their
+respective established functions. Id. at 13.
+We find Appellant's arguments unpersuasive. As an initial matter,
+although the Examiner found Baird teaches querying to find a task that fits
+into an unscheduled period, the Examiner explicitly found the combination
+of Baird, Chua, Zhang, and Castellani does not disclose the "querying" step
+recited in claim 1. Final Act. 3, 6. However, the Examiner found Van Den
+Nieuwelaar remedies this deficiency. Id. at 6. Thus, contrary to Appellant's
+arguments, the Examiner did not find it would have been obvious to
+combine the "established functions" of Baird's and Van Den Nieuwelaar's
+querying methods. Rather, the Examiner found it would have been obvious
+to combine Van Den Nieuwellar' s query with other aspects of Baird, Chua,
+Zhang, and Castellani to arrive at the claimed invention.
+Even if Appellant were correct that the Examiner combined Baird's
+and Van Den Nieuwelaar's querying methods, Appellant's arguments
+suggest that one of ordinary skill in the art would have been forced to
+mechanically apply Baird's and Van Den Nieuwelaar's respective methods.
+But "[a] person of ordinary skill is also a person of ordinary creativity, not
+an automaton." KSR Int 'l Co. v. Teleflex Inc., 550 U.S. 398, 421 (2007).
+
+5
+
+Appeal2015-007128
+Application 12/701,823
+There is no evidence that combining these querying steps to obtain the
+claimed "querying" step would have been "uniquely challenging or difficult
+for one of ordinary skill in the art." Leapfrog Enters., Inc. v. Fisher-Price,
+Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007). And here, too, Appellant fails to
+
+provide persuasive evidence or reasoning that it would not have been
+predictable to combine Van Den Nieuwelaar's teachings with Baird's. We
+therefore see no reason to disturb the Examiner's rejection on these grounds.
+DECISION
+For the above reasons, we affirm the rejection of claims 1-14.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

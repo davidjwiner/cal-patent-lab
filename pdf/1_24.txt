@@ -1,0 +1,289 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/122,497
+
+05/16/2008
+
+Tetsuro Motoyama
+
+49986-0656
+
+8959
+
+29989
+
+7590
+
+09/23/2016
+
+HICKMAN PALERMO BECKER BINGHAM LLP
+1 ALMADEN BOULEVARD
+FLOOR 12
+SAN JOSE, CA 95113
+
+EXAMINER
+BOSWELL, BETH V
+
+ART UNIT
+
+PAPER NUMBER
+
+3623
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usdocket@h35g.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TETSURO MOTOYAMA and AVERY FONG
+
+Appeal2014-001065 1
+Application 12/122,497 2
+Technology Center 3600
+
+Before NINA L. MEDLOCK, KENNETH G. SCHOPPER, and
+TARA L. HUTCHINGS, Administrative Patent Judges.
+HUTCHINGS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's final
+rejection of claims 1-12. We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+1
+
+Our decision references Appellants' Appeal Brief ("App. Br.," filed July 1,
+2013) and Reply Brief ("Reply Br.," filed Oct. 15, 2013), and the
+Examiner's Answer ("Ans.," mailed Aug. 15, 2013) and Final Office Action
+("Final Act.," mailed Feb. 25, 2013).
+2
+Appellants identify Ricoh Company, Ltd. as the real party in interest.
+App. Br. 2.
+
+Appeal2014-001065
+Application 12/122,497
+CLAIMED INVENTION
+Appellants' claimed invention "relates generally to project
+management [and,] more specifically[,] to managing project schedule data
+using separate current and historical task schedule data and to-do list
+representations for project schedule data." Spec. i-f 3.
+Claim 1, reproduced below, is illustrative of the subject matter on
+appeal:
+1.
+A computer-implemented method for managing
+project-schedule data, the computer-implemented method
+compnsmg:
+receiving, from a user via a member schedule editor,
+a request to create a task in a project;
+prior to schedule data being specified for the task,
+generating task data that identifies the task in
+the project, wherein the task data has a value that
+indicates whether the task is a project task or a nonproject task, and
+storing the task data for the task in a data
+repository of a computer system, and the computer
+system generating and storing in the data repository
+of the computer system in association with the task
+data, revision data having a value that indicates that
+the task associated with the task data does not
+currently have any associated schedule data and is a
+to-do list task;
+a project member assigned to perform the task using
+the member schedule editor to:
+specify and change schedule data for the task,
+define one or more sub-tasks for the task, and
+define one or more non-project tasks; and
+the member schedule editor:
+displaying one or more tasks that are both assigned at least
+to the user and are not yet completed,
+
+2
+
+Appeal2014-001065
+Application 12/122,497
+usmg the value of the rev1s10n data to
+determine whether to display the task as a to-do list
+task or a non-to-do list task,
+using the value of the task data to determine
+whether to display the task as a project task or a nonproject task, and
+in response to a project member assigned to perform
+the task using the member schedule editor to specify and
+change schedule data for the task:
+generating and storing, in the data repository
+of the computer system, the schedule data for the
+task, and
+updating the value of the revision data stored in
+association with the task data to indicate that the task now
+has associated schedule data and is a non-to-do list task.
+REJECTIONS
+Claims 1, 2, 4---6, 8-10, and 12 are rejected under 35 U.S.C. § 103(a)
+as unpatentable over Chaffee (US 2008/0201713 Al, pub. Aug. 21, 2008),
+Brintle (US 2007/0282658 Al, pub. Dec. 6, 2007), and York (US
+2008/0301296 Al, pub. Dec. 4, 2008).
+Claims 3, 7, and 11 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Chaffee, Brintle, York, and Nonaka (US 7,269,798 B2,
+iss. Sept. 11, 2007).
+ANALYSIS
+
+Independent Claim 1, and Dependent Claims 2 and 4
+We are persuaded by Appellants' argument that the Examiner erred in
+rejecting claim 1under35 U.S.C. § 103(a) because Chaffee does not teach
+or suggest "prior to schedule data being specified for the task ... generating
+and storing ... revision data having a value that indicates that the task
+associated with the task data does not currently have any associated schedule
+
+3
+
+Appeal2014-001065
+Application 12/122,497
+data and is a to-do task," as recited in claim 1. App. Br. 5-6. In the Final
+Action, the Examiner relies on Chaffee as disclosing the argued limitation.
+Final Act. 5 (citing Chaffee i-fi-1 21-28).
+Chaffee is directed to a method and apparatus for managing tasks.
+Chaffee i12. Figure 1 of Chaffee shows a block diagram of a list 100 of
+tasks 101-110 assigned to time segments 191-194. Id. i-f 10, Fig. 1. A user
+ranks tasks 101-110 in an order that the tasks are planned to be performed.
+Id. i121, Fig. 1. As shown in Figure 1, some tasks have a task cost that
+
+indicates the resources required to complete the task relative to the other
+tasks in the list. Id. i122, Fig. 1. For example, a task assigned a task cost of
+five is expected to take five times as much resources as a task assigned a
+task cost of one. Id. i124. A planned velocity is used to indicate the rate at
+which task costs are completed per time segment, i.e., a uniform period of
+time, such as a week. Id. i125. Each task is dynamically assigned in the
+order of the list to a sequence of time segments, and the velocity of a time
+segment is the sum of the task costs of the tasks in that time segment. Id.
+i1 26. The tasks are assigned until assigning the next task in list 100 would
+make the velocity for that segment exceed the planned velocity. Id. i127.
+As shown in Figure 1, tasks 101 and 102 are assigned to time segment 191,
+and tasks 105, 106, and 107 are assigned to time segment 193.
+In rejecting claim 1 under 35 U.S.C. § 103(a), the Examiner finds that
+Chaffee describes, at paragraphs 21-28, associating each task with a priority,
+resource, and cost prior to assigning the task to a particular time segment.
+Final Act. 5. Chaffee describes ranking tasks in order of performance and
+assigning each task cost when assigning the tasks to time segments. See
+Chaffee i-fi-1 21-28, Fig. 1. But we do not find any description in Chaffee that
+
+4
+
+Appeal2014-001065
+Application 12/122,497
+discloses or suggests "prior to schedule data being specified for the task ...
+generating and storing ... revision data having a value that indicates that the
+task associated with the task data does not currently have any associated
+schedule data and is a to-do list task," as recited in claim 1.
+In response, the Examiner finds that "[t]he teachings of Chaffee
+would have suggested to one of ordinary skill in the art to use a revision data
+to indicate current scheduling status and whether the task is a to-do list."
+Ans. 11. In this regard, the Examiner finds that Figure 1 of Chaffee "shows
+a list oftask[s] that [are] currently in an initial state without any current
+schedule data[,] i.e.[,] without a specific starting time or end time for the
+tasks." Ans. 11. The Examiner also finds that paragraphs 21-38 of Chaffee
+teach that each task in the database can be associated with priority data, such
+as a Boolean, indicating the task's importance. Id. And the Examiner finds
+that paragraphs 64---67 of Chaffee describe status indicators for the tasks,
+such as an unstarted state or a started state.
+However, Figure 1 of Chaffee shows list 100 of tasks 101-110
+assigned to particular time segments 191-194 for completion, i.e., schedule
+data. Chaffee, Fig. 1, i-f 28. Each time segment corresponds to a uniform
+period of time, such as a week. Id. i-f 25. Moreover, the order of the tasks
+and associated time segments indicate the order for performing the tasks.
+See id. i-fi-1 21, 28, Fig. 1. Thus, we find a time segment, as described by
+
+Chaffee, constitutes schedule data for the tasks associated with the time
+segment. We find nothing in the portions of Chaffee cited by the Examiner
+in the Answer that discloses or suggests "revision data having a value that
+indicates the task associated with the task data does not have any associated
+schedule data," as recited in claim 1.
+
+5
+
+Appeal2014-001065
+Application 12/122,497
+In the Answer, the Examiner additionally relies on York at
+paragraphs 82-86 as "suggest[ing] that a task can be labeled with a different
+revision value i.e., pending with schedule- scheduled and non-to-do,
+active/start with schedule- scheduled and to do." Ans. 11-12. And the
+Examiner determines that the cited prior art "shows that using revision data
+value to indicate a task's status is old and well known."
+York relates to a system and method for providing automated task
+creation and delegation, and an analysis tool for processing task information
+and data. York i-f 2. In the method of York, a user elects to change the status
+of a task from pending, start, active, work-in-progress, or to complete. Id.
+i-fi-183-84. The user elects to view information or generate reports on
+tracking and trending of task status and completion. Id. i-f 85. Yet we fail to
+see how or why, and the Examiner does not adequately explain how or why,
+a user changing a status of a task, whether considered alone or in
+combination with Chaffee, discloses or suggests "prior to schedule data
+being specified for the task ... generating and storing ... revision data
+having a value that indicates that the task associated with the task data does
+not currently have any associated schedule data and is a to-do list task," as
+recited in claim 1.
+In view of the foregoing, we do not sustain the Examiner's rejection
+of claim 1 and claims 2 and 4, which depend therefrom, under 35 U.S.C.
+§ 103(a).
+Independent Claims 5 and 9, and Dependent Claims 6, 8, 10, and 12
+
+Independent claims 5 and 9 include language substantially similar to
+the language of claim 1, and stand rejected based on the same erroneous
+findings applied with respect to claim 1. Final Act. 8-9. Therefore, we do
+
+6
+
+Appeal2014-001065
+Application 12/122,497
+not sustain the Examiner's rejection of independent claims 5 and 9 and
+claims 6, 8, 10, and 12, which depend therefrom, under 35 U.S.C. § 103(a)
+for the same reasons set forth with respect to claim 1.
+
+Dependent Claims 3, 7, and 11
+Claims 3, 7, and 11 each ultimately depends from independent
+claims 1, 5, and 9, respectively. The Examiner's rejection of claims 3, 7,
+and 11 based on Nonaka, in combination with Chaffee and York, does not
+cure the deficiency in the Examiner's rejection of claims 1, 5, and 9.
+Therefore, we do not sustain the Examiner's rejection of claims 3, 7, and 11
+under 35 U.S.C. § 103(a) for the same reasons set forth above with respect to
+claims 1, 5, and 9.
+DECISION
+The Examiner's rejections of claims 1-12 under 35 U.S.C. § 103(a)
+are reversed.
+
+REVERSED
+
+7
+
+

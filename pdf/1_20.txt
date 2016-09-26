@@ -1,0 +1,360 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111372,540
+
+03/10/2006
+
+Qi Jin
+
+S VL920060026US 1
+
+6950
+
+63675
+
+7590
+
+09/23/2016
+
+PATTERSON & SHERIDAN, LLP/IBM SVL
+24 Greenway Plaza
+SUITE 1600
+HOUSTON, TX 77046-2472
+
+EXAMINER
+PARK, GRACE A
+
+ART UNIT
+
+PAPER NUMBER
+
+2157
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+P AIR_eofficeaction@pattersonsheridan.com
+PSDocketing@pattersonsheridan.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte QI JIN, HUI LIAO, SRIRAM K. PADMANABHAN,
+and LIN XU
+
+Appeal2013-010369
+Application 11/372,540
+Technology Center 2100
+
+Before JOHNNY A. KUMAR, CATHERINE SHIANG, and
+NORMAN H. BEAMER, Administrative Patent Judges.
+SHIANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-14 and 30-39, which are all the claims pending and
+rejected in the application. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+STATEMENT OF THE CASE
+Introduction
+The present invention relates to data processing. See generally Spec.
+1. Claim 1 is exemplary:
+
+1.
+A computer implemented method for generating code for
+an integrated data system, comprising:
+
+Appeal2013-010369
+Application 11/372,540
+based on a received mixed data flow containing mixed
+data flow operators which collectively define operations to be
+performed to complete the mixed data flow such that a first
+runtime environment to perform a given operation of the
+defined operations is programmatically selected from a plurality
+of different types of runtime environments, wherein at least one
+of the operations performed in a first respective runtime
+environment is dependent on at least one other operation
+performed in a second respective runtime environment,
+generating a graph containing logical operators independent of
+the plurality of different types of runtime environments;
+converting the graph to a model wherein the logical
+operators are converted to model operators associated with the
+plurality of different types of runtime environments; and
+converting the model into an execution plan graph
+executable on the plurality of different types of runtime
+environments, by operation of one or more computer
+processors.
+References and Rejections
+Claims 1-14 and 30-39 are rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Cutsinger (US 7,493,311 B 1; Feb. 17, 2009),
+Savage (US 6,604, 110B1; Aug. 5, 2003), and Chaudhuri (US 6,850,925 B2;
+Feb. 1, 2005).
+
+ANALYSIS
+
+We disagree with Appellants' arguments, and agree with and adopt
+the Examiner's findings and conclusions in (i) the action from which this
+
+2
+
+Appeal2013-010369
+Application 11/372,540
+appeal is taken and (ii) the Answer to the extent they are consistent with our
+analysis below. 1
+
+On this record, we find the Examiner did not err in rejecting claim 1.
+
+Issue 1
+Appellants contend the cited references do not collectively teach
+converting the graph to a model wherein the logical
+operators are converted to model operators associated with the
+plurality of different types of runtime environments; and
+converting the model into an execution plan graph
+executable on the plurality of different types of runtime
+environments, by operation of one or more computer
+processors,
+as recited in claim 1. See App. Br. 10-14. In particular, Appellants assert:
+
+Chaudhuri is still silent on any sub-plan query statements
+that include model operators associated with different types of
+runtime environments, the model operators being converted
+from logical operators. Chaudhuri is also silent on the final
+query execution plan being executable on the different types of
+runtime environments. Further, Savage and Cutsinger do not
+cure these deficiencies of Chaudhuri. Because Cutsinger, even
+in view of Savage and Chaudhuri, does not disclose at least the
+underlined limitations above [.]
+App. Br. 13-14.
+Appellants have not persuaded us of error. In response to Appellants'
+arguments, the Examiner provides detailed findings showing Cutsinger,
+
+1
+
+To the extent Appellants advance new arguments in the Reply Brief
+without showing good cause, Appellants have waived such arguments. See
+37 C.F.R. § 41.41(b)(2).
+3
+
+Appeal2013-010369
+Application 11/372,540
+Savage, and Chaudhuri collectively teach the disputed claim limitations. See
+Ans. 14--16. In particular, the Examiner cites Savage's disclosures and
+explains why Cutsinger and Savage collectively teach "converting the graph
+to a model wherein the logical operators are converted to model operators
+associated with the plurality of different types of runtime environments," as
+recited in claim 1. See Ans. 15. Further, the Examiner cites Chaudhuri's
+disclosures and explains why Cutsinger, Savage, and Chaudhuri collectively
+teach "converting the model into an execution plan graph executable on the
+plurality of different types of runtime environments, by operation of one or
+more computer processors," as recited in claim 1. See Ans. 15. 2 Appellants
+fail to persuasively respond to such findings and, therefore, fail to show
+error in the Examiner's findings. See In re Baxter Travenol Labs., 952 F.2d
+388, 391 (Fed. Cir. 1991) ("It is not the function of this court [or this Board]
+to examine the claims in greater detail than argued by an appellant, looking
+for [patentable] distinctions over the prior art.").
+Further, Appellants' assertion that "Cutsinger, even in view of Savage
+and Chaudhuri, does not disclose at least the underlined limitations above"
+(App. Br. 14) lacks the requisite analysis, and, therefore, is unpersuasive.
+See 37 C.F.R. § 41.37(c)(l)(iv) ("A statement which merely points out what
+
+a claim recites will not be considered an argument for separate patentability
+of the claim"); see also In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011)
+(holding that "the Board reasonably interpreted Rule 41.37 to require more
+substantive arguments in an appeal brief than a mere recitation of the claim
+
+2
+
+We understand the Examiner's finding to mean because Cutsinger and
+Savage collectively teach "the plurality of different types of runtime
+environments," Chaudhuri does not need to teach that claim term separately.
+4
+
+Appeal2013-010369
+Application 11/372,540
+elements and a naked assertion that the corresponding elements were not
+found in the prior art").
+
+Issue 2
+
+Appellants argue "the rationale of the Office for the proposed
+modification of Cutsinger using Savage and Chaudhuri is merely
+conclusory" because it is unclear what benefits are achieved through the
+proposed modification. App. Br. 14.
+Appellants have not persuaded us of error. The U.S. Supreme Court
+has held "[t]he combination of familiar elements according to known
+methods is likely to be obvious when it does no more than yield predictable
+results." KSR Int'! Co. v. Teleflex, Inc., 550 U.S. 398, 416 (2007). Further,
+"[i]f the claim extends to what is obvious, it is invalid under§ 103" and "the
+analysis need not seek out precise teachings directed to the specific subject
+matter of the challenged claim, for a court can take account of the inferences
+and creative steps that a person of ordinary skill in the art would employ."
+KSR, 550 U.S. at 418-19.
+
+Contrary to Appellants' arguments, the Examiner has provided an
+articulated reasoning with a rational underpinning as to why one skilled in
+the art would have found it obvious to combine the teachings of Cutsinger,
+Savage, and Chaudhuri. See Ans. 4--5, 16-17. In particular, the Examiner
+finds the combination would have "facilitate[ d] the coordination of
+interaction between different data sources" and "allow[ ed] a user or
+computing system to analyze plans for potential optimization that will yield
+accurate cost estimates for execution." Ans. 5, 17. Appellants do not
+persuasively show why such reasoning is incorrect.
+
+5
+
+Appeal2013-010369
+Application 11/372,540
+The Examiner's findings are reasonable because the skilled artisan
+would "be able to fit the teachings of multiple patents together like pieces of
+a puzzle" since the skilled artisan is "a person of ordinary creativity, not an
+automaton." KSR, 550 U.S. at 420-21. Appellants do not present adequate
+evidence that the resulting arrangements were "uniquely challenging or
+difficult for one of ordinary skill in the art" or "represented an unobvious
+step over the prior art." See Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485
+F.3d 1157, 1162 (Fed. Cir. 2007) (citing KSR, 550 U.S. at 418-19).
+Accordingly, we agree with the Examiner that applying the Savage
+and Chaudhuri techniques in the Cutsinger method would have predictably
+used prior art elements according to their established functions-an obvious
+improvement. See KSR, 550 U.S. a 417.
+Because Appellants have not persuaded us the Examiner erred, we
+sustain the Examiner's rejection of claim 1, and independent claims 30 and
+34 for similar reasons.
+We also sustain the Examiner's rejection of corresponding dependent
+claims 2-14 and 31-33, which Appellants do not separately argue.
+Separately Argued Dependent Claims
+Regarding dependent claim 35, Appellants argue:
+Cutsinger, even in view of Savage and Chaudhuri, does not
+disclose at least the following limitations recited in dependent
+claim 35:
+[W]here the method is to generate the execution plan graph
+from the mixed data flow and for execution on the plurality of
+different types of runtime environments pro grammatically
+selected as satisfying a set of predefined criteria;
+
+6
+
+Appeal2013-010369
+Application 11/372,540
+wherein the model operators allow for analysis of operations for
+the mixed data flow, wherein the mixed data flow is received
+from a user, wherein the operation is selected based on user
+input, wherein a processing application is programmatically
+selected, and wherein the processing application and first
+runtime environment are not selected based on any user input;
+wherein the plurality of different types of runtime environments
+are pro grammatically selected as satisfying the set of predefined
+criteria;
+wherein the processing application is programmatically
+determined to satisfy a predefined suitability condition, wherein
+the suitability condition is satisfied upon identifying a matching
+runtime environment;
+wherein the mixed data flow consists of a plurality of data
+flows specified in a single request from a user, wherein each
+data flow in a plurality of data flows is of a distinct data type.
+The cited portions of Cutsinger generally discuss ...
+namespaces for queries and data sources, respectively, see
+Cutsinger, col. 15, lines 15-19. At the same time, even
+assuming ... that the data sources in Cutsinger correspond to
+the recited plurality of different r11ntime environments
+pro grammatically selected as satisfying a set of predefined
+criteria, Cutsinger is still silent on any processing application
+that is programmatically determined to satisfy a predefined
+suitability condition, where the suitability condition is satisfied
+upon identifying a matching runtime environment. Further,
+Savage and Chaudhuri do not cure these deficiencies of
+Cutsinger.
+Further, as discussed above, the rationale of the Office
+for the proposed modification of Cutsinger using Savage and
+Chaudhuri is merely conclusory.
+App. Br. 16-17.
+Appellants have not persuaded us of error. In response to Appellants'
+arguments, the Examiner provides detailed findings showing Cutsinger,
+Savage, and Chaudhuri collectively teach the disputed claim limitations. See
+7
+
+Appeal2013-010369
+Application 11/372,540
+Ans. 17-18. For example, the Examiner cites Cutsinger's disclosures and
+explains why "wherein the processing application is programmatically
+determined to satisfy a predefined suitability condition, wherein the
+suitability condition is satisfied upon identifying a matching runtime
+environment" is taught by or would have been obvious in light of
+Cutsinger's teachings. See Ans. 17-18. Appellants fail to persuasively
+respond to such findings and, therefore, fail to show error in the Examiner's
+findings. See Baxter Travenol Labs., 952 F.2d at 391.
+Further, Appellants' general assertion that the cited references do not
+teach the disputed claim limitations (App. Br. 16-17) is unpersuasive. See
+37 C.F.R. § 41.37(c)(l)(iv); Lovin, 652 F.3d at 1357.
+Finally, as discussed above with respect to claim 1, Appellants have
+not shown the Examiner's rationale for combining the references is merely
+conclusory.
+Therefore, and for similar reasons discussed above with respect to
+claim 1, we sustain the Examiner's rejection of claim 35.
+
+Regarding dependent claims 36-39, Appellants have not persuaded us
+of error. Similar to the discussions above with respect to claim 35, in
+response to Appellants' arguments (App. Br. 17-28), the Examiner provides
+detailed findings showing Cutsinger, Savage, and Chaudhuri collectively
+teach the disputed claim limitations. See Ans. 18-21. For example, the
+Examiner cites prior art disclosures and explains why Cutsinger, Savage,
+and Chaudhuri collectively teach the disputed claim limitations of claims
+36-39. See Ans. 18-21. Appellants fail to persuasively respond to such
+
+8
+
+Appeal2013-010369
+Application 11/372,540
+findings and, therefore, fail to show error in the Examiner's findings. See
+Baxter Travenol Labs., 952 F .2d at 391.
+
+Further, Appellants' general assertion that the cited references do not
+teach the disputed claim limitations (App. Br. 17-28) is unpersuasive. See
+37 C.F.R. § 41.37(c)(l)(iv); Lovin, 652 F.3d at 1357.
+Finally, as discussed above with respect to claim 1, Appellants have
+not shown the Examiner's rationale for combining the references is merely
+conclusory.
+Therefore, and for similar reasons discussed above with respect to
+claim 1, we sustain the Examiner's rejection of dependent claims 36-39.
+
+DECISION
+We affirm the Examiner's decision rejecting claims 1-14 and 30-39.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

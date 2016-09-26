@@ -1,0 +1,305 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/000,941
+
+02/09/2011
+
+Sebastian Kaefer
+
+022862-9116
+
+7611
+
+34044
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+MICHAEL BEST & FRIEDRICH LLP (Bosch)
+100 EAST WISCONSIN AVENUE
+MILWAUKEE, WI 53202
+
+TRAN,BINHQ
+
+ART UNIT
+
+PAPER NUMBER
+
+3748
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mkeipdocket@michaelbest.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SEBASTIAN KAEFER
+
+Appeal2014-009291
+Application 13/000,941
+Technology Center 3700
+
+Before JOHN C. KERINS, WILLIAM A. CAPP,
+and GEORGE R. HOSKINS, Administrative Patent Judges.
+CAPP, Administrative Patent Judge.
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellant seeks our review under 35 U.S.C. § 134 of the final
+rejection of claims 33-35 under 35 U.S.C. § 112(d) or pre-AIA § 112, fourth
+paragraph, as being of improper dependent form; claims 14--16, 22-30, and
+33-35 under 35 U.S.C. § 102(b) as anticipated by Hofmann (US 5,884,475,
+iss. Mar. 23, 1999); and claims 17-21 as unpatentable under 35 U.S.C. §
+103(a) over Hofmann and Marko (US 6,387,336 B2, iss. May 14, 2002).
+We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+Appeal2014-009291
+Application 13/000,941
+THE INVENTION
+Appellant's invention is an exhaust gas posttreatment device for an
+internal combustion engine. Spec. i-f 10. Claim 14, reproduced below with
+paragraph indentation added, is illustrative of the subject matter on appeal.
+14. An exhaust gas posttreatment device for an internal
+combustion engine, comprising:
+an exhaust gas tube; an SCR catalytic converter;
+a metering valve for injecting a gaseous reducing agent
+into the exhaust gas tube;
+a heatable storage container containing at least one
+storage substance for the reducing agent; and
+a buffer reservoir wherein the buffer reservoir is heatable,
+the storage substance is embodied such that the reducing agent
+can be released in gaseous form from the storage substance by
+the action of temperature in a releasing process which is
+reversible, and wherein an overpressure valve is provided
+between the buffer reservoir and the metering valve.
+OPINION
+Section 112 - Proper Dependent Form
+Claim 33 recites: "A control unit for an internal combustion engine,
+which operates by the method of claim 24." Claims App. Claim 24, in tum,
+is directed to a method for operating an exhaust gas posttreatment device.
+Id. Claim 34 reads as follows:
+34. A non-transitory computer readable medium storing
+computer program instructions for a control unit of an internal
+combustion engine, wherein when the instructions are executed,
+the control unit performs a method as defined by claim 24.
+Claims App. (emphasis added). Similarly, claim 35 reads as follows:
+35. A non-transitory computer readable medium storing
+computer program instructions for a control unit of an internal
+
+2
+
+Appeal2014-009291
+Application 13/000,941
+combustion engine, wherein when the instructions are executed,
+the control unit performs a method as defined by claim 30.
+Claims App. (emphasis added).
+The Examiner rejects claims 33-35 under 35 U.S.C. § 112 as being of
+improper dependent form for failing to further limit the subject matter of the
+claim upon which they respectively depend, or for failing to include all of
+the limitations of the claim upon which they respectively depend. Final
+Action 2. The Examiner recites the limitations from claims 33-35, but does
+not otherwise elaborate on why the claims are deemed deficient. Id. In
+response to Appellants' traverse (Appeal Br. 5), the Examiner does not
+defend or otherwise address the Section 112 rejection in the Examiner's
+Answer. See generally Ans.
+The Examiner carries a procedural burden of establishing a prima
+facie case by notifying the applicant of the reasons for a rejection, together
+with "useful" information for judging of the propriety of continuing
+prosecution of an application. See 35 U.S.C. § 132. Section 132 "is violated
+when a rejection is so uninformative that it prevents the applicant from
+recognizing and seeking to counter the grounds for rejection." In re Jung,
+637 F.3d 1356, 1362 (Fed. Cir. 2011) (quoting Chester v. Miller, 906 F.2d
+1574, 1578 (Fed. Cir. 1990)).
+Here, the Examiner's rejection lacks sufficient detail to make out a
+prima facie case. Accordingly, we do not sustain the section 112 rejection of
+claims 3 3-3 5.
+
+3
+
+Appeal2014-009291
+Application 13/000,941
+Anticipation by Hofmann
+Claims 14-16, 22, and 23
+
+The Examiner finds that Hofmann discloses all of the limitations of
+claim 14. Final Action 3--4. In particular, the Examiner finds that
+Hofmann' s reducing agent can be released in gaseous form from the storage
+substance by the action of temperature in a releasing process that is
+reversible. Id. at 4.
+Appellant traverses the rejection by arguing that Hofmann fails to
+disclose a reducing agent in "gaseous form." Appeal Br. 7. Appellant
+contends that Hofmann discloses an aqueous urea solution that is sprayed
+into an exhaust gas line. Id. Appellant also argues that Hofmann fails to
+disclose a reversible releasing process as claimed. Id. Appellant contends
+that Hofmann changes between frozen and liquid states. Id.
+In response, the Examiner states that Hofmann discloses that ammonia
+is produced from the aqueous urea solution. Ans. 2. The Examiner also
+relies on a passage of Hofmann as teaching that the aqueous urea solution
+may freeze. Id. The Examiner finds that Hofmann teaches that the urea
+solution in intermediate container 14 can be thawed by electric heater 38.
+Id. (citing Hofmann, col. 8, 11. 1-50).
+
+In reply, Appellant reiterates that Hofmann does not teach releasing a
+urea solution to a gaseous form. Reply Br. 3. Appellant directs our attention
+to col. 8, lines 40 through 44, of Hofmann as teaching that overheating of the
+urea solution is avoided in tank 6 and intermediate container 14 to avoid
+hydrolysis of the urea solution to form ammonia in such containers. Reply
+Br. 3, Hofmann, col. 8, 1. 44 ("hydrolysis is undesirable").
+Appellant's Specification provides that:
+
+4
+
+Appeal2014-009291
+Application 13/000,941
+If now, in the nth cycle, the buffer reservoir 15 has emptied
+enough that it reaches the limit charge 3 1, recharging of the
+buffer reservoir 15 with ammonia from the storage container 23
+is necessary. This is done in that when the limit charge 31 is
+reached, the heater 17 of the buffer reservoir is shut off. A
+short time before that, the heater 27 of the storage container 23
+is activated, since the storage container 23 requires a certain
+amount of time until it is ready for operation. As a result of the
+shutoff of the heater 17 of the buffer reservoir 15 after the limit
+charge is reached, the buffer reservoir 15 cools down, while at
+the same time the temperature of the storage container 23 rises.
+
+The result is an overpressure of the ammonia in the storage
+container 23, as a result of which gaseous ammonia flows from
+the storage container 23 through the check valve 29 into the
+buffer reservoir 15. There, because of the reversibility of the
+storage operation and the decrease in temperature of the buffer
+reservoir 15, it is stored in the storage material. This process
+can also continue after the shutoff of the vehicle, that is, after
+the end of the nth cycle, until the buffer reservoir 15 has again
+reached the initial charge of 1.0. After that, in the n+ 1th cycle,
+the method already described in conjunction with the first cycle
+begins all over again.
+Spec. i-f 39 (emphasis added). The foregoing disclosure informs our
+understanding of the language in claim 14 directed to the reducing agent
+being released in gaseous form from the storage substance by the action of
+temperature in a releasing process that is reversible. Claims App.
+Hofmann is directed to an SCR method where liquid urea is
+introduced into an exhaust gas. Hofmann, col. 2, 11. 33-51.
+The urea solution 4 is contained initially in a container 6 having
+a venting device 8. The urea solution 4 can be fed through the
+use of a feed pump 18 through a supply line 12 to an outlet
+opening 22 leading into the exhaust-gas line 42.
+
+Id. col. 6, 11. 4--8; see also col. 8, 11. 9-11 ("There the aqueous urea
+solution 4 is finely sprayed into the exhaust gas 5 which flows into the
+
+5
+
+Appeal2014-009291
+Application 13/000,941
+exhaust-gas line 42 of the internal-combustion engine"). Hofmann is
+concerned with preventing damage from temperatures below the freezing
+point of the liquid. Id. col. 2, 11. 3-10. Hofmann alleviates the problem of
+frozen liquid in the supply line between reservoir and the exhaust pipe by
+using pressurized gas to drain the supply line. Id. col. 2, 11. 33---63; col. 3,
+11. 8-50. Hofmann also uses a heater to liquefy a starting volume of the
+liquid from a solid state. Id. col. 4, 11. 15-29.
+[T]he device, which is preferably a component of an exhaustgas purification system of a utility motor vehicle having an
+internal-combustion engine, in particular an internalcombustion engine operated with an excess of air, can be
+particularly rapidly put into operation again even after
+prolonged shutdown times of the utility motor vehicle at outside
+temperatures below the freezing point of the liquid, because
+only a small heating power is needed to liquefy the starting
+volume even in the case of frozen liquid.
+Hofmann, col. 4, 11. 40-49; see also. col. 7, 1. 63 - col. 8, 1. 23. Hofmann
+uses temperature sensors to avoid overheating, and thereby vaporizing, the
+liquid contained in the reservoir. Id. col. 5, 11. 7-21.
+[O]verheating of the urea solution 4 is avoided both in the
+tank 6 and in the intermediate container 14, which would
+otherwise already result in hydrolysis of the urea solution to
+form ammonia in the containers. However, the hydrolysis is
+undesirable.
+Id. col. 8, 11. 40-44.
+To anticipate a claim, a single prior art reference must expressly or
+inherently disclose each claim limitation. Celeritas Techs., Ltd. v. Rockwell
+Int'! Corp., 150 F.3d 1354, 1361 (Fed. Cir. 1998). Anticipation also
+requires the presence in a single prior art disclosure of all the elements
+"arranged as in the claim." Finisar Corp. v. Direct Group, Inc., 523 F.3d
+
+6
+
+Appeal2014-009291
+Application 13/000,941
+1323, 1334 (Fed. Cir. 2008). Here, claim 14 requires that the reversible
+releasing process takes place with regard to a reducing agent that is released
+in "gaseous form" from the storage substance. Claims App. The
+Examiner's finding that this requirement is met by urea that is thawed into a
+liquid state from a frozen state constitutes reversible error.
+We do not sustain the anticipation rejection of claim 14, neither do we
+sustain the rejection of claims 15, 16, 22, and 23 that depend therefrom.
+Claims 24-30 and 33-35
+
+Claim 24 is a method claim that is substantially similar in scope to
+claim 1. Claims App. As with claim 14, claim 24 contains a limitation
+directed to releasing a reducing agent from the storage substance in gaseous
+form in a process that is reversible. Id.
+The issue raised by the Examiner's rejection and Appellant's traverse
+thereof is essentially the same as that discussed above with regard to the
+rejection of claim 14. Final Action 3--4, Appeal Br. 8, Ans. 3. For
+essentially the same reasons discussed above with respect to claim 14, we do
+not sustain the anticipation rejection of claim 24, neither do we sustain the
+rejection of claims 25-30 and 33-35 that depend therefrom.
+Unpatentability of Claims 17-21
+over Hofmann and Marko
+
+Claims 17-21 depend, directly or indirectly, from independent
+claim 14. Claims App. The rejection of these claims suffers from the same
+infirmity that we identified with respect to the rejection of claim 14, which
+infirmity is not cured by reliance on Marko as a secondary reference.
+Accordingly, we do not sustain the unpatentability rejection of
+claims 17-21.
+
+7
+
+Appeal2014-009291
+Application 13/000,941
+DECISION
+The decision of the Examiner to reject claims 14--30 and 33-35 is
+reversed.
+REVERSED
+
+8
+
+

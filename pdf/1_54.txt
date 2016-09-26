@@ -1,0 +1,259 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/972,756
+
+12/20/2010
+
+Victor Shafran
+
+13909-0247001/2010P00513U
+
+1553
+
+32864
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+FISH & RICHARDSON, P,C (SAP)
+PO BOX 1022
+MINNEAPOLIS, MN 55440-1022
+
+PARK, GRACE A
+
+ART UNIT
+
+PAPER NUMBER
+
+2157
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+P ATDOCTC@fr.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte VICTOR SHAFRAN, ELIEZER LEVY, and
+MICHAEL STOLLBERG 1
+
+Appeal2015-005024
+Application 12/972,756
+Technology Center 2100
+
+Before CAROLYN D. THOMAS, SHARON PENICK, and
+MICHAEL J. ENGLE, Administrative Patent Judges.
+ENGLE, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+Technology
+
+The application relates to "generating richer, structured service
+descriptions for enterprise services." Spec. i-f 20. "[E]nterprise services are
+used ... to expose business functionality from enterprise systems," which
+"makes the business functionality accessible and reusable in a variety of
+applications and processes deployed in organizations." Id. i-f 1.
+
+1
+
+According to Appellants, the real party in interest is SAP SE. Br. 4.
+
+Appeal2015-005024
+Application 12/972,756
+
+Representative Claim
+Claim 1 is representative and reproduced below with the limitations at
+issue emphasized:
+1. A computer-implemented method for generating structured
+service descriptions corresponding to one or more enterprise
+services, the method comprising:
+
+storing one or more enterprise services in a business
+service repository, each of the one or more enterprise services
+being developed based on a governance process that provides
+homogeneous naming conventions across enterprise services
+stored within the business service repository, and being
+associated with programmatic access information provided in a
+first format and semi-structured information provided in a
+second format, the first format being different than the second
+format;
+defining a unified schema based on the governance
+process, the unified schema explicitly representing the
+homogeneous naming conventions of the governance process;
+executing, using one or more processors, a first data
+importer and a second data importer, the first data importer being
+used to retrieve and transform programmatic access information
+associated with an enterprise service to structured data
+corresponding to the unified schema, and the second data
+importer being used to retrieve and transform semi-structured
+information associated with the enterprise service to the
+structured data corresponding to the unified schema;
+retrieving first data and second data from the business
+service repository using the first data importer and the second
+data importer, respectively, the business service repository being
+provided in a computer-readable storage medium and the first
+data and the second data corresponding to the enterprise services;
+automatically generating, using the one or more
+processors, structured service descriptions based on the first data
+and the second data, each of the structured service descriptions
+corresponding to the unified schema and being associated with
+one of the enterprise services; and
+storing the structured service descriptions in a service
+repository, the service repository being specific to the unified
+2
+
+Appeal2015-005024
+Application 12/972,756
+schema and being provided m a computer-readable storage
+medium.
+
+Rejections
+Claims 1-10, 12, 14, 16, 17, 19, and 20 stand rejected under 35 U.S.C.
+§ 103 (a) as obvious over the combination of Swaminathan et al. (US
+2011/0072055 Al; Mar. 24, 2011) and Amaro et al. (US 2003/0177481 Al;
+Sept. 18, 2003). Final Act. 5.
+Claims 11 and 18 stand rejected under 35 U.S.C. § 103(a) as obvious
+over the combination of Swaminathan, Amaro, and Blizniak et al. (US
+2003/0220993 Al; Nov. 27, 2003). Final Act. 12.
+Claim 13 stands rejected under 35 U.S.C. § 103(a) as obvious over the
+combination of Swaminathan, Amaro, and Chalana et al. (US 2011/0282934
+Al; Nov. 17, 2011). Final Act. 13.
+Claim 15 stands rejected under 35 U.S.C. § 103(a) as obvious over the
+combination of Swaminathan, Amaro, and Behrendt et al. (US
+2009/0177634 Al; July 9, 2009). Final Act. 14.
+ISSUES
+1.
+
+Did the Examiner err in finding Swaminathan teaches or
+
+suggests "storing one or more enterprise services in a business service
+repository, each of the one or more enterprise services being developed
+based on a governance process that provides homogeneous naming
+conventions across enterprise services stored within the business service
+repository," as recited in claim 1?
+2.
+
+Did the Examiner err in finding the combination of
+
+Swaminathan and Amaro teaches or suggests "defining a unified schema
+based on the governance process, the unified schema explicitly representing
+
+3
+
+Appeal2015-005024
+Application 12/972,756
+the homogeneous naming conventions of the governance process," as recited
+in claim 1?
+ANALYSIS
+
+The "storing" step
+Claim 1 recites "storing one or more enterprise services in a business
+service repository, each of the one or more enterprise services being
+developed based on a governance process that provides homogeneous
+naming conventions across enterprise services stored within the business
+service repository." The Examiner relies on Swaminathan for teaching or
+suggesting this limitation. Final Act. 5.
+Appellants contend that "in the method of Swaminathan[,] different
+service description languages having different naming conventions for the
+particular attributes are stored, which is different than storing enterprise
+services that have homogenous naming conventions." Br. 13. Yet the
+Examiner finds "this disclosure is merely a statement of the problem that
+Swaminathan is intended to solve" and "Swaminathan further discloses ...
+generating searchable service descriptions based on a normalized schema,
+which defines a standard attribute name for each attribute." Ans. 2-3 (citing
+Swaminathan if 45); Final Act. 5. The Examiner further finds that
+"[ s]tandardizing attribute names teaches providing homogeneous naming
+conventions because standardizing the attribute names means that the same
+attribute in each service is provided with the same name." Ans. 3.
+Appellants have not sufficiently persuaded us of any error in the
+Examiner's findings. A mere assertion that the prior art does not teach a
+particular element without meaningful explanation is unpersuasive. In re
+
+Jung, 637 F.3d 1356, 1365 (Fed. Cir. 2011). That is particularly true when,
+4
+
+Appeal2015-005024
+Application 12/972,756
+as here, the Examiner provides further explanation contradicting Appellants'
+assertions.
+"defining a unified schema ... "
+Claim 1 also recites "defining a unified schema based on the
+governance process, the unified schema explicitly representing the
+homogeneous naming conventions of the governance process." The
+Examiner relies on the combination of Swaminathan and Amaro for teaching
+or suggesting this limitation. Final Act. 3--4.
+While Appellants argue that Amaro's teaching is "different from the
+governance process, which ... develops one or more enterprise services in a
+business service repository" (Br. 14), the Examiner correctly points out that
+Swaminathan was used for teaching that limitation, not Amaro. Ans. 4.
+Appellants also contend that "no reasonable interpretation can equate
+a governance process used to develop enterprise services [as claimed] to
+[Amaro's] constraints of business entities used to generate a central
+information mode." Br. 14. However, the Examiner finds Amaro teaches
+"the business entities are generated by a process that is governed by business
+constraints. As such, it is not unreasonable to equate generation of the
+business entities and their properties based on the central information model
+to a governance process used to develop enterprise services." Ans. 5---6
+(citing Amaro i-fi-f 18, 102-103); Final Act. 3--4. Just as with the "storing"
+step, Appellants have not sufficiently addressed these findings of the
+Examiner, and a mere assertion that the prior art does not teach a particular
+claim element without sufficient meaningful discussion is unpersuasive.
+Jung, 637 F.3d at 1365. Thus, Appellants have not persuaded us of any
+error in the Examiner's findings.
+
+5
+
+Appeal2015-005024
+Application 12/972,756
+Accordingly, we sustain the Examiner's rejection of claim 1, and
+claims 2-20, which Appellants argue are patentable for similar reasons. See
+Br. 15; 37 C.F.R. § 41.37(c)(l)(iv).
+DECISION
+For the reasons above, we affirm the Examiner's decision rejecting
+claims 1-2 0.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 41.50(±).
+AFFIRMED
+
+6
+
+

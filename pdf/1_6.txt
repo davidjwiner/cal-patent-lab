@@ -1,0 +1,542 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/381,078
+
+05/08/2012
+
+Yasuyoshi Watanabe
+
+247322013200
+
+1064
+
+20872
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+MORRISON & FOERSTER LLP
+425 MARKET STREET
+SAN FRANCISCO, CA 94105-2482
+
+DONOHUE, SEAN R
+
+ART UNIT
+
+PAPER NUMBER
+
+1618
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+EOfficeSF@mofo.com
+PatentDocket@mofo.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte YASUYOSHI WATANABE, HIROTAKA ONOE,
+KAYO TAKAHASHI, MASAAKI SUZUKI, HISASHI DOI, and
+TAKAMITSUHOSOYA
+
+Appeal2015-003921
+Application 13/381,078 1
+Technology Center 1600
+
+Before DONALD E. ADAMS, ERIC B. GRIMES, and DAVID COTTA,
+Administrative Patent Judges.
+COTT A, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to labeled
+compounds suitable for use in connection with positron emission
+tomography ("PET"). The Examiner rejected the claims on appeal as
+obvious under 35 U.S.C. § 103(a).
+We affirm.
+
+1
+
+According to Appellants, the real party in interest is Riken. App. Br. 3.
+
+Appeal2015-003921
+Application 13/381,078
+STATEivIENT OF THE CASE
+Claims 1, 2 and 4--13 are on appeal. Claim 1 is illustrative and reads
+as follows:
+1. A compound, comprising a structure represented by
+formula (1)
+
+~~~x1
+
+.... (1)
+
+x2V
+wherein X 1 is 11 CH3, CH2 18F, or CF2 18F, X 2 is CN or
+N02, and R is any one of the groups represented by
+
+N-N
+
+L( _;)
+N
+
+I
+
+or
+
+The following grounds of rejection by the Examiner are before us on
+review:
+Claims 1, 5-7, 10, and 11 under 35 U.S.C. § 103(a) as unpatentable
+over Okada, 2 in view of Suzuki, 3 Schmidt, 4 Okada II 5 , and/or Doi. 6
+2 Okada et al., Studies on Aromatase Inhibitors II. Synthesis and Biological
+Evaluation of l-Amino-JH-1,2,4-triazole Derivatives, 45(2) CHEM. PHARM.
+BULL. 333-337 (1997) ("Okada").
+3 Suzuki et al., U.S. Patent No. 8,288,604 B2, issued Oct. 16, 2012
+("Suzuki").
+4
+Schmidt et al., U.S. Patent Publication No. 2004/0241087 Al, published
+Dec. 2, 2004 ("Schmidt").
+5
+Okada et al., U.S. Patent No. 5,674,886, issued Oct. 7, 1997 ("Okada II").
+6
+Doi et al., Paladium(O)-Mediated Rapid Methylation and
+Fluoromethylation on Carbon Frameworks by Reacting Methyl and
+Fluoromethyl Iodide with Ary! and Alkenyl Boronic Acid Esters: Useful for
+the Synthesis of [11 C}CH3-C- and [1 8F}FCH2-C- Containing PET Tracers
+2
+
+Appeal2015-003921
+Application 13/381,078
+Claims 1, 2, and 4 under 35 U.S.C. § 103(a) as unpatentable over
+Okada II in view of Suzuki, Schmidt, Okada, and/or Doi.
+Claims 8, 9, 12, and 13 under 35 U.S.C. § 103(a) as unpatentable over
+Takashini7 in view of Okada, Suzuki, Schmidt, Okada II, and/or Doi.
+FINDINGS OF FACT
+1.
+
+The Examiner finds that Okada discloses an aromatase
+
+inhibiting compound represented by the below formula.
+
+~)
+!
+
+~N
+
+NC~
+Ans. 4 (citing Okada Table 1, compound 4j).
+Okada II discloses aromatase inhibiting compounds represented
+
+2.
+
+by the belo\v formulas.
+
+N
+0NO,
+IN-~
+<P\
+
+N~
+
+CR~
+
+Okada II Example 13 (above left) and Example 34 (above right).
+
+(PET= Positron Emission Tomography), 15 CHEM. EUR. J. 4165--4171
+(2009) ("Doi").
+7
+Takashini et al., Imaging ofAromatase Distribution in Rat and Rhesus
+Monkey Brains with [1 1C]vorozole, 33 NUCLEAR MEDICINE AND BIOLOGY
+599---605 (2006).
+3
+
+Appeal2015-003921
+Application 13/381,078
+3.
+
+Schmidt discloses:
+By the binding of one or several detectable groups to an
+aromatase inhibitor, surprising advantages are achieved
+by the invention. Firstly, an increased aromatase activity
+may represent an early occurring factor in tumor
+formation, which is very valuable for a desired early
+diagnosis of abnormal or pathological conditions. Since
+the estrogen supply of the tumor is prenominantly [sic]
+based on local synthesis, the aromatase enzyme is
+enriched in the tumor. In addition, the tumor tissue
+induces an enhanced generation of aromatase in its
+surroundings, so that the tumor and its surroundings are
+characterized by substantially more aromatase molecules
+than the surrounding healthy tissue.
+
+Schmidt i-f 13.
+4.
+
+Doi discloses: "The rapid methylation and fluoromethylation
+
+on aryl and alkenyl carbon frameworks by reacting methyl and fluoromethyl
+iodide with aryl and alkenyl boronates have been studied with the focus on
+the realization of the synthesis of [11 C]CH3 and [18F]FCH2 labeled positron
+emission tomography (PET) tracers." Doi 4165.
+5.
+
+Doi discloses "this boron protocol provides a firm chemical
+
+basis for the synthesis of 11 C and 18F-incorporated PET tracers." Id.
+6.
+
+Doi discloses: "Since synthetic methods for a variety of boron
+
+compounds have recently been developed due to the increased importance of
+these compounds in the synthesis of the carbon frameworks of complex
+natural products and artificial drug candidates, we can use organoboron
+chemistry for the synthesis of a PET tracer." Id. at 4168---69.
+
+4
+
+Appeal2015-003921
+Application 13/381,078
+7.
+
+r-1
+
+.,.
+
+,...,.
+
+~cneme j
+
+ro~
+
+•
+
+.,.
+
+•
+
+.,.
+
+.,.
+
+££,.,.
+
+,.,.
+
+•
+
+ror11,..,_,
+
+.,.
+
+-.-.
+
+or um, wmcn snows ··rne symnes1s or L, 'L Jxy1ene--
+
+provides as follows:
+
+Hf.-'tC ii;n;;t~ftelll
+yi~o.00%
+
+Id. at 4168.
+8.
+
+Doi discloses:
+C]Celecoxib([ 11 C]-10), a clinically important COX-2
+inhibitor, was successfully synthesized by using the
+corresponding pinacol arylborate under PET conditions
+in high yield. These methods will be applicable to the
+synthesis of ingenious [ 11 C]CH3- and [18F]FCH2incorporated heteroaromatic PET tracers, [ 11 C]-11 and
+18
+[ F]-12, which exhibit extremely high affinity for
+metabotropic glutamate receptor subtype 5, starting from
+a common boronate precursor.
+[
+
+11
+
+Id. at 4168---69 (reference citations omitted).
+9.
+
+Suzuki discloses:
+A method of rapid methylation of an aromatic compound
+or an alkenyl compound, which is capable of obtaining an
+aromatic compound or an alkenyl compound labeled with
+a methyl group or a fluoromethyl group under a mild
+condition rapidly in high yield using an organic boron
+compound whose toxicity is not so high as a substrate.
+
+Suzuki Abstract.
+10.
+
+Suzuki discloses: "The method of methylation can be generally
+
+applied to a wide range of aromatic rings." Suzuki col. 6, 11. 38--40.
+11.
+
+Suzuki discloses kits for carrying out its method of rapid
+
+methylation. Suzuki col. 6, 1. 53 - col. 7, 1. 3.
+
+5
+
+Appeal2015-003921
+Application 13/381,078
+12.
+
+r"I
+
+..
+
+•
+
+.....
+
+,
+
+,
+
+~uzuK111mstrates
+
+,.,.
+
+,.,.
+
+•
+
+ro
+
+rl 1,..,,,
+
+,
+
+•
+
+•
+
+..
+
+me synmes1s or a L' 'L J comammg compouna
+
+by rapid methylation reaction as follows:
+
+Id. at col. 14, 11. 3 5--45.
+REJECTION OF CLAIMS 1, 5-7, 10, AND 11 AS OBVIOUS OVER
+OKADA IN VIEW OF SUZUKI, SCHMIDT, OKADA II, AND/OR DOI
+Appellants argue claims 1, 5-7, 10, and 11 together as a group. We
+designate claim 1 as representative for claims 1, 5-7, 10, and 11.
+The Examiner found that Okada taught an aromatase inhibiting
+compound represented by the formula:
+
+~~
+N"
+
+~N
+NC~
+
+Ans. 4 (hereafter, "the Okada Compound"). The Examiner determined,
+however, that Okada did not teach a compound where X 1 is
+
+11
+
+CH3, CH2 18F,
+
+or CF2 18F, as recited in claim 1. Id.
+The Examiner found that it would have been obvious to "incorporate
+an 11 C or 18F at the methyl position of the Okada Compound because it
+would advantageously enable a predictable aromatase binding PET
+
+6
+
+Appeal2015-003921
+Application 13/381,078
+radiotracer for early stage diagnosis of pathological conditions, such as
+tumor formation." Id. at 14. The Examiner found the motivation for this
+substitution in Schmidt, which taught that "increased aromatase activity may
+represent an early occurring factor in tumor formation, which is very
+valuable for an early stage diagnosis of abnormal and pathological
+conditions." Id. The Examiner found that the means to make this
+substitution were provided by Suzuki and/or Doi, both of which taught
+"rapid Pd-catalyzed coupling of [11 C]Mel and [18F]FMel into PET tracer."
+Id.
+Appellants argue that none of the cited art teaches a method for
+synthesizing the starting compound necessary to perform the rapid Pdcatalyzed coupling reaction of Suzuki and Doi. App. Br. 10. Appellants
+thus contend:
+[W]hile Suzuki et al. in view of Doi et al., arguably
+teaches that it would be possible for a person skilled in
+the art to carry out a reaction represented by:
+
+neither Suzuki et al. nor Doi et al. disclose or suggest a
+procedure to obtain the starting compound for such a
+reaction:
+
+Id. at 10-11. Appellants further contend that "the Examiner has not pointed
+to anything within Schmidt et al. that suggests any motivation for one of
+
+7
+
+Appeal2015-003921
+Application 13/381,078
+skill in the art to modify the compositions of Okada et al. (1997) to arrive at
+the presently claimed compounds." Id. at 13.
+Based on the record before us, we find that the Examiner has the
+better position. Doi discloses that its methylation and fluoromethylation
+method has broad applicability, providing a "firm chemical basis for the
+synthesis of 11 C and 18F-incorporated PET tracers." FF5. 8 Doi further
+suggests that methods for synthesizing the boronate precursor compounds
+used in its method are known. See, FF6 ("synthetic methods for a variety of
+boron compounds have recently been developed" allowing the "use [of]
+organoboron chemistry for the synthesis of a PET tracer."). Doi also
+provides an example in which its method was used to incorporate an 11 C
+label in a COX2-inhibitor compound having the below formula.
+
+FF7; Doi 4169.
+Appellants do not identify any evidence or provide any argument
+explaining why a person of ordinary skill in the art would be unable to use
+the method of Doi to incorporate an 11 C and 18F label in the Okada
+Compound. Instead, Appellants find fault with the Examiner's analysis,
+contending that the Examiner failed to sufficiently identify a method for
+obtaining the precursor compound to be used for applying the method of Doi
+8
+
+Doi and Suzuki both disclose similar methods of rapid palladium catalyzed
+labeling of PET tracers. See, FF7 and FF12. To simplify our analysis, we
+focus principally on one reference, Doi.
+8
+
+Appeal2015-003921
+Application 13/381,078
+to the Okada Compound. App. Br. 10 ("the Examiner has not
+demonstrated ... "); see also, App. Br. 11 ("the Examiner has not pointed to
+anything ... "). We are not persuaded. The Examiner provided evidence of a
+labeling method taught to be broadly applicable to PET tracers. FF5.
+Appellants provide no persuasive argument or evidence to support a
+conclusion that a person of ordinary skill in the art would be unable to
+synthesize the necessary precursors for Doi's methylation and
+fluoromethylation method. This is particularly true given Doi's suggestion
+that methods of synthesizing boronates were known. FF6.
+To the extent there is something unique about synthesis of the
+particular boronate precursor needed to use Doi' s methylation and
+fluoromethlyation method on the Okada Compound that places its synthesis
+outside the skill of the ordinary artisan, Appellants are in the better position
+to provide evidence to this effect. See, In re Antor Media Corp., 689 F.3d
+1282, 1289 (Fed. Cir. 2012) ("an examiner, who has no access to experts or
+laboratories, is not in a position to test each piece of prior art for enablement
+in citing it, and requiring him to do so would be onerous, if not impossible'}
+Appellants contend that the prior art does not provide a motivation to
+"modify the compositions of Okada et al. ( 1997) to arrive at the presently
+claimed compounds." App. Br. 13. We disagree. Okada teaches that the
+Okada Compound is an aromatase inhibitor. FF 1. And Schmidt teaches that
+"[b ]y the binding of one or several detectable groups to an aromatase
+inhibitor, surprising advantages are achieved." FF3. Most significantly,
+using a labeled aromatase inhibiting compound may allow for "early
+diagnosis of abnormal or pathological conditions." Id. We find that this
+
+9
+
+Appeal2015-003921
+Application 13/381,078
+teaching would provide sufficient motivation to modify the Okada
+Compound with a detectable group like an 11 C or 18F label.
+Accordingly, we affirm the Examiner's rejection of claim 1 as
+unpatentable over Okada, in view of Suzuki, Schmidt, Okada II, and/or Doi.
+Because they were not argued separately, claims 5-7, 10, and 11 fall with
+claim 1.
+REJECTION OF CLAIMS 1, 2, AND 4 AS OBVIOUS OVER OKADA II
+IN VIEW OF SUZUKI, SCHMIDT, OKADA, AND/OR DOI
+Appellants argue claims 1, 2 and 4 together as a group. We designate
+claim 1 as representative for claims 1, 2 and 4.
+The Examiner's rejection of claims 1, 2 and 4 differs from the
+Examiner's first obviousness rejection (rejecting claims 1, 5-7, 10, and 11)
+principally in that the Examiner relied on a different starting compound. In
+rejecting claims 1, 2 and 4, the Examiner relied upon the aromatase
+inhibiting compound disclosed in Examples 13 and 34 of Okada II
+(reproduced below) as starting compounds. Final Act. 8-9.
+
+CH:i
+
+CPJ
+
+Example 13 (above left) discloses "4-[N-(4-methylbenzyl)-N-( 4nitrophenyl)amino ]-4H-1,2,4-triazole." Okada II, col. 20, 11. 12-13.
+Example 34 (above right) discloses "4-[N-(4-cyanophenyl)-N-[( 4trifluoromethyl)benzyl]-amino ]-4H-1,2,4-triazole." Id. at col. 33, 11. 45--46.
+The Examiner determined that it would have been obvious to modify the
+compounds of Examples 13 and 34 to incorporate an 11 C or 18F at the methyl
+10
+
+Appeal2015-003921
+Application 13/381,078
+(or trifluoromethyl) position for the reasons discussed in connection with the
+Examiner's first obviousness rejection. Final Act. 8-9; Ans. 15.
+Appellants argue that claim 1, 2 and 4 are non-obvious for the same
+reasons that claims 1, 5-7, 10, and 11 are non-obvious. App. Br. 13-14.
+For the reasons discussed with respect to claims 1, 5-7, 10, and 11,
+Appellants' arguments do not persuade us that a preponderance of the
+evidence fails to support the obviousness of claim 1 over Okada II, in view
+of Suzuki, Schmidt, Okada and/or Doi. Because they were not argued
+separately, claims 2 and 4 fall with claim 1.
+REJECTION OF CLAIMS 8, 9, 12, AND 13 AS OBVIOUS OVER
+TAKASHINI IN VIEW OF OKADA, SUZUKI, SCHMIDT, OKADA II,
+AND/OR DOI
+Appellants argue claims 8, 9, 12, and 13 together as a group. We
+designate claim 8 as representative for claims 8, 9, 12, and 13.
+Claims 8, 9, 12, and 13 add limitations relating to methods of
+diagnosis using a compound of claim 1. To address these additional
+limitations, the Examiner relied upon Takashini, which the Examiner found
+to teach "methods of diagnosing aromatase linked disorders comprising
+administering labeled aromatase inhibitor." Ans. 10. Appellants argue that
+claims 8, 9, 12, and 13 are non-obvious for the same reasons that claims 1,
+5-7, 10, and 11 are non-obvious. App. Br. 14--15. For the reasons discussed
+with respect to claims 1, 5-7, 10, and 11, Appellants' arguments do not
+persuade us that a preponderance of the evidence fails to support the
+obviousness of claim 8 over Takashini in view of Okada, Suzuki, Schmidt,
+Okada II, and/or Doi. Because they were not argued separately, claims 9,
+12, and 13 fall with claim 8.
+
+11
+
+Appeal2015-003921
+Application 13/381,078
+
+survnvIARY
+For these reasons and those set forth in the Examiner's Answer, the
+Examiner's final decision to reject claims 1, 2, and 4--13 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a)(l).
+AFFIRMED
+
+12
+
+

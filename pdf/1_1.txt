@@ -1,0 +1,261 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/524,610
+
+06/15/2012
+
+John B. Kirk
+
+780139.00347
+
+5358
+
+26710
+
+7590
+
+09/23/2016
+
+QUARLES & BRADYLLP
+Attn: IP Docket
+411 E. WISCONSIN AVENUE
+SUITE 2350
+MILWAUKEE, WI 53202-4426
+
+EXAMINER
+TROOST, AARON L
+
+ART UNIT
+
+PAPER NUMBER
+
+3668
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pat-dept@quarles.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN B. KIRK, RYAN A. MAGILL, TIMOTHY E. DONAHUE,
+and RICHARD M. DAY
+
+Appeal2014--009181
+Application 13/524,610 1
+Technology Center 3600
+
+Before MICHAEL L. HOELTER, THOMAS F. SMEGAL, and
+LISA M. GUIJT, Administrative Patent Judges.
+SMEGAL, Administrative Patent Judge.
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+John B. Kirk et al. (Appellants) seek our review under 35 U.S.C.
+
+§ 134 of the Examiner's Final Rejection under 35 U.S.C. § 103(a) of claims
+12-17, 19, 23-26, 28-30, 32, 33, and 35 as unpatentable over Ambrosio (US
+7,471,066 B2, iss. Dec. 30. 2008), Eguchi (US 2012/0146776 Al, pub. June
+14, 2012), and Hori (US 2006/0279265 Al, pub. Dec. 14, 2006); and claims
+18, 27, and 34 as unpatentable over Ambrosio, Eguchi, Hori, and Yamashita
+(US 2008/0303343 Al, pub. Dec. 11, 2008). 2 We have jurisdiction under 35
+U.S.C. § 6(b).
+1
+
+According to Appellants, the real party in interest is The Raymond
+Corporation. Br. 1.
+2
+Claims 1-11, 20-22, and 31 have been canceled. Br. Al--4, Claims App.
+
+Appeal2014--009181
+Application 13/524,610
+We AFFIRM.
+
+CLAIMED SUBJECT MATTER
+Claims 12, 23, and 29 are independent. Claim 12 is reproduced below
+and illustrates the claimed subject matter, with disputed limitations
+emphasized.
+12. A system for transmitting data between components
+of an industrial vehicle that are powered by electricity received
+through a power line, said system comprising
+a first electrical choke with a conductor passing there
+through, wherein the conductor connects a first component to the
+power line;
+and a first communication circuit for at least one of
+sending and receiving message signals and having a
+transmission wire for carrying the message signals, wherein the
+transmission wire passes through the first electrical choke and is
+electrically attached to the conductor at a point between the first
+electrical choke and the first component.
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments in the Appeal Brief and the Examiner's Answer. We disagree
+with Appellants' conclusions, and agree with, and adopt as our own, the
+Examiner's findings and conclusions of law set forth at pages 14--19 of the
+Examiner's Answer. Specific arguments are highlighted and addressed
+below for emphasis.
+Obviousness of Claims 12-17, 19, 23-26, 28-30, 32, 33, and 35 over
+Ambrosio, Eguchi, and Hori
+Appellants first contend that Ambrosio "does not disclose any
+electrical choke." Br. 5. However, Appellants are simply attacking
+Ambrosia in isolation for lacking support for findings not relied upon by the
+
+2
+
+Appeal2014--009181
+Application 13/524,610
+Examiner, rather than addressing the Examiner's combination of Ambrosia,
+Eguchi, and Hori. 3 N onobviousness cannot be established by attacking
+references individually when the rejection is predicated upon a combination
+of prior art disclosures. See In re Merck & Co., 800 F.2d 1091, 1097 (Fed.
+Cir. 1986). The rejection relies on Eguchi for its teaching of a first electrical
+choke.
+We are also not persuaded by Appellants' argument that Ambrosia
+"does not even recognize ... attenuation of the message signals resulting
+from a low impedance shunt path through a battery or other vehicle
+component." Id. While we offer no opinion as to whether Appellants may
+be correct, the argument fails from the outset because ... it is "not based on
+limitations appearing in the claims." See In re Self, 671 F. 2d 1344, 1348
+(CCPA 1982). Claim 12 is not limited to a recognition of attenuation of
+messages signals of any kind. Rather, claim 12 merely recites "a
+transmission wire for carrying the message signals." Br. A-1, Claims App.
+Also not persuasive is Appellants' contention that "[t]he second
+power line 27 [of Eguchi] does not pass through the battery choke 14." Br.
+5---6. As with Ambrosia, Appellants are simply attacking Eguchi in isolation
+for lacking support for findings not relied upon by the Examiner, rather than
+addressing the Examiner's combination of Ambrosia, Eguchi, and Hori. In
+
+re Merck, 800 F.2d at 1097. As explained by the Examiner, the rejection
+relies on Hori for its teaching of a conductor and transmission wire both
+passing through a first electrical choke. 4
+
+3
+4
+
+See Final Act. 5-7.
+See Final Act. 5-7.
+3
+
+Appeal2014--009181
+Application 13/524,610
+While recognizing that the Examiner looks to Hori for teaching "a
+communication system that has a first electrical choke (citing 'ferrite core'
+23b in Figure 3) through which both a conductor of power line 10 and a
+message transmission wire 11 pass," Appellants contend that "[n Jot all
+ferrite cores function as an electrical choke that blocks a signal travelling
+in a conductor, some serve as the core of a transformer that inductively
+couples message signals between two separate conductors." Br. 6-7.
+However, again Appellants contentions are not commensurate in
+scope with claim 12, which is not limited to an electrical choke that blocks a
+signal traveling in a conductor, but merely recites an electrical choke
+through which pass a conductor and a transmission wire. See Br. A-1,
+Claims App. Furthermore, as the Examiner notes, claim 12 "does not
+provide any additional limitations as to how the choke is configured to
+function." Ans. 14. As we are instructed by our reviewing court,
+"limitations are not to be read into the claims from the [S]pecification." In
+re Van Geuns, 988 F.2d 1181, 1184 (Fed. Cir. 1993) (citing In re Zletz, 893
+F.2d 319, 321 (Fed. Cir. 1989)).
+Appellants also contend that "the separate transmission wire 11
+carrying the message signals [in Hori] is not attached to the power line
+conductor 10." Br. 9. Whether or not Appellants' contention is correct,
+Appellants are again simply attacking a reference in isolation for lacking
+support for findings not relied upon by the Examiner, rather than addressing
+the Examiner's combination of Ambrosia, Eguchi, and Hori. In re Merck,
+800 F .2d at 1097. The Examiner relies on Ambrosia for teaching a first
+
+4
+
+Appeal2014--009181
+Application 13/524,610
+communication circuit having a transmission wire electrically coupled to the
+conductor. 5
+Also not persuasive is Appellants' argument with respect to dependent
+claim 17, that "none of Ambrosio, Eguchi and Hori ... render obvious the
+relative directions in which the conductor and the transmission wire pass
+through a choke." Br. 11. Elements such as conductors and transmission
+wires don't have a "direction". As the Examiner had previously explained,
+"[p ]ower flows from the positive battery terminal through the conductor in a
+first direction," while "[t]ransmission signals traveling from the transceiver
+to the positive battery terminal would pass through the choke in a second
+direction opposite the first direction." Final Act. 8-9.
+In summary, we find the arguments presented on pages 5-12 of
+Appellants' Appeal Brief to be conclusory and unsupported by objective
+evidence (e.g., declaration by one skilled in the art). Argument of counsel
+cannot take the place of evidence lacking in the record. Meitzner v. Mindick,
+549 F.2d 775, 782 (CCPA 1977); see also In re Pearson, 494 F.2d 1399,
+1405 (CCPA 1974). See also In re De Blauwe, 736 F.2d 699, 705 (Fed. Cir.
+1984) (holding that arguments and conclusions unsupported by factual
+evidence carry no evidentiary weight).
+The Examiner initially determined, as set forth at page 3 of the Final
+Action, that "the combination [of Ambrosia, Eguchi, and Hori] yields a
+configuration having a single choke, where both the conductor and
+transmission wire pass there through, and where the conductor and the
+transmission wire are attached at a point after the choke and prior to the
+
+5
+
+See Final Act. 5-7.
+5
+
+Appeal2014--009181
+Application 13/524,610
+battery," as recited by claim 12. The Examiner also augmented the final
+rejection at pages 14--19 of the Answer with additional findings and
+conclusions of law that Appellants do not dispute.
+Accordingly, we sustain the Examiner's rejection of claims 12-17, 19,
+23-26, 28-30, 32, 33, and 35 under 35 U.S.C. § 103(a) as unpatentable over
+Ambrosio, Eguchi, and Hori.
+
+Obviousness of Claims 18, 27, and 34 as unpatentable over Ambrosio,
+Eguchi, Hori, and Yamashita
+Other than observing that Yamashita "does not teach both a power
+conductor and a communication transmission wire passing through the same
+electrical choke," we understand Appellants' appeal of the rejection of
+dependent claims 18, 27, and 34 to rest on the arguments presented supra
+regarding the combination of Ambrosio, Eguchi, and Hori. Br. 13. We are
+not persuaded that Appellants' arguments are demonstrative of error in the
+Examiner's rejection of claim 12, as set forth supra. See Br.12-13. As
+such, for the same reasons, we sustain the rejection of claims 18, 27, and 34
+under 35 U.S.C. § 103(a) as unpatentable over Ambrosio, Eguchi, Hori, and
+Yamashita.
+DECISION
+We AFFIRM the Examiner's rejections.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

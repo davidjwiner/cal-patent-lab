@@ -1,0 +1,280 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+14/134,697
+
+12/19/2013
+
+Anders Larsson
+
+P21844-US3
+
+6165
+
+27045
+
+7590
+
+09/23/2016
+
+ERICSSON INC
+6300 LEGACY DRIVE
+MIS EVR 1-C-11
+PLANO, TX 75024
+
+EXAMINER
+DEAN, RAYMOND S
+
+ART UNIT
+
+PAPER NUMBER
+
+2649
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kara.coffman@ericsson.com
+kathryn.lopez@ericsson.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ANDERS LARSSON, THOMAS W ALLDEEN,
+and MARTIN BACKSTROM
+
+Appeal2015-006941
+Application 14/134,697
+Technology Center 2600
+
+Before JASON V. MORGAN, MELISSA A. RAAP ALA, and
+NABEEL U. KHAN, Administrative Patent Judges.
+RAAP ALA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a final
+rejection of claims 1-21. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+Appeal2015-006941
+Application 14/134,697
+EXEivIPLARY CLAiivI
+
+1.
+A method implemented by a restricted local access point
+for determining output power for communication with mobile
+stations in a cellular network, the method comprising:
+scanning, by the restricted local access point, the cellular
+network for determining broadcasting channels used by
+surrounding wireless access points, wherein the restricted local
+access point comprises a radio circuit which scans the cellular
+network for determining broadcasting channels used by
+surrounding wireless access points, and wherein the radio
+circuit receives on frequencies corresponding to the broadcast
+channels used by the surrounding wireless access points;
+selecting, by the restricted local access point, a
+broadcasting channel that receives a lowest disturbance from
+surrounding access points, wherein the radio circuit is ordered
+to broadcast on the selected broadcasting channel, and wherein
+the radio circuit is a chipset having a form of a chipset from a
+mobile station but is made to receive on frequencies
+corresponding to the broadcast channels used by the
+surrounding wireless access points and further made to
+broadcast on the selected broadcasting channel;
+varying, by the restricted local access point, the output
+power of the selected broadcasting channel in order to provide a
+desired relation to the lowest disturbance;
+determining, by the restricted local access point, whether
+a main disturbing access point is another restricted local access
+point or an unrestricted global access point, and in case the
+main disturbing access point is another restricted local access
+point then further performing by the first restricted local access
+point:
+setting a threshold for one of a plurality of
+quantities of the desired relation, which the quantity in
+question is not allowed to pass;
+varying the output power for providing the desired
+relation without said quantity passing said threshold; and,
+
+2
+
+Appeal2015-006941
+Application 14/134,697
+selecting another channel if the desired relation
+cannot be obtained without the quantity passing the
+threshold; and
+wherein the restricted local access point is one of
+following:
+a Global System for Mobile Communications (GSM)
+restricted local access point; or
+a Universal Mobile Telecommunications System
+(UMTS) restricted local access point.
+REJECTIONS ON APPEAL
+Claims 1-8, 10-12, and 14--21 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Haartsen (US 5,794,157; Aug. 11,
+1998), Batra (US 7,372,890 B2; May 13, 2008) ("Batra '890"), Rainnie
+(US 7,672,695 Bl; March 2, 2010), and Wong (US 2005/0255892 Al; Nov.
+17, 2005). Ans. 2-21. 1
+Claim 9 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Haartsen, Batra '890, Rainnie, Wong, and Batra
+(US 2004/0218683 Al; Nov. 4, 2004) ("Batra '683"). Ans. 22-23.
+Claim 13 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Haartsen, Batra '890, Rainnie, Wong, and Paulraj
+(US 6,377,636 Bl; Apr. 23, 2002). Ans. 22-23.
+
+1
+
+By an Amendment after the Final Action, claims 22-26 were canceled and
+independent claims 1, 16, and 19 were amended to incorporate the canceled
+subject matter. Amendment 10 (Nov. 24, 2014). The Answer revises the
+rejections to account for the amendments. Clearly due to a typographical
+error, the Answer incorrectly omits claims 20 and 21 from the statement of
+the first rejection, but does include these claims in the body of the rejection.
+See Ans. 20-21.
+3
+
+Appeal2015-006941
+Application 14/134,697
+ANALYSIS
+Appellants contend the independent claims require a local access
+point that: both receives and broadcasts data on the same frequencies; and
+operates under a Global System for Mobile Communications (GSM) or
+Universal Mobile Telecommunications System (UMTS). App. Br. 9; Reply
+Br. 2. Appellants further contend that an ordinarily skilled artisan would not
+have, at the time of the present invention, viewed the Examiner's applied
+prior art as teaching or suggesting the above features because GSM and
+UMTS were understood as requiring access points to receive and broadcast
+data over different frequencies. App. Br. 9-11; Reply Br. 3. In Appellants'
+words:
+[T]he claimed restricted local access point[,] per the GSM and
+UMTS standards[,] would normally have to receive on a different
+frequency band than it transmits on....
+. . . [T]he claimed GSM/UMTS restricted local access point has
+a specially configured chipset that has been made counter to the
+requirements of the GSivI and UivITS standards to transmit and
+receive on the same frequency rather than to transmit and receive
+on different frequencies. Hence, the claimed restricted local
+assess point is counter-intuitive (i.e., teaches away from the prior
+art) and therefore patentable ....
+App. Br. 9-10; see also Reply Br. 3. Appellants also quote portions of the
+GSM and UMTS standards to support the assertion that both standards
+implement access points receiving and broadcasting data over different
+frequencies. 2 Appellants further argue that Wong teaches away from the
+claimed invention, contending:
+2
+
+Appellants cite two websites as presenting the quoted portions of the GSM
+and UMTS standards. The websites are no longer available and thus have
+not been viewed by this panel. However, the quotations and citations have
+4
+
+Appeal2015-006941
+Application 14/134,697
+Applicant notes that the Examiner has stated "Wong teaches, in
+Sections 0025, 0032, and 802.11 access point, which is the
+restricted local access point, that has GSM capability and thus
+having the capability to transmit and receive on different
+frequencies (see Final Office Action's page 3, lines 1-8).
+Hence, Wong teaches away from claim 1.
+App. Br. 11. Appellants' arguments are not persuasive.
+We agree with the Examiner that claim 1 does not specifically
+indicate that the restricted local access point transmits and receives on the
+same frequency. Adv. Act. 1. Rather, claim 1 requires the restricted access
+point is made to receive on frequencies corresponding to the broadcast
+
+channels used by the surrounding wireless access points, but does not
+require its own selected broadcast channel to be on the same frequencies
+used by the surrounding channels. The Examiner finds, and we agree, that
+Haartsen teaches the claimed restricted access point that receives on
+frequencies corresponding to broadcast channels used by the surrounding
+wireless access points. Final Act. 3--4; see, e.g., Haartsen, col. 2, 11. 53-58,
+col. 6, 11. 16-20. We are not persuaded that either Wong or the cited
+portions of the GSM and UMTS standard teach away from combining the
+teachings of Haartsen with Wong's teaching of a restricted access point with
+GSM capability. To teach away, a reference must actually "criticize,
+discredit, or otherwise discourage" investigation into the claimed solution.
+
+In re Fulton, 391 F.3d 1195, 1201 (Fed. Cir. 2004). Appellants have not
+shown that either the GSM and UMTS standards or Wong "criticize,
+
+been presented twice before this appeal and twice for this appeal.
+Amendment 12 (Nov. 24, 2014); Amendment 15 (July 16, 2014); App. Br.
+10; Reply Br. 3. Thus, for the sake of compact prosecution, we assume
+arguendo the quotations are accurate reproductions of the standards.
+5
+
+Appeal2015-006941
+Application 14/134,697
+discredit, or otherwise discourage" investigation into restricted access points
+with GSM capability that are made to receive data on frequencies
+corresponding to the broadcast channels used by surrounding wireless access
+points. In particular, the cited sections of the GSM standard do not criticize
+or discourage investigation into a restricted access point with GSM
+capability receiving on additional frequencies (i.e., the broadcast frequencies
+used by surrounding access points) than that specified by the standard. 3
+Moreover, we observe that Haartsen explicitly indicates that its radio
+communication system-which receives on frequencies corresponding to the
+broadcast channels used by surrounding wireless access points-is
+compatible with existing cellular standards like the Global System for
+Mobile Communication (GSM). See Haartsen, col. 1, 11. 9-16.
+
+For the reasons stated above, Appellants fail to persuade us of error in
+the rejection of independent claims 1, 16, and 19. Accordingly, we sustain
+the 35 U.S.C. § 103(a) rejections of claims 1, 16, and 19 and their dependent
+claims 2-15, 17, 18, 20, and 21, for which Appellants do not present
+separate arguments for patentability (see App. Br. 12).
+
+3
+
+We further observe that the limited excerpt of the GSM standard states
+only that the "Standard or primary GSM 900 Band" operates at the specified
+frequencies. See App. Br. 10. We are unable to ascertain from the limited
+excerpt of the GSM standard whether or not the entire GSM standard is so
+limited and/or whether other standards are used for restricted access points.
+6
+
+Appeal2015-006941
+Application 14/134,697
+DECISION
+We affirm the Examiner's decision to reject claims 1-21.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 41.50(±).
+
+AFFIRMED
+
+7
+
+

@@ -1,0 +1,196 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/362,664
+
+0113012009
+
+Shakil Ahmed Awan
+
+E89.12-0010
+
+1528
+
+27367
+
+7590
+
+09/21/2016
+
+WESTMAN CHAMPLIN & KOEHLER, P.A.
+SUITE 1400
+900 SECOND A VENUE SOUTH
+MINNEAPOLIS, MN 55402
+
+EXAMINER
+SONG,HOONK
+
+ART UNIT
+
+PAPER NUMBER
+
+2884
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SHAKIL AHMED AWAN
+and ADRIAN MAXWELL SMITH 1
+
+Appeal2015-003763
+Application 12/362,664
+Technology Center 2800
+
+Before BRADLEY R. GARRIS, MICHAEL P. COLAIANNI, and
+CHRISTOPHER C. KENNEDY, Administrative Patent Judges.
+GARRIS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Pursuant to 35 U.S.C. § 134, Appellants appeal from the Examiner's
+rejection under 35 U.S.C. § 103(a) of claims 1-19, 25, and 26 as
+unpatentable over Brown (EP 0314231 A2, published May 3, 1989) in view
+of Palanker (US 2005/0090875 Al, published April 28, 2005). We have
+jurisdiction under 35 U.S.C. § 6.
+We AFFIRM.
+
+1
+
+Elekta AB is identified as the real party in interest. Br. 3.
+
+Appeal2015-003763
+Application 12/362,664
+
+Appellants claim a plurality of leaves (100, 102) for a multi-leaf
+collimator (independent claim 1) as well as the collimator itself (remaining
+independent claim 2) wherein each leaf comprises a leaf structure having a
+fluorescent marker (118) secured thereto (Fig. 2).
+A copy of representative claim 1, taken from the Claims Appendix of
+the Appeal Brief, appears below.
+1. A plurality of leaves for a multi-leaf collimator for radiotherapeutic
+
+apparatus, each leaf comprising a leaf structure having a shape
+suitable for use as a leaf in a multi-leaf collimator and a fluorescent
+marker secured to the leaf structure, and each leaf being movable with
+respect to a frame of the multi-leaf collimator for limiting
+or extending a radiation field.
+Appellants do not present separate arguments specifically directed to
+dependent claims 3-19, 25, and 26 (Br. 9-14). As a consequence, these
+dependent claims will stand or fall with their parent independent claims of
+which claim 1 is representative.
+The Examiner concludes that it would have been obvious to replace
+the retro-reflector of Brown's collimator with a fluorescent material in view
+of Palanker' s teaching to use a retro-reflector or preferably a fluorescent
+material for tracking the position of a retinal prosthesis (Final Action 2-3).
+Appellants contest this obviousness conclusion by arguing "[t]he use
+of the fluorescent markers, rather than a retro reflective type marker as is
+common in the prior art, requires a modified illumination source and
+camera" (Br. 9) and that "[t]he illumination source and camera of Brown
+would not function for position detection in the apparatus of the claimed
+invention, nor would the apparatus disclosed in Brown function as does the
+
+2
+
+Appeal2015-003763
+Application 12/362,664
+present invention with the fluorescent markers in place of the retroreflective
+markers" (id.).
+Appellants' argument is not persuasive because it is premised on an
+incorrect test for obviousness. "The test for obviousness is not whether the
+features of the secondary reference may be bodily incorporated into the
+structure of the primary reference; nor is it that the claimed invention must
+be expressly suggested in any one or all of the references. Rather, the test is
+what the combined teachings of the references would have suggested to
+those of ordinary skill in the art." In re Keller, 642 F.2d 413, 425 (CCPA
+1981 ). Appellants fail to explain why the combined teachings of Brown and
+Palanker would not have suggested modifying Brown as necessary for
+effecting use of Palanker' s fluorescent material.
+Appellants also argue that the rejection is improper on the ground that
+Palanker is non-analogous art because it is not within their field of endeavor
+and is not reasonably pertinent to the particular problem with which they are
+involved (Br. l 0).
+We agree that Palanker is not within Appellants' field of endeavor.
+However, for the reasons detailed in the Answer, we fully share the
+Examiner's determination that Palanker is reasonably pertinent to the
+problem addressed by Appellants (Ans. i-f bridging 3--4). The following
+comments are added for emphasis and completeness.
+"A reference is reasonably pertinent if ... it is one which, because of
+the matter with which it deals, logically would have commended itself to an
+inventor's attention in considering his problem." In re Clay, 966 F.2d 656,
+659 (Fed. Cir. 1992).
+According to Appellants, "the problem with which the applicant is
+concerned is the accuracy of leaf position tracking in a multi-leaf collimator
+3
+
+Appeal2015-003763
+Application 12/362,664
+during the delivery of radiation for therapeutic treatment" (Br. 12).
+However, such a narrow description confines the problem to Appellants'
+multi-field collimator field of endeavor, thereby essentially eliminating the
+reasonably-pertinent test. Furthermore, this narrow description is
+inconsistent with the Specification which characterizes Appellants'
+invention as providing "a solution to problems that arise in machine vision
+applications in hostile or otherwise difficult environments, such as the
+interior of a radiotherapeutic apparatus" (Spec. 1: 11-14 (emphasis added)).
+Rather, we agree with the Examiner that Appellants' problem relates
+to system confusion caused by stray light and/or stray reflections in prior art
+systems using reflectors (Ans. 3 (citing Spec. 3 :21-23)) which Appellants
+solve by using a fluorescing marker to obtain increased contrast compared to
+simple reflection or retro-reflection arrangements (id. (citing Spec. 4: 1516)). Similarly, there is persuasive merit in the Examiner's determination
+that Palanker is reasonably pertinent to this problem because Palanker
+teaches using a retro-reflector or fluorescent material (id. (citing Palanker
+
+i-f 33)) and, like Appellants, teaches a preference for fluorescent material in
+order to improve contrast (id. (citing Palanker i-f 34)). For these reasons,
+Palanker logically would have commended itself to an inventor's attention in
+considering the problem of increasing the contrast of simple reflection or
+retro-reflection arrangements.
+In summary, Palanker is analogous art because it is reasonably
+pertinent to the particular problem with which Appellants are involved.
+The decision of the Examiner is affirmed.
+
+4
+
+Appeal2015-003763
+Application 12/362,664
+
+TIME PERIOD
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+AFFIRMED
+
+5
+
+

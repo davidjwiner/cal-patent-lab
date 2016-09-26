@@ -1,0 +1,224 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/733,727
+
+12/11/2003
+
+Kenneth L. Addy
+
+H0006399/4874/l 07934
+
+8574
+
+92556
+
+7590
+
+09/23/2016
+
+HONEYWELL/HUSCH
+Patent Services
+115 Tabor Road
+P.O.Box 377
+MORRIS PLAINS, NJ 07950
+
+EXAMINER
+DIEP, NHON THANH
+
+ART UNIT
+
+PAPER NUMBER
+
+2487
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentservices-us@honeywell.com
+amy.hammer@huschblackwell.com
+pto-chi@huschblackwell.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KENNETH L. ADDY
+
+Appeal2015-004069
+Application No. 10/733,727 1
+Technology Center 2400
+
+Before MARC S. HOFF, CATHERINE SHIANG,
+MONICA S. ULLAGADDI, Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellant appeals under 35 U.S.C. § 134 from a Final Rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+Appellant's invention is a security system including intrusion security
+sensors provided on the perimeter of a protected space and wireless RF,
+battery operated, low current drain video cameras elsewhere in the protected
+space. Each video camera is capable of operating in a standby inactive video
+mode having low electrical power consumption, or in an active video
+
+1
+
+The real party in interest is Honeywell International, Inc.
+
+Appeal2015-004069
+Application No. 10/733,727
+recording mode. Upon detection of an alarm event by a security sensor, the
+security sensor transmits an RF security/alarm event message, causing the
+security system video cameras to awaken from standby inactive video mode
+into the active video recording mode. See Abstract.
+Claim 1 is exemplary of the claims on appeal:
+1.
+
+A security system comprising:
+
+a security system control panel;
+a plurality of battery operated security video cameras, each having an
+RF receiver and operating in a standby inactive video mode, providing
+a low electrical power consumption, or in an active video recording
+mode that consumes a greater amount of electrical power;
+a plurality of security sensors for detecting a security/alarm event,
+each located elsewhere with respect to the plurality of video cameras
+and each having an RF transmitter for transmitting an RF
+security/alarm event message indicating detection of a security/alarm
+event;
+wherein an alarm event detected by a security sensor of the security
+system causes the security sensor to immediately activate the security
+system cameras by transmitting an RF security/alarm event initiating
+message to the security system cameras which causes the security
+system video cameras to awaken from the standby inactive video
+mode into the active video recording mode and collect pre-alarm
+video and wherein the initiating message is also received by the
+security system control panel for processing.
+
+2
+
+Appeal2015-004069
+Application No. 10/733,727
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Naidoo et al.
+
+US 6,658,091 Bl
+
+Dec. 2, 2003
+
+Kanayama et al.
+
+US 2005/0154598 Al
+
+July 14, 2005
+
+Stuart
+
+US 7,012,523 B2
+
+Mar. 14, 2006
+
+Claims 1-20 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kanayama, Stuart, and Naidoo.
+Throughout this decision, we make reference to the Appeal Brief
+("App. Br.," filed Sep. 17, 2014), the Reply Brief ("Reply Br.," filed Feb.
+19, 2015), and the Examiner's Answer ("Ans.," mailed Jan. 28, 2014) for
+their respective details.
+ISSUE
+Does Kanayama disclose or suggest, in response to a detected alarm
+event, a security sensor immediately transmitting an RF security/alarm event
+initiating message to the security system cameras which causes the security
+system cameras to awaken from the standby inactive state into the active
+video recording mode and collect pre-alarm video?
+ANALYSIS
+Appellant's argument that Kanayama fails to disclose or suggest
+"wherein an alarm event detected by a security sensor of the security system
+causes the security sensor to immediately activate the security system
+cameras by transmitting an RF security/alarm event initiating message to the
+security system cameras" is not persuasive to show Examiner error in the
+rejection. See App. Br. 6. Appellant contends that Kanayama transmits alarm
+
+3
+
+Appeal2015-004069
+Application No. 10/733,727
+messages to the security service manager terminal, rather than the cameras.
+Id.
+We do not agree that Kanayama does not teach corresponding
+functions. We agree with the Examiner's finding that Kanayama discloses
+that "trespasser sensor 12b is activated around the clock; upon detection of
+an abnormality, it sends a detection signal to the sensor control section 21 to
+request that the security camera 12a start operating." Ans. 2, 7; Kanayama i-f
+104. "The sensor control section 21, as it receives the operation start request
+for the security camera 12a from the trespasser sensor 12b (S211 ), sends a
+camera image capture instruction to the security camera 12a (S212). In
+accordance with the instruction, the security camera 12a starts image
+capturing and sends captured camera images." Kanayama i-f 105. We agree
+with the Examiner that the claims do not require transmission of the event
+initiating message directly to the security system cameras without
+transmission to any intermediate devices. Ans. 7.
+Appellant's contention that the claim term "immediately" does not
+allow for delay associated with relaying the initiating message through an
+intermediate device is also unpersuasive. See Reply Br. 3. Appellant has not
+cited to any portion of the Specification indicating a specific amount of time
+corresponding to the word "immediately." Appellant has provided no
+evidence that Kanayama does not function to transmit starting instructions to
+its cameras "immediately" within the plain and ordinary meaning of the
+term.
+We find that the combination of Kanayama, Stuart, and Naidoo
+teaches all the elements of claims 1-20. We sustain the Examiner's 35
+U.S.C. § 103 rejection.
+
+4
+
+Appeal2015-004069
+Application No. 10/733,727
+CONCLUSION
+Kanayama teaches, in response to a detected alarm event, a security
+sensor immediately transmitting an RF security/alarm event initiating
+message to the security system cameras which causes the security system
+cameras to awaken from the standby inactive state into the active video
+recording mode and collect pre-alarm video.
+ORDER
+The Examiner's rejection of claims 1-20 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

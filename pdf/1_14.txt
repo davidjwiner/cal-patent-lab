@@ -1,0 +1,440 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/071,005
+
+02/14/2008
+
+Louis Holder
+
+Y2108-00123 DIVl
+
+7617
+
+7590
+
+09/21/2016
+
+John Baird
+Suite 1000
+505 9th Street, N.W.
+Washington, DC 20004
+
+EXAMINER
+JONES, PRENELL P
+
+ART UNIT
+
+PAPER NUMBER
+
+2467
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte LOUIS HOLDER and JEFFREY CITRON
+
+Appeal2015-006713
+Application 12/071,005
+Technology Center 2400
+
+Before CAROLYN D. THOMAS, ERIC B. CHEN, and
+JOSEPH P. LENTIVECH, Administrative Patent Judges.
+CHEN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-006713
+Application 12/071,005
+This is an appeal under 35 U.S.C. § 134(a) from the final rejection of
+claims 8--46. Claims 1-7 have been cancelled. (See App. Br. 14.) We have
+jurisdiction under 35 U.S.C. § 6(b). We affirm-in-part.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to Internet telephony that uses of Session
+Initiated Protocol technology. (Spec. 4: 11-12.)
+Claims 8 and 11 are exemplary, with disputed limitation in italics:
+8.
+An internet telephony system configured to use Session
+Initiation Protocol (SIP) signaling to setup a communication of
+streaming packets, the internet telephony system comprising:
+a relay configured to relay streaming packets of the
+communication between a caller and a call destination;
+a server configured to receive, process and transmit SIP
+signaling messages to setup the communication between the caller and
+the call destination and to select the relay to use for the
+communication, the selection being based at least on the quality of the
+communication.
+11.
+The internet telephony system of claim 8, wherein the
+server is configured to select the relay to decrease the latency of the
+communication.
+
+Claims 8-10, 12-14, 16-22, 24--26, 28-34, 36-38, and 40--43 stand
+rejected under 35 U.S.C. § 103(a) as unpatentable over O'Brien
+(US 7,369,535 B2; May 6, 2008) and Kobayashi (US 2005/0246347 Al;
+Nov. 3, 2005).
+Claims 15, 27, and 39 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over O'Brien, Kobayashi, and Sylvain (US 2004/0120498 Al;
+June 24, 2004).
+
+2
+
+Appeal2015-006713
+Application 12/071,005
+Claims 11, 23, and 35 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over O'Brien, Kobayashi, and Mangal (US 6,865,398 B2;
+Mar. 8, 2005).
+Claims 44--46 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over O'Brien, Kobayashi, and to Kleyman (US 2004/0244010 Al; Dec. 2,
+2004). 1
+
+ANALYSIS
+§ 103 Rejection----0 'Brien and Kobayashi
+We are unpersuaded by Appellants' arguments (App. Br. 4--9; see also
+Reply Br. 1--4) that the combination of O'Brien and Kobayashi would not
+have rendered obvious independent claim 8, which includes the limitation
+"the selection being based at least on the quality of the communication."
+The Examiner found that the VoIP packets of O'Brien correspond to
+the limitation "streaming packets." (Final Act. 4.) The Examiner further
+found that the relay control section of Kobayashi corresponds to the
+limitation "the selection being based at least on the quality of the
+communication." (Id. at 5; see also Ans. 8.) In particular, the Examiner
+found that "the lower the capacity/load gets, the worse the quality
+(communication quality) gets." (Ans. 7.) The Examiner concluded that "it
+would be obvious ... to implement selecting relays based on QoS as taught
+by Kobayashi with ... O'Brien." (Id. at 10.) We agree with the Examiner.
+
+1
+
+Appellants do not present any separate arguments with respect to the
+rejections of dependent claims 44--46 under 35 U.S.C. § 103(a). Thus, any
+such arguments are deemed to be waived.
+3
+
+Appeal2015-006713
+Application 12/071,005
+0' Brien relates to voice-over-IP telephony. (Abstract.) 0 'Brien
+
+explains that Voice over Internet Protocol (VoIP) Real Time Protocol (RTP)
+includes "forcing packets carrying media in a VoIP call through network
+elements." (Col. 1, 11. 28-31.) O'Brien explains that "[t]he quality of a
+VoIP call is insured by controlling the path of the media stream to ensure
+that these voice packets traverse a known ... IP network," such that "[t]he
+path of the voice packets can avoid congested networks." (Col. 2, 11. 26-29.)
+Kobayashi relates to "a cache server and a network system having
+cache servers." (i-f 3.) Kobayashi explains that "a relay control section
+selects a relay server that is necessary for setting a path suitable for carrying
+out an automatic cache updating operation, a link prefetching operation, and
+a cache server cooperating operation, based on QoS path information."
+(i-f 37.) In reference to Figure 9, Kobayashi provides an example in which
+
+relay control section 110 uses "relay servers M301 and M302 ... to check
+whether it is possible or not to set a path from the Web server Sl to the QoS
+path reference relay control cache server C301 without passing through the
+congestion section [link L 1]." (i-f 131.) Because Kobayashi explains that
+path selection is based on the avoidance of congestion, Kobayashi teaches or
+suggests the limitation "the selection being based at least on the quality of
+the communication."
+A person of ordinary skill in the art would have recognized that
+incorporating the relay control section of Kobayashi with the VoIP of
+O'Brien would improve O'Brien by providing a suitable uncongested path
+based on QoS. See KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 417 (2007)
+("[I]f a technique has been used to improve one device, and a person of
+ordinary skill in the art would recognize that it would improve similar
+
+4
+
+Appeal2015-006713
+Application 12/071,005
+devices in the same way, using the technique is obvious unless its actual
+application is beyond his or her skill."). Thus, we agree with the Examiner
+(Ans. 10) that modifying O'Brien to incorporate the relay control section of
+Kobayashi would have been obvious.
+Appellants argue that "the QoS path information [of Kobayashi] is not
+the same nor equivalent to the 'Quality of Communication' as claimed,
+specifically the QoS path information is described in Kobayashi as simply
+available bandwidth/link load." (App. Br. 4; see also Reply Br. 1-2.)
+However, O'Brien expressly states that "quality of a VoIP call is insured by
+controlling the path of the media stream to ensure that these voice packets
+traverse a known ... IP network" and "[t]he path of the voice packets can
+avoid congested networks." (Col. 2, 11. 26-29.) Thus, the VoIP call quality
+of O'Brien is directly correlated to the QoS path information of Kobayashi
+for avoiding congested paths.
+Appellants further argue that "[c]ache servers (as used in Kobayashi)
+for data by their very nature are an anathema to Voice" because "[a] cache
+server on the other hand CACHES information packets until they are ready
+to transport." (App. Br. 6 (emphasis omitted).) Accordingly, Appellants
+argue, "one of ordinary skill in the art of VoIP communication would not
+sacrifice quality of communication for a reduction of congestion which
+would render the VoIP communication of 0' Brien unsatisfactory, and thus
+the Office's motivation to combine Kobayashi and O'Brien is without
+merit." (App. Br. 9 (emphasis omitted); see also Reply Br. 3--4.) However,
+the Examiner cited Kobayashi for the general teaching of using a relay
+control to select a suitable path based on QoS is well known, rather than
+
+5
+
+Appeal2015-006713
+Application 12/071,005
+bodily incorporating the cache server of Kobayashi into the VoIP of
+O'Brien. (See Ans. 8.)
+Thus, we agree with the Examiner that the combination of 0 'Brien
+and Kobayashi would have rendered obvious independent claim 8, which
+includes the limitation "the selection being based at least on the quality of
+the communication."
+Accordingly, we sustain the rejection of independent claim 8 under 35
+U.S.C. § 103(a). Claims 9, 10, 12-14, and 16-19 depend from claim 8, and
+Appellants have not presented any additional substantive arguments with
+respect to these claims. Therefore, we sustain the rejection of claims 9, 10,
+12-14, and 16-19 under 35 U.S.C. § 103(a), for the same reasons discussed
+with respect to independent claim 8.
+Independent claims 20 and 32 recite limitations similar to those
+discussed with respect to independent claim 8, and Appellants have not
+presented any additional substantive arguments with respect to these claims.
+We sustain the rejection of claims 20 and 32, as well as dependent
+claims 21, 22, 24--26, 28-31, 33, 34, 36-38, and 40-43, for the same reasons
+discussed with respect to claim 8.
+
+§ 103 Rejection----0 'Brien, Kobayashi, and Sylvain
+
+We are unpersuaded by Appellants' arguments (App. Br. 9-11; see
+also Reply Br. 4--5) that the combination of 0 'Brien, Kobayashi, and
+
+Sylvain would not have rendered obvious dependent claim 15, which
+includes the limitation "wherein the server is configured to select the relay
+based on a SIP Invite message."
+
+6
+
+Appeal2015-006713
+Application 12/071,005
+The Examiner found that the SIP INVITE message of Sylvain
+corresponds to the limitation "wherein the server is configured to select the
+relay based on a SIP Invite message." (Ans. 12-13; see also Final Act. 7.)
+The Examiner concluded that "it would have been obvious ... to implement
+select[ing] the relay to decrease the latency of the communication as taught
+by Sylvain with the combined teachings of and O'Brien, Jr. and Kobayashi
+for the purpose further managing the routing of streaming media between
+users." (Final Act. 7 (emphasis omitted).) We agree with the Examiner.
+Sylvain relates to "associating multimedia services with traditional
+telephony services in an efficient manner." (i-f l.) In one embodiment,
+Sylvain explains that "SIP call servers 26 ... facilitate VoP communications
+via the packet network 22," utilizing the known Session Initiation Protocol
+(SIP). (i-f 23.) Figure 5 of Sylvain illustrates an embodiment in which single
+service node 28 supports multimedia clients A and B. (i-f 42.) Sylvain
+explains "[a]ssuming that user A wishes to initiate a video session with
+user B, sufficient action is taken to trigger multimedia client A (14) to send a
+SIP INVITE message to multimedia client B (14)." (i-f 46.) Because Sylvain
+explains that SIP call servers 26 facilitate VoP communications and user A
+sends user Ba SIP INVITE, Sylvain teaches or suggests the limitation
+"wherein the server is configured to select the relay based on a SIP Invite
+message."
+A person of ordinary skill in the art would have recognized that
+incorporating the SIP INVITE message of Sylvain with the VoP of O'Brien,
+as modified by Kobayashi, would improve 0 'Brien by providing the ability
+to facilitate communications via Session Initiation Protocol (SIP). See KSR,
+550 U.S. at 417. Thus, we agree with the Examiner (Final Act. 7) that
+
+7
+
+Appeal2015-006713
+Application 12/071,005
+modifying O'Brien and Kobayashi to incorporate the SIP INVITE message
+of Sylvain would have been obvious.
+Appellants argue that "Sylvain does not disclose the use of the
+telephone switch to relay streaming packets" but instead, "[t]he telephony
+switch of Sylvain is a conventional switch used to communicate over the
+PSTN (Public Switched Telephone Network)." (App. Br. 10-11; see also
+Reply Br. 4--5.) However, the Examiner cited to O'Brien, rather than
+Sylvain for teaching the limitation "streaming packets." (Final Act. 4.)
+Appellants further argue that "the motivation relied upon by the
+Office is related to reduction of latency which is in no manner linked to the
+proposed modification." (App. Br. 11.) However, the Examiner also
+provides the rationale the combination of O'Brien, Kobayashi, and Sylvain
+provides the advantage of "managing the routing of streaming media
+between users." (Final Act. 7.) In other words, the combination of O'Brien,
+Kobayashi, and Sylvain is the improvement of a similar device in the same
+way as in the prior art.
+Thus, we agree with the Examiner that the combination of 0 'Brien,
+Kobayashi, and Sylvain would have rendered obvious dependent claim 15,
+which includes the limitation "wherein the server is configured to select the
+relay based on a SIP Invite message."
+Dependent claims 27 and 39 recite limitations similar to those
+discussed with respect to dependent claim 15, and Appellants have not
+presented any additional substantive arguments with respect to these claims.
+We sustain the rejection of claims 27 and 39 for the same reasons discussed
+with respect to claim 15.
+
+8
+
+Appeal2015-006713
+Application 12/071,005
+§ 103 Rejection----0 'Brien, Jr., Kobayashi, and Mangal
+
+We are persuaded by Appellants' arguments (Reply Br. 6) that the
+combination of O'Brien, Kobayashi, and Mangal would not have rendered
+obvious dependent claim 11, which includes the limitation "wherein the
+server is configured to select the relay to decrease the latency of the
+communication."
+Claim 8 recites "a server configured to receive, process and transmit
+SIP signaling messages to setup the communication between the caller and
+the call destination" (emphasis added). Dependent claim 11 further recites
+"wherein the server is configured to select the relay to decrease the latency
+of the communication" (emphasis added). Accordingly, the limitation "setup
+the communication" is distinguishable over the limitation "the
+communication."
+The Examiner found that the reduction in latency setup for the
+wireless communication system of Mangal corresponds to the limitation
+"wherein the server is configured to select the relay to decrease the latency
+of the communication." (Ans. 13; see also Final Act. 8.) We do not agree.
+Mangal relates to initiating real-time media sessions, in particular, "to
+reduce latency in the initiation of 'instant connect' or 'push to talk' (PTT)
+sessions between data-capable mobile stations." (Col. 1, 11. 11-14.) Mangal
+explains that in one embodiment, "one way to reduce call setup latency is to
+buffer an initial media transmission until a link exists to transmit the media
+further" and "that call setup latency will normally be unnoticeable to the
+terminating end, as long as the terminating end ultimately receives the initial
+media transmission." (Col. 4, 11. 45-51.)
+
+9
+
+Appeal2015-006713
+Application 12/071,005
+Although the Examiner cited to the buffering of the initial media
+transmission of Mangal to reduced call setup latency (Ans. 13), the
+Examiner has not provided sufficient evidence to support a finding that
+Mangal teaches the limitation "wherein the server is configured to select the
+relay to decrease the latency of the communication." In particular, Mangal
+explains that "one way to reduce call setup latency is to buffer an initial
+media transmission" (col. 4, 11. 45--4 7), rather than decreasing "the latency of
+the communication," as claimed. On this record, the Examiner has not
+demonstrated that Mangal teaches the limitation "wherein the server is
+configured to select the relay to decrease the latency of the communication."
+Accordingly, we are persuaded by Appellants' argument that
+"[ c]laim 11 requires the decrease of latency of the communication, not
+latency of the set up of the communication" and "Mangal is silent with
+respect to the communication." (Reply Br. 6.)
+Therefore, we do not sustain the rejection of dependent claim 11
+under 35 U.S.C. § 103(a).
+Dependent claims 23 and 35 recite limitations similar to those
+discussed with respect to dependent claim 11. We do not sustain the
+rejection of claims 23 and 35 for the same reasons discussed with respect to
+claim 11.
+
+NEW GROUND OF REJECTION UNDER 37 C.F.R. § 41.50(b)
+We enter the following new ground of rejection:
+Dependent claim 11 is rejected under 35 U.S.C. § 103(a) as
+unpatentable over 0 'Brien and Kobayashi.
+
+10
+
+Appeal2015-006713
+Application 12/071,005
+Claim 11 recites "wherein the server is configured to select the relay
+to decrease the latency of the communication" (emphasis added). One
+relevant plain meaning of "latency" is "[ t ]he time required for a signal to
+travel from one point on a network to another." MICROSOFT® COMPUTER
+DICTIONARY 306 (5th ed. 2002). This definition of "latency" is consistent
+with Appellants' Specification, which states that "[t]he pre-proxy server 75
+can allocate the closest RTP [Real Time Transport Protocol] relay between
+the two calling parties" and "[t]hat allocation enables the ability to decrease
+latency and travel time of the RTP stream." (Spec. 6:13-15.) Accordingly,
+under the broadest reasonable interpretation consistent with Appellants'
+Specification, we interpret "latency" as the time required for a signal to
+travel from one point on a network to another.
+As discussed previously, O'Brien explains that "[t]he quality of a
+VoIP call is insured by controlling the path of the media stream to ensure
+that these voice packets traverse a known ... IP network" such that "[t]he
+path of the voice packets can avoid congested networks." (Col. 2, 11. 26-29.)
+Also discussed previously, Kobayashi provides an example in which relay
+control section 110 uses "relay servers M301 and M302 ... to check
+whether it is possible or not to set a path from the Web server Sl to the QoS
+path reference relay control cache server C301 without passing through the
+congestion section [link L 1]." (i-f 131.)
+Thus, both O'Brien and Kobayashi explain that congested paths (i.e.,
+paths with heavy network traffic) should be avoided, which would result in a
+decrease in latency for a signal to traveling from one point on the network to
+another. Accordingly, the combination of O'Brien and Kobayashi teaches
+the limitation "wherein the server is configured to select the relay to
+
+11
+
+Appeal2015-006713
+Application 12/071,005
+decrease the latency of the communication," as recited in dependent
+claim 11.
+Dependent claims 23 and 35 recite limitations similar to those
+discussed with respect to dependent claim 11.
+Pursuant to our authority under 37 C.F.R. § 41.50(b), we reject
+dependent claims 11, 23, and 35 as unpatentable over O'Brien and
+Kobayashi under 35 U.S.C. § 103(a).
+This decision contains a new ground of rejection pursuant to
+37 C.F.R. § 41.50(b).
+37 C.F.R. § 41.50(b) provides that a "new ground of rejection
+pursuant to this paragraph shall not be considered final for judicial review."
+37 C.F.R. § 41.50(b) also provides that Appellants, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new ground of rejection to
+avoid termination of proceedings (37 C.F.R. § 1.197 (b)) as to the rejected
+claims:
+(1) Reopen prosecution. Submit an appropriate
+amendment of the claims so rejected or new evidence relating
+to the claims so rejected, or both, and have the matter
+reconsidered by the examiner, in which event the prosecution
+will be remanded to the examiner. ...
+(2) Request rehearing. Request that the proceeding be
+reheard under§ 41.52 by the Board upon the same Record ....
+DECISION
+The Examiner's decision rejecting claims 8-10, 12-22, 24--34, and
+3 6-46 is affirmed.
+The Examiner's decision rejecting claims 11, 23, and 35 is reversed.
+12
+
+Appeal2015-006713
+Application 12/071,005
+A new ground of rejection has been entered under 37 C.F.R.
+
+§ 41.50(b) for claims 11, 23, and 35, rejected under 35 U.S.C. § 103(a) as
+unpatentable over O'Brien and Kobayashi.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+
+AFFIRMED-IN-PART
+37 C.F.R. § 41.50(b)
+
+13
+
+

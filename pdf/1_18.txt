@@ -1,0 +1,425 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111549,608
+
+10/13/2006
+
+Jeff Grady
+
+2006P02788US
+
+7239
+
+24737
+
+7590
+
+09/23/2016
+
+PHILIPS INTELLECTUAL PROPERTY & STANDARDS
+465 Columbus Avenue
+Suite 340
+Valhalla, NY 10595
+
+EXAMINER
+SHIBRU, HELEN
+
+ART UNIT
+
+PAPER NUMBER
+
+2484
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+marianne.fox@philips.com
+debbie.henn@philips.com
+patti. demichele@Philips.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JEFF GRADY, GAREY DE ANGELIS,
+ANDREW GREEN, and VINCENT K. GUSTAFSON
+
+Appeal2014-009506
+Application 11/549,608
+Technology Center 2400
+
+Before DEBRA K. STEPHENS, MIRIAM L. QUINN, and
+DAVID J. CUTITTA, II, Administrative Patent Judges.
+
+STEPHENS, Administrative Patent Judge.
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Final Rejection of
+claims 1-80. We have jurisdiction under 35 U.S.C. § 6(b ).
+
+We AFFIRM.
+
+STATEMENT OF THE INVENTION
+According to Appellants, the claims are directed to interface systems
+for portable digital media storage and playback devices used for on-line
+
+Appeal2014-009506
+Application 11/549,608
+downloading, storing, and playing digital media files (Abstract). Claim 1,
+reproduced below, is representative of the claimed subject matter:
+1. A docking assembly for interfacing a device having
+telephonic portable digital media storage and playback capability
+and a first display with a system for media reproduction having
+a second display and a first amplifier configured to drive at least
+one speaker, the docking assembly comprising:
+an electrical coupling configured to engage the device;
+a microprocessor coupled to the electrical coupling and
+configured to control the device;
+a remote controller configured to receive telephonic
+signals;
+a receiver coupled to the microprocessor and configured
+to receive input signals from the remote controller and provide
+output signals; and
+a transceiver configured to rebroadcast the telephonic
+signals between the device and the remote controller.
+
+54. An apparatus to control a device having telephonic portable
+digital media storage and playback capability, a system for media
+reproduction, and a docking assembly for interfacing the device with the
+system, the apparatus comprising:
+a remote controller including
+a receiver configured to receive telephonic signals from the
+docking assembly;
+a speaker configured to reproduce an audible telephonic signal;
+a voice transducer configured to produce electrical vocal output
+signals;
+a first transmitter coupled to the voice transducer and
+configured to transmit the electrical vocal output signals;
+
+2
+
+Appeal2014-009506
+Application 11/549,608
+a second transmitter configured to provide control signals to the
+docking assembly; and
+a charge storage to provide electric power to any of the signal
+receiver, the speaker, the first transmitter; and the second
+transmitter.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Bodnar
+Bonney
+Edwards
+Poslinski
+Silverbrook
+Rutledge
+Matz
+
+US
+US
+US
+US
+US
+US
+US
+
+2004/0097264
+2004/0117062
+2005/0179559
+2006/0045462
+7,106,888 Bl
+2007/0101039
+2013/0055317
+
+Al
+Al
+Al
+Al
+Al
+Al
+
+May 20, 2004
+June 17, 2004
+Aug. 18, 2005
+Mar. 2, 2006
+Sept. 12, 2006
+May 3, 2007
+Feb.28,2013
+
+REJECTIONS
+Claims 1-3, 5-20, 22-27, 36-46, 50-53, and 75-80 stand rejected
+under 35 U.S.C. § 103(a) as being unpatentable over Rutledge and Matz
+(Final Act. 4--10).
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Rutledge, Matz, and Silverbrook (Final Act. 10-11).
+Claims 29-35 and 47--49 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Rutledge, Matz, and Bonney (Final Act. 11-12).
+Claim 28 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Rutledge, Matz, and Bodnar (Final Act. 12).
+Claim 21 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Rutledge, Matz, and Edwards (Final Act. 13).
+
+3
+
+Appeal2014-009506
+Application 11/549,608
+Claims 54--57, 59, 61---64, 66-71, 73, and 74 stand rejected under 35
+U.S.C. § 102(e) as being anticipated by Matz (Final Act. 14--16).
+Claim 58 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Matz and Poslinski (Final Act. 16).
+Claim 60 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Matz and Silverbrook (Final Act. 16).
+Claim 65 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Matz and Bodnar (Final Act. 17).
+Claim 72 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Matz and Edwards (Final Act. 17-18).
+
+We have only considered those arguments that Appellants actually
+raised in the Briefs. Arguments Appellants could have made but chose not
+to make in the Briefs have not been considered and are deemed to be
+waived. See 37 C.F.R. § 41.37(c)(l)(iv) (2013).
+
+ISSUES
+35 U.S.C. § 103(a): Claims 1-3, 5-20, 22-27, 36--40, 41--46, 50--53, and
+75-80
+
+Appellants assert their invention is not obvious over Rutledge and
+Matz (App. Br. 8-14). The issues presented by the arguments are:
+Issue 1: Has the Examiner erred in finding the combination of
+
+Rutledge and Matz teaches or suggests "a docking assembly for interfacing a
+device having telephonic portable digital media storage"; "a remote
+controller configured to receive telephonic signals"; and "a transceiver
+configured to rebroadcast the telephonic signals between the device and the
+
+4
+
+Appeal2014-009506
+Application 11/549,608
+remote controller," as recited in independent claim 1, and commensurately
+recited in claim 41?
+
+Issue 2: Has the Examiner improperly combined the teachings and
+suggestions of Rutledge and Matz?
+
+ANALYSIS
+We disagree with Appellants' conclusions and adopt as our own:
+(1) the findings and reasons set forth by the Examiner in the Final Office
+Action from which this appeal is taken; and (2) the reasons set forth by the
+Examiner in the Examiner's Answer in response to the Appeal Brief. With
+respect to the claims argued by Appellants, we highlight and address specific
+findings and arguments for emphasis as follows.
+Appellants argue Rutledge fails to teach or suggest the recited docking
+assembly having a transceiver for receiving and rebroadcasting telephonic
+signals to the docking assembly's remote controller (App. Br. 9). According
+to Appellants, Rutledge teaches portable devices; charging of a portable
+device through a user control interface 235 integral to docking station 120;
+and sending signals by the docking system, to configure proper voltage
+connection of the power supply, but not the recited transceiver (id. (citing
+Rutledge i-fi-14, 56, 66)). Furthermore, Appellants argue neither Rutledge nor
+Matz teaches or suggests the recited docking assembly having a remote
+controller (id. at 9-10). Rather, Appellants contend, Matz discloses a
+display device having a remote control device and therefore, does not teach a
+remote controller configured to receive telephonic signals or rebroadcast the
+signals between the device and the remote controller (id. at 10). Appellants
+
+5
+
+Appeal2014-009506
+Application 11/549,608
+thus argue Matz' s remote control device does not belong or function with
+the docking assembly or function as recited (id. at 10-11 ).
+We agree with the Examiner's findings and reasoning. Initially, we
+note, as set forth by the Examiner, the claim recites "a transceiver
+configured to rebroadcast the telephonic signals between the device and the
+remote controller" (Ans. 17). Additionally, Appellants' Specification states
+"[t]he term 'transceiver' in this context refers to any combination of
+transmitter and receiver present in the same device" (Spec. i-f 45). Rutledge
+teaches that a portable device may be a cellular telephone (Rutledge i-f 4) and
+that the docking station communicates with the portable device to provide
+non-portable performance (id. i-f 7), thus teaching or at least suggesting a
+transceiver (Final Act. 5).
+The Examiner further cites to Matz (Final Act. 2-3). Matz teaches a
+display device that includes a remote control interface and remote control
+receiver (Matz i-f 40). "The remote control interface 234 comprises a suitable
+wireless data interface for sending data to and receiving data from the
+remote control device 106" (id.). Thus, the display device of Matz
+comprises a transceiver. We also agree with the Examiner that the
+transceiver of Matz rebroadcasts the telephonic signals between the display
+device and the remote controller because the remote controller can be
+utilized to initiate wireless telephone calls from the display device (Ans. 22,
+(see also Matz i-f 43). Initially, we are not persuaded the Examiner's
+
+interpretation of "rebroadcast" is in error (id.). Indeed, Appellants' own
+Specification describes "rebroadcast" in one embodiment as receiving,
+retransmitting, or otherwise relaying incoming signals (Spec. i-f 45). In light
+of this interpretation, we are not persuaded Matz fails to teach the docking
+
+6
+
+Appeal2014-009506
+Application 11/549,608
+assembly comprising a transceiver configured to rebroadcast signals, as
+recited in claim 1.
+We also are not persuaded Matz fails to teach rebroadcasting
+telephonic signals. Specifically, Matz teaches telephonic signals are
+received and retransmitted by the transceiver in the remote control interface
+234 of the docking station to the remote control device 106 (Matz i-fi-1 4, 4043).
+Furthermore, we are unpersuaded the transceiver is not configured to
+rebroadcast the telephonic signals between the device and the remote
+controller. Matz teaches the docking station connects to a wireless
+telecommunications network, and receives and transmits data, including, for
+example digital video content, wireless radio, or telephone calls (Matz i-fi-1 89). As the docking station further communicates this data with the remote
+control device (Matz i-fi-140-43), we are unpersuaded Matz fails to teach "a
+transceiver configured to rebroadcast the telephonic signals between the
+device and the remote controller." (See also Matz, claim 8.)
+Additionally, we agree with the Examiner that Matz's remote control
+device is operative to communicate with the display device over a wireless
+connection (Ans. 19-20; Matz i-f 41, Fig. 3). Matz further teaches the remote
+control device may be utilized to initiate a wireless telephone call or to
+respond to an incoming call request, and is used during wireless telephone
+calls (Matz i-fi-143--44). Therefore, we are not persuaded the combination of
+Rutledge and Matz fails to teach "a remote controller configured to receive
+telephonic signals," as recited in claim 1. Indeed, Matz describes "the
+remote control device may include a microphone and a speaker ... to
+
+7
+
+Appeal2014-009506
+Application 11/549,608
+receive audio and to transmit the audio to the apparatus wirelessly for use in
+the wireless telephone call" (Matz i-f 13).
+Further, Appellants have not persuaded us Matz teaches away from
+the recited transceiver (App. Br. 12) as Appellants have not identified where
+an ordinarily skilled artisan "upon reading the reference, would be
+discouraged from following the path set out in the reference, or would be
+led in a direction divergent from the path that was taken by the applicant."
+
+In re Gurley, 27 F.3d 551, 553 (Fed. Cir. 1994).
+We emphasize additionally, the Examiner relies on the combination of
+Rutledge (Ans. 23-24) and Matz whereas Appellants are arguing the
+references individually (App. Br. 13). Specifically, the Examiner modifies
+Rutledge's system with Matz's remote controller (Final Act. 5; Ans. 23-24).
+Appellants further argue, with respect to claims 16-19, Matz
+describes only audio is shared with the remote controller and not digital
+signals, text, communication notification, and caller identification (App. Br.
+12). We are not persuaded by Appellants' arguments. We agree with the
+Examiner that Matz discloses various types of data are described (Ans. 23;
+Final Act. 7-8; Matz i-f 27). Appellants have not persuaded us Matz does not
+teach or at least suggest the disputed limitations. For example, Matz
+discloses communications between the remote control interface of the
+docking station and the remote control device is via a transceiver that is
+compatible with the BLUETOOTH or WI-FI communications (Matz i-f 40).
+Therefore, we are not persuaded Matz fails to teach the telephonic signal
+comprises a digital signal, as recited in claim 16. Matz additionally
+discloses signals comprising caller identification information, digital video
+content, and other information (id. i-fi-127, 43). Moreover, we are
+
+8
+
+Appeal2014-009506
+Application 11/549,608
+unpersuaded an ordinarily skilled artisan would find it uniquely challenging
+or beyond their skill to transmit a data signal with specific content (text,
+communication notification, or caller identification) as part of a telephonic
+signal.
+Accordingly, we are not persuaded the Examiner erred in finding the
+combination of Rutledge and Matz teaches or suggests the limitations as
+recited in independent claim 1. Independent claim 41 is not separately
+argued and thus, for the reasons set forth above, falls with independent claim
+1. Similarly, dependent claims 2, 3, 5-15, 20, 22-27, 36-40, 41--46, 50-53,
+
+and 75-80, not separately argued fall with their respective independent
+claims. We are not persuaded the Examiner erred in finding the combination
+of Rutledge and Matz teaches or suggests the limitations as recited
+dependent claims 16-19. Therefore, we sustain the rejection of claims 1-3,
+5-20, 22-27, 36-46, 50-53, and 75-80 under 35 U.S.C. § 103(a) for
+obviousness over Rutledge and Matz.
+
+35 U.S.C. § 103(a): Claims 4, 21, 28-35, and 47--49
+
+The remaining dependent claims are not separately argued and thus,
+fall with their respective independent claims. Therefore, we sustain the
+rejections of claims 4, 21, 28-35, and 47--49 under 35 U.S.C. § 103(a) for
+obviousness.
+
+35 U.S.C. § 102(e): Claims 54-57, 59, 61-64, 66--71, 73, and 74
+
+Appellants argue their invention is not anticipated by Matz (App. Br.
+13-14). The issue presented by the arguments is:
+
+9
+
+Appeal2014-009506
+Application 11/549,608
+Issue 3: Has the Examiner erred in finding Matz discloses "a receiver
+
+configured to receive telephonic signals from the docking assembly," as
+recited in claim 54?
+
+ANALYSIS
+Appellants do not specifically argue independent claim 54, instead
+relying on the arguments set forth for claim 1 (App. Br. 14). The only
+limitation of claim 54 we consider argued by Appellants is "a receiver
+configured to receive telephonic signals from the docking assembly." As set
+forth above, we find Matz discloses a remote control device that may be
+utilized to initiate a wireless telephone call or respond to an incoming call
+request (Matz i-f 43, Fig. 3). (See also Matz i-f 13). Accordingly, we are not
+persuaded the Examiner erred in finding Matz discloses "a receiver
+configured to receive telephonic signals from the docking assembly," as
+recited in independent claim 54. Dependent claims 55-57, 59, 61---64, 6671, 73, and 74, are not separately argued and thus, fall with their respective
+independent claim. Therefore, we sustain the rejection of claims 54--57, 59,
+61---64, 66-71, 73, and 74 under 35 U.S.C. § 102(b) for anticipation by Matz.
+
+DECISION
+The Examiner's rejection of claims 54--57, 59, 61---64, 66-71, 73, and
+74 under 35 U.S.C. § 102(e) as being anticipated by Matz is affirmed.
+The Examiner's rejections of claims 1-53, 58, 60, 65, 72, and 75-80
+under 35 U.S.C. § 103(a) are affirmed.
+
+10
+
+Appeal2014-009506
+Application 11/549,608
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

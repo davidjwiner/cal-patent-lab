@@ -1,0 +1,419 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/432,519
+
+03/28/2012
+
+Mikhail Kharisovich Ziyatdinov
+
+US-413
+
+1432
+
+38108
+
+7590
+
+09/23/2016
+
+CERMAK NAKAJIMA MCGOWAN LLP
+127 S. Peyton Street
+Suite 210
+ALEXANDRIA, VA 22314
+
+EXAMINER
+LEE,JAEW
+
+ART UNIT
+
+PAPER NUMBER
+
+1656
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+cgoode@cnmiplaw.com
+ip@cnmiplaw.com
+scermak@cnmiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MIKHAIL KHARISOVICH, VIKTOR VASILIEVICH, and
+MIKHAIL MARKOVICH 1
+
+Appeal2014-003823
+Application 13/432,519
+Technology Center 1600
+
+Before DEMETRA J. MILLS, LORA M. GREEN, and
+RICHARD J. SMITH, Administrative Patent Judges.
+SMITH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to a method
+for producing a compound that have been rejected as obvious. We have
+jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+STATEMENT OF THE CASE
+Background
+"The present invention relates to the microbiological industry, and
+specifically to a method for producing an L-cysteine, L-cystine, a derivative
+
+1
+
+According to Appellants, the real party in interest is Ajinomoto Co., Inc.
+(Appeal Br. 3.)
+
+Appeal2014-003823
+Application 13/432,519
+or precursor thereof or a mixture thereof using a bacterium of
+Enterobacteriaceae family which has been modified to have enhanced
+
+expression of the genes involved in the process of sulphur assimilation."
+(Spec.
+
+ii 2.)
+
+Claims on Appeal
+
+Claims 12-15 and 18-24 are on appeal. (Appendix A, Appeal Br. 1213.) Independent claim 12 is illustrative and reads as follows:
+12. A method for producing a compound selected from the group
+consisting of L-cysteine, L-cystine, derivatives thereof, and precursors
+thereof, which comprises cultivating an L-cysteine-producing bacterium of
+Enterobacteriaceae family in a culture medium containing sulphate, and
+collecting the compound from the culture medium,
+wherein the bacterium has been modified to have enhanced expression
+of one or more genes involved in the process of sulphur assimilation, and
+wherein said one or more genes involved in the process of sulphur
+assimilation comprise the cysQ gene or the cysDNC genes.
+Examiner's Rejection
+
+Claims 12-15 and 18-24 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Siebelt, 2 Neuwald, 3 and Sheremet'eva. 4 (Ans. 2.)
+Claims 13-15 and 19-24 were not argued separately, and therefore, as
+to those claims, we limit our discussion to claim 12, the only independent
+claim.
+
+2
+
+Siebelt et al., WO 03/006666 A2, published Jan. 23, 2003 ("Siebelt").
+Neuwald et al., cysQ, a Gene Needed for Cysteine Synthesis in Escherichia
+coli K-12 Only during Aerobic Growth, 174 JOURNAL OF BACTERIOLOGY 2,
+415-25 (1992) ("Neuwald").
+4
+Sheremet'eva et al., US 2006/0286643 Al, published Dec. 21, 2006
+("Sheremet' eva").
+2
+3
+
+Appeal2014-003823
+Application 13/432,519
+FINDINGS OF FACT
+We adopt as our own the Examiner's findings and analysis concerning
+the scope and content of the prior art. The following findings are included
+for emphasis and reference convenience.
+FF 1. Siebelt teaches a method for the preparation of L-amino acids
+comprising fermentation of microorganisms of the Enterobacteriaceae
+family which produce the desired amino acid, and in which at least one or
+more of the genes of the cysteine biosynthesis pathway, including cysD,
+cysN, cysC, and cysH, are enhanced (over-expressed), the method further
+including isolation of the desired L-amino acid. (Siebelt 44, 11. 1-19 (claim
+1).)
+FF 2. The term L-amino acids, as used in Siebelt, includes L-cysteine. (Id.
+3' 11. 14--18.)
+FF 3. Siebelt teaches that "microorganisms of the Enterobacteriaceae family
+produce L-amino acids ... in an improved manner after enhancement, in
+particular over-expression, of at least one or more of ... cysD, cysN, cysC
+... [and] cysH." (Id. 6, 11. 15-22.)
+FF 4. The Specification states that "[t]here are many genes involved in the
+process of sulphur assimilation including the genes involved in sulphate
+activation (cysD, cysN, cysC) and adenosine 3'-phosphate 5'phosphosulphate (PAPS) degradation (cysQ)." (Spec.
+
+i-f 5.)
+
+FF 5. The Examiner finds that "[a]lthough Siebelt [] do[ es] not mention that
+
+cysD, CysN or CysC genes are involved in the process of sulphur
+assimilation, i.e., sulphate activation, it is an inherent property of cysD, cysN
+
+or cysC genes to be involved in such process." (Ans. 3; see FF 4.)
+
+3
+
+Appeal2014-003823
+Application 13/432,519
+FF 6. The Examiner finds that the art is inconsistent in the nomenclature of
+the genes involved in the cysteine biosynthesis pathway, and provides the
+following Table for clarification:
+
+l..................................................J . §!~-~_g_[L...............................L~~-~~Y§J.Q...............................~P.P.~~J.§:~J~~§........................J
+! A gene encoding
+i CysH
+I CysH
+CysQ
+I
+! Phosphoadenosine i (see p. 10., IL 23·
+I (see p. 415, 2nc col.) {see p. 2, paragrapr1 I
+! phosphosu!fate
+i 35)
+I
+0005)
+I
+i.. !:~~!:!!:'.~§.~§.JP.:~P..§.L ......L.....................................................L..........................................................................................................!
+! Additional
+i C:,.tsl/CysQ is a
+I CysQ controls the
+I
+!
+!
+
+d!sclosure
+
+i NADPH sulfite
+! reductase
+
+i
+
+i {see p.
+
+!
+
+i 22)
+
+I levels of CysH
+
+I
+
+I (see p ·416, ·1st wt,
+
+I
+
+I (PAPS)
+
+10., IL 13·
+
+I 1st ara ra h}
+
+I
+I
+
+(Ans. 5.)
+FF 7. Siebelt teaches that cysH (i.e. Appellants' cysQ) is a gene of the
+cysteine biosynthesis pathway. (Siebelt 10, 1. 23-35; FF 6.)
+FF 8. Neuwald teaches that the cysQ gene is needed for cysteine synthesis
+and that CysQ helps control the pool of PAPS, or its use in sulfite synthesis.
+(N euwald Abstract.)
+
+ISSUE
+Whether a preponderance of the evidence of record supports the
+Examiner's conclusion of obviousness under 35 U.S.C. § 103(a).
+ANALYSIS
+We agree with the Examiner's conclusion that claims 12 and 18
+would have been obvious to a person of ordinary skill in the art at the time
+of the invention based on the cited prior art. (Ans. 2-5; FF 1-8.) We
+address Appellants' arguments below.
+As an initial matter, we find that claims 12 and 18 are obvious in view
+of Siebelt for the reasons set forth in the Answer. (FF 1-7.) Moreover, we
+do not find that N euwald (or Sheremet' eva) are necessary to support the
+4
+
+Appeal2014-003823
+Application 13/432,519
+obviousness rejection of claims 12 and 18. See Jn re Bush, 296 F.2d 491,
+496 (CCP A 1961) (holding that the Board may rely on fewer references than
+relied upon by the Examiner without designating it as a new ground of
+rejection).
+Claim 12
+Siebelt
+
+Appellants argue that Siebelt "does not disclose or suggest increased
+expression of the combination of all the three genes of cysDNC cluster or the
+cysQ gene in a method for producing L-cysteine." (Appeal Br. 6, 8.)
+
+We are not persuaded by Appellants' arguments. Claim 12 recites
+"one or more genes" which comprise "the cysQ gene or the cysDNC genes."
+(Appeal Br. 12.) Thus, claim 12 does not require enhanced expression of
+"the combination of all the three genes of cysDNC' as Appellants contend.
+(Ans. 7.) Consistent with the doctrine of claim differentiation, this
+construction is further borne out by claim 18, which is indirectly dependent
+on claim 12 and recites "one or more genes of the cysDNC cluster." (Id.)
+Claim 18 would be incongruent if claim 12 was limited to the combination
+of all three cysDNC genes.
+Although claim 12 does not require increased expression of the cysQ
+gene, provided one or more genes of cysDNC are expressed, Siebelt also
+discloses increased expression of the cysQ gene in its process for the
+preparation of L-amino acids. As the Examiner explains, Siebelt teaches
+that "over-expression of one or more genes of the cysteine biosynthesis
+pathway including cysH (Appellants' cysQ) ... improve[s] the production of
+L-amino acids." (Ans. 10; see also FF 3, 6, and 7.) Siebelt also makes clear
+5
+
+Appeal2014-003823
+Application 13/432,519
+that its reference to L-amino acids, and specifically improved production
+thereof, includes L-cysteine. (FF 2.)
+
+Motivation to Enhance Expression
+Appellants make several arguments, generally based on Neuwald and
+the L-cysteine biosynthesis pathway, 5 for example, that a person of ordinary
+skill in the art would not have been motivated to increase expression of the
+
+cysQ gene or the cysDNC genes. (Appeal Br. 8-9.)
+In particular, as to the increased expression of the cysQ gene,
+Appellants argue that
+L-cysteine is synthesized via a series of sequential steps using a
+plurality of enzymes, and hence, the necessary steps for
+improving L-cysteine production will differ depending on a
+variety of factors, such as, for example, which step is the ratelimiting step. Therefore, the disclosure in Neuwald that CysQ is
+beneficial for L-cysteine synthesis does not necessarily mean,
+nor would this fact suggest to the skilled art worker, that Lcysteine production can be improved by enhancing the
+expression of cysQ gene. . . . N euv,rald refers to the possibility
+that CysQ is involved in sulfite generation or that CysQ
+sequesters or consumes excess PAPS or the like . . . the person
+or ordinary skill in the art could not have expected that Lcysteine production can be improved by enhancing the
+expression of cysQ gene based only on the knowledge that CysQ
+may be involved in one step among many sequential and
+complicated steps in L-cysteine biosynthesis.
+(Id.)
+
+Appellants make a similar argument regarding the increased
+expression of the cysDNC genes; namely, that
+
+5
+
+Figure 1 ofNeuwald illustrates the pathway of cysteine biosynthesis.
+(Neuwald 416, FIG. 1.)
+6
+
+Appeal2014-003823
+Application 13/432,519
+the person of ordinary skill in the art would not have been
+motivated to choose to increase the expression of the CysDNC
+genes for the purpose of increasing production of L-cysteine.
+This is because the rate-limiting feature is simply due to the fact
+that the equilibrium of the CysDN reaction is strongly guided in
+the reverse direction, that is, towards ATP synthesis. Therefore,
+the rate-limiting aspect is not caused by insufficient amounts of
+CysDN, and so even by increasing CysDN, the equilibrium of
+the reaction will not be shifted in the forward direction, that is,
+towards APS generation.
+(Id.)
+
+Appellants also point to Sekowska6 to argue that "the rate-limiting
+effect [of the CysDN reaction] is not due to the conversion speed but to the
+equilibrium constant" and, therefore, "the person of ordinary skill in the art
+would not have expected that L-cysteine production can be improved by
+enhancing the expression of cysDNC gene(s)." (Appeal Br. 9-10, citing
+Sekowska 146, par. bridging left and right cols.)
+We are unpersuaded by Appellants' arguments. We note that Siebelt
+teaches and suggests improved production of L-amino acids, including Lcysteine, by increased expression of the cysH (i.e. cysQ) and cysDNC genes.
+(FF 2, 3.) That teaching alone suggests the subject matter of claim 12.
+Moreover, Appellants cannot establish nonobviousness by arguing Neuwald
+separately from Siebelt. See In re Merck & Co., Inc., 800 F .2d 1091, 1097
+(Fed. Cir. 1986) (citing In re Keller, 642 F.2d 413, 425 (CCPA 1981))
+(nonobviousness cannot be established by attacking references individually
+where the Examiner bases the rejection on a combination of references). In
+
+6
+
+Sekowska et al., Sulfur Metabolism in Escherichia coli and Related
+Bacteria: Facts and Fiction, J. MOL. MICROBIOL. BIOTECHNOL 2(2), 145-77
+(2000) ("Sekowska").
+7
+
+Appeal2014-003823
+Application 13/432,519
+addition, we are unpersuaded by Appellants' arguments regarding Neuwald
+and the pathway for L-cysteine synthesis for the reasons set forth in the
+Examiner's Answer. (Ans. 6-10.)
+Teaching Away
+
+Appellants argue that Neuwald teaches away from the present
+invention based on its reference to the possibility "that CysQ is involved in
+sulfite generation or that CysQ sequesters or consumes excess PAPS or the
+like." (Appeal Br. 9, citing Neuwald 423-24; see also Reply Br. 4.) In
+particular, Appellants argue that a person of ordinary skill in the art would
+therefore not have been motivated to enhance expression of the cysQ gene
+because they "would have likely concluded from [Neuwald] that if excess
+PAPS is wasted when L-cysteine is overproduced, L-cysteine production
+would decrease." (Appeal Br. 9.)
+We are not persuaded. Siebelt discloses the subject matter of the
+claimed invention. Appellants have failed to show how the combination of
+Siebelt and Neuwald criticizes, discredits, or otherwise discourages one of
+ordinary skill in the art from the subject matter of the claimed invention. See
+In re Fulton, 391 F.3d 1195, 1201 (Fed. Cir. 2004). Moreover, Appellants'
+
+teaching away argument is contradicted by the express teaching of Siebelt
+that production of L-amino acids, including L-cysteine, is improved by
+enhancement (over-expression) of cysH (cysQ). (FF 3.) Furthermore, claim
+12 does not require enhanced expression of the cysQ gene. (Appeal Br. 12.)
+
+8
+
+Appeal2014-003823
+Application 13/432,519
+Claim 18
+
+Claim 18 recites "[t]he method according to claim 15, 7 wherein the
+bacterium has been modified to have enhanced expression of cysQ gene and
+one or more genes of cysDNC cluster." (Appeal Br. 12.) Appellants argue
+that "claim 18 limits the claims to a combined use of the cysQ gene and the
+cysDNC gene(s)," and that the Examiner has failed to explain how the prior
+
+art discloses this combination. (Id. 10.) We are not persuaded. Claim 18
+clearly recites the combination of the cysQ gene and "one or more" of the
+genes of the cysDNC cluster. Moreover, given that cysH corresponds to
+Appellants' cysQ (Ans. 10, FF 6), and Siebelt teaches the combination of
+cysH with cysD, cysN, and cysC (FF 3), claim 18 would have been obvious
+to a person of ordinary skill based on the disclosure of Siebelt.
+CONCLUSION
+A preponderance of evidence of record supports the Examiner's
+conclusion that claims 12 and 18 are obvious under 35 U.S.C. § 103(a).
+Claims 13-15 and 19-24 were not argued separately and fall with
+claim 12.
+SUMMARY
+We affirm the rejection of all claims on appeal.
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+AFFIRMED
+
+7
+
+Claim 15 depends on claim 12. (Appeal Br. 12.)
+9
+
+

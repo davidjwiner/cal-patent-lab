@@ -1,0 +1,301 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111719,182
+
+05/11/2007
+
+Gerhard Hietmann
+
+KUKAR-06
+
+4847
+
+26875
+
+7590
+
+09/23/2016
+
+WOOD, HERRON & EV ANS, LLP
+2700 CAREW TOWER
+441 VINE STREET
+CINCINNATI, OH 45202
+
+EXAMINER
+KIM,KYUNGJ
+
+ART UNIT
+
+PAPER NUMBER
+
+3665
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptodock@whe-law.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GERHARD HIETMANN and MARTIN WEISS
+
+Appeal2014-006764 1
+Application 11/719,182 2
+Technology Center 3600
+
+Before BIBHU R. MOHANTY, CYNTHIA L. MURPHY, and
+AMEE A. SHAH, Administrative Patent Judges.
+SHAH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+The Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision finally rejecting claims 36, 42--45, 50-53, and 59---69. We have
+jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE and ENTER a NEW GROUND OF REJECTION
+pursuant to our authority under 37 C.F.R. § 41.50(b).
+
+1
+
+Throughout this opinion, we refer to the Appellants' Appeal Brief
+("Appeal Br.," filed Aug. 13, 2013), Reply Brief ("Reply Br.," filed May 27,
+2014), and Specification ("Spec.," filed May 11, 2007), and the Examiner's
+Answer ("Ans.," mailed Mar. 28, 2014) and Final Office Action ("Final
+Act.," mailed Mar. 14, 2013).
+2
+According to the Appellants, the real party in interest is KUKA Roboter
+GmbH. Appeal Br. 3.
+
+Appeal2014-006764
+Application 11/719,182
+STATEMENT OF THE CASE
+The Appellants' invention is directed to "a method for adjusting and
+controlling an automatically controlled manipulator such as a robot, using a
+dynamic manipulator model taking into consideration friction torques that
+appear in gear mechanisms provided for moving axes of the manipulator."
+Spec. 3.
+Claims 36 and 53 are the independent claims on appeal. Claim 36,
+which we reproduce below, is illustrative of the subject matter on appeal:
+36. A method of adjusting or controlling an automatically
+controlled robotic manipulator having shafts driven by motors
+and associated gear mechanisms, the method comprising:
+determining a gear mechanism friction torque as a
+function of gear mechanism temperature; and
+determining a target value for at least one of a motor
+position or a motor current associated with at least one shaft of
+the robotic manipulator using a dynamic manipulator model that
+accounts for friction torques in the gear mechanisms, the model
+including a gear mechanism friction torque model for the at least
+one shaft based on driven-side shaft velocities and shaft
+accelerations.
+Appeal Br. 12 (Claims App.).
+
+REJECTIONS
+Claims 36, 42--45, 50-53, 59---63, and 65---69 stand rejected under 35
+U.S.C. § 103(a) as being unpatentable over Gunnarsson
+(US 2004/0093119 Al, pub. May 13, 2004) in view of pages 4--5 of
+Appellants' Specification (hereafter "Admitted Prior Art").
+
+2
+
+Appeal2014-006764
+Application 11/719,182
+Claim 64 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Gunnarsson, Admitted Prior Art, and Kuno
+(US 5,006,999, iss. Apr. 9, 1991).
+
+FINDINGS OF FACT
+The findings of fact in the Analysis section below are supported at
+least by a preponderance of the evidence. 3
+
+ANALYSIS
+The Appellants contend that the rejection of independent claim 3 6 is
+in error because the prior art does not disclose, in relevant part, "using a
+dynamic manipulator model that accounts for friction torques in the gear
+mechanisms, the model including a gear mechanism friction torque model
+for the at least one shaft based on driven-side shaft velocities and shaft
+accelerations," as recited. See Appeal Br. 7-10; see also Reply Br. 2-3. We
+agree.
+The Examiner finds that Gunnarsson discloses a method of auditing or
+control a robotic manipulator comprising determining a target value for a
+motor position or motor current using a dynamic manipulator model, as
+partially recited in claim 36. See Final Act. 2-3. The Examiner admits that
+Gunnarsson does not disclose "determining a gear mechanism friction torque
+as a function of gear mechanism temperature," and the dynamic model
+including "a gear mechanism friction torque model for the at least one shaft
+
+3
+
+See Ethicon, Inc. v. Quigg, 849 F.2d 1422, 1427 (Fed. Cir. 1988)
+(explaining the general evidentiary standard for proceedings before the
+Patent Office).
+3
+
+Appeal2014-006764
+Application 11/719,182
+based on driven-side shaft velocities and shaft accelerations," but cites to
+Appellants' Specification as Admitted Prior Art to correct this deficiency.
+See id. at 3--4. The Examiner finds that the Admitted Prior Art's use of
+
+maximum values that are based on velocities and accelerations meets the
+claim language and "shows a conventional model using speed and
+acceleration of the manipulator axes to calculate the maximum estimated
+friction values, from which claims 36 and 53 are not distinguished."
+Ans. 23 (citing Spec. 4). The Examiner further finds it would be obvious to
+"add the friction torque detection of the [Admitted Prior Art] to the robot of
+Gunnarsson ... in order to more effectively control the mechanism in realtime by compensating for variations in temperature and force and to
+compensate for errors present due to friction." Id. at 4.
+We find persuasive the Appellants' argument that the Admitted Prior
+Art does not teach or suggest that the model used is based on driven-side
+shaft velocities and shaft accelerations as required by claim 36. See Appeal
+Br. 8. The portions of the Specification considered by the Examiner as
+Admitted Prior Art provide that a known dynamic model that ordinarily
+comprises a model for friction forces in the "movable part of the robot,
+particularly the gear mechanisms," is used for calculating target torques at
+the motors and gear mechanisms based on loads, position, speed, and
+acceleration of the axes/shafts. Spec. 4. The portions further provide "it is
+possible, from measured actual values for current, position, velocity,
+acceleration or the like, to calculate an estimate of the current motor and
+gear mechanism torques of the robot." Id. It is not clear that, and the
+Examiner does not adequately explain how, the Admitted Prior Art discloses
+the dynamic friction force model includes a gear friction torque model based
+
+4
+
+Appeal2014-006764
+Application 11/719,182
+on driven-side shaft velocities and shaft accelerations. Even assuming
+arguendo the Examiner's finding that the Admitted Prior Art shows that the
+
+model uses speed and acceleration of the manipulator axes to calculate the
+maximum estimated friction values that are used by the model to determine
+a target value for the motor position or current (see Ans. 23), it is not clear
+that the speed and acceleration used is of the driven-side shaft as claimed.
+Thus, we do not sustain the rejection of independent claim 36 and
+dependent claims 42--45 and 50-52.
+Independent claim 53 recites a parallel limitation of "using a dynamic
+manipulator model that accounts for friction torques in the gear mechanisms,
+the model including a gear mechanism friction torque model for the at least
+one shaft based on driven-side shaft velocities and shaft accelerations" in
+determining torque as a function of temperature. The Examiner relies on
+findings and reasoning similar to those of claim 3 6 in determining that the
+Admitted Prior Art corrects the deficiency of Gunnarsson with regards to
+this limitation. Thus, for reasons similar to claim 36, we also do not sustain
+the rejection of independent claim 53 and dependent claims 59---63, 65, and
+66. We also do not sustain the rejection of dependent claim 64 as the
+rejection does not cure the deficiency in the Examiner's rejection of
+independent claim 53.
+
+NEW GROUND OF REJECTION
+Pursuant to our authority under 37 C.F.R. § 41.50(b), we reject claims
+36, 42--45, 50-53, and 59---69 under 35 U.S.C. § 101 as being directed to
+non-statutory subject matter. We find the claims are ineligible for patent
+protection because they are directed to an abstract idea.
+
+5
+
+Appeal2014-006764
+Application 11/719,182
+The decision in Alice Corp. Pty. Ltd. v. CLS Bank Int'!,
+134 S. Ct. 2347 (2014) is controlling. We analyze the claims using a two
+part-analysis: 1) determine whether the claims are directed to an abstract
+idea; and 2) if an abstract idea is present in the claims, determine whether
+any element, or combination of elements, in the claims is sufficient to ensure
+the claims amount to significantly more than the abstract idea itself to
+transform the claims into a patent-eligible invention. See id. at 2355.
+Under the first step of the analysis, we find claims 36, 42--45, 50-53,
+and 59---69 are directed to an abstract idea because they are directed to the
+fundamental process of using mathematical formulas/models to determine
+temperature and torque. See Spec. 5, 12. We note that although the eventual
+purpose of the models can be to control a manipulator, the claims do not
+recite any steps or functions for actually doing so. A mathematical
+formula/model is a patent-ineligible abstract idea. Alice Corp., 134 S. Ct. at
+2355, citing Parker v. Flook, 437 U.S. 584, 594--595 (1978).
+Under the second step of the analysis, we find neither independent
+claims 36 and 53 nor dependent claims 36, 42--45, 50-52, and 59-69 have
+any additional elements that amount to significantly more to transform the
+abstract idea of calculating temperature and torque into a patent-eligible
+invention. Independent claim 36 and dependent claims 42--45, 51, and 52
+recite a method that can be performed manually and with only the human
+mind. Independent apparatus claim 53 and dependent claims 59---69 recite
+units that comprise a general computer to perform the functions of the
+claims. See Spec. 10. The introduction of a computer to implement an
+abstract idea or mathematical principle is not a patentable application of the
+abstract idea. Alice Corp., 134 S. Ct. at 2357-2358, citing Flook, 437 U.S.
+
+6
+
+Appeal2014-006764
+Application 11/719,182
+at 594. The computer implementation here is purely conventional and
+performs basic functions of determining values and data. See Alice Corp.,
+134 S. Ct. at 2359-2360. The claims do not purport to improve the
+functioning of the computer itself, not do they effect an improvement in any
+other technology or technical field. See Alice Corp., 134 S.Ct. at 2359.
+Thus, under the two-part analysis, we conclude claims 36, 42--45,
+50-52, and 59---69 are directed to an abstract idea and accordingly are
+directed to non-statutory subject matter.
+
+DECISION
+The Examiner's rejections of claims 36, 42--45, 50-53, and 59---69
+35 U.S.C. § 103(a) are REVERSED.
+A NEW GROUND OF REJECTION has been entered for claims 36,
+42--45, 50-53, and 59---69 35 are rejected under 35 U.S.C. § 101 as being
+directed to non-statutory subject matter.
+37 C.F.R. § 41.50(b) provides that "[a] new ground of rejection ...
+shall not be considered final for judicial review." 37 C.F.R. § 41.50(b) also
+provides that the Appellants, WITHIN TWO MONTHS FROM THE DATE
+OF THE DECISION, must exercise one of the following two options with
+respect to the new ground of rejection to avoid termination of the appeal as
+to the rejected claims:
+( 1) Reopen prosecution. Submit an appropriate amendment of the
+claims so rejected or new evidence relating to the claims so rejected, or both,
+and have the matter reconsidered by the examiner, in which event the
+proceeding will be remanded to the Examiner.
+
+7
+
+Appeal2014-006764
+Application 11/719,182
+(2) Request rehearing. Request that the proceeding be reheard under
+
+§ 41.52 by the Board upon the same record.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+REVERSED; 37 C.F.R. § 41.50(b)
+
+8
+
+
