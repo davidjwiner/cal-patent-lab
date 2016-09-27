@@ -15,11 +15,28 @@ def parsePatentId(fileIndex):
 	# If we find a mention of Patent followed by numbers w/commas, we find the ID
 	with open(infile) as f:
 		text = f.read().strip()
-		result = str(matcher.search(text).group(0))
+		result = matcher.search(text)
 		if result:
 			#remove commas, write to properties file
-			result = result.replace(',','')
+			result = result.group(0).replace(',','')
 			with open(outfile, 'a') as propertiesFile:
 				propertiesFile.write("PatentId: {}\n".format(result))
 
-parsePatentId(0)
+def parseDecision(fileIndex):
+	infile = casefile_tmpl.format(fileIndex)
+	outfile = propfile_tmpl.format(fileIndex)
+	invalMatcher1 = re.compile('ORDERED.+?claim(s)?\s+\d+.+?(unpatentable|anticipated|cancelled)')
+	invalMatcher2 = re.compile('ORDERED.+?adverse\s+judgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
+	with open(infile) as f:
+		text = f.read().replace('\n', ' ')
+		result1 = invalMatcher1.search(text)
+		result2 = invalMatcher2.search(text)
+		with open(outfile, 'a') as propertiesFile:
+			if result1 or result2:
+				propertiesFile.write("Decision: invalidated\n")
+			else:
+				propertiesFile.write("Decision: not invalidated\n")
+
+for i in range(60):
+	parsePatentId(i)
+	parseDecision(i)
