@@ -26,7 +26,7 @@ def parseDecision(fileIndex):
 	infile = casefile_tmpl.format(fileIndex)
 	outfile = propfile_tmpl.format(fileIndex)
 	invalMatcher1 = re.compile('ORDERED.+?claim(s)?\s+\d+.+?(unpatentable|anticipated|cancelled)')
-	invalMatcher2 = re.compile('ORDERED.+?adverse\s+judgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
+	invalMatcher2 = re.compile('ORDERED.+?[aA]dverse\s+[jJ]udgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
 	with open(infile) as f:
 		text = f.read().replace('\n', ' ')
 		result1 = invalMatcher1.search(text)
