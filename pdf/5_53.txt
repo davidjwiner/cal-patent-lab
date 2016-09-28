@@ -1,0 +1,237 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/019,422
+
+02/02/2011
+
+Jonathan M. Rothberg
+
+LT00325.5 CON
+
+1447
+
+52059
+
+7590
+
+09/19/2016
+
+LIFE TECHNOLOGIES CORPORATION
+Attn: IP Department
+5823 Newton Drive
+Carlsbad, CA 92008
+
+EXAMINER
+CROW, ROBERT THOMAS
+
+ART UNIT
+
+PAPER NUMBER
+
+1634
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+LifetechDocket@system.foundationip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JONATHAN M. ROTHBERG,
+WOLFGANG HINZ, KIM L. JOHNSON,
+and JAMES BUSTILLO
+
+Appeal2014-003702
+Application 13/019,422
+Technology Center 1600
+
+Before ADRIENE LEPIANE HANLON, CATHERINE Q. TIMM, and
+JAMES C. HOUSEL, Administrative Patent Judges.
+HANLON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+A.
+
+STATEMENT OF THE CASE
+
+The Appellants filed an appeal under 35 U.S.C. § 134 from a final rejection
+of claims 107-116, 118-120, 122-128, and 132-135. 1 We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+Claim 131 was cancelled in an Amendment dated August 23, 2013. According to
+the Examiner, "the second after-final amendment filed 23 August 2013 is entered"
+and "reflects the status of the claims presented in the Brief." Examiner's Answer
+dated October 31, 2013 ("Ans."), at 2.
+
+Appeal2014-003702
+Application 13/019,422
+The only claim at issue on appeal is claim 107 which stands rejected under
+35 U.S.C. § 103(a) as unpatentable over Koo et al. 2 in view ofYazawa et al. 3 and
+Hafeman et al. 4 ' 5
+Claim 107 is reproduced below from the Claims Appendix of the Appeal
+Brief dated August 19, 2013 ("Br."). The limitation at issue is italicized.
+107. A method of sequencing a plurality of template nucleic acids,
+the method comprising:
+disposing a plurality of template nucleic acids in a reaction
+chamber associated with a sensor, the sensor comprising a field effect
+transistor to produce an output signal responsive to an ion
+concentration in the reaction chamber;
+introducing a first solution with a known ion concentration into
+the reaction chamber and adjusting a bias voltage applied to a
+reference electrode to determine an operating voltage;
+
+introducing a second solution into the reaction chamber and
+applying the operating voltage to the reference electrode in
+communication with the second solution, the second solution
+including a known nucleotide; and
+measuring the output signal to detect ions generated through
+incorporation of the known nucleotide into one or more primers that
+are hybridized to at least one of the plurality of template nucleic acids.
+Br. 29 (emphasis added).
+2
+
+US 2006/0199193 Al, published September 7, 2006 ("Koo").
+US 2005/0156207 Al, published July 21, 2005 ("Yazawa").
+4
+US 5, 164,319, issued November 17, 1992 ("Hafeman").
+5
+Claims 108, 112, 122-124, 126-128, 132, 134, and 135 also stand rejected under
+35 U.S.C. § 103(a) as unpatentable over Koo in view ofYazawa and Hafeman.
+The remaining claims on appeal stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Koo in view of Y azawa and Hafeman, and further in view of
+additional prior art identified on pages 9-19 of the Examiner's Answer. The
+rejection of claims 107-116, 118-120, 122-128, and 131-135 under 35 U.S.C.
+§ 112, first paragraph, based on the written description requirement, was
+withdrawn in the Examiner's Answer. Ans. 19.
+3
+
+2
+
+Appeal2014-003702
+Application 13/019,422
+B.
+
+DISCUSSION
+
+The Examiner finds, and the Appellants do not dispute, that Koo discloses a
+method of sequencing a plurality of nucleic acids comprising the step of disposing
+a plurality of template nucleic acids in a reaction chamber associated with a field
+effect transistor (PET) sensor wherein a PET output signal is detected based on the
+change in ion concentration resulting from incorporation of a known nucleotide
+into a primer. Ans. 4.
+The Examiner finds Koo does not teach using a bias voltage with a reference
+electrode as recited in claim 107. Nonetheless, the Examiner finds, and the
+Appellants do not dispute, that Y azawa teaches the known technique of using a
+bias voltage with a reference electrode. Ans. 4; see also Br. 24 ("Yazawa et al.
+describes that a predetermined bias potential is supplied to a reference electrode
+173 within the sample solution, in order to enhance the sensitivity of the IS PET
+[ion sensitive field effect transistor] 184."). The Examiner concludes, and the
+Appellants do not dispute, that it would have been obvious to one of ordinary skill
+in the art to modify the method of Koo to include the step of "predetermining and
+applying an operating voltage via use of a bias voltage with a reference electrode
+in accordance with the teachings ofYazawa." Ans. 4.
+The Examiner finds "[ w ]hile Yazawa et al teach the operating voltage
+predetermined from the bias voltage (i.e., potential; paragraph 0038), neither Koo
+et al nor Y azawa et al specifically teach the operating voltage is predetermined
+from a first solution with a known ion concentration" as recited in claim 107. Ans.
+5; see Br. 24 ("Yazawa et al. does not describe the manner in which the bias
+potential of the reference electrode 173 is selected.").
+Turning to Hafeman, the Examiner finds:
+
+3
+
+Appeal2014-003702
+Application 13/019,422
+Hafeman et al teach a method wherein a bias voltage (i.e., potential)
+of known magnitude is determined via use of a first solution of known
+concentration of an analyte whose concentration will change during
+measurement, based on standards of known concentrations of the
+analyte (i.e., including a first solution), which has the added advantage
+of calibrating the sensor (i.e., circuit; column 9, lines 40-50).
+Ans. 5; see also Final 28-29 ("Hafeman et al specifically teach determination of
+the operating voltage from a first solution with a known ion concentration (i.e., a
+standard concentration of the analyte )").
+The Examiner concludes that it would have been obvious to one of ordinary
+skill in the art to modify the method of Koo in view of Yazawa "to further
+comprise predetermining the operating voltage via use of a first solution of known
+analyte (i.e., ion) concentration in accordance with the teachings of Hafeman."
+Ans. 5. The Examiner finds one of ordinary skill in the art would have been
+motivated to make the proposed modification "because said modification would
+have resulted in a method having the added advantage of calibrating the sensor as
+explicitly taught by Hafeman." Ans. 6 (citing Hafeman, col. 9, 11. 40-50).
+The Appellants do not dispute that Hafeman calibrates the disclosed device
+using known concentrations of analyte. See Br. 25-26. Rather, the Appellants
+argue that "the [Examiner's] rationale suggesting that one of ordinary skill would
+seek to use the calibration step of the electrode-based device of Hafeman ... to
+determine the bias potential applied to the reference electrode 173 of the ISFETbased device [ofYazawa] ... does not make sense." Br. 27.
+The fact that the devices disclosed in Yazawa and Hafeman may be different
+does not weigh against the Examiner's conclusion of obviousness. As discussed
+above, there is no dispute on this record that a predetermined bias potential is
+applied to the reference electrode in Yazawa to determine an operating voltage as
+4
+
+Appeal2014-003702
+Application 13/019,422
+claimed. The Examiner merely relies on Hafeman to show that calibrating a
+device using a solution of known ion concentration was known in the art at the
+time of the Appellants' invention. See Ans. 23. The Appellants do not direct us to
+any credible evidence or provide any technical reasoning showing that one of
+ordinary skill in the art could not have used a solution, as disclosed in Hafeman, to
+calibrate or determine the operating voltage ofYazawa's ISFET-based device. See
+KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 416 (2007) ("The combination of
+familiar elements according to known methods is likely to be obvious when it does
+not more than yield predictable results."). Therefore, the Appellants' argument is
+not persuasive of reversible error.
+For the reasons set forth above and reasons provided in the Examiner's
+Answer, the§ 103(a) rejection of claim 107 is sustained.
+The Appellants do not present arguments in support of the separate
+patentability of any of the remaining claims on appeal. Therefore, the § 103 (a)
+rejections of claims 108-116, 118-120, 122-128, and 132-135 are also sustained.
+C.
+
+DECISION
+
+The Examiner's decision is affirmed.
+No time period for taking any subsequent action in connection with this
+appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+AFFIRMED
+
+5
+
+

@@ -1,0 +1,236 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/597,214
+
+08/28/2012
+
+Jung-Woo An
+
+70012/S744
+
+3201
+
+23363
+
+7590
+
+09/21/2016
+
+Lewis Roca Rothgerber Christie LLP
+POBOX29001
+Glendale, CA 91209-9001
+
+EXAMINER
+D'ANIELLO, NICHOLAS P
+
+ART UNIT
+
+PAPER NUMBER
+
+1723
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pto@lrrc.com
+pair_cph@firsttofile.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JUNG-WOO AN, KYEU-YOON SHEEM, and
+SUMIHITO ISHIDA 1
+
+Appeal2015-003314
+Application 13/597,214
+Technology Center 1700
+
+Before CATHERINE Q. TIMM, A VEL YN M. ROSS, and
+JEFFREY R. SNAY, Administrative Patent Judges.
+
+TIMM, Administrative Patent Judge.
+DECISION ON APPEAL 2
+
+1
+
+Appellants identify the real party in interest as Samsung SDI Co., Ltd.
+Appeal Br. 1.
+2
+In our opinion below, we reference the Specification filed August 28, 2012
+(Spec.), Final Office Action mailed April 30, 2014 (Final), the Advisory
+Action mailed July 7, 2014, the Appeal Brief filed September 11, 2014
+(Appeal Br.), the Examiner's Answer mailed October 27, 2014 (Ans.), and
+the Reply Brief filed December 9, 2014 (Reply Br.).
+
+Appeal2015-003314
+Application 13/597,214
+STATEMENT OF CASE
+Appellants appeal under 35 U.S.C. § 134(a) the Examiner's decision
+to reject claims 1-15 under 35 U.S.C. § 103(a) as obvious over Ishida3 . We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM.
+The claims are directed to a positive electrode for a rechargeable
+lithium battery (see, e.g., claim 1), and a rechargeable lithium battery
+including the positive electrode (see, e.g., claim 8). The electrode includes a
+positive active material and an activated carbon. The claims require that the
+average diameter of the activated carbon be larger than the average diameter
+of the positive active material in a recited range. Claim 1 is illustrative:
+1. A positive electrode for a rechargeable lithium battery,
+compnsmg:
+a positive active material; and
+activated carbon having an average particle diameter
+larger than an average particle diameter of the positive active
+material and in a range of about 103% to about 160% relative to
+100% of the average particle diameter of the positive active
+material.
+Appeal Br. 15.
+Appellants do not argue any claim apart from the others. We select
+claim 1 as representative for resolving the issues on appeal. See 37 C.F.R. §
+41.37 (c)(l)(iv)(2014).
+
+3
+
+Ishida et al., JP 2004-103546, published Feb. 2, 2004, as translated.
+2
+
+Appeal2015-003314
+Application 13/597,214
+OPINION
+There is no dispute that Ishida teaches a rechargeable lithium battery
+comprising a positive active material and activated carbon or that Ishida
+specifies using activated carbon of mean particle diameter of 1-3 0 microns.
+
+Compare Final 3 with Appeal Br. 4--11; Reply Br. 1-5.
+There is some dispute over the range of particle diameters Ishida
+specifies for the positive active material. Compare Final 3; Advisory Action
+2 with Appeal Br. 9; Reply Br. 4. Ishida discloses an average primary
+particle diameter usually measured by SEM observation, but also discloses a
+second average particle diameter (mean particle diameter) measured with a
+laser diffraction/scatter type particle size distribution device. Ishida i-fi-f 1112. The working example reports only the second average particle diameter
+for the positive active material (lithium nickel series composite oxide).
+Ishida i150. Appellants contend that Ishida teaches primary particles that are
+different from secondary particles, and it is the secondary particles that are
+combined with the activated carbon. Appeal Br. 9. But Ishida does not refer
+to primary and secondary particles, Ishida refers to primary and secondary
+diameters, measured by different methods. Ishida i-fi-f 11-12. It is possible
+that Ishida' s primary diameter is referring to the diameter of source
+compounds in the slurry used to form the lithium nickel series composite
+oxide (positive active material), and the secondary diameter is the diameter
+of the powder produced, i.e., the end product positive active material, but
+this is far from clear. Compare Ishida i-fi-f 15, 25 with i-fi-f 11, 12, 50.
+Given that the working example reports the second average particle
+diameter for the positive active material used in the example, Ishida i1 50, it
+is at least clear that Ishida teaches combining a positive active material of
+
+3
+
+Appeal2015-003314
+Application 13/597,214
+second average particle diameter with activated carbon. Reading the
+machine translation as best we can, we find that Ishida discloses using a
+positive active material of second average particle diameter of 1-50 microns,
+preferably between 4 and either 30 or 40 microns. Ishida i-f 12.
+The Examiner determines that "[i]t would have been obvious to one of
+ordinary skill in the art at the time of the invention to optimize the particle
+size distribution of the positive active material in order to achieve the
+desired properties." Final 4. Appellants do not directly challenge that
+determination, but instead argue that Ishida fails to teach the claimed ratio of
+activated carbon average particle diameter to positive active material
+average particle diameter, fails to teach that the ratio is a result effective
+variable, fails to provide guidance for arriving at the claimed ratio, and
+discloses examples in which the diameters are outside the claimed range.
+Appeal Br. 4--11.
+Appellants' arguments do not persuade us of reversible error in the
+rejection because Ishida is, like Appellants, directed to forming a lithium
+secondary battery with high battery output, capability, and cycle-life.
+
+Compare Ishida i-fi-15---6, 64 with Spec. i-fi-1 4, 12. When finding the workable
+or optimal activated carbon diameter and positive active material diameter,
+which there can be no dispute are taught as result effective variables by
+Ishida, one of ordinary skill in the art would have arrived at the claimed
+103%-160% range given the similarity in results desired. The ratio of
+diameters is directly related to the diameters themselves. The ratio itself
+need not be a result effective variable in order for the teaching of Ishida to
+render the electrode of the claim prima facie obvious. That Ishida discloses
+examples outside the claimed range of diameter ratios does not negate the
+
+4
+
+Appeal2015-003314
+Application 13/597,214
+broader teachings of the reference. See KSR Int'!. Co. v. Teleflex Inc., 550
+U.S. 398, 421 (2007) (Pursuing known options within the ordinarily skilled
+artisan's grasp "is likely the product not of innovation but of ordinary skill
+and common sense."); see also In re Aller, 220 F .2d 454, 456 (CCP A 1955)
+(where the prior art discloses the general conditions of what is claimed, it
+follows that discovering the optimum or workable ranges by routine
+experimentation is within the ordinary artisan's grasp, which can support a
+conclusion of obviousness such that it falls on the applicant to show that the
+change in condition they are claiming produces an unexpected result).
+Turning to the showing of unexpected results, the Examiner finds that
+the showing is not commensurate in scope with the breadth of the claim
+because the showing is limited to a specific positive active material in a
+specific concentration (85 wt% LiCo02), whereas the claim is not so limited
+(the claim encompassing all positive active materials in all concentrations).
+Ans. 8. Appellants do not address this finding. Reply Br. 5-8. In order to
+support a showing of unexpected results Appellants must provide an
+adequate basis to support the conclusion that other embodiments falling
+within the claim will behave in the same manner. In re Huai-Hung Kao, 639
+F.3d 1057, 1068 (Fed. Cir. 2011). Appellants have not provide sufficient
+evidence that other positive active materials in other concentrations behave
+in the same manner as the tested compositions.
+After reviewing the totality of the evidence, we determine a
+preponderance of the evidence supports the Examiner's conclusion of
+obviousness.
+
+5
+
+Appeal2015-003314
+Application 13/597,214
+
+CONCLUSION
+We sustain the Examiner's rejection.
+
+DECISION
+The Examiner's decision is affirmed.
+
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+
+AFFIRMED
+
+6
+
+

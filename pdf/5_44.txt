@@ -1,0 +1,294 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/114,660
+
+05/02/2008
+
+Christopher H. Doan
+
+AUS920080242US 1
+
+3546
+
+87220
+
+7590
+
+09/15/2016
+
+Walder Intellectual Property Law (END)
+C/O Walder Intellectual Property Law, P.C.
+17304 Preston Road
+Suite 200
+Dallas, TX 75252
+
+EXAMINER
+GUTIERREZ, ANDRES E
+
+ART UNIT
+
+PAPER NUMBER
+
+2141
+
+MAILDATE
+
+DELIVERY MODE
+
+09/15/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CHRISTOPHER H. DOAN, TREVOR LIVINGSTON, PRAVEEN
+P. HIRSAVE, and VENKATESAN RAMAMOORTHY
+Appeal2015---002090 1
+Application 12/114,660
+Technology Center 2100
+
+Before JEAN R. HOMERE, JEFFREYS. SMITH, and
+AARON W. MOORE, Administrative Patent Judges.
+HOMERE, Administrative Patent Judge.
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of claims 1, 3-8, 10-12, 14--16, and 19-22,
+which constitute all of the claims pending in this appeal. App. Br. 20. We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+
+1
+
+Appellants identify the real party in interest as International Business
+Machines Corporation. App. Br. 2.
+
+Appeal2015-002090
+Application 12/114,660
+Appellants' Invention
+Appellants' invention is directed to a method and system for
+providing self help and automated technical assistance to a user in response
+to the user reporting a technical issue associated with a computing asset.
+Spec. i-f 5. In particular, upon receiving from the user a problem ticket
+indicating an issue associated with the user's computing system, the ticket is
+automatically linked to an archived ticket and a solution associated therewith
+such that the user can select a related video describing how the user can
+personally fix the identified computing system issue. Id. i-f 7, Fig. 1.
+Illustrative Claim
+Independent claim 1 is illustrative, and reads as follows:
+1.
+
+A method comprising:
+receiving, by a computer services administrative system, a
+
+ticket from a user, wherein the ticket indicates an issue to be
+addressed for at least one computing asset associated with the user;
+and
+without assistance from an administrator of the computer
+services administrative system:
+linking, by the computer services administrative system,
+the ticket to an archived ticket mad to a solution associated with
+the archived ticket;
+locating, by the computer services administrative system,
+at least one user selectable solution to address the issue,
+wherein the solution associated with the archived ticket and the
+at least one user selectable solution each have a user selectable
+video and a user selectable automated command, wherein the
+
+2
+
+Appeal2015-002090
+Application 12/114,660
+user selectable video provides a video description of how the
+user can personally fix a computing asset issue associated with
+the at least one user selectable solution and wherein the user
+selectable automated command, when executed by the user, will
+implement the solution associated with the at least one user
+selectable solution;
+presenting, by the computer services administrative
+system, the solution associated with the archived ticket and the
+at least one user selectable solution to the user; and
+responsive to the user selecting the solution associated
+with the archived ticket or one or more solutions from the at
+least one user selectable solution, transmitting, by the computer
+services administrative system, either the solution associated
+with the archived ticket or the one or more solutions to the at
+least one computing asset.
+
+Rejections on Appeal
+Claims 1, 3, 4, 6-8, 11, and 14--16 stand rejected under 35 U.S.C.
+§ 103 (a) as being unpatentable over the combination of Deyo et al. (US
+2009/0132920 Al, May 21, 2009), Hibbets (US 2009/0063386 Al, Mar. 5,
+2009), and Sullivan et al. (US 6,694,314 Bl, Feb. 17, 2004).
+Claims 5, 10, 12, 19, 20, 21, and 22 stand rejected under 35 U.S.C.
+§ 103 (a) as being unpatentable over the combination of Deyo, Hibbets,
+Sullivan, and Tsai (US 2009/0013374 Al, Jan. 8, 2009).
+
+3
+
+Appeal2015-002090
+Application 12/114,660
+ANALYSIS
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 5-20, and the Reply Brief, pages 2-19. 2
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We are unpersuaded by Appellants' contentions. Except as
+otherwise indicated hereinbelow, we adopt as our own the findings and
+reasons set forth in the Examiner's Answer in response to Appellants'
+Appeal Brief. Ans. 14--25. However, we highlight and address specific
+arguments and findings for emphasis as follows.
+Regarding the rejection of claim 1, Appellants argue that the
+combination of Deyo, Hibbets, and Sullivan does not teach or suggest
+linking to an archived ticket and associated solution a ticket received from a
+user indicating an issue to be addressed with regard to the user's computing
+asset. App. Br. 7-11, Reply Br. 2-8. 3 In particular, Appellants argue that
+although Deyo discloses a mechanism that allows users to access video help
+clips generated by other users, the metadata tags used to index the video
+
+2
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed June 24, 2014), the Reply Brief (filed Nov.
+20, 2014) and the Answer (mailed Oct. 2, 2014) for their respective details.
+We have considered in this Decision only those arguments Appellants
+actually raised in the Briefs. Any other arguments Appellants could have
+made but chose not to make in the Briefs are deemed to be waived. See 3 7
+C.F.R. § 41.37(c)(l)(iv) (2012).
+3
+Appellants argue that the Examiner did not provide details in earlier office
+actions to support the prima facie case of obviousness against the claims on
+appeal, and has belatedly provided such details in the Answer. App. Br. 89; Reply Br. 2-3. This argument is moot because Appellants have availed
+themselves in the Reply Brief of the opportunity to address the specific
+findings made by the Examiner in the Answer. App. Br. 6-9; Reply Br. 2-3.
+
+4
+
+Appeal2015-002090
+Application 12/114,660
+clips do not teach or suggest a ticket received by a user. Reply Br. 4-5
+(citing Deyo i-fi-131-32).
+This argument is not persuasive. As correctly noted by Appellants,
+the Examiner does not rely upon Deyo' s disclosure of the search terms or the
+metadata tags to teach the created ticket linked to an archived ticket along
+with a solution associated therewith. Reply Br. 5. Instead, the Examiner
+relies upon the combination of Deyo' s disclosure of the search terms as
+modified by Hibbets' disclosure of linking a generated ticket with closed
+tickets and associated solutions to teach the disputed limitation. Ans. 14-16
+(citing Deyo i-fi-f 18, 21, 30, 35, Hibbets i-fi-f 14, 16). Because the disclosed
+input search terms pertain to a computer asset issue identified by the user,
+they can form the basis for generating a corresponding issue ticket for which
+a solution is obtained, and selected by the user. Further, Appellants argue
+that Hibbets' disclosure of creating the ticket or identifying related
+information from past tickets to assist a support technician, or an engineer
+who is different from the user experiencing the issue, vitiates the claim
+language, which precludes assistance from an administrator of the computer
+services administration system. App. Br. 10; Reply Br. 6-7. This argument
+is not persuasive because it is not responsive the specific findings made by
+the Examiner. In particular, the Examiner does not rely upon Hibbets for its
+entire disclosure. Instead, the Examiner only relies upon Hibbets for the
+limited disclosure of creating a ticket based upon a computer issue reported
+by a user, and associating the created ticket with archived tickets along with
+associated solutions, to complement Deyo' s teaching of the user issuing a
+search query to identify available solutions pertaining to an identified
+computer issue. Ans. 16. Therefore, the proposed combination of Deyo and
+
+5
+
+Appeal2015-002090
+Application 12/114,660
+Hibbets would predictably result in a system wherein, in response to a user
+search query, an issue ticket is automatically generated regarding a computer
+asset to thereby present the user with a list of archived tickets along with
+corresponding solutions from which the user selects a suitable solution for
+the ticket at hand. Accordingly, we agree with the Examiner that the
+combination of the cited references is properly supported by sufficient
+rationale. Id. Therefore, we are not persuaded the Examiner erred in
+rejecting claim 1.
+Regarding the rejection of claim 7, Appellants argue that although the
+statement of the rejection indicates the claim is rejected over the
+combination of Deyo, Hibbets, and Sullivan, the Examiner relies solely upon
+Hibbets' disclosure of the user submitting a written description of a technical
+issue through an issue submission form via email to teach the claimed
+feature of the user creating the ticket. App. Br. 11-12; Reply Br. 9-10
+(citing Hibbets i-fi-122-23). Accordingly, Appellants argue that because
+Hibbets discloses the ticket is created by an administrator other than the
+user, Hibbets does not teach the disputed limitation. Id. This argument is
+not persuasive. Although the Examiner only cites to Hibbets to teach the
+disputed limitation, claim 7 is nonetheless rejected over the cited
+combination because of its dependency upon independent claim 1, which is
+also rejected on the same combination. Therefore, as discussed above, the
+specific rejection made by the Examiner only relies upon Hibbets' disclosure
+of creating a ticket to thereby modify Deyo' s teaching of a user search for a
+solution to a technical issue. Accordingly, we sustain the rejection of claim
+7.
+
+6
+
+Appeal2015-002090
+Application 12/114,660
+Regarding the rejection of claim 16, Appellants argue the combination
+of Deyo, Hibbets, and Sullivan does not teach or suggest accepting user
+input via a menu to create the ticket. App. 12-13; Reply Br. 11-12. This
+argument is not persuasive. Hibbets' disclosure of the user submitting a
+written description of a technical issue through an issue submission form to
+generate a ticket, taken in combination with Deyo' s disclosure of locating
+possible solutions to an issue identified in a user search query would
+predictably result in the creation of the ticket from the user's input to an
+interface. Accordingly, we sustain the rejection of claim 16.
+Regarding the rejection of claim 5, Appellants argue that the
+combination of Deyo, Hibbets, Sullivan, and Tsai does not teach or suggest
+tracking the history of a selectable solution to determine the level of success
+thereof. App. Br. 14--16, Reply Br. 13-14. This argument is not persuasive.
+We agree with the Examiner that Tsai's disclosure of tracking the history of
+a solution progression would complement the combination of Deyo and
+Hibbets to thereby result in a system in which the history associated with
+solutions of archived tickets linked with a created ticket can be tracked to
+readily ascertain the likelihood of success of each of the retrieved solutions.
+Ans. 21-22 (citing Tsai i-f 31). Accordingly, we sustain the rejection of
+claims 5 and 12.
+Regarding claims 3, 4, 6, 8, 10-12, 14, 15, and 19-22, because
+Appellants reiterate substantially the same arguments as those previously
+discussed for patentability of claims 1, 5, 7, and 16 above, claims 3, 4, 6, 8,
+10-12, 14, 15, and 19-22, fall therewith. See 37 C.F.R. § 41.37(c)(l)(iv).
+
+7
+
+Appeal2015-002090
+Application 12/114,660
+DECISION
+For the above reasons, we affirm the Examiner's rejection of claims 1,
+3-8, 10-12, 14--16, and 19-22.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

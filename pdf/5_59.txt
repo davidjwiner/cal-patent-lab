@@ -1,0 +1,236 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/216,748
+
+08/24/2011
+
+Dimitar Petrov Filev
+
+83196759
+
+4725
+
+28395
+
+7590
+
+09/19/2016
+
+BROOKS KUSHMAN P,CJFG1L
+1000 TOWN CENTER
+22NDFLOOR
+SOUTHFIELD, MI 48075-1238
+
+EXAMINER
+FE!, JORDAN S
+
+ART UNIT
+
+PAPER NUMBER
+
+3665
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@brookskushman.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DIMITAR PETROV FILEV and DAVORIN DAVID HROVAT
+
+Appeal2015-000310 1
+Application 13/216,748 2
+Technology Center 3600
+
+Before KEVIN W. CHERRY, BRADLEY B. BAYAT, and
+TARA L. HUTCHINGS, Administrative Patent Judges.
+BAYAT, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's final
+rejection of claims 1, 4--15, 18, 21, and 23. We have jurisdiction under
+35 U.S.C. § 6(b).
+STATEMENT OF THE DECISION
+We AFFIRM.
+
+1
+
+Our decision references Appellants' Appeal Brief ("Br.," filed May 12,
+2014), the Examiner's Answer ("Ans.," mailed July 25, 2014), and the Final
+Office Action ("Final Act.," mailed Dec. 10, 2013).
+2
+Appellants identify "Ford Global Technologies, LLC" as the real party in
+interest (Br. 1).
+
+Appeal2015-000310
+Application 13/216,748
+CLAIMED INVENTION
+Appellants' claimed invention "generally relate to methods and
+apparatus for a vehicle to cloud to vehicle control system" (Spec. i-f 1).
+Claim 1, reproduced below with added bracketed notations, is
+illustrative of the subject matter on appeal:
+1.
+
+A computer-implemented method comprising:
+
+[a]
+
+sending vehicle configuration data and route-related data
+to a remote system;
+
+[b]
+
+receiving a ride-comfort optimization strategy, based on
+the vehicle configuration data and route related data, for
+optimizing a suspension system for an upcoming road
+segment;
+
+[c]
+
+translating the strategy into a series of suspension control
+commands; and and [sic]
+
+[d]
+
+controlling the suspension system based on the suspension
+control commands.
+
+Br., Claims Appendix.
+
+REJECTIONS
+The following rejections are before us on appeal.
+I.
+
+Claim 4 is rejected under 35 U.S.C. § 112, second paragraph, as
+being indefinite.
+
+II.
+
+Claims 1, 4--15, 18, 21, and 23 are rejected under 35 U.S.C.
+§ 103(a) as unpatentable over Adachi (US 2009/0082917 Al,
+pub. Mar. 26, 2009) and Niwa (US 2004/0094912 Al, pub.
+May 20, 2004).
+
+Final Act. 2-10.
+
+2
+
+Appeal2015-000310
+Application 13/216,748
+ANALYSIS
+Rejection I
+
+Indefiniteness
+Appellants do not present any response in the Appeal Brief to the
+rejection of claim 4 under 35 U.S.C. § 112, second paragraph, as being
+indefinite. Therefore, we summarily sustain the Examiner's rejection.
+Rejection II
+
+Obviousness
+Appellants argue that claim 1 requires "receipt of a 'strategy ... for
+optimizing a suspension system for an upcoming road segment.' No such
+strategy is received in Niwa. Since no such strategy is received, there is also
+no translation of the strategy into a series of suspension control commands,
+as claimed" (Br. 5). The difficulty with Appellants' argument is that claim 1
+is rejected as obvious over the combination of Adachi and Niwa. The
+Examiner does not rely on either Adachi or Niwa alone as disclosing all of
+limitations [b] and [c] of claim 1; instead, the Examiner relies on their
+combined teachings (see Final Act. 4). As such, Appellants' argument that
+Niwa alone does not disclose limitation [b] or [c] is not persuasive of
+Examiner error. See In re Merck & Co., 800 F.2d 1091, 1097 (Fed. Cir.
+1986) ("Non-obviousness cannot be established by attacking references
+individually where the rejection is based upon the teachings of a
+combination of references.").
+We are also not persuaded of error on the part of the Examiner by
+Appellants' contention that
+The cited portions of Adachi that allegedly teach "ride
+comfort optimization strategy" actually discuss where traffic is
+high or low at what times, and what times to avoid the high traffic
+
+3
+
+Appeal2015-000310
+Application 13/216,748
+areas. This is not a "ride comfort optimization strategy for
+optimizing a suspension system.' Combination of Adachi and
+Niwa, therefore, would result in a system that avoided high
+traffic areas and sent road segment roughness profile information
+to a vehicle for use in suspension control, which is not even
+remotely close to what is claimed.
+Br. 5---6. We disagree with Appellants' characterization that the cited
+portions of Adachi are only limited to traffic conditions. For instance, as
+part of improving the vehicle running characteristics and the vehicle driver's
+feeling of safety, Adachi teaches that "with regard to each road and each
+intersection, the ease of travel can be evaluated separately for the individual
+attributes of vehicles, and/or separately for the individual attributes of
+drivers" (Adachi i-f 41). Thus, Appellants offer no technical reasoning or
+evidence to support their position or to otherwise distinguish the combined
+teachings of the prior art from the claimed subject matter.
+Finally, Appellants argue that "nothing in Niwa or Adachi teaches or
+suggests translation of a 'received strategy' into 'control commands' as
+claimed" (Br. 6). This argument is unpersuasive at least because it is not
+responsive to the Examiner's findings (see Ans. 3 (Adachi "teaches a system
+using data from a remote source to control the vehicle and translating a
+'received strategy' into 'control commands' (i-f[21, 84] ... ),"and Niwa
+"teaches a suspension control system that sends and receives data from a
+remote station for use in controlling the suspension (i-![93-95]).")).
+Appellants do not address any of these paragraphs to dispute the Examiner's
+actual findings in the rejection of record.
+Therefore, we sustain the Examiner's rejection of independent claim 1
+under 35 U.S.C. § 103(a). Appellants assert that independent claims 4, 18,
+21, and 23 are allowable for reasons similar to those presented with respect
+
+4
+
+Appeal2015-000310
+Application 13/216,748
+to independent claim 1 (Br. 6). Thus, we sustain the rejection of claims 4,
+18, 21, and 23 for the same reasons as claim 1. We also sustain the
+Examiner's rejection of dependent claims 5-15, which are not argued
+separately except based on their dependence on independent claim 4 (Br. 6).
+
+DECISION
+The Examiner's rejections of claims 1, 4--15, 18, 21, and 23 are
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

@@ -1,0 +1,381 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/974,635
+
+12/21/2010
+
+Robin Montague Mathews
+
+20100587
+
+4059
+
+25537
+
+7590
+
+09/22/2016
+
+VERIZON
+PATENT MANAGEMENT GROUP
+1320 North Court House Road
+9th Floor
+ARLINGTON, VA 22201-2909
+
+EXAMINER
+TN, BACKHEAN
+
+ART UNIT
+
+PAPER NUMBER
+
+2451
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@verizon.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBIN M. MATHEWS
+
+Appeal2015-005556
+Application 12/974,635
+Technology Center 2400
+
+Before THU A. DANG, TERRENCE W. McMILLIN, and
+SCOTT B. HOWARD, Administrative Patent Judges.
+DANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+I. STATEMENT OF THE CASE
+
+Appellant appeals under 35 U.S.C. § 134(a) from the Final Rejection
+of claims 1-8 and 10-23. Claim 9 has been canceled. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2015-005556
+Application 12/974,635
+A. INVENTION
+According to Appellant, the invention relates to "an active system
+monitor" implemented "within the home media server to register entities
+executed by the server to be monitored, detect problematic issues, and
+remedy these issues to prevent performance degradation or loss of service"
+(Spec.
+
+ii 15).
+B. ILLUSTRATIVE CLAIM
+Claim 1 is exemplary:
+1.
+
+A system, comprising:
+a home media server;
+a plurality of clients of the home media server;
+a plurality of entities executed by the home media server and
+configured to provide media content instances to the plurality of clients;
+and
+an active server system monitor configured to:
+register the plurality of entities,
+determine at least one monitoring parameter associated
+with the registered plurality of entities,
+monitor the registered plurality of entities according to the
+at least one monitoring parameter to determine if any of the
+registered plurality of entities have an issue and
+if it is determined that a given entity of the plurality of
+entities has an issue, terminate and restart the given entity.
+C. REJECTION
+The prior art relied upon by the Examiner as evidence in rejecting the
+claims on appeal is:
+Grover
+Abdolbaghian
+Wang
+Girardeau
+
+US
+US
+US
+US
+
+2005/0015579 Al
+6,981,048 Bl
+2006/0248542 Al
+7,984,177 B2
+
+2
+
+Jan.20,2005
+Dec. 27, 2005
+Nov. 2, 2006
+July 19, 2011
+
+Appeal2015-005556
+Application 12/974,635
+Claims 1--4, 8, 10, 11, 13-19, and 21-23 stand rejected under 35
+U.S.C. § 103(a) as being unpatentable over the combined teachings and
+suggestions of Wang, Girardeau, and Grover.
+Claims 5-7, 12, and 20 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over the combined teachings and suggestions of Wang,
+Girardeau, Grover, and Abdolbaghian.
+II. ISSUE
+The principal issue before us is whether the Examiner erred in
+concluding that the combination of Wang, Girardeau, and Grover teaches or
+would have suggested "a plurality of entities executed by the home media
+server and configured to provide media content instances" and "an active
+server system monitor configured to: register the plurality of entities," and
+"monitor the registered plurality of entities" (claim 1).
+
+III. FINDINGS OF FACT
+The following Findings of Fact (FF) are shown by a preponderance of
+the evidence.
+Wang
+
+1.
+
+Wang discloses monitoring and verifying software drivers,
+
+wherein a driver verifier sets up tests for specified drivers and monitors the
+driver's behavior (Abst.). Figure 2 is reproduced below:
+
+3
+
+Appeal2015-005556
+Application 12/974,635
+Us.er
+lnlerfacQ
+
+Registry
+
+KemelMode
+
+Name
+
+Monitoring Type
+
+Oriver Verify
+Information Table
+
+Kernel
+Oriver
+Re.Vocrorer
+
+68
+
+Driver Verifier
+
+70
+
+FIG. 2
+
+Figure 2 shows kernel 64 which maintains a copy 66 of the registry
+for monitoring and verifying a driver (i-f 41 ).
+Girardeau
+
+2.
+
+Girardeau discloses in-home local area networking for content such as
+
+multimedia (col. 1, 11. 7-9), wherein Figure 1 is reproduced below:
+
+4
+
+Appeal2015-005556
+Application 12/974,635
+
+Figure 1 discloses a pictorial representation of a multimedia client
+server system which includes multimedia server module 12, client modules
+34, 35, 38, 40, and 42 that are coupled to clients 25, 26, 28, 30, and 32 and a
+plurality of multimedia sources (col. 1, 1. 63 to col. 2, 1. 1). The multimedia
+server module 12 may be a stand-alone device, or incorporated in a satellite
+receiver, set-top box, cable box, HDTV tuner, and the like (col. 2, 11. 5053). The multimedia server module 12 and each of the client modules 34,
+36, 38, 40 and 42 each include a transceiver that operates to send and receive
+data via the communication path (col. 2, 11. 59---62). In the multimedia server
+module 12, a transceiver module produces an RF signal and wirelessly
+transmits the RF signal to a client device through a client module (col. 5, 11.
+17-27).
+IV. ANALYSIS
+In reaching this decision, we consider all evidence presented and all
+arguments actually made by Appellant. We do not consider arguments
+
+5
+
+Appeal2015-005556
+Application 12/974,635
+which Appellant could have made but chose not to make in the Appeal Brief
+so that we deem any such arguments as waived. 37 C.F.R. §
+41.37( c)(1)(iv)(2012).
+Although Appellant concedes Wang teaches "monitoring" of system
+drivers, Appellants contend that Examiner acknowledges that Wang "does
+not teach a home media server ... "(App. Br. 12). Appellant then contends
+"[t]he multimedia sources taught by Girardeau are not a plurality of entities
+executed by the home media server" (id.). According to Appellant, there is
+no support for the Examiner's finding that, in Girardeau, "the home media
+server executes the drivers, or that the drivers are configured to provide
+media content instances to the clients" (id., emphasis omitted). Appellant
+also contends the references do not discuss "registering a plurality of
+entities" (id.).
+We have considered all of Appellant's arguments and evidence
+presented. However, we disagree with Appellant's contentions regarding the
+Examiner's rejection of the claims. We agree with the Examiner's findings,
+and find no error with the Examiner's conclusion that the claims would have
+been obvious over the combined teachings.
+We note Appellant does not contest but rather agree with the
+Examiner's finding that Wang teaches "monitoring" of entities such as
+system drivers (App. Br. 12). Although Appellant contends the references
+do not discuss "registering" entities (id.), we agree with the Examiner's
+finding that, in Wang, "drivers are enter[ed] or recorded in the registry" and
+thus Wang teaches (or at least suggests) "registering of the plurality of
+entities" (Ans. 3, FF 1). That is, we agree with the Examiner's conclusion
+"[the] broadest reasonable interpretation of 'register/registering', by
+
+6
+
+Appeal2015-005556
+Application 12/974,635
+definition is to enter or record on an official list or directory'' (Ans. 3), and
+we are unpersuaded that the Examiner's interpretation of
+"register/registering" is overly broad or unreasonable. On this record, we
+find no error with the Examiner's reliance on Wang for teaching and/or
+suggesting "an active server system monitor configured to: register the
+plurality of entities," and "monitor the registered plurality of entities" (id.).
+Although Appellant contends Wang "does not teach a home media
+server ... "(App. Br. 12), we note the Examiner's obviousness rejection is
+based on the combined teachings and suggestions of Wang, Girardeau, and
+Grover. The test for obviousness is what the combined teachings would
+have suggested to one of ordinary skill in the art. See In re Merck & Co.,
+Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986).
+
+Here, we find no error with the Examiner's reliance on Girardeau for
+disclosing or at least suggesting "entities" executed by a "home media
+server" (Ans. 4). In particular, we agree with the Examiner's finding that
+Girardeau teaches "clients ... connected to a multimedia server module
+which maybe a stand alone device or incorporated in [a device] that provides
+media from different devices ... to the clients" and module elements
+"receiving request from clients for media content and then providing the
+media content to the client" (id.). That is, Girardeau discloses client
+modules that are coupled to client devices and multimedia sources, wherein
+the multimedia server module and the client modules each include a
+transceiver that operates to send and receive data such that a transceiver of
+the multimedia server module produces and wirelessly transmits data (media
+content instances) to a client device through a client module (FF 2).
+Accordingly, we are unconvinced of Examiner error in relying on Girardeau
+
+7
+
+Appeal2015-005556
+Application 12/974,635
+for disclosing or at least suggesting a "plurality of entities executed by the
+home media server and configured to provide media content instances" as
+recited in claim 1.
+On this record, we find no error in the Examiner's obviousness
+rejection of claim 1 over the combined teachings of Wang and Girardeau, in
+further view of Grover.
+As for independent claim 10, Appellant merely contends "claim 10
+includes essentially identical recitations to those discussed above in claim 1"
+(App. Br. 13). For the same reason discussed above, claim 10 falls with
+claim 1.
+As for independent claim 17, Appellant repeats that "[t]he multimedia
+sources taught by Girardeau are not a plurality of entities executed by the
+home media server as recited in claim 1" and adds that "they are clearly not
+client handlers associated respectively with the plurality of clients" (App.
+Br. 14). However, the Examiner finds and we agree Girardeau discloses
+module elements which are "module/software which are used to receive
+request for content from each of the plurality of client[ s] and encode and
+sends the content to the requesting client" (Ans. 7; FF 3). Accordingly, we
+find no error with the Examiner's finding that Girardeau discloses or at least
+suggests "client handlers" which the Examiner interprets as "programs that
+act as a data translator between the device and application ... "wherein the
+"client handlers" are merely defined by the claim as "receiving and
+providing content to client" (Ans. 6). On this record, we find no error with
+the Examiner's rejection of claim 17 over the combination of Wang,
+Girardeau, and Grover.
+
+8
+
+Appeal2015-005556
+Application 12/974,635
+Appellant contends Abdolbaghian does not teach or suggest the
+limitations of dependent claim 5 (App. Br. 16). However, we agree with the
+Examiner's finding that Abdolbaghian teaches applications that are not
+being used, wherein, as the Examiner explains "when an application is not
+being used, it would not be able to react or respond to any action/request"
+(Ans.7). Thus, we are unpersuaded of error in the Examiner's finding
+Abdolbaghian discloses or at least suggests applications that are
+"unresponsive" (id.).
+As to dependent claim 6, Appellant merely traverses the Examiner's
+taking of Official Notice by citing MPEP 2144.03 (App. Br. 17), and then
+assert that "[i]t is improper to take official notice" of the contested
+limitations (App. Br. 17-18). However, to adequately traverse the
+Examiner's finding of Official Notice, Appellant's traversal must contain
+information or argument that is adequate to create, on its face, a reasonable
+doubt as to the circumstances justifying the Examiner's notice. See In re
+Boon, 439 F.2d 724, 728 (CCPA 1971). That is, Appellant must specifically
+
+point out the supposed errors in the Examiner's action, which would include
+stating why the noticed fact is not considered to be common knowledge or
+well-known in the art. See 37 C.F.R. § 1.11 l(b ); see also MPEP § 2144.03.
+Here, Appellant's contention contains no information or argument to create
+on its face, a reasonable doubt regarding the circumstances justifying the
+official notice. More specifically, the allegation does not explain why the
+noticed fact is not considered to be common knowledge or well-known in
+the art. On this record, Appellant has not adequately traversed the Official
+Notice.
+
+9
+
+Appeal2015-005556
+Application 12/974,635
+Nevertheless, the Examiner provides several references as
+documentary evidence that the noticed fact is well-known (Ans. 8). We note
+Appellant does not provide arguments against these references in the Reply
+Brief as to the noticed fact. Accordingly, on this record, we are unpersuaded
+of error in the Examiner's rejection of claim 6 as being obvious over the
+combination of references.
+Appellant does not provide any arguments with respect to the other
+pending claims. Accordingly, we summarily affirm the rejections of those
+claims.
+
+V. CONCLUSION AND DECISION
+We affirm the Examiner's rejection of claims 1-8 and 10-23 under 35
+U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+10
+
+

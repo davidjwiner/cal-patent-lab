@@ -1,0 +1,286 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/106,774
+
+04/21/2008
+
+Sulin Yang
+
+0614095US
+
+8403
+
+97291
+
+7590
+
+09/21/2016
+
+Huawei Technologies Co,, Ltd,
+c/o Wenjun Gu (Huawei ID 00229515)
+Building G 1-2, Huawei Industrial Base,
+Bantian, Longgang District,
+Shenzhen, 518129
+CHINA
+
+EXAMINER
+PREVAL, LIONEL
+
+ART UNIT
+
+PAPER NUMBER
+
+2475
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+uspatent@huawei.com
+shiming.wu@huawei.com
+ltian@huawei.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SULIN YANG and LEHONG NIU
+
+Appeal2015-006068
+Application 12/106,774
+Technology Center 2400
+
+Before BRUCE R. WINSOR, JEREMY J. CURCURI, and
+KEVIN C. TROCK, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 53-73. Non-Final Act. 1. We have jurisdiction under 35
+U.S.C. § 6(b).
+
+Appeal2015-006068
+Application 12/106,774
+Claims 53, 55, 57, 58, 60, 62, 64, 65, 67, 69, 71, and 72 are rejected
+under 35 U.S.C. § 103(a) as being unpatentable over Capurso (US
+2009/0252491 Al; Oct. 8, 2009) and Davis (US 2005/0058118 Al; Mar. 17,
+2005). Non-Final Act. 3---6, 7-9, 10-15.
+Claims 54, 61, and 68 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Capurso, Davis, and Bridges (US 2007 /0274718 Al; Nov.
+29, 2007). Non-Final Act. 6.
+Claims 56, 63, and 70 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Capurso, Davis, and ITU-T Recommendation G.984.4.
+Non-Final Act. 7-8.
+Claims 59, 66, and 73 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Capurso, Davis, and Bhatia (US 2002/0131411 A 1; Sept.
+19, 2002). Non-Final Act. 9-10.
+We affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to virtual local area network (VLAN)
+message tagging. Spec. i-f 2. Claim 53 is illustrative and reproduced below:
+53. A method for retagging an upstream frame with a VLAN
+tag in an optical network termination (ONT) device of a passive
+optical network, wherein the ONT device is configured with a
+virtual local area network (VLAN) tagging operation
+configuration data management entity (ME) which organizes
+data associated with VLAN tagging, the method comprises:
+receiving an upstream frame having a VLAN tag, which
+includes a Tag Control Information (TCI) field with at least a
+priority value and a VLAN identifier (VID);
+
+2
+
+Appeal2015-006068
+Application 12/106,774
+matching both the priority value and the YID in the VLAN
+tag with values of a priority field and a VID field within a VLAN
+tagging operation table, wherein the VLAN tagging operation
+table is an attribute of the VLAN tagging operation configuration
+dataME;
+based on the matching, identifying a new priority value
+and a new VID within a corresponding VLAN priority operation
+field and a VID operation field in the VLAN tagging operation
+table;
+thereafter, adding a new VLAN tag to the received
+upstream frame by inserting the new priority value and the new
+VID into respective fields of the new VLAN tag; and
+sending the upstream frame with the new VLAN tag to an
+optical line terminal (OL T) of the passive optical network.
+ANALYSIS
+THE OBVIOUSNESS REJECTION OF CLAIMS 53, 55, 57, 58, 60, 62, 64, 65, 67,
+69, 71, AND 72 OVER CAPURSO AND DAVIS
+The Examiner finds Capurso and Davis teach all limitations of claim
+53. Non-Final Act. 3---6.
+The Examiner finds Capurso's insertion into the header GEMH 1 of the
+frame GEMF 2 of a value indicative of the precedence of the Ethernet packet
+teaches the recited (claim 5 3):
+based on the matching, identifying a new priority value
+and a new VID within a corresponding VLAN priority operation
+field and a VID operation field in the VLAN tagging operation
+table;
+
+1
+
+Gigabit Passive Optical Network (GPON) Encapsulation Mode (GEM)
+Header. Capurso i-fi-f 11, 15.
+2
+GEM Frame. Capurso i-fi-f 11, 15.
+
+3
+
+Appeal2015-006068
+Application 12/106,774
+thereafter, adding a new VLAN tag to the received
+upstream frame by inserting the new priority value and the new
+VID into respective fields of the new VLAN tag[.]
+Non-Final Act. 4--5 (citing Capurso i-fi-192, 96); see also Capurso Figure 4
+(insertion of value VG and value pG into header GEMH), i-f l 02 ("VG is a
+value indicative of the VLAN Identifier of the Ethernet packet EthP"), and i1
+103 ("pG is a value indicative of the Ethernet packet priority value p"); and
+Ans. 2-7.
+Appellants present the following principal arguments:
+1.
+
+Capurso merely teaches how to map the pG with the priority
+value p in the received Ethernet packet, and Capurso fails to
+teach how to identify a new priority value for the received
+Ethernet packet, based on the mapping results. Similarly,
+Capurso also specif[ies] that "VG is a value indicative of the
+VLAN identifier of the Ethernet packet EthP." See Capurso, i1
+0102, lines 1-2. As such, Capurso fails to teach identifying new
+values for the received priority value p and VID in the Ethernet
+packet, based on these mapped values.
+App. Br. 6.
+11.
+
+"[T]he mapping table in Davis is used to search a VLAN
+
+identifier that corresponds to the LLID of the upstream packet, and the
+mapping table in Davis cannot be used to identify any new priority value or
+new VID." App. Br. 7.
+We do not see any error in the Examiner's findings. Nor do we see
+any error in the Examiner's conclusion of obviousness.
+Regarding Appellants' argument (i), we agree with and adopt as our
+own the Examiner's finding that Capurso' s value pG discloses the recited
+(claim 53) "new priority value" and Capurso's value VG discloses the
+recited (claim 53) "new VID." Non-Final Act. 4--5; see also Ans. 4--5.
+4
+
+Appeal2015-006068
+Application 12/106,774
+Further, we also agree with and adopt as our own the Examiner's
+further explanation:
+Capurso et al. explains in i-f [0036] that in the prior art the GPON
+network is unable to distinguish between GEM frames
+transporting Ethernet packets with high and low precedence.
+Thus, inserting in a header field of the second data packet a value
+indicative of the precedence information as described in Capurso
+et al. i-f [0043] constitutes a new priority value and a new VID, as
+further explained in Capurso et al. i-f [0048], where it states "the
+encapsulating module is adapted to insert in a header field of the
+second data packet a value indicative of the precedence
+information".
+Ans. 4. Put another way, Capurso's values pG and VG are new values in a
+new tag as required by claim 53. See Capurso, Figure 4.
+Regarding Appellants' argument (ii),
+[t]he test for obviousness is not whether the features of a
+secondary reference may be bodily incorporated into the
+structure of the primary reference; nor is it that the claimed
+invention must be expressly suggested in any one or all of the
+references. Rather, the test is what the combined teachings of
+the references would have suggested to those of ordinary skill in
+the art.
+In re Keller, 642 F.2d 413, 425 (CCPA 1981) (citations omitted).
+
+Here, the Examiner finds Capurso teaches identifying a new priority
+value and a new VID. Non-Final Act. 4--5. The Examiner finds Davis
+teaches a table. Non-Final Act. 5-6 (citing Davis i-f 25). We agree with and
+adopt these findings as our own. We also agree with and adopt as our own
+the Examiner's reason for combining the references:
+it would have been obvious to a person of ordinary skill in the art
+at the time of the invention to combine a mapping table as taught
+by Davis et al. in the system of Capurso et al., by using an ONU
+that maintains a similar mapping table as the OLT. The
+motivation for having an ONU that maintains a similar mapping
+5
+
+Appeal2015-006068
+Application 12/106,774
+table as the OLT is to further enhance the system reliability and
+efficiency by having upstream filtering occurs at an ONU to
+support VLAN tagging option also during propagation along the
+passive optical network.
+Non-Final Act. 5---6; see also Ans. 5---6.
+Thus, Appellants' argument (ii) argues Davis individually where the
+Examiner has relied on the combined teachings of the references. Thus,
+Appellants' argument (ii) does not show any error in the Examiner's
+findings or in the Examiner's legal conclusion of obviousness.
+We, therefore, sustain the Examiner's rejection of claim 53, as well as
+claims 55, 57, 58, 60, 62, 64, 65, 67, 69, 71, and 72, which are not separately
+argued with particularity.
+
+THE OBVIOUSNESS REJECTION OF CLAIMS 54, 61, AND 68 OVER CAPURSO,
+DAVIS, AND BRIDGE
+Appellants do not present any additional arguments for the
+patentability of claims 54, 61, and 68. See App. Br. 8.
+We, therefore, sustain the Examiner's rejection of claims 54, 61, and
+68.
+
+THE OBVIOUSNESS REJECTION OF CLAIMS 56, 63, AND 70 OVER CAPURSO,
+DAVIS, AND ITU-T RECOMMENDATION G.984.4
+Appellants do not present any additional arguments for the
+patentability of claims 56, 63, and 70. See App. Br. 8.
+We, therefore, sustain the Examiner's rejection of claims 56, 63, and
+70.
+
+6
+
+Appeal2015-006068
+Application 12/106,774
+THE OBVIOUSNESS REJECTION OF CLAIMS 59, 66, AND 73 OVER CAPURSO,
+DAVIS, AND BHATIA
+Appellants do not present any additional arguments for the
+patentability of claims 59, 66, and 73. See App. Br. 9.
+We, therefore, sustain the Examiner's rejection of claims 59, 66, and
+73.
+
+DECISION
+The Examiner's decision rejecting claims 53-73 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l ).
+AFFIRMED
+
+7
+
+

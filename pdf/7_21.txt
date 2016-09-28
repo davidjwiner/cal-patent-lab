@@ -1,0 +1,899 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111013,671
+
+12/15/2004
+
+John B. Carlucci
+
+TWAR.OllA
+
+3817
+
+27299
+
+7590
+
+09/14/2016
+
+GAZDZINSKI & ASSOCIATES, PC
+16644 WEST BERNARDO DRIVE
+SUITE 201
+SAN DIEGO, CA 92127
+
+EXAMINER
+TAYLOR,JOSHUAD
+
+ART UNIT
+
+PAPER NUMBER
+
+2426
+
+MAILDATE
+
+DELIVERY MODE
+
+09/14/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN B. CARLUCCI, WILLIAM HELMS, and
+LOUIS D. WILLIAMSON
+
+Appeal2015-000302
+Application 11/013,671
+Technology Center 2400
+
+Before BRUCE R. WINSOR, JON M. JURGOVAN, and
+AMBER L. HAGY, Administrative Patent Judges.
+WINSOR, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the final rejection
+of claims 1, 2, 22, 39--41, 43--45, 48-53, and 60-65, which constitute all the
+claims pending in this application. We have jurisdiction under 35 U.S.C.
+
+§ 6(b). Claims 3-21, 23-38, 42, 46--47, and 54--59 are cancelled. App. Br.
+1:33.
+We affirm-in-part.
+
+1
+
+The real party in interest identified by Appellants is Time Warner Cable
+Enterprises LLC. App. Br. 1:20-21.
+
+Appeal2015-000302
+Application 11/013,671
+STATEMENT OF THE CASE
+Appellants' disclosed invention "relates generally to the field of
+digital content distribution." Spec. 1: 15. More particularly "the invention
+relates to ... creat[ing], transmit[ting], receiv[ing] and decod[ing] wideband
+transport streams comprising one or more service levels, such as standard
+definition (SD) and high definition (HD) television programs." Id. at 1:1618. Claim 1, which is illustrative, reads as follows:
+1.
+A content distribution system for efficient
+transmission of a plurality of High Definition (HD) programs
+over a content distribution network, comprising:
+
+first apparatus configured to receive said plurality of HD
+programs;
+second apparatus operatively coupled to said first
+apparatus and configured to process said plurality of HD
+programs based on a plurality of operator-controlled rules, via a
+creation of a multiple-input multiple-output multiplex of at least
+portions of said plurality of HD programs; and
+transmission apparatus configured to transmit each of said
+processed HD programs across a plurality of radio frequency
+(RF) channels, said transmission apparatus comprising a
+plurality of modulators;
+wherein said multiple-input multiple-output multiplex is
+rendered more efficient based at least in part on use of said
+plurality of HD programs and said transmission of different
+portions of individual ones of said HD programs across different
+ones of said plurality of RF channels; and
+wherein at least one of said plurality of operator-controlled
+rules causes transmission of selected ones of said plurality of HD
+programs to be constrained to a smaller subset of said different
+ones of said plurality of RF channels based at least in part on a
+detection of an error in at least one of transmission or reception
+of said plurality of HD programs, said transmission comprising
+transmission of said constrained and non-constrained
+programming across said plurality of RF channels.
+2
+
+Appeal2015-000302
+Application 11/013,671
+
+The Examiner relies on the following prior art in rejecting the claims:
+Myers
+
+US 2002/0146023 Al
+
+Oct. 10, 2002
+
+Elmaliach et al.
+("Elmaliach")
+
+US 2002/0194372 Al
+
+Dec. 19, 2002
+
+Francesca et al 2 .
+("Francesca")
+
+US 2003/0083054 Al
+
+May 1, 2003
+
+Saxena et al.
+("Saxena")
+
+US 2003/0097476 Al
+
+May 22, 2003
+
+Weaver et al.
+("Weaver")
+
+US 2003/0112372 Al
+
+June 19, 2003
+
+Harris et al.
+("Harris")
+
+US 2003/0208612 Al
+
+Nov. 6, 2003
+
+Coffin, III
+("Coffin")
+
+US 2003/0220072 Al
+
+Nov. 27, 2003
+
+Hwang et al.
+("Hwang")
+
+US 2005/0025039 Al
+
+Feb.3,2005
+
+Raman et al.
+("Raman")
+
+US 6,910,078 Bl
+
+June 21, 2005
+
+J alali et al.
+(" J alali ")
+
+US 2006/0093067 Al
+
+May4, 2006
+
+Rodriguez et al.
+("Rodriguez")
+
+US 7,373,650 Bl
+
+May 13, 2008
+
+Claims 1, 2, and 43--45 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Jalali, Francesca, and Weaver, and, in the
+alternative, over Jalali, Francesca, Weaver, and Hwang. See Final Act. 2-8.
+
+2
+
+The Examiner identifies the corresponding patent issued to Francesca et al.
+(US 7,353,004 B2; iss. April 1, 2008) as having drawings that are easier to
+understand. Final Act. 2.
+3
+
+Appeal2015-000302
+Application 11/013,671
+Claims 22 and 40 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, and Saxena and, in the alternative, over
+Jalali, Francesca, Coffin, and Saxena. See Final Act. 8-15.
+Claims 39 and 41 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, Saxena, and Weaver and, in the
+alternative, over Jalali, Francesca, Coffin, Saxena, and Weaver. See Final
+Act. 15-18.
+Claim 48 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, Weaver, and Rodriguez. See Final Act.
+18-20.
+Claims 49-51 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali and Francesca. See Final Act. 21-25.
+Claim 52 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, and Myers. See Final Act. 25-26.
+Claim 53 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, and Elmaliach. See Final Act. 26-27.
+Claims 60 and 61 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Francesca, Weaver, and Rodriguez. See Final Act. 27-29.
+Claim 62 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Francesca, Weaver, Rodriguez, and Elmaliach. See Final
+Act. 29.
+Claim 63 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, Weaver, and Saxena. See Final Act. 3033.
+
+4
+
+Appeal2015-000302
+Application 11/013,671
+Claim 64 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, Coffin, and Harris. See Final Act. 3336.
+Claim 65 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jalali, Francesca, and Raman. See Final Act. 36-39.
+Rather than repeat the arguments here, we refer to the Briefs ("App.
+Br." filed May 2, 2014; "Reply Br." filed Sept. 29, 2014), and the
+Specification ("Spec." filed Dec. 15, 2004, amended July 30, 2008) 3 for the
+positions of Appellants and the Final Office Action ("Final Act." mailed
+Aug. 23, 2013) and Examiner's Answer ("Ans." mailed July 28, 2014) for
+the reasoning, findings, and conclusions of the Examiner. Only those
+arguments actually made by Appellants have been considered in this
+decision. Arguments that Appellants did not make in the Briefs have not
+been considered and are deemed to be waived. See 37 C.F.R.
+
+§ 41.37(c)(l)(iv) (2013).
+
+CLAIM CONSTRUCTION
+Issue
+
+Appellants' contentions present the following issue: Does the
+Examiner err in not treating as non-limiting various recitations of claims 1,
+22, and 49?
+
+3
+
+In the Record, the Examiner and Appellants refer to Appellants'
+Specification using the paragraph numbering of Appellants' published patent
+application, Carlucci et al. (US 2006/0130113 Al; publ. June 15, 2006).
+See, e.g., Ans. 6-7; Reply Br. 6:4--5. We do the same.
+5
+
+Appeal2015-000302
+Application 11/013,671
+Analysis
+
+The Examiner identifies
+wherein at least one of said plurality of operator-controlled
+rules causes transmission of selected ones of said plurality of HD
+programs to be constrained to a smaller subset of said different
+ones of said plurality of RF channels based at least in part on a
+detection of an error in at least one of transmission or reception
+of said plurality of HD programs, said transmission comprising
+transmission of said constrained and non-constrained
+programming across said plurality of RF channels
+(the "RF channel error limitation"), as not limiting claim 1. See Final Act.
+4--5, 9-10, 12-13; Ans. 3--4, 12-13. Similarly, the Examiner identifies
+"wherein said preferential statistical combination causes said certain ones of
+said multiple packets to be pulled out of a plurality of queues based on a
+quantity of total packets in individual ones of said plurality of queues" (the
+"plurality of queues limitation"), as not limiting claim 22. The Examiner
+also identifies
+wherein said processed programs are transmitted as a
+single multi-program transport stream comprising a first program
+having packets thereof which are respectively transmitted via
+multiple ones of said RF channels and a second program having
+packets thereof which are respectively transmitted via only one
+of said RF channels; and
+wherein said transmission apparatus is further configured
+to transmit information that correlates said packets of said first
+program to said respective RF channels over which said packets
+are transmitted in order to facilitate reassembly of said first
+program therefrom[]
+(the "correlation information limitation"), as not limiting claim 49. The
+Examiner explains as follows:
+[T]he clause in question is ... a "configured to" clause. For
+example, if a claim stated: "A set-top box configured to perform
+
+6
+
+Appeal2015-000302
+Application 11/013,671
+a, b and c," then all that would be needed to reject such a claim
+would be a set-top box. The reference would not need to disclose
+wherein said set-top box were capable of performing a, b and c.
+This is because such a reference would have disclosed the
+structure of the claim (a set-top box), and such a set-top box
+could be configured to perform a, b and c without changing the
+structure of said set-top box. Thus, in this instance, the
+"configured to" clause is not further limiting.
+Conversely, if a claim stated: "A set-top box containing a
+processor, whereby said processor performs a, band c," then this
+claim contains a "whereby" clause, and thus any reference used
+to reject such a claim must disclose a set-top box capable of
+performing a, b and c.
+Ans. 3--4 (discussing claim 1); see also Ans. 13 (discussing claim 22), 21-22
+(discussing claim 49).
+Appellants contend the Examiner errs in failing to treat the identified
+recitations as limiting the claims. See App. Br. 8:5-9:2, 12:21--44, 16:3617:23; Reply Br. 3:9--4:40, 9:27-10:39, 15: 11-16:27. We agree with
+Appellants for the reasons explained by Appellants. See id. For example,
+the Examiner's reasoning fails at least because many of the clauses
+identified by the Examiner as not limiting the claims do not, in fact, include
+the phrase "configured to." That said, however, even where the clauses refer
+back to clauses that do recite "configured to" or where the phrase
+"configured to" is included in the clauses found by the Examiner to be nonlimiting, we still disagree that the identified language can be treated as nonlimiting.
+Courts have generally interpreted "configured to" more narrowly than
+simply "capable of." See Typhoon Touch Tech., Inc. v. Dell, Inc., 659 F.3d
+1376, 1380 (Fed. Cir. 2011) (construing "memory ... configured to" as
+"memory that must perform the recited function"); see also Aspex Eyewear,
+
+7
+
+Appeal2015-000302
+Application 11/013,671
+Inc. v. Marchan A'yewear, Inc., 672 F.3d 1335, 1349 (Fed. Cir. 2012)
+
+(interpreting "adapted to" and construing it in the "narrow" sense of
+"configured to" in contrast to the "broader" sense as "capable of'); Sta-Rite
+Indus., LLC v. ITT Corp., 682 F.Supp.2d 738, 753 (E.D.Tex. 2010)
+
+(construing "adapted to," in context, to mean "designed or configured to,"
+not "having the capacity to"); Boston Scientific Corp. v. Cordis Corp., No. C
+02----01474 J\V, 2006 WL 3782840, at *1-2 (N.D.Cal. Dec. 20, 2006)
+
+(construing "adapted to," in light of patent as a whole, to mean "configured
+to," not "capable of'). Accordingly, we construe "configured to" to mean
+that the apparatus must have circuitry, programming, or other structure that
+actually performs the recited functions when the recited conditions are met.
+That said, however, in each case where the Examiner concluded
+certain language of the claims was non-limiting, in the interests of compact
+prosecution, the Examiner entered an alternative ground of rejection citing
+additional references, i.e., Hwang (claim 1) and Coffin (claim 22), or made
+additional findings (claim 49), directed to the claim language the Examiner
+concluded was non-limiting. See Ans. 4, 22, 45. As to claims 1, 22, and 49,
+and claims dependent therefrom, we look to the alternative grounds of
+rejection and additional findings, discussed infra, in which the Examiner
+cites prior art as teaching or suggesting the RF channel error limitation of
+claim 1, the plurality of queues limitation of claim 22 and the correlation
+information limitation of claim 49 (see Final Act. 2--4, 5-7, 11-14, 24--25).
+As to those grounds of rejection to which the additional findings do
+not apply, we cannot sustain the rejections. Claims 2 and 43--45 depend
+from claim 1 and claims 39--41 depend from claim 22. Accordingly, we do
+not sustain the rejections under 35 U.S.C. § 103(a) of (I) claims 1, 2, and
+
+8
+
+Appeal2015-000302
+Application 11/013,671
+43--45 over Jalali, Francesca, and Weaver (without Hwang); (2) claims 22
+and 40 over Jalali, Francesca, and Saxena (without Coffin); and (3) claims
+39 and 41 over Jalali, Francesca, Saxena, and Weaver (without Coffin).
+
+INDEPENDENT CLAIM 1 AND CLAIMS DEPENDENT THEREFROM
+Issue
+The dispositive issue, inter alia, presented by Appellants' contentions
+is as follows: Does the Examiner err in finding that the combination of
+Jalali, Francesca, Weaver, and Hwang, teaches or suggests the RF channel
+error limitation recited in claim 1?
+Analysis
+The Examiner finds that Hwang' s teaching of selecting subchannels
+based on received channel quality information (CQI), when combined with
+Jalali, Francesca, and Weaver, teaches or suggests
+selected ones of said plurality of HD programs to be constrained
+to a smaller subset of said different ones of said plurality of RF
+channels based at least in part on a detection of an error in at least
+one of transmission or reception of said plurality of HD
+programs,
+as recited in the channel error limitation of claim 1. Final Act. 6-7 (citing
+Hwang i-f 46). The Examiner explains as follows:
+[The] Examiner is not contending that the pilot signal in Hwang
+corresponds generally to an HD program. Rather, [the] Examiner
+is stating that a subband having the best quality is selected by
+analyzing the received CQI, which teaches that the quality of an
+element of a transmission network (the CQI is representative of
+the quality of the sub band) can be used to determine which
+elements of the transmission network will be used for
+transmission.
+Ans. 8.
+
+9
+
+Appeal2015-000302
+Application 11/013,671
+Appellants contend, inter alia, as follows:
+[Hwang's] CQI feedback is determined from the pilot signal. A
+pilot signal is well known in the relevant art to be a preset
+sequence which is "known" between the BS (base station) and
+the MSS. A pilot signal is a preset sequence, and is devoid of
+data content altogether; hence one cannot reasonably assert that
+the pilot signal in Hwang corresponds generally to an HD
+program. There is a salient difference between receiving a pilot
+signal that is not correct (as occurs in Hwang), and detecting an
+error in at least one of transmission or reception of a plurality of
+(content) programs (as recited in Applicant's Claim 1).
+App. Br. 10:34--40 (referring to Hwang i-f 120).
+We agree with Appellants. We do not agree that a pilot signal is
+"devoid of data content altogether" (App. Br. 10:36-37), as the preset
+sequence is itself data content. However, we do agree that one of ordinary
+skill in the art would understand a pilot signal to be devoid of data analogous
+to content program data. Therefore, although Hwang's CQI feedback may
+be indicative of the quality of the associated subchannels and therefore
+indicative of the probability of an error occurring in the transmission or
+reception of data on the associated subchannels, it does not indicate the
+occurrence of such an error. Therefore, Hwang cannot be said to teach or
+suggest selecting subchannels based on the detection of an error in data
+transmitted or received on said subchannels. In other words, Hwang cannot
+be said to teach of suggest
+selected ones of said plurality of HD programs to be constrained
+to a smaller subset of said different ones of said plurality of RF
+channels based at least in part on a detection of an error in at least
+one of transmission or reception of said plurality of HD
+programs,
+as recited in the channel error limitation of claim 1.
+
+10
+
+Appeal2015-000302
+Application 11/013,671
+Appellants have demonstrated error in the rejection of claim 1 over
+Jalali, Francesca, Weaver, and Hwang. Accordingly we do not sustain the
+rejection over Jalali, Francesca, Weaver, and Hwang of (I) claim 1; and
+(2) claims 2 and 43--45 4 , which depend from claim 1.
+
+INDEPENDENT CLAIM 22 AND CLAIMS DEPENDENT THEREFROM
+
+Issue
+Appellants' contentions present the following issue: Does the
+Examiner err in finding that the combination of Jalali, Francesca, Coffin,
+and Saxena teaches or suggests "wherein said one or more client devices are
+configured to inspect said multiple packets during a demodulation process
+for embedded timestamps in a header field thereof in order to compensate
+for a degree of jitter associated therewith" (the "header inspection
+limitation"), as recited in claim 22?
+
+Analysis
+The Examiner finds Saxena, when combined with Jalali, Francesca,
+and Coffin, teaches the header inspection limitation. Final Act. 10-11
+(citing Saxena i-f 23). The Examiner explains
+In the specification of Saxena, header information such as that
+described in figure 2 and paragraph [0023] is sent over the
+network 100 to base 200 where it is processed by context
+processor 2000. Saxena's abstract states that "[t]he base acts as
+an intermediate nodal point to establish call contexts with the
+endpoints on the traffic channels, wherein the processing of the
+header of the data packets is terminated at the base (emphasis
+added)." Thus, it is the base 200 of Saxena that is to "inspect said
+multiple packets during a demodulation process for embedded
+4
+
+We need not reach Appellants' separate arguments regarding claims 44 and
+45. See App. Br. 11 :4--12:2.
+11
+
+Appeal2015-000302
+Application 11/013,671
+timestamps in a header field thereof in order to compensate for a
+degree of jitter associated therewith." Therefore, Saxena has
+appropriately disclosed what Examiner used Saxena to teach:
+that it was well known in the art at the time of the invention to
+use timestamps in a header field to compensate for jitter. The
+packet structures containing header information as disclosed by
+Jalali (Fig. 8B, para. [0166]) are processed at the client devices,
+and thus the obvious modification of Jalali and Francesca in view
+of Saxena would result in the jitter information included in the
+header being processed at the client devices.
+Ans. 14--15 (bracketed paragraph numbers in original).
+Appellants contend as follows:
+[Saxena at paragraph 23] expressly states that the RTP timestamp
+field is not required to be transmitted over the airlink (to client
+devices) for channel processing. While Saxena appears to teach
+that the RTP timestamp field is used by the base 200 for e.g.,
+jitter calculation, Saxena is wholly silent as to client devices that
+inspect packets during a demodulation process for embedded
+timestamps. Moreover, since the timestamps are not required to
+be transmitted over the airlink, one may further assert that the
+client devices of Saxena do not necessarily receive timestamps
+at all.
+App. Br. 13: 18-24; see also id. at 14: 17-21; Reply Br. 11 :20-41, 12:30-36.
+We agree with the Examiner for the reasons stated by the Examiner.
+"[T]he test [for obviousness] is what the combined teachings of the
+references would have suggested to those of ordinary skill in the art."
+In re Keller, 642 F.2d413, 425(CCPA1981). "[O]ne cannot shownon-
+
+obviousness by attacking references individually where, as here, the
+rejections are based on combinations of references." Id. at 426. Jalali
+teaches transmitting (Jalali i-f 104, Fig. 3 (items 116a-116t)) to client devices
+(not shown) using packet structures having headers (Jalali i-f 116, Fig. 8B).
+Saxena teaches receiving packets at base station 200 having headers, i.e.,
+
+12
+
+Appeal2015-000302
+Application 11/013,671
+packets sent over network 100 from terminals 102 and 104 to base station
+200. Saxena Fig. 1. Saxena further teaches using timestamp data in packet
+headers to calculate jitter in the received packet stream. Saxena i-f 23.
+Appellants do not address the Examiner's finding that it would have been
+obvious to a person of ordinary skill in the art at the time of the invention to
+apply Saxena' s jitter calculation on packets received at Saxena' s base station
+200 to packets received by Jalali's client devices. Therefore, Appellants do
+not demonstrate error in the Examiner's finding that Saxena, when combined
+with Jalali, Francesca, and Coffin, teaches or suggests the header inspection
+limitation of claim 22.
+Appellants have not demonstrated error in the rejection of claim 22
+over Jalali, Francesca, Coffin, and Saxena. Claims 39--41 depend from
+claim 22 and are not separately argued with particularity. See App. Br.
+14:28--42. Accordingly, we sustain the rejections of ( 1) claims 22 and 40
+over Jalali, Francesca, Coffin, and Saxena; and (2) claims 39 and 41 over
+Jalali, Francesca, Coffin, Saxena, and Weaver.
+
+INDEPENDENT CLAIM 48
+Issue
+
+Does the Examiner err in finding the combination of Jalali, Francesca,
+Weaver, and Rodriguez teaches or suggests "deliver said plurality of RF
+channels to a plurality of user devices, said delivery comprising information
+that maps said portions of individual ones of said HD, SD and other data
+programs to said different ones of said plurality of RF channels" (the
+"mapping information limitation"), as recited in claim 48?
+
+13
+
+Appeal2015-000302
+Application 11/013,671
+Analysis
+
+The Examiner finds Francesca teaches the mapping information
+limitation. Final Act. 19-20 (citing Francesca i-fi-f 17, 46-47, Fig. 7); see also
+Ans. 17-20 (additionally citing Francesca i159). The Examiner explains as
+follows:
+In paragraph [0059], Francesca discloses that "the CPE 220
+includes a multi-channel demodulator 210 which receives RF
+signals from one or more RF channels and selectively
+demodulates the RF signals from one or more of those RF
+channels to retrieve the corresponding content programs
+(emphasis added)." . . . The receiving devices do not have to
+search every received RF channel, as Francesca clearly states that
+RF signals are selectively demodulated. Therefore, it would have
+been obvious to one of ordinary skill in the art at the time of the
+invention that the combined teaching of Jalali and Francesca
+disclosed the concept that information would be delivered which
+would map portions of individual data programs to the different
+RF channels, such that the CPE would be able to selectively
+demodulate the RF signals.
+Ans. 19-20.
+Appellants contend Francesca does not explicitly teach the mapping
+information limitation, and that there are a number of mechanisms by which
+Francesca could selectively demodulate the RF signals to retrieve content
+programs. See Reply Br. 14:2--40; App. Br. 15:42-16:21. Appellants
+propose one such mechanism: "[T]he receiving devices in Francesca may
+instead search every received RF channel for header portions indicating a
+particular program and reconstruct the programs entirely (without being
+provided any information from the entity which partitioned and multiplexed
+the programs)." App. Br. 16: 17-19. Thus, Appellants contend, the
+Examiner has improperly found that Francesca inherently discloses the
+mapping information limitation. Reply Br. 14:7-9, 38--40.
+14
+
+Appeal2015-000302
+Application 11/013,671
+We agree with Appellants for the reasons stated by Appellants. The
+doctrine of inherency may be applied in the context of obviousness. See In
+re Huai-Hung Kao, 639 F.3d 1057, 1070 (Fed. Cir. 2011). The express,
+implicit, and inherent disclosures of a prior art reference may be relied upon
+in the rejection of claims under 35 U.S.C. §§ 102 or 103. See In re Napier,
+55 F.3d 610, 613 (Fed. Cir. 1995). As with anticipation, evidence must
+establish that the missing descriptive matter is necessarily present in the
+thing described in the reference. See In re Rijckaert, 9 F .2d 1531, 1534
+(Fed. Cir. 1993). To support a finding of inherency, the Examiner must
+establish that the element not expressly disclosed is necessarily present in
+the reference. See Rosco, Inc. v. Mirror Lite Co., 304 F.3d 1373, 1380 (Fed.
+Cir. 2002). The Examiner may not, because of doubt that the invention is
+patentable, resort to speculation, unfounded assumption or hindsight
+reconstruction to supply deficiencies in the factual basis for the rejection.
+See In re Warner, 379 F.2d 1011, 1017 (CCPA 1967).
+We agree with the Examiner that in order for Francesca to "selectively
+demodulate[] the RF signals from one or more of th[ e] RF channels to
+retrieve the corresponding content programs" (Francesca ,-r 59), some
+information necessarily must be delivered with the RF channels. However,
+as pointed out by Appellants, Francesca does not teach that the information
+"maps said portions of individual ones of said HD, SD and other data
+programs to said different ones of said plurality of RF channels," as recited
+in the mapping information limitation of claim 48, and there are, as
+demonstrated by Appellants, other forms that information may take (see
+App. Br. 16: 17-19). On this record, the specific information recited in the
+mapping information limitation can only be discerned by using the
+
+15
+
+Appeal2015-000302
+Application 11/013,671
+Appellants' invention as a roadmap, i.e., by hindsight. Therefore,
+Appellants have demonstrated error in the Examiner's finding that the
+combination of Jalali, Francesca, Weaver, and Rodriguez teaches the
+mapping information limitation.
+Appellants have demonstrated error in the rejection of claim 48.
+Accordingly, we do not sustain the rejection of claim 48 over Jalali,
+Francesca, Weaver, and Rodriguez.
+
+INDEPENDENT CLAIM 49 AND CLAIMS DEPENDENT THEREFROM
+Issue
+
+Appellants' contentions present the following dispositive issue, inter
+alia: Does the Examiner err in finding the combination of Jalali and
+
+Francesca teaches or suggests "wherein said transmission apparatus is
+further configured to transmit information that correlates said packets of said
+first program to said respective RF channels over which said packets are
+transmitted in order to facilitate reassembly of said first program therefrom"
+(the "correlation information limitation"), as recited in claim 49?
+Analysis
+
+The correlation information limitation of claim 49 is similar to the
+mapping information limitation of claim 48. Compare App. Br. 28:22-24
+with id. at 28:3-5. The Examiner's findings regarding the correlation
+
+information limitation of claim 49 are substantially similar to those for the
+mapping information limitation of claim 48. Compare Final Act. 21-22
+with id. at 19. Appellants' arguments regarding the correlation information
+
+limitation of claim 49 are substantially similar to those for the mapping
+information limitation of claim 48. Compare Reply Br. 17:26-18: 17 with id.
+
+16
+
+Appeal2015-000302
+Application 11/013,671
+at 14:2--40. We agree with Appellants' contentions for the reasons set forth
+supra regarding claim 48. Accordingly, Appellants have demonstrated error
+
+in the Examiner's finding that Francesca, when combined with Jalali,
+teaches or suggests the correlation information limitation.
+Appellants have demonstrated error in the rejection of claim 49.
+Claims 50-53 depend from claim 49. Accordingly, we do not sustain the
+rejections of (I) claims 49-51 over Jalali and Francesca; (2) claim 52 over
+Jalali, Francesca, and Myers; and (3) claim 53 over Jalali, Francesca, and
+Elmaliach.
+
+INDEPENDENT CLAIM 60 AND CLAIMS DEPENDENT THEREFROM
+Issue
+
+Appellants' contentions present the following issue: Does the
+Examiner err in finding the combination of Francesca, Weaver, and
+Rodriguez teaches or suggests "and delivering said plurality of RF channels
+to a plurality of user devices, said delivery including information mapping
+said portions of individual ones of said HD and said SD programs to said
+different ones of said plurality of RF channels" (the "delivering mapping
+information limitation"), as recited in claim 60?
+Analysis
+
+The delivering mapping information limitation of claim 60 is similar
+to the mapping information limitation of claim 48. Compare App. Br.
+29: 18-20 with id. at 28:3-5. The Examiner's findings regarding the
+delivering mapping information limitation of claim 60 are substantially
+similar to those for the mapping information limitation of claim 48.
+Compare Final Act. 27-28 with id. at 19. Appellants' arguments regarding
+
+17
+
+Appeal2015-000302
+Application 11/013,671
+the delivering mapping information limitation of claim 60 are substantially
+similar to those for the mapping information limitation of claim 48.
+Compare Reply Br. 19:21-20:2 with id. at 14:2--40. We agree with
+
+Appellants' contentions for the reasons set forth supra regarding claim 48.
+Accordingly, Appellants have demonstrated error in the Examiner's finding
+that Francesca, when combined with Weaver and Rodriguez, teaches or
+suggests the delivering mapping information limitation.
+Appellants have demonstrated error in the rejection of claim 60.
+Claims 61 and 62 depend from claim 60. Accordingly, we do not sustain the
+rejections of (1) claims 60 and 61 over Francesca, Weaver, and Rodriguez;
+and (2) claim 62 over Francesca, Weaver, Rodriguez, and Elmaliach.
+
+INDEPENDENT CLAIM 63
+Issues
+
+Appellants' contentions present the following issues:
+Does the Examiner err in finding that the combination of Jalali,
+Francesca, Weaver, and Saxena teaches or suggests "transmit selected ones
+of said plurality of HD programs on a constrained smaller subset of said
+different ones of said plurality of RF channels" (the "subset of channels
+limitation"), as recited in claim 63?
+Does the Examiner err in finding that the combination of Jalali,
+Francesca, Weaver, and Saxena teaches or suggests "recreation [of
+programs] comprising compensating for a jitter associated with said portions
+using at least embedded timestamps in a header field thereof' (the
+"embedded timestamp limitation"), as recited in claim 63?
+
+18
+
+Appeal2015-000302
+Application 11/013,671
+Analysis
+
+Subset of Channels Limitation
+The Examiner finds Francesca teaches the subset of channels
+limitation. Final Act. 32 (citing Francesca i-f 36; Spec. i-f 88); see also Final
+Act. 35 (citing Francesca i-f 17); Ans. 30-31 (additionally citing Francesca
+
+,-r 39).
+Appellants contend as follows:
+Given the nature of the dedicated RF channel in Francesca, one
+cannot reasonably assert that any particular programs are
+selected (from among all of the programs received at the first
+apparatus) to be constrained. Instead, the reference clearly
+requires all requests from a legacy devices to be processed onto
+the dedicated RF channel.
+App. Br. 21:11-15.
+The Examiner explains that "the programs to be constrained will be
+selected based on the fact that these are the programs requested by the
+legacy equipment." Ans. 30. We agree with the Examiner. 5 Claim 63 does
+not recite any steps or criteria for selecting the recited "selected ones of said
+plurality of HD programs." Therefore, a program that is the subject of a
+request from a legacy device, as posited by Appellants (see App. Br. 21:1315), is encompassed within the broadest reasonable interpretation of
+"selected ones of said plurality of ... programs." We note that the Examiner
+
+5
+
+We note, in passing, that given the Examiner's detailed findings and
+conclusions, we view the Examiner's statement that "Appellant is giving too
+much weight to the claim language" (Ans. 30) to be a paraphrasing of the
+established principle that the comparison of claim language to prior art
+references is not an ipsissimis verb is analysis. See In re Bond, 910 F .2d 831,
+832 (Fed. Cir. 1990).
+19
+
+Appeal2015-000302
+Application 11/013,671
+relies on Weaver to teach that the programs may be HD programs. See Final
+Act. 32-33 (citing Weaver i134).
+Appellants further contend as follows
+As a whole, Claim 63 recites that the individual ones of
+the plurality of programs are distributed across different ones of
+RF channels, but that selected ones of these are constrained to a
+subset of the different ones of the RF channels. Hence, the subset
+of the different ones of the RF channels of Claim 63 must include
+at least two RF channels in order to meet the claimed feature of
+the programs being distributed across "different ones" of RF
+channels.
+App. Br. 21 :24--28.
+The Examiner explains as follows:
+[I]n paragraph [0036], Francesca discloses that "[i]n addition,
+optionally, one or more of the multiple RF channels may be
+dedicated for transmitting content programs to specific customer
+premises equipment. This may be desirable where the customer
+premises equipment is only equipped to handle signals received
+from an RF channel having a particular frequency. For example,
+certain existing or legacy customer premises equipment may
+only be capable of handling signals from an [sic] 6-MHz RF
+channel (emphasis added)." This is in line with the disclosure of
+Appellant's specification, which states in paragraph [0088] that
+"[i]n another exemplary embodiment, packets from an input
+program can be constrained to appear on a smaller subset of the
+M outputs (e.g.[,] only one or two outputs). One benefit of such
+a constraint is to create transport streams wherein some programs
+are simultaneously decodable by both legacy (i.e., nonwideband) CPE and the wideband CPE of the present invention
+(emphasis added)."
+Ans. 30-31. We agree with the Examiner. Construing claim 63 in light of
+Appellants' Specification (see Spec. i1 88), it is clear that "subset"
+encompasses a single instance, so that a subset of the channels can include
+only a single channel or a plurality of channels. Furthermore, although the
+
+20
+
+Appeal2015-000302
+Application 11/013,671
+claim recites spread transmission of each processed HD program across
+different ones of said plurality of RF channels, the claim does not recite
+spread transmission of the selected ones of the HD programs. Nor does the
+claim preclude the selected programs from also being transmitted separately
+as one of the programs to be transmitted by spread transmission.
+Accordingly, we do not agree with Appellants' proposed claim construction
+requiring the smaller subset of RF channels to comprise at least two
+channels (see App. Br. 21 :24--28).
+Appellants have not demonstrated error in the Examiner's finding that
+Saxena, when combined with Jalali, Francesca, and Weaver, teaches or
+suggests the subset of channels limitation.
+Embedded Time Stamp Limitation
+The embedded time stamp limitation of claim 63 is similar to the
+header inspection limitation of claim 22. Compare App. Br. 30: 18-19 with
+id. 26:12-14. Appellants' arguments regarding the embedded time stamp
+
+limitation of claim 63 are substantially the same as for the header inspection
+limitation of claim 22. Compare App. Br. 21:40-22:7 with App. Br. 13:624. We agree with the Examiner's findings and conclusions (see Final Act.
+33; Ans. 31-32) for the reasons set forth supra regarding claim 22.
+Accordingly, Appellants have not demonstrated error in the Examiner's
+finding that Saxena, when combined with Jalali, Francesca, and Weaver,
+teaches or suggests the embedded time stamp limitation.
+Summary
+Appellants have not demonstrated error in the rejection of claim 63.
+Accordingly, we sustain the rejection of claim 63 over Jalali, Francesca,
+Weaver, and Saxena.
+
+21
+
+Appeal2015-000302
+Application 11/013,671
+INDEPENDENT CLAIM 64
+Appellants do not argue the patentability of claim 64. See App. Br.
+22:13-19; Reply Br. 23:1-8. Therefore, Appellants have waived
+argumentation in this proceeding traversing the rejection of claim 64. See
+37 C.F.R. § 41.37(c)(l)(iv). Accordingly, we summarily sustain the
+rejection of claim 64 over Jalali, Francesca, Coffin, and Harris.
+
+INDEPENDENT CLAIM 65
+Issue
+
+Appellants' contentions present the following dispositive issue, inter
+alia: Does the Examiner err in finding the combination of Jalali, Francesca,
+
+and Raman teaches or suggests "transmission of information that correlates
+said packets of said first program stream to said respective RF channels over
+which said packets of said first program stream are transmitted in order to
+facilitate reassembly of said first program stream therefrom at a destination"
+(the "correlation information transmission limitation"), as recited in claim
+65?
+Analysis
+
+The correlation information transmission limitation of claim 65 is
+similar to the mapping information limitation of claim 48. Compare App.
+Br. 31 :24--27 with id. at 28:3-5. The Examiner's findings regarding the
+correlation information transmission limitation of claim 65 are substantially
+similar to those for the mapping information limitation of claim 48.
+Compare Final Act. 37-38 with id. at 19. Appellants' arguments regarding
+
+the correlation information transmission limitation of claim 65 are
+substantially similar to those for the mapping information limitation of claim
+
+22
+
+Appeal2015-000302
+Application 11/013,671
+48. Compare Reply Br. 24: 16-24 with id. at 14:2--40. We agree with
+Appellants' contentions for the reasons set forth supra regarding claim 48.
+Accordingly, Appellants have demonstrated error in the Examiner's finding
+that Francesca, when combined with Jalali, teaches or suggests the
+correlation information transmission limitation.
+Appellants have demonstrated error in the rejection of claim 65.
+Accordingly, we do not sustain the rejections of claim 65 over Jalali,
+Francesca, and Raman.
+
+DECISION
+The decision of the Examiner to reject claim 64 is summarily
+affirmed.
+The decision of the Examiner to reject claims 22, 39--41, and 63 is
+affirmed.
+The decision of the Examiner to reject claims 1, 2, 43--45, 48-53, 6062, and 65 is reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§§ 41.50(f), 41.52(b).
+
+AFFIRMED-IN-PART
+
+23
+
+

@@ -1,0 +1,328 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/103,493
+
+05/09/2011
+
+Thomas Enne Hjort
+
+A2000-702420(APC-0024)
+
+9406
+
+79680
+
+7590
+
+09/22/2016
+
+LANDO & ANASTASI, LLP
+A2000
+One Main Street, Suite 1100
+Cambridge, MA 02142
+
+EXAMINER
+AMRANY,ADI
+
+ART UNIT
+
+PAPER NUMBER
+
+2836
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@LALaw.com
+gengelson@LALaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte THOMAS ENNE HJORT and MICHAEL PEDERSEN
+
+Appeal2014-008812
+Application 13/103,493
+Technology Center 2800
+
+Before JASON V. MORGAN, HUNG H. BUI, and JOHN F. HORVATH,
+Administrative Patent Judges.
+BUI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Office Action rejecting claims 1, 2, 4---6, 11, 12, 14--16,
+21-24, 26, and 27, which are all of the claims pending on appeal. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM. 2
+
+1
+
+According to Appellants, the real party in interest is Schneider Electric IT
+Corporation. App. Br. 3.
+2
+Our Decision refers to Appellants' Appeal Brief filed April 14, 2014
+("App. Br."); Reply Brief filed August 7, 2014 ("Reply Br."); Examiner's
+Answer mailed June 11, 2014 ("Ans."); Final Office Action mailed February
+8, 2014 ("Final Act."); and original Specification filed May 9, 2011
+("Spec.").
+
+Appeal2014-008812
+Application 13/103,493
+STATEMENT OF THE CASE
+Appellants' invention relates to "an uninterruptible power supply for
+providing [uninterruptible] power to a load." Spec. 3:2-3, Abstract.
+Claims 1, 11, and 21 are independent. Claim 1 is illustrative of
+Appellants' invention, as reproduced with disputed limitations emphasized
+below:
+1.
+An uninterruptible power supply for providing power to a
+load, the uninterruptible power supply comprising:
+a first input to receive input power from an input power
+source;
+an output to provide output power;
+a bypass input to receive bypass power from a bypass
+power source, wherein the bypass input is selectively coupled
+to the output to provide output power from the bypass power
+source;
+an input power circuit coupled to the first input and
+having a DC output that provides DC power having a first DC
+voltage level;
+a back-up power source coupled to the input power
+circuit to provide DC power at the DC output in a back-up
+mode of operation;
+an inverter circuit having an input coupled to the DC
+output of the input power circuit and an output coupled to the
+output of the uninterruptible power supply to provide the output
+power derived from at least one of the input power source and
+the back-up power source;
+wherein the uninterruptible power supply is constructed
+and arranged in a bypass mode of operation to control the
+inverter circuit to convert AC power from the bypass power
+source at the output of the inverter circuit to DC power at the
+input of the inverter circuit; and
+a power supply coupled to the input of the inverter circuit
+to receive operating DC power from the inverter and
+constructed and arranged to provide DC power to components
+of the uninterruptible power supply in the bypass mode of
+
+2
+
+Appeal2014-008812
+Application 13/103,493
+operation, the components including at least one of a fan, a
+control board, a contactor coil and a display.
+App. Br. 7 (Claims App.).
+
+Examiner's Rejections and References
+(1)
+
+Claims 1, 4---6, 11, 14--16, and 21 stand rejected under 35
+
+U.S.C. § 103(a) as being unpatentable over Tracy et al. (US Publication
+2005/0201127 Al; published Sept. 15, 2005) ("Tracy"), Gilbreth et al. (US
+Patent 6,958,550 B2; issued Oct. 25, 2005) ("Gilbreth"), 3 and Stich et al.
+(US Patent 5,315,533; issued May 24, 1994) ("Stich"). Final Act. 3-5.
+(2)
+
+Claims 2, 12, 22-24, and 26-27 4 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Tracy, Stich, and Gilbreth. Final Act.
+5-7.
+
+ANALYSIS
+With respect to independent claims 1, 11, and 21, the Examiner finds
+Tracy teaches an uninterruptible power supply (UPS), shown in Figure 3,
+having most of Appellants' claimed features, including: ( 1) "a first input
+(311 )"; (2) "an output 301 "; (3) "a bypass input 311" that "is selectively
+coupled to the output (360)"; (4) "an input power circuit (310) to provide
+
+3
+
+The preamble of the rejection of claims 1, 4---6, 11, 14--16, and 21 refers to
+Gilbreth. See Final Act. 3. However, Gilbreth is not relied upon by the
+Examiner. As such, we consider these claims as solely rejected based on
+Tracy and Stich.
+4
+Claims 26-27 are not listed in the heading of the Examiner's rejection, but
+are discussed in the body of the Examiner's rejection. See Final Act. 6-7.
+As such, we consider claims 26-27 as being rejected based on the same
+combination of Tracy, Stich, and Gilbreth.
+
+3
+
+Appeal2014-008812
+Application 13/103,493
+DC power"; (5) "a backup power source (330) ... to provide DC power at
+the DC output in a back-up mode of operation"; and (6) "an inverter circuit
+(320) ... to provide the output power derived from at least one of the input
+power source and the back-up power source." Final Act. 3 (citing Tracy
+
+iTiT 16-18, Fig. 3).
+Tracy's Figure 3 is reproduced below with additional markings for
+illustration.
+
+Tracy's Figure 3 shows an uninterruptible power supply (UPS) 300.
+As shown in Figure 3, Tracy's UPS 300 includes a first switch 350 coupled
+to an AC power source; an auxiliary DC power source (back-up battery) 330
+to provide DC power, via DC buses 315a-315b and ouput ports 301, 302;
+first and second bidirectional power converters 310, 320 configured to act as
+
+4
+
+Appeal2014-008812
+Application 13/103,493
+rectifiers to convert AC power into DC power or as inverters to convert DC
+power into AC power, depending on certain modes of operation. Tracy i-fi-1
+16-18. According to Tracy, these modes of operation include:
+(1)
+a normal "on-line" mode, shown in Figure 4,
+where the first bidirectional power converter 410 acts as a
+rectifier to convert AC power to DC power to power DC link
+420, and the second bidirectional power converter 420 acts as
+an inverter to convert DC power to AC power to power a load
+on port 401;
+(2)
+an alternate mode when the main AC power
+source fails, shown in Figure 5, where the first bidirectional
+power converter 410 acts as an inverter to convert DC power
+from the auxiliary DC power source (battery) 330 to AC power
+to power a load on port 402, and the second bidirectional power
+converter 420 also acts as an inverter to provide AC power to a
+load on port 401;
+(3)
+a "bypassed mode", shown in Figure 6, in which
+the main AC power is used to provide AC power to a load on
+ports 40 l and/ or 402; and
+(4)
+a mixed mode, in the event of a failure of the main
+AC power and either the first or second bidirectional power
+converter 410, 420, shown in Figures 7-9, where the nonfailing first bidirectional power converter 410 or second
+bidirectional power converter 420 may be used to convert DC
+power from the auxiliary DC power source (battery) to AC
+power to power a load on ports 401 and/or 402.
+Tracy i-fi-f 19-22 (emphasis added).
+According to the Examiner, Tracy's "inverter is a two-way converter"
+and "the benefits" of these two-way converters include (1) "a two-way first
+converter (310) ... provide[ s] a discharge path for the battery when the
+second converter fails" and (2) "the two-way second converter ...
+5
+
+Appeal2014-008812
+Application 13/103,493
+provide[s] a charge path for the battery when the first converter fails." Ans.
+3 (citing Tracy i-f 16).
+The Examiner acknowledges Tracy does not expressly teach, but
+relies on Stich for expressly teaching that the power supply in the bypass
+mode of operation is supplied to a specific type of a load, i.e.,
+"[housekeeping] components including at least one of a fan, a control board,
+a contactor coil and a display" in order to support a conclusion of
+obviousness. Ans. 4 (citing Stich 8:50-54, Fig. 1, items 34, 80).
+Appellants present several arguments against the Examiner's
+rejection. First, Appellants argue the Examiner "has failed to establish a
+prima facie case of obviousness" because Gilbreth was cited but was not
+
+discussed and relied upon by the Examiner. App. Br. 5. Second, Appellants
+dispute the Examiner's characterization regarding the operational modes of
+Tracy's UPS system. In particular, Appellants argue: "Tracy fails to
+disclose or suggest an operational mode in which the two-way second
+converter provides a charge path for a battery when the first converter fails."
+App. Br. 6. According to Appellants, Tracy's UPS system is not
+"constructed and arranged in a bypass mode of operation to control the
+inverter circuit to convert AC power from the bypass power source at the
+output of the inverter circuit to DC power at the input of the inverter circuit"
+as recited in claims 1, 11, and 16. Reply Br. 3.
+Third, Appellants further argue the modification of Tracy is based on
+impermissible hindsight, but without providing any explanation as to why
+the Examiner has engaged in such hindsight reconstruction. App. Br. 6.
+We do not find Appellants' arguments persuasive. Instead, we find
+the Examiner has provided a comprehensive response to Appellants'
+
+6
+
+Appeal2014-008812
+Application 13/103,493
+arguments supported by a preponderance of evidence. Ans. 2-9. As such,
+we adopt the Examiner's findings and explanations provided therein. Id.
+For example, as explained by the Examiner, "Gilbreth was accidentally left
+in the heading of a rejection" and was not relied upon by the Examiner. As
+such, we consider the Examiner's inadvertent inclusion of Gilbreth as a
+harmless error and the claims as solely rejected based on Tracy and Stich, as
+noted in the Examiner's Answer. Ans. 2.
+Second, and contrary to Appellants' argument, Tracy teaches or
+suggests a "bypass mode of operation" in which the second bidirectional
+power converter 320, shown in Figure 3, can be used to convert AC power
+to DC power. Ans. 4---6 (citing Tracy i-f 22). In an obviousness analysis, it is
+not necessary to find precise teachings directed to the specific subject matter
+claimed because inferences and creative steps that a person of ordinary skill
+in the art would employ can be taken into account. See KSR Int 'l Co. v.
+Teleflex Inc., 550 U.S. 398, 418 (2007). In this regard, "[a] person of
+ordinary skill is also a person of ordinary creativity, not an automaton." Id.
+at 421. Given Tracy's teachings regarding various situations when the UPS
+system is a "bypass mode of operation," we agree with the Examiner that a
+person skilled in the art would have understood that when the first
+bidirectional power converter 310 fails the second bidirectional power
+converter 320could be used to convert bypassed AC power at its output to
+DC power at its input to recharge the auxiliary DC power source 330 (backup battery) if necessary. Ans. 5.
+Third, Appellants' argument based on "impermissible hindsight" is
+not persuasive because: (1) Appellants have not explained why the
+Examiner has engaged in such an impermissible hindsight reconstruction
+
+7
+
+Appeal2014-008812
+Application 13/103,493
+and (2) the Examiner has provided articulated reasoning with rational
+underpinnings sufficient to justify the legal conclusion of obviousness. See
+In re Cree, Inc., 818 F.3d 694, 702, n.3 (Fed. Cir. 2016) (Appellants'
+hindsight argument of no moment where the Examiner provides a sufficient,
+non-hindsight reason to combine the references).
+For these reasons, we sustain the Examiner's obviousness rejection of
+claims 1, 11, and 21 and their respective dependent claims 2, 4---6, 12, 14--16,
+22-24, 26, and 27, which Appellants do not argue separately.
+
+CONCLUSION
+On the record before us, we conclude Appellants have not
+demonstrated the Examiner erred in rejecting claims 1, 2, 4--6, 11, 12, 14-16, 21-24, 26, and 27 under 35 U.S.C. § 103(a).
+
+DECISION
+As such, we AFFIRM the Examiner's final rejection of claims 1, 2, 4-6, 11, 12, 14--16, 21-24, 26, and 27.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

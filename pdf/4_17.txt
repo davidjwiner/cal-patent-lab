@@ -1,0 +1,186 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/606,221
+
+10/27/2009
+
+Thijs Stalenhoef
+
+Pl0795US1
+(l 19-0343US1)
+
+2357
+
+61947
+
+7590
+
+09/21/2016
+
+Apple - Blank Rome
+c/o Blank Rome LLP
+717 Texas Avenue, Suite 1400
+HOUSTON, TX 77002
+
+EXAMINER
+MAHMOOD, REZWANUL
+
+ART UNIT
+
+PAPER NUMBER
+
+2164
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mbrininger@blankrome.com
+houstonpatents@blankrome.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte THIJS STALENHOEF, JAN ERIK SOLEM,
+NIKOLAI NYHOLM, and GEOFF PARKER
+
+Appeal2015-001805
+Application 12/606,221
+Technology Center 2100
+
+Before BRUCE R. WINSOR, BETH Z. SHAW, and
+JOHN R. KENNY, Administrative Patent Judges.
+SHAW, Administrative Patent Judge.
+
+DECISION ON REQUEST FOR REHEARING
+Appellants request rehearing under 37 C.F.R. § 47.52(a)(l) (2013)
+("Request") for reconsideration of our Decision on Appeal mailed June 14,
+2016 ("Decision"). The Decision affirmed the rejections of claims 27--48.
+Appellants contend that the Board misapprehended or overlooked
+certain points. Request 3. More particularly, Appellants argue we
+misapprehended or overlooked the "capture condition data" or adopted
+"contradictory findings by the Examiner about the 'capture condition data'
+set forth in claim 27." Id.
+"' [T]he main purpose of the examination, to which every application
+is subjected, is to try to make sure that what each claim defines is patentable
+.... [T]he name of the game is the claim .... "' In re Hiniker Co., 150 F.3d
+
+1362, 1369 (Fed. Cir. 1998) (quoting Giles S. Rich, Extent of the Protection
+
+Appeal2015-001805
+Application 12/606,221
+and Interpretation of Claims-American Perspectives, 21 lnt'l Rev. Indus.
+Prop. & Copyright L. 497, 499 (1990)). Moreover, because "applicants may
+amend claims to narrow their scope, a broad construction during prosecution
+creates no unfairness to the applicant or patentee." In re ICON Health and
+Fitness, Inc., 496 F.3d 1374, 1379 (Fed. Cir. 2007) (citing In re Am. Acad.
+of Sci. Tech Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004)).
+Claim 27 requires a "computation unit" to "divide the first set of
+images into two or more image segments based, at least in part, on capture
+condition data that represents a change of scene or subject matter between
+one or more pairs of sequentially captured images in the first set of images."
+We interpret the claim using the broadest reasonable construction in light of
+the Specification. As pointed out in the Decision, Appellants' claims and
+Specification do not explicitly define "capture condition data" or "a change
+of scene or subject matter between one or more pairs of sequentially
+captured images in the first set of images," as recited in claim 27. Decision
+6. Indeed, "capture condition data" does not appear in the Specification.
+Moreover, the Specification does not include any figures to aid our
+interpretation. Appellants do not point to any particular portion of the
+Specification to support their arguments in the Request, nor do Appellants
+propose a specific interpretation of "capture condition data" other than to
+argue that capture condition data is "necessarily" a "change of scene or
+subject matter between one or more pairs of sequentially captured images in
+the first set of images." Id. at 4.
+As stated in our Decision, "change of scene or subject matter" is also
+not explicitly defined in the Specification. The Specification, however, does
+mention the term. Decision 6. In particular, the Specification states that
+
+2
+
+Appeal2015-001805
+Application 12/606,221
+"[t]he present invention uses the following indicators of a rapid change of
+scene or subject matter in photos taken sequentially" and then refers to 4
+indicators: (1) significant shift in shutterspeed, (2) use of flash, (3)
+significant shift in ISO speed, and (4) white balance change. Spec. 6-7.
+The Specification also refers to this data as "EXIF data (for segmentation)."
+
+Id. at 6. However, the Specification does not elaborate on what constitutes a
+"change," a "scene," or a "subject matter." Thus, giving the claims the
+broadest reasonable interpretation in light of the Specification, we stated in
+the Decision that we found no error in the Examiner's finding that Inoue
+teaches capture condition data when Inoue describes information read from
+EXIF data used to group similar images, because this EXIF data is consistent
+with the Specifications' description of "EXIF data" and indicators "of a
+rapid change of scene or subject matter in photos taken sequentially."
+Decision 6. In the Decision, we also stated that Gokturk "discloses grouping
+using difference metrics and using difference vectors tied to metrics such as
+time, location, face etc. to determine if a succession of pictures taken seconds
+apart show the same person or subject," which the Examiner interprets as
+teaching dividing a set of images into two or more image segments, based on a
+change of scene or subject matter between one or more pairs of sequentially
+captured images. Decision 4.
+Appellants acknowledge in the Request that Inoue groups images
+based on automatic exposure, shutter speeds, and f-stop information.
+Request 4. Appellants argue in the Request, however, that reliance on both
+Inoue and Gokturk is a "contradictory combination." Request 3. Appellants
+argue that the claimed "capture condition data" cannot be equivalent to
+Inoue's grouping operation and also Gokturk's determination operation
+
+3
+
+Appeal2015-001805
+Application 12/606,221
+because if such a combination is made "then at least one of Inoue or Gokturk
+would not function properly or as intended.... " Request 4. However,
+Appellants do not elaborate on this argument, and fail to explain
+persuasively how or why Inoue or Gokturk would not "function properly or
+as intended." Moreover, we did not overlook or misapprehend this argument
+because it was not presented in the Appeal Brief.
+For these reasons, Appellants have not persuaded us of error in our
+finding (Decision 3-8) that the combination of references teaches the
+elements recited in claim 27.
+
+DECISION
+We have reconsidered our Decision in light of Appellants' Request.
+We decline to make any changes in our Decision. Therefore, the Request for
+Rehearing is denied.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§ 1.136(a)(l )(iv).
+DENIED
+
+4
+
+

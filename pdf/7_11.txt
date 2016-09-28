@@ -1,0 +1,279 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/022, 133
+
+02/07/2011
+
+Thomas Rusert
+
+P31108-US2
+
+6093
+
+27045
+
+7590
+
+09/15/2016
+
+ERICSSON INC
+6300 LEGACY DRIVE
+MIS EVR 1-C-11
+PLANO, TX 75024
+
+EXAMINER
+BELA!, NAOD W
+
+ART UNIT
+
+PAPER NUMBER
+
+2481
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kara.coffman@ericsson.com
+kathryn.lopez@ericsson.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte THOMAS RUSERT, JACOB STROM, KENNETH
+ANDERSSON, PER WENNERSTEN, and RICKARD SJOBERG
+Appeal2015-000114 1
+Application 13/022,133
+Technology Center 2400
+
+Before JEAN R. HOMERE, MICHAEL J. STRAUSS, and KEVIN TROCK,
+Administrative Patent Judges.
+HOMERE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final rejection of claims 1-13. App. Br. 1. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We affirm.
+
+Appellants' Invention
+Appellants invented a method and system for managing predicted
+motion vector (PMV) candidates in a video encoding/decoding apparatus.
+1
+
+Appellants identify the real party in interest as Telefonaktiebolaget LM
+Ericksson. App. Br. 1.
+
+Appeal2015-000114
+Application 13/022,133
+Spec. 1:5-7. In particular, a variable length coding technique is utilized to
+assign a code value to each of the PMV candidates in the order of expected
+usage such that the candidate with the highest probability of usage is
+assigned one of the shortest code values, whereas the candidate with the
+lowest probability of usage is assigned one of the longest code values. Id. at
+3:26-32.
+
+Illustrative Claim
+Independent claim 1 is illustrative, and reads as follows:
+1. A method of managing Predicted Motion Vector
+candidates (PMV candidates), the method comprising:
+selecting a set of PMV candidates as a subset of
+previously coded motion vectors;
+assigning a code value to each PMV candidate in the set
+of PMV candidates, wherein the code values vary in length and
+are assigned to the Pl\1V candidates in order of expected usage
+such that the PMV candidate having the highest expected usage
+has one of the shortest code values.
+Prior Art Relied Upon
+Iwata
+Takeshima
+Hallapuro
+
+US 2006/0153299 Al
+US 2009/0129703 Al
+US 2009/0304084 Al
+
+July 13, 2006
+May 21, 2009
+Dec. 10, 2009
+
+Rejections on Appeal
+Claims 1-5 and 10-13 stand rejected under 35 U.S.C. § 102(e) as
+being anticipated by Hallapuro.
+Claims 6 and 7 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Hallapuro and Iwata.
+
+2
+
+Appeal2015-000114
+Application 13/022,133
+Claims 8 and 9 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Hallapuro, Iwata, and Takeshima.
+
+ANALYSIS
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 4--9, and the Reply Brief, pages 1--4. 2
+
+Anticipation Rejection
+Appellants argue Hallapuro does not describe assigning a code value
+from a plurality of variable length code values to each PMV candidate in a
+set of candidates in an order of expected usage such that the PMV candidate
+having the highest expected usage has one of the shortest code values, as
+recited in independent claim 1. App. Br. 4---6, Reply Br. 10-11. We have
+reviewed the Examiner's rejection in light of Appellants' arguments. We
+are unpersuaded by Appellants' contentions. Except as otherwise indicated
+hereinbelow, we adopt as our own the findings and reasons set forth in the
+rejection from which the appeal is taken and in the Examiner's Answer in
+response to Appellants' Appeal Brief. See Ans. 2-14. However, we
+highlight and address specific arguments and findings for emphasis as
+follows.
+
+2
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed March 12, 2014), the Reply Brief (filed
+September 18, 2014) and the Answer (mailed July 18, 2014) for their
+respective details. We have considered in this Decision only those
+arguments Appellants actually raised in the Briefs. Any other arguments
+Appellants could have made but chose not to make in the Briefs are deemed
+to be waived. See 37 C.F.R. § 41.37(c)(l)(iv) (2013).
+
+3
+
+Appeal2015-000114
+Application 13/022,133
+First, Appellants argue even if Hallapuro discloses a variable length
+Huffman coding for signaling which one of the motion vector predictors has
+been used, and may inherently associate longer code words with less
+probable symbols, and shorter code words with more probable symbols, as
+proffered by the Examiner, such properties of Huffman coding do not
+describe the disputed limitations. App. Br. 5 (citing Hallapuro i-fi-1 41--43).
+According to Appellants, Hallapuro is devoid of any disclosure of how the
+Huffman code values are assigned to the vector candidates, let alone
+assigning such values in order of expected usage. Id. This argument is not
+persuasive.
+At the outset, we note although Appellants do not concede the
+Examiner's finding of inherency, Appellants do not rebut such a finding
+either. That is, Appellants do not particularly rebut the Examiner's finding
+that variable length Huffman coding, as disclosed in Hallapuro, inherently
+assigns longer code words to less probable symbols (i.e., lowest expected
+usage), and shorter code words to more probable symbols (i.e., highest
+expected usage). Ans. 2. Further, as correctly noted by the Examiner,
+Hallapuro discloses using variable length Huffman coding to signal the
+selection motion vector candidates from a set of candidates. Id. (citing
+Hallapuro i-fi-1 42--43).
+We have previously held that "[i]n relying upon the theory of
+inherency, the examiner must provide a basis in fact and/or technical
+reasoning to reasonably support the determination that the allegedly inherent
+characteristic necessarily flows from the teachings of the applied prior art."
+Ex parte Levy, 17 USPQ2d 1461, 1464 (BPAI 1990) (citations omitted).
+
+Further, our reviewing court has held that "after the PTO establishes a prima
+
+4
+
+Appeal2015-000114
+Application 13/022,133
+facie case of anticipation based on inherency, the burden shifts to appellant
+to 'prove that the subject matter shown to be in the prior art does not possess
+the characteristic relied on."' In re King, 801 F.2d 1324, 1327 (Fed. Cir.
+1986) (quoting In re Swinehart, 439 F.2d 210, 212-13 (CCPA 1971)). See
+also MPEP §§ 2112 (IV), (V).
+This reasoning is applicable here. In our view, the cited technical
+reasoning provided by the Examiner, along with corroborating evidence 3 are
+sufficient to support a prima facie case of anticipation based on inherency
+thereby shifting the burden to Appellants. However, Appellants have failed
+to show by a preponderance of the evidence that the variable Huffman
+coding disclosed by Hallapuro, does not necessarily involve the assignment
+of one of the shortest code words to a selected one of the motion vector
+candidates having the highest expected usage. Appellants are reminded that
+merely reciting the claim language, and asserting that the Examiner's
+findings do not describe such limitations is not a persuasive argument.
+Because Appellants fail to rebut the Examiner's finding of inherency,
+Appellants have therefore failed to show error in the Examiner's anticipation
+rejection of claim 1.
+Regarding the rejection of claims 2-5, and 10-13, because Appellants
+have either not presented separate patentability arguments or have reiterated
+substantially the same arguments as those previously discussed for
+patentability of claim 1 above, claims 2-5 and 10-13 fall therewith. See
+37 C.F.R. § 41.37(c)(l)(iv) (2013).
+
+3
+
+Ans. 2 (citing to" 'Introduction to H.264 advanced video coding"').
+
+5
+
+Appeal2015-000114
+Application 13/022,133
+Obviousness Rejections
+
+Regarding the rejection of claim 6, Appellants argue that the
+combination of Hallapuro and Iwata does not teach or suggest "the expected
+usage of a PMV candidate is obtained from distances of their respective
+previous blocks from a current block." App. Br. 7. According to
+Appellants, Iwata teaches the distance between two motion vectors
+corresponding to a top field and a bottom field, as opposed to a distance
+between a previous block and a current block. Id. at 7-8, Reply Br. 6-8.
+This argument is not persuasive. Hallapuro discloses the candidate motion
+vector predictors correspond to two neighboring blocks (a current block, and
+a previous block). Hallapuro i-f37. Further, Iwata discloses calculating the
+distance between the motion vectors. Iwata i-f 141. Because Hallapuro and
+Iwata disclose known elements that perform their ordinary functions to
+predictably result in a video/encoding/decoding system wherein the distance
+between motion vectors corresponding to neighboring blocks is calculated,
+we agree with the Examiner that Hallapuro and Iwata are properly combined
+to teach the disputed limitations. Ans. 3. KSR Int'! Co. v. Teleflex, Inc., 550
+U.S. 398, 416 (2007).
+Regarding the rejection of claims 7-9, because Appellants have either
+not presented separate patentability arguments or have reiterated
+substantially the same arguments as those previously discussed for
+patentability of claim 6 above, claims 7-9 fall therewith. See 3 7 C.F .R.
+§ 41.37(c)(l)(iv) (2013).
+
+6
+
+Appeal2015-000114
+Application 13/022,133
+DECISION
+We affirm the Examiner's anticipation rejection of claims 1-5 and
+10-13 under 35 U.S.C. § 102(e). We also affirm the Examiner's
+obviousness rejections of claims 6-9 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

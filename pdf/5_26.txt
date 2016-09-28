@@ -1,0 +1,226 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/414,964
+
+03/08/2012
+
+Brent L Hadley
+
+5013899.002US2
+
+4694
+
+128836
+
+7590
+
+09/20/2016
+
+Womble Carlyle Sandridge & Rice LLP
+Attn: IP Docketing
+P.O. Box 7037
+Atlanta, GA 30357-0037
+
+EXAMINER
+GARMON, BRIAN
+
+ART UNIT
+
+PAPER NUMBER
+
+2176
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocketing@wcsr.com
+patentadmin@Boeing.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRENT L HADLEY, PA TRICK J. EAMES,
+MICHAEL K. RODGERS, JOSEPH F. FLOYD, and
+STEPHEN P. MILLER
+
+Appeal2015-006816
+Application 13/414,964
+Technology Center 2100
+
+Before JAMES R. HUGHES, SCOTT B. HOWARD, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+HOWARD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a Non-Final
+Rejection of claims 1-21, which constitute all of the claims pending in this
+application. Although the action appealed from is a Non-Final Rejection,
+because the application has been twice rejected we have jurisdiction
+pursuant to 35 U.S.C. §§ 6 and 134. Ex parte Lemoine, 46 USPQ2d 1420,
+1423 (BPAI 1994) (precedential).
+We reverse.
+1
+
+Appellants identify The Boeing Company as the real party in interest.
+App. Br. 1.
+
+Appeal2015-006816
+Application 13/414,964
+THE INVENTION
+The disclosed and claimed invention is directed to a panoptic
+visualization document navigation.
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+An apparatus for implementation of a panoptic
+visualization document navigation system, the apparatus
+comprising a processor and a memory storing executable
+instructions that in response to execution by the processor cause
+the apparatus to implement at least:
+a navigation engine configured to receive a layout of
+document components of a panoptic visualization document
+collection having a plurality of document components each of
+which includes respective media content and has associated
+metadata providing information about the respective document
+component, the layout including a panoptic arrangement of
+visual representations of the document components of the layout
+according to the associated metadata of the respective document
+components,
+\'I/herein the navigation engine is configured to select one
+or more navigation options from a plurality of navigation options
+for navigating a visual presentation of the layout, the navigation
+options being selected according to the associated metadata for
+the document components of the layout, and
+wherein the navigation engine is configured to
+communicate the selected navigation options to a graphical user
+interface for presentation to a user along with the visual
+presentation of the layout, the selected navigation options
+thereby being selectable by the user to request an adjustment of
+the visual presentation of the layout; and
+a request interface coupled to the navigation engine and
+configured to receive a request according to one or more of the
+selected navigation options presented by the graphical user
+interface, the request interface also being configured to
+communicate the request to the navigation engine,
+2
+
+Appeal2015-006816
+Application 13/414,964
+wherein the navigation engine is further configured to
+effect an adjustment of the visual presentation of the layout in
+response to the request and according to the request, and
+wherein the navigation engine is configured to
+communicate the adjustment to the graphical user interface for
+presentation to the user.
+
+REFERENCES
+The prior art relied upon by the Examiner as evidence in rejecting the
+claims on appeal is:
+Gallo
+US 2006/0161863 Al
+Aguera y Areas et al. US 2009/0295791 Al
+
+July 20, 2006
+Dec. 3, 2009
+
+REJECTIONS 2
+Claims 1---6, 8-13, and 15-20 stand rejected under pre-AIA 35 U.S.C.
+§ 102(b) as being anticipated by Aguera y Areas. Non-Final Act. 6-19.
+Claims 7, 14, and 21 stand rejected under pre-AIA 35 U.S.C. § 103(a)
+as being unpatentable over Aguera y Areas in view of Gallo. Non-Final Act.
+19-22.
+
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments that the Examiner erred. In reaching this decision, we have
+considered all evidence presented and all arguments made by Appellants.
+We are persuaded by Appellants' arguments regarding claims 1-21.
+2
+
+In the Answer, the Examiner withdrew the rejection of claims 1-14 under
+pre-AIA 35 U.S.C. § 112, second paragraph, as being indefinite for failing to
+particularly point out and distinctly claim the subject matter which applicant
+regards as the invention. See Ans. 16.
+3
+
+Appeal2015-006816
+Application 13/414,964
+Appellants argue the Examiner erred in finding Aguera y Areas
+discloses a "navigation engine is configured to select one or more navigation
+options from a plurality of navigation options for navigating a visual
+presentation of the layout, the navigation options being selected according to
+the associated metadata for the document components of the layout," as
+recited in claim 1. See App. Br. 10; Reply Br. 2-3. Although Aguera y
+Areas discloses a display engine that allows the user to pan or zoom,
+Appellants argue the display engine does not select navigation options
+according to the associated metadata. Id.
+The Examiner finds Aguera y Areas "discloses enabling navigation
+functions such as pan and zoom based on the data" and maps this to the
+disputed limitation. Non-Final Act. 7 (citing Aguera y Areas i-f 42). The
+Examiner further finds Aguera y Areas "discloses merging 'metadata' with
+content such as video content" and that data is used "to select navigation
+options in that the system selects display navigation options such as 'pan
+and/or zoom."' Ans. 17 (citing Aguera y Areas i-fi-137, 42).
+We are persuaded by Appellants' arguments as the Examiner has not
+identified sufficient evidence or provided sufficient explanation as to how
+Aguera y Areas teaches "navigation engine is configured to select one or
+more navigation options from a plurality of navigation options for
+navigating a visual presentation of the layout, the navigation options being
+selected according to the associated metadata for the document components
+of the layout," as recited in claim 1. Although the paragraphs cited by the
+Examiner disclose metadata and a display engine that allows panning and/or
+zooming, there is nothing in the cited sections that discloses navigation
+
+4
+
+Appeal2015-006816
+Application 13/414,964
+options that are "selected according to the associated metadata for the
+document components of the layout," as recited in claim 1.
+Accordingly, we are constrained on this record to reverse the
+Examiner's rejection of claim 1, along with the rejections of claims 8 and
+15, which recite limitations commensurate in scope to the disputed
+limitations discussed above, and dependent claims 2-7, 9-14, and 16-21.
+Because we agree with at least one of the dispositive arguments advanced by
+Appellants, we need not reach the merits of Appellants' other arguments.
+
+DECISION
+For the above reasons, we reverse the Examiner's decisions rejecting
+claims 1-21.
+
+REVERSED
+
+5
+
+

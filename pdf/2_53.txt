@@ -1,0 +1,242 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121944,053
+
+11/11/2010
+
+Shenghua Bao
+
+CN920090075US 1
+
+4987
+
+48813
+
+7590
+
+09/22/2016
+
+EXAMINER
+
+LAW OFFICE OF IDO TUCHMAN (YOR)
+PO Box 765
+Cardiff, CA 92007
+
+AMIN, MUSTAFAA
+
+ART UNIT
+
+PAPER NUMBER
+
+2144
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pair@tuchmanlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SHENGHUA BAO, BEN PEI, ZHONG SU, XIAN WU, and
+XIAO XUN ZHANG
+
+Appeal2015-007407
+Application 12/944,053
+Technology Center 2100
+
+Before DAVID M. KOHUT, JENNIFER L. McKEOWN, and
+SCOTT E. BAIN, Administrative Patent Judges.
+McKEOWN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision to reject claims 1-24. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention generally relates to "publishing a web electronic
+advertisement at a specified location of a webpage which matches the
+sentiment of the context surrounding the specified location." Spec. i-f 1.
+Claim 1 is illustrative of the claimed invention and reads as follows:
+1.
+A method of publishing specified content at a
+specified location of a webpage, the method comprising:
+
+Appeal2015-007407
+Application 12/944,053
+performing sentiment analysis by at least one computer
+processor upon the context surrounding the specified location
+where specified content is to be published, the sentiment analysis
+determining a sentiment tendency of the context surrounding the
+specified location, the sentiment tendency based on at least one
+of statistical learning and dictionary matching; and
+selecting whether or not to publish the specified content at
+the specified location of the webpage based on the determined
+sentiment tendency of the context surrounding the specified
+location.
+THE REJECTIONS
+The Examiner rejected claims 1---6, 8, 9, 11-18, 20, 21, 23, and 24
+under 35 U.S.C. § 103(a) as unpatentable by Farago (US 2007/0083611 Al;
+pub. Apr. 12, 2007) and Tian (US 2007/0245375 Al; pub. Oct. 18, 2007).
+Final Act. 3-15.
+The Examiner rejected claims 10 and 22 under 35 U.S.C. § 103(a) as
+unpatentable over Farago, Tian, and Repas (US 2011/0099076 Al; pub. Apr.
+28, 2011). Final Act. 16-17.
+The Examiner rejected claims 7 and 19 under 35 U.S.C. § 103(a) as
+unpatentable over Farago, Tian, and Mei (US 2010/0153219 Al; pub. June
+17, 2010). Final Act. 18-20.
+
+ANALYSIS
+THE OBVIOUSNESS REJECTION BASED ON FARAGO AND TIAN
+
+Claims 1-6, 8, 9, 11-18, 20, 21, 23, and 24
+Based on the record before us, we are not persuaded the Examiner
+erred in rejecting claims 1---6, 8, 9, 11-18, 20, 21, 23, and 24 as unpatentable
+over Farago and Tian.
+
+2
+
+Appeal2015-007407
+Application 12/944,053
+Appellants assert that the combination of Farago and Tian fails to
+teach or suggest "performing sentiment analysis by at least one computer
+processor upon the context surrounding the specified location where
+specified content is to be published" and "selecting whether or not to publish
+the specified content at the specified location of the webpage based on the
+determined sentiment tendency of the context surrounding the specified
+location." App. Br. 6-9. In particular, Appellants allege that Farago does
+not perform analysis upon the context surrounding a specified location or
+that the "advertisement is based on a context surrounding a specified
+location of a webpage." App. Br. 7 (emphasis omitted).
+We disagree. As the Examiner explains, Farago describes analyzing
+the context of the multimedia items, e.g., video, surrounding the specified
+location where the advertisement is to be published. Final Act. 3.
+Appellants appear to emphasize the "specified location" language of the
+claim but fail to persuasively explain why the analysis of the video, which
+surrounds the specified location where the advertisement is published, is not
+analysis at the recited surrounding the specified location. In other words, the
+video surrounds the specified location by playing prior to or next to the
+advertisement. As such, we find Appellants' argument unpersuasive.
+Additionally, Appellants argue that the reason to combine Farago and
+Tian "has been improperly gleaned from Appellants' own disclosure." App.
+Br 9. More specifically, Appellants assert that,
+The Examiner argues the modification of Farago with the
+teachings of Tian would be obvious since, "This would have
+been desirable for the purpose of determining emotional context
+of content in order to provide more appropriate, relevant
+supplemental content such as audio based on context/mood of
+
+3
+
+Appeal2015-007407
+Application 12/944,053
+content disclosed by (D2, 0035-0042)." FOA, p. 6. However,
+there is no such teaching in Tian.
+App. Br. 10.
+This argument, however, ignores express teachings of Tian. As the
+Examiner explains, paragraph 6 of Tian states that
+there has come a desire to further enhance the user's experience
+. . . one to way to improve user's experience is to deliver
+background music that is appropriate to the text being delivered
+[by matching the same mood or emotional qualities, thus]
+disclosing and providing the motivation for combination of
+[Farago and Tian].
+
+Ans. 10-11 (citing Tian i-f 6). Therefore, we are not persuaded of error in the
+Examiner's reasons to combine Farago and Tian.
+Accordingly, for the reasons discussed above and by the Examiner,
+we sustain the rejection of claim 1, as well as claims 2---6, 8, 9, 11-18, 20,
+21, 23, and 24, not argued with particularity.
+
+THE OBVIOUSNESS REJECTION BASED ON FARAGO, TIAN, AND REPAS
+
+Claims 10 and 22
+
+Appellants do not present any separate arguments of patentability for
+claims 10 and 22, but rather rely on the arguments presented for claim 1.
+See App. Br. 15. For the reasons discussed above, we find these arguments
+
+unpersuasive. Accordingly, we sustain the rejection of claims 10 and 22.
+
+THE OBVIOUSNESS REJECTION FARAGO, TIAN, AND MEI
+
+Claims 7 and 19
+
+With respect to claims 7 and 19, Appellants contend that "Farago does
+not contemplate determining a context surrounding a specified location of a
+
+4
+
+Appeal2015-007407
+Application 12/944,053
+webpage, and more particularly, a portion or page block of a webpage where
+the specified location is located." App. Br. 12.
+The Examiner, however, relies on Mei for teaching dividing a
+webpage into a plurality of page block and extracting a primary page block.
+See Final Act. 18-19. One cannot show nonobviousness by attacking
+references individually where the rejections are based on combinations of
+references. See In re Keller, 642 F.2d 413, 426 (CCPA 1981); In re Merck
+& Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986).
+
+Similarly unpersuasive is Appellants' argument that "there is no
+teaching in Mei of inferring a web page's main topic." App. Br. 13. Mei
+expressly includes the step of "identify a main textual block." See, e.g., Mei
+Fig. 7. As such, we are not persuaded that Mei fails to teach or suggest the
+disputed limitation.
+Finally, Appellants also assert that "the hypothetical combination of
+Farago, Tian and Mei renders Farago unsatisfactory for its intended purpose
+and/or changes its principle of operation." App. Br. 13-14. We find this
+conclusory assertion unpersuasive. In particular, Appellants fail to provide
+any persuasive support or explanation for this argument. For example,
+Appellants do not identify what Farago's intended purpose or principle of
+operation is or how it is rendered unsatisfactory or changed. See, e.g., App.
+Br. 13-14.
+Accordingly, we sustain the rejection of claims 7 and 19 as
+unpatentable over Farago, Tian, and Mei.
+
+DECISION
+We affirm the Examiner's decision to reject claims 1-24.
+
+5
+
+Appeal2015-007407
+Application 12/944,053
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+6
+
+

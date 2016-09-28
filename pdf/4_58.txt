@@ -1,0 +1,289 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/276,072
+
+11/21/2008
+
+Dan P. Dumarot
+
+END920080399US 1
+
+3310
+
+79980
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+Keohane & D'Alessandro
+1881 Western Avenue Suite 180
+Albany, NY 12203
+
+MERCADO, RAMON A
+
+ART UNIT
+
+PAPER NUMBER
+
+2132
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+drubbone@kdiplaw.com
+Docket@Kdiplaw.com
+lcronk@kdiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DAN P. DUMAROT, KARL J. DUVALSAINT, DAEIK KIM,
+MOON J. KIM, and EUGENE B. RISI
+
+Appeal2015-002646
+Application 12/276,072
+Technology Center 2100
+
+Before JOHN A. JEFFERY, JAMES R. HUGHES, and
+MONICA S. ULLAGADDI, Administrative Patent Judges.
+JEFFERY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision to reject claims 1, 2, 4---6, 8-12, 14, and 17-20. Claims 3, 7, 13, 15,
+and 16 were cancelled. See Amd't filed May 22, 2014 (indicating these
+claims were cancelled). We have jurisdiction under 35 U.S.C. § 6(b). We
+affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention bypasses low-yield or dead cache memory units
+to improves reliability and performance. See generally Abstract; Spec.
+i-fi-1 4--7; Figs. 2-3. Claim 1 is illustrative:
+
+1. A bypass memory system, comprising:
+
+Appeal2015-002646
+Application 12/276,072
+a first memory unit mounted on a bus;
+a first cache manager coupled to the first memory unit;
+a second memory unit mounted on the bus;
+a main controller mounted on the bus and coupled to the first cache
+manager and a second cache manager;
+the first cache manager being operable to: receive a request
+originating from a first set of sub-processing elements to a first set of submemory elements that is operational yet unable to satisfy the request, the
+first set of sub-memory elements and the first set of sub-processing elements
+coupled to the first memory unit and located on a lower hierarchical level
+than the first memory unit, bypass the first memory unit with the request
+when the first memory unit is exhibiting a yield below a predetermined
+threshold, and send the request to the second memory unit via the bus; and
+the second cache manager coupled to an input and an output of the
+second memory unit, the second cache manager being operable to receive
+the request from the first cache manager via the bus, and to manage
+operation between the second memory unit and a second set of subprocessing elements by sending the request to either of the following: the
+second memory unit, and an externally located third memory unit in the case
+that the second memory unit fails to satisfy the request.
+THE REJECTION
+The Examiner rejected claims 1, 2, 4---6, 8-12, 14, and 17-20 1 under
+35 U.S.C. § 103(a) as unpatentable over Vartti (US 7,260,677 Bl; issued
+Aug. 21, 2007) and Manu Thapar et al., Scalable Cache Coherence for
+
+1
+
+Although the Examiner's statement of the rejection lists only cancelled
+claims 3, 15, and 16, the Examiner nonetheless omits these claims in the
+corresponding discussion that addresses claims 1, 2, 4---6, 8-12, 14, and 1720. Compare Ans. 2 with Ans. 5-8. Notably, Appellants acknowledge that
+these latter claims-not claims 3, 15, and 16--are subject to the appealed
+ground of rejection. Br. 6. We, therefore, present the correct claim listing
+here for clarity, and treat the Examiner's error in this regard as harmless.
+We likewise deem harmless the Examiner's erroneously including cancelled
+claims 7 and 13 in the rejection's discussion. See Ans. 6-7.
+2
+
+Appeal2015-002646
+Application 12/276,072
+
+Shared Memory Multiprocessors,
+
+PROC. ACPC CONF. PARALLEL COMP.
+
+(1991) ("Thapar"). Ans. 2-8. 2
+
+CONTENTIONS
+The Examiner finds that Vartti discloses every recited element of
+claim 1 including a "first memory unit" (shared cache 206 of Processor
+Node Director (PND) 102A) and a "first cache manager" (PND 102A)
+coupled thereto, where the first cache manager receives a request originating
+from a "first set of sub-processing elements" (Instruction Processors (IPs)
+1 lOA-D) to a "first set of sub-memory elements" (Second-Level Caches
+(SLCs) 108A-D) that is operational yet unable to satisfy the request, the first
+set of sub-processing elements located on a lower hierarchical level than the
+first memory unit. Ans. 2-3, 10-13 (citing Vartti Figs. 1-2).
+According to the Examiner, V artti' s first cache manager also ( 1)
+bypasses the first memory unit with the request when this memory unit
+exhibits a yield below a predetermined threshold, and (2) sends the request
+to a second memory unit, namely shared cache 206 for PND 102B as well as
+Storage Coherency Director (SCD) 100. See Ans. 2--4, 13.
+Although the Examiner acknowledges that Vartti does not explicitly
+teach (1) a bus; (2) the second memory unit receiving the request via the
+bus; and (3) the recited main controller, the Examiner cites Thapar as
+teaching these features in concluding that the claim would have been
+obvious. Ans. 3-5.
+
+2
+
+Throughout this opinion, we refer to the Appeal Brief filed September 18,
+2014 ("Br.") and the Examiner's Answer mailed November 3, 2014
+("Ans.").
+3
+
+Appeal2015-002646
+Application 12/276,072
+Appellants argue that V artti and Thapar fail to disclose a request
+originating from a first set of sub-processing elements and intended for a
+first cache memory unit operating below an acceptable threshold, and
+sharing the request to a second cache manager ( 1) after a miss at the first set
+of sub-processing elements; and (2) when the first cache memory unit
+operates below an acceptable threshold. Br. 11-12. According to
+Appellants, Vartti' s request not only originates from the shared SCD above
+the cache-not from sub-processing elements on a lower level-but Vartti
+also assumes that the SLCs can satisfy the request. Br. 13.
+
+ISSUE
+Under§ 103, has the Examiner erred in rejecting claim 1 by finding
+that Vartti and Thapar collectively would have taught or suggested the
+recited first cache manager operable to perform its three recited functions?
+
+ANALYSIS
+We begin by noting that the Examiner's reliance on the secondary
+reference to Thapar is undisputed, as is the cited references' combinability.
+Rather, as noted above, this dispute turns solely on the Examiner's reliance
+on Vartti for teaching the recited first cache manager and its associated
+functionality. Therefore, we confine our discussion to Vartti.
+Turning to claim 1, the first cache manager has three main functions,
+namely (1) receiving a request originating from a first set of sub-processing
+elements to a first set of sub-memory elements; (2) bypassing the first
+memory unit with the request when that unit exhibits a yield below a
+
+4
+
+Appeal2015-002646
+Application 12/276,072
+predetermined threshold; and (3) sending the request to a second memory
+unit via a bus.
+On this record, we see no error in the Examiner's finding that Vartti' s
+"first cache manager," namely PND 102A, is operable to perform the three
+recited functions. See Ans. 2-3, 10-13 (citing Vartti Figs. 1-2). First,
+Vartti's IP 1 lOA in Figure 1 sends a request to access a particular memory
+address to its first level cache (PLC) and, if unsuccessful, to the SLC 108,
+namely the "first set of sub-memory elements" under the Examiner's
+mapping. See Vartti, col. 6, 11. 51-64; Ans. 10. If the SLC cannot satisfy the
+request, the SLC forwards the request to the processor bus 104A where it is
+monitored, or "snooped," by PND 102A. See Vartti, col. 6, 11. 48---64. This
+request "snooping" at least suggests that the PND receives that request,
+particularly since the PND can later forward the request to SCD 100. See
+Vartti, col. 6, 1. 65 - col. 7, 1. 3. Accord Ans. 12 (noting that claim 1 does
+not preclude the first cache manager's receiving the request by snooping).
+And as shown in Vartti' s Figure 1, both sets of sub-processing elements (IP
+1 lOA) and sub-memory elements (SLC 108A) are located on a lower
+hierarchical level than the "first memory unit," namely PND 102A's cache
+memory 206 in Figure 2.
+Appellants' contention that Vartti' s original request originates from
+the shared SCD above the cache, and not from lower-level sub-processing
+elements (Br. 13), is unavailing, for it ignores the request that originates
+from Vartti's lower-level IP 1 lOA noted above and by the Examiner. Ans.
+11-13.
+Second, V artti at least suggests that the first cache manager (PND
+102A) bypasses the first memory unit (PND 102A's cache memory 206)
+
+5
+
+Appeal2015-002646
+Application 12/276,072
+with the request when that memory unit exhibits a yield below a
+predetermined threshold. As Vartti explains, if PND 102A cannot satisfy the
+request because it does not have the most recent copy of the requested data
+stored in its shared cache logic 106A-logic that includes cache memory
+206 (the "first memory unit") as shown in Figure 2-PND 102A forwards
+the request to SCD 100.
+Therefore, by forwarding the request to the SCD in this scenario, the
+first memory unit (cache memory 206) is effectively bypassed. That such a
+scenario could occur due to the cache memory 206's unavailability or
+degradation in light of Vartti's column 14, lines 39 to 41 as the Examiner
+indicates (see Ans. 13) at least suggests that the first memory unit would
+exhibit a yield below a predetermined threshold under these conditions.
+Appellants' arguments regarding the particulars of Vartti's cache-not-present
+mode (Br. 12-13) are unavailing, for they are not germane to the limited
+purpose for which Vartti was cited in this regard, namely merely to show
+that a PND' s cache can be unavailable due to degradation or otherwise, and
+that such a low-yield condition could cause that memory unit to be bypassed
+in light of the above-noted functionality in Vartti's columns six and seven.
+Lastly, Vartti at least suggests that the first cache manager (PND
+102A) sends the request to the second memory unit (cache memory 206 for
+PND 102B) by forwarding the request to the SCD. See Vartti, col. 6, 1. 65 col. 7, 1. 52. Not only can the SCD satisfy the request via its own memory
+unit, but if unsuccessful, the SCD sends a request to another processing node
+and associated PND that contains a cache memory unit 206 as shown in
+Vartti's Figure 2. See id. Based on this functionality, Vartti at least suggests
+sending the request to PND 102B and its associated memory unit after
+
+6
+
+Appeal2015-002646
+Application 12/276,072
+bypassing the first memory unit of PND 102A. The Examiner's findings
+and conclusions in this regard (Ans. 2-3, 13) are, therefore, reasonable and
+have not been persuasively rebutted.
+Accordingly, we are not persuaded that the Examiner erred in
+rejecting claim 1, and claims 2, 4---6, 8-12, 14, and 17-20 not argued
+separately with particularity. 3
+
+CONCLUSION
+The Examiner did not err in rejecting claims 1, 2, 4---6, 8-12, 14, and
+17-20 under § 103.
+
+DECISION
+The Examiner's decision rejecting claims 1, 2, 4---6, 8-12, 14, and 1720 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+3
+
+Although Appellants nominally argue claims 10 and 14 separately (Br. 14-20), Appellants reiterate arguments made for claim 1. We, therefore, group
+these claims accordingly.
+7
+
+

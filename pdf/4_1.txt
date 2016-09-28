@@ -1,0 +1,266 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/351,291
+
+0110912009
+
+Richard Henry Guski
+
+POU920080233US 1
+
+8539
+
+33558
+
+7590
+
+09/21/2016
+
+INTERNATIONAL BUSINESS MACHINES CORPORATION
+Richard Lau
+IPLAW DEPARTMENT I Bldg 008-2
+2455 SOUTH ROAD - MS P386
+POUGHKEEPSIE, NY 12601
+
+EXAMINER
+LAYELLE, GARY E
+
+ART UNIT
+
+PAPER NUMBER
+
+2493
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+poiplaw2@us.ibm.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RICHARD HENRY GUSKI, DEBORAH MAPES,
+WILLIAM O'DONNELL, and IRA STEVEN RINGLE 1
+
+Appeal2015-001922
+Application 12/351,291
+Technology Center 2400
+
+Before JOSEPH L. DIXON, LARRY J. HUME, and
+JAMES W. DEJMEK, Administrative Patent Judges.
+DEJMEK, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 3-11 and 14--22. Claims 1, 2, 12, and 13 have been canceled. See
+Appellants' Amendment, filed September 5, 2012. We have jurisdiction
+over the remaining pending claims under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+Appellants identify International Business Machines Corporation as the
+real party in interest. App. Br. 2.
+
+Appeal2015-001922
+Application 12/351,291
+STATEMENT OF THE CASE
+
+Introduction
+Appellants' claimed invention is directed to "a method of propagating
+client end-user identification and authentication information from a
+distributed component of a multi-component transaction processing
+environment to a mainframe component of such an environment." Spec.
+
+iT 22.
+Claim 7 is representative of the subject matter on appeal and is
+reproduced below with the disputed limitations emphasized in italics:
+7.
+A computer-implemented method for authenticated
+identity propagation and translation in a transaction processing
+environment containing an initial authentication component and
+a subsequent processing component, each of said components
+comprising a computer, the method being performed at the
+subsequent processing unit and comprising:
+using a computer, receiving a transaction request from the
+initial authentication component together with distributed
+security information, the distributed security information
+containing a plurality of sections with identifying information
+about an authenticated client end-user identity as known at the
+initial authentication component and a mask specifYing a subset
+of the sections to be used by the subsequent processing
+component to determine a client end-user identity; and
+using a computer, responsive to receiving the transaction
+request from the initial authentication component, generating a
+lookup key from the subset of the sections of the distributed
+security information specified by the mask and using the
+generated lookup key to determine whether a local authenticated
+runtime security context already exists in a local cache for the
+client end-user initiating the transaction request.
+
+2
+
+Appeal2015-001922
+Application 12/351,291
+
+The Examiner's Rejection
+Claims 3-11 and 14--22 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Botz et al. (US 2006/0288228 Al; Dec. 21, 2006)
+("Botz"); Ates (EP 1 850 297 A2; pub. Oct. 31, 2007) ("Ates"); and Savarda
+et al. (US 2003/0196081 Al; Oct. 16, 2003) ("Savarda"). Final Act. 5-18.
+
+Issues on Appeal
+1.
+
+Did the Examiner err in finding the combination of Botz, Ates,
+
+and Savarda teaches or suggests "a mask specifying a subset of the sections
+to be used by the subsequent processing component to determine a client
+end-user identity," as recited in claim 7?
+2.
+
+Did the Examiner err in finding the combination of Botz, Ates,
+
+and Savarda teaches or suggests "generating a lookup key from the subset of
+the sections of the distributed security information specified by the mask,"
+as recited in claim 7?
+
+ANALYSIS 2
+Appellants contend the Examiner erred in finding Ates teaches or
+suggests providing a mask to specify a subset of sections of distributed
+security information used to determine a client end-user identity. App.
+Br. 8-10; Reply Br. 2. In particular, Appellants assert Ates' bitmap (Issuer
+Internet Proprietary Bitmap, or IIPB) is used to control which bytes of a
+
+2
+
+Throughout this Decision, we have considered the Appeal Brief, filed
+May 19, 2014 ("App. Br."); the Reply Brief, filed November 18, 2014
+("Reply Br."); the Examiner's Answer, mailed on September 18, 2014
+("Ans."); and the Final Office Action ("Final Act."), mailed on
+December 19, 2013, from which this Appeal is taken.
+3
+
+Appeal2015-001922
+Application 12/351,291
+concatenated set of authentication fields are sent back to an issuer in a card
+authentication system. App. Br. 8 (citing Ates i-fi-1 63---68). Appellants
+contend the authentication fields of Ates "may be derived in part from the
+cardholder's identity [but] they are not used to determine that identity as
+claimed." App. Br. 9. Further, Appellants argue Ates' masked data is
+authentication information, not identification information. App. Br. 9.
+In response, the Examiner explains Ates is used to teach "the
+application of a mask to specify a subset of the sections." Ans. 3. The
+Examiner relies on Botz-not Ates-as teaching the distributed security
+information containing a plurality of sections with identifying information of
+the end-user. See Final Act. 11. Additionally, the Examiner states "how the
+masked subset of the section is used to determine identity is not specified in
+the claim beyond what has already been disclosed by Botz." Ans. 4.
+Non-obviousness cannot be established by attacking references
+individually where, as here, the ground of unpatentability is based upon the
+teachings of a combination of references. In re Keller, 642 F.2d 413, 426
+(CCP A 1981 ). Rather, the test for obviousness is whether the combination
+of references, taken as a whole, would have suggested the patentee's
+invention to a person having ordinary skill in the art. In re Merck & Co.,
+Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986).
+
+We are not persuaded of Examiner error because Appellants'
+arguments are not responsive to the Examiner's rejection and attack the
+references separately, whereas the Examiner's rejection (for this disputed
+limitation) relies on the combined teachings of Botz and Ates. Specifically,
+the Examiner finds, and we agree, Botz teaches, inter alia, "distributed
+security information containing a plurality of sections with identifying
+
+4
+
+Appeal2015-001922
+Application 12/351,291
+information about an authenticated client end-user identity," as recited in
+claim 7. Final Act. 11 (citing Botz, i-f 7, Figs. 3 and 7B). The Examiner
+relies on Ates to teach masking a subset of the sections of security
+information (which comprise with identifying information about an
+authenticated client end-user identity) provided by Botz. Ans. 3; see also
+Final Act. 13 (citing Ates i-fi-1 63---65). Further, as Appellants admit, "if one
+uses a mask to specify a subset of data to be used for a particular purpose, it
+is apparent that the data used for the purpose will be the subset specified by
+the mask." App. Br. 10. Thus, the Examiner finds, and we agree, the
+combined teachings of Botz and Ates teaches or suggests "a mask specifying
+a subset of the sections to be used by the subsequent processing component
+to determine a client end-user identity," as recited in claim 7.
+Regarding the claimed limitation of "generating a lookup key from the
+subset of the sections of the distributed security information specified by the
+mask," Appellants concede Savarda teaches "masking a value and hashing
+the masked value to generate an index into a database." App. Br. 9.
+However, Appellants contend there is no motivation to apply the teachings
+of Savarda to the combined teachings of Botz and Ates, as proffered by the
+Examiner. App. Br. 9; Reply Br. 2-3.
+As the Examiner explains, "all the claimed elements were known in
+the prior art and one skilled in the art could have combined the elements as
+claimed by known methods with no change in their respective functions and
+the combination would have yielded predictable results to one of ordinary
+skill in the art at the time of the invention." Ans. 4; see also Final Act. 13
+("generating a look up [sic] key was well known in the art at the time the
+invention was made."). The Examiner relies on Savarda, for example, to
+
+5
+
+Appeal2015-001922
+Application 12/351,291
+show that generating a lookup key was well known. Final Act. 13 (citing
+Savarda i-f 39).
+We agree with the Examiner. "The combination of familiar elements
+according to known methods is likely to be obvious when it does no more
+than yield predictable results." Leapfrog Enters., Inc. v. Fisher-Price, Inc.,
+485 F.3d 1157, 1161 (Fed. Cir. 2007) (quoting KSR Int'! Co. v. Teleflex Inc.,
+550 U.S. 398, 416 (2007)). Further, Appellants admit "the operations
+recited in applicants' claims are trivial, and the results of these operations
+would be predictable to one of ordinary skill in the art." App. Br. 10.
+For the reasons discussed supra, we are unpersuaded of Examiner
+error. Accordingly, we sustain the Examiner's rejection of claim 7 and, for
+similar reasons, the rejection of independent claims 17, 21, and 22, which
+recite similar limitations and which were not argued separately. See App.
+Br. 7-11. Additionally, we sustain the Examiner's rejection of dependent
+claims 3---6, 8-11, 14--16, and 18-20, which were not argued separately. See
+App. Br. 7-11.
+
+DECISION
+We affirm the Examiner's decision to reject claims 3-11 and 14--22.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

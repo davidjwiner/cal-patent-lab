@@ -1,0 +1,269 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/451,856
+
+12/03/2009
+
+Oscar Divorra Escoda
+
+PU070135
+
+9910
+
+24498
+
+7590
+
+09/21/2016
+
+Robert D, Shedd, Patent Operations
+THOMSON Licensing LLC
+4 Research Way
+3rd Floor
+Princeton, NJ 08543
+
+EXAMINER
+WERNER, DAVID N
+
+ART UNIT
+
+PAPER NUMBER
+
+2487
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+uspto@technicolor.com
+pat. verlangieri@technicolor.com
+russell. smith@technicolor.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte OSCAR DIVORRA ESCODA and PENG YIN
+
+Appeal2015-003920
+Application 12/451,856
+Technology Center 2400
+
+Before JOHNNY A. KUMAR, JOHN P. PINKERTON, and
+SCOTT E. BAIN, Administrative Patent Judges.
+PINKERTON, Administrative Patent Judge
+
+DECISION ON APPEAL
+.6.
+
+....
+
+,1
+
+....
+
+Appeuants' appeal unaer
+
+s
+
+,....,-TTr'l.r-"\l\-1,....Al/'\.r'"
+
+j ) u.~.L.
+
+U4~aJ
+
+, ..
+
+T"""1
+
+•-,
+
+rrom tne bxammer s
+
+Final Rejection of claims 1-5, 7-11, 13-17, 19-23, and 25-34, which are
+the only claims pending in the application. Claims 6, 12, 18, and 24 are
+canceled. We have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+
+1
+
+Appellants identify Thomson Licensing as the real party in interest. App.
+Br. 1.
+
+Appeal2015-003920
+Application 12/451,856
+
+STATEMENT OF THE CASE
+Introduction
+
+Appellants' described and claimed invention generally relates to video
+encoding and decoding and, more particularly, to methods and apparatus for
+in-loop de-artifacting filtering based on multi-lattice sparsity-based filtering.
+Spec. 1:10-12. 2
+Claim 1 is illustrative and reproduced below (with the disputed
+limitation emphasized):
+1.
+
+An apparatus, comprising:
+
+an encoder for encoding picture data for a picture, the
+encoder using a transform for transforming prediction residuals,
+wherein the encoder includes:
+an in-loop de-artifacting filter adapted to de-artifact the
+encoded picture data, wherein the de-artifacting filter
+transforms the encoded picture with a plurality of transforms,
+wherein the plurality of transforms are translations of the
+transform used for transforming the prediction residuals, and
+wherein the plurality of transforms are at least translated in x
+and y directions.
+
+2
+
+Our Decision refers to the Final Action mailed June 6, 2014 ("Final Act.");
+Appellants' Appeal Brief filed Nov. 4, 2014 ("App. Br."); the Examiner's
+Answer mailed Dec. 4, 2014 ("Ans."); and, the original Specification filed
+Dec. 3, 2009 ("Spec.").
+
+2
+
+Appeal2015-003920
+Application 12/451,856
+
+Rejections on Appeal
+Claims 1-3, 7-9, 13-15, 19-21, and 25-34 stand rejected under
+35 U.S.C. § 103(a) as being unpatentable over R. Samadani, A.
+Sundararajan, & A. Said, Deringing and Deblocking DCT Compression
+
+Artifacts with Efficient Shifted Transforms, Mar. 2004 Int'l Conf. on Image
+Processing (ICIP '04) 1799-1802 (Oct. 2004) ("Samadani"), A. Nosratinia,
+
+Enhancement of JPEG-compressed images by re-application ofJPEG,
+Journal of VLSI Signal Procesing Systems for Signal, Image, and Video
+Technology, vol. 27, pp. 69-79, February 2001 ("Nosratinia"), 3 and P. List,
+A. Joch, J. Lainema, G. Bjontegaard, & M. Karczewicz, Adaptive
+
+Deblocking Filter, 13 IEEE Trans. on Circuits & Sys. For Video Tech. 614-619 (July 2003) ("List"). Final Act. 4--11.
+Claims 4, 5, 10, 11, 16, 17, 22, and 23 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable Samadani, List, and Burazerovic et al. (\VO
+2004/066634 Al; published Aug. 5, 2004) ("Burazerovic"). Final Act. 1112.
+
+3
+
+As Appellants note (see App. Br. 9-10), the Examiner did not identify
+Nosratinia as a reference in the rejection, but the Examiner relied on
+Nosratinia in the rejection of these claims. See Final Act. 5---6. We note
+Samadani cites Nosratinia as a reference. See Samadani fn. 4. We find no
+error in the Examiner's failure to formally list Nosratinia in the rejection
+because Appellants were provided notice ofNosratinia in the Final Office
+Action and fully addressed Nosratinia in the Appeal Brief. See App. Br. 911, 15-17.
+3
+
+Appeal2015-003920
+Application 12/451,856
+
+ANALYSIS
+The dispositive issue raised by Appellants' arguments is whether
+Nosratinia teaches or suggests the limitation "the plurality of transforms are
+at least translated in x and y directions," as recited in claims 1, 7, 13, 19, and
+25. Appellants argue a direct implementation ofNosratinia teaches "64
+possible shifts including some shifts with a zero shift in the
+horizontal/vertical direction. Thus, the shifted transforms as taught by
+N osratinia are not at least translated in x and y directions as recited in [the]
+pending claims." App. Br. 15-16. Appellants also argue that, in
+Nosratinia' s modified implementation, "the remaining 32 shifts still include
+some shifts with a zero shift in the horizontal/vertical direction" and,
+therefore, Nosratinia fails to teach of suggest the disputed limitation. Id. at
+16-17.
+We are not persuaded by Appellants' arguments that the Examiner has
+erred. The Examiner finds, and we agree, the disputed limitation-the
+plurality of transforms are at least translated in x and y directions-means "a
+plurality of transforms, which as a whole includes a translation in the x
+direction and a translation in the y direction not required to be
+simultaneously." Ans. 11-12. In other words, as the Examiner explains, "a
+set of translations of {(1,0), (0, 1)} would satisfy the claimed condition, since
+the first translation is in the x direction and the second translation is in the y
+direction." Id. at 12. We also agree with the Examiner that the disputed
+limitation is broader than the embodiment described in the Specification in
+which "only those translations of a transform that are at least translated in
+
+both of the block axis [sic] are actually used," and that it would be improper
+
+4
+
+Appeal2015-003920
+Application 12/451,856
+
+to import limitations directed to this embodiment from the Specification into
+the claims. Id. at 12-13 (citing Spec. 32:29-30); see Phillips v. AWH Corp.,
+415 F.3d 1303, 1323 (Fed. Cir. 2005) (en bane).
+Considering the proper construction of the disputed limitation,
+Appellants' argument regarding Nosratinia is not commensurate with the
+scope of the limitation, and we agree with the Examiner's findings that the
+limitation is "obvious in view ofNostratina, directed to a plurality of
+transforms of the set translated from (-3,-3) to (4,4), as incorporated in the
+Samadini reference." Ans. 13. We further note that Appellants did not file a
+Reply Brief and have not presented persuasive evidence or reasoning to
+rebut the Examiner's findings. Accordingly, we do not find error in: (1) the
+Examiner's findings that Nosratinia teaches or suggests the disputed
+limitation, or (2) the Examiner's conclusion that claims 1, 7, 13, 19, and 25
+are obvious in view of the combination of Samadini, N osratinia, and List.
+For these reasons, we sustain the Examiner;s rejection of claims 1, 7,
+13, 19, and 25 for obviousness under 35 U.S.C. § 103(a). For the same
+reasons, we also sustain the Examiner's rejection of dependent claims 2, 3,
+8, 9, 14, 15, 20, 21, and 26-34, which are not argued separately. See App.
+Br. 12-19; see also 37 C.F.R. § 41.37(c)(l)(iv).
+Regarding claims 4, 5, 10, 11, 16, 17, 22, and 23, we agree with the
+Examiner that Appellants' general allegation that Burazerovic does do not
+cure the deficiency of the references is not sufficiently specific to constitute
+an argument for separate patentability of these claims. See Ans. 16; see also
+37 C.F.R. § 41.37(c)(l)(iv); In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir.
+2011) ("[T]he Board reasonably interpreted Rule 41.37 to require more
+substantive arguments in an appeal brief than a mere recitation of the claim
+5
+
+Appeal2015-003920
+Application 12/451,856
+elements and a naked assertion that the corresponding elements were not
+found in the prior art."). Thus, we also sustain the Examiner's rejection of
+these claims.
+
+DECISION
+We affirm the Examiner's rejection of claims 1-5, 7-11, 13-17, 1923, and 25-34 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

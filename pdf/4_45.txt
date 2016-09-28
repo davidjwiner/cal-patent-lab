@@ -1,0 +1,555 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/095,420
+
+04/27/2011
+
+Michael S. Bittar
+
+1391-623.29
+
+2568
+
+36177
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+KRUEGER !SELIN LLP
+P. 0. BOX 1906
+CYPRESS, TX 77410-1906
+
+SCHINDLER, DAVID M
+
+ART UNIT
+
+PAPER NUMBER
+
+2858
+
+MAILDATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MICHAEL S. BITTAR
+
+Appeal2015-003022
+Application 13/095,420
+Technology Center 2800
+
+Before GEORGE C. BEST, WESLEY B. DERRICK, and LILAN REN,
+Administrative Patent Judges.
+REN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellant 1 appeals under 35 U.S.C. § 134 from a Rejection2 of claims
+1-7 and 10-16. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm for reasons well-stated by the Examiner.
+
+1
+
+The real party in interest is identified as Halliburton Energy Services, Inc.
+(Appeal Brief, filed June 27, 2014 ("App. Br."), 3.)
+2
+Final Office Action mailed September 30, 2013 ("Final Rejection"; cited as
+"FR").
+
+Appeal2015-003022
+Application 13/095,420
+CLAIIvIED SUBJECT IvIA TTER
+
+The claims are directed to "method and apparatus for determining the
+horizontal and vertical resistivities and the relative dip angle of a borehole in
+an electrically anisotropic earth formation." (Spec. 2, 11. 3-5.) 3 "More
+specifically, this invention relates to an electromagnetic wave induction
+technique for measuring resistivity using a tool having an antenna that is
+disposed within a plane which is inclined with respect to a plane that is
+normal to the axis of the tool." (Id. at 2, 11. 5-8.) The '420 Specification
+provides that "[a]lthough this invention is primarily intended for MWD or
+L WD applications, the invention is also applicable to wireline and possibly
+other applications." (Id. at 7, 11. 12-14; Abstract.) 4
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+
+A logging while drilling tool, comprising:
+
+a tool body configured to couple into a drill string, the tool body
+having a longitudinal tool axis;
+
+a first transmitter antenna extending circumferentially in a first
+cutout around the tool body, the first transmitter antenna
+configured to transmit an electromagnetic wave into an earth
+formation surrounding a borehole when the tool is used in a
+logging while drilling operation;
+a first receiver antenna extending circumferentially in a second
+cutout around the tool body, the first receiver antenna configured
+to receive an electromagnetic signal from the formation that is a
+result of the electromagnetic wave from the transmitter antenna,
+3
+
+Application 13/095,420, Electromagnetic Wave Resistivity Tool Having A
+Tilted Antenna For Determining The Horizontal And Vertical Resistivities
+And Relative Dip Angle In Anisotropic Earth Formations, filed April 27,
+2011. We refer to the '"420 Specification," which we cite as "Spec."
+4
+"MWD" stands for "measuring while drilling" and "LWD" stands for
+"logging while drilling." (Spec. 5, 1. 3.)
+2
+
+Appeal2015-003022
+Application 13/095,420
+and wherein at least one of the first transmitter antenna and the
+first receiver antenna extends in a plane that is not orthogonal to
+said tool axis; and
+processing circuitry operably coupled to receive a first input
+signal resulting from receipt of said electromagnetic signal at the
+first receiver antenna, the processing circuitry configured to
+determine at least one formation property in response to said
+input signal.
+(Claim Appendix, App. Br. 23 (emphasis added).)
+REFERENCES
+The Examiner relies upon the following references in rejecting the
+claims on appeal:
+Bartel
+Sato
+
+us 5,278,507
+us 5,508,616
+
+Jan. 11, 1994
+Aug. 16, 1996
+
+REJECTIONS
+Claims 1-7 and 10-16 stand rejected under 35 U.S.C. §103(a) as
+being unpatentable over Bartel and Sato. (FR 14; see, e.g., Ans. 2-62.) 5
+OPINION
+Upon consideration of the evidence on this appeal record and each of
+Appellant's contentions, we find that the preponderance of evidence on this
+record supports the Examiner's conclusion that the claims are unpatentable
+over the applied prior art. We sustain the Examiner's section 103 rejections
+essentially for the reasons set out by the Examiner in the Answer.
+We add the following for emphasis.
+
+5
+
+Examiner's Answer filed October 28 2014 ("Ans.").
+3
+
+Appeal2015-003022
+Application 13/095,420
+F"'f-i
+
+•
+
+ctazm
+
+-.c:..
+
+1v
+
+The Examiner finds that Sato "relates to an apparatus for directional
+induction logging" which "when carried out as a resistivity sensor in the
+MWD" (i.e., the "'Measurement While Drilling' technique for making
+measurements during drilling a borehole"), the invention makes it "possible
+to drill a borehole without departing from a desired formation." (FR 14
+(citing Sato, 1:12-13); Sato, 1, 11. 25-33.) Sato discloses, among others:
+[A Jn arrangement comprising at least one transmitting coil 1
+and at least one receiving coil 2, which are disposed along the
+axis 18 of a borehole 7 such that these coil face each other in an
+inclined fashion relative to each other ... , thus permitting
+survey of electric characteristics of the formation in the specific
+direction and the circumferential direction in a range of several
+meters around the borehole.
+(Sato, 2, 11. 50-59.) Sato illustrates multiple embodiments of the disclosed
+arrangement one of which is "applied to a survey apparatus for drilling a
+horizontal borehole" including "one transmitting coil" and "one receiving
+coil" that are not orthogonal as well as a "transmitter" and a "phase sensitive
+detector." (FR 14 (citing Sato, FIG. 8); Sato, 8, 11. 39--41, 55-56.)
+The Examiner also finds that Bartel discloses certain configurations of
+how transmitters and receivers may be placed on "a well logging apparatus
+adapted to be suspended in a drill string." (FR 14-15 (citing various
+portions of Bartel including 6:58-63 & FIG. 2).)
+Based on the combined teachings of Sato and Bartel, the Examiner
+concludes that a skilled artisan would have found it obvious "to modify Sato
+to include [the recited configurations of] a first transmitter antenna ... , a
+first receiver antenna ... as taught by Bartel in order to secure the antennas
+6
+
+Claims 2-6 stand or fall with claim 1. (App. Br. 10.)
+4
+
+Appeal2015-003022
+Application 13/095,420
+to the tool [body] in a manner that protects the antenna from the borehole
+environment during drilling operations." (FR 15.)
+Appellant argues that Sato does not teach or suggest "a tool body
+configured to couple into a drill string" as recited in claim 1. Appellant
+presents a Declaration from the named inventor Mr. Michael S. Bittar and
+argues that the Declaration shows that Sato' s disclosure is limited to a
+wireline tool or an induction logging tool which is not "suitable for a drill
+string." (App. Br. 11.)
+Mr. Bittar7 acknowledges that Sato expressly discloses that Sato's
+"apparatus could be 'applied to a sensor for MWD. "' (Deel. ,-i 6; see Sato, 8,
+11. 11-15 ("when the apparatus is applied to a sensor for MWD [], it
+constitutes a navigation tool for drilling a borehole without getting out of the
+intended formation").) Mr. Bittar does not refute that Figures 7 and 8 of
+Sato show "a survey apparatus for drilling a horizontal bore hole." (See
+Sato, 7, 11. 35-36.) Mr. Bittar also does not refute Sato's disclosure that
+applying Sato's transmitters in the MWD context "makes it 'possible to drill
+a borehole without departing from a desired formation."' (See Sato, 1,
+11. 25-33.) Mr. Bittar, however, disagrees with Sato and considers Sato's
+express disclosure "unjustified and implausible." (Deel. ,-i 6.) Mr. Bittar
+reasons that because "non-trivial adaptations would have been necessary to
+derive 'a sensor for MWD' from Sato's wireline tool," the "average
+practitioner ... would have considered Sato's assertion implausible at the
+time." (Id.)
+
+7
+
+Mr. Bittar declares that an "attached curriculum vitae" provides his
+background and experience. (Deel. ,-i 1.) The record before us, however,
+does not appear to include a curriculum vitae.
+5
+
+Appeal2015-003022
+Application 13/095,420
+From the outset, we note that the sole claim limitation disputed on
+appeal is "a tool body configured to couple into a drill string." Claim 1 does
+not recite a "tool body" "suitable" for a drill string in an MWD context. The
+'420 Specification in fact provides that "[a]lthough this invention is
+primarily intended for MWD or L WD applications, this invention is also
+applicable to wireline and possibly other applications." (Spec. 7, 11. 12-14;
+Abstract.) Appellant's argument for whether Sato's express disclosure may
+be "applied to a sensor MWD" is not based on limitations appearing in the
+claim. See In re Self, 671F.2d1344, 1348 (CCPA 1982).
+We further note that Appellant also does not identify any
+Specification support for the proposition that claim 1 must be interpreted as
+requiring a particular function of the "tool body" other than being
+"configured to couple into a drill string." "'Functional' terminology may
+render a claim quite broad. By its own literal terms a claim employing such
+language covers any and all embodiments which perform the recited
+function." In re Swinehart, 439 F.2d 210, 213 (CCPA 1971).
+To the extent that Appellant and Mr. Bittar disagrees with Sato's
+express disclosure, prior art patents are presumed enabled and operative, and
+Appellant bears the burden to offer evidence to show sufficiently that Sato' s
+disclosure regarding application in the MWD context is not enabling. In re
+
+Sasse, 629 F.2d 675, 681 (CCPA 1980); In re Antor Media Corp., 689 F.3d
+1282, 1287-88 (Fed. Cir. 2012). "Opinion testimony rendered by experts
+must be given consideration, and while not controlling, generally is entitled
+to some weight." Ashland Oil, Inc. v. Delta Resins & Refractories, Inc., 77 6
+F.2d 281, 294 (Fed. Cir. 1985) (citations omitted). "Lack of factual support
+
+6
+
+Appeal2015-003022
+Application 13/095,420
+for expert opinion going to factual determinations, however, may render the
+testimony of little probative value in a validity determination." Id.
+In this case, Mr. Bittar does not provide factual evidence (e.g.,
+experiment data, research, literature, or other evidence related to Sato' s
+disclosure) to corroborate the opinion that Sato' s express disclosure is
+"unjustified and implausible." (Deel. ,-i 6.) The fact that Mr. Bittar
+recognizes the specific "adaptations ... necessary to derive 'a sensor for
+MWD' from Sato's wireline tool" shows that the disclosure is indeed
+enabling. (See id. ,-i 7.) To the extent that these adaptations may be "nontrivial" as Mr. Bittar sees it, the fact that Mr. Bittar is able to formulate these
+adaptations nonetheless contradicts the assertion that Sato' s express
+disclosure is "unjustified and implausible." (See id. ,-i 6.)
+"Obviousness is determined from the vantage point of a hypothetical
+person having ordinary skill in the art to which the patent pertains. . . . The
+legal construct also presumes that all prior art references are available to this
+hypothetical skilled artisan." In re Roujfet, 149 F.3d 1350, 1357 (Fed. Cir.
+1998). Although Sato's disclosure may not have been available to Mr.
+Bittar, Mr. Bittar has not proffered corroborating evidence to persuade us
+that Sato' s express disclosure is in fact wrong and not enabling. See In re
+Etter, 756 F.2d 852, 849-60 (Fed. Cir. 1985) (en bane) (opinion affidavit
+
+asserting the reference disclosed obsolete technology was correctly
+characterized by the board "as merely representing opinions unsupported by
+facts and thus entitled to little or no weight.").
+As the Declaration fails to point to any corroborating factual evidence
+suggesting that Sato' s express disclosure regarding the applicability to "a
+sensor for MWD" is not enabling, we agree with the Examiner's assessment
+
+7
+
+Appeal2015-003022
+Application 13/095,420
+that the Declaration does not provide sufficient factual evidence to rebut the
+presumption that Sato is enabled. After all, an "expert opinion is no better
+than the soundness of the reasons supporting it." Perreira v. Sec '.Y of the
+
+Dept. ofHHS, 33 F.3d 1375, 1377 (Fed. Cir. 1994).
+In other words, it is the Examiner's position that the Declaration has
+been considered with the understanding that it is Mr. Bittar's opinion set
+forth therein. The Examiner has provided extensive factual findings and
+detailed analyses to explain why the Declaration is not persuasive. (See FR
+7-14; Ans. 13-21.) Mr. Bittar does not address-much less identify
+reversible error in-many of the Examiner's findings on this issue. For
+example, Mr. Bittar does not respond to the Examiner's finding that multiple
+additional prior art references (e.g., U.S. Patent No. 4,940,943, etc.) 8 show
+that implementing certain components of a wireline tool (e.g., an antenna) in
+an MWD context and vice versa has been known in the prior art. (See Deel.
+
+,-i 6; see generally Deel. ,-i,-i 3-8; FR 8-9.) 9 Mr. Bittar does not respond to the
+Examiner's finding that any unpredictability in the prior art is not based on
+applying Sato's transmitters "to a sensor for MWD" (Sato, 8, 11. 12-13) but
+is instead caused by "an issue of spacing from one sensor to another" which
+
+8
+
+These additional references have not been applied to the obviousness
+rejection but are presented in response to the Declaration regarding whether
+Sato's disclosure is "unjustified and implausible." (FR 9; see Declaration
+,-i 6.)
+9
+Appellant argues that "Sato has deficiencies that are not cured by the
+addition" of these references. (App. Br. 15.) We note that Appellant
+appears to have conflated the issues of enablement and obviousness. The
+Examiner finds that Sato' s disclosure is enabling and presents these
+references in support of the enablement finding. (FR 8-9.)
+8
+
+Appeal2015-003022
+Application 13/095,420
+is unrelated to the IvIWD context. (See generally Deel. iii! 3-8; FR 7, 10-11;
+Ans. 18.)
+We further note that Appellant appears to have conflated the issue of
+whether Sato's disclosure is enabling and the issue of whether the combined
+teachings of Sato and Bartel would have rendered claim 1 obvious. For
+example, Appellant argues that Sato' s disclosure in the MWD context "was
+not known and was not obvious" which is said to be supported by the
+Declaration stating that "Sato's assertion is unjustified." (App. Br. 11.)
+Whether Sato's disclosure was obvious or known at the time of Sato's
+invention, of course, does not rebut presumption of enablement. As another
+example, Mr. Bittar states that "Sato' s assertion [is] implausible" because
+"[i]t was far from clear that tilting Bartel's coils would produce the effect
+sought by Sato." (Deel. ,-i 8.) As the Examiner points out, whether Bartel's
+coils may be tilted does not support Mr. Bittar's conclusion that "Sato's
+assertion [is] implausible." (See FR 13-14.)
+Appellant next argues that Sato cannot be combined with Bartel to
+teach or suggest "a tool configured to couple into a drill string" as recited in
+claim 1. Appellant argues that Bartel discloses an MWD tool and "[h]aving
+described only wireline tool embodiments" as illustrated in Figures 7 and 8
+of Sato, "Sato speculates as to the applicability of its logging techniques to
+MWD environments." (App. Br. 11-12.) Appellant also argues that "the
+induction logging technique of Sato" is unsuitable for MWD, and a skilled
+artisan "would not consider its teaching to have any relevance to MWD tool
+development." (Id. at 14.)
+As we found with regard to the Declaration, Appellant's assertion that
+Sato' s disclosure in the MWD context is "misguided" and "speculative"
+
+9
+
+Appeal2015-003022
+Application 13/095,420
+/~
+
+.,
+
+~Kep1y
+
+_.,,_ 1 (\ •
+
+L)rn
+
+,
+
+,
+
+., .,
+
+ro
+
+,
+
+.,
+
+•
+
+.,
+
+,
+
+., •
+
+, •
+
+r"I
+
+,
+
+-.
+
+1s not supponea Dy tactual ev10ence comramctmg :sato'S express
+
+disclosure that the transmitters may be "applied to a survey apparatus for
+drilling a horizontal bore hole." (See Sato, 7, 11. 35-36 (describing the
+embodiments in Figures 7 and 8).) Appellant does not explain why Sato's
+disclosures "must be interpreted in the context of FI Gs. 7 and 8" as being
+limited to a wireline tool while ignoring Sato's statement that these figures
+show "a survey apparatus for drilling a horizontal bore hole." (See Sato, 7,
+11. 35-36; see also App. Br. 11.)
+To the extent that "no drilling apparatus ... and no drilling is taking
+place" in Figures 7 and 8 of Sato and that Appellant believes "significant
+structural changes" are necessary to apply the specific embodiments in these
+figures in the MWD context (App. Br. 11-12), we note that "a patent need
+not enable information within the knowledge of an ordinarily skilled artisan.
+Thus, a patentee preferably omits from the disclosure any routine technology
+that is well known at the time of application." Chiron Corp. v. Genentech
+Inc., 363 F.3d 1247, 1254 (Fed. Cir. 2004) (citations omitted). As we found
+supra, Appellant does not refute the Examiner's finding that multiple
+
+additional prior art references support show that "it was known to construct
+wire line tools and MWD tools using the same geometrical guidelines with
+regard to the tool and cutout portions for the antennas" and that how to
+"implement the antennas" in both MWD and wireline tools" was known in
+the art. (Ans. 10-11; FR 8-9; see App. Br. 15.) Given Sato's express
+disclosure that when the transmitters are "carried out as a resistivity sensor
+in the MWD," Sato's invention makes it "possible to drill a borehole without
+departing from a desired formation" (Sato, 1, 11. 12-13, 11. 25-33), and that
+10
+
+Reply Brief filed December 29 2014 ("Reply").
+10
+
+Appeal2015-003022
+Application 13/095,420
+Appellant identifies no reversible error in the Examiner's fact findings and
+technical analyses, we are not persuaded that the Examiner's application of
+Sato to claim 1 is a "conjecture" as asserted by Appellant. (See Reply 2.)
+We are also not persuaded that there lacks a reasonable expectation of
+success or that the Examiner engaged in impermissible hindsight as these
+assertions are also based on the premise that a skilled artisan would not have
+found claim 1 obvious "due to Sato ... only speculatively suggesting a
+MWD application." (See App. Br. 15, 16.) As we found supra, Appellant
+has not rebutted the presumption that Sato' s express disclosure of
+application in the MWD context is enabling and Appellant's argument,
+based on the premise that "Sato' s discussion of MWD is speculative only"
+has not persuaded us of reversible error. (See App. Br. 15.)
+Even assuming Sato's disclosure has been shown to be non-enabling,
+"a non-enabling reference may qualify as prior art for the purpose of
+determining obviousness." See Symbol Techs., Inc. v. Opticon, Inc., 935
+F.2d 1569, 1578 (Fed. Cir. 1991). Furthermore, when a skilled artisan
+assesses Sato' s express disclosure with regard to applications in the MWD
+context, the artisan may use "logic, judgment, and common sense" without
+requiring "explication in any reference or expert opinion." Perfect Web
+
+Techs., Inc. v. InfoUSA, Inc., 587 F.3d 1324, 1329 (Fed. Cir. 2009).
+Here, the fact that Mr. Bittar understands the specific adaptations
+necessary to apply Sato' s disclosure to the MWD context (Deel. ,-i 7) shows
+that there is a reasonable expectation of success. Appellant does not respond
+to the Examiner's finding that Sato' s disclosure "teaches those in the art
+enough that they can make and use the invention without 'undue
+experimentation."' (Amgen, Inc. v. Hoechst Marion Roussel, Inc., 314 F.3d
+
+11
+
+Appeal2015-003022
+Application 13/095,420
+1313, 1334 (Fed. Cir. 2003); see Reply 1-2; Ans. 16-17.) No reversible
+error has therefore been identified in this aspect of the obviousness analysis.
+Appellant next argues that the Examiner erred because the "proposed
+modification to Sato involves more than merely adding Bartel's tool body or
+tool body cutouts to Sato." (App. Br. 17.) Appellant argues that the
+proposed modification would "chang[e] Sato's and/or Bartel's principles of
+operation" based on various bodily incorporations of references. (Id.) More
+specifically, Appellant argues that the proposed modification "is
+incompatible with Bartel's intended antenna orientation" which is
+orthogonal. (Id.) Appellant argues that the proposed modification would
+require multiple changes to Sato' s wireline logging tool including "changing
+Sato' s antenna rotation arrangement, changing Sato' s logger deployment
+scheme, changing Sato from an induction logging tool to an electromagnetic
+wave resistivity logging tool, and changing Sato's logger tool body" by
+using "different coil sizes" and other relevant parts. (Id. at 17-18.)
+"The test for obviousness is not whether the features of a secondary
+reference may be bodily incorporated into the structure of the primary
+reference .... Rather, the test is what the combined teachings of [those]
+references would have suggested to those of ordinary skill in the art." In re
+
+Keller, 642 F.2d 413, 425 (CCPA 1981). "The combination of familiar
+elements according to known methods is likely to be obvious when it does
+no more than yield predictable results." KSR Int'! Co. v. Teleflex Inc., 550
+U.S. 398, 416 (2007).
+In this case, Appellant has not identified any particular scientific or
+engineering principle that would be broken based on the combined
+teachings, nor has Appellant specified how the Examiner's proffered
+
+12
+
+Appeal2015-003022
+Application 13/095,420
+combination would contravene that principle. (See App. Br. 17-18.) As the
+Examiner finds, the changes that Appellant sees as necessary to Sato' s
+wireline tool (e.g., changing to an electromagnetic wave resistivity logging
+tool, App. Br. 18) are again based on the premise that Sato's express MWD
+disclosure is not enabling. (See FR 47-53.) Appellant's argument regarding
+the combined teachings of Sato and Bartel is essentially based on the
+assertion that Sato's tool cannot be applied in an MWD context which we
+have addressed supra. Additionally, Appellant has not identified that either
+Sato or Bartel acts to "criticize, discredit, or otherwise discourage" an
+apparatus having "a tool body configured to couple into a drill string" which
+is the disputed claim term. See In re Fulton, 391 F.3d 1195, 1201 (Fed. Cir.
+2004). No reversible error has been shown in this aspect of the obviousness
+analysis.
+Claims 7, 10, and 11-16
+Appellant argues that the rejection of claims 7, 10, and 11-16 is in
+error by repeating the assertion that the Examiner's interpretation regarding
+how Sato would be viewed" by a skilled artisan "at the time of the invention
+is unreasonable." (App. Br. 20.) Appellant repeats the assertion that there
+lacks "a reasonable expectation of success" when combining the references
+and that the proposed modification would require "substantial redesign and
+changes to Sato's logger tool body." (Id.)
+For the reasons provided with regard to the rejection of claim 1, we
+sustain the rejections of claims 7, 10, and 11-16.
+DECISION
+The Examiner's rejection of claims 1-7 and 10-16 is affirmed.
+13
+
+Appeal2015-003022
+Application 13/095,420
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a). See 37 C.F.R.
+§ l.136(a)(l )(iv).
+AFFIRMED
+
+14
+
+

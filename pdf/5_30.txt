@@ -1,0 +1,463 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+90/013,146
+
+02/05/2014
+
+RE41922
+
+429320US91RX
+
+1099
+
+20872
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+MORRISON & FOERSTER LLP
+425 MARKET STREET
+SAN FRANCISCO, CA 94105-2482
+
+CRAVER, CHARLES R
+
+ART UNIT
+
+PAPER NUMBER
+
+3992
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+Ex parte APPLE INC.
+Appellant
+____________
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+Technology Center 3900
+____________
+
+Before JOHN A. JEFFERY, MARC S. HOFF, and ERIC B. CHEN,
+Administrative Patent Judges.
+CHEN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+This is an appeal under 35 U.S.C. §§ 134(b) and 306 from the final
+rejection of reissue claims 29, 30, and 33–37. Claims 1–28 have been
+cancelled during a previous reissue proceeding. Claims 31 and 32 are not
+subject to reexamination. We have jurisdiction under §§ 134(b) and 306.
+An oral hearing was held on August 30, 2016. The record will
+include a written transcript of the oral hearing.
+We reverse and enter new grounds of rejection pursuant to our
+authority under 37 C.F.R. § 41.50(b).
+
+STATEMENT OF THE CASE
+Reexamination Proceedings
+A previous request for ex parte reexamination of U.S. Patent No.
+RE41,922 (the “’922 patent”) was filed on December 18, 2012, and assigned
+Reexamination Control No. 90/012,744. An Ex Parte Reexamination
+Certificate (10,034th) was issued on February 12, 2014, US RE41,922 C1, in
+which the patentability of claims 29 and 30 was confirmed, claim 33 was
+determined to be patentable, as amended, and new claims 36 and 37 were
+added.
+A subsequent request for ex parte reexamination of the ’922 patent
+was filed on February 5, 2014 and assigned Reexamination Control
+No. 90/013,146. The ’922 patent, entitled “Method and Apparatus for
+Providing Translucent Images on a Computer Display,” issued November 9,
+2010 to Michael L. Gough, Joseph J. MacDougald, Gina D. Venolia,
+Thomas S. Gilley, Greg M. Robbins, Daniel J. Hansen, Jr., and
+Abhay Oswal, based on Application No. 10/163,748, filed June 5, 2002.
+The ’922 patent is a continuation-in-part of Application No. 08/060,572,
+2
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+filed on May 10, 1993, now U.S. Patent No. 5,638,501, issued June 10,
+1997.
+The ’922 patent is said to be assigned to Apple Inc., the real party in
+interest. (App. Br. 2.)
+
+Related Litigation
+The ’922 patent has been asserted in In the Matter of Certain
+Electronic Digital Media Devices and Components Thereof, No. 337-TA796 (USITC Mar. 26, 2013). The ITC investigation has been completed.
+(App. Br. 3–4.)
+The ’922 patent has also been asserted in OpenTV, Inc. v. Apple Inc.,
+No. 12-cv-630 (N.D. Ca. April 9, 2014). The case has been dismissed. (Id.
+at 4.)
+
+The Claim
+Independent claim 29 is exemplary, with disputed limitations in
+italics:
+29. A method for displaying images on a display
+screen of an electronic device, comprising the steps of:
+displaying a base image on a display screen of the
+electronic device; and
+displaying a translucent image on said screen such that
+portions of said base image which are covered by said
+translucent image are at least partially visible through said
+translucent image, wherein said translucent image and said
+base image are selectably active to receive user input and the
+base image remains at least partially covered by said
+translucent image even when selected.
+
+3
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+The Rejections
+Claims 29, 33, 34, 36, and 37 stand rejected under 35 U.S.C. § 102(e)
+as anticipated by Frank (US 5,651,107; July 22, 1997).
+Claims 30 and 35 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Frank and Appellant’s admitted prior art.
+Appellant relied upon the following in rebuttal to the Examiner’s
+rejection:
+Declaration under 37 C.F.R. § 1.132 of Scott D. Klemmer, Ph.D.,
+dated Dec. 1, 2014.
+ANALYSIS
+§ 102 Rejection—Frank
+We are persuaded by Appellant’s arguments (App. Br. 19–25; see also
+Reply Br. 6–12) that Frank does not disclose, in a single embodiment, the
+limitations “wherein said translucent image and said base image are
+selectably active to receive user input” and “the base image remains at least
+partially covered by said translucent image even when selected.”
+The Examiner found that window 255 and window 260, as illustrated
+in Figure 8 of Frank, and window 255, having buttons 280–283, and
+window 260, having buttons 285–288, as illustrated in Figure 10 of Frank,
+collectively correspond to the limitations “wherein said translucent image
+and said base image are selectably active to receive user input” and “the base
+image remains at least partially covered by said translucent image even
+when selected.” (Final Act. 7–9; Ans. 5–7, 22–24.) We do not agree.
+
+4
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+Figure 8 of Frank, which illustrates display 250 having windows 255
+and 260 (col. 9, ll. 4–5), is reproduced below:
+
+Frank explains that “window 260 is rendered partially transparent, thereby
+allowing a user to view the entire clock face 275 displayed in window 255.”
+(Col. 9, ll. 36–38.) Frank provides an example in which a user shuts off an
+alarm associated with clock 275 (col. 9, ll. 44–45) such that “it is necessary
+for the user to render window 255 the top ‘active’ window” (col. 9, ll. 47–
+48) by placing cursor 265 within window 255 (col. 9, ll. 49–50) to shut off
+alarm box 277 (col. 9, ll. 56–58). Figure 9 of Frank illustrates that
+window 255 overlays window 260 as a “top” non-transparent window.
+(Col. 3, ll. 27–29.)
+
+5
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+Figure 10 of Frank, which illustrates display 250 with window 255
+having buttons 280–283, and window 260 having buttons 285–288 (col. 9,
+l. 63 to col. 10, l. 1), is reproduced below:
+
+Frank explains that:
+By placing cursor 265 over one of the buttons 280 to 283 in
+window 255, or one of buttons 285 to 288 for window 260, and
+momentarily depressing switch 34 on mouse 28 . . . either
+window 255 or window 260 may be selected without altering the
+relative position of the windows on the display 250
+(Col. 10, ll. 1–7.) Frank provides an example in which the user places
+cursor 265 over one of buttons 280–283 such that “[t]he selection of
+window 255 through the use of buttons 280 to 283 permits the user to access
+shut off alarm box 277 ‘through’ window 260.” (Col. 10, ll. 11–14.)
+Accordingly, because Figure 8 of Frank activates window 255 by
+placing cursor 265 within window 255 to bring window 255 to the “top” and
+Figure 10 of Frank activates window 255 through the use of buttons 280–
+
+6
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+283, such that window 255 can be accessed “through” window 260, Figure 8
+of Frank and Figure 10 of Frank constitute two separate embodiments.
+In an anticipation rejection, “it is not enough that the prior art
+reference . . . includes multiple, distinct teachings that [an ordinary] artisan
+might somehow combine to achieve the claimed invention.” Net MoneyIN,
+Inc. v. VeriSign, Inc., 545 F.3d 1359, 1371 (Fed. Cir. 2008). Rather, the
+reference must “clearly and unequivocally disclose the claimed [invention]
+or direct those skilled in the art to the [invention] without any need for
+picking, choosing, and combining various disclosures not directly related to
+each other by the teachings of the cited reference.” Id. (quoting In re Arkley,
+455 F.2d 586, 587 (CCPA 1972)). Thus, while “[s]uch picking and
+choosing may be entirely proper in the making of a 103, obviousness
+rejection . . . it has no place in the making of a 102, anticipation rejection.”
+Arkley, 455 F.2d at 587–88. The Examiner’s rejection of independent
+claim 29 under 35 U.S.C. § 102(e) is improper because it is based upon
+picking, choosing, and combining the two separate embodiments of
+Figures 8 and 10 of Frank.
+Accordingly, we are persuaded by Appellant’s argument that “[t]here
+is no single embodiment in Frank in which both translucent and base
+windows are ‘selectably active to receive user input’ and the base window
+‘remains at least partially covered by said translucent [window] even when
+selected’” because “[i]n the embodiment of FIGs. 8 and 9, the base window
+does not remain at least partially covered by the translucent window even
+when selected” and “[i]n the embodiment of FIG. 10, the translucent and
+
+7
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+base windows are always active.” (App. Br. 20 (emphases omitted); see also
+Reply Br. 6–12.)
+Accordingly, we do not sustain the rejection of independent claim 29
+under 35 U.S.C. § 102(e).
+Independent claim 33 recites limitations similar to those discussed
+with respect to independent claim 29. We do not sustain the rejection of
+claim 33, as well as dependent claims 34, 36, and 37, for the same reasons
+discussed with respect to claim 29.
+
+§ 103 Rejection—Frank and Appellant’s Admitted Prior Art
+Claims 30 and 35 depend from independent claims 29 and 33. We do
+not sustain the rejection of dependent claims 30 and 35 under 35 U.S.C.
+§ 103(a) because the Examiner has not provided any articulated reasoning
+with some rational underpinning as why one of ordinary skill in the art
+would have combined the Figure 8 embodiment of Frank with the Figure 10
+embodiment of Frank.
+
+Substantial New Question (SNQ) of Patentability
+We are unpersuaded by Appellant’s argument (App. Br. 10–14; see
+also Reply Br. 3–6) that a substantial new question of patentability has not
+been established because Frank was considered in a previous reexamination
+proceeding.
+The Examiner found that “during the prior reexamination Control No.
+90/012,744, the citations of the [references], i.e., Frank, Matsuo and Bartlett,
+were not specifically addressed on the record by the Examiner” (Final
+
+8
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+Act. 40) and “the SNQ in the instant reexamination (90/013,146) over Frank
+is proper because . . . Frank was not discussed during the previous
+reexamination as to the actual claim language and, therefore, it is new and
+non-cumulative to the record” (Ans. 21 (emphasis omitted)). We agree with
+the Examiner.
+Title 35 of the United States Code, Section 302, states that “[a]ny
+person at any time may file a request for reexamination by the Office of any
+claim of a patent on the basis of any prior art cited under the provisions of
+section 301.” The Director determines “whether a substantial new question
+of patentability affecting any claim of the patent concerned is raised by the
+request, with or without consideration of other patents or printed
+publications.” 35 U.S.C. § 303(a). “The existence of a substantial new
+question of patentability is not precluded by the fact that a patent or printed
+publication was previously cited by or to the Office or considered by the
+Office.” Id. “The ‘substantial new question of patentability’ requirement
+prevents potential harassment of patentees by ‘act[ing] to bar reconsideration
+of any argument already decided by the [PTO], whether during the original
+examination or an earlier reexamination.”’ In re Swanson, 540 F.3d 1368,
+1375 (Fed. Cir. 2008) (quoting from H.R. Rep. No. 96-1307(I)(1980)).
+The previous Order Granting Request for Ex Parte Reexamination
+(Application No. 90/012,744), mailed January 16, 2013, stated the
+following:
+Frank teaches that “several images appear transparently on top
+of one another. [This] permits underlying windows to display
+data visible to the user through windows which are overlaid
+above an underlying window.” Frank further teaches that
+“[a]lthough it is traditional to bring all active windows to the top
+9
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+in a window based system prior to operating upon them, utilizing
+the teachings of the present invention, it is not necessary.”
+Figure 10 of Frank further provides an example where the
+window (260 in Figure 8) “not having been rendered ‘active’ is
+transparent to the actions of the user, thereby permitting the user
+to operate on data disposed in an underlying window such as, for
+example, accessing the shut off alarm box 277.” Frank discloses
+receiving input into the lower window while it remains partially
+overlaid by a translucent window, as shown above in the context
+of Figures 8 and 10 of Frank.
+(Order Granting Request for Ex Parte Reexamination 11–12 (citations
+omitted)). Furthermore, the Non-Final Office Action in the previous ex
+parte reexamination, mailed April 29, 2013, states the following:
+The rejections in this Non Final Office action are confined to
+what has been deemed to be the best available art from the
+Request. However, prior to conclusion of this reexamination
+proceeding, claims must be patentable over all prior art cited in
+the order granting reexamination in order to be considered
+patentable or confirmed on the reexamination certificate. The
+references cited in the request but not utilized in the current
+office action appear to be largely cumulative to the teachings in
+the reference applied below [Oullette].
+(Non-Final Act. 5 (emphasis added).)
+The previous Order Granting Request for Ex Parte Reexamination,
+merely provides a summary of Frank without any substantive analysis of
+how the elements of Frank correspond to the limitations of independent
+claims 29 and 33. Similarly, the Non-Final Office Action in the previous ex
+parte reexamination proceeding only states that Frank “appear[s] to be
+largely cumulative to the teachings [of Oullette]” without any substantive
+analysis of Frank and how the elements of Frank corresponds to the
+limitations of independent claims 29 and 33. Accordingly, because the
+
+10
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+prosecution history merely summarized Frank, and stated that Frank
+“appear[s] to be largely cumulative to the teachings [of Oullette],” rather
+than presenting any substantive arguments with analysis of how the elements
+of Frank correspond to the limitations of independent claims 29 and 33,
+Frank is a new, non-cumulative technological teaching that was not
+previously considered.
+Appellant argues that “Frank’s teaching that ‘an alarm clock window
+can be made active’ (depicted in Frank’s FIG. 8 and discussed in column 9,
+lines 48–58) corresponds to a base image that is ‘selectably active to receive
+user input’” which “is the exact same disclosure that the Second Request
+relied upon to argue that a second reexamination should be granted” and
+accordingly, “Frank does not present a substantial new question of
+patentability—the teachings of Frank were fully considered in the first
+reexamination.” (App. Br. 12 (emphasis omitted); see also Reply Br. 4–5.)
+Similarly, Appellant argues that “[t]he Examiner in the first reexamination
+made it very clear that the claims would have to be patentable over Frank,
+Matsuo, and Bartlett in order to be confirmed as patentable” and “[t]he
+record shows that the Examiner considered Frank, Matsuo, and Bartlett and
+confirmed the patentability of the claims.” (App. Br. 13.) However,
+Appellant’s arguments do not specifically address the Examiner’s position
+that in the previous reexamination, no arguments with respect to the
+patentability were made by the Office with respect to Frank.
+Thus, a substantial new question of patentability has been established
+because Frank was not considered in a previous reexamination proceeding.
+
+11
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+NEW GROUND OF REJECTION UNDER 37 C.F.R. § 41.50(b)
+We enter the following new ground of rejection:
+Claims 29 and 33 are rejected under 35 U.S.C. § 102(e) as anticipated
+by Frank.
+Figure 10 of Frank illustrates display 250 including window 255 as a
+word processing document (see col. 9, ll. 13–15) and window 260 as
+clock 275 (see col. 9, ll. 42–43; see also col. 10, ll. 7–11). Frank explains
+that “[t]he selection of window 255 through the use of buttons 280 to 283
+permits the user to access shut off alarm box 277 ‘through’ window 260”
+while “the window 260 [containing word processing documents] not having
+been rendered ‘active’ is transparent to the actions of the user, thereby
+permitting the user to operate on data disposed in an underlying window
+such as, for example, accessing the shut off alarm box 277.” (Col. 10,
+ll. 11–18.) In other words, while buttons 280 to 283 for window 255 or
+buttons 285 to 288 for window 260 may be considered as always “active,”
+the underlying application programs for window 260 (i.e., word processing)
+and window 255 (i.e., clock with alarm ) are either “active” or “inactive.”
+Thus, because window 260 (i.e., word processing), excluding buttons
+285 to 288, and window 255 (i.e., clock with alarm), excluding buttons 280
+to 283, are either “active” or “inactive,” Frank discloses the limitation
+“wherein said translucent image and said base image are selectably active to
+receive user input” (emphasis added). Likewise, because Frank explains that
+window 255 (i.e., clock with alarm) can be accessed “through” window 260
+(i.e., word processing documents), Frank discloses the limitation “the base
+
+12
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+image remains at least partially covered by said translucent image even
+when selected.”
+Pursuant to our authority under 37 C.F.R. § 41.50(b), we reject
+independent claims 29 and 33 as anticipated by Frank under 35 U.S.C.
+§ 102(e).
+Because the Patent Trial and Appeal Board is a review body, rather
+than a place of initial examination, we have not reviewed dependent
+claims 30 and 34–37 to the extent necessary to determine whether Frank,
+alone or in combination with other references renders any of these claims
+unpatentable. We leave it to the Examiner to determine the appropriateness
+of any further rejections of dependent claims 30 and 34–37 under 35 U.S.C.
+§ 102(e) or 35 U.S.C. § 103(a).
+This Decision contains a new ground of rejection pursuant to
+37 C.F.R. § 41.50(b).
+37 C.F.R. § 41.50(b) provides that a “new ground of rejection
+pursuant to this paragraph shall not be considered final for judicial review.”
+37 C.F.R. § 41.50(b) also provides that Appellant, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new ground of rejection to
+avoid termination of proceedings (37 C.F.R. § 1.197 (b)) as to the rejected
+claims:
+(1) Reopen prosecution. Submit an appropriate
+amendment of the claims so rejected or new evidence relating
+to the claims so rejected, or both, and have the matter
+reconsidered by the examiner, in which event the prosecution
+will be remanded to the examiner. . . .
+
+13
+
+Appeal 2016-005175
+Reexamination Control 90/013,146
+Patent RE41,922 E
+(2) Request rehearing. Request that the proceeding be
+reheard under § 41.52 by the Board upon the same Record. . . .
+DECISION
+The Examiner’s decision rejecting claims 29, 30, and 33–37 is
+reversed.
+A new ground of rejection has been entered under 37 C.F.R.
+§ 41.50(b) for claims 29 and 33, rejected under 35 U.S.C. § 102(e) as
+anticipated by Frank.
+
+REVERSED
+37 C.F.R. § 41.50(b)
+PATENT OWNER:
+Morrison & Foerster LLP
+425 Market Street
+San Francisco, CA 94105-2482
+THIRD PARTY REQUESTER:
+Oblon, Spivak, McClelland, Maier & Neustadt, LLP
+1940 Duke Street
+Alexandria, VA 22314
+
+14
+
+

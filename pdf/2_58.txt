@@ -1,0 +1,344 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/117, 166
+
+05/27/2011
+
+Igor Tsypkaykin
+
+1033275-000880
+
+7019
+
+117185
+
+7590
+
+09/22/2016
+
+ALSTOM TECHNOLOGY, LTD,
+Studio Torta
+C/O Buchanan Ingersoll & Rooney PC
+1737 King Street, Suite 500
+Alexandria, VA 22314
+
+EXAMINER
+HANN,JAYB
+
+ART UNIT
+
+PAPER NUMBER
+
+2123
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ADIPDOC 1@BIPC.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte IGOR T. TSYPKAYKIN and ANDRE M. SAXER
+
+Appeal2015-006898
+Application 13/117,166
+Technology Center 2100
+
+Before ERIC B. CHEN, JEREMY J. CURCURI, and
+GREGG I. ANDERSON, Administrative Patent Judges.
+ANDERSON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1, 3, and 5. 1 Claims 2 and 4 were cancelled previously.
+We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+In this Opinion, we refer to the Appeal Brief ("App. Br.," filed February 2,
+2015), the Reply Brief ("Reply Br.," filed July 15, 2015), the Final Office
+Action ("Final Act.," mailed May 29, 2014), and the Examiner's Answer
+("Ans.," mailed May 15, 2015), and the original Specification ("Spec.," filed
+May 27, 2011).
+
+Appeal2015-006898
+Application 13/117,166
+STATEMENT OF THE CASE
+
+A. The Invention
+Appellants' invention relates gas turbine blades and the surrounding
+shroud. Spec. ,-i 2. Specifically, Appellants disclose a method for producing
+a turbine blade that optimizes the contact surfaces between the interlocking
+surfaces of the abutting shroud segments of adjacent blades of a rotor blade
+row. Id. at ,-i 7. The narrowly delimited contact surfaces with high pressure
+stresses can be reliably avoided without forfeiting the necessary sealing
+tightness between the adjacent shroud segments. Id.
+More specifically, the invention takes into account deformation of the
+blade attached to the shroud resulting from operation induced loads,
+including pressure variations between shroud segments. Spec. ,-i 15. The
+loads of interlocking adjacent shroud surfaces in an unloaded state does not
+take deformation into account. Id. Design of the blades according to the
+invention maintains contact over a large area between the adjacent
+interlocked shroud segments in the loaded state. Id.
+Independent claim 1, reproduced below, is illustrative:
+1.
+A method for optimizing the contact surfaces of abutting
+shroud segments of adjacent blades of a rotor blade row of a gas
+turbine, the method comprising the steps of:
+a) providing a 3-D model of an individual blade, the
+individual blade including a shroud segment delimited in a
+circumferential direction by contact surfaces including an
+interlocking surface and wedge surfaces disposed on each side
+of the interlocking surface, the interlocking surface and wedge
+surfaces being arranged in a zig-zag manner;
+b) calculating a geometry of the individual blade based
+on the 3-D model using a computer, the calculating including
+consideration of centrifugal forces, temperature stresses,
+2
+
+Appeal2015-006898
+Application 13/117,166
+pressure loads experienced in a loaded state of the blade during
+operation, material used for the blade, blade wall thicknesses,
+blade length, blade shape and operating location of the
+individual blade in combination with adjacent blades;
+c) optimizing the contact surfaces within the 3-D model,
+including the interlocking surface and wedge surfaces, of the
+abutting shroud segments of adjacent blades in the
+loaded state of the blade such that the optimized adjacent
+respective interlocking surfaces and wedge surfaces are
+substantially parallel and so as to avoid an increase in
+contact pressure between the respective contact surfaces as a
+result of ensuing operating temperature of the blades;
+d) determining a geometry of the interlocking surfaces
+and of the wedge surfaces in an unloaded state corresponding to
+the optimized contact surfaces in the loaded state of the blade
+within the 3-D model; and
+e) producing a blade for a rotor blade row of a gas
+turbine according to the determined geometry.
+
+B. The Rejections
+Claims 1, 3, and 5 are rejected under 35 U.S.C. 103(a) as being
+unpatentable over Boegli et al (US 2007/0231143 A 1, published Oct. 4,
+2007); Durcan (US Patent 6,223,524, issued May 1, 2001); and Paquet et al
+(US 2005/0079058 Al, published Apr. 14, 2005). Final Act. 4-17.
+C. Issue
+
+Only those arguments actually made by Appellants in the Briefs have
+been considered in this Decision. Arguments that Appellants did not make
+in the Briefs are waived. See 37 C.F.R. § 41.37(c)(l)(iv)(2012).
+Appellants' arguments present the following issue:
+Has the Examiner erred by finding that the combination of Boegli,
+Durcan, and Paquet teaches or reasonably suggests "optimizing the contact
+3
+
+Appeal2015-006898
+Application 13/117,166
+surfaces within the 3-D model ... of the abutting shroud segments of
+adjacent blades in the loaded state of the blade such that the optimized
+adjacent respective interlocking surfaces and wedge surfaces are
+substantially parallel," as recited in claim 1 under 35 U.S.C. § 103? App.
+Br. 6-11.
+ANALYSIS
+Independent claim 1, reproduced above, is a method claim including
+steps a, b, c, d, and e. Appellants contest only step c of claim 1. App. Br. 611, see also Reply Br. 2 ("The arguments in Appellants' Appeal Brief
+
+regarding the contacts surfaces are primarily directed to pointing out that the
+Boegli publication relates to an optimization of the relation of the contact
+surfaces to other contact surfaces and not to optimization of the contact
+surfaces themselves.").
+A. Overview ofPrior Art
+The Examiner finds Boegli teaches adjusting the gaps, i.e., "contact
+surfaces," between adjacent shroud segments of blades in a turbomachine.
+Final Act. 4 (citing Boegli ii 3). The Examiner also cites to Boegli's
+teaching that the gaps are reduced during operation. Id. (citing Boegli ii 11 ).
+The Examiner quotes from Boegli that "the shroud elements of the blades
+are thus adjacent to one another and thus form a shroud which is closed on
+the circumference" (Boegli ii 3) and thus "delimited in a circumferential
+direction," as recited in claim 1. Id.
+The Examiner cites to Durcan which, in the context of turbine blades,
+teaches:
+[U]sually the blade geometry and disk geometry are complex
+with non-uniform stress and temperature distributions. A Finite
+Element Model (FEM) and Finite Element Analysis (PEA) are
+often used to determine the blade and disk stress distributions,
+4
+
+Appeal2015-006898
+Application 13/117,166
+temperature distributions, and blade tip radial deflection at
+various operating conditions.
+Final Act. 4-5 (quoting Durcan 6:54-60). The Examiner asserts that "[a]
+Finite Element Model of a blade is a 3D model." Id. at 5. Appellants do not
+contest this finding by the Examiner.
+Paquet is concerned with "determining a desired shroud design for a
+given turbine blade design." Paquet ,-i 10. Paquet's Figures 2 and 3 show
+contact faces of a turbine blade shroud arranged in a zigzag pattern. Id. ,-i 21,
+Figs. 2, 3. The Examiner relies on the preceding disclosures of Paquet to
+show "the interlocking surface and wedge surfaces being arranged in a
+zigzag manner," as recited in claim 1.
+B. Optimizing the Contact Surfaces
+
+As set forth above, the issue here is the "optimizing the contact
+surfaces" limitation, step c of claim 1. Boegli teaches "[aJn inclination
+angle of 0° means that the platform2 section which is arranged at an
+
+inclination angle abuts against the platform section of the adjacent blade
+without any step being formed." Boegli ,-i 24 (emphasis added). The
+Examiner relies on this disclosure in Boegli to contend "[t]he inclination
+angle and the platform sections are interlocking surfaces because they abut."
+Final Act. 7.
+Boegli further describes an additional inclination angle a "chosen
+such that an effective additional inclination angle a-eff of more than 0° is
+produced during operation of the blade." Boegli ,-i 59, lines 5-9 (emphasis
+added). The Examiner contends that "during operation" is in the loaded
+2
+
+Boegli describes the shroud elements as "platforms." See Boegli ,-i 3 ("The
+shroud elements are generally in the form of platforms and extend
+essentially at right angles to the blade longitudinal direction.")
+5
+
+Appeal2015-006898
+Application 13/117,166
+state. Final Act. 7. The Examiner cites to the Durcan disclosure of the 3D
+model. Id.
+Step c further recites "and so as to avoid an increase in contact
+pressure between the respective contact surfaces as a result of ensuing
+operating temperature of the blades." Boegli teaches that "the shrouds,
+particularly for turbine stages, are often additionally subject to very high
+temperature from the main flow." Boegli ii 7, lines 1-3. The Examiner
+finds that temperature during operation is expressly considered. Final Act.
+8. The Examiner notes that Boegli "does not explicitly disclose optimizing
+or adapting to avoid contact pressure as a result of operating temperature"
+but relies on the following disclosure from Durcan:
+Preferably, the ring 30 is sized so that the amount of interfering
+contact between the ring 30 and the blade tip 25 is at a
+maximum at assembly and near an acceptable minimum during
+operation. A ring 30 having minimum interfering contact
+during operation will also have a total stress which is at a
+mimmum, thereby providing a ring 30 which max1m1zes its low
+cycle fatigue life.
+Final Act. 8 (quoting Durcan, 6: 12-32).
+The Examiner finds Boegli considers that temperature during
+operation is expressly considered, i.e., "the shrouds ... are often additionally
+subject to very high temperatures." Final Act. 8 (citing Boegli ii 7). The
+Examiner finds the person of ordinary skill in the art would have been
+motivate to "minimiz[ e] interfering contact and total stress during operation
+into the system of designing a turbine blade with a shroud for the purpose of
+maximizing low cycle fatigue life." Id. (citing Durcan, 6: 12-32).
+
+6
+
+Appeal2015-006898
+Application 13/117,166
+Appellants acknowledge Boegli's additional inclination angle, a,
+"relates to an optimization of the relation of shroud elements to other shroud
+elements." App. Br. 6-8. However, Appellants contend "[t]he Boegli
+publication does not specifically disclose contact surfaces." Id.; see also
+Reply Br. 2 (Boegli "is not concerned with the optimization of the contact
+surfaces themselves."). Optimization of the inclination angle is not
+optimizing the surface geometry, as per claim 1. Reply Br. 3. The gap
+between shrouds, according to Appellants, is not completely closed in
+Boegli. App. Br. 7-8 (citing Boegli ii 59, Fig. 3b).
+Appellants argue Durcan discloses a "continuous shroud ring and not
+a segmented shroud ring." App. Br. 9-10 (citing Durcan, Fig. 3). As a
+result, Durcan' s ring is "self-supporting and is not arranged on the blade
+tips." Id. at 9 (citing Durcan 5:40 et seq.); Reply Br. 3. Further, Appellants
+argue, Durcan' s Finite Element analysis "determine[ s] the blade and disk
+stress distributions, temperature distributions, and blade tip radial deflection
+at various operating conditions" and not "to optimize contact surfaces of
+abutting shroud segments." App. Br. 10; Reply Br. 4.
+Appellants acknowledge Paquet' s shroud is designed with a constant
+thickness "[t]o achieve a desired level of contact stress." App. Br. 10-11.
+Appellants also note "the thickness of one or both contact faces '40'
+increases to increase the contact area and reduce the contact stress
+accordingly." Id. (citing Paquet, Fig. 4).
+We agree with the Examiner that abutting adjacent shrouds results in a
+contact surface. See Ans. 2. The Examiner relies on that portion of Boegli
+which discloses that platform sections abut each other. Id. (citing Boegli
+
+ii 24). The fact that Boegli's Figure 3b shows there is a gap between shrouds
+is of no avail to Appellants. Boegli's Figures 3a and 3b illustrate how a ("a"
+7
+
+Appeal2015-006898
+Application 13/117,166
+in Fig. 3a) is designed so that during operation it is reduced to a-eff ("a-eff'
+in Fig. 3b). The written description in paragraph 59 of Boegli, which is
+relied on by the Examiner, states that during operation the "effective
+inclination angle a-eff' is 0°. Boegli ii 59; see also Boegli ii 60 ("The
+centrifugal force bending which acts on the pressure-side platform section
+admittedly reduces the offset a to an effective offset a-eff, although it does
+
+not initially return to zero." (emphasis added)).
+The Examiner concludes a person having ordinary skill in the art at
+the time of the invention would have been motivated to combine Durcan and
+Boegli. The finite element modeling taught by Durcan would have been
+used in the "designing a turbine blade with a shroud for the purpose of
+'determin[ing] the blade and disk stress distributions, temperature
+distributions, and blade tip radial deflection at various operating
+conditions."' Ans. 5 (citing Durcan 6:58-60). The motive for the
+combination is rationally based and is not specifically contested by
+Appellants. Accordingly, Appellants' argument that Durcan does not
+specifically relate to designing contact surfaces is not persuasive.
+Appellants' arguments relating to Paquet are not relevant to the
+finding of the Examiner regarding "optimizing the contact surfaces." Paquet
+shows, and Appellants do not dispute, "the interlocking surface and wedge
+surfaces being arranged in a zig-zag manner" of claim 1. See Final Act. 5
+(citing Paquet, Figs. 2, 3).
+We sustain the Examiner's rejection of claim 1.
+C. Claims 3 and 5
+
+Appellants make no additional arguments relating to claims 3 and 5,
+contending they are patentable for reasons similar to those discussed in
+connection with claim 1. App. Br. 11; Reply Br. 4-5.
+8
+
+Appeal2015-006898
+Application 13/117,166
+We therefore sustain the Examiner's rejection of claims 3 and 5.
+CONCLUSION
+The Examiner did not err in rejecting claims 1, 3, and 5 under§ 103.
+DECISION
+The Examiner's decision rejecting claims 1, 3, and 5 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal maybe extended under 37 C.F.R. § l.136(a)(l)(iv).
+AFFIRMED
+
+9
+
+

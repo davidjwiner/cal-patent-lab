@@ -1,0 +1,337 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111762,759
+
+06/13/2007
+
+Thomas Froment
+
+29250P-000004/US
+
+2366
+
+30594
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+HARNESS, DICKEY & PIERCE, PLC
+P.O. BOX 8910
+RESTON, VA 20195
+
+KASSIM, KHALED M
+
+ART UNIT
+
+PAPER NUMBER
+
+2468
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+dcmailroom@hdp.com
+pshaddin@hdp.com
+ipsnarocp@nokia.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte THOMAS FROMENT and CHRISTOPHE LEBEL
+
+Appeal2015-005331
+Application 11/762,759
+Technology Center 2400
+
+Before KRISTEN L. DROESCH, CATHERINE SHIANG, and
+JAMES W. DEJMEK, Administrative Patent Judges.
+SHIANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-27, which are all the claims pending and rejected in the
+application. We have jurisdiction under 35 U.S.C. § 6(b). We affirm.
+
+Appeal2015-005331
+Application 11/762,759
+
+STATEMENT OF THE CASE
+Introduction
+The present invention relates to communication systems. See, e.g.,
+Spec. 1-7, 15, claim 1 (discussing communication networks). Claim 1 is
+exemplary:
+1. A session initiation protocol (SIP) Proxy comprising:
+reception means for incoming signaling messages
+conforming with the SIP protocol originating from a
+communication network;
+processing means to provide outgoing signaling
+messages from said incoming signaling messages possibly
+modifying some parameters of said incoming signaling
+messages; and
+sending means to send said outgoing signaling messages
+onto said communication network;
+said reception means comprising a loop detection
+mechanism comprising calculating a signature for an incoming
+signaling message from a set of parameters of said incoming
+signaling message, storing said calculated signature into a
+memory, and detecting a loop by comparing said calculated
+signature with values inserted in a particular parameter of said
+incoming signaling message,
+said sending means inserting said calculated signature in
+said particular parameter of the outgoing signaling message
+when said incoming signaling message is first received,
+wherein the outgoing signaling message corresponds to said
+incoming signaling message.
+
+References and Rejections
+Claims 1---6 and 11-16 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Van Bemmel (US 2007 /0268904 Al, published Nov. 22,
+
+2
+
+Appeal2015-005331
+Application 11/762,759
+2007), Leichsenring (US 2009/0222674 Al, published Sept. 3, 2009), and
+Filsfils (US 2006/0193248 Al, published Aug. 31, 2006).
+Claims 7-9 and 17-27 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Van Bemmel, Leichsenring, Filsfils, and Eydelman (EP
+1599015 Al, published Nov. 23, 2005).
+Claim 10 is rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Van Bemmel, Leichsenring, Filsfils, and Mayer (US 2005/0213580 Al,
+published Sept. 29, 2005).
+
+ANALYSIS
+On this record, we find the Examiner did not err in rejecting claim 1.
+We disagree with Appellants' arguments, and agree with and adopt
+the Examiner's findings and conclusions in (i) the action from which this
+appeal is taken and (ii) the Answer to the extent they are consistent with our
+analysis below. 1
+Appellants contend Van Bemmel and Filsfils do not collectively teach
+"reception means for incoming signaling messages conforming with the SIP
+
+protocol originating from a communication network," "said reception means
+comprising a loop detection mechanism comprising calculating a signature
+for an incoming signaling message from a set of parameters of said
+incoming signaling message," and "said sending means inserting said
+calculated signature in said particular parameter of the outgoing signaling
+message when said incoming signaling message is first received, wherein the
+
+1
+
+To the extent Appellants advance new arguments in the Reply Brief
+without showing good cause, Appellants have waived such arguments. See
+37 C.F.R. § 41.4l(b)(2).
+3
+
+Appeal2015-005331
+Application 11/762,759
+outgoing signaling message corresponds to said incoming signaling
+message," as recited in claim 1 (emphases added). See App. Br. 8-14; Reply
+Br. 2-5. In particular, Appellants assert Van Bemmel does not teach "when
+said incoming signaling message is first received." See App. Br. 9-10;
+Reply Br. 2. Appellants argue "Filsfils does not teach or suggest a method
+involving session initiation protocol (SIP)" and therefore, not relevant to
+claim 1. App. Br. 11. Appellants contend:
+[A] person of ordinary skill in the art would not be motivated to
+combine Filsfils with Van Bemmel due to the differences in these
+methods, nor has the Examiner provided any reasoning or
+statement that would otherwise cause a person of ordinary skill to
+combine these references[.]
+[E]ven assuming that Filsfils can be combined with Van
+Bemmel ... Filsfils would modify the SIP messaging method of Van
+Bemmel by rerouting messages to avoid a link failure, though the
+disclosure of Filsfils has no bearing on modifying the criteria for when
+Van Bemmel inserts a current routing digest into a SIP message.
+1A..pp.
+
+Br 12-13; see also Reply Br. 2, 4--5.
+Appellants have not persuaded us of error.
+
+First, because the Examiner relies on the combination of Van Bemmel
+and Filsfils to teach the disputed claim limitations, Appellants cannot
+establish nonobviousness by attacking the references individually. See In re
+
+Merck & Co., 800 F.2d 1091, 1097 (Fed. Cir. 1986). The Examiner findsand Appellants do not dispute-Van Bemmel teaches the claimed
+"conforming with the SIP protocol." See Final Act. 3. Therefore, Filsfils
+does not need to separately teach that claim element.
+
+Second, Appellants conclusively assert the cited references do not
+teach "said reception means comprising a loop detection mechanism
+comprising calculating a signature for an incoming signaling message from a
+4
+
+Appeal2015-005331
+Application 11/762,759
+set of parameters of said incoming signaling message" (App. Br. 9), but do
+not offer any substantive argument to persuade us of error. See 37 C.F.R.
+§ 41.37(c)(l)(iv) ("A statement which merely points out what a claim recites
+will not be considered an argument for separate patentability of the claim");
+see also In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011) (holding that "the
+
+Board reasonably interpreted Rule 41.37 to require more substantive
+arguments in an appeal brief than a mere recitation of the claim elements and
+a naked assertion that the corresponding elements were not found in the
+prior art").
+Third, the Examiner finds-and Appellants do not dispute-Van
+
+Bemmel teaches the claimed "incoming signaling message." See Final
+Act. 4. The Examiner finds-and Appellants do not offer any substantive
+argument to dispute-Filsfils teaches "when [a packet] is first received."
+See Final Act. 6; Ans. 4. In particular, Appellants do not dispute the
+
+Examiner's finding that because Filsfils teaches a packet was not previously
+protected, it teaches "when [a packet] is first received." See Final Act. 6;
+Ans. 4; Filsfils i-f 67; see also In re Baxter Travenol Labs., 952 F.2d 388, 391
+(Fed. Cir. 1991) ("It is not the function of this court [or this Board] to
+examine the claims in greater detail than argued by an appellant, looking for
+[patentable] distinctions over the prior art."). Therefore, the Examiner finds
+Van Bemmel and Filsfils collectively teach "when said incoming signaling
+message is first received," as recited in claim 1.
+Fourth, contrary to Appellants' assertion, the Examiner has provided
+
+an articulated reasoning with some rational underpinning to support the legal
+conclusion of obviousness. See Final Act. 6; Ans. 4---6, 8; KSR Int 'l Co. v.
+Teleflex, Inc., 550 U.S. 398, 418 (2007). In fact, the Examiner has provided
+
+5
+
+Appeal2015-005331
+Application 11/762,759
+detailed explanations as to why one skilled in the art would have modified
+Van Bemmel' s system to incorporate Filsfils' technique, and concludes that
+the combination would have predictably used prior art elements according to
+their established functions-an obvious improvement. See Final Act. 6;
+Ans. 4---6, 8; KSR, 550 U.S. at 417. Appellants do not critique the
+Examiner's specific reasoning for the proposed combination, and fail to
+persuasively show the Examiner's reasoning is incorrect.
+Further, the Examiner's findings are reasonable because the skilled
+artisan would "be able to fit the teachings of multiple patents together like
+pieces of a puzzle" since the skilled artisan is "a person of ordinary
+creativity, not an automaton." KSR, 550 U.S. at 420-21. Appellants do not
+present adequate evidence that the resulting arrangements were "uniquely
+challenging or difficult for one of ordinary skill in the art" or "represented an
+unobvious step over the prior art." See Leapfrog Enters., Inc. v. Fisher-
+
+Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007) (citing KSR, 550 U.S. at
+418-19).
+
+Finally, "[a] reference qualifies as prior art for an obviousness
+determination under § 103 only when it is analogous to the claimed
+invention." In re Klein, 647 F.3d 1343, 1348 (Fed. Cir. 2011)) (citations
+omitted). "Two separate tests define the scope of analogous prior art: (1)
+whether the art is from the same field of endeavor, regardless of the problem
+addressed and, (2) if the reference is not within the field of the inventor's
+endeavor, whether the reference still is reasonably pertinent to the particular
+problem with which the inventor is involved." Klein, 647 F.3d at 1348
+(Fed. Cir. 2011) (citations omitted).
+
+6
+
+Appeal2015-005331
+Application 11/762,759
+The Examiner finds-and Appellants do not offer any substantive
+arguments to dispute-Van Bemmel and Filsfils are analogous art, because
+the references and this invention are all in the same field of communication
+systems. See Final Act. 3, 6; Ans. 5---6; see, e.g., Van Bemmel i-f 2
+(discussing communication networks or systems); Filsfils, Abstract
+(discussing a communication network or system); Spec. 1-7, 15 (discussing
+communication systems). Therefore, the Examiner properly cites Van
+Bemmel and Filsfils for rejecting the claim.
+Appellants' assertion that "Filsfils does not teach or suggest a method
+involving session initiation protocol (SIP) and therefore, not relevant to
+claim 1" (App. Br. 11) is unpersuasive, as Appellants do not provide
+persuasive analysis under the case law regarding analogous art. As
+discussed above, Filsfils is analogous art and therefore, proper prior art for
+the rejection.
+Further, Appellants' following argument is unpersuasive:
+Because of the significant differences between the
+method of FIG. 2 of Van Bemmel (rerouting SIP signaling
+messages that have been previously received to avoid
+perpetuating a malicious attack) and the method of FIG. 7 of
+Filsfils (rerouting data packets around a failed link), these two
+methods are not combinable.
+App. Br. 12.
+Appellants have not shown error because they fail to consider the
+subject matters of Van Bemmel and Filsfils, but merely mischaracterize
+exemplary and non-limiting embodiments of the references. See In re Bigio,
+381F.3d1320, 1325 (Fed. Cir. 2004) (we consider the "explanations of the
+invention's subject matter in the patent application, including the
+
+7
+
+Appeal2015-005331
+Application 11/762,759
+embodiments, function, and structure of the claimed invention" to determine
+the invention's field of endeavor) (citations omitted).
+Contrary to Appellants' unduly narrow interpretation, Van Bemmel
+and Filsfils state:
+FIG. 2 depicts a method according to one embodiment of the
+present invention. Specifically, method 200 includes a methodfor
+detecting a forwarding loop at a network element. Although primarily
+described herein with respect to processing performed by a SIP proxy
+server for detecting a forwarding loop associated with a SIP message,
+method 200 may be performed by other SIP and non-SIP network
+elements for detecting forwarding loops associated with SIP and nonSIP messages, respectively.
+Van Bemmel i-f 18 (emphases added).
+FIG. 7 illustrates a flowchart containing a sequence of
+steps for performing the illustrative FRR [local fast reroute]
+techniques of the present invention.
+Filsfils ,-r 64.
+Because Appellants have not persuaded us the Examiner erred, we
+sustain the Examiner's rejection of claim 1.
+For similar reasons, we sustain the Examiner's rejection of
+independent claim 11, which Appellants argue are patentable for the same
+arguments discussed above with respect to claim 1. See App. Br. 13.
+We also sustain the Examiner's rejection of corresponding dependent
+claim 2-10 and 12-27, as Appellants do not offer separate substantive
+arguments regarding those claims. See App. Br. 14.
+
+DECISION
+We affirm the Examiner's decision rejecting claims 1-27.
+
+8
+
+Appeal2015-005331
+Application 11/762,759
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

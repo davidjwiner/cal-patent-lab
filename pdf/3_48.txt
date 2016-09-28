@@ -1,0 +1,280 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/404,297
+
+03/31/2003
+
+David Louis Kaminsky
+
+RSW920030019US1 (087)
+
+7735
+
+46320
+
+7590
+
+09/21/2016
+
+CRGOLAW
+STEVEN M. GREENBERG
+7900 Glades Road
+SUITE 520
+BOCA RATON, FL 33434
+
+EXAMINER
+WILLOUGHBY, ALICIA M
+
+ART UNIT
+
+PAPER NUMBER
+
+2167
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@crgolaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DAVID LOUIS KAMINSKY and DAVID M. OGLE
+
+Appeal2015-005657
+Application 10/404,297
+Technology Center 2100
+
+Before ALLEN R. MACDONALD, ST. JOHN COURTENAY III, and
+JEREMY J. CURCURI, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1 and 2. Final Act. 1. We have jurisdiction under
+35 U.S.C. § 6(b).
+We reverse.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to groupware and contact management.
+Spec. ,-r 1.
+
+Appeal2015-005657
+Application 10/404,297
+REJECTIONS
+Claim 1 is rejected under 35 U.S.C. § 102(e) as anticipated by Hyatt
+(US 6,678,692 Bl; Jan. 13, 2004). Final Act. 2--4.
+Claim 2 is rejected under 35 U.S.C. § 103(a) as obvious over Hyatt
+and Boreham et al. (US 6,768,988 B2; July 27, 2004). Final Act. 4--5.
+Claim 2 is rejected under 35 U.S.C. § 103(a) as obvious over Hyatt
+and Shi et al. (US 6,625,615 B2; Sep. 23, 2003). Final Act. 5---6.
+
+Claim 1 is illustrative and reproduced below:
+1.
+
+A computer-implemented method for matching nearest contacts
+
+in a logical contact hierarchy, the method comprising the steps of:
+establishing, by a processor on a computer, an anchor contact in the
+logical contact hierarchy among different contacts, the anchor contact
+forming a basis for matching nearest contacts in the logical contact
+hierarchy, the logical contact hierarchy representing a logical hierarchical
+structure of seniority in an organization;
+
+computing, by the processor, a distance between the anchor contact
+and each different contact within the logical contact hierarchy, wherein the
+distance indicates a non-geographical relationship between said anchor
+contact and each of the different contacts, the non-geographical relationship
+referring to a closest level of seniority between each different contacts and
+the anchor contact; and,
+selecting a contact, as a nearest matching contact, from among the
+different contacts in said logical contact hierarchy having a shortest
+computed distance to the anchor contact within the logical contact hierarchy.
+
+2
+
+Appeal2015-005657
+Application 10/404,297
+(Contested limitation emphasized).
+THE ANTICIPATION REJECTION OF CLAIM
+
+1 BY HYATT
+
+Contentions
+
+The Examiner finds Hyatt describes all limitations of claim 1. Final
+Act. 2--4.
+Appellants present the following principal arguments:
+1.
+
+Appellants' claim requires the computation be based upon a nongeographical relationship---the closest level of seniority between
+each different contact and the anchor contact. Instead, Hyatt
+describes the characterization of data samples in a hierarchical
+structure and the computation of distance values for nodes of
+interest in a hierarchy. In other words, Hyatt teaches the
+calculation of a distance value based on the sum of coverage
+values of all branches in a hierarchy, which describes a
+geographical relationship, rather than a closest level of
+seniority, a non-geographical relationship, as required by
+Appellants' claim language.
+App. Br. 5---6.
+11.
+
+Appellants' claim requires that the computation of a distance
+indicating a non-geographical relationship between the anchor
+contact and different contacts. Therefore, the claim language
+directed to what the non-geographical relationship refers to is
+more than non-functional descriptive language. In other words,
+the distance between the anchor contact and each different
+contact within the logical contact hierarchy is based upon
+determining a non-geographical relationship between the
+anchor contact and each of the different contacts by
+determining a closest level of seniority between each different
+contact and the anchor contact.
+App. Br. 6.
+In response, the Examiner explains:
+
+3
+
+Appeal2015-005657
+Application 10/404,297
+Hyatt explicitly recites that although the hierarchy of Fig. 6 may
+be a geographical location hierarchy, the hierarchy of Fig. 6 may
+also be any other type of hierarchy, such as personnel
+organization, and that regardless of the type of hierarchy
+involved, the procedure followed is the same (col. 8 11. 31-37).
+Ans. 3.
+The recitation that the distance represents a closest level of
+seniority between each different contacts and the anchor contact
+does not change the functions as specified by the claim.
+Therefore, this limitation represents non-functional descriptive
+material and does not hold any patentable weight. Lastly, the
+examiner also reiterates that even though it is argued that the
+above argued limitation represents non-functional descriptive
+material, Hyatt explains that his distance calculating procedure
+can be used for any type of hierarchy, including personnel
+organization.
+Ans. 4--5.
+In the Reply Brief, Appellants further argue "Hyatt explains that the
+type of hierarchy can vary, but not that how the distance is calculated can
+vary. Yet, Appellants' claim language specifically requires that the
+computation of the distance be based upon a non-geographical
+relationship---the closest level of seniority between each different contact
+and the anchor contact." Reply Br. 6.
+ANALYSIS
+We give the contested claim limitations the broadest reasonable
+interpretation consistent with the Specification. See In re Morris, 127 F.3d
+1048, 1054 (Fed. Cir. 1997). For the reasons discussed below, and on this
+record, Appellant has persuaded us the Examiner erred in rejecting claim 1
+as anticipated by Hyatt.
+
+4
+
+Appeal2015-005657
+Application 10/404,297
+Under a broad but reasonable interpretation, we conclude, the recited
+"non-geographical relationship referring to a closest level of seniority
+between each different contacts and the anchor contact" is more than a label
+that merely describes the content of data. Rather, this claim language
+
+specifies the manner in which the distance is computed by the processor
+(i.e., according to a closest level of seniority), and therefore changes or
+affects the manner in which the recited "computing" step is performed.
+Therefore, we conclude the contested language of claim 1 must be given
+patentable weight.
+Given this construction (id.), Appellant has persuaded us the
+Examiner erred in finding that Hyatt discloses the recited step of computing
+a distance: "wherein the distance indicates a non-geographical relationship
+between said anchor contact and each of the different contacts, the nongeographical relationship referring to a closest level of seniority between
+each different contacts and the anchor contact." (Claim 1).
+Turning to the reference, Hyatt (col. 8 11. 31-3 7) (emphasis added)
+describes, in pertinent part:
+The hierarchy of FIG. 6 may be a geographical location
+hierarchy, or any other type of hierarchy, in which the concept
+nodes pertain to areas such as science and technology, politics,
+personnel organization, industry, government, military
+organization, and so forth. Regardless of the type of hierarchy
+involved, the procedure followed is the same. The hierarchy is
+scanned to record the numbers of key word hits at each node of
+the structure.
+Although Hyatt describes different types of concept nodes, we note
+Hyatt explicitly discloses the procedure for calculating distance is always the
+same. Thus, the type of hierarchy in Hyatt does not appear to affect the
+distance computation in Hyatt.
+5
+
+Appeal2015-005657
+Application 10/404,297
+We find the Examiner has not fully developed the record to show how
+Hyatt's distance computation (based on key word hits) discloses the
+contested step of computing a distance: "wherein the distance indicates a
+non-geographical relationship between said anchor contact and each of the
+different contacts, the non-geographical relationship referring to a closest
+level of seniority between each different contacts and the anchor contact," as
+recited in claim 1.
+We, therefore, do not sustain the Examiner's anticipation rejection of
+claim 1.
+
+THE OBVIOUSNESS REJECTION OF CLAIM 2 OVER HYATT AND BOREHAM
+
+The Examiner finds the combination of Hyatt and Bore ham teaches or
+suggests all the limitations of claim 2. Final Act. 4--5. We note claim 2
+includes all the limitations of claim 1, from which it depends. See Pre-AIA
+35 U.S.C. § 112, fourth paragraph. However, on this record, the Examiner
+has not shown how Boreham overcomes the aforementioned deficiencies of
+Hyatt regarding claim 1. (See Final Act. 5).
+Therefore, for reasons discussed above with respect to claim 1, we do
+not sustain the Examiner's rejection of claim 2 over Hyatt and Boreham.
+
+THE OBVIOUSNESS REJECTION OF CLAIM 2 OVER HYATT AND SHI
+
+The Examiner finds the combination of Hyatt and Shi teaches or
+suggests all the limitations of claim 2. Final Act. 5---6. However, on this
+record, the Examiner has not shown how Shi overcomes the aforementioned
+deficiencies of Hyatt regarding claim 1. (See Final Act. 6).
+
+6
+
+Appeal2015-005657
+Application 10/404,297
+Therefore, for reasons discussed above with respect to claim 1, we do
+not sustain the Examiner's rejection of claim 2 over Hyatt and Shi.
+
+ORDER
+We reverse the Examiner's decision rejecting claims 1 and 2.
+
+REVERSED
+
+7
+
+

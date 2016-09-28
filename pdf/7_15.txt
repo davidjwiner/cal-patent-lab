@@ -1,0 +1,350 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/225,016
+
+09/02/2011
+
+Oeyvind TEIGEN
+
+14.0357-US-CNT
+
+1622
+
+28116
+
+7590
+
+09/15/2016
+
+WestemGeco L.L.C.
+10001 Richmond Avenue
+IP Administration Center of Excellence
+Houston, TX 77042
+
+EXAMINER
+BREIER, KRYSTINE E
+
+ART UNIT
+
+PAPER NUMBER
+
+3645
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+USDocketing@slb.com
+jalverson@slb.com
+SMarckesoni@slb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte OEYVIND TEIGEN, NICOLAS GOUJON, and
+LARS BORGEN
+
+Appeal2014-007171
+Application 13/225,016
+Technology Center 3600
+
+Before: CHARLES N. GREENHUT, ANNETTE R. REIMERS, and
+LEE L. STEPINA, Administrative Patent Judges.
+STEPINA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a rejection of claims 1,
+2, 4--8, 10, and 11. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM-IN-PART.
+CLAIMED SUBJECT MATTER
+The claims are directed to a seismic streamer platform. Spec. (Title).
+Claim 1, reproduced below, is illustrative of the claimed subject matter:
+1. An apparatus comprising:
+a seismic streamer cable;
+at least one seismic sensor; and
+
+Appeal2014-007171
+Application 13/225,016
+at least one rigid mount to secure said at least one seismic
+sensor to the streamer cable, the at least one rigid mount having
+a natural frequency higher than 150 Hertz.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Mascarenhas
+Erath
+Laws
+Tenghamn
+
+us 4,979,795
+us 6,128,251
+US 2005/0073909 Al
+US 2008/0253226 Al
+
+Dec. 25, 1990
+Oct. 3, 2000
+Apr. 7, 2005
+Oct. 16, 2008
+
+REJECTIONS
+(I)
+
+Claims 1, 2, 5, 6, 8, and 10 are rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over Erath and Tenghamn.
+(II)
+
+Claim 4 is rejected under 35 U.S.C. § 103(a) as unpatentable
+
+over Erath, Tenghamn, and Laws.
+(III)
+
+Claims 7 and 11 are rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Erath, Tenghamn, and Mascarenhas.
+
+OPINION
+
+Rejection(!)
+Claims 1 and 8
+Claim 1 recites, in part, "at least one rigid mount to secure said at least
+one seismic sensor to the streamer cable, the at least one rigid mount having
+a natural frequency higher than 150 Hertz." Appeal Br. 19. Claim 8 recites
+a substantially similar feature. Id.
+The Examiner finds that Erath discloses most of the features recited in
+claim 1, but does not disclose a rigid mount having a natural frequency
+2
+
+Appeal2014-007171
+Application 13/225,016
+higher than 150 Hz. Final Act. 3. Nonetheless, the Examiner finds that
+Tenghamn teaches that (i) the natural frequency of a sensor mount depends
+
+on various characteristics of the mount, (ii) noise attenuation properties of
+the mount are dependent on the natural frequency of the mount, (iii) and that
+a relatively high natural frequency is provides a better signal response in the
+non-noise seismic frequencies. Final Act. 4 (citing Tenghamn i-fi-132-33, 35,
+39) (emphasis added). The Examiner reasons that "[i]t would have been
+obvious to one of ordinary skill in the art at the time of the invention to
+
+optimize noise attenuation in the unwanted frequencies by adjusting the
+natural frequency as suggested by Tenghamn since such a modification
+would have given improved data." Final Act. 4 (emphasis added). The
+Examiner also states, "[i]t has further been held that it is not inventive to
+discover the optimum or workable range by routine experimentation." Final
+Act. 4 (emphasis added).
+Appellants assert, "the Final Office Action appears to be improperly
+relying on 'design choice,' as the Final Office Action states, 'it has further
+been held that it is not inventive to discover the optimum or workable range
+by routine experimentation.'" Appeal Br. 10. Appellants then assert that the
+use of per se rules in an obviousness analysis is improper. See Appeal Br.
+10 (citing In re Ochiai, 71F.3d1565 (Fed. Cir. 1995)). Appellants also
+state, "Tenghamn discusses 'the resonance frequency of the suspension of
+each sensor within the sensor jacket,' (Tenghamn, para. no. [0039]) which
+'compliments and augments the reduction in noise from employing the
+particle motion sensor' (Tenghamn, para. no. [0039])." Appeal Br. 10.
+We are not persuaded by Appellants' arguments regarding the
+inapplicability of design choice in the rejection of claim 1 because the Final
+Action relies on the doctrine of optimization, not design choice, in finding
+3
+
+Appeal2014-007171
+Application 13/225,016
+that the resonant frequency recited in claim 1 would have been obvious. 1
+
+See Final Act. 2--4. In this regard, Appellants acknowledge that "Tenghamn
+discusses 'the resonance frequency of the suspension of each sensor within
+the sensor jacket,' which 'compliments and augments the reduction in noise
+from employing the particle motion sensor."' Appeal Br. 10 (citations
+omitted). Thus, Tenghamn recognizes the natural frequency of the
+suspension of each sensor within the sensor jacket as a result-effective
+variable. As explained in In re Applied Materials, Inc., 692 F.3d 1289, 1296
+(Fed. Cir. 2012):
+"[W]here the general conditions of a claim are disclosed in the
+prior art, it is not inventive to discover the optimum or workable
+ranges by routine experimentation." Aller, 220 F.2d at 456. This
+rule is limited to cases in which the optimized variable is a
+"result-effective variable." In re Antonie, 559 F.2d 618, 620
+(CCPA 1977); see Boesch, 617 F.2d at 276 ("[D]iscovery of an
+optimum value of a result effective variable ... is ordinarily
+within the skill of the art."). In the present case, because the prior
+art disclosed values overlapping the claimed ranges, the "general
+conditions" of the claim are disclosed. See Aller, 220 F.2d at
+456; see also Boesch, 617 F.2d at 276. The question is whether
+the dimensions were known to be result-effective variables.
+Accordingly, as the natural frequency of the suspension is recognized in
+Tenghamn as a result-effective variable, we do not find the Examiner's
+application of the doctrine of optimization of a known result-effective
+variable to be inadequate. Thus, Appellants' contention that the Examiner
+applied a "per se" rule without conducting a fact-specific analysis is not
+
+1
+
+Although the Examiner addresses Appellants' arguments regarding design
+choice in the Answer (Ans. 2-3), the rejection from which Appellants'
+appeal is based on optimization (Final Act. 2--4), and the Examiner's
+discussion of design choice in the Answer does not negate reasoning for the
+rejection set forth in the Final Action.
+4
+
+Appeal2014-007171
+Application 13/225,016
+persuasive, and we sustain the Examiner's rejection of claim 1 as
+unpatentable over Erath and Tenghamn. Appellants make the same
+arguments for claim 8 (Appeal Br. 12), and for the reasons discussed above,
+we also sustain the Examiner's rejection of independent claim 8 as
+unpatentable over Erath and Tenghamn.
+Claim 5
+
+Dependent claim 5 specifies that the sensor recited in claim 1 is a
+pressure sensor. Appeal Br. 19. Appellants now argue that "Tenghamn
+discusses a resonance frequency for a particle motion sensor and a resonant
+frequency for a particle motion sensor mounting," and "neither Erath nor
+Tenghamn discusses or otherwise renders obvious a resonant frequency or
+natural frequency of a pressure sensor or a natural frequency for a mount for
+a pressure sensor." Id. at 13.
+In response, the Examiner finds that Erath teaches use of a pressure
+sensor, and the Examiner states, "[a]lthough Tenghamn teaches particle
+motion sensors specifically, it would have been obvious to one of ordinary
+skill in the art that the noise attenuation provided by the higher natural
+frequencies would have been equally applicable to pressure sensors." Ans.
+4.
+
+Appellants contend "[a]lthough Tenghamn discusses why its
+resonance frequency may be used to purportedly attenuate noise in
+geophones, the skilled artisan would readily recognize that this discussion
+would be inapplicable to pressure sensors." Reply Br. 4.
+We agree with Appellants on this point inasmuch as Examiner has
+pointed to no evidence, and we find none, indicating that providing a mount
+with a natural frequency as recited would work equally well with a pressure
+
+5
+
+Appeal2014-007171
+Application 13/225,016
+sensor as with a particle motion sensor. Accordingly, we do not sustain the
+Examiner's rejection of dependent claim 5.
+Appellants do not make separate arguments for any of claims 2, 6, or
+10. Accordingly, we sustain the Examiner's rejection of these claims.
+Rejection (II)
+
+Appellants make no separate arguments for the patentability of
+dependent claim 4. Accordingly, we sustain this rejection of claim 4 as
+unpatentable over Erath, Tenghamn, and Laws.
+Rejection (111)
+
+Claim 7 recites, "[t]he apparatus of claim 1, wherein the cable has a
+bending stiffness of at least fifty Nm2 ." Appeal Br. 19.
+The Examiner finds that Mascarenhas teaches an undersea cable with
+a bending stiffness of about 409 Nm2 . Final Act. 6. The Examiner reasons
+that it would have been obvious to modify the combination of Erath and
+Tenghamn to have the bending stiffness taught by Mascarenhas "since such
+a modification would have provided a torsionally balanced cable without
+looping and kinking tendencies; a reduction in installation costs; an increase
+in installed cable reliability; and reduced sagging in the cable, leading to
+sensors which are more in-line with each other at approximately the same
+depth." Final Act. 6.
+Appellants contend that Mascarenhas does not disclose that the
+benefits listed by the Examiner are produced by controlling bending
+stiffness, instead, Mascarenhas teaches controlling other factors, such as the
+cable's torsional stiffness to bending stiffness ratio. See Appeal Br. 14--17.
+In response, the Examiner finds that Mascarenhas controls the cable's
+torsional stiffness to bending stiffness ratio via control of relatively few
+cable structure parameters, and "[g]iven that the invention discusses control
+6
+
+Appeal2014-007171
+Application 13/225,016
+of 'relatively few cable structure parameters' and subsequently discusses a
+specific value for bending stiffness, it would be obvious that bending
+stiffness is one of those parameters which would lead to the stated
+advantages." Ans. 6. The Examiner states, "[t]hus, Mascarenhas's
+teachings further give rise to the expectation that applying the bending
+stiffness to Tenghamn's cables for use in an undersea context would result in
+such benefits as a reduction in installation costs and an increase in installed
+cable reliability." Id. As an apparent alternative rationale, the Examiner
+states,
+[f]urthermore, there are numerous other reasons that a
+person of ordinary skill in the art at the time of the invention
+would have modified the cable of Tenghamn with the bending
+stiffness ofMascarenhas, for example, it would have reduced the
+sagging in the cable, leading to sensors which are more in-line
+with each other at approximately the same depth.
+Id. at 7.
+We are persuaded by Appellants' arguments because Mascarenhas
+discusses achieving his disclosed benefits via controlling a torsional stiffness
+to bending stiffness ratio, and does not disclose selecting any particular
+bending stiffness in order to achieve this control. In other words, regardless
+of the magnitude of the bending stiffness of the cable, an appropriate
+torsional stiffness to bending stiffness ratio may also be provided so long as
+an appropriate torsional stiffness is selected.
+Further, as for reducing sagging and providing sensors in line with
+each other, as Appellants note (see Appeal Br. 14--15), Erath and Tenghamn
+relate to seismic streamers, and Mascarenhas relates to an undersea
+telecommunications cable. As noted above, Mascarenhas provides
+mechanical benefits via control of a ration of torsional stiffness to bending
+stiffness, and the Examiner does not direct our attention to any objective
+7
+
+Appeal2014-007171
+Application 13/225,016
+evidence supporting a conclusion that a bending stiffness of at least fifty
+Nm2 would have provided any particular benefit to the streamer disclosed in
+Erath. Accordingly, we do not sustain the Examiner's rejection of claim 7.
+For the same reasons, we do not sustain the Examiner's rejection of claim
+11.
+
+DECISION
+(I)
+
+The Examiner's rejection of claims 1, 2, 5, 6, 8, and 10 as
+
+unpatentable over Erath and Tenghamn is affirmed as to claims 1, 2, 6, 8,
+and 10 and is reversed as to claim 5.
+(II)
+
+The Examiner's rejection of claim 4 as unpatentable over Erath,
+
+Tenghamn, and Laws is affirmed.
+(III) The Examiner's rejection of claims 7 and 11 as unpatentable
+over Erath, Tenghamn, and Mascarenhas is reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a). See 37 C.F.R.
+§ 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+8
+
+

@@ -1,0 +1,424 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/822,458
+
+06/24/2010
+
+Reza A. Pagaila
+
+2515.0234
+
+5875
+
+112165
+
+7590
+
+09/16/2016
+
+STATS ChipPAC/PATENTLAWGROUP:
+Atkins and Associates, P.C.
+55 N. Arizona Place, Suite 104
+Chandler, AZ 85225
+
+EXAMINER
+HALL, VICTORIA KATHLEEN
+
+ART UNIT
+
+PAPER NUMBER
+
+2897
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+main@plgaz.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte REZA A. P AGAILA, Y AOJIAN LIN and
+JUN MO KOO
+
+Appeal2015-002952
+Application 12/822,458
+Technology Center 2800
+
+Before BRADLEY R. GARRIS, JAMES C. HOUSEL, and
+BRIAND. RANGE, Administrative Patent Judges.
+RANGE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+SUMMARY
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 1-20 and 26-30. We have jurisdiction. 35 U.S.C.
+
+§ 6(b ).
+We AFFIRM-IN-PART.
+
+1
+
+According to the Appellants, the real party in interest is ST ATS ChipP AC,
+Ltd. Appeal Br. 1.
+
+Appeal2015-002952
+Application 12/822,458
+STATEMENT OF THE CASE
+Appellants describe the present invention as relating to a method of
+forming an anisotropic conductive film ("ACF") between a semiconductor
+die and a build-up interconnect structure. Spec. i-f 1. The ACF serves to
+reduce shifting of the semiconductor die during encapsulation. Spec.,
+Abstract. Independent claims 1, 8, 14, and 26 are on appeal. Claims 1, 8,
+14, and 26, reproduced below with emphases added, are illustrative of the
+claimed subject matter:
+1. A method of making a semiconductor device, comprising:
+providing a semiconductor wafer including a plurality of
+semiconductor die comprising bumps formed over contact pads
+on an active surface of the semiconductor die;
+depositing an anisotropic conductive film (ACF) over the
+bumps and active surface of the semiconductor wafer;
+singulating the semiconductor wafer to separate the
+semiconductor die;
+providing a temporary carrier;
+disposing the semiconductor die with the ACF oriented
+to the temporary carrier;
+compressing the ACF under the bumps to form a
+conductive portion of the ACF electrically connected to the
+bumps;
+curing the ACF to form a cured ACF;
+depositing an encapsulant over the semiconductor die and
+temporary carrier;
+
+removing the temporary carrier to expose the
+conductive portion of the cured ACF under the bumps; and
+forming an interconnect structure over the semiconductor
+die, cured ACF, and encapsulant with the interconnect structure
+being electrically connected through the conductive
+portion of the cured ACF to the bumps.
+2
+
+Appeal2015-002952
+Application 12/822,458
+8.
+A method of making a semiconductor device,
+compnsmg:
+providing a semiconductor die including bumps formed
+over contact pads on an active surface of the semiconductor die;
+depositing an anisotropic conductive film (ACF) over the
+bumps;
+providing a carrier;
+disposing the semiconductor die with the ACF oriented to
+the carrier;
+compressing the ACF under the bumps to form a
+conductive portion of the ACF;
+depositing an encapsulant over the semiconductor die and
+carrier;
+removing the carrier to expose the conductive portion
+of the ACF; and
+forming an interconnect structure on the encapsulant and
+conductive portion of the ACF with the interconnect structure
+being electrically connected through the conductive portion of
+the ACF to the bumps.
+14. A method of making a semiconductor device,
+compnsmg:
+providing a semiconductor die including contact pads;
+disposing the semiconductor die over an anisotropic
+conductive film (ACF);
+compressing the ACF under the contact pads to form a
+compressed ACF;
+curing the ACF to form a cured ACF;
+depositing an encapsulant over the semiconductor die
+to leave the cured ACF under the contact pads exposed; and
+forming an interconnect structure over the semiconductor
+die and encapsulant with the interconnect structure being
+electrically connected through the compressed ACF to the
+contact pads of the semiconductor die.
+
+3
+
+Appeal2015-002952
+Application 12/822,458
+26. A method of making a semiconductor device,
+compnsmg:
+providing a semiconductor die;
+disposing the semiconductor die over an anisotropic
+conductive film (ACF);
+compressing the ACF beneath the semiconductor die
+to leave a conductive portion of the ACF opposite the
+semiconductor die exposed; and
+forming a conductive layer over the conductive portion
+of the ACF.
+Appeal Br. 2 78, 80-81 (Claims Appendix).
+REFERENCES
+The Examiner relied upon the prior art below in rejecting the claims
+on appeal:
+Pogge
+
+us 6, 110,806
+
+Aug. 29, 2000
+
+Choi et al.
+(hereinafter "Choi")
+
+US 2007/0114661 Al
+
+May 24, 2007
+
+Su
+
+US 2009/0020865 Al
+
+Jan.22,2009
+
+Paik et al.
+(hereinafter "Paik")
+
+US 2009/0029504 Al
+
+Jan.29,2009
+
+Kim et al.
+(hereinafter "Kim")
+
+US 2009/0039491 Al
+
+Feb. 12,2009
+
+Yamano
+
+US 2010/0041183 Al
+
+Feb. 18,2010
+
+Pagaila
+
+US 2011/0031634 Al
+
+Feb. 10,2011
+
+2
+
+In this decision, we refer to the Final Office Action mailed April 24, 2014
+("Final Act."), the Appeal Brief filed August 1, 2014 ("Appeal Br."), and the
+Examiner's Answer mailed November 20, 2014 ("Ans.").
+4
+
+Appeal2015-002952
+Application 12/822,458
+REJECTIONS
+The Examiner maintains the following rejections on appeal:
+Rejection 1. Claims 29 and 30 as failing to comply with the written
+description requirement of 35 U.S.C. § 112, first paragraph. Ans. 2.
+Rejection 2. Claim 6 as being indefinite under 35 U.S.C. § 112,
+second paragraph. Id.
+Rejection 3. Claims 1, 3, 4, 8, 10, 11, 14, 15, 17, and 18 under 35
+U.S.C. § 103 as being unpatentable over Paik, in further view of Choi, Su,
+and Yamano. Id.
+Rejection 4. Claims 2, 9, and 16 under 35 U.S.C. § 103 as
+unpatentable over Paik, Choi, Su, and Y amano and further in view of Pogge.
+
+Id.
+Rejection 5. Claims 5, 6, 12, and 19 under 35 U.S.C. § 103 as
+unpatentable over Paik, Choi, Su, and Y amano and further in view of
+Pagaila. Id.
+Rejection 6. Claims 7, 13, and 20 under 35 U.S.C. § 103 as
+unpatentable over Paik, Choi, Su, and Y amano, and further in view of Kim.
+
+Id. at 3.
+Rejection 7.
+
+Claims 26 and 28 under 35 U.S.C. § 103 as
+
+unpatentable over Choi, Su, and Y amano. Id.
+Rejection 8.
+
+Claim 27 under 35 U.S.C. § 103 as unpatentable over
+
+Choi, Su, and Yamano and further in view of Pogge. Id.
+Rejection 9.
+
+Claims 29 and 30 under 35 U.S.C. § 103 as
+
+unpatentable over Choi, Su, and Y amano and further in view of Pagaila. Id.
+
+5
+
+Appeal2015-002952
+Application 12/822,458
+ANALYSIS
+Rejection 1
+The Examiner rejects Claims 29 and 30 as failing to comply with the
+written description requirement of 35 U.S.C. § 112, first paragraph. Ans. 2.
+"[T]he test for [written description] sufficiency is whether the disclosure of
+the application relied upon reasonably conveys to those skilled in the art that
+the inventor had possession of the claimed subject matter as of the filing
+date." Ariad Pharm., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351 (Fed. Cir.
+2010).
+Claim 29 recites, "The method of claim 26, further including forming
+an interconnect structure over the conductive portion of the ACF." Appeal
+Br. 85 (Claims Appendix). The Examiner maintains that claim 26 requires
+"forming a conductive layer over the conductive portion of the ACF" and
+that the Specification does not disclose having both a conductive layer and
+an interconnect structure "over" the conductive portion of the ACF. Ans. 4-5. In the Examiner's view, either the conductive layer or the interconnect
+structure must be "under the ACF." Id. We disagree.
+Appellants persuasively explain that Paragraphs 66 and 67 of the
+Specification and Figure 9h disclose forming an interconnect structure (230)
+over the conductive portion of the ACF and that the interconnect structure
+includes a conductive layer (RDL 232). Appeal Br. 9. Because the
+conductive layer may be part of the interconnect structure (as shown in
+Figure 9h) both the conductive layer and the interconnect structure may be
+"over the conductive portion of the ACF" as described in the Specification.
+Spec. i-f 66 ("a bottom-side build-up interconnect structure 230 is formed
+over ACF 204 . . . . The build-up interconnect structure 230 includes an
+
+6
+
+Appeal2015-002952
+Application 12/822,458
+electrically conductive layer or RDL 232 .... ")(emphasis added). We
+therefore do not sustain the Examiner's rejection of claim 29.
+The Examiner rejects claim 30 under 35 U.S.C. § 112, first paragraph,
+solely because of its dependency on claim 29. Final Act. 5. We thus also do
+not sustain the Examiner's rejection of claim 30.
+Rejection 2
+The Examiner rejects claim 6 as indefinite under 35 U.S.C. § 112,
+second paragraph. Final Act. 6. Claim 6 depends from claim 5 which
+depends from claim 1. Claim 6 recites, "The method of claim 5, wherein the
+semiconductor component includes bumps which are compressed into the
+cured ACF." Appellants do not appear to dispute the Examiner's rejection
+and agree that "one skilled in the art would understand that when making the
+device shown in FIG 11, the curing step needs to occur after compressing
+semiconductor die 254 into ACF 136 .... " Appeal Br. 14. We therefore
+sustain the Examiner's rejection of claim 6.
+Rejections 3---6, Claim 1-7
+The Examiner rejects claim 1 as obvious over Paik in further view of
+Choi, Su, and Yamano. Ans. 2-3. Appellants argue that none of these four
+references teaches or suggests "removing the temporary carrier to expose the
+conductive portion of the cured ACF under the bumps" as recited by claim
+1. Appeal Br. 30.
+
+The Examiner acknowledges that none of the references expressly
+teaches this recited step. Final Act. 18. The Examiner concludes that this
+recited step would have nonetheless been obvious in view of the teachings of
+Choi, Su, and Yamano. Id. While the Examiner's underlying findings
+might suggest that the recited step would be possible, the findings fail to
+establish that a person of ordinary skill would have had reason to implement
+7
+
+Appeal2015-002952
+Application 12/822,458
+a method of making a semiconductor device where ACF is compressed (so
+that it becomes conductive in the compressed area) under the bumps, cured,
+and then exposed by removing a temporary carrier.
+The Examiner's stated rationale for combining references also fails to
+establish that a person of ordinary skill would have had reason to reach this
+missing step. In particular, the Examiner states that a semiconductor die has
+two problems: a need for electricity and a need to protect the die. Ans. 19.
+The Examiner acknowledges that "[t]here are a variety of ways to solve both
+problems." Id. Appellants' explanation of the four prior art references
+establishes that these references solve these problems in ways that do not
+involve the missing step: "removing the temporary carrier to expose the
+conductive portion of the cured ACF under the bumps." Appeal Br. 17-30.
+The present record lacks adequate reasoning based upon the four cited
+references or otherwise as to why a person of skill in the art would have
+chosen, among the variety of ways to solve the identified problems, to
+implement the missmg step. This is particularly true given that the step at
+issue is not taught by any of the references.
+Accordingly, we do not sustain the Examiner's rejection of claim 1.
+The Examiner does not state that the additional three references applied to
+dependent claims (Pogge, Pagaila, and Kim) further relate to the missing
+step discussed above. See, e.g., Final Act. 28, 31, 34. Therefore, we also do
+not sustain the Examiner's rejection of claims 2-7, which all depend from
+claim 1.
+Rejections 3-6, claims 8-13
+The Examiner rejects independent claim 8 as obvious over Paik in
+further view of Choi, Su, and Yamano. Ans. 2. Independent claim 8 recites
+"removing the carrier to expose the conductive portion of the ACF." Appeal
+8
+
+Appeal2015-002952
+Application 12/822,458
+Br. 80 (Claims Appendix). "The conductive portion" refers back to the
+portion of the ACF compressed under the bumps earlier in the claim. Id.
+Thus, this recitation is very similar to the claim 1 recitation discussed above.
+Appellants argue that none of the four applied references "teach[ es] or
+suggest[s] removing the carrier to expose the conductive portion of the ACF
+or forming an interconnect structure on the encapsulant and conductive
+portion of the ACF .... " Appeal Br. 48. The Examiner again acknowledges
+the missing step but concludes that the step would have been obvious. Final
+Act. 22.
+For the reasons explained above with respect to claim 1, the
+Examiner's conclusion is in error. We therefore do not sustain the
+Examiner's rejection of claim 8 or its dependent claims 9-13.
+Rejections 3---6, claims 14--20
+The Examiner rejects independent claim 14 as obvious over Paik in
+further view of Choi, Su, and Yamano. Ans. 2-3. Independent claim 14
+recites "depositing an encapsulant over the semiconductor die to leave the
+cured ACF under the contact pads exposed.... " Appeal Br. 82 (Claims
+Appendix). Appellants argue that none of the four references teaches this
+step (Appeal Br. 63), and the Examiner again acknowledges the missing step
+but concludes the step would have been obvious (Final Act. 26).
+For the reasons explained above with respect to claim 1, the
+Examiner's conclusion is in error. We therefore do not sustain the
+Examiner's rejection of claim 14 or its dependent claims 15-20.
+Rejections 7-9, claims 26-30
+The Examiner rejects independent claim 26 as obvious over Choi, Su,
+and Yamano. Ans. 3. Independent claim 26 recites "compressing the ACF
+beneath the semiconductor die to leave a conductive portion of the ACF
+9
+
+Appeal2015-002952
+Application 12/822,458
+opposite the semiconductor die exposed." Appeal Br. 84 (Claims
+Appendix). Appellants argue that none of the references teaches this recited
+step. Id. at 74. The Examiner's rationale for why this step would have been
+obvious (Final Act. 36-37) is in error for the reasons explained above with
+respect to claim 1. We therefore do not sustain the Examiner's rejection of
+claim 26 or its dependent claims 27-30.
+
+DECISION
+For the above reasons, we affirm the Examiner's rejection of claim 6
+under 35 U.S.C. § 112. We reverse the Examiner's rejection of claims 29
+and 30 under 35 U.S.C. § 112. We reverse the Examiner's rejection of
+claims 1-20 and 26-30 under 35 U.S.C. § 103.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRivIED-IN-PART
+
+10
+
+

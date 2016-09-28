@@ -1,0 +1,255 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/988,671
+
+10/20/2010
+
+David Hammarwall
+
+4015-7126 I P25431-US1
+
+3326
+
+132398
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+Clairvolex Inc,
+
+HU,RUIMENG
+
+4010 MOORPARK AVE, Ste, 228
+San Jose, CA 95117
+ART UNIT
+
+PAPER NUMBER
+
+2649
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+elofdocket@clairvolex.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DAVID HAMMARWALL and
+GEORGEJONGREN
+
+Appeal2015-003935
+Application 12/988,671
+Technology Center 2600
+
+Before LARRY J. HUME, JOHN P. PINKERTON, and
+JOHN D. HAMANN, Administrative Patent Judges.
+PINKERTON, Administrative Patent Judge
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's Final
+Rejection of claims 17-19, 21-33, and 35--45. 2 Claims 20 and 34 are canceled.
+We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+
+1
+
+Appellants identify Telefonaktiebolaget LM Ericsson as the real party in
+interest. App. Br. 2.
+2
+Claims 26, 27, and 40 are objected to as being dependent upon a rejected
+base claim and are not before us on Appeal. See Final Act. 6.
+
+Appeal2015-003935
+Application 12/988,671
+STATEivIENT OF THE CASE
+
+Introduction
+Appellants' disclosed and claimed invention is generally directed to
+compensating for propagation delay in a wireless communication system.
+Spec. 1:6-7. 3
+Claim 17 is representative and reproduced below (with the disputed
+limitation emphasized):
+17. A method of compensating for propagation delay in a
+wireless communication system, wherein a processing unit in a
+base station or in a N odeB is in communication with a first
+plurality of antenna units being in wireless communication with
+at least a first terminal, the first terminal having a terminal
+antenna, the method comprising:
+determining relative propagation delay associated with a
+wireless channel from each of the first plurality of antenna units
+to the terminal antenna of said first terminal, the first plurality
+of antenna units being part of a distributed antenna system such
+that the first plurality of antenna units are spatially separated
+from each other andfrom the base station or the NodeB;
+establishing a delay profile specific for the first terminal
+using the determined relative propagation delays; and
+compensating for the determined relative propagation
+delay from each antenna unit to said first terminal by applying
+the delay profile to a transmission between the processing unit
+and said first terminal.
+3
+
+Our Decision refers to the Final Action mailed Apr. 8, 2014 ("Final Act.");
+Appellants' Appeal Brief filed Sept. 5, 2014 ("App. Br."); the Examiner's
+Answer mailed Dec. 16, 2014 ("Ans."); Appellants' Reply Brief filed
+Jan. 30, 2015 ("Reply Br."); and, the original Specification filed
+Oct. 20, 2010 ("Spec.").
+
+2
+
+Appeal2015-003935
+Application 12/988,671
+
+Rejection on Appeal
+Claims 17-19, 21-25, 28-33, 35-39, and 41--45 stand rejected under
+35 U.S.C. § 102(b) as being anticipated by Burke et al. (US 7,155,231 B2;
+issued Dec. 26, 2006) ("Burke"). Final Act. 3---6.
+
+Issues
+Appellants' arguments in the Briefs present us with the following
+issues:
+1.
+
+Does Burke teach or suggest "the first plurality of
+antenna units are spatially separated from each other
+andfrom the base station or the NodeB," as recited in
+claim 17, and as similarly recited in claim 31?
+
+2.
+
+Does Burke teach or suggest "evaluat[ing] phase
+differences between propagation channels between said
+first terminal and multiple antenna units, or between a
+terminal in the second plurality of terminals and multiple
+antenna units, for two different frequencies," as recited in
+claim 23; and as similarly recited in claim 37?
+
+ANALYSIS
+
+Issue 1
+Appellants argue the term "separated" means "Not joined or touching
+
+physically." App. Br. 5 (citing Oxford Dictionary). Thus, according to
+Appellants, the proper construction of the term "spatially separated" is "[ n ]ot
+
+joined or touching physically in space." Id. Appellants also argue that, in
+Burke, the antennas 1 lOA-1 lOM are not spatially separated from the base
+station 104, but rather are physically connected to the base station 104. Id.
+at 5---6 (citing Burke Figs. 2, 3; 4:7-8, 4:63, 5:1-5); Reply Br. 3--4. In the
+Reply Brief, Appellants argue Burke does not teach that the first plurality of
+
+3
+
+Appeal2015-003935
+Application 12/988,671
+antenna units are part of a distributed antenna system, as recited in claims 17
+and 31, but that Burke shows a traditional co-located antenna system in
+which the antennas are mounted to the same base station. Reply Br. 4.
+We are not persuaded by Appellants' arguments that the Examiner has
+erred. The Examiner finds the claimed "spatially separated" may include
+wire links, e.g., optical or electrical, that allow for any separation in space.
+Ans. 7 (citing Burke Fig. 4, 12:22-25). We agree with the Examiner's
+interpretation, including because Appellants' Specification teaches antennas
+physically spaced apart from the base station that may establish
+communication with a processing unit of the base station via communication
+links, such as high speed optical or electrical units. See, for example, Spec.
+Fig. 3 (links 60 and 62), Fig. 4 (links 66, 68, 70), col. 12:6-24. The
+Examiner also finds, and we agree, Burke teaches "in figure 2, the base
+station 104 is connected to antennas 1 lOA-1 lOM via a link which can be a
+wire/cable, [and, therefore] the antennas 1 lOA-1 lOM are spatially separated
+from the base station 104 by the length of the wire/cable." Ans. 7. Thus, we
+agree with the Examiner that Burke teaches "the first plurality of antenna
+units are spatially separated from each other and from the base station or
+the N odeB," as recited in claim 17, and as similarly recited in claim 31.
+
+Regarding Appellants' argument that Burke does not teach the first
+plurality of antenna units being part of a "distributed antenna system," we
+note this argument was not raised in the Appeal Brief, but was raised for the
+first time in the Reply. Because this argument is raised by Appellants for the
+first time in the Reply Brief not in response to a shift in the Examiner's
+position or without otherwise showing good cause, it is waived. See 37
+C.F.R. § 41.41(b)(2) (2012); see also Ex parte Borden, 93 USPQ2d 1473,
+
+4
+
+Appeal2015-003935
+Application 12/988,671
+1474 (BPAI 2010) (informative) ("[T]he reply brief [is not] an opportunity
+to make arguments that could have been made in the principal brief on
+appeal to rebut the Examiner's rejections, but were not.").
+For these reasons, we sustain the Examiner's rejection of claims 17
+and 31, as well as dependent claims 18, 19, 21, 22, 28-33, 35, 36, and 4145, which are not argued separately.
+Issue 2
+
+Appellants argue Burke does not teach or suggest "evaluating phase
+differences between propagation channels ... for two different frequencies,"
+as recited in claim 23 and similarly recited in claim 37. App. Br. 7. The
+Examiner finds Burke teaches a CDMA system in which channel estimation
+is performed on each channel/frequency of the received CDMA signal for
+phase adjustment. Ans. 8 (citing Burke 3:25--44, 8:52-9:3, Fig. 12, channel
+estimator 1265A). The Examiner also finds Burke teaches or suggests
+"multipath time delay information may be obtained using the reverse link
+(i.e., correlation in multipath time delay info between frequencies)" and
+"therefore, the communicated CDMA signal contains two or more different
+frequencies." Ans. 8 (citing Burke 18:35-37). In response, Appellants
+argue that, although Burke teaches correlation in multipath time delay
+information between frequencies and a phase adjustment for phase aligned
+reception at the mobile station, Burke does not disclose evaluating phase
+differences between propagation channels for two different frequencies.
+Reply Br. 5 (citing Burke 18:51-52).
+We are persuaded by Appellants' argument because Burke teaches
+evaluating one channel, the reverse link, for correlating multipath time delay
+
+5
+
+Appeal2015-003935
+Application 12/988,671
+between channels. See Burke 18:38, 51-52. Thus, we do not sustain the
+Examiner's rejection of claims 23 and 37.
+DECISION
+We affirm the Examiner's rejection of claims 17-19, 21, 22, 28-33,
+35, 36, and 41--45 under 35 U.S.C. § 103(a).
+We reverse the Examiner's rejection of claims 23-25 and 37-39.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+6
+
+

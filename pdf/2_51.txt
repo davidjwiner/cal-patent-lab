@@ -1,0 +1,243 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/013,247
+
+01125/2011
+
+Pallavi Dharwada
+
+H0028636.216471
+
+8397
+
+92689
+
+7590
+
+09/22/2016
+
+HONEYWELL/SLW
+Patent Services
+115 Tabor Road
+P.O. Box 377
+MORRIS PLAINS, NJ 07950
+
+EXAMINER
+KARIM, ZIAUL
+
+ART UNIT
+
+PAPER NUMBER
+
+2127
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentservices-us@honeywell.com
+uspto@slwip.com
+SLW@blackhillsip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PALLAVI DHARWADA and JASON LABERGE
+
+Appeal2015-007413
+Application 13/013,247
+Technology Center 2100
+
+Before JEFFREY S. SMITH, AARON W. MOORE, and
+DAVID J. CUTITTA II, Administrative Patent Judges.
+MOORE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-007413
+Application 13/013,247
+STATEMENT OF THE CASE
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+THE INVENTION
+The application is directed to "a system and method for automatically
+selecting sensors." (Spec. i-f 1.) Claim 1, reproduced below, is illustrative:
+1. A system comprising:
+a display unit coupled to a computer processor and configured
+to display a map or model of an area monitored by one or more
+sensors and to display a location and orientation of the one or
+more sensors in the monitored area;
+a computer processor configured to receive, via contacting a
+screen surface of the display unit, a region or path within the
+monitored area, wherein the contacting the display unit
+comprises a drawing of the region or path on the screen surface
+of the display unit by an operator;
+a computer processor configured to orient the one or more
+sensors towards the path or region in response to the drawing on
+the screen surface of the display unit; and
+a computer processor configured to display the monitored
+area on the display unit after the orienting of the one or more
+sensors.
+
+1
+
+Appellants identify Honeywell International Inc. as the real party in
+interest. (See App. Br. 2.)
+2
+
+Appeal2015-007413
+Application 13/013,247
+THE REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Morgan
+
+US 4,992,866
+
+Feb. 12, 1991
+
+Brunetti et al.
+
+US 2005/0225634 Al
+
+Oct. 13, 2005
+
+Cressy et al.
+
+US 7,995,096 Bl
+
+Aug. 9, 2011
+
+THE REJECTIONS
+
+1.
+
+Claims 1---6 and 8-20 stand rejected under 35 U.S.C. § 103(a)
+
+as unpatentable over Brunetti and Morgan. (See Final Act. 3-12.)
+2.
+
+Claim 7 stands rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Brunetti, Morgan, and Cressy. (See Final Act. 12-13.)
+
+APPELLANTS' CONTENTIONS
+Appellants argue that the rejections are in error because the
+combination fails to teach or suggest "a computer processor configured to
+receive, via contacting a screen surface of a display unit, a region or path
+within a monitored area, wherein the contacting the display unit comprises a
+drawing of the region or path on the screen surface of the display unit by an
+operator," as recited in claim 1, and as similarly recited in independent
+claims 6 and 15. (App. Br. 7.)
+
+3
+
+Appeal2015-007413
+Application 13/013,247
+ANALYSIS
+The Examiner finds the subject language satisfied in Morgan, which
+teaches as follows:
+A primary aspect of the preferred embodiment is the use of a
+graphics user interface screen 30 between the user and the processor 20. Referring to FIG. 2, the interface screen 30 is designed
+to provide a graphical representation (similar to a "map") of the
+area that a user chooses to view. Depending on what mode the
+network is operating in, the user can simply point to a specific
+area on the "map" and the processor 20 will determine which
+camera has the best view of that specific area and select that view
+to be displayed on one of the monitors. Therefore, instead of
+having to deal with switches, buttons and knobs, the user merely
+has to point to an area on the touch screen 30 to have a view of
+the area displayed. This arrangement significant[ly] reduces the
+amount of time necessary to locate and track a particular scene
+because only minimal thought process is required. The user
+simply points to the desired area on the screen. That area is
+instantaneously displayed on a screen.
+(Morgan 2:63-3:13.)
+Appellants argue that "simply pointing to an area on a screen as in
+Morgan is not a disclosure of a drawing of a region or path on a screen by an
+operator, as is recited in the claims," because "[a] pointing is a simple, single
+touch of the screen," whereas "[t]he terms 'draw' and 'drawing' mean to
+make a picture or image by making lines on a surface." (App. Br. 7, citing
+www.merriam-webster.com.) Appellants further assert that "a simple
+pointing to an area of a screen does not make a picture or image by making a
+line on the screen" and that "a drawing requires movement along the screen
+while touching the screen, which is more than a simple touch, and which
+requires different processing logic than a simple touch." (Id.)
+
+4
+
+Appeal2015-007413
+Application 13/013,247
+Appellants, thus, appear to argue that the term "drawing," as claimed,
+requires the making or rendering of a picture or image on the screen. (Id.)
+We are not persuaded of error by Appellants' arguments. In particular, we
+do not agree that the claims require that a "picture or image" be rendered on
+the screen. The Specification simply states "the operator 120 uses one or
+more gestures with his or her hand to define a region of interest 130." (Spec.
+
+i-f 13.) Nowhere does it describe representing that gesture on the screen. 2
+We thus conclude that the claims do not require the path or region to be
+mirrored on the display. The remaining question, then, is whether Morgan's
+disclosure of touching a single point, as opposed to tracing a line or other
+shape, would suffice to meet the claim language. We join the Examiner in
+concluding that it would, as we do not discern any basis for distinguishing,
+in this context, a point indicated by a finger and, for example, a short line or
+small circle traced by that same finger.
+Because we conclude that Morgan does teach "receiv[ing], via
+contacting a screen surface of a display unit, a region or path within a
+monitored area, wherein the contacting the display unit comprises a drawing
+of the region or path on the screen surface of the display unit by an
+operator," as recited in claim 1 and as similarly recited in claims 6 and 15,
+we sustain the rejections of claims 1-20.
+
+2
+
+For example, in Figure 2 the region of interest 130 is indicated by semicircular swiping gesture, which is represented in the figure by an arrow
+showing the path of the finger movement, but is not shown as being drawn
+on the map.
+5
+
+Appeal2015-007413
+Application 13/013,247
+DECISION
+The rejections of claims 1-20 are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

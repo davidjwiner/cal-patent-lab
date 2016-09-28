@@ -1,0 +1,254 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+131793,361
+
+03/11/2013
+
+Kerry John Enright
+
+7590
+
+ATTORNEY DOCKET NO.
+
+5670
+
+09/20/2016
+
+Kerry John Enright
+458 Scrub Oaks Dr.
+Hampstead, NC 28443
+
+CONFIRMATION NO.
+
+EXAMINER
+SCHEUNEMANN, RICHARD N
+
+ART UNIT
+
+PAPER NUMBER
+
+3624
+
+MAILDATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KERRY JOHN ENRIGHT
+
+Appeal2016-005700
+Application 13/793,361 1
+Technology Center 3600
+
+Before NINA L. MEDLOCK, MATTHEWS. MEYERS, and
+ROBERT J. SILVERMAN, Administrative Patent Judges.
+SILVERMAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellant appeals under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 1-9. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+According to the Appellant, the real party in interest is Kerry John Enright.
+Appeal Br. 1.
+
+Appeal2016-005700
+Application 13/793,361
+ILLUSTRATIVE CLAIM
+1. A method of systematically performing hierarchical
+process control, the method comprising:
+
+performing a process element control operation,
+wherein the process element control operation comprises
+the addition of elements to the initiate, execute and
+complete sub-processes;
+performing a process order operation, wherein the
+process order operation comprises controlling the
+execution order of processes and sub-processes;
+performing a sub-process operation, wherein the
+sub-process operation comprises the initiation, execution
+and completion of sub-processes;
+performing an identification operation, wherein the
+identification operation comprises the identification of
+process step, elements, hierarchies and interactions; and
+performing a process control operation, wherein
+the process control operation comprises monitoring,
+evaluating and controlling processes across hierarchies;
+[sic]
+CITED REFERENCES
+The Examiner relies upon the following references:
+US 2003/0217129 Al
+Knittel et al.
+(hereinafter "Knittel")
+
+Nov. 20, 2003
+
+US 2005/0240354 Al
+Mamou et al.
+(hereinafter "Mamou")
+
+Oct. 27, 2005
+
+REJECTIONS
+I.
+
+Claims 1-9 are rejected under 35 U.S.C. § 101 as being
+
+directed to non-statutory subject matter.
+II.
+
+Claims 1-9 are rejected under 35 U.S.C. § l 12(b) as being
+
+indefinite for failing to particularly point out and distinctly claim the subject
+
+2
+
+Appeal2016-005700
+Application 13/793,361
+matter that the Appellant regards as the invention. 2
+III.
+
+Claims 1---6 are rejected under 35 U.S.C. § 102(b) as being
+
+anticipated by Knittel.
+IV.
+
+Claims 7-9 are rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Knittel and Mamou.
+FINDINGS OF FACT
+We rely upon and adopt the Examiner's findings stated in the Final
+Office Action at pages 4 and 9 and the Answer at pages 10-12. Additional
+findings of fact may appear in the Analysis below.
+ANALYSIS
+
+Indefiniteness Rejection
+35u.s.c.§112(b)
+
+A patent "specification shall conclude with one or more claims
+particularly pointing out and distinctly claiming the subject matter which the
+inventor ... regards as the invention." 35 U.S.C. § 112(b). A claim fails to
+satisfy this statutory requirement and is thus indefinite if its language, when
+read in light of the specification and the prosecution history, "fail[ s] to
+inform, with reasonable certainty, those skilled in the art about the scope of
+the invention." Nautilus, Inc. v. Biosig Instruments, Inc., 134 S. Ct. 2120,
+2124 (2014).
+In the instant Appeal, the Final Office Action states that "the metes
+and bounds of the claims are unknown." Final Action 4. More particularly,
+"[i]t is unclear how [the steps of claim 1] are performed and what they
+2
+
+The Examiner rejected claims 1-9 under either 35 U.S.C. § 112(b) or
+35 U.S.C. § 112 (pre-AIA), second paragraph. Final Action 9. Because the
+Appellant's application was filed after September 16, 2012 (see Appeal
+Br. 1), the AIA version of 35 U.S.C. § 112 is applied herein.
+3
+
+Appeal2016-005700
+Application 13/793,361
+comprise" and "[n]o apparent structure is evident from these recited steps,"
+thus rendering the claims indefinite. Id. at 9. Similarly, dependent
+claims 2-9 "inherit the deficiency" of claim 1 "and include similar
+deficiencies." Id.
+The Examiner further explains that the "element control" recited in
+claim 1 is not discussed or defined in the Specification and is not described
+in detail that would permit a person of ordinary skill in the art to discern its
+meaning. Answer 10. The Examiner points out similar interpretational
+problems regarding the terms "initiate," "execute," and "complete" (which
+the Examiner states are "recited by their names only, without any details on
+how they are performed"), as well as the features of the "prepare" step
+(claim 2). Id.
+In response, the Appellant refers to examples of using the claimed
+embodiments that do not appear in the Specification or claims ("process
+transition between take-off and combat flight for the F35 program,"
+"numerical process control equipment," and "semiconductor process
+equipment") (Reply Br. 34, 40), quotes portions of the Specification without
+providing significant additional explanation (id. at 34--35, 38-39), quotes
+portions of an allegedly related application that are not part of the
+Specification of the application involved in this Appeal (id. at 35-36), and
+offers personal opinions (Appeal Br. 34, 56; Reply Br. 35--40). In addition,
+the Appellant cites or quotes legal authorities not directed to the issue of
+claim indefiniteness. See Reply Br. 37--40.
+In view of the foregoing, the Appellant's arguments are not persuasive
+of error in the rejection of the claims for indefiniteness. Accordingly, the
+rejection of claims 1-9 under 35 U.S.C. § 112(b) is sustained.
+
+4
+
+Appeal2016-005700
+Application 13/793,361
+Patentable Subject Matter, Anticipation, and Obviousness Rejections
+35 U.S.C §§ 101, 102(b), and 103(a)
+
+We do not reach the merits of the rejections of claims 1-9 under
+35 U.S.C. §§ 101, 102(b), or 103(a) at this time. Before a proper review of
+the rejections under§§ 101, 102(b), and 103(a) can be made, the subject
+matter encompassed by the claims on appeal must be reasonably understood
+without resort to speculation. Because claims 1-9 fail to satisfy the
+requirements under 35 U.S.C. § 112, second paragraph, as explained above,
+we are constrained to reverse, proforma, the Examiner's rejections under
+35 U.S.C. §§ 101, 102(b), and 103(a). See In re Steele, 305 F.2d 859, 862
+(CCPA 1962) (a prior art rejection cannot be sustained if the hypothetical
+person of ordinary skill in the art would have to make speculative
+assumptions concerning the meaning of claim language). The reasoning of
+In re Steele applies likewise to rejections under 35 U.S.C. § 101, when, as
+
+here, the scope of the claims must be understood in order to determine
+whether they encompass ineligible subject matter.
+It should be understood that the decision to reverse the rejections of
+
+claims 1-9 under 35 U.S.C. §§ 101, 102(b), and 103(a) is based solely on the
+indefiniteness of the claims, and does not reflect on the merits of the
+underlying rejections.
+DECISION
+We REVERSE, proforma, the Examiner's decision rejecting
+claims 1-9 under 35 U.S.C. § 101 as being directed to non-statutory subject
+matter.
+We AFFIRM the Examiner's decision rejecting claims 1-9 under
+35 U.S.C. § 112(b).
+
+5
+
+Appeal2016-005700
+Application 13/793,361
+We REVERSE, proforma, the Examiner's decision rejecting
+claims 1-9 under 35 U.S.C. § 102(b).
+We REVERSE, proforma, the Examiner's decision rejecting
+claims 1-9 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+AFFIRMED
+
+6
+
+

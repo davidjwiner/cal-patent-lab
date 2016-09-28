@@ -1,0 +1,261 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/166,693
+
+06/22/2011
+
+NeilD.HUNT
+
+NETF/0054
+
+6442
+
+108911
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+Artegis Law Group, LLP I Netflix
+7710 Cherry Park Drive Suite T #104
+Houston, TX 77095
+
+CHACKO, JOE
+
+ART UNIT
+
+PAPER NUMBER
+
+2456
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+algdocketing@artegislaw.com
+kcruz@artegislaw.com
+mmccauley@artegislaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte NEIL D. HUNT
+
+Appeal2015-004643
+Application 13/166,693
+Technology Center 2400
+
+Before JOHNNY A. KUMAR, TERRENCE W. McMILLIN, and
+KAMRAN JIVANI, Administrative Patent Judges.
+KUMAR, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF CASE
+Appellant appeals under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1-20, which constitute all the claims pending in
+this application. We have jurisdiction under 35 U.S.C. § 6(b).
+
+Appeal2015-004643
+Application 13/166,693
+Exemplary Claim
+
+Exemplary claim 1 under appeal reads as follows (emphasis and
+bracketing added):
+1.
+A method for deferred license retrieval when starting to
+stream digital media content, the method comprising:
+[A.] receiving a playback selection for a digital media content
+title;
+[B.] retrieving one or more intervals of a fast start data stream
+comprising a sequence of intervals that encode an unprotected
+portion of data of the digital media content title;
+[C.] requesting a license for the digital media content title that
+authorizes playback of a protected data stream comprising a
+sequence of intervals that encode protected portions of the data
+of the digital media content title;
+[D.] identifying a transition point between the fast start data
+stream and the protected data stream based on a first interval
+boundary between adjacent intervals of the fast start data stream
+and a corresponding second interval boundary between adjacent
+intervals of the protected data stream; and
+[E.] playing at least one of the one or more intervals of the fast
+start data stream before the license for the digital media content
+title is acquired.
+References and Re} ection
+
+Claims 1-20 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Guedalia (US 2003/0135867 Al, July 17, 2003) in view
+of Wang (US 2009/0265278 Al, Oct. 22, 2009), in further view of Schlarb
+(US 6,671,879 Bl, Dec. 30, 2003). Final Act. 2-11. 1
+
+1
+
+Separate patentability is not argued for claims 2-20. Except for our
+ultimate decision, these claims are not discussed further herein.
+2
+
+Appeal2015-004643
+Application 13/166,693
+
+Appellant's Contentions
+1. Appellant contends that the Examiner erred in rejecting claim 1
+
+under 35 U.S.C. § 103(a) because:
+Guedalia does not disclose that a fast start data stream - which
+includes unprotected portions of a digital media content title is played before acquiring a license that authorizes playback of
+a protected portion of the digital media content. In fact,
+Guedalia is entirely silent regarding any type of protected data
+stream or content license.
+App. Br. 11-12; Reply Br. 5-7 (Appellant's emphasis omitted, Panel's
+emphasis added).
+2. Appellant also contends that the Examiner erred in rejecting claim 1
+under 35 U.S.C. § 103(a) because:
+Wang generally discloses techniques for managing the
+use of digital content by issuing content licenses to trusted
+users. Importantly, however, although Wang generally
+describes the use of content licenses, the reference is entirely
+silent regarding playing a fast start data stream associated \'l1ith
+a particular media title before a license associated with that
+media title is acquired. That is, in each and every embodiment
+described by Wang, a license associated with a media title must
+be acquired before the media title can be viewed. Wang does
+not disclose a media title that includes an unprotected portion
+(e.g., a fast start data stream) that is played before a license for
+the media title is acquired, and a protected portion, playback of
+which is authorized by acquisition of the license for the media
+title.
+App. Br. 13 (Appellant's emphasis omitted).
+
+Issues on Appeal
+Did the Examiner err in rejecting claim 1 as being obvious?
+
+3
+
+Appeal2015-004643
+Application 13/166,693
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellant's
+arguments that the Examiner has erred. We disagree with Appellant's
+conclusions. We adopt as our own: ( 1) the findings and reasons set forth by
+the Examiner in the action from which the appeal is taken (Final Act. 2-11 );
+and (2) the reasons set forth by the Examiner in the Examiner's Answer
+(Ans. 11-13) in response to the Appellant's Appeal Brief. We concur with
+the conclusions reached by the Examiner. We highlight the following.
+The Examiner relied upon the Guedalia reference for elements A, B,
+and E; the Wang reference for element C; and the Schlarb reference for
+element D of claim 1. Final Act. 2--4.
+The Examiner finds, and we agree:
+At the time of the invention, it would have been obvious
+to a person of ordinary skilled in the art to modify Guedalia by
+incorporating a function to receive a license from the license
+device for the content requested as disclosed by Wang. The
+motivation behind this modification would be to add a security
+feature when accessing content desired by the user.
+At the time of the invention, it would have been obvious
+to a person of ordinary skilled in the art to modify GuedaliaWang by incorporating a function to introduce interstitial time
+between two pay per view events (PPV) as disclosed by
+Schlarb. The motivation behind this modification would be to
+allow the system to easily identify the time between two
+consecutive video streams.
+Id. at 3--4.
+As to Appellant's above contentions 1 and 2, we disagree. As to
+contention 1, Appellant argues that Guedalia does not teach or suggest a
+"content license." App. Br. 12. However, Examiner did not cite Guedalia
+
+4
+
+Appeal2015-004643
+Application 13/166,693
+for the limitation. Rather, the Examiner cited Wang for teaching "the digital
+content based on usage rights has a license associated with it and a license
+must be retrieved before the user can playback the content (see para.
+[0013])." Ans. 13.
+As to contention 2, the Examiner did not cite Wang for the limitation.
+Rather, the Examiner cited Guedalia for teaching "playing at least one of the
+one or more intervals of the fast start data stream." Final Act. 3; Ans. 1112. We conclude that Appellant's arguments in their contentions 1 and 2
+ignore the actual reasoning of the Examiner's rejection. Instead, Appellant
+attacks a reference singly for lacking a teaching that the Examiner relied on
+a combination of references to show. It is well established that one cannot
+show nonobviousness by attacking references individually where the
+rejections are based on combinations of references. See In re Keller, 642
+F.2d 413, 426 (CCPA 1981); In re Merck & Co., 800 F.2d 1091, 1097 (Fed.
+Cir. 1986). The effect of Appellant's argument is to raise and then knock
+down a straw man rejection of claim 1 that was never made by the Examiner
+in that the Examiner did not rely solely on the one reference as argued. In
+other words, Appellant argues Examiner's findings that were never made.
+This form of argument is inherently unpersuasive to show Examiner error.
+Our reviewing court requires that references must be read, not in isolation,
+but for what they fairly teach in combination with the prior art as a whole.
+Merck, 800 F.2d at 1097.
+Appellant argues,
+The cited references fail to teach or suggest playing at least one
+of the one or more intervals of the fast start data stream before
+the license for the digital media content title is acquired, where
+the license for the digital media content title authorizes
+
+5
+
+Appeal2015-004643
+Application 13/166,693
+playback of a protected data stream comprising a sequence of
+intervals that encode protected portions of the data of the digital
+media content title.
+App. Br. 11.
+Appellant's argument overlooks the Court's decision in KSR Int 'l Co.
+v. Teleflex Inc., 550 U.S. 398 (2007). Appellant argues that a teaching or
+
+suggestion is required, without acknowledging that the Court specifically
+repudiated that such a "teaching or suggestion" is required to show
+obviousness. KSR, 550 U.S. at 415 ("We begin by rejecting the rigid
+approach of the Court of Appeals."). Rather, the requirement is only that the
+Examiner show "the subject matter as a whole would have been obvious at
+the time the invention was made to a person having ordinary skill in the art
+to which said subject matter pertains." KSR, 550 U.S. at 406 (emphasis
+added) (quoting 35 U.S.C. § 103); id. at 418 ("[T]he analysis need not seek
+out precise teachings directed to the specific subject matter of the challenged
+claim, for a court can take account of the inferences and creative steps that a
+person of ordinary skill in the art would employ.").
+CONCLUSION
+The Examiner has not erred in rejecting claims 1-20 as being
+unpatentable under 35 U.S.C. § 103(a).
+DECISION
+The Examiner's rejection of claims 1-20 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+6
+
+

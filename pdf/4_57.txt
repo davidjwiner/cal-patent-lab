@@ -1,0 +1,230 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/332,739
+
+12/11/2008
+
+JanneNord
+
+VM 08-011-US
+
+5063
+
+55499
+
+7590
+
+09/20/2016
+
+Vista IP Law Group, LLP (Varian)
+2160 Lundy Avenue
+Suite 230
+San Jose, CA 95131
+
+EXAMINER
+MIDKIFF, ANASTASIA
+
+ART UNIT
+
+PAPER NUMBER
+
+2884
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@viplawgroup.com
+ev@viplawgroup.com
+ipdocket@varian.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JANNE NORD and SAMI SILJAMAKI
+
+Appeal2014-005860
+Application 12/332,739
+Technology Center 2800
+
+Before THU A. DANG, ERIC S. FRAHM, and
+LARRY J. HUME, Administrative Patent Judges.
+FRAHM, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2014-005860
+Application 12/332,739
+STATEMENT OF CASE
+
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1-25, 27-32, 36, 38--43, 46, 48, and 50-57.
+Claims 26, 33-35, 37, 44, 45, 47, and 49 have been canceled. We have
+jurisdiction under 35 U.S.C. § 6(b). We affirm.
+
+Exemplary Claims
+Exemplary independent claims 1 and 50 under appeal, with emphases
+added, read as follows:
+1. A method of determining a treatment parameter, comprising:
+determining a first accumulated dose at a target region
+that undergoes motion;
+determining a second accumulated dose at a critical
+region that is different from the target region;
+determining the treatment parameter based on the
+determined first accumulated dose at the target region and the
+determined second accumulated dose at the critical region; and
+storing the treatment parameter;
+wherein the act of determining the treatment parameter is
+performed using a processor during a treatment session.
+50. A method of determining a treatment parameter,
+compnsmg:
+determining a first simulated movement of the target;
+applying a first simulated radiation to the target based on
+the first simulated movement of the target;
+determining a second simulated movement of the target
+that is different from the first simulated movement;
+applying a second simulated radiation to the target based
+on the second simulated movement of the target; and
+determining a treatment parameter for a radiation beam
+delivery based on the first and second simulated movements of
+the target.
+
+2
+
+Appeal2014-005860
+Application 12/332,739
+
+The Examiner's Rejection
+The Examiner rejected claims 1-25, 27-32, 36, 38--43, 46, 48, and
+50-57 as being unpatentable under 35 U.S.C. § 103(a) over the combination
+ofRuchala et al. (US 2007/0041494 Al, published Feb. 22, 2007) and
+Maurer et al. (US 2008/0011945 Al, published Jan. 17, 2008). Final
+Act. 2-7.
+
+Principal Issues on Appeal 1
+Based on Appellants' arguments in the Appeal Brief (App. Br. 5-10)
+and the Reply Brief (Reply Br. 1-9), the following two principal issues are
+presented on appeal:
+
+(1) Did the Examiner err in rejecting claims 1-25 and 54--57 under
+35 U.S.C. § 103(a) over the combination ofRuchala and Maurer because the
+combination fails to teach or suggest the limitations at issue in representative
+independent claim 1, namely determining a treatment parameter using
+accumulated doses at critical and target regions?
+(2) Did the Examiner err in rejecting claims 27-32, 36, 38--43, 46, 48,
+and 50-53 under 35 U.S.C. § 103(a) over the combination of Ruchala and
+
+1
+
+Independent claims 1 and 14, and claims 2-13, 15-25, and 54--57 which
+depend respectively therefrom, contain the same disputed limitations
+pertaining to determining a treatment parameter using accumulated doses of
+critical and target regions, and are argued together as a group by Appellants
+in the briefs (App. Br. 5-9; Reply Br. 1-7). Independent claims 50 and 52
+and claims 27-32, 36, 38--43, 46, 48, 51, and 53 which depend respectively
+therefrom contain the same disputed limitations, pertaining to determining a
+treatment parameter using simulated movements of a target, and are argued
+together as a group by Appellants in the briefs (App. Br. 9-10; Reply
+Br. 7-9). We select (i) claim 1 as representative of claims 1-25 and 54--57;
+and (ii) claim 50 as representative of claims 27-32, 36, 38--43, 46, 48,
+and 50-53.
+3
+
+Appeal2014-005860
+Application 12/332,739
+Maurer because the combination fails to teach or suggest the limitations at
+issue in representative independent claim 50, namely determining a
+treatment parameter using simulated movements of a target?
+ANALYSIS
+We have reviewed the Examiner's rejections (Final Act. 2-7) in light
+of Appellants' arguments in the Appeal Brief (App. Br. 5-10) and the Reply
+Brief (Reply Br. 1-9) that the Examiner has erred in view of the Advisory
+Action mailed April 13, 2012 and the Examiner's Answer including the
+Examiner's response to Appellants' arguments (Ans. 2-9). We disagree
+with Appellants' arguments. With respect to representative claims 1 and 50,
+we adopt as our own ( 1) the findings and reasons set forth by the Examiner
+in the action from which this appeal is taken (Final Act. 2-9), as well as the
+Advisory Action mailed April 13, 2012, and (2) the reasons set forth by the
+Examiner in the Examiner's Answer (Ans. 3-9) in response to Appellants'
+Appeal Brief. We concur with the conclusions reached by the Examiner.
+We note that each reference cited by the Examiner must be read, not
+in isolation, but for what it fairly teaches in combination with the prior art as
+a whole. See In re Merck & Co., 800 F.2d 1091, 1097 (Fed. Cir. 1986) (one
+cannot show non-obviousness by attacking references individually where the
+rejections are based on combinations of references). In this light,
+Appellants' arguments as to representative independent claims 1 and 50
+(App. Br. 5-10) concerning the individual shortcomings in the teachings of
+Ruchala and Maurer are not persuasive, and are not convincing of the nonobviousness of the claimed invention set forth in representative independent
+claims 1 and 50. The Examiner has relied upon the combination of Ruchala
+and Maurer as teaching or suggesting the methods of determining a
+
+4
+
+Appeal2014-005860
+Application 12/332,739
+treatment parameter recited in claims 1 and 50. We agree with the Examiner
+(Ans. 4---6) that Ruchala teaches monitoring first and second doses at target
+and critical regions. We also agree with the Examiner (Final Act. 4 and 6-7;
+Ans. 8-9) that Maurer (see e.g., i-fi-1 56 and 77) teaches the simulation
+features, as well as determining appropriate doses for critical and target
+regions (Ans. 4--5). Appellants have not shown otherwise. Based on the
+foregoing, Appellants' contentions are not persuasive of Examiner error.
+In view of the foregoing, we sustain the rejection of claims 1 and 50,
+as well as the respective claims grouped therewith, under§ 103(a) over the
+combination of Ruchala and Maurer for the reasons provided by the
+Examiner (see e.g., Final Act. 2--4 and 6-7; Ans. 4-9)(discussing claims 1
+and 50).
+CONCLUSION OF LAW
+The Examiner did not err in rejecting claims 1-25, 27-32, 36, 38--43,
+46, 48, and 50-57 under 35 U.S.C. § 103(a) over the combination of
+Ruchala and Maurer because Appellants' arguments are not persuasive of
+Examiner error in reaching the conclusion of obviousness as to
+representative claims 1 and 50.
+DECISION
+We affirm the Examiner's rejection of claims 1-25, 27-32, 36, 38--43,
+46, 48, and 50-57.
+
+5
+
+Appeal2014-005860
+Application 12/332,739
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§§ 41.50(f), 41.52(b).
+
+AFFIRMED
+
+6
+
+

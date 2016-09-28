@@ -1,0 +1,256 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/550,328
+
+07/16/2012
+
+Xiaobao Chen
+
+18570.186.1
+
+1063
+
+22913
+
+7590
+
+09/21/2016
+
+Workman Nydegger
+60 East South Temple
+Suite 1000
+Salt Lake City, UT 84111
+
+EXAMINER
+REDDIV ALAM, SRINIVASAR
+
+ART UNIT
+
+PAPER NUMBER
+
+2477
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+Docketing@wnlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte XIAOBAO CHEN
+
+Appeal2015-003001
+Application 13/550,328
+Technology Center 2400
+
+Before CAROLYN D. THOMAS, MICHAEL J. STRAUSS, and
+NABEEL U. KHAN, Administrative Patent Judges.
+KHAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Final Rejection
+of claims 1-13. We have jurisdiction under 35 U.S.C. § 6(b ).
+We reverse.
+
+1
+
+According to Appellant, the real party in interest is Orange SA. App. Br.
+3.
+
+Appeal2015-003001
+Application 13/550,328
+THE INVENTION
+Appellant's invention relates to supporting mobile internet protocol
+(MIP) networks. Spec. 1. Specifically, Appellant's invention relates to
+introducing a
+mobile home agent (MHA) in a foreign network (FN) [that] acts
+as an intermediate node between a mobile node (MN) and a
+correspondent node (CN) and allocates itself a secondary care-of
+address (SCoA) different from the care-of address (CoA) of the
+mobile node (MN), with a one-to-one relationship between the
+secondary care-of address (SCoA) and the home address
+(HAddr) of the mobile node.
+Abstract.
+Exemplary independent claim 1 is reproduced below.
+1.
+A method of operating an intermediate network entity
+between a mobile node in a foreign network and a correspondent
+node, the method comprising:
+
+allocating to the mobile node a care-of address within the
+foreign network;
+allocating a secondary care-of address to the intermediate
+network entity;
+receiving, in a session between the correspondent node
+and the mobile node, at least one session packet in a tunnel from
+a home agent in a home network of the mobile node to the
+intermediate network entity, wherein the session packet has the
+secondary care-of address as the destination address;
+decapsulating the session packet; and
+forwarding the decapsulated session packet to the mobile
+node.
+
+2
+
+Appeal2015-003001
+Application 13/550,328
+REFERENCES and REJECTIONS
+1.
+
+Claims 1-13 stand rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Soliman, Hierarchical Mobile IPv6 Mobility Management
+(HMIPv6), June, 2003 and Jung (US 2002/0015396 Al, Feb. 7, 2002).
+2.
+
+Claims 11 and 13 stand rejected under 35 U.S.C. § 112, second
+
+paragraph, as indefinite for failing to claim a structure to perform the
+claimed steps.
+
+ANALYSIS
+I.
+
+Rejection of Claims 1-13 Under 35 U.S.C. § 103(a)
+The Examiner finds Soliman teaches or suggests "allocating a
+
+secondary care-of address to the intermediate network entity," as recited in
+claim 1. Final Act. 3 (citing Soliman 9 and 19). Specifically, the Examiner
+finds Soliman's Mobility Anchor Point ("MAP") teaches the claimed
+"intermediate network entity" and that the Regional Care-of Address
+("RCoA") teaches the claimed "secondary care-of address" ("SCoA"). Final
+Act. 3.
+Appellant argues "Soliman does not teach an intermediate network
+
+entity that is allocated a SCoA." App. Br. 12. According to the Appellant,
+the RCoA is not the claimed SCoA because "the RCoA is allocated to the
+
+MN [mobile node] and is not allocated to an intermediate network entity."
+
+Id.
+We agree with the Appellant. Soliman discloses that the "RCoA is an
+address obtained by the mobile node from the visited network." Soliman 3
+(emphasis added). The RCoA is formed by the mobile node using the
+MAP' s global IP address. Soliman 10. Once the mobile node forms the
+3
+
+Appeal2015-003001
+Application 13/550,328
+RCoA it "will first need to register with a ivIAP by sending it a BU
+containing its Home Address an on-link address (LCoA). The Home
+address used in the BU is the RCoA." Soliman 7. Further, Soliman
+discloses that a "mobile node has two addresses, an RCoA on the MAP's
+link and an on-link CoA (LCoA)." Soliman 10. Thus, we agree with
+Appellants that Soliman teaches that the mobile node forms its own RCoA
+and this RCoA, contrary to the Examiner's findings, is allocated to the
+mobile node and not the MAP.
+Accordingly, we do not sustain the Examiner's rejection of claim 1.
+We also do not sustain the Examiner's rejection of claim 6, which contains
+substantially the same limitation and was rejected under substantially the
+same basis. See Final Act. 6 (citing Soliman 9 and 19). Finally, we do not
+sustain the Examiner's rejections of claims 2-5 and 7-13 which depend
+from one of claims 1 or 6, for the same reasons.
+II.
+
+Rejection of Claims 11 and 13 Under 35 U.S.C. § 112, Second
+Paragraph
+Claim 11 recites 2 "A hardware apparatus configured to perform the
+
+method of claim 1." App. Br. 17 (Claims App'x.). Claim 13 similarly
+recites "A hardware apparatus configured to perform the method of claim
+6." Id. The Examiner rejects these claims under 35 U.S.C. § 112, second
+2
+
+In the case of further prosecution, the Examiner is encouraged to determine
+whether claims 11 and 13 depend from claims 1 and 6 respectively, and if
+so, whether they comply with the requirements of (pre-AIA) 35 U.S.C.,
+fourth paragraph. Further, the Examiner is encouraged to determine whether
+claims 11 and 13, if interpreted as means-plus-function claims, recite only a
+single means (the "apparatus") and are therefore improper under (pre-AIA)
+35 U.S.C. § 112, first paragraph. See In re Hyatt, 708 F.2d 712, 714 (Fed.
+Cir. 1983).
+4
+
+Appeal2015-003001
+Application 13/550,328
+paragraph, as "claiming apparatus without having structure to incorporate
+the steps of claims 1 and 6 respectively and the specification does not
+disclose the specific structures capable of performing the steps of methods of
+claims 1 and 6." Final Act. 2. The Examiner finds the "specification
+discloses no corresponding algorithm" for a general purpose computer
+sufficient to disclose adequate structure to satisfy the requirements of 3 5
+U.S.C. § 112. Id. (citing Aristocrat Tech. Australia Pty Ltd. v. Int'! Game
+
+Tech., 521F.3d1328, 1337-1338 (Fed. Cir. 2008)).
+Appellants argue that "the functions [of method claim 1] may be
+performed by computer programs executed at the CN, HA, MHA, and MN
+[(i.e., network nodes and agents)] by suitably arranged apparatus including
+hardware, firmware and/or software." App. Br. 14. According to
+Appellants "the example embodiments of at least Figure 4a-8b and
+associated disclosure provide ample description of algorithms
+implementable by a skilled artisan on a suitable hardware apparatus." App.
+Br. 15.
+We agree with Appellants that Figures 4a-8b and their associated
+description would provide sufficient disclosure of an algorithm to one of
+ordinary skill in the art. For example, Figure 4a, which corresponds to the
+first of five disclosed embodiments, illustrates a time diagram showing the
+sequence of messages and data to send to register the mobile node with the
+MHA, and the subsequent sequence which data follows when sent from the
+CN to the MN via a tunnel. The accompanying description of the first
+embodiment explains the process of sending packets between the various
+network nodes in a step by step manner and also describes how the packets
+should be addressed and encapsulated. Spec. 6-7. One of ordinary skill in
+
+5
+
+Appeal2015-003001
+Application 13/550,328
+the art would have understood this to be sufficient disclosure of an algorithm
+to be implemented by the processors of the CN, HA, MHA, and the MN.
+The Examiner has, therefore, not established that the Specification lacks a
+corresponding algorithm disclosing sufficient structure for the claims.
+Accordingly, we do not sustain the Examiner's rejection, as indefinite,
+of claims 11 and 13.
+
+DECISION
+The Examiner's rejection of claims 1-13 under 35 U.S.C. § 103(a) is
+reversed.
+The Examiner's rejection of claims 11 and 13 under 35 U.S.C. § 112,
+second paragraph, is reversed.
+REVERSED
+
+6
+
+

@@ -1,0 +1,276 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/499,979
+
+0710912009
+
+A viinaash Sankaranarayanan
+
+H0023313 4874/108651
+
+1449
+
+92556
+
+7590
+
+09/16/2016
+
+HONEYWELL/HUSCH
+Patent Services
+115 Tabor Road
+P.O.Box 377
+MORRIS PLAINS, NJ 07950
+
+EXAMINER
+CARTER, RICHARD BRUCE
+
+ART UNIT
+
+PAPER NUMBER
+
+2485
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentservices-us@honeywell.com
+amy.hammer@huschblackwell.com
+pto-chi@huschblackwell.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AVIINAASH SANKARANARAYANAN,
+SWAROOP SHIVARAM, JULURI KUMAR, SANKESH HILOT, and
+BOBBY NARAYANAN
+
+Appeal2015-003926
+Application 12/499,979
+Technology Center 2400
+
+Before CARHERINE SHIANG, JOHN P. PINKERTON, and
+SCOTT B. HOWARD, Administrative Patent Judges.
+PINKERTON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 file this appeal under 35 U.S.C. § 134(a) from the
+Examiner's Final Rejection of claims 1--4, 6, 8-10, 12-16, 18, and 20, which
+constitute all of the claims pending in this application. Claims 5, 7, 11, 17,
+and 19 are canceled. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+Appellants identify Honeywell International, Inc. as the real party in
+interest. App. Br. 2.
+
+Appeal2015-003926
+Application 12/499,979
+STATEMENT OF THE CASE
+Introduction
+
+Appellants described and claimed invention generally relates to
+monitoring a region and directly controlling objects in the region via a single
+interface. See Spec. ,-r 1. 2
+Claim 1 is representative and reads as follows:
+1.
+
+A method comprising:
+
+receiving a video data stream of a monitored region from
+a camera monitoring the region;
+displaying the video data stream on a viewing interface;
+displaying within the video of the video data stream from
+the camera, on the viewing interface, a representation of at least
+one controllable object in the region, the controllable object
+being different than the camera;
+receiving a user input selecting the representation within
+the video data stream from the camera of the controllable object
+on the viewing interface; and
+responsive to the user input, transmitting a command to
+the controllable object in the region to control the controllable
+object,
+wherein the displayed video data stream is used as a direct
+tool or means to control, configure, activate or deactivate objects
+that are viewed on the viewing interface, wherein the user
+remotely authenticates execution of the transmitted command via
+the viewing interface, wherein the controllable object includes at
+least one of a control panel, a door, a window, a light or light
+fixture, a smoke detector or other ambient condition detector, a
+temperature control, an electrical system, and an electrical
+2
+
+Our Decision refers to the Final Office Action mailed Aug. 12, 2014
+("Final Act."), Appellants' Appeal Brief filed Sep. 19, 2014 ("App. Br.")
+and Reply Brief filed Jan. 29, 2015 ("Reply Br."), the Examiner's Answer
+mailed Dec. 15, 2014 ("Ans."), and the original Specification filed July 9,
+2009 ("Spec.").
+2
+
+Appeal2015-003926
+Application 12/499,979
+appliance, wherein the v1ewmg interface allows a user to
+continuously monitor the region while simultaneously
+controlling objects visible within the displayed video on the same
+v1ewmg screen.
+
+Rejection on Appeal
+Claims 1--4, 6, 8-10, 12-16, 18, and 20 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Rohlfing et al. (US 2006/0171453 Al;
+published Aug. 3, 2006) ("Rohlfing") and Howarter et al. (US 2008/0129821
+Al; published June 5, 2008) ("Howarter").
+
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments in the Briefs (see App. Br. 7-11; Reply Br. 2-3) and are not
+persuaded that the Examiner has erred. Unless otherwise noted, we adopt as
+our own the findings and reasons set forth by the Examiner in the Office
+Action from which this appeal is taken (Final Act. 6-22) and in the
+Examiner's Answer (Ans. 19-20), and we concur with the conclusions
+reached by the Examiner. For emphasis, we consider and highlight specific
+arguments as presented in the Briefs.
+Appellants argue the rejections are improper because Rohlfing and
+Howarter, and the combination of these references, fail to teach or suggest
+each and every limitation of the claimed invention. 3 App. Br. 8. In
+3
+
+Appellants present arguments with respect to claims 1--4, 6, 8-10, 12-16,
+18, and 20 as a group. App. Br. 7-11; Reply Br. 2-3. Accordingly, we
+select independent claim 1 as representative of this group of claims, and as
+necessary, we will address claim 1 in our analysis infra. See 37 C.F.R.
+§ 41.37(c)(l)(iv) (2012).
+
+3
+
+Appeal2015-003926
+Application 12/499,979
+particular, Appellants argue the references, individually and in combination,
+fail to teach the "receiving" step of claim 1 and the limitation "wherein the
+displayed video data stream is used as a direct tool or means to control,
+configure, activate or deactivate objects that are viewed within the displayed
+video on the viewing interface" (the "first wherein clause"). Id. Appellants
+also argue the Examiner has failed to establish a prima facie case of
+obviousness because there is no teaching or suggestion in Rohlfing and
+Howarter of the steps of "displaying," "receiving," and "transmitting," and
+the four "wherein" limitations, of claim 1. Id. at 10-11. Appellants further
+assert claim 1 is directed to the steps of "displaying," "receiving,"
+"transmitting," and the four "wherein" limitations, and then argue
+"[n ]owhere within Rohlfing or Howarter and the combination of Rohlfing
+and Howarter is there any disclosure of objects shown on a camera image,
+that are selectable and controllable through the camera image. Reply Br. 23.
+
+We are not persuaded by Appellants' arguments that the Examiner has
+erred. Appellants' arguments amount to no more than reciting the claim
+language and alleging the cited prior art references are deficient, which are
+not separate arguments for patentability of the claims. See 37 C.F.R.
+§ 41.37(c)(l)(iv) ("A statement which merely points out what a claim recites
+will not be considered an argument for separate patentability of the claim.");
+see also In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011) ("[W]e hold that
+the Board reasonably interpreted Rule 41.37 to require more substantive
+arguments in an appeal brief than a mere recitation of the claim elements and
+a naked assertion that the corresponding elements were not found in the
+prior art."); cf In re Baxter Travenol Labs., 952 F.2d 388, 391 (Fed. Cir.
+
+4
+
+Appeal2015-003926
+Application 12/499,979
+1991) ("It is not the function of this court to examine the claims in greater
+detail than argued by an appellant, looking for [patentable] distinctions over
+the prior art.").
+The Examiner has met the procedural burden of establishing a prima
+facie case of obviousness by stating reasons for the rejections, together with
+information and references as may be useful to the applicant in judging the
+propriety of continuing prosecution. Final Act. 6-22; see In re Jung, 637
+F.3d 1356, 1362 (Fed. Cir. 2011). Furthermore, the Examiner provides a
+detailed response to Appellants' arguments regarding the "receiving" step
+and the first wherein clause of claim 1. 4 See Ans. 19-20. The Court in Jung
+spoke approvingly of the Board's longstanding practice of requiring an
+Appellant to identify the alleged error in an Examiner's rejection, with the
+panel then reviewing the rejection for error based upon the issues identified
+by Appellant, and in light of the arguments and evidence produced thereon.
+Jung, 637 F.3d at 1365---66 (citing Ex parte Frye, 94 USPQ2d 1072 (BPAI
+
+2010) (precedential)). Here, Appellants have not persuaded us of Examiner
+error because they have failed to present substantive arguments explaining
+why the cited references do not teach the various steps and limitations of
+claim 1 identified by Appellants.
+Appellants also argue the cited references fail to recognize the
+problem solved by the claimed invention-"directly controlling objects
+
+4
+
+Based on the Examiner's findings regarding the combined teachings of
+Rohlfing and Howarter, and the reasons therefor, we do not agree with
+Appellants' argument that "[ n Jo where within Rohlfing or Howarter and the
+combination of Rohlfing and Howarter is there any disclosure of objects
+shown on a camera image, that are selectable and controllable through the
+camera image." See Reply Br. 2-3.
+5
+
+Appeal2015-003926
+Application 12/499,979
+appearing in a video stream without being required to go to a different
+screen"-and, therefore, "there would be no reason to combine the cited
+references." App. Br. 11. We are not persuaded by this Argument because
+the Examiner finds a person of ordinary skill in the art would have
+"recognize[ d] the advantage of modifying the proposed teachings of
+Rohlfing above by further incorporating the proposed teachings of Howarter
+above to allow a user to enhance the direct control of a door displayed on a
+video surveillance graphical user interface." Ans. 19-20. We agree with
+this finding and find it constitutes persuasive articulated reasoning with
+rational underpinning for a person of ordinary skill in the art to have
+combined Rohlfing and Howarter in the manner required by the claims. See
+KSR Int'! Co. v.Teleflex Inc., 550 U.S. 398, 418 (2007).
+Thus, we are not persuaded the Examiner erred in concluding that the
+combination of Rolfing and Howarter renders claim 1 obvious under 35
+U.S.C. § 103(a). Accordingly, we sustain the Examiner's rejection of claim
+1, as well as claims 2--4, 6, 8-10, 12-16, 18, and 20, which are not argued
+separately.
+
+6
+
+Appeal2015-003926
+Application 12/499,979
+DECISION
+We affirm the Examiner's decision rejecting claims 1--4, 6, 8-10, 1216, 18, and 20 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

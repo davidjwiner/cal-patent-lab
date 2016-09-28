@@ -1,0 +1,273 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111964,238
+
+12/26/2007
+
+Robert Khedouri
+
+10519/961/MGA-0001-l-VIII
+
+1476
+
+67813
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+BGL/
+P.O. BOX 10395
+CHICAGO, IL 60610
+
+EL-ZOOBI, MARIA
+
+ART UNIT
+
+PAPER NUMBER
+
+2656
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBERT KHEDOURI, JONATHAN AXELROD, HAROLD
+PRICE, JOHN BECKER, MARK EDINGER, and DOUGLAS R. KRAUL
+
+Appeal2015-000455
+Application 11/964,238
+Technology Center 2600
+
+Before MAHSHID D. SAADAT, JOHN A. EVANS, and ALEX S. YAP,
+Administrative Patent Judges.
+EVANS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final rejection of claims 26-39, 41, and 42. App. Br. 2. We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM. 2
+
+1
+
+The Appeal Brief identifies SanDisk Technologies, Inc., as the real party
+in interest. App. Br. 2.
+2
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed June 19, 2014, "App. Br."), the Reply Brief
+(filed October 6, 2014, "Reply Br."), the Examiner's Answer (mailed
+August 21, 2014, "Ans."), the Final Action (mailed December 24, 2013,
+"Final Act."), and the Specification (filed March 17, 2009, "Spec.") for their
+respective details.
+
+Appeal2015-000455
+Application 11/964,238
+STATEMENT OF THE CASE
+The claims relate to a system for providing content to a plurality of
+handheld devices. See Abstract. Claims 26 and 31 are independent. An
+understanding of the invention can be derived from a reading of exemplary
+Claim 26, which is reproduced below with some formatting added:
+26.
+
+A wireless portable device comprising:
+
+a wireless transceiver through which to communicate
+with a network;
+a memory; and
+a processor in communication with the wireless
+transceiver and the memory,
+wherein the processor is operative to:
+detect an available connection to the network; and
+after a connection to the network is available, select and
+download a play list from a list of playlists stored in a server in
+the network, wherein the playlists are created by peer wireless
+portable devices, wherein the wireless portable devices are
+peers to one another but not to the server.
+
+References and Rejections
+The Examiner relies upon the prior art as follows:
+Jones, et al.
+
+US 6,697,944 Bl
+
+Feb.24,2004
+
+Nunome, et al.
+
+US 6,954,763 B2
+
+Oct. 11, 2005
+
+Gibbs, et al.
+
+US 7,136,945 B2
+
+Nov. 14, 2006
+
+Plastina, et al.
+
+US 7,343,384 B2
+
+Priority Mar. 21, 2002
+
+Lamere, et al.
+
+US 7,627,605 Bl
+
+Filed July 15, 2005
+
+2
+
+Appeal2015-000455
+Application 11/964,238
+1. Claims 26 and 28-30 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jones and Gibbs. Final Act. 4--5.
+2. Claim 27 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jones, Gibbs, and Nunome. Final Act. 5-6.
+3. Claims 31, 33-37, 39, 40, and 42 stand rejected under 35 U.S.C.
+§ 103(a) as being unpatentable over Jones and Plastina. Final Act. 68.
+4. Claims 32 and 38 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jones, Plastina, and Official Notice. Final Act. 8-9.
+5. Claim 41 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Jones, Plastina, and Lamere. Final Act. 9.
+
+ANALYSIS
+We have reviewed the rejections of Claims 26-39, 41, and 42 in light
+of Appellants' arguments that the Examiner erred. We have considered in
+this decision only those arguments Appellants actually raised in the Briefs.
+Any other arguments which Appellants could have made but chose not to
+make in the Briefs are deemed to be waived. See 37 C.F.R.
+
+§ 41.37(c)(l)(iv). We are not persuaded that Appellants identify reversible
+error. We adopt the Examiner's finings and provide the following
+explanation to highlight and address specific arguments and findings
+primarily for emphasis.
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 3-7.
+
+3
+
+Appeal2015-000455
+Application 11/964,238
+INDEPENDENT CLAIMS 26, 27, AND 28-30: OBVIOUSNESS OVER JONES AND
+GIBBS
+Independent Claim 26 recites, inter alia, "download a playlist from a
+list of playlists stored in a server in the network, wherein the playlists are
+created by peer wireless portable devices." The Examiner finds Jones
+substantially teaches Claim 26, but Jones does not teach downloading a
+playlist from a server or that the playlists were created by devices that are
+peers to one another but not to the server. Final Act. 4. The Examiner finds
+Gibbs teaches sharing content between multiple devices that are peers to
+each other and Gibbs teaches playlists. Id.
+Appellants argue there is no teaching in Gibbs of a server that stores
+peer-created playlists for downloading to other peer devices. App. Br. 4.
+Rather, Gibbs teaches a peer-to-peer system wherein a track list, not a
+playlist, is directly transmitted between peer devices. Id. at 5. Moreover,
+Appellants argue Jones' server is not a peer device and does not store
+playlists. Id.
+The Examiner finds Jones teaches storing and downloading songs
+from a server, which may be a peer device. Ans. 8. Jones does not teach a
+playlist, which, under the broadest reasonable interpretation, is a "'fixed
+song sequence."' Id. (citing Spec., i-f 9). Examiner finds Gibbs teaches
+sharing content between multiple devices that are peers to each other. Ans.
+9. Gibbs teaches a track list is exchanged among the peers. Id. The
+Examiner finds a track list is a listing of songs and thus, reads on a playlist.
+
+Id.
+Appellants concede Gibbs teaches a playlist: "the communication of a
+playlist in Gibbs is between peer wireless devices." Reply Br. 3. Rather,
+
+4
+
+Appeal2015-000455
+Application 11/964,238
+Appellants contend the proposed combination of Jones and Gibbs does not
+teach a server that stores peer-created playlists for downloading other peer
+devices. Id.
+Appellants' arguments are not persuasive. We agree with the
+Examiner that Jones teaches a server-centric system for storing and
+broadcasting music-related content. We also agree that provisioning Jones'
+server with Gibbs' peer-created playlist is likely to be "a combination of
+familiar elements according to known methods" which "is likely to be
+obvious" because "it does no more than yield predictable results." KSR
+Int'!. Co. v. Teleflex Inc., 550 U.S. 398, 401 (2007).
+
+Appellants do not separately argue dependent Claims 28-30. Nor do
+they separately argue Claim 27 which is rejected over Jones, Gibbs, and
+Nunome.
+
+INDEPENDENT CLAIM
+
+31
+
+Independent claim 31 recites, inter alia, "performing the following in
+a server: receiving user preference information from a wireless portable
+device; generating a recommended playlist based on the received user
+preference information." Appellants contend the Examiner finds Plastina
+teaches these limitations. App. Br. 6. Appellants argue Plastina teaches a
+software playlist generator that is resident on the user's device, but not on
+the server, as claimed. Id.
+The Examiner finds Plastina teaches the software comprising the
+experience monitoring and playlist generating modules may optionally
+reside on the server. Ans. 11 (citing Plastina, col. 15, 11. 57---63).
+
+5
+
+Appeal2015-000455
+Application 11/964,238
+Appellants reiterate Plastina's playlist generator resides on the user's
+device, not on the server, as claimed. Reply Br. 3.
+Appellants' contentions are not persuasive. Plastina does not limit the
+teachings to user devices: "In some embodiments, the method is
+implemented in software that resides on multiple user devices." Plastina,
+col. 15, 11. 23-25. However, as found by the Examiner (Ans. 11), "all of the
+user's data (content and metadata) can be roamed to a central server."
+Plastina, col. 15, 11. 58-59.
+Appellants do not separately argue the dependent claims.
+
+DECISION
+The rejection of Claims 26-39, 41, and 42 under 35 U.S.C. § 103 is
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

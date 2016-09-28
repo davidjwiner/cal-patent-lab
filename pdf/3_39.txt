@@ -1,0 +1,690 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+95/002,027
+
+06/22/2012
+
+8073744
+
+P33964US00/25723.002
+
+4718
+
+43536
+
+7590
+
+09/19/2016
+
+MUSKIN & FARMER LLC
+100 West Main Street
+SUITE 205
+Lansdale, PA 19446
+
+EXAMINER
+PEIKARI, BEHZAD
+
+ART UNIT
+
+PAPER NUMBER
+
+3992
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+CAN CAPITAL, INC.,
+Requester,
+v.
+KABBAGE, INC.,
+Patent Owner.
+____________
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Technology Center 3900
+____________
+Before STEPHEN C. SIU, JEREMY J. CURCURI, and
+IRVIN E. BRANCH, Administrative Patent Judges.
+BRANCH, Administrative Patent Judge
+
+DECISION ON APPEAL
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Kabbage, Inc. (“Patent Owner” or “Owner”) appeals under 35 U.S.C.
+§§ 134 and 315 the Examiner’s rejection of claims 1–20 and CAN Capital,
+Inc. (“Requester”) appeals the Examiner’s non-adoption of a rejection of
+claims 1, 2, 7, 8, 10–12, 17, 18, and 20 on other grounds.1, 2 PO App. Br. 6–
+7; TPR App. Br. 4. We have jurisdiction under 35 U.S.C. §§ 134 and 315.
+
+STATEMENT OF THE CASE
+This proceeding arose from a June 22, 2012 Request for Inter Partes
+Reexamination,3 by Requester, of claims 1–20 of U.S. Patent 8,073,744 B1,
+titled “Method to Provide Liquid Funds in the Online Auction and
+Marketplace” and issued to Robert J. Frohwein and Kathryn T. Petralia on
+Dec. 6, 2011 (“the ’744 patent”).4
+The ’744 patent relates to
+a lending system for use with electronic commerce web sites
+such as auction sites. A seller may receive a cash loan for items
+placed for sale but not yet purchased by a buyer. The seller can
+be required to pay back the loan after a predetermined amount of
+time or as soon as the item for sale is sold and payment is
+received from the buyer.
+Abstract.
+Claim 1 reads as follows:
+1.
+A method of providing funds to a seller who lists
+an item for sale on an ecommerce website, the e-commerce web
+1
+
+Patent Owner’s Appeal Brief, dated January 20, 2015 (“PO App. Br.”).
+Third Party Requester’s Appeal Brief, dated January 16, 2015 (“TPR App.
+Br.”).
+3
+“Request,” filed June 22, 2012.
+4
+Based on a provisional patent application having a filing date of March 2,
+2009.
+2
+
+2
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+site being hosted by a web server, the e-commerce web site
+configured to allow sellers to list goods for sale and to allow
+buyers to bid on or purchase the goods for sale, the method
+comprising:
+visiting, by the seller using a computer connected to a
+computer communications network, the e-commerce web site;
+requesting, by the seller using the computer, cash from a
+third party via a server, the server configured to be in
+communication with a database that stores credit profiles of
+parties comprising respective credit information, wherein the
+server is configured to retrieve a credit profile associated with
+the seller from the database and make a determination, based on
+at least both the credit profile and on characteristics of the
+seller’s sales history on the e-commerce web site, whether to
+approve the requesting;
+receiving, by the seller using the computer, in response to
+the requesting, approval from the server;
+receiving, by the seller using the computer, a cash
+amount via a financial processing application, the cash amount
+associated with the approval; and
+using, by the seller, the cash amount to improve the
+seller’s cash flow or other purpose.
+
+The relevant references are:
+Melchior et al.
+US 2002/0099655 A1
+(“Melchior”)
+May et al.
+US 2006/0116957 A1
+(“May”)
+Wilson et al.
+US 2009/0144152 A1
+(“Wilson”)
+Weksler et al.
+US 2006/0149665 A1
+(“Weksler”)
+Gauselmann
+US 2005/0282614 A1
+5
+
+July 25, 2002
+June 1, 2006
+June 4, 20095
+July 6, 2006
+Dec. 22, 2005
+
+Wilson claims priority to a provisional application having a filing
+date of November 30, 2007.
+3
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+(“Gauselmann”)
+Yu et al.
+US 2007/0073618 A1 Mar. 29, 2007
+(“Yu”)
+Requester Appeals the Examiner’s decision not to maintain a rejection
+of claims 1, 2, 7, 8, 10–12, 17, 18, and 20 under 35 U.S.C. § 102(b) as
+anticipated by May. RAN 7, 16.6
+
+Owner appeals the Examiner’s decision to reject the claims as
+follows:
+Claims 1, 2, 4, 7, 10–12, 14, 17, and 20 as anticipated under 35 U.S.C.
+§ 102(b) by Melchior. RAN 8, 17.
+Claims 1–8, 10–18, and 20 as unpatentable under 35 U.S.C. § 103(a)
+over May. Id. 8–9, 16.
+Claims 1–8, 10–18, and 20 as unpatentable under 35 U.S.C § 103(a)
+over Melchior. Id. 9–10, 17.
+Claims 1, 2, 7, 8, 11, 12, 17, and 18 as unpatentable under 35 U.S.C.
+§ 103(a) over Melchior and Yu. Id. 10, 18.
+Claims 7, 8, 17, and 18 as unpatentable under 35 U.S.C. § 103(a)
+over May and Yu. Id.
+Claims 3 and 13 as unpatentable under 35 U.S.C § 103(a) over May
+and Wilson. Id. 11, 19.
+Claims 3 and 13 as unpatentable under 35 U.S.C § 103(a) over
+Melchior and Wilson. Id. 11–12, 19–20.
+
+6
+
+Right of Appeal Notice, mailed August 19, 2014.
+4
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Claims 4 and 14 as unpatentable under 35 U.S.C. § 103(a) over May
+and Melchior. Id. 12, 20.
+Claims 5, 9, 10, 15, 19, and 20 as unpatentable under 35 U.S.C.
+§ 103(a) over May and Weksler. Id. 12–13, 21–23.
+Claims 5, 9, 10, 15, 19, and 20 as unpatentable under 35 U.S.C
+§ 103(a) over Melchior and Weksler. Id. 13–14, 21–23.
+Claims 6 and 16 as unpatentable under 35 U.S.C. § 103(a) over May
+and Gauselmann. Id. 14, 23.
+Claims 6 and 16 as unpatentable under 35 U.S.C. § 103(a) over
+Melchior and Gauselmann. Id.
+
+RELATED APPEALS
+We are informed of the related appeals in Requester’s and Owner’s
+Briefs. PO App. Br. 1–3; TPR App. Br. 1; PO Resp. Br. 1;7 TPR Resp. Br.
+1.8
+ANALYSIS
+PRINCIPLES OF LAW
+In rejecting claims under 35 U.S.C. § 102, “[a] single prior art
+reference that discloses, either expressly or inherently, each limitation of a
+claim invalidates that claim by anticipation.” Perricone v. Medicis Pharm.
+Corp., 432 F.3d 1368, 1375 (Fed. Cir. 2005) (citation omitted).
+
+7
+8
+
+Patent Owner’s Respondent Brief, filed February 2, 2015.
+Third Party Requester’s Respondent Brief, filed February 19, 2015.
+5
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+In considering the disclosure of a reference, “it is proper to take into
+account not only specific teachings of the reference but also the inferences
+which one skilled in the art would reasonably be expected to draw
+therefrom.” In re Preda, 401 F.2d 825, 826 (CCPA 1968).
+The question of obviousness is resolved on the basis of underlying
+factual determinations including (1) the scope and content of the prior art,
+(2) any differences between the claimed subject matter and the prior art, and
+(3) the level of skill in the art. Graham v. John Deere Co., 383 U.S. 1, 17–
+18 (1966).
+The Examiner’s obviousness rejection must be based on
+“some articulated reasoning with some rational underpinning to
+support the legal conclusion of obviousness” . . . . [H]owever,
+the analysis need not seek out precise teachings directed to the
+specific subject matter of the challenged claim, for a court can
+take account of the inferences and creative steps that a person
+of ordinary skill in the art would employ.
+KSR Int’l Co. v. Teleflex, Inc., 550 U.S. 398, 418 (2007) (quoting In re
+Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006)).
+“When a work is available in one field of endeavor, design incentives
+and other market forces can prompt variations of it, either in the same field
+or a different one. If a person of ordinary skill can implement a predictable
+variation, § 103 likely bars its patentability. For the same reason, if a
+technique has been used to improve one device, and a person of ordinary
+skill in the art would recognize that it would improve similar devices in the
+same way, using the technique is obvious unless its actual application is
+beyond his or her skill.” KSR, 550 U.S. at 417.
+
+6
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+“The combination of familiar elements according to known methods
+is likely to be obvious when it does no more than yield predictable results.”
+KSR, 550 U.S. at 416.
+
+Owner’s Appeal: Anticipation based on Melchior
+Claims 1, 2, 4, 7, 10–12, 14, 17, and 20
+Owner argues that the Examiner erred in rejecting claims 1, 2, 4, 7,
+10–12, 14, 17, and 20, as anticipated by Melchior. PO App. Br. 7–12; PO
+Reb. Br. 1–5.9
+Melchior discloses “a comprehensive, integrated, computerized
+system for facilitating transactions in goods or services.” Melchior,
+Abstract. See also ¶ 4 (“This invention relates in general to electronic
+trading systems and methods, and in particular to computerized systems and
+methods for facilitating transactions in one or more goods or services [].”).
+In particular, Melchior facilitates “sellers obtaining financing or advance
+payment relating to transactions.” Abstract.
+The Examiner finds that Melchior describes all limitations of claims 1
+and 11. (RAN 8 (incorporating by reference Request, Appendix 2)).
+Owner argues specifically that Melchior does not disclose claim 1’s
+“mak[ing] a determination … whether to approve the [seller’s] requesting
+[cash from a third party via a server]” based on “characteristics of the seller's
+sales history on the e-commerce website” or “a credit profile associated with
+the seller,” as recited in claim 1 and commensurately recited in claim 11.
+PO App. Br. 7–12; PO Reb. Br. 1–5. Owner’s argument is based on
+9
+
+Patent Owner’s Rebuttal Brief, filed November 16, 2015.
+7
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Melchior not disclosing “characteristics of the seller’s sales history on the ecommerce website” because: 1) Melchior’s “seller qualification
+information” is not expressly or inherently “characteristics of the seller’s
+sales history on the ecommerce website;” 2) Melchior’s purchase order or
+involved transaction information stored in the trade database is not expressly
+or inherently “seller’s sales history on the e-commerce website;” and 3)
+other data stored in Melchior’s trade database does not expressly or
+inherently include “characteristics of the seller’s sales history on the ecommerce website.” Id.
+The Examiner and Requester rely on Melchior’s disclosure of a “seller
+financing program” that includes “programming necessary for seller
+financing functions” and a “trade database” that includes “all of the data
+necessary for carrying out seller financing functions.” Melchior ¶ 112
+(emphasis added); see RAN 8 (incorporating by reference Request,
+Appendix 2). Among other things, the trade database includes seller
+qualification information stored therein, to thereby allow the finance
+provider to make an informed decision about whether to provide seller
+financing. Melchior ¶ 124. Melchior also discloses that “the finance
+provider is allowed continuous access to information stored in the trade
+database 906 relating to the involved transaction.” Melchior ¶ 126.
+Owner does not dispute that Melchior discloses a server configured to
+make a determination whether to approve financing. Rather, Owner argues
+error because one of ordinary skill in the art would not understand
+Melchior’s server to be configured to base the determination on
+
+8
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+“characteristics of the seller’s sales history on the e-commerce website.” PO
+App. Br. 7–8; PO Reb Br. 2–5. We disagree.
+Owner’s arguments are unpersuasive in view of Melchior’s disclosure
+of a “seller financing program” that includes “programming necessary for
+seller financing functions” and a “trade database” that includes “all of the
+data necessary for carrying out seller financing functions.” Melchior ¶ 112.
+An ordinarily skilled artisan could reasonably infer (Preda, 401 F.2d at 826)
+Melchior’s seller financing application, that includes “programming
+necessary for seller financing functions,” takes into consideration
+“characteristics of the seller’s sales history on the e-commerce website,”
+particularly in light of the application having access to “all of the data
+necessary for carrying out seller financing functions.”
+We also find unpersuasive of error Owner’s argument that claim 1 is
+not anticipated by Melchior because Melchior does not disclose “a server
+configured to retrieve a credit profile associated with the seller from the
+database.” PO App. Br. 10–12; PO Reb Br. 5. We find that one of ordinary
+skill in the art would understand Melchior’s server being in contact with a
+“trade database” that includes “all of the data necessary for carrying out
+seller financing functions” to include the server being “configured to retrieve
+a credit profile associated with the seller from the database,” without regard
+to whether Melchior expressly recites that the trade database includes “a
+credit profile associated with the seller.” Melchior ¶ 112. There is no
+ipsissimis verbis test for determining whether a reference discloses a claim
+element, i.e., identity of terminology is not required. In re Bond, 910 F.2d
+831, 832 (Fed. Cir. 1990). One of ordinary skill in the art could reasonably
+
+9
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+infer that “a credit profile associated with the seller” is included within “all
+of the data necessary for carrying out seller financing functions.” Preda,
+401 F.2d at 826.
+In view of the foregoing, we are unpersuaded of error in the
+Examiner’s decision to reject claim 1 and also claim 11, argued on the same
+basis.
+Claim 4 depends from claim 1 and recites that “the server is
+configured such that when the seller sells the item via the e-commerce web
+site, payment for the item is paid directly to an account associated with the
+server.” Claim 14 depends from claim 11 and recites, “configuring accounts
+such that upon sale of the item via the e-commerce web site, payment for the
+item is paid directly to an account associated with a party that provided the
+cash amount to the seller.”
+Owner argues error in the Examiner’s rejection of claims 4 and 14
+over Melchior because transactions in Melchior take place offline, with users
+either receiving an instruction to make payment offline, or uploading
+evidence of other actions taken offline. PO App. Br. 12–13 (citing Melchior
+¶¶ 125, 130). Owner reasons that “Melchior is merely capable of receiving
+evidence and sending instructions for a payment that a user might complete
+offline.” Id. 13. Owner concludes that:
+While Melchior discloses, “facilitating transactions from
+early or initial stages, such as an electronically proposed
+purchase order, through to later or final stages, such as payment
+on an invoice or invoices relating to the transaction,”
+facilitating a transaction through later or final stages of a
+transaction, such as an offline payment on an invoice, does not
+support a disclosure of “wherein the server is configured such
+that when the seller sells the item via the e-commerce web site,
+10
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+payment for the item is paid directly to an account associated
+with the lending server.”
+Id. 12–13 (citing Melchior Abstract, ¶ 1).
+We are unpersuaded of error. Melchior facilitates electronic
+commerce transactions. Melchior, Abstract and ¶ 4. Melchior (¶ 125)
+permits the provider of seller financing to become directly entitled to
+payment by becoming a party to the transaction such that any credit
+assurance proceeds “can be assigned to go directly to the finance provider.”
+We are persuaded that this meets claim 4’s “the server is configured such
+that when the seller sells the item via the e-commerce web site, payment for
+the item is paid directly to an account associated with the server,” and
+similarly meets claim 14’s “configuring accounts such that upon sale of the
+item via the e-commerce web site, payment for the item is paid directly to an
+account associated with a party that provided the cash amount to the seller.”
+Claim 7 depends from claim 1 and recites that “the server is
+configured such that the determination of whether to approve is based in part
+on the seller’s sales volume on the ecommerce web site.” Claim 17 depends
+from claim 11 and recites “the determination of whether to approve is based
+in part on the seller’s sales volume on the e-commerce web site.”
+Owner argues that the rejection of claims 7 and 17 over Melchior is
+erroneous because Melchior’s trade database, which relates to Melchior’s
+credit monitoring program, is not associated with Melchior’s seller financing
+function. PO App. Br. 13–14 (referring to Melchior ¶ 110 and Figs. 5 and
+9–11). Owner asserts that the rejection impermissibly picks and chooses
+from Melchior’s unrelated teachings. Owner also argues that Melchior’s
+
+11
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+seller qualifications or purchase order information would not include “the
+seller’s sales volume on the e-commerce web site.” Id. 14.
+We are not persuaded of error. Owner’s arguments overlook
+Melchior’s disclosure that the “trade database” includes “all of the data
+necessary for carrying out seller financing functions” and that Melchior’s
+“seller financing program” includes “programming necessary for seller
+financing functions.” Melchior ¶ 112. “The trade database 506 may contain
+data relating to transactions and transaction activity between buyers and
+sellers, including, among other data, purchase order agreements, invoices,
+and settlement data.” (¶ 100). We find that, in view of this express
+teaching, Melchior discloses “the server is configured such that the
+determination of whether to approve is based in part on the seller’s sales
+volume on the ecommerce web site,” as recited in claim 7, and that “the
+determination of whether to approve is based in part on the seller’s sales
+volume on the e-commerce web site,” as recited in claim 17.
+Claim 10 depends from claim 1 and recites, “after the receiving
+approval from the server and before the receiving the cash amount:
+transmitting acceptance, by the seller using the computer, of the approval.”
+Claim 20 depends from claim 11 and recites, “after the transmitting and
+before the initiating: receiving, on the computer communications network,
+an acceptance from the seller.”
+Owner argues error in the rejection of claims 10 and 20 as anticipated
+by Melchior because Melchior discloses that the seller creates and approves
+a financing request before the request is approved. PO App. Br. 14
+(referring to Melchior, Appendix A.). Owner also argues that the rejection
+
+12
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+does not establish that, in Melchior, the seller’s acceptance is not necessarily
+(i.e., not inherently) before receiving the loan amount (id. 14–15) because
+“[i]n reality, a seller need not transmit an acceptance before receiving a cash
+amount, and Requester provides no evidence that this is the case.” Id. 15.
+We are unpersuaded of error. Requester points out that:
+Melchior’s process flow diagrams show that the system notifies
+the seller whether the financing request is approved (see “Yes”
+and “No” options on the flowchart). (Melchior, at p.17, “Preshipment Finance Process Flow”; p.20 “Postshipment Financing
+Request Process Flow.”) Melchior also discloses that
+“negotiation between the financing bank and the seller for the
+amount of financing can be on-line.” (Melchior at p.30
+“Summary Phase 2 - Financing Procedures.”) This negotiation
+is only possible if the seller can use the system to accept or reject
+the financing offer before receiving the cash amount.
+TPR Resp. Br. 7. Owner does not persuasively rebut this reasoning based on
+the seller and seller financing bank “negotiating.” See PO Reb. Br. 6–7. We
+find that, in view of Melchior’s disclosure of the seller and the financing
+provider negotiating a post-shipment payment “on-line” (Appendix 2, p. 30),
+that Melchior discloses claim 10’s “after the receiving approval from the
+server and before the receiving the cash amount: transmitting acceptance, by
+the seller using the computer, of the approval,” and claim 20’s “after the
+transmitting and before the initiating: receiving, on the computer
+communications network, an acceptance from the seller.”
+Owner does not separately argue the rejection of claims 2 and 12 as
+anticipated by Melchior. Accordingly, in view of the foregoing, we are
+unpersuaded of error in the Examiner’s determination that claims 1, 2, 4, 7,
+10–12, 14, 17, and 20 are anticipated by Melchior.
+
+13
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Obviousness Based on Melchior
+Owner argues that the Examiner erred in rejecting the claims as
+obvious over Melchior, either alone (claims 1–8, 10–18, and 20), or in
+combination with Yu (claims 1, 2, 7, 8, 11, 12, 17, and 18), Wilson (claims 3
+and 13), May (claims 4 and 14), Weksler (claims 5, 9, 10, 15, 19, and 20),
+and Gauselmann (claims 6 and 16). See, generally, PO App. Br. 15–35; PO
+Reb. Br. 1–16. Owner asserts that the evidence of commercial success
+overcomes the Examiner’s case of obviousness. PO App. Br. 16–22; PO
+Reb. Br. 14–16. Owner also argues that “the Board should reverse the
+Examiner and find that the obviousness rejections are insufficient” because
+“the Shamos Declaration does not provide any support or explanation
+necessary in an obviousness rejection and neither Requester nor the Office
+has provided proper support for the obviousness rejections as is required.”
+PO App. Br. 24. See also PO App. Br. 22–24.
+Our decision does not rely on the Shamos declaration, so we do not
+reach Owner’s general assertion regarding it. To the extent Owner argues
+specific shortcomings with respect to the Examiner’s obvious rejections, we
+address those arguments infra.
+We have reviewed Owner’s evidence of nonobviousness based on
+secondary indicia. PO App. Br. 16–22; PO Reb. Br. 14–16. We are
+unpersuaded that the evidence overcomes the prima facie case that the
+claims are obvious.
+“Evidence of commercial success . . . is only significant if there is a
+nexus between the claimed invention and the commercial success.” Ormco
+Corp. v. Align Tech., Inc., 463 F.3d 1299, 1311–12 (Fed. Cir. 2006). “When
+
+14
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+the thing that is commercially successful is not coextensive with the patented
+invention . . . [,] the patentee must show prima facie a legally sufficient
+relationship between that which is patented and that which is sold.” Demaco
+Corp. v. F. Von Langsdorff Licensing Ltd., 851 F.2d 1387, 1392 (Fed. Cir.
+1988).
+Owner’s evidence of nonobviousness is embodied almost exclusively
+in the Frohwein Declaration10 and the exhibits referenced therein. See,
+generally, Frohwein Declaration. The Frohwein Declaration is signed by an
+inventor of the ’744 patent. Id. ¶ 3. Notably, the Frohwein Declaration
+refers specifically to the limitations of claims 1 and 11 only. Id. ¶ 15. The
+dependent claims are referenced generally as “patent rights.” Id. ¶ 18 (“the
+type of commercial success enjoyed by Kabbage can only be a result of the
+patent rights secured by Kabbage, including the claimed embodiments in
+[the ’744 patent]”).
+The Frohwein Declaration states “Kabbage looks at a variety of
+factors to determine funding approval including, for example, the credit
+profile and characteristics of the seller’s sales history on an e-commerce web
+site.” Frohwein Declaration ¶ 8. The Frohwein Declaration also states that
+“Kabbage has created a new market that provides cash to small business
+owners in minutes using a shortened application process that is fully
+automated.” Id. ¶ 10. Yet, as Requester correctly points out, “the claims of
+the ’744 patent have no limitations directed to the size of the seller
+requesting the cash, the amount of cash to be provided to the seller, the
+
+10
+
+Declaration of Robert Frohwein Regarding Commercial Success (signed
+Sept. 11, 2013).
+15
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+length of the application or the amount of time in which the cash is provided
+to the seller.” Third Party Requester Comments p. 47 (filed Oct. 11, 2013).
+Inventor Frohwein’s conclusory statement notwithstanding (Frohwein
+Declaration ¶ 18 (“the type of commercial success enjoyed by Kabbage can
+only be a result of the patent rights secured by Kabbage, including the
+claimed embodiments in [the ’744 patent]”)), we are not convinced that
+Owner has demonstrated “a legally sufficient relationship between that
+which is patented and that which is sold.” Demaco, 851 F.2d as 1392.
+In order to be commensurate in scope with the claims, the commercial
+success must be due to claimed features, and not due to unclaimed features.
+Joy Technologies Inc. v. Manbeck, 751 F. Supp. 225, 229 (D.D.C. 1990),
+aff’d, 959 F.2d 226, 228 (Fed. Cir. 1992) (Features responsible for
+commercial success were recited only in allowed dependent claims, and
+therefore the evidence of commercial success was not commensurate in
+scope with the broad claims at issue.). An inventor’s opinion as to the
+purchaser’s reason for buying the product is insufficient to demonstrate a
+nexus between the sales and the claimed invention. In re Huang, 100 F.3d
+135, 140 (Fed. Cir. 1996).
+Owner’s evidence that “Kabbage looks at a variety of factors” to
+determine funding approval weighs against Kabbage’s commercial success
+resulting from the claimed factors of “the credit profile and characteristics of
+the seller’s sales history on an e-commerce web site.” Frohwein Declaration
+¶ 8. Further, Owner’s evidence that “Kabbage has created a new market that
+provides cash to small business owners in minutes using a shortened
+application process that is fully automated” (id. ¶ 10) suggests that
+
+16
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Kabbage’s commercial success likely flows from these unclaimed features,
+rather than the broader claims recited in the ’744 patent.
+Hence, we are not persuaded that the appropriate nexus exists between
+the claims of the ’744 patent and Kabbage’s commercial success to thereby
+overcome the prima facie case that claims 1–20 are obvious over the cited
+prior art.
+Regarding the Examiner’s obvious rejections based on Melchior,
+either alone or in combination with Yu, Wilson, May, Weksler, or
+Gauselmann (RAN 9–10, 17–23), we are unpersuaded of error. For the
+reasons discussed supra, we are not persuaded that Melchior is deficient as
+to the limitations of claims 1, 2, 4, 7, 10–12, 14, 17, and 20. Anticipation
+being the epitome of obviousness (see In re Pearson, 494 F.2d 1399, 1402
+(CCPA 1974); and In re Fracalossi, 681 F.2d 792, 794 (CCPA 1982)), we
+see no error in the Examiner’s determination that these claims also are
+obvious over Melchior.
+The Examiner also rejects claims 3, 5, 6, 8, 13, 15, 16, and 18 as
+obvious over Melchior. RAN 9–10. Owner does not argue that the subject
+matter recited in the limitations of these additional claims is lacking in
+Melchior. PO App. Br. 27–28; PO Reb. Br. 5–7. Instead, Owner again
+argues that Melchior is deficient with respect to the limitations of the
+independent claims and that the rejection is based on improper hindsight. Id.
+Owner’s arguments amount to a general allegation and include insufficient
+persuasive argument or evidence to convince us that the Examiner’s
+rejection is erroneous. Arguments of counsel cannot take the place of
+factually supported objective evidence. See, e.g., In re Huang, 100 F.3d
+
+17
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+135, 139-40 (Fed. Cir. 1996); In re De Blauwe, 736 F.2d 699, 705 (Fed. Cir.
+1984).
+Owner does not dispute that Yu, Wilson, May, Weksler, and/or
+Gauselmann teach or suggest the dependent claim limitations for which they
+are cited in combination with Melchior. See, generally, PO App. Br. 15–35;
+PO Reb. Br. 1–16. Instead, Owner argues that these references do not cure
+the alleged deficiencies of Melchior with respect to independent claims 1
+and 11. Id. We find Owner’s arguments premised on these alleged
+deficiencies unpersuasive of error because, as discussed supra, we do not
+find Melchior deficient with respect to claims 1 and 11.
+As to Owner’s specific arguments against the Examiner’s rejections
+based on various combinations of references that include Melchior (PO App.
+Br. 28–35; PO Reb. Br. 11–14), we are unpersuaded of error for the reasons
+stated by Requester (TPR Resp. Br. 11–15), which Owner does not
+persuasively rebut (see, generally, PO Reb. Br. 11–14). Accordingly, we
+find no error in the Examiner’s decision to reject claims 1–20 as obvious
+over Melchior, either alone or in combination with Yu, Wilson, May,
+Weksler, or Gauselmann.
+
+CONCLUSION
+The Examiner did not err in rejecting claims 1, 2, 4, 7, 10–12, 14, 17,
+and 20 as anticipated under 35 U.S.C. § 102(b) by Melchior. The Examiner
+did not err in rejecting claims 1–20 as obvious over Melchior, either alone or
+in combination with Yu, Wilson, May, Weksler, or Gauselmann.
+
+18
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+In view of the foregoing, we need not consider the propriety of the
+Examiner’s adoption or non-adoption of the rejection of claims 1–20 on
+other grounds. Cf. In re Gleave, 560 F.3d 1331, 1338 (Fed. Cir. 2009).
+DECISION
+We affirm the Examiner’s rejection of claims 1–20.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+Requests for extensions of time in this inter partes reexamination
+proceeding are governed by 37 C.F.R. § 1.956. See 37 C.F.R. § 41.79.
+In the event neither party files a request for rehearing within the time
+provided in 37 C.F.R. § 41.79, and this decision becomes final and
+appealable under 37 C.F.R. § 41.81, a party seeking judicial review must
+timely serve notice on the Director of the United States Patent and
+Trademark Office. See 37 C.F.R. §§ 90.1 and 1.983.
+
+AFFIRMED
+
+dw
+
+19
+
+Appeal 2016-002874
+Reexamination Control 95/002,027
+Patent 8,073,744 B1
+Patent Owner:
+MUSKIN & FARMER LLC
+100 West Main Street
+SUITE 205
+Lansdale, PA 19446
+
+Third-Party Requester:
+ARNOLD & PORTER LLP
+601 Massachusetts Avenue, NW
+Washington, DC 20001-3743
+
+20
+
+

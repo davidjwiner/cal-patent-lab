@@ -1,0 +1,647 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+131776,633
+
+02/25/2013
+
+Matthew Scott DAVIS
+
+SVL920070047US2
+
+3151
+
+47069
+
+7590
+
+09/16/2016
+
+KONRAD RA YNES DAVDA & VICTOR, LLP
+ATTN: IBM54
+350 SOUTH BEVERLY DRIVE, SUITE 360
+BEVERLY HILLS, CA 90212
+
+EXAMINER
+WHEATON, BRADFORD F
+
+ART UNIT
+
+PAPER NUMBER
+
+2197
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+krvuspto@ipmatters.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MATTHEW SCOTT DAVIS,
+DAVID ROBERT DRAEGER, HOWARD WSTIN GLASER,
+JAMES ANDREW MCCRIGHT,
+and RUSSELL BLAKE WRIGHT
+
+Appeal2015-001992
+Application 13/776,633 1
+Technology Center 2100
+
+Before DEBRA K. STEPHENS, KEVIN C. TROCK, and
+JESSICA C. KAISER, Administrative Patent Judges.
+STEPHENS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Introduction
+Appellants appeal under 35 U.S.C. § 134 from a Non-Final rejection
+of claims 1-26. We have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is International Business
+Machines Corporation (App. Br. 1).
+
+Appeal2015-001992
+Application 13/776,633
+STATEMENT OF THE INVENTION
+The claims are directed to a workflow program which determines if
+modifications to a current node cause modifications to a subsequent node.
+Abstract. Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+An article of manufacture comprising a computer readable
+storage device including code implementing a workflow
+program and analyzer to cause operations to be performed by the
+workflow program and the analyzer, the operations comprising:
+processing, by the workflow program, user input at one
+node in a workflow comprised of nodes and workflow paths
+connecting the nodes, wherein the user provides user input to
+traverse through at least one workflow path to reach a current
+node, and wherein the current node comprises the node in the
+workflow at which the user is currently working;
+transmitting, by the workflow program, information on the
+current node or a node following the current node to the analyzer
+in response to processing at the current node in the workflow;
+maintaining a workflow modification having workflow
+modification instances providing changes to nodes in the
+workflow;
+processing, by the analyzer, the workflow modification to
+determine whether there is at least one workflow modification
+instance providing modifications in the workflow to at least one
+subsequent node following the current node over at least one
+workflow path from the current node; and
+transmitting to the workflow program, by the analyzer, an
+update including modifications from the determined at least one
+workflow modification instance to the at least one subsequent
+node in response to determining the modifications.
+
+2
+
+Appeal2015-001992
+Application 13/776,633
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Lee
+Nonaka
+Matsui
+Morales
+Kakivaya
+
+US
+US
+US
+US
+US
+
+2003/0028550 Al
+2004/0019512 Al
+2005/0182749 Al
+2006/0271927 Al
+7,624,194 B2
+
+Feb. 6,2003
+Jan.29,2004
+Aug. 18, 2005
+Nov. 30, 2006
+Nov. 24, 2009
+
+REJECTIONS
+The Examiner made the following rejections:
+Claims 1-5, 8-14, 16-22, 24, and 25 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Morales, Matsui, and Nonaka (NonFinal Act. 2-7).
+Claims 6, 7, 15, and 23 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Morales, Matsui, Nonaka, and Kakivaya (id. at 7Q\
+\J } ·
+
+Claim 26 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Morales, Matsui, Nonaka, and Lee (id. at 9-10).
+
+ISSUES
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments that the Examiner has erred. We disagree with Appellants'
+conclusions. We adopt as our own the findings and reasons set forth by the
+Examiner in the Non-Final Office Action from which the appeal is taken
+(Non-Final Act. 2-10) and the reasons set forth in the Examiner's Answer in
+response to Appellants' Appeal Brief (Ans. 2-10). We highlight and address
+specific findings and arguments for emphasis as follows.
+3
+
+Appeal2015-001992
+Application 13/776,633
+
+35 U.S.C. § 103(a): Claims 1, 10, and 18
+Issue 1 a: Did the Examiner err in finding the combination of
+
+Morales, Matsui, and Nonaka teaches or suggests "processing, by the
+analyzer, workflow modification to determine whether there is at least one
+workflow modification instance providing modifications in the workflow to
+at least one subsequent node following the current node over at least one
+workflow path from the current node" and "transmitting to the workflow
+program, by the analyzer, an update including modifications from the
+determined at least one workflow modification instance to the at least one
+subsequent node in response to determining the modifications," as recited in
+claim 1 and similarly recited in claims 10 and 18?
+Issue 1 b: Did the Examiner err in finding Nonaka teaches or suggests
+
+"wherein the current node comprises the node in the workflow at which the
+user is currently working," as recited in claim 1 and similarly recited in
+claims 10 and 18?
+
+ANALYSIS
+Issue la
+
+Appellants contend Morales does not teach "processing, by the
+analyzer, the workflow modification to determine whether there is at least
+one workflow modification instance providing modifications in the
+workflow to at least one subsequent node following the current node over at
+least one workflow path from the current node," and "transmitting to the
+workflow program, by the analyzer, an update including modifications from
+the determined at least one workflow modification instance to the at least
+
+4
+
+Appeal2015-001992
+Application 13/776,633
+one subsequent node in response to determining the modifications," as
+recited in claim 1 and similarly recited in claims 10 and 18 (App. Br. 7-1 O;
+Reply Br. 1-2). Specifically, Appellants argue Morales does not determine
+modifications to subsequent nodes because Morales' master node
+modifications from a save event "are propagated to slave nodes without
+checking whether [the master node] modifications provide modification to a
+subsequent node" (App. Br. 8, 10). Appellants additionally argue that
+Morales' slave node is not "a subsequent node in the workflow" (Reply Br.
+1). Appellants additionally argue "the claims are not propagating
+modifications" of the master node to the slave node but instead, are sent to
+the at least one subsequent node that follow the current mode (Reply Br. 2).
+We are not persuaded. The Examiner finds, and we agree, Morales
+teaches a workflow including a master node and associated client/slave
+nodes (Non-Final Act. 2-3 (citing Morales i-fi-128, 31-33); Ans. 2; see
+Morales i-fi-121, 27). The Examiner further finds, and we agree, Morales'
+master node can be selected for modification and the master node
+modifications are propagated to associated client/slave nodes (Ans. 2 (citing
+Morales i-fi-132-33); Non-Final Act. 2-3).
+We further are not persuaded by Appellants' argument that Morales
+does not "check[ ] whether a modification provides modification to a
+subsequent node" (App. Br. 8). Morales determines which client/slave
+nodes (i.e., subsequent nodes) should be modified based on whether an
+associated master node is modified (Morales i-fi-121, 27, 32-33, Fig. 2).
+Indeed, claim 1 of Morales teaches "determining at least one related node to
+the selected node in response to a save event; and propagating the
+modifications to the at least one related node."
+
+5
+
+Appeal2015-001992
+Application 13/776,633
+Additionally, we are not persuaded by Appellants' argument that
+Morales' client/slave nodes are not subsequent nodes to Morales' master
+nodes (Reply Br. 1). We find Morales teaches changes are propagated from
+master nodes to associated client/slave nodes in a process workflow
+(Morales i-fi-121, 25, 32-33); propagating changes from master node to
+client/slave node necessarily requires that the client/slave node is subsequent
+to the master node in the master-slave hierarchy.
+Additionally, Appellants' argument that the claims preclude
+propagating modifications from the master node to the client/slave nodes
+(Reply Br. 2) is not commensurate with the scope of the claims. The claims
+do not recite language precluding the claimed "current node" (i.e., the
+master node) from being modified. Rather, the claims recite "modifications
+in the workflow to at least one subsequent node," and we find Morales
+modifies client/slave nodes subsequent to the master node (Morales i-fi-121,
+25, 32-33).
+Accordingly, we are not persuaded the combination of Morales,
+Matsui, and Nonaka does not teach or suggest "processing, by the analyzer,
+the workflow modification to determine whether there is at least one
+workflow modification instance providing modifications in the workflow to
+at least one subsequent node following the current node over at least one
+workflow path from the current node," and "transmitting to the workflow
+program, by the analyzer, an update including modifications from the
+determined at least one workflow modification instance to the at least one
+subsequent node in response to determining the modifications," within the
+meaning of claims 1, 10, and 18.
+
+6
+
+Appeal2015-001992
+Application 13/776,633
+
+Issue lb
+
+Appellants contend Morales does not teach "wherein the current node
+comprises the node in the workflow at which the user is currently working,"
+as recited in claim 1 and similarly recited in claims 10 and 18 (App. Br. 1011 ). Specifically, Appellants argue "Morales discusses propagating
+modifications that are saved at a master node, not determining modifications
+for nodes following the node at which the user is working" (id.).
+We are not persuaded. We agree with the Examiner's finding that
+Nonaka teaches a current node at which the user is working (Ans. 6 (citing
+Nonaka i-fi-f 114--15); Non-Final Act. 4). Appellants' arguments directed to
+Morales (App. Br. 10-11) do not address the Examiner's finding that
+Nonaka teaches a current node at which a user is working (Ans. 6 (citing
+Nonaka i-fi-1 114--15); Non-Final Act. 4). Because the Examiner relies on
+Nonaka, rather than Morales, to teach the disputed limitation, we are not
+persuaded the Examiner erred in finding the combination of Morales and
+Nonaka teaches or suggests "wherein the current node comprises the node in
+the workflow at which the user is currently working," as recited in claim 1
+and similarly recited in claims 10 and 18.
+
+35 U.S.C. § 103(a): Claims 2, 11, and 19
+Issue 2: Did the Examiner err in finding the combination of Morales
+
+and Matsui teaches or suggests "the update includes the modifications to at
+least one of the subsequent node and the at least one workflow path
+extending from the at least one subsequent node," as recited in claim 2 and
+similarly recited in claims 11 and 19?
+
+7
+
+Appeal2015-001992
+Application 13/776,633
+
+ANALYSIS
+Appellants contend neither Matsui nor Nonaka teaches or suggests
+"the update includes the modifications to at least one of the subsequent node
+and the at least one workflow path extending from the at least one
+subsequent node," as recited in claim 2 and similarly recited in claims 11
+and 19 (App. Br. 11-12; Reply Br. 5). Specifically, Appellants argue Matsui
+"add[s] additions of activity and transitions to tables" and Nonaka "regist[ers
+a] modification through a workflow definition managing program," but
+neither reference teaches "an update sent from an analyzer program to a
+workflow program has modifications to subsequent nodes and workflow
+paths from the at least one subsequent node" (App. Br. 11-12; Reply Br. 5).
+We are not persuaded. As discussed supra, we agree with the
+Examiner's finding that Morales teaches propagating modifications from a
+master node to a client/slave node (Ans. 2 (citing Morales i-fi-1 32-33);
+Morales i-fi-121, 25). We further agree with the Examiner's finding that
+Matsui teaches modifications to workflow paths (Ans. 7 (citing Matsui
+i-fi-1 91-97, 101)). The Examiner combines Morales and Matsui such that
+workflow modifications "include node[s] and path[s] between nodes" (id.).
+Appellants' arguments (App. Br. 11-12; Reply Br. 5) improperly
+attack Matsui and Nonaka individually and do not address the Examiner's
+combination of Morales and Matsui. Because Matsui teaches a workflow
+modification includes paths extending to the new nodes (Matsui i-fi-1 91-97,
+101, Fig. 7), we agree with the Examiner's conclusion that an ordinarily
+skilled artisan would have found it obvious to modify Morales to determine
+whether workflow paths should be modified (Ans. 7; see Non-Final Act. 6).
+
+8
+
+Appeal2015-001992
+Application 13/776,633
+Furthermore, Appellants' arguments merely describe the operation of the
+references and assert the references do not teach the claimed limitation,
+without explaining why the references are inapplicable (see App. Br. 11-12;
+see also Reply Br. 5). Accordingly, Appellants' arguments are not sufficient
+
+to persuade us that the Examiner erred in finding the combination of
+Morales and Matsui teaches or suggests "the update includes the
+modifications to at least one of the subsequent node and the at least one
+workflow path extending from the at least one subsequent node," as recited
+in claim 2 and similarly recited in claims 11 and 19.
+
+35 U.S.C. § 103(a): Claims 3, 12, and 20
+Issue 3: Did the Examiner err in finding the combination of Morales
+
+and Nonaka teaches or suggests "traversing to the at least one subsequent
+node to process, wherein the modifications will have been applied to the at
+least one subsequent node by a time the user traverses to the at least one
+subsequent node," as recited in claim 3 and similarly recited in claims 12
+and 20?
+
+ANALYSIS
+Appellants contend Nonaka does not teach or suggest "traversing to
+the at least one subsequent node to process, wherein the modifications will
+have been applied to the at least one subsequent node by a time the user
+traverses to the at least one subsequent node," as recited in claim 3 and
+similarly recited in claims 12 and 20 (App. Br. 12-13). Specifically,
+Appellants argue "Nonaka discusses traversing to a next node from a current
+node, but does not teach ... modifications are applied to the subsequent
+
+9
+
+Appeal2015-001992
+Application 13/776,633
+node from a current node to be ready by the time the user then travers[ es] to
+that subsequent node" (id. at 13).
+We are not persuaded by Appellants' arguments. As discussed supra,
+we agree with the Examiner's finding that Morales teaches propagating
+modifications from a master node to a client/slave node in a workflow (Ans.
+2 (citing Morales i-fi-132-33); Morales i-fi-121, 25) and that Nonaka teaches
+users work at nodes (Ans. 6 (citing Nonaka i-fi-f 114--15); Non-Final Act. 4).
+The Examiner further finds, and we agree, Nonaka teaches "determining if
+all work on all nodes ... ha[s] been completed" (Ans. 8 (citing Nonaka
+i-f 117)). We agree with the Examiner's conclusion that an ordinarily skilled
+artisan would have found it obvious to "only progress [to the next node]
+once all the modification[ s] ... ha[ ve] been carried out from the determined
+current to [the] next current node" (id.).
+Appellants' arguments that Nonaka does not teach completing
+modifications to a subsequent node before a user traverses to the subsequent
+node (App. Br. 13), does not persuasively address the Examiner's rejection.
+As the Examiner finds, Nonaka at least suggests that Morales' modifications
+should be propagated through all the nodes in a workflow before allowing a
+user to traverse to the next node in a modified workflow (see Ans. 8 (citing
+Nonaka i-f 117)). Indeed, Nonaka is concerned with avoiding "error[s] at an
+intermediate node" in a workflow due to untimely node access by
+"complet[ing] work on consecutive nodes to be processed by one participant
+at a time" (Nonaka i-fi-16-7). We also note Morales is directed to
+
+"synchronizing process nodes in the event of changes and/or modifications"
+(Morales i16 (emphasis added)), at least suggesting that node modifications
+should be synchronized (i.e., completed) before nodes can be traversed.
+
+10
+
+Appeal2015-001992
+Application 13/776,633
+Because both Nonaka and Morales teach, or at least suggest, that all
+modifications to nodes should be propagated before allowing a user to
+traverse through a workflow to modified nodes, we are not persuaded the
+Examiner erred in concluding the combination of Morales and Nonaka
+teaches or suggests "traversing to the at least one subsequent node to
+process, wherein the modifications will have been applied to the at least one
+subsequent node by a time the user traverses to the at least one subsequent
+node," as recited in claim 3 and similarly recited in claims 12 and 20.
+
+35U.S.C.§103(a): Claims 4, 13, and 21
+Issue 4: Did the Examiner err in finding the combination of Morales,
+Matsui, and Nonaka teaches or suggests "determining whether there are
+modifications comprises determining whether there are modifications to at
+least one workflow path extending from the at least one subsequent node,
+wherein the transmitted update includes the determined modifications to the
+at least one workflow path extending from the at least one subsequent node,"
+as recited in claim 4 and similarly recited in claims 13 and 21?
+
+ANALYSIS
+Appellants contend neither Matsui nor Nonaka teaches or suggests
+"determining whether there are modifications comprises determining
+whether there are modifications to at least one workflow path extending
+from the at least one subsequent node, wherein the transmitted update
+includes the determined modifications to the at least one workflow path
+extending from the at least one subsequent node," as recited in claim 4 and
+similarly recited in claims 13 and 21 (App. Br. 13-14; Reply Br. 6).
+
+11
+
+Appeal2015-001992
+Application 13/776,633
+Specifically, Appellants argue "Matsui discusses adding additions of activity
+and transitions to tables" (App. Br. 13 (citing Matsui i-f 101); Reply Br. 6
+(citing Matsui i-fi-191-97)) and Nonaka teaches "registration of a modification
+through a workflow definition managing program" (App. Br. 13-14), but
+neither reference teaches the claimed limitations.
+We are not persuaded by Appellants' arguments. As discussed supra,
+we agree with the Examiner's finding that Morales teaches propagating
+modifications from a master node to a client/slave node (Ans. 2 (citing
+Morales i-fi-1 32-33); Morales i-fi-121, 25). We further agree with the
+Examiner's finding that Matsui teaches modifications to workflow paths
+(Ans. 8-9 (citing Matsui i-fi-191-97, 101)). The Examiner combines Morales
+and Matsui to teach the modifications propagated in Morales include path
+modifications (id.).
+Appellants' arguments directed to Matsui or Nonaka alone (App. Br.
+13-14; Reply Br. 6) do not address the Examiner's combination of Morales
+and Matsui. Because Matsui teaches that a workflow modification includes
+paths extending to the new nodes (Matsui i-fi-1 91-97, 101, Fig. 7), we agree
+with the Examiner's conclusion that an ordinarily skilled artisan would have
+found it obvious to modify Morales to also determine if workflow paths are
+modified (Ans. 8-9; see Non-Final Act. 6). Furthermore, Appellants'
+arguments, which merely describe the operation of the references and assert
+that the references do not teach the claimed limitation do not explain why
+the references are inapplicable (see App. Br. 13-14; see also Reply Br. 6).
+Accordingly, Appellants' arguments are not sufficient to persuade us that the
+Examiner erred in finding the combination of Morales and Matsui teaches or
+suggests "determining whether there are modifications comprises
+
+12
+
+Appeal2015-001992
+Application 13/776,633
+determining whether there are modifications to at least one worktlow path
+extending from the at least one subsequent node, wherein the transmitted
+update includes the determined modifications to the at least one workflow
+path extending from the at least one subsequent node," as recited in claim 4
+and similarly recited in claims 13 and 21.
+
+35 U.S.C. § 103(a): Claims 5, 14, and 22
+Issue 5: Did the Examiner err in finding Matsui teaches or suggests
+
+"the transmitted update includes modifications comprising at least one of
+modifications, additions or deletions to nodes and workflow paths in the
+workflow following the at least one subsequent node for which the
+modifications are determined," as recited in claim 5 and commensurately
+recited in claims 14, and 22?
+
+ANALYSIS
+Appellants contend Matsui and Nonaka do not teach or suggest "the
+transmitted update includes modifications comprising at least one of
+modifications, additions or deletions to nodes and workflow paths in the
+workflow following the at least one subsequent node for which the
+modifications are determined," as recited in claim 5 and similarly recited in
+claims 14 and 22 (App. Br. 14--15, 17). Specifically, Appellants argue
+Matsui "[m]ention[s] that updates to activities and transitions are added to a
+table" and Nonaka "register[s] modifications and recursively check[s] the
+existence of a next node", but do not teach the claimed limitations (id.).
+
+13
+
+Appeal2015-001992
+Application 13/776,633
+We are not persuaded. The Examiner finds, and we agree, Matsui
+teaches adding activities and paths to a workflow (Ans. 9 (citing Matsui
+
+iTiT 91-97, 101)).
+Appellants' arguments, which merely describe the operation of the
+references and assert that the references do not teach the claimed limitation
+(see App. Br. 14--15), do not sufficiently explain why Matsui does not teach
+
+or suggest adding activities and workflow paths. Accordingly, we are not
+persuaded the Examiner erred in finding Matsui teaches or suggests "the
+transmitted update includes modifications comprising at least one of
+modifications, additions or deletions to nodes and workflow paths in the
+workflow following the at least one subsequent node for which the
+modifications are determined," as recited in claim 5 and commensurately
+recited in claims 14 and 22.
+
+35 U.S.C. § 103(a): Claims 9, 17, and 25
+Issue 6: Did the Examiner err in finding the combination of Morales,
+
+Matsui, and Nonaka teaches or suggests "an additional iteration of the
+operations of processing the workflow modification, transmitting the update,
+and applying the update ... with respect to the next current node and the
+modified workflow," as recited in claim 9 and similarly recited in claims 17
+and 25?
+
+ANALYSIS
+Appellants contend Nonaka does not teach or suggest "an additional
+iteration of the operations of processing the workflow modification,
+transmitting the update, and applying the update ... with respect to the next
+
+14
+
+Appeal2015-001992
+Application 13/776,633
+current node and the modified workflow," as recited in claim 9 and similarly
+recited in claims 17 and 25 (App. Br. 15-16). Specifically, Appellants argue
+"Nonaka discusses how participant data is processed to determine a next
+node in the workflow to set as the current node" and "traversing through
+nodes," but does not teach or suggest "an additional iteration is performed
+when traversing to a next current node in a modified workflow" (id. at 16).
+We are not persuaded. As discussed supra, we agree with the
+Examiner's finding that Morales modifies and updates nodes connected
+through a workflow (Ans. 2 (citing Morales i-fi-1 32-33); Morales i-fi-121, 25).
+The Examiner further finds, and we agree, Nonaka teaches "set[ting] the
+next node to the current node and continue processing and determining if
+there is work left to be done," i.e., Nonaka iteratively and cyclically
+processes nodes (Ans. 9 (citing Nonaka i-fi-f 116-17); see Nonaka Fig. 18).
+We agree with the Examiner's conclusion that an ordinarily skilled artisan
+would have found it obvious to iteratively modify and update connected
+nodes in Morales' workflow (see Ans. 9-10; see also Non-Final Act. 7).
+Appellants' arguments (App. Br. 15-16) do not address the
+Examiner's combination of Morales and Nonaka. Because Nonaka teaches
+iterative node processing, we agree with the Examiner's conclusion that an
+ordinarily skilled artisan would have found it obvious to iteratively modify
+and update nodes connected in a workflow (see Ans. 9-10; see also NonFinal Act. 7). Accordingly, we are not persuaded the Examiner erred in
+finding the combination of Morales and Nonaka teaches or suggests "an
+additional iteration of the operations of processing the workflow
+modification, transmitting the update, and applying the update ... with
+
+15
+
+Appeal2015-001992
+Application 13/776,633
+respect to the next current node and the modified worktlow," as recited in
+claim 9 and similarly recited in claims 17 and 25.
+
+35 U.S. C. § 103 (a): Claims 6, 7, 15, and 23
+Issue 7: Did the Examiner err in finding the combination of Morales,
+
+Matsui, Nonaka, and Kakivaya teaches or suggests "the modifications are
+for subsequent nodes and workflow paths within a fixed number of nodes
+from the current node," as recited in claim 6 and similarly recited in claims
+7, 15, and 23?
+
+ANALYSIS
+Appellants contend Matsui and Nonaka fail to teach "the transmitted
+update includes modification comprising at least one of modifications,
+additions or deletions to subsequent modes and workflow paths following
+the current the current node in the workflow," as recited in claims 6, 10, and
+16 for the reasons set forth with respect to claims 5, 14, and 22 (App. Br.
+17). For the reasons set forth above, we are not persuaded by Appellants'
+arguments.
+Appellants also contend Kakivaya does not teach or suggest "the
+modifications are for subsequent nodes and workflow paths within a fixed
+number of nodes from the current node," as recited in claim 6 and similarly
+recited in claims 7, 15, and 23 (App. Br. 16-17). Specifically, Appellants
+argue "Kakivaya discuss indicating neighborhood nodes and a routing table
+
+16
+
+Appeal2015-001992
+Application 13/776,633
+indicating neighborhood nodes and a set of neighbor nodes within a range,"
+but does not teach or suggest the claimed limitations (id.).
+We are not persuaded by Appellants' arguments that attack Kakivaya
+individually when the Examiner's rejection is over Morales, Matsui,
+Nonaka, and Kakivaya. As discussed supra, we agree with the Examiner's
+finding that Morales teaches updating subsequent nodes (Ans. 2 (citing
+Morales i-fi-1 32-33); Morales i-fi-121, 25). We further agree with the
+Examiner's finding that Kakivaya teaches transmitting information a fixed
+number of nodes away from the current node (Ans. 10 (citing Kakivaya
+5:44--50, 12:38--43)). We agree with the Examiner's conclusion that
+Morales and Kakivaya would have been combined to "specify a fix[ ed]
+number of nodes away that the [node] update can be applied to" (Non-Final
+8; Ans. 10).
+Appellants' arguments, which merely describe the operation of the
+Kakivaya and assert that Kakivaya does not teach the claimed limitation,
+does not address the combination of Morales and Kakivaya (see App. Br.
+17). Accordingly, we are not persuaded the Examiner erred by finding the
+combination of Morales, Matsui, Nonaka, and Kakivaya teaches or suggests
+"the modifications are for subsequent nodes and workflow paths within a
+fixed number of nodes from the current node," as recited in claim 6 and
+similarly recited in claims 7, 15, and 23.
+
+Remaining Claims 8, 16, 24, and 26
+
+Dependent claims 8, 16, 24, and 26 are not separately argued by
+Appellants and thus these claims fall with their respective independent
+claims (see App. Br. 11, 18). Accordingly, we sustain the Examiner's
+
+17
+
+Appeal2015-001992
+Application 13/776,633
+rejections of dependent claims 8, 16, 24, and 26 under 35 U.S.C. § 103(a) as
+being unpatentable over Morales, Matsui, and Nonaka or unpatentable over
+Morales, Matsui, Nonaka, and Lee.
+
+DECISION
+For the above reasons, the Examiner's rejections of claims 1-26 are
+affirmed.
+The Examiner's rejection of claims 1-5, 8-14, 16-22, 24, and 25
+under 35 U.S.C. § 103(a) as being unpatentable over Morales, Matsui, and
+Nonaka is affirmed.
+The Examiner's rejection of claims 6, 7, 15, and 23 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Morales, Matsui, Nonaka, and Kakivaya
+is affirmed.
+The Examiner's rejection of claim 26 under 35 U.S.C. § 103(a) as
+being unpatentable over Morales, Matsui, Nonaka, and Lee is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+18
+
+

@@ -1,0 +1,250 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/579,404
+
+10/14/2009
+
+Brian M. Johnson
+
+2043.751US1
+
+8242
+
+49845
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+SCHWEGMAN LUNDBERG & WOESSNER/EBAY
+P.O. BOX 2938
+MINNEAPOLIS, MN 55402
+
+JOHNSON, JOHNESE T
+
+ART UNIT
+
+PAPER NUMBER
+
+2168
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+USPTO@SLWIP.COM
+SLW@blackhillsip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRIAN M. JOHNSON, BHARAT KUMAR VENKAT,
+JENNIFER M. DANTE, RAFFI TUTUNDJIAN,
+KRISTINE CHIN ARONSON, and RICHARD D. HENDERSON,
+
+Appeal2015-005321
+Application 12/579,404
+Technology Center 2100
+
+Before BRUCE R. WINSOR, HUNG H. BUI, and
+AMBER L. HAGY, Administrative Patent Judges.
+WINSOR, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the final rejection
+of claims 1-20, which constitute all the claims pending in this application.
+We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+The real party in interest identified by Appellants is eBay Inc. App. Br. 2.
+
+Appeal2015-005321
+Application 12/579,404
+STATEMENT OF THE CASE
+Related Appeals
+
+Appellants identify the following appeals as related to the instant
+Appeal:
+Application
+
+Appeal
+
+Notice of Appeal Decided
+
+12/579,3982
+12/579,402 3
+12/685,441 4
+
+2014-004890
+2013-010488
+2015-000578
+
+Nov. 30, 2012
+Feb. 13,2012
+Mar. 17, 2014
+
+Dec. 11, 2015
+Dec. 11, 2015
+Appeal pending
+
+The Invention
+
+Appellants' disclosed invention relates to "data communications and,
+more particularly, to ... search[ing] a data source based on compatibility
+with an application." Spec. i-f 1 (2nd occurrence). Claim 1, which is
+illustrative, reads as follows:
+1.
+
+A method comprising:
+receiving a first query that includes keywords;
+
+using a data processor to identify at least one keyword in
+the first query as application information describing a first
+application;
+inferring remaining keywords in the first query as item
+information that describes a first item that a user is searching
+for on a network-based marketplace, the first item being a part
+that is compatible with the first application; and
+searching a data storage device, the searching including
+identifying a first listing on the data storage device as matched,
+the first listing including an item offered for sale on the
+network-based marketplace and including listing item
+information that matches the item information in the query, the
+2
+
+App. Br. 3.
+App. Br. 3.
+4
+Communication Regarding Related Appeals and Interferences, filed Apr. 1,
+2014 in Application 12/579,402.
+3
+
+2
+
+Appeal2015-005321
+Application 12/579,404
+first listing further including listing application information that
+is matched based on application information.
+
+The Rejection
+Claims 1-20 stand rejected under 35 U.S.C. § 102(b) as being
+anticipated by Piper et al. (US 2007 /0219982 Al; Sept. 20, 2007) ("Piper").
+
+The Record
+Rather than repeat the arguments here, we refer to the Appeal Brief
+("Br." filed Jan. 7, 2014) and the Specification ("Spec." filed Oct. 14, 2009)
+for the positions of Appellants and the Final Office Action ("Final Act."
+mailed June 6, 2013) and Examiner's Answer ("Ans." mailed May 8, 2014)
+for the reasoning, findings, and conclusions of the Examiner. Only those
+arguments actually made by Appellants have been considered in this
+decision. Arguments that Appellants did not make in the Appeal Brief have
+not been considered and are deemed to be waived. See 37 C.F.R.
+§ 41.37(c)(l)(iv) (2013).
+
+ISSUE
+Claims 1-20 are subject to the same ground of rejection. Appellants'
+patentability arguments directly address only claim 1. Br. 8-12. Therefore,
+we select claim 1 as the representative claim, pursuant to our authority under
+37 C.F.R. § 41.37(c)(l)(iv). Accordingly, claims 2-20 stand or fall with
+claim 1.
+The issue presented by Appellants' contentions is as follows: Does
+the Examiner err in finding Piper discloses "identify[ing] at least one
+keyword in [a] first query as application information describing a first
+application[, and] inferring remaining keywords in the first query as item
+
+3
+
+Appeal2015-005321
+Application 12/579,404
+information that describes a first item ... , the first item being a part that is
+compatible with the first application" (the "inferring limitation"), as recited
+in claim 1?
+
+ANALYSIS
+The Examiner finds Piper discloses the inferring limitation. Final Act.
+2-3 (citing Piper i-fi-172, 79). Appellants contend because Piper uses an
+automobile-part abbreviation dictionary to determine the "remaining
+term(s)" of the query, Piper does not disclose "inferring remaining keywords
+in the query as item information." See Br. 10-12. We agree with the
+Examiner's findings.
+A pertinent dictionary definition is: "in· fer ... v.t. 1. to derive by
+reasoning; conclude or judge from premises or evidence . . . . 3. to guess;
+speculate; surmise." THE RANDOM HOUSE DICTIONARY OF THE ENGLISH
+LANGUAGE 978 (2nd ed. (unabridged) 1987). Therefore, the inferring
+limitation of claim l requires identifying one or more keywords of a query
+as application information, e.g., the make and model of a vehicle (see Spec.
+
+i1 47), and judging from that evidence that one or more of the remaining
+keywords of the query describe an item that is a compatible with the
+application, e.g., a replacement part for the identified vehicle (see id.). We
+note that the inferring limitation recites inferring remaining keywords as
+item identifiers; it neither recites nor precludes inferring the identity of a
+particular item from the item identifiers.
+Piper discloses a process for determining from a user input string
+(Piper i1 71, Figs. 7 (item 182), 8 (item 200) ) "which of the terms are for
+identifying the model or possible models of automobile, and which are for
+identifying the part or possible parts being sought" (Piper i1 72). Piper
+4
+
+Appeal2015-005321
+Application 12/579,404
+"first determine[ s] the vehicle model or possible models .... " (Piper i-f 72,
+Figs. 7 (item 184), 8 (item 202).) Piper further discloses "determin[ing] the
+automobile part or possible parts based on the remaining term(s)" (Piper
+
+i-f 79) of the user input string. In other words, Piper discloses drawing the
+inference that one or more of the terms of the user input string remaining
+after identification of the model of the automobile, i.e., the recited
+"application information," represents part information, i.e., the recited "item
+information." That Piper uses an "automobile-part abbreviation dictionary"
+(Piper i-f 79) to identify a specific part from the item information does not
+obviate the Examiner's finding that Piper discloses inferring remaining
+keywords as item information.
+We find no error in the rejection of representative claim 1 as
+anticipated by Piper. Accordingly, we sustain the rejection for anticipation
+by Piper of claim 1 and claims 2-20, which fall with representative claim 1.
+
+DECISION
+The decision of the Examiner to reject claims 1-20 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§§ 41.50(f), 41.52(b).
+AFFIRMED
+
+5
+
+

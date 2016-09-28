@@ -1,0 +1,180 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/339, 153
+
+12/28/2011
+
+Scott Charles Evans
+
+248894 (12764-307)
+
+3530
+
+6147
+
+7590
+
+09/23/2016
+
+GENERAL ELECTRIC COMPANY
+GLOBAL RESEARCH
+ONE RESEARCH CIRCLE
+BLDG. Kl-3A59
+NISKAYUNA, NY 12309
+
+EXAMINER
+KARIM, ZIAUL
+
+ART UNIT
+
+PAPER NUMBER
+
+2127
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+haeckl@ge.com
+gpo.mail@ge.com
+Lori.e.rooney@ge.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SCOTT CHARLES EVANS,
+JOHN ANDERSON FERGUS ROSS, COLIN CRAIG MCCULLOCH,
+LANG TONG, PETER ALAN GREGG, JOHN DAVID HILTON, JR.,
+ANDREW FERREE, JOSHUA BENJAMIN SCHOENSTEDT, and
+WASEEM IBRAHIM FAIDI 1
+
+Appeal2015-005606
+Application 13/339, 153
+Technology Center 2100
+
+Before KRISTEN L. DROESCH, NORMAN H. BEAMER, and
+SCOTT B. HOWARD, Administrative Patent Judges.
+DROESCH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek review under 35 U.S.C. § 134(a) from the Final
+Rejection of claims 1-5, 9-15, 19, and 20, all of the pending claims in the
+application. We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+1
+
+Appellants indicate the real party-in-interest is General Electric Company.
+Br. 3.
+
+Appeal2015-005606
+Application 13/339, 153
+BACKGROUND
+The disclosed invention relates to a control system and method for
+predicting power generation of one or more wind turbines of a wind farm.
+See Abstract, Spec. 1.
+
+Representative claim 1, reproduced from the Claims Appendix of the
+Appeal Brief, reads as follows (disputed limitation in italics):
+1. A control system for use with a plurality of wind
+
+turbines, said control system comprising:
+a processor; and
+a memory device coupled to said processor, said memory
+device configured to store a plurality of program modules that,
+when executed by said processor, configure said processor to:
+receive data representative of a power generation
+of a first wind turbine of the plurality of wind
+turbines; and
+determine an expected power generation of a
+second wind turbine of the plurality of wind
+turbines based on the power generation of the first
+wind turbine.
+REJECTION
+Claims 1-5, 9-15, 19, and 20 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Lovmand et al. (US 2011/0301769 Al; published
+Dec. 8, 2011) ("Lovmand"), and Barnes et al. (US 6,975,925 Bl; issued
+Dec, 13, 2005) ("Barnes").
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments in the Appeal Brief and the Examiner's Answer. We agree with
+Appellants' arguments. We highlight and address specific findings and
+arguments below for emphasis.
+
+2
+
+Appeal2015-005606
+Application 13/339, 153
+The Examiner finds Lovmand teaches all of the limitations of
+independent claims 1 and 11 with the exception of "determin[ing] an
+expected power generation of a second wind turbine of the plurality of wind
+turbines based on the power generation of the first wind turbine," as recited
+in claim 1, and recited similarly in claim 11. See Final Act. 3--4 (citing
+Lovmand i-fi-f 11, 34, 60, Fig. 1), 9-10 (citing Lovmand i161, Fig. 1). The
+Examiner finds that Barnes teaches or suggests the aforementioned
+limitation based on Barnes' s teaching of "calculating a forecast energy
+output that the wind farm will produce in response to the current wind
+pattern." Final Act. 4 (quoting Barnes Abstract, citing Barnes 1:41---62), 10
+(quoting Barnes Abstract, citing Barnes 1:41---62). Also in support of this
+position, the Examiner directs attention to Barnes Figure 1 element 110 that
+describes "calculat[ing] the energy output that the wind farm will produce
+based on the retrieved energy output." See Final Act. 2 (citing Barnes 2 :2665, Fig. 1); Ans. 15 (citing Barnes 2:26---65, Fig. 1).
+We agree with Appellants' argument that Barnes does not teach or
+suggest determining an expected power generation of a second wind turbine
+of the plurality of wind turbines based on the power generation of the first
+wind turbine because Barnes' does not teach operating at the individual
+turbine level, but instead teaches a forecasting method that operates at the
+windfarm level. See Br. 9. Appellants' arguments are consistent with the
+Barnes' s teachings. See Br. 7-9 (citing and reproducing Barnes Abstract,
+1:41---62, 2:26---65, Fig. 1). The Examiner does not explain meaningfully
+how Barnes' teachings directed to forecasting energy output for a wind farm
+based on wind patterns associated with a corresponding wind farm energy
+output (see Barnes 1:41-62, 2:26--42), teaches or suggests forecasting
+3
+
+Appeal2015-005606
+Application 13/339, 153
+energy output for a second wind turbine of a wind farm (i.e., plurality of
+wind turbines) based on the energy output of a first wind turbine of the wind
+farm.
+For these reasons, we are constrained to reverse the rejection of
+independent claims 1 and 11, and claims 2-5, 9, 10, 12-15, 19, and 20
+dependent therefrom.
+DECISION
+We REVERSE the rejection of claims 1-5, 9-15, 19, and 20.
+REVERSED
+
+4
+
+

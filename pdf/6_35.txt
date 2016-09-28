@@ -1,0 +1,404 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/001,096
+
+12/23/2010
+
+Kenichi Sakakibara
+
+2257-0381PUS1
+
+8961
+
+127226
+
+7590
+
+09/16/2016
+
+EXAMINER
+
+Birch, Stewart, Kolasch & Birch, LLP
+P.O. Box 747
+Falls Church, VA 22040-0747
+
+GRUBB, MATTHEW
+
+ART UNIT
+
+PAPER NUMBER
+
+2838
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mailroom@bskb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KENICHI SAKAKIBARA
+
+Appeal2015-000263
+Application 13/001,096
+Technology Center 2800
+
+Before ROMULO H. DELMENDO, N. WHITNEY WILSON, and
+AVELYN M. ROSS, Administrative Patent Judges.
+DELMENDO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+The Applicant (hereinafter the "Appellant") 1 appeals under 35 U.S.C.
+
+§ 134(a) from a final decision of the Primary Examiner to reject claims 514.2 We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+The Appellant states that the real party in interest is "DAIKIN
+INDUSTRIES, LTD." (Appeal Brief filed June 11, 2014, hereinafter
+"Appeal Br.," 1).
+2 Appeal Br. 3, 7; Final Office Action delivered electronically on September
+9, 2013, hereinafter "Final Act.," 1-12).
+
+Appeal2015-000263
+Application 13/001,096
+
+BACKGROl.J1'-JD
+The subject matter on appeal relates to a power converter
+(Specification, hereinafter "Spec.," i-f 1). Representative claim 5 is
+reproduced from page 20 of the Appeal Brief (Claims App.), with key
+limitations highlighted in italics, as follows:
+5. A power converter, comprising:
+a plurality of input lines applied with a polyphase AC
+voltage;
+a plurality of capacitors interposed between ones of said
+plurality of input lines;
+a first DC power supply line;
+a second DC power supply line applied with a lower
+potential compared with said first DC power supply line;
+a converter comprising:
+first diodes respectively provided correspondingly
+to said plurality of input lines, each of said first diodes having
+an anode connected to corresponding one side of said plurality
+of input lines and a cathode connected to said first DC power
+supply line side;
+second diodes respectively provided
+correspondingly to said plurality of input lines, each of said
+second diodes having an anode connected to said second DC
+power supply line side and a cathode connected to said
+corresponding one side of said plurality of input lines; and
+switch parts respectively provided correspondingly
+to said plurality of input lines, selecting conduction/nonconduction through said first diode between said corresponding
+one of said plurality of input lines and said first DC power
+supply line and conduction/non-conduction through said
+second diode between said corresponding one of said plurality
+of input lines and said second DC power supply line based on
+external signals and bringing said corresponding one of said
+plurality of input lines into conduction with said first and
+second DC power supply lines in a state of not receiving said
+signals; and
+a clamp capacitor connected between said first and
+second DC power supply lines.
+2
+
+Appeal2015-000263
+Application 13/001,096
+THE REJECTIONS
+The Examiner rejected the claims under 35 U.S.C. § 103(a) as
+follows:
+I.
+
+Claims 5-10 as unpatentable over Wei et al. (hereinafter "Wei") 3
+
+II.
+
+in view of Pond4 , 5 ·
+'
+Claims 11-13 as unpatentable over Wei in view of Pond and Sato
+et al. 6 ; and
+
+III.
+
+Claim 14 as unpatentable over Wei in view of Pond and Kachi. 7
+
+(Ans. 2---6; Final Act. 2-12.)
+
+3
+
+Lixiang Wei, et al., Matrix Converter Topologies with Reduced Number of
+Switches, 1 PROC. OF PESC 57---63 (2002).
+4
+US 5,943,223 issued August 24, 1999.
+5
+Although not included in the statement of the rejection (see, e.g., In re
+Hoch, 428 F.2d 1341, 1342 n.3 (CCPA 1970)), the Examiner also relied on
+Toyoshima (US 2009/0128224 1A..l published l\1ay 21, 2009) "to provide
+evidence that normally-on (depletion mode) switches were old and known at
+the time of invention to provide a noise amount about an order of magnitude
+smaller than that of enhancement mode switches over a broad frequency
+region including the region (e.g., 5KHz) [in which] Wei's switches operate"
+(Examiner's Answer delivered electronically on July 31, 2014, hereinafter
+"Ans.," 2; see also Final Act. 3). In addition, the Examiner cited to Nair
+(US 2005/0040792 Al published February 24, 2005) "as an evidentiary
+reference that depletion mode JFETs were old and known at the time of
+invention to provide beneficial characteristics such as a reduction in the
+required silicon area while maintaining the electrical natures of other
+conventional semiconductor switch parts" (id. at 6). Because the Appellant
+does not raise any procedural issues but instead addresses the rejections on
+the substantive merits (Appeal Br. 14, 18-19; Reply Brief filed September
+29, 2014, hereinafter "Reply Br.," 1-8), we consider these references as part
+of the relied-upon evidence.
+6
+US 5,764,496 issued June 9, 1998.
+7
+US 5,430,636 issued July 4, 1995.
+3
+
+Appeal2015-000263
+Application 13/001,096
+DISCUSSION
+Grouping of Claims
+
+The Appellant's arguments are directed solely to claims 5 and 6,
+which are subject to Rejection I (Appeal Br. 8-19). Therefore, except for
+separately argued claim 6, all other claims subject to Rejection I (i.e., claims
+7-10) stand or fall together with claim 5. See 37 C.F.R. § 41.37(c)(l)(iv).
+In addition, because the Appellant relies on the same arguments for all three
+rejections and claims 11-14 depend, either directly or indirectly, from claim
+5, our ruling on claim 5 controls our decision as to Rejections II and III.
+Claim 5
+
+The Examiner found that Wei describes a power converter including
+every limitation of claim 5 except "Wei is silent on the switch parts
+[']bringing said corresponding one of said plurality of input lines into
+conduction with said first and second DC power supply lines in a state of not
+receiving said signals[']" as required by the claim (Final Act. 2-5). 8 The
+Examiner found that, in contrast to the Appellant's claimed subject matter,
+"Wei teaches using normally-off switches" (id. at 2). 9 The Examiner found
+further, however, that Pond teaches a converter similar to Wei's converter
+
+8
+
+It appears that both the Appellant and the Examiner agree that the claim
+
+limitations in dispute require "normally-on" switch parts (Appeal Br. 9;
+Final Act. 2-5)
+9
+According to the Examiner, "Wei does not explicitly teach that the switch
+parts are 'normally on' switches, but teaches that it is desirable that the
+switches are on upon start-up to pre-charge the capacitors of the system" (id.
+at 5) (citing Wei's Section IV, first bulleted item). The Examiner also found
+that "Wei further describes a normal operation phase where the clamp
+capacitor voltage is higher than Vdc (see e.g., Wei- Section IV, second
+bullet), thus the clamp capacitor is not charged during normal operation
+since it was charged during the start-up phase" (Ans. 3).
+4
+
+Appeal2015-000263
+Application 13/001,096
+(Final Act. 5) and "Pond teaches that normally-on (depletion mode) switches
+and normally-off (enhancement mode) switches are art recognized
+equivalents as switch parts and may be optionally used in place of one
+another" (Ans. 2) (citing Pond col. 8, 11. 17-21). The Examiner concluded
+from these findings that "[i]t would have been obvious to one of ordinary
+skill in the art . . . to modify the switch parts of Wei to include the depletion
+or normally-on switch parts of Pond in order to take advantage of the
+beneficial operating characteristics of depletion mode switches as taught by
+Pond as desired" (Final Act. 5---6). As supporting evidence of these
+"beneficial operating characteristics," the Examiner relied on Toyoshima,
+which was found to teach that normally-on (depletion mode) switches
+exhibit lower noise over a broad range of frequencies including the region in
+which Wei's switches operate (Final Act. 3) (citing Toyoshima Fig. 6 and
+
+ii 44).
+The Appellant's principal argument is that the Examiner failed to
+articulate a sufficient reason for providing normally-on switches in Wei
+because "neither Pond nor Toyoshima describes a beneficial characteristic of
+normally-on switches when installed in a power converter" (Appeal Br. 12).
+According to the Appellant, "Toyoshima is directed to a completely different
+technological field than the present invention (power converters)" (id.) and
+"Toyoshima's disclosure is not reasonably pertinent to any problem
+considered by Wei (or by [the] Appellant)" (id. at 14}-i.e., Toyoshima is
+non-analogous art.
+Because the Examiner failed to address the Appellant's argument
+based on the two prongs of the non-analogous art test, we exclude
+Toyoshima from the realm of applicable prior art. In re Clay, 966 F.2d 656,
+
+5
+
+Appeal2015-000263
+Application 13/001,096
+658 (Fed. Cir. 1992) (explaining that the non-analogous art test considers the
+threshold question whether a prior art reference is "'too remote to be treated
+as prior art'") (quoting In re Sovish, 769 F.2d 738, 741 (Fed. Cir. 1985)).
+Although we are constrained to agree with the Appellant as to
+Toyoshima, we detect no reversible error in the Examiner's overall
+conclusion that a person having ordinary skill in the art would have
+combined Wei and Pond in the manner claimed by the Appellant. In re
+Jung, 637 F.3d 1356, 1365 (Fed. Cir. 2011).
+
+Specifically, Wei teaches that "[ w]hen the converter is started, all the
+switches in the line side tum on initially and the clamp capacitor voltage is
+charged up to the maximum peak line voltage" (Section IV, first bulleted
+item). Wei further teaches that "[u]nder normal operation, the clamp
+capacitor voltage is higher than Vdc" and that "[hJenee, the clamp diode is
+reverse biased and this clamp circuit does not operate" (id., second bulleted
+item). Wei states that "[u ]nder a fault state, all switches in the converter are
+turned off immediately" (emphasis added) and that "[t]he energy stored in
+
+the inductive load flows into the clamp capacitor to avoid high voltage
+spikes" (id., third bulleted item). Pond teaches a power converter, which is
+structurally similar to that described in Wei, in which the MEM
+(microelectromechanical) switches 18 can be either of the normally-open or
+normally-closed type (Fig. 5; col. 8, 11. 17-24).
+Given these facts, we discern no error in the Examiner's conclusion
+that a person having ordinary skill in the art would have constructed Wei's
+circuit to operate with normally-open switches based on the expectation that
+either normally-open or normally-closed switches would work as
+interchangeable components, as suggested in Pond. KSR Int 'l. Co. v.
+
+6
+
+Appeal2015-000263
+Application 13/001,096
+Telej1ex Inc., 550 U.S. 398, 416 (2007) ("[W]hen a patent claims a structure
+
+already known in the prior art that is altered by the mere substitution of one
+element for another known in the field, the combination must do more than
+yield a predictable result."). See also In re Fulton, 391F.3d1195, 1200
+(Fed. Cir. 2004) ("[C]ase law does not require that a particular combination
+must be the preferred, or the most desirable, combination described in the
+prior art in order to provide [the] motivation [or reason] for the current
+invention."); In re Mayne, 104 F.3d 1339, 1340 (Fed. Cir. 1997) ("Because
+the applicants merely substituted one element known in the art for a known
+equivalent, this court affirms [the rejection for obviousness]."); In re Fout,
+675 F.2d 297, 301(CCPA1982) ("Express suggestion to substitute one
+equivalent for another need not be present to render such substitution
+obvious.").
+The Appellant also argues that the Examiner's proposed modification
+of Wei would impermissibly change Wei's principle of operation (Appeal
+Br. 16). According to the Appellant, "if Wei's normally-off switches were
+replaced with normally-on switches, when the clamp capacitor is precharged to maximum peak line voltage, the normally-on switches would
+immediately allow this charge to start leaking out, thus discharging the
+clamp capacitor voltage below the desired level" (id. at 17).
+The Appellant's argument is unpersuasive. The Examiner found that
+"Wei teaches the use of blocking diodes in series with the line side switches
+and the clamping capacitor, which [would] block the reverse discharge path"
+(Ans. 5). That finding has not been refuted (Reply Br. 3-8). Moreover,
+Pond teaches that normally-on switches have been successfully implemented
+in similar power converters and, therefore, it would reasonably appear that
+
+7
+
+Appeal2015-000263
+Application 13/001,096
+their implementation in Wei's circuit would have been within the creativity
+and technical grasp of a person having ordinary skill in the art. KSR, 550
+U.S. at 421.
+The Appellant also argues that the prior art did not recognize the
+source of a problem solved by the Appellant and that "the Examiner did not
+consider [the] Appellant's discovery of the source of a problem" (Appeal Br.
+17-18). We do not find this argument persuasive. First, the Supreme Court
+of the United States criticized the approach that "patent examiners should
+look only to the problem the patentee was trying to solve" and explained that
+"[u ]nder the correct analysis, any need or problem known in the field of
+endeavor at the time of invention and addressed by the patent can provide a
+reason for combining the elements in the manner claimed." KSR, 550 U.S.
+at 420. Moreover, the Appellant's argument based on the discovery of a
+problem and its solution is not substantiated by objective evidence (e.g.,
+declaration evidence) and is therefore ineffective. See, e.g., In re Geisler,
+116 F.3d 1465, 1470 (Fed. Cir. 1997) (mere lawyer's arguments and
+conclusory statements, which are unsupported by concrete factual evidence,
+are entitled to little probative value).
+For these reasons, we uphold the Examiner's rejection of claim 5.
+Claim 6
+
+Claims 6 depends from claim 5 and recites the additional limitation
+that "said switch parts include a junction field effect transistor [JFET]"
+(Appeal Br. 20).
+The Examiner found that "JFETs were old and known at the time of
+invention to provide a normally-on type of switch (depletion)" (Final Act.
+6). In support, the Examiner cited to Nair (i-f 3) "as an evidentiary reference"
+
+8
+
+Appeal2015-000263
+Application 13/001,096
+(Ans. 6). The Examiner concluded that "[i]t would have been obvious to
+one of ordinary skill in the art ... to modify Wei in view of Pond to include
+JFE Ts instead of the IGBT in order to take advantage of the old and known
+beneficial operating characteristics of JFETs" (Final Act. 6).
+The Appellant argues that "[i]n the present invention, the use of a
+junction field effect transistor can facilitate the use of wide-band-gap
+devices of SiC, GaN, or the like as the switches, thereby improving control
+performance and conversion efficiency" (Appeal Br. 18) (citing Spec. i-f 45).
+In addition, the Appellant argues that "the Examiner has merely presented
+conclusory statements ... without articulating any reason or rationale why
+one of ordinary skill in the art would have used them in a power converter"
+(id. at 19).
+
+The Appellant's arguments are unpersuasive. First, the statement in
+the Specification that JFETs can facilitate improved control performance and
+conversion efficiency is not substantiated by any objective evidence (e.g.,
+declaration evidence including comparative testing). Second, Nair discloses
+that normally-on (depletion mode) switches may be provided in the form of
+JFETs (i-f 3). Nair teaches (id.):
+The benefit of a reduction in the required silicon area through
+the use of a depletion mode JFET as the gating switch in a
+battery pack application has been claimed. The depletion mode
+device also resembles a MOSFET device in its electrical nature,
+presenting high static impedance to the driving circuitry under
+all conditions of this application.
+Given that Wei and Pond would have suggested the use of normallyon switches in a power converter, a person of ordinary skill in the art would
+have found it obvious to provide such normally-on switches in the form of
+
+9
+
+Appeal2015-000263
+Application 13/001,096
+JFETs with the reasonable expectation of obtaining their well-known
+operational characteristics.
+Accordingly, we also uphold the rejection of claim 6.
+
+SUMMARY
+The Examiner's final decision to reject claims 5-14 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+AFFIRMED
+
+10
+
+

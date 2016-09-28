@@ -1,0 +1,409 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/414,940
+
+03/08/2012
+
+Brent L. Hadley
+
+B86918 1030US.l (0008.4)
+
+8217
+
+128836
+
+7590
+
+09/20/2016
+
+Womble Carlyle Sandridge & Rice LLP
+Attn: IP Docketing
+P.O. Box 7037
+Atlanta, GA 30357-0037
+
+EXAMINER
+GARMON, BRIAN
+
+ART UNIT
+
+PAPER NUMBER
+
+2176
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocketing@wcsr.com
+patentadmin@Boeing.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRENT L. HADLEY and PATRICK J. EAMES
+
+Appeal2015-006666
+Application 13/414,940
+Technology Center 2100
+
+Before JAMES R. HUGHES, SCOTT B. HOWARD, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+HOWARD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a Non-Final
+Rejection of claims 1-22, which constitute all of the claims pending in this
+application. Although the action appealed from is a Non-Final Rejection,
+because the application has been twice rejected we have jurisdiction
+pursuant to 35 U.S.C. §§ 6 and 134. Ex parte Lemoine, 46 USPQ2d 1420,
+1423 (BPAI 1994) (precedential).
+We affirm.
+
+1
+
+Appellants identify The Boeing Company as the real party in interest.
+App. Br. 1.
+
+Appeal2015-006666
+Application 13/414,940
+THE INVENTION
+The disclosed and claimed invention is directed to a panoptic
+visualization document collection.
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+An apparatus for implementation of a panoptic
+visualization document collection system, the apparatus
+comprising a processor and a memory storing executable
+instructions that in response to execution by the processor cause
+the apparatus to implement at least:
+a document parser configured to receive and disassemble
+one or more electronic documents into a plurality of constituent
+document components each of which includes respective media
+content, the documents being disassembled according to a
+predetermined type of the documents;
+a colligater coupled to the document parser and configured
+to colligate the document components, including for each of one
+or more document components of the plurality, the colligater
+being configured to:
+identify one or more lirJ<:s bet\'l/een the document
+component and one or more other document components
+of the plurality, the one or more links being identified
+according to one or more of the documents, type of
+documents, or media content of the document component
+and one or more other document components; and in
+metadata according to some metadata schema and
+associated with the document component,
+provide structured infomlation identifying the one
+or more links between the document component and one
+or more other document components, and including a
+unique identifier for each of the one or more other
+document components,
+wherein the colligater is further configured to
+communicate the document components and metadata as a
+panoptic visualization document collection; and
+
+2
+
+Appeal2015-006666
+Application 13/414,940
+a page storage and a metadata storage configured to
+receive and store the document components and metadata,
+respectively.
+REFERENCES
+The prior art relied upon by the Examiner as evidence in rejecting the
+claims on appeal is:
+Horvitz
+Boose
+Gerhard
+
+US 2004/0267701 Al
+US 7,246,328 B2
+US 2009/0317020 Al
+
+Dec. 30, 2004
+July 17, 2007
+Dec. 24, 2009
+
+REJECTIONS
+Claims 1---6, 8-13, 15-20, and 22 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Horvitz in view of Boose. Non-Final
+Act. 3-18.
+Claims 7, 14, and 21 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Horvitz in view of Boose and Gerhard. Non-Final Act.
+
+18-19.
+
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments that the Examiner erred. In reaching this decision, we have
+considered all evidence presented and all arguments made by Appellants.
+We are not persuaded by Appellants' arguments regarding claims 1-22.
+Claims 1, 8, 15, and 22
+Whether The Prior Art Discloses The Claimed Metadata
+Appellants argue the Examiner erred in finding Boose teaches
+metadata identifying "links between the document component and one or
+3
+
+Appeal2015-006666
+Application 13/414,940
+more other document components" and "a unique identifier for each of the
+one or more other document components," as recited in claim 1. App. Br. 8;
+Reply Br. 2--4. More specifically, Appellants argue Boose only teaches that
+"an original drawing sheet may be reviewed, as a legacy graphic file 22, to
+identify objects in the drawing sheet, which objects may then be contained in
+a reference object file. Boose also discloses that a source sheet may be
+linked to a target sheet." App Br. 8. Appellants also argue even if Boose
+teaches a unique identifier, it is not "the claimd [sic, claimed] invention in
+which the structured information in the metadata includes a unique identifier
+of other document component(s) (alleged to correspond to Boose's
+drawing sheets)." Id.
+The Examiner finds "Boose explicitly discloses creating links between
+electronic files based on the media content of the file." Non-Final Act. 5
+(citing Boose 7:25--41). The Examiner further finds Boose teaches creating
+a metadata file that includes information about those links in extensible
+markup language. Id. (citing Boose 10:8-22). Additionally, the Examiner
+finds Boose teaches an object id to identify objects with a unique identifier
+and that it would have been obvious to one of ordinary skill in the art at the
+time of the invention to combine a unique identifier for the links to the
+teachings of Horvitz and Boose in order to prevent the problems associated
+with having conflicting identifiers. Id.; Ans. 18, 19.
+We are not persuaded by Appellants arguments that the Examiner
+erred. Instead, we agree with and adopt the Examiner's findings. Boose
+teaches a method for "performing automated linking between sheets of a
+drawing set." Boose 7:26--42. Boose further teaches a file that "contains all
+the reference designators, off-sheet references, elements, components, and
+4
+
+Appeal2015-006666
+Application 13/414,940
+packets of information identified by the reference recognizer 24 and the
+features added by the reference object generator 26, as described below."
+Boose 10:8-22 (emphasis omitted). Based on the broadest reasonable
+interpretation of metadata, that file contains metadata and the links discussed
+above. Finally, although Boose does not explicitly disclose using a unique
+identifier "for each of the one or more other document components," as
+recited in claim 1, Boose teaches using unique identifiers (Boose 11 :9--45)
+and would have at least suggested to a person of ordinary skill in the art
+using that unique identifier for the other document components to avoid
+problems associated with using the same identifier for multiple objects.
+
+Whether The Obvious To Try Rationale Was Conclusory
+Appellants argue the Examiner erred in finding an ordinarily skilled
+artisan would have found it obvious to try modifying Horvitz and Boose.
+App. Br. 8-9. Although Appellants acknowledge that claims can be obvious
+under§ 103(a) if it would have been "obvious to try" the proposed
+combination, Appellants argue the Examiner improperly relied on
+conclusory statements without an articulated reasoning. Id.
+Appellants also argue in the Reply Brief that the Examiner's finding
+in the Answer providing a more detailed reason should be treated as a new
+ground of rejection. Reply Br. 4. Appellants further argue that even if the
+modification proposed by the Examiner were made, it would not result in the
+claimed invention.
+We are not persuaded by Appellants' arguments that the Examiner
+erred. In the Answer, the Examiner expanded upon the finding of why a
+
+5
+
+Appeal2015-006666
+Application 13/414,940
+person of ordinary skill in the art would modify the Horvitz/Boose
+combination to include unique identifiers:
+The use of an unique identifier to reference a document would
+have been obvious to try because conflicting identifiers or
+variables has generally been a problem in the computer science
+field well before the time of the current invention. In other
+words, are generally links or variables unique at least to their
+scope. In other words, if identifiers for a group of variables is
+generate in the form of names, a predictable solution would be to
+create unique or different names for each variable.
+Accordingly it would been obvious to try "unique identifiers" for
+document components.
+Ans. 19. The Examiner's finding of a reason to modify the teachings of the
+references is supported by "some articulated reasoning with some rational
+underpinning to support the legal conclusion of obviousness." In re Kahn,
+441F.3d977, 988 (Fed. Cir. 2006), cited with approval in KSR Int'! Co. v.
+Teleflex Inc., 550 U.S. 398, 418 (2007).
+
+Additionally, we do not address Appellants' contention that the
+Examiner's finding of a reason to modify should have been designated a
+new ground of rejection. Any request to designate the Answer a new ground
+of rejection "must be by way of petition to the Director," and any failure to
+do so within two months and before the filing of the Reply Brief "will
+constitute a waiver of any arguments that a rejection must be designated as a
+new ground of rejection." 37 C.F.R. § 41.40(a). The time for filing such a
+petition has passed and the request is waived.
+Finally, to the extent Appellants' argument that the modification
+relied on by the Examiner does not teach the claimed invention (Reply Br. 4)
+is commensurate with the argument raised in the Appeal Brief, we
+previously found that argument unpersuasive. To the extent Appellants raise
+6
+
+Appeal2015-006666
+Application 13/414,940
+a new argument in the Reply Brie±: because it was presented for the first
+time in the reply brief, it has been waived. Optivus Technology, Inc. v. Ion
+Beam Applications S.A., 469 F.3d 978, 989 (Fed. Cir. 2006); accord Ex
+parte Borden, 93 USPQ2d 1473, 1473-74 (BPAI 2010) (informative
+
+opinion) (absent a showing of good cause, the Board is not required to
+address an argument newly presented in the reply brief that could have been
+presented in the principal brief on appeal); 37 C.F.R. §41.41(b)(2) (same).
+
+Whether There Was A Rationale For Modification Of The Prior Art
+Appellants argue that a person of ordinary skill in the art would not
+have combined Boose and Horvitz because "Boose' s system alone purports
+to solve the cited need, and without any combination with Horvitz" and
+"Horvitz appears to already address the same drawbacks addressed by Boose
+(i.e., searching and browsing large amounts of information to identify items
+of interest), which suggests that one skilled in the art would not have been
+led to Boose." App. Br. 9
+We are not persuaded by Appellants' arguments that the Examiner
+erred. Contrary to Appellants' arguments, in KSR International Co. v.
+Teleflex Inc., 550 U.S. 398, 417 (2007), the Supreme Court held that "if a
+
+technique has been used to improve one device, and a person of ordinary
+skill in the art would recognize that it would improve similar devices in the
+same way, using the technique is obvious unless its actual application is
+beyond his or her skill." 550 U.S. at 417. Moreover, we agree with the
+Examiner that a person of ordinary skill in the art would have modified
+Horvtiz with the teaching of Boose because "Boose discloses a need 'for a
+system that efficiently creates the intelligent graphic linking between
+7
+
+Appeal2015-006666
+Application 13/414,940
+common elements depicted on different drawing sheets,'" and the
+combination of the teachings of the references would "create a more
+efficient linking system." Ans. 20 (citing Boose 2:65---67). The fact that
+Horvitz may have provided a solution does not mean that the person of
+ordinary skill in the art would not consider better or different alternatives.
+According! y, we sustain the Examiner's rejection of claim 1, along
+with the rejections of claims 8 and 15, which are argued on the same
+grounds, and claim 22, which is not separately argued.
+Claims 2-5, 9-12, and 16--19
+Appellants argue the Examiner erred in finding Horvitz teaches the
+additional limitations of the dependent claims because the Examiner noted
+Horvitz does not teach links:
+Dependent Claims 2-5 recite various specific manners according
+to which link( s) between a document component and other
+document component( s) are identified. For each of these claims,
+the Examiner cites Horvitz as disclosing the recited features.
+Appellants note that the Examiner already concedes that Horvitz
+does not disclose identifying links according to independent
+Claim 1 (and similarly independent Claims 8 and 15). Office
+Action of Sep. 30, 2014, pp. 5, 7 and 9-10. Appellants
+respectfully submit that if Horvitz does not disclose identifying
+links as per the independent claims, Horvitz cannot reasonably
+disclose the specific manners of identifying littles as per Claims
+2-5.
+App. Br. 10.
+Nonobviousness cannot be established by attacking the references
+individually when the rejection is predicated upon a combination of prior art
+disclosures. In re Merck & Co. Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986).
+The test for obviousness is not whether the claimed invention is expressly
+
+8
+
+Appeal2015-006666
+Application 13/414,940
+suggested in any one or all of the references, but whether the claimed subject
+matter would have been obvious to those of ordinary skill in the art in light
+of the combined teachings of those references. In re Keller, 642 F.2d 413,
+425 (CCP A 1981 ). Because Appellants arguments are directed to Horvitz
+individually and not the combined teachings of the references-specifically
+the combination of Horvitz and Boose as discussed with regard to claim 1we are not persuaded by Appellants arguments that the Examiner erred.
+Accordingly, we sustain the Examiner's rejection of claims 2-5, 9-12,
+and 16-19.
+Clams 6, 13, and 20
+
+Appellants argue the Examiner erred in finding Horvitz and Boose
+teach or suggest the additional limitations of claims 6, 13, and 20. App. Br.
+10-11. Specifically, Appellants argue paragraph 28 of Horvitz does not
+contain the additional limitations recited in the claims. Id. Appellants also
+argue the Examiner did not address the rejection in the Examiner's Answer.
+The Examiner finds that paragraph 3 6 of Horvitz teaches the
+additional limitation of claims 6, 13, and 20. Non-Final Act. 12, 14, 16-17.
+We are not persuaded of error because Appellants' argument does not
+address the reasoning relied on by the Examiner (Non-Final Act. 12, 14, and
+16-17) and, thus, does not adequately address the rejection on appeal.
+Specifically, although the Examiner relies on paragraph 36 of Horvitz (id.),
+Appellants do not address that paragraph. Instead, Appellants only address
+paragraph 28. App. Br. 10-11.
+Nor are we persuaded that the Examiner's failure to specifically
+respond to Appellants' argument in the Answer is relevant to whether or not
+9
+
+Appeal2015-006666
+Application 13/414,940
+the Examiner erred in rejecting the claims in the Non-Final Action.
+Appellants cite to MPEP 707.07([) (Reply Br. 7), which discusses the
+contents of Office Actions. That is not applicable to the Examiner's Answer
+in Appeal. Instead, the relevant sections of the MPEP states:
+If there is a complete and thorough development of the issues at
+the time of final rejection, it is possible to save time in preparing
+the examiner's answer required by 37 CPR 41.39 by copying a
+rejection from a prior Office action and then pasting the copied
+rejection into the answer.
+
+MPEP 1207 .2. Although the Examiner can add further explanation if
+necessary, it is not required. Id. The Examiner's Answer included a copy of
+the rejection of the claims. See Ans. 10, 12, 14--15. No more is required.
+Accordingly, we sustain the Examiner's rejection of claims 6, 13, and
+20.
+Claims 7, 14, and 21
+
+With respect to dependent claims 7, 14, and 21, Appellants merely
+contend that because the additional reference used in the rejection of those
+claims (Gerhard) do not cure the shortcomings of the other references
+applied against claim 1, the Examiner failed to make a prima facie case of
+obviousness for these claims. App. Br. 11. Because we determine that the
+rejection of claim 1 is not erroneous for the reasons discussed above, we
+sustain the rejections of these claims.
+
+10
+
+Appeal2015-006666
+Application 13/414,940
+DECISION
+For the above reasons, we affirm the Examiner's decisions rejecting
+claims 1-22.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

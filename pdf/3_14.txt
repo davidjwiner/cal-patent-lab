@@ -1,0 +1,163 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/856,282
+
+04/03/2013
+
+Jerry WOLFE
+
+P49077
+
+3630
+
+7055
+
+7590
+
+09/22/2016
+
+EXAMINER
+
+GREENBLUM & BERNSTEIN, PLC
+1950 ROLAND CLARKE PLACE
+RESTON, VA 20191
+
+HARRISON, CHANTE E
+
+ART UNIT
+
+PAPER NUMBER
+
+2619
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+gbpatent@gbpatent.com
+greenblum.bernsteinplc@gmail.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex Parte JERRY WOLFE, ANDREW FOUST, COLLEEN MCCLELLAN,
+STEPHEN DEANGELIS, JASON GLAZIER, and SAMIR ROHATGI
+
+Appeal2015-003341
+Application 13/856,282
+Technology Center 2600
+
+Before JEFFREY S. SMITH, BETH Z. SHAW, and
+AARON MOORE, Administrative Patent Judges.
+SHAW, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of claims 1-26, which represent all the pending
+claims. App. Br. 2. We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+INVENTION
+The invention is for a visual representation of a flavor profile. See
+Spec. p. 1, 11. 7-8, p. 4, 11. 4--5.
+
+Appeal2015-003341
+Application 13/856,282
+Claim 1 is illustrative and is reproduced below:
+1. A method of generating a visual representation of a flavor profile,
+compnsmg:
+obtaining preference information representing flavor preferences of a
+user with respect to each of a plurality of flavor categories;
+determining, using a microprocessor, a length of a plurality of
+graphical elements, each graphical element being assigned to one of the
+flavor categories, based on the preference information corresponding to the
+respective flavor category, wherein the length of each graphical element
+indicates the relative preference for a flavor category with respect to the
+other flavor categories; and
+disposing on a computer generated display screen the plurality of
+graphical elements each having a display length determined by the
+determining, the disposing positioning the plurality of graphical elements
+around a circle such that each of the graphical elements has a portion of an
+external boundary in contact with an external boundary of the circle at a
+contact point and such that each of the graphical elements protrudes from the
+contact point away from the circle in accordance with the determined display
+length.
+
+REJECTIONS
+The Examiner rejected claims 1-26 under 35 U.S.C. § 102(e) as being
+anticipated by Yong-Yeol Ahn et al., "Flavor network and the principles of
+food pairing," December 15, 2011 ("Ahn"). Ans. 2---6.
+
+2
+
+Appeal2015-003341
+Application 13/856,282
+ANALYSIS
+We have reviewed Appellants' arguments in the Briefs, the
+Examiner's rejection, and the Examiner's response to the Appellants'
+arguments. We concur with Appellants' conclusion that the Examiner erred
+in finding that Ahn discloses "determining, using a microprocessor, a length
+of a plurality of graphical elements, each graphical element being assigned
+to one of the flavor categories, based on the preference information
+corresponding to the respective flavor category, wherein the length of each
+graphical element indicates the relative preference for a flavor category with
+respect to the other flavor categories," as recited in claim 1.
+As identified by Appellants, Ahn describes generating a flavor
+network in which ingredients that are found most commonly in the recipe
+database are shown as a larger circle, as compared to ingredients that are
+found less commonly, which are shown as a smaller circle. App. Br. 6; Ahn
+Fig. 2. We find no description in the cited portions or Figures of Ahn,
+however, regarding determining a length of a plurality of graphical elements,
+wherein the length indicates the relative preference for a flavor category.
+Thus, we disagree with the Examiner's finding that Ahn discloses
+"determining, using a microprocessor, a length of a plurality of graphical
+elements, each graphical element being assigned to one of the flavor
+categories, based on the preference information corresponding to the
+respective flavor category, wherein the length of each graphical element
+indicates the relative preference for a flavor category with respect to the
+other flavor categories," as recited in independent claim 1, and as similarly
+recited in independent claims 7, 13, and 19.
+
+3
+
+Appeal2015-003341
+Application 13/856,282
+Accordingly, we do not sustain the Examiner's anticipation rejection
+of claims 1-26.
+
+DECISION
+We reverse the rejections of claims 1-26.
+REVERSED
+
+4
+
+

@@ -1,0 +1,228 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/868,312
+
+06/15/2004
+
+Thomas L. DiStefano III
+
+8201-0002
+
+4586
+
+55246
+
+7590
+
+09/22/2016
+
+Cuenot, Forsythe & Kim
+12161 KEN ADAMS WAY
+SUITE 120
+WELLINGTON, FL 33414
+
+EXAMINER
+TSUI, WILSON W
+
+ART UNIT
+
+PAPER NUMBER
+
+2178
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ptomail@iplawpro.com
+tforsythe@iplawpro.com
+kcuenot@iplawpro.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte THOMAS L. DISTEFANO III
+
+Appeal 2011-00144 7
+Application 10/868,312
+Technology Center 2100
+
+Before CARL W. WHITEHEAD JR., ERIC S. FRAHM, and
+ANDREW J. DILLON, Administrative Patent Judges.
+DILLON, Administrative Patent Judge.
+DECISION ON REMAND
+In a second Decision on Request for Rehearing (mailed December 3,
+2014), we maintained our new grounds of rejection entered in a first
+Decision on Remand (mailed July 16, 2014) pursuant to 37 C.F.R.
+
+§ 41.50(b) and rejecting claims 24-26 under 35 U.S.C. § 102(b) as
+anticipated by D' Arlach (US 6,026,433; Feb. 15, 2000). 1 The United States
+Court of Appeals for the Federal Circuit issued a decision vacating the new
+
+1
+
+All Board decisions are available from the following USPTO e-FOIA
+webpage: httu://www.uspto.,gov/yatents-aQplicaticm-process/patent-trial-andaQpeal-board/decisions.
+
+Appeal 2011-00144 7
+Application 10/868,312
+grounds of rejection and remanding this case back to the Board. See In re
+Distefano, 808 F.3d 845 (Fed. Cir. 2015). 2
+
+According to the Court, our new grounds of rejection failed to satisfy
+a first step for determining claimed information falls within the purview of
+the printed matter doctrine; namely a first determination that the claimed
+information is printed matter. Id. at 848-849. The Court explained "a
+limitation is printed matter only if it claims the content of information" (id.
+at 848) and "printed matter must be matter claimed for what it
+communicates" (id. at 850). The Court further explained that, if and only if
+the above first determination (i.e., "printed matter" determination) is
+affirmative, then a second determination is made as to whether the claimed
+information is functionally related to the claimed invention. Id. The Court
+concluded our new grounds of rejection erred in the first determination
+because:
+2
+
+A full history of this appeal, leading to the present Decision on Remand, is
+collectively provided by the second Decision on Request for Rehearing and
+the Court's presently applied decision. As stated by the Court, this is the
+second remand. Distefano, 808 F.3d at 847. The first remand resulted from
+our failure to issue a new grounds of rejection in accord with In re
+Biederman, 733 F.3d 329 (2013), which was not decided until two months
+after our first Decision on Request for Rehearing (mailed Aug. 20, 2013)
+and clarified that an affirmance is improper if an Examiner's underpinning
+determination for a rejection does not "survive" the Board's findings
+(Biederman, 733 F.3d at 338); e.g., does not survive, as in this case, our
+finding that the disputed claim limitation was harmlessly misconstrued by
+the Examiner (because it constituted unpatentable subject matter under the
+printed matter doctrine). This second remand resulted from our failure to
+understand that the printed matter doctrine does not extend to data unless
+claimed for communicated informational content thereof, which is not
+instructed by what we perceived as the controlling case law, In re Lowry
+(addressed infra 3).
+2
+
+Appeal 2011-00144 7
+Application 10/868,312
+Although the selected web assets can and likely do communicate
+some information, the content of the information is not claimed.
+And where the information came from, its "origin," is not part of
+the informational content at all. Nothing in the claim calls for
+origin identification to be inserted into the content of the web
+asset. Therefore, the Board erred in finding that the origin of the
+web assets constituted printed matter in the claims at issue and
+erred in assigning the origin no patentable weight under the
+printed matter doctrine in finding anticipation by D 'Arlach.
+Distefano, 808 F.3d at 850-51.
+
+As stated by the Court above, we did not complete the first
+determination. We misunderstood In re Lowry, 32 F.3d 1579 (Fed. Cir.
+1994), as instructing that "merely underlying data in a database" (id. at
+1583) is "analogous to printed matter" (id. at 1582-84 (stated four times
+therein)) and thus unpatentable unless functionally related to the claimed
+invention (id. at 1584). Under the above misunderstanding, we did not
+perceive a need to assess whether claim 24' s web assets are claimed for
+communicated informational content thereof.
+Per the Court's finding that claim 24's description of the web assets
+does not satisfy the above requirement, we remand this patent application to
+the Examining Corps for consideration consistent with the vacating of the
+new grounds of rejection by the Court (supra) and our reversing of the
+Examiner's rejection of claim 24 (and depending claims 25 and 26) in the
+first Decision on Remand (mailed July 16, 2014). We remind the parties
+that the first Decision on Remand reverses the rejection of claim 24 because:
+The Examiner construes the asserted claim language"provided to the user interface from outside the user interface by
+the user"-as requiring merely that web assets be provided to a
+user interface as a result of the user, e.g., "by the user's request."
+Ans. 15. We disagree with the Examiner. The claim language
+3
+
+Appeal 2011-00144 7
+Application 10/868,312
+at issue plainly states that the database's included web assets are
+provided: to the user interface; from outside the user interface;
+and by the user.
+Decision at 8. We note the above holding presents no determination of
+whether it would have been novel or obvious for a database, and particularly
+one implemented in the manner recited by claim 24, to "include ... web
+assets provided to the user interface from outside the user interface by the
+user" (claim 24).
+We further note, for the Examiner's consideration, Appellant's related
+arguments to the Court and Board. In arguments to the Court, Appellant
+contends claim 24's user-provided web assets are not "pre-existing elements
+within the user interface[.]" Appellant's CAFC Brief 4 (submitted March
+14, 2014). And, in arguments to the Board, Appellant contends claim 24's
+user-provided web assets are "web assets (found within the database) that
+have been uploaded by the user." Req. Reh'g. 13-14 (submitted July 30,
+2013). Even assuming claim 24 requires user uploading of web assets to the
+user interface, 3 it is unlikely that ordinarily skilled artisans were not using
+graphical user interfaces to upload various software assets at the time of
+invention. 4 See e.g., US 6,963,910 Bl to Belknap et al., "Graphical User
+Interface for Creating Assets" (filed March 3, 2000), col. 14, 11. 30-40.
+However, being a review board, we leave the Examiner to determine the
+appropriateness of further rejections.
+
+3
+
+Appellant acknowledges the asserted uploading is not explicitly recited.
+Appellant's CAFC Brief, fn. 10.
+4
+
+The present application claims priority to U.S. App. No. 09/589,235 (now
+US 6,771,291) filed June 7, 2000. Spec. 1.
+4
+
+Appeal 2011-00144 7
+Application 10/868,312
+ORDER
+We remand the present application to the Examiner for consideration
+consistent with the following history.
+Our new grounds of rejection of claim 24, and depending claims 25
+and 26, under 35 U.S.C. § 102(b) as anticipated by D'Arlach is vacated by
+the Court's decision addressed herein (Distefano, 808 F.3d 845).
+The Examiner's rejection of claim 22, and depending claim 23, under
+35 U.S.C. § 102(b) as anticipated by Barber (US 5,930,777; July 27, 1999)
+remains affirmed consistent with our first Decision on Remand (mailed July
+16, 2014).
+The Examiner's rejection of claim 24, and depending claims 25-28,
+under 35 U.S.C. § 102(b) as anticipated by D' Arlach remains reversed
+consistent with our first Decision on Remand. 5
+REMANDED
+
+5
+
+As noted in the second Decision on Request for Rehearing (mailed
+December 3, 2014), the rejection of dependent claims 25 and 26 is reversed
+in view of their dependency from claim 24. Id. at fn. 2.
+5
+
+

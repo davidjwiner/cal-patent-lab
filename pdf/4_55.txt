@@ -1,0 +1,185 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111735,976
+
+04/16/2007
+
+Jing Jung HUANG
+
+251812-1230
+
+2962
+
+109673
+
+7590
+
+09/20/2016
+
+McClure, Qualey & Rodack, LLP
+3100 Interstate North Circle
+Suite 150
+Atlanta, GA 30339
+
+EXAMINER
+DANG,KHANH
+
+ART UNIT
+
+PAPER NUMBER
+
+2185
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+uspatents@mqrlaw.com
+dan.mcclure@mqrlaw.com
+gina.silverio@mqrlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JING JUNG HUANG and YI CHIH HUANG
+
+Appeal2014-008220
+Application 11/735,976
+Technology Center 2100
+
+Before MARC S. HOFF, ELENI MANTIS MERCADER, and
+JOHN A. EVANS, Administrative Patent Judges.
+EVANS, Administrative Patent Judge.
+
+DECISION ON REQUEST FOR REHEARil...JG
+INTRODUCTION
+Pursuant to 37 C.F.R. § 41.52, Appellants submitted a Request for
+Rehearing (filed July 14, 2016) ("Request," "Req. Reh'g."). Appellants
+request rehearing of the Decision of the Patent Trial and Appeal Board
+("Board") mailed May 25, 2016 ("Decision," "Op."), in which we
+REVERSED the final rejection and entered a NEW GROUND OF
+REJECTION for Claims 21, 22, 25, 27, and 28 under 35 U.S.C. § 103(a) as
+being obvious over Lee and Drerup as set forth in the rejection of Claims 21
+and 26 in the Final Action mailed August 6, 2009.
+The Request alleges that the Board misapprehended and overlooked a
+number of points previously argued by Appellants in the Appeal Brief. Req.
+
+Appeal2014-008723
+Application 13/175,677
+Reh' g. 1. We disagree.
+
+ANALYSIS
+CLAIM21
+Claim 21, the only independent claim, recites:
+21. A method for managing device access to a priority-based
+shared bus among a plurality of bus master devices having
+different priorities and a central processing unit, comprising:
+setting the central processing unit to have a highest
+priority access to the shared bus;
+using a timer to establish a predetermined period of time;
+sending a plurality of bus request signals by the central
+processing unit for requesting access to the shared bus;
+sending a predetermined number of bus grant signals by a
+bus arbiter during the predetermined period of time for
+responding to the bus request signals and granting the central
+processing unit to use the shared bus; and
+setting the central processing unit to have a lower priority
+access to the shared bus than at least one of the plurality of bus
+master devices, in response to a predetermined number of bus
+grant signals within the predetermined period of time.
+Appellants contend that the Board misapprehended the recitation "using a
+timer to establish a predetermined period of time." Request 1. Appellants
+maintain that the Board adopted the interpretation found by the Examiner in
+the Final Action of August 6, 2009. Id. at 2. Appellants argue that this
+interpretation for the term "timer" ignores its plain and ordinary meaning, as
+would be interpreted by one of ordinary skill in the art. Id. at 3.
+Appellants argue that the Board improperly adopted the Examiner's
+finding that "the bus interval BI is number of clock cycles programmed via
+2
+
+Appeal2014-008723
+Application 13/175,677
+an Arbitration Bus Interval (ABI) register, and expired at the end of the
+interval. Thus, it is clear that the ABI register is readable as a timer to count
+the predetermined period of time." Id. at 4. Appellants contend "[a]s is well
+known, a register (or register circuit) is essentially a memory that holds a
+single value." Id. Appellants proffer a definition for a "timer circuit" as "a
+circuit that synchronizes or activates something by means of a repetitive
+timing signal; specifically one that sets a circuit or device, especially a CPU,
+to run at a particular rate. Id. (quoting Oxforddictionaries.com). Appellants
+further argue "[s]imply stated, a register is not a timer." Id. at 5. We
+disagree.
+First, Appellants' argument is not commensurate in scope with the
+claims which do not recite "timer circuit." See In re Self, 671 F.2d 1344,
+1348 (CCPA 1982) ("[A]ppellant's arguments fail from the outset because ..
+. they are not based on limitations appearing in the claims."); In re Hiniker
+
+Co., 150 F.3d 1362, 1369 (Fed. Cir. 1998) (citation omitted) (finding "the
+name of the game is the claim"). Claim 21 recites "timer," not "timer
+circuit," as argued.
+Second, a person of ordinary skill in the claimed "managing device
+access to a priority-based shared bus" arts is unlikely to consult the Oxford
+Dictionary for the definition of the claimed technical term. We find it more
+likely that such a worker would consult the IEEE Dictionary. Contrary to
+Appellants who flatly state "a register is not a timer" (Request 5), the IEEE
+defines a "timer" as a "register or storage location whose value is changed
+at regular intervals in such a manner as to measure time. Synonyms: clock
+
+register; time register. See also: watchdog timer; interval timer." IEEE
+100 The Authoritative Dictionary of IEEE Standards Terms, 7th Ed., IEEE
+
+3
+
+Appeal2014-008723
+Application 13/175,677
+Press (2000), T.1184 (emphasis added). Similarly for "time register See:
+timer." Id. at T .1185. In view of the IEEE definition of "timer" as a
+"register," we are not persuaded the Examiner errs in in finding the reference
+"Arbitration Bus Interval (ABI) register" teaches the claimed "timer." Nor
+are we persuaded that we err in adopting this finding by the Examiner.
+We have considered Appellants' arguments raised in the Request, but
+Appellants have not persuaded us that the original decision was in error.
+Based on the record before us now and in the original appeal, we are
+still of the view that the rejection of Claims 21, 22, 25, 27, and 28, under
+35 U.S.C. § 103(a), should be sustained.
+We have granted the Request to the extent that we have reconsidered
+our Decision of May 25, 2016, but we deny the request with respect to
+making any changes therein.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+REHEARING DENIED
+
+4
+
+

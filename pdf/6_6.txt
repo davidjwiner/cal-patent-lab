@@ -1,0 +1,231 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/405,680
+
+02/27/2012
+
+Donald James Lindsay
+
+9169-101386-US
+
+8972
+
+95866
+
+7590
+
+09/19/2016
+
+Fleit Gibbons Gutman Bongini & Bianco P,L,
+551 NW 77th street
+Suite 111
+Boca Raton, FL 33487
+
+EXAMINER
+STEPP JONES, SHAWNA T
+
+ART UNIT
+
+PAPER NUMBER
+
+2623
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ptoboca@fggbb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DONALD JAMES LINDSAY and
+ERIK ARTUR GREISSON
+
+Appeal2015-002964
+Application 13/405,680
+Technology Center 2600
+
+Before JOSEPH L. DIXON, JOHN P. PINKERTON, and
+MELISSA A. HAAPALA, Administrative Patent Judges.
+DIXON, Administrative Patent Judge.
+DECISION ON APPEAL
+
+Appeal2015-002964
+Application 13/405,680
+STATEMENT OF THE CASE
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a Examiner's
+rejection of claims 1-15. We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+
+The claims are directed to a method and apparatus pertaining to
+depicting a plurality of contact addresses. Claim 1, reproduced below, is
+illustrative of the claimed subject matter:
+1.
+
+An apparatus comprising:
+a wireless transceiver;
+a touch-screen display;
+
+a control circuit operably coupled to the touch-screen
+display and the wireless transceiver and configured to:
+- provide on the touch-screen display a list of contacts;
+- in response to detecting a touch-based selection on the
+touch-screen display of a particular contact within the list of
+contacts, responsively depicting a plurality of contact addresses
+as correspond to the particular contact such that a most frequently
+utilized contact address of the plurality of contact addresses is
+placed at a location on the touch-screen display that corresponds
+to the touch-based selection of the particular contact.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Wunsch
+
+US 6,606,381 Bl
+
+1
+
+Aug. 12, 2003
+
+Appellants indicate that Research In Motion Limited is the real party in
+interest. (App. Br. 3).
+2
+
+Appeal2015-002964
+Application 13/405,680
+Hawkins et al.
+("Hawkins")
+Tsuei
+
+US 7,231,229 Bl
+
+June 12, 2007
+
+EP 2 112 809 A 1
+
+Oct. 28, 2009
+
+REJECTIONS
+The Examiner made the following rejections:
+Claims 1-5, 7, 9-11, 14, and 15 stand rejected under pre-AIA 35
+U.S.C. § 103(a) as being unpatentable over Hawkins.
+Claims 6 and 12 stand rejected under pre-AIA 35 U.S.C. § 103(a) as
+being unpatentable over Hawkins in view of Wunch.
+Claims 8 and 13 stand rejected under pre-AIA 35 U.S.C. § 103(a) as
+being unpatentable over Hawkins in view of Tsuei.
+
+ANALYSIS
+With respect to claims 1-15, Appellants set forth arguments with
+respect to independent claims 1, 9, and 14 together. (App. Br. 9). We
+address independent claim 1 as the illustrative claim. Independent claims 1,
+9, and 14 contain similar claim limitations.
+With respect to independent claim 1, Appellants contend:
+[T]he plurality of contact addresses for a given contact are
+displayed in response to detecting the touch-based selection on
+the touch-screen display of that particular contact. Hawkins
+instead teaches displaying the plurality of contact addresses in
+response to detecting the assertion of the physical activation
+switch. That physical activation switch is clearly different from
+our touch-screen contact button.
+(App. Br. 11 ). Appellants further contend that "it is insufficient that
+Hawkins discloses a touch sensitive screen 102 in FIG. 1 because Hawkins
+also teaches a very specific protocol by which that touch sensitive screen is
+3
+
+Appeal2015-002964
+Application 13/405,680
+used in sequence with a physical activation switch 106 that is separate from
+that touch sensitive screen." (App. Br. 12). Finally, Appellants argue:
+Not only does Hawkins fail to teach such an approach, the
+Examiner fails to explain why an ordinarily-skilled person would
+have a reason to modify Hawkins to essentially eschew the use
+of a physical activation switch. Instead, the Examiner simply
+states that it would be obvious to make that activation switch a
+feature of Hawkins' touch screen. The Examiner has not
+addressed, however, the fact that Hawkins' physical activation
+switch is an integral part of a physical 5-way button.
+(App. Br. 13).
+The Examiner identifies columns 7 and 8 of the Hawkins reference
+and provides a conclusory paragraph concluding that "it would have been
+obvious to one of ordinary skill in the art that the user can press an
+activation button on the touch-screen display and yield the same output
+as the invention." (Final Act. 4). Rather than address the merits of
+
+Appellants' arguments, the Examiner states "Examiner respectfully
+disagrees as the rejection is rejected under a 103 obvious type rejection in
+view of one of ordinary skill in the art and broadest reasonable
+interpretation." (Ans. 2). The Examiner repeats the same conclusion as in
+the statement of the rejection. (Ans. 3). The Examiner further finds:
+Furthermore, examiner is using broadest reasonable
+interpretation to one of ordinary skill in the art that since
+selection of buttons, icons, menus, or other inputs displayed on a
+touch screen activates the input to perform an action similarly the
+activation of an input displayed on a touchscreen occurring at
+physical activation button it would be obvious that this same
+activation could be performed on the touch screen and output the
+same results.
+(Ans. 3).
+
+4
+
+Appeal2015-002964
+Application 13/405,680
+Appellants contend in the Reply Brief that the Examiner's proposed
+modifications to the Hawkins reference would change the key principle of
+operation espoused by the Hawkins reference. (Reply Br. 3). Appellants
+further contend that the Examiner's analysis and reasoning is based upon
+hindsight reasoning. (Reply Br. 4). We agree with Appellants that the
+Examiner's analysis is based on hindsight reasoning and find the Examiner
+has not provided a reasoned conclusion of obviousness based upon the cited
+express teachings from the Hawkins reference. Moreover, we find the
+Examiner's conclusion of obviousness is based upon speculation and
+unfounded assumptions. We will not resort to speculation, unfounded
+assumptions, or hindsight reconstruction to make up for the Examiner's
+deficiency in factual findings and deficiency in the Examiner's line of
+reasoning in the conclusion of obviousness stated in the rejection.
+The Examiner has not identified how the additional prior art
+references remedy the deficiency noted above with respect to the Hawkins
+reference. As a result, we cannot sustain the rejections of dependent claims
+6, 8, 12, and 13.
+CONCLUSION
+The Examiner erred in rejecting independent claims 1, 9, and 14 under
+35 U.S.C. § 103(a) based upon the Hawkins reference alone.
+DECISION
+For the above reasons, the Examiner's rejections of claims 1-15 are
+reversed.
+REVERSED
+
+5
+
+

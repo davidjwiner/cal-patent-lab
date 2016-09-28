@@ -1,0 +1,213 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/915,707
+
+06/12/2013
+
+Jim A. Harrison
+
+GB920120085US2
+(780CON)
+
+1014
+
+46320
+
+7590
+
+09/14/2016
+
+CRGOLAW
+STEVEN M. GREENBERG
+7900 Glades Road
+SUITE 520
+BOCA RATON, FL 33434
+
+EXAMINER
+MASKULINSKI, MICHAEL C
+
+ART UNIT
+
+PAPER NUMBER
+
+2113
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/14/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@crgolaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JIM A. HARRISON, ROB C. JONES,
+PHIL R. LEE, and ANDY WRIGHT
+
+Appeal2015-005756
+Application 13/915,707
+Technology Center 2100
+
+Before CATHERINE SHIANG, MELISSA A. HAAPALA, and
+KAMRAN JIVANI, Administrative Patent Judges.
+JIVANI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final decision rejecting claims 1-6, which are all the claims
+pending in the present application. 2 We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+Appellants identify International Business Machines Corporation as the
+real party in interest. App. Br. 2.
+2
+Claims 7-18 are cancelled. App. Br. 8.
+
+Appeal2015-005756
+Application 13/915,707
+
+STATEMENT OF THE CASE
+The present application relates to transaction server performance
+monitoring. Spec. i-f 2.
+Claim 1 is illustrative (disputed limitation emphasized):
+1.
+A method for predicting transaction server performance
+failure in a transaction processing environment, the method
+compnsmg:
+
+receiving a performance metric for a transaction server
+during nominal operation of the transaction server in memory of
+a computing system;
+comparing the performance metric to a benchmark of
+performance metrics for the transaction server; and,
+responsive to [L 1] the performance metric falling outside
+a threshold variance from the benchmark, generating an alert of
+a potential impending failure of the transaction server.
+The Rejections
+Claims 1---6 stand provisionally rejected for non-statutory double
+patenting as anticipated by claims 7, 8, and 10-18 of co-pending Application
+No. 13/547,674.
+Claims 1---6 stand rejected under 35 U.S.C. § 103(a) over Dickerson
+(US 8,326,971 B2; Dec. 4, 2012) and Smith (US 6,986,076 Bl; Jan. 10,
+2006).
+ANALYSIS
+
+Double Patenting
+Claims 1---6 stand provisionally rejected for non-statutory double
+patenting as anticipated by claims 7, 8, and 10-18 of co-pending Application
+No. 13/547,674. Final Act. 3. Appellants fail to address this provisional
+2
+
+Appeal2015-005756
+Application 13/915,707
+
+rejection. Arguments not made are considered waived. See 37 C.F.R.
+§ 41.37(c)(l)(iv) (2014).
+Accordingly, we sustain the Examiner's provisional non-statutory
+double patenting rejection of claims 1-6 as anticipated by claims 7, 8, and
+10-18 of co-pending Application No. 13/547,674.
+
+Obviousness
+Based on Appellants' arguments, we decide the appeal on the basis of
+representative claim 1. See 37 C.F.R. § 41.37(c)(l)(iv)(2014). Appellants
+contend the Examiner "has simplified the language of the independent
+claims and has completely omitted consideration of the claim term
+'benchmark."' App. Br. 4 (emphasis omitted). Appellants elaborate, the
+Examiner has "misconstrued the critical claim term 'benchmark' to merely
+mean a threshold." Reply Br. 3.
+We have considered Appellants' argument in the Appeal Brief and
+Reply Brief, as well as the Examiner's Answer thereto. We are not
+persuaded by Appellants' argument for at least the following reasons.
+Initially, as a matter of claim construction, we find Appellants have
+not defined explicitly the term benchmark in the claim or the Specification.
+We apply the broadest reasonable interpretation of claim terms, consistent
+with the specification, as would be understood by one of ordinary skill in the
+art. In re Am. Acad. of Sci. Tech Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004)
+(citations omitted). Where, as here, the Specification does not explicitly
+define a term, the term should be given its ordinary meaning. See In re
+
+3
+
+Appeal2015-005756
+Application 13/915,707
+
+Zletz, 893 F.2d 319, 321 (Fed. Cir. 1989); In re Morris, 127 F.3d 1048, 1054
+(Fed. Cir. 1997).
+In support of their argument, Appellants proffer a dictionary definition
+of the "benchmark." App. Br. 4--5. However, we observe the MICROSOFT
+COMPUTER DICTIONARY defines "benchmark" as:
+(A) A standard against which measurements or
+comparisons can be made. See also: benchmark program;
+benchmark problem.
+(B) A procedure, problem, or test that can be used to
+compare systems or components to each other or to a standard as
+in definition (A).
+(C) A recovery file.
+MICROSOFT COMPUTER DICTIONARY 96 (5th ed. 2002). Consistent with the
+Specification and given this dictionary definition, we decline to limit the
+term benchmark to Appellants' proffered construction, but instead construe
+the term benchmark to encompass, inter alia, a standard against which
+measurements or comparisons can be made.
+In light of the above construction, we are not persuaded by
+Appellants' argument that the cited references fail to meet limitation L 1.
+Rather, we agree with the Examiner that Dickerson's monitoring of
+performance data produced in response to execution of a synthetic
+transaction (i.e., the performance metric) and the synthetic transaction itself
+(i.e., the benchmark) in combination with Smith's use of proactive failover
+when a monitored event exceeds a threshold (i.e., the metric falling outside a
+threshold variance from the benchmark) at minimum suggests limitation L 1.
+Ans. 6-7; Dickerson 6:21-24. More specifically, we agree with the
+
+4
+
+Appeal2015-005756
+Application 13/915,707
+
+Examiner that Smith's synthetic transactions meet the claimed benchmark
+(Ans. 6), as we have construed that term.
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claims 1---6.
+
+DECISION
+We affirm the Examiner's decisions rejecting claims 1---6.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+5
+
+

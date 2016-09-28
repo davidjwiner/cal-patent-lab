@@ -1,0 +1,252 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/098,437
+
+04/30/2011
+
+Raja Bose
+
+042933/419896
+
+8725
+
+10949
+
+7590
+
+09/22/2016
+
+Nokia Corporation and Alston & Bird LLP
+c/o Alston & Bird LLP
+Bank of America Plaza, 101 South Tryon Street
+Suite 4000
+Charlotte, NC 28280-4000
+
+EXAMINER
+ZHU,ZHIMEI
+
+ART UNIT
+
+PAPER NUMBER
+
+2495
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@alston.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RAJA BOSE, JORG BRAKENSIEK, and KEUN-YOUNG PARK
+
+Appeal2015-004612
+Application 13/098,437
+Technology Center 2400
+
+Before ROBERT E. NAPPI, JAMES W. DEJMEK, and SCOTT E. BAIN,
+Administrative Patent Judges.
+BAIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+final rejection of claims 1-20, which constitute all claims pending in the
+application. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+STATEMENT OF THE CASE
+The claimed invention relates to facilitating the interoperability of a
+mobile computing device with a remote environment such as a vehicle head
+unit, personal computer, or other environment featuring a large display.
+
+1
+
+Appellants identify Nokia Corporation as the real party in interest. Br. 2.
+
+Appeal2015-004612
+Application 13/098,437
+Spec. iii! 2--4. Claims 1, 9, and 17 are independent. Claim 1 is illustrative of
+the invention and reads as follows:
+1.
+
+A method comprising:
+
+determining, with a processor for each of a plurality of
+content components of a user interface, a respective hardware
+interface via which to transmit the content component;
+generating meta-information associated with at least one
+of the content components to facilitate recomposition of the
+content components following transmission, wherein the meta
+information comprises fiducial information; and
+causing the plurality of content components and the
+meta-information to be transmitted via the respective hardware
+interfaces including causing at least two of the content
+components to be transmitted via different hardware interfaces.
+Br. 14 (emphasis added).
+THE REFERENCES AND REJECTIONS ON APPEAL
+Claims 1, 2, 4---6, 9, 10, 12-14, and 17 stand rejected under pre-ii.LA..
+
+35 U.S.C. § 103(a) as unpatentable over Fang et al. (US 2008/0034029; pub.
+Feb. 7, 2008) ("Fang") and Hutchinson (US 2011/0238861; pub. Sept. 29,
+2011 ). Final Act. 2-8.
+Claims 7, 8, 15, 16, and 19 stand rejected under pre-AIA 35 U.S.C.
+§ 103(a) as unpatentable over Fang, Hutchinson, and Altunbasak (WO
+2006/101979 A2; pub. Sept. 28, 2006). Final Act. 8-10.
+Claims 3, 11, 18, and 20 stand rejected under pre-AIA 35 U.S.C.
+§ 103(a) as unpatentable over Fang, Hutchinson, and Du (CN 201341199 Y;
+pub. Nov. 4, 2009). Final Act. 11-12.
+
+2
+
+Appeal2015-004612
+Application 13/098,437
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments presented in this appeal. Arguments which Appellants could
+have made but did not make in the Briefs are deemed to be waived. See 3 7
+C.F.R. § 41.37(c)(l)(iv). On this record, we are not persuaded the Examiner
+erred. We adopt as our own the findings and reasons set forth in the
+rejections from which this appeal is taken and in the Examiner's Answer,
+and highlight the following for emphasis.
+
+Claims 1, 9, and 17
+Appellants argue independent claims 1, 9, and 17 as a group, with
+claim 1 being representative of the group. See 37 C.F.R. § 41.37(c)(iv).
+Appellants contend the Examiner erred in finding the prior art teaches
+determining, as recited in each independent claim, "a respective hardware
+interface" via which to transmit the content component, and that such
+hardware interfaces are "different;" i.e.; that there is more than one hardware
+interface. Br. 9-11. Specifically, Appellants argue that although Fang
+teaches different "channels" of communication, those channels are
+"communicating via the same hardware interface," id. 10, and that
+Hutchinson also fails to teach the disputed limitations, id. 11.
+The Examiner finds the disputed limitations not in Fang or
+Hutchinson individually, but in the combination of references. Ans. 2-5.
+We agree with the Examiner's findings. Fang teaches determining, with a
+processor for each of a plurality of content components of a user interface, a
+respective communication channel via which to transmit the content
+component. Fang Fig. 4, i-f 33 (audiovisual data transmitted over a "media
+channel" and "separate UI [user interface] channel"); Final Act. 3 (citing
+3
+
+Appeal2015-004612
+Application 13/098,437
+same). Although Fang does not explicitly disclose using respective (and
+different) hardware interfaces, Hutchinson teaches this element, as the
+Examiner finds, Ans. 6. Namely, Hutchinson teaches that different
+communication channels use different hardware interfaces. Hutchinson
+Fig. 3, i-f 49 (teaching various data channels, each corresponding to a
+different "communications interface" such as USB and WLAN); Final Act. 4
+(citing same); Ans. 6. Accordingly, we find, as did the Examiner, the
+combination of Fang and Hutchinson teaches the disputed limitations, and
+Appellants' arguments attacking the references individually do not persuade
+us of error. See In re Merck & Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir.
+1986).
+Appellants also argue one of ordinary skill would not be motivated to
+combine the references. Br. 11-12. Appellants assert the Examiner's
+rationale is merely a "conclusory statement" and there was "no known
+problem that would lead to the result of combining Fang with Hutchinson."
+Id. 12. The record before us, however, does not support Appellants'
+
+contentions.
+As discussed above, Fang teaches different communications channels
+to transmit different parts of a data stream (i.e., a plurality of content
+components) to a media player. Fang i-f 33; Final Act. 4. Specifically, Fang
+teaches transmitting the user interface (UI) on a separate channel from the
+audio/video signal, with each channel received by the media player. Id.
+Although Fang does not state whether the channels in Fang are utilizing
+different hardware interfaces or the same interface, the Examiner finds, Final
+Act. 4, Ans. 9-10, and we agree, one of ordinary skill would understand
+transmitting an audio/video signal typically "requires higher bandwidth than
+4
+
+Appeal2015-004612
+Application 13/098,437
+transmitting a user-interface," i.e., the content components in Fang have
+different attributes. Final Act. 4. Hutchinson, "in the same field of
+endeavor" as Fang (i.e., data communication between devices using multiple
+channels), also teaches separating data into content components based on the
+attributes of these components. Id. (citing Hutchinson Abstract, i-f 49).
+Accordingly, we discern no error in the Examiner's finding that one of
+ordinary skill, when determining whether to use the same or different
+hardware interfaces for the multiple channels taught in Fang, would rely on
+the teachings of Hutchinson. Id. (citing Hutchinson Fig. 3, i-f 49); see also
+Hutchinson i-f 50 ("As will be appreciated by one of skill in the art, each of
+the channels ... may be easily reconfigured ... to adapt to different data
+communication interfaces."). 2
+For the foregoing reasons, we sustain the rejection of claims 1, 9, and
+17 under pre-AIA 35 U.S.C. § 103(a) as unpatentable over Fang and
+Hutchinson.
+
+Remaining Claims
+
+Appellants argue the remaining claims 2-8, 10-16, and 18-20, all of
+which are dependent, should be allowed for the same reasons as independent
+claims 1, 9, and 17, and that the additional references cited do not cure the
+alleged deficiencies regarding the rejection of the independent claims.
+
+2
+
+Because the Examiner relies on Hutchinson as teaching different hardware
+interfaces corresponding to the plurality of channels, the question whether
+Fang alone teaches this element to one of ordinary skill is not before us (e.g.,
+whether it is well known in the art that a standard media player may utilize
+multiple hardware interfaces such as those corresponding to USB, HDMI, Svideo, and/or composite video).
+5
+
+Appeal2015-004612
+Application 13/098,437
+Br. 13. Because Appellants' arguments did not persuade us of error
+regarding the Examiner's rejection of the independent claims, we also
+sustain the rejections of the dependent claims, specifically, the rejection of
+claims 2, 4---6, 10, and 12-14 under pre-AIA 35 U.S.C. § 103(a) as
+unpatentable over Fang and Hutchinson; the rejection of claims 7, 8, 15, 16,
+and 19 under pre-AIA 35 U.S.C. § 103(a) as unpatentable over Fang,
+Hutchinson, and Altunbasak; and the rejection of claims 3, 11, 18, and 20
+under pre-AIA 35 U.S.C. § 103(a) as unpatentable over Fang, Hutchinson,
+and Du.
+
+DECISION
+We affirm the Examiner's decision to reject claims 1-20.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

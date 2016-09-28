@@ -1,0 +1,416 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/299,064
+
+0210612009
+
+Motohiro Tanno
+
+174011093001
+
+4637
+
+22511
+
+7590
+
+09/22/2016
+
+OSHA LIANG LLP,
+TWO HOUSTON CENTER
+909 FANNIN, SUITE 3500
+HOUSTON, TX 77010
+
+EXAMINER
+LINDENBAUM, ALAN LOUIS
+
+ART UNIT
+
+PAPER NUMBER
+
+2466
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@oshaliang.com
+hathaway@oshaliang.com
+escobedo@oshaliang.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MOTOHIRO TANNO, YOSHIHISA KISHIYAMA,
+KENICHI HIGUCHI, MAMO RU SAWAHASHI, and
+MINAMI ISHII
+
+Appeal2015-005544
+Application 12/299,064
+Technology Center 2400
+
+Before LINZY T. McCARTNEY, NATHAN A. ENGELS, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+McCARTNEY, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1, 3-7, 10-12, 14, and 16-29. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2015-005544
+Application 12/299,064
+STATEMENT OF THE CASE
+The present patent application concerns "a base station for generating
+and transmitting system information to a mobile station" and "a
+communication method of communicating system information in a
+communication system including the base station and the mobile station."
+Spec. 1:6-12. Claim 1 illustrates the claimed subject matter:
+1.
+
+A base station, comprising:
+
+a system information generating unit configured to
+generate system information;
+a system information categorizing unit configured to
+categorize the system information into multiple pieces of system
+information; and
+a multiplexing unit configured to multiplex the
+categorized multiple pieces of system information into multiple
+channels or multiple blocks,
+wherein the system information categorizing unit
+categorizes the system information into first system information
+required for establishing a connection
+
+bet\~1een
+
+a mobile station
+
+and the base station and second system information other than
+the first system information,
+wherein the multiplexing unit multiplexes the first system
+information into a broadcast channel whose frequency block and
+timing are predetermined, and multiplexes the second system
+information into a shared data channel which is different from
+the broadcast channel into which the first system information is
+multiplexed,
+wherein the multiplexing unit transmits the channel into
+which the first system information is multiplexed more
+frequently than the channel into which the second system
+information is multiplexed, and
+wherein the first system information includes a system
+bandwidth and a system frame number.
+
+2
+
+Appeal2015-005544
+Application 12/299,064
+REJECTIONS
+Claims 1, 5, 10, 11, 19, 22, 28, and 29 stand rejected under 35 U.S.C.
+§ 112 i-f 1 as failing to comply with the written description requirement.
+Claims 1, 3-7, 10-12, 14, and 16-29 stand rejected under 35 U.S.C.
+§ 103(a) as unpatentable over Wiberg et al. (US 6,628,946 Bl; Sept. 30,
+2003) ("Wiberg") and Parts et al. (US 2007/0116094 Al; May 24, 2007)
+("Parts").
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We agree with Appellants that the Examiner erroneously
+rejected claims 1, 5, 10, 11, 19, 22, 28, and 29 under 35 U.S.C. § 112 i-f 1.
+But we disagree with Appellants that the Examiner erroneously rejected
+claims 1, 3-7, 10-12, 14, and 16-29 under 35 U.S.C. § 103(a).
+We address Appellants' arguments below. We begin with Appellants'
+arguments concerning the Examiner's construction of "shared data channel,"
+as these arguments touch both the Examiner's§ 112 and§ 103 rejections.
+We then address Appellants' other contentions regarding the Examiner's
+§ 112 and§ 103 rejections.
+
+"Shared Data Channel"
+Independent claims 1, 5, 10, 11, 19, 22, 28, and 29 each recite "a
+shared data channel." App. Br. 18-21, 24--26. The Examiner construed
+"shared data channel" as "a broadcast channel that transmits data which is
+shared with other cells." Final Act. 4; Ans. 6. Appellants argue the claim
+language, their specification, and translations of two Japanese priority
+
+3
+
+Appeal2015-005544
+Application 12/299,064
+applications establish that a "shared data channel" is not a "broadcast
+channel." See App. Br. 10-12; Reply Br. 10-14.
+We find Appellants' arguments unpersuasive. We give claims terms
+their broadest reasonable interpretation in light of the specification. See In
+re Morris, 127 F.3d 1048, 1053-54 (Fed. Cir. 1997). The claims do not
+
+explicitly define "shared data channel," but the claims do limit the scope of
+the term. For example, independent claim 1 recites "wherein the
+multiplexing unit ... multiplexes the second system information into a
+shared data channel which is different from the broadcast channel into
+which the first system information is multiplexed." App. Br. 18 (emphasis
+
+added). Independent claims 5, 10, 11, 19, 22, 28, and 29 each recite similar
+limitations. Id. at 19-21, 24--26. The emphasized language makes clear that
+the "shared data channel" is "different from" a particular "broadcast
+channel"-"the broadcast channel into which the first system information is
+multiplexed." Contrary to Appellants' arguments, these claims do not
+suggest that the "shared data channel" is not a "broadcast channel" in
+general.
+
+By contrast, the specification indicates that a "shared data channel" is
+part of a "broadcast channel." The specification does not mention a "shared
+
+data channel" but does reference "shared data channel information" when
+describing how Appellants' invention categorizes and transmits "broadcast
+channel information." In particular, the specification discloses that
+"although broadcast channel information is categorized into primary
+broadcast channel information and secondary broadcast channel information
+... information to be transmitted on the secondary broadcast channel may be
+further categorized into secondary broadcast channel information and shared
+
+4
+
+Appeal2015-005544
+Application 12/299,064
+
+data channel information." Spec. 11:36-12:6 (emphasis added). This
+disclosure-the only portion of Appellants' specification cited by Appellants
+that addresses a "shared data channel"-suggests that "a shared data
+channel" is part of a "secondary broadcast channel." Accordingly,
+interpreting the plain language of claim 1 in light of the specification, we
+find unpersuasive Appellants' arguments that the specification supports their
+preferred interpretation of "shared data channel." See App. Br. 11-12;
+Reply Br. 14.
+Finally, Appellants assert in their opening brief, without supporting
+reasoning or citations, that Appellants' interpretation of "shared data
+channel" "is also clear" from Japanese priority applications JP 2006-127992
+and JP 2006-169445. App. Br. 12. However, Appellants first provide
+translations of these applications with their reply brief. See Reply Br. 11.
+Under our rules, subject to exceptions inapplicable here, we do not admit
+new evidence-which includes documents that tend to prove or disprove an
+alleged fact-after the filing of an appeal. See 37 C.F.R. §§ 41.30, 41.33(d),
+41.41 (b )(1 ). Therefore, we will not admit Appellants' translations of the
+Japanese applications and these translations are not part of the record before
+us on appeal. 1 We find unpersuasive Appellants' conclusory assertion in
+1
+
+Even if these translations were part of the record before us, we would
+disagree the translations establish that a "shared data channel" is not a
+"broadcast channel." Both translations disclose the following concerning a
+"shared data channel": "Although broadcast channel is categorized into
+primary broadcast channel and secondary broadcast channel in the first
+embodiment, system information to be transmitted on the secondary
+broadcast channel may be further categorized into secondary broadcast
+channel and shared data channel." JP 2006-169445 i-f 32; JP 2006-127922
+i-f 29 (emphasis added). These disclosures indicate that information may be
+categorized into a shared data channel and also "transmitted on [a]
+5
+
+Appeal2015-005544
+Application 12/299,064
+their opening brief that these applications support their construction, as this
+assertion lacks adequate supporting reasoning and citations. Cf In re Lovin,
+652 F.3d 1349, 1357 (Fed. Cir. 2011) ("[W]e hold that the Board reasonably
+interpreted Rule 41.37 to require more substantive arguments in an appeal
+brief than a mere recitation of the claim elements and a naked assertion that
+the corresponding elements were not found in the prior art.").
+For the above reasons, we find unpersuasive Appellants' argument
+that a "shared data channel" is not a "broadcast channel" under the broadest
+reasonable interpretation of the claim language read in light of the
+specification. However, we see no support in the sole portion of Appellants'
+specification that arguably concerns a "shared data channel" for the
+Examiner's requirement that the channel transmit data "which is shared with
+other cells." See Spec. 12 :2---6; Final Act. 4--5 (citing Spec. 12 :2-6). This
+portion of Appellants' specification simply states "the secondary broadcast
+channel may be further categorized into secondary broadcast channel
+information and shared data channel information." Spec. 11 :36-12:6.
+Accordingly, based on the evidence of record as of this appeal, we conclude
+the broadest reasonable interpretation of "shared data channel" includes "a
+broadcast channel that transmits shared data channel information."
+
+§ 112 Rejection
+
+The Examiner found Appellants' specification does not provide
+adequate written description support for "wherein the multiplexing unit ...
+
+secondary broadcast channel." This disclosure does not preclude a "shared
+data channel" from being a "broadcast channel." If anything, this disclosure
+also suggests a "shared data channel" is part of a "broadcast channel."
+6
+
+Appeal2015-005544
+Application 12/299,064
+multiplexes the second system information into a shared data channel" as
+recited in claim 1 under Appellants' construction of "shared data channel."
+See Final Act. 2-3. Appellants contend the claims, their specification, and
+
+Japanese priority applications JP 2006-127992 and JP 2006-169445 not only
+support their construction of "shared data channel" but also provide
+adequate written description support for the disputed "wherein" limitation
+under Appellants' construction of "shared data control." See App. Br. 1112; Reply Br. 10-12.
+For the reasons discussed above, we disagree with Appellants that a
+"shared data channel" is not a "broadcast channel." However, we find that
+Appellants' specification provides written description support for the
+"wherein" limitation at issue under the modified construction of "shared data
+channel" discussed above.
+To satisfy the written description requirement, Appellants'
+specification must "reasonably convey[] to those skilled in the art that the
+inventor had possession of the claimed subject matter as of the filing date."
+Ariad Pharm., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351 (Fed. Cir. 2010)
+
+(en bane). Appellants' specification discloses that Appellants' alleged
+invention categorizes "system information into system information required
+for the cell search (information to be transmitted on the primary broadcast
+channel) and the system information not required for the cell search
+(information to be transmitted on the secondary broadcast channel)." Spec.
+
+8: 16-21 (emphases added). Appellants' specification further discloses that
+the "system information is multiplexed by the multiplexing unit 109 into the
+primary broadcast channel and the secondary broadcast channel." Id. at
+8:34--36. And, as discussed above, the specification explains that the
+
+7
+
+Appeal2015-005544
+Application 12/299,064
+"secondary broadcast channel may be further categorized into secondary
+broadcast channel information and shared data channel information." Id. at
+12:3---6. These disclosures establish that Appellants possessed at the relevant
+time a "multiplexing unit [multiplexing unit 109] ... that multiplexes the
+second system information [shared data channel information] into a shared
+data channel [the secondary broadcast channel] which is different from the
+broadcast channel [primary broadcast channel] into which the first system
+information [primary broadcast channel information] is multiplexed." We
+therefore do not sustain the Examiner's rejection of claims 1, 5, 10, 11, 19,
+22, 28, and 29 rejected under 35 U.S.C. § 112 i-f 1.
+
+§ 103 Rejection
+
+Appellants contend the Examiner's combination of Wiberg and Parts
+fails to teach or suggest "the multiplexing unit ... multiplexes the second
+system information into a shared data channel which is different from the
+broadcast channel into which the first system information is multiplexed" as
+recited in claim 1 and similar limitations recited in the other independent
+claims. Appellants argue the Examiner's finding that Wiberg teaches a
+"shared data channel" rests on an erroneous construction of "shared data
+channel." Reply Br. 13-14. Appellants assert Wiberg discloses transmitting
+both master and system information blocks on a broadcast channel, not a
+"shared data channel." See App. Br. 15; Reply Br. 15.
+We find Appellants' arguments unpersuasive. As discussed above,
+we disagree with Appellants' claim construction arguments. Moreover,
+Wiberg teaches transmitting master information blocks and system
+information blocks on different control channels. Wiberg discloses
+
+8
+
+Appeal2015-005544
+Application 12/299,064
+"[e]xemplary control channels include broadcast channels (BCH), Common
+Control Channels (CCH), and Dedicated Control Channels (DCCH)."
+Wiberg 1:43--46. With respect to the transmission of master control and
+system information blocks, Wiberg discloses that "tags are broadcast in
+master control information blocks" and "a base station (BS) transmits ...
+currently valid tag values for that cell on a control channel. System
+information blocks including the system information parameters themselves
+are in tum broadcast by the base station (BS) in each cell on the same or
+other control channels." Id. at 3:24--33 (emphases added). Similarly,
+Wiberg discloses that "master and slave channels may be used in certain
+embodiments described herein to transmits the master block(s) 57 and the
+system information block( s) 55, respectively .... " Id. at 7: 62---64 (emphasis
+added). Moreover, Wiberg teaches that "base station 28a is continuously
+broadcasting on its master control channel that tag value 17 is valid in the
+old cell. Base station 28a broadcasts on other control channel(s), e.g., slave
+channel(s), at least one system information block 55 ... that includes system
+information parameter(s) .... " Id. at 7:52-57 (emphasis added). See also
+8:65---67 ("Master and slave channels herein may be different logical,
+transport, or even physical channels."); id. Fig. 7 (depicting separate master
+and slave control channels).
+Appellants also contend Wiberg "merely teaches that system
+information blocks include master information blocks and system
+information blocks. Wiberg does not disclose how system information is
+categorized." App. Br. 15 (citation omitted). Therefore, according to
+Appellants, Wiberg does not teach or suggest "categoriz[ing] the system
+information into first system information required for establishing a
+
+9
+
+Appeal2015-005544
+Application 12/299,064
+connection between a mobile station and the base station and second system
+information other than the first system information" as recited in claim 1 or
+similar limitations recited in the other independent claims. Id.
+We find Appellants' arguments unpersuasive. The Examiner found
+(and we agree) that Wiberg teaches categorizing information into master
+information blocks and system information blocks, and the system
+information blocks include information required to connect to a cellular
+network. See, e.g., Ans. 26. Wiberg teaches that a mobile station must
+know system information parameters before accessing a cellular network:
+"In a cellular communications system or network, system information
+parameters are defined ... [c ]ertain of these parameters must be known by a
+mobile station (MS) before a first access attempt can be made by that MS."
+Wiberg 1:54---64. Wiberg teaches that in a prior art system "system
+information elements are grouped and change flags are provided." Id. at
+2:49-50. Wiberg discloses employing a similar system in which "the system
+information may be organized as a tree, including master information
+block(s) and underlying system information blocks," where "master
+information blocks ... provides ... reference(s) to a number of system
+information blocks" and "system information blocks contain actual system
+information parameters," among other things. Id. at 3 :9-21; see also id.
+Figs. 7, 8. Wiberg also explains "the cellular network operator may decide
+how the system information parameters are to be grouped." Id. at 7:33-35.
+These disclosures teach that a mobile station must know system information
+parameters for the mobile station to connect to a cellular network (as well as
+base station within that network). These disclosures also teach that
+Wiberg's invention categorizes (that is, separates or groups) the necessary
+
+10
+
+Appeal2015-005544
+Application 12/299,064
+system information parameters and other information into system
+information blocks and master information blocks.
+For the above reasons, we sustain the Examiner's rejection of claims
+1, 3-7, 10-12, 14, and 16-29 under 35 U.S.C. § 103(a).
+
+DECISION
+We reverse the Examiner's § 112 i-f 1 rejection of claims 1, 5, 10, 11,
+19, 22, 28, and 29. We affirm the Examiner's§ 103(a) rejection of claims 1,
+3-7, 10-12, 14, and 16-29. Because we have affirmed at least one ground
+of rejection with respect to each claim on appeal, the Examiner's decision is
+affirmed. See 37 C.F.R. § 41.50(a)(l).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

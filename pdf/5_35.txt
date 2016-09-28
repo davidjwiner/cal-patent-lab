@@ -1,0 +1,264 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/692,635
+
+12/03/2012
+
+Alon Pais
+
+MP3598Cl I
+MV1-0014USC1
+
+1050
+
+11280
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+Lee & Hayes , pllc
+601 West Riverside Ave., Suite 1400
+Spokane, WA 99201
+
+SHYU, JING- YIH
+
+ART UNIT
+
+PAPER NUMBER
+
+2184
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+lhpto@leehayes.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ALON PAIS and NAFEA BISHARA
+
+Appeal2015-004657
+Application 13/692,635 1
+Technology Center 2100
+
+Before ELENI MANTIS MERCADER, LARRY J. HUME, and
+SCOTT B. HOWARD, Administrative Patent Judges.
+HUME, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) of the Final
+Rejection of claims 1-5, 9-16, and 20. The Examiner objects to claims 6-8
+and 17-19, but otherwise indicates they are drawn to allowable subject
+matter. Final Act. 9. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is Marvell World Trade
+Ltd.. App. Br. 2.
+
+Appeal2015-004657
+Application 13/692,635
+STATEMENT OF THE CASE 2
+
+The Invention
+Appellants' disclosed and claimed invention "relate to buffers in
+general, and more specifically, to a buffer manager and methods for
+managing memories." Spec.
+
+i-f 3.
+Exemplary Claim
+
+Claim 1, reproduced below, is representative of the subject matter on
+appeal (emphasis and formatting added to contested limitation):
+1.
+
+A system comprising:
+
+a memory including a plurality of buffer locations, ones
+of the plurality of buffer locations being identified by a
+respective physical address and a respective virtual address,
+
+ones of the plurality of buffer locations being configured
+to store (i) a respective buffered data and (ii) the respective
+virtual address that is used to identifY the buffer location;
+a processor unit configured to access buffered data stored
+in a respective buffer location using the respective virtual
+address that is used to identify the buffer location; and
+one or more client components, that are different from
+the processor unit, configured to access the buffered data stored
+in the respective buffer location using the respective physical
+address that is used to identify the buffer location, instead of
+using the respective virtual address that is used to identify the
+buffer location.
+
+2
+
+Our decision relies upon Appellants' Appeal Brief ("App. Br.," filed
+Nov. 5, 2014); Examiner's Answer ("Ans.," mailed Jan. 16, 2015); Final
+Office Action ("Final Act.," mailed Aug. 7, 2014); and the original
+Specification ("Spec.," filed Dec. 3, 2012). We note Appellants did not file
+a Reply Brief to rebut the Examiner's findings and legal conclusions in the
+Answer.
+2
+
+Appeal2015-004657
+Application 13/692,635
+Prior Art
+
+The Examiner relies upon the following prior art as evidence in
+rejecting the claims on appeal:
+Lary et al. ("Lary")
+
+US 5,657,471
+
+Tripathi et al. ("Tripathi") US 7,664,938 Bl
+
+Aug. 12, 1997
+Feb. 16,2010
+
+Rejection on Appeal
+
+Claims 1-5, 9-16, and 20 stand rejected under 35 U.S.C. § 103(a) as
+being obvious over the combination of Tripathi and Lary. Ans. 2; Final
+Act. 2.
+CLAIM GROUPING
+Based on Appellants' arguments (App. Br. 4--7), we decide the appeal
+of the obviousness rejection of claims 1-5, 9-16, and 20 on the basis of
+representative claim 1.
+ISSUE
+Appellants argue (App. Br.4--6) the Examiner's rejection of claim 1
+under 35 U.S.C. § 103(a) as being obvious over the combination of Tripathi
+and Lary is in error. These contentions present us with the following issue:
+Did the Examiner err in finding the cited prior art combination teaches
+or suggests a system that includes, inter alia, a memory with a plurality of
+buffer locations, wherein "ones of the plurality of buffer locations [are]
+configured to store (i) a respective buffered data and (ii) the respective
+virtual address that is used to identify the buffer location," as recited in
+claim 1?
+
+3
+
+Appeal2015-004657
+Application 13/692,635
+ANALYSIS
+In reaching this decision, we consider all evidence presented and all
+arguments actually made by Appellants. We do not consider arguments that
+Appellants could have made but chose not to make in the Briefs, and we
+deem any such arguments waived. 37 C.F.R. § 41.37(c)(l)(iv).
+We disagree with Appellants' arguments with respect to claims 1-5,
+9-16, and 20, and we incorporate herein and adopt as our own: (1) the
+findings and reasons set forth by the Examiner in the action from which this
+appeal is taken, and (2) the reasons and rebuttals set forth in the Examiner's
+Answer in response to Appellants' arguments. We incorporate such
+findings, reasons, and rebuttals herein by reference unless otherwise noted.
+However, we highlight and address specific findings and arguments
+regarding claim 1 for emphasis as follows.
+Appellants contend the combination of Tripathi and Lary, particularly
+Lary, fail to teach or suggest all the limitations of claim 1, and especially is
+deficient in teaching the recited "ones of the plurality of buffer locations
+being configured to store (i) a respective buffered data and (ii) the respective
+virtual address that is used to identify the buffer location." App. Br. 4--5.
+Appellants argue:
+Because Lary's carrier stores a complex address configured to
+point to a queue buffer, Lary's carrier clearly must be separate
+from the queue buffer because, unless the carrier and queue
+buffer are separate, there would be no meaning for an address
+stored in the carrier that points to the queue buffer.
+Furthermore, Lary's carrier stores a virtual address portion to
+ascertain a location of the queue buffer. In view of the
+foregoing, because Lary teaches a pointer that is different and
+separate from the queue buffer to point from a carrier to the
+4
+
+Appeal2015-004657
+Application 13/692,635
+queue buffer, there is no way whatsoever that Lary can be
+reasonably construed as teaching or suggesting the queue buffer
+location itself as storing a virtual address that is used to identify
+a location of the queue buffer, as required by claim 1.
+App. Br. 5. Furthermore, "[a]s Lary fails to disclose or suggest an
+embodiment in which (i) the queue buffer is integrated into the carrier
+structure, (ii) as well as the carrier structure contains an information pointer
+pointing to the queue buffer, Lary fails to disclose the queue buffer storing a
+virtual address that is used to identify a location of the queue buffer." App.
+Br. 6.
+In response, the Examiner
+respectfully disagrees with Applicant, because Lary clearly
+discloses integrating the queue buffer into the carrier structure
+(... Each message entry generally designated 50, contains a
+carrier 52, 52i and may contain a queue buffer, Q BUFFER, 56,
+56i . . . the Q BUFFER may be integrated into the carrier
+structure ... ; col.6, lines 26-47; The queue carrier has the
+virtual address, so it would have both the virtual address and
+data stored in the same structure).
+Ans. 10.
+Appellants also argue (App. Br. 5---6) Lary's teaching of this reliedupon feature in an alternative embodiment (see Lary col. 6, 11. 40-44)
+implies "that these two embodiments are mutually exclusive and there
+cannot be a single embodiment that includes features from both these
+embodiments." App. Br. 6.
+We disagree with Appellants' arguments and find them unpersuasive
+because our reviewing court has held, "[c]ombining two embodiments
+disclosed adjacent to each other in a prior art patent does not require a leap
+
+5
+
+Appeal2015-004657
+Application 13/692,635
+of inventiveness." Boston Scientific Scimed, Inc. v. Cordis Corp., 554 F.3d
+982, 991 (Fed. Cir. 2009).
+Accordingly, based upon the findings above, on this record, we are
+not persuaded of error in the Examiner's reliance on the combined teachings
+and suggestions of the cited prior art combination to teach or suggest the
+disputed limitation of claim 1, nor do we find error in the Examiner's
+resulting legal conclusion of obviousness. Therefore, we sustain the
+Examiner's obviousness rejection of independent claim 1, and grouped
+claims 2-5, 9-16, and 20 which fall therewith. See Claim Grouping, supra.
+CONCLUSION
+The Examiner did not err with respect to the obviousness rejection of
+claims 1-5, 9-16, and 20 under 35 U.S.C. § 103(a) over the cited prior art
+combination of record, and we sustain the rejection.
+DECISION
+We affirm the Examiner's decision rejecting claims 1-5, 9-16, and 20.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+6
+
+

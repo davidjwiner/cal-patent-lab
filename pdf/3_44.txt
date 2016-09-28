@@ -1,0 +1,274 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111200,407
+
+08/09/2005
+
+Haohong Wang
+
+050738
+
+3076
+
+23696
+
+7590
+
+09/21/2016
+
+QUALCOMM INCORPORATED
+5775 MOREHOUSE DR.
+SAN DIEGO, CA 92121
+
+EXAMINER
+RAO, ANAND SHASHIKANT
+
+ART UNIT
+
+PAPER NUMBER
+
+2486
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+us-docketing@qualcomm.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HAOHONG WANG, KHALED HELMI
+EL-MALEH, and YI LIANG
+
+Appeal2015-003742
+Application 11/200,407
+Technology Center 2400
+
+Before CARL W. WHITEHEAD JR., JON M. JURGOVAN, and
+KEVIN C. TROCK, Administrative Patent Judges.
+JURGOVAN, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants 1 seek review under 35 U.S.C. § 134(a) from a Final
+Rejection of claims 1-9, 11-23, 25-37, and 39-60. 2 We have jurisdiction
+under 35 U.S.C. § 6(b ).
+We affirm. 3
+
+1
+
+Appellants identify QUALCOMM Incorporated as the real party in
+interest. (App. Br. 2.)
+2
+Claims 10, 24, and 38 are canceled.
+3
+Our Decision refers to the Specification filed Aug. 9, 2005 ("Spec."), the
+Final Office Action mailed March 31, 2014 ("Final Act."), the Appeal Brief
+filed Sept. 15, 2014 ("App. Br."), the Examiner's Answer mailed Jan. 5,
+2015 ("Ans."), and the Reply Brief filed Feb. 18, 2015 ("Reply Br.").
+
+Appeal2015-003742
+Application 11/200,407
+CLAIMED SUBJECT MATTER
+The claims are directed to skipping encoding of video in a non-region
+of interest (ROI) area based on content activity in ROI and non-ROI areas,
+and accumulated distortion. (Spec. Title.) Claim 1, reproduced below, is
+illustrative of the claimed subject matter:
+1. A method for encoding video at an encoding module,
+compnsmg:
+obtaining a video frame;
+encoding a region of interest (ROI) and a non-ROI area
+within the video frame by allocating bits between the ROI and
+the non-ROI area;
+determining content activity in the ROI;
+determining content activity in the non-ROI area; and
+determining whether to skip encoding of the non-ROI area
+of the video frame based on at least one of a content activity of
+the ROI, a content activity of the non-ROI area, and an
+accumulated distortion due to skipping of encoding of non-ROI
+areas in one or more other video frames.
+REJECTION
+Claims 1-9, 11-23, 25-37, and 39-60 stand rejected under 35 U.S.C.
+§ 102(b) based on Krishnamurthy (US 2003/0123751 Al, published July 3,
+2003.) (Final Act. 5-13.)
+
+ANALYSIS
+
+Claims 1, 15, 29, 43
+A. Argument that Examiner failed to show features of claimed invention
+Appellants argue Krishnamurthy fails to disclose the claimed
+limitation of encoding a region of interest (ROI) and a non-ROI area within
+the video frame by allocating bits between the ROI and non-ROI area in
+combination with determining content activity in the ROI and the non-ROI
+2
+
+Appeal2015-003742
+Application 11/200,407
+area as well as determining whether to skip encoding of the non-ROI area of
+the video frame. (App. Br. 8-9.) At most, Appellants contend,
+Krishnamurthy discloses encoding a ROI and skipping encoding based on
+content activity, but does not anticipate the specific features recited by the
+independent claims. (Id.)
+We do not agree with Appellants' argument. As the Examiner notes,
+Krishnamurthy
+
+(i-fi-f 9-11, 26) teaches classifying regions of an image (ROis)
+
+based on their relative importance and allocating more bits to more
+important regions and less bits to less important regions. (Final Act. 6, 8,
+10, 12, 11-12, Ans. 13.) Krishnamurthy also teaches coding modes can be
+changed based on region importance or interest (i-fi-f 11, 34), and that coding
+modes include skipping of coding, according to identified ROis
+Krishnamurthy
+
+(i-f 34).
+
+(i-f 11) also contemplates RO Is experiencing motion, i.e.,
+
+activity, are more important as compared to those ROis that are not. We
+agree with the Examiner these teachings anticipate the argued limitations of
+the independent claims. Krishnamurthy's teachings that the bit allocation
+and coding options can be changed based on relative importance of the ROI
+sets forth various options, and Appellants' claims are directed to a set of
+those options, namely, skipping encoding less important ROI (non-ROI
+area), thus using no bits to encode it, when activity in that ROI is low
+compared to other ROis. Thus, we are not persuaded the Examiner errs in
+the rejection.
+
+B. Arguments concerning legal standards for anticipation
+Appellants argue case law requires the Examiner to make certain
+findings regarding anticipation under § 102 by clear and convincing
+evidence. (App. Br. 9-11, Reply Br. 8.) We do not agree this is the
+standard that applies to proceedings before the Patent Office. Appellants
+3
+
+Appeal2015-003742
+Application 11/200,407
+cite Schering Corp. v. Geneva Pharms. Inc., 339 F.3d 1373, 1377-1378
+(Fed. Cir. 2003) in support of their contention. However, this case involved
+litigation in district court of a patent which has a presumption of validity
+under 35 U.S.C. § 282. Matters before the Patent Office require the
+Examiner's findings to be supported by preponderance of the evidence.
+Ethicon, Inc. v. Quigg, 849 F.2d 1422, 1427 (Fed. Cir. 1988).
+
+Appellants also assert that case law requires the Examiner to make
+certain findings enumerated (1) to (9) in Appellants' Appeal Brief. (App.
+Br. 10-11, Reply Br. 7-8.) We do not agree the case law requires the
+Examiner to make all the enumerated findings. See MPEP § 2131 regarding
+anticipation and MPEP § 2112 regarding inherency.
+C. Argument that inherent anticipation cannot be proven by possibilities
+
+Appellants argue that inherent anticipation cannot be proven by mere
+possibilities. (App. Br. 12.) For reasons explained, we do not agree the
+Examiner relied on mere possibilities. Instead, the Examiner notes
+Krishnamurthy sets forth that bit allocation and coding mode options,
+including a skipping mode, can be changed based on relative importance of
+the ROI, which can be based on the amount of motion (i.e., activity) that the
+ROI experiences. (Final Act. 6, 8, 10, 12, 11-12, Ans. 13.) Appellants'
+claims cover a particular set of Krishnamurthy's options in which no bits are
+allocated to a non-ROI in the skipping mode based on it having less activity
+as compared to other ROis. (See Krishnamurthy i-fi-19-11, 26, 34.) Thus, we
+are not persuaded the Examiner relies on mere possibilities to support the
+rejection.
+D. Argument concerning Examiner's alleged admission
+
+Appellants argue the Examiner relied on Appellants' application in
+finding that "[i]n order to react quickly, to a ROI change to another region
+4
+
+Appeal2015-003742
+Application 11/200,407
+on the frame as discussed by the Applicants (Amendment of 10/21/11; page
+15, lines 21-29), the best way to achieve the stated goal ofKrishnamurthy's
+low latency is to execute skip mode processing on non-ROI areas in
+response to changing regions of interest, rather than chum out a time
+consuming low quality version of non-ROI area which may not be needed
+anyway." (App. Br. 12-13 citing Final Act. 3, Reply Br. 6, 8-9.)
+Appellants contend this is a clear admission of the Examiner's reliance on an
+inventive concept disclosed only in the present application, not in
+Krishnamurthy, and is evidence of the Examiner violating the requirements
+for finding inherent anticipation and engaging in impermissible hindsight.
+(Id.)
+
+We disagree with Appellants' contention. Krishnamurthy (i-f 26)
+teaches: "Maintaining a low quality version of the current frame allows the
+overall system to react quickly if the region of interest is changed to another
+region on the current frame, i.e., allowing a low latency response in [a]
+changing region of interest." This teaching coupled with Krishnamurthy's
+skipping mode (i-f 34) supports the Examiner's findings. Thus, we are not
+persuaded of Examiner error.
+Regarding impermissible hindsight, this concept does not apply to an
+anticipation rejection under § 102 where the Examiner did not explicitly rely
+on§ 103(a).
+E. Argument that Examiner's reliance on anticipatory inherency is a
+concession that claimed features are undisclosed in Krishnamurthy
+
+Appellants argue that the Examiner concedes features are missing in
+Krishnamurthy by reliance on inherency. (App. Br. 13.) We do not agree.
+The nature of inherency is that prior art teachings may disclose claimed
+
+5
+
+Appeal2015-003742
+Application 11/200,407
+features without expressly mentioning they are present. See MPEP § 2112. 4
+That is the case here where Krishnamurthy teaches bit allocation and coding
+options, including a skipping mode, based on ROI importance determined by
+how much motion or activity the ROI experiences. (See Krishnamurthy
+
+iii! 9-11, 26, 34.) Again, Appellants' claims include a particular set of
+options that fall within the scope of Krishnamurthy's disclosure.
+
+F. Remaining Claims
+
+No separate arguments are presented for the dependent claims and
+therefore we sustain the rejection for the reasons previously stated. 37
+C.F.R. § 41.37(c)(l)(iv); In re King, 801F.2d1324, 1325 (Fed. Cir. 1986);
+In re Sernaker, 702 F.2d 989, 991 (Fed. Cir. 1983).
+
+DECISION
+We affirm the Examiner's decision to reject claims 1-9, 11-23, 2537, and 39---60 under 35 U.S.C. § 102(b).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+4
+
+For example, the Court of Customs and Patent Appeals held that although a
+cooling step was not expressly disclosed by a prior art reference, it was
+inherently disclosed because the material would have to be cooled to a
+temperature to facilitate subsequent handling. In re Best, 562 F.2d 1252,
+1255 (C.C.P.A. 1977).
+6
+
+

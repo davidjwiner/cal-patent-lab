@@ -1,0 +1,332 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/219,070
+
+08/26/2011
+
+Mani Ahmadi
+
+098951.021871
+
+9124
+
+75534
+
+7590
+
+09/20/2016
+
+BAKER & HOSTETLER LLP
+CIRA CENTER, 12th FLOOR
+2929 ARCH STREET
+PHILADELPHIA, PA 19104
+
+EXAMINER
+BOECKMANN, JASON J
+
+ART UNIT
+
+PAPER NUMBER
+
+3752
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+eofficemonitor@bakerlaw.com
+npaine@bakerlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MANI AHMADI, ERIK FISKE, PHILIP PAUL MAIO RCA,
+HORATIO QUINONES, and ROBERT JAMES WRIGHT
+
+Appeal2014-005515
+Application 13/219,070 1
+Technology Center 3700
+
+Before MICHAEL C. ASTORINO, PHILIP J. HOFFMANN, and
+BRUCE T. WIEDER, Administrative Patent Judges.
+WIEDER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134 from the
+Examiner's rejection of claims 1-5 2 and 31. We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is N ordson Corporation.
+(Appeal Br. 1.)
+2
+The Final Action (mailed June 20, 2013) states that "[c]laims 1---6 and 31"
+are rejected. (Final Action 1.) However, claim 6 was previously canceled.
+(See Amendment filed May 28, 2013.) Therefore, we treat the reference to
+claim 6 being rejected as a typographical error.
+
+Appeal2014-005515
+Application 13/219,070
+CLAIMED SUBJECT MATTER
+Appellants' claimed "invention relates generally to the jetting of fluid
+materials and, in particular, to electro-pneumatic jetting valves, jetting
+systems and improved jetting methods." (Spec. i-f 2.)
+Claim 1 is the sole independent claim on appeal. It is reproduced
+below:
+1.
+A jetting valve for use with a supply of fluid material and
+a supply of air pressure to jet a droplet of the fluid material from
+the jetting valve, comprising:
+a pneumatic actuator having a pneumatic piston and a
+drive pin extending from the pneumatic piston, the drive pin
+being moved by the pneumatic piston;
+a housing having a first chamber and a second chamber,
+the pneumatic piston enclosed between the first chamber and the
+second chamber;
+a first solenoid valve connected to the supply of air
+pressure, the first solenoid valve having a first state in which air
+pressure is supplied to the first chamber to apply a first force to
+the pneumatic piston for moving the pneumatic piston and drive
+pin in a first direction, and the first solenoid valve having a
+second state in which the first air chamber is vented to ambient
+pressure;
+a second solenoid valve connected to the supply of air
+pressure, the second solenoid valve having a first state in which
+air pressure is supplied to the second chamber to apply a second
+force to the pneumatic piston for moving the pneumatic piston
+and drive pin in a second direction, and the second solenoid valve
+having a second state in which the second air chamber is vented
+to ambient pressure;
+a fluid chamber enclosing a valve seat and a valve element,
+the valve element being movable to a position in contact with the
+valve seat;
+a nozzle having a flow passage and a dispense orifice, the
+flow passage being in fluid communication with the valve seat;
+and
+
+2
+
+Appeal2014-005515
+Application 13/219,070
+a controller operable to hold the first solenoid valve in the
+first state for a first time period and the second solenoid valve in
+the first state for a second time period, the beginning of the
+second time period following the beginning of the first time
+period, and wherein the controller maintains a predetermined
+overlap period between said first time period and said second
+time period, the drive pin moving towards the valve seat during
+the second time period, and wherein the overlap period is used to
+control the speed of the drive pin as the drive pin is moved
+towards the valve seat during the second time period, the
+movement of the drive pin during the second time period causing
+the valve element to move into contact with the valve seat to jet
+the droplet of the fluid material from the jetting valve.
+
+REJECTION
+Claims 1-5 and 31 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Hall (US 6,622,983 B2, iss. Sept. 23, 2003) and Sasaki
+(US 4,763,560, iss. Aug. 16, 1988).
+
+ANALYSIS
+Hall discloses
+[a] valve for controlling a flow of pressurized abrasive particles
+to a machine includes a valve body that defines a particle
+chamber having an inlet port and an exit orifice. A tapered valve
+seat surrounds the exit orifice. A shaft having a nose piece is
+positioned within the particle chamber. The shaft is movable
+between a closed position, where the nose piece engages the
+valve seat so that particles cannot pass through the exit orifice,
+and an open position, where particles are free to flow out of the
+exit orifice.
+(Hall, Abstract.)
+The Examiner finds that "Hall shows a jetting valve for use with a
+supply of fluid material and a supply of air pressure capable of jetting a fluid
+3
+
+Appeal2014-005515
+Application 13/219,070
+material form [sic] the jetting valve." (Final Action 2.) The Examiner also
+finds that the Specification defines the term "jetting valve." (See Answer 2,
+citing Spec. i-f 3.) As described in the Specification:
+A "jetting valve" or "jetting device" is a device which ejects, or
+"jets", a droplet of material from the dispenser to land on a
+substrate, wherein the droplet disengages from the dispenser
+nozzle before making contact with the substrate. Thus, in a
+jetting type dispenser, the droplet dispensed is "in-flight"
+between the dispenser and the substrate, and not in contact with
+either the dispenser or the substrate, for at least a part of the
+distance between the dispenser and the substrate.
+(Spec. i-f 3.)
+Appellants argue that the Examiner oversimplifies what constitutes a
+jetting valve and "ignores additional disclosure in the Appellant's
+specification describing the characteristics of a jetting valve." (Reply Br. 2,
+citing Spec. i-fi-140, 54, 62, 67.) But paragraphs 40, 54, 62, and 67 of the
+Specification describe "various embodiments, features and components of
+the invention" (see Spec. i-f 27); they do not alter the definition of jetting
+valve that the Specification describes in paragraph 3.
+Appellants also argue that the jetting valve of claim 1 "jets droplets of
+a fluid material" and that "[t]his contrasts with the valve in Hall that is used
+to control the flow of pressurized abrasive particles." (Reply Br. 2.)
+However, the Examiner finds that "[t]he valve member 16 of Hall will
+inherently push out or 'jet' any fluid that is between the end of the valve
+member 18 and the valve seat 20." (Answer 4.) Moreover, the Examiner
+determines that the phrases "jetting valve" and "to jet a droplet of material,"
+which only appear "in the preamble and functionally in the last two lines of
+the claim," constitute functional language. (Id.) In view of this, the
+
+4
+
+Appeal2014-005515
+Application 13/219,070
+Examiner concludes, and we agree, that "the claim only requires the [device]
+to be capable of 'jetting' a fluid," i.e., capable of jetting at least one type of
+fluid, and that, as described above, "Hall is capable of jetting a fluid and jets
+a fluid by the appellant's own definition." (Id.) The fluid used with the
+valve is not part of the claimed invention.
+For the above reasons, Appellants have not persuaded us that the
+Examiner erred in finding that Hall discloses a jetting valve.
+With regard to Sasaki, the Examiner finds that Sasaki teaches a
+pneumatic actuator and a controller. (Final Action 3--4.) The Examiner
+describes the operation of the valves in Sasaki in view of Figure 2 of Sasaki
+and determines that
+it would have been obvious to one of ordinary skill in the art at
+the time of the applicant's invention to use the controller and
+solenoid valves of Sasaki to control the pneumatic piston 24, of
+Hall. The dotted lines of figure 2 of Sasaki will be connected to
+openings 26 and 28 of Hall in order to control piston 24 rather
+than the piston of Sasaki. This modification \'l/ould result in the
+
+user being able to control the position of the valve very precisely
+as taught by Sasaki.
+(Id. at 4.)
+
+Appellants argue that "[i]n this instance when considered as a whole,
+the Examiner's allegation of obviousness and the rejection of the claims are
+not supported by articulated reasoning with a rational underpinning."
+(Appeal Br. 9.)
+An obviousness analysis requires more than merely showing that the
+limitations are found in the prior art. KSR Int'! Co. v. Teleflex Inc., 550 U.S.
+398, 418 (2007) ("[A] patent composed of several elements is not proved
+obvious merely by demonstrating that each of its elements was,
+
+5
+
+Appeal2014-005515
+Application 13/219,070
+independently, known in the prior art."). The Examiner must show that
+"there was an apparent reason to combine the known elements in the fashion
+claimed by the patent at issue." Id., citing In re Kahn, 441 F.3d 997, 988
+(Fed. Cir. 2006).
+In this case, the Examiner determines that the proposed combination
+of Hall and Sasaki "would result in the user being able to control the
+position of the valve very precisely." (Final Action 4.) The Examiner also
+determines that
+[t]he added precision and accuracy gained by modifying Hall
+with Sasaki would increase efficiently [sic] and performance of
+Hall in a number of ways. First it would eliminate noise and lost
+energy due to the valve of Hall slamming against the shoulder 31
+and valve seat 20. Additionally, the added accuracy would also
+allow for the device of Hall to be opened and closed at much
+smaller increments that it can without the controller of Sasaki.
+(Answer 5-6.) Thus, the Examiner articulates a reason to combine and
+provides a rational underpinning.
+Appellants also argue against the proposed combination by arguing
+with regard to the timing of the valves. (Reply Br. 3--4.) In relevant part,
+claim 1 recites: "a controller operable to hold the first solenoid valve in the
+first state for a first time period and the second solenoid valve in the first
+state for a second time period, the beginning of the second time period
+following the beginning of the first time period." Appellants argue that
+"[t]he time period in FIG. 5 of Sasaki extending from time 13 to time t4
+occurs after the first and second time periods that are analogous to the
+claimed first and second time periods." (Id. at 3, footnote omitted.)
+However, it is the time period in Figure 5 of Sasaki extending from 12
+to 13 that is of particular relevance. During the time period beginning at 12,
+
+6
+
+Appeal2014-005515
+Application I3/2I9,070
+shown in Figure 5 of Sasaki, valve VI (corresponding, in part, to the first
+solenoid valve) is held in a first (on) state. Just after time t2, valve V2
+(corresponding, in part, to the second solenoid valve) enters a first (on) state.
+(See Sasaki, Fig. 5.) Appellants do not persuasively argue why this does not
+
+teach the above claim limitation.
+Based on the above, we are not persuaded that the Examiner erred in
+rejecting claim I. Claims 2-5 depend from claim I and are not separately
+argued. 3 Therefore, they fall with claim I. See 37 C.F.R. § 4I.37(c)(I)(iv)
+(20I3).
+Appellants separately argue claim 3 I. Appeal Br. I 0. Claim 3 I
+recites: "The jetting valve of claim I wherein the controller is configured to
+operate the first and second solenoid valves to move the drive pin away from
+the valve seat during the first time period."
+Appellants argue that "Sasaki fails to disclose that the butterfly valve
+is moving in different directions, ... over the time periods in Sasaki
+equivalent to the claimed time periods." (Reply Br. 6.)
+The Examiner, however, finds that the controller of Sasaki uses the
+combination of the first and second "solenoid valves to move the valve from
+the valve seat during the first time period." (Answer 6.) Specifically, during
+that portion of the first time period extending from ti to 12, shown in Figure 5
+of Sasaki, valve VI (corresponding, in part, to the first solenoid valve) is in a
+first (on) state, valve V2 (corresponding, in part, to the second solenoid
+valve) is in a first (on) state, and venting valves V3 and V4 are in an off
+
+3
+
+Claims 7 and 8 were withdrawn. (See Final Action I; see also Appeal
+Br. 4.) Therefore, we consider Appellants' reference to "[c]laims 2-8 are
+not separately argued" as a typographical error. (See Appeal Br. I 0.)
+7
+
+Appeal2014-005515
+Application 13/219,070
+state. Thus, the same pressure is applied to both sides of the piston and the
+drive pin would move away from the valve seat. (See Sasaki, Fig. 2, col. 3,
+11. 15-27; see also Hall, Fig. 1.)
+Therefore, we are not persuaded that the Examiner erred in rejecting
+claim 31.
+
+DECISION
+The Examiner's rejection of claims 1-5 and 31 under 35 U.S.C.
+
+§ 103(a) is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

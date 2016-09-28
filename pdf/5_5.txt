@@ -1,0 +1,190 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/831,439
+
+07/07/2010
+
+Mark F. Turner
+
+L09-0402US 1
+
+2435
+
+57299
+
+7590
+
+09/20/2016
+
+Kathy Manke
+A vago Technologies Limited
+4380 Ziegler Road
+Fort Collins, CO 80525
+
+EXAMINER
+BUl,THA-OH
+
+ART UNIT
+
+PAPER NUMBER
+
+2825
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kathy.manke@broadcom.com
+patent.info@broadcom.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MARK F. TURNER, JEFFREYS. BROWN, and
+PAUL J. DORWEILER
+
+Appeal2015-002503
+Application 12/831,439
+Technology Center 2800
+
+Before JOHNNY A. KUMAR, LINZY T. McCARTNEY, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+McNEILL, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1--4. 2 We have jurisdiction under 35 U.S.C. § 6(b ).
+We reverse.
+
+1
+
+According to Appellants, the real party in interest is LSI Corporation.
+Br. 3.
+2
+Claims 5-18 have been withdrawn. Br. 4.
+
+Appeal2015-002503
+Application 12/831,439
+STATEMENT OF THE CASE
+
+Introduction
+Appellants' application relates to a flexible memory architecture for
+static power reduction in an integrated circuit. Spec. ,-i 1. Claim 1 is
+illustrative of the subject matter on appeal and reads as follows with the
+disputed limitation italicized:
+1.
+
+A memory for an integrated circuit, comprising:
+one of:
+at least one data input register block and at least one
+bit enable input register block, and
+at least one data and bit enable merging block and
+at least one merged data register block;
+one of:
+at least one address input register block and at least
+one binary to one-hot address decode block, and
+at least one binary to one-hot address decode block
+and at least one one-hot address register block; and
+
+a memory array whose architecture is modified based on
+timing information of any of said blocks.
+The Examiner's Rejections
+Claims 1and4 stand rejected under 35 U.S.C. § 102(b) as anticipated
+by Murakami et al. (US 7,085, 147 B2; Aug. 1, 2006). Final Act. 2-3.
+Claims 2 and 3 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Murakami and Chevallier et al. (US 5,903,504; May 11,
+1999). Final Act. 4-5.
+
+2
+
+Appeal2015-002503
+Application 12/831,439
+ANALYSIS
+The Examiner finds Murakami teaches the disputed memory array
+limitation. Ans. 4-5, Final Act. 2-3. In particular, the Examiner finds
+Murakami discloses conventional CAM systems provide output data directly
+to an encoder. Ans. 5 (citing Murakami 8:50-57). The Examiner finds
+Murakami discloses an improved CAM system that provides output data to
+an output latch, which provides its output to the encoder. Id. (citing
+Murakami 9:1-13). The Examiner finds providing the output to a latch
+allows the initial data to propagate through the system before the output data
+is provided to the encoder. Ans. 4 (citing Murakami 8:8-17). The Examiner
+finds this improved CAM array discloses "a memory array whose
+architecture is modified based on timing information of any of said blocks,"
+as recited in claim 1.
+Appellants argue the Examiner erred in finding Murakami discloses
+the disputed limitation because !vfurakami does not disclose "that the timing
+
+information in any way modifies the architecture of the CAM array." Br. 5.
+Appellants argue "there is no teaching or suggestion in any part of
+Murakami that the architecture of CAM array (memory elements 110-112)
+can be modified for any reason." Id. Appellants argue Murakami's CAM
+array, therefore, is part of a static circuit that latches the lookup result in
+every instance, and the architecture is never modified. Br. 6.
+Appellants have persuaded us the Examiner erred in finding
+Murakami discloses the disputed limitation. As found by the Examiner,
+Murakami discloses a CAM array that provides comparison output to a latch
+to prevent the output from reaching the encoder before the initial data
+propagates through the system. Murakami 8: 8-17, 9: 1-13; Ans. 5.
+3
+
+Appeal2015-002503
+Application 12/831,439
+However, the Examiner has not established that Murakami discloses a
+dynamic memory array architecture that can be modified based on the timing
+information of any of the blocks of the circuit. Instead, Murakami discloses
+that the memory array is static and always latches the output to account for
+the propagation delay. Accordingly, Appellants have persuaded us that the
+Examiner has not identified sufficient evidence or provided sufficient
+explanation as to how Murakami discloses the disputed limitation.
+
+CONCLUSIONS
+On the record before us and in view of the analysis above, Appellants
+have persuaded us that the Examiner erred in rejecting claim 1 as anticipated
+by Murakami. Therefore, we do not sustain the rejection of claim 1. We
+also do not sustain the rejections of claim 4, which depends therefrom.
+Claims 2 and 3, which depend from claim 1, stand rejected as obvious
+over ~,.1urakami and Chevallier. The Examiner has not found, nor do \'1/e
+
+find, that Chevallier remedies the identified deficiency in Murakami.
+Accordingly, we do not sustain the rejections of claims 2 and 3 as obvious
+over Murakami and Chevallier.
+
+DECISION
+We reverse the decision of the Examiner to reject claims 1--4.
+
+REVERSED
+
+4
+
+

@@ -1,0 +1,258 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/487,789
+
+06/04/2012
+
+Steve Medwin
+
+780139.00417
+
+2643
+
+26710
+
+7590
+
+09/15/2016
+
+QUARLES & BRADYLLP
+Attn: IP Docket
+411 E. WISCONSIN AVENUE
+SUITE 2350
+MILWAUKEE, WI 53202-4426
+
+EXAMINER
+MITCHELL, JOEL F
+
+ART UNIT
+
+PAPER NUMBER
+
+3671
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pat-dept@quarles.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte STEVE MED WIN and PAUL P. McCABE
+
+Appeal 2014-006834 1,2
+Application 13/487,789
+Technology Center 3600
+
+Before ANTON W. PETTING, PHILIP J. HOFFMANN, and
+BRADLEY B. BAYAT, Administrative Patent Judges.
+HOFFMANN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1--4, 6-12, 14--21, 25, and 26. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+Our decision references Appellants' Specification ("Spec.," filed June 4,
+2012), Appeal Brief ("Appeal Br.," filed Sept. 16, 2013), and Reply Brief
+"Reply Br.' filed May 23, 2014), as well as the Final Office Action ("Final
+Action," mailed July 19, 2013) and the Examiner's Answer ("Answer,"
+mailed April 16, 2014).
+2
+Appellants identify the Raymond Corporation as the real party in interest.
+Appeal Br. 1.
+
+Appeal2014-006834
+Application 13/487,789
+According to Appellants, their invention relates "to a system for
+sensing performance characteristics of an industrial vehicle[,] and using
+those characteristics to manage the operation of the vehicle." Spec. i-f 2.
+Independent claims 1 and 16 are the only independent claims under
+appeal. See Appeal Br., Claims App. We reproduce independent claim 1,
+below, as representative of the appealed claims.
+A method for controlling an industrial vehicle that
+carries a plurality of loads on which indicators have been placed,
+said method comprising:
+1.
+
+creating a computer implemented database that designates
+load identifiers which are associated with loads that are fragile;
+electronically reading a given indicator on a load being
+carried by the industrial vehicle to obtain a given load identifier;
+employing the given load identifier to obtain data from the
+database wherein that data indicates whether the load being
+carried requires delicate handling; and
+in response to data obtained from the database, restricting
+operation of the industrial vehicle to provide delicate handling of
+the load.
+Id.
+REJECTION AND PRIOR ART 3
+The Examiner rejects claims 1--4, 6-12, 14--21, 25, and 26 under
+35 U.S.C. § 103(a) as unpatentable over Manthey (US 2007/0007080 Al,
+pub. Jan. 11, 2007) and Horwitz (US 6,496,806 B 1, iss. Dec. 17, 2002).
+See Final Action 2-9.
+
+3
+
+In an Advisory Action mailed September 11, 2013, the Examiner
+withdraws the indefiniteness rejection included on page 2 of the Final
+Action.
+2
+
+Appeal2014-006834
+Application 13/487,789
+ANALYSIS
+The Examiner rejects independent claim 1 based on a combination of
+Manthey and Horwitz. See Final Action 2-3. Appellants argue that the
+rejection is in error because "Horwitz is non-analogous to the present
+invention and to the Manthey system." Appeal Br. 6; see also id. at 6-8; see
+
+also Reply Br. 1-2. Based on our review of the record, we determine that
+Appellants fail to persuade us that Horwitz is non-analogous art.
+A reference is analogous art to the claimed invention if either (1) the
+reference is from the same field of endeavor as the claimed invention (even
+if it addresses a different problem), or (2) the reference is reasonably
+pertinent to the problem faced by the inventor (even if it is not in the same
+field of endeavor as the claimed invention). See In re Bigio, 381F.3d1320,
+1325 (Fed. Cir. 2004). Consistent with the preamble of claim 1, the claimed
+field of endeavor appears to be "[a] method for controlling an industrial
+vehicle that carries a plurality of loads on which indicators have been
+placed." Appeal Br., Claims App. While the Examiner's determination that
+"in this case, the field of endeavor is data management" may be unduly
+broad, we determine that Horwitz describes controlling an industrial vehicle
+that carries a plurality of loads on which indicators have been placed, such
+that Horwitz is in the same field of endeavor as the claimed invention.
+Answer 3. Thus, we are not persuaded of error by this argument.
+Appellants further argue that "even combining the Manthey and
+Horwitz teachings does not suggest the claimed method." Appeal Br. 6; see
+
+also id. at 8-11; see also Reply Br. 1-2. We disagree with Appellants. The
+Examiner's combination relies on findings that Manthey discloses almost
+every limitation of claim 1, except Manthey employs an identifier to obtain
+3
+
+Appeal2014-006834
+Application 13/487,789
+data from an RFID transponder, rather than a database as claimed. See Final
+Action 3. The Examiner finds that Horwitz discloses a similar arrangement
+as Manthey, and employs an identifier to obtain data from a database. See
+id. The Examiner concludes that "[i]t would have been obvious ... to
+
+provide the method of Manthey with the database means as taught by
+Horwitz in order to locate data centrally." Id. Each of the Examiner's
+findings and conclusion is reasonable. Thus, we agree with the Examiner
+that the claim is obvious.
+Appellants' specific arguments do not persuade us of error. See
+Appeal Br. 8-11. For example, we are not persuaded of error by Appellants'
+argument that "[Horwitz's] database does not store data about physical
+characteristics of the objects or specifically that an item is delicate requiring
+special handling," inasmuch as the Examiner's proposed combination of
+references would store Manthey's information in Horwitz's database. See
+Appeal Br. 8; see Final Action 3. Similarly, we are not persuaded of error
+by Appellants' argument that
+the information retrieved from the Horwitz database is only used
+by the warehouse order tracking computer and is not
+communicated back to the vehicle. Note in particular that the
+device 118 on the forklift is referred to only as transmitter, not a
+receiver or transceiver as would be required in order to have the
+database information sent to the forklift. In other words, just like
+the ID tag interrogators 126 along the conveyor belts 124 in this
+reference, information about the items being transported is only
+sent one way[-]to the database computer. Item related
+information is not sent from the database to the forklift. That is
+consistent with the essence of the Horwitz system[-]tracking
+the location and the processing of items in the warehouse
+Appeal Br. 9. As the Examiner finds, Horwitz discloses two-way
+communication. See Answer 4--5.
+4
+
+Appeal2014-006834
+Application 13/487,789
+For the above reasons, we sustain the rejection of claim 1. Inasmuch
+as Appellants argue claims 1 and 16 together and not under separate
+headings, claim 16 falls with claim 1. See 37 C.F.R. § 41.37 (c)(l)(iv).
+Further, Appellants do not separately argue dependent claims 2--4, 6-8, 11,
+12, 14, 15, and 17-21. Thus, these dependent claims also fall with claims 1
+and 16, and, thus, we sustain the rejection of claims 2--4, 6-8, 11, 12, 14, 15,
+and 17-21.
+Appellants separately argue the patentability of claims 9, 10, 25,
+and 26. See Appeal Br. 11. Specifically, Appellants argue that
+[c]laims 9, 10, 25[,] and 26 recite electrically detecting when the
+given load is no longer being carried by the vehicle and then
+terminating the restricted operation of the vehicle. Claims 10 and
+26 further state that detecting when the given load is no longer
+being carried comprises sensing a force applied to a component
+of the industrial vehicle. Nothing in Manthey describes how its
+reduced operation is terminated, much less that termination is in
+response to sensing a force. The final rejection of claims 9 and
+25 cited paragraph 0023 in Manthey; which merely describes
+how the communication device 15 that reads the RFID
+transponders can be activated and deactivated based on changes
+in the weight of the load. This merely indicates how reading the
+load data can be turned on and off, but does not in the least
+suggest how the restricted operation of the vehicle can be
+terminated. Furthermore, nothing in Horwitz restricts operation
+of the vehicle.
+Appeal Br. 11. We agree with the Examiner, however, that Appellants'
+argument exceeds the scope of the claim---claim 9 recites, for example,
+"electrically detecting when the given load no longer is being carried by the
+industrial vehicle; and terminating the restricting operation of the industrial
+vehicle." Appeal Br., Claims App. Importantly, claim 9 does not require
+terminating operation in response to "electrically detecting when the given
+5
+
+Appeal2014-006834
+Application 13/487,789
+load no longer is being carried." We determine that the Examiner's further
+findings and conclusions with respect to at least claim 9 are reasonable. See
+Answer 6; see Final Action 5. Further, inasmuch as Appellants argue all of
+these claims together and not under separate headings, claims 10, 25, and 26
+fall with claim 9. See 37 C.F.R. § 41.37 (c)(l)(iv).
+
+DECISION
+We AFFIRM the Examiner's obviousness rejection of claims 1--4, 612, 14--21, 25, and 26.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

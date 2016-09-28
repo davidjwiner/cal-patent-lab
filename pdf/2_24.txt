@@ -1,0 +1,395 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+11/649,720
+
+01/04/2007
+
+Kazuhito Fujiyama
+
+P0850.70004US01
+
+6512
+
+23628
+
+7590
+
+09/22/2016
+
+WOLF GREENFIELD & SACKS, P.C.
+600 ATLANTIC AVENUE
+BOSTON, MA 02210-2206
+
+EXAMINER
+WORLEY, CATHY KINGDON
+
+ART UNIT
+
+PAPER NUMBER
+
+1662
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+Patents_eOfficeAction@WolfGreenfield.com
+WGS_eOfficeAction@WolfGreenfield.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KAZUHITO FUJIYAMA, TA TSUJI SEKI, and
+NAOYUKI TANIGUCHI 1
+
+Appeal2015-000604
+Application 11/649,720
+Technology Center 1600
+
+Before FRANCISCO C. PRATS, TAWEN CHANG, and
+RACHEL H. TOWNSEND, Administrative Patent Judges.
+TOWNSEND, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to a
+transformed plant cell, which have been rejected as obvious. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+STATEMENT OF THE CASE
+Plant cells have been modified through genetic engineering to produce
+proteins and glycoproteins. (Spec. 1--4.) "The advantage of using plant cells
+or plants for the production of useful proteins [as compared to E.coli, for
+
+1
+
+Appellants identify the Real Party in Interest as Phyton Holdings, LLC.
+(Br. 3.)
+
+Appeal2015-000604
+Application 11/649,720
+example,] is that plant cells and plants are capable of adding a sugar chain to
+a protein [like animal cells do]." (Spec. 4-5.) However, "plants have a
+sugar chain addition mechanism different from that of animals, particularly
+that of humans." (Spec. 5.) The claimed invention relates to transforming a
+plant cell with an animal al,6-fucosyl transferase, "which does not
+originally exist in plant cells," and that provides "an animal-type sugar chain
+adding function" to the plant cell (Spec. 9; Br. 15 (claim 1).)
+Claims 1, 3, 9-12, and 17-22 are on appeal. 2 Claim 1 is
+representative and reads as follows:
+1. A plant cell having an animal-type sugar chain adding
+function, wherein the plant cell has an introduced DNA
+encoding an animal al,6-fucosyl transferase, wherein the
+fucosyl transferase transfers a fucose residue in an al,6linkage to a reducing terminal acetylglucosamine residue of
+a sugar chain of a glycoprotein in a plant cell, and wherein
+the glycoprotein in the plant cell is an antibody expressed in
+the plant cell.
+(Br. 15.)
+
+2
+
+Claims 4-7 are also pending, but stand withdrawn from consideration.
+(Appeal Br. 15-16.)
+2
+
+Appeal2015-000604
+Application 11/649,720
+The following ground of rejection by the Examiner is before us on
+review:
+Claims 1, 3, 9-12, and 17-22 under 35 U.S.C. § 103(a) as
+unpatentable over Chrispeels, 3 Taniguchi, 4 and Rishi. 5
+DISCUSSION
+The Examiner finds that Chrispeels teaches "that plants are wellsuited for the production of large amounts of glycoprotein [including
+Immunoglobulin (IgG)] at a low cost" and that "it is desirable to employ a
+strategy that will result in a recombinant glycoprotein that has more
+mammalian-like glycans" such as "by adding new enzymes via
+transformation of the plant to modify the enzyme complement of the Golgi."
+(Ans. 3--4; Final Action 3--4.) The Examiner notes that Chrispeels also
+teaches engineering plant cells using well known methods, such as gene
+silencing, "to knock out genes that encode Golgi enzymes," such as fucosyl
+transferase and xylosyl transferase. (Ans. 4-5; Final Action 4-5.) The
+Examiner further notes that Chrispeels shows there are five differences
+between the glycans of human glycoproteins synthesized in plants as
+compared to those synthesized in humans:
+1) al,3 fucose vs. al,6 fucose;
+2) B1,2 xylose vs. no xylose;
+
+3
+
+Chrispeels et al., The Production ofRecombinant Glycoproteins with
+Defined Non-Immunogenic Glycans, In: Transgenic Plants: A Production
+System for Industrial and Pharmaceutical Proteins, John Wiley Pub., UK,
+99-113 (1996).
+4
+Taniguchi et al., US 6,054,304, issued Apr. 25, 2000.
+5
+Rishi et al., Molecular Farming in Plants: A Current Perspective, 10 J.
+Plant Biochem. & Biotech., 1-12 (2001).
+3
+
+Appeal2015-000604
+Application 11/649,720
+3) absence of additional GlcNac on high mannose vs. j31,2 and j31,4
+GlcNAc
+4) absence of galactose vs. j31,4 galactose
+5) absence of sialic acid vs. a2,3 sialic acid,
+and states that it is necessary to "figure out how to minimize or eliminate the
+differences." (Ans. 8-9.)
+The Examiner further notes that Chrispeels teaches "successfully
+express[ing] human GnT-1 in plant cells." 6 (Ans. 4; Final Action 4.)
+The Examiner recognizes that Chrispeels does not teach expressing
+al,6-fucosyl transferase, a mammalian enzyme leading to glycans that
+include fucose linked with a-1,6-linkages, rather than the plant glycans
+having a-1,3-linkages. (Ans. 4; Final Action 4.) The Examiner concludes,
+however, that modifying plant cells to include al,6-fucosyl transferase, to
+address a known difference between plants and mammals, would have been
+obvious in light of the prior art, including Chrispeels' suggestion of
+"modification of plants' glycosylation machinery to bring it as close to
+human-type glycosylation as possible." (Ans. 8.) The Examiner explains
+that Taniguchi teaches "the production of recombinant a-1,6-fucosyl
+transferase in COS-1 cells" and "suggest[ s] that the host cells can be plant
+cells, such as tobacco cells, Arabidopsis cells, and the like," and Rishi
+teaches "that plants are ideal candidates as host systems for producing
+recombinant proteins; such as antibodies, enzymes, hormones, and vaccines"
+
+6
+
+GnT-1 refers to GlcNAc-transferase I, an enzyme active in the Golgi that is
+key to complex glycan biosynthesis in both plant and animal cells.
+(Chrispeels 10 3-104.)
+
+4
+
+Appeal2015-000604
+Application 11/649,720
+and identifies a number of varying proteins successfully produced in plants.
+(Ans. 5-6; Final Action 4-5.) The Examiner finds that in light of the level
+of skill in the art of molecular biology, including being "well-versed in
+techniques for heterologous expression of recombinant proteins," and the
+foregoing art teachings, it would have been obvious to express the cDNA
+encoding al,6-fucosyl transferase taught by Taniguchi in a plant cell as
+taught by Chrisp eels to generate a transformed cell "coexpressing a-1, 6fucosyl transferase and a recombinant antibody of interest, such as an IgG."
+(Ans. 6; Final Action 5-6.) The Examiner further finds that it would have
+been obvious to further modify the "plants to knock out the endogenous a1,3-fucosyl transferase and B-1,2-xylosyl transferase, because Chrispeels []
+specifically teach that it would be possible to knock out any enzyme in this
+pathway and produce glycans without either plant-type fucose or xylose."
+(Ans. 6-7; Final Action 6.) The Examiner notes that one of ordinary skill
+would have had a reasonable expectation of success because not only is the
+prior art "replete with examples of successfully producing recombinant
+mammalian enzymes in plants," Taniguchi was "successful in producing
+recombinant a-1,6-fucosyl transferase [and] specifically suggest[s] plant
+cells as hosts [for producing recombinant al,6-fucosyl transferase]." (Ans.
+7; Final Action 6.)
+We agree with the Examiner's factual findings and conclusion that the
+claimed transformed plant cell would have been obvious from Chrispeels,
+Taniguchi, and Rishi.
+We disagree with Appellants that the cited references would not have
+motivated one of ordinary skill in the art to introduce al,6-fucosylation into
+plant cells (Br. 6-8). In particular, we disagree with Appellants that none of
+
+5
+
+Appeal2015-000604
+Application 11/649,720
+"Chrispeels, Taniguchi, and Rishi provides any insight as to potential
+biological benefits that might result from al,6-fuc[ o]se residues ofN-glycans
+in a glycoprotein" (Br. 8). As the Examiner notes, Chrispeels provides such
+insight. (Ans. 8-10.) In particular, Chrispeels delineates the following
+differences in the plant and mammalian glycosylation machinery:
+1) plants add al,3 fucose whereas animals add al,6 fucose;
+2) plants add B1,2 xylose whereas animals add no xylose;
+3) plants do not add additional GlcNac on high mannose whereas
+animals add Bl,2 and Bl,4 GlcNAc
+4) plants do not add galactose whereas animals add Bl,4 galactose
+5) plants do not add sialic acid whereas animals add a2,3 sialic acid.
+(Chrispeels 101-104, 109-110; Ans. 8-9.) Chrispeels further suggests that
+all of these differences should be "minimized or eliminated" if possible to
+use plants as hosts for the production of recombinant glycoproteins.
+(Chrispeels 101; Ans. 8-9.) The fact that Chrispeels discloses "knocking out
+genes encoding Golgi enzymes to block the formation of immunogenic Nglycans, and adding genes involved in sialylation to produce glycoproteins
+having elongated half-life" (Br. 7) does not take away from Chrispeels' clear
+suggestion to modify "plants' glycosylation machinery to bring it as close to
+human-type glycosylation as possible" (Ans. 8), including eliminating the
+plant function of adding al,3 fucose and conferring on the plant the function
+of adding al,6 fucose. Regarding whether one of ordinary skill in the art
+would have known and been motivated to express al,6-fucosyl transferase
+in the Golgi of the plant cell, as the Examiner noted (Ans. 11 ), "Chrispeels
+clearly teaches that the required substrate [for al,6-fucosyl transferase
+
+6
+
+Appeal2015-000604
+Application 11/649,720
+expressed in a plant cell] is present in the Golgi of plant cells." (Chrispeels
+102 (Fig. 2.3), 104 (Fig. 2.4).)
+Moreover, we disagree with Appellants that the prior art teaches away
+from the claimed invention because "at the time the instant application was
+filed[] al,6 fucose was deemed as undesirable[,] at least in the context of
+therapeutic antibodies." (Br. 9). Claim 1 does not require "an antibody
+having antibody-dependent cell-mediated cytotoxic activity" (see Br. 15
+(claim 1)). Thus, that
+US20020098527 explicitly states:
+[0236] A host cell for producing an antibody having antibodydependent cell-mediated cytotoxic activity is preferably a cell
+having a low enzyme activity or no enzyme activity relating to
+a reaction in which fucose is added to N-acetylglucosamine
+bound to the Fe region of the antibody. Emphasis added.
+(Br. 9 (bold emphasis added)), does not teach away from the claimed
+invention. "A reference may be said to teach away when a person of
+ordinary skill, upon reading the reference, would be discouraged from
+following the path set out in the reference, or would be led in a direction
+divergent from the path that was taken by the applicant." In re Kubin, 561
+F.3d 1351, 1357 (Fed. Cir. 2009) (quoting In re Gurley, 37 F.3d 551, 553
+(Fed. Cir. 1994)). Since claim 1 does not have a requirement that the plant
+cell producing an antibody has antibody-dependent cell-mediated cytotoxic
+activity, the above quoted passage from US20020098527 cannot be said to
+discourage one of ordinary skill in the art from adding al,6-fucosyl
+transferase to a plant host cell to add fucose residues to a co-expressed
+antibody in a-1,6-linkage. Likewise, in the absence of such a limitation, the
+
+7
+
+Appeal2015-000604
+Application 11/649,720
+quoted passage does not lead one of ordinary skill in the art toward a
+divergent path.
+And, in any event, even as to a host cell for producing an antibody
+having antibody-dependent cell-mediated cytotoxic activity, the US
+20020098527 teaching cited by Appellants merely expresses a preference,
+which is not a teaching away. See, e.g., DePuy Spine v. Medtronic, 567 F.3d
+1314, 1327 (Fed. Cir. 2009) ("A reference does not teach away ... ifit
+merely expresses a general preference for an alternative invention but does
+not 'criticize, discredit, or otherwise discourage' investigation into the
+invention claimed.") (quoting In re Fulton, 391 F .3d 1195, 1201 (Fed. Cir.
+2004)).
+Appellants' argument that there is "high unpredictability as to how a
+mammalian glycosyltransferase would behave in plant cells [and] ... no
+reasonable expectation that a-1,6-fucosylT [("al,6-fucosyl transferase")]
+expressed in a plant cell [c]ould function to add fucose residues to a coexpressed glycoprotein in a-1,6-linkage" (Br. 10-13) is also not well
+founded. According to Appellants, Henquet7 "reflects that as of 2010, nine
+years after filing of the instant application, the state of the art still viewed the
+activity of mammalian glycosyltransferases in plant cells as highly
+unpredictable and those skilled in the art lacked knowledge to predict how a
+heterologous glycosyltransferase would behave in plant cells." (Br. 12.)
+Appellants further point out that the subcellular location of the transferase,
+i.e., in the Golgi, is important for its functioning because the transferase has
+
+7
+
+Henquet et al., Differential effects of human and plant Nacetylglucosaminyltransferase I (GnTI) in plants, 19 Transgenic Res., 535547 (2010)
+8
+
+Appeal2015-000604
+Application 11/649,720
+"rigid substrate requirements." (Br. 10-11.) According to Appellants,
+because none of the references "provides any information as to the
+subcellular localization of an a-1, 6-fucosyl transferase expressed in plant
+cells" or how it "would behave inside the plant cells," there is "no evidence
+showing whether al,6-FucT [("al,6-fucosyl transferase")] could successfully
+integrate into the plant N-glycosylation machinery to form N-glycans
+containing al,6-fucose residues inside the host plant cells." (Br. 11-12.)
+Appellants thus contend that "a skilled person in the art, in view of the cited
+references, would not have had a reasonable expectation that an al,6-FucT
+[("al,6-fucosyl transferase")] expressed in plant cells would be located at a
+desired subcellular position where it could get access to suitable
+oligosaccharide substrates to exert its enzymatic activity." (Br. 12.)
+While Henquet notes some unpredictability as to activity level of
+mammalian glycosyltransferases in plants (Henquet 536), it does indicate
+that the mammalian transferase integrated into the plant host cell and was
+active (id.). We note that claim 1 does not require any particular level of
+activity, just that the plant cell be transformed with al,6-fucosyl transferase
+and that it "transfers a fucose residue in an al,6-linkage to a reducing
+terminal acetylglucosamine residue of a sugar chain of a glycoprotein in a
+plant cell" (Br. 15 (claim 1) ). Thus, even low levels of activity are
+encompassed within the scope of the claims. Henquet suggests to one of
+ordinary skill in the art that, at a minimum, low levels of al,6-fucosyl
+transferase activity would be reasonably expected in the plant host cell upon
+transformation of the cell with the mammalian enzyme. Moreover, as the
+Examiner noted, to the extent that Henquet notes some failures, such "is not
+sufficient for destroying a reasonable expectation of success." (Ans. 12.)
+
+9
+
+Appeal2015-000604
+Application 11/649,720
+Indeed, all that is required to establish a prima facie case of obviousness is a
+reasonable expectation of success, not absolute predictability of success. In
+re 0 'Farrell, 853 F.2d 894, 903 (Fed. Cir. 1988); see also Kubin, 561 F.3d
+
+at 1360 (noting the Supreme Court in KSR Int'! Co. v. Teleflex Inc., 550 U.S.
+398 (2007) "reinvigorated [the] perceptive analysis" that" '[o]bviousness
+does not require absolute predictability of success ... all that is required is a
+reasonable expectation of success"' (quoting 0 'Farrell, 853 F.3d at 903-
+
+04)). We agree with the Examiner that the prior art cited by the Examiner
+provides sufficient information for one of ordinary skill in the art to have
+had a reasonable expectation of success that al,6-fucosyl transferase
+expressed in a plant cell would function to add fucose residues to a coexpressed glycoprotein in al,6-linkage.
+Regarding whether one of ordinary skill in the art would have had a
+reasonable expectation of getting al,6-fucosyl transferase to express in the
+Golgi and be functional, the Examiner notes, and Appellant does not
+challenge, that "many of the mammalian signal peptides function normally
+in plant cells, and in the event that the mammalian al,6FucT [("al,6- fucosyl
+transferase")] signal peptide did not function in plant cells, there were
+numerous signal peptides known in the art which could be substituted in
+order to direct the al,6FucT [("al,6- fucosyl transferase")] to the golgi of a
+plant cell." (Ans. 11.) In fact, the Examiner notes that Bakker8 (a prior art
+reference cited in Henquet (Henquet 536)) teaches that Bl,4 glactosyl
+transferase, "the most important enzyme [in mammals] that is missing [in
+
+8
+
+Bakker et al., Galactose-extended glycans of antibodies produced
+by transgenic plants, 98 PNAS, 2899-2904 (2001).
+10
+
+Appeal2015-000604
+Application 11/649,720
+plants] for conversion of typical plant N-glycan into mammalian-like Nglycans" was stably expressed, and localized "correctly in the Golgi
+apparatus" in tobacco plants and was "fully functional." (Ans. 13; Bakker
+(Abs).)
+For the foregoing reasons, Appellants do no persuade us that the
+Examiner erred in rejecting claim 1 for obviousness over Chrispeels,
+Taniguchi, and Rishi.
+Claims 3, 9-12, and 17-22 have not been argued separately and
+therefore fall with claim 1. 37 C.F.R. § 41.37(c)(l)(iv).
+SUMMARY
+We affirm the rejection of claims 1, 3, 9-12, and 17-22 under 35
+U.S.C. § 103(a) as unpatentable over Chrispeels, Taniguchi, and Rishi.
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a).
+
+AFFIRMED
+
+11
+
+

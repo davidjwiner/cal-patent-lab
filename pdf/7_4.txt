@@ -1,0 +1,501 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/403,398
+
+03/13/2009
+
+Gregory Leitheiser
+
+RSW920105040US1
+
+9603
+
+79230
+
+7590
+
+09/15/2016
+
+Law Office of Jim Boice
+3839 Bee Cave Road
+Suite 201
+West Lake Hills, TX 78746
+
+EXAMINER
+TANK,ANDREWL
+
+ART UNIT
+
+PAPER NUMBER
+
+2142
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+J ennifer@BoiceIP.com
+Emily@BoiceIP.com
+Jim@BoiceIP.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GREGORY LEITHEISER
+
+Appeal2015-002530
+Application 12/403,398
+Technology Center 2100
+
+Before JOSEPH L. DIXON, ST. JOHN COURTENAY III, and
+KRISTEN DROESCH, Administrative Patent Judges.
+COURTENAY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+This is an appeal under 35 U.S.C. § 134(a) from the Examiner's Final
+Rejection of claims 1--4, 6-10, and 13-19. Claims 5, 11, and 12 are
+canceled. We have jurisdiction under 35 U.S.C. § 6(b ).
+We Affirm.
+Invention
+The disclosed and claimed invention on appeal "relates generally to
+communications networks, and, more particularly, to web applications
+available over communications networks." (Spec. i-f 1).
+
+Appeal2015-002530
+Application 12/403,398
+
+Representative Claim 1
+1.
+A method of providing user information to web
+applications, the method comprising:
+
+serving a web page including an embedded widget to a
+client associated with a user from a web application server,
+wherein the widget is operable when executed to retrieve user
+information from a user information web server wherein the user
+information comprises personal identifying information;
+[L] responsive to receiving the user information from
+the user information web server, providing the user information
+to the web application to authenticate the user to the web
+application.
+(Emphasis and bracketed lettering added to highlight contested limitation L.)
+
+Rejection
+Claims 1--4, 6-10, and 13-19 are rejected under 35 U.S.C. § 102(e) as
+anticipated by Chen et al. (US 2009/0287559Al; pub. Nov. 19, 2009).
+
+Grouping of Claims
+Based on Appellant's arguments, we decide the appeal of claims 1, 4,
+6-10, and 13-19 on the basis of representative independent claim 1. We
+address dependent claims 2 and 3, infra. See 37 C.F.R. § 41.37(c)(l)(iv).
+ANALYSIS
+We have considered all of Appellant's arguments and any evidence
+presented. We disagree with Appellant's arguments, and we adopt as our
+own: ( 1) the findings and reasons set forth by the Examiner in the action
+from which this appeal is taken; and (2) the reasons and rebuttals set forth in
+the Answer in response to Appellant's arguments. (Ans. 2---6). However, we
+highlight and address specific findings and arguments for emphasis in our
+analysis below.
+
+2
+
+Appeal2015-002530
+Application 12/403,398
+
+Rejection ofindependent Claim 1under35 U.S.C. § 102(e)
+Issue: Under 35 U.S.C. § 102(e), did the Examiner err in finding
+Chen expressly or inherently discloses contested limitation L:
+[L] responsive to receiving the user information from the user
+information web server, providing the user information to the
+web application to authenticate the user to the web application[,]
+within the meaning of claim 1? 1 (Emphasis added).
+At the outset, we broadly but reasonably construe the claim language
+
+''providing the user information to the web application to authenticate the
+user to the web application" as a statement of intended purpose.
+
+2
+
+Because
+
+claim 1 does not positively recite the "user information" is actually used by
+"the web application" to authenticate the user, we conclude the contested
+language is directed to an intended future step or act of authentication that is
+
+1
+
+\Ve give the contested claim limitations the broadest reasonable
+interpretation consistent with the specification. See In re Morris, 127 F.3d
+1048, 1054 (Fed. Cir. 1997). See e.g., Spec. (i-f 41) ("Many variations and
+modifications can be made to the preferred embodiments without
+substantially departing from the principles of the present invention. All
+such variations and modifications are intended to be included herein within
+the scope of the present invention, as set forth in the following claims.").
+(Emphasis added).
+2
+
+"An intended use or purpose usually will not limit the scope of the claim
+because such statements usually do no more than define a context in which
+the invention operates." Boehringer Ingelheim Vetmedica, Inc. v. ScheringPlough Corp., 320 F.3d 1339, 1345 (Fed. Cir. 2003). Although "[s]uch
+statements often ... appear in the claim's preamble," In re Stencel, 828 F.2d
+751, 754 (Fed. Cir. 1987), a statement of intended use or purpose can appear
+elsewhere in a claim. Id.
+
+3
+
+Appeal2015-002530
+Application 12/403,398
+not required to be performed, within the scope of claim 1.
+
+3
+
+Regarding the claim construction of the contested portion of limitation
+L ("to authenticate the user to the web application"), Appellant relies on two
+extrinsic dictionary definitions, 4 and contends, inter alia: "[b]oth [dictionary]
+entries emphasize the verification of a user's identity. Chen cannot anticipate
+providing information to authenticate a user because authentication entails
+the verification of the user's identity and Chen expressly embraces the
+conceptually opposing concept of maintaining a user's individual privacy."
+
+5
+
+(App. Br. 6, emphasis added).
+However, the Examiner disagrees (Ans. 3--4):
+... Appellant's interpretation of the word "authentication" above
+and use in claim 1 requires only that the provided user
+information is sufficient to authenticate the user to the web
+application. As such, Appellant's interpretation of"authenticate"
+is aligned with the Examiner's interpretation presented in the
+Response to Arguments in the Final Rejection of April 12, 2012
+(i-123-24), wherein the Examiner [found] that Chen's provision of
+personally identifying information to the widget is required for
+the widget to provide advertising specific to the user, i.e. the
+user's identity is determined, i.e. verified, from their profile and
+3
+
+Because "applicants may amend claims to narrow their scope, a broad
+construction during prosecution creates no unfairness to the applicant or
+patentee." In re ICON Health and Fitness, Inc., 496 F.3d 1374, 1379 (Fed.
+Cir. 2007) (citation omitted).
+4
+
+See 37 C.F.R. § 41.30 regarding dictionaries, "which may be cited before
+the Board."
+5
+
+Our reviewing court guides: "[a] reference is no less anticipatory if, after
+disclosing the invention, the reference then disparages it . . . . [T]he question
+whether a reference 'teaches away' from the invention is inapplicable to an
+anticipation analysis." Celeritas Techs., Ltd. v. Rockwell Int'! Corp., 150
+F.3d 1354, 1361 (Fed. Cir. 1998).
+4
+
+Appeal2015-002530
+Application 12/403,398
+that information 1s used to serve the user with relevant
+advertising.
+Specifically, Chen discloses gathering a user's identifYing
+information and storing this data as the user's user profile (i-f 62:
+a user's usage data is stored at a server as a user profile and the
+user profile is sufficient enough to determine a first user from a
+second user, ex. a user who's usage is related to electronics is
+not a user who collects sports memorabilia). This user's
+identifYing information, i.e. the user's profile, is then requested
+by a widget at the user's client in order for the widget to serve
+correct relevant information to the specific user (i-f 64: widget
+server retrieves the user's profile [and] uses it to provide relevant
+data to the widget, i.e. the user is determined by the widget
+through the user's specific information).
+Therefore, Chen clearly anticipates authenticating a user to a
+widget by providing user information to the widget by providing
+user identifying information to the web application in order for
+the web application to use said data to provide correct data to the
+user....
+(Paragraph breaks added, emphasis added).
+This appeal turns upon claim construction. We note claim 1 is silent
+regarding the argued "verification of the user's identity." (App. Br. 6,
+emphasis added). Turning to the Specification for context, we find nonlimiting descriptions of exemplary embodiments of the widget that performs
+the claimed authentication. For example, see paragraph 30 of the
+Specification (with emphasis added):
+The user information widget 16 is also configured to
+perform various verification and authentication functions. For
+example, the user information widget 16 is configured to request
+user permission to retrieve user information from the repository
+14 in response to a request by a web application 42 for user
+information. The user information widget 16 also is configured
+to request user verification of retrieved information prior to
+
+5
+
+Appeal2015-002530
+Application 12/403,398
+
+providing the retrieved information to the requesting web
+application 42. For example, if the widget 16 retrieves a credit
+card number from the repository 14, the widget 16 requests the
+user to verify the accuracy of the credit card number before
+providing the credit card number. In addition, the user
+information widget 16 is configured to authenticate a user prior
+to retrieving user information from the repository 14. The user
+information widget 16 authenticates a user by requesting
+credentials (e.g., user identification and/or password) from the
+user and verifYing that the received credentials are valid for the
+user.
+Although Appellant's Specification discloses exemplary embodiments
+of the claimed invention, absent a definition or express disclaimer, the scope
+of the claims is not limited to those particular embodiments.
+
+6
+
+We decline
+
+Appellant's invitation to read limitations from the Specification into claim 1.
+Although we have fully considered the extrinsic dictionary definitions
+proffered by Appellant, which require verification of a user's identity for
+authentication (App. Br. 6); we particularly note dependent claim 3 :farther
+limits the scope of independent claim 1 (via claim 2 which depends directly
+6
+
+See Williamson v. Citrix Online, LLC, 792 F.3d 1339, 1346-47 (Fed. Cir.
+2015) ("This court has repeatedly 'cautioned against limiting the claimed
+invention to preferred embodiments or specific examples in the
+specification."') (quoting Teleflex, Inc. v. Ficosa N. Am. Corp., 299 F.3d
+1313, 1328 (Fed. Cir. 2002)). See also SuperGuide Corp. v. DirecTV Enter.,
+Inc., 358 F.3d 870, 875 (Fed. Cir. 2004) (a particular embodiment appearing
+in the written description may not be read into a claim when the claim
+language is broader than the embodiment.); Liebel-Flarsheim Co. v. Medrad,
+Inc., 358 F.3d 898, 906 (Fed. Cir. 2004) (discussing cases wherein the court
+expressly rejected the contention that even if a patent describes only a single
+embodiment, the claims of the patent are not construed as being limited to
+that embodiment).
+
+6
+
+Appeal2015-002530
+Application 12/403,398
+from claim 1):
+3. The method of claim 2, wherein authenticating the user to the
+widget comprises receiving a user identification and password
+from the user and verifYing that the user identification and
+password received are valid for the user.
+(Claim 3, emphasis added).
+Our reviewing court guides: "[ w]hen different words or phrases are
+used in separate claims, a difference in meaning is presumed." Nystrom v.
+TREX Co., Inc., 424 F.3d 1136, 1143 (Fed. Cir. 2005). Under the doctrine
+
+of claim differentiation, "the presence of a dependent claim that adds a
+particular limitation gives rise to a presumption that the limitation in
+question is not present in the independent claim." Phillips v. AWH Corp.,
+415 F.3d 1303, 1315 (Fed. Cir. 2005). This "presumption is especially
+strong when the limitation in dispute is the only meaningful difference
+between an independent and dependent claim, and one party is urging that
+the limitation in the dependent claim should be read into the independent
+claim." SunRace Roots Enterprise Co., Ltd. v. SRAM Corp., 336 F.3d 1298,
+1303 (Fed. Cir. 2003).
+This reasoning is applicable here. Because the language of dependent
+claim 3 (verifYing that the user identification . .. [is] valid for the user)
+further limits the contested limitation of "providing the user information to
+the web application to authenticate the user to the web application" (claim
+1), there is a strong presumption under the doctrine of claim differentiation
+that the authentication recited in claim 1 is not limited to verifying that the
+user identification is valid for the user, as required by the language of
+
+dependent claim 3.
+
+7
+
+Appeal2015-002530
+Application 12/403,398
+Thus, we find Appellant is impermissibly reading the narrowing
+limitations recited in dependent claim 3 into broader independent claim 1.
+(App. Br. 6). See Nystrom, 424 F.3d at 1143 ("[w]hen different words or
+phrases are used in separate claims, a difference in meaning is presumed.").
+Therefore, on this record, we are not persuaded the Examiner's
+interpretation of claim 1 is overly broad, unreasonable, or inconsistent with
+the Specification. See n.3, supra.
+For these reasons, and on this record, we find a preponderance of the
+evidence supports the Examiner's finding of anticipation regarding the
+contested language of independent claim 1. Because Appellant has not
+persuaded us the Examiner erred, we sustain the rejection of representative
+claim 1, and the rejection of the associated grouped claims, which fall with
+claim 1. See Grouping of Claims, supra.
+Rejection of Dependent Claim 2
+
+Appellant advances no separate, substantive arguments for dependent
+claim 2. Instead, Appellant recites the language of the claim, points to the
+evidence relied on by the Examiner, and merely asserts: "[n]owhere does
+Chen expressly or inherently disclose authenticating a user to its
+widget." (App. Br. 7).
+
+7
+
+Arguments not made are considered waived.
+
+8
+
+7
+
+See In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011) ("[W]e hold that the
+Board reasonably interpreted Rule 41.37 to require more substantive
+arguments in an appeal brief than a mere recitation of the claim elements and
+a naked assertion that the corresponding elements were not found in the
+prior art.").
+8
+
+See 37 C.F.R. § 41.37(c)(l)(iv)("Under each heading identifying the
+ground of rejection being contested, any claim(s) argued separately or as a
+8
+
+Appeal2015-002530
+Application 12/403,398
+Therefore, we sustain the rejection the dependent claim 2.
+Rejection of Dependent Claim 3
+
+Claim 3 recites:
+The method of claim 2, wherein authenticating the user to the
+widget comprises receiving a user identification and password
+from the user and verifying that the user identification and
+password received are valid for the user.
+Appellant points to Chen (i-f 105) and urges: "Nowhere does Chen
+expressly or inherently disclose receiving a user identification and password
+from the user and verifying that the user identification and password are
+valid." (App. Br. 7).
+The Examiner disagrees, and finds:
+Chen clearly discloses authenticating the user to the
+customizable widget by using a user account to sign into the
+widget server using a password (i-f[i-f] 105-106: the user signs into
+an account to retrieve the customizable widgets, i-f62 the toolbar
+collects the user data and profiles to provide to the ser\rer \'l1hich
+are later used by the widgets to verify the user and retrieve the
+correct relevant information, Fig. 9 user can protect his
+customized widgets from the toolbar by password protecting
+them). As such, Chen discloses the use of a usemame, i.e. user
+account, and password to authenticate the user to the widget by
+providing the widget with the user's profile information after the
+user is authenticated to the toolbar.
+(Ans. 5, emphasis added).
+Because Chen (i-f l 05) expressly describes "no customizable button is
+
+subgroup shall be argued under a separate subheading that identifies the
+claim( s) by number. A statement which merely points out what a claim
+recites will not be considered an argument for separate patentability of the
+claim.").
+9
+
+Appeal2015-002530
+Application 12/403,398
+displayed until the user signs into an account," we find a preponderance of
+the evidence supports the Examiner's rejection of claim 3.
+
+Reply Brief
+
+To the extent Appellant advances new arguments in the Reply Brief
+not in response to a shift in the Examiner's position in the Answer, we note
+arguments raised in a Reply Brief that were not raised in the Appeal Brief or
+are not responsive to arguments raised in the Examiner's Answer will not be
+considered except for good cause. See 37 C.F.R. § 41.41(b)(2).
+Conclusion
+
+For at least the aforementioned reasons, on this record, we are not
+persuaded the Examiner erred. We find a preponderance of the evidence
+supports the Examiner's finding of anticipation for all contested claims on
+appeal.
+
+9
+
+9
+
+Regarding independent claim 15, Appellant appears to have replaced
+the term "means for " with the "nonce" word "user information widget"
+thereby connoting a single generic "black box" for performing all of the
+intended functions recited in independent claim 15. We conclude "widget"
+may be interpreted as a nonce word substituting for the term "means." See
+Williamson, 792 F.3d at 1349 (Fed. Cir. 2015) (en bane) ("we should
+abandon characterizing as 'strong' the presumption that a limitation lacking
+the word 'means' is not subject to§ 112, para. 6."). Cf with id. at 1350
+("' [m] odule' is a well-known nonce word that can operate as a substitute for
+'means' in the context of§ 112, para. 6").
+In the event of further prosecution, and to the extent that "widget" is a
+nonce word that fails to have a sufficiently definite meaning as the name for
+a particular structure capable of performing the recited functions, we leave
+it to the Examiner to consider whether claim 15 should be rejected under
+pre-AIA 35 U.S.C. § 112, second paragraph, as being indefinite (if the
+"widget" is construed as a "means" under pre-AIA § 112, sixth paragraph,
+10
+
+Appeal2015-002530
+Application 12/403,398
+DECISION
+
+10
+
+We affirm the Examiner's rejection of claims 1--4, 6-10, and 13-19
+under 35 U.S.C. § 102(e). No time for taking any action connected with this
+appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§ 41.50(f).
+AFFIRMED
+
+and if no corresponding structure is found in the Specification), and/or under
+pre-AIA 35 U.S.C. § 112, first paragraph, as a single means which is nonenablingfor the scope of the claim. See MPEP § 2164.08(a). See also In re
+Hyatt, 708 F.2d 712, 714--15 (Fed. Cir. 1983) (A single means claim which
+covered every conceivable means for achieving the stated purpose was held
+non-enabling for the scope of the claim because the specification disclosed
+at most only those means known to the inventor.). Although the Board is
+authorized to reject claims under 37 C.F.R. § 41.50(b), no inference should
+be drawn when the Board elects not to do so. See Manual of Patent
+Examining Procedure (MPEP) § 1213.02.
+10
+
+In the event of further prosecution, we leave it to the Examiner to
+consider an additional rejection under 35 U.S.C. § 101 regarding claim 15.
+The "user information widget" recited in claim 15 appears to be directed to
+software per se, i.e., a purely software "widget." Disembodied software in
+itself, with no structural tie to an article of manufacture, machine, process, or
+composition of matter, is not patentable subject matter. "Abstract software
+code is an idea without physical embodiment." Microsoft Corp. v. AT&T
+Corp., 550 U.S. 437, 449 (2007). Software per se, or a computer program
+per se, does not fall within a statutory class (not a process, machine,
+manufacture, or composition of matter). "The four categories [of§ 101]
+together describe the exclusive reach of patentable subject matter. If a claim
+covers material not found in any of the four statutory categories, that claim
+falls outside the plainly expressed scope of§ 101 even if the subject matter
+is otherwise new and useful." In re Nuijten, 500 F.3d 1346, 1356-57 (Fed.
+Cir. 2007). See also MPEP § 2106(I)(iv) (listing examples of claims that are
+not directed to one of the statutory categories: "a computer program per se")
+(citing Gottschalkv. Benson, 409 U.S. 63, 72 (1972)). Although the Board
+is authorized to reject claims under 3 7 C. F. R. § 41. 50 (b), no inference
+should be drawn when the Board elects not to do so. See MPEP § 1213.02.
+11
+
+

@@ -1,0 +1,268 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/805,678
+
+03/18/2004
+
+Pekka Ketola
+
+042933/417436
+
+8566
+
+10949
+
+7590
+
+09/21/2016
+
+Nokia Corporation and Alston & Bird LLP
+c/o Alston & Bird LLP
+Bank of America Plaza, 101 South Tryon Street
+Suite 4000
+Charlotte, NC 28280-4000
+
+EXAMINER
+LU, HUA
+
+ART UNIT
+
+PAPER NUMBER
+
+2171
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@alston.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PEKKA KETOLA, WSSI MANTERE, and JURA KARTTUNEN
+Appeal2015-001124
+Application 10/805,678
+Technology Center 2100
+
+Before ELENI MANTIS MERCADER, CARL W. WHITEHEAD JR., and
+ADAM J. PYONIN, Administrative Patent Judges.
+PYONIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a Final
+Rejection of claims 1-3, 5-16, 18-30, 33-36, 38, and 40-44. 1 We have
+jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+STATEMENT OF THE CASE
+Introduction
+Appellants' disclosure relates to "transferring data from a source
+application to a target application" in which "an operation is traced" and "at
+least one item is extracted." Abstract. Claims 1, 15, and 30 are independent.
+1
+
+Claims 4, 17, 31, 32, 37, and 39 have been canceled. See App. Br. 20-26.
+
+Appeal2015-001124
+Application 10/805,678
+Claim 1, reproduced below, is illustrative (with emphasis added):
+1.
+A method for transferring data from a source application
+to a target application, the method comprising:
+tracing a latest operation relating to the source application
+automatically right after said operation has occurred,
+extracting at least one item from said operation, and
+recording said extracted item into a file,
+wherein said file is configured to be called by the target
+application for selecting and pasting the item to said target
+application.
+The Examiner's Rejections
+Claims 1, 3, 5-11, 15, 16, 18-23, 26-30, 33, 38, and 40-44 stand
+rejected under 35 U.S.C. § 102(b) as being anticipated by Bennett (US
+2002/0194379 Al; Dec. 19, 2002). Final Act. 2. 2
+Claims 2, 12-14, 24, 25, and 34 stand rejected under 35 U.S.C.
+§ 103(a) as being unpatentable over Bennett and Balthaser (US
+2002/0004755 Al; Jan. 10, 2002). Final Act. 9.
+Claim 35 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Bennett and Goh (US 2006/0155811 Al; July 13, 2006).
+Final Act. 10.
+Claim 36 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Bennett and Kumar (US 2005/0028008 Al; Feb. 3, 2005).
+Final Act. 11.
+
+2
+
+Should there be further prosecution of the application, the Examiner may
+wish to consider reviewing the claim 15 recitation "the apparatus" for
+compliance with the antecedent basis requirements of 35 U.S.C. § 112,
+second paragraph.
+2
+
+Appeal2015-001124
+Application 10/805,678
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We adopt the Examiner's findings and conclusions as our own,
+and we add the following primarily for emphasis.
+
+A. Rejection of Independent Claims 1, 15, and 30
+Appellants argue the Examiner erred in rejecting the independent
+claims, because Bennett fails to disclose or suggest "tracing a latest
+operation relating to the source application automatically right after said
+operation has occurred," as recited in claim 1 and similarly required by
+claims 15 and 30. App. Br. 7. Particularly, Appellants contend "[t]he
+identification of certain information in a source document and subsequent
+extraction of data representing the identified information by a server is not
+equivalent to tracing a latest operation relating to the source application
+automatically right after said operation has occurred." Id.
+We are not persuaded the Examiner erred. During prosecution, claims
+are given their broadest reasonable interpretation consistent with the
+Specification as they would be understood by one of ordinary skill in the art.
+
+In re Am. Acad. of Sci. Tech Ctr., 367 F.3d 1359, 1369 (Fed. Cir. 2004).
+The Examiner finds, and we agree, that "[t]he 'requests' [to view e-mail or
+web pages] of Bennett are synonymous with the 'operations' of the instant
+application" (Ans. 3), and "the 'traced latest operation' is being interpreted
+as a user request to check email or view a web page" (Ans. 7). See Bennett
+
+i-f 40, 62, 63. Appellants' argument that in Bennett, "the queueing process at
+the server may change the order in which the messages are processed, and
+thus, is not occurring right after the operation occurs," is unpersuasive. App.
+3
+
+Appeal2015-001124
+Application 10/805,678
+Br. 9 (referring to Bennett iii! 64---65); see also Reply Br. 4. Rather, we agree
+with the Examiner that Bennett's processing of a queue having an item
+would occur "automatically right after" the request, within the reasonable
+meaning of the claim: Bennett discloses a facility receives a request to view
+e-mail; the facility obtains the user's email from a server; the facility
+automatically parses the email; the facility then delivers the data to the user.
+See Ans. 4 (citing Bennett if 40); see also Fig. 2.
+
+Appellants argue the Examiner erred, because "Bennett's disclosure
+of using multiple templates to structure different types of data from
+documents fails to disclose, teach, or suggest extracting at least one item
+from a traced latest operation of a source application." App. Br. 11,
+
+emphasis in original. We are not persuaded of error. The Examiner finds,
+and we agree, that Bennett's "templates themselves are not interpreted as
+performing the extraction of data" but rather "the system extracts the data
+and places the extracted data into templates." Ans. 7.
+Appellants argue the Examiner erred, because "Bennett discloses
+utilizing multiple templates which are populated with the data extracted
+from the source documents, not recording data extracted from a latest
+operation of a source application into a file." App. Br. 11. We agree with
+the Examiner, however, that "[t]he 'template' is interpreted as equivalent to
+the 'file' of the instant claims." Ans. 8. Appellants have made conclusory
+arguments regarding the failure of the Examiner's findings, and do not
+persuade us the disputed limitations distinguish over the disclosure of
+Bennett.
+Appellants further argue the Examiner erred, because "Bennett fails to
+disclose, teach, or suggest the file (of data extracted from traced operations)
+4
+
+Appeal2015-001124
+Application 10/805,678
+being called by the target application so that an item of the recorded data
+
+may be selected and pasted to the target application." App. Br. 13.
+Appellants contend "it is not the target client application that is calling the
+completed template to use the data, but rather either the server or a separate
+client component using the client application API to integrate the data." Id.
+14. We are not persuaded of Examiner error. We agree with the Examiner
+that Bennett's template is configured to be called by the target application,
+as required by the independent claims. See Ans. 8-9 (citing Bennett i-fi-f 12,
+36).
+Accordingly, we affirm the Examiner's rejection of independent
+claims 1, 15 and 30, and claims 2, 3, 6, 7, 9-14, 16, 19, 20, 22-29, 33-36,
+38, and 41--44 that depend therefrom and are not separately argued.
+
+B. Claims 5, 8, 18, 21, and 40
+
+Regarding claims 5 and 18, Appellants argue the Examiner erred,
+because Bennett fails to disclose or suggest the limitation "wherein the file is
+a log file." App. Br. 15. We are not persuaded of error. The Examiner
+reasonably finds that "[t]he template structure of Bennett is being interpreted
+as the 'log file' of the instant claims," because Appellants' disclosure "does
+not specifically define a 'log file"' but "only states that the log file is
+'sequential."' Ans. 9; see also Specification 4. Appellants' contentions that
+Bennett may use multiple templates based on the "type of information
+identified in a source document" (Reply Br. 6) does not persuasively address
+the Examiner's findings. See Final Act. 3; Ans. 9.
+Regarding claims 8 and 21, Appellants argue the Examiner erred,
+because "Bennett clearly cannot disclose, teach, or suggest the source
+5
+
+Appeal2015-001124
+Application 10/805,678
+application and target application residing in one application program."
+App. Br. 16, emphasis in original. Particularly, Appellants contend "Bennett
+discloses the identification, extraction, and template generation occurring at
+the server and the structured template data then being sent to the client
+device to be used." Id. Bennett, however, describes the use of "Outlook
+from Microsoft Corporation" (Bennett i-f 47); we agree with the Examiner
+that "an organizer such as Microsoft Outlook performs the functions of an
+email source application and calendar/task-list/contact-list target
+application." Ans. 9-10 (citing Bennett i-fi-147--48).
+Regarding claim 40, Appellants argue "Bennett does not disclose,
+teach, or suggest that these servers which may manage applications and
+application data for a client are the same servers as the service facility server
+which provides for the identification and extraction of unstructured data and
+generation of structured data." Reply Br. 7. We are not persuaded the
+Examiner erred. The Examiner finds, and we agree, that in Bennett, "client
+devices may not have resident applications" and "applications may be
+separate applications." (Ans. 10, citing Bennett i-fi-1 48, 57). As discussed
+above, Bennett discloses use of Microsoft Outlook, which contains a
+plurality of source applications, and when residing on the server, "the server
+may store both the email source application and the target calendar
+application." Ans. 10.
+Accordingly, we affirm the Examiner's rejection of claims 5, 8, 18,
+21, and 40.
+
+6
+
+Appeal2015-001124
+Application 10/805,678
+DECISION
+The Examiner's rejection of claims 1-3, 5-16, 18-30, 33-36, 38 is
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+7
+
+

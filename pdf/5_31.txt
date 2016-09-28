@@ -1,0 +1,329 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+14/039,202
+
+09/27/2013
+
+Joseph J. Berry
+
+83390999
+
+1374
+
+28395
+
+7590
+
+09/20/2016
+
+BROOKS KUSHMAN P.C./FG1L
+1000 TOWN CENTER
+22NDFLOOR
+SOUTHFIELD, MI 48075-1238
+
+EXAMINER
+PHAN, HAI
+
+ART UNIT
+
+PAPER NUMBER
+
+2685
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@brookskushman.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOSEPH J. BERRY, MARK J. SCALF,
+DOUGLAS R. VANDAGENS, FRANCIS LUK, and
+TIMOTHY ROBERT NIXON
+
+Appeal2015-001773
+Application 14/039,202
+Technology Center 2600
+
+Before JOHN A. EVANS, MONICA S. ULLAGADDI, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+EVANS, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of Claims 1-20. We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM. 2
+
+1
+
+The Appeal Brief identifies Ford Motor Company as the real party in
+interest. App. Br. 1.
+2
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed Sept. 17, 2014, "App. Br."), the Reply Brief
+(filed Nov. 7, 2014, "Reply Br."), the Examiner's Answer (mailed Oct. 22,
+2014, "Ans."), the Final Office Action (mailed Aug. 14, 2014, "Final Act."),
+and the Specification (filed Sept. 27, 2013, "Spec.") for their respective
+details.
+
+Appeal2015-001773
+Application 14/039,202
+
+STATEMENT OF THE CASE 3
+
+Related appeals
+Appellants inform us of appeals in related applications U.S. Serial No.
+11/769,346 and U.S. Serial No. 12/983,601. App. Br. 1.
+
+The invention
+The claims relate to a method and apparatus for notifying an
+emergency responder of a vehicle emergency. See Abstract.
+Claims 1, 14, and 17 are independent. The claims have not been
+argued separately and therefore stand or fall together. 37 C.F.R.
+
+§ 41.37(c)(l)(iv). An understanding of the invention can be derived from a
+reading of exemplary Claim 1, which is reproduced below with some
+paragraphing added:
+1.
+An apparatus for use within a vehicle to notify an
+emergency responder of a vehicle emergency, comprising:
+an electrical interface configured to receive vehicle
+information from a vehicle data bus in communication
+with one or more vehicle modules;
+a wireless transceiver capable of establishing a wireless
+communication link with a mobile phone and further
+capable of sending at least a portion of the vehicle
+information to the mobile phone;
+an accelerometer capable of determining acceleration or
+deceleration of the vehicle; and a processor configured
+to:
+3
+
+Because we write for the Real Party, familiarity with the background of
+this case is assumed and presented herein only to the extent necessary to
+provide context for the analysis that follows. See U.S. Ethernet Innovations,
+LLCv. Acer, Inc., 646 Fed.Appx. 929, 930 n.1 (Fed. Cir. 2016).
+2
+
+Appeal2015-001773
+Application 14/039,202
+
+detect a vehicle emergency occurring at or near the
+vehicle based at least in part on the accelerometer;
+output a wireless signal to the mobile phone to
+instruct the mobile phone to:
+1) dial an emergency responder and
+establish communication with the
+emergency responder upon detection of the
+vehicle emergency;
+2) disconnect with the emergency responder
+upon completion of communication with the
+emergency responder; and
+3) communicate with a pre-defined
+emergency contact other than the emergency
+responder after disconnecting with the
+emergency responder.
+
+References and Rejections
+The Examiner relies upon the prior art as evidence in support of the
+rejections as follows:
+Uchida, et al.
+Kumar, et al.
+Flick, et al.
+Lappe, et al.
+
+US
+US
+US
+US
+
+6,696,956 Bl
+2006/0217105 Al
+2009/0207007 Al
+7,580,697 B2
+
+Feb.24,2004
+Sept. 28, 2006
+Aug.20,2009
+Aug. 25, 2009
+
+The claims stand rejected as follows:
+1. Claims 1-9 and 11-20 stand rejected under 35 U.S.C. § 103(a) as
+
+being unpatentable over Lappe, Kumar, and Uchida. Final Act. 2---6.
+2. Claim 10 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lappe, Kumar, Uchida, and Flick. Final Act. 6.
+
+3
+
+Appeal2015-001773
+Application 14/039,202
+
+ANALYSIS
+We have reviewed the rejections of Claims 1-20 in light of
+Appellants' arguments that the Examiner erred. We have considered in this
+decision only those arguments Appellants actually raised in the Briefs. Any
+other arguments which Appellants could have made but chose not to make in
+the Briefs are deemed to be waived. See 37 C.F.R. § 41.37(c)(l)(iv). We
+are not persuaded that Appellants identify reversible error. Upon
+consideration of the arguments presented in the Appeal Brief and Reply
+Brief, we agree with the Examiner that all the pending claims are
+unpatentable over the cited combination of references. We adopt as our own
+the findings and reasons set forth in the rejections from which this appeal is
+taken and in the Examiner's Answer. We provide the following explanation
+to highlight and address specific arguments and findings primarily for
+emphasis.
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 3---6.
+
+CLAIMS 1-20: OBVIOUSNESS OVER LAPPE, KUMAR, FLICK, AND UCHIDA
+Appellants argue these claims as a group in view of the limitations of
+Claim 1. App. Br. 6.
+
+A wireless signal to instruct a mobile phone.
+Claim 1 recites, inter alia, "a processor configured to ... output a
+wireless signal to the mobile phone to instruct the mobile phone." The
+Examiner finds Lappe teaches an apparatus for notifying an emergency
+
+4
+
+Appeal2015-001773
+Application 14/039,202
+
+responder of a vehicle emergency including a wireless transceiver (e.g., a
+"Bluetooth" device) to establish a wireless communications link with a
+mobile phone. Final Act. 2. The Examiner finds that where an
+accelerometer ("gyro") detects a vehicle crash, the Bluetooth device outputs
+a wireless signal to a mobile phone instructing the phone to dial and
+establish a communications link with an emergency responder. Id. at 3.
+Whereas a processor is implicit in Lappe' s disclosure, the Examiner finds
+Kumar discloses an analogous processor explicitly. Id.
+Appellants admit Lappe' s emergency device transmits an emergency
+event signal to a wireless phone. App. Br. 4. However, Appellants argue
+"the telephone dials the emergency responder absent any instructions from
+the emergency call device." Id. Appellants argue Lappe' s "notification of
+an emergency event" is patentably distinct from a "notification for a mobile
+phone to dial an emergency response." Reply Br. 1. Appellants concede
+that upon receipt of a signal, both the claimed and reference wireless phones
+dial and establish a communications link with emergency responders. We
+are not persuaded of the alleged patentable distinction.
+Claim 1 recites, inter alia, "wireless signal to the mobile phone to
+instruct the mobile phone," i.e., a signal wherein embedded therein are
+supplemental data, or "instructions from the emergency call device." App.
+Br. 4. Signals with embedded supplementary data are "transitory
+embodiments [that] are not directed to statutory subject matter." In re
+Nuijten, 500 F.3d 1346, 1353 (Fed. Cir. 2007). Appellants' invention is
+directed to non-statutory subject matter.
+
+5
+
+Appeal2015-001773
+Application 14/039,202
+
+As clarified in the Reply Brief, Appellants' contentions invoke the
+printed-matter doctrine, i.e., "matter claimed for its communicative content."
+In re DiStefano, 808 F.3d 845) 849 (Fed. Cir. 2015). Both the instant claims
+and Lappe disclose that a vehicle emergency system sends a wireless
+notification of a crash following which a wireless phone dials and
+establishes a communications link with an emergency responder. See Claim
+1; Final Act. 2-3. Appellants contend a patentable distinction inheres in the
+claimed "communicative content."
+DiStefano set forth a two-step analysis of the printed matter doctrine.
+The first step finds "a limitation is printed matter only if it claims the content
+of information." DiStefano, 808 F.3d at 848. Appellants effectively allege
+Lappe' s wireless signal to the telephone is impressed with the message
+"emergency event," whereas, the claimed signal is impressed with the
+message "dial an emergency response." Thus, under Appellants'
+construction, the accused limitation is directed to "printed matter."
+Only where, as here, the limitation is determined to be printed matter
+does the question arise as to whether the printed matter should be given
+patentable weight. DiStefano, 808 F.3d at 850. "Printed matter is given
+such weight if the claimed informational content has a functional or
+structural relation to the substrate." Id. Appellants do not allege any
+structural relationship between the claimed information and the substrate
+wireless phone. Moreover, Appellants admit the same function occurs
+notwithstanding the alleged difference in informational content. Thus,
+Appellants admit both the claimed and referenced wireless phones dial an
+emergency responder regardless of any alleged difference in the
+
+6
+
+Appeal2015-001773
+Application 14/039,202
+
+informational content. See App. Br. 4. Thus, Appellants effectively admit
+that there is no functional relationship between the claimed informational
+content and the substrate wireless phone. In the absence of either a
+structural or functional relationship between the claimed printed matter and
+the substrate wireless phone, we decline to afford patentable weight to the
+claimed printed matter. See DiStefano, 808 F .3d at 850.
+
+Motivation to combine Lappe and Kumar.
+Appellants argue that no motivation to combine Lappe and Kumar
+exists because the combination would change the principle of operation of
+the references. App. Br. 5 (citing In re Ratti, 270 F.2d 810 (CCPA 1959)).
+In particular, Appellants contend Kumar's manual emergency triggering
+conflicts with Lappe's automatic emergency triggering. Id.
+The Examiner relies on Kumar's disclosure of a processor that has
+executable instructions to handle emergency signaling once a triggering
+event has been noted. Ans. 7. The Examiner finds Lappe provides a
+conceptual diagram that omits certain details of how the method is
+performed. The Examiner finds although a processor is implied by Lappe' s
+disclosure, that a processor is not explicitly recited. Final Act. 3. The
+Examiner finds Kumar discloses an analogous emergency system that
+explicitly recites a processor. Id.
+We find w person of ordinary skill in the art would recognize that one
+or more processors were implied in the disclosure of Lappe. We find
+unavailing Appellants' further arguments as to where the emergency
+condition handling occurs. See Reply Br. 3. Kumar is relied upon to clarify
+
+7
+
+Appeal2015-001773
+Application 14/039,202
+
+the necessary presence of a processor, not to teach a manner or locus of
+event handling. Accordingly, we are not persuaded the Examiner errs.
+
+DECISION
+The rejections of Claims 1-20 under 35 U.S.C. § 103(a) are
+AFFIRMED.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+8
+
+

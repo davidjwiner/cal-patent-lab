@@ -1,0 +1,370 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111385,354
+
+0312012006
+
+Ajith Kuttannair Kumar
+
+204173-1 (552-54US27)
+
+2664
+
+91959
+
+7590
+
+09/14/2016
+
+EXAMINER
+
+GE GPO- Transportation- The Small Patent Law Group
+3135 Easton Turnpike
+Fairfield, CT 06828
+
+KING, RODNEY P
+
+ART UNIT
+
+PAPER NUMBER
+
+3665
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/14/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+gpo.mail@ge.com
+marie.gerrie@ge.com
+lori.E.rooney@ge.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AJITH KUTTANNAIR KUMAR,
+GLENN ROBERT SHAFFER,
+PAUL KENNETH HOUPT,
+BERNARDO ADRIAN MOVSICHOFF,
+DAVID SO KEUNG CHAN, and
+SUKRU ALPER EKER
+
+Appeal2014-009677
+Application 11/385,354
+Technology Center 3600
+
+Before JAMES P. CALVE, BRANDON J. WARNER, and
+JAMES J. MAYBERRY, Administrative Patent Judges.
+CAL VE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from the final rejection of
+claims 42, 44, 45, 47-50, 59---63, 66, 68, 70, 79, 81-84, 118-120, 123, and
+125-138. Appeal Br. 8. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM-IN-PART.
+
+Appeal2014-009677
+Application 11/385,354
+CLAIMED SUBJECT MATTER
+Claims 42 and 118 are independent. Claim 42 is reproduced below.
+42. A method for operating a first train having one or
+more locomotive consists with each locomotive consist
+comprising one or more locomotives, the method comprising:
+receiving route data and train data, wherein the route data
+includes data relating to one or more characteristics of a track
+on which the first train is to travel along a route and data
+relating to at least one speed limit along the route, and wherein
+the train data relates to one or more characteristics of the train;
+creating a trip plan onboard the first train at any time
+during travel of the train along the route, wherein the trip plan
+is created at a first point along the route based on the received
+data and covers at least a segment of the route extending to a
+second point further along the route than the first point, the trip
+plan designating operational settings of the first train as a
+function of at least one of distance or time along the route;
+automatically controlling the first train according to the
+trip plan as the first train travels along the route segment, said
+trip plan being configured for increasing efficiency of the first
+train by at least one of reducing fuel use of the first train or
+reducing emissions produced by the first train along the
+segment of the route;
+measuring actual efficiency of the train during travel of
+the first train according to the trip plan; and
+updating the trip plan during travel of the first train based
+on the actual efficiency that is measured.
+REJECTIONS
+Claims 118-120 are rejected under 35 U.S.C. § 102(b) as anticipated
+by Polivka (US 5,828,979, iss. Oct. 27, 1998).
+Claims 42, 44, 45, 47--49, 59---61, 63, 66, 68, 70, 79, 81-84, 123, 128132, and 136-138 are rejected under 35 U.S.C. § 103(a) as unpatentable
+over Polivka and Horst (US 2004/0129840 Al, pub. July 8, 2004).
+
+2
+
+Appeal2014-009677
+Application 11/385,354
+Claim 50 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Polivka, Horst, and Julich (US 2004/0172175 Al, pub. Sept. 2, 2004).
+Claim 62 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Polivka, Horst, and Kull (US 5,744,707, iss. April 28, 1998).
+Claim 125 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Polivka, Horst, and Kisak (US 2004/0245410 Al, pub. Dec. 9, 2004).
+Claims 126 and 127 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Polivka, Horst, and Nahla (US 2005/0107954 Al, pub.
+May 19, 2005).
+Claim 133 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Polivka and Kisak.
+Claims 134 and 135 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Polivka and Nahla.
+ANALYSIS
+
+Claims 118-120 as anticipated by Polivka
+Claim 118
+The Examiner found that Polivka discloses a method for operating a
+first train, as recited in claim 118, including creating a trip plan including a
+plurality of power and notch settings and communicating the trip plan to the
+first train. Final Act. 7-9; Ans. 4.
+Appellants argue that Polivka does not describe creating a trip plan
+that includes a plurality of designated power and notch settings but instead
+corrects power settings when a train falls behind schedule. Appeal Br. 2325; Reply Br. 4. Appellants also argue that Polivka describes a trip plan that
+schedules times of departure or arrival but the scheduled times are not power
+or notch settings. Reply Br. 3.
+
+3
+
+Appeal2014-009677
+Application 11/385,354
+The Examiner has established by a preponderance of evidence that
+Polivka discloses a method for operating a train by creating a trip plan with
+at least one of a plurality of power settings or notch settings for the first train
+to follow as a function of distance or time along the route. In Polivka, after
+computer dispatch 702 sends a trip plan to first train 704, onboard computer
+708 creates a trip profile including a velocity profile versus time or distance
+that provides power settings so the train meets its departure and arrival times
+and in-train forces stay at acceptable levels. Polivka, 10:31---60, 7:3-11.
+Power adjuster 234 compares estimated and actual time and velocity and
+adjusts power settings so the train arrives on time. Polivka, 8:47-55; Ans. 4.
+Appellants also argue that Polivka does not disclose communicating a
+trip plan to a train because the corrective power settings are determined by
+onboard controller 208 and are not communicated to the train. Appeal Br.
+25. Appellants further argue that Polivka communicates a "trip plan" to a
+train that includes estimated times of arrival and departure, rather than notch
+or power settings as claimed. Reply Br. 4.
+The Examiner's finding that Polivka discloses communicating a trip
+plan to a train is supported by a preponderance of evidence. As discussed
+above, Polivka discloses that onboard controller 208 computes a set of train
+commands that control the train's operation including velocity profiles and
+power settings. Train controller 208 thus computes a set of train commands
+that cause the train to operate on the movement timeline profile derived from
+the received movement plan. Polivka, 6:36-45. The plan and commands
+are communicated to display 220 in the cab for an engineer or to actuators
+for automatic activation. Id. at 6:46-50, Fig. 4; Final Act. 8-9.
+Thus, we sustain the rejection of claim 118.
+
+4
+
+Appeal2014-009677
+Application 11/385,354
+Claim 120
+The Examiner also found that Polivka discloses route or train data that
+comprises weather or maintenance conditions as recited in claim 120, which
+depends from claim 118. Final Act. 9. The Examiner found that Polivka
+discloses a method that responds to track repair and maintenance forces and
+crews. Id. (citing Polivka, 2:7-10).
+Appellants argue that Polivka's disclosure of schedule repairs is not a
+maintenance condition but is a repair of a schedule. Appeal Br. 26-27. This
+argument is not persuasive of error in the Examiner's findings above. The
+Examiner reasonably interpreted maintenance conditions as repairs of the
+track because repairs and maintenance affect trip plans and schedules. Ans.
+4--5. Appellants disclose that their system optimizes trip plans to allow for
+slower operation for weather conditions and track maintenance. Spec. ,-r 57.
+Thus, we sustain the rejection of claim 120.
+As Appellants do not argue claim 119 separately, we also sustain the
+rejection of claim 119. See 37 C.F.R. § 41.37(c)(l)(iv).
+Claims 42, 44, 45, 47--49, 59-61, 63, 66, 68, 70, 79, 81--84, 123, 128-132,
+and 136--138 as unpatentable over Polivka and Horst
+
+Claims 42, 44, 45, 47--49, 59---61, 63, 66, 68, 70, 79, 81-84, 123, and
+128-130
+The Examiner found that Polivka discloses the method substantially
+as recited in claim 42 including measuring actual efficiency/energy of the
+train during travel of the train according to the trip plan by estimating the
+brake application point (col. 10, lines 1-16, claim 8) and updating the trip
+plan during travel based on actual efficiency by measuring the end of train
+location based on the number and types of cars, topography, and expected
+length of the train (col. 9, lines 22-34). Final Act. 11-12; Ans. 3--4.
+
+5
+
+Appeal2014-009677
+Application 11/385,354
+Appellants argue that Polivka describes estimating a brake application
+point and determining where the end of train unit is located, but neither act
+teaches or suggests updating any trip plan based on a measurement of actual
+efficiency of the train as recited in claim 42. Appeal Br. 21-22; Reply Br. 2.
+The Examiner has not established by a preponderance of evidence that
+Polivka teaches updating a trip plan during travel of a first train based on the
+measured actual efficiency of the train as claimed. Polivka's determination
+of the location of the end-of-train unit is not used to update a trip plan or its
+operational settings. Even if this determination resulted in the update of a
+trip plan, the Examiner has not explained how such location determination is
+based on a measurement of the actual efficiency of the train during travel.
+Final Act. 12; Ans. 3--4. The Examiner's finding that it is well known that
+train companies manufacture the most efficient trains possible to reduce cost
+so efficiency must be measured is not supported by any evidence of record. 1
+Even so, the Examiner has not explained adequately how a general emphasis
+on efficiency would have made it obvious to update a trip plan during travel
+of a train (versus manufacture of a train) based on a measured efficiency of
+the train.
+
+1
+
+We do not view this "finding" of the Examiner as taking Official Notice.
+In any case, this matter is not appropriate for Official Notice as it relates to a
+core issue in the case, rather than a peripheral issue that is capable of ready
+and accurate verification. See KIS HIMPP v. Hear-Wear Techs., LLC, 751
+F.3d 1362, 1366 (Fed. Cir. 2014) ("Board cannot accept general conclusions
+about what is 'basic knowledge' or 'common sense' as a replacement for
+documentary evidence for core factual findings in a determination of
+patentability.") (citing In re Zurko, 258 F.3d 1379, 1385-86 (Fed. Cir.
+2001)); see also Manual of Patent Examining Procedure§ 2144.03 (Rev. 7,
+Nov. 2015) (discussing requirements for taking Official Notice).
+6
+
+Appeal2014-009677
+Application 11/385,354
+Thus, we do not sustain the rejection of claim 42 or its dependent
+claims 44, 45, 47--49, 59---61, 63, 66, 68, 70, 79, 81-84, 123, and 128-130.
+Claim 136
+Claim 13 6 depends from claim 118 and recites that the trip plan is
+created to increase efficiency by reducing fuel used or emissions produced
+and the trip plan objective is changed as a function of the distance of the
+train to a destination location. The Examiner found that Polivka teaches this
+feature of reducing fuel used or emissions produced as an objective of a trip
+plan and changing the objective as a function of distance of the train to a trip
+destination by changing the planned speed. Final Act. 18-19; Ans. 5---6.
+Appellants argue that Polivka makes no mention of creating a trip
+plan objective of reducing fuel consumption or fuel emissions or changing a
+trip objective as a function of the train distance to a destination. Appeal Br.
+33-34. Appellants argue that Horst does not teach this feature. Id. at 34.
+Appellants also argue that their Specification does not disclose new future
+speed limit changes as changes in a trip objective. Reply Br. 6-7.
+These arguments are not persuasive in view of Polivka's teaching of
+routing of trains using a Shortest Path First algorithm where distance is a
+performance measure or where fuel usage measures performance. Polivka,
+6:5-11; Final Act. 11; Ans. 3. Appellants disclose the use of "faster" time
+objectives and slower operation at the end of the trip. Spec. i-fi-156-57.
+Polivka teaches that train controller 208 can determine new train commands
+as unforeseen conditions occur during movement. Polivka, 7:3-11.
+Thus, we sustain the rejection of claim 136.
+
+7
+
+Appeal2014-009677
+Application 11/385,354
+Claim 137
+The Examiner determined that it would have been obvious to try to
+create a trip plan based on previous trip plans and train configurations. Final
+Act. 19; Ans. 6.
+Appellants argue that Polivka creates a system wide movement plan
+for trains and separates the plan into individual plans for various trains so it
+is unclear why a skilled artisan would refer to a previously made trip plan
+for an individual train when forming a system wide movement plan. Appeal
+Br. 36, 38-39.
+The Examiner had a reasonable basis for determining that it would
+have been obvious to use previous trip plans based on previous routes and
+train consists as a basis for formulating a trip plan for a similar or same train
+over a similar or same route. Polivka teaches storage of train and track data
+for use in planning trips. Polivka, 6:5-24. Polivka also uses known train
+rules and track segment information for planning trips. Id. at 6:25-35.
+Thus, we sustain the rejection of claim 137.
+Claim 131
+We agree with Appellants that the Examiner has not established that
+Polivka or Horst teaches or suggests a method that presents several trip plans
+to an operator for selection of one trip plan used to control the train. Appeal
+Br. 39--43. The Examiner's finding that Horst teaches the display panel 34
+with individual light sources 36 and light emitting diodes for the operative
+conditions of a train that can be selected by the operator does not address a
+method that determines and presents several trip plans to a train operator to
+select a single trip plan.
+Thus, we do not sustain the rejection of claim 131.
+
+8
+
+Appeal2014-009677
+Application 11/385,354
+Claim 132
+As discussed above, Polivka teaches selection of trip plans based on
+fuel usage (Polivka, 6:5-11) (Final Act. 21) and Appellants' arguments do
+not address or persuade us of error in that finding. Appeal Br. 43--44. Thus,
+we sustain the rejection of claim 132.
+Claim 138
+Appellants do not separately argue the patentability of claim 138,
+which depends from claim 118. Therefore, we sustain that rejection.
+
+Claims 50, 62, and 125-127
+The Examiner rejected claims 50, 62, and 125-127 as unpatentable
+over Polivka and Horst, in combination with one of Julich, Kull, Kisak, and
+Nahla. Final Act. 21-25. The Examiner relied on Julich, Kull, Kisak, or
+Nahla to teach features in each of claims 50, 62, and 125-127, but not to
+overcome deficiencies of Polivka and Horst discussed above for claim 42,
+from which these claims depend. Id. Thus, we do not sustain the rejections
+of these claims.
+
+Claim 13 3 as unpatentable over Polivka and Kisak
+The Examiner rejected claim 133 as unpatentable over Polivka and
+Kisak. Final Act. 25-26. Because Appellants do not present arguments for
+this rejection, we summarily sustain the rejection. See Appeal Br. 47--48.
+
+Claims 134 and 135 as unpatentable over Polivka and Nahla
+The Examiner rejected claims 134 and 135 as unpatentable over
+Polivka and Nahla. Final Act. 26-27. Because Appellants do not present
+arguments for this rejection, we summarily sustain the rejection. See Appeal
+Br. 47--48.
+
+9
+
+Appeal2014-009677
+Application 11/385,354
+DECISION
+We AFFIRM the rejections of claims 118-120 and 132-138.
+We REVERSE the rejections of claims 42, 44, 45, 47-50, 59-63, 66,
+68, 70, 79,81-84, 123, 125-130,and 131.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+10
+
+

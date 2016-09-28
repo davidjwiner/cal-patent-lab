@@ -1,0 +1,382 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/098,553
+
+05/02/2011
+
+Y ehuda Shmueli
+
+5987/002
+
+9023
+
+22440
+
+7590
+
+09/20/2016
+
+GOTTLIEB RACKMAN & REISMAN PC
+270 MADISON AVENUE
+8THFLOOR
+NEW YORK, NY 10016-0601
+
+EXAMINER
+MENDEZ, ZULMARIAM
+
+ART UNIT
+
+PAPER NUMBER
+
+1754
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patenteaction@grr.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte YEHUDA SHMUEL!, EITAN SHMUEL!, and
+DORON SHMUEL!
+
+Appeal2015-002033
+Application 13/098,553
+Technology Center 1700
+
+Before CHUNG K. PAK, JAMES C. HOUSEL, and JEFFREY R. SNAY,
+Administrative Patent Judges.
+SNAY, Administrative Patent Judge.
+
+DECISION ON APPEAL 1
+Appellants 2 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 1, 2, and 4-17. We have jurisdiction under
+35 U.S.C. § 6(b). We affirm-in-part and enter a new ground of rejection
+pursuant to our authority under 37 C.F.R. § 41.50(b).
+
+1
+
+We cite to the Specification ("Spec.") filed May 2, 2011; Final Office
+Action ("Final Act.") mailed Nov. 6, 2013; Examiner's Answer ("Ans.");
+and Appellants' Amended Appeal Brief ("App. Br.") and Reply Brief
+("Reply Br.").
+2
+Appellants identify Maymaan Research as the real party in interest. App.
+Br. 2.
+
+Appeal2015-002033
+Application 13/098,553
+
+BACKGROUND
+The subject matter involved in this appeal relates to a system for
+generating hydrogen gas. Spec. 1. Claims 1 and 15-the only independent
+claims-illustrate the subject matter on appeal and are reproduced from the
+Claims Appendix of the Appeal Brief as follows:
+1.
+A system for producing hydrogen gas used in powering
+an internal combustion engine of a vehicle, said system
+compnsmg:
+a hydrogen reactor having a chamber and a set of
+electrode plates arranged in a predetermined stacked array
+within said chamber, said electrode plates including a plurality
+of positively charged and negatively charged plates disposed in
+a predetermined spaced position relative to one another to
+define said predetermined stacked array, a plurality of nozzles
+arranged and constructed to direct an electrolyte between said
+set of electrode plates, said electrolyte including water and
+metallic particles suspended in said water, whereby said
+hydrogen reactor produces hydrogen gas through electrolytic
+decomposition of the water; and
+a delivery pipe collecting said hydrogen for delivery to
+the internal combustion engine.
+
+15. A system for generating a mixture of oxygen and
+hydrogen for enriching the fuel in an internal combustion
+engine by injecting said mixture into an intake manifold of said
+engine while said engine is running, said system comprising:
+a reactor formed of a closed chamber, a plurality of
+parallel plates secured within said chamber, an electrolyte inlet
+including a plurality of nozzles, an electrolyte outlet and a gas
+mixture outlet, said nozzles being arranged and constructed to
+direct jets of an electrolyte under pressure along said plates;
+a circulator connected to said electrolyte inlet and
+electrolyte outlet and circulating therebetween, said electrolyte
+being formed of a water, hydrogen peroxide and a plurality
+
+2
+
+Appeal2015-002033
+Application 13/098,553
+
+metallic particles sized and shaped to promote the formation of
+gas bubbles as said electrolyte flows between said plates;
+an electric power source connected to some of said plates
+to charge said plates to one of a positive and negative polarity;
+and
+a conduit connecting said reactor to the internal
+combustion engine;
+wherein a gas mixture of hydrogen and oxygen is
+collected at said outlet, said gas mixture resulting from the
+electrolysis of said electrolyte between said plates, said gas
+mixture being fed through said conduit to the internal
+combustion engine.
+REJECTIONS
+The Examiner maintained the following grounds of rejection: 3
+I.
+
+Claims 1, 2, and 5-14 stand rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Klein, 4 Kim, 5 and Spaziante. 6
+II.
+
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+
+Klein, Kim, Spaziante, and Tzanavaras. 7
+III.
+
+Claims 15-17 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+
+over Klein, Spaziante, and Tzanavaras.
+
+3
+
+Ans. 2-9; Final Act. 4--11. The Examiner withdrew a provisional double
+patenting rejection. Ans. 9.
+4
+US 6,866,756 B2, issued Mar. 15, 2005 ("Klein").
+5
+US 7,014,740 B2, issued Mar. 21, 2006 ("Kim").
+6
+US 4,019 ,968, issued Apr. 26, 1977 ("Spaziante").
+7
+US 5,421,987, issued Jun. 6, 1995 ("Tzanavaras").
+3
+
+Appeal2015-002033
+Application 13/098,553
+DISCUSSION
+Appellants do not distinguish between Rejections I, II and III in their
+arguments. App. Br. 2-9; Reply Br. 2-5. Generally, Appellants direct their
+arguments toward independent claims 1 and 15, and separately argue claim
+7. Id. We address each of Rejections I-III in tum.
+I
+
+With regard to Rejection I, we select claim 1 as representative and
+decide the propriety of Rejection I as to claims 1, 2, 5, 6, and 8-14 based on
+the representative claim alone. See 37 C.F.R. § 41.37(c)(l)(iv). Separately
+argued claim 7 is separately addressed.
+Appellants do not dispute the Examiner's finding that Klein discloses
+a system for generating hydrogen gas which includes all of the features
+recited in claim 1, except that Klein does not provide a plurality of nozzles
+arranged and constructed to direct a metal particle-containing electrolyte
+between electrode plates. Compare Final Act. 4--5 with App. Br. 2-9; Reply
+Br. 2-5. Neither do Appellants dispute the Examiner's determination that it
+would have been obvious to one of ordinary skill, in light of the teachings of
+Kim, to provide Klein's system with "a forced electrolyte circulating device"
+including "a plurality of jets" in order to "flow electrolyte under pressure
+between the electrode plates," and thereby enhance the electrolysis
+efficiency. Compare Final Act. 5---6 with App. Br. 2-9; Reply Br. 2-5.
+Appellants argue that the Examiner incorrectly determined that
+Spaziante would have led one of ordinary skill in the art to add metal
+particles to the electrolyte used in Klein's hydrogen generator. App. Br. 812. Claims directed to an apparatus must be distinguished from the prior art
+based on recited structure. In re Schreiber, 128 F.3d 1473, 1477-78 (Fed.
+4
+
+Appeal2015-002033
+Application 13/098,553
+Cir. 1997); Hewlett-Packard Co. v. Bausch & Lomb Inc., 909 F.2d 1464,
+1469 (Fed. Cir. 1990) ("[A]pparatus claims cover what a device is, not what
+a device does."). The material worked upon by an apparatus ordinarily does
+not limit an apparatus claim. Ex parte Thibault, 164 USPQ 666, 667 (Bd.
+App. 1969) ("expressions relating the apparatus to contents thereof during an
+intended operation are of no significance in determining patentability of the
+apparatus claim"). Here, Appellants do not point us to any evidence or
+claim language that would support a finding that the particle-containing
+electrolyte is a structural element of the claims, or structurally limits the
+recited nozzles. To the contrary, the Appellants identify the nozzles only
+generically as "a plurality of jets or nozzles," Spec. 13, and that it is the
+metal particles which are to be "dimensioned and configured" for passage
+through the nozzles, id. at 15. On this record, we are persuaded by the
+Examiner's reasoning, Ans. 12, that it would have been obvious to provide
+Klein;s apparatus with Kim;s nozzles, and that such nozzles would have
+been capable of delivering electrolyte with suitably sized particles. 8
+Accordingly, we are persuaded that the Examiner's findings based on
+Klein and Kim are sufficient to support Rejection I. Because we do not rely
+upon any teaching from Spaziante in reaching our determination,
+Appellants' arguments directed to purported deficiencies in the Examiner's
+reliance on Spaziante are not persuasive.
+
+8
+
+The Examiner identified the particle-containing electrolyte as a nonlimiting recitation in the Answer. Appellants do not address this point in
+their Reply Brief.
+5
+
+Appeal2015-002033
+Application 13/098,553
+
+Claim 7
+
+Claim 7 depends from claim 1 and recites that, in use, the electrolyte
+is under "sufficient pressure to sweep gas bubbles formed on at least some of
+said plurality of electrode plates." The Examiner found, and Appellants do
+not dispute, that Kim teaches providing a "forced electrolyte circulating
+device (43)" including a "pump (41) ... to flow electrolyte under pressure
+between the electrode plates in order to make the bubbles generated between
+the electrode plates flow at a rapid speed." Compare Final Act. 5 with App.
+Br. 2-9; Reply Br. 2-5.
+Appellants contend that adding metal particles to the circulating
+electrolyte aids in sweeping bubbles off the electrode plates and improves
+process efficiency. App. Br. 12. That fact, however, does not refute the
+Examiner's finding that Kim's electrolyte circulating device would be
+capable of delivering electrolyte under a pressure sufficient to sweep gas
+bubbles, as is recited in claim 7.
+We sustain Rejection I.
+
+II
+Appellants do not present any separate argument against Rejection II.
+Accordingly, we sustain Rejection II for the same reasons given in
+connection with Rejection I.
+
+III
+With regard to Rejection III, we select claim 15 as representative and
+decide the propriety of Rejection III based on the representative claim alone.
+See 37 C.F.R. § 41.37(c)(l)(iv). The Examiner did not rely upon Kim in
+6
+
+Appeal2015-002033
+Application 13/098,553
+support of Rejection III. Instead, the Examiner determined that, in light of
+Tzanavaras, it would have been obvious to "direct a respective jet of
+electrolyte toward one of the plurality [of] electrode plates." Final Act. 11
+(citing Tzanavaras col. 4, 11. 60-68). Tzanavaras discloses an electroplating
+apparatus, in which electrolyte jets facilitate turbulent agitation at a substrate
+surface during an electroplating operation. Tzanavaras, Abstract. The
+Examiner failed to articulate a reason why one of ordinary skill would have
+modified Klein's hydrogen generator to include nozzles taught solely in
+connection with electroplating. For that reason, we do not sustain the
+Examiner's obviousness determination based on Klein, Tzanavaras, and
+Spaziante.
+
+New Ground of Rejection
+
+Each of claims 15-17 is rejected on a new ground under 35 U.S.C.
+§ 103(a) as unpatentable over Klein and Kim.
+The apparatus recited in claim 15 includes all the features recited in
+claim 1 and further requires "a circulator connected to said electrolyte inlet
+and electrolyte outlet," "an electric power source," and a conduit connecting
+the hydrogen reactor to an internal combustion engine. See App. Br. 14, 16
+(Claims Appendix). Claim 16 specifies that some plates are neutral, and
+claim 17 adds that the reactor, circulator and power source "are sized and
+shaped for mounting" on the engine. Id. at 17.
+The above-mentioned features also are recited in claims 6 and 9,
+which the Examiner rejected under Rejection III and which we sustained,
+supra, based on the Examiner's findings made in reliance on Klein and Kim.
+
+Particularly, in connection with Rejection I, the Examiner found that Klein
+7
+
+Appeal2015-002033
+Application 13/098,553
+
+teaches a DC power source and a delivery pipe connecting the hydrogen
+generator to an internal combustion engine. Final Act. 5. The Examiner
+further found that Kim teaches an electrolyte circulating device to control
+electrolyte temperature, and that it would have been obvious to provide
+Kim's circulating device in Klein's reactor for that purpose. Id. These
+findings are supported by substantial evidence as cited by the Examiner,
+Final Act. 4---6, and not contested by Appellants, see App. Br. 2-9; Reply Br.
+2-5.
+Accordingly, we find each of claims 15-17 to be unpatentable over
+Klein and Kim based on the Examiner's undisputed findings regarding those
+references in connection with Rejection I of claims 6 and 9.
+
+CONCLUSION
+We sustain the Examiner's rejection of claims 1, 2, and 4--14 under 35
+U.S.C. § 103(a).
+We do not sustain the Examiner's rejection of any of claims 15-17
+under 35 U.S.C. § 103(a).
+We enter a new ground of rejection, rejecting claims 15-17 under
+35 U.S.C. § 103(a).
+
+DECISION
+The Examiner's decision is affirmed-in-part and a new ground of
+rejection entered.
+
+TIME PERIOD FOR RESPONSE
+Regarding the affirmed rejection(s), 37 C.F.R. § 41.52(a)(l) provides
+8
+
+Appeal2015-002033
+Application 13/098,553
+"Appellant may file a single request for rehearing within two months from
+the date of the original decision of the Board."
+In addition to affirming the Examiner's rejection(s) of one or more
+claims, this decision contains new grounds of rejection pursuant to 37 C.F.R.
+§ 41.50(b). 37 C.F.R. § 41.50(b) provides "[a] new ground of rejection
+pursuant to this paragraph shall not be considered final for judicial review."
+37 C.F.R. § 41.50(b) also provides that Appellant, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new grounds of rejection to
+avoid termination of the appeal as to the rejected claims:
+( 1) Reopen prosecution. Submit an appropriate amendment of
+the claims so rejected or new evidence relating to the claims so
+rejected, or both, and have the matter reconsidered by the
+Examiner, in which event the proceeding will be remanded to
+the Examiner. . . .
+(2) Request rehearing. Request that the proceeding be reheard
+under§ 41.52 by the Board upon the same record ....
+Should Appellant elect to prosecute further before the Examiner
+pursuant to 37 C.F.R. § 41.50(b)(l), in order to preserve the right to seek
+review under 35 U.S.C. §§ 141or145 with respect to the affirmed rejection,
+the effective date of the affirmance is deferred until conclusion of the
+prosecution before the Examiner unless, as a mere incident to the limited
+prosecution, the affirmed rejection is overcome.
+If Appellant elects prosecution before the Examiner and this does not
+
+result in allowance of the application, abandonment or a second appeal, this
+case should be returned to the Patent Trial and Appeal Board for final action
+on the affirmed rejection, including any timely request for rehearing thereof.
+
+9
+
+Appeal2015-002033
+Application 13/098,553
+
+AFFIRMED-IN-PART; 37 C.F.R. § 41.50(b)
+
+10
+
+

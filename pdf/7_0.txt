@@ -1,0 +1,636 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+09/750,765
+
+12/28/2000
+
+Mitchell R. Swartz
+
+7590
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+8044
+
+09/14/2016
+
+EXAMINER
+
+Mitchell R. Swartz, ScD, EE, MD
+16 Pembroke Road
+Weston, MA 02493
+
+KEITH, JACK W
+
+ART UNIT
+
+PAPER NUMBER
+
+3646
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/14/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+________________
+Ex parte MITCHELL R. SWARTZ
+________________
+Appeal 2012-011287
+Application 09/750,765
+Technology Center 3600
+________________
+Before EDWARD A. BROWN, MICHAEL L. HOELTER, and
+NINA L. MEDLOCK, Administrative Patent Judges.
+HOELTER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+This is a decision on appeal, under 35 U.S.C. § 134(a), from a final
+rejection of claims 1‒10, 12–19, 21, and 22. App. Br. 3. Claims 11 and 20
+have been withdrawn. Final Act. 1 (Office Action Summary); App. Br. 3.
+We have jurisdiction under 35 U.S.C. § 6(b). We AFFIRM.
+THE CLAIMED SUBJECT MATTER
+The disclosed subject matter relates “to control[ing] loaded isotopic
+fuel within a material [using] a two-stage method which involves a first
+stage of electrode loading, and then, a second stage of sudden rapid
+
+Appeal 2012-011287
+Application 09/750,765
+(‘catastrophic’) flow of hydrogen within the metal.” Spec. 2.1 Claims 1, 4,
+and 13 are independent claims. Claim 4, which is illustrative of the claims
+on appeal, is reproduced in the body of this Decision.
+REFERENCES RELIED ON BY THE EXAMINER
+Kinsella
+Westfall
+Patterson ’675
+Patterson ’688
+
+US 3,682,806
+US 5,215,631
+US 5,318,675
+US 5,372,688
+
+Aug. 8, 1972
+June 1, 1993
+June 7, 1994
+Dec. 13, 1994
+
+THE REJECTIONS ON APPEAL2
+Claims 1–10, 12–19, 21, and 22 are rejected under 35 U.S.C. § 101 on
+the ground that the claimed invention as disclosed is inoperative and
+therefore lacks utility. Final Act. 26.
+Claims 1–10, 12–19, 21, and 22 are rejected under 35 U.S.C. § 112,
+first paragraph, enablement requirement. Final Act. 26.
+Claims 1–10, 12–19, 21, and 22 are rejected under 35 U.S.C. § 112,
+second paragraph, as indefinite for failing to particularly point out and
+distinctly claim the subject matter which Appellant regards as the invention.
+Final Act. 27.
+Claims 1–10, 12–19, 21, and 22 are rejected under 35 U.S.C. § 102(b)
+as anticipated by Westfall. Final Act. 29.
+
+1
+
+Appellant’s Specification does not provide line or paragraph numbering
+and, accordingly, reference to the Specification will only be made via the
+page number.
+2
+In addition to the claim rejections listed, “[t]he Specification is objected to
+under 35 U.S.C. § 112, first paragraph, as failing to provide an adequate
+written description of the invention and as failing to adequately teach how to
+make and/or use the invention, i.e., failing to provide an enabling
+disclosure.” Final Act. 11.
+2
+
+Appeal 2012-011287
+Application 09/750,765
+Claims 1–8 and 13–16 are rejected under 35 U.S.C. § 102(b) as
+anticipated by Patterson ’675 or Patterson ’688. Final Act. 31.
+Claims 1, 2, 4, 5, 7, 10, 13, 15, 16, and 21 are rejected under
+35 U.S.C. § 102(b) as anticipated by Kinsella. Final Act. 32.
+The rejections of claims 1–10, 12–19, 21, and 22
+under §§ 101 and 112, first paragraph
+Overview
+The questions of whether a specification provides an enabling
+disclosure under § 112, first paragraph, and whether an application satisfies
+the utility requirement of § 101 are closely related. See Process Control
+Corp. v. HydReclaim Corp., 190 F.3d 1350, 1358 (Fed. Cir. 1999). We are
+provided guidance that if claims in an application fail to meet the utility
+requirement under § 101 because the invention is inoperative, such claims
+also fail to meet the enablement requirement under § 112, first paragraph,
+because a person skilled in the art cannot practice the invention.3 See
+Process Control, 190 F.3d at 1358.
+As indicated, the two stated rejections under §§ 101 and 112, first
+paragraph, are inter-related, with the Examiner’s rationales for these two
+rejections being comingled.4 In seeking to ascertain whether the Examiner
+See also In re Ziegler, 992 F.2d 1197, 1200–01 (Fed. Cir. 1993) (“If the
+application fails as a matter of fact to satisfy 35 U.S.C. § 101, then the
+application also fails as a matter of law to enable one of ordinary skill in the
+art to use the invention under 35 U.S.C. § 112.” Conversely, “[t]he how to
+use prong of section 112 incorporates as a matter of law the requirement of
+35 U.S.C. § 101 that the specification disclose as a matter of fact a practical
+utility for the invention.”).
+4
+The Examiner’s rationale regarding the § 101 rejection is stated as being
+“the same as the reasons set forth in section 11 above.” Final Act. 26. This
+3
+
+3
+
+Appeal 2012-011287
+Application 09/750,765
+erred in rendering one or both of these rejections, we address both rejections
+together due to their reliance on similar findings.
+Claim Selection
+With respect to both rejections (i.e., under § 101 and under § 112, first
+paragraph), Appellant argues all claims 1–10, 12–19, 21, and 22 as a group.
+App. Br. 21– 91, 131–142. Accordingly, with respect to each rejection, we
+select independent claim 4 for review, with claims 1–3, 5–10, 12–19, 21, and
+22 standing or falling with claim 4. See 37 C.F.R. § 41.37(c)(1)(iv).
+Background
+The present application is stated as being “a continuation of
+[U.S]. Serial no. 07/760,970 Filed: 09/17/1991” (hereinafter the ’970
+application).5 Spec. 2. Independent claim 4 of the presently pending
+application is reproduced below.
+4. In a process using an isotopic fuel loaded into a material, a
+two-stage method for controlling the loading which includes in
+combination:
+loading said isotopic fuel into said material,
+then providing means for producing a change in the
+quantity of said isotopic fuel within said material,
+referenced “section 11 above” addresses § 112, first paragraph. Final
+Act. 11.
+5
+The Examiner initially provided reasons why “the current application does
+not qualify as a continuation of S/N 09/760,970 because of differences in
+subject matter covered.” Final Act. 2. Appellant responded that no new
+matter has been introduced via amendment (App. Br. 96–99; Reply Br. 122–
+123) and that this application is indeed a continuation of the ’970 application
+(see, e.g., App. Br. 1, 83, 84, 96, 97, 102, 120, and 121). The Examiner does
+not pursue this line of reasoning further, but instead reaches a subsequent
+conclusion regarding the present application stating, “since it is a
+continuation of the parent case.” Ans. 26. For purposes of this appeal, we
+address the present application as a continuation of the ’970 application.
+4
+
+Appeal 2012-011287
+Application 09/750,765
+creating thereby a catastrophic diffusion flux of said isotopic
+fuel within said material.
+For comparison, independent claim 25 of the parent ’970 application
+reads as follows:
+25. In a process for producing a nuclear fusion product from
+an isotopic fuel using a material, a two-stage method for
+controlling said reaction which includes in combination:
+supplying an isotopic fuel to said material,
+loading said isotopic fuel into said material to saturate
+said material,
+then creating a change in the active quantity of said fuel
+within said material by desaturation,
+creating thereby a catastrophic diffusion flux of said
+isotopic fuel within said material.
+There is a variation in the respective preambles of claims 4 and 25,
+but both recite “an isotopic fuel” that is “loaded into”/“using” “a material”
+and involve “a two-stage method for controlling” the “loading”/“reaction.”6
+The respective bodies of these “child” and “parent” claims are nearly
+identical with the main difference being that claim 25 of the parent
+application specifically recites that the isotopic fuel is loaded into the
+material “to saturate said material” and that a change in the quantity of
+isotopic fuel in the material is produced “by desaturation.” Present claim 4
+
+6
+
+Appellant explains, “the invention at issue in this case, ’765, is claimed by
+Claims 1–10, 12–19, 21, and 22, and is generally speaking a two-stage
+process involving loading of hydrogen into a metal electrode, such as
+palladium including a first stage of electrode loading, followed by, a second
+stage of sudden rapid (‘catastrophic’) flow of the loaded hydrogen with the
+metal.” App. Br. 91, 132; see also App. Br. 73, 107, 140 and Reply Br. 9.
+Appellant also states, “[t]he present invention is designed to enable the
+generation of a catastrophic desaturation” (App. Br. 72) but that limitation
+(i.e., “desaturation”) is missing from claim 4 while included in claim 25.
+5
+
+Appeal 2012-011287
+Application 09/750,765
+is silent regarding any loading or changing involving
+saturation/desaturation.7 Hence, the principal difference between present
+claim 4 and that of claim 25 of the parent application are the additional
+recitations in claim 25 directed to saturation and desaturation of the fuel
+within the material.8 Consequently, except for the additional
+saturation/desaturation limitations recited in claim 25 of the parent
+application, the two claims are nearly identical.
+The similarity of these two claims is important because the parent
+’970 application was the subject of an appeal to the Board of Patent Appeals
+and Interferences under Appeal No. 94-2920, which resulted in a Decision
+mailed June 22, 1999 affirming the Examiner’s rejections. This Board
+Decision was thereafter appealed to the U.S. Court of Appeals for the
+Federal Circuit, which issued Decision 00-1108 on November 8, 2000. See
+
+7
+
+Interestingly, Appellant states, “Furthermore, those who are skilled-in-theart have agreed that said catastrophic desaturation is a critical issue for the
+successful performance of the system [Swartz (94B), Swartz (97B)].” App.
+Br. 73; Reply Br. 33. This statement suggests that Appellant acknowledges
+that claim 4 lacks a critical element (“desaturation”), unlike claim 25.
+Additionally, Appellant states, “standard theory does not even mention the
+lattice, which the Applicant and others have now proven to be significantly
+important.” Reply Br. 29. Neither claim 25 nor claim 4 includes a recitation
+of any “lattice” which has been proven by Appellant and others as being
+“significantly important.”
+8
+Claim 25 also includes the limitation of “supplying an isotopic fuel to said
+material” as well as its “loading” thereinto. Present claim 4 only recites
+“loading said isotopic fuel into said material.” However, as understood, in
+order to load isotropic fuel, it must first be supplied to the material.
+Accordingly, the lack of a corresponding “supplying” limitation in present
+claim 4 is reasonably believed to be included in the recited “loading”
+limitation of claim 4.
+6
+
+Appeal 2012-011287
+Application 09/750,765
+In re Mitchell R. Swartz, 232 F.3d 862 (Fed. Cir. 2000). The court
+addressed “the examiner’s final rejection of claims 25–48 of application
+Serial No. 07/760,970 for lack of operability or utility under 35 U.S.C. § 101
+and lack of enablement under 35 U.S.C. § 112, ¶ 1.” Swartz, 232 F.3d
+at 863. The court concluded that “[f]or the reasons discussed above, the
+Board did not err in concluding that the utility of Mr. Swartz’s claimed
+process had not been established and that his application did not satisfy the
+enablement requirement.”9 Swartz, 232 F.3d at 864.
+Analysis
+In Swartz, the court stated that, with respect to the parent case, “Mr.
+Swartz continually represented his invention as relating to cold fusion” and
+that, “the PTO provided substantial evidence that those skilled in the art
+would ‘reasonably doubt’ the asserted utility and operability of cold fusion.”
+Swartz, 232 F.3d at 864.
+In the present case, the Examiner provides detailed reasons for the
+rejection of claim 4 that are consistent with the reasons expressed by the
+court supra when it addressed nearly identical claim 25 of the parent
+application. See Final Act. 11–27; Ans. 5–18, 24–30, 36. In view of these
+reasons, the Examiner concludes, “[t]his disclosure is thus insufficient and
+non-enabling” (Ans. 9) and that the invention “is inoperative” (Final
+Act. 26). For example, the Examiner identifies what is lacking in
+9
+
+It should be noted that during the review of the present application, the
+Examiner referenced this earlier decision stating, “[t]he Court of Appeals for
+the Federal Circuit, in its 00-[1]108 judgment, confirmed the lack of
+operability and lack of enablement of S/N 07/760,970. Therefore, this
+application also lacks operability and lacks enablement since it is a
+continuation of the parent case.” Ans. 26.
+7
+
+Appeal 2012-011287
+Application 09/750,765
+Appellant’s Specification, and why undue experimentation would be
+warranted to make and use the claimed subject matter.10 See, e.g., Final
+Act. 24–26; Ans. 13–16. The Examiner states, “the disclosure is
+insufficient in failing to disclose said additional critical features(s),
+components(s), etc. necessary to cause appellant’s invention to operatively
+function in a different manner to produce a result different from that of said
+references.”11 Ans. 13; see also Final Act. 24. In other words, the Examiner
+is seeking to ascertain what is described and claimed that causes Appellant’s
+disclosure “to produce a result different from that of said references.”12
+Ans. 13; see also Final Act. 24. The Examiner also cautions, “[t]he statute
+requires the appellant itself to inform, not to direct others to find out for
+themselves.” Ans. 16 (citation omitted). In other words, “the disclosure
+must enable a person skilled in the art to practice the invention without
+having to design structure not shown to be readily available in the art.”
+Ans. 16 (citation omitted).
+
+10
+
+The test for compliance with the enablement requirement is whether the
+disclosure, as filed, is sufficiently complete to enable one of ordinary skill in
+the art to make and use the claimed invention without undue
+experimentation. In re Wands, 858 F.2d 731, 737 (Fed. Cir. 1988).
+11
+The Examiner also states, “[t]here is no evidence to indicate that the
+appellant has so succeeded where others have failed, in arriving at an
+operative cold fusion system, i.e., that he has progressed his system beyond
+the point of an unproven theory or concept which still requires an undue
+amount of experimentation to enable the artisan to make and use the
+inventive system for its intended purpose.” Ans. 15; see also Final Act. 25.
+12
+To reiterate, the Examiner states, “[i]t is not seen wherein the specification
+discloses any particular structure, etc. which is unique to the appellant’s
+system and which would make the appellant’s cold fusion system operative.”
+Ans. 14; see also Final Act. 24.
+8
+
+Appeal 2012-011287
+Application 09/750,765
+Appellant argues extensively that the pending claims satisfy the utility
+and enablement requirements. See App. Br. 131–142, 21–91 and Reply
+Br. 124–125, 25–89. Appellant contends that the “original specification”
+“sets forth the best mode contemplated by the inventor of carrying out his
+invention.”13 App. Br. 22; Reply Br. 27. As indicated supra, the court
+deemed Appellant’s “original specification” (to which no new matter has
+been added, see, App. Br. 96–99, Reply Br. 122–123) to be lacking at least
+in regard to original claim 25.14 Swartz, 232 F.3d at 864. Because our
+reviewing court held that original claim 25 lacked utility and was nonenabling (see Swartz, 232 F.3d at 864; Ans. 26), this is believed to have
+prompted the Examiner to seek to ascertain what is now recited in claim 4,
+or where support can be found in Appellant’s Specification, that would show
+enablement or utility of claim 4. See supra. Appellant contends, “[t]he
+present invention’s enablement is borne out by de jure [] peer-reviewed
+publications” as well as “by the de facto Declarations affirming to said
+operability and utility (which together manifest enablement).” App. Br. 22;
+Reply Br. 27. In effect, Appellant seeks to rely on external documentation
+(i.e., extrinsic evidence) for such support. Extrinsic evidence can be relied
+on to rebut a charge of non-enablement. See, e.g., In re Strahilevitz, 668
+
+13
+
+At one point, Appellant contends, “Critical Features Were Specified
+And Claimed And Discussed Previously,” and further, “[t]hese were
+described in the original specification through the use of an applied electric
+field intensity.” App. Br. 74; see also Reply Br. 34, 37.
+14
+It is noted that Appellant does not explain how claim 4’s lack of any
+express saturation or desaturation limitation somehow satisfies the utility
+and enablement requirements when parent claim 25 (specifically reciting
+such limitations) has been determined to lack such utility and enablement
+(see Swartz generally).
+9
+
+Appeal 2012-011287
+Application 09/750,765
+F.2d 1229, 1232 (Fed. Cir. 1982) (finding that appellant properly relied on
+literature citations to establish both the level of ordinary skill in the art and
+the fact that the techniques necessary to practice his invention were known
+in the art.); In re Wands, 858 F.2d at 737 (holding that declaratory evidence
+showing experimentation was not undue effectively rebutted the examiner’s
+enablement challenge). However, the extrinsic evidence relied on by
+Appellant does not show that techniques necessary to practice the claimed
+method were known in the art. Nor does the extrinsic evidence show that
+undue experimentation would not be needed to practice the claimed method.
+Accordingly, the extrinsic evidence does not overcome the deficiencies of
+Appellant’s Specification identified by the Examiner.
+Appellant also responds to the Examiner’s remarks stating “the
+Examiner’s references do not apply to the present invention” “or involve
+experiments which were not done using the techniques taught in the original
+specification and claims of the above-entitled application.” App. Br. 22.
+Appellant has identified the crux of the matter at hand, i.e., whether the
+“techniques taught in the original specification” are sufficient under § 112,
+first paragraph, and hence whether claim 4 satisfies the utility requirement of
+§ 101. Appellant contends, “the Examiner has ignored the pro se
+Applicant’s arguments, Declarations and peer-reviewed articles which were
+submitted before FINAL” (Reply Br. 25); however, the focus is whether
+Appellant’s original disclosure is adequate without requiring undue
+experimentation.15
+15
+
+An example of the disconnect between what the patent laws require and
+Appellant’s argument is Appellant’s contention that “peer-reviewed
+publications show that growing numbers of the scientific community
+10
+
+Appeal 2012-011287
+Application 09/750,765
+Further, Appellant’s statements addressing criticism of the invention
+(as well as those documents in support thereof, see App. Br. 21–91), do not
+go to the heart of whether Appellant’s Specification is sufficient under
+§ 112, first paragraph, in identifying the features “not found in any of said
+references which is necessary to enable appellant’s invention to function
+differently” “so as to be able to produce a different result.”16, 17 Ans. 13. In
+other words, Appellant’s response to the need to identify that which sets
+Appellant’s disclosure apart is lacking.18 Instead of identifying that portion
+consider the positive results of Appellant’s work as being operative and of
+utility.” Reply Br. 28; see also Reply Br. 29 (where Appellant contends the
+Examiner has reached the stated conclusion “by ignoring the original
+specification and claims, by ignoring the timely-submitted unrebutted
+Declarations, by ignoring scores of Exhibits and references.”). In short,
+Appellant fails to explain how the claimed invention, as described in the
+original specification, provides the same detail and proves operability, as
+supposedly is accomplished by “Appellant’s work” which has been
+addressed in these Declarations and peer-reviewed publications. See, e.g.,
+Ans. 9.
+16
+Appellant references multiple Declarations as “evidence supporting the
+Applicant’s position.” App. Br. 27; see also App. Br. 91. However, the
+Examiner deems these Declarations “irrelevant” because they have
+previously been considered in the parent case, they pertain to a different
+application, or they are from an interested party (i.e., Appellant). Ans. 30;
+see also Reply Br. 4–5.
+17
+Appellant further states that the invention “HAS BEEN PUBLICLY
+DEMONSTRATED” (App. Br. 28; see also id at 134) but Appellant fails to
+establish a nexus between the recited claim language/original Specification,
+and the demonstration. In short, the Examiner is seeking what causes
+Appellant’s device to be successful where others failed, and where such
+disclosure can be found in the claim language/original Specification.
+Ans. 13–14.
+18
+For example, Appellant addresses “[t]he role of loading in the operability
+of this invention” and also where “[l]oading is discussed” in Appellant’s
+11
+
+Appeal 2012-011287
+Application 09/750,765
+of the Specification that enables the presently claimed invention, Appellant
+instead criticizes the Examiner’s position as well as those documents critical
+to the ability to achieve cold fusion. App. Br. 22–28, 48–59. Appellant also
+contends, “[t]he parameters which the Examiner is having trouble
+understanding are well known in the field.”19 App. Br. 75; Reply Br. 39.
+Assuming arguendo Appellant is correct that the parameters are understood,
+the Examiner still finds, “[o]ne cannot rely on the skill in the art for the
+selection of the proper quantitative values to present an operative cold fusion
+system, since those in the art do not know what would be these values.”
+Final Act. 25; Ans. 16 (reference omitted). The Examiner’s statement is
+consistent with the Examiner’s finding regarding Appellant’s “failure to set
+forth a full example of the specific parameters of an operative embodiment.”
+Final Act. 25; Ans. 15–16. As the Examiner states, “an undue amount of
+experimentation [is required] to enable the artisan to make and use the
+inventive system for its indicated purpose.” Final Act. 25; see also Ans. 15.
+We are not persuaded the Examiner’s findings and conclusions are in error.
+
+Specification. App. Br. 70 (referencing multiple pages of Appellant’s
+Specification); see also Reply Br. 36–37, 41. However, the same “loading”
+limitation is also recited in original claim 25 and, as indicated supra, the
+Federal Circuit concluded (in view of “voluminous record material”) that
+this “loading” limitation of claim 25 in the parent application was not
+enabled. Swartz, 232 F.3d at 864. Appellant does not now persuade us that
+this deficiency in the earlier application has now been cured in the present
+continuation application (having the same disclosure). In short, we are not
+persuaded that the same “loading” limitation presently recited in claim 4 is
+somehow now enabled.
+19
+Appellant states that the terms involved are “well known to those skilled
+in the art, and in addition, the applicant gave the Examiner references.”
+App. Br. 78.
+12
+
+Appeal 2012-011287
+Application 09/750,765
+As indicated supra and as instructed by our reviewing court, the test
+for compliance with the enablement requirement is whether the disclosure,
+as filed, is sufficiently complete to enable one of ordinary skill in the art to
+make and use the claimed invention without undue experimentation. Wands,
+858 F.2d at 737. This enablement requirement is intertwined with the
+“utility” requirement of § 101 because, to satisfy the “utility” requirement,
+“an application must show that an invention is useful to the public as
+disclosed in its current form, not that it may prove useful at some future date
+after further research.” In re Fisher, 421 F.3d 1365, 1371 (Fed. Cir. 2005)
+(emphasis added). Appellant’s discussion regarding satisfaction of the
+utility requirement focuses on the usefulness of this invention to society, not
+that the claimed invention is disclosed in Appellant’s Specification, in its
+current form, with sufficient detail as to actually be operative.20 App. Br.
+131–142. For example, Appellant submits evidence of the invention being
+publicly demonstrated and that there was a “field trip” to view it (App. Br.
+134–135; Reply Br. 58–65), but what is missing in the record is evidence of
+a nexus between that which was publically demonstrated and the claimed
+invention, i.e., that the demonstration was of the claimed invention. The
+Examiner is not saying that a new source of power is not useful, but instead
+that Appellant’s disclosure is insufficient to meet the utility requirement of
+§ 101. Appellant contends that “utility should be judged either by those
+20
+
+The Examiner states that there is no evidence “to indicate the invention
+has been reduced to the point of providing in current available form, an
+operative cold fusion system” and that instead, Appellant “has set forth what
+may be considered a concept or an object of scientific research.” Ans. 17
+(emphasis added); see also Final Act. 25 (“While applicant may have set
+forth theoretical concepts, it is well known in the cold fusion field that
+theory and reality have a habit of not coinciding.”).
+13
+
+Appeal 2012-011287
+Application 09/750,765
+using the invention or those skilled in the art” and also that “validation
+occurs when scientists actually skilled, and working, in the state-of-the-art
+state it to be so.” App. Br. 136. Appellant’s contentions do not adequately
+address the point the Examiner is making, i.e., that the focus is to be on the
+invention as described in Appellant’s Specification and whether the
+knowledge this Specification provides to one skilled in the art can result in
+an operable device, without more. The Examiner explains that the
+Specification lacks:
+how and in what manner, [A]ppellant’s invention is able to
+produce low temperature electrolytic nuclear reactions and
+excess heat whereas, the identical systems and methods of
+operation in any[] one of Lewis et al., Westfall or Kinsella et
+al., or [Patterson-1] or Patterson-2, presumably did not produce
+said low temperature electrolytic nuclear reactions and excess
+heat.
+Ans. 13–14. Appellant’s reliance on various declarations to show usefulness
+of the invention have not been ignored as asserted by Appellant (App.
+Br. 132–139), but instead, the Examiner states that they “have already been
+addressed in section 10.1 above and shown to have no merits.” Ans. 36.
+In summary, the underlying facts established by our reviewing court
+vis-a-vis the parent case have not changed. As such, we are not persuaded
+that the Examiner was mistaken in concluding (in the words of our
+reviewing court) “that the utility of Mr. Swartz’s claimed process had not
+been established and that his application did not satisfy the enablement
+requirement.” Swartz, 232 F.3d at 864. Accordingly, we sustain the
+Examiner’s rejection of claim 4 (and also claims 1–3, 5–10, 12–19, 21, and
+22) under 35 U.S.C. § 101 as being “inoperative and therefore lack[ing]
+utility.” Final Act. 26. We also sustain the Examiner’s rejection of claim 4
+14
+
+Appeal 2012-011287
+Application 09/750,765
+(and also claims 1–3, 5–10, 12–19, 21, and 22) under 35 U.S.C. § 112, first
+paragraph, because the claimed subject matter “was not described in the
+specification in such a way as to enable one skilled in the art to which it
+pertains, or with which it is most nearly connected, to make and/or use the
+invention.” Final Act. 26.
+The rejection of claims 1–10, 12–19, 21, and 22
+under 35 U.S.C. § 112, second paragraph, as indefinite
+With respect to this rejection, the Examiner again provides multiple
+examples of claim language that the Examiner finds to be indefinite. Final
+Act. 27–29; see also Ans. 18–20. Appellant disagrees contending that
+“[d]efiniteness is proven by way of Applicant’s previously-submitted expert
+testimony . . . including Declarations and Amicus Curiae Briefs.” App.
+Br. 93. However, nowhere in Appellant’s briefs does Appellant address the
+specific examples cited by the Examiner.21 App. Br. 93–95; see also Reply
+Br. 118–121. Instead, Appellant contends, “indefiniteness is the opposite of
+definiteness” and, because “Applicant claimed with particularity,” the claims
+are “definite because the claims are precise, clear, correct, and unambiguous
+to a person skilled-in-the-art.”22 App. Br. 93; Reply Br. 118. In short,
+Appellant does not apprise us of any error in any of the examples identified
+by the Examiner. Further, our review of the record fails to locate any
+discussion refuting these examples provided by the Examiner. We thus
+21
+
+The Examiner states, “Appellant traversed the rejection of claims for
+indefiniteness by essentially repeating his arguments on the rejection for
+lack of enablement. These arguments fail to address the issues raised by the
+examiner in section 9.4 above.” Ans. 30; see also Final Act. 27–29.
+22
+Appellant also contends, “[d]efiniteness is proven by way of Applicant’s
+previously-submitted expert testimony . . . including Declarations and
+Amicus Curiae Briefs.” App. Br. 93; Reply Br. 119 (citations omitted).
+15
+
+Appeal 2012-011287
+Application 09/750,765
+sustain the Examiner’s rejection of claims 1–10, 12–19, 21, and 22 under
+35 U.S.C. § 112, second paragraph, as being indefinite.
+The rejection of: (a) claims 1–10, 12–19, 21, and 22 as anticipated by
+Westfall; (b) claims 1–8 and 13–16 as anticipated by any one of Patterson
+’675 or Patterson ’688; and, (c) claims 1, 2, 4, 5, 7, 10, 13, 15, 16, and 21
+under 35 U.S.C. § 102(b) as anticipated by Kinsella
+We are instructed by the U.S. Supreme Court that “[t]he § 101 patenteligibility inquiry is only a threshold test. Even if an invention qualifies as a
+process, machine, manufacture, or composition of matter, in order to receive
+the Patent Act’s protection the claimed invention must also satisfy ‘the
+conditions and requirements of this title.’” Bilski v. Kappos, 561 U.S. 593,
+602 (2010). These other conditions and requirements of this title (i.e., 35
+U.S.C.) include anticipation. Bilski, 561 U.S. at 602. However, with respect
+to the present claims on appeal (i.e., claims 1–10, 12–19, 21, and 22), it has
+been determined that the § 101 threshold test has not been satisfied (see
+supra), which thus renders moot the need to further analyze the Examiner’s
+anticipation rejections of these claims. Final Act. 29–33.
+Furthermore, 37 C.F.R. § 41.50 (a)(1) states that “[t]he affirmance of
+the rejection of a claim on any of the grounds specified constitutes a general
+affirmance of the decision of the examiner on that claim.” Here, as indicated
+supra, the Examiner’s rejection under both § 101 and § 112, first paragraph,
+of all the claims presently on appeal (i.e., 1–10, 12–19, 21, and 22) has been
+affirmed. Accordingly, we do not reach the rejections of claims 1–10, 12–
+19, 21, and 22 as anticipated by the above cited prior art.
+
+16
+
+Appeal 2012-011287
+Application 09/750,765
+DECISION
+The Examiner’s rejection under 35 U.S.C. § 101 of claims 1–10, 12–
+19, 21, and 22 is affirmed.
+The Examiner’s rejection under 35 U.S.C. § 112, first paragraph, of
+claims 1–10, 12–19, 21, and 22 is affirmed.
+The Examiner’s rejection under 35 U.S.C. § 112, second paragraph, of
+claims 1–10, 12–19, 21, and 22 is affirmed.
+We do not reach the anticipation rejections of claims 1–10, 12–19, 21,
+and 22 by Westfall, Patterson ’675, Patterson ’688, or Kinsella.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l)(iv).
+AFFIRMED
+
+17
+
+

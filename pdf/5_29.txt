@@ -1,0 +1,896 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+95/002,360
+
+09/14/2012
+
+7285090
+
+92092-891659
+
+3267
+
+23370
+
+7590
+
+09/19/2016
+
+KILPATRICK TOWNSEND & STOCKTON LLP
+Mailstop: IP Docketing - 22
+1100 PEACHTREE STREET
+SUITE 2800
+ATLANTA, GA 30309
+
+EXAMINER
+RALIS, STEPHEN J
+
+ART UNIT
+
+PAPER NUMBER
+
+3992
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+BASIS SCIENCE, INC.
+Requester
+v.
+BODY MEDIA, INC.
+Patent Owner
+____________
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Technology Center 3900
+____________
+
+Before BRADLEY W. BAUMEISTER, JENNIFER L. McKEOWN, and
+IRVIN E. BRANCH, Administrative Patent Judges.
+BRANCH, Administrative Patent Judge
+
+DECISION ON APPEAL
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Body Media, Inc. (“Patent Owner” or “Owner”) appeals under
+35 U.S.C. §§ 134 and 315 the Examiner’s rejection of claims 1–5, 11, 13,
+15–22, 26–29, and 32–59.1 Claims 1–5, 11, 13, 15–22, 26–29, and 32–39
+are original. Claims 40–59 were added during the reexamination
+proceedings. Original claims 6–10, 12, 14, 23–25, 30, and 31 are not subject
+to reexamination. PO App. Br. 1.
+We have jurisdiction under 35 U.S.C. §§ 134 and 315. Oral hearing
+was held on February 3, 2016, and a transcript has been made of record
+March 4, 2016.
+
+STATEMENT OF THE CASE
+This proceeding arose from a September 14, 2012 request2 by Basis
+Science, Inc. (“Requester”) for an inter partes reexamination of claims of
+U.S. Patent 7,285,090 B2, titled “Apparatus for Detecting, Receiving,
+Deriving and Displaying Human Physiological and Contextual Information”
+and issued to John Stivoric, et. al., on October 23, 2007 (“the ’090 patent”).
+The ’090 patent describes
+an apparatus [that] includes one or more sensors for collecting
+data relating to an individual’s physiological state and various
+contextual parameters and a data input and output device for
+enabling the individual to enter information and for displaying
+information to the individual.
+Spec. 1:20–25.
+1
+
+Patent Owner Appeal Brief, Inter Partes Reexamination, filed December 1,
+2014 (“PO App. Br.”).
+2
+Request for Reexamination of U.S. Patent No. 7,285,090, filed September
+14, 2012 (“Request”).
+2
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Claim 1 reads as follows:3
+1.
+An apparatus for monitoring human status parameters of
+an individual, comprising:
+a sensor device, said sensor device being in electronic
+communication with at least two sensors continually generating
+data of a first and second parameter of an individual during
+non-sedentary activities, wherein said first and second
+parameters are produced by at least one of said individual’s
+body and the environment adjacent to said individual’s body;
+and
+an I/O device in electronic communication with said
+sensor device, said I/O device receiving data of said first
+parameter and data of said second parameter from said sensor
+device, at least one of said first parameter and said second
+parameter being physiological, said I/O device in electronic
+communication with a processor, said processor generating
+derived data using said data of said first parameter and said data
+of said second parameter, said derived data comprising a third
+parameter of said individual, said third parameter comprising
+caloric expenditure data and being an individual status
+parameter that cannot be directly detected by any one of said at
+least two sensors,
+said I/O device comprising a displaying means displaying
+information related to said third parameter.
+
+3
+
+We have disregarded a typographical error in claim 1 as it appears in
+Owner’s Appeal Brief. PO App. Br. A-1. Specifically, the recitation of
+claim 1 included markings from a prior amendment. See id. (“[[at least one
+of ]]”); see also Amendment and Response filed February 27, 2013.
+3
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Owner Appeals the following rejections (PO App. Br. 3. See
+generally RAN4):
+Claims 1–5, 11, 13, 15–19, 37–39, 40, 44, and 47 under 35 U.S.C.
+§ 102(e)5 as anticipated by Amano.6 RAN 9 (incorporating: TPR Response7
+3–7 and Exhibit A, pp. 1–6 (with respect to amended claim 1); Request 10–
+11, 13–14 and Claim Chart in Exhibit A, pp. 23–28 (with respect to claims
+2–5, 11–13, 15–19, and 37–39); and TPR Response 15–16 and Exhibit A,
+pp. 6–12, 16–17, and 19–20 (with respect to claims 40, 44, and 47).
+Claims 1–5, 13, 15, 17, and 37 under 35 U.S.C. § 102(b) as
+anticipated by Barney.8 RAN 58 (incorporating Request 11–12, 14–15 and
+Exhibit B, pp. 39–45).
+Claims 20–22, 26–29, 32–36, 54, and 55 under 35 U.S.C. § 103 as
+unpatentable over Amano and Mault.9 RAN 75 (incorporating Request 10–
+11, 13, 16–17 and Exhibit E, pp. 49–60 (with respect to claims 20, 22, 26–
+29, 32–36); and TPR Response 15–16 and Exhibit A, pp. 27–34 (with
+respect to claims 21, 54, and 55)).
+Claims 11, 16, 18, and 19 under 35 U.S.C. § 103 as unpatentable over
+Barney and Amano. RAN 113 (incorporating Request 10–12, 17–18 and
+Exhibit F, pp. 61–66).
+
+4
+
+Right of Appeal Notice, mailed August 7, 2014.
+All reference to “35 U.S.C.” in this section are to pre–AIA 35 U.S.C.
+6
+U.S. 6,030,342, issued February 29, 2000 (“Amano”).
+7
+Comments by Third-Party-Requester filed March 29, 2013 (herein “TPR
+Response).
+8
+U.S. 4,312,358, issued January 26, 1982 (“Barney”).
+9
+U.S. 6,478,736 B1, issued November 12, 2002 (“Mault”).
+5
+
+4
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Claims 20–22, 26–29, 32, 33, 36, 40, 54, and 55 under 35 U.S.C.
+§ 103 as unpatentable over Barney and Mault. RAN 120 (incorporating
+Request 16–17, 19–20, Exhibit E, p. 57, and Exhibit H, pp. 76–80 (with
+respect to claims 20, 27, and 36); and Request 11–12, 18–19 and Exhibit G,
+p. 67–75 (with respect to claims 21, 22, 26, 28, 29, 32, and 33)); RAN 149–
+160 (with respect to claims 40, 54, and 55).
+Claims 34, 35, and 47 under 35 U.S.C. § 103 as unpatentable over
+Barney, Mault, and Amano. RAN 161 (incorporating Request 10–12, 19–20
+and Exhibit H, pp. 78–79 (with respect to claims 34 and 35)); RAN 163–65
+(with respect to claim 47).
+Claims 41–43, 45, 46, and 48–53 under 35 U.S.C. § 103 as
+unpatentable over Amano, Myllymäki,10 and Groff.11 RAN 169
+(incorporating TPR Response 15–16 and Exhibit A, pp. 12–27).
+Claims 56–59 under 35 U.S.C. § 103 as unpatentable over Amano,
+Mault, Myllymäki, and Groff. RAN 192 (incorporating TPR Response 15–
+16 and Exhibit A, pp. 35–39).
+Claims 41– 46 and 56–58 under 35 U.S.C. § 103 as unpatentable over
+Barney, Mault, Myllymäki, and Groff. RAN 210–36.
+Claims 48–53 and 59 under 35 U.S.C. § 103 as unpatentable over
+Barney, Mault, Myllymäki, Groff, and Amano. RAN 236–43.
+
+10
+11
+
+U.S. 5,670,944, issued September 23, 1997 (“Myllymäki”).
+U.S. 6,102,856, issued August 15, 2000 (“Groff”).
+5
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+ANALYSIS
+The Anticipation Rejection of Claims 1–5, 11, 13, 15–19, 37–39, 40, 44,
+and 47 over Amano
+Claim 1 stands rejected as anticipated by Amano. RAN 9
+(incorporating TPR Response 3–7 and Exhibit A, pp. 1–6). Of particular
+interest here is the Examiner’s finding that Amano discloses “at least two
+sensors continually generating data of a first and second parameter of an
+individual” and a “processor generating [caloric expenditure] data using said
+data of said first parameter and said data of said second parameter.” RAN
+11–14, 17–20 (citing Amano, Figs. 2, 3A, and 17, and 6:53–7:30, 7:43–46,
+12:39–44, 61–64, 13:3–7, 14–17, 16:36–42, 18:6–45).
+Owner argues that Amano discloses the use of an interrupt signal to
+intermittently sample body motion data, which is not the same as claim 1’s
+continually generating data. PO App. Br. 6–7; PO Reb. Br. 4–5. Owner
+further argues that Amano’s sampling of the body motion data means that
+only sampled portions of the data—and not continually generated data—are
+used in the caloric expenditure calculation. PO App. Br. 7; PO Reb. Br. 5–6.
+Owner relies on similar arguments regarding claim 40. PO App. Br. 7–8;
+PO Reb. Br. 4–6.
+It is undisputed that Amano discloses a device for measuring calorie
+expenditure (Amano, Abstract (“to obtain calorie expenditure with good
+accuracy, the device is provided . . .”)) and that Amano discloses using data
+from at least two sensors (Amano discloses at least three sensors: a body
+motion detector; a pulse wave detector; and a body temperature detector
+(Fig. 2)) to calculate caloric expenditure (Fig. 17; 18:6–45). Instead, Owner
+
+6
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+contends that Amano’s sensor data streams being sampled in response to an
+interrupt signal from a watch circuit (18:6–12) is not the same as claim 1’s
+“sensors continually generating data.” PO App. Br. 6–7; PO Reb. Br. 4–5.
+We find this argument unpersuasive. The use of an interrupt signal to
+sample a data stream—without regard to the frequency of the interrupt
+signal—is inconsequential to the question of whether the data stream itself is
+continually generated by a sensor. We are unpersuaded that Amano’s
+sensors are not “continually generating data of a first and second parameter
+of an individual” because Owner has not established that Amano’s interrupt
+processing of a data stream—even if infrequent—is indicative of the data
+generation by the sensors being other than continual, as the Examiner finds.
+RAN 11–13.
+We also are unpersuaded by Owner’s argument that Amano does not
+anticipate claim 1 because, according to Owner, Amano’s processor uses
+sampled data to calculate caloric expenditure and therefore does not use
+“continually generat[ed] data.” PO App. Br. 7; PO Reb. Br. 5–6. Only
+using sampled portions of data streams to calculate caloric expenditure does
+not negate that Amano’s processor determines caloric expenditure “using
+said data of said first parameter and said data of said second parameter.”
+Owner confuses claim 1’s generating data continuously by the sensors with
+the post-generation processing of the data by the processor. Owner has not
+established persuasively that a processor calculating caloric expenditure
+“using said data of said first parameter and said data of said second
+parameter” requires using all of the continuously generated data in order to
+disclose using the continuously generated data as claimed.
+
+7
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Accordingly, we are unpersuaded of error in the Examiner’s
+determination that Amano describes “at least two sensors continually
+generating data of a first and second parameter of an individual” and a
+“processor generating [caloric expenditure] data using said data of said first
+parameter and said data of said second parameter” as recited in claim 1 and
+commensurately recited in claim 40.
+
+Claim 16
+Claim 16, which depends from claim 1, also stands rejected as
+anticipated by Amano. RAN 9. Claim 16 further recites that at least one of
+the two sensors continually generating data during non-sedentary activities is
+a contextual sensor. The Examiner finds that Amano’s disclosure of a
+temperature sensor for measuring the temperature of the external
+environment (Amano 25:5–18) meets the claimed contextual sensor.
+RAN 31.
+Amano discloses that “[i]n addition to the temperature sensor for
+measuring the subject’s body temperature, a design is preferable in which a
+temperature sensor is provided for measuring the temperature of the external
+environment (environmental temperature) as an optional structural
+component of the device.” Amano 25:5–10. Amano further discloses that
+the external temperature sensor data is usable in conjunction with the body
+temperature data for determining the subject’s physical state so that a
+suitable regression formula may be selected (active subject vs. subject at rest
+(Fig. 17)) when calculating caloric expenditure. Id. at 25:10–18.
+
+8
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Owner presents several arguments that the Examiner’s rejection of
+claim 16 is erroneous. PO App. Br. 8–9; PO Reb. Br. 2–3. None of
+Owner’s arguments are persuasive of error.
+For instance, Owner argues that the Examiner “concedes that any
+disclosure of measuring temperature data in Amano does not occur during
+non-sedentary activities.” PO App. Br. 9 (emphasis added); see also
+PO Reb. Br. 3 (arguing that the Examiner’s conclusion “clearly excludes any
+temperature sensor of Amano from falling within the scope of claim 16”
+(emphasis added)).
+Owner is referring here to a statement made by the Examiner (“Thus,
+the Examiner finds that Amano et al. does not continually generate
+temperature data during non-resting activities” (RAN 243 (emphasis in the
+original))) while referencing Fig. 17 of Amano during an analysis of
+arguments presented with respect to claim 1 (id. at 240–243). That the
+Examiner’s statement clearly was not intended as a global finding regarding
+the teachings of Amano is evident from the Examiner’s immediately
+preceding introductory statement: “in examination of annotated Figure 17
+above.” Id. at 242. More importantly, however, the Examiner’s statement
+regarding Figure 17 is unrelated to the portions of Amano cited with respect
+to claim 16’s contextual sensor (25:5–18), which the Examiner finds to be
+met by Amano’s environmental temperature sensor (RAN 31).
+We also find unpersuasive Owner’s remaining arguments regarding
+claim 16 (see PO App. Br. 8–9; PO. Reb. Br. 2–3 (essentially arguing that
+Amano is not specific with respect to a contextual sensor continually
+generating data during non-sedentary activities)). Because Amano’s
+
+9
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+environmental temperature sensor is disclosed as being used to select
+between one of two caloric expenditure regression formulas based on a
+subject’s activity level (25:16–17), we are not persuaded that the sensor is
+precluded from providing its data while the subject is active (i.e., nonsedentary). Otherwise, it would be ineffective at selecting a regression
+formula based on activity. Hence, we find that Amano’s environmental
+temperature sensor meets the claimed contextual sensor that generates data
+during non-sedentary activities. Further, to whatever extent Amano lacks
+specificity with respect to the sensor generating data continually, Owner has
+not persuasively established that Amano’s environmental sensor is precluded
+from continually generating its data.
+We also are not persuaded that, because Requester’s Respondent Brief
+(TPR Resp. Br. 9–10) refers to Amano’s body temperature sensor, Amano’s
+environmental temperature sensor cannot be the claimed “contextual sensor”
+(PO Reb. Br. 2–3). This argument is directed to Requester’s unrelated
+secondary arguments (see TPR Resp. Br. 9–10) and does not persuasively
+rebut the Examiner’s finding that Amano’s environmental temperature
+sensor meets the claimed contextual sensor continually generating data
+during non-sedentary activities. RAN 31.
+In view of the foregoing, we are unpersuaded of error in the
+Examiner’s rejection of claims 1, 16, and 40 as anticipated by Amano.
+Because Owner does not separately argue the remaining claims rejected as
+anticipated by Amano, we also sustain the Examiner’s decision to reject
+claims 2–5, 11, 13, 15, 17–19, 37–39, 44, and 47.
+
+10
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+The Obviousness Rejection of Claims 20–22, 26–29, 32–36, 54, and 55 over
+Amano and Mault
+Claims 20–22, 26–29, 32–36, 54, and 55 stand rejected as obvious
+over Amano and Mault. RAN 73–112. Owner argues the rejection is
+erroneous because the combination of Amano and Mault is improper.
+PO App. Br. 12–13; PO Reb. Br. 12–13. Owner additionally argues that the
+rejection of claims 34 and 35 is improper for reasons similar to those
+discussed above with respect to claims 1, 16, and 40. PO App. Br. 13–14;
+PO Reb. Br. 3–4.
+We are unpersuaded the Examiner has fallen short of the requisite
+“some articulated reasoning with some rational underpinning to support the
+legal conclusion of obviousness” (KSR Int’l Co. v. Teleflex, Inc., 550 U.S.
+398, 418 (2007) (quoting In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006)))
+based on Owner’s assertion that “Amano nowhere discloses or suggests that
+monitoring caloric balance is a desirable feature.” PO App. Br. 12. A
+reason to combine prior art teachings need not originate solely from the prior
+art references themselves. WMS Gaming Inc. v. Int’l Game Tech., 184 F.3d
+1339, 1355 (Fed. Cir. 1999). Hence, even if true, we would not find the
+“fact” that “Amano nowhere discloses or suggests that monitoring caloric
+balance is a desirable feature” (PO App. Br. 12) to be a persuasive rebuttal
+of the Examiner’s reasoning that
+[i]t would have been obvious to one of skill in the art to modify
+the apparatus of Amano [] to allow individuals to enter
+information related to calories consumed, goals, etc. and view
+information related to the goals as a part of physiological
+monitoring because caloric expenditure relates to caloric
+consumption to provide caloric balance.
+
+11
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+RAN 107. Owner’s argument overlooks that the obviousness analysis “need
+not seek out precise teachings directed to the specific subject matter of the
+challenged claim, for a court can take account of the inferences and creative
+steps that a person of ordinary skill in the art would employ.” KSR, 550 U.S.
+at 418.
+We also are unpersuaded of error based on Owner’s newly presented
+argument that
+were one to combine the teachings of Amano and Mault in the
+manner suggested by the Examiner, the resulting combination
+would impermissibly change Amano’s principle of operation
+from operating without data other than that which may be
+inputted using a simple interface (e.g., two switches) to
+operating using complex data that a user must obtain and enter
+into the disclosed device using a sophisticated interface.
+PO Reb. Br. 13. “The test for obviousness is not whether the features of a
+secondary reference may be bodily incorporated into the structure of the
+primary reference . . . . Rather, the test is what the combined teachings of
+the references would have suggested to those of ordinary skill in the art.” In
+re Keller, 642 F.2d 413, 425 (CCPA 1981). See also In re Sneed, 710 F.2d
+1544, 1550 (Fed. Cir. 1983) (“[I]t is not necessary that the inventions of the
+references be physically combinable to render obvious the invention under
+review.”); and In re Nievelt, 482 F.2d 965, 968 (CCPA 1973) (“Combining
+the teachings of references does not involve an ability to combine their
+specific structures.”). Rather, “if a technique has been used to improve one
+device, and a person of ordinary skill in the art would recognize that it would
+improve similar devices in the same way, using the technique is obvious
+
+12
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+unless its actual application is beyond his or her skill.” KSR, 550 U.S. at
+417.
+Moreover, Owner’s argument that combining the teachings of Amano
+and Mault in the manner suggested by the Examiner “would impermissibly
+change Amano’s principle of operation” (PO Reb. Br. 13) is unpersuasive.
+Because arguments of counsel cannot take the place of factually supported
+objective evidence (see, e.g., In re Huang, 100 F.3d 135, 139–40 (Fed. Cir.
+1996); In re De Blauwe, 736 F.2d 699, 705 (Fed. Cir. 1984)), we find this
+argument to have little persuasive value in view of the evidence before us.
+Owner separately argues the rejection of claims 34 and 35 over
+Amano and Mault based on arguments similar to those presented previously
+with respect to claim 16, namely that Amano does not teach a contextual
+sensor generating data during non-resting (i.e., non-sedentary) activities.
+PO App. Br. 13–14; PO Reb. Br. 3–4. We are not persuaded of error for the
+reasons previously discussed.
+Accordingly, we are unpersuaded of error in the rejection of claims
+20–22, 26–29, 32–36, 54, and 55 as obvious over Amano and Mault.
+
+The Obviousness Rejection of Claims 11, 16, 18, and 19 over Barney and
+Amano
+Owner argues the rejection of claim 16 over Amano and Barney based
+on arguments presented with respect to the rejection of claim 16 as
+anticipated by Amano. PO App. Br. 14; PO Reb. Br. 2–3. We are not
+persuaded of error for the reasons previously discussed. Because Owner
+
+13
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+does not otherwise argue the rejection of claims 11, 18, and 19 as obvious
+over Barney and Amano, we sustain the rejection.
+
+The Obviousness Rejection of Claims 34, 35, and 47 over Barney, Mault,
+and Amano
+Owner argues the rejection of claims 34 and 35 over Barney, Mault,
+and Amano based on arguments presented with respect to the rejection of
+claims 34 and 35 over Amano and Mault. PO App. Br. 17. We are not
+persuaded of error for the reasons previously discussed. Owner does not
+otherwise argue the rejection of claim 47 over Barney, Mault, and Amano.
+
+The Obviousness Rejection of Claims 41–43, 45, 46, and 48–53 over Amano,
+Myllymäki, and Groff
+Claim 41 stands rejected as obvious over Amano, Myllymäki, and
+Groff. RAN 169. Claim 41 depends from claim 40 and, according to Owner
+preferred construction, requires caloric expenditure to be determined using
+skin résistance data. PO App. Br. 18.
+Of particular interest here is the Examiner’s finding that, although
+Amano discloses using a processor and data from a plurality of sensors to
+evaluate a condition of a user, Amano does not disclose “the collecting of
+data being indicative of a resistance of said individual’s skin to an electric
+current from a GSR sensor; and using the data indicative of a resistance of
+the individual’s skin to an electric current to determine a physical condition
+(i.e. context of an individual).” RAN 170. The Examiner finds that
+Myllymäki discloses a physiological device with a heart rate detector, a
+
+14
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+temperature transducer, and a conductivity transducer, the latter two being in
+contact with an individual’s skin, which are monitored by a microprocessor
+that “provides a health/physical condition and/or performance condition of
+the user.” RAN 171 (citing Myllymäki 2:45–67). The Examiner further
+finds that Groff discloses adding other indicators of an individual’s health to
+a monitoring device “either for a more complete picture of the wearer’s
+health, for corroboration of other data received, or for sensing particular
+conditions of the wearer such as insulin shock or epileptic seizures.”
+RAN 173 (quoting Groff 4:41–46).
+The Examiner reasons that
+it would have been obvious to one of ordinary skill in the art at
+the time of the invention was made to incorporate collecting
+data indicative of a resistance of an individual’s skin to an
+electric current from a GSR sensor and using the data indicative
+of a resistance of the individual’s skin to an electric current to
+automatically determine a physical condition of Myllymäki in
+order to compensate for false data from other sensors and
+remove anomalies caused by various performance conditions,
+thereby providing a more reliable description of the health
+and/or physical condition of the user.
+RAN 173 (citing Myllymäki 3:8–31). The Examiner reasons further that
+A person of ordinary skill in the art would be motivated to
+make the above noted modification of Amano et al. since
+Myllymäki further teaches the utilization of the conductivity
+transducer 6 in addition to the heart rate detector 3 and the
+temperature transducer 5 to provide data to the microprocessor
+9 for determination of “motoric activity” versus “no motoric
+activity” in order to compensate for false data from other
+transducers and remove anomalies caused by various
+performance conditions, thereby providing a more reliable
+description of the health and/or physical condition of the user.
+
+15
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+
+RAN 174 (citing Myllymäki 3:8–31). The Examiner goes even
+further, finding that the claimed invention amounts to
+enhancing a particular device (providing the collection of data
+indicative of a resistance of an individual’s skin to an electric
+current from a GSR sensor and using the data indicative of a
+resistance of the individual’s skin to an electric current to
+determine a physical condition) [that] was made part of the
+ordinary capabilities of one skilled in the art based upon the
+teaching of such improvement in Myllymäki. Accordingly, one
+of ordinary skill in the art would have been capable of applying
+this known “improvement” technique in the same manner to the
+prior art control system of Amano et al. and the results would
+have been predictable to one of ordinary skill in the art, namely,
+one skilled in the art would have readily recognized that
+providing the collection of data indicative of a resistance of an
+individual’s skin to an electric current from a GSR sensor and
+using the data indicative of a resistance of the individual’s skin
+to an electric current to determine a physical condition in
+Amano et al. would positively provide a means to compensate
+for false data from other sensors and remove anomalies caused
+by various performance conditions, thereby providing a more
+reliable description of the health and/or physical condition of
+the user, since such functionality is taught to be highly desirable
+by Myllymäki, as set forth above.
+RAN 175–76 (basing the obviousness conclusion on the criteria set
+forth in KSR, 550 U.S. 417 namely that “if a technique has been used
+to improve one device, and a person of ordinary skill in the art would
+recognize that it would improve similar devices in the same way,
+using the technique is obvious unless its actual application is beyond
+his or her skill”).
+
+16
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+Owner makes numerous assertions regarding the shortcomings of the
+references individually (PO App. Br. 19–22; PO Reb. Br. 8–10) with respect
+to the rejection of claim 41, none of which persuasively undermines the
+Examiner’s reasoning as to what the combined teachings of the references
+would have taught or suggested to one skilled in the art at the time of
+Owner’s alleged invention. Keller, 642 F.2d at 425 (“the test is what the
+combined teachings of the references would have suggested to those of
+ordinary skill in the art”).
+Specifically, Owner has not persuaded us that one skilled in the art
+would have found claim 41 unobvious in view of combining Amano’s
+teachings of a processor for determining caloric expenditure using data
+continuously generated during non-sedentary activities from a plurality of
+sensors (Amano Figs. 2 and 17) with Myllymäki’s sensor for providing skin
+resistance data (Myllymäki 2:45–67) for any of the known purposes of
+achieving a more complete picture of a user’s health, corroborating data
+from other sensors, or sensing particular conditions of the user as taught by
+Groff (Groff 4:41–46).
+Owner’s rebuttal arguments (PO Reb. Br. 8–12) also are unpersuasive.
+First, Owner argues that Myllymäki fails to disclose the continuous
+generation of skin resistance data “during non-sedentary activities” and
+Amano fails to cure the deficiency. Id. at 8–9. This is unpersuasive because
+the references combined at least suggest that sensors, such as Myllymäki’s
+skin resistance sensor, are capable of continuous generation of data, as is the
+case with, for example, Amano’s body motion detector, which monitors a
+user’s motion during non-sedentary activities. In other words, Owner’s
+
+17
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+argument fails to appreciate what the combined teachings of the references
+would have taught or suggested to one skilled in the art. Keller, 642 F.2d at
+425.
+Next, Owner argues that Amano explicitly excludes the use of skin
+resistance data in determining caloric expenditure and that Amano—and
+thus the combination of references—teaches away from the claimed
+invention. PO Reb. Br. 9–10. We note first that Owner is essentially
+attacking an argument raised by Requester in the Respondent Brief—an
+argument upon which we do not rely. Id. (“The Requester alleges that
+Amano discloses that ‘determining the user’s sweat would be useful in
+converting deep body temperature to general body temperature used for
+calculating caloric expenditure’ . . . [implying] that the cited portion of
+Amano discloses a relationship between generating sweat-related data and
+converting deep body temperature to general body temperature.” (Referring
+to TPR Resp. Br. 17)).
+Further, we are not persuaded that the prior art “teaches away” from
+using skin resistance data to calculate caloric expenditure based on Owner’s
+argument that “Amano discloses that the calorie calculation process uses a
+body temperature measurement in which ‘factors such as . . . the evaporation
+of sweat from the body surface do not readily have an effect on this
+[temperature] measurement’” (id. at 10 (quoting Amano 25:50–52)), and,
+therefore, shows that sweat data (i.e., skin resistance data) would not be
+useful in Amano’s process for determining caloric expenditure. “A
+reference may be said to teach away when a person of ordinary skill, upon
+reading the reference, would be discouraged from following the path set out
+
+18
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+in the reference, or would be led in a direction divergent from the path that
+was taken by the applicant.” In re Gurley, 27 F.3d 551, 53 (Fed. Cir. 1994).
+We do not find Amano’s mild rebuke of the evaporation of sweat from the
+body surface with respect to temperature measurement to, in any material
+way, lead one of skill in the art away from the use of skin resistance data in
+the determination of caloric expenditure, as otherwise taught by the
+combined teachings of the references.
+Owner further attacks Requester’s responsive argument based on a
+skin conductance sensor being useful for obtaining motion-related data to
+thereby obtain caloric expenditure. PO Reb. Br. 10–12 (referring to
+Requester’s assertion that “‘[t]he assessment of whether a user is sweating,
+such as by skin conductance . . . is an additional input to more accurately
+determine whether a user is active or resting’” (TPR Resp. Br. 19–20)). We
+find this line of argument by Owner (PO Reb. Br. 10–12) unpersuasive of
+error because we see no need to rely on the additional argument by
+Requester (TPR Resp. Br. 19–20) in support of the Examiner’s findings with
+respect to the references and the Examiner’s reasoning discussed previously
+that claim 41 would have been obvious to one skilled in the art. RAN 173–
+76.
+Owner also argues that the combination of Amano and Myllymäki is
+improper. PO App. Br. 24–25. We are unpersuaded of error for the reasons
+stated by Requester. See TPR Resp. Br. 19–20. Owner’s assertion that the
+rejection is based on hindsight is premised on Owner’s unpersuasive
+argument that there is no evidence to support the rejection. PO App. Br. 25
+(“given the absence of any evidence disclosing that skin resistance data may
+
+19
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+be used to determine caloric expenditure, the rejections of these claims
+clearly rely on impermissible hindsight”). We disagree that there is no
+evidence in view of the Examiner’s findings regarding the disclosure of the
+references that we restate above and for the reasons articulated by Requester
+(TPR Resp. Br. 19–20).
+Accordingly, we sustain the rejection of claim 41 for the reasons
+stated by the Examiner. RAN 170–76. We also sustain the rejection of
+claim 45, which Owner argues based on the same grounds. PO App. Br. 18–
+22.
+Because Owner does not otherwise argue the Examiner’s rejection of
+claims 42, 43, 46, and 49–52 as obvious over Amano, Myllymäki, and
+Groff, we sustain the rejection.
+
+Claims 48 and 53
+Claim 48 depends from claims 40 and 41 and, according to Owner’s
+preferred construction, requires generating an additional derived parameter
+indicative of an individual’s sleep using “skin resistance data, movement
+data, and data indicative of an individual’s heart.” PO App. Br. 22.
+The Examiner finds claim 48 would have been obvious over Amano,
+Myllymäki, and Groff, based on Amano’s disclosure of determining “the
+deep sleep interval” (RAN 190 (citing Amano 11:22–12:2)) and
+Myllymäki’s disclosure of using a plurality of sensors “to provide a
+substantially more reliable description than that obtained by traditional
+methods” (id. at 191 (quoting Myllymäki 3:9–17). The Examiner reasons
+that “it would be obvious to modify the device of Amano to include a skin
+
+20
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+conductance sensor as an additional sensor compensating for false data
+cause by one sensor.” Id. The Examiner also concludes that the
+combination would be obvious “to add additional sensors to a health
+monitoring device to provide a more complete picture of health, corroborate
+data, or sense particular conditions” (id. (citing Groff 4:41–46)), which
+amounts to using a known technique to improve similar devices. KSR, 550
+U.S. at 417.
+Owner argues that neither Amano, nor Myllymäki, nor Groff disclose
+using skin resistance data or a skin conductivity transducer to determine
+sleep-related data or another derived parameter (PO App. Br. 22–24) and
+that the Examiner’s “failure to provide evidence of the core factual finding
+(i.e., whether the recited features of these claims were known prior art
+elements) is clearly erroneous.” Id. at 23.
+We disagree with Owner for at least the reasons stated by Requester.
+TPR Reb. Br. 18–19. Additionally, we do not find Owner to have
+persuasively rebutted the Examiner’s conclusion that the invention of claim
+41 amounts to a known technique (using a plurality of sensors to obtain a
+more substantially more reliable description of an individual’s physical state
+(Myllymäki 3:9–17)) to improve a known device (Amano’s device, which
+includes evaluating sleep (Amano 11:22–12:2)), as also taught by Groff
+(adding sensors to a health monitoring device to provide a more complete
+picture of health, corroborate data, or sense particular conditions (Groff
+4:41–46)). KSR, 550 U.S. at 417.
+Accordingly, we sustain the Examiner’s rejection of claim 48 and of
+claim 53, which Owner argues on the same grounds. PO App. Br. 22–24.
+
+21
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+
+The Obviousness Rejection of Claims 56–59 over Amano, Mault, Myllymäki,
+and Groff
+Because Owner argues the rejection of claims 56–59 based on
+arguments presented with respect to claim 41 (PO App. Br. 25–26), we
+sustain the rejection for reasons discussed previously.
+
+The Obviousness Rejection of Claims 48–53, and 59 over Amano, Mault,
+Myllymäki, Barney, and Groff
+Because Owner argues the rejection of claims 48–53, and 59 based on
+arguments presented with respect to claim 41 (PO App. Br. 29–30), we
+sustain the rejection for reasons discussed previously.
+
+The Anticipation Rejection of Claims 1–5, 13, 15, 17,
+and 37 over Barney
+Claims 1–5, 13, 15, 17, and 37 stand rejected as anticipated by
+Barney. Owner argues that Barney does not anticipate claim 1 because “the
+use of a selected or intermittent data item for [one of the two parameters] is
+different from using data of a first parameter and a second parameter that
+is continually generated during non-sedentary activities.” PO App. Br. 9–
+11. We are not persuaded.
+Using only some of the data of one of the two parameters for
+calculating caloric expenditure, as Owner does not dispute Barney does (id.
+at 11 (“the device disclosed in Barney computes calorie expenditure by
+using one data point out of multiple temperature data points available to the
+
+22
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+device rather than by using continually generated data”)), does not negate
+that the data is continuously generated. Owner confuses generating data
+continuously with processing the data after it is generated and has not
+persuasively established that a processor “generating [caloric expenditure]
+data using said data of said first parameter and said data of said second
+parameter” requires using all of a continuously generated data stream.
+We have reviewed Owner’s rebuttal arguments (PO Reb. Br. 6–7) and
+do not find them persuasive of error in the Examiner’s findings that Barney
+anticipates claim 1 (RAN 58–66), which we adopt.
+Accordingly, we sustain the rejection of claim 1 as anticipated by
+Barney. We also sustain the rejection of claims 2–5, 13, 15, 17, and 37 as
+anticipated by Barney because Owner does not separately argue these
+claims.
+
+The Obviousness Rejection of Claims 20–22, 26–29, 32, 33, 36, 40, 54,
+and 55 over Barney and Mault
+Claims 20–22, 26–29, 32, 33, 36, 40, 54, and 55 stand rejected as
+obvious over Barney and Mault. RAN 120, 149–160. Owner argues that the
+combination of Amano and Mault is improper. PO App. Br. 15–16.
+Specifically, Owner argues that “[t]he Examiner is incorrect when stating
+that the asserted combination would be obvious because adding functionality
+for tracking caloric consumption to the Barney device would allow the user
+to monitor ‘caloric balance’ in addition to caloric expenditure.” Id. at 15.
+We are unpersuaded of error for reasons similar to those discussed
+previously with respect to the Examiner’s reasoning for combining Amano
+
+23
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+and Mault and the Examiner’s reasoning here (RAN 143–148). We note
+Owner’s rebuttal arguments that the proposed combination of Barney and
+Mault would impermissibly change the principle of operation of Mault
+(PO Reb. Br. 13–14), but do not find the arguments to be persuasive of error
+for reasons similar to those discussed previously with respect to Amano and
+Mault.
+More specifically, there, as here, Owner’s argument that combining
+the teachings of Barney and Mault in the manner suggested by the Examiner
+“would impermissibly change [Mault’s] principle of operation” (PO Reb. Br.
+13–14) is unpersuasive in view of the evidence before us. Because
+arguments of counsel cannot take the place of factually supported objective
+evidence (see, e.g., Huang, 100 F.3d at 139–40; De Blauwe, 736 F.2d at
+705), we find this argument to have little persuasive value.
+Owner additionally argues the rejection of claim 40 as obvious over
+Barney and Mault based on reasons similar to those discussed previously
+with respect to Amano and Mault. PO App. Br. 16–17 (arguing that the
+rejection is improper due to shortcomings with respect to the disclosure of
+Mault). We are unpersuaded of error for the reasons discussed previously.
+
+The Obviousness Rejection of Claims 41–46 and 56–58 over Barney, Mault,
+Myllymäki, and Groff
+Owner argues the rejection of claims 41–46 and 56–58 as obvious
+over Barney, Mault, Myllymäki, and Groff because, among other reasons,
+the combination of Barney and Myllymäki is improper (PO App. Br. 28–29)
+and because the rejection relies “on an erroneous finding that the
+
+24
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+combination of Barney and Myllymäki discloses generating caloric
+expenditure data using skin resistance data, movement data, and data
+indicative of an individual’s heart” (id. at 26).
+We are unpersuaded of error. We adopt the findings and conclusion
+of the Examiner that claims 41–46 and 56–58 are obvious over Barney,
+Mault, Myllymäki, and Groff. RAN 210–236. Because our decision does
+not rely on Requester’s response to Owner’s arguments (TPR Reb. Br. 21),
+we need not address Owner’s rebuttal (PO Reb. Br. 12).
+
+CONCLUSION
+The Examiner did not err in adopting the following rejections: claims
+1–5, 11, 13, 15–19, 37–39, 40, 44, and 47 as anticipated by Amano; claims
+1–5, 13, 15, 17, and 37 as anticipated by Barney; claims 20–22, 26–29, 32–
+36, 54, and 55 unpatentable over Amano and Mault; claims 11, 16, 18, and
+19 as unpatentable over Barney and Amano; claims 20–22, 26–29, 32, 33,
+36, 40, 54, and 55 as unpatentable over Barney and Mault; claims 34, 35,
+and 47 as unpatentable over Barney, Mault, and Amano; claims 41–43, 45,
+46, and 48–53 as unpatentable over Amano, Myllymäki, and Groff; claims
+56–59 as unpatentable over Amano, Mault, Myllymäki, and Groff; claims
+41–46 and 56–58 as unpatentable over Barney, Mault, Myllymäki, and
+Groff; and claims 48–53 and 59 as unpatentable over Barney, Mault,
+Myllymäki, Groff, and Amano. RAN 236–43.
+
+25
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+DECISION
+We affirm the Examiner’s decision to reject claims 1–5, 11, 13, 15–
+22, 26–29, and 32–59.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+Requests for extensions of time in this inter partes reexamination
+proceeding are governed by 37 C.F.R. § 1.956. See 37 C.F.R. § 41.79.
+In the event neither party files a request for rehearing within the time
+provided in 37 C.F.R. § 41.79, and this decision becomes final and
+appealable under 37 C.F.R. § 41.81, a party seeking judicial review must
+timely serve notice on the Director of the United States Patent and
+Trademark Office. See 37 C.F.R. §§ 90.1 and 1.983.
+
+AFFIRMED
+
+26
+
+Appeal 2015-007930
+Reexamination Control 95/002,360
+Patent 7,285,090 B2
+
+PATENT OWNER:
+KILPATRICK TOWNSEND & STOCKTON LLP
+1100 Peachtree Street
+Suite 2800
+Atlanta, GA 30309
+
+THIRD PARTY REQUESTER:
+Rajiv P. Patel
+FENWICK & WEST LLP
+801 California Street
+Silicon Valley Center
+Mountain View, CA 94041
+
+27
+
+

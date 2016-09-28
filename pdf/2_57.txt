@@ -1,0 +1,226 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/193,452
+
+07/28/2011
+
+Fletcher Liverance
+
+82749177
+
+7984
+
+22879
+
+7590
+
+09/22/2016
+
+HP Inc.
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+MIRZA, ADNAN M
+
+ART UNIT
+
+PAPER NUMBER
+
+2443
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FLETCHER LIVERANCE, TIMOTHY J. FREESE, and
+WILLIAM C. BREDBENNER
+
+Appeal2015-005838
+Application 13/193,452
+Technology Center 2400
+
+Before JOHN A. EVANS, MATTHEW J. McNEILL, and ALEX YAP,
+Administrative Patent Judges.
+EVANS, Administrative Patent Judge
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of Claims 1, 2, 4--9, and 11-20, which constitute
+all the claims pending in this application. App. Br. 1. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We REVERSE.
+
+1
+
+The Appeal Brief identifies Hewlett-Packard Development Company, LP,
+as the real party in interest. App. Br. 1.
+
+Appeal2015-005838
+Application 13/193,452
+STATEMENT OF THE CASE 2
+The Invention
+
+The claims relate to an update service established by a first computing
+device. See Abstract. Claims 1, 8, and 14 are independent.
+An understanding of the invention can be derived from a reading of
+exemplary Claim 1, which is reproduced below with some paragraphing
+added:
+1.
+A method for providing software updates to a client
+computing device, comprising:
+establishing an update service associated with an update
+service network address;
+responsive to receiving from the client computing device
+a broadcast message comprising a port identifier designated for
+receiving messages requesting available updates and addressed
+from a client computing device network address of the client
+computing device, transmitting to the client computing device
+network address a response message comprising the update
+service network address; and
+responsive to receiving from the client computing device
+an update request message addressed to the update service
+network address, sending to the client computing device network
+address information for updating software on the client
+computing device.
+
+2
+
+Rather than repeat the Examiner's positions and Appellants' arguments in
+their entirety, we refer to the following documents for their respective
+details: Appellants' Appeal Brief filed November 10, 2014 ("App. Br.");
+Reply Brief filed May 18, 2015 ("Reply Br."); Examiner's Answer mailed
+March 20, 2015 ("Ans."); the Specification filed July 28, 2011 ("Spec."),
+and Final Office Action mailed September 23, 2014 ("Final Act.").
+2
+
+Appeal2015-005838
+Application 13/193,452
+References and Rejections
+Claims 1-20 stand rejected under pre-AIA 35 U.S.C. § 103(a) as
+being unpatentable over Xue, et al., (US 2009/0291631 Al; Nov. 26, 2009)
+("Xue") and Hu, et al., (US 2006/0069753 Al; Mar. 30, 2006) ("Hu"). Final
+Act. 2-5.
+
+ANALYSIS
+INDEPENDENT CLAIM
+
+1
+
+Appellants contend the Xue - Hu combination fails to teach the
+"transmitting" element (i.e., "responsive to receiving from the computing
+device a broadcast message comprising a port identifier designated for
+receiving messages requesting available updates and addressed from a
+computing device network address of the computing device, transmitting to
+the computing device network address a response message compnsmg the
+update service network address") recited in Claim 1. App. Br. 6. Appellants
+argue Xue teaches an adaptation layer to provide commonality between a
+distribution layer of a mobile broadcast network and the respective service
+layers of first and second services. Id. According to Appellants, Hu teaches
+a server-driven, connection-based update process. Id.
+The Examiner finds Xue fails to teach transmitting to the client device
+network address a response message comprising an update service network
+address. Ans. 4. The Examiner finds Hu teaches that, in response to a
+message transmitted from the server to the client, the client transmits
+instructions to the server which stores the instructions in memory. Id. (citing
+3
+
+Appeal2015-005838
+Application 13/193,452
+Hu, i-f 21 ). The Examiner equates the "flow ID," taught by Xue, with the
+claimed "network address" and equates Xue' s "Service Transport adaptation
+module with the claimed "transmitting element." Ans. 8 (citing Xue, i-f 65).
+The Examiner finds the "update network address" and "update software"
+changes or adjusts the network address and content of the software,
+respectively. Id. at 8-9.
+Appellants contend that Hu, as cited by the Examiner ("a client
+computer may transmit a sequence of instructions to the server computer in
+response to a message transmitted to the client") (Hu, i-f 21 ), teaches a
+server-driven process. Reply Br. (citing Hu, i-f 35). 3 Appellants argue Ru's
+server-driven process is distinct from a client-centric (i.e., "responsive to
+receiving from the client computing device a broadcast message comprising
+a port identifier") process, as recited in Claim 1. Id. at 5 ("this update
+process described in Hu is not 'responsive io receiving from the client
+computing device a broadcast message comprising a port identifier"').
+The Examiner explicitly finds the "client computer may transmit a
+sequence of instructions to the server computer in response to a message
+transmitted to the client." Ans. 4 (emphasis added). Whereas the claims
+recite that the server responds to the client ("responsive to receiving from
+the client computing device"), in contrast, Hu teaches the client responds to
+the server. We find the cited art does not teach the limitations of Claim 1.
+DEPENDENT CLAIMS
+
+3
+
+2 AND 4--7
+
+The Reply Brief is not paginated. The citation occurs at page 13 of the
+Record file.
+4
+
+Appeal2015-005838
+Application 13/193,452
+Because we find the cited art fails to render Claim 1 obvious, we need
+not reach Appellants further arguments for the patentability of claims
+dependent therefrom for at least the reason that these claims depend from
+and include the elements of allowable independent Claim 1. See In re Fine,
+837 F.2d 1071 (Fed. Cir. 1988); Minnesota Mining and Mfg. Co. v.
+
+Chemque, Inc., 303 F.3d 1294, 1299 (Fed. Cir. 2002).
+
+INDEPENDENT CLAIMS 8 AND 14
+Appellants contend Claims 8 and 14 recite limitations commensurate
+in scope with those of Claim 1. App. Br. 10, 11. The Examiner does not
+answer this contention.
+
+DEPENDENT CLAIMS 9-13 AND 15-20
+Because we find the cited art fails to render Claims 8 and 14 obvious,
+we need not reach Appellants further arguments for the patentability of
+claims dependent therefrom.
+DECISION
+The rejection of Claims 1, 2, 4--9, and 11-20 under 35 U.S.C. § 103 is
+REVERSED.
+
+REVERSED
+
+5
+
+

@@ -1,0 +1,244 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/272,960
+
+10/13/2011
+
+Robert G. Walker
+
+7257-0136_pB0010142.USV4
+
+6405
+
+96139
+
+7590
+
+09/23/2016
+
+MARGER JOHNSON
+-PHYSIO -CONTROL, INC.
+888 SW 5th A venue, Suite 1050
+PORTLAND, OR 97204
+
+EXAMINER
+PORTER, JR, GARY A
+
+ART UNIT
+
+PAPER NUMBER
+
+3766
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@techlaw.com
+physio_control_docketing@cardinal-ip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBERT G. WALKER, DANIEL W. PIRAINO,
+and JAMES M. OWEN
+
+Appeal2014-009966
+Application 13/272,960 1
+Technology Center 3700
+
+Before NINA L. MEDLOCK, KENNETH G. SCHOPPER, and
+ROBERT J. SILVERMAN, Administrative Patent Judges.
+SCHOPPER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 from the rejection of claims 1
+and 7-19. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+BACKGROUND
+According to Appellants, the "invention relates generally to external
+defibrillators, and more specifically to AEDs and protocols which they carry
+out." Spec. i-f 1.
+
+1
+
+According to Appellants, the real party in interest is Physio-Control, Inc.
+Br. 3
+
+Appeal2014-009966
+Application 13/272,960
+
+CLAHvIS
+Claims 1 and 7-19 are on appeal. Claim 1 is illustrative of the
+appealed claims and recites:
+1.
+
+A defibrillator for defibrillating a patient, comprising:
+a power source configured to store a charge;
+
+an energy storage device configured to receive at least a
+portion of the charge, in which at least a fraction of the charge
+portion can be delivered from the energy storage device via
+electrodes as a shock to defibrillate the patient;
+a user interface; and
+a controller configured to:
+obtain multiple successive data sets on at least one
+sensed physiological parameter of the patient,
+perform an analysis on each of the multiple data
+sets,
+for each performed analysis, instruct delivery of at
+least one of the shocks if the result of the analysis
+meets a predetermined criterion,
+adjust at least one duration that is subsequent to a
+first duration, each duration including a time
+interval between successive performed analyses,
+based at least in part on the at least one sensed
+physiological parameter, and
+cause the user interface to instruct delivery of CPR
+for at least one of the durations.
+Br. 10.
+
+2
+
+Appeal2014-009966
+Application 13/272,960
+REJECTIONS
+1. The Examiner rejects claims 1, 7, 9-14, and 16-19 under
+
+35 U.S.C. § 103(a) as unpatentable over Kroll 2 in view of
+Callaway, 3 Snyder, 4 and Stickney. 5
+2. The Examiner rejects claims 8 and 15 under 35 U.S.C. § 103(a) as
+unpatentable over Kroll in view of Callaway, Snyder, Stickney,
+and Nova. 6
+DISCUSSION
+Rejection 1
+
+Appellants group all claims together with respect to this rejection. See
+Br. 7-8. We select independent claim 1 as representative of these claims.
+With respect to claim 1, the Examiner finds that Kroll discloses an
+automatic external defibrillator (AED), which includes instructing delivery
+of CPR for different intervals based on whether ventricular fibrillation (VF)
+is detected. Final Act. 5. Specifically, the Examiner finds that Kroll
+discloses if VF is not detected, the system provides an instruction to perform
+CPR, and that Kroll discloses "an optional embodiment wherein a 'few'
+manual chest compressions are given after VF is detected but before
+defibrillation therapy is applied (Sections [0062]) in order to 'prime the
+pump' and increase the success rate of defibrillation therapy." Id. The
+Examiner also finds, inter alia:
+
+2
+3
+4
+5
+6
+
+Kroll et al., US 2006/0142809 Al, pub. June 29, 2006.
+Callaway et al., US 6,438,419 Bl, iss. Aug. 20, 2002.
+Snyder et al., US 6,356,785 Bl, iss. Mar. 12, 2002.
+Stickney et al., US 2006/0173501 Al, pub. Aug. 3, 2006.
+Nova et al., US 2004/0143298 Al, pub. July 22, 2004.
+3
+
+Appeal2014-009966
+Application 13/272,960
+Therefore it would have been obvious to one of ordinary
+skill in the art at the time the invention was made to modify the
+device in the Kroll reference to include the capability of
+prompting a user to deliver a shorter period of CPR if VF is
+detected and a longer period of CPR if a non-shockable rhythm
+is detected, as taught and suggested by Kroll and Callaway and
+further evidenced by Snyder and Stickney, for the purpose of
+increasing the success rate of defibrillation of patients suffering
+longer periods of VF while also having the ability to maintain
+basic cardiac function during periods of non-shockable rhythms.
+Id. at 6-7.
+Appellants argue "that Kroll does not appear to teach anything
+pertaining to the recited adjusting of CPR durations because there can be no
+adjusting of CPR durations in situations where there are no CPR durations,
+and there appear to be within the teachings of Kroll no CPR durations at all
+in situations where VF is present." Br. 8 (emphasis omitted). More
+specifically, Appellants argue that Kroll does not indicate that the "prime the
+pump" chest compressions relied on by the Examiner are delivered after it is
+determined that VF is present, i.e., Appellants assert that there is no
+indication that these chest compressions are performed after the analysis
+step 310 and determination that VF is present in the process of Kroll' s
+Figure 3. Id.
+We are not persuaded of error by Appellants' argument. With respect
+to the "prime the pump" chest compressions cited by the Examiner, Kroll
+states that the device may include an instruction "prompting the rescuer to
+administer manual chest compressions to the patient prior to automatically
+administering [medium voltage therapy (MVT)]" because "a few manual
+chest compressions [may be necessary] before MVT can give effective
+electrical CPR." Kroll i-f 62. Although, Kroll does not specifically tie this
+
+4
+
+Appeal2014-009966
+Application 13/272,960
+description to the process outlined in Figure 3, we find, contrary to
+Appellants' assertion, that Kroll does provide an indication that these
+manual chest compressions would be performed after step 310 in Figure 3
+because this figure indicates that MVT is only administered in the situation
+where the analysis at step 310 is performed and VF is detected. See Kroll
+Fig. 3. Thus, we find that Kroll at least suggests providing a "few manual
+chest compressions" after it is determined that VF is present. Further, we
+note that the rejection does not rely on Kroll exclusively for disclosing
+prompting a user to deliver a shorter period of CPR if VF is detected as the
+Examiner concludes that it would have been obvious to provide that
+functionality in light of the teachings of "Kroll and Callaway and [as] further
+evidenced by Snyder and Stickney." See Final Act. 6-7. Based on the
+foregoing, we conclude that Appellants have not shown any error in the
+Examiner's findings or conclusion.
+For these reasons, we sustain the rejection of claim 1. Claims 7, 9-14,
+and 16-19 have not been argued separately, and thus, we sustain the
+rejection of those claims for the same reasons.
+Rejection 2
+
+With respect to the rejection of claims 8 and 15, Appellants rely on
+the same arguments discussed above with respect to claim 1. Thus, for the
+reasons discussed above, we also sustain the rejection of claims 8 and 15.
+
+5
+
+Appeal2014-009966
+Application 13/272,960
+DECISION
+The rejections of claims 1 and 7-19 are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

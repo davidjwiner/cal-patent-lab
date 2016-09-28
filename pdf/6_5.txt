@@ -1,0 +1,339 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/403,175
+
+02/23/2012
+
+Britt C. Ashcraft
+
+82899443
+
+7528
+
+22879
+
+7590
+
+09/19/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+LEE, NICHOLAS J
+
+ART UNIT
+
+PAPER NUMBER
+
+2626
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GUSTAVO DE LOS REYES and SANJAY MACWAN
+
+Appeal2015-003789
+Application 13/403, 175
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, AARON W. MOORE, and
+MICHAEL J. ENGLE, Administrative Patent Judges.
+MacDONALD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-003789
+Application 13/403, 175
+STATEMENT OF CASE
+
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse and enter a new ground of rejection.
+
+Exemplary Claim
+Exemplary claim 1 under appeal reads as follows (emphasis and
+bracketing added):
+1.
+
+A computing device comprising:
+
+[(A)] an input component including alphanumeric keys with a
+first set of commands for the computing device;
+[(B)] a controller to, in response to detecting a user access of a
+modifier key:
+[(i)] determine whether the user access of the modifier
+key is maintained continuously for a predetermined amount
+of time, and
+[(ii)] in response to a determination that the user access
+of the modifier key is maintained continuously for the
+predetermined period of time, transition and lock a subset of
+the alphanumeric keys to a second set of commands for the
+computing device; and
+[(C)] an illumination component included within a chassis of
+the input component to illuminate the modifier key in response to the
+subset of alphanumeric keys locking to the second set of commands.
+
+Rejection on Appeal
+1.
+
+The Examiner rejected claims 1-15 and 17-20 as being
+
+unpatentable under 35 U.S.C. § 103(a) over the combination of Ono et al.
+
+2
+
+Appeal2015-003789
+Application 13/403, 175
+(US 2003/0067446 Al; Apr. 10, 2003), Pfanstiehl (US 8,330,584 Bl; Dec.
+
+11, 2012), and Lazaridis et al. (US 2005/0073446 Al; Apr. 7, 2005). 1
+
+2.
+
+The Examiner rejected claim 16 as being unpatentable under
+
+35 U.S.C. § 103(a) over the combination of Ono, Pfanstiehl, Lazaridis, and
+Pance et al. (US 2010/0302169 Al; Dec. 2, 2010). 2
+
+Appellants' Contention
+1.
+
+Appellants contend that the Examiner erred in rejecting
+
+claim 1 under 35 U.S.C. § 103(a) because:
+Pfanstiehl describes a technique in which: (1) a key press
+lasting less than a defined time triggers the normal function of
+the key, and (2) a key press lasting at least the defined time
+"locks" the key, meaning that its function is disabled to prevent
+unintended key commands .... [I]t is respectfully submitted
+that modifying the "function key" of Ono to include the timebased locking of Pfanstiehl would not disclose or suggest the
+aforementioned subject matter of claim 1. Rather, such a
+modification would result in a "function key" which can be
+pressed for a defined time to lock the "function key" itself, such
+that the "function key" does not respond to accidental key
+presses.
+App. Br. 7.
+
+1
+
+As to this rejection, claims 1 and 13 are argued separately. Claims 9 and
+15 are argued only by reference to claim 1. Separate patentability is not
+argued for claims 2-8, 10-12, 14, and 17-20. Except for our ultimate
+decision, the Examiner's rejection of these claims is not discussed further
+herein.
+2
+As to this rejection, claim 16 is argued only by reference to claim 15.
+Therefore, our decision as to the underlying § 103 rejection of claim 15 is
+determinative and, except for our ultimate decision, the Examiner's rejection
+of claim 16 is not discussed further herein.
+
+3
+
+Appeal2015-003789
+Application 13/403, 175
+2.
+
+Appellants also contend that the Examiner erred in
+
+rejecting claim 1under35 U.S.C. § 103(a) because:
+[I]t is submitted that the provided rationale merely asserts that it
+would have been obvious to modify Ono to include the
+technique of Pfanstiehl (i.e., locking a key after holding it for a
+time period) because this would allow Ono to use the technique
+of Pfanstiehl (i.e., to "allow[] a user to control the
+locked/unlocked state of a key in response to a predetermined
+time period"). Appellant respectfully submits that such circular
+reasoning is not a valid rationale to explain why it would have
+been obvious to a person of ordinary skill in the art at the time
+of the invention to combine Ono and Pfanstiehl in this
+particular manner. See, e.g., In re Chaganti, 2014 WL 274514,
+*4 (Fed. Cir. 2014) ("circular reasoning is not sufficient-more is
+needed to sustain an obviousness rejection." (citation omited
+[sic])). Therefore, the provided rationale is a mere conclusory
+statement that does not provide articulated reasoning with some
+rational underpinning to support the legal conclusion of
+obviousness. See KSR. Accordingly, the provided rationale is
+insufficient to establish a prima facie case of obviousness for
+claim 1.
+App. Br. 8-9.
+3.
+
+Appellants also contend that the Examiner erred in
+
+rejecting claim 13 under 35 U.S.C. § 103(a) because:
+[A] person of ordinary skill in the art will readily appreciate
+that using different illumination levels, as discussed in
+Lazaridis with reference to Figs. 3 and 4, clearly does not
+disclose or suggest different colors.
+App. Br. 12.
+
+Issue on Appeal
+
+Did the Examiner err in rejecting claims 1 and 13 as being obvious
+because the cited references fail to describe the argued limitations?
+
+4
+
+Appeal2015-003789
+Application 13/403, 175
+ANALYSIS
+As to Appellants' above contention 3, we disagree. We do not find
+where Appellants provide a definition of the argued term. Therefore, we
+provide several relevant definitions of "color."
+( 1) The quality of an object or substance with respect to light reflected
+by the object, usually determined visually by measurement of hue,
+saturation, and brightness of the reflected light; saturation or
+chroma; hue. (Dictionary.com Unabridged; Based on the Random
+House Dictionary,© 2016 Random House, Inc.)
+(2) That aspect of the appearance of objects and light sources that may
+be specified in terms of hue, lightness, and saturation. (The
+American Heritage® Stedman's Medical Dictionary,© 2002,
+2001, 1995 Houghton Mifflin Company.)
+Appellants overlook that an artisan would recognize that a "color" possesses
+plural characteristics. Included among the characteristics of "color" is
+brightness (or lightness). The Examiner is correct that using different
+illumination levels (i.e., brightness) as in Lazaridis would be understood by
+an artisan as using a second color different from a first color.
+As to Appellants' above contention 1, we agree that "modifying the
+'function key' of Ono to include the time-based locking of Pfanstiehl would
+not disclose or suggest the aforementioned subject matter of claim 1" (App.
+Br. 7). Further, as to contention 2, we agree this lack of teaching in
+Pfanstiehl in tum results in circular reasoning which "is not a valid rationale
+to explain why it would have been obvious to a person of ordinary skill in
+the art at the time of the invention to combine Ono and Pfanstiehl in this
+particular manner" (App. Br. 9). The Examiner's reasoning of the Final
+
+5
+
+Appeal2015-003789
+Application 13/403, 175
+Rejection and Answer are not sufficient to show that the combination of
+Ono, Pfanstiehl, and Lazaridis render obvious claim 1.
+However, we find that all the claim limitations (both argued and
+unargued) that the Examiner alleges are taught in Pfanstiehl, are taught at
+paragraph 207 of Lemay et al. (US 2008/0055269 Al; Mar. 6, 2008), now
+U.S. Patent No. 9,304,675 B2 (issued Apr. 5, 2016) assigned to Apple, Inc.:
+If the user wants to enter another uppercase letter in the same
+sentence, he can tap on the shift key 628. As a result, the shift
+key 628 is displayed in a visually different manner (e.g., with a
+
+different color or shading) after the finger gesture. In some
+embodiments, the shift key 628 returns to the lowercase mode
+after the user enters the next letter in uppercase. If the user
+wants to enter a sequence of uppercase letters, he can maintain
+the finger contact with the shift key 628 for a predefined
+extended period of time (e.g., 1-3 seconds) until the shift key
+628 has a new appearance. In some other embodiments, the
+shift key 628 stays in the uppercase mode for all subsequent
+user-entered letters until another finger gesture is detected on
+the shift key 628.
+We modify the Examiner's rejections by substituting Lemay for Pfanstiehl.
+Our review finds nothing more than the application of an admittedly known
+technique to the improvement of a similar known device in the same way.
+[I]f a technique has been used to improve one device, and a
+person of ordinary skill in the art would recognize that it would
+improve similar devices in the same way, using the technique is
+obvious unless its actual application is beyond his or her skill.
+Sakraida and Anderson's-Black Rock are illustrative-a court
+must ask whether the improvement is more than the predictable
+use of prior art elements according to their established
+functions.
+KSR Intern. Co. v. Teleflex Inc., 550 U.S. 398, 417 (2007). We designate
+our analysis in combination with the Examiner's analysis to be a new ground
+
+6
+
+Appeal2015-003789
+Application 13/403, 175
+of rejection of claim 1 under 35 U.S.C. § 103 over Ono, Lemay, and
+Lazaridis.
+We also reject claims 2-15 and 17-20 under 35 U.S.C. § 103 over
+Ono, Lemay, and Lazaridis for the reasons above and the reasons set forth
+by the Examiner in the rejection of claims 2-15 and 17-20.
+We also reject claim 16 under 35 U.S.C. § 103 over Ono, Lemay,
+Lazaridis, and Pance for the reasons above and the reasons set forth by the
+Examiner in the rejection of claim 16.
+
+37 C.F.R. § 41.50(b)
+
+This decision contains a new ground of rejection pursuant to 37
+C.F.R. § 41.50(b). 37 C.F.R. § 41.50(b) provides "[a] new ground of
+rejection pursuant to this paragraph shall not be considered final for judicial
+review."
+37 C.F.R. § 41.50(b) also provides that Appellants, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new grounds of rejection to
+avoid termination of the appeal as to the rejected claims:
+(1) Reopen prosecution.
+Submit an appropriate
+amendment of the claims so rejected or new Evidence relating
+to the claims so rejected, or both, and have the matter
+reconsidered by the examiner, in which event the prosecution
+will be remanded to the examiner. ...
+
+(2) Request rehearing. Request that the proceeding be
+reheard under § 41.52 by the Board upon the same record ....
+
+7
+
+Appeal2015-003789
+Application 13/403, 175
+CONCLUSIONS
+(1) Appellants have established that the Examiner erred in rejecting
+claims 1-20 as being unpatentable under 35 U.S.C. § 103(a).
+(2) In a new grounds, we reject claims 1-20 as being unpatentable
+under 35 U.S.C. § 103(a).
+(3) Claims 1-20 are not patentable.
+
+DECISION
+The Examiner's rejections of claims 1-20 are reversed.
+Claims 1-20 are newly rejected.
+
+REVERSED
+37 C.F.R. § 41.50(b)
+
+8
+
+

@@ -1,0 +1,403 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/283,756
+
+10/28/2011
+
+Daniel Y. ABRAMOVITCH
+
+20110200-01
+
+3632
+
+126149
+
+7590
+
+09/21/2016
+
+Keysight Technologies, Inc.
+C/O CPA Global
+P.O. Box 52050
+Minneapolis, MN 55402
+
+EXAMINER
+PAN, YUHUIR
+
+ART UNIT
+
+PAPER NUMBER
+
+2127
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+keysightdocketing@cpaglobal.com
+notice.legal@keysight.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DANIELY. ABRAMOVITCH and
+CHRISTOPHER RYAN MOON
+
+Appeal2015-005455
+Application 13/283,756
+Technology Center 2100
+
+Before JOSEPH L. DIXON, JAMES R. HUGHES, and ERIC S. FRAHM,
+Administrative Patent Judges.
+FRAHM, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-005455
+Application 13/283,756
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a rejection of claims 120. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+
+The invention relates to tuning an atomic force microscope (Spec. ,-i
+25). Claim 1, reproduced below, is illustrative of the claimed subject matter:
+1.
+A method of tuning an atomic force microscope (AFM)
+comprising a physical system and a controller configured to
+control the physical system, the method comprising:
+
+determining a loop response of the AFM based on a
+frequency response of the physical system and a frequency
+response of the controller;
+determining a cost function indicating a difference
+between the loop response and a target response characteristic;
+and
+adjusting the frequency response of the controller to
+reduce off-surface resonance of a cantilever arm of the AF~v1.
+
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Quinn
+Card et al.
+Ding et al.
+Abramovitch et al.
+
+us 5,406,496
+
+Apr. 11, 1995
+US 6,810,291 B2
+Oct. 26, 2004
+US 2005/0069050 A 1 Mar. 31, 2005
+US 2009/0062935 Al Mar. 5, 2009
+
+Sunder S. Kidambi, Weighted Least-Squares Design ofRecursive Allpass
+Filters, 44 IEEE TRANSACTIONS ON SIGNAL PROCESSING 1553, 1553-58
+(1996) ("Kidambi").
+M.A. LAUGHTON & D.J. WARNE, ELECTRICAL ENGINEER'S REFERENCE
+BOOK 1/3, 13/52 (16th ed. 2003) ("Laughton").
+
+2
+
+Appeal2015-005455
+Application 13/283,756
+REJECTIONS
+The Examiner made the following rejections:
+Claims 15-17 and 19 stand rejected under 35 U.S.C § 102(b) as being
+anticipated by Quinn.
+Claims 1--4 and 7 stand rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch and Quinn.
+Claim 5 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch, Quinn, and Ding.
+Claim 6 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch, Quinn, Ding, and Card.
+Claims 8, 12, and 14 stand rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch and Ding.
+Claim 9 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch, Ding, Quinn, and Kidambi.
+Claims 10, 11, and 13 stand rejected under 35 U.S.C § 103(a) as being
+unpatentable over Abramovitch, Ding, and Quinn.
+Claim 18 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Quinn and Laughton.
+Claim 20 stands rejected under 35 U.S.C § 103(a) as being
+unpatentable over Quinn and Ding.
+
+ANALYSIS
+The Anticipation Rejection
+
+Regarding claim 15, Appellants argue Quinn is not "within the
+purview of AFM technology" and that Quinn "does no loop shaping, and
+especially performs no automatic loop shaping on a loop response defined
+
+3
+
+Appeal2015-005455
+Application 13/283,756
+by a frequency response of the physical system and a frequency response of
+the controller" (App. Br. 7, 9). Rather, Appellants argue, "at best, the
+autotuning controller 14 of Quinn makes adjustments to minimize the
+difference between the system frequency response and the desired frequency
+response. There is plainly nothing described regarding shaping of anything,
+and especially not the description of shaping of a loop response." (App. Br.
+9). We disagree with Appellants.
+We begin by construing the argued features of claim 15.
+First, we note that the term "atomic force microscope (AFM)" is only
+recited in the preamble, and the body of the claim makes no reference to an
+AFM. Rather, the body of claim 15 generically recites "a loop shaping
+component" and "a gain adjustment component" which are not limited to use
+in an AFM. Accordingly, we find the claim 15 language "for tuning an
+atomic force microscope (AFM)" indicates an intended use of the system,
+and therefore we give little patentable weight to this language. See
+Boehringer Ingelheim Vetmedica, Inc. v. Schering-Plough Corp., 320 F.3d
+
+1339, 1345 (Fed. Cir. 2003) ("An intended use or purpose usually will not
+limit the scope of the claim because such statements usually do no more than
+define a context in which the invention operates."). We are not persuaded
+by Appellants' argument that "the controller, which is recited in the body of
+the claim, is a component of the AFM, which clearly and unequivocally
+comprises the controller. The controller is clearly and irrevocably linked to
+the AFM." (Reply Br. 5). Although the body of claim 15 does refer to the
+controller of the system that is positively recited in the preamble, the system
+controller is not necessarily part of an AFM. Rather, as stated above, the
+preamble merely recites tuning an AFM as an intended use for the system.
+
+4
+
+Appeal2015-005455
+Application 13/283,756
+Second, claim 15 recites performing "automatic loop shaping on a
+loop response" without defining the "loop shaping" function. Accordingly,
+we look to Appellants' Specification, which provides "the loop shaping is
+performed by adjusting the filter coefficients to minimize a target response
+characteristic such as a magnitude difference between L( co) [the magnitude
+of a loop response] and Lo( co) [the magnitude of a desired loop shape]"
+(Spec. iJ 49). Thus, we agree with the Examiner that the broadest reasonable
+interpretation, in light of Appellants' Specification, of the claimed "loop
+shaping" is minimizing the difference between a system frequency response
+and a desired frequency response (see Ans. 3--4).
+Based on the above constructions, we agree with the Examiner that
+Quinn discloses the claimed "loop shaping" (see Ans. 4). Quinn discloses
+an autotuning system with a compensator "having coefficients characterized
+in that when combined with the digital filter and the plant [(the element to be
+controlled) (Quinn, col. 1, 11. 11-15)] the combination provides a frequency
+response consistent with the predetermined system response" (Quinn, col. 3,
+11. 21-25). In other words, "compensator 52 introduces a necessary phase
+and gain into the system 10 so that the actual or measured system response
+approaches the desired system response" (Quinn, col. 11, 11. 25-28). Thus,
+we find Quinn's autotuning system minimizes the difference between a
+system frequency response and a desired frequency response and, therefore,
+meets the definition of the claimed "loop shaping." The fact that Quinn does
+not disclose performing such loop shaping to tune an AFM does not change
+our finding, because we do not give this feature patentable weight, as
+discussed above.
+
+5
+
+Appeal2015-005455
+Application 13/283,756
+We are, therefore, not persuaded the Examiner erred in rejecting claim
+15, and claims 16, 17, and 19 not specifically argued separately.
+
+The Obviousness Rejections
+Claims 1-7
+Appellants contend Abramovitch does not teach "adjusting the
+frequency response of the controller to reduce off-surface resonance of a
+cantilever arm of the AFM" as recited in claim 1 (App. Br. 11-12).
+Specifically, Appellants argue in Abramovitch "there is clearly no link
+between the filtering and the PID controller 22" (App. Br. 11 ). Further,
+Appellants argue in Abramovitch "there is no disclosure or description of
+any off-surface resonance of the cantilever arm as specifically recited in
+claim l" (App. Br. 12). Appellants also contend the Examiner erred in
+combining Quinn with Abramovitch because Quinn is not "within the
+purview of AFM technology" and "there is no articulated reasoning with
+some rational underpinning to support the legal conclusion of obviousness"
+(,,L\..pp. Br. 13). \Ve are not persuaded by Appellants' arguments for at least
+
+the following reasons.
+Abramovitch teaches generating parameters for an atomic force
+microscope, including the following:
+The PID controller 22 further receives an input from the
+controller design block 14. Filtering may be added to mitigate
+the effects of system dynamics, e.g. higher frequency
+resonances of the cantilever.
+
+FIG. 3 illustrates a process flow chart according to the
+invention. In step 102, a model for the scanning probe
+microscope dynamics is generated. In step 104, filter
+parameters that shape selected dynamics of the model are
+
+6
+
+Appeal2015-005455
+Application 13/283,756
+chosen. In step 106, a notch filter is generated using the filter
+parameters. In step 108, the notch filter is encoded as PID
+parameters. In step 110, the PID parameters are implemented
+in a PID controller to control the scanning probe microscope.
+(Abramovitch iii! 30, 33). As quoted above, Abramovitch's system
+determines filter parameters and uses them in a PID controller to control the
+microscope. We thus agree with the Examiner's finding (see Ans. 4) that
+Abramovitch teaches "adjusting the frequency response of the controller" as
+recited in claim 1.
+Further, we find the claim 1 language "to reduce off-surface
+resonance" should be given little patentable weight, as it indicates a desired
+result without tying the result to any specific steps to achieve it. In other
+words, the positively recited step of "adjusting the frequency response of the
+controller" does not provide the specificity required to ensure a reduction in
+"off-surface resonance of a cantilever arm of the AFM" in the method of
+claim 1. }J evertheless, even if \'1/e consider the language "to reduce off=
+
+surface resonance," we agree with the Examiner that Abramovitch suggests
+this feature (see Final Act. 5-6; Ans. 4-5).
+The Specification provides "controller 135 can be configured to
+account for resonance conditions that can occur when cantilever arm 115 is
+off measurement surface 105 ('off-surface resonance conditions')" (Spec. iJ
+38). Accordingly, the broadest reasonable interpretation of "to reduce offsurface resonance" is to reduce resonance of a cantilever arm when it is off
+of a measurement surface. Abramovitch discloses adding filtering to a PID
+controller, as mentioned above, "to mitigate the effects of system dynamics,
+e.g. higher frequency resonances of the cantilever" (Abramovitch iJ 30). We
+find this suggests mitigating cantilever arm resonance when it is off the
+7
+
+Appeal2015-005455
+Application 13/283,756
+surface of a sample, i.e., a measurement surface, because Abramovitch
+discloses the mitigation relates to a cantilever arm that can move along a "Z"
+axis that includes a direction away from a sample surface (see Abramovitch
+
+iJiJ 27-30, Fig.
+
+1).
+
+We are also not persuaded by Appellants' argument that the Examiner
+erred in combining Quinn with Abramovitch (App. Br. 13), for at least the
+following reasons.
+Quinn is analogous art because it describes an autotuning controller
+for achieving a desired frequency response of a system (see Quinn, col. 7, 11.
+35-50) which is "reasonably pertinent to the particular problem" of tuning
+an AFM by adjusting the frequency response of a controller addressed by the
+present invention (see, e.g., Spec. iJ 25). In re Klein, 647 F.3d 1343, 1348
+(Fed. Cir. 2011). Further, we find no error in the Examiner identifying a
+reason to combine the references in Quinn (Final Act. 6), namely, to reduce
+complexity by using an adaptive control system (see Quinn, col. 1, 1. 66-col.
+2, 11. 9). Moreover, "if a technique has been used to improve one device,
+and a person of ordinary skill in the art would recognize that it would
+improve similar devices in the same way, using the technique is obvious
+unless its actual application is beyond his or her skill." KSR Int 'l Co. v.
+
+Teleflex Inc., 550 U.S. 398, 417 (2007).
+Here, both Quinn and Abramovitch relate to adjusting the frequency
+response of a PID controller (see Quinn, col. 7, 11. 35-50; Abramovitch iii!
+30-33), and it would have been obvious to one of ordinary skill in the art to
+employ Quinn's technique of determining the difference between a
+measured system response and a desired system response (Quinn, col. 11, 11.
+23-28) in Abramovitch to ensure the adjusted frequency response of
+
+8
+
+Appeal2015-005455
+Application 13/283,756
+Abramovitch' s controller resulted in a system response that approached a
+desired system response.
+We are, therefore, not persuaded the Examiner erred in rejecting claim
+1, and claims 2--4 and 7 not specifically argued separately. For similar
+
+reasons, and because Appellants rely on the arguments presented for claim 1
+as to the patentability of claims 5 and 6, we are not persuaded the Examiner
+erred in rejecting claims 5 and 6 over the combinations of (i) Abramovitch,
+Quinn, and Ding; or (ii) Abramovitch, Quinn, Ding, and Card.
+
+Claims 8-14
+Appellants contend in Abramovitch "[t]here is no disclosure or
+
+description of the types of filters used, and especially no disclosure of either
+the existence of filter coefficients or their adjustment in order to reduce
+off-surface resonance of a cantilever arm of the AFM," and "[t]here is no
+disclosure or description that the higher frequency resonance of the
+cantilever of Abramovitch, et al. is off-surface resonance of the cantilever"
+(App. Br. 15, 16). Appellants also contend "the proffered motivation to
+combine Abramovitch, et al. and Ding, et al. is at best merely conclusory,
+and provides no evidence or analysis that demonstrates that it would have
+been a recognized need by one or ordinary skill in the art at the time the
+invention was made" (App. Br. 17).
+Appellants' arguments as to claim 8 regarding Abramovitch (App. Br.
+15-16) are similar to those presented with respect to claim 1. We are not
+persuaded by these arguments for the same reasons discussed above.
+However, we are persuaded by Appellants' argument against the
+combination of Abramovitch and Ding (App. Br. 16-17). We find Ding's
+disclosure directed to a "transmitter with a baseband predistortion system"
+
+9
+
+Appeal2015-005455
+Application 13/283,756
+(Ding iJ 13) to be unrelated to the present invention. Moreover, the
+Examiner's reason for combining Ding with Abramovitch-"to reduce the
+interference between signals" (Final Act. 10)-does not appear to have any
+applicability to Abramovitch's system directed to determining filter
+parameters for a PID controller of an AFM (see Abramovitch iii! 29-33).
+We are, therefore, constrained by the record to find the Examiner
+erred in rejecting independent claim 8, and dependent claims 9-14 for the
+same reason.
+Claims 18 and 20
+
+Appellants do not present separate arguments explaining why the
+Examiner erred in rejecting claims 18 and 20 as obvious. Rather, Appellants
+rely on the same arguments presented for claim 15 regarding anticipation
+(see App. Br. 10). As discussed above, Appellants' arguments for claim 15
+
+are not persuasive. We are, therefore, not persuaded the Examiner erred in
+rejecting claims 18 and 20.
+
+CONCLUSIONS
+Under 35 U.S.C. § 102(b), the Examiner did not err in rejecting claims
+15-17 and 19.
+Under 35 U.S.C. § 103(a), the Examiner erred in rejecting claims 814, but did not err in rejecting claims 1-7, 18, and 20.
+
+DECISION
+For the above reasons, the Examiner's rejections of claims 8-14 are
+reversed, and the Examiner's rejections of claims 1-7 and 15-20 are
+affirmed.
+
+10
+
+Appeal2015-005455
+Application 13/283,756
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l .136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+11
+
+

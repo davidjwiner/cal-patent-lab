@@ -1,0 +1,277 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/921,795
+
+02/09/2011
+
+Michael Crawford
+
+2008P00436WOUS
+
+6132
+
+24737
+
+7590
+
+09/15/2016
+
+PHILIPS INTELLECTUAL PROPERTY & STANDARDS
+465 Columbus Avenue
+Suite 340
+Valhalla, NY 10595
+
+EXAMINER
+DIETRICH, JOSEPH M
+
+ART UNIT
+
+PAPER NUMBER
+
+3762
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+marianne.fox@philips.com
+debbie.henn@philips.com
+patti. demichele@Philips.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MICHAEL CRAWFORD,
+CHUNIKAO,
+FRANK WARTENA,
+SHANNON FONG,
+EARL HERLEIKSON,
+SAMUEL KWONG,
+RIMAVALLI KONA,
+KIRSHNAKANT NAMMI, and
+STEPHEN LABRASH
+
+Appeal2014-006647
+Application 12/921,795
+Technology Center 3700
+
+Before MICHAEL L. HOELTER, THOMAS F. SMEGAL, and
+GORDON D. KINDER, Administrative Patent Judges.
+HOELTER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+This is a decision on appeal, under 35 U.S.C. § 134(a), from a final
+rejection of claims 3-7 and 12. App. Br. 3. We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2014-006647
+Application 12/921,795
+THE CLAIMED SUBJECT MATTER
+The disclosed subject matter "relates to ECG monitoring systems and,
+in particular, to the continuous ECG monitoring of patients in an outpatient
+setting." Spec. 1:8-10. Claims 3 and 12 are independent. Claim 3 is
+illustrative of the claims on appeal and is reproduced below.
+3.
+
+A wireless cardiac monitoring system comprising:
+a battery powered ECG monitor adapted to receive
+cardiac signals from an electrode attached to a patient, the ECG
+monitor including a transceiver for wirelessly transmitting ECG
+signal data, the ECG monitor further including a status notifier,
+coupled to the transceiver, for transmitting a status notification
+when a status of the ECG monitor changes; and
+a cellphone handset including cellphone electronics
+operable for communication over a cellular network and a
+transceiver for wirelessly receiving ECG signal data or status
+notifications from the ECG monitor and a controller operable to
+cause the cellphone electronics to send ECG signal data
+received from the ECG monitor to a monitoring center over the
+cellular network,
+\'I/herein the controller is fi.1rther operable to respond to a
+status notification from the ECG monitor by a) bringing a status
+notification to the attention of the patient with the cellphone
+handset, and b) sending the status notification to the monitoring
+center over the cellular network, wherein the controller is
+further operable to delay sending a given status notification to
+the monitoring center to allow time for receipt of a rectifying
+status notification.
+REFERENCES RELIED ON BY THE EXAMINER
+Nappholz
+West
+Fischell
+
+US 5,720,770
+US 2002/0013517 Al
+US 2007 /0093720 Al
+
+2
+
+Feb. 24, 1998
+Jan 31, 2002
+Apr. 26, 2007
+
+Appeal2014-006647
+Application 12/921,795
+THE REJECTIONS ON APPEAL
+Claims 3, 4, 6, 7, and 12 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Nappholz and Fischell.
+Claim 5 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Nappholz, Fischell, and West.
+ANALYSIS
+
+The rejection of claims 3, 4, 6, 7, and 12
+as unpatentable over Nappholz and Fischel!
+Appellants argue claims 3, 4, 6, 7, and 12 together. 1 App. Br. 6-9.
+We select independent claim 3 for review with claims 4, 6, 7, and 12
+standing or falling with claim 3. See 37 C.F.R. § 41.37(c)(l)(iv).
+Claim 3 is directed to a cardiac monitoring system comprising a
+controller "wherein the controller is further operable to delay sending a
+given status notification to the monitoring center." The Examiner primarily
+relies on the teaching ofNappholz, but acknowledges that Nappholz "fails to
+teach that such a notification may be determined to be delayed." Final Act.
+3. The Examiner relies on the teachings of Fischell for teaching that "it is
+known to delay sending a given status notification to allow time for receipt
+of a rectifying status notification." Final Act. 3 (referencing Fischell if 193);
+
+see also Ans. 2 (referencing Fischell if 192). The Examiner concludes that it
+would have been obvious "to modify the notification as taught by N appholz
+with the delayed notifications as taught by Fischell." Final Act. 3. The
+Examiner's reason is that "such a modification would provide the
+1
+
+Regarding independent claim 12, Appellants state, "[t]he grounds for final
+rejection of Claim 12 are the same as for Claim 3" and that "Appellant
+respectfully traverses this grounds for rejection under the same reasoning as
+presented in support of Claim 3 above." App. Br. 9.
+3
+
+Appeal2014-006647
+Application 12/921,795
+predictable results of allowing a patient to correct a non-critical error before
+alerting a physician." Final Act. 3.
+Appellants do not dispute the teachings ofNappholz, but instead
+contend that Fischell does not "allow the alarm to be delayed." 2 App. Br. 7.
+Fischell is directed to the detection of different types of cardiac
+events. Fischell, Title. Paragraph 192 of Fischell discusses an alarm counter
+whose threshold (ALMTH) "is preferably set to 3, which means that 3
+consecutively processed/categorized segments" must occur before further
+action is taken. "Thus, an ST shift or a high heart rate condition must be
+somewhat persistent to trigger an event detection, which helps to avoid false
+positive detections." Fischell i-f 192. Paragraph 193 of Fischell states,
+"ALMTH is a programmable parameter that could be increased to avoid false
+positive detections" and that "a few minutes delay" in some circumstances
+"is valuable if it improves the reliability of detection."
+Appellants contend, "ALMTH has nothing to do with whether the
+resulting alarm, i.e., status notification, is delayed in transmission or not."
+App. Br. 8. We disagree with Appellants because the variable selected for
+the alarm threshold is the number of "somewhat persistent" or
+"consecutively processed/categorized segments" that must be reached before
+further processing of that cardiac event can occur. See block 808 in Fischell
+Fig. 5 and accompanying description.
+
+2
+
+Appellants also contend, "Fischell et al. do not contemplate any feature
+which disconnects the generation of a given alarm with its resulting
+transmission to a monitoring center." App. Br. 7 (emphasis added).
+However, Fischell was relied on for teaching delaying the signal, not for
+disconnecting the signal.
+4
+
+Appeal2014-006647
+Application 12/921,795
+Accordingly, Appellants are not persuasive that Fischell fails to teach
+delaying a signal, or that the Examiner erred in finding that it is known to
+delay a signal. Final Act. 3.
+Furthermore, regarding a following limitation in claim 3, the
+Examiner states, "[t]he phrase 'to allow time for receipt of a rectifying status
+notification' is functional language." Ans. 2. The Examiner concludes that
+in view of the delayed signal in the combination ofNappholz and Fischell,
+"there would be time allowed for receipt of a rectifying status notification."
+Ans. 2. Appellants disagree contending, "[t]here is no provision in
+[Fischell' s] detector to rectify anything, including any of the ECG segments
+that are being characterized." Reply Br. 4. Appellants state, "[t]he word
+'rectifying' implies action" and "[t]here is nothing in the Fischell et al.
+[reference] that indicates to one of ordinary skill in the art that a misdiagnosed ECG segment could be 'rectified."' Reply Br. 4.
+As stated in claim 3, the delay is "to allow time for" some other action
+(i.e., rectification). Thus, this phrase states the function or purpose of the
+recited delay (i.e., to allow time for rectification) and as such, we agree with
+the Examiner that this phrase is functional language. We are not persuaded
+that the combination ofNappholz and Fischell would fail to allow time for
+rectification. Ans. 2.
+Accordingly, and based on the record presented, we sustain the
+Examiner's rejection of claims 3, 4, 6, 7, and 12 as being obvious over
+Nappholz and Fischell. 3
+3
+
+Regarding claim 12 Appellants address the limitation, "when a change is
+status is brought to the attention of the patient," the patient may defer "a
+response to the status notification until a later time." Reply Br. 4.
+5
+
+Appeal2014-006647
+Application 12/921,795
+The rejection of claim 5
+as unpatentable over Nappholz, Fischel!, and West
+
+Appellants do not dispute the Examiner's additional reliance on West
+for teaching the additional limitation recited in claim 5, or West's
+combination with Nappholz and Fischell. See App. Br. 9-10; Final Act. 3;
+Ans. 3. Instead, Appellants contend that West "fail[ s] to teach or suggest
+any deferred or delay in sending a status notification message." App. Br. 9.
+As indicated supra, the Examiner relied on Fischell for this "delayed"
+teaching. Final Act. 3, Ans. 3. Accordingly, we are not persuaded the
+Examiner erred in rejecting claim 5 as being obvious over Nappholz,
+Fischell, and West.
+
+DECISION
+The Examiner's rejections of claims 3-7 and 12 are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+Appellants contend that there is no suggestion that Fischall's programmable
+parameter "could be adjusted after an ECG abnormality is received." Reply
+Br. 5. However, conversely, there is also no indication that Fischall's
+programmable parameter could not be adjusted afterwards as well.
+Nevertheless, the Examiner finds such language functional and that "[t]he
+programmer as taught by Fischell is capable of performing this function
+because it allows the user to set the counter threshold as mentioned above."
+Ans. 3. Appellants' are not persuasive of Examiner error on this point.
+6
+
+

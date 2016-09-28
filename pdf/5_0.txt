@@ -1,0 +1,302 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/085,399
+
+12/19/2008
+
+Axel Kaiser
+
+2005Pl5025WOUS
+
+8247
+
+22116
+
+7590
+
+09/20/2016
+
+SIEMENS CORPORATION
+INTELLECTUAL PROPERTY DEPARTMENT
+3501 Quadrangle Blvd Ste 230
+Orlando, FL 32817
+
+EXAMINER
+KHATRI, PRASHANT J
+
+ART UNIT
+
+PAPER NUMBER
+
+1783
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDadmin.us@siemens.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AXEL KAISER, ECKART SCHUMANN, and
+RAMESH SUBRAMANIAN
+
+Appeal2015-004134
+Application 12/085,399
+Technology Center 1700
+
+Before CHUNG K. PAK, JEFFREY T. SMITH, and
+WESLEY B. DERRICK, Administrative Patent Judges.
+PAK, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision finally rejecting claims 28, 30 through 33, and 37 through 46. 2 We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We REVERSE.
+The subject matter on appeal is generally directed to a layer system
+comprising a substrate, an inner ceramic layer, and an outer ceramic layer.
+(Spec. ,-i,-i 21, 22, 26, 27, 29.) The total thickness of the inner and outer
+ceramic layers is about 300 µm to about 800 µm, and the thickness of the
+Appellants identify the Real Party in Interest as Siemens Aktiengesellschaft
+(Appeal Brief filed September 25, 2014 ("App. Br.") at 3.)
+2
+Final Office Action entered May 27, 2014 ("Final Act.").
+1
+
+Appeal2015-004134
+Application 12/085,399
+inner ceramic layer is 10% to 50% of the total thickness of both ceramic
+layers. (Spec.
+
+iJ 42, 50, 52.)
+
+Details of the appealed subject matter are recited in representative
+claim 28, which is reproduced below from the Claims Appendix to the
+Appeal Brief:
+28.
+
+A layer system, comprising:
+a substrate;
+an outer ceramic layer arranged on the substrate where
+the ceramic layer comprises a pyrochlore structure
+Gdv(ZrxHfy)Oz, where x + y = 2;
+an inner ceramic layer that comprises a 6 wt%-8 wt%
+yttrium stabilized oxide layer arranged between the outer
+ceramic layer and the substrate; and
+wherein the inner ceramic layer has a layer thickness of
+between 10% and 50% of the total layer thickness of the inner
+ceramic layer and the outer ceramic layer, and the total layer
+thickness of the inner ceramic layer and the outer ceramic layer
+is about 300 µm to about 800 µm.
+
+Appellants seek review of the following grounds of rejection
+maintained by the Examiner in the Answer entered on December 24, 2014
+("Ans."):
+Claims 28, 30-33, 37-39, and 44--46 under 35 U.S.C. § 103(a) as
+unpatentable over the disclosure of U.S. Patent 6,177,200 Bl issued in the
+name of Maloney on January 23, 2001 (hereinafter referred to as
+"Maloney") in view ofKaraulov et al., Phase Formation in the Zr02-Hf02
+
+- Gd203 and the Zr02- Hf02- Yb203 Systems, 40 Refractories and
+Industrial Ceramics 479 (1999) (hereinafter referred to as "Karaulov").
+
+2
+
+Appeal2015-004134
+Application 12/085,399
+Claim 40 under 35 U.S.C. § 103(a) as unpatentable over the disclosure
+of Maloney in view ofKaraulov and U.S. patent 6,756,131 B2 issued in the
+name of Oguma et al. on June 29, 2004 (hereinafter referred to as "Oguma").
+Claim 41under35 U.S.C. § 103(a) as unpatentable over the disclosure
+of Maloney in view ofKaraulov and U.S. Patent Application publication
+200410180233 Al published in the name of Stamm on September 16, 2004
+(hereinafter referred to as "Stamm").
+Claim 43 under 35 U.S.C. § 103(a) as unpatentable over the disclosure
+of Maloney in view of Karaulov and U.S. patent 5,507,623 issued in the
+name of Kojima et al. on April 16, 1996 (hereinafter referred to as
+"Kojima").
+Claim 42 under 35 U.S.C. § 103(a) as unpatentable over the disclosure
+of Maloney in view ofKaraulov, Kojima, and U.S. patent 4,034,142 issued
+in the name of Hecht on July 5, 1977 (hereinafter referred to as "Hecht").
+(See Ans. 2, 5, 6, 8, and 9.)
+
+DISCUSSION
+Upon consideration of the evidence on this appeal record in light of
+the arguments advanced by the Examiner and Appellants, we concur with
+Appellants that the Examiner does not carry the burden of establishing a
+prima facie case of obviousness regarding the subject matter recited in
+claims 28, 30-33, and 37--46 within the meaning of 35 U.S.C. § 103(a).
+Accordingly, we reverse the Examiner's§ 103(a) rejections of these claims
+
+3
+
+Appeal2015-004134
+Application 12/085,399
+substantially for the reasons set forth in the Appeal Brief. We add the
+discussion below primarily for emphasis and completeness. 3
+The Examiner has the burden of establishing a prima facie case of
+obviousness regarding the subject matter recited in the claims on appeal. In
+re Oetiker, 977 F.2d 1443, 1445 (Fed. Cir. 1992) ("[T]he [patent] examiner
+bears the initial burden, on review of the prior art or on any other ground, of
+presenting a primafacie case ofunpatentability."); see also In re Jung, 637
+F.3d 1356, 1365-66 (Fed. Cir. 2011) (explaining that while "the applicant
+must identify to the Board what the examiner did wrong, ... the examiner
+retains the burden to show [unpatentability ]").
+The Examiner finds that Maloney discloses a coating for a metallic
+substrate that comprises an outer thermal barrier coating, corresponding to
+the outer ceramic layer recited in claim 28, and an inner ceramic bond coat,
+corresponding to the inner ceramic layer recited in claim 28. (Final Act. 2.)
+The Examiner finds that Maloney discloses that when the thermal barrier
+coating is applied to a blade of a gas turbine engine, reducing or increasing
+the thickness of the coating affects the life of the blade and the substrate
+creep life. (Final Act. 3.) The Examiner determines that it would have been
+obvious to one of ordinary skill in the art to adjust the thickness of the
+thermal barrier coating based on operating conditions and desired properties
+
+3
+
+For the purposes of this appeal, we select claim 28, the broadest claim on
+appeal, as representative, and decide the propriety of the rejections under 35
+U.S.C. § 103(a) based on this claim alone.
+4
+
+Appeal2015-004134
+Application 12/085,399
+to optimize the performance of the coating. (Id.)
+The Examiner finds that Maloney discloses adjusting the thickness of
+the ceramic bond coat applied to a turbine blade to allow for rotation of the
+blade while achieving desired thermal characteristics, and the Examiner
+determines that it would have been obvious to one of ordinary skill in the art
+to adjust the thickness of this layer appropriately. (Final Act. 3-4.) The
+Examiner further finds that Maloney exemplifies a thermal barrier coating
+having a thickness of 49 µm, and a ceramic bond coat with a thickness of 0.5
+mils (12.7 µm). (Final Act. 4.) The Examiner determines that the
+exemplified ceramic bond coat constitutes about 25% of the total thickness
+of both exemplified coatings based on his or her calculation, and concludes
+that the total thickness of the coatings can be adjusted appropriately. (Final
+Act. 4, 12.)
+However, the Examiner does not demonstrate that one of ordinary
+skill in the art reasonably would have been led to produce inner and outer
+ceramic layers having the total thickness of about 300 µm to about 800 µm,
+with the thickness of the inner layer being 10% to 50% of such total
+thickness, as recited in claim 28. Maloney discloses ceramic coatings that
+have particular utility in gas turbine engines, and explains that weight is
+always a critical factor when designing gas turbine engines, particularly for
+rotating parts. (Maloney col. 1, 11. 13-14; col 2, 11. 11-12.) Maloney further
+explains that ceramic thermal barrier coatings are not load supporting
+materials, and consequently they add weight without increasing strength.
+
+5
+
+Appeal2015-004134
+Application 12/085,399
+(Ivfaloney col. 2, 11. 13-15.) Ivfaloney teaches that ceramic thermal barrier
+material should therefore add the minimum weight while providing the
+maximum thermal insulation capability. (Maloney col. 2, 11. 15-17.)
+Maloney also discloses that reducing the thickness of a thermal barrier
+coating (outer ceramic layer) on a typical turbine blade by 50% lowers the
+blade pull by about 1,500 pounds at typical operating conditions, resulting in
+a significant increase in the life of the blade and permitting the mass of the
+disk to which the blade is attached to be reduced. (Maloney col. 8, 11. 1422.) Maloney further discloses that when a ceramic bond coat (inner
+ceramic layer) is applied to a turbine blade, it should be no thicker than
+necessary to cover the underlying material because it adds weight to the
+blade, contributing significantly to blade pull. (Maloney col. 10, 11. 59-64.)
+In this context, Maloney exemplifies a thermal barrier coating, (Gd,Y,Zr)02
+coating, having a thickness of 49 µm-in which a ceramic bond coat
+composed of 7YSZ is applied to a substrate between a metal bond coat and a
+thermal barrier coating in one embodiment and exemplifies a ceramic bond
+coat with a thickness of 0.5 mils (12.7 µm) in another embodiment.
+(Maloney col. 9, 11. 6-17 and col. 10, 11. 55-66.) Nowhere does Maloney
+recognize the importance of increasing the total thickness of the thermal
+barrier coating and the ceramic bond coat from its exemplified total
+thickness to a much greater total thickness of about 300 µm to about 800 µm
+(about 5 to about 13 times higher than the combined thickness of the thermal
+barrier coating and the ceramic bond coat exemplified in Maloney referred
+
+6
+
+Appeal2015-004134
+Application 12/085,399
+to by the Examiner). (Ivfaloney cols. 6-11.) Nor does Ivfaloney recognize
+the importance of retaining the recited relative thicknesses of the thermal
+barrier coating and the ceramic bond coat having such total thickness. Id.
+As stated by the predecessor to our reviewing court in In re Sebek, 465 F .2d
+904, 907 (CCPA 1972):
+Where, as here, the prior art disclosure suggests the outer
+limit of the range of suitable values, and that the optimum
+resides within that range, and where there are indications
+elsewhere that in fact the optimum should be sought within that
+range, the determination of optimum values outside that range
+may not be obvious.
+On this record, we find that the Examiner does not identify any teaching in
+Maloney that indicates or would have suggested the total and relative
+thicknesses of the thermal barrier coating and the ceramic bond coat recited
+in claim 2 8.
+In reaching this determination, we also consider the Examiner's
+assertion that the thickness of the thermal barrier coating and the ceramic
+bond coat disclosed in Maloney "are dependent upon the dimensions of the
+turbine blade," and one of ordinary skill in the art could have determined an
+appropriate thickness for each layer that would prevent blade pull while
+maintaining desired thermal characteristics. (Ans. 12.) However, the
+Examiner provides no evidence to support the assertion that the thickness of
+both coatings would depend on the dimensions of a turbine blade on which
+the layers are coated, nor does the Examiner take official notice that this was
+
+7
+
+Appeal2015-004134
+Application 12/085,399
+known in the art at the time of the invention. (Id.) Even assuming that it
+was known that the dimensions of a turbine blade would affect the
+thicknesses of the thermal barrier coating and the ceramic bond coat, the
+Examiner does not establish that one of ordinary skill in the art would have
+been led from Maloney' s disclosures to produce a coating for a turbine blade
+in which the total and relative thicknesses of both layers correspond to the
+corresponding values recited in claim 28 inasmuch as Maloney teaches or
+suggests decreasing the thickness of the thermal barrier coating and the
+ceramic bond coat to prevent a significant decrease in the life of the blade as
+indicated supra. The Examiner does not rely on the remaining prior art
+references to remedy the above deficiencies. (Ans. 2-12.)
+Accordingly, on this record, we are constrained to reverse the
+Examiner's rejections of claims 28, 30-33, and 37- 46 under 35 U.S.C.
+§ 103(a).
+ORDER
+In view of the reasons set forth in the Appeal Brief and above, the
+Examiner's§ 103(a) rejections of claims 28, 30-33, and 37- 46 are reversed.
+REVERSED
+
+8
+
+

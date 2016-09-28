@@ -1,0 +1,279 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/023,907
+
+02/09/2011
+
+Christopher M. Gonzalez
+
+20100636
+
+9602
+
+25537
+
+7590
+
+09/20/2016
+
+VERIZON
+PATENT MANAGEMENT GROUP
+1320 North Court House Road
+9th Floor
+ARLINGTON, VA 22201-2909
+
+EXAMINER
+KING, MONICA C
+
+ART UNIT
+
+PAPER NUMBER
+
+2844
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@verizon.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CHRISTOPHER M. GONZALEZ, S. A. VETHA MANICKAM,
+MADAN PONNA, SHARAD KUMAR, JAMES CARLETON HICKS,
+VENKATA RAMANA MURTHY POLUDASU, and
+DINYAR KAVOUSOUR
+
+Appeal2015-000265
+Application 13/023,907
+Technology Center 2800
+
+Before ROMULO H. DELMENDO, GEORGE C. BEST, and
+JENNIFER R. GUPTA, Administrative Patent Judges.
+DELMENDO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+The Applicants (hereinafter the "Appellants") 1 appeal under 35 U.S.C.
+
+§ 134(a) from a decision of the Primary Examiner to reject claims 1-25. 2
+We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+1
+
+The Appellants state that the real parties in interest are "Verizon
+Communications Inc. and its subsidiary companies" (Appeal Brief filed
+May 30, 2014, hereinafter "Appeal Br.," 3).
+2
+See Appeal Br. 1, 14--26; Non-Final Office Action delivered electronically
+on January 14, 2014, hereinafter "Non-Final Act.," 1.
+
+Appeal2015-000265
+Application 13/023,907
+
+BACKGROl.J1'-JD
+The subject matter on appeal relates to a method, a user device, or a
+non-transitory computer-readable medium in which a toolbar application
+that is resident on the user's device provides sign-on service to various types
+of resources (e.g., single-sign on protected sites, non-single-sign on
+protected sites, mainframe sessions, mainframe applications, or a user device
+application resident on the user device) (Specification, hereinafter "Spec.,"
+
+i-fi-f 13-14; Abstract; Claims Appendix, hereinafter "Claims App.").
+Representative claim 1 is reproduced from pages 28-29 of the Appeal Brief
+(Claims App.), with key limitations highlighted in italics:
+1. A method comprising:
+receiving, by a toolbar application of a user device and
+from a user of the user device, a sign-on request to sign-on to
+the toolbar application, wherein the toolbar application is
+resident on the user device;
+determining whether the sign-on request is valid;
+receiving, by the toolbar application, user profile
+information pertaining to the user in response to determining
+that the sign-on request is valid;
+receiving a request to connect to a single sign-on site, to
+connect to a non-single sign-on site, to connect to a system, to
+initiate a mainframe session, or to use a mainframe application
+or a user device application resident on the user device, wherein
+the toolbar application is capable of receiving the request via
+any of the toolbar application, a graphical element on a desktop
+associated with the user device, a graphical element in a taskbar
+associated with the user device, and a graphical element in a
+system tray associated with the user device;
+determining, by the toolbar application of the user
+device, whether the user is authorized to connect to, initiate, or
+use the single sign-on site, the non-single sign-on site, the
+system, the mainframe session, the mainframe application, or
+the user device application based on the user profile
+information;
+
+2
+
+Appeal2015-000265
+Application 13/023,907
+selecting, by the toolbar application of the user device,
+one or more user credentials to allow the user to connect to,
+initiate, or use the single sign-on site, the non-single sign-on
+site, the system, the mainframe session, the mainframe
+application, or the user device application in response to
+determining that the user is authorized; and
+signing-on, by the toolbar application of the user device,
+to the single sign-on site, the non-single sign-on site, the
+system, the mainframe session, the mainframe application, or
+the user device application based on the selected one or more
+user credentials, wherein the toolbar application is capable of
+performing the receiving, the determining, the selecting, and the
+signing-on, pertaining to the single sign-on site, the non-single
+sign-on site, the system, the mainframe session, the mainframe
+application, and the user device application.
+THE REJECTIONS
+The Examiner rejected the claims under 35 U.S.C. § 103(a) as
+follows:
+I.
+
+Claims 1-10 and 20-25 as unpatentable over Kuzin et al.
+(hereinafter "Kuzin") 3 in view of Thomas et al. (hereinafter
+"Thomas"); 4 and
+
+II.
+
+Claims 11-19 as unpatentable over Kuzin in view of Gonzalez
+et al. (hereinafter "Gonzalez") 5 and Thomas.
+
+(Examiner's Answer delivered electronically on August 13, 2014,
+hereinafter "Ans.," 3; Non-Final Act. 3-13.)
+
+3
+
+US 2010/0146611 Al, published June 10, 2010.
+US 2004/0039827 Al, published February 26, 2004.
+5
+US 8,220,039 B2, issued July 10, 2012.
+
+4
+
+3
+
+Appeal2015-000265
+Application 13/023,907
+DISCUSSION
+The Examiner construed the limitation "the toolbar application is
+resident on the user device" in claim 1 as requiring "simply the 'toolbar'
+software (as all things are software on computers) that is resident and local
+on the computer device" (Ans. 4). According to the Examiner, "although the
+underlying application in which the icon [i.e., toolbar] is associated with
+may be resident of some server (e.g., a server that stores wireless
+information), the toolbar application that is claimed in the claims is a
+resident such as a script of the user device" (id. at 5). Based on this
+construction, the Examiner found that Kuzin describes the limitation (id.;
+Non-Final Act. 3).
+The Appellants contend that the Examiner's rejection should be
+reversed because "[t]he user in Kuzin is not requesting to sign-on to a
+toolbar application of a user device, wherein the toolbar application is
+resident on the user device" (Appeal Br. 16). Specifically, the Appellants
+point out that, in contrast to the claimed subject matter, "Kuzin discloses that
+the user signs on (logs on) to a web-based logon server (i.e., a remote
+device) via a user interface of the web site and client 1 (script) of the web
+page/server" (id.) (emphasis omitted). According to the Appellants, the
+Examiner's claim construction is inconsistent with the Appellants'
+disclosure (Reply Brief filed September 26, 2014, 3).
+We agree with the Appellants that the Examiner's rejection was based
+on an unreasonable claim construction. See, e.g., In re Suit co Surface, Inc.,
+603 F.3d 1255, 1259-60 (Fed. Cir. 2010) (The PTO's "construction [must]
+be 'consistent with the specification, ... and ... claim language should be
+
+4
+
+Appeal2015-000265
+Application I3/023,907
+read in light of the specification as it would be interpreted by one of ordinary
+skill in the art'" (quoting In re Bond 9IO F.2d 83 I, 833 (Fed. Cir. I990))).
+In the context of the claim language read in light of the Specification
+as a whole, we conclude that the limitation "a sign-on request to sign-on to
+the toolbar application, wherein the toolbar application is resident on the
+user device" would have been understood by one skilled in the relevant art to
+require a sign-on request and subsequent sign-on into the toolbar application
+to be performed at the user's device. The Appellants' Figure IA shows that
+toolbar applications I55-I through I55-X are provided in user devices I50-I
+through I50-X, respectively, separately from network I05. The
+Specification explains that "the toolbar may act as an interface between the
+user and sites, sessions, systems, and applications" (e.g., "the toolbar may
+include user interfaces that permit a user to select a particular sign-on site,
+non-single sign-on site, mainframe session, mainframe application, system,
+or user device application") (Spec. i-f I4) (emphases added). Thus, although
+authentication may be performed remotely in network I 05 (SSO device I I 5)
+after toolbar I55-X sends a signal following sign-on (id. i-f 32), the
+Specification as a whole does not provide any indication that the sign-on
+into the toolbar application may be performed through a web-based server.
+The Examiner appears to have taken the position that a description in
+the Specification (i-f 2 I) supports the proposed "broadest reasonable
+interpretation" (Ans. 4). That description, however, relates to possible
+variations in environment IOO (Fig. IA) such as placing "mainframes I40
+and/or applications I45" in network I05-not toolbar applications I55-I
+through I55-X that must be "resident on the user device," as required by
+representative claim I.
+
+5
+
+Appeal2015-000265
+Application 13/023,907
+Thus, under the broadest reasonable construction consistent with the
+Specification, we find that Kuzin does not describe the disputed claim
+limitations. Specifically, Kuzin describes "a mechanism for sharing user
+credentials between multiple client applications when connecting to a
+predefined set of remote resources" (Kuzin i-f 3). Kuzin discloses that "user
+credentials may be collected by one of the client applications and then
+passed to a credential store running as a local component object model
+(COM) server with the user's logon session" (id. i-f 33). Although Kuzin
+teaches that the credential store runs as a local COM server with the user's
+logon session, the user enters the credentials "via a web form" (id. i-f 44).
+Furthermore, according to Kuzin, "[t]he credential store may be a dynamic
+object that stores a user's credentials in memory ... and later deleted when
+they are no longer needed" (i.e., when the user logs off) (id. i-fi-135, 72),
+implying that the credential store is operated remotely or separately from the
+user's local device. These facts indicate that Kuzin's mechanism for sharing
+user credentials between multiple client applications is not a toolbar
+application that must be resident on the user device, as required by the
+claims. 6
+For these reasons, we cannot uphold the Examiner's rejections.
+SUMMARY
+Rejections I and II are reversed. Therefore, the Examiner's decision
+to reject claims 1-25 is reversed.
+REVERSED
+6
+
+Because the Examiner did not rely on Thomas or Gonzalez to account for
+the disputed limitations (Non-Final Act. 5, 12), we need not discuss them.
+6
+
+

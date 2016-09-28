@@ -1,0 +1,229 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/334,431
+
+12/22/2011
+
+Christopher Paretti
+
+042933/413192
+
+1059
+
+10949
+
+7590
+
+09/21/2016
+
+Nokia Corporation and Alston & Bird LLP
+c/o Alston & Bird LLP
+Bank of America Plaza, 101 South Tryon Street
+Suite 4000
+Charlotte, NC 28280-4000
+
+EXAMINER
+POINTE, WHITNEY A
+
+ART UNIT
+
+PAPER NUMBER
+
+2611
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@alston.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CHRISTOPHER PARETTI and WILLIAM LINDMEIER
+
+Appeal2015-005284
+Application 13/334,431
+Technology Center 2600
+
+Before JASON V. MORGAN, MELISSA A. RAAP ALA, and
+NABEEL U. KHAN, Administrative Patent Judges.
+RAAP ALA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a final
+rejection of claims 1-21. We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+
+Appeal2015-005284
+Application 13/334,431
+REJECTIONS ON APPEAL
+Claims 15-18 stand rejected under 35 U.S.C. § 101 as being directed
+to non-statutory subject matter. Final Act. 2.
+Claims 1--4, 8-11, and 15-18 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over McDaniel (US 8,433,626 Bl; April 30, 2013),
+Hemmings (US 7,315,312 B2; Jan. 1, 2008), and Shaffer (US 2010/0302278
+Al; Dec. 2, 2010). Final Act. 3-14.
+Claims 5-7, 12-14, and 19-21 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over McDaniel, Hemmings, Shaffer, and
+Liesaputra (V. Liesaputra, I.H. Witten: Computer Graphics Techniques for
+
+Modeling Page Turning (Working Paper: 08/2007), Dept. of Comp. Sci.,
+Univ. of Waikato, Hamilton, New Zealand (Oct. 2007)). Final Act. 14--19. 1
+35 U.S.C. § 101
+The Examiner finds claims 15-18 are non-statutory under 35 U.S.C.
+
+§ 101 because the claims encompass transitory storage media. Final Act. 2.
+Appellants amended claim 15 in an After Final Amendment (dated June 9,
+2014) to recite the computer-readable storage medium is "non-transitory."
+The claim amendment was entered by the Examiner; however, the section
+101 rejection was not explicitly withdrawn or discussed. See Adv. Act. 1-2.
+
+1
+
+The Final Action's statement of rejection for dependent claims 5-7, 12-14,
+and 19-21 does not denote Hemmings and Shaffer, which are applied in the
+rejection of the respective base claims 1, 8, and 15. See Final Act.14--15.
+Because the Examiner incorporates the findings and rationale presented in
+claim 1 in the rejection (Ans. 5) and these findings include Hemmings and
+Shaffer, (see Ans. 2--4), we understand the rejection to be over Hemmings
+and Shaffer in addition to McDaniel and Liesaputra.
+2
+
+Appeal2015-005284
+Application 13/334,431
+We determine the amendment overcomes the rejection. Accordingly,
+we reverse the 35 U.S.C. § 101 rejection of claims 15-18.
+35 U.S.C. 103(a)
+
+Issue
+Appellants' contentions present us with the following issue: Did the
+Examiner set forth sufficient articulate reasoning, with a rational
+underpinning, to support combining the teachings of McDaniel, Hemmings,
+and Shaffer?
+
+Analysis
+We have reviewed the Examiner's rejection in consideration of
+Appellants' contentions and the evidence of record. We agree with
+Appellants that the Examiner has failed to establish the claims are
+unpatentable over the cited prior art.
+For each of the independent claims, the Examiner relies on ~v1cDaniel,
+Hemmings, and Shaffer as follows. The Examiner relies on McDaniel's
+Figure 3 rotation of element 253 to teach "provid[ing] for a visual transition
+from the origin screen to a destination screen representing a second,
+different interactive content in response to the input by applying a graphical
+effect to the display of the origin screen" (claims 1, 8, and 15). Final Act. 4.
+The Examiner relies on Hemmings' Figure 4 page tum of element 5 to teach
+"the graphical effect comprises a translation aspect so as to cause the origin
+screen to move along an axis of a two-dimensional plane with respect to the
+viewing area" (claims 1, 8, and 15). Ans. 3--4; Final Act. 5. And, the
+Examiner relies on Shaffer's Figures 7A-B rotation of element 710-730
+(composing the interface) to teach "the graphical effect further comprises a
+3
+
+Appeal2015-005284
+Application 13/334,431
+rotational aspect so as to cause the origin screen to rotate within the
+two-dimensional plane about the reference point" (claims 1, 8, and 15).
+Ans. 2-3; Final Act. 4--5. The Examiner finds it would have been obvious to
+one of ordinary skill in the art at the time the invention was made to modify
+the teachings of McDaniel to include Hemmings' teachings of the claimed
+translation aspect "in order to realistically depict a turning, flipping
+animation motion" and Shaffer's teachings of the claimed rotational aspect
+"in order to realistically depict a turning, flipping animation motion." Final
+Act. 5.
+Appellants contend the Examiner has not identified a reason that
+would have prompted a person of ordinary skill in the relevant field to
+combine the prior art elements in the manner claimed. App. Br. 8; Reply
+Br. 2-5. Appellants also contend no reason exists because there is no
+apparent manner of combining the cited features, stating:
+Appellant's argument with respect to the non-combinability of
+the references cited by the Examiner is that one skilled in the art
+would have no reason to combine a reference (McDaniel)
+regarding a 3-dimensional "flipping" from a first view to a
+second view in a region on a network page with a reference
+(Shaffer) regarding a 2-dimensional rotation of a single screen of
+displayed content to match a new orientation of the electronic
+device. Like McDaniel, Hemmings also relates to providing "a
+realistic 3-dimensional graphical representation."
+Reply Br. 4--5.
+"[R]ejections on obviousness grounds cannot be sustained by mere
+conclusory statements; instead, there must be some articulated reasoning
+with some rational underpinning to support the legal conclusion of
+obviousness." KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007). We
+
+4
+
+Appeal2015-005284
+Application 13/334,431
+agree with Appellants that the Examiner's reason to combine does not have
+the requisite rational underpinning required to support the legal conclusion
+of obviousness. The Examiner's rationale for combining McDaniel's
+flipping over of element 253, Hemmings' page turning of element 5, and
+Shaffer's dial-like rotating of element 710-730 essentially consists of a mere
+conclusion that the combination would "realistically depict a turning,
+flipping animation motion." App. Br. 5. The Examiner never presents an
+underpinning reason and explanation for piecing these movements together.
+The Examiner, rather, only explains how these movement respectively teach
+the claim features quoted supra. See e.g., Ans. 3--4. Because the Examiner
+fails to present findings that show how the cited movements of McDaniel's,
+Hemmings', and Shaffer's would be combined, we cannot discern, but for
+the movements recited in the claimed invention, how the proposed
+combination pieces together the movements. In KSR, the Supreme Court
+guides that "[a] factfinder should be aware, of course, of the distortion
+caused by hindsight bias and must be cautious of argument reliant upon ex
+post reasoning." KSR, 550 U.S. at 421. The Examiner's articulated
+reasoning is insufficient to support the combination because it improperly
+relies upon ex post reasoning.
+For the reasons stated above, Appellants have persuaded us of error in
+the 35 U.S.C. § 103(a) rejection of the independent claims. Accordingly, we
+do not sustain the 35 U.S.C. § 103(a) rejections of: (1) independent claims 1,
+8, and 15; and (2) their dependent claims 2-7, 9-14, and 16-23 also rejected
+over the deficient combination.
+
+5
+
+Appeal2015-005284
+Application 13/334,431
+DECISION
+We reverse the Examiner's decision to reject claims 1-21.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 41.50(±).
+REVERSED
+
+6
+
+

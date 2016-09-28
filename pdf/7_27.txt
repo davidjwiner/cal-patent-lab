@@ -1,0 +1,462 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/386,574
+
+0412012009
+
+Roderick A. Hyde
+
+SEl -1000-US
+
+9722
+
+80118
+
+7590
+
+09/13/2016
+
+EXAMINER
+
+Constellation Law Group, PLLC
+P.O. Box 580
+Tracyton, WA 98393
+
+ARCHER, MARIE
+
+ART UNIT
+
+PAPER NUMBER
+
+3769
+
+MAILDATE
+
+DELIVERY MODE
+
+09/13/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RODERICK A. HYDE, ROBERT LANGER,
+ERIC C. LEUTHARDT, ROBERT W. LORD,
+ELIZABETH A. SWEENEY, CLARENCE T. TEGREENE,
+and LOWELL L. WOOD, JR.
+
+Appeal2013-001454
+Application 12/386,574
+Technology Center 3700
+
+Before JOHN C. KERINS, CHARLES N. GREENHUT, and
+GEORGE R. HOSKINS, Administrative Patent Judges.
+KERINS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Roderick A. Hyde et al. (Appellants) seek our review under 35 U.S.C.
+
+§ 134(a) of the Examiner's final rejection of claims 1, 36-50, 52, 55, 59---64,
+and 66-78. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2013-001454
+Application 12/386,574
+THE CLAIMED SUBJECT MATTER
+Appellants' invention is directed to a method and system for
+presenting an inhalation experience. Spec. 1. Independent claims 1 and 36,
+reproduced below, are illustrative:
+1. A computer-implemented method, comprising:
+
+monitoring at least one health attribute of an individual during an
+artificial sensory experience;
+associating a characteristic of the artificial sensory experience
+with the at least one health attribute of the individual; and
+modifying at least one of an inhalation device-dispensed
+bioactive agent or the artificial sensory experience at least
+partially based on associating a characteristic of the artificial
+sensory experience with the at least one health attribute of the
+individual.
+36. A system, comprising:
+means for monitoring at least one health attribute of an individual
+during an artificial sensory experience;
+means for associating a characteristic of the artificial sensory
+experience with the at least one health attribute of the individual;
+and
+means for modifying at least one of an inhalation devicedispensed bioactive agent or the artificial sensory experience at
+least partially based on associating a characteristic of the
+artificial sensory experience with the at least one health attribute
+of the individual.
+
+2
+
+Appeal2013-001454
+Application 12/386,574
+THE REJECTIONS ON APPEAL
+The Examiner has rejected:
+(i)
+
+claims 1, 36-48, 55, 61---64, 66, and 71-78 1 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Braspenning (US
+2011/0004047 Al, published Jan. 6, 2011) in view of Berg (US
+2008/0065468 Al, published Mar. 13, 2008);
+(ii)
+
+claims 49 and 50 under 35 U.S.C. § 103(a) as being
+unpatentable over Braspenning in view of Berg and Rovira (US
+6,795,972 B2, issued Sept. 21, 2004);
+
+(iii)
+
+claims 52, 59, 60, and 67---69 under 35 U.S.C. § 103(a) as being
+unpatentable over Braspenning in view of Berg, King, 2 and
+Trueba (US 7,198,044 B2, issued Apr. 3, 2007);
+
+(iv)
+
+claim 70 under 35 U.S.C. § 103(a) as being unpatentable over
+Braspenning in view of Berg and Krijn3 ; and
+
+(v)
+
+claims 72-75 under 35 U.S.C. § 101 as directed to nonstatutory subject matter, in a new ground of rejection entered in
+the Answer (pages 3, 4--5).
+ANALYSIS
+
+Claims 1, 36--48, 55, 61-64, 66, and 71-78--Braspenning/Berg
+Claims 1, 36--40, 43-48, 55, 61-64, 66, and 71-78
+
+1
+
+Claims 48 and 71 were omitted from the listing of claims subject to this
+rejection in the Final Action. This is seen as being a clerical error, in that
+the detailed grounds of rejection address claims 48 and 71.
+2
+"Some Effects of Drugs on Rats in Varying Conditions of Sensory
+Stimulation," Psychopharmacologia 6, pp. 338-346 (1964).
+3
+"Virtual Reality Exposure Therapy of Anxiety Disorders: A Review,"
+Clinical Psychology Review 24, pp. 259-281 (2004).
+3
+
+Appeal2013-001454
+Application 12/386,574
+Appellants first present arguments directed to independent claim 36.
+Appeal Br. 43-83. The general thrust of the majority of the arguments
+advanced is a challenge that the Examiner has failed to establish a prima
+facie case ofunpatentability for claim 36. Reply Br. 3-7.
+Appellants maintain that the Examiner has not provided a broadest
+reasonable interpretation of claim 36 consistent with their Specification, and
+does not explain how the references are applied to the claim language under
+an appropriate broadest reasonable interpretation. Appeal Br. 44--48. The
+Examiner, however, properly determined that each of the limitations set
+forth in claim 36 invokes 35 U.S.C. § 112, sixth paragraph, and has
+explained what structure in the Specification is regarded as corresponding to
+claimed "means plus function" limitations, namely that the disclosed
+structure corresponding to the recited means involves modules employing
+the use of a processor or processors. Final Act. 13; Ans. 28-31. Appellants
+do not point to any alleged Examiner error in this determination.
+Appellants further argue, in more than one instance, that the portions
+of the Braspenning and Berg references relied on by the Examiner do not
+include the identical language used in claim 3 6, and that the Examiner does
+not provide objectively verifiable evidence supporting a position that,
+despite the differences in the terminology used, the claim limitations are
+taught by the references. Appeal Br. 48-57. According to Appellants, this
+alleged deficiency results in an absence of establishment of a prima facie
+case ofunpatentability. Appeal Br. 49, 57.
+It is well settled that:
+
+[The USPTO] satisfies its initial burden of production by
+adequately explain[ing] the shortcomings it perceives so that
+the applicant is properly notified and able to respond. In other
+4
+
+Appeal2013-001454
+Application 12/386,574
+words, the PTO carries its procedural burden of establishing a
+prima facie case when its rejection satisfies 35 U.S.C. § 132, in
+notify[ing] the applicant ... [by] stating the reasons for [its]
+rejection ... together with such information and references as
+may be useful in judging of the propriety of continuing the
+prosecution of [the] application.
+In re Jung, 637 F.3d 1356, 1362 (Fed. Cir. 2011) (internal citations and
+quotation marks omitted).
+The Examiner provides detailed information, including an annotated
+version of Figure 9b of Braspenning, as to the portions of Braspenning and
+Berg asserted to disclose the claimed "means for monitoring," "means for
+associating," and "means for modifying," recited in claim 36. Final Act. 1318. The Examiner additionally explains how the features relied on in
+Braspenning and Berg are considered as meeting those limitations. Id.
+These findings and explanations would have put any reasonable applicant on
+notice of the basis for the Examiner's rejection, and would have given such
+applicant ample information to judge the propriety of continuing
+prosecution, as well as to be in a position to assign alleged error to the
+Examiner's position in traversing the rejection. In accordance with Jung,
+that is all that is required of a prima facie case of unpatentability.
+In order to rebut a prima facie case of unpatentability, Appellants
+must distinctly and specifically point out any alleged Examiner errors. See
+37 C.F.R. § 41.37(c)(iv). Appellants have not done so here. Appellants'
+various arguments include recitations of the limitations found in claim 36,
+quotations from the Examiner's statement of rejection, and quotations from
+the cited references, followed by contentions that the exact language in the
+
+5
+
+Appeal2013-001454
+Application 12/386,574
+cited references does not literally match the language in claim 36. 4 Appeal
+Br. 48-57. While Appellants baldly assert that the Examiner has not bridged
+the gap between the verbiage in claim 36 and the verbiage in the references
+with objectively verifiable evidence or arguments based on such evidence,
+Appellants do not point to a single, specific instance where a statement made
+by the Examiner is not supported by evidence in the form of the references
+themselves, as well as Appellants' Specification, nor do they identify any
+other alleged error in the Examiner's reasoning. See id.
+Appellants additionally argue that, given the differences in
+terminology between the claim limitations and the references, "it follows
+that the USPTO is interpreting Braspenning through the lens of
+Appellant[s'] application, which is impermissible hindsight use." Appeal
+Br. 58. The use of Appellants' Specification to aid in interpreting claim 36
+is not an impermissible use of hindsight; it is a necessary step in proper
+claim construction. The application of the disclosure of Braspenning to the
+limitations in claim 36 is neither impermissible use of hindsight; it is a
+necessary aspect of establishing the unpatentability of the claim. Appellants
+do not allege, and we do not see, any other action taken by the Examiner that
+would amount to impermissible use of hindsight reconstruction.
+Appellants also argue that, due to the terminology differences, "the
+USPTO is relying on 'personal knowledge' and/or is taking 'official notice'
+of one or more factors" regarding what the references teach. Appeal Br. 58.
+No specific instance of this has been identified by Appellants. We view the
+Examiner's position instead as properly evaluating or interpreting the
+
+4
+
+See In re Bond, 910 F.2d 831, 832 (Fed. Cir. 1990) (whether a reference
+teaches a claim limitation "is not an 'ipsissimis verb is' test").
+6
+
+Appeal2013-001454
+Application 12/386,574
+references as would a person of ordinary skill in the art, and we conclude
+that the Examiner's position is supported by evidence in the form of the
+references.
+Appellants further argue that Berg does not disclose the limitations set
+forth in claim 36. Appeal Br. 58---67. Not only is Berg not relied upon as
+teaching all of the limitations of claim 36, Appellants' arguments do not
+apprise us of error in the Examiner's findings relative to Berg. In that
+regard, Appellants quote several passages that are asserted to be from the
+Berg reference. See Appeal Br. 62---64. It is apparent from those excerpts
+that Appellants' arguments are drawn to a reference different than Berg, in
+that at least several of the excerpts are not present in the Berg reference.
+Appellants repeat the arguments directed to the use of impermissible
+hindsight and reliance on either personal knowledge or taking official notice,
+relative to the Berg reference. Appeal Br. 67. For the same reasons noted
+above with respect to these arguments and the Braspenning reference, we are
+not apprised of Examiner error in these respects.
+Appellants reproduce the Examiner's position originally set forth at
+pages 13-18 of the Final Action, and state that "[f]or the reasons set forth
+above" the Examiner's position is "unsupported and erroneous, and
+appear[ s] to mischaracterize the Braspenning and Berg references," and that
+the rejection is founded on "mere conclusory statements." Appeal Br. 6872. The "reasons set forth above," referred to by Appellants appear to be
+that there is no literal correspondence between language of claim 36 and the
+disclosures of Braspenning and Berg. Absent identification of any specific
+alleged error or mischaracterization, Appellants' argument fails to apprise us
+of Examiner error.
+
+7
+
+Appeal2013-001454
+Application 12/386,574
+Appellants additionally maintain that the combination of Braspenning
+and Berg would result in a change in the principle of operation of
+Braspenning, in that such would result in Braspenning "no longer hav[ing] a
+method for modifying a psychological state of a subject." Appeal Br. 76.
+This argument appears to be based upon a full bodily incorporation of Berg
+into Braspenning, which is not commensurate with the Examiner's rejection.
+Id. ("were one to incorporate the 'Personalized audio controlled shopping
+information service for a mobile device' as taught by Berg"). Further, we
+note, as above, that Appellants appear to be referring to a reference different
+than Berg, in that Berg does not disclose a "personalized audio controlled
+shopping information service." The argument does not apprise us of
+Examiner error.
+Appellants continue this line of argument, asserting that the proposed
+modification of Braspenning in view of Berg would require substantial
+reconstruction and redesign of the elements in Braspenning, and would
+result in a change in the basic principle of operation of the Braspenning
+device. Appeal Br. 7 6-77. Appellants, once again, fail to identify even one
+specific aspect that would require substantial reconstruction or redesign, nor
+is there any indication as to what exactly would change in the way of
+principle of operation. The arguments do not apprise us of Examiner error.
+Appellants again assert that "the direct disclosures of Braspenning and
+Berg are radically different from the recitations of clauses [a], [b], and [c]"
+of claim 36. Appeal Br. 81. The statement is accompanied by no analysis as
+to why a person of ordinary skill in the art would regard the disclosures in
+general as being radically different from the three claimed means limitations.
+
+8
+
+Appeal2013-001454
+Application 12/386,574
+Similarly, Appellants proffer bald statements that the Examiner "has
+provided no evidence that an apparent reason to modify/combine" the
+teachings existed at the time of the invention, and that "such
+modification/combination would apparently render the technologies of
+Braspenning unsatisfactory for one or more of its intended purposes."
+Appeal Br. 81. The Examiner has noted that the means for association
+disclosed in Berg would be advantageous to use in the Braspenning system
+as well, in that it would provide information with respect to the specific
+aspect of the stimulus which is relevant to the user. Final Act. 18.
+Appellants' argument does nothing to undermine this reason to combine, nor
+does the reason to combine appear to render any part of Braspenning
+unsatisfactory for its intended use.
+Finally, Appellants note that one intended purpose of Braspenning is
+for assessing and modifying a psychophysiological state of a person to aid in
+reaching a relaxed state, and that a system having the three claimed means
+limitations "would frustrate this purpose," and thus render Braspenning
+unsatisfactory for its intended purpose. Appeal Br. 82. Again, absent any
+detailed reasoning supporting such an assertion, we are not apprised of error
+in the Examiner's position.
+We have considered the remainder of Appellants' arguments,
+including those advanced in the Reply Brief and Supplemental Reply Brief,
+and none of these arguments apprise us of Examiner error. In particular, the
+positions taken by Appellants in the Supplemental Reply Brief, i.e., that the
+arguments should be treated as though directed to the merits of the rejection,
+in addition to the "no evidence, no prima facie case" position, by-and-large
+devolve to the same arguments regarding the absence of literal
+
+9
+
+Appeal2013-001454
+Application 12/386,574
+correspondence between the claim language and the language employed in
+the cited references. Supplemental Reply Br. 3-15. To the extent that any
+arguments touch on the actual merits of the rejection, they have been
+addressed above.
+For the foregoing reasons, as well as for the reasons and explanations
+provided in the "Response to Argument" section of the Examiner's Answer,
+none of the arguments advanced by Appellants for claim 36 apprises us of
+Examiner error in rejecting that claim over Braspenning and Berg.
+Accordingly, the rejection is sustained as to claim 36.
+Appellants expressly rely on the arguments presented with respect to
+claim 36 forthe patentability of independent claims 1, 71, 72, and 76.
+Appeal Br. 83. The rejection as to those claims is therefore sustained.
+Appellants also rely solely on the dependency of claims 37--40, 4348, 55, 61---64, 66, 73-75, 77, and 78, from one of independent claims 36,
+72, and 76, for the patentability of those claims. Appeal Br. 83. The
+rejection as to these claims is thus also sustained.
+Claim 41
+
+Appellants maintain that claim 41, which depends from claim 3 6, is
+independently patentable, in that, in addition to the reasons advanced with
+respect to claim 36, Braspenning does not recite "means for recording at
+least one monitored health attribute of the individual." Appeal Br. 85. The
+Examiner responds that paragraph 35 and item 28 in Figure 3 of
+Braspenning discloses a memory to store ECG data, and regards this as
+being encompassed by the recited means for recording at least one
+monitored health attribute. Ans. 50.
+
+10
+
+Appeal2013-001454
+Application 12/386,574
+Appellants' arguments do not apprise us that this finding made by the
+Examiner is in error. The rejection of claim 41 is sustained.
+
+Claim 42
+Appellants additionally maintain that claim 42, which depends from
+claim 36, is independently patentable, in that, in addition to the reasons
+advanced with respect to claim 36, neither Braspenning nor Berg recites
+"means for observing at least one indication of an expected behavior pattern
+proximate in time to a characteristic of the artificial sensory experience."
+Appeal Br. 88, emphasis omitted. Appellants appear to recognize that the
+Examiner relies on Berg, and not Braspenning, as disclosing this limitation.
+Appellants cite to what are asserted to be paragraphs 60, 97, 102, 105, and
+21 in Berg, arguing that these disclosures do not amount to a teaching of the
+recited claim limitation. Id. at 88-89. The excerpts presented in the Appeal
+Brief are not, however, excerpts from the cited Berg reference.
+A review of actual paragraphs 21, 97, 102, and 105 of Berg, relied on
+by the Examiner, reveals that Berg discloses subject matter falling with the
+scope of the means limitation set forth in claim 42. As such, Appellants'
+arguments do not apprise us of error in the Examiner's position. The
+rejection of claim 42 is sustained.
+
+Claims 49 and 50--Braspenning/Berg/Rovira
+Appellants rely solely on the dependency of claims 49 and 50 from
+independent claim 36 for their patentability. Appeal Br. 83. The rejection
+as to these claims is sustained for the same reasons presented above.
+
+Claims 52, 59, 60, and 67-69--Braspenning/Berg/King/Trueba
+
+11
+
+Appeal2013-001454
+Application 12/386,574
+Appellants rely solely on the dependency of claims 52, 59, 60, and
+67----69, from independent claim 36 for their patentability. Appeal Br. 83.
+The rejection as to these claims is thus also sustained.
+
+Claim 70--Braspenning/Berg/Krijn
+Appellants rely solely on the dependency of claim 70 from
+independent claim 36 for its patentability. Appeal Br. 83. The rejection of
+this claim is sustained for the same reasons presented above.
+
+Claims 72-75-Non-Statutory Subject Matter
+The Answer enters a new ground of rejection, that claims 72-75 are
+unpatentable under 35 U.S.C. § 101 as directed to non-statutory subject
+matter. Ans. 3, 4--5. Appellants fails to address this rejection in the Reply
+Brief or in the Supplemental Reply Brief. We, accordingly, summarily
+sustain this rejection.
+
+DECISION
+The rejection of claims 1, 36-48, 55, 61----64, 66, and 71-78 under 35
+U.S.C. § 103(a) as being unpatentable over Braspenning in view of Berg is
+affirmed.
+The rejection of claims 49 and 50 under 35 U.S.C. § 103(a) as being
+unpatentable over Braspenning in view of Berg and Rovira is affirmed.
+The rejection of claims 52, 59, 60, and 67----69 under 35 U.S.C.
+§ 103(a) as being unpatentable over Braspenning in view of Berg, King, and
+Trueba is affirmed.
+
+12
+
+Appeal2013-001454
+Application 12/386,574
+The rejection of claim 70 under 35 U.S.C. § 103(a) as being
+unpatentable over Braspenning in view of Berg and Krijn is affirmed.
+The rejection of claims 72-75 under 35 U.S.C. § 101 as directed to
+non-statutory subject matter is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+13
+
+

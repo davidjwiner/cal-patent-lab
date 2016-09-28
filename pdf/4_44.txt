@@ -1,0 +1,330 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/095,259
+
+04/27/2011
+
+Hiromasa SHIKATA
+
+MEN-723-3071
+
+2255
+
+27562
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+NIXON & VANDERHYE, P,C
+901 NORTH GLEBE ROAD, 11 TH FLOOR
+ARLINGTON, VA 22203
+
+BELA!, NAOD W
+
+ART UNIT
+
+PAPER NUMBER
+
+2481
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+PTOMAIL@nixonvan.com
+pair_nixon@firsttofile.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HIROMASA SHIKATA, SHIRO MOURI, and SHINJI OKANE
+
+Appeal2015-003091 1
+Application 13/095,259
+Technology Center 2400
+
+Before JEAN R. HOMERE, CAROLYN D. THOMAS, and
+ADAM J. PYONIN, Administrative Patent Judges.
+HOMERE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final rejection of claims 1-25, which constitute all of the claims
+pending in this appeal. Claims App'x. We have jurisdiction under 35
+U.S.C. § 6(b).
+We affirm.
+
+1
+
+Appellants identify the real party in interest as Nintendo Co., Ltd. App. Br.
+3.
+
+Appeal2015-003091
+Application 13/095,259
+Appellants' Invention
+Appellants' invention is directed to a method and system for taking,
+with a virtual stereo camera (53), an image of an object (50) in a 3D space to
+thereby stereoscopically display the image in a 3D space. Spec. i-f 50, Fig. 8.
+In particular, a stereoscopic view ratio is determined as the ratio of the
+stereoscopic view distance (distance of the camera to a reference plane at
+which no parallax was generated when the image was taken) to the objet
+distance (distance of the camera to the object). Id. Subsequently, the ratio is
+utilized to adjust a camera parameter setting thereby causing the display
+device to display a stereoscopically viewable image generated during the
+image taking stage. Id. i-fi-1 99-101.
+
+Illustrative Claim
+Independent claim 1 is illustrative, and reads as follows:
+1. A non-transitory computer-readable storage medium having stored
+therein a display control program which, when executed by a computer of a
+display control apparatus for taking, by using a virtual stereo camera, an
+image of a virtual three-dimensional space in which a predetermined object
+is positioned, and for causing a display device to perform a stereoscopically
+viewable display of the image of the virtual three-dimensional space, causes
+the computer to perform operations comprising:
+setting a stereoscopic view ratio which is a ratio of a stereoscopic
+view reference distance to an object distance, wherein the object distance
+represents a distance from a point of view position of the virtual stereo
+camera to the predetermined object, and the stereoscopic view reference
+distance represents a distance from the point of view position of the virtual
+stereo camera to a reference plane corresponding to a position at which a
+
+2
+
+Appeal2015-003091
+Application 13/095,259
+parallax is not generated when the image of the virtual three-dimensional
+space is taken by the virtual stereo camera;
+setting, based on the stereoscopic view ratio, a camera parameter
+which is a parameter associated with the virtual stereo camera;
+generating, based on the set camera parameter, a stereoscopically
+viewable image which represents the virtual three-dimensional space the
+image of which is taken by the virtual stereo camera; and
+causing the display device to display the generated stereoscopically
+viewable image.
+
+Prior Art Relied Upon
+Onozawa
+Oto
+
+US 2011/0058019 Al
+US 2012/0026158 Al
+
+Mashitani
+
+US 8,131,064 B2
+
+Genova
+
+US 2012/0176473 Al
+
+Mar. 10, 2011
+Feb.2,2012
+(filed Jan. 25, 2011)
+Mar. 6, 2012
+(filed Dec. 22, 2010)
+July 12, 2012
+(filed Jan. 7, 2011)
+
+Rejections on Appeal
+Claims 1, 3-5, 17, and 19-25 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over the combination of Genova and Oto.
+Claim 2 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Genova, Oto, and Mashitani.
+Claims 6-16 and 18 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Genova, Oto, and Onozawa.
+
+3
+
+Appeal2015-003091
+Application 13/095,259
+ANALYSIS
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 10-22, and the Reply Brief, pages 2-7. 2
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We are unpersuaded by Appellants' contentions. Except as
+otherwise indicated hereinbelow, we adopt as our own the findings and
+reasons set forth in the Examiner's Answer in response to Appellants'
+Appeal Brief. Ans. 14--21. However, we highlight and address specific
+arguments and findings for emphasis as follows.
+Regarding the rejection of claim 1, Appellants argue that the
+combination of Genova and Oto does not teach or suggest setting a
+stereoscopic view ratio of a stereoscopic view reference distance to an object
+distance. App. Br. 13-17, Reply Br. 3---6. In particular, Appellants argue
+although Oto discloses an expression d = rI(l-S/z) defining a relationship
+between a degree of parallax (d), a perspective parameter (r), and a ratio of
+the distance S [from a reference view position to a virtual screen] to the
+distance z [from the reference view position to the object], the distance S
+does not teach or suggest the claimed distance from the reference camera
+position to the parallax-zero plane. Reply Br. 3 (citing Oto Fig. 1, and i-f 31 ).
+Accordingly, Appellants submit the Examiner errs in finding that Oto's
+
+2
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed July 7, 2014), the Reply Brief (filed January
+20, 2015) and the Answer (mailed November 19, 2014) for their respective
+details. We have considered in this Decision only those arguments
+Appellants actually raised in the Briefs. Any other arguments Appellants
+could have made but chose not to make in the Briefs are deemed to be
+waived. See 37 C.F.R. § 41.37(c)(l)(iv) (2012).
+
+4
+
+Appeal2015-003091
+Application 13/095,259
+disclosure of the S/z ratio teaches the claimed stereoscopic view ratio, which
+is subsequently used in setting the camera parameter. Id. at 5. This
+argument is not persuasive.
+At the outset, we note the claim defines the stereoscopic view
+reference distance as the distance from the point of view position of the
+virtual stereo camera to a reference plane corresponding to a position at
+which no parallax is generated when the image of the virtual 3D space is
+taken by the camera. We consider herein the scope and meaning of the
+claim limitation "reference plane" or "parallax zero plane," which must be
+given its broadest reasonable interpretation consistent with Appellants'
+disclosure, as explained in In re Morris:
+[T]he PTO applies to the verbiage of the proposed claims the
+broadest reasonable meaning of the words in their ordinary usage as
+they would be understood by one of ordinary skill in the art, taking
+into account whatever enlightenment by way of definitions or
+otherwise that may be afforded by the written description contained in
+the applicant's specification.
+
+In re Morris, 127 F.3d 1048, 1054 (Fed. Cir. 1997). See also In re
+Zletz, 893 F.2d 319, 321 (Fed. Cir. 1989) (stating that "claims must be
+
+interpreted as broadly as their terms reasonably allow."). In particular,
+Appellants' Specification states the following:
+As shown in FIG. 8 to FIG. 10, a reference plane (parallax zero
+plane) is defined for the virtual three-dimensional space the image of
+which is taken by the virtual stereo camera 53 as described above.
+The reference plane is defined at a position at which no parallax is
+generated when the image of the virtual three-dimensional space is
+taken by the virtual stereo camera 53. The game apparatus 10
+performs control so as to position the reference plane on the surface
+of the screen of the upper LCD 22. Therefore, an object positioned on
+the reference plane is reproduced as if the object exists on the surface
+
+5
+
+Appeal2015-003091
+Application 13/095,259
+of the screen of the upper LCD 22. An object positioned in front of
+the reference plane (on the virtual stereo camera 53 side from the
+reference plane) is reproduced as if the object exists at a position in
+front of the screen of the upper LCD 22, and an object positioned on
+the far side from the reference plane is reproduced as if the object
+exists on the far side from the screen of the upper LCD 22.
+Spec. i-f 101 (emphasis added).
+Consistent with the cited portion of Appellants' Specification, we
+broadly but reasonably construe the "stereoscopic view reference distance"
+as the distance from the point of view position of the virtual stereo camera to
+a reference plane positioned on the surface of a display screen associated
+therewith. Accordingly, we agree with the Examiner that Oto's disclosure of
+the distance S from the point of view of the camera to the virtual screen, Sv,
+teaches the claimed stereoscopic view reference distance. Ans. 15-16 (citing
+Oto i-fi-131-35); see also Oto i-f 7 ("The virtual screen Sv corresponds to a
+display screen of a stereoscopic display device for stereoscopic display in a
+real space."). Likewise, we agree with the Examiner that Oto' s S/z ratio
+teaches the claimed stereoscopic view ratio. Id. Additionally, we agree with
+the Examiner that Oto' s disclosure of using the value of S to set the left eye
+and the right eye of the stereoscopic camera teaches or suggests setting a
+camera parameter based on the stereoscopic view ratio. Id. at i-fi-136-37.
+Therefore, we are not persuaded the Examiner erred in rejecting claim
+1.
+
+Regarding the rejection of claim 4, Appellants argue the Examiner
+erred in finding Oto's disclosure of "determining [an] area of the virtual 3D
+space information collected on the movement, deformation, size, and shape
+of each object (i-f20, i-f30) based on which camera parameters for determining
+
+6
+
+Appeal2015-003091
+Application 13/095,259
+the area in which the virtual 3D is generated" does not teach or suggest
+"changing the stereoscopic view ratio when the first determining determines
+that the state of the predetermined object is subject to the predetermined
+change." Reply Br. 6. This argument is not persuasive because it fails to
+identify an error in the Examiner's finding. Appellants are reminded that
+merely reciting the claim limitations and findings relied upon by the
+Examiner in the rejection is not a responsive argument. Such a response to
+the Examiner's findings is insufficient to persuade us of Examiner error, as
+mere attorney arguments and conclusory statements that are unsupported by
+factual evidence are entitled to little probative value. In re Geisler, 116 F.3d
+1465, 1470 (Fed. Cir. 1997); see also In re De Blauwe, 736 F.2d 699, 705
+(Fed. Cir. 1984); Ex parte Belinne, No. 2009-004693, slip op. at 7-8 (BPAI
+Aug. 10, 2009) (informative); see also In re Lovin, 652 F.3d 1349, 1357
+(Fed. Cir. 2011) ("[W]e hold that the Board reasonably interpreted Rule
+41.37 to require more substantive arguments in an appeal brief than a mere
+recitation of the claim elements and a naked assertion that the corresponding
+elements were not found in the prior art."); cf In re Baxter Travenol Labs.,
+952 F.2d 388, 391 (Fed. Cir. 1991) ("It is not the function of this court to
+examine the claims in greater detail than argued by an appellant, looking for
+[patentable] distinctions over the prior art.") Accordingly, we sustain the
+rejection of claim 4.
+Regarding the rejection of claim 19, Appellants argue the claim
+requires determining both the object distance and the stereoscopic view
+reference distance from the point of view of the virtual camera, whereas
+Oto' s distances z and Z (as replied upon by the Examiner in the Final
+Action) are not determined from the same position, Reply Br. 6-7. This
+
+7
+
+Appeal2015-003091
+Application 13/095,259
+argument is not persuasive because, as previously observed by Appellants,
+the Examiner relies in the Answer upon Oto' s distances S and z, which are
+determined from the same position. Ans. 17 (citing Oto i-f 6, and Fig. 1).
+Accordingly, we sustain the rejection of claim 19.
+Regarding claims 2, 3, 5-18, and 20-25 because Appellants reiterate
+substantially the same arguments as those previously discussed for
+patentability of claims 1, 4, and 19 above, claims 2, 3, 5-18, and 20-25 fall
+therewith. See 37 C.F.R. § 41.37(c)(l)(iv).
+
+DECISION
+For the above reasons, we affirm the Examiner's rejections of claims
+1-25.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

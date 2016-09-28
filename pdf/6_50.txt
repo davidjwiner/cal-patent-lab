@@ -1,0 +1,153 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/383,269
+
+04/19/2012
+
+Wulf Reise
+
+TRW(AEC)021075-US-PCT
+
+6396
+
+26294
+
+7590
+
+09/16/2016
+
+TAROLLI, SUNDHEIM, COVELL & TUMMINO LLP,
+1300EASTNINTH STREET, SUITE 1700
+CLEVELAND, OH 44114
+
+EXAMINER
+GIRARDI, VANESSA MARY
+
+ART UNIT
+
+PAPER NUMBER
+
+2833
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+rkline@tarolli.com
+docketing@tarolli.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte WULF REISE 1
+
+Appeal2015-003756
+Application 13/383,269
+Technology Center 2800
+
+Before BRADLEY R. GARRIS, GEORGE C. BEST, and
+CHRISTOPHER L. OGDEN, Administrative Patent Judges.
+GARRIS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appellant appeals under 35 U.S.C. § 134 from the Examiner's
+decision rejecting claims 1-9. We have jurisdiction under 35 U.S.C. § 6.
+We REVERSE.
+Appellant claims a pushbutton switch having a pressure switching
+function to recognize a key actuation and a capacitive sensor function to
+recognize a key touch comprising an at least partly electrically conductive
+
+1
+
+TRW Automotive Electronics & Components, GmbH is identified as the
+real party in interest. App. Br. 2.
+
+Appeal2015-003756
+Application 13/383,269
+key (12) and a printed circuit board (16) having at least one capacitive
+sensor surface (20) located opposite to and at a distance from the key, with a
+capacitive coupling existing between the key and the sensor surface (sole
+independent claim 1, Fig. 1).
+The Examiner rejects claims 1-7 under 35 U.S.C. § 102(b) as
+anticipated by Murase et al. (US 2008/0257707 Al, published Oct. 23, 2008)
+("Murase") and rejects claims 8 and 9 under 35 U.S.C. § 103(a) as
+unpatentable over Murase in combination with additional prior art.
+In rejecting claim 1 as anticipated by Murase, the Examiner finds that
+Murase discloses a pushbutton switch having a key (i.e., switch knob) 4A4C and a capacitive sensor surface (i.e., land portion) 70A-70C located
+opposite to and at a distance from the key as claimed (Final Action 2).
+Appellant disputes the Examiner's finding with the following
+argument.
+[T]he land portions 70A-C are not located opposite the switch
+knobs 4A-C. Rather, as can be clearly seen in FIG. 6 of Murase,
+the land portions 70A-C are laterally offset from the switch
+knobs 4A-C such that the land portions 70A-C are disposed
+between two adjacent switch knobs 4A-C. Therefore, the land
+portions 70A-C are not located opposite the switch knobs 4A-C
+and, therefore, a capacitive coupling does not exist between the
+switch knobs 4A-C and the land portions 70A-C.
+App. Br. 6.
+The Examiner's response to this argument is set forth below.
+Re: CLAIM 1 Appellant further argues "the land portions 70A-C are
+not located opposite the switch knobs 4A-C."
+Examiner's Rebuttal the claim language reads "at least one capacitive
+sensor surface located opposite to and at a distance from the key".
+Which is interpreted as "offset".
+Ans. 4.
+
+2
+
+Appeal2015-003756
+Application 13/383,269
+Appellant replies that "claim 1 does not say 'offset' ... [but instead]
+recites 'at least one capacitive sensor surface located opposite to and at a
+distance from the key"' (Reply Br. 3). Appellant argues that "[i]nterpreting
+this recitation to mean 'offset' is going beyond the broadest reasonable
+interpretation standard ... and is improper" (id.).
+Appellant's arguments have convincing merit. The Examiner offers
+no Specification disclosure or dictionary definition or any other support for
+interpreting the claim 1 recitation under review as encompassing the offset
+disposition of Murase's knob/key and land portion/capacitive sensor surface.
+Therefore, based on the record before us, we agree with Appellant that the
+Examiner's interpretation of claim 1 is beyond the broadest reasonable
+interpretation consistent with the Specification.
+For this reason alone, we do not sustain the § 102 rejection of claims
+1-7. Because they do not address the above discussed deficiency of Murase,
+we also do not sustain the§ 103 rejections of claims 8 and 9.
+The decision of the Examiner is reversed.
+
+REVERSED
+
+3
+
+

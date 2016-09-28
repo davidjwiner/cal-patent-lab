@@ -1,0 +1,363 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111077,491
+
+03/1112005
+
+Vijay Devarapalli
+
+39700-622001 US/NC40273US
+
+1709
+
+12358
+
+7590
+
+09/15/2016
+
+EXAMINER
+
+Mintz Levin/Nokia Technologies Oy
+One Financial Center
+Boston, MA 02111
+
+SISON, TIJNE Y
+
+ART UNIT
+
+PAPER NUMBER
+
+2443
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDocketingBOS@mintz.com
+IPFileroomBOS@mintz.com
+Nokia.IPR@nokia.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte VIJAY DEVARAP ALLI, BASAV ARAJ PATIL,
+MOHAN PARTHASARATHY, HANNU FLINCK,
+and MEGHANA SAHASRABUDHE
+
+Appeal2015-004076
+Application 11/077 ,491 1
+Technology Center 2400
+
+Before JOSEPH L. DIXON, MARC S. HOFF, and KAMRAN JIVANI,
+Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a final rejection of
+claims 1, 3-7, 9-21, 23-27, 29--40, 45, 47-52, 59, 60, and 62---64. 2 We have
+jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+Appellants' invention is a method of configuring a mobile node. A
+first message sent from user equipment to a server requests a home agent
+
+1
+
+2
+
+The real party in interest is Nokia Corporation.
+Claims 2, 8, 22, 28, 41-44, 46, 53-58, and 61 have been cancelled.
+
+Appeal2015-004076
+Application 11/077 ,491
+and/or a home address. The method further includes authenticating the user
+equipment and providing the home agent and/or home address only when the
+user equipment is authenticated. See Abstract.
+Claim 1 is exemplary of the claims on appeal:
+1. A method, comprising:
+
+receiving a first message from a user equipment at a
+server comprising at least one hardware processor, wherein the
+first message requests at least one of a home agent and a home
+address, the first message is sent during a link control protocol
+phase of a point to point protocol prior to the user equipment
+receiving one or more authentication challenges;
+authenticating the user equipment;
+determining at least one of the home agent and the home
+address being dynamically assigned to the user equipment in
+response to the first message sent by the user equipment prior to
+the user equipment receiving the one or more authentication
+challenges, wherein the first message requests the at least one
+of the home agent and the home address, the determining taking
+place during the authenticating; and
+providing the assigned at least one of the home agent and
+the home address to the user equipment only when the user
+equipment is authenticated, and not providing the assigned at
+least one of the home agent and the home address to the user
+equipment when authenticating the user equipment fails.
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Feder
+
+US 2002/0089958 Al
+
+July 11, 2002
+
+Abrol
+
+US 2003/0227937 Al
+
+Dec. 11, 2003
+
+Oyama
+
+US 2007/0124592 Al
+
+May 31, 2007
+
+Narten and Draves, Privacy Extensions for Stateless Address
+Auotconfiguration in 1Pv6, Network Working Group, RFC 3041 (Jan. 2001)
+
+(hereinafter "Narten").
+2
+
+Appeal2015-004076
+Application 11/077 ,491
+Aboba et al., RADIUS and 1Pv6, Network Working Group, RFC 3162
+(Aug. 2001) (hereinafter "Aboba").
+3rd Generation Partnership Project 2 "3GPP2", Stronger Access
+
+Authentication Mechanism for Mobile Stations (Mar. 15, 2003) (hereinafter
+"3GPP2-Nokia").
+3rd Generation Partnership Project 2 "3GPP2", cdma2000 Wireless IP
+
+Network Standard: Introduction; Simple IP and Mobile IP Access Services;
+Packet Data Mobility and Resource Management; Quality of Service and
+Header Reduction; Accounting Services and 3GPP2 Radius VSAs; PrePaid
+Packet Data Service, (Aug. 2003) (hereinafter "3GPP2").
+
+Claims 1, 21, 45, 47, 48, 59, and 60 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over 3GPP2-Nokia and 3GPP2.
+Claims 62---64 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over 3GPP2-Nokia, 3GPP2, and Aboba.
+Claims 1, 4--7, 9, 21, 24--27, 29, 45, 47, 48, 59, and 60 stand rejected
+under 35 U.S.C. § 103(a) as being unpatentable over Feder, Abrol, and
+3GPP2.
+Claims 3, 10-20, 23, 30-40, 49, 51, and 52 stand rejected under 35
+U.S.C. § 103(a) as being unpatentable over Feder, Abrol, 3GPP2, and
+Oyama.
+Claim 50 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Feder, Abrol, 3GPP2, Oyama, and Narten. 3
+
+3
+
+We do not agree with Appellants that claim 50 stands allowable. See App.
+Br. 4. We agree with the Examiner that the rejection of claim 50, previously
+explained in the Non-Final Rejection, mailed April 9, 2014, was
+3
+
+Appeal2015-004076
+Application 11/077 ,491
+
+Throughout this decision, we make reference to the Appeal Brief
+("App. Br.," filed November 20, 2014), the Reply Brief ("Reply Br.,"
+filed February 24, 2015), and the Examiner's Answer ("Ans.," mailed
+December 24, 2014) for their respective details.
+
+ISSUES
+Appellants' arguments present us with the following issues:
+1. Does the combination of 3GPP2-Nokia and 3GPP2 disclose or
+
+suggest a first message from a first user equipment to a server, requesting at
+least one of a home agent and a home address, the first message being sent
+during a link control protocol phase of a point to point protocol prior to the
+user equipment receiving one or more authentication challenges?
+2. Does the combination of Feder, Abrol, and 3GPP2 disclose or
+suggest a first message from a first user equipment to a server, requesting at
+least one of a home agent and a home address, the first message being sent
+during a link control protocol phase of a point-to-point protocol prior to the
+user equipment receiving one or more authentication challenges?
+
+inadvertently omitted from the Final Rejection, mailed July 31, 2014. We
+note that the cover form for the Final Rejection includes claim 50 in its
+listing of rejected claims. We further note that the Examiner never included
+any language in an Office communication subsequent to April 9, 2014 to the
+effect that the rejection of claim 50 was withdrawn, or that claim 50 was
+now found to be allowable. See Ans. 21.
+4
+
+Appeal2015-004076
+Application 11/077 ,491
+ANALYSIS
+REJECTION OVER 3GPP2-NOKIA AND 3GPP2
+We are not persuaded by Appellants' argument that 3GPP2-Nokia in
+combination with 3GPP2 fails to disclose a first message, which requests at
+least one of a home agent and a home address, that is sent during a link
+control protocol phase of a point to point protocol prior to user equipment
+receiving one or more authentication messages, as claim 1 recites. See App.
+Br. 17-19.
+Appellants argue that the RADIUS request relied upon by the
+Examiner as corresponding to the claimed first message "is indisputably sent
+during a RADIUS phase" between the PDSN and the AAA server, so the
+RADIUS access message cannot be part of the link control phase of a pointto-point protocol. App. Br. 19 (emphasis omitted). In response to the
+Examiner's questioning of the meaning of the term "RADIUS phase,"
+Appellants insist that
+the teaching of the instant specification [makes] clear that the
+link control protocol phase occurs before and is thus a different
+phase than the radius phase .... [A] skilled artisan upon reading
+the instant specification would understand that the link control
+protocol phase is for link control, while the radius phase is for
+authentication with a AAA server, so the two phases are very
+different and thus not interchangeable.
+Reply Br. 11.
+Appellants provide no citation to any section in the Specification that
+defines or explains the term "radius phase." We have reviewed the
+Specification, and we find no use of the phrase "radius phase," let alone any
+explanation of its meaning. On the record before us, we find no evidence
+persuasive to adopt Appellants' characterization of a "radius phase."
+
+5
+
+Appeal2015-004076
+Application 11/077 ,491
+Turning next to the teachings of the references, we agree with the
+Examiner's finding that 3GPP2-Nokia discloses, in Figure 1, step a, "[t]he
+MS [Mobile Station] performs LCP [Link Control Protocol] part of PPP
+[Point-to-Point Protocol] with the PDSN [Packet Data Serving Node]. In
+detail below," soon followed by step d, "[t]he PDSN sends a RADIUS
+Access Request to the AAA server." 3GPP2-Nokia 4. These steps precede
+step g, "[t]he PDSN extracts the EAP/AKA challenge from the message and
+issues an EAP-Request/AKA Challenge to the MS." 3GPP2-Nokia 5.
+Because step g is the step in which the user equipment receives an
+authentication challenge, 3GPP2-Nokia discloses the claimed first message
+being sent prior to such challenges (at step d), and during a link control
+protocol phase.
+We also agree with the Examiner's further finding that 3GPP2
+discloses such a first message including at least one of a home agent and a
+home address. See Ans. 26; 3GPP2, Simple IP and Mobile IP Access
+Services, §§ 4.2.4.3, 4.4.1, 4.2.2.4. We are not persuaded by Appellants'
+argument that 3GPP2 sends the cited message during a "RADIUS phase that
+is not part of the link control protocol phase," for the same reasons
+expressed supra concerning 3GPP2-Nokia.
+We find that the Examiner did not err in rejecting claims 1, 21, 45, 47,
+48, 59, and 60 over the combination of 3GPP2-Nokia and 3GPP2. We
+sustain the Examiner's § 103 rejection.
+REJECTION OVER 3GPP2-NOKIA, 3GPP2, AND ABOBA
+Appellants argue that the rejection of claims 62-64, which depend
+from claim 1, suffers from the same deficiencies as the rejection of claim 1,
+and that Aboba fails to cure the deficiencies of 3GPP2-Nokia and 3GPP2.
+
+6
+
+Appeal2015-004076
+Application 11/077 ,491
+As discussed supra, we do not agree that such deficiencies exist. As a result,
+we sustain the Examiner's § 103 rejection of claims 62-64 over 3GPP2Nokia, 3GPP2, and Aboba, for the same reasons given with respect to the
+rejection of claim 1, supra.
+REJECTION OVER FEDER, ABROL, AND 3GPP2
+The Examiner admits that Feder does not explicitly disclose that a
+first message is sent during a link control protocol phase of a point-to-point
+protocol, prior to the user equipment receiving one or more authentication
+challenges. Ans. 10. The Examiner further finds, however, that Abrol
+discloses such a message, sent during a link control protocol phase of a point
+to point protocol. Ans. 10. The Examiner equates the configuration request
+IPCP C-Req, step (7) in Figure 4, comprising a request for an assignment of
+a network address, with the claimed first message sent during a link control
+protocol phase. Ans. 10; Abrol, Fig. 4, i-fi-f 16 and 39. The Examiner finds
+that IP Control Protocol (IPCP) negotiation "is a type of link control phase
+of a point to point protocol," and that "LCP negotiation and IPCP
+negotiation both meet the requirements of the claim language." Ans. 27
+(emphasis omitted).
+We find that the Examiner erred in interpreting Abrol. Abrol states
+that "UJ allowing completion of the LCP negotiation, the FA 26 initiates the
+IPCP negotiation by transmitting an IPCP configuration request ... message
+to the MT." Abrol i138 (emphasis added). We are persuaded by Appellants'
+argument that Abrol's IPCP C-Req message is sent after the link control
+protocol phase, not during the LCP phase, as required by the claims. 3GPP2
+fails to remedy the deficiency of Abrol. The Examiner's contention that "IP
+Control Protocol (IPCP) negotiation is a type of link control phase of a point
+
+7
+
+Appeal2015-004076
+Application 11/077 ,491
+to point to point protocol" (Ans. 27) lacks evidentiary support in the record.
+Thus, we find that Abrol does not disclose sending the claimed "first
+message" during a link control protocol phase of a point to point protocol.
+Independent claims 21, 45, 47, 48, 48, 59, and 60 contain analogous
+limitations. We conclude that the Examiner erred in rejecting claims 1, 4--7,
+9, 21, 24--27, 29, 45, 47, 48, 59, and 60 under§ 103 as being unpatentable
+over Feder, Abrol, and 3GPP2. We do not sustain the rejection.
+REJECTION OVER FEDER, ABROL, 3GPP2, AND OYAMA
+Oyama fails to remedy the deficiencies of the combination of Feder,
+Abrol, and 3GPP2, elaborated supra. Accordingly, we conclude that the
+Examiner erred in rejecting dependent claims 3, 10-20, 23, 30-40, 49, 51,
+and 52 under§ 103 as being unpatentable over Feder, Abrol, 3GPP2, and
+Oyama. We do not sustain the rejection.
+REJECTION OVER FEDER, ABROL, 3GPP2, OYAMA, AND NARTEN
+Narten fails to remedy the deficiencies of the combination of Feder,
+Abrol, 3GPP2, and Oyama, elaborated supra. Accordingly, we conclude
+that the Examiner erred in rejecting dependent claim 50 under § 103 as being
+unpatentable over Feder, Abrol, 3GPP2, Oyama, and Narten. We do not
+sustain the rejection.
+
+CONCLUSIONS
+1. The combination of 3GPP2-Nokia and 3GPP2 discloses a first
+message from a first user equipment to a server, requesting at least one of a
+home agent and a home address, the first message being sent during a link
+control protocol phase of a point-to-point protocol prior to the user
+equipment receiving one or more authentication challenges.
+
+8
+
+Appeal2015-004076
+Application 11/077 ,491
+2. The combination of Feder, Abrol, and 3GPP2 does not disclose or
+suggest a first message from a first user equipment to a server, requesting at
+least one of a home agent and a home address, the first message being sent
+during a link control protocol phase of a point to point protocol prior to the
+user equipment receiving one or more authentication challenges.
+
+ORDER
+The Examiner's decision to reject claims 1, 21, 45, 47, 48, 59, 60, and
+62---64 is affirmed. The Examiner's decision to reject claims 3-7, 9-20, 2327, 29--40, and 49-52 is reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+9
+
+

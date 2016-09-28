@@ -1,0 +1,330 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/238,281
+
+09/21/2011
+
+Seongsik Chang
+
+82839839
+
+3683
+
+22879
+
+7590
+
+09/15/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+NIXON, OMAR H
+
+ART UNIT
+
+PAPER NUMBER
+
+2886
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte SEONGSIKCHANG, HENRYKBIRECKI, and
+KRZYSZTOF NAUKA
+
+Appeal2015-002846
+Application 13/238,281
+Technology Center 2800
+
+Before: MARK NAGUMO, GEORGE C. BEST, and
+DEBRA L. DENNETT, Administrative Patent Judges.
+DENNETT, Administrative Patent Judge.
+
+DECISION ON APPEAL 1
+STATEMENT OF THE CASE
+Appellants 2 appeal under 35 U.S.C. § 134 from a rejection of claims
+1-20. We have jurisdiction under 35 U.S.C. § 6(b ).
+We REVERSE.
+1
+
+In our Opinion, we refer to the Final Action mailed January 29, 2014
+("Final Act."), the Appeal Brief filed June 30, 2014 ("App. Br."), the
+Examiner's Answer mailed October 1, 2014 ("Ans."), and the Reply Brief
+filed December 1, 2014 ("Reply").
+2
+Appellants identify Hewlett-Packard Development Company as the real
+party in interest.
+
+Appeal2015-002846
+Application 13/238,281
+The claims are directed to an optical sensor system having shields, an
+image forming apparatus having an optical sensor system having shields,
+and a method for detecting volatile organic compounds comprising shields.
+Claim 1, reproduced below, is illustrative of the claimed subject matter:
+1.
+
+An optical sensor system, comprising:
+
+a source module including a source housing unit having a
+source window member and a source shielding member, the
+source module to emit a detection signal through the source
+window member;
+the source shielding member surrounding the source
+window member and extending in an outward direction from
+the source window member; and
+a detection module including a detection housing unit
+having a detection window member and a detection shielding
+member, the detection module to detect the detection signal
+emitted from the source module at the detection window
+member and spaced apart from the source module;
+the detection shielding member surrounding the detection
+window member and extending in an outward direction from
+the detection window member;
+wherein distal ends of the source shielding member and
+the detection shielding member are spaced from and opposed to
+each other.
+App. Br. 19 (Claims App'x).
+REFERENCES
+Kuhnen et al.,
+("Kuhnell")
+Furtaw et al.,
+("Furtaw")
+Chopra et al.,
+("Chopra")
+
+us 5,790,246
+
+Aug. 4, 1998
+
+US 2010/0110437 Al
+
+May 6, 2010
+
+US 7,924,412 B2
+
+Apr. 12, 2011
+
+2
+
+Appeal2015-002846
+Application 13/238,281
+REJECTIONS
+Claims 1-10 and 18-20 stand rejected under 35 U.S.C. § 102(b) as
+anticipated by Furtaw. Claims stand rejected under 35 U.S.C. § 103(a) as
+follows: claims 11-16 over Furtaw in view ofKuhnell; and claim 17 over
+Furtaw in view of Kuhnen and further in view of Chopra.
+OPINION
+The application contains three independent claims: claims 1, 11,
+and 18. Claim 1 is drawn to an optical sensor system comprising a source
+and a detection module, each of which comprises a shielding member
+"wherein distal ends of the source shielding member and the detection
+shielding member are spaced from and opposed to each other." App. Br. 19
+(Claim App'x). Claim 11 is drawn to an image forming apparatus
+comprising an optical sensor system including a source and a detection
+module, each of which comprises a shielding member "wherein the source
+shielding member and the detection shielding member are separate members
+with free ends thereof opposed to each other." Id. at 21. Claim 18 is drawn
+to a method of detecting volatile organic compounds, the method comprising
+emitting a detection signal by a source module and receiving the detection
+signal by a detection module spaced apart from the source module, wherein
+the source module comprises a source shielding member having an open end
+"spaced apart from and opposed to" a detection module, and a detection
+module comprises a detection shielding member having an open end "spaced
+apart from and opposed to" the source module.
+Thus, claims 1 and 18 and their dependent claims require a source
+shielding member and a detection shielding member that are "spaced apart
+
+3
+
+Appeal2015-002846
+Application 13/238,281
+from and opposed to" each other. Claim 11 requires the source shielding
+member and detection shielding member are separate members with free
+ends thereof "opposed to" each other. Appellants amended the claims on
+November 6, 2013 to add these limitations in response to the Examiner's
+rejection of the claims over Furtaw.
+An annotated version of Figure 2A of the instant application is
+reproduced below:
+r--_,. 3B
+I
+I
+
+Detedion
+
+Module
+
+1/ f
+
+»ocm:.e
+
+.,«"
+
+~ 25
+
+:o;h::!;{;~1J n:en1t:,e:·
+I
+
+I
+
+L ___ ., 38
+
+3.A•---J
+
+Figure 2A depicts a side view of the optical sensor system of the
+claims. It has been modified to identify the source shielding member ( 12b)
+and the detection shielding member (15b ).
+
+4
+
+Appeal2015-002846
+Application 13/238,281
+In the Final Action and Answer, the Examiner maps elements of the
+claims to Furtaw's Figure 1, which is reproduced below:
+
+_.-50
+CELL AND SENSORS EASILY
+
+I
+\
+
+40
+
+23---..
+
+REMOVED FOR CLEANING
+WINDOWS
+
+@
+
+C!RCULA TION COLUMN
+
+PROVIDES AIR PATH (
+BETWEEN SOURCEAflD
+DETECTOR AND
+MAINTAINS SEPARATION
+DISiANCE UPON
+REASSEMBLY
+
+70
+
+20
+
+22--
+
+Figure 1 depicts a gas analyzer including a removable sample flow
+cell (20) according to one embodiment of Furtaw.
+The Examiner identifies element 60 of Furtaw as the source module of
+the claims, element 50 as the detection module, element 70 as the source
+window member (and an identical element, not shown, on the detection
+module as the detection window member), and element 20 as both the
+source shielding member and the detection shielding member. Ans. 2-3.
+
+According to the Examiner, "[t]he distal end of the [source] shielding
+member and the detection shielding [member] are spaced from and opposed
+to each other by the body of the shielding member." Ans. 11-12. Thus, the
+Examiner construes "opposed to" to mean "at opposite ends." The
+
+5
+
+Appeal2015-002846
+Application 13/238,281
+Examiner provides no citation to the Specification in support of this
+construction; rather, the Examiner only cites Furtaw. See id.
+Appellants argue that "opposed to" should be construed as "set or
+placed in opposition to each other." App. Br. 10; Reply 4. This construction
+is consistent with the Specification and figures of the application. See, e.g.,
+
+i-fi-f 14--18, Figs. 2A, 2B. Appellants explain that, while the cylindrical
+portions at the top and bottom of the removable sample cell in Furtaw may
+be on opposite ends of the removable sample cell, these cylindrical portions
+are not "opposed to" each other. App. Br. 10.
+During examination, claims are to be given their broadest reasonable
+interpretation consistent with the specification, and claim language should
+be read in light of the specification as it would be interpreted by one of
+ordinary skill in the art. In re Am. Acad. of Sci. Tech. Ctr., 367 F.3d 1359,
+1364 (Fed. Cir. 2004). The Examiner's construction of "opposed to" as
+meaning "at opposite ends" appears to be based on Furtaw, not the
+Specification. The Examiner has not shown that the broadest reasonable
+interpretation of "opposed to" consistent with the Specification is "at
+opposite ends." In contrast, Appellants' construction provides the necessary
+consistency with the Specification. We construe the term "opposed to" in
+the claims as "set or placed in opposition to each other."
+Rejection of claims 1-10 and 18-20 as anticipated by Furtaw
+
+In light of our claim construction, we find that Furtaw fails to teach all
+of the limitations of claims 1 and 18. Specifically, Furtaw does not teach
+"wherein the distal ends of the source shielding member and the detection
+shielding member are spaced from and opposed to each other" (claim 1), or
+"with an open end of the source (detection) shielding member spaced from
+6
+
+Appeal2015-002846
+Application 13/238,281
+and opposed to the detection (source) module" (claim 18). Therefore, we do
+not sustain the Examiner's rejection of claims 1 and 18 as anticipated by
+Furtaw. We likewise do not sustain the Examiner's rejection of (1) claims
+2-10 because those claims depend from claim 1, and (2) claims 19 and 20
+because those claims depend from claim 18.
+
+Rejections of claims 11-16 as obvious over Furtaw in view of
+Kuhnel! and of claim 17 as obvious over Furtaw in view of
+Kuhnel! and further in view of Chopra
+The Examiner relies on Furtaw for the claim element "wherein distal
+ends of the source shielding member and the detection shielding member are
+spaced from and opposed to each other." Ans. 8. Because neither Kuhnen
+nor Chopra teach this claim element, we find that the prior art cited by the
+Examiner fails to teach all elements of claims 11 and 17. For this reason we
+do not sustain the Examiner's rejection of claim 11 and its dependent claims
+12-16 as obvious over Furtaw in view of Kuhnell. We also do not sustain
+the Examiner's rejection of claim 17 as obvious over Furtaw in view of
+Kuhnen and further in view of Chopra.
+DECISION
+For the above reasons, the Examiner's rejection of claims 1-20 is
+REVERSED.
+REVERSED
+
+7
+
+

@@ -1,0 +1,277 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/131,911
+
+05/31/2011
+
+Jose-Ramon Garcia Jimenez
+
+2008P02657WOUS
+
+1180
+
+46726
+
+7590
+
+09/15/2016
+
+BSH Home Appliances Corporation
+100 Bosch Boulevard
+NEW BERN, NC 28562
+
+EXAMINER
+LAFLAME JR, MICHAEL A
+
+ART UNIT
+
+PAPER NUMBER
+
+3742
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+MBX-NBN-IntelProp@bshg.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOSE-RAMON GARCIA JIMENEZ,
+IGNACIO GARDE ARANDA, PABLO JESUS HERNANDEZ BLASCO,
+FERNANDO MONTERDE AZNAR, DANIEL PALACIOS TOMAS, and
+RAMON PEINADO ADIEGO
+
+Appeal2014-007748
+Application 13/131,911
+Technology Center 3700
+
+Before JAMES P. CALVE, WILLIAM A. CAPP, and
+GEORGE R. HOSKINS, Administrative Patent Judges.
+HOSKINS, Administrative Patent Judge.
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Jose-Ramon Garcia Jimenez et al. ("Appellants") 1 appeal under
+35 U.S.C. § 134 from the Examiner's decision rejecting claims 8-24 in this
+application. The Board has jurisdiction over the appeal under 35 U.S.C.
+
+§ 6(b ).
+We REVERSE.
+
+1
+
+The Appeal Brief identifies BSH Bosch und Siemens Hausgerate GmbH
+as the real party in interest. Appeal Br. 3.
+
+Appeal2014-007748
+Application 13/131,911
+CLAIMED SUBJECT MATTER
+Claims 8 and 15 are independent. Claim 8 illustrates the subject
+matter on appeal, and it recites:
+8.
+
+A hob, comprising:
+at least one inductor;
+at least one inverter;
+a switching apparatus arranged in a circuit between the
+inductor and the inverter and switchable between a first switch
+position in which a connection between the inverter and the
+inductor is established and a second switch position in which the
+connection between the inverter and the inductor is interrupted;
+and
+a detection circuit configured to detect a cooking utensil,
+said switching apparatus being connected to the detection circuit
+such that the switching apparatus connects the detection circuit
+to the inductor when the switching apparatus is in the second
+switch position and disconnects the detection circuit from the
+inductor when the switching apparatus is in the first switch
+position.
+Appeal Br. 12 (Claims App.).
+REJECTIONS ON APPEAL
+Claim 14 stands rejected under 35 U.S.C. § 103(a) as unpatentable
+over Gaspard (EP 0 498 735 B2, pub. Apr. 21, 1999).
+Claims 8, 10, 12-16, 18, and 20-23 stand rejected under 35 U.S.C.
+§ 103(a) as unpatentable over Oates (US 4,112,287, iss. Sept. 5, 1978) and
+Gaspard.
+Claims 9 and 17 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Oates, Gaspard, and Larson (US 2004/0016747 Al, pub.
+Jan. 29, 2004).
+
+2
+
+Appeal2014-007748
+Application 13/131,911
+Claims 11 and 19 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Oates, Gaspard, and Miyauchi (US 2007/0102420 Al,
+pub. May 10, 2007).
+Claim 24 stands rejected under 35 U.S.C. § 103(a) as unpatentable
+over Oates, Gaspard, and Steigerwald (US 4,426,564, iss. Jan. 17, 1984).
+ANALYSIS
+
+A.
+
+Obviousness based on Gaspard
+
+The Final Office Action states: "Claim 14 is rejected under 35 U.S.C.
+[§] 103(a) as being unpatentable over the translation of EP 0498735 to
+Gaspard." Final Act. 4. However, no supporting analysis or further
+explanation is provided. Id. Appellants "believe this to be an error brought
+about by copying text from" a prior Office Action, and argue "[i]f this is
+intended to be a rejection, it does not meet the requirements of 37 CPR
+[§] 1.104(c)(2)." Appeal Br. 5, n.1. The Examiner's Answer does not
+respond to ii,ppellants' argument, other than to state "[ e]very ground of
+rejection" in the Final Office Action is maintained. Ans. 3; see also id. at 36 (not withdrawing any rejections).
+We conclude the rejection of claim 14 as unpatentable over Gaspard
+fails to set forth a primafacie case of obviousness. See In re Jung, 637 F.3d
+1356, 1362 (Fed. Cir. 2011) (primafacie case requires notifying the
+applicant of the reasons for the rejection with such information as may be
+useful in judging the propriety of continuing prosecution, and is not met
+"when a rejection is so uninformative that it prevents the applicant from
+recognizing and seeking to counter the grounds for rejection") (citing
+35 U.S.C. § 132 and Chester v. Miller, 906 F.2d 1574, 1578 (Fed. Cir.
+
+3
+
+Appeal2014-007748
+Application 13/131,911
+1990)). We therefore do not sustain the rejection of claim 14 as
+unpatentable over Gaspard.
+B.
+
+Obviousness based on Oates and Gaspard
+
+The rejection of independent claim 8 is premised upon the
+obviousness of modifying Oates's induction heating apparatus (Oates Fig. 1)
+by replacing Oates's triac switches 7 with Gaspard's switching unit 5
+(Gaspard Fig. 1). Final Act. 4--5, 10; Ans. 3--4. 2 This would have been
+obvious, according to the Examiner, as the "simple substitution of one
+known [switching] element for another to obtain predictable results." Final
+Act. 5, 10.
+The Examiner states: "The switch of Gaspard could be substituted for
+the triac [7] of Oates with the stationary end of [Gaspard's] switch attached
+to the induction coil [8]." Final Act. 10 (emphasis added). In this regard,
+
+we understand the Examiner to be referring to Gaspard's switch 11 or
+switch 12, which are both part of switching apparatus 5, as illustrated in
+Gaspard's Figures 2 and 4. See Gaspard i-fi-f 18, 36-38. The Examiner
+annotates Oates's Figure 1 to illustrate how switch 11 from Gaspard's
+Figure 4 (for example) could be substituted for Oates's third triac 7, with the
+stationary end of switch 11 attached to Oates's third induction coil 8.
+Ans. 3--4. In the Examiner's view, such an arrangement would lead to the
+invention of claim 8, because Gaspard's switch 11 would have a first
+position (akin to either position A or Bin Gaspard's Figure 4) connecting
+2
+
+The Appeal Brief states: "[D]uring the brief telephone interview on
+January 7, 2014, Examiner Laflame explained that it is actually the
+switching block 5 alone that is being substituted for the triac 7." Appeal
+Br. 5 (emphasis added). The Examiner's Answer does not refute, and
+moreover is consistent with, that statement. Ans. 3--4.
+4
+
+Appeal2014-007748
+Application 13/131,911
+inverter 3 to induction coil 8 while disconnecting pan detection element 15
+from induction coil 8, and a second position (akin to the other position A or
+B) disconnecting inverter 3 from induction coil 8 while connecting pan
+detection element 15 to induction coil 8. Id.
+Appellants argue the Examiner errs, because there is no evidence to
+suggest any purpose would be served by connecting induction coil 8 to triac
+control signal path 9 in the second position of switch 11. Reply Br. 2-3.
+We agree. The sole functionality described in Oates for connection
+pathway 9 is to carry "triac gate drive signals" from control logic 13 to
+triacs 7, in order to switch the triacs between conducting and non-conducting
+conditions at appropriate times. See Oates, 3:52-57, 4:12--43. It is not clear
+what purpose carrying such signals to induction coils 8 would serve when
+Gaspard's switches 11 are connected to pathway 9 in the second position of
+the Examiner's modification. The Examiner proposes replacing Oates's
+triacs 7 with Gaspard's switches 11, so there are no longer any triacs to
+control, and the Examiner has not provided any function to be served by
+providing triac control signals to an induction coil 8. In short, there does not
+appear to be any rational basis for modifying Oates to replace Oates's
+triacs 7 with Gaspard's switches 11, as proposed by the Examiner.
+Perhaps, although not stated in the rejection, the Examiner concludes
+connection pathway 9 would serve to carry control signals to Gaspard's
+switches 11, to move the switches to connect induction coils 8, alternately,
+to pathway 6 (first position) or pathway 9 (second position). See Reply
+Br. 3. In this way, pathway 9 would serve a somewhat similar purpose of
+switch control as was served before replacement of Oates's triacs 7 with
+Gaspard's switches 11. However, this notion is inconsistent with the
+
+5
+
+Appeal2014-007748
+Application 13/131,911
+Examiner's placement of Gaspard's switches 11 with their stationary ends
+being connected to a corresponding induction coil 8. In such a
+configuration, when switch 11 is in the first position connecting induction
+coil 8 to pathway 6, pathway 9 would be disconnected from switch 11, and
+thereby be unable to convey signals to switch 11 instructing switch 11 to
+change positions.
+For the foregoing reasons, we do not sustain the rejection of
+independent claim 8 and its dependent claims 10 and 12-14 as unpatentable
+over Oates and Gaspard. Independent claim 15 recites "a switch ... having
+a first switch position which connects the inverter to the inductor and
+disconnects the detector from the inductor and a second position which
+connects the detector to the inductor and disconnects the inverter from the
+inductor." Appeal Br. 13 (Claims App.). Thus, the deficiency noted as to
+the rejection of claim 8 also applies to claim 15. See Reply Br. 2-3.
+Therefore we do not sustain the rejection of claim 15 and its dependent
+claims 16, 18, and 20-23 as unpatentable over Oates and Gaspard.
+C.
+
+Obviousness based on Oates, Gaspard, and Larson, Miyauchi, or
+Steigerwald
+
+The Examiner's additional consideration of dependent claims 9, 11,
+17, 19, and 24 in connection with Oates, Gaspard, and one of Larson,
+
+Miyauchi, and Steigerwald, does not cure the deficiency noted above in
+connection with independent claims 8 and 15. See Final Act. 8-10.
+Therefore, we do not sustain the rejection of claims 9 and 17 as unpatentable
+over Oates, Gaspard, and Larson, or the rejection of claims 11 and 19 as
+obvious over Oates, Gaspard, and Miyauchi, or the rejection of claim 24 as
+unpatentable over Oates, Gaspard, and Steigerwald.
+
+6
+
+Appeal2014-007748
+Application 13/131,911
+DECISION
+The Examiner's decision to reject claims 8-24 is reversed.
+REVERSED
+
+7
+
+

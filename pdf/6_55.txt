@@ -1,0 +1,517 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+11/863,035
+
+0912712007
+
+Arjun Kapoor
+
+SNDK.558USO
+
+1042
+
+66785
+
+7590
+
+09/16/2016
+
+DA VIS WRIGHT TREMAINE LLP - SANDISK CORPORATION
+IP Docketing Dept.
+Davis Wright Tremaine LLP
+1201 Third Avenue, Suite 2200
+Seattle, WA 98101
+
+EXAMINER
+CARDWELL, ERIC
+
+ART UNIT
+
+PAPER NUMBER
+
+2131
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentdocket@dwt.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ARJUN KAPOOR, RAJEEV NAGABHIRAVA, and
+DHAVAL PARIKH
+
+Appeal2015-004102
+Application 11/863,035
+Technology Center 2100
+
+Before JOHN A. JEFFERY, BRADLEY W. BAUMEISTER, and
+DENISE M. POTHIER, Administrative Patent Judges.
+BAUMEISTER, Administrative Patent Judge.
+
+uECISION ON APPEAL
+
+Appeal2015-004102
+Application 11/863,035
+
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejections of claims 1-30.
+Claims 26-30 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over Lin (US 6,707,748 B2; issued Mar. 16, 2004) and McManis
+(US 2006/0218362 Al; published Sept. 28, 2006). Ans. 2-9.
+Claims 1-3, 6-8, 11-14, 16-18, 20-23, and 25 stand rejected under
+35 U.S.C. § 103(a) as unpatentable over Lin and Shin (US 7,774,390 B2;
+issued Aug. 10, 2010). Ans. 9-19. 1
+Claims 5 and 10 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Lin, Shin, and Lasser (US 2007/0061502 Al; published
+Mar. 15, 2007). Ans. 19-20.
+Claims 4, 9, and 15 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Lin, Shin, and Applicant Admitted Prior Art, Kapoor
+(US 2009/0089481 Al; published Apr. 2, 2009). Ans. 21.
+Claims 19 and 24 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Lin, Shin, and Kim (US 6,990,594 B2; published Jan. 24,
+2006). Ans. 21-22.
+
+1
+
+Throughout this opinion, we refer to (1) the Final Rejection mailed July 15,
+2013 ("Final Act."); (2) the Appeal Brief filed April 16, 2014 ("App. Br.");
+(3) the Examiner's Answer mailed August 1, 2014 ("Ans."); and (4) the
+Reply Brief filed September 30, 2014 ("Reply Br.").
+2
+
+Appeal2015-004102
+Application 11/863,035
+
+We have jurisdiction under 3 5 U.S. C. § 6(b ). We review the appealed
+rejections for error based upon the issues identified by Appellants, and in
+light of the arguments and evidence produced thereon. Ex parte Frye,
+94 USPQ2d 1072, 1075 (BPAI 2010) (precedential).
+We affirm-in-part.
+
+SUMMARY OF THE INVENTION
+Appellants' invention is a detachable memory device that uses an
+on-device power supply to perform memory-management operations.
+Spec. i-f 9. Specifically, a hosting digital appliance is the traditional power
+source for a memory card or other detachable device. Id. The period when
+the device is connected to the host and is expecting the host to issue
+commands is known as the user-host operation window. Id. i-f 13. By using
+an on-device power supply, Appellants' invention can perform memory
+management outside of this user-host operation window. Id. ,-r 9.
+Furthermore, Appellants' memory-management operation exploits this
+ability even when operating in the window. Id.
+
+THE OBVIOUSNESS REJECTION OVER LIN AND SHIN
+
+Claims 1-3 and 6--8
+Claim 1 is illustrative of claims 1-3 and 6-8 and is reproduced
+below with our emphasis:
+1. A method of operating a memory device having a nonvolatile memory for use with a host, the method comprising:
+operating the memory device while connected to a host to
+receive and operate on power therefrom;
+
+3
+
+Appeal2015-004102
+Application 11/863,035
+determining that the memory device is no longer receiving
+host power; and
+in response to determining that the memory device is no
+longer receiving host power:
+activating a reserve power source on the memory
+device; and
+subsequently determining and beginning a data
+management operation on data stored in the non-volatile
+memory using the reserve power source.
+
+Contentions
+The Examiner finds that Lin discloses every recited element of claim
+1 except for determining and beginning the recited data-management
+operation, but relies on Shin as teaching this feature in concluding the claim
+would have been obvious. Ans. 9-11. According to the Examiner, it would
+have been obvious to modify Lin by incorporating Shin's data-management
+routine, which is based on the battery state. Id. at 10-11.
+Appellants argue that Shin does not determine and begin the data
+management operations after the host is no longer receiving power.
+App. Br. 9-10. According to Appellants, Shin performs the same
+operations, but accomplishes less when it has less power. Id.
+Appellants further argue that Shin lacks a reserve power source.
+Id. at 10-11. In Appellants' view, Shin's power source is a battery charger.
+Id.
+Appellants further note that Lin is only concerned with completing
+operations already in progress when the power is removed. Id. at 10.
+
+4
+
+Appeal2015-004102
+Application 11/863,035
+Analysis
+
+We are unpersuaded by the argument that Shin performs the same
+operations but does less when it has less power (Id. at 9-10). Doing less still
+involves determining which data management operations to begin. Indeed,
+Shin performs garbage-block collection-i.e., a data-management
+operation-in each of the four battery-charging states. See, e.g., Shin Fig.
+4A, cited in Ans. 10. But the operations that constitute the garbage-block
+collection depend on the power level. For example, if the battery-charging
+state is 100, garbage-block collection comprises collecting blocks from the
+first, sixth, and seventh physical blocks. Shin col. 7, 11. 26-28, cited in
+Ans. 10. If the state is 50, garbage-block collection comprises collecting
+blocks from the sixth and seventh physical blocks. Shin col. 7, 11. 40-46.
+That is, the collection of a specific block corresponds to a data-management
+operation. See Ans. 10. So by determining that certain blocks should be
+collected and then beginning to collect those blocks, Shin determines and
+begins data-management operations, as recited.
+Appellants further argue that Shin lacks a reserve power source.
+App. Br. 10-11. But the Examiner cites Lin as teaching a reserve power
+source on the memory device. Ans. 10 (citing Lin col. 4, 11. 58-60). And
+we agree that Lin shows backup battery 208 on memory device 20. See Lin,
+Fig. 2. So although the Examiner cites Shin in the rejection, the Examiner
+then concludes that Lin is modified by incorporating Shin's datamanagement routine based on the battery state. Ans. 10-11. That is, the
+Examiner intends to use Lin's power source with Shin's routine. See id.
+Accordingly, Appellants' argument that Shin alone lacks a reserve power
+source (App. Br. 10-11) amounts to an individual attack. Such individual
+5
+
+Appeal2015-004102
+Application 11/863,035
+attacks do not show non-obviousness where, as here, the rejection is based
+on the references' collective teachings.
+Similarly, Appellants further note that Lin lacks determining and
+beginning data management operations, as recited. See id. at 10 (arguing
+that Lin is only concerned with completing operations already in progress
+when the power is removed). But Appellants acknowledge that the
+Examiner does not rely on Lin for this purpose. Id. To the extent that
+Appellants intend to argue against the combinability of the references (id.),
+we are unpersuaded because Appellants have not explained how this alleged
+deficiency is germane to the proposed modification. On this record, we are
+unpersuaded that the Examiner erred in concluding that the determining and
+beginning, as recited in claim 1, would have been obvious.
+For the foregoing reasons, Appellants have not persuaded us of error
+in the Examiner's obviousness rejection of claim 1. Accordingly, we sustain
+the Examiner;s rejection of that claim, as well as dependent claims 2 and 3,
+which are not argued separately from claim 1. See id. at 11. We also sustain
+the Examiner's rejection of independent claim 6, as well as its dependent
+claims 7 and 8, which are not argued separately. See id.
+
+Claims 11-14
+Claim 11 is illustrative of dependent claims 11-14 and is
+reproduced below with our emphasis:
+11. A method of operating a digital appliance having a
+non-volatile memory for storing user data, the method
+compnsmg:
+
+6
+
+Appeal2015-004102
+Application 11/863,035
+operating the digital appliance in a first mode wherein a
+user thereof can access user data stored in the non-volatile
+memory;
+
+powering down the digital appliance;
+in response to said powering down, operating the digital
+appliance in a second mode wherein a user thereof cannot access
+user data stored in the non-volatile memory; and
+subsequently determining and beginning a data
+management operation on data stored in the non-volatile memory
+while operating in the second mode.
+Contentions
+
+The Examiner finds that Lin discloses every recited element of claim
+11 except for determining and beginning the recited data-management
+operation and operating a digital appliance, but relies on Shin as teaching
+these features in concluding the claim would have been obvious. Ans.
+12-13. In particular, the Examiner finds that Lin teaches "powering down"
+and operating in the recited second mode. Id. at 12 (citing Lin col. 4, 11. 54-65). The Examiner further finds that Shin teaches digital appliances, such as
+a mobile phone, and further teaches initiating different data-management
+routines based on battery state. Ans. 12-13. According to the Examiner, it
+would have been obvious to modify Lin by incorporating Shin's datamanagement routine initiation based on the battery state and performing that
+routine in a digital appliance. Id.
+Appellants argue that Lin lacks operating the appliance in a second
+mode after powering down, as claimed. App. Br. 11-12. According to
+Appellants, the relied upon portions of Lin relate to the memory device's
+operation, not the host's or digital appliance's. Id. at 12 (citing Lin col. 4,
+
+7
+
+Appeal2015-004102
+Application 11/863,035
+11. 54--58). The issue here, in Appellants' view, is not whether Lin's
+memory device is a digital appliance. Reply Br. 2. Instead, Appellants
+argue that Lin is unconcerned with host (or digital-appliance) operation.
+App. Br. 12. For example, Appellants note that the Examiner relies on Lin's
+memory device powering down, not the appliance powering down, as
+required by the claim. Id. (citing Final Act. 12).
+Additionally, Appellants reassert the argument presented for claim 1
+and argue that it applies to claim 11. App. Br. 12.
+
+Analysis
+
+Appellants' arguments directed to the recited digital appliance
+(id. at 11-12) do not squarely address the Examiner's rejection, which cites
+
+Shin, not Lin, for the digital appliance. Ans. 13 (Shin col. 4, 11. 56-63).
+Specifically, the Examiner cites Lin for "powering down" generally.
+Ans. 12 (citing Lin col. 4, 11. 54--58). The Examiner, however, finds that
+Shin teaches the digital appliance, such as a mobile phone. Ans. 13. So to
+the extent that Lin considers how a memory device behaves rather than the
+appliance (App. Br. 12), Appellants' argument does not squarely address the
+Examiner's rejection (Ans. 12-13), which is based on obviousness. That is,
+we understand the rejection to be based upon using Shin's digital appliance
+in combination with Lin's memory device. Id.
+It is reasonable to conclude that if Shin's digital appliance powers
+
+down, then attached devices, like Lin's memory device, could lose host
+power. See Lin col. 4, 11. 54--58. Notably, Shin's appliance accepts
+mountable devices, similar to Lin's. See Shin col. 4, 11. 56-63. And Shin
+further shows that this appliance has a diminishing power state-i.e., is
+8
+
+Appeal2015-004102
+Application 11/863,035
+powering down. See, e.g., Shin, Fig. 4A. In this situation, we see no reason
+why Lin's memory device would operate differently in a power loss caused
+by detachment, as in Lin, or the host losing power, as in the proposed
+combination. Accord Ans. 25-26. On this record, we are unpersuaded that
+the Examiner erred in finding that the Lin-Shin combination collectively
+teaches the recited second mode where the user does not have access to data
+in response to powering down (id. at 12-13).
+Regarding the recited data-management operation, Appellants reassert
+the argument presented for claim 1 (App. Br. 12), which we find
+unpersuasive for the reasons discussed in connection with claim 1. Those
+reasons are also applicable here where we also agree with the Examiner's
+findings regarding the operations performed after powering down. Ans. 1213.
+For the foregoing reasons, Appellants have not persuaded us of error
+in the Examiner; s obviousness rejection of claim 11. Accordingly, we
+sustain the Examiner's rejection of that claim as well as dependent claims
+12-14, which fall with claim 11.
+
+Claims 16--18, 20--23, and 25
+
+Claim 16, reproduced below with our emphasis, is representative
+of claims 16-18, 20-23, and 25:
+16. A method of operating a device having a non-volatile
+memory for storing user data, the device having a first operating
+mode for user operations, in which a user can access user data
+stored in the non-volatile memory and the device can perform
+data management operations, and a second operating mode,
+wherein the device is powered down as seen by the user and
+
+9
+
+Appeal2015-004102
+Application 11/863,035
+wherein the user cannot access user data stored in the nonvolatile memory, the method comprising:
+prioritizing, while operating in the first mode, a plurality
+of management operations to perform on data stored in the nonvolatile memory, the prioritizing including scheduling one or
+more of said data management operations to be performed while
+the device is in the second operating mode;
+
+powering down of the device; and
+subsequently determining and beginning one or more of
+the scheduled data management operations during the second
+operating mode.
+Contentions
+
+The Examiner concludes that claim 16 would have been obvious over
+Lin and Shin. Ans. 14--16. Specifically, the Examiner finds that Shin's
+charging and not charging states correspond to the recited first and second
+modes, respectively. Id. at 14--15 (citing Shin col. 6, 11. 41--42); Ans. 27.
+Regarding the recited prioritizing, the Examiner finds that Shin's garbage
+collection prioritizes small block collection over large. Ans. 27.
+Appellants argue that Shin does not prioritize operations in a first
+mode to be performed in the second mode. App. Br. 13-14. According to
+Appellants, the decision to perform memory operations is made only after
+the battery charge is checked. Id. at 13 (citing Shin Figs. 5, 6).
+
+Analysis
+
+Claim 16 requires that the operations prioritized in the first mode are
+performed in the second mode. But Shin's prioritization of small blocks
+over large depends on the current battery charging state. Shin Fig. 4A. That
+
+10
+
+Appeal2015-004102
+Application 11/863,035
+
+is, operations prioritized when the battery is being charged-the Examinermapped first mode (Ans. 14--15}-are not performed in the various other
+battery states-the Examiner-mapped second mode (id. at 27). See
+Shin Fig. 4A. Accordingly, the Examiner has not established that Shin
+discloses the recited prioritizing.
+The Examiner further finds that, at the last scheduled garbagecollection time, Shin's device checks the battery's power state and sets the
+cycle time. Ans. 28 (citing Shin col. 6, 11. 10-13). We agree, but this does
+not establish that Shin prioritizes, as claimed.
+Shin performs garbage collection at set intervals. Shin col. 6, 11. 6-10.
+For example, Shin sets the garbage-collection cycle to once every half hour,
+hour, or two hours. See id. Fig. 4B. And like Shin's above-discussed smallblock prioritization, Shin's sets cycle time by the current power state. Id.
+col. 6, 11. 10-13. That is, operations prioritized when the battery is being
+charged are not performed in the various other battery states. See id.
+Rather, Shin sets a new cycle time when the current state of the battery is
+checked. Accord Ans. 28 (citing Shin col. 6, 11. 10-13). So even under this
+rationale (Ans. 28), the Examiner has not established that Shin prioritizes
+operations in the first mode to be performed in the second mode.
+Accordingly, we are persuaded by Appellants' argument that Shin
+does not prioritize operations, as recited (App. Br. 13).
+For the foregoing reasons, we will not sustain the Examiner's
+rejection of claim 16, or of claims 17, 18, and 20, which depend from claim
+16. We likewise will not sustain the Examiner's rejection of independent
+claim 21, which similarly recites prioritizing operations in a first mode to be
+
+11
+
+Appeal2015-004102
+Application 11/863,035
+performed in a second, or of claims 22, 23, and 25, which depend from
+claim 21.
+
+THE OBVIOUSNESS REJECTION OVER LIN AND MCMANIS
+Claims 26--30
+
+Claim 26, reproduced below with our emphasis, is illustrative of
+claims 2 6-3 0:
+26. A method of operating a non-volatile memory device
+for use with a host, the memory device including a non-volatile
+memory for the storage of host data and a volatile memory for
+temporary data storage, wherein the memory device is detachably
+connectable to a host to receive and operate on power therefrom,
+the method comprising:
+receiving data from a host;
+storing said data in the volatile memory;
+subsequently writing said data from the volatile memory
+into the non-volatile memory; and
+
+subsequent to storing said data in the volatile memory and
+prior to completing the writing of said data into the non-volatile
+memory, sending an acknowledgement to the host that said data
+has been written into the non-volatile memory.
+Contentions
+
+The Examiner finds that Lin discloses every recited element of claim
+26 except for sending the recited acknowledgement, but relies on McManis
+as teaching this feature in concluding the claim would have been obvious.
+Ans. 3--4. In particular, the Examiner finds that McManis sends an
+acknowledgement for a write to non-volatile memory before completing it.
+Id.
+
+12
+
+Appeal2015-004102
+Application 11/863,035
+Appellants contend that McManis's data is written to a non-volatile
+buffer before sending the acknowledgment. App. Br. 15 (citing
+McManis i-f 5); see also Reply Br. 4.
+Appellants further argue that McManis lacks a non-volatile memory
+detachably connectable to a host, as recited. App. Br. 16-17. According to
+Appellants, McManis' s devices have their own power connections and
+would not need to transfer data when the server fails, as recited in the
+claims. Id. at 17 (citing McManis i-fi-149-50, 56).
+
+Analysis
+
+The Examiner relies on McManis for the limited purpose of showing
+that sending an acknowledgement of a write before completing that write is
+known. Ans. 3--4. We agree with the Examiner's findings in this regard. In
+particular, McManis' s server sends an acknowledgement that the data has
+been written to mass storage. McManis ,-r 5. But that data has not actually
+been written to mass storage. Id. To be sure, McManis's data is written
+somewhere at the time of acknowledgment. Specifically, Appellants argue
+that the data is written to a non-volatile buffer. App. Br. 15; Reply Br. 4.
+This buffer, however, is not the ultimate or intended destination of the
+data-the non-volatile mass-storage device is. McManis i-f 5. So like claim
+26, McManis sends the acknowledgment before completing the write to this
+non-volatile storage. Id. Accordingly, we see no error in the Examiner's
+reliance on McManis to show the recited acknowledgment (Ans. 3--4).
+Appellants further argue that McManis's non-volatile memory is not
+detachably connectable to a host, as recited. App. Br. 16-17. But the
+Examiner has relied upon Lin, not McManis, for the recited memory device.
+13
+
+Appeal2015-004102
+Application 11/863,035
+Ans. 3. Here, the Examiner proposes modifying Lin's system to use
+McManis's above-discussed acknowledgements. Id. at 3--4. And
+Appellants have not shown, for example, that using McManis' s
+acknowledgements in Lin would have been uniquely challenging or
+otherwise beyond the level of ordinarily skilled artisans. Nor have
+Appellants shown that the Examiner's proposed combination would render
+the prior art unsuitable for its intended purpose to teach away from such an
+approach. Rather, the Lin-McManis combination is no more than a
+predictable use of prior art elements.
+For the foregoing reasons, Appellants have not persuaded us of error
+in the Examiner's obviousness rejection of claim 26. Accordingly, we
+sustain the Examiner's rejection of that claim, as well as dependent claims
+27 and 28, which fall with claim 26. We also sustain the Examiner's
+rejection of independent claim 29 and dependent claim 30, not argued
+separately with particularity (see App. Br. 16; Reply Br. 4).
+
+THE OTHER OBVIOUSNESS REJECTIONS
+We also sustain the Examiner's obviousness rejections of claims 4, 5,
+9, 10, and 15 over Lin and Shin, the additional reference of Lasser, and
+Appellants' Admitted Prior Art. Regarding these claims, Appellants have
+not pointed out particular errors in the Examiner's reasoning. See
+App. Br. 9-16; Reply Br. 1-5. Accordingly, we are not persuaded that the
+Examiner erred for the reasons discussed previously.
+We, however, do not sustain the Examiner's rejection of dependent
+claims 19 and 24 for the same reasons discussed above in connection with
+claims 16 and 21. The additional reference, Kim, was not relied upon to
+14
+
+Appeal2015-004102
+Application 11/863,035
+
+teach the recited prioritizing that is missing from Lin and Shin (see Ans. 2122), and, thus, does not cure the deficiency explained previously.
+
+CONCLUSIONS
+Appellants have not shown that the Examiner erred in rejecting claims
+1-15 and 26-30 under 35 U.S.C. § 103.
+Appellants have shown that the Examiner erred in rejecting claims
+16-25 under 35 U.S.C. § 103.
+
+DECISION
+The Examiner's decision rejecting claims 1-15 and 26-30 is affirmed.
+The Examiner's decision rejecting claims 16-25 is reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+
+§ 1.136(a)(1 )(iv).
+
+AFFIRMED-IN-PART
+
+15
+
+

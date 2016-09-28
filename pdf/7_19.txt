@@ -1,0 +1,245 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/942,317
+
+07/15/2013
+
+Mats Cedervall
+
+P26280US3
+
+6494
+
+96750
+
+7590
+
+09/15/2016
+
+EXAMINER
+
+Patents on Demand, P,A,
+4581 Weston Road, Suite 345
+Weston, FL 33331
+
+SHEPARD, JUSTINE
+
+ART UNIT
+
+PAPER NUMBER
+
+2424
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing 1@patentsondemand.com
+docketing3@patentsondemand.com
+docketing.ericsson@thomsonreuters.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MATS CEDERVALL, JAN ERIK LINDQUIST,
+and ANDREW MALLINSON
+
+Appeal2015-004488
+Application 13/942,317
+Technology Center 2400
+
+Before DANIEL N. FISHMAN, KARA L. SZPONDOWSKI, and
+AARON W. MOORE, Administrative Patent Judges.
+
+SZPONDOWSKI, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 23, 24, 27-30, 34, 35, and 38--41. Claims 1-22,
+25, 26, 31, 32, 36, 37 have been cancelled. (App. Br. 16-19.) Claim 33 is
+allowed and claims 42--44 are objected to as being dependent upon a
+rejected base claim, but would be allowable if rewritten in independent form,
+including all of the limitations of the base claim and any intervening claims.
+(Final Act. 8.) We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2015-004488
+Application 13/942,317
+STATEMENT OF THE CASE
+Appellants' invention is directed to IPTV (Internet Protocol
+Television) session management and, in particular, to handling and invoking
+applications other than embedded applications that are locally installed in a
+set top box. (Spec. 1, 11. 4--5, 25-27.) Claims 23 and 24, reproduced below,
+are representative of the claimed subject matter:
+23.
+
+A session managing method, comprising:
+
+registering, in a registration table, at least one Internet Protocol
+Television (IPTV)-related application that can be invoked at a set top
+box present in a home network such that the registration table
+comprises a respective identifier of the at least one IPTV-related
+application;
+detecting an IPTV-related event requiring invocation of an
+IPTV-related application at the set top box, comprising receiving an
+unsolicited message from a global network connected to the home
+network; and
+selecting, based on the IPTV-related event, an IPTV-related
+application registered in the registration table to be invoked during an
+IPTV session, comprising:
+extracting an application identifier from the unsolicited
+message;
+comparing the application identifier with identifiers of
+IPTV-related applications registered in the registration table;
+and
+selecting the IPTV-related application registered in the
+registration table based on the comparison.
+24. The method of claim 23, further comprising invoking the IPTVrelated application selected from the registration table.
+
+2
+
+Appeal2015-004488
+Application 13/942,317
+REJECTIONS
+Claims 23, 24, 29, 34, 35, and 40 stand rejected under 35 U.S.C.
+
+§ 103 (a) as being unpatentable over the combination of Slothouber (US
+2006/0184989 Al; published Aug. 17, 2006) and Plotnick et al. (US
+2003/0227567 Al; published Dec. 11, 2003).
+Claims 27 and 38 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Slothouber, Plotnick, and Kwon et al. (US 2008/0111699
+Al; published May 15, 2008).
+Claims 28 and 39 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Slothouber, Plotnick, Kwon, and Fan
+et al. (US 2009/0070663 Al; published Mar. 12, 2009).
+Claims 30 and 41 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over the combination of Slothouber, Plotnick, and Chauvel et
+al. (US 6,369,855 Bl; issued Apr. 9, 2002).
+
+ANALYSIS
+After considering each of Appellants' arguments, we agree with the
+Examiner. We refer to and adopt the Examiner's findings and conclusions
+as set forth in the Examiner's Answer and in the action from which this
+appeal was taken. (Ans. 9-14; Final Act. 2-9.) Our discussions will be
+limited to the following points of emphasis.
+
+Issue 1: Did the Examiner err in finding the combination of
+Slothouber and Plotnick teaches or suggests "registering, in a registration
+table, at least one Internet Protocol Television (IPTV)-related application
+that can be invoked at a set top box" and "selecting, based on the IPTV-
+
+3
+
+Appeal2015-004488
+Application 13/942,317
+related event, an IPTV-related application registered in the registration table
+to be invoked," as recited in independent claim 23 and commensurately
+recited in independent claim 34?
+Appellants contend the applications in Plotnick are already invoked
+and, therefore, are not applications that "can be invoked" or are "to be
+invoked." (App. Br. 10.) According to Appellants, "launching, or invoking,
+an application is not the same as changing focus between already launched
+or invoked applications." (App. Br. 9.)
+We are not persuaded by Appellants' arguments. Generally, unless an
+applicant has clearly set forth a special definition of a disputed claim term in
+the specification, we give the term its broadest reasonable interpretation in
+light of the specification. See Phillips v. AWH Corp., 415 F.3d 1303, 1316
+(Fed. Cir. 2005) (en bane). Appellants do not explicitly define the term
+"invoke" in the Specification, nor do Appellants provide a definition in the
+Briefs. A general purpose dictionary defines "invoke" as "to cause, call
+forth, or bring about." WEBSTER'S UNIVERSAL COLLEGE
+DICTIONARY 432 (1997). We agree with the Examiner that Plotnick's
+changing focus from one application to another teaches or suggests invoking
+the application. (See Ans. 10.) As the Examiner finds, in Plotnick,
+applications that do not have focus continue to run in the background, but do
+not have access to all system resources. (Ans. 11, citing Plotnick i-f 26.)
+When the application gains focus, system resources will be given to the
+application. (Plotnick i-f 27; see also Ans. 11.) We agree with the Examiner
+that such disclosure teaches or suggests an "application that can be invoked"
+and an application "to be invoked," as recited in the claims.
+
+4
+
+Appeal2015-004488
+Application 13/942,317
+Moreover, we note Appellants' arguments that Plotnick's applications
+are already invoked and, therefore, cannot be invoked, are inconsistent with
+Appellants' Specification, which describes "[t]he registration table ...
+provid[ es] a complete, relevant information source listing all active and
+inactive applications ... that can be invoked in response to the detected
+
+IPTV-related event." (Spec. 8, 11. 23-25, emphasis added.) In other words,
+Appellants' Specification describes that active applications can be invoked.
+Finally, in the Reply Brief, Appellants state "[a]bove and beyond the
+items discussed in the Appeal Brief, other differences between claim 23 and
+the cited references, Slothouber and Plotnick, will now be described."
+(Reply Br. 2-3.) We find Appellants' ensuing arguments not based on any
+new grounds of rejection in the Examiner's Answer. As a result, Appellants
+have waived such untimely argument because Appellants have not shown
+any good cause for the belated presentation. See Ex parte Borden, 93
+USPQ2d 1473, 1474 (BPAI 2010) (informative) (Unless good cause is
+shown, the Board is not required to address arguments in the Reply Brief
+that could have been presented in the Appeal Brief.).
+Accordingly, for the foregoing reasons we sustain the Examiner's 35
+U.S.C. § 103(a) rejection of independent claims 23 and 34, and dependent
+claims 27, 28, 30, 38, 39, and 41, which were not separately argued.
+
+Issue 2: Did the Examiner err in finding the combination of
+
+Slothouber and Plotnick teaches or suggests "invoking the IPTV-related
+application selected from the registration table," as recited in dependent
+claim 24 and similarly recited in dependent claims 29, 35, and 40?
+
+5
+
+Appeal2015-004488
+Application 13/942,317
+Appellants contend Plotnick does not teach or suggest a registration
+table. (App. Br. 13). We are not persuaded by Appellants' arguments and
+agree with the Examiner that Plotnick' s storing a list of application programs
+registered with the application launcher teaches or suggests a registration
+table. (See Ans. 13; Plotnick i-f 24.)
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of dependent claims 24, 29, 35, and 40.
+
+DECISION
+For the above reasons, the Examiner's rejection of claims 23, 24,
+27-30, 34, 35, and 38--41 is affirmed.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

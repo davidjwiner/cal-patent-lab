@@ -1,0 +1,446 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111270, 165
+
+11108/2005
+
+Bruce Collins
+
+060137/1376-1115
+
+6826
+
+111523
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+The Marbury Law Group/Qualcomm
+11800 Sunrise Valley Drive, 15th Floor
+Reston, VA 20191
+
+KASSIM, KHALED M
+
+ART UNIT
+
+PAPER NUMBER
+
+2468
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/2112016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ocpat_uspto@qualcomm.com
+ptonoticesqc@marburylaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRUCE COLLINS, GORDON KENT WALKER, AN MEI
+CHEN, and CARLOS MACELO PAZOS
+
+Appeal2015-002337
+Application 11/270, 165
+Technology Center 2400
+
+Before JAMES R. HUGHES, CATHERINE SHIANG, and
+MELISSA A. RAAP ALA, Administrative Patent Judges.
+
+SHIANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1, 3-14, 16-19, 21-24, 26-30, 32-34, 36-39, 41--47, 4952, and 54--66, which are all the claims pending and rejected in the
+application. We have jurisdiction under 35 U.S.C. § 6(b). We affirm.
+
+Appeal2015-002337
+Application 11/270, 165
+STATEMENT OF THE CASE
+Introduction
+The present invention relates to content distribution systems. See
+
+generally Spec. 1. Claim 1 is exemplary:
+1. A method comprising:
+associating, with a server, at least one package of a set of
+packages with a billing and customer service (BCS) provider;
+associating, with the server, at least one auxiliary service
+and a plurality of channels with the at least one package, each
+channel of the plurality of channels comprising a view of at
+least one base service offered by the at least one package,
+wherein at least one channel is associated with the at
+least one auxiliary service such that the view of the at least one
+base service is customized by the at least one auxiliary service
+to include enhancements or supplementary information to the at
+least one base service independent of a channel guide;
+providing, with the server, a subscription to a device for
+the at least one package associated with the BCS provider;
+transmitting, with the server to the device, a packager
+message comprising a first record indicating the association
+between the at least one auxiliary service and the at least one
+channel of the at least one package, wherein the packager
+message is transmitted separately from the at least one auxiliary
+service; and
+transmitting, with the server to the device, a service
+definition message comprising a second record indicating a
+validity time at which the association between the at least one
+auxiliary service and the at least one channel becomes valid
+such that the at least one base service is customized by the at
+least one auxiliary service at the validity time, wherein the
+service definition message is transmitted separately from the at
+least one auxiliary service and the at least one channel.
+
+2
+
+Appeal2015-002337
+Application 11/270, 165
+References and Rejections
+Claims 11, 36-39, 41--44, 65, and 66 are rejected under 35 U.S.C.
+§ 112, second paragraph, as being indefinite for failing to particularly point
+out and distinctly claim the subject matter that the inventors regard as the
+invention.
+Claims 1, 3-14, 16-19, 21-24, 26-30, 32-34, 36-39, 41--47, 49-52,
+and 54---66 are rejected under 35 USC§ 103(a) as being unpatentable over
+Vermola (WIPO Pub. No. WO 2005/045603 A3, published May 19, 2005),
+LaJoie (US 2005/0015804 Al, published Jan. 20, 2005), and Ellis (US
+2004/0117831 Al, published June 17, 2004).
+
+ANALYSIS 1
+35 U.S.C. § 112, Second paragraph
+Claims must "particularly point[] out and distinctly claim[] the subject
+matter which the applicant regards as his invention." 35 U.S.C. § 112,
+second paragraph.
+As to a means-plus-function claim term, "[i]f the patentee fails to
+disclose adequate corresponding structure, the claim is indefinite."
+
+Williamson v. Citrix Online, LLC, 792 F. 3d 1339, 1352 (Fed. Cir. 2015)
+(citations omitted).
+Structure disclosed in the specification qualifies as
+"corresponding structure" if the intrinsic evidence clearly links
+or associates that structure to the function recited in the claim . .
+. . Even if the specification discloses corresponding structure,
+1
+
+To the extent Appellants advance new arguments in the Reply Brief
+without showing good cause, Appellants have waived such arguments. See
+37 C.F.R. § 41.4l(b)(2).
+3
+
+Appeal2015-002337
+Application 11/270, 165
+the disclosure must be of "adequate" corresponding structure to
+achieve the claimed function .... Under 35 U.S.C. § 112, paras.
+2 and 6, therefore, if a person of ordinary skill in the art would
+be unable to recognize the structure in the specification and
+associate it with the corresponding function in the claim, a
+means-plus-function clause is indefinite.
+
+Williamson, 792 F. 3d at 1352 (citations omitted) (emphasis added).
+First, in response to the Examiner's findings, Appellants do not cite
+any Specification portion that clearly links or associates a structure to each
+of the following functions recited in these claim limitations: (1) means for
+associating at least one package with a billing and customer service (BCS)
+provider; (2) means for providing a subscription to a second device for the at
+least one package associated with the BCS provider based on the set of
+channels associated with the at least one package; (3) means for transmitting
+a packager message to the second device; and (4) means for transmitting a
+service definition message to the second device .... 2 To the contrary,
+Appellants assert:
+[O]ne of ordinary skill in the art would be able to identify, from
+the cited portions of the specification, corresponding structures,
+materials or acts with respect to the distribution sever 200 that
+can perform each recited function. In particular, for each of
+these recited functions, the specification discloses performance
+by a computing device (i.e., a distribution server) through
+operations that may be implemented in software running on
+such device.
+
+2
+
+The Examiner cites other means plus function claim limitations, which are
+not recited in claim 11 (Ans. 4). Further, the Examiner identifies means for
+transmitting (Ans. 4), but claim 11 recites two means for transmitting claim
+limitations. Because Appellants have presented arguments regarding both
+means for transmitting claim limitations, we include both claim limitations
+in our analysis.
+4
+
+Appeal2015-002337
+Application 11/270, 165
+App. Br. 23.
+Appellants' assertion that the distribution sever 200 can
+
+perform each recited function, or operations may be implemented in
+software on the distribution server 200, is insufficient for showing the
+intrinsic evidence clearly links or associates that structure to the
+. recite
+. d.mthe claim.
+.
+See /lrnzamson,
+p··ff"
+"92
+..f, . ~..,c
+., ·1 at 1~,~
+F;;.1..; B .
+1.
+fu nct10n
+
+Braun Med., Inc. v. Abbott Labs., 124 F.3d 1419, 1424 (Fed.Cir.1997)
+(holding "structure disclosed in the specification is 'corresponding'
+structure only
+
+if the specification or prosecution history clearly links
+
+or associates that structure to the function recited in the claim")
+(emphases added).
+
+Second, Appellants cites excerpts from the Specification and assert:
+[T]he cited portions of the specification describe a
+special purpose machine programmable by software that is a
+definite structure for performing the recited function of
+associating at least one package with a billing and customer
+service (BCS) provider.
+[T]he cited portions of the specification describe a
+special purpose machine programmable by software that is a
+definite structure for performing the recited function of
+providing a subscription to a second device for the at least one
+package associated with the BCS provider based on the set of
+channels associated with the at least one package.
+[T]he cited portions of the specification describe a
+special purpose machine programmable by software that is a
+definite structure for performing the recited function of
+transmitting a packager message to the second device.
+[T]he cited portions of the specification describe a
+special purpose machine programmable by software that is a
+definite structure for performing the recited function of
+transmitting a service definition message to the second device.
+App. Br. 24-27.
+
+5
+
+Appeal2015-002337
+Application 11/270, 165
+For example, Appellants cite the following Specification
+portions for the claimed means for associating at least one package
+with a billing and customer service:
+See specification, p. 10 i-f [0045] ... ("BCS providers provide
+subscription parameters that are received by the processing
+logic 202 and stored in the subscription parameter storage 214 .
+. . . [C]ontent packagers provide package parameters that are
+receive[ d] by the processing logic 202 and stored in the package
+parameter storage 216"); see also id. at 10 i-f [0046] ... ("the SI
+logic 204 retrieves subscription parameters from the storage
+214 that are associated with one or more BCS providers. The
+SI logic also operates to retrieve[] package parameters from the
+storage 216 and programming parameters from the storage 218
+that are associated with each BCS provider. Thus, the SI
+generation logic 204 operates to generate SI parameters 224
+that are associated with each BCS provider.").) Combined with
+the specific processor implementations (id. at 42 i-f [0218] ...
+(e.g., DSP, ASIC, FPGA, etc.)), and storage media
+implementations (id. at 12 i-f [0050], ... (e.g., floppy disk,
+CDROM, memory card, FLASH memory device, RAM, ROM,
+,,.ff' \ \
+
+vvv.;; . . . .
+
+App. Br. 23-24; see also App. Br. 25-27 (citing Specification
+excerpts for means for providing ... and means for transmitting .... ).
+However; Appellants have not persuasively shown how the
+cited Specification excerpts clearly link or associate the structure to
+each of the disputed functions recited in the claim. See TVi!liamson,
+792 F. 3d at 1352; B. Braun Med., 124 F.3d at 1424.
+Because Appellants have not shown the intrinsic evidence
+clearly links or associates the structure to each of the disputed
+
+functions discussed above, we affirm the Examiner's decision
+
+6
+
+Appeal2015-002337
+Application 11/270, 165
+rejecting claims 11, 36-39, 41--44, 65, and 66 under 35 U.S.C. § 112,
+second paragraph.
+We further note the following: Appellants assert the Examiner
+erred in construing the corresponding structures to be pure software.
+See App. Br. 27. We understand the Examiner's findings to mean that
+when the corresponding structure is software, Appellants have not
+
+shown the Specification discloses the required algorithm for
+performing each of the claimed function. Appellants assert the
+Specification recites "a special purpose machine programmable by
+software that is a ... structure for" each of the recited functions. App.
+Br. 24--26. To the extent Appellants argue a special purpose machine
+programmable by software-without disclosing algorithm for
+performing the claimed functions---constitutes an adequate
+corresponding structure (App. Br. 24), Appellants are mistaken. See
+Williamson, 792 F. 3d at 1352 ("In cases ... involving a claim
+
+limitation that is subject to § 112, para. 6 that must be implemented in
+a special purpose computer ... [w] e require that the specification
+disclose an algorithm for performing the claimed function") (citations
+
+omitted) (emphasis added). Indeed, Appellants have not pointed to
+any algorithm to demonstrate the sufficiency of the corresponding
+structures.
+Obviousness
+On this record, we find the Examiner did not err in rejecting claim 1.
+We disagree with Appellants' arguments, and agree with and adopt
+the Examiner's findings and conclusions in (i) the action from which this
+
+7
+
+Appeal2015-002337
+Application 11/270, 165
+appeal is taken and (ii) the Answer to the extent they are consistent with our
+analysis below. 3
+
+Issue 1
+Appellants contend Vermola, LaJoie and Ellis do not collectively
+teach "associating, with the server, at least one auxiliary service and a
+plurality of channels with the at least one package ... wherein at least one
+channel is associated with the at least one auxiliary service such that the
+view of the at least one base service is customized by the at least one
+auxiliary service to include enhancements or supplementary information to
+the at least one base service independent of a channel guide," as recited in
+claim 1 (emphases added). See App. Br. 29-31; Reply Br. 2-5. In
+particular, Appellants assert with respect to Ellis:
+[E]ven assuming ... the related advertisements teach or suggest
+auxiliary services, Ellis discloses that such advertisements are
+linked to base ser\rices (i.e., movies) via the program guide. In
+contrast, the recited claim language expressly recites that
+auxiliary services include enhancements or supplementary
+information that are independent of a channel guide (i.e., the
+media presentation guide, which as presents channels to the
+user).
+Reply Br. 4.
+Appellants' arguments are unpersuasive because they are not directed
+to the Examiner's specific findings. The Examiner finds in Ellis, "the
+advertisement is independent of the channel guide 102 as claimed in the
+3
+
+As pointed out by Appellants (Reply Br. 3, 5), the Examiner's Answer
+provides further mappings for the disputed claim limitations. As a result,
+Appellants' arguments from the Appeal Brief are superseded in light of such
+further mappings.
+8
+
+Appeal2015-002337
+Application 11/270, 165
+argued limitation above (showing in the figures of 2-16)." Ans. 23.
+Appellants do not respond to such findings and therefore, fail to show error
+in the Examiner's findings. See In re Baxter Travenol Labs., 952 F.2d 388,
+391 (Fed. Cir. 1991) ("It is not the function of this court [or this Board] to
+examine the claims in greater detail than argued by an appellant, looking for
+[patentable] distinctions over the prior art.").
+Further, Appellants assert in Ellis, "the 'main menu' screen of the
+interactive program guide is not a 'base service,' since it merely provides
+options for selecting viewing content." Reply Br. 4.
+Appellants' assertion is unpersuasive because the Examiner
+alternatively maps the claimed base service to Ellis' movies,
+movies on demand, hot movies, new releases, or specials (Ans. 23), and
+Appellants do not assert-let alone show-such mapping is incorrect. See
+Baxter Travenol Labs., 952 F.2d at 391. In any event, Appellants have not
+
+persuasively explained why "provid[ing] options for selecting viewing
+content" (Reply Br. 4) cannot constitute the claimed base service.
+
+Issue 2
+Appellants contend Vermola, LaJoie and Ellis do not collectively
+teach "transmitting, with the server to the device, a service definition
+message comprising a second record indicating a validity time at which the
+
+association between the at least one auxiliary service and the at least one
+channel becomes valid such that the at least one base service is customized
+by the at least one auxiliary service at the validity time," as recited in claim 1
+
+9
+
+Appeal2015-002337
+Application 11/270, 165
+(emphases added). See App. Br. 32-35; Reply Br. 5-7. 4 In particular,
+Appellants contend:
+Ellis still fails to teach or suggest that a movie or theme is
+customized by an auxiliary service at a particular time received
+in a service message. Rather, Ellis discloses that the
+customization of the interactive program guide based on
+advertisements/features disclosed is driven by user selection
+(e.g., features in list filtered based on a selected theme, etc.).
+Reply Br. 6-7. 5
+Because the Examiner relies on the combination of Vermola, LaJoie
+and Ellis to teach the disputed claim limitations, Appellants cannot establish
+nonobviousness by attacking Ellis individually. See In re Merck & Co., 800
+F.2d 1091, 1097 (Fed. Cir. 1986). In particular, we understand the Examiner
+maps the claimed service definition message to LaJ oie' s automatic reminder,
+and cites LaJoie for teaching "the validity time." See Ans. 24--25.
+Therefore, the Examiner finds a service definition message ... indicating a
+validity time (and "receiv[ing] ... the service definition message" of claim
+
+9) is taught by or would have been obvious in light of LaJoie's teachings.
+See Ans. 24--25. Appellants fail to persuade us of error because Appellants
+
+do not critique the Examiner's specific findings. See Baxter Travenol Labs.,
+952 F.2d at 391.
+Because Appellants have not persuaded us of error, we sustain the
+Examiner's rejection of claim 1, and independent claims 9-12 and 47 for
+similar reasons.
+
+4
+
+In the Reply Brief, Appellants focus on claims 9 and 12. The Examiner's
+response applies to claims that include claims 1, 9, and 12. See Ans. 24--25.
+5
+Appellants assert the Examiner's Answer misstates elements of claims 9
+and 12 (Reply Br. 5). However, in the subsequent response, the Examiner
+correctly states the elements (Ans. 24).
+10
+
+Appeal2015-002337
+Application 11/270, 165
+We also sustain the Examiner's rejection of corresponding dependent
+claims, as Appellants do not offer separate substantive arguments about
+those claims. See App. Br. 35-36; Reply Br. 7.
+DECISION
+We affirm the Examiner's decision rejecting claims claims 1, 3-14,
+16-19, 21-24, 26-30, 32-34, 36-39, 41--47, 49-52, and 54---66.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

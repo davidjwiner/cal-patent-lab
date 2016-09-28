@@ -1,0 +1,976 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+95/002,354
+
+09/14/2012
+
+6,605,038 B1
+
+92092-891657
+
+3404
+
+23370
+
+7590
+
+09/16/2016
+
+KILPATRICK TOWNSEND & STOCKTON LLP
+Mailstop: IP Docketing - 22
+1100 PEACHTREE STREET
+SUITE 2800
+ATLANTA, GA 30309
+
+EXAMINER
+BANANKHAH, MAJID A
+
+ART UNIT
+
+PAPER NUMBER
+
+3992
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+BASIS SCIENCE, INC.,
+Requester,
+v.
+BODY MEDIA, INC.,
+Patent Owner.
+____________
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Technology Center 3900
+____________
+Before BRADLEY W. BAUMEISTER, JENNIFER L. McKEOWN, and
+IRVIN E. BRANCH, Administrative Patent Judges.
+BRANCH, Administrative Patent Judge
+
+DECISION ON APPEAL
+Body Media, Inc. (“Patent Owner”) appeals under 35 U.S.C. §§ 134
+and 315 the Examiner’s rejections of claims 1, 2, 14, 15, 19–22, 24–28, 30–
+35, 38–46, and 74–100, all claims subject to reexamination. Claims 74–100
+were added during reexamination. Corrected PO App. Br. 1.1 Original
+
+1
+
+The distinction between the originally filed Patent Owner’s Appeal Brief in
+Inter Partes Reexamination, dated May 19, 2014 (“Original PO App. Br.”)
+and the Corrected Patent Owner’s Appeal Brief in Inter Partes
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+claims 3–13, 16–18, 23, 29, 36, 37, and 47–73 are not subject to
+reexamination. We have jurisdiction under 35 U.S.C. §§ 134 and 315.
+An oral hearing was conducted on October 14, 2015, and a transcript
+(“Tr.”) of the hearing was entered into the record on December 18, 2015.
+
+ORDER TO SHOW CAUSE
+Background
+In Section II, RELATED APPEALS AND INTERFERENCES, of its original
+Appeal Brief, Patent Owner states only that
+The following proceeding is identified as related to the instant
+reexamination. U.S. Patent No. 6,605,038 to Teller et al. (the
+patent at issue in this reexamination) is asserted against third
+party requester Basis Science in a lawsuit filed in the United
+States District Court for the District of Delaware, Body Media,
+Inc. v. Basis Science, Inc., Civil Action No. 1: 12-cv-00133
+(GMS).
+Original PO App. Br. 1. Patent Owner’s Rebuttal Brief does not supplement
+this information. See generally Patent Owner’s Rebuttal Brief in Inter
+Partes Reexamination (filed Sept. 22, 2014). Nor does Requester dispute
+this statement in its Respondent Brief. See Respondent Brief by Third-Party
+Requester 2 (filed June 19, 2014).
+Prior to Oral Hearing, the Panel became aware of various
+reexamination appeals that potentially appeared to be “related” to the present
+appeal within the meaning of 37 C.F.R. § 41.67(c)(1)(ii). At Oral Hearing,
+the Panel asked Patent Owner if there were any other related cases. Tr. 31.
+
+Reexamination, dated November 24, 2015 (“Corrected PO App. Br.”) is
+explained in this Opinion, below.
+2
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Counsel for Patent Owner responded that the present reexamination belongs
+to
+a family of seven reexams. At present [appeal] will be the fourth
+one that’s been before the Board. There are two on appeal to the
+Federal Circuit. There are another two. They’re in the briefing
+stage. Actually, no, there are three that are in the briefing stage
+for appeal to the Board.
+Id.
+Following the Oral Hearing, this Panel issued an Order to Show Cause
+(“Order,” mailed November 10, 2015) asking Patent Owner “why the Board
+should not dismiss [Owner’s] . . . appeal in this inter partes reexamination
+for failing to properly identify the inter parties reexaminations related to this
+inter partes reexamination proceeding.” Order 6. In response, Patent
+Owner filed the Corrected Appeal Brief identifying six related inter parties
+reexaminations to which the Order referred. Corrected PO App. Br. 1.
+Patent Owner also filed Patent Owner’s Response to Order to Show
+Cause (“PO Resp. to Order,” filed November 24, 2015). Therein, Patent
+Owner asserts, among other arguments, that “Patent Owner [mistakenly]
+understood Rule 41. 67(c) to require identification of other appeals and
+judicial proceedings involving the patent currently on appeal to the Board,
+i.e., the U.S. Patent No. 6,605,038 patent and any counterparts thereof,” and
+submits “that [for various reasons] its interpretation was not unreasonable.”
+PO Resp. to Order 3.
+Patent Owner further argues, though, that Rule 41.69 separately
+requires the Examiner to make of record determinations of non-compliance
+with the provisions of, inter alia, Rule 41.67. Id. at 6. Patent Owner notes
+that the Examiner’s Answer in the present reexamination was signed by
+3
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+three Examiners, that these same three examiners signed the Examiner’s
+Answers of at least one of the other related BodyMedia reexaminations, but
+that none of these Examiners identified the deficiency in the Appeal Brief’s
+compliance with Rule 41.67. Id. at 6–7.
+Patent Owner then argues that
+With respect to appeal briefs, Rule 41.67(d) requires that “[i]f a
+brief is filed [that] . . . does not comply with all the requirements
+of paragraph (a) and paragraph (c) of this section, appellant will
+be notified of the reasons for non-compliance and given a nonextendable time period within which to file an amended brief.
+PO Resp. to Order 6.
+Principles of Law
+Rule 37 C.F.R. § 41.8(a) reads as follows:
+(a) In an appeal brief (§§ 41.37, 41.67, or 41.68) or at the
+initiation of a contested case (§ 41.101), and within 20 days of
+any change during the proceeding, a party must identify:
+(1) Its real party-in-interest, and
+(2) Each judicial or administrative proceeding that could
+affect, or be affected by, the Board proceeding.
+Rules 41.67(c) and (d)—addressing Appeal Briefs for inter partes
+reexaminations—read, in part, as follows:
+(c)
+(1) The appellant’s brief shall contain the following items
+under appropriate headings. . . .
+(ii) Related appeals, interferences, and trials. A statement
+identifying by application, patent, appeal, interference, or
+trial number all other prior and pending appeals,
+interferences, trials before the Board, or judicial
+proceedings known to appellant, the appellant’s legal
+
+4
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+representative, or assignee [that] . . . may be related to,
+directly affect or be directly affected by or have a bearing
+on the Board’s decision in the pending appeal. Copies of
+any decisions rendered by a court or the Board in any
+proceeding identified under this paragraph must be
+included in an appendix as required by paragraph
+(c)(1)[(x)] of this section. . . .
+(x) Related proceedings appendix. An appendix
+containing copies of decisions rendered by a court or the
+Board in any proceeding identified pursuant to paragraph
+(c)(1)(ii) of this section.
+(d) If a brief is filed [that] does not comply with all the
+requirements of paragraph (a) and paragraph (c) of this section,
+appellant will be notified of the reasons for non-compliance and
+given a non-extendable time period within which to file an
+amended brief. If appellant does not file an amended brief within
+the set time period, or files an amended brief [that] does not
+overcome all the reasons for non-compliance stated in the
+notification, that appellant’s appeal will stand dismissed.
+Rule 41.68(b)(1)—addressing Respondent Briefs for inter partes
+reexaminations—reads, in part, as follows:
+(1) The respondent brief shall contain the following items under
+appropriate headings. . . .
+(ii) Related appeals, Interferences, and trials. A statement
+identifying by application, patent, appeal, interference, or
+trail number all other prior and pending appeals,
+interferences or judicial proceedings known to respondent,
+the respondent’s legal representative, or assignee [that] . . .
+may be related to, directly affect or be directly affected by
+or have a bearing on the Board’s decision in the pending
+appeal. Copies of any decisions rendered by a court or the
+Board in any proceeding identified under this paragraph
+must be included in an appendix as required by paragraph
+(b)(1)(ix) of this section. . . .
+5
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+(ix) Related proceedings appendix.
+An appendix
+containing copies of decisions rendered by a court or the
+Board in any proceeding identified pursuant to paragraph
+(b)(1)(ii) of this section.
+Rule 41.69(a)—addressing Examiner’s Answers for inter partes
+reexaminations—reads, in part, as follows (emphasis added):
+(a) The primary examiner may. . . furnish a written answer to the
+owner’s and/or requester’s appellant brief or respondent
+brief . . . . A copy of the answer shall be supplied to the owner
+and all requesters. If the primary examiner determines that the
+appeal does not comply with the provisions of §§ 41.61, 41.66,
+41.67 and 41.68. . . , the primary examiner shall make such
+determination of record.
+Analysis
+We disagree with Patent Owner’s assertions (PO Resp. to Order 3;
+accord id. at 4) that it is reasonable to interpret Rule 41.67(c) as requiring
+only that an appeal brief identify “appeals and judicial proceedings
+involving the patent currently on appeal to the Board. . . and any
+counterparts thereof.” The language of Rule 41.67 expressly states that the
+appeals, interferences, and judicial proceedings (hereafter referred to as
+adjudicatory proceedings, for simplicity) to be listed in an appeal brief is of
+a broader class—those adjudicatory proceedings that “may be related to,
+directly affect or be directly affected by[,] or have a bearing on the Board’s
+decision in the pending appeal.” 37 C.F.R. § 41.68(b)(1)(ii). Thus,
+Rule 41.67 is to be interpreted broadly as casting a wide net, rather than
+interpreted narrowly in the manner advanced by Patent Owner. That is, the
+duty to disclose related adjudicatory proceedings extends to all of a party’s
+
+6
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+various adjudicatory proceedings before the Board involving common
+subject matter, regardless of whether these proceedings arise from the same
+patent. In addition, Rule 41.8 imposes an obligation on the parties to notify
+the Board within 20 days of any change during the proceeding, each judicial
+or administrative proceeding that could affect, or be affected by, the Board
+proceeding. Thus, notice of any new related proceeding or any change in
+status of the related proceeding must be provided to the Board within 20
+days in the affected proceeding.
+Moreover, by setting forth that the briefs “shall contain. . . . [a]
+statement identifying . . . all other prior and pending appeals, interferences
+or judicial proceedings” (emphasis added), Rules 41.67 and 41.68 make it
+unambiguously clear that the parties’ disclosure duty is mandatory—not
+merely recommended. These rules make this disclosure duty mandatory
+because the parties’ compliance is critical to helping the Board fulfill its
+mission of timely reviewing adverse decisions. Listing the related appeals
+within the appeal briefs and respondent briefs ensures that the Board is
+aware of all information necessary to timely determine the most appropriate
+manner in which to handle the appeal.
+Due to the number of trials and appeals adjudicated by the Board, as
+well as the number of Administrative Patent Judges who are charged with
+adjudicating these proceedings, parties filing briefs before the Board are in a
+better position to be aware of the existence of any related proceedings. As
+such, economic efficiency requires that the burden of disclosure rest
+primarily on parties filing briefs.
+
+7
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Patent Owner is correct that Rule 41.69 does place a parallel
+mandatory duty on the Examiner. Rule 41.69 states that an Examiner
+“may. . . furnish a written answer to the owner’s and/or requester’s appellant
+brief or respondent brief.” 37 C.F.R. § 41.69(a). The use of the permissive
+word “may” indicates that an Examiner is not required to issue an
+Examiner’s Answer in an inter partes reexamination appeal. Rule 41.69
+additionally sets forth a separate requirement, though, that is mandatory—
+not permissive: “If the primary examiner determines that the appeal does not
+comply with the provisions of §§41.61, 41.66, 41.67 and 41.68 or does not
+relate to an appealable action, the primary examiner shall make such
+determination of record.” Id. (emphasis added).
+To be sure, the three Examiners did not set forth a non-compliance
+determination in the present Examiner’s Answer. But this omission does not
+necessarily imply that the Examiners agree with Patent Owner’s
+interpretation of “related.” Regardless of what any examiner’s reason may
+be for omitting a non-compliance determination, parties filing briefs have a
+separate disclosure duty that is independent of, and not contingent upon, the
+examiners’ duty to make a compliance determination. As noted above, the
+parties filing briefs are in a better position than the Examiner to be aware of
+the existence of any related proceedings.
+Although Patent Owner’s mistaken interpretation of “related” was
+unreasonable, that is not the end of the inquiry. As Patent Owner further
+noted, Rule 41.67(d) requires that “an appellant will be notified of the
+reasons for non-compliance and given a non-extendable time period within
+which to file an amended brief.” But this does not relieve a party of its
+
+8
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+obligation to disclose related proceedings in the first instance. In the present
+case, both Patent Owner and Requester failed to identify related proceedings
+as required in Rule 41.67(c)(1)(ii) and Rule 41.68(b)(1), as well as to update
+the related proceedings as required by Rule 41.8(a)(2). Patent Owner,
+however, timely responded to the Order To Show Cause by filing the
+Corrected Patent Owner’s Appeal Brief. Accordingly, the totality of the
+circumstances indicate that the original Appeal Brief’s omission of a listing
+of related appeals does not warrant dismissing Patent Owner’s appeal.
+We specifically note, though, that our holding in no way limits the
+Board’s authority, in any given future appeal, to hold a party’s brief noncompliant for failing to disclose related appeals or to dismiss an appeal
+based upon a party’s failure to identify related proceedings or to timely
+update the related proceedings as required by the rules, and explained above.
+
+STATEMENT OF THE CASE
+We now turn to the merits of the appeal. This proceeding arose from
+a September 14, 2012 Request for Reexamination by Basic Science, Inc.
+(“Requester”) for an inter partes reexamination of claims of U.S. Patent
+6,605,038 B1, titled “SYSTEM FOR MONITORING HEALTH,
+WELLNESS AND FITNESS” and issued to Eric Teller, et al., on August
+12, 2003 (“the ’038 patent”).
+The ’038 patent describes
+[a] system for detecting, monitoring and reporting
+physiological information [that] includes a sensor device adapted
+to be worn on the upper arm that includes at least one of an
+accelerometer, a GSR sensor, and a heat flux sensor, and [that]
+
+9
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+generates data indicative of at least one of activity, galvanic skin
+response and heat flow.
+Abstract.
+Claim 1 read as follows (formatting and emphasis added):
+1.
+A system for detecting, monitoring and reporting
+human physiological information, comprising:
+a sensor device adapted to be placed in contact with an
+individual’s upper arm, said sensor device including at least two
+of an accelerometer, a GSR sensor and a heat flux sensor, said
+sensor device being adapted to generate:
+(i) data indicative of at least two of motion, the
+resistance of said individual's skin to electric current, and
+heat flow of said individual and
+(ii) derived data from at least a portion of said data
+indicative of at least two of motion, resistance of said
+individual’s skin to electric current and heat flow,
+said derived data comprising a physiological parameter of said
+individual that cannot be wholly measured directly by any one of
+said accelerometer, said GSR sensor and said heat flux sensor;
+a central monitoring unit remote from said sensor device
+adapted for the generation of analytical status data from at least
+a portion of at least one of:
+(i) said data indicative of at least two of motion,
+resistance of said in individual’s skin to electric current
+and heat flow,
+(ii) said derived data and
+(iii) said analytical status data,
+said central monitoring unit including a data storage
+device for retrievably storing at least one of:
+(i) said data indicative of at least two of motion,
+resistance of said individual’s skin to electric current and
+heat flow
+(ii) said derived data and
+(iii) said analytical status data;
+data transfer means for establishing at least temporary
+electronic communication between said sensor device and said
+central monitoring unit; and
+10
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+means for transmitting at least one of:
+(i) said data indicative of at least two of motion,
+resistance of said individual’s skin to electric current and
+heat flow,
+(ii) said derived data and
+(iii) said analytical status data to a recipient.
+The cited references are as follows:
+Myllymäki et al.
+(“Myllymäki”)
+Mault et al.
+(“Mault”)
+Root et al.
+(“Root”)
+Pottgen et al.
+(“Pottgen”)
+Rosenberg et al.
+(“Rosenberg”)
+Bridger et al.
+(“Bridger”)
+
+US 5,670,944
+
+Sept. 23, 1997
+
+US 6,478,736 B1 Nov. 12, 2002
+US 6,013,007
+
+Jan. 11, 2000
+
+US 5,524,618
+
+June 11, 1996
+
+US 5,142,485
+
+Aug. 25, 1992
+
+US 6,491,647 B1 Dec. 10, 2002
+
+The Examiner rejected the claims as follows (RAN 2–4):
+1)
+Claims 1, 2, 14, 15, 19, 20, 21, 24–28, 33–35, 38–41, and
+44–46 are rejected as obvious over Myllymäki and Root under
+35 U.S.C. § 103(a);
+2)
+Claims 30, 31, and 32 are rejected as obvious over
+Myllymäki, Root, and Mault under 35 U.S.C. § 103(a);
+3)
+Claims 22, 42, and 43 are rejected as obvious over
+Myllymäki, Root, and Pottgen under 35 U.S.C. § 103(a);
+4)
+Claims 39 and 40 are rejected as obvious over
+Myllymäki, Root, and Rosenberg under 35 U.S.C. § 103(a);
+
+11
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+5)
+New claims 74–77 are rejected as obvious over
+Myllymäki, Root, and Pottgen under 35 U.S.C. § 103(a);
+6)
+New claims 78–83, 92–94, and 99 are rejected as obvious
+over Myllymäki and Root under 35 U.S.C. § 103(a);
+7)
+New claims 84–91 are rejected as obvious over
+Myllymäki, Root, and Mault under 35 U.S.C. § 103(a);
+8)
+New claims 95–98 are rejected as obvious over
+Myllymäki, Root, and Bridger under 35 U.S.C. § 103(a); and
+9)
+New claim 100 is rejected as obvious over Myllymäki in
+view of Root under 35 U.S.C. § 103(a).
+RELATED PROCEEDINGS
+We are informed of the related appeals in the “Related Appeals”
+section of Patent Owner’s Corrected Appeal Brief. Corrected PO App. Br.
+1.
+
+PRINCIPLES OF LAW
+The question of obviousness is resolved on the basis of underlying
+factual determinations including (1) the scope and content of the prior art,
+(2) any differences between the claimed subject matter and the prior art, and
+(3) the level of skill in the art. Graham v. John Deere Co., 383 U.S. 1, 17–
+18 (1966).
+“The combination of familiar elements according to known methods
+is likely to be obvious when it does no more than yield predictable results.”
+KSR Int’l Co. v. Teleflex, Inc., 550 U.S. 398, 416 (2007).
+
+12
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+CONTENTIONS AND ANALYSIS
+The Obviousness Rejections over Myllymäki and Root (Rejections 1, 6, and
+9)
+Patent Owner initially argues claims 1, 83, 99, and 100 collectively
+(Corrected PO App. Br. 8–18), then presents additional arguments regarding
+claims 83 and 99 (id. at 18–21). Patent Owner’s collective arguments center
+around the following limitations of claim 1:2
+a sensor device adapted to be placed in contact with an
+individual’s upper arm, said sensor device including at least two
+of an accelerometer, a GSR sensor and a heat flux sensor, said
+sensor device being adapted to generate:
+(i)
+data indicative of at least two of motion, the
+resistance of said individual’s skin to electric current, and
+heat flow of said individual [(hereinafter “indicative
+data”)] and
+(ii) derived data from at least a portion of said data
+indicative of at least two of motion, resistance of said
+individual’s skin to electric current and heat flow, said
+derived data comprising a physiological parameter of said
+individual that cannot be wholly measured directly by any
+one of said accelerometer, said GSR sensor and said heat
+flux sensor [(hereinafter “derived data”)].
+Claim 1 (formatting added). Claims 83, 99, and 100 include similar
+recitations.
+Patent Owner argues that the Examiner erred in rejecting claim 1
+because the combination of Myllymäki and Root fails to teach or suggest at
+least the claim 1 limitations quoted above. Corrected PO App. Br. 9–18.
+See, e.g., Corrected PO App. Br. 18 (“the combination of Myllym[ä]ki and
+2
+
+See 37 C.F.R. § 41.37(c)(1)(iv)(2012) (authorizing the Board to designate a
+single claim as representative of a group of claims not argued separately).
+13
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Root does not disclose or suggest generating derived data that includes a
+physiological parameter that cannot be wholly measured directly by any one
+of an accelerometer, a GSR sensor, and a heat flux sensor and that is
+generated by using data from at least two of these sensors.”).
+Patent Owner first argues that the derived data must include a portion
+of data from each of two different sources of the indicative data (i.e., “data
+indicative of at least two of motion, the resistance of said individual’s skin to
+electric current, and heat flow of said individual”). Id. at 8–11. Patent
+Owner argues that the Examiner’s construction of the indicative data and
+derived data “impermissibly failed to give all terms of claim 1 their
+appropriate patentable weights” by “equat[ing] the phrase ‘at least a portion
+of’ with ‘at least one of,’ and thereby render[ing] the phrases ‘at least two
+of’ and ‘at least one of’ in claim 1 to be superfluous.” Id. at 9. Patent
+Owner bolsters the argument—that one of ordinary skill in the art would
+interpret the claim such that the derived data must be derived from a portion
+of data from at least two of the indicative data’s constituent parts—by
+arguing that “every party to the present action has previously taken . . . [this]
+position (either explicitly or implicitly).” Id. at 10; see also id. at 10–11
+(referring to “the Office” (the original Examiner of the ’038 patent and the
+Examiner in this reexamination) and the Requester, as having construed the
+claim to require that the derived data must be derived exclusively from a
+portion of data from at least two of the indicative data’s constituent parts).
+We disagree with Patent Owner’s assertion that the present
+Examiner’s construction is flawed, and we decline to adopt the prior
+interpretations in view of our reasoning below wherein we explain why the
+
+14
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+present Examiner’s interpretation is the more persuasive choice. But even if
+we were to agree with Patent Owner’s claim construction arguments, we
+would nevertheless affirm the Examiner’s obviousness rejections over
+Myllymäki and Root (rejections 1, 6, and 9) for the reasons we discuss infra.
+We first address Patent Owner’s arguments that the Examiner has
+improperly equated “at least a portion of” to “at least one of.” See Corrected
+PO App. Br. 9. As stated above, we do not agree.
+The Examiner reasonably equated the derived data’s “said data
+indicative of at least two of motion, resistance of said individual’s skin to
+electric current and heat flow” to “data indicative of at least two of motion,
+the resistance of said individual’s skin to electric current, and heat flow of
+said individual.” RAN 8 (emphasis added). In other words, the Examiner
+reasonably interpreted the derived data’s “at least a portion of” as modifying
+a restatement of the indicative data (the immediately preceding limitation),
+which restatement is signaled by the word “said.” As such, the derived data
+need be derived from only a portion of the indicative data as a whole, and
+not from a portion of at least two of the indicative data’s constituent parts.
+Hence, “at least a portion of,” within the restatement of the indicative
+data, is no more superfluous than the restatement generally. In other words,
+while the entire restatement could be replaced with something shorter, “at
+least a portion of” is afforded appropriate patentable weight and is thus
+consistent with the Federal Circuit cases Owner cites in support of the
+proposition that claim constructions that render claim terms superfluous
+should be rejected. Corrected PO App. Br. 9 (citing Cat Tech LLC v.
+TubeMaster, Inc., 528 F.3d 871, 885 (Fed. Cir. 2008); Bicon, Inc. v.
+
+15
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Straumann Co., 441 F.3d 945, 950 (Fed. Cir. 2006); and Elekta Instrument
+S.A. v. O.U.R. Scientific Int’l, Inc., 214 F.3d 1302, 1305, 1307 (Fed. Cir.
+2000)).
+We further note that Patent Owner’s preferred construction—that
+derived data must be derived “from at least a portion of [] at least two of”
+the indicative data’s constituent parts—also would require reading words out
+of the claim. In this case, “said data indicative of” (i.e., the portion of the
+claim replaced by the brackets here) would be rendered superfluous. Hence,
+because the Examiner’s construction gives weight to the derived data’s “at
+least a portion of” as modifying a restatement of the indicative data, we find
+the Examiner’s construction to be more in line with the case law cited by
+Patent Owner. Id.
+In coming to our decision, we have considered Patent Owner’s further
+“evidence” in support of the narrower construction, namely that one skilled
+in the art would adopt the narrower construction because the Office and the
+Requester are said to have done so during initial prosecution and earlier in
+this reexamination. See Corrected PO App. Br. 10–11. But while we
+considered this evidence, we ultimately found it unpersuasive of error in the
+Examiner’s present interpretation in this reexamination for the reasons stated
+above.
+Patent Owner also argues that the ensuing limitation—“said derived
+data comprising a physiological parameter of said individual that cannot be
+wholly measured directly by any one of said accelerometer, said GSR sensor
+and said heat flux sensor”—supports the position that the derived data must
+be derived from data from each of at least two of the indicative data’s
+
+16
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+constituent parts. See Corrected PO App. Br. 11–18. Specifically, Patent
+Owner argues that their interpretation is required by the constraints that
+1) the “physiological parameter” is comprised of the “derived data,” and
+2) the “physiological parameter” “cannot be wholly measured directly by
+any one of said accelerometer, said GSR sensor and said heat flux sensor.”
+Id. at 14–18. We disagree.
+First, the claim does not require the derived data to be derived
+exclusively from the indicative data. Had Patent Owner intended the claim
+to require such a construction, the claim could have recited “derived data
+only from at least a portion of said data indicative of at least two of . . . ,” or
+something similar. But the claim language does not impose such a limitation
+on the source of the derived data.
+Furthermore, because the derived data need not be derived exclusively
+from the indicative data, the claim does not preclude the “psychological
+parameter,” which “cannot be wholly measured directly by any one of said
+accelerometer, said GSR sensor and said heat flux sensor,” from being
+derived from other factors. In other words, not being “wholly measured” by
+any one named sensor, in and of itself, does not require the use of two or
+more of the named sensors. In fact, the claim even would be satisfied if the
+physiological parameter is “wholly measured” by only one of the named
+sensors as long as the measurement is not a direct measurement, as the claim
+requires.
+Hence, Patent Owner’s argument that the physiological parameter,
+which “cannot be wholly measured directly by any one of said
+
+17
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+accelerometer, said GSR sensor and said heat flux sensor,” requires the use
+of data from two different sources of the indicative data is unpersuasive.
+Because Patent Owner’s arguments that the Examiner erred are
+premised on Patent Owner’s flawed construction, we are unpersuaded of
+error. But even if we were to adopt Patent Owner’s unnecessarily narrower
+proposed construction that the “derived data [is derived] . . . from at least a
+portion of . . . at least two of” the indicative data’s constituent parts, the
+Examiner’s mapping of the claims to specific parts of Myllymäki,
+nevertheless, renders the claim obvious.
+The Examiner cited Myllymäki for a wearable sensor device that
+collects at least motion data from a motion sensor and skin conductivity data
+from a conductivity sensor. RAN 7–9 (citing Myllymäki 1:5–9, 2:23–25,
+2:47–52, and 2:58–67). In particular, the Examiner noted Myllymäki’s
+disclosure,
+A device of the invention only includes a detector and
+transducer unit 1 fastenable to some part of the body and/or a
+wrist- held display and detector unit 2. The body-held detector
+and transducer unit 1 may include a heart rate detector 3 and/or
+a movement transducer 4 such as an acceleration transducer,
+temperature transducer 5 and a conductivity transducer 6, which
+are in contact with the skin of a user. The transducer unit 1 may
+include a belt 8 to be worn around the chest. The wrist unit 2
+may include just a display and sound signal device as well as a
+communication unit for a wireless communication with the
+transducer unit 1. The wrist unit 2 can also be provided with
+some of the transducers 3-6 in view of performing some of the
+necessary analysis. The wrist unit 1 may include e.g. all
+transducers required for the surveillance of performance
+condition and, thus, its operation can be concentrated on a user.
+
+18
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+RAN 8–9 (citing Myllymäki 2:45–60) (some emphasis added, some
+emphasis omitted).
+The Examiner cited Myllymäki for the claimed derived data,
+including a physiological parameter of said individual that cannot be wholly
+measured directly by any one of said accelerometer, said GSR sensor, and
+said heat flux sensor. Id. at 9. Specifically the Examiner cited the passage,
+The transducers 3-6 are monitored by means of a
+microprocessor 9, which uses its algorithm to provide a
+description of the health or physical condition and/or
+performance condition of a user by using a plurality of different
+transducer signals to compensate for false data caused by an
+individual transducer. A characterizing feature in the signal
+processing is that it takes into consideration a combined effect of
+the motoric activity and biophysical indicators as well as the
+heart rate of a user when producing a description of the physical
+condition of the user. That is, by monitoring the interrelations
+between various indicators and by compensating the anomalies
+caused by various performance conditions of a body in the
+analyzing process, it is possible to provide a substantially more
+reliable description than that obtained by traditional methods.
+Id. (citing Myllymäki: 3:3–17) (some emphasis added, some emphasis
+omitted).
+Patent Owner argues that the Examiner’s mapping is erroneous
+because “Myllymäki fails to explicitly disclose generating any derived data
+from data generated by at least two of the specific sensors recited in claims
+1, 83, 99, and 100” and also argues that Root does not cure this deficiency.
+Corrected PO App. Br. 11; see also id. at 11–14. We are unpersuaded.
+In arguing that Myllymäki does not teach or suggest the claim
+limitation because Myllymäki does not disclose specific derived data from
+the specifically-identified sensors (id. at 11–14), Patent Owner fails to
+19
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+consider what the reference as a whole would have taught or suggested to
+one skilled in the art. “A reference may be relied upon for all that it would
+have reasonably suggested to one having ordinary skill the art, including
+nonpreferred embodiments.” Merck & Co. v. Biocraft Labs., 874 F.2d 804
+(Fed. Cir. 1989), cert. denied, 493 U.S. 975 (1989).
+Myllymäki discloses a sensing unit stated to have two of the three
+claimed sensors. Myllymäki generally. Myllymäki also expressly discloses
+that a feature of its signal processing is that it takes into consideration the
+“combined effect of the motoric activity and biophysical indicators as well
+as the heart rate of a user when producing a description of the physical
+condition of a user.” Id. at 3:9–12. Myllymäki also discloses monitoring a
+“performance condition,” which “relates to a condition resulting from
+physical and mental stress[, and] which is measurable as chemical and
+physical changes caused by the sympathetic nervous system (e.g. a stress
+condition).” Id. at 1:15–20.
+In view of these teachings, we are unpersuaded that one skilled in the
+art would not have found obvious claim 1’s limitations:
+a sensor device adapted to be placed in contact with an
+individual’s upper arm, said sensor device including at least two
+of an accelerometer, a GSR sensor and a heat flux sensor, said
+sensor device being adapted to generate:
+(i)
+data indicative of at least two of motion, the
+resistance of said individual’s skin to electric current, and
+heat flow of said individual and
+(ii) derived data from at least a portion of said data
+indicative of at least two of motion, resistance of said
+individual’s skin to electric current and heat flow, said
+derived data comprising a physiological parameter of said
+individual that cannot be wholly measured directly by any
+
+20
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+one of said accelerometer, said GSR sensor and said heat
+flux sensor.
+We find that it would not have been beyond the skill of the ordinarily
+skilled artisan in view of Myllymäki’s teachings to combine data from a
+plurality of sensors to derive a parameter that cannot be directly measured
+by any one of them. Patent Owner’s arguments that Myllymäki fails to
+teach the claimed “parameter” (Corrected PO App. Br. 14–18) are
+unavailing for the additional reasons articulated by Requester. See
+Respondent Brief By Third-Party Requester (filed June 19, 2014) (herein
+“3PR Resp. Br.”) 8–12.
+Patent Owner further argues that the Examiner erred in rejecting
+claims 83 and 99 over Myllymäki and Root because the combination of
+Myllymäki and Root does not teach or suggest generating information
+identifying “calories burned” from “data indicative of at least two of motion,
+skin resistance to electric current, and heat flow.” Corrected PO App. Br.
+18–21. We are unpersuaded, though, that the claims require generating
+calories burned from “data indicative of at least two of motion, skin
+resistance to electric current, and heat flow.”
+Claims 83 and 99 both recite, in relevant part (formatting and
+emphasis added),
+a central monitoring unit remote from said sensor device
+adapted for the generation of analytical status data from at least
+a portion of at least two of:
+(i) said data indicative of at least two of motion,
+resistance of said in individual’s skin to electric current
+and heat flow,
+(ii) said derived data and
+
+21
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+(iii) said analytical status data,
+wherein said analytical status data is comprised of
+information identifying calories burned by the individual over at
+least one period of time, and wherein the central monitoring unit
+generates the analytical status data.
+Contrary to Patent Owner’s assertions, the plain language of the
+claims requires only that the analytical status data is derived from at
+least a portion of two of the three recited possibilities. Patent Owner
+does not argue persuasively that calories burned must be generated
+specifically from “data indicative of at least two of motion, skin
+resistance to electric current, and heat flow.”
+Patent Owner argues error in the Examiner’s rejection of claims 93
+and 94 over Myllymäki and Root because “[a] proper construction of
+‘updat[ing] firmware of the sensor device’ includes reprogramming the
+sensor device by installing new firmware on the device.” Corrected PO
+App. Br. 27. Both of claims 93 and 94 recite “wherein the central
+monitoring unit communicates data to the sensor device to update firmware
+of the sensor device.” For at least the reasons stated by Requester (3PR
+Resp. Br. 19), we are unpersuaded that Patent Owner’s Specification
+requires such a narrow construction. Specifically, we agree with Requester
+that “claims 93 and 94 do not recite reprogramming the sensor device” (id.),
+and we are unpersuaded by Patent Owner that limitations from Patent
+Owner’s Specification should be read into the claims.
+Patent Owner does not further argue the rejections over Myllymäki
+and Root. Accordingly, in view of the foregoing, we are unpersuaded of
+error in the Examiner’s rejections of claims 1, 2, 14, 15, 19, 20, 21, 24–28,
+
+22
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+33–35, 38–41, 44–46, 78–83, 92–94, 99, and 100 over Myllymäki and Root
+(rejections 1, 6, and 9).
+
+The Obviousness Rejections over Myllymäki, Root, and Pottgen (Rejections
+3 and 5)
+Patent Owner argues the Examiner erred in rejecting claim 43 because
+“none of the references of record disclose the use of data indicative of the
+resistance of an individual's skin to electric current to generate . . . derived
+data about calories burned,” and because the combination of Myllymäki,
+Root, and Pottgen is improper. Corrected PO App. Br. 21–24. We are
+unpersuaded of error.
+Claim 42 depends from claim 1 and recites that “said derived data
+comprises calories burned and is based on said data indicative of motion and
+said data indicative of heat flow.” Claim 43 depends from claim 42 and
+recites “wherein said derived data is also based on said data indicative of
+resistance of said individual’s skin to electric current.”
+We note that claim 42 adds “calories burned” to the set of “derived
+data,” and that claims 42 and 43 together require that the derived data is
+“based on said data indicative of motion and said data indicative of heat
+flow” and “is also based on said data indicative of resistance of said
+individual’s skin to electric current.” But for reasons similar to those
+articulated previously, we find insufficient persuasive argument or evidence
+that calories burned must be based on “data indicative of motion,” “data
+indicative of heat flow,” and “data indicative of resistance of said
+individual’s skin to electric current,” or that “calories burned” must be based
+
+23
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+specifically on “data indicative of resistance of said individual’s skin to
+electric current.” In short, Patent Owner’s arguments are not commensurate
+with the scope of the claims.
+We also do not find the combination of Myllymäki, Root, and Pottgen
+to be improper because, as Requester states, “the disclosure of Pottgen . . . ,
+clearly discusses the challenges in accurately measuring caloric expenditure
+with wearable devices” and “[t]he disclosure of Myllymäki teaches using
+multiple sensors to correct for false data.” 3PR Resp. Br. 16–17.
+Accordingly, we are unpersuaded of error in the Examiner’s rejection of
+claims 22, 42, and 43 as obvious over Myllymäki, Root, and Pottgen
+(rejection 3).
+Regarding claim 77, Patent Owner argues error because “[a] device
+that includes different sensors used for different purposes is not the same as
+or suggestive of . . . generating derived data from motion data, heart rate
+data, skin resistance data, and heat flow data, as recited in claim 77.”
+Corrected PO App. Br. 25–26 (emphasis omitted). We are unpersuaded of
+error because, as Requester points out (3PR Resp. Br. 18), Patent Owner
+fails to appreciate what the combined teachings of the references would have
+taught or suggested to one skilled in the art.
+Patent Owner does not further argue the rejections over Myllymäki,
+Root, and Pottgen. Id. Accordingly, in view of the foregoing, we are
+unpersuaded of error in the Examiner’s rejections of claims 22, 42, 43, and
+74–77.
+
+24
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+The Obviousness Rejections over Myllymäki, Root, and Rosenberg
+(Rejection 4)
+Patent Owner argues error in the Examiner’s rejection of claim 40
+because the prior art does not disclose that the accelerometer is mounted so
+as to form specifically an angle of substantially 45 degrees with a
+longitudinal axis of a user’s arm. Corrected PO App. Br. 24–25. We are
+unpersuaded of error because, as Requester points out (3PR Resp. Br. 17),
+the claimed angle of 45 degrees amounts to an obvious optimization within
+the range of 0–180 degrees disclosed by the prior art. See Rosenberg 2:51–
+52.
+
+The Obviousness Rejections over Myllymäki, Root, and Bridger (Rejection
+8)
+Patent Owner argues error in the Examiner’s rejection of claim 95
+because “Bridger fails to disclose or suggest generating analytical status data
+relating to the sleep of an individual from at least two of skin resistance
+data, heat flow data, and motion data, as required by claim 95.” Corrected
+PO App. Br. 29. We are unpersuaded of error and agree with Requester that
+“while Bridger uses movement and pulse to assess sleep, the skin
+conductance sensor of Myllymäki could provide additional useful
+information in such assessment because it could identify sweating[,] which
+would be indicative of a sleep interruption similar to restlessness or
+agitation.” 3PR Resp. Br. 19–20. Patent Owner again fails to appreciate
+what the combined teachings of the references would have taught or
+suggested to one skilled in the art.
+
+25
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+Patent Owner does not otherwise argue the rejections over Myllymäki,
+Root, and Bridger. Accordingly, we see no error in the Examiner’s rejection
+of claims 95–98.
+Patent Owner relies on arguments presented with respect to other
+rejections for the rejections of claims 30–32 and 84–91. See Corrected PO
+App. Br. 29–30. Accordingly, we see no error in the Examiner’s rejections
+of these claims.
+
+CONCLUSION
+The Examiner did not err in rejecting claims 1, 2, 14, 15, 19, 20, 21,
+24–28, 33–35, 38–41, 44–46, 78–83, 92–94, 99, and 100 as obvious over
+Myllymäki and Root; claims 30, 31, 32, and 84–91 as obvious over
+Myllymäki, Root, and Mault; claims 22, 42, 43, and 74–77 as obvious over
+Myllymäki, Root, and Pottgen; claims 39 and 40 as obvious over
+Myllymäki, Root, and Rosenberg; and claims 95–98 as obvious over
+Myllymäki, Root, and Bridger.
+
+DECISION
+We affirm the Examiner’s decision to reject claims 1, 2, 14, 15, 19–
+22, 24–28, 30–35, 38–46, and 74–100.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+Requests for extensions of time in this inter partes reexamination
+proceeding are governed by 37 C.F.R. § 1.956. See 37 C.F.R. § 41.79.
+
+26
+
+Appeal 2015-004784
+Reexamination Control 95/002,354
+Patent 6,605,038 B1
+In the event neither party files a request for rehearing within the time
+provided in 37 C.F.R. § 41.79, and this decision becomes final and
+appealable under 37 C.F.R. § 41.81, a party seeking judicial review must
+timely serve notice on the Director of the United States Patent and
+Trademark Office. See 37 C.F.R. §§ 90.1 and 1.983.
+
+AFFIRMED
+bar
+
+PATENT OWNER:
+KILPATRICK TOWNSEND & STOCKTON LLP
+Mailstop: IP Docketing – 22
+1100 Peachtree Street
+Suite 2800
+Atlanta, GA 30309
+
+THIRD PARTY REQUESTER:
+FENWICK & WEST LLP
+Silicon Valley Center
+801 California Street
+Mountain View, CA 94041
+
+27
+
+

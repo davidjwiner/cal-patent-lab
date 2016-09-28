@@ -1,0 +1,324 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/962,460
+
+12/07/2010
+
+Matthias Merz
+
+090922-0378
+
+1953
+
+31824
+
+7590
+
+09/21/2016
+
+MCDERMOTT WILL & EMERY LLP
+The McDermott Building
+500 North Capitol Street, N.W.
+Washington, DC 20001
+
+EXAMINER
+TERRELL, EMILY C
+
+ART UNIT
+
+PAPER NUMBER
+
+2689
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mweipdocket@mwe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MATTHIAS MERZ, ROEL DAAMEN,
+AURELIE HUMBERT, and YOURI VICTOROVITCH PONOMAREV
+
+Appeal2015-007408
+Application 12/962,460
+Technology Center 2600
+
+Before JOHNNY A. KUMAR, JENNIFER L. McKEOWN, and
+NORMAN H. BEAMER, Administrative Patent Judges.
+McKEOWN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision to reject claims 1-16. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+
+Appeal2015-007408
+Application 12/962,460
+STATEMENT OF THE CASE
+Appellants' invention generally relates to "an integrated circuit
+comprising an electrode arrangement for detecting the presence of a liquid."
+Abstract.
+Claim 1 is illustrative of the claimed invention and reads as follows:
+An integrated circuit comprising:
+an electrode arrangement configured to detect presence of
+a liquid, said electrode arrangement comprising a first electrode
+and a second electrode, wherein, prior to exposure of the
+electrode arrangement to said liquid, a surface of at least one of
+the first electrode and second electrode is at least partially
+covered by a compound that is soluble in the liquid, wherein the
+electrical properties of the electrode arrangement are dependent
+on the amount of the compound covering said surface; and
+a substrate including a plurality of circuit elements and a
+metallization stack covering said substrate for providing
+interconnections between the circuit elements, wherein a
+metallization layer of said stack comprises at least one of the first
+electrode and the second electrode, said compound covering the
+1.
+
+at least one electrode region of said metallization layer.
+
+THE REJECTIONS
+The Examiner rejected claims 1, 5-8, and 10-12 1 under 35 U.S.C.
+§ 103(a) as unpatentable over Benzel et al. (US 7,193,290 B2; Mar. 20,
+
+2007) and Bloore et al. (US 4,565,455; Jan. 21, 1986). Final Act. 3-7. 2
+
+1
+
+We note that the Examiner does not include claim 7 within the list of
+rejected claims, but the Examiner finds that the combination of Benzel and
+Bloore teaches the limitations of claim 7. Final Act. 5.
+2
+Throughout this opinion, we also refer to ( 1) the Final Action mailed
+October 2, 2014 ("Final Act."); (2) the Appeal Brief filed March 24, 2015
+("App. Br."); (3) the Examiner's Answer mailed June 4, 2015 ("Ans."); and
+(4) the Reply Brief filed August 4, 2015 ("Reply Br.").
+2
+
+Appeal2015-007408
+Application 12/962,460
+The Examiner rejected claims 2, 3, and 9 under 35 U.S.C. § 103(a) as
+unpatentable over Benzel, Bloore, and Gokhfeld. (US 6,073,480; pub. June
+13, 2000). Final Act. 7-9.
+The Examiner rejected claims 4, 14, and 16 under 35 U.S.C. § 103(a)
+as unpatentable over Benzel, Bloore, and Uhlig (US 3,200,388; pub. Aug.
+10, 1965). Final Act. 9-11.
+The Examiner rejected claims 1, 10, 13, and 15 under 35 U.S.C.
+§ 103(a) as unpatentable over Benzel and Remsburg (US 5,959,535; pub.
+Sept. 28, 1999). Final Act. 11-16.
+
+ANALYSIS
+THE OBVIOUSNESS REJECTION BASED ON BENZEL AND BLOORE
+
+Claims 1, 5--8, and 10--12
+Based on the record before us, we are not persuaded the Examiner
+erred in rejecting claims 1, 5-8, and 10-12 as unpatentable over Benzel and
+Bloore.
+Appellants contend that Benzel and Bloore combined fail to teach
+"prior to exposure of the electrode arrangement to said liquid, a surface of at
+least one of the first electrode and second electrode is at least partially
+covered by a compound that is soluble in the liquid," as recited in claim 1.
+
+See App. Br. 5---6; see also claim 10 (App. Br. 14--15) (reciting "covering a
+surface of at least one of the first electrode and second electrode with a
+compound that is soluble in the liquid"). Appellants assert that, rather than
+detecting a liquid, Bloore detects a temperature range by using "a substance
+that is 'molten and conducting at a temperature above the transition
+temperature range.'" App. Br. 5 (citing Bloore, col. 6, 11. 35-37).
+
+3
+
+Appeal2015-007408
+Application 12/962,460
+According to Appellants, "Bloore fails to disclose dissolving [various] salts.
+Instead, ... Bloore discloses 'melting' of the salt to sense temperature.
+Thus, Bloore' s teachings are not germane to solubility of the salts."
+App. Br. 5; see also Reply Br 5.
+The Examiner, however, points out that claim 1 does not require the
+exposure or dissolving of the soluble compound in liquid, but only that the
+soluble compound must cover part of an electrode. Ans. 6. Notably, claim 1
+is an apparatus claim directed to an integrated circuit. While the claim 1
+language "an electrode arrangement configured to detect presence of a
+liquid" and "prior to exposure of the electrode arrangement to said liquid"
+may require the apparatus to be capable of detecting the liquid and that the
+intended use or purpose of the device is to be exposed to liquid, the claim
+limitations do not require actual exposure to liquid. See also claim 10 (App.
+Br. 14--15) (reciting a method of manufacturing an integrated circuit lacking
+any step of exposing the integrated circuit to liquid). 3
+As the Examiner explains, Bloore teaches dissolving a compound to
+detect a particular condition, e.g. transition into a temperature range. Ans. 6.
+The Examiner finds, and Appellants do not dispute, that the salts or salt
+mixtures disclosed in Bloore are well known as soluble in aqueous solutions.
+Ans. 6. As such, we agree with the Examiner that Bloore discloses the
+recited "compound that is soluble in the liquid."
+Appellants also argue that "[ o]ne of ordinary skill in the art would not
+have been motivated by Bloore to modify Benzel as suggested by the
+Examiner." App. Br. 5. Namely, "Appellant[s] respectfully submit[] that
+
+3
+
+We also note that Benzel teaches that, in at least one embodiment, the
+sensor may be "for a liquid medium." Benzel, col. 1, 11. 40-43.
+4
+
+Appeal2015-007408
+Application 12/962,460
+Bloore's teachings are inapplicable to Benzel because Bloore's teaching are
+directed to melting rather than solubility." App. Br. 6; see also Reply Br. 34.
+
+The Examiner reasons that a skilled artisan would modify Benzel in
+view of Bloore
+in order to provide a "sensor which is operative to cut off or
+reduce the heating effect of a heat producing device when the
+sensor detects a temperature at or above a predetermined
+temperature, and which may be operative to restore the heating
+effect of the heat producing device when the sensor detects a
+temperature below the predetermined temperature (Column 1
+lines 7-13)."
+Final Act. 4. In other words, it would have been readily apparent to a skilled
+artisan to modify Benzel to include a soluble compound, as taught by
+Bloore, to provide the ability to additionally detect a temperature at or above
+a predetermined temperature. In short, the Examiner's proposed heat
+detection enhancement predictably uses prior art elements according to their
+established functions-an obvious improvement. See KSR Int 'l Co. v.
+Teleflex Inc., 550 U.S. 398, 417 (2007).
+
+Moreover, Bloore more generally teaches detecting a condition by
+dissolving salts or salt mixtures, which were also well known to be soluble
+in liquid. See, e.g., Bloore, col. 6, 11. 41--48; col. 7, 11. 7-20. Benzel
+describes the desire to detect a liquid medium. Benzel, col. 1, 11. 40--44. It
+would have been obvious at the time of the invention, then, to modify
+Benzel to detect a condition, i.e. the presence of liquid, through using
+dissolving salts or salt mixtures, as taught by Bloore. Such a combination
+merely uses a known technique, detection through use of soluble
+compounds, to improve a similar device, liquid detection sensor, in the same
+
+5
+
+Appeal2015-007408
+Application 12/962,460
+way and, thus, would be obvious to a skilled artisan at the time of the
+invention. See Benzel, col. 1, 11. 40-44 (noting that if a technique has been
+used to improve one device, and an ordinarily skilled artisan would
+recognize that it would improve similar devices in the same way, using the
+technique is obvious unless its actual application is beyond his or her skill);
+see also Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162
+
+(Fed. Cir. 2007).
+Finally, Appellants assert that Benzel teaches away from the
+combination with Bloore (Reply Br. 3) and contend that Benzel fails to teach
+a metallization stack as claimed. Reply Br. 5---6. This argument, however,
+was raised for the first time in the Reply Brief and is, therefore, waived as
+untimely. Compare Reply Br. 3, 5---6 with App. Br. 4---6. See also Ex parte
+Borden, 93 USPQ2d 1473, 1474 (BPAI 2010) (informative) ("[T]he reply
+
+brief [is not] an opportunity to make arguments that could have been made
+in the principal brief on appeal to rebut the Examiner's rejections, but were
+not.").
+Accordingly, for the reasons discussed above and by the Examiner,
+we sustain the rejection of claim 1, as well as claims 5-8 and 10-12.
+
+THE OBVIOUSNESS REJECTION BASED ON BENZEL, BLOORE, AND ADDITIONAL
+CITED PRIOR ART
+
+Claims 2-4, 9, 14, and 16
+
+Appellants do not present any separate arguments of patentability for
+claims 2--4, 9, 14, and 16, but rather rely on the arguments presented for
+claims 1 and 10. See App. Br. 8-9. For the reasons discussed above, we
+
+6
+
+Appeal2015-007408
+Application 12/962,460
+find these arguments unpersuasive. Accordingly, we sustain the rejection of
+claims 2--4, 9, 14, and 16.
+
+THE OBVIOUSNESS REJECTION BENZEL AND REMSBURG
+
+Claims 1, 10, 13, and 15
+
+Based on the record before us, we are persuaded that the Examiner
+erred in rejecting claims 1, 10, 13, and 15 as unpatentable over Benzel and
+Remsburg. Namely, we agree with Appellants that the combination of
+Benzel and Remsburg fails to teach or suggest a surface of at least one of the
+first electrode and second electrode is at least partially covered by a
+compound that is soluble in the liquid. See Reply Br. 6-7.
+Remsburg is directed to a device with an electrical wetness sensor to
+warn of incontinence. Remsburg, Abstract. Specifically, Remsburg's
+device includes an anode, a cathode, and a dielectric line between them
+made of absorbent and hydrophilic material, such as cotton, for retaining
+urine. Remsburg, col. 6, 11. 59-62; col. 7, 11. 3---6. The absorbent layer
+absorbs the urine, an electrolyte, creating an electrical connection between
+the anode and cathode to produce a galvanic reaction. Remsburg, col. 7,
+11. 4---6.
+The Examiner does not rely on Remsburg's absorbent dielectric line,
+but instead finds that Remsburg's anode is a compound that is soluble in
+liquid. See Ans. 8-9. While we recognize that Remsburg's anode does
+corrode in the urine electrolyte, this reaction occurs based on the galvanic
+reaction. As Appellants explain, "very specific electrochemical conditions
+with respect to the anode, the cathode and the electrolyte must be given in
+order to achieve galvanic corrosion, as pointed out by Remsburg from
+
+7
+
+Appeal2015-007408
+Application 12/962,460
+column 10, line 21 to column 11line11." Reply Br. 6. As such, we agree
+with Appellants that a skilled artisan would not understand Remsburg's
+anode, which according to Remsburg preferably includes a composition of
+magnesium, aluminum, zinc, calcium, silicon, iron, and other impurities
+(Remsburg, col. 5, 11. 58---64), to be compound that is soluble in liquid.
+According!y, we do not sustain the rejection of claims 1, 10, 13, and
+15 as unpatentable over Benzel and Remsburg.
+
+CONCLUSION
+We affirm the Examiner's decision to reject claims 1-12, 14, and 16
+as unpatentable under 35 U.S.C. § 103 based on Benzel and Bloore alone
+and with additionally cited prior art, but reverse the Examiner decision to
+reject claims 1, 10, 13, and 15 as unpatentable under 35 U.S.C. § 103 based
+on Benzel and Remsburg.
+
+DECISION
+The decision rejecting claims 1-12, 14, and 16 is affirmed, but the
+decision rejecting claims 13 and 15 is reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED-IN-PART
+
+8
+
+

@@ -1,0 +1,210 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/473,140
+
+0512712009
+
+Andres Lucero
+
+NC68737-US-PAT
+
+8987
+
+100809
+
+7590
+
+09/19/2016
+
+Core Wireless Licensing Ltd
+5601 Granite Parkway
+Suite 1300
+Plano, TX 75024
+
+EXAMINER
+FANG,PAKEE
+
+ART UNIT
+
+PAPER NUMBER
+
+2642
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipadmin-core@core-wireless.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ANDRES LUCERO and MARION BOBERG
+
+Appeal2015-005937
+Application 12/473,140
+Technology Center 2600
+
+Before JASON V. MORGAN, MICHAEL J. STRAUSS, and
+AARON W. MOORE, Administrative Patent Judges.
+MOORE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-005937
+Application 12/473,140
+STATEMENT OF THE CASE
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-20, which are all of the pending claims. We have jurisdiction
+under 35 U.S.C. § 6(b ).
+We affirm.
+
+THE INVENTION
+The application is directed to "[a]n approach ... for the presentation
+of guidance information for capturing media content by a mobile device."
+(Abstract.) Claim 1, reproduced below, is illustrative:
+1. A method comprising:
+acquiring location information of a mobile device;
+capturing a plurality of types of media content using the
+mobile device, wherein a digital image, a video clip, and an audio
+clip are each a different type of media content;
+initiating presentation of guidance information for capturing
+at least one of the types of media wherein the guidance
+information is based, at least in part, on the location information
+of the mobile device; and
+providing the plurality of types of captured media content for
+presentation in a virtual environment, the virtual environment
+including at least one frame for each captured type of media
+content.
+
+1
+
+Appellants identify Core Wireless Licensing S.a.r.1. as the real party in
+interest. (See App. Br. 2.)
+2
+
+Appeal2015-005937
+Application 12/473,140
+THE REFERENCES AND THE REJECTION
+Claims 1-20 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over Gulliksson (US 2008/0180550 Al; pub. July 31, 2008) and Samadani
+et al. (US 6,906,643 B2; issued June 14, 2005). (See Final Act. 2-5.)
+
+APPELLANTS' CONTENTIONS
+Appellants argue that the rejections are in error for the following
+reasons:
+1.
+
+The combination fails to teach or suggest "capturing a plurality
+
+of types of media content" and providing a "plurality of types of captured
+media content" in a virtual environment that includes "at least one frame for
+each captured type of media content." (See App. Br. 6-7.)
+2.
+
+The combination is faulty because: "one skilled in the art
+
+would not be motivated to combine Gulliksson with Samadani" (App. Br. 8);
+"the Examiner has not provided any logical basis to suggest how Gulliksson
+and Samadani can be combined to disclose or teach each and every feature
+of Appellants' claimed invention" (id. at 10); "[t]he argued combination ...
+is not possible because it is illogical" (id.); "Gulliksson teaches away from
+using multiple types of media content" (id. at 11 ); and the Examiner has
+engaged in "impermissible hindsight" (id.).
+
+ANALYSIS
+The Examiner found that Gulliksson teaches all limitations of claim 1,
+except that "Gulliksson doesn't explicitly teach capturing a plurality of types
+of media content using the mobile device; wherein a digital image, a video
+clip, and an audio clip are each a different type of media content." (Final
+
+3
+
+Appeal2015-005937
+Application 12/473,140
+Act. 3.) The Examiner further found, however, that "Samadani discloses
+capturing a plurality of types of media content using the mobile device;
+wherein a digital image, a video clip, and an audio clip are each a different
+type of media content" and that it
+would have been obvious for one of ordinary skill in the art at
+the time of invention to combine the teaching of Gulliksson with
+having a capturing device to capture different multimedia e.g. a
+digital image, a video clip, and/or an audio clip of Samadani to
+allow the system to stitch different types of multimedia, thus,
+improving the adaptability and user friendliness of the image
+system.
+(Id. at 3--4.)
+
+Appellants argue that the "claimed invention includes providing
+multiple types of media content in a virtual environment" and that
+"Gulliksson discloses capturing only one type of media content: a picture."
+(App. Br. 7.) This argument is not persuasive because the Examiner relies
+on Samadani, not Gulliksson, for the use of different types of media. See In
+re Merck & Co. Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986) ("Non-
+
+obviousness cannot be established by attacking references individually
+where the rejection is based upon the teachings of a combination of
+references.").
+Appellants also attack the combination as without "any logical basis"
+and "not possible because it is illogical." (App. Br. 10.) We do not agree.
+As the Examiner found, Gulliksson teaches the claimed system except that it
+assembles one type of media captured by a camera, and Samadani teaches
+that a camera device can capture multiple types of media. (See Final Act. 34, 6-8.) We agree with the Examiner that it would have been logical, and
+obvious, to implement a system like Gulliksson but with multiple types of
+4
+
+Appeal2015-005937
+Application 12/473,140
+media content, as in Samadani. For example, it would have been obvious to
+capture a video clip (one type of media) and a corresponding sound clip (a
+second type of media) and to present them together.
+Appellants also argue that Gulliksson "teaches away" and that the
+Examiner has engaged in "impermissible hindsight." (App. Br. 11.) We
+again do not agree. The combination is not a result of improper hindsight
+because it is supported by an articulated reasoning with a rational
+underpinning, as explained above, and merely teaching a different way is not
+"teaching away." See In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006); In re
+Fulton, 391 F.3d 1195, 1201 (Fed. Cir. 2004) ("[M]ere disclosure of
+
+alternative designs does not teach away.").
+
+DECISION
+The rejections of claims 1-20 are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

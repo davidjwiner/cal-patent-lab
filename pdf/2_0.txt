@@ -1,0 +1,389 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/203,298
+
+08/25/2011
+
+Nicusor Penisoara
+
+MT11209ES
+
+6207
+
+34814
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+NXP-LARSON NEWMAN, LLP
+6501 William Cannon Drive West
+Austin, TX 78735
+
+YACOB, SISAY
+
+ART UNIT
+
+PAPER NUMBER
+
+2685
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ip.department.us@nxp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte NICUSOR PENISOARA, RAZVAN-MIHAI LUCACI,
+and ADRIAN-IOAN NISTOR 1
+
+Appeal2015-006764
+Application 13/203,298
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, JOHN F. HORVATH, and
+DAVID J. CUTITTA II, Administrative Patent Judges.
+CUTITTA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) from the Final Rejection of
+claims 1, 14, and 15, which are each independent. Claims 2-13 and 16-21
+are indicated as cancelled. We have jurisdiction over this appeal under 3 5
+U.S.C. § 6(b).
+We AFFIRM-IN-PART. 2
+
+1
+
+According to Appellants, the real party in interest is Freescale
+Semiconductor, Inc. See Appeal Brief 1.
+2
+Throughout this Opinion, we refer to: (1) Appellants' Specification filed
+Aug. 25, 2011 ("Spec."); (2) the Final Office Action ("Final Act.") mailed
+Apr. 23, 2014; (3) the Appeal Brief("Appeal Br.") filed Dec. 12, 2014; (4)
+the Examiner's Answer ("Ans.") mailed May 8, 2015; and (5) the Reply
+Brief ("Reply Br.") filed July 8, 2015.
+
+Appeal2015-006764
+Application 13/203,298
+BACKGROUND
+
+According to Appellants, the claimed invention relates to a method
+and a radio frequency control system that selects at least one device to be
+controlled by a radio frequency controller device. Spec. 1. Claim 1 is
+reproduced below with disputed limitation emphasized:
+1.
+A method for selecting at least one device to be controlled
+by a radio frequency (RF) controller device, the method
+compnsmg:
+determining a first link quality value for a first device
+associated with a first group of a plurality of groups, each group
+of the plurality of groups having one or more controllable
+devices;
+determining a second link quality value for a second
+device associated with a second group of the plurality of groups;
+calculating a first proximity factor for the first group based
+at least partly on the determined first link quality value;
+calculating a second proximity factor for the second group
+based at least partly on the determined second link quality value;
+comparing the first and second proximity factors;
+based on the comparing, selecting the first group to be
+controlled by the RF controller device over the second group in
+response to the first group having a more favourable proximity
+factor than the second group; and
+subsequent to selecting the first group, selecting a different
+group ofthe plurality ofgroups in response to the different group
+having a proximity factor that is more favourable by more than
+a threshold amount than the proximity factor of the currently
+selected first group.
+
+2
+
+Appeal2015-006764
+Application 13/203,298
+Claim 14 is reproduced below with disputed limitation
+emphasized:
+14. An integrated circuit for a radio frequency (RF) controller
+device comprising:
+signal processing logic arranged to arrange a plurality of
+controllable devices into a plurality of groups, determine a first
+link quality value for a first controllable device associated with a
+first group of the plurality of groups, determine a second link
+quality value for a second controllable device associated with a
+second group of the plurality of groups, calculate a first
+proximity factor for the first group based at least partly on the
+determined first link quality value, calculate a second proximity
+factor for the second group based on the determined second link
+quality value, compare the first and second proximity factors,
+and select the group of controllable devices having a more
+favourable proximity factor to be controlled by the RF controller
+device.
+
+Claim 15 is reproduced below with disputed limitation
+emphasized:
+15.
+
+A radio frequency (RF) control system comprising:
+a plurality of controllable devices; and
+
+an RF controller device, the RF controller device
+comprising RF circuitry arranged to transmit and receive RF
+signals to and from controllable devices, and signal processing
+logic operably coupled to the RF circuitry;
+wherein the signal processing logic is arranged to arrange
+the plurality of controllable devices into a plurality of groups,
+determine link quality value for at least one controllable device
+associated with the plurality of groups, calculate a proximity
+factor for the plurality of groups of controllable devices based at
+least partly on the determined at least one link quality value
+compare proximity factors for the plurality of groups, and select
+the group of controllable devices comprising a favourable
+proximity factor to be controlled by the RF controller device.
+
+3
+
+Appeal2015-006764
+Application 13/203,298
+REFERENCES
+The art relied upon by the Examiner in rejecting the claims on appeal:
+de Clerq et al.
+("de Clerq")
+
+US 2005/0094610 Al
+
+May 5, 2005
+
+Camp et al. ("Camp")
+
+US 2008/0238661 Al
+
+Oct. 2, 2008
+
+Nakano et al.
+("Nakano")
+
+US 2009/0195407 Al
+
+Aug. 6, 2009
+
+REJECTIONS
+Claims 1and14 stand rejected under 35 U.S.C. §102(b) as being
+anticipated by Camp. Final Act. 6.
+Claim 15 stands rejected under 35 U.S.C. §103(a) as being
+unpatentable over de Clerq in view of Nakano. Final Act. 3.
+Our review in this appeal is limited only to the above rejections and
+issues raised by the Appellants. We have not considered other possible
+issues that have not been raised by Appellants and which are, therefore, not
+before us. See 37 C.F.R. § 41.37(c)(l)(iv) (2014).
+
+ISSUES
+1.
+
+Did the Examiner err in finding Camp discloses "selecting a
+
+different group of the plurality of groups in response to the different group
+having a proximity factor that is more favourable by more than a threshold
+amount than the proximity factor of the currently selected first group," as
+recited in claim 1?
+2.
+
+Did the Examiner err in finding Camp discloses "signal
+
+processing logic arranged to arrange a plurality of controllable devices into
+a plurality of groups," as recited in claim 14?
+
+4
+
+Appeal2015-006764
+Application 13/203,298
+3.
+Did the Examiner err in finding the combination of de Clerq
+and Nakano teaches or suggests "wherein the signal processing logic is
+arranged to arrange the plurality of controllable devices into a plurality of
+groups," as recited in claim 15?
+DISCUSSION
+35 U.S.C. § 102: Claim 1
+
+The Examiner relies on Camp to disclose "selecting a different group
+of the plurality of groups in response to the different group having a
+proximity factor that is more favourable by more than a threshold amount
+than the proximity factor of the currently selected first group," as recited in
+claim 1. Final Act. 8-9. In particular, the Examiner finds that in Camp,
+when device 10 moves through house 52 the signal strength from devices A,
+B, and C change accordingly, and the signal characteristics from each
+responding device and the corresponding transmission power levels are
+compared with previously acquired reference measurements, which meet the
+claimed more than a threshold amount. Ans. 3-5 (citing Camp i-fi-191-95 and
+Figs. 8A and 8B).
+Appellants contend the Examiner errs because Camp fails to disclose
+the use of a threshold in the selection of a group because "Camp fails to
+teach that a correlation of signal strengths for a different location must be
+more favorable than a correlation of signal strengths for a current location Qy_
+a threshold amount." Appeal Br. 6.
+We agree with Appellants' arguments that the Examiner's findings do
+not disclose all of the features of claim 1. Specifically, we find the
+Examiner fails to establish that Camp discloses "a proximity factor that is
+
+5
+
+Appeal2015-006764
+Application 13/203,298
+more favourable by more than a threshold amount," as recited in claim 1
+(emphasis added).
+Accordingly, we do not sustain the Examiner's 35 U.S.C. § 102(b)
+rejection of claim 1.
+
+35 U.S. C. § 102: Claim 14
+
+We have reviewed the Examiner's rejections and the evidence of
+record in light of Appellants' arguments that the Examiner has erred. We
+disagree with Appellants' arguments and conclusions. We adopt as our own,
+( 1) the findings and reasons set forth by the Examiner in the Office Action
+
+from which this appeal is taken and (2) the findings and reasons set forth in
+the Examiner's Answer. We concur with the conclusions reached by the
+Examiner and further highlight specific findings and argument for emphasis
+as follows.
+Appellants contend that Camp does not disclose the claimed arranging
+of a plurality of controllable devices into a plurality of groups because the
+portion of Camp cited by the Examiner merely shows appliances placed in
+rooms. Appeal Br. 7. Specifically, Appellants state that "[n ]either the
+figure, nor Camp's description of the figure, teaches the arrangement of the
+controllable devices into groups by signal processing logic." Appeal Br. 7
+(citing Camp Fig. 5 and i-f 77).
+We find Appellants' arguments unpersuasive. We agree with the
+Examiner's finding that Camp discloses the arrangement of controllable
+devices into groups. Indeed, mobile telephone 10 of Camp may arrange a
+group of controllable devices just by electing to control the devices, e.g., by
+electing to tum on one or more devices within a room. Ans. 7 (citing Camp
+Fig. 5 and i-f 7 5). Because Camp discloses controllable devices located in
+6
+
+Appeal2015-006764
+Application 13/203,298
+multiple rooms (i.e., living room, bedroom, kitchen) we also agree that
+Camp's mobile telephone 10 may arrange a plurality of groups by arranging
+a different group for each room. 3 Id. We also agree with the Examiner's
+finding that Camp discloses arranging devices into a plurality of groups
+using signal processing logic. Final Act. 12.
+Accordingly, we sustain the Examiner's 35 U.S. C. § 102(b) rejection
+of claim 14.
+35 U.S.C. § 103: Claim 15
+
+We disagree with Appellants' conclusions and adopt as our own:
+( 1) the findings and reasons set forth by the Examiner in the Office Action
+from which this appeal is taken; and (2) the reasons set forth by the
+Examiner in the Examiner's Answer in response to the Appeal Brief. With
+respect to the claims argued by Appellants, we highlight and address specific
+findings and arguments for emphasis as follows.
+Appellants contend that de Clerq does not teach or suggest the
+claimed arranging of a plurality of controllable devices into a plurality of
+groups because "[i]n both figures [1 and 4] a controlling device (10) is
+shown, but neither the figures nor the descriptions of the figures teach that
+the controlling device has arranged the appliances into groups as recited in
+claim 15." Appeal Br. 8.
+
+3
+
+To the extent claims 14 and 15 are enabled, we note Appellants'
+Specification discloses arranging controllable devices into groups by
+associating controllable devices with their locations (e.g., devices 110 and
+120 in first location 160 are associated with a first group (Room 1), and
+devices 130 and 140 in second location 170 are associated with a second
+group (Room 2)). Spec. 3:37--4:3. Camp and de Clerq similarly disclose
+controllable devices associated with the rooms in which they are located.
+See Camp, Fig. 5; see also de Clerq, Fig. 1.
+7
+
+Appeal2015-006764
+Application 13/203,298
+We find Appellants' arguments unpersuasive. We agree with the
+Examiner's finding that de Clerq teaches the arrangement of controllable
+devices into groups. For example, controlling device 10 of de Clerq may
+arrange a group of controllable devices, such as signaling devices 14a--d, by
+electing to control the devices. Ans. 8 (citing de Clerq Fig. 1 and ifif30-31 ).
+The Examiner also finds that controlling device 10 may arrange controllable
+devices into a plurality of groups (e.g., multiple control environments 100,
+120, and 130). Ans. 8 (citing de Clerq Fig. 4 and iii! 34--35).
+We also agree with the Examiner's finding that de Clerq suggests
+using signal processing logic. Final Act. 4 (citing de Clerq's microprocessor
+24 of Fig. 2 and iii! 17-18).
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claim 15. 4 ,5
+
+4
+
+In the event of further prosecution, the Examiner may wish to consider
+\~1hether claims 14 and 15 recite sufficient strt1cture or, instead, should be
+interpreted in accordance with 35 U.S.C. § 112, sixth paragraph (pre-AIA)
+as means-plus-function limitations. See Williamson v. Citrix Online, LLC,
+792 F.3d 1339 (Fed. Cir. 2015). If appropriately interpreted as mean-plusfunction elements, the Examiner may wish to further consider whether
+Appellants' Specification adequately discloses a structure for performing the
+recited function. For example, the corresponding structure of a means-plusfunction limitation must be more than simply a general-purpose computer or
+microprocessor to avoid pure functional claiming. Aristocrat Techs. Aust!.
+Pty Ltd. v. Int'! Game Tech., 521F.3d1328, 1333 (Fed. Cir. 2008). The
+Specification must disclose the "algorithm in any understandable terms
+including as a mathematical formula, in prose, or as a flow chart, or in any
+other manner that provides sufficient structure." Finisar Corp. v. DirectTV
+Group Inc., 523 F.3d 1323, 1340 (Fed. Cir. 2008) (internal citations
+omitted).
+5
+In the event of further prosecution, the Examiner may also wish to consider
+whether claims 14 and 15 enable signal processing logic arranged to arrange
+a plurality of controllable devices into a plurality of groups, i.e., to actually
+8
+
+Appeal2015-006764
+Application 13/203,298
+DECISION
+We reverse the Examiner's decision rejecting claim 1 under 35 U.S.C.
+§ 102(b).
+We affirm the Examiner's rejection of claims 14 under 35 U.S.C.
+§ 102(b).
+We affirm the Examiner's rejection of claim 15 under 35 U.S.C.
+§ 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+arrange the controllable devices into a plurality of groups instead of simply
+associating the devices with predetermined groups such as devices located in
+Room 1 or devices located in Room 2.
+9
+
+
