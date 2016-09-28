@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import urllib, unicodecsv, urllib2, time, os
 from subprocess import call
+import random
 
 homepage = "https://e-foia.uspto.gov/Foia/"
 #Converts string to integer. If "NONE" is in the string, return -1.
@@ -18,11 +19,11 @@ def convert_date(arg):
 	return int(date[2] + date[0] + date[1])
 
 def download_file(download_url,name):
-    response = urllib2.urlopen(download_url)
-    file_ = open(name, 'w')
-    file_.write(response.read())
-    file_.close()
-    print("Completed")
+	response = urllib2.urlopen(download_url)
+	file_ = open(name, 'w')
+	file_.write(response.read())
+	file_.close()
+	print("Completed")
 
 
 #Downloads html of links to all tables in USPTO and saves them to html folder.
@@ -36,11 +37,10 @@ def download_html():
 		f.close()
 
 def convert_pdf(file_name):
-
 	call(["pdftotext", file_name])
 
 def main(csv_name,start_page,end_page, start_row= None):
-	with open(csv_name, 'w') as csvfile:
+	with open(csv_name, 'a') as csvfile:
 		writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
 		writer.writerow(["PDF No","Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
 		count = 0
@@ -60,6 +60,7 @@ def main(csv_name,start_page,end_page, start_row= None):
 				row_range = [i for i in range(start_row,len(rows))]
 				start_row= None
 			for i in row_range:
+				time.sleep(abs(random.gauss(2.2, 1.0)))
 				row = rows[i]
 				row_num +=1
 				print("Page: " + str(curr) + "  Row: " + str(row_num))
@@ -73,11 +74,15 @@ def main(csv_name,start_page,end_page, start_row= None):
 				download_file(homepage+pdf, file_name)
 				del_lst.append(file_name)
 				count +=1
-				if count ==400:
-					count = 0
-					for file_name in del_lst:
-						convert_pdf(file_name)
-						os.remove(file_name)
+#				if count ==60:
+#					for file_name in del_lst:
+#						convert_pdf(file_name)
+#						try:
+#							os.remove(file_name)
+#						except OSError as e:
+#							pass
+#					count = 0
+#					del_lst = []
 
 				appeal_no = cols[1].string.strip()
 
@@ -105,13 +110,14 @@ def main(csv_name,start_page,end_page, start_row= None):
 					else:
 						new_output.append(elem)
 				writer.writerow(new_output)
-		if count:
-			for file_name in del_lst:
-				convert_pdf(file_name)
-				os.remove(file_name)
+				csvfile.flush()
+#		if count:
+#			for file_name in del_lst:
+#				convert_pdf(file_name)
+#				os.remove(file_name)
 
 
-main('uspto_data_3.csv', 1021, 1361)
+main('uspto_data_3_2.csv', 1024, 1361, 43)
 
 #If you have to run again, check terminal for Page: and Row: and call the following function:
 #Uncomment These Lines===============================
