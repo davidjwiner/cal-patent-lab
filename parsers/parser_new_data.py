@@ -32,8 +32,8 @@ def parsePatentId(fileIndex):
 def parseDecision(fileIndex):
     infile = casefile_tmpl.format(fileIndex)
     outfile = propfile_tmpl.format(fileIndex)
-    invalMatcher1 = re.compile('ORDERED.+?claim(s)?\s+\d+.+?(unpatentable|anticipated|cancelled)')
-    invalMatcher2 = re.compile('ORDERED.+?adverse\s+judgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
+	invalMatcher1 = re.compile('ORDERED.+?claim(s)?\s+\d+.+?(unpatentable|anticipated|cancelled)')
+	invalMatcher2 = re.compile('ORDERED.+?[aA]dverse\s+[jJ]udgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
     with open(infile) as f:
         text = f.read().replace('\n', ' ')
         result1 = invalMatcher1.search(text)
@@ -60,10 +60,10 @@ def parseUSCode(fileIndex):
         if USCMatchResult:
             USCode = re.compile('U.S.C.\s\§\s*[l0-9]+\s*(\([a-z]\))*')
             USCodeResult = list(set([x.group(0)[10:].strip() for
-                x in USCode.finditer(text)]))          
+                x in USCode.finditer(text)]))
             with open(outfile, 'a') as propertiesFile:
                 propertiesFile.write("USC: {}\n".format(USCodeResult))
-                    
+
             return USCodeResult
         else:
             return []
@@ -76,7 +76,7 @@ def getUSCodeStats(uscodeList):
 
 
 if __name__ == "__main__":
-    uscodeList = [] 
+    uscodeList = []
     uscodeListInvalidated = []
     uscodeListNotInvalidated = []
     for i in range(NUMBER_FILES):
@@ -84,9 +84,9 @@ if __name__ == "__main__":
         decision = parseDecision(i)
         uscode = parseUSCode(i)
         # Get the list of all the USCode and concatenate them in a big list in order
-        # to count the number of occurence of each code       
+        # to count the number of occurence of each code
         uscodeList += uscode
-        # TODO(DS): I don't like comparing it to a string. Find a more clever way        
+        # TODO(DS): I don't like comparing it to a string. Find a more clever way
         if decision == "invalidated":
             uscodeListInvalidated += uscode
         else:
