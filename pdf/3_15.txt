@@ -1,0 +1,462 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/913,107
+
+06/07/2013
+
+Mark Cameron Little
+
+05220-1690 (P0257C)
+
+4227
+
+14400
+
+7590
+
+09/20/2016
+
+Patent Docket Administrator
+LOWENSTEIN SANDLER LLP
+65 Livingston A venue
+Roseland, NJ 07068
+
+EXAMINER
+KRAFT, SHIH-WEI
+
+ART UNIT
+
+PAPER NUMBER
+
+2194
+
+MAILDATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MARK CAMERON LITTLE
+
+Appeal2015-006839
+Application 13/913,107
+Technology Center 2100
+
+Before ALLEN R. MacDONALD, JOHN P. PINKERTON, and
+GARTH D. BAER, Administrative Patent Judges.
+PINKERTON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant 1 appeals under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1-20, which constitute all the claims pending in
+this application. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in part.
+
+1
+
+The real party in interest identified by Appellant is the assignee, Red Hat,
+Inc. Appeal Br. 3.
+
+Appeal2015-006839
+Application 13/913,107
+STATEMENT OF THE CASE
+
+Introduction
+Appellant's described and claimed invention relates generally to
+monitoring dependencies in a distributed computing system. Spec i-f 20.
+Claim 1 is representative and reads as follows (with the disputed
+limitation emphasized):
+1.
+
+A computer implemented method, comprising:
+
+recording, by a processor, statistics regarding invocation
+of a second component of a distributed computing system by a
+first component of the distributed computing system;
+determining, by the processor, a dependency between the
+first component and the second component based on the
+statistics;
+determining, by the processor, a dependency rating for the
+dependency based on the statistics;
+migrating the first component from a first location to a
+second different location; and
+
+responsive to determining that the dependency rating for
+the dependency exceeds a dependency threshold, migrating the
+second component to the second location.
+Appeal Br. 17 (Claims App.).
+
+References
+Kampe et al.
+
+US 2002/0007468 Al
+
+Jan. 17,2002
+
+Halpern
+
+US 2003/0182427 Al
+
+Sept. 25, 2003
+
+Agarwal et al.
+
+US 2005/0172306 Al
+
+Aug. 4, 2005
+
+Victoria et al.
+
+US 2005/0235248 Al
+
+Oct. 20, 2005
+
+Oztekin et al.
+
+US 2007/0233671 Al
+
+Oct. 4, 2007
+
+2
+
+Appeal2015-006839
+Application 13/913,107
+Re} ections on Appeal2
+1.
+
+Claims 1, 2, 6, 8-10, 14, 16, 17, and 20 stand rejected
+under 35 U.S.C. § 103(a) as being unpatentable over
+Agarwal, in view of Halpern, and further in view of
+Victoria.
+
+2.
+
+Claims 3-5, 11-13, 18, and 19 stand rejected under
+35 U.S.C. § 103(a) as being unpatentable over Agarwal,
+in view of Halpern and Victoria, and further in view of
+Oztekin.
+
+3.
+
+Claims 7 and 15 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Agarwal, in view of Halpern
+and Victoria, and further in view of Kampe.
+Issues on Appeal
+
+Appellant's arguments in the Appeal Brief3 and Reply Brief present us
+with the following issues:
+1.
+
+Does the combination of Agarwal, Halpern, and Victoria
+teach or suggest "responsive to determining that the
+dependency rating for the dependency exceeds a
+dependency threshold, migrating the second component
+
+2
+
+The Examiner also rejected claims 1-20 on the ground of non-statutory
+double patenting, but withdrew the rejection in the Examiner's Answer in
+view of Appellant's filing of a terminal disclaimer. Final Act. 4--7; Ans. 27.
+Therefore, this rejection is not before us.
+3
+Our Decision refers to the Final Office Action (mailed July 22, 2014,
+"Final Act."), Appellant's Appeal Brief (filed Dec. 19, 2014, "Appeal Br.")
+and Reply Brief (filed July 14, 2015, "Reply Br."), the Examiner's Answer
+(mailed May 15, 2015, "Ans."), and the original Specification (filed June 7,
+2013, "Spec.").
+3
+
+Appeal2015-006839
+Application 13/913,107
+to the second location," as recited in claim 1, and
+similarly recited in claims 9 and 17?
+2.
+
+Does the combination of Agarwal, Halpern, Victoria, and
+Oztekin teach or suggest "applying an atomic decay to
+the dependency rating, wherein the atomic decay reduces
+a value of the dependency rating over time according to a
+specified atomic decay factor," as recited in claims 3 and
+11, and similarly recited in claim 18?
+
+3.
+
+Does the combination of Agarwal, Halpern, Victoria, and
+Oztekin teach or suggest "resetting the dependency rating
+each time the first component invokes the second
+component," as recited in claims 4 and 12?
+
+4.
+
+Does the combination of Agarwal, Halpern, Victoria, and
+Oztekin teach or suggest "wherein the atomic decay
+reduces the value of the dependency rating over time
+according to a first atomic decay factor if the dependency
+includes a first service and according to a second atomic
+decay factor if the dependency includes a second
+service," as recited in claims 5 and 19?
+ANALYSIS
+Issue 1
+
+Appellant argues Halpern does not teach or suggest determining any
+dependency between services or performing migration based on such a
+determination. Appeal Br. 8; Reply Br. 10. Appellant further argues
+Victoria only teaches using a confidence value assigned to a dependency to
+color code the dependency within a displayed deployment plan, and does not
+4
+
+Appeal2015-006839
+Application 13/913,107
+teach using the confidence value to determine which service to migrate.
+Appeal Br. 9; Reply Br. 11. Appellant also argues Victoria's confidence
+value does not teach the claimed "dependency rating" because Victoria's
+confidence value represents a likelihood a dependency exists, whereas, in
+contrast, the claimed "dependency rating" is assigned to an identified
+existing dependency, and the claimed "dependency rating" denotes the
+degree (i.e., strength) of the existing dependency. Appeal Br. 10; Reply
+Br. 12. Thus, as argued by Appellant, the Final Office Action fails to
+establish a prima facie case of obviousness with regard to claim 1. Appeal
+Br. 10-11; Reply Br. 17-19.
+Regarding Appellant's arguments that Halpern fails to teach or
+suggest determining a dependency between services and that Victoria fails to
+teach or suggest migrating services, we do not find these arguments
+persuasive. It is well established that one cannot show non-obviousness by
+attacking references individually where the rejection is based upon the
+teachings of a combination of references. See In re Merck & Co., 800 F.2d
+1091, 1097 (Fed. Cir. 1986); see also In re Keller 642 F.2d 413, 425 (CCPA
+1981) ("[T]he test is what the combined teachings of the references would
+have suggested to those of ordinary skill in the art."). Appellant's argument
+that Halpern fails to teach or suggest determining a dependency between
+services is unpersuasive because the Examiner relied upon Victoria for
+teaching the feature of determining a dependency between services, and
+Appellant has not successfully rebutted the Examiner's finding. See Final
+Act. 10-11; Ans. 29-30. Likewise, Appellant's argument that Victoria fails
+to teach or suggest migrating services is unpersuasive because the Examiner
+relied upon Halpern for teaching the feature of migrating services, and
+
+5
+
+Appeal2015-006839
+Application 13/913,107
+Appellant has not successfully rebutted the Examiner's finding. See Final
+Act. 11; Ans. 30-31.
+Regarding Appellant's argument that Victoria's confidence value does
+not teach the claimed "dependency rating," we do not find this argument
+persuasive either. Appellant's argument that the claimed "dependency
+rating" is assigned to an identified existing dependency and denotes the
+degree of the identified dependency is not commensurate with the scope of
+claim 1 because it does not include language limiting the claimed
+"dependency rating" to Appellant's definition, and, thus, claim 1 is broader
+than Appellant's interpretation of the claim. See SuperGuide Corp. v.
+DirecTV Enters., Inc., 358 F.3d 870, 875 (Fed. Cir. 2004) ("Though
+
+understanding the claim language may be aided by the explanations
+contained in the written description, it is important not to import into claim
+limitations that are not a part of the claim."). We also note that claim 3,
+which depends from claim 1, recites the limitation "wherein the dependency
+rating identifies a degree of dependency." While this limitation is more
+aligned with Appellant's argument, it is not recited in claim 1. This further
+supports the conclusion that "dependency rating," as recited in claim 1, is
+not limited to Appellant's definition. 4 See Phillips v. AWH Corp., 415 F.3d
+1303, 1315 (Fed. Cir. 2005) (stating that, under the doctrine of claim
+differentiation, the presence of a dependent claim that adds a particular
+4
+
+Although it is not necessary to reach this issue to sustain the Examiner's
+rejection, assuming arguendo that the claimed "dependency rating" is
+limited to Appellant's definition, we conclude Victoria's confidence value
+still teaches or suggests the claimed "dependency rating" because Victoria
+teaches the confidence value indicates a likelihood a dependent component
+has a dependency on another component, and a likelihood of dependency
+suggests a degree of dependency. See Victoria i-f 116.
+6
+
+Appeal2015-006839
+Application 13/913,107
+limitation gives rise to a presumption that the limitation is not present in the
+independent claim).
+Regarding Appellant's argument that the Final Office Action failed to
+establish that the claim limitation "responsive to determining that the
+dependency rating for the dependency exceeds a dependency threshold,
+migrating the second component to the second location," as recited in claim
+1, would have been obvious to one of ordinary skill in the art, we also do not
+find this argument persuasive. When considering obviousness, the Supreme
+Court made clear that "the analysis need not seek out precise teachings
+directed to the specific subject matter of the challenged claim, for a court
+can take account of the inferences and creative steps that a person of
+ordinary skill in the art would employ." KSR Int'! Co. v. Teleflex Inc., 550
+U.S. 398, 418 (2007). We agree with the Examiner that it would have been
+obvious to one of ordinary skill in the art, at the time of the claimed
+invention, to combine the teachings of Agarwal, Halpern, and Victoria in
+order to modify Agarwal' s system of identifying component dependencies
+(including dependency confidence values) in a distributed computing system
+to include the functionality of migrating services (as taught by Halpern)
+based on a determination that a dependency confidence value is greater than
+a threshold (as taught by Victoria). See Final Act. 10-12; Ans. 29-31. Such
+a modification is merely a substitution of one known functionality for
+another that does not do more than yield predictable results. See KSR 550
+U.S. at 416 ("[W]hen a patent claims a structure already known in the prior
+art that is altered by the mere substitution of one element for another known
+in the field, the combination must do more than yield a predictable result.").
+
+7
+
+Appeal2015-006839
+Application 13/913,107
+Accordingly, we sustain the Examiner's rejection of independent
+claims 1, 9, and 17 under 35 U.S.C. § 103(a) based on the combination of
+Agarwal, Halpern, and Victoria. We further sustain the Examiner's rejection
+of dependent claims 2, 6-8, 10, 14--16, and 20, which are not argued
+separately.
+
+Issue 2
+Appellant argues Oztekin is not analogous to Agarwal because
+Agarwal is directed to determining dependencies between services in a
+distributed computing system, whereas, in contrast, Oztekin is directed to a
+web search engine that ranks search results based on one or more groups that
+a searcher belongs to. Appeal Br. 12; Reply Br. 22-23. Appellant further
+argues Oztekin fails to teach or suggest applying an atomic decay to any
+kind of dependency rating, and specifically fails to teach or suggest applying
+an atomic decay to a dependency rating between services in a distributed
+computing system. Appeal Br. 13; Reply Br. 26.
+We do not find these arguments persuasive. A prior art reference is
+analogous to an application if: (1) it is from the same field of endeavor as the
+application, regardless of the problem addressed, or (2) if the reference is not
+within the field of the inventor's endeavor, it is nonetheless reasonably
+pertinent to the particular problem with which the inventor is involved. In re
+
+Bigio, 381F.3d1320, 1325 (Fed. Cir. 2004). As indicated, these tests are in
+the alternative, i.e., a finding of either is sufficient. See In re Oetiker, 977
+F.2d 1443, 1447 (Fed. Cir. 1992). Appellant's argument that Oztekin is not
+analogous art is unpersuasive, as we agree with the Examiner that Oztekin is
+analogous art because Oztekin is in the same field of endeavor as
+
+8
+
+Appeal2015-006839
+Application 13/913,107
+Appellant's claimed invention (i.e., distributed computer systems). 5 See
+Ans. 39--41 (citing Oztekin i-f 10).
+Regarding Appellant's argument that Oztekin fails to teach or suggest
+applying an atomic decay to any kind of dependency rating, we find this
+argument unpersuasive as well. Appellant's argument attacks Oztekin
+individually rather than the cited combination of references, as the Examiner
+relied upon Agarwal for teaching the feature of a dependency rating, and
+Appellant has not successfully rebutted the Examiner's finding. See Final
+Act. 23; Ans. 41--42. Accordingly, we sustain the Examiner's rejection of
+claims 3, 11, and 18 under 35 U.S.C. § 103(a).
+Issue 3
+
+Appellant argues Agarwal fails to teach or suggest resetting a
+dependency rating under any circumstances, and thus, also fails to teach or
+suggest resetting a dependency rating each time a first component invokes a
+second component. Appeal Br. 14.
+We find this argument persuasive, as we agree with Appellant that
+Agarwal fails to teach or suggest resetting a dependency rating. We agree
+with the Examiner that Agarwal teaches changing a dependency rating via
+updating an overall dependency graph. See Final Act. 24-25 (citing
+5
+
+Although not necessary to reach this issue to sustain the Examiner's
+rejection, we also find that Oztekin is reasonably pertinent to the particular
+problem with which the Appellant is involved. More specifically,
+Appellant's specification discloses it is beneficial to track dependencies
+between services, and it is also beneficial to more heavily weight
+dependencies with more recent invocations, in contrast to older
+dependencies. See Spec. i-fi-1 43, 52. As Oztekin similarly teaches that it is
+beneficial, when rating search results, to more heavily weight newer group
+profile information, in contrast to older group profile information, Oztekin is
+reasonably pertinent to Applicant's claimed invention. See Oztekin i-f 42.
+9
+
+Appeal2015-006839
+Application 13/913,107
+Agarwal if 118). However, we do not agree with the Examiner that an
+interpretation of "resetting the dependency rating" as merely changing the
+dependency rating to any value is reasonable. Ans. 44--45. The plain and
+ordinary meaning of resetting a value is not merely changing the value to
+any value, but changing the value back to an original value. 6 While the
+Examiner is correct that the claims do not define an original value, this does
+not lead to the conclusion that changing a value to any other value
+constitutes changing the value back to an original value. Further, as
+described above, Agarwal fails to teach or suggest changing a value of a
+dependency rating to an original value. Thus, we do not sustain the
+Examiner's rejection of claims 4 and 12 under 35 U.S.C. § 103(a).
+Issue 4
+Appellant argues the cited combination of references fails to teach or
+suggest "wherein the atomic decay reduces the value of the dependency
+rating over time according to a first atomic decay factor if the dependency
+includes a first service and according to a second atomic decay factor if the
+dependency includes a second service," as recited in claims 5 and 19
+because none of the cited references describes using a first atomic decay
+factor under first circumstances and a second atomic decay factor under
+second circumstances. Appeal Br. 15-16.
+We do not find this argument persuasive. We agree with the
+Examiner that Agarwal teaches a dependency relationship between two
+components (i.e., services). Ans. 46 (citing Agarwal if 20). Thus, we agree
+6
+
+Merriam-Webster defines "reset" as "to move (something) back to an
+original place or position." MERRIAM-WEBSTER DICTIONARY,
+http://www.merriam-webster.com/dictionary/reset (last visited Sept. 14,
+2016).
+10
+
+Appeal2015-006839
+Application 13/913,107
+that Agarwal teaches the claimed "first service" and "second service." We
+also agree with the Examiner that Oztekin teaches weighting dated group
+profile information based on a pre-defined scaling factor, where the
+weighting is associated with multiple half-lives or other time modulations.
+Ans. 47--48 (citing Oztekin i-fi-142--43). Thus, we also agree that Oztekin
+teaches or suggests the claimed "first atomic decay factor" and the "second
+atomic decay factor." We further agree with the Examiner that it would
+have been obvious for a person of ordinary skill in the art, at the time of the
+claimed invention, to combine the teachings of Agarwal and Oztekin (as
+well as the teaching of the other cited references), as the combination yields
+no more than predictable results. Ans. 48. Therefore, we sustain the
+Examiner's rejection of claims 5 and 19 under 35 U.S.C. § 103(a).
+
+DECISION
+\Ve affirm the Examiner's decision rejecting claims 1-3, 5-11, and
+13-20 under 35 U.S.C. § 103(a).
+We reverse the Examiner's decision rejecting claims 4 and 12 under
+35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+11
+
+

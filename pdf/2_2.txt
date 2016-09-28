@@ -1,0 +1,322 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/158, 122
+
+06/10/2011
+
+Rukman Senanayake
+
+SRI/6244
+
+8673
+
+101788
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+BARNES & THORNBURG LLP
+11 SOUTH MERIDIAN STREET
+INDIANAPOLIS, IN 46204
+
+KHAN, IBRAHIM A
+
+ART UNIT
+
+PAPER NUMBER
+
+2692
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+indocket@btlaw.com
+corich@btlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RUKMAN SENANAYAKE, GRIT DENKER, PATRICK D.
+LINCOLN, ROY D. KORNBLUH, SIERRA J. LINCOLN, RICHARD P.
+HEYDT, HARSHA PRAHLAD, DANIEL MCCONNELL AUKES, KARL
+D. VANDYK, GEOFFREY A. MANGUS, and JOSEPH S. ECKERLE
+
+Appeal2014-009022
+Application 13/158,122
+Technology Center 2600
+
+Before MAHSHID D. SAADAT, TERRENCE W. McMILLIN, and
+JOYCE CRAIG, Administrative Patent Judges.
+SAADAT, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1--46, which are all the claims pending in this application. We have
+jurisdiction over the pending claims under 35 U.S.C. § 6(b ).
+We reverse.
+
+1
+
+According to Appellants, the real party in interest is SRI International
+(App. Br. 3).
+
+Appeal2014-009022
+Application 13/158,122
+STATEMENT OF THE CASE
+
+Introduction
+Appellants' invention relates to an adaptable input/output device
+(Abstract). Claim 1 is illustrative of the invention and reads as follows.
+1.
+A hardware device for facilitating an interaction between
+a computing system and a user, the hardware device comprising:
+
+an interaction surface for supporting the interaction;
+a single actuator capable of driving a first region of the
+interaction surface; and
+a first selective clamping mechanism capable of restricting
+movement of one or more second regions of the interaction
+surface that are coplanar with the first region and that partly
+intersect the first region, the restricting at least partially
+counteracting an effect of the actuator on a portion of the one or
+more second regions, wherein a displacement of one or more
+desired portions of the interaction surface is dynamically
+controllable.
+
+The Examiner's Rejections
+Claims 1-11 and 13--46 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Modarres (US 8,390,594 B2, Mar. 5, 2013) and Heubel
+(US 2009/0250267 Al, Oct. 8, 2009) (Final Act. 3-27).
+Claim 12 is rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Modarres, Heubel, and Goulthorpe (US 7 ,277 ,080 B2, Oct. 2, 2007)
+(Final Act. 28-29).
+
+ANALYSIS
+
+Claims 1, 29, and 30
+Independent claim 1 requires a selective clamping mechanism capable
+of selectively restricting movement of one or more second regions of an
+
+2
+
+Appeal2014-009022
+Application 13/158,122
+interaction surface by at least partially counteracting an effect of an actuator
+on a portion of the one or more second regions. Independent claims 29 and
+30 have similar requirements.
+The Examiner finds Modarres teaches a clamping mechanism that
+restricts movement and partially counteracts effects of Modarres' actuator
+(Final Act. 3--4, 13-16; Ans. 2--4). And to the extent Modarres does not
+teach selective counteraction, the Examiner finds Heubel teaches a selective
+clamping mechanism (id.). Appellants argue neither Modarres, Heubel, nor
+the combination of Modarres and Heubel, teaches a clamping mechanism
+that selectively counteracts the effects of an actuator (App. Br. 12-15; Reply
+Br. 2--4). We agree.
+Regarding Modarres, the Examiner finds Modarres' polymer matrix,
+which is designed to provide haptic related suspension properties, restricts
+movement of one or more second regions of Modarres' interaction surface
+(Final Act. 3; Ans. 2--4 ). The Examiner interprets the inherent restriction of
+movement as partially counteracting the effect of Modarres' actuator (id.).
+Appellants argue Modarres' polymer matrix is controlled by
+Modarres' actuator, and thus, rather than at least partially counteracting an
+effect of the actuator, the polymer matrix is responsive to and controlled by
+the actuator (App. Br. 13-14; Reply Br. 2--4). We find Appellants'
+arguments persuasive. Although Modarres' polymer matrix may inherently
+resist an applied force by its actuator, this inherent resistance is not the same
+as a clamping mechanism designed to counteract the effects of the actuator.
+Rather, this inherent resistance is a result of Modarres' polymer matrix
+cooperating with its actuator. Further, the Examiner has not shown, nor do
+
+3
+
+Appeal2014-009022
+Application 13/158,122
+we find, a mechanism in Modarres that utilizes the act of clamping to
+counteract the effects of its actuator.
+Regarding Heubel, the Examiner finds Heubel' s deformation
+mechanism pushes and pulls Heubel' s haptic surface to form patterns in
+Heubel's flexible surface (Final Act. 4; Ans. 2--4). The Examiner thus finds
+Heubel teaches a clamping mechanism that selectively counteracts the effect
+of an actuator because Heubel' s "haptic surface ... provides a force and the
+deforming surface pull[ s] and pushes the haptic surface[]. Therefore, it
+counteracts the force of the actuator" (Ans. 3--4).
+Appellants argue Heubel' s deforming mechanism causes its flexible
+surface layer to take the shape of its haptic substrate, and thus the deforming
+mechanism and the flexible surface layer do not restrict or counteract, even
+partially, the effects of an actuator on any region. Rather, Heubel's
+deforming mechanism cooperates with the actuators to propagate the effects
+to additional portions of its device (App. Br. 12-14; Reply Br. 4). We agree.
+The forces associated with deforming and flexing Heubel' s surfaces are
+cooperating forces, not counteracting forces. Moreover, the Examiner has
+not shown, nor do we find, a mechanism in Heubel that utilizes the act of
+clamping to counteract the effects of an actuator.
+
+Claims 31, 37, and 40
+
+Independent claim 31 recites "a controllable clamping mechanism
+capable of dynamically varying a resistance of the deformation in the
+adaptable surface to movement in response to a pressure applied by the
+user." Independent claims 37 and 40 recite similar limitations.
+
+4
+
+Appeal2014-009022
+Application 13/158,122
+The Examiner finds Modarres' polymer matrix, which comprises
+haptic related properties that restrict movement of one or more second
+regions of Modarres' interaction surface, and that can be used to achieve
+specific characteristics of haptic feedback via a touch screen device, teaches
+the claimed controllable clamping mechanism (Final Act. 16-17, 20, 23).
+Appellants argue Modarres' polymer matrix is passive and of a fixed
+composition, thus any resistance provided by the polymer matrix is not
+dynamically varied in response to user pressure (see App. Br. 33; see also
+Reply Br. 10). We are persuaded by Appellants' argument. Although
+Modarres may provide haptic feedback to a user, the Examiner has not
+shown, nor do we find, that in order to effectuate such haptic feedback, a
+resistance of deformation of Modarres' surface is varied in response to
+pressure applied by the user.
+The Examiner further finds Heubel teaches the claimed controllable
+clamping mechanism because Heubel' s deforming mechanism provides
+pulling and pushing forces to provide textures via a touch surface, and the
+provided textures are controllable and customizable (Final Act. 17-18, 21,
+24; Ans. 9-10). The Examiner additionally finds Heubel's provided textures
+are directly related to the degree of clamping or resistance that is applied to
+Heubel's surface (Ans. 9-10).
+Appellants argue that although Heubel' s deforming mechanism
+(haptic substrate) may push or pull its flexible screen with varying amounts
+of force, this does not teach dynamic variation of the resistance of
+deformation to form the pattern in the haptic substrate (App. Br. 33, Reply
+Br. 10). We agree. We find no evidence in Heubel that the resistance
+
+5
+
+Appeal2014-009022
+Application 13/158,122
+utilized to form the pattern in Heubel' s haptic substrate is dynamically
+varied in response to pressure applied by a user to Heubel' s flexible screen.
+Appellants additionally argue that neither Modarres nor Heubel
+teaches dynamic variation of the resistance of deformation by a clamping
+mechanism (App. Br. 33; Ans. 11). We agree. The Examiner has not
+shown, nor do we find, a mechanism in Modarres or Heubel that utilizes the
+act of clamping to dynamically vary a resistance of deformation.
+
+Claim 41
+
+Independent claim 41 recites "an adaptable surface" that is
+"deformable under a user-applied pressure to assume a shape and a pressure
+response that substantially mimics [an] input device when pressed." The
+Examiner finds the combination of Modarres and Heubel teaches the
+disputed limitation (Final Act. 25-26; Ans. 10-11 ). Specifically, the
+Examiner finds Heubel teaches an adaptable surface that can mimic the
+appearance and functionality of an input device (id.). The Examiner further
+finds Modarres teaches a touch screen that can receive a user-applied
+pressure from a user and provide haptic feedback to the user (id.).
+Appellants argue, although Modarres teaches providing to a user
+various types of haptic feedback effects such as vibration or other tactile
+signals, none of Modarres' haptic feedback effects include mimicking a
+shape and pressure response of an input device (App. Br. 37-38; Reply Br.
+11-12). Appellants additionally argue that although Heubel teaches
+providing confirmation haptic feedback to a user to confirm that a user has
+pressed a button for example, Heubel does not teach that the confirmation
+haptic feedback includes mimicking a shape and pressure response of an
+
+6
+
+Appeal2014-009022
+Application 13/158,122
+input device (id.). We agree. Although the combination of Modarres and
+Heubel teaches mimicking the shape of an input device, confirming
+activation or selection of the input device, and providing appropriate haptic
+feedback thereof, we find no evidence in Modarres and/or Heubel that the
+haptic feedback mimics the shape and pressure response of the input device. 2
+
+CONCLUSIONS
+On the record before us, Appellants' arguments have persuaded us the
+Examiner erred in finding the combination of Modarres and Heubel teaches:
+1.
+
+"a first selective clamping mechanism capable of
+
+restricting movement of one or more second regions of the
+interaction surface that are coplanar with the first region and
+that partly intersect the first region, the restricting at least
+partially counteracting an effect of the actuator on a portion of
+the one or more second regions," as recited in independent
+claim 1 and similarly recited in independent claims 29 and 30;
+2.
+
+"a controllable clamping mechanism capable of
+
+dynamically varying a resistance of the deformation in the
+adaptable surface to movement in response to a pressure
+applied by the user," as recited in independent claim 31 and
+similarly recited in independent claims 37 and 40; and
+3.
+
+an "adaptable surface being dynamically deformable
+
+under a control of the computing system so as to produce a
+2
+
+Appellants make additional arguments regarding dependent claims 2-28,
+32-36, 38, 39, and 42--46. (App. Br. 12--40; Reply Br. 2-12). We do not
+address the additional arguments, however, as the issues associated with the
+independent claims are dispositive of the Appeal.
+7
+
+Appeal2014-009022
+Application 13/158,122
+deformation that substantially mimics an appearance associated
+with an input device, wherein the deformation is further
+deformable under a user applied pressure to assume a shape and
+a pressure response that substantially mimics the input device
+when pressed," as recited in independent claim 41.
+We therefore do not sustain the rejections of claims 1, 29, 30, 31, 37,
+40, and 41 under 35 U.S.C. § 103(a), as well as claims 2-11, 13-28, 32-36,
+38, 39, and 42--46, dependent therefrom. We also do not sustain the
+35 U.S.C. § 103(a) rejection of claim 12 because the Examiner has not
+identified any teachings in Goulthorpe to overcome the above-noted
+deficiencies of Modarres and Heubel.
+
+DECISION
+We reverse the decision of the Examiner to reject claims 1--46.
+
+REVERSED
+
+8
+
+

@@ -1,0 +1,427 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/164,965
+
+06/21/2011
+
+Nilesh S. Govande
+
+10-0418
+
+2863
+
+57299
+
+7590
+
+09/19/2016
+
+Kathy Manke
+A vago Technologies Limited
+4380 Ziegler Road
+Fort Collins, CO 80525
+
+EXAMINER
+LEWIS-TAYLOR, DAYTON A.
+
+ART UNIT
+
+PAPER NUMBER
+
+2181
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kathy.manke@broadcom.com
+patent.info@broadcom.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte NILESH S. GOVANDE, RAKESH VERMA,
+and VISHAL R. THAKKAR
+
+Appeal2015-002577
+Application 13/164,965
+Technology Center 2100
+
+Before JOHN A. JEFFERY, LARRY J. HUME, and
+NORMAN H. BEAMER, Administrative Patent Judges.
+JEFFERY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision to reject claims 1-5 and 9-19. Claims 6-8 have been indicated as
+containing allowable subject matter. 1 Final Act. 11. We have jurisdiction
+under 35 U.S.C. § 6(b). We affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention updates firmware for components in a storage
+network by generating and distributing a "package buffer" with portions
+
+1
+
+Throughout this opinion, we refer to (1) the Final Rejection mailed
+February 7, 2014 ("Final Act."); (2) the Appeal Brief filed July 10, 2014
+("Br."); and (3) the Examiner's Answer mailed November 7, 2014 ("Ans.").
+
+Appeal2015-002577
+Application 13/164,965
+having firmware for a corresponding component. See generally Abstract.
+Claim 1 is illustrative:
+1. A method for updating firmware for a plurality of components of a
+
+storage network, the plurality of components comprising one or more
+switching components and one or more target components, the method
+compnsmg:
+receiving in a switching component a package buffer comprising
+firmware for each of the plurality of components;
+updating firmware in the switching component based on a portion of
+the package buffer comprising firmware for the switching component;
+for each target component coupled directly to the switching
+component, performing the steps of:
+transmitting from the switching component to said each target
+component a corresponding portion of the package buffer comprising
+firmware for said each target component; and
+updating firmware in said each target component based on the
+corresponding portion of the package buffer received from the switching
+component; and
+for each other switching component directly coupled with the
+switching component, performing the steps of:
+transmitting the package buffer from the switching component to said
+each other switching component; and
+repeating the method within said each other switching component.
+
+THE REJECTIONS
+The Examiner rejected claims 1--4, 9, 11, 12, and 14--19 under 35
+U.S.C. § 103(a) as unpatentable over Oikawa (US 2010/0058322 Al;
+Mar. 4, 2010), Ramsey (US 2007/0168571 Al; July 19, 2007), and Patel
+(US 2012/0173840 Al; July 5, 2012). Final Act. 4--9.
+The Examiner rejected claims 5 and 13 under 35 U.S.C. § 103(a) as
+unpatentable over Oikawa, Ramsey, Patel, and Krithivas (US 2008/0098321
+Al; Apr. 24, 2008). Final Act. 9-10.
+
+2
+
+Appeal2015-002577
+Application 13/164,965
+The Examiner rejected claim 10 under 35 U.S.C. § 103(a) as
+unpatentable over Oikawa, Ramsey, Patel, and Myrah (US 2012/0284435
+Al; Nov. 8, 2012). Final Act. 10-11.
+
+THE REJECTION OVER OIKAWA, RAMSEY, AND PATEL
+Regarding claim 1, the Examiner finds that Oikawa updates firmware
+for plural components by (1) receiving a package buffer comprising
+firmware in a switching component (expander 73); (2) updating firmware in
+the switching component based on a portion of the package buffer; and
+(3) repeating the method within each of other switching components. Final
+Act. 4--5. The Examiner also finds that Ramsey discloses both switching
+components and target components, including hard disk drives (HDDs) 210,
+and that a corresponding portion of a firmware-based package buffer is
+transmitted from the switching component to each target component to
+update firmware in each target component. Final Act. 5. The Examiner also
+cites Patel for teaching transmitting a package buffer from one switching
+component to another. Final Act. 5---6. Based on these collective teachings,
+the Examiner concludes that claim 1 would have been obvious. Final
+Act. 4--6.
+Appellants argue that, unlike the prior art which upgrades devices
+individually with firmware packages tailored for each device, the claimed
+invention (1) delivers a single firmware package to a switching component,
+and (2) propagates the package downstream to other devices that
+individually "peel off' their required firmware updates from the package for
+their respective upgrades. Br. 7. According to Appellants, Oikawa transfers
+multiple firmware packages to respective devices so that each device can
+
+3
+
+Appeal2015-002577
+Application 13/164,965
+update its firmware according to its particular package. Id. Appellants add
+that Ramsey merely ensures that all connected storage devices within the
+same enclosure receive the same firmware update from an interconnection,
+and Ramsey's firmware versions are not considered to be a delivery
+mechanism as is the recited package buffer. Br. 8-9. Lastly, Appellants
+contend that Oikawa teaches away from Ramsey, resulting in an inoperable
+combination. Br. 10-11.
+
+ISSUES
+(1) Under§ 103, has the Examiner erred in rejecting claim 1 by
+finding that Oikawa, Ramsey, and Patel collectively would have taught or
+suggested updating firmware in switching and target components based on
+respective portions of a received package buffer received by those
+components?
+(2) Is the Examiner's proposed combination supported by articulated
+reasoning with some rational underpinning to justify the Examiner's
+obviousness conclusion?
+
+ANALYSIS
+We begin by construing the term "package buffer." Notably, the term
+"package buffer" is not defined in the Specification, unlike other terms
+whose definitions leave no doubt as to their meaning. See, e.g., Spec.
+i-fi-19-10 (defining "targeted components"), 20 (defining "directly coupled").
+The Specification, however, does indicate that a package buffer comprises
+plural portions, each portion comprising firmware for a corresponding
+component type. Spec. i-f 17. Paragraph 22 of the Specification further
+
+4
+
+Appeal2015-002577
+Application 13/164,965
+explains that a package buffer may comprise portions for each of plural
+system components, and each such portion may be the entire firmware
+update for a corresponding component. Moreover, each portion may be
+either the entire firmware update for a corresponding component, or may
+represent a subset of that entire update. Spec. i-f 22.
+Our emphasis on "may" here underscores the permissive and nonlimiting language used to describe the disclosed package buffer-permissive
+language that is also used to describe the package buffer in paragraph 34.
+Although this description informs our understanding of the disclosed
+package buffer, it does not limit its construction. Accordingly, we construe
+the term with its plain meaning.
+Despite Appellants' proffered definition of "package" from a generalpurpose dictionary as "a wrapper or container that covers or holds
+something" (Br. 9), the term "package" is defined in the computer context as
+"a set of related programs." Ian R. Sinclair, THE HARPERCOLLINS
+DICTIONARY OF COMPUTER TERMS 175 (1991). The same computer
+dictionary also defines the term "buffer" as "a memory device used for
+temporary storage." Id. at 31. Under these computer-based definitions
+considered in light of the Specification, then, a "package buffer" is a set of
+related programs that are stored temporarily in a data structure.
+Notably, Appellants' use of the term "buffer" in the recited "package
+buffer" is somewhat inconsistent with its ordinary and customary meaning in
+the art, namely a memory device used for temporary storage as noted in the
+above definition. The Specification, however, notes that a package buffer is
+not only generated and transmitted by an initiator component 102, but is
+also forwarded by switching components 104, thus suggesting that a
+
+5
+
+Appeal2015-002577
+Application 13/164,965
+package buffer, in the context of claim 1, is a data structure containing
+firmware-not a device. See Spec. i-fi-f 17-18. That Appellants' Figure 5
+shows an exemplary data structure used as package buffer 500 as noted in
+paragraph 44 only bolsters this conclusion.
+It is well settled that any special meaning assigned to a term "must be
+
+sufficiently clear in the specification that any departure from common usage
+would be so understood by a person of experience in the field of the
+invention." Multiform Desiccants Inc. v. Medzam, Ltd., 133 F.3d 1473,
+1477 (Fed. Cir. 1998); see also Helmsderfer v. Bobrick Washroom Equip.,
+Inc., 527 F.3d 1379, 1381 (Fed. Cir. 2008) ("A patentee may act as its own
+lexicographer and assign to a term a unique definition that is different from
+its ordinary and customary meaning; however, a patentee must clearly
+express that intent in the written description.") (citations omitted). In short,
+"[ w ]here an inventor chooses to be his own lexicographer and to give terms
+uncommon meanings, he must set out his uncommon definition in some
+manner within the patent disclosure" to give ordinarily skilled artisans notice
+of the change. In re Paulsen, 30 F.3d 1475, 1480 (Fed. Cir. 1994).
+Here, although Appellants do not define the term "buffer" to notify
+skilled artisans explicitly of Appellants' departure from the ordinary and
+customary meaning of the term in the art, Appellants nonetheless at least
+implicitly provide such notice on this record. That is, skilled artisans can
+reasonably glean this departure from the term's usage and context in the
+Specification, particularly in light of the package buffer's ability to be
+generated, transmitted, and forwarded-properties that are consistent with
+those of a data structure, not a memory device under the ordinary and
+customary meaning of "buffer" in the art.
+
+6
+
+Appeal2015-002577
+Application 13/164,965
+With this construction, we see no error in the Examiner's reliance on
+Oikawa and Ramsey for collectively at least suggesting the recited package
+buffer. As shown in steps SP4 and SP18 of Oikawa's Figures 9 and 10,
+respectively, download data is transmitted to a corresponding expander
+("switching component") to update its firmware. Even assuming, without
+deciding, that each expander's firmware can only be updated separately with
+its own dedicated package as Appellants seem to suggest (see Br. 7), the
+Examiner does not rely solely on Oikawa for teaching the recited package
+buffer firmware updates, but also Ramsey and Patel. In short, Appellants'
+arguments regarding Oikawa's individual shortcomings in this regard
+(Br. 7-8) do not show nonobviousness where, as here, the rejection is based
+on the cited references' collective teachings. See In re Merck & Co., Inc.,
+800 F.2d 1091, 1097 (Fed. Cir. 1986). Accord Ans. 3--4 (noting this point).
+As noted previously, the Examiner finds that Ramsey discloses
+interconnection-based switching components and target components,
+including HDDs 210, and that a corresponding portion of a firmware-based
+package buffer is transmitted from the switching component to each
+associated target component to update firmware in each target component.
+Final Act. 5; Ans. 4--6. This functionality is shown, for example, in
+Ramsey's Figure 2, where controller 202 is connected to SCSI storage
+subsystem 211 via an interconnection, namely SCSI bus 204, where the
+subsystem's enclosure 212 includes I/O expanders and HDDs 210. See
+Ramsey i-fi-1 44, 60. Specifically, a controller may (1) store copies of all
+device firmware, and (2) automatically upgrade devices lacking the most
+recent firmware revisions. Id. i156.
+
+7
+
+Appeal2015-002577
+Application 13/164,965
+Notably, Ramsey's system uses a single uniform release of firmware
+updates that includes firmware code for all components of storage
+subsystem 200, instead of individual updates. Id. i-f 55. As shown in
+Ramsey's Figure 7, for example, the single uniform release includes
+firmware releases for the (1) HDD; (2) enclosure; and (3) RAID/SCSI
+components. Id. As shown in Ramsey's Figure 10, Ramsey's system
+updates each hardware device attached to the interconnection using the
+single uniform release. Ramsey i-f 75. In some embodiments, a host bus
+adapter can automatically push these uniform firmware updates to the
+respective devices. See Ramsey i-fi-156-57, 69.
+Based on this functionality, we see no error in the Examiner's position
+that Ramsey at least suggests using one package, namely a single uniform
+release comprising firmware for multiple devices and components, to update
+those devices and components. See Ans. 5-7. This package at least
+suggests a "package buffer" under our construction, namely set of related
+programs that are stored temporarily in a data structure, particularly given
+the integrated firmware for three separate components shown in Figure 7,
+and the integrated firmware's transmission to downstream components to
+update those components as noted above and by the Examiner. Nor do we
+find error in the Examiner's position that providing such functionality in
+connection with Oikawa's expanders would have been obvious to ensure
+that every device's firmware was updated via a single release. Ans. 6-7.
+We reach this conclusion noting that Oikawa transmits download data
+to each respective expander individually to update its firmware in step SP18
+of Figure 10, and then repeats the process for other expanders to update their
+firmware in step SP19. Given Ramsey's teaching of using a single uniform
+
+8
+
+Appeal2015-002577
+Application 13/164,965
+release to update firmware of multiple components instead of a piecemeal
+approach that updates firmware on a component-by-component basis
+(Ramsey i-f 55), we see no error in the Examiner's position that using such an
+integrated approach in lieu of separate transmissions to update expander
+firmware in Oikawa would have been obvious. Accord Final Act. 5;
+Ans. 6-7. Nor do we find error in the Examiner's position that updating
+components downstream from Oikawa's expanders from a single uniform
+release or "package buffer" would have been obvious in light of Ramsey.
+Ans. 6.
+Appellants' contention that Ramsey does not update downstream
+expanders as well as target devices with the same firmware package, but
+rather just updates storage device firmware (Br. 8) is unavailing. First, as
+noted above, Ramsey's single uniform release is not limited to only
+firmware for storage devices, such as HDDs, but also includes firmware for
+the enclosure and associated RAID and SCSI components as shown by
+numerals 730 and 740 in Figure 7. See Ramsey i-f 55. Notably, Ramsey's
+enclosure 212 includes I/O expanders as indicated in paragraph 44---a
+teaching that at least suggests that the firmware release for enclosure 730 in
+the single uniform release also applies to the enclosure's expanders, or that
+such an update would have been at least an obvious variation.
+Nor do we find that Oikawa teaches away from its combination with
+Ramsey as Appellants contend. Br. 10-11. "A reference may be said to
+teach away when a person of ordinary skill, upon reading the reference,
+would be discouraged from following the path set out in the reference, or
+would be led in a direction divergent from the path that was taken by the
+
+9
+
+Appeal2015-002577
+Application 13/164,965
+applicant." Jn re Kahn, 441F.3d977, 990 (Fed. Cir. 2006) (citations and
+internal quotation marks omitted).
+Here, Appellants' assertion that Ramsey's single uniform release is
+intended for multiple devices of the same type, and purportedly cannot be
+applied to different types of devices, like expanders, bridges, disk drives,
+etc. (Br. 11), is unavailing. As noted previously, Ramsey's single uniform
+release includes firmware for different types of devices and components,
+including not only HDDs, but also components associated with the enclosure
+and RAID and SCSI functionality as shown by numerals 720 to 740 in
+Figure 7. See Ramsey i-f 55. Notably, Ramsey's enclosure 212 includes I/O
+expanders as indicated in paragraph 44---a teaching that at least suggests that
+the firmware release for enclosure 730 in the single uniform release also
+applies to the enclosure's expanders. Therefore, Appellants' contention that
+Ramsey's single uniform release cannot be applied to expanders (Br. 11) is
+not only unsubstantiated, it runs counter to Ramsey's teachings and
+suggestions.
+Nevertheless, even assuming, without deciding, that Ramsey's single
+uniform release applies to only a single type of device as Appellants
+contend, we still see no reason why such a release could not be applied to
+different types of devices, such as Oikawa's expanders, particularly given
+Ramsey's teaching of integrating firmware releases for diverse components
+in a single release as shown in Figure 7. On this record, then, we cannot say
+that skilled artisans would be discouraged from following the path set out in
+Ramsey, or would be led in a direction divergent from Appellants' path to
+teach away from those approaches. See Kahn, 441 F.3d at 990. Rather, the
+Examiner's proposed enhancement uses prior art elements predictably
+
+10
+
+Appeal2015-002577
+Application 13/164,965
+according to their established functions-an obvious improvement. See KSR
+
+Int'! Co. v. Teleflex, Inc., 550 U.S. 398, 417 (2007).
+Lastly, we see no error in the Examiner's reliance on Patel for the
+limited purpose for which it was cited, namely merely to show that
+transmitting data between expander-based switching components is known
+in the art as shown in Figure 2, and that using such a technique to transmit a
+package buffer between such components in the Oikawa/Ramsey system
+would have been obvious. Final Act. 5---6. Such an enhancement uses prior
+art elements predictably according to their established functions-an
+obvious improvement. See KSR, 550 U.S. at 417. The Examiner's proposed
+combination is, therefore, supported by articulated reasoning with some
+rational underpinning to justify the Examiner's obviousness conclusion.
+Accordingly, we are not persuaded that the Examiner erred in
+rejecting claim 1, and claims 2--4, 9, 11, 12, and 14--19 not argued separately
+with particularity.
+
+THE OTHER OBVIOUSNESS REJECTIONS
+We also sustain the Examiner's obviousness rejections of claims 5,
+10, and 13. Final Act. 9-11. Appellants do not address these rejections, let
+alone persuasively rebut the Examiner's findings and conclusions regarding
+these claims. See Br. 7-11. Nevertheless, to the extent that Appellants'
+arguments regarding claim 1 apply to these rejections, we are not persuaded
+by these arguments for the reasons previously discussed.
+
+11
+
+Appeal2015-002577
+Application 13/164,965
+CONCLUSION
+The Examiner did not err in rejecting claims 1-5 and 9-19 under
+
+§ 103.
+
+DECISION
+We affirm the Examiner's decision rejecting claims 1-5 and 9-19.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+12
+
+

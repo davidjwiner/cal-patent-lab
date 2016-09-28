@@ -1,0 +1,374 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/305,724
+
+08/02/2010
+
+Bjoern Boenke
+
+BOSC.P5679US/l 1602895
+
+7209
+
+24972
+
+7590
+
+09/16/2016
+
+EXAMINER
+
+NORTON ROSE FULBRIGHT US LLP
+1301 Avenue of the Americas
+NEW YORK, NY 10019-6022
+
+TAYLOR,JOSHUAD
+
+ART UNIT
+
+PAPER NUMBER
+
+2426
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+nyipdocket@nortonrosefulbright.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BJOERN BOENKE
+
+Appeal2015-005374
+Application 12/305,724
+Technology Center 2400
+
+Before NATHAN A. ENGELS, JAMES W. DEJMEK, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+ENGELS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellant appeals under 35 U.S.C. § 134(a) from the Final Rejection
+of claims 11-22. No other claims are pending. We have jurisdiction under
+35 U.S.C. § 6(b).
+We affirm-in-part and institute a new ground of rejection within the
+provisions of 37 C.F.R. § 41.50(b) (2012).
+
+Appeal2015-005374
+Application 12/305,724
+ILLUSTRATIVE CLAIM
+Appellant's Specification states "[t]he present invention relates to a
+method and to a device for detecting a transmission channel not occupied by
+a useful signal in a multi-channel transmission system." Spec. 1. Claim 11,
+reproduced below, is illustrative of the claimed subject matter:
+11. A method for detecting an unoccupied transmission
+channel of a multi-channel transmission system having a
+plurality of transmission channels, useful signals transmitted by
+a variable number of signal sources being received by a central
+unit and distributed to a variable number of receiving modules
+on corresponding transmission channels, a transmission channel
+being individually selectable at each receiving module from
+among a predefined number of transmission channels, the
+method comprising:
+providing, by the central unit, only currently unoccupied
+transmission channels of the transmission system with an
+identification;
+checking at each receiving module as to which
+transmission channels include the identification; and
+skipping or blocking a calling up of those unoccupied
+transmission channels on the basis of the identification.
+THE REJECTIONS
+Claims 18 and 20 stand rejected under 35 U.S.C. § 112, second
+paragraph as being indefinite.
+Claims 11-14, 18, 19, and 21 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable in view ofCang et al. (US 2003/0023984 Al; Jan. 30,
+2003) and Galipeau et al. (US 6,249,913 Bl; June 19, 2001).
+Claim 15 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable in view of Cang, Galipeau, and Woolgar (WO 2005/060252
+Al; Dec. 17, 2003).
+
+2
+
+Appeal2015-005374
+Application 12/305,724
+Claims 16 and 17 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable in view of Cang, Galipeau, and Shishegar et al. (US
+2006/0085812 Al; Apr. 20, 2006).
+Claim 20 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable in view of Cang and W oolgar.
+Claim 22 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable in view of Cang, Galipeau, and W oolgar.
+
+ANALYSIS
+
+Indefiniteness
+Appellant contends the Examiner erred in interpreting the claim terms
+"central unit" in claim 18 and "component" in claim 20 as means-plusfunction limitations that invoke 35 U.S.C. § 112, sixth paragraph and in
+concluding that claims 18 and 20 are indefinite. App. Br. 3-5; Reply Br. 35. While a claim limitation that does not include the word "means" is
+presumed to not invoke § 112, sixth paragraph, the limitation will still
+invoke § 112, sixth paragraph if "the claim term fails to 'recite sufficiently
+definite structure' or else recites 'function without reciting sufficient
+structure for performing that function."' Williamson v. Citrix Online, LLC,
+792 F.3d 1339, 1349-50 (Fed. Cir. 2015) (en bane in relevant part) (quoting
+
+Watts v. XL Sys., Inc., 232 F.3d 877, 880 (Fed. Cir. 2000)). The inquiry
+should consider limitations as a whole, not merely select words in the
+limitation. Id. at 1350 (describing "distributed learning control module" as
+an "introductory phrase" and considering it as part of the entire passage in
+which it appears); see also Apex Inc. v. Raritan Comp., Inc., 325 F.3d 1364,
+1372 (Fed. Cir. 2003) (finding error in a district court's means-plus-function
+
+3
+
+Appeal2015-005374
+Application 12/305,724
+analysis of the term "circuit" where the court failed to consider the limitation
+as a whole, e.g., "a first interface circuit for receiving keyboard and cursor
+control device signals from the workstation").
+Here, the limitations at issue are "a central unit adapted to transmit an
+identification on only those transmission channels ... that are not occupied
+by a useful signal" and "a component adapted to assign an identification of a
+transmission channel not occupied by a useful signal using a direct-voltage
+signal," as recited in claims 18 and 20, respectively. Appellant argues the
+Examiner has not overcome the presumption that arises because the claims
+do not use the phrase "means for" (App. Br. 3-5; Reply Br. 2), but Appellant
+acknowledges that the limitations recite functions and does not identify any
+definite structures in the claim limitations themselves.
+We disagree with Appellant that the presumption that arises where
+limitations do not use the word "means" has not been overcome for the
+limitations at issue. We conclude (as did the Examiner) that the limitations
+at issue recite functions without reciting sufficiently definite structure for
+performing the recited functions and are properly subject to 35 U.S.C. § 112,
+sixth paragraph. See Williamson, 792 F.3d at 1351.
+Having found that§ 112, sixth paragraph applies, we first identify the
+claimed functions and then determine what structures, if any, disclosed in
+Appellant's Specification correspond to the claimed functions. Id. at 13 5152. "Structure disclosed in the specification qualifies as 'corresponding
+structure' if the intrinsic evidence clearly links or associates that structure to
+the function recited in the claim." Id. at 1352. Further, "[e]ven if the
+specification discloses corresponding structure, the disclosure must be of
+'adequate' corresponding structure to achieve the claimed function." Id.
+
+4
+
+Appeal2015-005374
+Application 12/305,724
+Here, claim 18 recites a "central unit" that performs the function of
+"transmit[ing] an identification on only those transmission channels ... that
+are not occupied by a useful signal." Appellant argues, in light of
+Appellant's Specification, a person of ordinary skill in the art would
+understand the structures associated with the claimed central unit include "a
+unit that includes signal input and/or output interfaces that transmit[] and/or
+receive[] signals, and an encoder that processes signals" and the "exemplary
+circuit diagram of a central unit" depicted in Appellant's Figure 2. App.
+Br. 4 (citing Spec. Fig. 2, p. 5, 11. 2-20, p. 6, 11. 24--32, p. 8, 11. 5-16); accord
+Reply Br. 2.
+Having reviewed the Specification, we agree with the Examiner that
+Appellant's disclosures, including the cited signal interfaces, encoder, and
+the exemplary circuit diagram of Figure 2, are not adequate corresponding
+structure to achieve the function of "transmit[ing] an identification on only
+those transmission channels ... that are not occupied by a useful signal."
+Accordingly, we agree with the Examiner's conclusion that claim 18 is
+indefinite. See Williamson, 792 F.3d at 1352; see also App. Br. 5 (arguing
+regarding claim 20 that the claimed "component," which is part of a central
+unit, is the structure corresponding to the function of assigning an
+identification).
+We also agree with the Examiner's conclusion that claim 20 is
+indefinite. Appellant argues a person of ordinary skill would understand "'a
+component' in the context of claim 20 to be the name for the structure that
+performs the function of assigning an identification of a transmission
+channel not occupied by a useful signal using a direct-voltage signal, even
+when 'a component' covers a broad class of structures." App. Br. 5 (citing
+
+5
+
+Appeal2015-005374
+Application 12/305,724
+Spec. pp. 6, 7); accord Reply Br. 2. We disagree. Appellant does not
+identify any structure disclosed in the Specification, and we find none, that
+adequately corresponds to the cited function.
+Accordingly, we sustain the Examiner's rejections of claims 18 and
+20 under 35 U.S.C. § 112, second paragraph.
+Claim 19 depends from claim 18 but is not subject to an indefiniteness
+rejection. Claim 19 recites "[ t ]he device as recited in claim 18, wherein the
+device is installed in one of a bus, a train, an airplane or in an auditorium or
+conference room." Accordingly, Claim 19 includes the "central unit"
+addressed above, and does not recite sufficiently definite structures for
+performing the claimed function associated with the claimed central unit.
+Accordingly, we enter a new ground of rejection under 35 U.S.C. § 112,
+second paragraph for the same reasons addressed above with respect to
+claim 18.
+
+Obviousness 1
+Appellant contends the Examiner erred in the obviousness rejections
+of independent claims 11, 18, and 21 because the combination of Cang and
+Galipeau does not teach or suggest "providing, by the central unit, only
+currently unoccupied transmission channels of the transmission system with
+an identification." App. Br. 6-8. Specifically, Appellant argues that
+"[a]lthough Cang describes separating channels that contain programming
+from those that do not, Cang does not disclose or suggest providing all
+
+1
+
+Even though claims 18 and 20 stand rejected as indefinite, we consider the
+obviousness rejections of claims 18 and 20 in the interest of advancing
+prosecution. Cf In re Steele, 305 F.2d 859, 862---63 (CCPA 1962).
+6
+
+Appeal2015-005374
+Application 12/305,724
+unoccupied channels with an identifier" and "merely separating occupied
+from unoccupied channels does not disclose providing an identifier only for
+unoccupied channels." App. Br. 7. Further, Appellant argues "in Cang 'all
+channels contain identifiers,' meaning that both occupied and unoccupied
+transmission channels are provided with an identification. By contrast,
+claim 11 requires providing only currently unoccupied transmission
+channels with an identification .... " Reply Br. 3 (quoting Answer 8).
+Cang discloses identifying occupied and unoccupied channels by
+encoding and then processing the encoded portions of each channel to
+determine which channels contain still video patterns. Cang i-fi-f 18, 23-29.
+Cang teaches that because the still video pattern on unoccupied channels
+almost never varies, the unoccupied channels will contain very little encoded
+information in contrast to occupied channels that contain substantially more
+encoded information. Cang i125. As stated by the Examiner, "[t]he fact that
+the channels, after being encoded and processed, return different results
+which allow the system of Cang to determine whether a channel is occupied
+or unoccupied means that all channels contain identifiers." Ans. 7-8; but
+see Spec. 6-7 (describing providing a direct-voltage signal to unoccupied
+
+channels as a contrast to the alternating-voltage signals existing on occupied
+channels; "One very simple possibility for an identification is to encode the
+unused transmission channels ... by a direct voltage or a direct-voltage
+signal.").
+Because Cang applies the same encoding process to all channels, we
+disagree with the Examiner's finding that Cang teaches providing an
+identification to only unoccupied channels as required by claim 11.
+Accordingly, we agree with Appellant that Cang does not teach the step of
+
+7
+
+Appeal2015-005374
+Application 12/305,724
+providing only unoccupied channels with an identification as required by
+claims 11 and 18 and do not sustain the Examiner's 35 U.S.C. § 103(a)
+rejections of claims 11 and 18, as well as their respective dependent claims
+12-17, 19, and 22.
+We disagree with Appellant's arguments as they pertain to claim 21,
+however. Claim 21 reads as follows:
+21. A receiving module for detecting an unoccupied
+transmission channel of a multichannel transmission system
+having a plurality of transmission channels, wherein:
+only unoccupied transmission channels are provided with
+an identification, and
+the receiving module is located in a region of a seat for a
+person, the receiving module includes a decoder with whose aid
+an unoccupied transmission channel provided with the
+identification is detectable, the receiving module is blocked
+from selecting the unoccupied transmission channel provided
+with the identification.
+Claim 21 is a system claim directed to a "receiving module" that includes a
+decoder, and the patentability of a system claim "depends on the claimed
+structure, not on the use or purpose of that structure." Catalina Marketing
+Int'!. Inc. v. Coolsavings.com, Inc., 289 F.3d 801, 809 (Fed. Cir. 2002).
+While Appellant contends "[ eJach of independent claims 11, 18, and
+21 recites providing, by the central unit, only currently unoccupied
+transmission channels of the transmission system with an identification"
+(App. Br. 5), nothing in claim 21 affirmatively claims the central unit or the
+step of providing an identification to only unoccupied transmission channels.
+In the rejection, the Examiner finds, and Appellant does not substantively
+contest, that Cang discloses a receiving module that includes a decoder as
+
+8
+
+Appeal2015-005374
+Application 12/305,724
+claimed. See Final Act. 8-9. Accordingly, we agree with the Examiner's
+findings and sustain the Examiner's rejection of claim 21.
+Appellant additionally contends the Examiner erred in the rejection of
+claim 20 because W oolgar describes adding an identifier to an occupied
+transmission channel, not an unoccupied transmission channel. App. Br. 9.
+Claim 20 recites the following:
+20. A central unit for detecting an unoccupied transmission channel
+of a multichannel transmission system having a plurality of transmission
+channels, the central unit comprising:
+a component adapted to assign an identification of a transmission
+channel not occupied by a useful signal using a direct-voltage signal.
+While Woolgar discloses a direct-current voltage pulse that can be
+added to a signal as an identifier, we agree with Appellant that W oolgar
+discloses adding such identifiers to occupied channels, not unoccupied
+channels. The Examiner has not adequately explained how a person of
+ordinary skill would have combined the teachings of Cang (which, as
+addressed above, encodes all channels and evaluates encoding properties to
+distinguish occupied channels from unoccupied channels) with the directvoltage signals taught by W oolgar. We, therefore, do not sustain the
+Examiner's rejection of claim 20.
+
+DECISION
+For the above reasons, we affirm the Examiner's rejection of claims
+18 and 20 under 35 U.S.C. § 112, second paragraph and the Examiner's
+rejection of claim 21under35 U.S.C. § 103(a).
+We reverse the Examiner's rejection of claims 11-20 and 22 under 35
+U.S.C. § 103(a).
+
+9
+
+Appeal2015-005374
+Application 12/305,724
+We enter a new ground of rejection for claim 19 under 35 U.S.C. §
+112, second paragraph.
+Section 41.50(b) provides that "[a] new ground of rejection ... shall
+not be considered final for judicial review."
+Section 41.50(b) also provides that Appellant, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new ground of rejection to
+avoid termination of the appeal as to the rejected claims:
+( 1) Reopen prosecution. Submit an appropriate amendment of
+the claims so rejected or new Evidence relating to the claims so
+rejected, or both, and have the matter reconsidered by the
+examiner, in which event the prosecution will be remanded to
+the examiner ....
+(2) Request rehearing. Request that the proceeding be reheard under
+
+§ 41.52 by the Board upon the same Record.
+No time period for taking any subsequent action in connection with
+
+this appeal may be extended. 37 C.F.R. § l .136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+37 C.F.R. § 41.50(b)
+
+10
+
+

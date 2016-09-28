@@ -1,0 +1,359 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+12/660,084
+
+02/19/2010
+
+Peter Newman Golder
+
+7590
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+8579
+
+09/16/2016
+
+EXAMINER
+
+Peter Golder
+99 East Wheelock Street
+Hanover, NH 03755
+
+VIG, NARESH
+
+ART UNIT
+
+PAPER NUMBER
+
+3622
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________
+Ex parte PETER NEWMAN GOLDER
+__________
+Appeal 2014-000876
+Application 12/660,0841
+Technology Center 3600
+____________
+Before HUBERT C. LORIN, MICHAEL C. ASTORINO, and
+ROBERT J. SILVERMAN, Administrative Patent Judges.
+LORIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Peter Newman Golder (Appellant) seeks our review under 35 U.S.C.
+§ 134 of the final rejection of claims 1–20. We have jurisdiction under 35
+U.S.C. § 6(b) (2002).
+
+SUMMARY OF DECISION
+We REVERSE.
+
+1
+
+The Appellant identifies Dr. Peter Golder as the real party in interest.
+Br. 1.
+
+Appeal 2014-000876
+Application 12/660,084
+
+THE INVENTION
+Claim 1, reproduced below, is illustrative of the subject matter on
+appeal.
+1. A method performed by a computing device, the method
+comprising:
+receiving, by the computing device from a plurality of
+advertiser devices,
+a plurality of advertisements,
+for each advertisement, at least one corresponding
+personal information value, and
+for each advertisement, a corresponding price;
+granting, by the computing device to an email device, access to
+a first email account, in which the first email account has a user and
+has an account balance;
+calculating, by the computing device, for each of a plurality of
+personal information types, a corresponding price;
+instructing, by the computing device, the email device to
+display the plurality of personal information types and the
+corresponding prices;
+instructing, by the computing device, the email device to
+display
+an input control that permits entry of a minimum price,
+and
+an input control that permits entry of a respective
+personal information value for each of a second plurality of personal
+information types;
+receiving, by the computing device from the email device, a
+first set of personal information values of the user;
+receiving, by the computing device from the email device, a
+minimum price;
+
+2
+
+Appeal 2014-000876
+Application 12/660,084
+
+determining, by the computing device, a first subset of the
+advertisements that match the first set of personal information values,
+without making the first set of personal information values available
+to any of the plurality of advertiser devices,
+in which
+each advertisement of the first subset matches at least one
+of the first set of personal information values, and
+each advertisement of the first subset has a corresponding
+price which is not less than the minimum price;
+sending, by the computing device to the first email account, a
+plurality of email messages, in which each email message includes a
+respective advertisement of the subset of advertisements;
+determining, by the computing device, an amount to pay the
+user based on the prices corresponding to the subset of
+advertisements;
+increasing, by the computing device, the account balance by the
+amount to pay the user;
+after sending the plurality of email messages, receiving, by the
+computing device, a command to withdraw at least one personal
+information value of the first set of personal information values;
+determining, by the computing device, a second subset of the
+advertisements that match a second set of personal information values,
+in which the second set of personal information values
+includes each of the first set of personal information values
+except for
+the at least one personal information value,
+whereby the second set of personal information values does not
+include the at least one personal information value; and
+sending, by the computing device to the first email account, a
+plurality of email messages, in which each email message includes an
+advertisement of the second subset of advertisements.
+
+3
+
+Appeal 2014-000876
+Application 12/660,084
+
+THE REJECTIONS
+The Examiner relies upon the following as evidence of
+unpatentability:
+Courchesne
+Bosarge
+
+US 2006/0100923 A1
+US 2008/0215692 A1
+
+May 11, 2006
+Sept. 4, 2008
+
+“Buying with Buy It Now,” Wayback Machine: http://web.archive.
+org/web/20061222192403/pages.ebay.com/buy/how-buy-bin.html,
+Dec. 22, 2008; accessed Mar. 8, 2012. [“Buying with Buy It Now”]
+The following rejections are before us for review:
+1. Claims 1–20 are rejected under 35 U.S.C. § 112, second paragraph, as
+being indefinite for failing to particularly point out and distinctly
+claim the subject matter which applicant regards as the invention.2
+2. Claims 1–20 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Courchesne, Bosarge, and “Buying with Buy It
+Now”.
+
+ISSUES
+Did the Examiner err in rejecting claims 1–20 under 35 U.S.C. § 112,
+second paragraph, as being indefinite for failing to particularly point out and
+distinctly claim the subject matter which applicant regards as the invention?
+
+2
+
+This rejection, which is included in the Final Rejection, does not appear in
+the Examiner’s Answer. However, there is no indication that it is has been
+withdrawn. Accordingly, it will be treated as still pending.
+
+4
+
+Appeal 2014-000876
+Application 12/660,084
+
+Did the Examiner err in rejecting claims 1–20 are rejected under 35
+U.S.C. § 103(a) as being unpatentable over Courchesne, Bosarge, and
+“Buying with Buy It Now”?
+
+FINDINGS OF FACT
+We rely on the Examiner’s factual findings stated in the Answer.
+Additional findings of fact may appear in the Analysis below.
+
+ANALYSIS
+The rejection of claims 1–20 under 35 U.S.C. § 112, second paragraph, as
+being indefinite for failing to particularly point out and distinctly claim the
+subject matter which applicant regards as the invention.
+According to the Examiner, the following limitations in claim 1 are
+“not clear”:
+ “granting, by the computing device to an email device, access
+to a first email account, in which the first email account has a
+user and has an account balance” (Final Act. 2);
+ “calculating, by the computing device, for each of a plurality of
+personal information types, a corresponding price; instructing,
+by the computing device, the email device to display the
+plurality of personal information types and the corresponding
+prices” (Final Act. 3);
+ “receiving, by the computing device from the email device, a
+first set of personal information values of the user; determining,
+by the computing device, a first subset of the advertisements
+that match the first set of personal information values, without
+making the first set of personal information values available to
+any of the plurality of advertiser devices” (Final Act. 3); and.
+ “after sending the plurality of email messages, receiving, by the
+computing device, a command to withdraw at least one
+5
+
+Appeal 2014-000876
+Application 12/660,084
+
+personal information value of the first set of personal
+information values” (Final Act. 3).
+The difficulty with the Examiner’s rejection is that no consideration
+has been given to the construction to be given claim 1. General principles of
+claim construction apply when determining indefiniteness. Enzo Biochem,
+Inc. v. Applera Corp., 599 F.3d 1325, 1332–33 (Fed. Cir. 2010). Take, for
+example, the claim phrase “granting, by the computing device to an email
+device, access to a first email account, in which the first email account has a
+user and has an account balance” (claim 1) which is alleged to be unclear.
+According to the Specification, “a type of email device is a general purpose
+computer programmed with a client application such as Microsoft Outlook
+[™] or Mozilla Thunderbird [TM].” Para. 132. Regarding the email
+account, the Specification discloses:
+The system server receives, from a first message device (e.g., a
+personal computer, a mobile phone, a smart phone), an identification
+of a user of a first email account. For example, the system server may
+receive from the first message device a user name (e.g., an
+alphanumeric string) and a password. This user name and password
+can be verified to be the user name and password of a particular email
+account (a “first email account”), and that email account corresponds
+to a particular user. The first email account has an account balance
+(e.g., the system server stores, with respect to the first email account,
+a balance such as an amount of money, points or other quantity that is
+credited to the account or that must be otherwise paid to the user of
+the account).
+Para. 102. In light of the Specification, the claim phrase is clear – it is
+reasonably broadly construed to cover a general purpose computer
+comprising an email program to which is attached an account associated
+with a user and an account balance. The Examiner finds that
+
+6
+
+Appeal 2014-000876
+Application 12/660,084
+
+it is not clear whether the computing device is [an] email device, said
+email device is a registration host wherein a user registers with the
+host by providing their email address and profile information, or
+something else. Also, it is not clear whether said computing device
+grants mail device access to user accounts which have user email
+addresses, or something else.
+Final Act. 2–3. However, in light of the Specification, the claim phrase is
+clear. The hypotheticals the Examiner raises about what the claim could
+cover is not a question of clarity but a question of scope. For example,
+whether “the device grants mail device access to user accounts which have
+user email addresses, or something else” goes to the breadth of the claim, not
+its definiteness. Cf. In re Robins, 429 F.2d 452, 458 (CCPA 1970) (“Giving
+the language its broadest possible meaning, as we are bound to do in the
+absence of special definitions by appellant, the breadth of the claims insofar
+as the catalyst is concerned is indeed immense. However, ‘Breadth is not
+indefiniteness.’ In re Gardner, 427 F.2d 786 [, 788], 57 CCPA [1207]
+(1970).”) We reach the same conclusion as to the other allegedly unclear
+limitations.
+The rejection is not sustained.
+
+The rejection of claims 1–20 under 35 U.S.C. § 103(a) as being
+unpatentable over Courchesne, Bosarge, and “Buying with Buy It Now”.
+All the claims include a limitation to a first email account, in which
+the first email account has an account balance. See independent claims 1, 2,
+and 20. The Appellant argues that “[n]o references of record suggest any
+sort of ‘email account which has an account balance’”. Page 5 of the
+Final Office Action asserts that Bosarge Fig. 2 (and associated disclosure)
+discloses these limitations. However, the entirety of Bosarge contains no
+7
+
+Appeal 2014-000876
+Application 12/660,084
+
+reference whatsoever to any account or any account balance.” Br. 22. The
+Examiner responded as follows:
+In response to appellant's argument that cited references do not
+teach user account with account balance.
+However, cited reference Courchesne teaches capability and
+concept for a user account with account balance.
+Ans. 20.
+According to the Examiner, “Co[u]rchesne does not explicitly recite
+email, however it is old and known . . . .” Final Act. 5. Apparently, given
+that Courchesne does not disclose email, the Examiner is conceding that
+Courchesne does not disclose said claim limitation. The Examiner appears
+to rely further on Bosarge as evidence that an email account with an account
+balance was furthermore known – albeit that is not stated expressly. Rather,
+the Examiner argues that “Courchesne in view of Bosarge teaches [the]
+capability and [a] concept for . . . granting, to an email device, access to a
+first email account, in which the first email account has a user and has an
+account balance [Bosarge, Fig. 2, and associated disclosure].” Final Act. 5.
+The difficulty with the Examiner’s reasoning is two-fold. First, we
+have reviewed Fig. 2 and the associated disclosure in Bosarge but can find
+no mention of an email account with an account balance. All that is
+disclosed in Bosarge pertains to forming an email with an ad included.
+Second, the Examiner does not explain how the combination of well-known
+email and Bosarge’s disclosure of forming an email with an ad included
+yields an email account that has an account balance. The Examiner states
+that “Courchesne in view of Bosarge teaches [the] capability and [a]
+concept” for doing that but the Examiner does not explain and we do not see
+8
+
+Appeal 2014-000876
+Application 12/660,084
+
+how (a) well-known email and (b) Bosarge’s ad-included email would lead
+one of ordinary skill in the art to an email account with an account balance
+as claimed.
+For the foregoing reasons, a prima facie case of obviousness has not
+been made out in the first instance by a preponderance of the evidence.
+
+CONCLUSIONS
+The rejection of claims 1–20 under 35 U.S.C. § 112, second
+paragraph, as being indefinite for failing to particularly point out and
+distinctly claim the subject matter which applicant regards as the invention is
+not sustained.
+The rejection of claims 1–20 under 35 U.S.C. § 103(a) as being
+unpatentable over Courchesne, Bosarge, and “Buying with Buy It Now” is
+not sustained.
+
+DECISION
+The decision of the Examiner to reject claims 1–20 is reversed.
+
+REVERSED
+
+9
+
+

@@ -1,0 +1,226 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/333,441
+
+12/12/2008
+
+ATSUSHI YUSA
+
+OKS03-GN027
+
+6337
+
+30074
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+Taft Stettinius & Hollister LLP
+One Indiana Square, Suite 3500
+Indianapolis, IN 46204-2023
+
+NGUYEN, CHANH DUY
+
+ART UNIT
+
+PAPER NUMBER
+
+2691
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+Taft-IP-Docket@taftlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ATSUSHI YUSA
+
+Appeal2013-008618
+Application 12/333,441
+Technology Center 2600
+
+Before JASON V. MORGAN, KIMBERLY McGRAW, and
+NABEEL U. KHAN, Administrative Patent Judges.
+McGRAW, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1 and 4--7. Claims 2 and 3 stand objected to. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We reverse.
+
+Appeal2013-008618
+Application 12/333,441
+STATEMENT OF THE CASE
+Appellant's invention is directed to a liquid crystal panel driving
+apparatus having a plurality of timing controllers. According to Appellant's
+Specification, an object of the invention is for the apparatus to display
+normally even if each of the plurality of timing controllers receives
+abnormal display data signals. Spec. i-f 7. Each of the controllers has (1) an
+image data memory for storing "image data associated with the abnormality
+detection signal" ("image data stored in the image data memory") and (2) an
+image switching unit that provides the image data stored in the image data
+
+memory instead of the image data that is stored in the line memory when an
+abnormality is detected.
+Claim 1 is the only independent claim on appeal and is reproduced
+below:
+1. A liquid crystal panel driving apparatus comprising:
+a plurality of timing controllers, each of the plurality of the
+timing controllers including a line memory for storing image data
+included in a received display data signal and an output controller
+unit that provides a liquid crystal panel driver with a driving
+signal based on the image data stored in the line memory and the
+display data signal;
+wherein each of the plurality of the timing controllers includes
+an abnormality detection unit for outputting
+[AJ
+an abnormality detection signal when an abnormality
+in the display data signal is detected
+[BJ
+an abnormality detection signal transmission
+unit for transmitting the abnormality detection signal
+to at least one other of the timing controllers
+
+[CJ
+an image data memory for storing image data
+associated with the abnormality detection signal, and
+2
+
+Appeal2013-008618
+Application 12/333,441
+
+[DJ
+an image switching unit that provides the
+output control unit with the image data associated
+with the abnormality detection signal stored in the
+image data memory instead of the image data stored
+in the line memory when an abnormality is detected.
+App. Br. 37 (Claims App'x) (bracketed letters added).
+REJECTIONS ON APPEAL
+Claim 1 stands rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Ooga et al. (US 2006/0197730 Al, pub. Sept. 7, 2006 "Ooga") in view
+ofHong et al. (US 2007/0085799 Al, pub. Apr. 19, 2007 "Hong"). Final Act.
+2.
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Ooga, Hong, and Nagashima et al. (US 5,057,928, issued Oct. 15, 1991
+"Nagashima"). Final Act. 4.
+Claim 5 stands rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Ooga, Hong, Nagashima, and Terasaki (US 5,844,540, issued Dec. 1,
+1998). Final Act. 6.
+Claim 6 stands rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Ooga, Hong, and An (US 2006/0256063 Al, pub. Nov. 16, 2006). Final
+Act. 7.
+Claim 7 stands rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Ooga, Hong, An, and Moon (US 2005/0035958 Al, pub. Feb. 17, 2005).
+Final Act. 8.
+
+ANALYSIS
+We agree with the Appellant that the Examiner erred by finding the
+combination of Ooga and Hong teaches or suggests a plurality of timing
+
+3
+
+Appeal2013-008618
+Application 12/333,441
+controllers having ( 1) "an image data memory for storing image data
+associated with the abnormality detection signal" recited in claim 1, element
+[CJ and (2) "an image switching unit that provides the output control unit
+with the image data associated with the abnormality detection signal stored
+in the image data memory instead of the image data stored in the line
+memory when an abnormality is detected," as recited in claim 1, element
+[DJ.
+
+The Examiner finds Ooga teaches most of the limitations of claim 1
+but does not teach either the "image data memory" of claim 1, element [CJ
+or the "image switching unit" of claim 1, element [D]. 1 Ans. 3; Final Act. 3.
+The Examiner relies on Hong to make up for these deficiencies. Ans. 3--4;
+Final Act. 3--4. In particular, the Examiner finds Hong's "time controller
+110 that includes storage section 115 and the source driver 150 outputs a
+normal data voltage and an abnormal data from the storage section 115"
+discloses the image data memory of claim 1. Id. at 3. The Examiner further
+finds Hong's "control section 111 which select or switch the output data
+between the storage sections 15 and 117" discloses the image switching unit
+of claim 1. Id.
+The Examiner concludes it would have been obvious to one of
+ordinary skill in the art at the time of the invention was made
+to combine a liquid crystal display that include a timing
+controller and the timing controller has a two storage memory
+for storing abnormal detection signal as taught by Hong in to
+[sic J a liquid crystal display panel having a plurality of timing
+controllers as taught by Ooga in order to provides a liquid
+crystal display ("LCD") apparatus having an impulsive driving
+1
+
+Although the Examiner does not expressly state Ooga fails to teach the
+image switching unit of claim 1, element [DJ, the Examiner relies upon
+Hong for teaching this limitation.
+4
+
+Appeal2013-008618
+Application 12/333,441
+method capable of improving an image display quality; see
+[0008] of Hong.
+Ans. 4.
+However, the Examiner has not shown where it is taught that adding
+the impulsive driving method of Hong would improve the image display
+quality in liquid crystal display driving apparatus such as that taught by
+Ooga. Ooga uses a driving device in which when an abnormality in the
+display signal is detected by one of the timing controllers, the other timing
+controller sends a predetermined stored image data to the controller having
+no display signal. Ooga i-f 68, Figs. 1, 4. Hong utilizes an "impulsive
+driving method" to improve the quality of a moving image in which a black
+image is displayed after a normal color image. Hong i-fi-13, 6. The Examiner
+has not sufficiently explained why a skilled artisan would have utilized the
+impulsive driving method of Hong in the driving apparatus of Ooga to
+improve display quality. We, therefore, agree with Appellant that the
+Examiner has not demonstrated the disputed limitation of claim 1 would
+have been obvious to a skilled artisan at the time of invention.
+In view of the forgoing, we find the Examiner erred in rejecting
+independent claim 1 and claims 4--7 depending therefrom.
+
+DECISION
+The Examiner's rejections of claims 1 and 4--7 under 35 U.S.C.
+
+§ 103(a) are reversed.
+REVERSED
+
+5
+
+

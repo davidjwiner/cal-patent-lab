@@ -1,0 +1,255 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/540,394
+
+08/13/2009
+
+Fred B. McCormick
+
+65585US002
+
+1218
+
+32692
+
+7590
+
+09/14/2016
+
+EXAMINER
+
+3M INNOVATIVE PROPERTIES COMPANY
+PO BOX 33427
+ST. PAUL, MN 55133-3427
+
+RUDE, TIMOTHY L
+
+ART UNIT
+
+PAPER NUMBER
+
+2871
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/14/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+LegalUSDocketing@mmm.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FRED B. McCORMICK, SERGEY A. LAMANSKY,
+LESLIE A. KREILICH, and MANOJ NIRMAL
+
+Appeal2015-000228
+Application 12/540,394
+Technology Center 2800
+
+Before ROMULO H. DELMENDO, BEYERLYA. FRANKLIN, and
+BRIAND. RANGE, Administrative Patent Judges.
+DELMENDO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+The Applicants (hereinafter the "Appellants") 1 appeal under 35 U.S.C.
+§ 134(a) from a final decision of the Primary Examiner to reject claims 1-10
+
+and 21. 2 We have jurisdiction under 35 U.S.C. § 6(b).
+
+1
+
+The Appellants state that the real parties in interest are "3M Company ...
+and its affiliate 3M Innovative Properties Company" (Appeal Brief filed
+December 12, 2013, hereinafter "Br.," 2).
+2
+Br. 2; Final Office Action delivered electronically on June 3, 2013,
+hereinafter "Final Act.," 3-9. On page 1 of the Final Office Action
+("Disposition of Claims"), the Examiner indicated that claims 15, 18, 22,
+and 23 were finally rejected. These claims, however, were withdrawn from
+consideration pursuant to a restriction requirement (Final Act. 2).
+
+Appeal2015-000228
+Application 12/540,394
+We reverse.
+
+BACKGROUND
+The subject matter on appeal relates to a display device including-in
+order of arrangement-a first substrate, a first electrode, a light-emitting
+display material, a second electrode, and a second substrate (Specification,
+hereinafter "Spec.," 10, 11. 19-27; Fig. 8). Claim 1, the only independent
+claim on appeal, is reproduced below from page 7 of the Appeal Brief
+(Claims Appendix), with key limitations indicated in italics, as follows:
+1.
+A display device, comprising layers arranged in
+the following order:
+a first substrate;
+a first electrode;
+a display material, wherein the display material
+comprises an OLED material;
+a second electrode; and
+a second substrate,
+wherein at least one of the first and second electrodes
+comprises:
+a first transparent or semitransparent conductive
+layer;
+a second transparent or semitransparent conductive
+layer; and
+a transparent or semitransparent intervening layer
+located between the first and second conductive layers,
+wherein the intervening layer comprises a dielectric,
+wherein the intervening layer includes electrically
+conductive transparent or semitransparent pathways
+extending through the intervening layer between and in
+contact with the first and second conductive layers,
+wherein the first and second conductive layers
+each comprise a sheet of material and the first conductive
+layer is substantially coextensive with the second
+conductive layer.
+
+2
+
+Appeal2015-000228
+Application 12/540,394
+THE REJECTION
+Claims 1-10 and 21 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Bright3 in view of Song et al. (hereinafter "Song") 4
+(Examiner's Answer delivered electronically on July 18, 2014, hereinafter
+"Ans.," 2-12; Final Act. 3-9).
+
+DISCUSSION
+The Examiner found (Final Act. 3-5) that Bright describes a display
+device as specified in claim 1 except:
+Bright does not expressly disclose [that] the intervening
+layer (bottom layer 24, Fig. 9) includes electrically conductive
+pathways extending through the intervening layer between and
+in contact with the first and second conductive layers (lower
+layer 22 and middle layer 22, Fig. 9).[ 5J
+(Final Act. 5). In an attempt to resolve this difference, the Examiner relied
+on Song. Specifically, the Examiner found that "Song teaches ... the use of
+transparent and/or semitransparent [0034] multilayered electrodes for use in
+flexible displays that have conductive pathways, 30, [0029] [0083] to allow
+stacking of layers ... to form flexible multilayer electrodes with better
+transparency" (id.). Based on these findings, the Examiner concluded that
+"it would have been obvious to one having ordinary skill in the art ... to
+modify [Bright's] invention with electrically conductive pathways, of the
+same material as the electrodes, extending through the intervening layer
+3
+
+US 2003/0124392 Al, published July 3, 2003.
+US 2007/0181878 Al, published August 9, 2007.
+5
+[ J The Examiner states that Bright does not "expressly disclose" (emphasis
+added) the identified claim limitations, leaving open the possibility that
+Bright may inherently disclose these limitations. The Examiner, however,
+has not discussed inherent disclosure and, therefore, we do not address it.
+4
+
+3
+
+Appeal2015-000228
+Application 12/540,394
+between and in contact with the first and second conductive layers to form a
+better, more transparent, multilayer electrode for use in flexible
+displays .... " (id. at 6).
+The Appellants contend that Bright would have taught away from
+including Song's nano-metal layer within protective polymer layer 24 (as
+shown in Bright's Figure 9) because Bright's layer 24 is described as
+enhancing barrier properties by reducing the number of holes and defects in
+the films upon which or under which they are deposited (Br. 4). The
+Appellants point out that, by contrast, such defects in the claimed invention
+would be desirable in that they could result in the electrically conductive
+pathways specified in claim 1 (id.). The Appellants also argue that Song's
+teachings are directed to improving the electrical conductivity of an
+electroconductive polymer layer 40 (as shown in Figure 1}-not a layer such
+as an intervening protective polymer layer 24 as disclosed in Bright-and,
+therefore, if Bright and Song were to be combined, a person of ordinary skill
+in the art would have included Song's nano-metal layer into Bright's
+electroconductive layers (i.e., layers 22 shown in Figure 9) rather than
+intervening protective polymer layers 24 (Br. 4).
+We agree with the Appellants that the Examiner failed to articulate a
+sufficient reason with some rational underpinning to support the conclusion
+that a person having ordinary skill in the art would have combined the
+references in the manner claimed by the Appellants. In re Kahn, 441 F.3d
+977, 988 (Fed. Cir. 2006), cited with approval in KSR Int'! Co. v. Teleflex
+Inc., 550 U.S. 398, 418 (2007).
+
+Song teaches that a nano-metal layer 30 positioned between grid
+electrode 20 and an electroconductive polymer layer 40 can improve the
+
+4
+
+Appeal2015-000228
+Application 12/540,394
+electroconductivity of a transparent electrode by capturing charges (ii 34;
+Fig. 1). Thus, as pointed out by the Appellants (Br. 4), "[t]he nanometal
+layer 30 of Song is not used to form electrical connections between
+conductive layers" as in the Appellants' claimed invention. Also, as pointed
+out by the Appellants, Bright's intervening protective polymer layer 24,
+which the Examiner found to comprise dielectric material (Final Act. 4), is
+described as "enhanc[ing] barrier properties by reducing the number of holes
+and defects in the films upon which or under which, they are deposited"
+(Bright i-f 67). But nothing in the relied-upon evidence indicates that
+Bright's layer 24 itself may be electroconductive or that a need exists to
+make it electroconductive. Therefore, we find the Examiner's factual basis
+for supporting the articulated reason for combining the references to be
+insufficient.
+In response to the Appellants' teaching away argument (i.e., that
+providing Song's nano-metal in Bright's intervening protective polymer
+layer 24 would be inconsistent with Bright's disclosed purpose for layer 24),
+the Examiner stated that "[t]he disclosure of desirable alternatives does not
+necessarily negate a suggestion for modifying the prior to arrive at the
+claimed invention" (Ans. 10) (internal citation omitted). The problem,
+however, is that the Examiner failed-in the first instance-to direct us to
+evidence or reasoning demonstrating that a person having ordinary skill in
+the art would have understood Bright's less desirable alternatives to include
+enhancing layer 24's electroconductivity. At most, a person having ordinary
+skill in the art may have modified Bright's electroconductive layers 22 to
+include Song's nano-metal materials to enhance electroconductivity, but, as
+argued by the Appellants, such a modification would not result in the
+
+5
+
+Appeal2015-000228
+Application 12/540,394
+invention recited in claim 1, which requires the intervening layers to include
+electroconductive pathways that extend therethrough.
+For these reasons, and those set forth in the Appeal Brief, we cannot
+uphold the Examiner's rejection.
+SUMMARY
+The Examiner's final decision to reject claims 1-10 and 21 is
+reversed.
+REVERSED
+
+6
+
+

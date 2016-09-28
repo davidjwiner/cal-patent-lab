@@ -1,0 +1,248 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/047,205
+
+03/14/2011
+
+Carles Puente Baliarda
+
+0690.0012C3
+
+6399
+
+27896
+
+7590
+
+09/19/2016
+
+EDELL, SHAPIRO & FINNAN, LLC
+9801 Washingtonian Blvd.
+Suite 750
+Gaithersburg, MD 20878
+
+EXAMINER
+WIMER, MICHAEL C
+
+ART UNIT
+
+PAPER NUMBER
+
+2845
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+epatent@usiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CARLES PUENTE BALIARDA and
+JORDI SOLER CASTANY
+
+Appeal2015-002279
+Application 13/047,205
+Technology Center 2800
+
+Before JEFFREY T. SMITH, WESLEY B. DERRICK, and
+JENNIFER R. GUPTA, Administrative Patent Judges.
+GUPTA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision2 twice rejecting claims 1-29, 33, 37--44, 46-55, and 58-71. We
+have jurisdiction under 35 U.S.C. § 6(b ). For the reasons set forth below, we
+reverse.
+The subject matter on appeal relates to a portable communications
+device comprising an antenna with a radiating element comprising two parts:
+a conducting surface and a loading structure. Spec. ,-i,-i 2--4. Claims 1, 20,
+
+1
+
+Appellants identify the real party in interest as Fractus, S.A. Appeal Brief
+filed July 7, 2014 ("App. Br."), 1.
+2
+Non-Final Office Action mailed November 29, 2013 ("Non-Final Act.").
+
+Appeal2015-002279
+Application 13/047,205
+and 46 are the independent claims on appeal. Claims 1 and 46, reproduced
+below, are representative of the claims on appeal.
+1. A portable communications device comprising:
+a case operable to be held in a user's hand;
+a grounding element;
+an antenna mounted entirely within the case and coupled
+to the grounding element, the antenna being configured to both
+radiate and receive electromagnetic waves corresponding to at
+least two non-overlapping frequency bands, wherein:
+
+the antenna comprises a radiating element comprising a
+first part and a second part, the first part comprising at least one
+conducting surface, the at least one conducting surface being
+configured to radiate and receive electromagnetic waves
+corresponding to at least two non-overlappingfrequency regions
+and comprising a surface whose entire perimeter is a spacefilling perimeter, the space-filling perimeter including at least
+ten segments connected such that no pair of adjacent segments
+defines a longer straight segment, all of the segments of the
+space-filling perimeter being smaller than a tenth of an
+operating free-space wavelength of the antenna, and the second
+part comprising a loading structure extending along at least one
+path having a length between two tips, the length of the at least
+one path of the loading structure being smaller than an eighth of
+the longest operating free-space wavelength of the antenna;
+at least one tip of the loading structure is connected along
+a width dimension of the loading structure to at least a portion of
+an edge of the at least one conducting surface; and
+a maximum width of the loading structure is smaller than
+a quarter of a longest edge of the perimeter of the at least one
+conducting surface.
+
+2
+
+Appeal2015-002279
+Application 13/047,205
+46. A portable communications device comprising:
+a case operable to be held in a user's hand;
+a grounding element;
+an antenna mounted entirely within the case and coupled to the
+grounding element, the antenna being configured to both radiate and
+receive electromagnetic waves corresponding to at least two nonoverlapping frequency bands, wherein:
+
+the antenna comprises a radiating element comprising a first part and
+a second part, the first part comprising at least one conducting
+surface, and the second part comprising a loading structure, the
+loading structure having a space-filling perimeter, the space-filling
+perimeter including at least ten segments connected such that no pair
+of adjacent segments defines a longer straight segment, the segments
+being smaller than a tenth of an operating free-space wavelength of
+the antenna;
+the loading structure is connected at least at one point to an edge of
+the at least one conducting surface;
+the loading structure extends along at least one path having a length
+between two tips;
+a maximum width of the loading stn1cture is smaller than a quarter of
+a longest edge of the perimeter of the at least one conducting surface;
+and
+a length of the at least one path of the loading structure is greater than
+the width of the loading structure.
+App. Br. (Claims Appendix) 32, 39--40 (emphasis added to identify disputed
+limitations). Claim 20 contains a similar limitation to that emphasized in
+claim 1 above. See id. at 35-36.
+ANALYSIS
+Claims 1-29, 33, 37--44, 46-55, and 58-71 stand rejected under
+35 U.S.C. § 103(a) as unpatentable over Korisch (US 5,926,139, issued
+July 20, 1999) (hereinafter "Korisch") in view of Benham et al.
+3
+
+Appeal2015-002279
+Application 13/047,205
+(US 5,943,025, issued August 24, 1999) (hereinafter "Benham"). Non-Final
+Act. 2--4.
+Claims 1-29, 33, and 37--44
+
+We will focus on representative independent claim 1 because it
+contains the argued limitations that also are present in independent claim 20.
+The Examiner finds that Korisch's Figures 1 and 4 teach a radio
+communications transceiver device 10 (Korisch Fig. 1) comprising an
+antenna (id. at Fig. 4) with a radiating element 28' that radiates and receives
+electromagnetic waves corresponding to two non-overlapping frequency
+bands using two radiating portions 30 (which is resonant in the 1800 MHz
+band) and 32' (which is resonant in the 800 MHz band) (id. at 3:9-19; 1:915). Non-Final Act. 2. The Examiner then finds that Korisch's radiating
+portion 32' is a space-filling perimeter including at least ten segments
+connected such that no pair of adjacent segments defines a longer straight
+segment, and all of the segments of the perimeter 32' being smaller than a
+tenth of an operating free-space wavelength of the antenna. Id. at 2-3.
+Appellants argue that Korisch does not specify the dimensions of the
+various segments of the second radiating element 32', and Korisch does not
+indicate that Figure 4 is to scale. App. Br. 13. Accordingly, Appellants
+contend that it cannot be established based on Korisch's disclosure that all of
+the perimeter segments of portion 32' of Korisch's radiating element meet
+the requirement of being smaller than a tenth of the operating wavelength of
+the antenna. Id. Appellants' arguments are persuasive. Our reviewing
+Court has held that "it is well established that patent drawings do not define
+the precise proportions of the elements and may not be relied on to show
+particular sizes if the specification is completely silent on the issue."
+4
+
+Appeal2015-002279
+Application 13/047,205
+Hockerson-Halberstadt, Inc. v. Avia Group Int'!, Inc., 222 F.3d 951, 956
+
+(Fed. Cir. 2000). Because Korisch is silent as to whether or not the drawings
+are to scale and the portions of Korisch's disclosure relied upon by the
+Examiner do not give any dimensions for the segments of the second
+radiating element 32', we are left to impermissibly speculate as to how
+Korisch teaches a conducting surface whose entire perimeter includes at
+least ten segments with all the segments being smaller than a tenth of an
+operating free-space wavelength of the antenna. We decline to engage in
+such speculation. "[T]he examiner bears the initial burden, on review of the
+prior art or on any other ground, of presenting a prima facie case of
+unpatentability." In re Oetiker, 977 F.2d 1443, 1445 (Fed. Cir. 1992).
+Further, a rejection based on § 103 must rest upon a factual basis rather than
+speculation. "Where the legal conclusion [of obviousness] is not supported
+by the facts it cannot stand." In re Warner, 379 F.2d 1011, 1017 (CCPA
+1967). Accordingly, we do not sustain the Examiner's obviousness rejection
+of claims 1-29, 33, and 37--44.
+Claims 46--55 and 58-71
+
+As in independent claim 1, the device of independent claim 46
+includes an antenna with a radiating element comprising a conducting
+surface and a loading structure. In claim 46, however, the loading structure
+rather than the conducting surface has a perimeter including at least ten
+segments where the segments are smaller than a tenth of an operative
+wavelength of the antenna.
+The Examiner acknowledges that Korisch does not disclose a loading
+structure, and relies on Benham's Figure 4c for this limitation. Ans. 15.
+
+5
+
+Appeal2015-002279
+Application 13/047,205
+But, as Appellants argue, the Examiner does not point out and it is not
+apparent from Benham' s disclosure, how Benham' s Figure 4c discloses a
+loading structure that includes at least ten segments, as in claim 46. See
+App. Br. 26. Therefore, we are constrained to reverse the rejection of claims
+46-55 and 58-71under35 U.S.C. § 103(a) for obviousness over Korisch
+and Benham.
+
+DECISION
+For the above reasons, the Examiner's rejection of claims 1-29, 33,
+37-44, 46-55, and 58-71 is reversed.
+
+REVERSED
+
+6
+
+

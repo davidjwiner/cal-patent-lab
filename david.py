@@ -39,13 +39,13 @@ def convert_pdf(file_name):
 
 	call(["pdftotext", file_name])
 
-def main(csv_name):
+def main(csv_name,start_page,end_page, start_row= None):
 	with open(csv_name, 'w') as csvfile:
 		writer = unicodecsv.writer(csvfile, delimiter=',', encoding = 'utf-8')
 		writer.writerow(["PDF No","Application No", "Appeal No", "Interference No", "Publication No", "Publication Date", "Patent No", "Issue Date", "Decision Date", "Inventor", "Case No"])
 		count = 0
 		del_lst = []
-		for curr in range(341,681):
+		for curr in range(start_page,end_page):
 			print("Page: " + str(curr))
 			link = "html/" + str(curr) + ".html"
 			r = urllib.urlopen(link).read()
@@ -55,17 +55,21 @@ def main(csv_name):
 			rows = table.find_all('tr')
 
 			row_num = 0
-			for i in range(len(rows)):
+			row_range = [i for i in range(len(rows))]
+			if curr ==start_page and start_row:
+				row_range = [i for i in range(start_row,len(rows))]
+				start_row= None
+			for i in row_range:
 				row = rows[i]
 				row_num +=1
-				print("Row: " + str(row_num))
+				print("Page: " + str(curr) + "  Row: " + str(row_num))
 				cols = row.find_all('td')
 
 				app_id = cols[0].a.get('name').strip()
 
 				pdf = cols[0].find_all('a')[1].get('href')
-				pdf_no = str(curr) + "." + str(i)
-				file_name = "pdf/" + str(curr) +"_" + str(i) +  ".pdf"
+				pdf_no = str(curr) + "_" + str(i+1)
+				file_name = "pdf/" + str(curr) +"_" + str(i+1) +  ".pdf"
 				download_file(homepage+pdf, file_name)
 				del_lst.append(file_name)
 				count +=1
@@ -107,9 +111,22 @@ def main(csv_name):
 				os.remove(file_name)
 
 
+main('uspto_data_1.csv', 341, 681)
 
-# download_html()
+#If you have to run again, check terminal for Page: and Row: and call the following function:
+#Uncomment These Lines===============================
+#LastPage = #
+#LastRow = #
+#main('uspto_data_1(1).csv', LastPage,681, LastRow)
+#====================================================
+
+#If you want to run it again, make sure that you change the output csv name.
+# Ex) uspto_data_1.csv -> uspto_data_1(1).csv -> uspto_data_1(2).csv
 
 
-# print(table.td.a.get('name'))
-main('uspto_data_1.csv')
+
+
+
+
+
+

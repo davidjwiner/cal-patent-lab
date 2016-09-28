@@ -1,0 +1,384 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/521,793
+
+0712912009
+
+Pascale Paul
+
+RSI-10302/50
+
+1306
+
+25006
+
+7590
+
+09/22/2016
+
+DINSMORE & SHOHL LLP
+900 Wilshire Drive
+Suite 300
+TROY, MI 48084
+
+EXAMINER
+BORGEEST, CHRISTINA M
+
+ART UNIT
+
+PAPER NUMBER
+
+1649
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docket@patlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte PASCALE PAUL, SOPHIE CAILLAT ZUCMAN,
+and GERALDINE PORCU 1
+
+Appeal2014-003571
+Application 12/521,793
+Technology Center 1600
+
+Before DONALD E. ADAMS, TAWEN CHANG, and
+RACHEL H. TOWNSEND, Administrative Patent Judges.
+TOWNSEND, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to methods
+of determining IVF outcome, which have been rejected as directed to nonstatutory subject matter. We have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+STATEMENT OF THE CASE
+"Diagnosis and management of infertility is a prevalent health
+concern in young adults." (Spec. 1.) One option for infertile couples is in
+
+vitro fertilization, but it is associated with clinical complications. (Id.)
+"Prediction of the chances for infertile women to give birth to a viable baby
+
+1
+
+Appellants identify the Real Party in Interest as Reprosource Inc. (Br. 1.)
+
+Appeal2014-003571
+Application 12/521,793
+after IVF treatment is ... a major issue in the optimisation of the medical
+response to increasing demands of infertile couples." (Id.) According to the
+Specification, the "search for biomarkers that may predict pregnancy issues
+after IVF, before initiation of treatment, remains a major challenge." (Id.)
+Further according to the Specification, Appellants' invention "provides for
+the first time a biomarker allowing the non-invasive evaluation and
+prediction of IVF outcome." (Spec. 2.)
+Claims 36, 39--41, 43, 46--48, 50-53, 57, and 64---67 are on appeal.
+Claims 36, 43, 57, 64, and 66 are representative and read as follows:
+36. A method for determining in vitro fertilization (IVF)
+outcome comprising:
+in vitro assaying for the level of soluble MHC class I
+chain-related protein A (MICA) in a serum, plasma, or blood
+sample from a subject;
+comparing said level to a control;
+predicting IVF outcome from said step of comparing, the
+increased level of MICA relative to said matched control being
+indicative of poor IVF outcome, increased implantation failure
+rates, increased likelihood of IVF failure, and/or increased
+likelihood of miscarriage; and
+administering hormonal conditioning treatment to said
+subject based on said step of predicting.
+43. A method for selecting a subject for IVF comprising:
+in vitro assaying for soluble MICA protein in a serum,
+plasma, or blood sample;
+selecting the subject for IVF having a level of MICA
+indicative of a successful IVF probability, said level
+corresponding to a level of soluble MICA protein in a matched
+sample from a fertile control subject; and
+transferring an embryo to said subject.
+57. A method for determining the probability of pregnancy
+complications in a subject comprising:
+
+2
+
+Appeal2014-003571
+Application 12/521,793
+
+in vitro assaying for soluble MICA protein in a serum,
+plasma, or blood sample from a subject;
+comparing said level to a control;
+predicting a pregnancy complication from said step of
+comparing, wherein an increased level of MICA relative to a
+matched control is indicative of an increased probability of
+pregnancy complications in the subject, wherein the pregnancy
+complications are miscarriage, vascular pregnancy diseases
+(VPD), preeclampsia (PE), severe preeclampsia, vascular
+intrauterine growth retardation (IUGR), associated or not with
+preeclampsia, HELLP syndrome, gravidic steatosis, gravidic
+nephropathy or intra-uterine foetal death (IUFD), pregnancy
+diseases, or infertility associated with auto immune pathologies;
+and
+administering treatment of one or more pregnancy
+complications to said subject based on said step of predicting.
+64. A method for preparing to administer in vitro fertilization
+(IVF) comprising:
+in vitro assaying for the level of soluble MHC class I
+chain-related protein A (MICA) in a serum, plasma, or blood
+sample from a subject;
+comparing said level to a matched control;
+predicting a reduced likelihood of successful IVF
+outcome from said step of comparing due to an increased level
+of MICA relative to said matched control suggesting an
+increased likelihood of poor IVF outcome, increased
+implantation failure rates, increased likelihood of IVF failure,
+and/or increased likelihood of miscarriage; and
+administering hormonal conditioning treatment to said
+subject based on said step of predicting.
+66. A method for in vitro fertilization comprising:
+in vitro assaying for the level of soluble MHC class I
+chain-related protein A (MICA) in a serum, plasma, or blood
+sample from a subject;
+comparing said level to a matched control;
+predicting a reduced likelihood of success of in vitro
+fertilization from said step of comparing due to an increased
+level of MICA relative to said matched control suggesting
+3
+
+Appeal2014-003571
+Application 12/521,793
+greater risk of poor IVF outcome, implantation failure rates,
+IVF failure, and/or miscarriage; and
+administering in vitro fertilization to said subject based
+on said step of predicting.
+(Br. 12-16. ) 2 ' 3 The single ground of rejection by the Examiner that is before
+us on review 1s:
+Claims 36, 39--41, 43, 46--48, 50-53, 57, and 64--67 are rejected under
+35 U.S.C. § 101 as directed to non-statutory subject matter.
+DISCUSSION
+The Examiner finds that "it is not in dispute that Appellant[ s] ha[ ve]
+discovered a correlation between increased levels of sMICA [i.e., soluble
+MHC class I chain-related protein A,] and a reduced likelihood of a woman
+delivering a viable baby." (Ans. 6.) The Examiner notes that "the
+specification teaches that soluble MICA levels in the serum greater than 2.45
+ng/ml is indicative of higher implantation failure rates and greater than 3 .2
+ng/ml prior to IVF cycles predicted a higher chance of miscarriage."
+(Ans. 3.) The Examiner explains that, despite Appellants discovery, "the
+claims recite a naturally existing relationship between the increased level of
+soluble MICA in the serum, plasma or blood and the increased likelihood of
+
+2
+
+In their Response to the Restriction/Election Requirement filed October 10,
+2011, Appellants elected miscarriage as the pregnancy complication. (Ans.
+22.) Pending claims 54--56 and 60-63 stand withdrawn from consideration
+as drawn to a non-elected invention. (Ans. 2.)
+3
+We recognize Appellants' January 29, 2014 Reply Brief, which addresses
+an obviousness rejection of subject matter relating to "a silicon based
+electrode in an electrochemical device." (See Reply Br. 1-3.) Neither an
+obviousness rejection nor subject matter relating to a silicon based electrode
+in an electrochemical device is before this panel. Therefore, we will not
+further discuss Appellants' Reply Brief.
+4
+
+Appeal2014-003571
+Application 12/521,793
+IVF failure" and only add "well-understood, routine, conventional activity
+already engaged in by the scientific community [in the art of assisted
+reproduction technology]." (Ans. 3--4.) The Examiner concludes, therefore,
+that the claims do not include steps that are applications of a natural law that
+represent patentable subject matter. (Ans. 6.) In particular, citing prior art,
+the Examiner finds that "in vitro assay methods for measuring soluble MICA
+[such as by Enzyme-Linked Immunosorbent Assay] are well known in the
+art," in addition to being a step that "merely informs a relevant audience
+about a certain relationship that exists in nature." (Ans. 4.) As to the
+additional steps of "administering hormonal conditioning treatment" (claims
+36 and 64), "transferring an embryo" (claim 43), or "administering treatment
+of one or more pregnancy complications" (claim 57), the Examiner notes
+that the art of record provides evidence that these are routine in the art of in
+
+vitro fertilization (Ans. 4, 9 (noting the generalized "hormonal conditioning
+treatment" includes that which has been accomplished in the prior art routine
+ovarian stimulation protocol), 18-20 (noting that embryo transfer was
+routine in the field of assisted reproduction), 23 (noting that the generalized
+"treatment" step includes that which has been accomplished in the prior art
+as "treatment or care provided to patients who have undergone or who are
+about to undergo a miscarriage"). As to claim 66, which requires
+administering in vitro fertilization based on data gathering and a thought
+process (making a prediction based on the comparison to measured levels of
+sMICA and a matched control), the Examiner finds that the claim is simply
+"the use of [the] correlation [between sMICA and IVF outcome] to
+[determine whether to] undertake IVF treatment ... , [and the] steps
+involved in IVF consist of well understood, routine, conventional activity
+
+5
+
+Appeal2014-003571
+Application 12/521,793
+already engaged in by the scientific community." (Ans. 27-31.) The
+Examiner concludes that the pending claims all "recite[] a law of nature or
+natural correlation, with additional steps that involve well-understood,
+routine and conventional activity previously engaged in by researchers in the
+field [and are] not patent-eligible." (Ans. 5, 14, 28, 33-34.)
+We agree with the Examiner's conclusion that representative claims
+36, 43, 57, 64, and 66 are directed to non-statutory subject matter consistent
+with controlling caselaw. We "note that the Supreme Court instructs that
+'[g]roundbreaking, innovative, or even brilliant discovery does not by itself
+satisfy the§ 101 inquiry."' Ariosa Diagnostics, Inc. v. Sequenom, Inc., 788
+F.3d 1371, 1379 (Fed. Cir. 2015) (quoting Ass 'nfor Molecular Pathology v.
+Myriad Genetics, Inc., 133 S. Ct. 2107, 2117 (2013) ). Thus, whether or not
+"[t]he specification represents the first disclosure of a relationship between
+the levels of sMICA in the blood, plasma, or serum and the outcome or
+establishment of pregnancy" (Br. 4), is not determinative of whether the
+representative claims are patent eligible.
+The framework for distinguishing patents that claim laws of nature or
+natural phenomena from those that claim patent eligible applications of
+those concepts involves the following two steps:
+1. determine whether the claims at issue are directed to a patent
+ineligible concept
+2. if they are, consider the elements of each claim both individually
+and "as an ordered combination" to determine whether additional
+elements "transform the nature of the claim" into a patent eligible
+application, i.e., search for an element or combination of elements
+that is "sufficient to ensure that the patent in practice amounts to
+
+6
+
+Appeal2014-003571
+Application 12/521,793
+significantly more than a patent upon the [ineligible concept]
+itself."
+Ariosa, 788 F.3d at 1375-76 (Fed. Cir. 2015) (quoting Mayo Collaborative
+Servs. v. Prometheus Labs., Inc., 132 S. Ct. 1289, 1294, 1298 (2012)).
+
+Appellants do not dispute that the representative claims depend upon a
+natural law or phenomena. (Br. 4 ("increased levels of sMICA correlate to a
+reduced likelihood of a woman delivering a viable baby"). And we agree
+with the Examiner's assessment that "[i]n the instant case, the claims recite a
+naturally existing relationship between the increased level of soluble MICA
+in the serum, plasma or blood and the increased likelihood of IVF failure."
+(Ans. 3.) Thus, we move to the second step.
+Appellants contend that "[t]he present claims recite specific, narrow,
+and unconventional applications that involve steps such as administering
+hormonal conditioning treatment, transferring an embryo, administering in
+vitro fertilization, or treating a pregnancy complication ... [which] represent
+
+concrete applications of any natural law falling under the claims and make
+all claims patent eligible under 35 U.S.C. § 101." (Br. 4.) We disagree that
+the recited steps transform the claims into patent eligible subject matter.
+The representative patent claims 36, 43, 57, 64, and 66 focus on a
+newly discovered fact about human biology (sMICA levels and the
+relationship to in vitro fertilization outcome), involve no creation or
+alteration of natural products, and do not purport to identify novel detection
+techniques. And, as explained by the Examiner, these claims do not involve
+novel treatment steps or in vitro fertilization steps. (Ans. 4, 9 (noting the
+generalized "hormonal conditioning treatment" includes that which has been
+accomplished in the prior art routine ovarian stimulation protocol), 18-20
+
+7
+
+Appeal2014-003571
+Application 12/521,793
+(noting that embryo transfer was routine in the field of assisted
+reproduction), 23 (noting that the generalized "treatment" step includes that
+which has been accomplished in the prior art as "treatment or care provided
+to patients who have undergone or who are about to undergo a
+miscarriage"), 30-31 (noting that in vitro assaying and administering IVF
+was known in the art and citing prior art to show same). Indeed, Appellants
+do not dispute that the additional steps of "administering hormonal
+conditioning treatment" (claims 36 and 64 ), "transferring an embryo" (claim
+43), "administering treatment of one or more pregnancy complications"
+(claim 57), or administering IVF (claim 66) were conventional and routine
+in assisted reproductive technology and IVF at the time the claimed
+inventions were made.
+Appellants' argument that the field of invention is sMICA and the
+specific treatments administered by the claims are unconventional in that
+field is unpersuasive. (Br. 3--4, 6, 8, 9.) As the Examiner correctly found,
+"[t]he field of the invention is not limited to the 'sMICA art' (studies
+involving MHC class I chain-related protein A) ... [but rather fall] more
+broadly within the field of assisted reproduction technology and in vitro
+fertilization." (Ans. 13.) In particular, as the Examiner noted, "instant
+claims 36 and 64 are drawn to methods for determining IVF outcome and
+preparing to administer IVF respectively" (Ans. 14); claim 43 involves the
+routine act of embryo transfer that was routinely carried out "in the art of
+assisted reproduction at the time of the invention" (Ans. 18-19); under the
+"broadest reasonable interpretation of [claim 57] when read in light of the
+specification and from the view of one of ordinary skill in the art, [that
+claim] would encompass any routine treatment or care provided to patients
+
+8
+
+Appeal2014-003571
+Application 12/521,793
+[undergoing IVF] who have undergone or who are about to undergo a
+miscarriage" (Ans. 24--25); and claim 66 recites "administering IVF to a
+subject based on the prediction [of the likelihood of establishing pregnancy
+based on the step of comparing sMICA levels to a matched control]" (Ans.
+26).
+As was the case in Mayo and Ariosa, the method claims at issue here
+amount to "nothing significantly more than an instruction to doctors to apply
+the applicable laws when treating their patients" using "conventional steps,
+specified at a high level of generality." Mayo, 132 S. Ct. at 1298, 1300;
+Ariosa, 788 F.3d at 1377-78. Such claims are patent ineligible. Mayo, 132
+S. Ct. at 1300; Ariosa, 788 F.3d at 1378.
+Appellants argue that the varied methods recited indicate that none
+individually preempts all uses of the natural phenomena, thus avoiding the
+"primary concern of the Supreme Court in Mayo." (Br. 10.) This argument
+also does not persuade us that the representative claims are patent eligible.
+"While preemption may signal patent ineligible subject matter, the absence
+of complete preemption does not demonstrate patent eligibility." Ariosa,
+788 F.3d at 1379. "Where a patent's claims are deemed only to disclose
+patent ineligible subject matter under the Mayo framework, as they are in
+this case, preemption concerns are fully addressed and made moot." Id.
+For the reasons discussed, Appellants do not persuade us that the
+Examiner erred in rejecting claims 36, 43, 57, 64, and 66 as directed to nonstatutory subject matter. Claims 39--41, 46--48, 50-53, 65, and 67 have not
+been argued separately and therefore fall with claims 36, 43, 57, 64, and 66.
+37 C.F.R. § 41.37(c)(l)(iv).
+
+9
+
+Appeal2014-003571
+Application 12/521,793
+SUMMARY
+We affirm the rejection of claims 36, 39--41, 43, 46--48, 50-53, 57,
+and 64---67 under 35 U.S.C. § 101 as directed to non-statutory subject matter.
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+10
+
+

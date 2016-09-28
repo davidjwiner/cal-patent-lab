@@ -1,0 +1,487 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/613,623
+
+11/06/2009
+
+Brian Riggs
+
+58083/380845 (Bll05)
+
+6705
+
+72058
+
+7590
+
+09/16/2016
+
+Kilpatrick Townsend & Stockton LLP
+Adobe Systems, Inc. 58083
+Mailstop: IP Docketing - 22
+1100 Peachtree Street, Suite 2800
+Atlanta, GA 30309-4530
+
+EXAMINER
+BARRETT, RYANS
+
+ART UNIT
+
+PAPER NUMBER
+
+2171
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipefiling@kilpatrickstockton.com
+j lhice@kilpatrick.foundationip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRIAN RIGGS and EDWIN VAN RIJKOM
+
+Appeal2015-003575
+Application 12/613,623 1
+Technology Center 2100
+
+Before DEBRA K. STEPHENS, KEVIN C. TROCK, and
+JESSICA C. KAISER, Administrative Patent Judges.
+STEPHENS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Introduction
+Appellants appeal under 35 U.S.C. § 134 from a final rejection of
+claims 1-24. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is Adobe Systems
+Incorporated (App. Br. 4).
+
+Appeal2015-003575
+Application 12/613,623
+STATEMENT OF THE INVENTION
+The claims are directed to generating media player behaviors based on
+traits corresponding to media elements (Abstract). Claim 1, reproduced
+below, is illustrative of the claimed subject matter:
+1.
+
+A method, comprising:
+
+identifying, by a computing system providing a media
+player, a wrapped media element, the wrapped media element
+wrapped by a proxy media element, wherein the wrapped media
+element is declared in executable code defining a media
+presentation, the executable code being instructions used by the
+media player to utilize a selectively-enabled functional
+component of the media player, wherein the selectively-enabled
+functional component is not natively supported by logic of the
+media player;
+determining a trait exposed by the proxy media element;
+and
+generating the selectively-enabled functional component
+to provide a media player behavior based on the exposed trait.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Markel
+Cramer
+Edmonson
+Cronstrom
+Marcus
+
+US
+US
+US
+US
+US
+
+2002/0089530 Al
+2002/0104096 Al
+2006/0053079 Al
+2007 /0240030 Al
+2009/0125582 Al
+REJECTIONS
+
+The Examiner made the following rejections:
+
+2
+
+July 11, 2002
+Aug. 1, 2002
+Mar. 9, 2006
+Oct. 11, 2007
+May 14, 2009
+
+Appeal2015-003575
+Application 12/613,623
+Claims 1-18 and 22-24 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Cramer, Edmonson, Markel, and Marcus (Final Act.
+2-19).
+Claims 19-21 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Cramer, Edmonson, Markel, Marcus, and Cronstrom (id.
+at 19-22).
+
+ISSUES
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments that the Examiner has erred. We disagree with Appellants'
+conclusions. We adopt as our own the findings and reasons set forth by the
+Examiner in the Final Action from which the appeal is taken (Final Act. 222) and the reasons set forth in the Examiner's Answer in response to
+Appellants' Appeal Brief (Ans. 2-9). We highlight and address specific
+findings and arguments for emphasis as follows.
+
+35 U.S.C. § 103(a): Claims 1, 7, and 13
+Issue 1 a: Did the Examiner err by finding the combination of Cramer
+
+and Edmonson teaches or suggests
+[t]he wrapped media element is declared in executable code
+defining a media presentation ... to utilize a selectively enabled
+functional component of the media player ... determining a trait
+exposed by the proxy media element; and generating the
+selectively-enabled functional component to provide a media
+player behavior based on the exposed trait,
+
+3
+
+Appeal2015-003575
+Application 12/613,623
+as recited in claim 1 and similarly recited in claims 7 and 13?
+Issue 1 b: Did the Examiner err by improperly combining Cramer,
+
+Edmonson, Markel, and Marcus?
+
+ANALYSIS
+Issue la
+
+Appellants contend the combination of Cramer and Edmonson does
+not teach or suggest
+the wrapped media element is declared in executable code
+defining a media presentation ... to utilize a selectively enabled
+functional component of the media player ... determining a trait
+exposed by the proxy media element; and generating the
+selectively-enabled functional component to provide a media
+player behavior based on the exposed trait,
+as recited in claim 1 and similarly recited in claims 7 and 13 (App. Br. 1316; Reply Br. 1--4). Specifically, Appellants argue Edmonson teaches
+"using a wrapper to prevent access to a media file," rather than using the
+wrapper to "selectively enable functionality of the media player" (Reply Br.
+3--4 (emphasis omitted); App. Br. 14--15).
+We are not persuaded by Appellants' arguments. The Examiner finds,
+and we agree, Cramer teaches media elements including embedded
+commands that determine media player functionality (Ans. 3 (citing Cramer
+i-fi-15-7, 79, 83, Fig. 1); Final Act. 2-3 (citing Crameri-fi-f 40--42)). The
+Examiner further finds, and we agree, Edmonson teaches a media element
+can be wrapped using a wrapper (Final Act. 3 (citing Edmonson i1 86); Ans.
+3--4 (citing Edmonson Fig. 12)). The Examiner's combination embeds
+Cramer's commands into Edmonson's media wrapper, rather than
+
+4
+
+Appeal2015-003575
+Application 12/613,623
+embedding those commands in "the original media element" itself (Final
+Act. 3; see also Ans. 4--5).
+Appellants' arguments attack the references individually when the
+Examiner's rejection is based on the combination of references.
+Specifically, Appellants' arguments that Edmonson does not selectively
+enable media player functionality (Reply Br. 3--4; App. Br. 14--15) do not
+address the Examiner's reliance on Cramer to teach selective enablement of
+media player functionality (Ans. 3 (citing Cramer i1i15-7, 79, 83, Fig. 1);
+Final Act. 2-3 (citing Cramer i1i140-42)). Additionally, Appellants'
+arguments that "combining Edmonson with Cramer simply discloses
+preventing access while a file is wrapped (as disclosed by Edmonson),
+allowing access when the file is unwrapped (as disclosed by Edmonson), and
+using the media player of Cramer with the unwrapped media file" (Reply Br.
+3 (emphasis omitted)) inappropriately requires the bodily incorporation of
+Edmonson's media element access prevention feature. See In re Keller, 642
+F.2d 413, 425 (CCPA 1981). The Examiner's combination incorporates
+Cramer's commands enabling media player functionality, into Edmonson's
+media element wrapper, and does not incorporate Edmonson's media
+element access prevention feature (Final Act. 3; see also Ans. 4--5).
+Accordingly, we are not persuaded the Examiner erred in finding the
+combination of Cramer and Edmonson teaches or suggests the disputed
+limitation, as recited in claim 1 and similarly recited in claims 7 and 13.
+
+Issue lb
+
+Appellants argue the Examiner improperly combined Cramer,
+Edmonson, Markel, and Marcus (App. Br. 17-20; Reply Br. 6-9).
+
+5
+
+Appeal2015-003575
+Application 12/613,623
+Specifically, Appellants argue the combination of Edmonson and Markel
+"would both change the principle of operation of the invention disclosed in
+Edmonson and render the system disclosed in Edmonson inoperable for its
+intended purpose" (App. Br. 17; Reply Br. 6-8).
+We are not persuaded because Appellants' arguments are directed to
+features in Edmonson that the Examiner's combination does not include,
+namely, media element access prevention (App. Br. 17; Reply Br. 6-8). See
+In re Keller, 642 F.2d at 425. As discussed supra, the Examiner only relies
+on Edmonson' s teaching that a media element can be wrapped using a
+wrapper (Final Act. 3 (citing Edmonson i-f 86); Ans. 3--4 (citing Edmonson
+Fig. 12)). Appellants have not proffered sufficient evidence or argument to
+persuade us the Examiner's combination changes the principle of operation,
+or renders inoperable, Edmonson's media element wrapping function; rather,
+the combination wraps Cramer's media element in a wrapper (Ans. 4--5;
+Final Act. 3).
+Similarly, Appellants argue that incorporating the teachings of Markel
+would change the principle of operation, or render inoperable, Edmonson
+(App. Br. 17-18). Moreover, Appellants argue the Examiner improperly
+combined Cramer, Edmonson, Markel, and Marcus because the Examiner
+provided "an alleged rationale for combining Cramer with Edmondson, an
+alleged rationale for combining Cramer with Markel, and an alleged
+rationale for combining Cramer with Marcus" but "failed to provide a
+rationale for combining all four of the references" (App. Br. 19-20).
+Additionally, Appellants argue the Examiner's combination of Cramer and
+Edmonson is the result of "impermissible hindsight reconstruction" (Reply
+Br. 9).
+
+6
+
+Appeal2015-003575
+Application 12/613,623
+We are not persuaded by Appellants' arguments. As discussed above,
+we agree with the Examiner that Edmonson teaches wrapping a media
+element. (Final Act. 3 (citing Edmonson i-f 86); Ans. 3--4 (citing Edmonson
+Fig. 12)). The Examiner further finds, and we agree, Markel teaches that a
+wrapped media element can be provided via executable code (Final Act. 3
+(citing Markel i-f 7)). The Examiner finds Marcus teaches multiple different
+media elements (Final Act. 3--4 (citing Marcus i-f 61)). Appellants' argument
+that Edmonson' s principle of operation would be changed and Edmonson
+would be rendered inoperable for its intended purpose (App. Br. 18) are
+unpersuasive. Appellants' arguments are insufficient to persuade us
+Edmonson' s media wrapping function would be changed or rendered
+inoperable. The Examiner has articulated reasoning with a rationale
+underpinning as to why an ordinarily skilled artisan would have found it
+obvious to combine Cramer and Edmonson -
+
+"to alter the final trait
+
+expression without altering the original media element," to combine Cramer,
+Edmonson, and Markel -
+
+to "enhance the interface with the media
+
+information and related entities," and to combine Cramer, Edmonson,
+Markel, and Marcus -to "provide multiple functionalities" (Ans. 6-7).
+Appellants have not proffered sufficient evidence or argument to persuade
+us of error in the Examiner's reasoning.
+Furthermore, the Examiner's combination of Cramer, Edmonson,
+Markel, and Marcus only relies upon Markel to teach that a media wrapper
+can be defined using executable code (Final Act. 3 (citing Markel i-f 7);
+Appellants' arguments directed to features in Markel the Examiner's
+combination does not incorporate, i.e., the particular content and purpose of
+Markel's wrapper (see App. Br. 18), does not persuade us that Edmonson's
+
+7
+
+Appeal2015-003575
+Application 12/613,623
+principle of operation would be changed or that Edmonson would be
+rendered inoperable for its intended purpose.
+Moreover, Appellants' arguments, including Appellants' allegation
+without elaboration that the Examiner used impermissible hindsight (App.
+Br. 19-20), are not persuasive because the Examiner's combination "'simply
+arranges old elements with each performing the same function it had been
+known to perform' and yields no more than one would expect from such an
+arrangement." KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 417 (2007)
+(quoting Sakraida v. Ag Pro, Inc., 425 U.S. 273, 282 (1976)). Here, the
+Examiner properly identifies known elements from Cramer (a media player
+providing functionality based on a media element), Edmonson (a wrapper
+for a media element), Markel (providing a wrapper using executable code),
+and Marcus (multiple different media elements), each performing the same
+function it had been known to perform (Final Act. 2--4 ). The skilled artisan
+would "be able to fit the teachings of multiple patents together like pieces of
+a puzzle" since the skilled artisan is "a person of ordinary creativity, not an
+automaton." KSR, 550 U.S. at 420-21. Furthermore, Appellant has
+presented no evidence or argument that combining the teachings and
+suggestions of Cramer, Edmonson, Markel, and Marcus (Edmonson' s
+wrapper wraps Cramer's media element, Markel' s executable code wrapper
+provides the wrapper in executable code, and Marcus' library of different
+media elements provides multiple different types of media elements (Ans. 3,
+6-7; Final Act. 2--4)) would have been "uniquely challenging or difficult for
+one of ordinary skill in the art" or "represented an unobvious step over the
+prior art." See Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157,
+1162 (Fed. Cir. 2007) (citing KSR, 550 U.S. at 418-19).
+
+8
+
+Appeal2015-003575
+Application 12/613,623
+We are not persuaded by Appellants' arguments. Appellants have not
+proffered sufficient evidence or argument to persuade us of error in the
+Examiner's finding and reasoning.
+Accordingly, we are not persuaded the Examiner improperly
+combined Cramer, Edmonson, Markel, and Marcus.
+
+35 U.S.C. § 103(a): Claims 3, 9, and 15
+Issue 2: Did the Examiner err by finding the combination of Cramer
+
+and Edmonson teaches or suggests "determining a trait exposed by the
+wrapped media element and identifying a change to the trait based on a
+parameter included in code defining the proxy media element," as recited in
+claim 3 and similarly recited in claims 9 and 15?
+
+ANALYSIS
+Appellants argue neither Cramer nor Edmonson teaches or suggests
+"determining a trait exposed by the wrapped media element and identifying
+a change to the trait based on a parameter included in code defining the
+proxy media element," as recited in claim 3 and similarly recited in claims 9
+and 15 (App. Br. 20-23; Reply Br. 9-11). Specifically, Appellants argue
+Edmonson's wrapper does not include "a parameter that is used to change a
+trait of the wrapped media file" (App. Br. 22). Appellants also argue
+Cramer's "identif[ied] plug-ins from text strings" are not provided in a
+wrapped media element (Reply Br. 10 (emphasis omitted)).
+We are not persuaded by Appellants' arguments. As discussed supra,
+the Examiner finds, and we agree, Cramer teaches media player
+functionality, i.e., traits, which are changed based on parameters (Ans. 8
+
+9
+
+Appeal2015-003575
+Application 12/613,623
+(citing Cramer if 7)). Indeed, Cramer teaches changing a media player's
+ability to play media formats, e.g., to "Windows Media, Real Player,
+QuickTime, etc.," based on text strings (Cramer iii! 5, 7). Furthermore, as
+discussed supra, we also agree with the Examiner's finding that Edmonson
+teaches wrapped media elements (Final Act. 3 (citing Edmonson if 86); Ans.
+3--4 (citing Edmonson Fig. 12)). The Examiner determines the combination
+of Cramer and Edmonson teaches wrapping media elements in a wrapper
+having parameters that may trigger specific functions of a media player
+(Final Act. 5; see Ans. 8).
+Appellants' arguments attack the references individually when the
+Examiner's rejection is based on the combination of references. More
+specifically, Appellants' arguments that Cramer does not teach a media
+wrapper (Reply Br. 10) do not address the Examiner's finding that
+Edmonson teaches a media wrapper (Final Act. 3 (citing Edmonson if 86);
+Ans. 3--4 (citing Edmonson Fig. 12)). Furthermore, Appellants' arguments
+that Edmonson does not change media player functionality (Reply Br. 3--4;
+App. Br. 14--15) do not address the Examiner's combination which relies on
+Cramer to teach changing media player functionality using parameters (Ans.
+8 (citing Cramer if 7)), i.e., the Examiner's combination of Cramer and
+Edmonson changes media player functionality using parameters defined in a
+wrapper wrapping a media element (Final Act. 5; see Ans. 8). Accordingly,
+we are not persuaded the Examiner erred in finding the combination of
+Cramer and Edmonson teaches or suggests "determining a trait exposed by
+the wrapped media element and identifying a change to the trait based on a
+parameter included in code defining the proxy media element," as recited in
+claim 3 and similarly recited in claims 9 and 15.
+
+10
+
+Appeal2015-003575
+Application 12/613,623
+
+35 U.S.C. § 103(a): Claim 24
+Issue 3: Did the Examiner err by finding Cramer teaches or suggests
+"code that intercepts media player commands and replaces the media player
+commands with code directed to a trait of the proxy media element," as
+recited in claim 24?
+
+ANALYSIS
+Appellants contend Cramer does not teach or suggest "code that
+intercepts media player commands and replaces the media player commands
+with code directed to a trait of the proxy media element," as recited in claim
+24 (App. Br. 23-25; Reply Br. 4--6). Specifically, Appellants argue Cramer
+Chart 3 describes base media player functions and further, "the only
+'replacement' of 'standard controls' in Cramer involves adding animations
+of these standard controls to a graphical interface" (App. Br. 24; Reply Br.
+6). Appellants further argue Cramer's "[A]nimation [S]creen appears to lack
+any relationship to content being used by the media player" (Reply Br. 6
+(emphasis omitted)).
+We are not persuaded by Appellants' arguments. The Examiner finds,
+and we agree, Cramer teaches "skinning" a Media Player (Final Act. 2
+(citing Cramer i-f 5)) with an Animation Screen which "completely replace[s]
+the standard controls that come with" Cramer's media player (Ans. 9 (citing
+Cramer i-f 273)). Indeed, Cramer's media player has five built-in controls:
+"Stop," "Pause," "Play," "Menu," and "Index" buttons (Cramer i-f 60).
+Those five built-in control buttons "are all optional if the designer provides
+their functionality" via a "skin" using Flash buttons which "replace the
+
+11
+
+Appeal2015-003575
+Application 12/613,623
+standard controls" (Cramer iii! 62---63, 273 (emphasis added); see Cramer
+
+iii! 28-30). That is, Cramer's built-in control buttons (commands) are
+removed (intercepts media player commands) when a skin includes Flash
+buttons to replace the built-in control buttons. Further, contrary to
+Appellants' argument that Cramer's skin is unrelated to media content
+(Reply Br. 6), Cramer teaches "video or other streamed content may also
+contain a command for specifying a particular player 'skin' to be used for a
+particular multimedia presentation" (Cramer if 5). Accordingly, we are not
+persuaded the Examiner erred in finding Cramer teaches or suggests "code
+that intercepts media player commands and replaces the media player
+commands with code directed to a trait of the proxy media element," as
+recited in claim 24.
+Accordingly, we are not persuaded of error in the Examiner's finding
+that the combination of Cramer, Edmonson, Markel, and Marcus teaches the
+limitations recited in claim 24.
+
+Remaining Claims 2, 4-6, 8, 10--12, 14, and 16--23
+
+Dependent claims 2, 4---6, 8, 10-12, 14, and 16-23 are not separately
+argued by Appellants (see App. Br. 16, 19-20, 26) and thus, these claims fall
+with their respective independent claims. Accordingly, we sustain the
+Examiner's rejections of dependent claims 2, 4--6, 8, 10-12, 14, 16-18, 22,
+and 23 under 35 U.S.C. § 103(a) as being unpatentable over Cramer,
+Edmonson, Markel, and Marcus and dependent claims 19-21 under
+35 U.S.C. § 103(a) as being unpatentable over Cramer, Edmonson, Markel,
+Marcus, and Cronstrom.
+
+12
+
+Appeal2015-003575
+Application 12/613,623
+DECISION
+The Examiner's rejection of claims 1-18 and 22-24 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Cramer, Edmonson, Markel, and
+Marcus is affirmed.
+The Examiner's rejection of claims 19-21 under 35 U.S.C. § 103(a) as
+being unpatentable over Cramer, Edmonson, Markel, Marcus, and
+Cronstrom is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+13
+
+

@@ -1,0 +1,307 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111833,754
+
+08/03/2007
+
+Anthony Dip
+
+TPS-040
+
+8441
+
+37694
+
+7590
+
+09/21/2016
+
+WOOD, HERRON & EV ANS, LLP (TOKYO ELECTRON)
+2700 CAREW TOWER
+441 VINE STREET
+CINCINNATI, OH 45202
+
+EXAMINER
+LUND, JEFFRIE ROBERT
+
+ART UNIT
+
+PAPER NUMBER
+
+1716
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptodock@whe-law.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+Ex parte ANTHONY DIP
+
+Appeal2015-003551
+Application 11/833,754
+Technology Center 1700
+
+Before JEFFREY T. SMITH, KAREN M. HASTINGS, and
+MICHAEL P. COLAIANNI, Administrative Patent Judges.
+HASTINGS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant seeks our review under 35 U.S.C. § 134 of the Examiner's
+decision rejecting claims 1, 4--8, and 22-26. We have jurisdiction over the
+appeal under 35 U.S.C. § 6(b).
+We AFFIRM.
+Independent claim 1 reads (emphasis added to highlight disputed
+limitation( s)):
+1.
+A thermal processing system for processing
+substrates, the thermal processing system comprising:
+
+a tubular member defining a process chamber configured
+to process the substrates and being substantially centered about
+an azimuthal axis;
+
+Appeal2015-003551
+Application 11/833,754
+a carrier disposed in the process chamber for holding the
+substrates in a vertically spaced arrangement along the
+azimuthal axis; and
+a gas injector including a manifold body disposed in the
+process chamber between the carrier and the tubular member,
+the manifold body including a first conduit, a second conduit
+inside the first conduit, and a third conduit inside the first
+conduit, the first conduit including a lumen and a plurality of
+injection outlets in the sidewall that couple the lumen in fluid
+communication with the process chamber and are oriented
+generally radially relative toward the azimuthal axis, the second
+conduit including a sidewall, a lumen inside the sidewall, and a
+plurality of passages distributed along the length of the second
+conduit in the sidewall that couple the lumen in fluid
+communication with the lumen of the first conduit, and the third
+conduit including a sidewall, a lumen inside the sidewall, and a
+plurality of passages distributed along the length of the third
+conduit in the sidewall that couple the lumen in fluid
+communication with the lumen of the first conduit,
+wherein the lumen of the second conduit is configured to
+receive a first process gas and the lumen of the third conduit is
+configured to receive a second process gas that is segregated
+from the first process gas while inside the lumen of the third
+conduit, the lumen of the first conduit is configured to receive
+the first process gas from the passages of the second conduit
+and the second process gas from the passages of the third
+conduit, and the first conduit is configured to combine the first
+and second process gases to promote a chemical reaction that
+produces a reaction product for injection through the injection
+outlets into the process chamber,
+wherein the injection outlets are substantially aligned in a
+row, and the plurality of passages in the sidewall of the second
+conduit and the plurality of passages in the sidewall of the third
+conduit are each substantially aligned in respective first and
+second rows that are oriented substantially parallel with the row
+of the injection outlets, and
+
+2
+
+Appeal2015-003551
+Application 11/833,754
+wherein the second conduit has a cap at one end thereof
+and the third conduit has a cap at one end thereof, the caps
+sealing the ends of the respective conduits.
+The Examiner maintains the following rejections under 35 U.S.C.
+
+§ 103(a):
+(a) claims 1, 4, and 22-26 as unpatentable over Kontani et al. (US
+2004/0025786 Al, published February 12, 2004) ("Kontani") and Dozier
+(US 4,108,106, issued August 22, 1978);
+(b) claim 5 as unpatentable over Kontani, Dozier, and Sato et al. (US
+2003/0224618 Al, published December 4, 2003) ("Sato"); and
+(c) claims 6-8 as unpatentable over Kontani, Dozier, and Yamaguchi
+et al. (JP 2006-080098 A, published March 23, 2006, and relying on an
+English Machine Translation dated April 14, 2016) ("Yamaguchi").
+For Rejection (a), Appellant presents arguments for claim 1 only. See
+Appeal Brief, generally. Moreover, with respect to Rejection (b ), Appellant
+did not substantively address or further distinguish the additional cited
+secondary references based on the additional limitations of the dependent
+claim 5. Id. at 13. Accordingly, we select independent claim 1 as
+representative of the claimed subject matter for these rejections before us on
+appeal. Claims 4, 5, and 22-26 stand or fall with claim 1. The rejection of
+claims 6-8 (Rejection (c)), separately argued, will be addressed separately.
+
+Id.
+
+3
+
+Appeal2015-003551
+Application 11/833,754
+ANALYSIS
+The Prior Art Rejections
+
+Upon consideration of the evidence on this record and each of
+Appellant's contentions, we find that the preponderance of evidence on this
+record supports the Examiner's conclusion that the subject matter of
+Appellant's claims is unpatentable over the applied prior art for the reasons
+presented by the Examiner. We add the following for emphasis.
+
+Rejections (a) and (b)
+
+Independent Claim 1 is directed to a thermal processing system for
+processing substrates where the gases used to form an oxide layer on
+substrates are first combined to promote a chemical reaction of the gases
+within a first lumen to produce a reaction product that is then subsequently
+injected through the injection outlets into the process chamber where the
+substrates are placed. Spec. i-f 8.
+We refer to the Examiner's Non-Final Action for a statement of the
+rejection of representative claim 1. Non-Final Act. 2--4.
+Appellant argues Kontani fails to disclose the manifold body having
+the three conduits as is recited in claim 1. App. Br. 6; Kontani Figure 1.
+Appellant further argues Dozier's injector tubes 432--434 are different from
+Kontani's injector tube 2 because each tube is imperforate and open at one
+end while the claimed invention requires the injector tubes have a plurality
+of passages distributed along the length thereof and being end-capped as
+claimed. App. Br. 7; Dozier Figure 11. According to Appellant, absent
+impermissible hindsight, there is no reason why a person of ordinary skill
+would cap an injector tube of Dozier and why a person of ordinary skill
+would perforate a tube of Dozier for placement in the buffer chamber 17 of
+4
+
+Appeal2015-003551
+Application 11/833,754
+Kontani given the different structural configurations of the cited art. App.
+Br. 8-10, 12. Thus, Appellant argues the combination of Kontani and
+Dozier fails to disclose each of the conduits recited in claim 1. Id. at 6.
+We are unpersuaded by this argument. Appellant's arguments are
+premised on bodily incorporation and are not focused on the Examiner's
+reasons for combining the cited art. It is well established that the
+obviousness inquiry does not ask "whether the references could be
+physically combined but whether the claimed inventions are rendered
+obvious by the teachings of the prior art as a whole." In re Etter, 756 F.2d
+852, 859 (Fed. Cir. 1985) (en bane); see also In re Keller, 642 F.2d 413, 425
+(CCPA 1981) (stating "[t]he test for obviousness is not whether the features
+of a secondary reference may be bodily incorporated into the structure of the
+primary reference").
+Both Kontani and Dozier are directed to providing uniform gas flow
+onto a substrate surface through the use of injector tubes for depositing a
+uniform film on the substrate surface. Kontani i127; Dozier col. 2, 11. 23-33.
+As noted by the Examiner, Kontani discloses a device that accomplishes this
+purpose where an injector tube 2 having perforations 4 along the length of
+the tube is inserted into a chamber 17 also having perforations 3 along the
+length of a wall. Non-Final Act. 2-3; Kontani Figure 1, i-f 110. Kontani
+discloses chamber 17 moderates the velocity of gas ejecting from injector
+tube 2 so that the velocity of the gas ejecting from the perforations 3 of
+chamber 17 have uniform flow rate and flow velocity. Kontani i-fi-1 122-123.
+While Kontani discloses the use of multiple chambers for multiple injector
+tubes, the Examiner recognized that Kontani does not disclose providing
+multiple injector tubes within one chamber. Non-Final Act. 3; Ans. 11-12;
+Kontani i-fi-1 34--43. The Examiner turns to Dozier for the teaching that it is
+5
+
+Appeal2015-003551
+Application 11/833,754
+well known in the art of semiconductor material processing to combine a
+plurality of injector tubes 432--436 within a single manifold tube 480 to mix
+gases prior to supplying them through perforations 494 for deposition on a
+wafer substrate. Non-Final Act. 3; Ans. 12; Dozier Figure 11; col. 7, 11. 4258. Thus, the Examiner has established a reasonable basis to conclude that
+the claimed invention would have been obvious over the prior art cited.
+Non-Final Act. 4; Ans. 12. That is, the Examiner determined that one of
+ordinary skill in the art would have been led to the known technique of
+Dozier of using multiple injectors in a single manifold to mix reactive gases
+prior to injection of gases to a processing chamber containing semiconductor
+wafers for deposition with the reasonable expectation of successfully
+uniformly depositing material on the surfaces of the wafers. On this record,
+Appellant has not adequately explained why one skilled in the art would not
+have been capable of adapting the device of Kontani to include multiple gas
+injector tubes in the same chamber, as disclosed by Dozier. Appellant has
+not pointed to reversible error in the Examiner's obviousness determination.
+Accordingly, we affirm the Examiner's prior art rejections of claims
+
+1, 4, 5, and 22-26 (Rejections (a) and (b)) for the reasons presented by the
+Examiner and given above.
+
+Rejection (c)
+
+Appellant argues claims 6-8 together. App. Br. 13. Accordingly, we
+limit our discussion to claim 6 and claims 7 and 8 stand or fall with claim 6.
+Claim 6 requires the thermal processing system of claim 1 to further
+comprise an outer vessel enclosing the tubular member where both are
+separated by an annular pumping space. Claim 6 additionally requires a
+
+6
+
+Appeal2015-003551
+Application 11/833,754
+longitudinal slit extending through the tubular member to couple the process
+chamber and the annular pumping space in fluid communication.
+We refer to the Examiner's Non-Final Action for a statement of the
+rejection. Non-Final Act. 6-8.
+Appellant argues the Examiner has not explained how Kontani would
+have been optimized to incorporate the outer vessel/annular slit arrangement
+of Yamaguchi. App. Br. 13.
+We find this argument unavailing. Appellant's argument again is
+again premised on bodily incorporation. Etter, 756 F.2d at 859; Keller, 642
+F.2d at 425.
+As noted by the Examiner, Kontani discloses an exhaust outlet 18 for
+exhausting gas in the reaction tube 6 to the outside. Ans. 21; Kontani
+Figures 1, 2B, i-fi-f 119, 126, 144, 151. The Examiner found Kontani does not
+disclose providing a longitudinal slit extending through the tubular member
+to couple a process chamber and an annular pumping space in fluid
+communication to exhaust the process chamber. Non-Final Act. 7; Ans. 21.
+To address this deficiency, the Examiner relies on Yamaguchi as teaching
+the claimed outer vessel/slit/annular pumping space arrangement as a known
+technique to exhaust gases from a process chamber used for the treatment of
+semiconductor wafers. Non-Final Act. 7-8; Ans. 21; Yamaguchi Figures 1,
+3, i-fi-f l, 10-11, 15. Thus, the Examiner provided a reasonable basis to
+conclude that the subject matter of claim 6 would have been obvious over
+the cited art. Non-Final Act. 8; Ans. 21-22. Appellant has not adequately
+explained why one skilled in the art would not have been capable of
+adapting the device of Kontani by replacing Kontani' s exhaust arrangement
+with Yamaguchi' s known alternative exhaust arrangement for
+semiconductor wafer processing system.
+7
+
+Appeal2015-003551
+Application 11/833,754
+Accordingly, we affirm the Examiner's prior art rejection of claims 68 (Rejection (c)) for the reasons presented by the Examiner and given above.
+
+ORDER
+The Examiner's prior art rejections of claims 1, 4-8, and 22-26 under
+35 U.S.C. § 103(a) are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+8
+
+

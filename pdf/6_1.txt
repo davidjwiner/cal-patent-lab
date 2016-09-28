@@ -1,0 +1,238 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/557,595
+
+07/25/2012
+
+John P. Kamieniecki
+
+106751.00191
+
+2234
+
+124177
+
+7590
+
+09/19/2016
+
+Fox Rothschild LLP
+997 Lenox Drive
+Building 3
+Lawrenceville, NJ 08648-2311
+
+EXAMINER
+VICTORIA, NARCISO F
+
+ART UNIT
+
+PAPER NUMBER
+
+2498
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocket@foxrothschild.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte JOHN P. KAMIENIECKI, TAT KEUNG CHAN, KEVIN T.
+CHANG, and ALEXANDER MEDVINSKY
+
+Appeal2015-004218
+Application 13/557,595
+Technology Center 2400
+
+Before JAMES R. HUGHES, NORMAN H. BEAMER, and
+KAMRAN JIVANI, Administrative Patent Judges.
+BEAMER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) the Examiner's Final
+Rejection of claims 1-25. 1 We have jurisdiction over the pending rejected
+claims under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+Appellants identify Motorola Mobility LLC as the real party in interest.
+(App. Br. 3.)
+
+Appeal2015-004218
+Application 13/557,595
+THE INVENTION
+Appellants' disclosed and claimed invention is directed to transcoding
+secure content for a media processor. (Abstract.) Claim 1, reproduced
+below, is illustrative of the claimed subject matter:
+1.
+A system for use with secure content in a first format and
+a key, said system comprising:
+a media processor operable to obtain the key;
+a transcoder operable to receive the secure content, to
+receive the key from said media processor, to decrypt the secure
+content with the key and to generate decrypted content based on
+the secure content; and
+a transcoding device operable to transcode the decrypted
+content into transcoded content of a second format,
+wherein said transcoder is operable to obtain a reencryption key from said media processor, and
+wherein said transcoder is further operable to encrypt the
+transcoded content into encrypted transcoded content using the
+re-encryption key.
+
+REJECTION
+The Examiner rejected claims 1-25 under 35 U.S.C. § 103(a) as being
+unpatentable over Moroney et al. (US 2008/0015997 Al, pub. Jan. 17, 2008)
+and Candelore et al. (US 7,839,998 B2, issued Nov. 23, 2010). (Final Act.
+5-24.)
+
+2
+
+Appeal2015-004218
+Application 13/557,595
+ISSUE ON APPEAL
+Appellants' arguments in the Appeal Brief present the following
+issue: 2
+Whether the Examiner erred in finding the combination of Moroney
+and Candelore teaches or suggests the independent claim 1 limitation,
+"wherein said transcoder is further operable to encrypt the transcoded
+content into encrypted transcoded content using the re-encryption key," and
+the similar limitation recited in independent claims 11 and 22. (App. Br.
+11-18.)
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments that the Examiner errs. We disagree with Appellants' arguments,
+and we adopt as our own ( 1) the pertinent findings and reasons set forth by
+the Examiner in the Action from which this appeal is taken (Final Act. 5-24)
+and (2) the corresponding reasons set forth by the Examiner in the
+Examiner's Answer in response to Appellants' Appeal Brief (Ans. 24--27).
+We concur with the applicable conclusions reached by the Examiner and
+emphasize the following.
+In finding that Moroney and Candelore teach or suggest the subject
+matter of the independent claims, the Examiner relies on the disclosure in
+Moroney of a "PVR," or personal video recorder, such as a set top box,
+
+2
+
+Rather than reiterate the arguments of Appellants and the findings of the
+Examiner, we refer to the Appeal Brief (filed Jul. 23, 2014); the Reply Brief
+(filed Feb. 13, 2015); the Final Office Action (mailed Feb. 24, 2014); and
+the Examiner's Answer (mailed Dec. 18, 2014) for the respective details.
+3
+
+Appeal2015-004218
+Application 13/557,595
+which decrypts incoming digital video information, transcodes the
+information into a different format (e.g., into a different resolution), reencrypts the transcoded information, and securely sends it to a "PVP," or
+portable video player, such as a cellular phone or laptop computer. (Final
+Act. 5---6; Moroney Abstract, Fig. 1, i-fi-f 14--22.) In particular, as to the claim
+limitation at issue, the Examiner relies on the aforementioned re-encryption
+of the digital information by the PVR before it is sent to the PVP. (Final
+Act. 6; Moroney i-f 19.) The Examiner further relies on the disclosure in
+Candelore of a transcoder which converts decrypted video information
+received from a host into a different format and then re-encrypts it and sends
+it back to the host. (Final Act. 6; Candelore Abstract, Fig. 2, col. 3, 1. 66col. 4, 1. 20.)
+Appellants argue the Examiner errs in finding Moroney and
+Candelore teach or suggest the requirement that the transcoder encrypts the
+transcoded content using a re-encryption key. (App. Br. 11.) In particular,
+Appellants assert the Examiner erroneously finds that the PVP disclosed in
+Moroney is the claimed transcoder, whereas the re-encryption in Moroney
+relied on by the Examiner is performed by the PVR, which the Examiner
+associates with the claimed media processor. (App. Br. 11-12.) Appellants
+further argue, citing Ex Parte Koutsky, BPAI Appeal No. 2008-0557 (Sept.
+23, 2008), even if the Examiner associates the PVP with the claimed
+transcoder, that component cannot also be the claimed media processor the transcoder and the media processor must be separate devices, according
+to Appellants. (App. Br. 13.)
+Appellants' arguments are unpersuasive. Appellants focus only on the
+Examiner's reliance on Moroney, whereas the Examiner's rejection is
+4
+
+Appeal2015-004218
+Application 13/557,595
+grounded on the combination of Moroney and Candelore. Non-obviousness
+cannot be established by attacking references individually where, as here,
+the ground of unpatentability is based upon the teachings of a combination
+of references. In re Merck & Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir.
+1986). Rather, the test for obviousness is whether the combination of
+references, taken as a whole, would have suggested the patentee's invention
+to a person having ordinary skill in the art. In re Keller, 642 F.2d 413, 425
+(CCPA 1981).
+In addition, Appellants mischaracterize the Examiner's rejection by
+asserting the Examiner equates the claimed transcoder with the PVP of
+Moroney. (App. Br. 12.) To the contrary, as discussed above, the Examiner
+relies on the disclosed transcoder of Candelore, together with the disclosed
+PVR transcoder in Moroney, as teaching or suggesting the claim element at
+issue. (Final Act. 6-7; Ans. 25-26.)
+Finally, Appellants' reliance on Ex Parte Koutsky is misplaced.
+There, in the context of anticipation, the Board relied on Lantech Inc. v. Keip
+Machine Co., 32 F.3d 542, 547 (Fed. Cir. 1994), for the proposition that
+
+when a claim requires two separate elements, one element having two
+separate functions will not suffice to meet the terms of the claim. This
+reasoning is not applicable to the obviousness analysis here, particularly in
+light of the statement in the Specification that the media processor and the
+transcoder "may be combined as a unitary device." (Spec. i-f 6.) See Powell
+v. Home Depot U.S.A., 663 F.3d 1221, 1231-32 (Fed. Cir. 2011). We agree
+
+with the Examiner, that the claims are reasonably construed to allow a
+processor, such as that disclosed in Moroney, to execute software routines
+that act as a media processor, and separately execute routines that act as a
+5
+
+Appeal2015-004218
+Application 13/557,595
+transcoder. (Ans. 26; Moroney Fig. 4, iii! 33, 34.) Accordingly, we are not
+persuaded the Examiner errs in finding Moroney and Candelore teach or
+suggest the independent claim 1 limitation, "wherein said transcoder is
+further operable to encrypt the transcoded content into encrypted transcoded
+content using the re-encryption key."
+
+CONCLUSIONS
+For the reasons stated above, we sustain the obviousness rejections of
+independent claims 1, 11 and 22. We also sustain the obviousness rejections
+of claims 2-10, 12-21, and 23-25, which rejections are not argued
+separately with particularity. (App. Br. 18.)
+
+DECISION
+We affirm the Examiner's rejections of claims 1-25.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

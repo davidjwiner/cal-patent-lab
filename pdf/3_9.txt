@@ -1,0 +1,374 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/607,494
+
+09/07/2012
+
+John Frederick Regan
+
+IL-l 1778B
+
+9895
+
+24981
+
+7590
+
+09/22/2016
+
+Lawrence Livermore National Security, LLC
+LAWREN CE LIVERMORE NA TI ON AL LABORATORY
+PO BOX 808, L-703
+LIVERMORE, CA 94551-0808
+
+EXAMINER
+FORMAN, BETTY J
+
+ART UNIT
+
+PAPER NUMBER
+
+1634
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+llnl-docket@llnl.gov
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN FREDERICK REGAN 1
+
+Appeal2014-008022
+Application 13/607,494
+Technology Center 1600
+
+Before FRANCISCO C. PRATS, JOHN G. NEW,
+and TIMOTHY G. MAJORS, Administrative Patent Judges.
+MAJORS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to methods
+of detecting genetic sequences, which have been rejected as obvious. We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+STATEMENT OF THE CASE
+According to the Specification, "[ t ]he present invention provides a
+system [and method] for detecting different genetic assays in a sample."
+(Spec. i-f 11; see also id. at i-f 12.)
+Claims 1 and 5 are on appeal. Claim 1 is illustrative:
+
+1
+
+Appellant identifies the Real Parties in Interest as Lawrence Livermore
+National Security, LLC and the United States of America. (App. Br. 2.)
+
+Appeal2014-008022
+Application 13/607,494
+
+1.
+A method of detecting different genetic sequences in a
+sample, consisting of the steps of:
+providing a flow channel,
+providing an optical detector having a multiplicity of
+optical windows operatively connected to said flow channel that
+detects different genetic sequences,
+providing a sample source,
+providing a multi-barrel cartridge,
+providing sources of reagent fluids that produce reagent
+plugs in said flow channel,
+associating sample preparation fluids with the sample,
+associating the sample with the reagent plugs forming
+sample-reagent plugs,
+providing a sample multi-position valve for receiving and
+processing the sample, said sample multi-position valve
+connected to said optical detector, and to said sources of reagent
+fluids, to said multi-barrel cartridge, and to said sample source,
+providing a reagent multi-position valve connected to said
+sources of reagent fluids, to said multi-barrel cartridge, and to
+said sample multi-position valve,
+providing a control operatively connected to said flow
+channel, said optical detector, said sample source, said sources
+of reagent fluids, said sample multi-position valve, said multibarrel cartridge, and said reagent multi-position valve that
+produces said reagent plugs and said sample-reagent plugs in
+said fl ow channel,
+using said control for positioning said sample-reagent
+plugs in operative position to the multiplicity of optical windows
+in the detector for detecting different genetic sequences in the
+sample,
+amplifying said sample-reagent plugs, and
+detecting the different genetic sequences in the sample in
+said sample-reagent plugs.
+(App. Br. 17 (Claims App'x) (emphasis added).)
+
+2
+
+Appeal2014-008022
+Application 13/607,494
+
+The claims stand rejected as follows:
+I. Claim 1under35 U.S.C. § 103(a) over Cox, 2 Colston, 3 Collins, 4
+
+and Shigesada. 5
+II. Claims 1 and 5 under 35 U.S.C. § 103(a) over Cox, Colston,
+Collins, Shigesada, and Haff. 6
+On appeal, we determine whether the Examiner established by a
+preponderance of the evidence that claims 1 and 5 would have been obvious
+according to Rejections I and II above.
+DISCUSSION
+Rejection I
+The Examiner has rejected claim 1 as obvious over Cox, Colston,
+Collins, and Shigesada. The Examiner finds that Cox teaches a method for
+detecting different genetic sequences with steps that overlap with the steps
+recited in claim 1. (Ans. 2-3.) The Examiner relies on Colston for
+"teaching of a single element (i.e.[,] optical windows) that is missing from
+the Cox reference." (Id. at 7-8.) The Examiner relies on Collins and
+Shigesada for "teaching of a single element (i.e.[,] extraction column) that is
+missing from the Cox reference." (Id. at 8-9; see also id. at 3--4 ("Collins
+discloses a removable cartridge for an automated nucleic acid extraction and
+
+2
+
+Cox et al., US 2007/0068573 Al, published Mar. 29, 2007 ("Cox").
+Colston et al., WO 03/027325 A2, published Apr. 3, 2003 ("Colston").
+4
+Collins, US 2005/0136442 Al, published June 23, 2005 ("Collins").
+5
+Shigesada et al., US 2007/0148649 Al, published June 28, 2007
+("Shigesada").
+6
+Haff et al., US 5,720,923, issued Feb. 24, 1998 ("Haff').
+3
+
+3
+
+Appeal2014-008022
+Application 13/607,494
+
+purification system comprising a flow-through cartridge ... that includes a
+plurality of barrels .... ").)
+The Examiner concludes it would have been obvious to modify the
+method of Cox with the optical windows of Colston and the extraction
+columns/multi-barrel cartridges taught in Collins or Shigesada. (Ans. 3--4.)
+According to the Examiner, "[i]t would have been obvious ... to apply the
+optical windows of Colston to the optical detection of Cox" given the wellknown use of such windows in nucleic acid assay systems. (Id. at 3.)
+Moreover, according to the Examiner, the "artisan would have been
+motivated to select the cartridge of Collins for the expected benefit of [a]
+multi-level and recycling purification system to obtain the desired
+purification.... [or] would have been motivated to select the cartridge of
+Shigesada for the expected benefit of rapid and simple extraction and
+delivery of nucleic acids." (Id. at 4.)
+We agree with the Examiner's fact-finding, reasoning, and conclusion
+that claim 1 would have been obvious based on the cited references.
+Appellant does not challenge that the prior art discloses the limitations
+of pending claim 1, nor does Appellant challenge the Examiner's reasoning
+for combining the teachings from the applied prior art. Instead, Appellant
+points out that claim 1 recites "a 'consisting of' preamble [that] is a closed
+term" and argues that the obviousness rejection is flawed because the
+Examiner's "proposed combination of the references includes claim
+elements/steps in addition to the specific combination of claim
+elements/steps of Appellant's claim 1." (App. Br. 7-8 (emphasis added).)
+More specifically, Appellant contends the "proposed combination of 4
+
+4
+
+Appeal2014-008022
+Application 13/607,494
+
+references accumulates all the additional steps of the 4 references." (Reply
+Br. 2.) Appellant lists excerpts from each of Cox, Colston, Collins, and
+Shigesada, which Appellant argues illustrate "claim elements/steps in
+addition to Appellant's claim 1 claim elements/steps." (App. Br. 8-12.)
+And, according to Appellant, "only one extra claim element/step in the
+proposed combination of the references need be established for Appellant to
+show that the proposed combination of references does not support a 35
+USC§ 103(a) rejection of claim 1." (Id. at 8.)
+Appellant's arguments are unpersuasive. As an initial matter, we
+disagree with Appellant's contention that the rejection "accumulates"
+wholesale the steps of all four cited references. (See Reply Br. 2 and 4---6.)
+Rather, as correctly pointed out by the Examiner, the rejection relies on
+Colston for one missing limitation, and Collins or Shigesada for another.
+(Ans. 7-9.) Appellant's position is thus inconsistent with the rejection,
+which does not require all the features of the prior art be merged into one
+amalgamated system or method to support a case of prima facie
+obviousness. Cf In re Keller, 642 F.2d 413, 425 (CCPA 1981) ("[t]he test
+for obviousness is not whether the features of a secondary reference may be
+bodily incorporated into the structure of the primary reference"). So, insofar
+as Appellant cites to excerpts of Colston, Collins, or Shigesada, which relate
+to steps or features the Examiner is not proposing be included in the
+modified method of Cox, Appellant's arguments are not persuasive.
+In response to Appellant's citation of several excerpts in Cox that
+allegedly reflect "claim elements/steps in addition" to the steps in claim 1,
+the Examiner finds that those "additional" steps are optional in Cox or
+
+5
+
+Appeal2014-008022
+Application 13/607,494
+
+otherwise still within the broad steps recited in claim 1. (Ans. 5-7.) We
+agree with the Examiner. For example, Appellant cites to a disclosure in
+Cox that "[a]ccording to various embodiments, fluid processing system 10
+can comprise a spacing fluid tube system.... " (App. Br. 8 (emphasis
+
+added).) The excerpt cited by Appellant thus shows that "the method of Cox
+does not limit the system or methods for using the system to the additional
+element" -
+
+in other words, the system can include, but does not require, the
+
+cited spacing fluid tube system. (Ans. 6.)
+The other excerpts similarly fail to persuade us that Cox teaches steps
+that are required and outside the scope of claim 1. For example, Appellant
+cites to steps in Cox where pumps and conduits are used for separating
+liquids. (App. Br. 9-10 (quoting portions ofclaim 1 of Cox).) Cox,
+however, confirms that these structures/steps too are not required. (See, e.g.,
+Cox. i-fi-174--81 ("According to some embodiments fluid processing system
+10 can comprise pumps 39 and 40." (emphases added).) Also, given the
+breadth of Appellant's claim, which recites generic steps like "providing a
+sample source," "providing sources of reagent fluids that produce reagent
+plugs in said flow channel" and "associating the sample with the reagent
+plugs," the Examiner reasonably interpreted claim 1 as not excluding a
+method with pumps and conduits arranged as in the cited excerpts of Cox.
+(Ans. 8.)
+Appellant has cited additional excerpts from each of Colston, Collins,
+and Shigesada, but here again, the Examiner found "that each of the [alleged
+additional] steps is encompassed by the instantly claimed method." (Ans. 79.) For example, Appellant cites to teachings in Colston of "providing a
+
+6
+
+Appeal2014-008022
+Application 13/607,494
+
+PCR reactor means for amplifying said sample" and "providing a detection
+means for detection of PCR amplicon." (App. Br. 11.) The Examiner,
+however, finds that these steps in Colston are encompassed by claim 1's
+broad recitation of "amplifying said sample-reagent plugs, and detecting the
+different genetic sequences in the sample in said sample-reagent plugs."
+(Ans. 8.) Appellant argues "claim 1 step ... does not mention 'PCR' or
+'PCR reactor means."' (Reply Br. 4.) Yet this argument does not
+persuasively address the Examiner's interpretation of the claimed
+"amplifying" and "detecting" steps as being broad enough to cover the cited
+steps of Colston. Where, as here, the claim uses generic language to
+describe the steps of "amplifying" and "detecting," the claim does not
+exclude use of PCR. 7
+In the face of the Examiner's factual findings and claim interpretation,
+Appellant never attempts to explain how pending claim 1 excludes or is
+incompatible with the alleged "extra claim elements/steps" in Cox, Colston,
+Collins, or Shigesada. To the contrary, Appellant merely quotes excerpts
+and repeats the contention that "[s]ince the [Cox, Colston, Collins,
+Shigesada] reference includes claim elements/ steps in addition to
+Appellant's claim 1 claim elements/steps, the [Cox, Colston, Collins, and
+Shigesada] reference does not support a 35 USC §103(a) rejection." (App.
+Br. 10-12; see also, e.g., Reply Br. 4 ("Since this is an additional step
+
+7
+
+The Specification is consistent with the Examiner's determination that the
+claimed method does not exclude PCR. The Specification discloses that
+"[g]enetic amplification can generally be divided into polymerase chain
+reaction (PCR)-based assays and isothermal amplification assays, both of
+which can be performed by the Diagnostic System (10)." (Spec. i-f 44.)
+7
+
+Appeal2014-008022
+Application 13/607,494
+
+disclosed in the Cox reference that is additional to Appellant's claim 1
+combination of steps, the Cox reference does not support a 35 USC § 103 (a)
+rejection.").) Accordingly, on the record before us, Appellant has not
+provided persuasive argument or evidence to show that the Examiner's
+findings, claim interpretation, and conclusion of obviousness are incorrect.
+For the above reasons, we conclude that the Examiner established by a
+preponderance of the evidence that claim 1 would have been obvious over
+Cox, Colston, Collins, and Shigesada.
+Rejection II
+The Examiner rejected claims 1 and 5 as obvious over Cox, Colston,
+Collins, and Shigesada (as discussed above), in further view of Haff. (Ans.
+4--5.) According to the Examiner, "Haff is cited for a teaching of a single
+element (i.e.[,] using decontamination fluids to clean components of a PCR
+device) that is missing from the Cox reference." (Ans. 10.)
+Appellant repeats the arguments concerning Cox, Colston, Collins,
+and Shigesada, which we find unpersuasive for the reasons discussed above.
+We similarly reject Appellant's contention that "the proposed combination
+of references accumulates all of [the] additional steps of the 5 references."
+(Reply Br. 7.) As noted, the Examiner relies on Haff only for its teaching
+related to "providing decontamination fluids" as in claim 5. Similar to the
+arguments concerning other references, Appellant cites numerous excerpts
+of Haff and contends these are "claim elements/steps in addition to
+Appellant's claims 1 and 5 claim elements/steps." (App. Br. 5.)
+Claim 1 does not recite decontamination steps that involve providing
+and using decontaminating fluids, and the Examiner has not pointed to any
+
+8
+
+Appeal2014-008022
+Application 13/607,494
+
+other step of claim 1 that encompasses the relied-upon teaching of Haff.
+The Examiner's modification of the system and method of Cox to include
+such decontamination steps thus takes the proposed combination outside the
+"closed" scope of claim 1. We reverse Rejection II as to claim 1.
+We affirm the rejection, however, as to claim 5. Concerning the
+excerpts of Haff cited by Appellant, the Examiner finds these excerpts are
+"encompassed by the claimed 'amplifying"' step of claim 5. (Ans. 10.) The
+Examiner finds "[a]dditionally, the cited steps are components of the 'third
+embodiment' of Haff ... [and] [n]one of the other embodiments are defined
+by or even include the cited steps." (Id.) In other words, "the teaching of
+Haff is not limited to [the] additional steps cited by Appellant." (Id.)
+Appellant has provided insufficient persuasive argument or evidence to the
+contrary. We thus conclude the Examiner established by a preponderance of
+the evidence that claim 5 would have been obvious over Cox, Colston,
+Collins, Shigesada, and Haff.
+SUMMARY
+We affirm the rejection of claim 1 under 35 U.S.C. § 103(a) over Cox,
+Colston, Collins, and Shigesada.
+We affirm the rejection of claim 5 (but not claim 1) under 35 U.S.C.
+§ 103(a) over Cox, Colston, Collins, Shigesada, and Haff.
+
+9
+
+Appeal2014-008022
+Application 13/607,494
+
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+10
+
+

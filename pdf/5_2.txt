@@ -1,0 +1,227 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/610,861
+
+11102/2009
+
+STEVEN C. TENGLER
+
+P008371-0ST-ALS
+087.0010
+
+1315
+
+70422
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+LKGlobal (GM)
+
+GAO, JING
+
+7010 E. COCHISE ROAD
+SCOTTSDALE, AZ 85253
+ART UNIT
+
+PAPER NUMBER
+
+2645
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@lkglobal.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte STEVEN C. TENGLER and
+WILLIAM E. MAZZARA, JR.
+
+Appeal2015-002347
+Application 12/610,861
+Technology Center 2600
+
+Before JOSEPH L. DIXON, CATHERINE SHIANG, and JOYCE CRAIG,
+Administrative Patent Judges.
+CRAIG, Administrative Patent Judge.
+
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1-20. We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+We affirm.
+
+1
+
+According to Appellants, the real party in interest is General Motors LLC.
+App. Br. 3.
+
+Appeal2015-002347
+Application 12/610,861
+INVENTION
+Appellants' invention relates to synchronizing changes of a telematics
+language with changes made to a vehicle language through involvement of a
+call center. Abstract. Claim 1 is illustrative and reads as follows:
+A system for synchronizing changes of a telematics
+language from a current telematics language to a proposed
+telematics language with changes made to a vehicle language
+from a current vehicle language to a new vehicle language
+through involvement of a call center, the system comprising:
+1.
+
+an antenna adapted for attachment to a vehicle and
+configured for transmitting and receiving communication
+transmissions to and from the call center; and
+a telematics unit adapted for attachment to the vehicle and
+communicatively connected to the antenna, the telematics unit
+being configured to:
+monitor a vehicle bus to detect when a user changes the
+vehicle language from the current vehicle language to the new
+vehicle language, and
+automatically initiate contact with the call center when the
+change in the vehicle language is detected to confirm a user
+desire to change the telematics language to the new vehicle
+language, the telematics language comprising a spoken language
+for verbal communications between a remote operator or a
+system and a user.
+REJECTIONS
+Claims 1, 2, 8, 9, and 14--18 stand rejected under 35 U.S.C. § 103(a)
+as unpatentable over the combination of Applicant Admitted Prior Art
+(background section) ("AAPA") and Nagatomo (US 2010/0136909 Al;
+published June 3, 2010).
+
+2
+
+Appeal2015-002347
+Application 12/610,861
+Claims 3-5, 7, 10-12, 19, and 20 stand rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over the combination of AAPA, Nagatomo, and
+Reynolds et al. (US 2006/0023869 Al; published Feb. 2, 2006).
+Claims 6 and 13 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over the combination of AAPA, Nagatomo, and Beck (US
+7,349,843 Bl; issued Mar. 25, 2008).
+
+ANALYSIS
+We have considered Appellants' arguments, but do not find them
+persuasive of error. We agree with and adopt as our own the Examiner's
+findings of facts and conclusions as set forth in the Answer and in the Action
+from which this appeal was taken, to the extent consistent with our analysis
+below. We provide the following explanation for emphasis.
+In rejecting claim 1, the Examiner found that AAP A teaches all of the
+limitations of claim 1 except "monitor a vehicle bus to detect when a user
+changes the vehicle language" and "automatically initiate contact with the
+call center when the change in the vehicle language is detected," for which
+the Examiner relied on Nagatomo. Final Act. 5---6 (citing AAP A i-fi-12, 8, 1O;
+N agatomo i-fi-1 9, 84).
+Appellants first contend the cited portions of N agatomo do not teach
+or suggest a telematics unit that detects a change to the vehicle language, as
+claim 1 requires. App. Br. 13. In particular, Appellants argue that
+Nagatomo teaches an on-vehicle device that monitors its own language, not
+the language of the vehicle. Id. at 15-16 (citing Nagatomo i-fi-f 10, 11, 71).
+Appellants' arguments do not persuade us of Examiner error. The
+Examiner found that Nagatomo teaches an on-vehicle device that monitors a
+
+3
+
+Appeal2015-002347
+Application 12/610,861
+language setting and notifies a server when the language setting has been
+changed. Ans. 4 (citing Nagatomo i-fi-175, 76, and 84). The Examiner
+explained that the recited term "vehicle language" is broad enough to
+encompass the language used on the vehicle's monitor in Nagatomo. Id.
+(citing Nagatomo i163). Appellants' Specification describes the term
+"vehicle language" as the language which with a user interacts with
+components in the vehicle such as the vehicle information center or radio.
+See App. Br. 8-9; Spec i-fi-19-10. Thus, we agree that the Examiner's broad
+
+interpretation of "vehicle language" is reasonable and consistent with
+Appellants' Specification.
+Appellants further contend Nagatomo fails to disclose an on-vehicle
+device that automatically initiates contact with the call center when a change
+in the vehicle language is detected. App. Br. 16-17. Appellants argue that,
+in Nagatomo, "it is the server, acting through its DSRC transceivers, that
+initiates contact with the on-vehicle device." Id. at 17-18 (citing N agatomo
+,-r,-r 73, 74, 83, 84).
+Appellants' arguments are not persuasive. Appellants attack
+Nagatomo individually, even though the Examiner relied on the combination
+of AAPA and Nagatomo as teaching or suggesting the disputed features. In
+re Mouttet, 686 F.3d 1322, 1332 (Fed. Cir. 2012) (citing In re Keller, 642
+
+F.2d 413, 425 (CCPA 1981)) ("The test for obviousness is what the
+combined teachings of the references would have suggested to those having
+ordinary skill in the art."). The Examiner found that Nagatomo teaches that
+"the device feature after the change can be notified to the server." Final Act.
+6; Ans. 4 (citing Nagatomo i-fi-175, 76, 84). The Background section of the
+Specification describes a call center and a telematics unit that initiates calls.
+
+4
+
+Appeal2015-002347
+Application 12/610,861
+Final Act. 5---6; AAPA iii! 4, 8. We are not persuaded that combining the
+respective familiar elements of the cited references in the manner proffered
+by the Examiner would have been "uniquely challenging or difficult for one
+of ordinary skill in the art" at the time of Appellant's invention. Leapfrog
+Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007)
+
+(citing KSR Int'! v. Teleflex, Inc., 550 U.S. 398, 418 (2007)). Thus, we agree
+with the Examiner that, based on the combined teachings of AAP A and
+Nagatomo, it would have been obvious to an artisan of ordinary skill that the
+recited telematics unit "automatically initiate contact with the call center
+when the change in the vehicle language is detected," as claim 1 requires.
+For these reasons, we are not persuaded that the Examiner erred in
+finding that the combination of AAP A and N agatomo teaches or suggests
+the disputed limitations. Accordingly, we sustain the 35 U.S.C. § 103(a)
+rejection of independent claim 1, as well as the 35 U.S.C. § 103(a) rejection
+of independent claims 8 and 16, which Appellants contend are patentable for
+similar reasons. See App. Br. 19. We also sustain the Examiner's rejections
+of dependent claims 2-7, 9-15, and 17-20, for which Appellants refer to and
+rely on the arguments made for the independent claims. Id. at 19-20.
+
+DECISION
+We affirm the decision of the Examiner rejecting claims 1-20.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

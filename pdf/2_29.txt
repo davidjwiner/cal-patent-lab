@@ -1,0 +1,248 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/349,738
+
+0110712009
+
+Pedro Martinez
+
+9957-3-1 (59089-00008)
+
+5608
+
+86000
+
+7590
+
+09/22/2016
+
+Fox Rothschild LLP I G, Nelson
+997 Lennox Drive
+Building 3
+Lawrenceville, NJ 08648
+
+EXAMINER
+COBANOGLU, DILEK B
+
+ART UNIT
+
+PAPER NUMBER
+
+3626
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocket@foxrothschild.com
+svieau@foxrothschild.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PEDRO MARTINEZ and NOEL GUILLAMA
+
+Appeal2014-005876
+Application 12/349,738
+Technology Center 3600
+
+Before HUBERT C. LORIN, BIBHU R. MOHANTY, and
+BRADLEY B. BAYAT, Administrative Patent Judges.
+MOHANTY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellants seek our review under 35 U.S.C. § 134 of the final
+rejection of claims 1-8 and 10-20 which are all the claims pending in the
+application. We have jurisdiction under 35 U.S.C. § 6(b).
+
+SUMMARY OF THE DECISION
+We REVERSE.
+
+THE INVENTION
+The Appellants' claimed invention is directed to scheduling and
+record handling, particularly in the context of healthcare management (Spec.
+
+Appeal2014-005876
+Application 12/349,738
+i12). Claim 1, reproduced below, is representative of the subject matter on
+appeal.
+1.
+A computer-based system for patient scheduling and
+record handling, the system comprising:
+at least one electronic data processor;
+a network interface connected with the processor for
+communicatively linking the processor with at least one
+database for storing electronic data; and
+a scheduling module configured to execute on the
+processor for providing two-way scheduling for a patient and a
+healthcare provider,
+wherein the scheduling module is further configured to
+select a time to schedule an activity for the patient with the
+healthcare provider based on a method of payment by the
+patient.
+THE REJECTIONS
+The Examiner relies upon the following as evidence of
+unpatentability:
+Crici
+Larsen
+Dvorak
+Maughan
+
+US
+US
+US
+US
+
+2005/0027580 Al
+2007/0226010 Al
+7,337,123 B2
+7,756,728 B2
+
+Feb.3,2005
+Sept. 27, 2007
+Feb.26,2008
+July 13, 2010
+
+The following rejections are before us for review 1:
+1.
+
+Claims 1-8 and 10-20 stand rejected under 35 U.S.C. § 112, first
+
+paragraph, as failing to comply with the written description requirement.
+
+1
+
+We are unable to review the new matter objection made in the Answer as
+this is drawn to a petitionable matter and not an appealable matter. See
+M.P.E.P. 1201.
+2
+
+Appeal2014-005876
+Application 12/349,738
+2.
+
+Claims 1-5, 11-16, and 18-20 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Larsen and Crici.
+3.
+
+Claims 6 and 7 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Larsen, Crici, and Dvorak.
+4.
+
+Claims 8, 10, and 17 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Larsen, Crici, and Maughan.
+
+FINDINGS OF FACT
+We have determined that the findings of fact in the Analysis section
+below are supported at least by a preponderance of the evidence 2 .
+
+ANALYSIS
+
+Written Description
+The Examiner has rejected claims 1-8 and 10-20 under 35 U.S.C.
+§ 112, first paragraph, as failing to comply with the written description
+requirement because the Specification does not disclose "select[ing] a time
+to schedule an activity for the patient with the healthcare provider based on a
+method of payment by the patient" (Final Act. 3; Ans. 3--4 ).
+The Appellants contend that the rejection is improper because
+paragraphs 7, 17, and 20 of the Specification provide support for this
+limitation (Br. 10). We agree with the Appellants that paragraphs 7, 17, and
+20 provide support for the cited claim limitation. Here, paragraph 20
+discloses that "the scheduling module 112 can be configured to provide
+
+2
+
+See Ethicon, Inc. v. Quigg, 849 F.2d 1422, 1427 (Fed. Cir. 1988)
+(explaining the general evidentiary standard for proceedings before the
+Patent Office).
+3
+
+Appeal2014-005876
+Application 12/349,738
+patient-specific profiles correlating treatment interaction type with forms of
+payment and to optimize scheduling for the healthcare provider based upon
+the correlation." We agree with the Appellants that this disclosure provides
+adequate support for the cited limitation.
+Accordingly, the rejection of claims 1-8 and 10-20 for lack of written
+description support is not sustained.
+
+Obviousness
+
+The Appellants argue that the rejection of claim 1 is improper because
+Crici does not disclose "a scheduling module configured to select a time to
+schedule an activity for the patient with the healthcare provider based on a
+method of payment by the patient" as required by claim 1 (Br. 14--20).
+The Examiner has, however, determined that the cited claim limitation
+is disclosed by Crici in the abstract and at paragraphs 28 and 32 (Final Act.
+6-7; Ans. 5).
+We agree with the Appellants. Here, claim 1 requires selecting "a
+time to schedule an activity" based on "a method of payment by the patient."
+This is described in the Specification at paragraphs 8 and 20. Paragraph 20
+provides that a "method of payment can indicate whether the patient is a
+'self-pay,' privately insured patient, or a Medicare or Medicaid recipient."
+In contrast, Crici at paragraph 28 discloses allowing an appointment to be
+scheduled if any form of payment is received.
+The Examiner has also determined that "[t]he 'method of payment by
+patient' in claims represents a nonfunctional descriptive material and it does
+not alter the recited structural elements" (Final Act. 4).
+
+4
+
+Appeal2014-005876
+Application 12/349,738
+We do not agree. In claim 1, the term "method of payment by the
+patient" is not non-functional descriptive material but rather an express
+claim limitation drawn to the function of selecting performed by the
+scheduling module. Here, the term "method of payment by the patient" is
+not drawn to printed matter or other type of mere data and does not
+constitute non-functional descriptive material in relation to any kind of
+substrate in the claim.
+The remaining claims contain a similar limitation, and the rejection of
+these claims is not sustained for these same reasons.
+
+CONCLUSIONS OF LAW
+We conclude that the Appellants have shown that the Examiner erred
+in rejecting the claims as listed in the Rejections section above.
+
+DECISION
+The Examiner's rejections of claims 1-8 and 10-20 are reversed.
+
+REVERSED
+
+5
+
+

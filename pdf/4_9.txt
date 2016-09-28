@@ -1,0 +1,366 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/135,948
+
+06/09/2008
+
+Elizabeth Caroline Furches
+
+P5469US1 (119-0364US1)
+
+4684
+
+61947
+
+7590
+
+09/21/2016
+
+Apple - Blank Rome
+c/o Blank Rome LLP
+717 Texas Avenue, Suite 1400
+HOUSTON, TX 77002
+
+EXAMINER
+BADAWI, ANGIE M
+
+ART UNIT
+
+PAPER NUMBER
+
+2172
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mbrininger@blankrome.com
+houstonpatents@blankrome.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ELIZABETH CAROLINE FURCHES and
+MIKE MATAS
+
+Appeal2015-006070
+Application 12/135,948
+Technology Center 2100
+
+Before DEBRA K. STEPHENS, JEREMY J. CURCURI, and
+AARON W. MOORE, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-20. Final Act. 1. We have jurisdiction under 35
+U.S.C. § 6(b).
+Claims 1, 2, 5, 6, 8-10, 13, and 14 are rejected under 35 U.S.C.
+
+§ 103(a) as obvious over Orimoto (US 2005/0044500 Al; publ. Feb. 24,
+2005) and Rublee (US 2006/0244756 Al; publ. Nov. 2, 2006). Ans. 3---6.
+Claims 3 and 11 are rejected under 35 U.S.C. § 103(a) as obvious over
+Orimoto, Rublee, and Tanaka (US 2005/0047659 Al; publ. Mar. 3, 2005).
+Ans. 6-7.
+
+Appeal2015-006070
+Application 12/135,948
+Claims 4 and 12 are rejected under 35 U.S.C. § 103(a) as obvious over
+Orimoto, Rublee, and Van Splunter (US 2002/0149600 Al; publ. Oct. 17,
+2002). Ans. 7-8.
+Claims 7 and 15 are rejected under 35 U.S.C. § 103(a) as obvious over
+Orimoto, Rublee, and Gudjonsson (US 2007 /0219878 Al; publ. Sept. 20,
+2007). Ans. 8-9.
+Claims 16-19 are rejected under 35 U.S.C. § 103(a) as obvious over
+Van Splunter and Tanaka. Ans. 9-12.
+Claim 20 is rejected under 35 U.S.C. § 103(a) as obvious over
+Orimoto, Rublee, and Cymbalski (US 5,867,595; iss. Feb. 2, 1999). Ans.
+12-14.
+We affirm-in-part.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to "presenting graphical information."
+Spec. i-f 2. Claim 1 is illustrative and reproduced below:
+1.
+A computer-implemented method comprising:
+increasing an intensity of a visual effect to be applied to a
+user interface element to be rendered over a background area
+based on a characteristic feature of the background area, the
+characteristic feature of the background area being based on
+color values for a sample of pixels from the background area, and
+wherein the characteristic feature is distinct from the visual
+effect; and
+rendering the user interface element based on the
+increased intensity of the visual effect.
+
+2
+
+Appeal2015-006070
+Application 12/135,948
+ANALYSIS
+THE OBVIOUSNESS REJECTION OF
+CLAIMS 1, 2, 5, 6, 8-10, 13, AND 14 OVER 0RIMOTO AND RUBLEE
+The Examiner finds Orimoto and Rublee teach all limitations of claim
+1. Ans. 3--4; see also Ans. 14-17. In particular, the Examiner finds Orimoto
+
+teaches all limitations of claim 1 except for "the characteristic feature of the
+background area being based on color values for a sample of pixels from the
+background area," for which the Examiner relies on Rublee. Ans. 3 (citing
+Rublee i-f 19). The Examiner reasons:
+It would have been obvious to one having ordinary skill in
+the art at the time the invention was made to utilize the teaching
+of taking a sample of pixels of a background color and examining
+it to determine a color value of Rublee with the teaching of agent
+display device and agent of Orimoto because Rublee teaches
+using an anti-aliasing algorithm[] when rendering a foreground
+graphical object to smooth out displayed or printed text wherein
+determining the algorithm to use is dependent on the background
+color. (i-f 5 lines 1-7)
+
+Ans. 4.
+Appellants present the following principal arguments:
+"Rublee is directed to a technique for smoothing out displayed or
+printed text, not a technique for increasing an intensity of a visual effect."
+App. Br. 8.
+There is no indication in Orimoto or Rublee why the importance
+of a background [in Orimoto] would be based on a sampling of
+colors of background pixels. In fact it is completely unclear how
+a sampling of colors of background pixels could determine
+importance of a background. Thus, there is no motivation to
+combine the references.
+App. Br. 8-9; see also Reply Br. 5.
+
+3
+
+Appeal2015-006070
+Application 12/135,948
+We are not persuaded of any error in the Examiner's findings. Nor
+are we persuaded of any error in the Examiner's legal conclusion of
+obviousness.
+Contrary to Appellants' arguments, the teachings of Orimoto and
+Rublee are not limited to determining importance of a background in
+Orimoto and smoothing out displayed text in Rublee.
+Orimoto (Abstract) discloses: "The agent importance level setting
+unit (120) sets an agent importance level of the agent information to be
+displayed. The display status determination unit (150) determines the
+transparency level of the agent information to be displayed, based on the
+agent importance level." Orimoto renders over a background area based on
+the importance level of the background. See Orimoto, i-f 11.
+Rublee (Abstract) discloses: "At least a portion of the foreground
+area can be rendered based on the predicted attribute value." Rublee (i-f 19)
+discloses: "attribute prediction module 135 can be used for predicting the
+background color when rendering a foreground area of an electronic
+document." Rublee (i-f 5) discloses: "it can be important to know the
+background color as it may determine the anti-aliasing algorithm to use."
+Thus, Rublee renders over a background area based on background color.
+Because Orimoto already considers a characteristic feature of the
+background (the importance level of the information in the background)
+when rendering over a background area, a skilled artisan would have readily
+considered other information available in the background when rendering
+over a background area. In light of Rublee's teaching of sampling
+background pixels when rendering over a background area, considering
+background color, as opposed to importance, when rendering over a
+
+4
+
+Appeal2015-006070
+Application 12/135,948
+background area in Orimoto would have been a predictable use of prior art
+elements according to their established functions -
+
+an obvious
+
+improvement. As the U.S. Supreme Court has explained:
+When a work is available in one field of endeavor, design
+incentives and other market forces can prompt variations of it,
+either in the same field or a different one. If a person of ordinary
+skill can implement a predictable variation, § 103 likely bars its
+patentability. For the same reason, if a technique has been used
+to improve one device, and a person of ordinary skill in the art
+would recognize that it would improve similar devices in the
+same way, using the technique is obvious unless its actual
+application is beyond his or her skill. Sakraida [v. Ag Pro, Inc.,
+425 U.S. 273 (1976)] and Anderson's-Black Rock[, Inc. v.
+Pavement Salvage Co., 396 U.S. 57 (1969)] are illustrative-a
+court must ask whether the improvement is more than the
+predictable use of prior art elements according to their
+established functions.
+
+KSR Int'! Co. v. Teleflex, Inc., 550 U.S. 398, 417 (2007).
+We, therefore, sustain the Examiner's rejection of claim 1, as well as
+claims 2, 5, 6, 8-10, 13, and 14, which are not separately argued with
+particularity.
+
+THE OBVIOUSNESS REJECTION OF
+CLAIMS 3 AND 11 OVER 0RIMOTO, RUBLEE, AND TANAKA
+
+Appellants do not argue claims 3 and 11 with particularity. See App.
+Br. 9.
+We, therefore, sustain the Examiner's rejection of claims 3 and 11 for
+the reasons discussed above when addressing claim 1.
+
+5
+
+Appeal2015-006070
+Application 12/135,948
+THE OBVIOUSNESS REJECTION OF
+CLAIMS
+
+4 AND 12 OVER 0RIMOTO, RUBLEE, AND VAN SPLUNTER
+
+Claims 4 and 12 each further recite: "wherein the characteristic
+feature of the background area is brightness."
+The Examiner finds Van Splunter's background area's opacity teaches
+this further recited limitation. Ans. 7-8 (citing Van Splunter i-fi-1 3, 11, 14,
+28); see also Ans. 17-24.
+Appellants present the following principal argument:
+"Appellant respectfully notes that 'brightness' and 'opaqueness['] are
+not the same." App. Br. 10; see also Reply Br. 6.
+Appellants have persuaded us that the Examiner erred in finding Van
+Splunter teaches the further recited limitation in claims 4 and 12.
+We conclude that "brightness" is distinct from opacity. Spec.
+
+(i-f 21)
+
+discloses: "an opacity or alpha value is used to describe the degree to which
+a user interface element (or part thereof) is transparent or opaque." Figure 4
+depicts brightness 410 along the x-axis and opacity 420 along the y-axis.
+Van Splunter (i-f 28) discloses alpha-blending or opacity-blending.
+Thus, the characteristic feature of the background area in Van Splunter is
+opacity, or alpha, which is distinct from "brightness."
+We, therefore, do not sustain the Examiner's rejection of claims 4 and
+12.
+
+THE OBVIOUSNESS REJECTION OF
+CLAIMS
+
+7 AND 15 OVER 0RIMOTO, RUBLEE, AND GUDJONSSON
+
+Appellants do not argue claims 7 and 15 with particularity. See App.
+Br. 11-12.
+
+6
+
+Appeal2015-006070
+Application 12/135,948
+We, therefore, sustain the Examiner's rejection of claims 7 and 15 for
+the reasons discussed above when addressing claim 1.
+
+THE OBVIOUSNESS REJECTION OF
+CLAIMS 16-19 OVER VAN SPLUNTER AND TANAKA
+The Examiner finds Van Splunter and Tanaka teach all limitations of
+claim 16. Ans. 9-11; see also Ans. 24--26. In particular, the Examiner finds
+Van Splunter teaches all limitations of claim 16 except for "deriving an
+opacity curve using the respective opacity values and the respective
+characteristic feature values, wherein the opacity values are distinct from the
+characteristic feature values," for which the Examiner relines on Tanaka.
+Ans. 10-11 (citing Tanaka Fig. 9A; i-fi-143, 48, 49). The Examiner reasons:
+It would have been obvious to one having ordinary skill in the art
+at the time the invention was made to utilize the teaching of
+methods to derive a brightness data value curve of Tanaka with
+the teaching of methods to blend digital pictures of Van Splunter
+because Tanaka teaches the invention allowing a thumbnail
+display to be made and if the image is a character image then
+enlarge the thumbnail to make characters more understandable.
+(Abstract)[.]
+
+Ans. 11.
+Appellants present, among other arguments, the following principal
+argument:
+"Tanaka recites calculation of an opacity curve from analysis of two
+areas of an image. See Tanaka, para. [0049]. Nothing in Tanaka teaches or
+suggests derivation of an opacity curve from user-selected opacity
+values." App. Br. 13; see also Reply Br. 7.
+We are persuaded that the Examiner erred in finding Tanaka teaches
+the recited (claim 16) "deriving an opacity curve using the respective opacity
+
+7
+
+Appeal2015-006070
+Application 12/135,948
+values and the respective characteristic feature values, wherein the opacity
+values are distinct from the characteristic feature values."
+We agree with Appellants' argument. Tanaka (see Tanaka Figs. 8A,
+8B, 9A, 9B) teaches histograms of number of data versus brightness for
+various portions of the image. We do not see how, and the Examiner has not
+sufficiently explained how, Tanaka discloses deriving an opacity curve using
+opacity values (user adjusted) and characteristic feature values (distinct from
+opacity).
+We, therefore, do not sustain the Examiner's rejection of claim 16, or
+of claims 17-19, which depend from claim 16.
+
+THE OBVIOUSNESS REJECTION OF
+CLAIM 20 OVER 0RIMOTO, RUBLEE, AND CYMBALSKI
+
+The Examiner finds Orimoto, Rublee, and Cymbalski teach all
+limitations of claim 20. Ans. 12-14; see also Ans. 26-32. In particular, the
+Examiner finds Cymbalski teaches "increasing an opacity value of the user
+interface element based on the brightness value[.]" Ans. 13-14 (emphasis
+added, citing Cymbalski col. 1, 11. 6-12; col. 7, 11. 30-65).
+Appellants present, among other arguments, the following principal
+argument:
+"[R]ecognizing that data form elements are darker or lighter than a
+background has nothing to do with increasing an opacity value of the user
+interface element, as recited in claim 20. In fact, Cymbalski is completely
+silent regarding increasing an opacity value of the user interface element."
+App. Br. 14.
+
+8
+
+Appeal2015-006070
+Application 12/135,948
+Appellants persuade us that the Examiner erred in finding Cymbalski
+teaches "increasing an opacity value of the user interface element based on
+the brightness value."
+Cymbalski (col. 1, 11. 6-12; col. 7, 11. 30-65) discloses recognizing
+dataform elements as darker or lighter than a background area. At best,
+Cymbalski' s lightness discloses brightness. That said, we, again, conclude
+that "brightness" is distinct from opacity. Spec. (i-f 21) discloses: "an
+opacity or alpha value is used to describe the degree to which a user
+interface element (or part thereof) is transparent or opaque." Figure 4
+depicts brightness 410 along the x-axis and opacity 420 along the y-axis.
+Thus, Cymbalski' s darker or lighter elements do not teach increasing
+an opacity value.
+We, therefore, do not sustain the Examiner's rejection of claim 20.
+
+ORDER
+The Examiner's decision rejecting claims 1-3, 5-11, and 13-15 is
+affirmed.
+The Examiner's decision rejection claims 4, 12, and 16-20 is
+reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l ).
+AFFIRMED-IN-PART
+
+9
+
+

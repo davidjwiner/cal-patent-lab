@@ -1,0 +1,256 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/142,121
+
+06/24/2011
+
+Yang Song
+
+LUTZ 201270US01
+
+9780
+
+48116
+
+7590
+
+09/16/2016
+
+FAY SHARPE/LUCENT
+1228 Euclid Avenue, 5th Floor
+The Halle Building
+Cleveland, OH 44115-1843
+
+EXAMINER
+NEFF, MICHAEL R
+
+ART UNIT
+
+PAPER NUMBER
+
+2631
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@faysharpe.com
+ipsnarocp@nokia.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITEn STATES PATENT ANn TRA.nEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte YANG SONG, XIAOLONG ZHU, and DONG LI
+
+Appeal2015-003042
+Application 13/142,121
+Technology Center 2600
+
+Before HUNG H. BUI, KEVIN C. TROCK, and ADAM J. PYONIN,
+Administrative Patent Judges.
+PYONIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a final
+rejection of claims 1, 8, 9, 11, 28, 43, 48, 49, 51, and 53. 1 We have
+jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+Claims 6, 7, 10, 44--47, and 50 have been objected to, claims
+4, 5, 13 and 52 have been allowed, and claims 2, 3, 12, 14--27, and 29--42
+have been canceled. See App. Br. 4.
+
+Appeal2015-003042
+Application 13/142,121
+STATEMENT OF THE CASE
+Introduction
+
+Appellants' disclosure is directed to a codebook-based multi-base
+station unite pre-coding method, mobile terminal, and base station.
+Spec., Title. Claims 1 and 28 are independent and subject to this appeal.
+Claim 1 is reproduced below for reference:
+1.
+A codebook-based multi-base station unite pre-coding
+method, comprising:
+a mobile terminal estimating channels from multiple
+different cooperating base stations to obtain a unite channel
+matrix He including elements from the multiple different
+cooperating base stations;
+the mobile terminal, based on the estimated unite channel
+matrix, selecting an optimal unite pre-coding matrix We from a
+pre-coding matrix codebook;
+the mobile terminal feeding an index of the unite precoding matrix back to the cooperating base stations;
+the corresponding cooperating base station, based on the
+received index of the unite pre-coding matrix; selecting a unite
+pre-coding matrix from the pre-coding matrix codebook, and
+performing unite pre-coding on data using the unite pre-coding
+matrix before sending the data to the mobile terminal;
+wherein the unite channel matrix He is an inner pre-coded
+equivalent unite channel matrix.
+
+References and Rejections
+
+Claims 1, 8, 9, 11, and 43 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Mondal (US 2010/0150266 Al; June 17, 2010),
+Forck (US 2011/0305195 Al; Dec. 15, 2011), and Eichinger (US
+2010/0189079 Al; July 29, 2010). Final Act. 3, 8.
+
+2
+
+Appeal2015-003042
+Application 13/142,121
+Claims 28, 48, 49, 51, and 53 2 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Mondal and Forck. 3 Final Act. 6.
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments. We adopt the Examiner's findings and conclusions in the Final
+Action and Examiner's Answer as our own, to the extent they are consistent
+with our analysis below. We add the following primarily for emphasis.
+
+A. Independent Claims 1and28
+Appellants argue the Examiner erred in rejecting the independent
+claims, because:
+[C]laims 1 and 28 clearly provide that the mobile terminal
+estimates the channels to obtain the unite channel matrix,
+whereas Forck merely discloses generating a matrix at a base
+station, and not at the user terminal. Moreover, Mondal involves
+a single base station, and there is no disclosure of a mobile
+terminal in Mondal estimating channels from multiple different
+cooperating base stations obtain a channel matrix including
+elements from the multiple different cooperating base stations as
+claimed.
+App. Br. 9. Particularly, Appellants contend "Forck provides no teaching of
+a mobile terminal estimating channels from multiple base stations to obtain a
+channel matrix as claimed." Id. at 11.
+
+2
+
+The Examiner refers to claim 49 in the rejection of claim 53. See Final
+Act. 8. We treat this as harmless error.
+3
+The preamble of the rejections of claims 48, 49, 51, and 53 refers to
+Eichinger (see Final Act. 7-8); however, as Eichinger is not otherwise cited,
+we consider these claims as solely rejected under Mondal and Forck.
+3
+
+Appeal2015-003042
+Application 13/142,121
+Appellants' arguments are unpersuasive of error because they attack
+the references individually, and thus fail to address the Examiner's findings.
+To justify combining reference teachings in support of a
+rejection it is not necessary that a device shown in one reference
+can be physically inserted into the device shown in the
+other. The test for obviousness is not whether the features of a
+secondary reference may be bodily incorporated into the
+structure of the primary reference; nor is it that the claimed
+invention must be expressly suggested in any one or all of the
+references. Rather, the test is what the combined teachings of
+the references would have suggested to those of ordinary skill
+in the art.
+In re Keller, 642 F.2d 413, 425 (CCPA 1981) (internal citations omitted).
+
+Further, "one cannot show non-obviousness by attacking references
+individually where, as here, the rejections are based on combinations of
+references." Id. at 426. Here, the Examiner correctly finds Mondal teaches
+a mobile terminal estimates channels (see Mondal Fig. 3, i-fi-152, 72), and
+Forck teaches estimating channels from multiple base stations to obtain a
+unite channel matrix (see Forck i-fi-130, 42, 52, 72). See Final Act. 3--4. The
+Examiner finds, therefore, that the combination of references teaches or
+suggests the disputed limitations. Id.
+We are not persuaded the Examiner's combination of Mondal and
+Forck is improper. See App. Br. 14; Ans. 11-12. The Examiner explains
+that both references are "analogous arts" and the combination would "allow
+for the more efficient and effective implementation of the cooperation and
+associated processing requirements for the cooperative base station design."
+See Final Act. 4, Ans. 11. We find the Examiner's explanation constitutes
+
+articulated reasoning with rational underpinnings sufficient to justify the
+legal conclusion of obviousness. In contrast, Appellants fail to provide
+
+4
+
+Appeal2015-003042
+Application 13/142,121
+sufficient evidence or reasoning to persuade us that requiring Mondal' s
+mobile terminal to perform channel estimation as taught by Forck was
+"uniquely challenging or difficult for one of ordinary skill in the art" or
+"represented an unobvious step over the prior art." Leapfrog Enters., Inc. v.
+Fisher-Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007) (citations
+
+removed). Nor have Appellants presented evidence that any of their
+incorporations of known limitations yielded more than expected results. See
+Ans. 12.
+Thus, Appellants do not persuade us the Examiner erred in finding the
+combined teachings of Mondal and Forck suggest, to one of ordinary skill in
+
+the art, the mobile station estimation as recited by independent claims 1 and
+28. We sustain the Examiner's rejection of these claims, and dependent
+claims 8, 9, 11, 43, 48, 49, and 51, which are not separately argued. See
+App. Br. 15.
+
+B. Dependent Claim 53
+
+Appellants argue the Examiner erred in rejecting dependent claim 53,
+because "claim 53 depends from independent claim 1 and recites that the
+mobile terminal estimating channels from multiple different cooperating
+base stations is a single mobile terminal," whereas the cited figure of Forck
+"does not show any mobile terminals, but instead shows ... connections
+between" base stations and/or gateways. App. Br. 10; see also Forck Fig. 2.
+We agree with the Examiner, however, that the combination of
+Mondal and Forck teaches or suggests the limitations of claim 53. See Final
+Act. 6. As cited by the Examiner, Mondal teaches a single mobile station
+will estimate channels; the Examiner additionally cites Forck, which teaches
+
+5
+
+Appeal2015-003042
+Application 13/142,121
+processing may be performed by each device separately. See Final Act. 8;
+see also Forck i-f 6 (referring to Forck Fig. 2); Mondal Figs. 3, 6. Therefore,
+Appellants do not persuade us the Examiner erred in finding the limitations
+recited by claim 53 are obvious in view of Mondal and Forck.
+
+DECISION
+The Examiner's rejection of claims 1, 8, 9, 11, 28, 43, 48, 49, 51, and
+53 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

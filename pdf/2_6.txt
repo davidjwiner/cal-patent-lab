@@ -1,0 +1,403 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/384,764
+
+01/18/2012
+
+Keith Rogers
+
+82925845
+
+5689
+
+22879
+
+7590
+
+09/23/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+DADA, BEEMNET W
+
+ART UNIT
+
+PAPER NUMBER
+
+2435
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KEITH ROGERS and JON P. STYSKAL
+
+Appeal2015-003744
+Application 13/384,764
+Technology Center 2400
+
+Before JON M. JURGOVAN, JOHN F. HORVATH, and
+SHARON PENICK, Administrative Patent Judges.
+JURGOVAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek review under 35 U.S.C. § 134(a) from a Final
+Rejection of claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm-in-part. 2
+
+1
+
+Appellants identify Hewlett-Packard Development Company, LP, as the
+real party in interest. (App. Br. 1.)
+2
+
+Our Decision refers to the Specification filed Jan. 18, 2012 ("Spec."), the
+Final Office Action mailed Apr. 9, 2014 ("Final Act."), the Appeal Brief
+filed Aug. 13, 2014 ("App. Br."), the Examiner's Answer mailed Dec. 9,
+2014 ("Ans."), and the Reply Brief filed Feb. 4, 2015 ("Reply Br.").
+
+Appeal2015-003744
+Application 13/384,764
+CLAIMED INVENTION
+The claims are directed to configuring a process with signed files
+from a storage device by determining whether their digital certificates match
+a white list or by authenticating the signed files. (Spec. Abstract.) Claim 1,
+reproduced below, is illustrative of the claimed subject matter:
+1.
+
+A computer implemented method comprising:
+
+scanning a storage device using a processor for one or
+more signed files in response to the storage device coupling to a
+machine;
+determining whether a digital certificate of the one or more
+signed files matches a white list stored in the machine;
+in response to a determination that the digital certificate of
+the one or more signed files does not match the white list stored
+in the machine, authenticating the one or more of the signed files;
+and
+configuring the processor to access accessible files from
+the storage device in response to authenticating one or more of
+the signed files.
+(App. Br. - Claims App'x.)
+
+REJECTION
+Claims 1-20 stand rejected under 35 U.S.C. § 103(a) based on LeMay
+(US 2003/0216172 Al, publ. Nov. 20, 2003) and Wang (CN 110141447 B,
+publ. Aug. 18, 2010.) (App. Br. 2-5.)
+
+Claims 1, 7, 12
+Appellants' Arguments
+Regarding the claimed "determining" Appellants argue that paragraph
+34 of Wang has no discemable meaning, so the obviousness rejection lacks
+2
+
+Appeal2015-003744
+Application 13/384,764
+sufficient clarity. (App. Br. 7-8.) Appellants also argue that Wang states
+nothing regarding a digital certificate of a signed file, much less signed files
+of a storage device. (App. Br. 8.) Appellants further argue Wang discloses
+using digital certificates to establish secure connections between a client and
+a server, which is asserted to be different from what is claimed. (Id., Reply
+Br. 2.) Appellants also argue the combination of Wang and LeMay fails to
+disclose the claimed "determining whether a digital certificate of the one or
+more signed files matches a white list stored in the machine." (Reply Br. 2,
+4.) Appellants further argue Wang says nothing regarding the digital
+certificate of HTTP content data, but merely that digital certificates are used
+to establish secure HTTP connections. (Reply Br. 3-5.)
+Regarding the claimed "authenticating" Appellants present similar
+arguments as previously mentioned and further argue that Wang does not
+suggest authenticating one or more signed files, much less that the
+authenticating is performed in response to a determination that the digital
+certificate of the one or more signed files does not match the white list
+stored in the machine. (App. Br. 9, Reply Br. 5-7.)
+Appellants further argue that the Office Action fails to provide a
+sufficient rationale to combine LeMay and Wang in the proposed manner.
+(App. Br. 9-10, Reply Br. 7-8.) Specifically, Appellants argue LeMay is
+directed to authenticating gaming machine software included in removable
+media whereas Wang is directed to a different problem of establishing
+communication tunnels between client and server. According to Appellants,
+the stated rationale of enhancing security of the system would not have
+provided sufficient reason to combine the references. (Id.)
+
+3
+
+Appeal2015-003744
+Application 13/384,764
+Legal Considerations Concerning Obviousness
+The question of obviousness is resolved on the basis of underlying
+factual determinations, including: (1) the scope and content of the prior art;
+(2) any differences between the claimed subject matter and the prior art; (3)
+the level of skill in the art; and (4) where in evidence, so-called secondary
+considerations. Graham v. John Deere Co., 383 U.S. 1, 17-18 (1966). A
+claim is unpatentable under 35 U.S.C. § 103(a) if the differences between
+the claimed subject matter and the prior art are such that the subject matter,
+as a whole, would have been obvious at the time the invention was made to a
+person having ordinary skill in the art to which said subject matter pertains.
+KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 406 (2007) ("KSR").
+With this background in mind, we proceed to analysis of Appellants'
+arguments and the Examiner's findings and conclusions of obviousness.
+Analysis
+Although it is true that Wang has translation errors, we do not agree
+with Appellants' assertion it is incomprehensible to a person of ordinary
+skill in the art. For example, a person of ordinary skill would interpret
+Wang, paragraph 34, as meaning: "The digital certificate analyzing means
+[is provided] for judging whether the digital certificate digital certificate
+digital certificate [is on the] white list or blacklist." In this regard, we note
+that in an obviousness rejection "a reference must be considered not only for
+what it expressly teaches, but also for what it fairly suggests." In re Bell,
+991 F. 2d 781, 785 (Fed. Cir. 1993) quoting In re Burckel, 592 F.2d 1175,
+1179 (CCP A 1979). We also note that certain of the cited paragraphs of
+Wang are clear and detailed regarding the claimed subject matter. (See, e.g.,
+
+4
+
+Appeal2015-003744
+Application 13/384,764
+Wang iii! 76, 77.) Thus, we are not persuaded the reference is
+incomprehensible to a person of ordinary skill.
+Appellants' argument that Wang is silent concerning a digital
+certificate of a signed file, but instead teaches use of a digital certificate for
+an HTTPS connection, fails to take into account that the rejection is based
+on the combination of Wang and LeMay. "Non-obviousness cannot be
+established by attacking references individually where the rejection is based
+upon the teachings of a combination of references." In re Merck & Co., 800
+F.2d 1091, 1097 (Fed. Cir. 1986) (citing In re Keller, 642 F.2d 413, 425
+(CCP A 1981 )). "The test for obviousness is not whether the features of a
+secondary reference may be bodily incorporated into the structure of the
+primary reference, nor is it that the claimed invention must be expressly
+suggested in any one or all of the references. Rather, the test is what the
+combined teachings of the references would have suggested to those of
+ordinary skill in the art." Id. at 425 (citations omitted).
+Applying these principles, Wang teaches digital certificates are used
+to verify connection requests against white and black lists. (Final Act. 3
+citing Wang if 76.) LeMay teaches performing a hash operation on a file to
+generate a signature for comparison with a file signature in order to
+authenticate the file. (LeMay if 76.) To enhance security, a person of
+ordinary skill would have understood that Wang's digital certificates could
+be applied to LeMay' s signed files to arrive at the claimed invention, as the
+Examiner found. (See Final Act. 3, Ans. 2-3.)
+Wang also teaches that if a digital certificate is unknown, i.e., it does
+not match the white or black lists, then security checks and content-filtering
+are performed on plaintext data. (Wang iii! 76, 77.) A security check
+5
+
+Appeal2015-003744
+Application 13/384,764
+suggests authentication as taught by LeMay. (See LeMay Figs. 5, 6.) Thus,
+we are not persuaded by Appellants' argument that the claimed
+"authenticating" is not suggested by the combination of LeMay and Wang.
+Appellants also do not persuade us of Examiner error regarding the
+rationale to combine LeMay and Wang. As the Examiner notes, LeMay and
+Wang are both directed to the same field of endeavor, namely, security,
+particularly in relation to connected devices. (See Final Act. 3, LeMay Title,
+Abstract, Wang Title, Abstract.) "[A]ny need or problem known in the field
+of endeavor at the time of invention and addressed by the patent can provide
+a reason for combining the elements in the manner claimed." (See KSR at
+420.) The need for file and system security would have been appreciated by
+the person of ordinary skill in the art, and using LeMay's file signatures with
+Wang's digital certificates would have been understood to enhance the
+security of the system over and above the teachings of the individual
+references. Thus, the claimed invention may be viewed as the combination
+of elements known in the prior art according to known techniques under
+KSR, yielding the predictable result of enhanced security. 3
+
+Furthermore, LeMay and Wang share several features in common,
+which would have suggested their combination. Both deal with security of
+connected devices, and LeMay's software authentication and Wang's safety
+inspection and content-filtering would be understood to be related concepts
+by a person of ordinary skill in the art. (See LeMay, Title, Abstract, Wang,
+Title, Abstract, i-fi-176, 77.) These observations would have suggested to the
+person of ordinary skill the combination of references set forth in the
+
+3
+
+See MPEP § 2143(A) regarding the rationale of combining prior art
+elements according to known methods to yield a predictable result.
+6
+
+Appeal2015-003744
+Application 13/384,764
+Examiner's rejection. 4 Thus, we agree with the Examiner regarding the
+"apparent reason" to combine the references as described in KSR. (See Final
+Act. 3, KSR at 418.)
+
+Claim 2
+Appellants argue LeMay and Wang are entirely silent regarding the
+claimed limitation "wherein the digital certificate uniquely identifies a
+publisher of the one or more of the signed files." (App. Br. 10-11 and
+Claims App'x, Reply Br. 8-9.) The Examiner cites both LeMay and Wang
+for this claimed feature. (Final Act. 3 citing Lemay i-f 76, Ans. 4 citing
+LeMay i-f 72, Fig. 8 and Wang Abstract.)
+In interpreting the claim language, we apply the broadest reasonable
+interpretation that is consistent with the Specification. In re Am. Acad. of
+
+Sci. Tech. Ctr., 367 F.3d 1359, 1369 (Fed. Cir. 2004). The Specification
+states "A publisher of a digital certificate is an entity which has created
+and/or distributed the digital certificate or a corresponding signed file."
+(Spec. i-f 30.) Thus, the entity that creates or distributes the digital
+certificates in Wang or the signed files in LeMay may be regarded a
+publisher. We agree with the Examiner that a person of ordinary skill would
+have understood that such publisher may be uniquely identified by the
+digital certificate. 5 Accordingly, we are not persuaded the Examiner errs in
+
+4
+
+See MPEP § 2143(G) regarding the teaching, suggestion, or motivation
+("TSM") rationale for combining references.
+5
+We also note that in Public Key Infrastructure (PKI) it was well-known
+before the invention to use unique digital certificates to identify entities.
+See, e.g., CARLISLE ADAMS & STEVE LLOYD, UNDERSTANDING PKI (2nd Ed.
+2003).
+7
+
+Appeal2015-003744
+Application 13/384,764
+finding the references at least suggest the claimed feature. Thus, we sustain
+the rejection of claim 2.
+
+Claims 3, 10, 14
+Appellants argue LeMay and Wang fail to teach or suggest the
+claimed limitation "in response to authenticating the one or more of the
+signed files, adding the digital certificate of the one or more of the signed
+files to the white list." (App. Br. 11-12 and Claims App'x, Reply Br. 9-10.)
+In finding Wang teaches this feature, the Examiner notes that when a digital
+certificate is not on either the white or black list, the reference teaches that
+further processing including security checks, content filtering, access policy
+checks, etc. are performed. (Final Act. 3 citing Wang i-fi-f 11-16, 26-32, 44-50, Ans. 5 citing Wang i-fi-176-77.) The Examiner further finds the person of
+ordinary skill would understand that when the white list was created, the
+certificate had to be authenticated or authorized. (Id.) Nonetheless, these
+findings fall short of teaching or suggesting that a digital certificate should
+be added to a white list in response to its authentication in the claimed
+context. Thus, we agree with Appellants' argument, and we do not sustain
+the Examiner's rejection of claims 3, 10, and 14.
+
+Claim 4
+Appellants contend LeMay and Wang are silent regarding the claimed
+limitation "wherein the accessible files include the files on the storage
+device when one of the signed files is authenticated and the signed file is an
+auto run file." (App. Br. 12 and Claims App'x, Reply Br. 10.) To the
+contrary, the Examiner finds this limitation taught by the combination of
+references, particularly in LeMay. (Final Act. 4 citing LeMay i-fi-176, 77,
+Ans. 5 citing LeMay i-fi-159, 60.)
+
+8
+
+Appeal2015-003744
+Application 13/384,764
+We note that the Specification provides no definition of what is meant
+by an "auto run file" and Appellants offer none in the briefs. Accordingly,
+we apply the broadest reasonable interpretation of this claim terminology
+consistent with the Specification. See In re Am. A cad. of Sci. Tech. Ctr.,
+supra.
+
+In the cited paragraphs, LeMay states upon receiving authentication
+programs an algorithm processor automatically executes authentication
+algorithms on the software programs on the removable media to determine
+their trustworthiness. (LeMay i-f 59, 75.) We agree with the Examiner that
+LeMay' s programs are equivalent to the claimed auto run file because they
+run automatically without the need for user action. Accordingly, we are not
+persuaded by Appellants' arguments that LeMay fails to teach or at least
+suggest the claimed feature.
+Claim 5
+
+Claim 5 recites "wherein the accessible files include a subset of the
+files on the storage device when one of the signed files is authenticated and
+determined to be executable." (App. Br. -Claims App'x.) Appellants argue
+this feature is not taught or suggested in the combined references, arguing
+LeMay and Wang are silent regarding any signed file that is determined to
+be executable. (App. Br. 12-13, Reply Br. 10-11.)
+We agree with the Examiner this feature is taught or at least suggested
+by LeMay' s disclosure. Specifically, LeMay teaches that if a decrypted
+signature matches a signature calculated from a file, then a directory and
+listing of files is generated. (Final Act. 4 citing LeMay i-fi-1 7 6, 77, Ans. 6
+citing LeMay i-fi-159, 60, see also i-f 38.) One of ordinary skill would infer
+that these actions are in preparation for file execution at the completion of
+
+9
+
+Appeal2015-003744
+Application 13/384,764
+the authentication process. Thus, in LeMay, successful file authentication
+may be considered as a determination that the files are executable.
+Claim 8
+
+Claim 8 recites "wherein the authentication application operates as a
+background service on the machine." (App. Br. - Claims App'x.)
+Appellants argue this feature is not taught or suggested by LeMay and
+Wang, which, according to Appellants, contain no suggestion of any
+background service.
+No definition of "background service" appears in the Specification,
+and Appellants offer none in their briefing. Accordingly, we apply broadest
+reasonable interpretation to the claim terminology that is consistent with the
+Specification. See In re Am. A cad. of Sci. Tech. Ctr., supra.
+LeMay' s authentication is a process that runs automatically without
+any user intervention, i.e., it runs in the background. (Ans. 6 and Final Act.
+4 citing LeMay i-fi-175, 76.) We agree with the Examiner this is encompassed
+by the broadest reasonable interpretation of the claimed background service.
+Thus, we are not persuaded the Examiner errs in the obviousness rejection.
+Remaining Claims
+
+No separate arguments are presented for the remaining claims and
+therefore we sustain their rejection for the reasons previously stated.
+37 C.F.R. § 41.37(c)(l)(iv); In re King, 801F.2d1324, 1325 (Fed. Cir.
+1986); In re Sernaker, 702 F.2d 989, 991 (Fed. Cir. 1983).
+
+10
+
+Appeal2015-003744
+Application 13/384,764
+DECISION
+We affirm the rejection of claims 1, 2, 4--9, 11-13, and 15-20 under
+35 U.S.C. § 103(a) based on LeMay and Wang. We reverse the rejection of
+claims 3, 10, and 14.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+11
+
+

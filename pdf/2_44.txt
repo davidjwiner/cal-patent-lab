@@ -1,0 +1,212 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121772,035
+
+05/19/2010
+
+Adam J. GUDAT
+
+08350.9510-00000
+
+2964
+
+58982
+
+7590
+
+09/22/2016
+
+EXAMINER
+
+CATERPILLAR/FINNEGAN, HENDERSON, L.L.P.
+901 New York A venue, NW
+WASHINGTON, DC 20001-4413
+
+CHOY, PANG
+
+ART UNIT
+
+PAPER NUMBER
+
+3624
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+regional-desk@finnegan.com
+us_docket_clerk@cat.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ADAM J. GUDAT, JAMES D. HUMPHREY,
+PETER W. ANDERTON, DAVID C. ORR, KENNETH L. STRATTON,
+CRAIG L. KOEHRSEN, CLAUDE W. KEEFER, and
+MICHAEL D. BRAUNSTEIN
+
+Appeal2014-002814
+Application 12/772,035
+Technology Center 3600
+
+Before BIBHU R. MOHANTY, MICHAEL C. ASTORINO, and
+CYNTHIA L. MURPHY, Administrative Patent Judges.
+ivIOHANTY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellants seek our review under 35 U.S.C. § 134 of the final
+rejection of claims 1-26 which are all the claims pending in the application.
+We have jurisdiction under 35 U.S.C. § 6(b).
+
+SUMMARY OF THE DECISION
+We REVERSE.
+
+Appeal2014-002814
+Application 12/772,035
+
+THE INVENTION
+The Appellants' claimed invention is directed to controlling fluid
+delivery on a site (Spec., para. 7). Claim 1, reproduced below with the
+numbering in brackets added, is representative of the subject matter on
+appeal.
+1.
+A method for controlling fluid delivery on a site using at least
+one fluid delivery machine, the method performed by a worksite
+computing system and comprising:
+[l] identifying, by a processor associated with a controller, at
+least one path on the site based on map information associated with
+the site;
+[2] calculating, by the processor, a fluid delivery requirement of
+the at least one path based on environmental information associated
+with the site and a desired fluid level of the at least one path; and
+[3] dispatching, by the processor, a fluid delivery machine on a
+mission to treat the at least one path with fluid based on the fluid
+delivery requirement.
+THE REJECTIONS
+The following rejections are before us for review:
+1.
+
+Claims 1, 2, 5-10, and 26 are rejected under 35 U.S.C. § 103(a)
+
+as unpatentable over Carter (US 2005/0060127 Al published March 17,
+2005) and Barash US 4,209, 131 issued June 24, 19 80).
+2.
+
+Claims 3, 11-14, and 16-25 are rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over Carter, Barash, and Owens (US 8,079,245 Bl
+issued December 20, 2011.
+3.
+
+Claims 4 and 15 are rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Carter, Barash, Owens, and Mogi (Mogi et al., US
+5, 177 ,521 issued January 5, 1993).
+2
+
+Appeal2014-002814
+Application 12/772,035
+
+FINDINGS OF FACT
+We have determined that the findings of fact in the Analysis section
+below are supported at least by a preponderance of the evidence 1•
+
+ANALYSIS
+The Appellants argue that the rejection of claim 1 is improper because
+the prior art does not show or suggest elements of claim limitation [2]
+identified above (App. Br. 12-15, Reply Br. 2).
+In contrast the Examiner has determined that the cited claim limitation
+[2] is found in Carter, Jr. at paragraphs 32, and 36-39 (Ans. 5-7, Final
+Act. 6).
+We agree with the Appellants. Claim limitation [2] requires:
+[2] calculating, by the processor, a fluid delivery requirement of the at
+least one path based on environmental information associated with the
+site and a desired fluid level of the at least one path.
+(Claim 1, emphasis added). In claim 1, following the above calculation of
+the fluid delivery requirement for the path, the fluid delivery machine is
+dispatched. In the Specification at Figure 4 "PATH ID" is shown as
+including a "SEGMENT ID" which includes a "start point" and "end point".
+Here the cited claim limitation requires "calculating .. .a fluid delivery
+
+requirement of the at least one path based on environmental information
+associated with the site and a desired fluid level of the at least one path".
+
+1
+
+See Ethicon, Inc. v. Quigg, 849 F.2d 1422, 1427 (Fed. Cir. 1988)
+(explaining the general evidentiary standard for proceedings before the
+Patent Office).
+3
+
+Appeal2014-002814
+Application 12/772,035
+The Specification at paragraph 71 refers to a "path segment" as the
+"lengthwise portion of a path." Thus we determine that one of ordinary skill
+in the art would construe the term "path" in light of the Specification to
+include more than a mere point or single location, but rather to include the
+distance between two points or length in some manner. In contrast, Carter at
+the above citations does not disclose calculating the fluid delivery
+requirement prior to dispatch along a path, but rather only at rather discrete
+"work locations." For example, Carter at para. 3 7 discloses calculating if
+there is sufficient water to treat dust conditions at separate work locations 14
+but not along a path as claimed. Carter at para. 38 does disclose traveling to
+multiple work locations on a route for fluid delivery to the work locations,
+but the calculation of the fluid requirement is only disclosed for discrete
+locations and not specifically for the route before dispatch. Carter at para.
+39 does disclose treating an discrete intermediate work location 14 en route
+to a high priority location 14a but this is only after the machine has already
+been dispatched. In contrast, in claim 1 the "dispatching" is done based on
+
+the prior calculation of the fluid delivery requirement along the path.
+For these above reasons the rejection of claim 1 and its dependent
+claims is not sustained. The remaining claims contain a similar limitation
+and the rejection of these claims is not sustained for the same reasons given
+above.
+
+CONCLUSIONS OF LAW
+We conclude that Appellants have shown that the Examiner erred in
+rejecting the claims as listed in the Rejections section above.
+
+4
+
+Appeal2014-002814
+Application 12/772,035
+DECISION
+The Examiner's rejection of claims 1-26 is reversed.
+
+REVERSED
+
+5
+
+

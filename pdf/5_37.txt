@@ -1,0 +1,533 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+101761,237
+
+01122/2004
+
+Albrecht Wendel
+
+P61750US1
+
+2027
+
+136
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+JACOBSON HOLMAN PLLC
+400 Seventh Street N.W. Suite 700
+Washington, DC 20004-2218
+
+HINES, JANA A
+
+ART UNIT
+
+PAPER NUMBER
+
+1645
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patent@jhip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ALBRECHT WENDEL and THOMAS HARTUNG 1
+
+Appeal2013-010345
+Application 10/7 61,23 7
+Technology Center 1600
+
+Before DONALD E. ADAMS, TAWEN CHANG, and
+RACHEL H. TOWNSEND, Administrative Patent Judges.
+CHANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to methods
+of testing blood for reaction to a substance, which have been rejected as
+anticipated. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+STATEMENT OF THE CASE
+According to the Specification, one of the objectives of the invention
+is to assure "a smooth and reproducible procedure" when blood is used as a
+biological test system. (Spec. 3.) Further according to the Specification,
+
+1
+
+Appellants identify the Real Party in Interest as the inventors, Albrecht
+Wendel and Thomas Hartung. (Appeal Br. 3.)
+
+Appeal2013-010345
+Application 10/7 61,23 7
+this objective may be achieved by use of deep-frozen blood, which may be
+thawed before the material to be tested is brought into contact with the
+blood. (Id. at 3--4.)
+Claims 23-28 and 35--46 are on appeal. Claim 23 is illustrative and
+reads as follows:
+23.
+
+A method of testing blood for reaction to a substance
+comprising the steps of:
+- selecting a cryopreserved unit dose comprising a
+blood product including viable white blood cells and a
+cryopreservative from among a plurality of identical
+cryopreserved unit doses obtained from a single or
+pooled sample of blood taken from a human or
+animal;
+thawing the cryopreserved unit dose;
+contacting the thawed, cryopreserved unit dose with
+the substance; and
+determining, by biological, physical, chemical, or
+physicochemical means, whether the viable white
+blood cells in the unit dose react with the substance in
+an immunofi.1nctional, toxic, or modulator'/ blood
+reaction.
+
+The claims stand rejected as follows:
+Claims 23, 24, 26, 27, and 35--46 are rejected under 35 U.S.C.
+§ 102(b) as being anticipated by Lionetti. 2
+Claims 23-28 and 35--46 are rejected under 35 U.S.C. § 102(b) as
+being anticipated by Boyse. 3
+
+2
+3
+
+Lionetti et al., U.S. 4,004,975, issued Jan. 25, 1977.
+Boyse et al., U.S. 5,192,553, issued Mar. 9, 1993.
+2
+
+Appeal2013-010345
+Application 10/7 61,23 7
+l.
+
+Issue
+
+The Examiner rejected claims 23, 24, 26, 27, and 35--46 under
+35 U.S.C. § 102(b) as being anticipated by Lionetti. The Examiner finds
+that Lionetti discloses a method for "the freezing of granulocytes of
+peripheral blood and the production of a substantial yield of thawed viable
+cells as determined by in vitro characteristics." 4 (Ans. 3.)
+Among other things, the Examiner finds that Lionetti discloses "the
+cryopreservation of concentrated [white blood cells] being frozen at -80Q C."
+(Id. at 5.) The Examiner finds that Lionetti teaches freezing the white cells
+
+"with a combination of HES, which functions as both a sedimenting and
+cryoprotective agent, and DMSO, a cryoprotective agent." (Id. at 4.) The
+Examiner finds that Lionetti teaches cryopreservation of concentrated white
+blood cells in the form of "2ml aliquots of leukocytes ... placed in plastic
+... tubes" as well as in the form of "55ml bags containing cells." 5 (Id. at 5.)
+The Examiner finds that Lionetti discloses thawing the white blood cells and
+analyzing them in various ways, including via a bacterial growth inhibition
+assay where the white blood cells are contacted with E. coli. (Id. at 5---6.)
+Appellants contend that Lionetti does not disclose "selecting a ... unit
+dose ... from among a plurality of identical cryopreserved unit doses .... "
+(Appeal Br. 12-14.) Appellants further contend that Lionetti fails to teach
+"the combined steps of [1] 'contacting the ... [leukocyte-containing] unit dose
+with the substance' and [2] 'determining ... whether... an immunofunctional,
+
+4
+
+"[G]ranulocytes are white blood cells." (Ans. 3.)
+Leukocytes are also white blood cells. (See generally Lionetti 2:67
+("Leukocytes, i.e. white cells").)
+3
+
+5
+
+Appeal2013-010345
+Application 10/7 61,23 7
+toxic or modulatory blood reaction' occurs between 'leukocytes' and
+'substance."' (Id. at 14 (alteration original).)
+Appellants do not separately argue the claims. Thus, we limit our
+discussion to claim 23 as representative. 6 The issue with respect to this
+rejection is whether the evidence of record supports the Examiner's finding
+that Lionetti disclose each element of claim 23.
+
+Findings of Fact
+FF 1. Lionetti relates to a "method of salvaging granulocytes, or white
+cells, from ... centrifuged whole blood" by freezing the white blood cells.
+(Lionetti Abstract, 1:6-10; see Ans. 3.)
+FF2. Lionetti teaches freezing the white blood cells through "a
+combination of hydroxyethyl starch (HES), which functions as both a
+sedimenting agent and a cryoprotective agent, and dimethylsulfoxide
+(DMSO), a cryoprotective agent." (Id. at Abstract, 2: 10-16; see generally
+Ans. 3--4.)
+FF3. Lionetti teaches a sedimentation procedure to isolate white
+blood cells where "[ s]edimentation was undertaken ... using the same
+volume of cells, dilutions and [HES] concentrations" and where white blood
+
+6
+
+To the extent Appellants separately argued claim 41 in their Reply Brief
+(Reply Br. 8), that argument is untimely because Appellants did not
+separately argue claim 41 in the Appeal Brief. Ex parte Borden, 93 USPQ2d
+1473 (BPAI 2010). In any event, Appellants state that claim 41 "essentially
+defines the same subject matter as (independent) claims 23 and 35." (Reply
+Br. 8.) Thus, there can be no dispute that claim 23 is representative of claim
+41.
+4
+
+Appeal2013-010345
+Application 10/7 61,23 7
+cells are then cryopreserved in bags or in plastic tubes. (Id. at 4:38---68; see
+Ans. 5.)
+FF4. Lionetti teaches expressing white blood cell enriched
+supematants resulting from the sedimentation procedure, "about 50---60 ml,"
+into small platelet preservation bags. (Id. at 4:38--49; see Ans. 5.) Lionetti
+teaches that these suspensions from the sedimentation procedure, "about 55
+ml containing 6 x 108 white cells, were frozen by placing the bags flat in the
+freezer at-80Q C." (Id. at 4:58-61; see generally Ans. 5, 11, and 13.)
+FF5. Lionetti also teaches placing "[t]wo milliliter aliquots,
+approximately 2 x 107 cells, of leukocytes isolated by sedimentation ... in
+polyethylene plastic tubes ... and [freezing them] at 2Q C/min. to -80Q C."
+(Id. at 4:52-55; see generally Ans. 5.)
+
+FF6. Lionetti teaches that "[r]esidual HES remaining after
+sedimentation was the cryoprotective agent for half the units studied" while
+the remaining units also received 5% DMSO. (Id. at 4:47--49, 61---64; see
+generally Ans. 4--5.)
+
+FF7. Lionetti teaches thawing the tubes and plastic bags of frozen
+white blood cells. (Id. at 5: 1-7; see Ans. 5.)
+FF8. Lionetti teaches "a method of determining the feasibility of
+thawed cells by tests involving [the cells'] ability to inhibit growth of
+Escherichia (E.) coli," which serve as a means to describe the capacity of
+cryopreserved granulocytes to undergo the ingestion aspect of phagocytosis.
+(Id. at 2:24--28, 10:59---62; see generally Ans. 5-6.)
+
+FF9. In particular, Lionetti teaches that "[t]hawed granulocytes, 0.5
+ml, isolated by the sedimentation procedure with HES[,] were diluted to 15.0
+
+5
+
+Appeal2013-010345
+Application 10/7 61,23 7
+ml with Normosol," further diluted, and added to proliferating E. coli. (Id.
+at 6:9-14; see Ans. 5.)
+FF 10. Lionetti teaches counting the bacteria in the mixture of white
+blood cells and E. coli and also teaches taking photographs of white blood
+cells removed from the mixture, which revealed ingested bacteria within the
+phagocytes (not shown). (Id. at 9:63---65; see Ans. 5-6.)
+FF 11. Lionetti teaches studies conducted with leukocytes sedimented
+with dextran or polyvinylpyrrolidone and then frozen with 10 and 15%
+DMSO in the presence or absence of glucose. (Id. at 10:63---66.) Lionetti
+teaches determining the phagocytic index for thawed cells diluted with
+plasma to 2% or 1% DMSO. (Id. at 10:68-11 :9; see generally Ans. 6.)
+FF12. Lionetti provides data relating to trypan exclusion and
+myeloperoxidase activity for post-thawed leukocyte cryopreserved with
+either HES or HES and DMSO, where the cells were either washed or not
+washed after thawing. (Id. at Table 2, 8:58-9:41, 11: 13-24.)
+Analysis
+
+We find that the evidence of record supports the Examiner's finding
+that Lionetti anticipates claim 23. Lionetti teaches freezing white blood
+cells obtained from a sedimentation procedure in bags of about 55 ml
+containing 6 x 10 8 white cells as well as in two millimeter aliquots (FF4,
+FF5), which constitute "a plurality of identical cryopreserved unit doses
+obtained from a single or pooled sample of blood." (Appeal Br. 18 (Claims
+App'x).) Lionetti teaches thawing the aliquots of white blood cells. (FF7.)
+Lionetti teaches contacting the thawed cells with E. coli to determine
+
+6
+
+Appeal2013-010345
+Application 10/7 61,23 7
+whether the white cells inhibit E. coli growth (i.e., has an imnmnofunctional
+reaction to E. coli). (FF8-FF10.)
+Appellants argue that Lionetti does not disclose "a plurality of
+identical cryopreserved unit doses" because Lionetti discloses that white
+blood cell-enriched supematants from the sedimentation procedure, "about
+50-60 ml," are expressed into small platelet preservation bags. (Appeal Br.
+13.) Appellants thus contend that these frozen supematants cannot
+constitute identical unit doses because they contain variable amounts (i.e.,
+between 50 and 60 ml) of white blood cells. (Id.)
+We are not persuaded. As the Examiner points out, Lionetti more
+specifically discloses that the suspensions from the sedimentation procedure
+are frozen in units of "about 55 ml containing 6 x 10 8 white cells." (Ans.
+13-14; FF4.) Moreover, as the Examiner also points out, Lionetti further
+discloses cryopreserving white blood cells in two millimeter aliquots in
+polyethylene tubes. (Ans. 14; FF5.)
+Appellants contend that the two millimeter aliquots Lionetti discloses
+do not constitute identical units within the meaning of claim 23 because
+Lionetti Table 2 shows that there is a 50% standard deviation in the number
+of cells among the two millimeter aliquots.
+This argument is unpersuasive. "[I]n proceedings before the PTO,
+claims in an application are to be given their broadest reasonable
+interpretation consistent with the specification." In re Sneed, 710 F .2d 1544,
+1548 (Fed. Cir. 1983). The Specification does not define "identical" unit
+dose; however, in discussing "unit doses" the Specification repeatedly refers
+to units of particular volume. (Spec. 9-10 ("The unit dose usually contains
+from 50 to 500 micro liters, preferably 100 micro liters, of whole blood, but it
+7
+
+Appeal2013-010345
+Application 10/7 61,23 7
+is not limited to those quantities. . . . The volume of whole blood that can
+be drawn at one time from a healthy human donor allows preparation of
+several thousand unit doses of, for example, 100 microliters.").) Thus, the
+broadest reasonable interpretation of the term "identical ... unit doses"
+encompasses doses that are identical in, e.g., source and volume, despite
+some variation in number of cells.
+Appellants further contend that Lionetti fails to teach "the combined
+steps of [1] 'contacting the ... [leukocyte-containing] unit dose with the
+substance' and [2] 'determining ... whether... an immunofunctional, toxic or
+modulatory blood reaction' occurs between 'leukocytes' and 'substance."'
+(Appeal Br. 14 (alteration original).) We are not convinced. The Examiner
+has explained where and how these claim elements are disclosed in Lionetti
+(Final Act. 6-7; Ans. 5-7; see FF1-FF12), and Appellants fail to provide
+any evidence or argument in the Appeal Brief as to why the Examiner's
+articulation of the prima facie case with respect to these claim limitations are
+insufficient.
+In their Reply Brief, Appellants argue for the first time that Lionetti
+fails to teach "contacting the ... unit dose with the substance" and
+"determining [... ] whether the viable white blood cells in the unit dose react
+with the substance" because Lionetti "require that [white blood cells] be
+isolated from any cryopreservation media before the [white blood cells] are
+contacted with any substance for testing." (Reply 2-5.) Appellants have
+provided no explanation why this new argument could not have been
+presented in the Appeal Brief; accordingly, Appellants' new argument is
+untimely. Ex parte Borden, 93 USPQ2d 1473 (BPAI 2010). In any event,
+
+8
+
+Appeal2013-010345
+Application 10/7 61,23 7
+we are not persuaded by Appellants' argument. (FF2, FF6, FF9, FFl 1,
+FF12.)
+Finally, Appellants argue that "[a]ppealed claims provide, for the first
+time, the use of a blood product as a reagent in the testing of various
+substances for their suitability." (Reply Br. 8-9 (emphasis omitted).) In
+contrast, Appellants argue that Lionetti "describe the testing for safety and
+efficacy of a blood product, to be used in the treatment of humans, by
+contacting the blood product with a variety of reagent substances." (Id.)
+However, Appellants' argument in this regard does not point out any
+additional claim limitations that are not disclosed by Lionetti.
+Accordingly, we find that Lionetti anticipates claim 23. Claims 24,
+26, 27, and 35--46 have not been argued separately and therefore fall with
+claim 23.
+II.
+Issue
+
+The Examiner rejected claims 23-28 and 35--46 under 35 U.S.C.
+§ 102(b) as being anticipated by Boyse. The Examiner finds that Boyse
+discloses cryopreservation of neonatal or fetal hematopoietic stem and
+progenitor cells and the therapeutic use of such cells upon thawing. (Ans.
+7.)
+The Examiner finds that Table III of Boyse shows samples of cord
+blood collected from infants. (Id. at 17-18.) The Examiner finds that these
+samples comprise "blood product[s] that [are] whole blood and includes
+viable ... white blood cells." (Id. at 9.) The Examiner finds that Boyse
+discloses layering 1 ml portions of cell suspensions created from cord blood
+9
+
+Appeal2013-010345
+Application 10/7 61,23 7
+stem and progenitor cells on top of cryoprotective medium in vials that are
+frozen and then subsequently thawed and analyzed. (Id. at 18.) The
+Examiner finds that Boyse discloses "creating a plurality of identical [unit
+doses]" by aliquoting cell suspension from a single sample into multiple
+tubes, bags and vials. (Id.) The Examiner further finds that Boyse discloses
+use of a cryoprotective agent such as DMSO. (Id. at 8.)
+The Examiner finds that Boyse discloses "thawed cells [being] tested
+by standard assays of viability (trypan blue exclusion) and ... microbial
+sterility, and tested to confirm and/or determine their identity relative to the
+patient, and for hematopoietic function." (Id. at 17.) For instance, the
+Examiner finds that Boyse discloses "numerous assays for hematopoietic
+stem or progenitor cells where various factors, alone or in combination[,] are
+tested for stimulation of colony formation upon inclusion in the blood
+culture mixture." (Id. at 9.) The Examiner finds that, "[t]herefore, [Boyse]
+disclose[s] determining whether the viable white blood cells in the unit dose
+reacts with a variety of stimulator substances in an immunofunctional, toxic,
+or modulatory blood reaction." (Id. at 17; see also id. at 8.)
+Appellants contend that Boyse does not disclose "'selecting ... from
+among ... identical ... [white-blood-cell containing] unit doses'" or
+"selecting a unit dose from a plurality of identical cryopreserved unit doses."
+
+(Appeal Br. 15, 16.) Appellants further contend that Boyse fails to teach
+"the combined steps of [ 1] 'contacting the ... unit dose with the substance'
+and [2] 'determining ... whether ... an immunofunctional, toxic or
+modulatory blood reaction' occurs between 'leukocytes' and 'substance."'
+(Id. at 16.)
+
+10
+
+Appeal2013-010345
+Application 10/7 61,23 7
+Appellants do not separately argue the claims. 7 Thus, we limit our
+discussion to claim 23 as representative. The issue with respect to this
+rejection is whether the evidence of record supports the Examiner's finding
+that Boyse disclose each element of claim 23.
+
+Findings of Fact
+
+FF 13. Boyse relates to "hematopoietic stem and progenitor cells of
+neonatal or fetal blood that are cryopreserved, and the therapeutic uses of
+such stem and progenitor cells upon thawing." (Boyse Abstract; see also id.
+at 8:43--46, 10:28-31; see generally Ans. 7.)
+FF 14. Boyse teaches that, "[i]n a preferred embodiment of the
+invention, the neonatal blood sample as thawed can be infused for
+hematopoietic reconstitution. Thus, it is envisioned that whole neonatal
+blood, cryopreserved and thawed, can be infused for therapy." (Id. at 24:64-68; see also id. at 18:59---62, 39:48-52; see generally Ans. 7.)
+FF15. Boyse teaches using cryoprotective agents, including DMSO,
+in cryopreserving cells. (Id. at 23: 1-2; see generally Ans. 8.)
+FF 16. Boyse teaches using "[ s]ealed plastic vials ... or glass ampules
+can be used for multiple small amounts (1-2 ml), while larger volumes
+(100-200 ml) can be frozen in polyolefin bags .... " (Id. at 23:55---60; see
+Ans. 8.)
+FFl 7. Boyse teaches a protocol for cryopreserving viable
+hematopoietic stem and progenitor cells derived from human cord and
+placental blood comprising creating a cell suspension and then, "[i]n a
+
+7
+
+See supra note 6.
+11
+
+Appeal2013-010345
+Application 10/7 61,23 7
+cryovial containing 1 ml of a chilled, sterile cryoprotective medium of 20%
+DMSO/RPMI-1640, carefully layer[ing] a 1 ml portion of the ... cell
+suspension on top of the cryoprotective medium" before placing the vials in
+a freezing rack. (Id. at 43:49---68; see generally Ans. 16 and 18.)
+FF 18. Boyse teaches a service comprising collecting cord blood from
+an infant and allocating cells of each individual to "four cryules [i.e.,
+standard freezing vials], two of which are assigned for storage to one freezer
+and two to another, independently-serviced, freezer." (Id. at 59:35---60:68;
+see generally Ans. 7-8 and 17-18.)
+
+FF 19. Boyse teaches that
+[t]he cryoprotective agent, if toxic in humans, should be
+removed prior to therapeutic use of the thawed neonatal stem
+and progenitor cells. In an embodiment employing DMSO as
+the cryopreservative, it is preferable to omit this step in order to
+avoid cell loss, since DMSO has no serious toxicity. . . . One
+way in which to remove the cryoprotective agent is by dilution
+to an insignificant concentration.
+(Id. at 25:12-21; see generally Ans. 8 and 18-19.)
+
+FF20. Boyse teaches that
+[i]n a preferred ... aspect of the invention, thawed cells are
+tested by standard assays of viability (e.g., trypan blue
+exclusion) and of microbial sterility ... , and tested to confirm
+and/or determine their identity relative to the patient, and for
+hematopoietic function. . . . Methods for identity testing which
+can be used include but are not limited to HLA (the major
+histocompatibility complex in man) typing ... , and DNA
+fingerprinting, which can be used to establish the genetic
+identity of the cells.
+(Id. at 25:50-26:64; see generally Ans. 8-9.)
+
+12
+
+Appeal2013-010345
+Application 10/7 61,23 7
+
+Analysis
+We find the preponderance of evidence supports the Examiner's
+finding that Boyse anticipates claim 23. Boyse discloses cryopreserving
+neonatal blood with a cryopreservative such as DMSO. (FF14, FF15.)
+Boyse discloses cryopreserving viable stem and progenitor cells derived
+from human cord and placental blood by combining 1 ml portions of a cell
+suspension with 1 ml of cryoprotective medium in cryovials for freezing.
+(FF 17; see also FF 18 (describing a service comprising collecting cord blood
+and allocating cells from each individual to four separate cryules ). ) Boyse
+describes thawing the cryopreserved neonatal blood and/or cells and testing
+them via different assays. (FF13, FF14, FF20).
+Appellants argue that Boyse does not suggest "'selecting ... from
+among .. .identical...[ white-blood-cell containing] unit doses,' as in the
+rejected claims," because "the multiple samples 'CB-1 ' -'CB-111 "' set forth
+in Table III of Boyse and cited by the Examiner "have different 'Total
+Volume[s]. "' (Appeal Br. 15-16 (alteration original).) We are not
+convinced. Boyse discloses, e.g., cryopreserving viable stem and progenitor
+cells derived from human cord and placental blood by combining 1 ml
+portions of a cell suspension with 1 ml of cryoprotective medium in
+cryovials for freezing. (Ans. 18; see also FF16-FF18.)
+In the Reply, Appellants do not appear to dispute that Boyse's
+cryovials constitute identical unit doses. Nevertheless, Appellants argue that
+Boyse does not anticipate claim 23 because Boyse isolates the blood cells
+from such cryovials prior to conducting assays and thus does not teach
+"contacting the [entire] thawed, cryopreserved unit dose [of WBCs and a
+cryopreservative] with the substance" and "determining ... whether the
+13
+
+Appeal2013-010345
+Application 10/7 61,23 7
+viable white blood cells in the unit dose react with the substance." (Reply
+Br. 7-8.)
+Appellants' argument is not persuasive. While Boyse does disclose a
+method that pellets thawed cells in the cryovials by centrifugation and
+subsequently separating the cells from the supernatant, Boyse also teaches
+that, in preferred embodiments, cryopreservative should not be removed, in
+order to avoid cell loss. (FFl 9; see also Boyse 51:35--40 (Ficoll-Hypaque
+cell separation and DMSO removal are two steps that are omitted in a
+preferred embodiment of the invention).)
+Finally, we note but do not find persuasive Appellants' statements in
+the Appeal Brief that Boyse does not anticipate the claims because "the ...
+claim limitation to selecting a unit dose from a plurality of identical
+cryopreserved unit doses 'negates anticipation"' and "the combined steps of
+[ 1] 'contacting the ... [leukocyte-containing] unit dose with the substance' and
+[2] 'determining ... whether... an immunofunctional, toxic or modulatory blood
+reaction' occurs between 'leukocytes' and 'substance"' fails to "'identically
+appear' in the reference disclosure." (Appeal Br. 16-17 (alteration
+original).) The Examiner has explained where and how these claim
+elements are disclosed in Boyse (Final Act. 7-10), and Appellants fail to
+articulate with any specificity why the prima facie case with respect to these
+claim limitations are insufficient.
+Claims 24--28 and 35--46 have not been argued separately and,
+therefore, fall with claim 23.
+
+14
+
+Appeal2013-010345
+Application 10/7 61,23 7
+SUMMARY
+We affirm the rejection of claims 23, 24, 26, 27, and 35--46 as
+anticipated by Lionetti. We further affirm the rejection of claims 23-28 and
+35--46 as anticipated by Boyse.
+
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+15
+
+

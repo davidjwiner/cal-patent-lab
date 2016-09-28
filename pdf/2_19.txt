@@ -1,0 +1,348 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/664,244
+
+09/17/2003
+
+Kinya Washino
+
+FNI-02902/03
+
+3743
+
+25006
+
+7590
+
+09/22/2016
+
+DINSMORE & SHOHL LLP
+900 Wilshire Drive
+Suite 300
+TROY, MI 48084
+
+EXAMINER
+SALCE, JASON P
+
+ART UNIT
+
+PAPER NUMBER
+
+2421
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docket@patlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KINYAWASHINO
+
+Appeal2015-005156
+Application 10/664,244
+Technology Center 2400
+
+Before JOSEPH L. DIXON, THU A. DANG, and KAMRAN JIVANI,
+Administrative Patent Judges.
+DANG, Administrative Patent Judge.
+
+DECISION ON APPEAL
+I. STATEMENT OF THE CASE
+
+Appellant appeals under 35 U.S.C. § 134(a) from the Examiner's Final
+Rejection of claims 1-10, 13-29 and 32-36, which are all of the pending
+claims. Claims 11, 12, 30, and 31 have been canceled. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We affirm.
+
+A. INVENTION
+According to Appellant, the invention relates to "a multiformat digital
+video production system capable of maintaining full-bandwidth resolution
+
+Appeal2015-005156
+Application 10/664,244
+while providing professional quality editing and manipulation of images for
+various applications, including digital HDTV and specialized video
+monitoring" (Spec. 1, 11. 6-9).
+
+B. ILLUSTRATIVE CLAIM
+Claim 1 is exemplary:
+1.
+A high-quality, reduced-data-rate digital video system, comprising:
+a source of a data compressed streaming color video program in an original
+format having a progressive-scanned image with a constant frame rate of
+less than substantially 24 fps;
+a video server in communication with the source for storing the
+program in the original format; and
+one or more computers in network communication with the video
+server for locally displaying the program or portions thereof received in the
+original format.
+C. REJECTION
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Hendricks et al., US 6,675,386 Bl
+hereinafter "Hendricks"
+Ercan et al.,
+US 6,240,217 B 1
+hereinafter "Ercan"
+US 2002/0124122 Al
+Hosokawa
+Kumagai et al.,
+US 6,592,804 B2
+hereinafter "Kumagai"
+US 6,920, 179 B 1
+Anand et al.,
+hereinafter "Anand"
+US 6,144,375
+Jain
+US 7,124,427 Bl
+Esbensen
+
+2
+
+Jan. 6, 2004;
+May 29, 2001;
+Sep. 5,2002
+Oct. 4, 2005;
+Jul. 19, 2005;
+Nov. 7, 2000
+Oct. 17, 2006
+
+Appeal2015-005156
+Application 10/664,244
+Claims 1 and 19 stand rejected under 35 U.S.C. § 112, second
+paragraph, as being indefinite for failing to particularly point out and
+distinctly claim the subject matter which applicant regards as the invention.
+Claims 1--4, 9, 14, 16, 17, 19, 20, 23, 25-27, 32, 34, and 35 stand
+rejected under 35 U.S.C. § 103(a) as unpatentable over the teachings of
+Hendricks, and Ercan.
+Claims 3, 4, 21, and 22 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over the teachings of Hendricks, Ercan, and Hosokawa.
+Claims 5, 7, 8, 23, 25, and 26 stand rejected under 35 U.S.C. § 103(a)
+as unpatentable over the teachings of Hendricks, Ercan, and Kumagai.
+Claims 13 and 29 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over the teachings of Hendricks, Ercan, and Anand.
+Claims 6 and 24 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over the teachings of Hendricks, Ercan, and Jain.
+Claims 10, 15, 18, 28, 33, and 36 stand rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over the teachings of Hendricks, Ercan, and
+Esbensen.
+II. ISSUE
+The principal issue before us is whether the Examiner erred in finding
+the combination of Hendricks and Ercan teaches or would have suggested a
+"source" of a video program having an image "with a constant frame rate of
+less than substantially 24 fps" (claim 1).
+
+3
+
+Appeal2015-005156
+Application 10/664,244
+Ill. ANALYSIS
+35 U.S.C. § 112, second paragraph
+
+Regarding claims 1 and 19, the Examiner finds "the scope of the term
+'substantially' cannot be determined" (Ans. 3). According to the Examiner,
+Appellant "makes no reference to the specification of the instant
+application" wherein the Specification "fails to show a person of ordinary
+skill in the art to determine a definite range of value" (id.).
+However, our reviewing court has adopted a broad interpretation for
+the term "substantial" as used in patent claims. The Court of Appeals for the
+Federal Circuit has repeatedly reaffirmed that the term "substantial" implies
+"approximate." Wilson Sporting Goods Co. v. Hillerich & Bradsby Co., 442
+F.3d 1322, 1329 (Fed. Cir. 2006). See also Playtext Products, Inc. v.
+Procter & Gamble Co., 400 F.3d 901, 907 (Fed. Cir. 2005) ("The term
+
+'substantial' is a meaningful modifier implying 'approximate,' rather than
+'perfect."'), citing Liquid Dynamics Corp. v. Vaughan Co., Inc., 355 F.3d
+1361, 1368 (Fed. Cir. 2004). In Wilson Sporting Goods, the Court
+determined that a claimed "insert having a substantially circular crosssection" did not need to be perfectly circular [emphasis added]. Wilson
+Sporting Goods, 442 F.3d at 1328-29. Similarly, in Playtext Products, the
+
+Court determined that the claimed "substantially flattened surfaces" did not
+require a perfectly flat surface. Playtext Products, 400 F.3d at 907.
+We agree with Appellant that "the term 'substantially' within the field
+of video data transfer is well established, sufficiently notifies the public of
+the scope of the claims and is not an indefinite term" (App. Br. 5). On this
+record, we reverse the Examiner's rejection of claims 1 and 19 under 35
+U.S.C. § 112, second paragraph.
+4
+
+Appeal2015-005156
+Application 10/664,244
+35
+
+u.s.c. § 103
+
+Appellant contends that the references "teach away from each other"
+and thus "there is no motivation to combine or modify these two prior art
+references" (App. Br. 6, emphasis omitted). According to Appellant,
+Hendricks discloses "communicating multiple live video feeds over the
+internet and allows a user to view a plurality of remote locations in real
+time" wherein Hendricks "accomplishes its objective with 'a remote system
+with increased realism and accuracy .... "'(App. Br. 10.). Thus, Appellant
+contends Hendricks "is void of any image distortion, correction, pixel
+intensity alteration, etc.," since image correction would defeat the purpose of
+'increased realism and accuracy"' (id.). Appellant then contends, in
+contrast, Ercan discloses a system/process that "intentionally introduces
+distortions to a digital image" wherein a provided software "modifies pixel
+intensities of a digital image in order to improve legibility or visibility of
+
+parts of the digital image" (App. Br. 11). Thus, Appellant contends,
+"impermissible hindsight has been used to reject the claims" (App. Br. 12).
+We have considered all of Appellant's arguments and evidence
+presented. However, we disagree with Appellant's contentions regarding the
+Examiner's rejections of the claims. Instead, we agree with the Examiner's
+findings, and find no error with the Examiner's conclusion that the claims
+would have been obvious over the combined teachings.
+We first note that Appellant does not specifically argue that cited
+references lack the claimed features. Instead, Appellant's arguments are
+directed to that the references "teach away from each other," "there is no
+motivation to combine or modify these two prior art references" (App. Br. 6,
+
+5
+
+Appeal2015-005156
+Application 10/664,244
+emphasis omitted) and thus "impermissible hindsight has been used to reject
+the claims" (App. Br. 12).
+However, we agree with the Examiner's finding that although
+Hendricks discloses "an increased realism and accuracy," Hendricks "does
+not exclude that additional image correction" could be applied, or that such
+additional image correction "would benefit the system of Hendricks" (Ans.
+5). Specifically, we find no portion of Hendricks that states that additional
+image correction "would defeat the purpose of 'increased realism and
+accuracy"' as Appellant contends (App. Br. 10). As the Examiner points
+out, "the terms intentionally and distortions are not found in the Ercan
+specification" (Ans. 6), and thus, such contention is mere attorney
+arguments.
+Mere attorney arguments that are unsupported by factual evidence are
+entitled to little probative value. In re Geisler, 116 F.3d 1465, 1470 (Fed.
+Cir. 1997); see also In re De Blauwe, 736 F.2d 699, 705 (Fed. Cir. 1984); Ex
+parte Belinne, No. 2009-004693, 2009 WL 2477843, slip op. at *7-8 (BPAI
+Aug. 10, 2009) (informative).
+Although Appellant contends the references "teach away from each
+other" (App. Br. 6), our reviewing court guides: "A reference may be said to
+teach away when a person of ordinary skill, upon reading the reference,
+would be discouraged from following the path set out in the reference, or
+would be led in a direction divergent from the path that was taken by the
+applicant." Ricoh Co., Ltd. v. Quanta Computer, Inc., 550 F.3d 1325, 1332
+(Fed. Cir. 2008) (citations omitted). Here, we are unpersuaded that
+Hendricks teaches away from (discourages) additional image correction by
+merely disclosing "realism and accuracy" (App. Br. 10), especially, as the
+6
+
+Appeal2015-005156
+Application 10/664,244
+Examiner finds such additional image correction as set forth in Brean
+"would benefit the system of Hendricks" (Ans. 5). That is, having increased
+image correction would provide better realism and accuracy rather than
+teaching away from it. We are unconvinced Hendricks actually criticizes,
+discredits, or otherwise discourages investigation into the claimed solution
+of image correction provided by Ercan. See In re Fulton, 391F.3d1195,
+1201 (Fed. Cir. 2004).
+Although Appellant contends Hendricks "is void of any image
+distortion, correction, pixel intensity alteration, etc." (App. Br. 10), wherein
+combining Ercan's image correction to Hendricks "would render
+[Hendricks] unsatisfactory for its intended purpose" (App. Br. 12),
+Appellant appears to view the combination in a different perspective than
+that of the Examiner. The issue here is whether the ordinarily skilled artisan,
+upon reading Ercan, would have found it obvious to provide for additional
+image correction, as set forth in Ercan, to Hendricks' system for
+communicating video feeds over the internet. Here, we agree with the
+Examiner that it would have been obvious "to modify camera/compression
+stage" as taught by Henricks, "to include the CCD color image sensor and
+compression stage" as taught by Ercan "for the purpose of providing a
+system that ensures that a sufficient dynamic range of data is available for
+the image combining/compression processes" and "ensures successful
+outcomes" (Final Act. 6). That is, the Examiner has provided sufficient
+articulated reasoning with some rational underpinning to support the legal
+conclusion of obviousness. In re Kahn, 441F.3d977, 988 (Fed. Cir. 2006).
+As to Appellant's hindsight contentions (App. Br. 12), we are mindful
+the Supreme Court has clearly stated the "combination of familiar elements
+7
+
+Appeal2015-005156
+Application 10/664,244
+according to known methods is likely to be obvious when it does no more
+than yield predictable results." KSR Int 'l Co. v. Teleflex, Inc., 550 U.S. 398,
+416 (2007). As the Examiner points out, "motivation has clearly been
+gleaned directly from the Ercan prior art reference" which "represents
+knowledge that was within the level of ordinary skill in the art prior to the
+time of the claimed invention, not from Applicant's disclosure" (Ans. 5).
+Here, Appellant has presented no evidence that providing additional
+image correction to a system for communicating video feeds would have
+been "uniquely challenging or difficult for one of ordinary skill in the art."
+Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir.
+
+2007) (citing KSR, 550 U.S. at 418). Instead, we find such a combination of
+references in the same field of endeavor of video communication would
+have been well within the ordinary level of skill of the art. See KSR, 550
+U.S. at 417. In particular, we find that Appellant's invention is simply a
+modification (adding image correction as taught and suggested by Ercan) of
+familiar prior art teaching of communicating video feeds (as taught or
+suggested by Hendricks) that would have realized a predictable result to the
+skilled artisan. The skilled artisan is "a person of ordinary creativity, not an
+automaton." KSR, 550 U.S. at 421.
+Based on the record before us, we find no error in the Examiner's
+rejection of claims 1--4, 9, 14, 16, 17, 19, 20, 23, 25-27, 32, 34, and 35 over
+the combination of Hendricks and Ercan.
+Appellant does not provide separate arguments for the other pending
+claims (App. Br. 12), and thus, we also affirm the rejections of claims 3, 4,
+21, and 22 over Hendricks, Ercan, and Hosokawa; of claims 5, 7, 8, 23, 25,
+and 26 over Hendricks, Ercan, and Kumagai; of claims 13 and 29 over the
+8
+
+Appeal2015-005156
+Application 10/664,244
+Hendricks, Brean, and Anand; of claims 6 and 24 over Hendricks, Brean,
+and Jain; and of claims 10, 15, 18, 28, 33, and 36 over Hendricks, Ercan, and
+Esbensen.
+
+IV. CONCLUSION AND DECISION
+We affirm the Examiner's rejections of claims 1-10, 13-29 and 32-36
+under 35 U.S.C. § 103(a), but reverse the Examiner's rejection of claims 1
+and 19 under 35 U.S.C. § 112, second paragraph. Because we affirm at least
+one ground of rejection with respect to each claim on appeal, we affirm the
+Examiner's decision to reject all of the pending claims.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

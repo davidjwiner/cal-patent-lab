@@ -1,0 +1,268 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/511,835
+
+0712912009
+
+Kai Esmark
+
+P47034US
+
+4571
+
+81722
+
+7590
+
+09/21/2016
+
+Viering, Jentschura & Partner mbB - Inf
+c/o
+3770 Highland Ave.
+Suite 203
+Manhattan Beach, CA 90266
+
+EXAMINER
+PHAM,HOAIV
+
+ART UNIT
+
+PAPER NUMBER
+
+2892
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patint@vjp.de
+vjp-us@vjp.de
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KAI ESMARK, HARALD GOSSNER, CHRISTIAN
+RUSS, and JENS SCHNEIDER
+
+Appeal2015-004520
+Application 12/511,835
+Technology Center 2800
+
+Before MICHAEL P. COLAIANNI, CHRISTOPHER L. OGDEN, and
+BRIAND. RANGE, Administrative Patent Judges.
+
+RANGE, Administrative Patent Judge.
+DECISION ON APPEAL
+
+SUMMARY
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 9-14 and 17-28. We have jurisdiction. 35 U.S.C.
+
+§ 6(b ).
+We AFFIRM.
+
+1
+
+According to the Appellants, the real party in interest is Infineon
+Technologies AG. Appeal Br. 2.
+
+Appeal2015-004520
+Application 12/511,835
+STATEMENT OF THE CASE
+Appellants describe the present invention as relating to an electrostatic
+discharge (ESD) circuit with an BSD-resistant capacitor. Spec. i-f 3. Claim
+9, 17, and 21 are the independent claims on appeal. Claim 9, reproduced
+below with emphasis added, is illustrative of the claimed subject matter:
+9.
+
+An integrated circuit arrangement comprising:
+
+two operating potential lines that carry potentials that are
+different from one another during operation of the circuit
+arrangement and a capacitor connected between the operating
+potential lines, said capacitor including:
+a basic doping region doped in accordance with a basic
+doping type;
+at least one doped connection region of a same basic
+doping type as the basic doping region, wherein a dopant
+concentration of the at least one doped connection region is
+higher than a dopant concentration in the basic doping region;
+at least one extension region of the same basic doping type
+as the basic doping region immediately adjacent to the at least
+one doped connection region, wherein the at least one extension
+region has a dopant concentration that is less than the dopant
+concentration of the at least one doped connection region and
+higher than the dopant concentration of the basic doping region;
+an electrode region arranged at a distance from the basic
+doping region;
+an electrically conducting region arranged on the electrode
+region; and
+a dielectric arranged between the electrode region and the
+basic doping region, the dielectric comprising a thin central
+region and a thicker edge region, the thicker edge region being
+arranged between the electrode region and at least a portion
+of the at least one extension region.
+
+2
+
+Appeal2015-004520
+Application 12/511,835
+Appeal Br. 2 19 (Claims Appendix).
+
+REFERENCES AND REJECTIONS
+The Examiner relied upon the prior art below in rejecting the claims
+on appeal:
+Yoo et al.
+(hereinafter "Yoo")
+Wu et al.
+(hereinafter "Wu')
+Kikuchi et al.
+(hereinafter "Kikuchi")
+
+US 6,544,845 B2
+
+Apr. 8, 2003
+
+US 6,949 ,806 B2
+
+Sept. 27, 2005
+
+JP 10-163421
+
+June 19, 1998
+
+On appeal, the Examiner maintains the rejection of claims 9-12, 14,
+and 17-28 under 35 U.S.C. § 103 as unpatentable over Kikuchi in view of
+Yoo and Wu. Final Act. 2. As a separate ground of rejection, the Examiner
+also maintains the rejection of claim 13 under 35 U.S.C. § 103 as
+unpatentable over Kikuchi in view of Yoo and Wu. Final Act. 11; see also
+Appeal Br. 10.
+ANALYSIS
+We review the appealed rejections for error based upon the issues
+identified by Appellants and in light of the arguments and evidence produced
+thereon. Cf Ex parte Frye, 94 USPQ2d 1072, 1075 (BPAI 2010)
+(precedential) (cited with approval in In re Jung, 637 F.3d 1356, 1365 (Fed.
+Cir. 2011) ("it has long been the Board's practice to require an applicant to
+identify the alleged error in the examiner's rejections")). After having
+
+2
+
+In this decision, we refer to the Final Office Action mailed July 11, 2013
+("Final Act."), the Appeal Brief filed March 13, 2014 ("Appeal Br."), the
+Examiner's Answer mailed June 6, 2014 ("Ans."), and the Reply Brief filed
+July 16, 2014 ("Reply Br.").
+3
+
+Appeal2015-004520
+Application 12/511,835
+considered the evidence presented in this Appeal and each of Appellants'
+contentions, we are not persuaded that Appellants identify reversible error,
+and we affirm the Examiner's§ 103 rejections for the reasons expressed in
+the Final Office Action and the Answer. We add the following primarily for
+emphasis.
+The Examiner rejects claims 9-12, 14, and 17-28 as obvious over
+Kikuchi in view of Yoo and Wu. Final Act. 2. Appellants do not separately
+argue 10-12, 14 and 17-28. We therefore limit our discussion to claim 9.
+Claims 10-12, 14 and 17-28 stand or fall with that claim. 37 C.F.R. §
+41.37(c)(l)(iv) (2013).
+Appellants argue that none of the cited references disclose "a
+dielectric arranged between the electrode region and the basic doping region,
+the dielectric comprising a thin central region and a ticker edge region, the
+thicker edge region being arranged between the electrode region and at least
+a portion of the at least one extension region." Appeal Br. 14. This
+argument does not fairly address the thrust of the Examiner's rejection.
+"[O]ne cannot show non-obviousness by attacking references individually
+where, as here, the rejections are based on combinations of references." In
+re Keller, 642 F.2d 413, 426 (CCPA 1981).
+
+"Obviousness is a question of law based on underlying factual
+findings that are reviewed for substantial evidence, including what a
+reference teaches and whether there would have been sufficient motivation
+to combine the prior art." See In re Man Mach. Interface Techs. LLC, 822
+F.3d 1282, 1288 (Fed. Cir. 2016). The Examiner relies on Kikuchi as the
+primary reference and finds that it teaches an electrode region and extension
+region. Final Act. 3. The Examiner finds that Kikuchi teaches a dielectric
+
+4
+
+Appeal2015-004520
+Application 12/511,835
+having a thicker edge region. Ans. 3; see also Final Act. 3; Yoo Fig. 6
+(depicting "bird's beak area" at 414 ). The Examiner also finds that
+introduction of the thicker edge region of Yoo into Kikuchi would "reduce
+an overlap capacitance between the electrode region (gate electrode region)
+and the doped connection region (doped drain region)." Final Act. 3; Ans.
+3; see also Yoo 7:45-52 (explaining that bird's beak area permits reducing
+overlap capacitance). Appellants do not present factual evidence or
+arguments to persuasively rebut any of these findings. We therefore agree
+with the Examiner that a preponderance of the evidence supports these
+findings of fact.
+Moreover, Appellants do not persuasively argue that the Examiner
+erred by combining the Kikuchi and Yoo references. In the October 11,
+2013, Pre-Appeal Brief Request for Review (hereinafter, "Pre-Appeal Br."),
+which Appellants incorporate by reference into the Appeal Brief (see Appeal
+Br. 14), 3 Appellants argue that "it would not be obvious to provide a thicker
+dielectric 16 above at least portion of the diffusion region 15 of Kikuchi."
+Pre-Appeal Br. 4. However, Appellants present no reasoning or facts
+rebutting the Examiner's stated rationale for why it would have been
+obvious to make exactly this combination (Final Act. 3). Rather, Appellants
+again focus on the shortcomings of Yoo standing alone rather than arguing
+against the combination. Pre-Appeal Br. 2-5. The preponderance of the
+evidence supports the Examiner's obviousness conclusion based upon the
+combination of references.
+
+3
+
+We do not reach a determination as to whether or not incorporation of such
+arguments by reference is procedurally proper.
+5
+
+Appeal2015-004520
+Application 12/511,835
+We therefore sustain the Examiner's rejection of claims 9-12, 14, and
+17-28.
+The Examiner also rejects claim 13 as obvious over Kikuchi in view
+of Yoo and Wu. Final Act. 11. Appellants do not separately address the
+patentability of claim 13. We therefore, for the reasons explained above,
+also sustain the Examiner's rejection of claim 13.
+
+DECISION
+For the above reasons, we affirm the Examiner's rejection of claims
+9-14 and 17-28.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+AFFIRMED
+
+6
+
+

@@ -1,0 +1,356 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111478,551
+
+0612912006
+
+Roderick A. Hyde
+
+240636US01_501394-10
+
+6683
+
+83722
+
+7590
+
+09/21/2016
+
+Dorsey & Whitney I INVENTION SCIENCE FUND
+Intellectual Property Department - SLC
+136 S. Main Street
+Keams Building, Suite 1000
+Salt Lake City, UT 84101-1685
+
+EXAMINER
+NEGIN, RUSSELL SCOTT
+
+ART UNIT
+
+PAPER NUMBER
+
+1631
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ip.docket.slc@dorsey.com
+simon.marcus@dorsey.com
+ip.patent.sl@dorsey.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RODERICK A. HYDE, EDWARD K.Y. JUNG,
+and LOWELL L. WOOD JR. 1
+
+Appeal2014-005648
+Application 11/478,551
+Technology Center 1600
+
+Before DONALD E. ADAMS, ULRIKE W. JENKS, and RICHARD J.
+SMITH, Administrative Patent Judges.
+SMITH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving a claims to a
+method, computer program product, and system, all of which are directed to
+synthesis of peptides. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+
+1
+
+According to Appellants, the real party in interest is Searete LLC. (Appeal
+Br. 2.)
+
+Appeal2014-005648
+Application 11/478,551
+STATEMENT OF THE CASE
+
+Claims on Appeal
+Claims 1-18, 21-31, 34--37, 42-58, and 61---67 are on appeal. 2
+(Claims Appendix, Appeal Br. 32--43.) Claim 1 is illustrative and reads as
+follows:
+1.
+A method implemented by a computer having at least one processor
+and memory storing instructions which, when executed by the at least one
+processor, implement the method, the method comprising:
+receiving a first input associated with a first possible dataset, the first
+possible dataset including data representative of one or more aspects of
+target peptide synthesis;
+determining temporal-spatial parameters for one or more of
+sequentially co-localizing one or more target components including two or
+more different types of charged tRNA for synthesizing one or more peptides
+based on the first possible dataset or separating the one or more target
+components including the two or more different types of charged tRNA
+based on the first possible dataset; and
+at least partially based on the determined temporal-spatial parameters,
+causing the two or more different types of charged tRNA in corresponding
+computer-controlled supplies of charged tRI'LA.. to individually sequentially
+flow through corresponding fluid flow apparatus components of the peptide
+synthesis apparatus to a synthesis receptacle thereof, with excess charged
+tRNA of a first type of the two or more different types of charged tRNA
+being removed from the synthesis receptacle before a subsequent second
+type of the two or more different types of charged tRNA is flowed to the
+synthesis receptacle, in order to synthesize the one or more peptides.
+
+2
+
+Claim 68 is withdrawn as being directed to a non-elected invention. (Final
+Act. 3, dated April 11, 2013.)
+2
+
+Appeal2014-005648
+Application 11/478,551
+Examiner's Rejections
+
+1.
+
+Claims 1-18, 21-31, 34--37, 42-58, and 61---67 stand rejected under
+
+35 U.S.C. § 103(a) as unpatentable over Menninger, 3 as evidenced by
+Translation 4 and Kelly, 5 and Evans, 6 as evidenced by Srienc. 7 (Final Act.
+
+4.)
+2.
+
+Claim 61 stands rejected on the ground of nonstatutory obviousness-
+
+type double patenting over claim 1 of U.S. Patent No. 7,993,873 B2. 8 (Id. at
+15-16.)
+3.
+
+Claim 61 stands rejected on the ground of nonstatutory obviousness-
+
+type double patenting over claim 1 of U.S. Patent No. 7,858,342 B2. 9 (Id. at
+16-17.)
+4.
+
+Claim 61 stands rejected on the ground of nonstatutory obviousness-
+
+type double patenting over claims 1 and 4 of U.S. Patent No. 7,816,101
+B2. 10 (Id. at 17.)
+5.
+
+Claims 1 and 3 stand rejected on the ground of nonstatutory
+
+obviousness-type double patenting over claims [1 and 2] and 3 of U.S.
+Patent No. 7,879,974 B2 11 in view of Evans. (Id. at 17-18.)
+3
+
+Menninger, Computer Simulation ofRibosome Editing, J. Mol. Biol. 171,
+383-99 (1983) ("Menninger").
+4
+Definition of Translation, Collins Dictionary of Biology (2005)
+("Trans lati on").
+5
+Kelly, Mainframe Graphics on a Microcomputer, BYTE 339--442 (Oct.
+1983).
+6
+Evans et al., WO 2004/104178 A2, published Dec. 2, 2004 ("Evans").
+7
+Srienc et al., US 6,555,360 Bl, issued April 29, 2003 ("Srienc").
+8
+Hyde et al., US 7,993,873 B2, issued Aug. 9, 2011 ("the '873 patent").
+9
+Hyde et al., US 7,858,342 B2, issued Dec. 28, 2010 ("the '342 patent").
+10
+Hyde et al., US 7,816,101 B2, issued Oct. 19, 2010 ("the '101 patent").
+11
+Hyde et al., US 7,879,974 B2, issued Feb. 1, 2011 ("the '974 patent").
+3
+
+Appeal2014-005648
+Application 11/478,551
+6.
+
+Claim 1 and 3 stand rejected on the ground of nonstatutory
+
+obviousness-type double patenting over claims [1 and 2] and 3 of U.S.
+Patent No. 7,888,465 B2. 12 (Id. at 19.)
+7.
+
+Claim 1 and 3 stand rejected on the ground of nonstatutory
+
+obviousness-type double patenting over claims 1, 2, and 47 of U.S. Patent
+No. 7 ,754,854 B2. 13 (Id. at 19-20.)
+DISCUSSION
+Rejection No. 1
+Issue: 35 U.S.C. § 103(a)
+
+Whether a preponderance of evidence of record supports the
+Examiner's conclusion of obviousness under 35 U.S.C. § 103(a).
+Analysis
+
+The Examiner cites Menninger for teaching the procedures for
+simulating protein synthesis from RNA. (Final Act. 5.) In addition, the
+Examiner cites Menninger as teaching that "the first input corresponds to a
+random number, which is associated with the RNA that is representative of
+the input (i.e. peptidyl) tRNA sequences. Through use of this input value,
+spatial ... and temporal ... parameters are determined" for synthesizing
+proteins. (Id.) However, the Examiner states that "Menninger does not
+teach use of charged tRNA and the flowing algorithm" recited in the claims.
+(Id. at 6.)
+
+12
+13
+
+Hyde et al., US 7,888,465 B2, issued Feb. 15, 2011 ("the '465 patent").
+Hyde et al., US 7,754,854 B2, issued July 13, 2010 ("the '854 patent").
+4
+
+Appeal2014-005648
+Application 11/478,551
+The Examiner cites Evans for teaching the use of flow cytometry to
+sort biomolecules. (Id.) In particular, the Examiner states that
+It is noted that Figures 1 and 3 of Evans [] teach[] a flow
+
+cytometer apparatus wherein these different "charged tRNA
+molecules" sequentially and individually flow through the
+apparatus (i.e. label 22) to receptacles (i.e. label 21 ). It is noted
+that Figure 3 of Evans [] teaches a plurality of "synthesis
+receptacles." It is interpreted that the sorting process of the
+abstract of Evans [] puts analogous biomolecules in [the] same
+groups and removes/separates non-analogous (i.e. "excess") sets
+of biomolecules from each analogous set of biomolecules.
+(Id.)
+
+While not challenging the Examiner's reliance on Menninger,
+Appellants argue that the Examiner did not demonstrate that Evans teaches
+or suggests "causing the two or more different types of charged tRNA in
+corresponding computer-controlled supplies of charged tRNA to
+individually sequentially flow through corresponding fluid flow apparatus
+components of the peptide synthesis apparatus to a synthesis receptacle
+thereof' or "excess charged tRNA of a first type of the two or more different
+types of charged tRNA being removed from the synthesis receptacle before a
+subsequent second type of the two or more different types of charged tRNA
+is flowed to the synthesis receptacle, in order to synthesize the one or more
+peptides." 14 (Appeal Br. 15.) That is, according to Appellants, Evans does
+not teach the "flowing algorithm" that the Examiner states is not taught by
+Menninger.
+The Examiner bears the initial burden of establishing a prima facie
+
+14
+
+The quoted text is from independent claims 1, 54, and 61, with emphasis
+by Appellants. (See Appeal Br. 32, 40, and 42.)
+5
+
+Appeal2014-005648
+Application 11/478,551
+case of obviousness, and has not done so. See Jn re Oetiker, 977 F.2d 1443,
+1445 (Fed. Cir. 1992). In this case, the Examiner does not provide a clearly
+articulated "reason that would have prompted a person of ordinary skill in
+the relevant field to combine the elements in the way the claimed new
+invention does." KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007).
+While Evans teaches the sorting of biomolecules, including tRNA, we
+agree with Appellants that "it is unclear how the Examiner's allegations
+apply to the claimed subject matter" (Appeal Br. 14) and, in particular, that
+the Examiner's reasoning does not articulate how Evans, in combination
+with Menninger, Translation, Kelly, and Srienc, teaches the "flowing
+algorithm" as claimed. Accordingly, Rejection No. 1 is reversed.
+Conclusion ofLaw
+
+A preponderance of evidence of record fails to support the Examiner's
+conclusion that claims 1-18, 21-31, 34--37, 42-58, and 61---67 are obvious
+under 35 U.S.C. § 103(a).
+Rejection Nos. 2-7
+Issue: Obviousness-type double patenting
+
+Whether a preponderance of evidence of record supports the
+Examiner's conclusions of nonstatutory obviousness-type double patenting.
+Principles ofLaw
+
+Obviousness-type double patenting prohibits the issuance of claims in
+a second patent that are "not patentably distinct from the claims of the first
+patent." In re Langi, 759 F.2d 887, 892 (Fed. Cir. 1985) (citations omitted).
+"A later patent claim is not patentably distinct from an earlier patent claim if
+the later claim is obvious over, or anticipated by, the earlier claim." Eli Lilly
+6
+
+Appeal2014-005648
+Application 11/478,551
+& Co. v. Barr Labs., Inc., 251F.3d955, 968 (Fed. Cir. 2001) (citations
+
+omitted).
+Analysis
+
+As to each of Rejections Nos. 2-7, the Examiner points to specific
+elements or limitations of claim 61 (Rejections 2--4) or claims 1 and 3
+(Rejections 5-7) that are found in the cited claims of the respective patents.
+(Final Act. 14--20.) Appellants do not challenge the merits of Rejection Nos.
+2-7; rather, Appellants argue that they constitute "mere conclusory
+statements" or "general allegations." (Appeal Br. 29-30.)
+We are not persuaded by Appellants' arguments. The Examiner's
+rejections put Appellants on notice of the bases upon which the Examiner
+concluded that claims 1, 3, and 61 were not patentably distinct from the
+respective earlier patent claims, and Appellants failed to articulate any
+substantive reason why they believe claims 1, 3, or 61 are patentably distinct
+from those earlier patent claims. See In re Jung, 637 F.3d 1356, 1362---63
+(Fed. Cir. 2011.) Moreover, because Appellants provided no arguments on
+the merits, Rejection Nos. 2-7 are affirmed.
+Conclusion ofLaw
+
+A preponderance of evidence of record supports the Examiner's
+conclusion that claim 61 is unpatentable on the ground of nonstatutory
+obviousness-type double patenting over (a) claim 1 of the '873 patent, (b)
+claim 1 of the '342 patent, and (c) claims 1 and 4 of the '101 patent.
+A preponderance of evidence of record supports the Examiner's
+conclusion that claims 1 and 3 are unpatentable on the ground of
+nonstatutory obviousness-type double patenting over (a) claims [1 and 2]
+7
+
+Appeal2014-005648
+Application 11/478,551
+and 3 of the '974 patent, (b) claims [1 and 2] and 3 of the '465 patent, and
+(c) claims 1, 2, and 4 7 of the '854 patent.
+SUMMARY
+We reverse the rejection of claims 1-18, 21-31, 34--37, 42-58, and
+61-67 under 35 U.S.C. § 103(a).
+We affirm the rejection of claim 61 on the ground of nonstatutory
+obviousness-type double patenting over (a) claim 1 of the '873 patent, (b)
+claim 1 of the '342 patent, and (c) claims 1 and 4 of the '101 patent.
+We affirm the rejection of claims 1 and 3 on the ground of
+nonstatutory obviousness-type double patenting over (a) claims [1 and 2]
+and 3 of the '974 patent, (b) claims [1 and 2] and 3 of the '465 patent, and
+(c) claims 1, 2, and 4 7 of the '854 patent.
+
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED-IN-PART
+
+8
+
+

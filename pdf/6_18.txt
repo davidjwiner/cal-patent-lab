@@ -1,0 +1,261 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/373,829
+
+01114/2009
+
+Tatiana Aleksandrovna Lashina
+
+2006P01500WOUS
+
+3133
+
+138325
+
+7590
+
+09/16/2016
+
+PHILIPS LIGHTING BY
+465 Columbus Avenue
+Suite 330
+Valhalla, NY 10595
+
+EXAMINER
+ELAHI, TOWFIQ
+
+ART UNIT
+
+PAPER NUMBER
+
+2625
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kim.larocca@philips.com
+jo.cangelosi@philips.com
+Gigi.Miller@philips.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TATIANA ALEKSANDROVNA LASHINA, KERO VAN
+GELDER, SANDER BERNARD FRANCIS VAN DE WIJDEVEN,
+GERRIT HOLLEMANS, and VINCENTIUS PAULUS BUIL
+
+Appeal2015-005891
+Application 12/373,829
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, KARA L. SZPONDOWSKI and
+
+MICHAEL J. ENGLE, Administrative Patent Judges.
+MacDONALD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-005891
+Application 12/373,829
+STATEMENT OF CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 17, 19, 21-30, and 32. We have jurisdiction under 35 U.S.C. § 6(b).
+
+Exemplary Claim
+Exemplary claim 17 under appeal reads as follows (emphasis,
+formatting, and bracketing added):
+17. An interaction system comprising:
+[(A)] a detector configured to detect gazes of at least one
+viewer looking at a plurality of items;
+[(B)] a processor configured to[:]
+[(i)] calculate cumulative gaze durations per item
+of said plurality of items,
+[(ii)] rank each of the plurality of items in
+accordance with the calculated cumulative gaze durations
+of each of said plurality of items,
+[(iii)] identify a most looked at item in accordance
+with said ranking,
+[(iv)] create at least one group of related products
+and associate the group with a group weight,
+[(v)] rank each of the groups of related products,
+[(vi)] divide each group of related products into
+sub-groups which are further ranked and weighted to
+determine sets of ordered products based on the weighted
+rankings of the subgroups; and
+[(C)] a display adapted to display a list of said plurality
+of items and the sets of ordered products according to said
+ranking and to start at least one of an audio and visual show
+related to the most looked item according to said ranking.
+
+2
+
+Appeal2015-005891
+Application 12/373,829
+
+Rejection on Appeal
+The Examiner rejected claims 17, 19, 22-24, 26, 27, 29, 30, and 32
+under 35 U.S.C. § 103(a) as being unpatentable over the combination of Bell
+(US 6,456,262 Bl, issued Sept. 24, 2002), Dryer et al. (US 7,120,880 Bl,
+issued Oct. 10, 2006), and Hannum et al. (US 2006/0020973 Al, published
+Jan. 26, 2006). 1 Final Act. 2.
+The Examiner rejected claims 21, 25, and 28, under 35 U.S.C.
+§ 103(a) as being unpatentable over various combinations of Bell, Dryer,
+Hannum, and other references. 2 Final Act. 16-18.
+
+Appellants' Contentions 3
+1. Appellants contend that the Examiner erred in rejecting claim 1
+under 35 U.S.C. § 103(a) because:
+
+Hannum takes provided member preferences entered by the
+viewer (strongly dislike, dislike, neutral, prefer and strongly
+prefer) and appends numerical \veights (l-5) to them. Thus,
+Hannum requires the user to provide preference input by the
+user and simply applies a numerical representation to it. (See
+paragraph [0032]). The Examiner fails to provide an
+explanation of exactly how such user preference entry is to be
+utilized within either Bell or Dryer. Nowhere in either Bell or
+
+1
+
+Separate patentability is not argued for claims 19, 22-24, 26, 27, 29, 30,
+and 32. Except for our ultimate decision, these claims are not discussed
+further herein.
+2
+Arguments are not presented for claims 21, 25, and 28. Therefore, our
+decision as to claim 17 is determinative as to the rejection of claims 21, 25,
+and 28. Except for our ultimate decision, these claims are not discussed
+further herein.
+3
+This contention is determinative as to the rejections on appeal. Therefore,
+Appellants' other contentions are not discussed herein.
+3
+
+Appeal2015-005891
+Application 12/373,829
+Dryer does a user provide such preference input which the
+Examiner hinges his combination upon.
+
+More relevantly, the rejection states:
+"At the time of invention, it would have been
+obvious to a person of ordinary skill in the art to
+combine Bell device in light of Dryer and Hannum
+teaching so that it may include rank each of the
+plurality of items in accordance with the calculated
+cumulative gaze durations of each of said plurality
+of items and create at least one group related
+products and associated the group with a weight,
+rank each of the groups of related products, divide
+each group into sub-groups which further ranked
+and weighted to determine sets of ordered products
+based on the weighted rankings." (See Page 4 of
+the Office Action).
+Problematically, while reciting the presently claimed
+limitations, the rejection fails to support the location of such
+elements nor provide a proper basis for such a significant
+combination.
+App. Br. 9, emphasis omitted and added.
+2. Appellants further contend that the Examiner erred in rejecting
+claim 17 under 35 U.S.C. § 103(a) because:
+The Examiner, as well at Pg. 4 [of the Examiner's
+Answer], indicates that Bell and Dryer do not expressly teach
+"create at least one group of related products and associated the
+group with a weight; rank each of the groups of related
+products, divide each group into sub-groups which further
+ranked and weighted to determine sets of ordered products
+based on the weighted rankings of the subgroups." (See pg. 4,
+first full paragraph, 11. 1-5).
+The Examiner then cites in support of the three-way
+combination, to Hannum. The Examiner states that Hannum
+discloses creation of at least one group of related products and
+division of each group into sub-groups.
+
+4
+
+Appeal2015-005891
+Application 12/373,829
+Hannum, however, on appropriate review, clearly
+provides an embodiment wherein it is not the products that are
+grouped but the members who are providing programming
+choices to their system are each individually weighted so that
+their preferences may be applied various weighting factors.
+
+Reply Br. 3, emphasis added.
+
+Issue on Appeal
+
+Did the Examiner err in rejecting claim 17 as being obvious?
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments that the Examiner has erred.
+As to Appellants' above contentions 1 and 2, in the Final Action at
+pages 3--4, the Examiner cites to paragraphs 33-34 of Hannum as disclosing
+the steps of:
+[(a)] create at least one group of related products and associated
+the group with a weight, [(b)] rank each of the groups of related
+products, [(c)] divide each group into sub-groups which [are]
+further ranked and weighted to determine sets of ordered
+products based on the weighted rankings of the sub-groups
+Appellants' above contentions 1 and 2 challenge these findings. We
+conclude, consistent with Appellants' argument, there is insufficient
+articulated reasoning to support the Examiner's findings. For example, the
+Examiner has not sufficiently identified how Hannum teaches or suggests a
+"group of related products" associated with a "group weight," let alone
+"sub-groups which are further ranked and weighted." Therefore, we
+conclude that there is insufficient articulated reasoning to support the
+
+5
+
+Appeal2015-005891
+Application 12/373,829
+Examiner's final conclusion that claim 17 would have been obvious to one
+of ordinary skill in the art at the time of Appellants' invention.
+
+CONCLUSIONS
+(1) Appellants have established that the Examiner erred in rejecting
+claims 17, 19, 21-30, and 32 as being unpatentable under 35 U.S.C.
+
+§ 103(a).
+(2) On this record, these claims have not been shown to be
+unpatentable.
+
+DECISION
+The Examiner's rejections of claims 17, 19, 21-30, and 32 are
+reversed.
+
+REVERSED
+
+6
+
+

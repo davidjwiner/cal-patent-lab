@@ -1,0 +1,330 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/811,815
+
+07/06/2010
+
+Tsuyoshi Kashima
+
+042933/414447
+
+1760
+
+10949
+
+7590
+
+09/20/2016
+
+Nokia Corporation and Alston & Bird LLP
+c/o Alston & Bird LLP
+Bank of America Plaza, 101 South Tryon Street
+Suite 4000
+Charlotte, NC 28280-4000
+
+EXAMINER
+NGO, NGUYEN HOANG
+
+ART UNIT
+
+PAPER NUMBER
+
+2473
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@alston.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TSUYOSHI KASHIMA and ESA MALKAMAKI 1
+
+Appeal2015-002424
+Application 12/811,815
+Technology Center 2400
+
+Before KRISTEN L. DROESCH, NORMAN H. BEAMER, and
+JAMES W. DEJMEK, Administrative Patent Judges.
+DROESCH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek review under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 34-56, which constitute all the claims pending in
+this application. We have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM.
+BACKGROUND
+The disclosed invention relates to padding a header of a protocol data
+unit utilized by radio communications systems. See Spec. Abstract, i-fi-1 1,
+
+1
+
+Appellants indicate the real party-in-interest is Nokia Corporation. App.
+Br. 2.
+
+Appeal2015-002424
+Application 12/811,815
+13-19. Representative claim 34, reproduced from the Claims Appendix of
+the Appeal Brief, reads as follows (disputed limitations in italics):
+34. A method comprising: generating a protocol data
+unit; and inserting, by a processor, at least one padding subheader within a header of the protocol data unit, wherein
+padding is only within the header of the protocol data unit.
+REJECTIONS
+Claims 34--36, 38--42, 44--48, 50-52, and 54--56 stand rejected under
+35 U.S.C. § 103(a) as unpatentable over Torsner et al. (US 2010/0046405
+Al; published Feb. 25, 2010) ("Torsner").
+Claims 37, 43, 49, and 53 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Torsner and 3RD GENERATION PARTNERSHIP PROJECT;
+TECHNICAL SPECIFICATION GROUP RADIO ACCESS NETWORK; EVOLVED
+UNIVERSAL TERRESTRIAL RADIO ACCESS (E-UTRA) MEDIUM ACCESS
+CONTROL (MAC) PROTOCOL SPECIFICATION (RELEASE 8), 2007 ("3GPP TS
+16
+- 1? 1")/ "
+~---~
+
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments in the Appeal Brief, the Examiner's Answer, and the arguments
+in the Reply Brief. We disagree with Appellants' conclusions. We agree
+with, and adopt as our own, the Examiner's findings and conclusions of law,
+to the extent they are consistent with our below analysis. We highlight the
+following findings and arguments below for emphasis.
+
+Claims 34-36, 38--42, 44-48, 50--52, and 54-56
+Appellants argue Torsner does not disclose, teach or suggest a
+"padding sub-header," as recited in independent claims 34, 40, 48 and 52,
+but discloses adding a number of bits, which is not equivalent to, and does
+2
+
+Appeal2015-002424
+Application 12/811,815
+not suggest a padding sub-header. See App. Br. 6-8. Appellants contend a
+sub-header is a combination of header information elements. See id. at 6
+(citing Spec. i-fi-126, 39, Figs. 6A---6D). Appellants further assert adding a
+number of bits, such as adding 0 to 7 bits as disclosed by Torsner, does not
+suggest a sub-header structure which is a combination of header information
+elements. See id. at 7-8. Appellants contend "padding sub-header" is
+clearly described in the original Specification and cannot be interpreted as
+equivalent to padding by adding bits to a transmission. See Reply Br. 3.
+Appellants argue the Specification clearly discloses that a padding subheader comprises some amount of structure (e.g., fields within the subheader), which is more than just adding a number of bits to a transmission.
+
+See id. at 3--4 (citing Spec. i-fi-126, 36, 39, Figs 2, 4, 6A---6D).
+Although claims must be given their broadest reasonable
+interpretation in light of the Specification, it is improper to read limitations
+into the claim from the Specification. See In re Van Geuns, 988 F.2d 1181,
+1184 (Fed. Cir. 1993). We are not persuaded that "padding sub-header"
+requires a sub-heading structure and/or a combination of header information
+elements. Appellants do not direct us to sufficient objective evidence (e.g.,
+declaration by one with ordinary skill in the art, an explicit definition for
+"padding sub-header" in the Specification) to demonstrate that the
+Examiner's interpretation of "padding sub-header" is unreasonable. We
+further note:
+The "broadest reasonable interpretation" rule recognizes that
+"before a patent is granted the claims are readily amended as
+part of the examination process." Thus, a patent applicant has
+the opportunity and responsibility to remove any ambiguity in
+the claim term meaning by amending the application.
+Additionally, the broadest reasonable interpretation rule "serves
+3
+
+Appeal2015-002424
+Application 12/811,815
+the public interest by reducing the possibility that claims,
+finally allowed will be given broader scope than is justified."
+In re Bigio, 381F.3d1320, 1324 (Fed. Cir. 2004) (citations omitted)
+(quoting Burlington Indus. v. Quigg, 822 F.2d 1581, 1583 (Fed. Cir 1987);
+In re Am. Acad. of Sci. Tech. Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004);
+citing in re Prater, 415 F.2d 1393, 1404---05 (CCPA 1969)).
+Appellants also argue Torsner fails to disclose, teach, or suggest the
+padding is only within the header of the protocol data unit because Torsner
+does not disclose, and is not directed to, any further features of the protocol
+data unit (PDU). See App. Br. 6-7; Reply Br. 4--5. At first blush, "wherein
+padding is only within the header of the protocol data unit," recited in
+independent claims 34, 40, 48, and 52 appears to be a negative limitation. 2
+We note, however, the scope of each of these claims is open ended due to
+the transitional phrase "comprising." Turning to Appellants' Specification,
+we observe the Specification discloses embodiments including padding in
+the header and the payload. See Spec. i-f 21 (each of the packet generators
+include padding logic to perform padding of a MAC PDU either by padding
+the MAC header or the payload part or both); i-f 25, Fig. 2 (optional padding
+field in the payload); i-f 44 (extra bytes at the end of the MAC PDU not
+included in the MAC, header, MAC control PDUS or MAC SDU's are
+padding). Due to the open-ended scope of each of claims 34, 40, 48, and 52,
+and the Specification disclosing padding in the payload, claim 34 does not
+preclude padding in other parts of the PDU such as the payload.
+
+2
+
+Independent claims 1, 9, 20, and 27 filed originally and now cancelled, did
+not recite "wherein the padding is only within the header."
+4
+
+Appeal2015-002424
+Application 12/811,815
+For these reasons, Appellants' arguments are not persuasive of error
+in the Examiner's rejection of independent claims 34, 40, 48, and 52, and
+claims 35, 38, 41, 44, 46, 47, 50, 54, and 56 dependent therefrom, and not
+argued separately (see App. Br. 10-12).
+Claims 36 and 42
+
+Claim 36 depends from claim 34 and further recites "wherein a
+difference in size of a Medium Access Control protocol data unit and size of
+a Radio Link Control protocol data unit is either 2 bytes or 3 bytes." Claim
+42, dependent from claim 40, recites identical limitations to claim 36.
+Appellants argue Torsner fails to disclose, teach, or suggest the limitations
+of claims 36 and 42. See App. Br. 11. Appellants assert Torsner merely
+discloses adding bits to the header such that the sum of the bits of the RLC
+header, MAC header and added bits is octet aligned (or n-aligned, where n is
+a multiple of 8), at most suggesting summing the bits of the RLC header and
+the MAC header to determine the number of bits that need to be inserted to
+ensure alignment. See id. at 12. Appellants further contend Torsner fails to
+provide any suggestion for one to modify Torsner's teachings to include
+adding padding sub-headers when the difference in size of a MAC PDU and
+a RLC PDU is 2 or 3 bytes. See id. Lastly, Appellants contend there is no
+motivation to make the modification because Torsner is directed to ensuring
+that a PDU header is n-aligned and has nothing to do with the overall size of
+PDUs. See id.
+Appellants' argument that T orsner at most suggests summing the bits
+of the RLC header and MAC header, and argument that there is no
+motivation to modify the teachings of Torsner, do not address sufficiently
+the Examiner's following findings and conclusion: (1) Torsner teaches n-bit
+5
+
+Appeal2015-002424
+Application 12/811,815
+alignment where n may be 8, 16, 32, or any other integer value, and the use
+of 32 bit alignment and 64 bit alignment (citing Torsner i-fi-13, 23); (2) it is
+well known in the art to use padding in order to align the bytes, by
+determining the difference in sizes; and (3) it would have been obvious to
+one with ordinary skill in the art to consider the difference in sizes be either
+2 bytes or 3 bytes when 32 or 64 bit alignment is used, in order to efficiently
+and correctly determine the type of padding needed and how to format the
+headers of a PDU. See Final Act. 4--5; Ans. 8. Appellants' argument that
+the teachings of Torsner must provide the suggestion for the proposed
+modification (see App. Br. 12) is misplaced. It is not necessary to find
+precise teachings in the prior art directed to the specific subject matter
+claimed because inferences and creative steps that a person of ordinary skill
+in the art would employ can be taken into account. See KSR Int 'l Co. v.
+
+Teleflex Inc., 550 U.S. 398, 418 (2007); accord In re Keller, 642 F.2d 413,
+425 (CCP A 1981) (the test for obviousness is not that the claimed invention
+must be expressly suggested in any or all of the references).
+For these reasons, in addition to the reasons discussed above
+addressing independent claims 34, 40, 48, and 52, we are not persuaded of
+error in the Examiner's rejection of dependent claims 36 and 42
+
+Claims 39, 45, 51, and 55
+Claim 39 depends from claim 34 and further recites "wherein one
+padding sub-header or two padding sub-headers are inserted within the
+header of the protocol data unit for padding of 1 byte or 2 bytes." Claims
+45, 51, and 55, dependent respectively from independent claims 40, 48, and
+52, recite identical limitations to claim 39. Appellants argue Torsner fails to
+disclose, teach, or suggest the limitations of claims 39, 45, 51, and 55. See
+6
+
+Appeal2015-002424
+Application 12/811,815
+App. Br. 10. Appellants assert Torsner merely teaches octet or n-alignment
+of the PDU header by adding 0 to 7 bits to ensure that the payload part of the
+PDU begins at an n-aligned position. See id. at 10-11. Appellants contend
+inserting padding of one or two bytes would imply that the header was
+already octet aligned, and thus Torsner would not need to add padding bits,
+would be irrelevant, and contravene the purpose and objective or Torsner's
+embodiments. See id. at 11; Reply Br. 6.
+Appellants' arguments are not persuasive of Examiner error in the
+rejection because, as pointed out by the Examiner, the addition of 0 to 7 bits
+of padding in Torsner is merely illustrative with respect to 8-bit alignment,
+and Torsner discloses n-bit alignment, including 32 bit or 64 bit alignment.
+See Final Act. 4, 6 (citing Torsner i-fi-f l, 3, 23); Ans. 7 (citing Torsner i123).
+
+Appellants' arguments also are predicated on the addition of padding of only
+1 to 7 bits, or the addition of padding of only one byte or two bytes in
+Torsner to achieve octet alignment. However, we understand the Examiner
+to find that Torsner teaches or suggests adding padding of 0 to 7 bits, and
+adding padding of one byte or two bytes to achieve n-bit alignment,
+including Torsner' s disclosed use of 32 bit or 64 bit alignment.
+For these reasons, in addition to the reasons discussed above
+addressing independent claims 34, 40, 48, and 52, we are not persuaded of
+error in the Examiner's rejection of dependent claims 39, 45, 51, and 55.
+Claims 37, 43, 49, and 53
+
+Claim 37 depends from claim 34 and further recites "wherein the
+padding subheader includes, a reserved logical channel identifier[(LCID)]
+field to indicate padding, and an extension field to specify whether an
+additional field is present." Claims 43, 49, and 53 depend respectively from
+7
+
+Appeal2015-002424
+Application 12/811,815
+independent claims 40, 48, and 52, and recite identical limitations to claim
+37. Appellants contend it would not be obvious to modify the adding of bits
+to a header as disclosed by Torsner to include using an LCID field and
+extension field to indicate byte padding as allegedly disclosed by 3GPP TS
+36.21 V8.0.0. See App. Br. 13. Appellants assert Torsner is not directed to
+adding byte padding to a PDU, but instead discloses adding a number of bits
+to a header to ensure n-alignment so that the payload starts at an n-aligned
+position. See id. at 13; Reply Br. 7. Appellants assert that it would not be
+possible for the bits added by Torsner to the header to include an LCID field
+and extension field. See App. Br. 13-14; Reply Br. 7.
+Appellants' arguments are not persuasive of error in the Examiner's
+rejection. As discussed above, the Examiner points out that addition of 0 to
+7 bits of padding in Torsner is merely illustrative with respect to 8-bit, and
+Torsner discloses n-bit alignment including 32 bit or 64 bit alignment. See
+Final Act. 6-7 (citing Torsner i-f 23); Ans. 8 (citing Torsner i-f 23).
+Appellants also do not provide persuasive argument or sufficient objective
+evidence to support the assertion that it would not be possible for Torsner's
+padding added to the header to include an LCID field and extension field.
+Argument of counsel cannot take the place of evidence lacking in the record.
+Meitzner v. Mindick, 549 F.2d 775, 782 (CCPA 1977); see also In re
+Pearson, 494 F.2d 1399, 1405 (CCPA 1974).
+
+For these reasons, in addition to the reasons discussed above
+addressing independent claims 34, 40, 48, and 52, we are not persuaded of
+error in the Examiner's rejection of dependent claims 37, 43, 49, and 53.
+DECISION
+We AFFIRM the rejections of claims 34--56.
+8
+
+Appeal2015-002424
+Application 12/811,815
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

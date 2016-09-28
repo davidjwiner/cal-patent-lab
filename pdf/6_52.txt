@@ -1,0 +1,244 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+131765,781
+
+02/13/2013
+
+Erik Grove-Nielsen
+
+2011P23749US
+
+1075
+
+22116
+
+7590
+
+09/16/2016
+
+SIEMENS CORPORATION
+INTELLECTUAL PROPERTY DEPARTMENT
+3501 Quadrangle Blvd Ste 230
+Orlando, FL 32817
+
+EXAMINER
+DANIELS, MATTHEW J
+
+ART UNIT
+
+PAPER NUMBER
+
+1742
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDadmin.us@siemens.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ERIK GROVE-NIELSEN
+
+Appeal2015-005519
+Application 13/765,781
+Technology Center 1700
+
+Before ADRIENE LEPIANE HANLON, WESLEY B. DERRICK, and
+CHRISTOPHER L. OGDEN, Administrative Patent Judges.
+HANLON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+A.
+
+STATEMENT OF THE CASE
+
+The Appellant filed an appeal under 35 U.S.C. § 134 from an Examiner's
+decision finally rejecting claims 1-15. We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+We AFFIRM.
+The claims on appeal are directed to a method of manufacturing a fibre
+reinforced composite. Fibre reinforced plastic composites are said to be used in a
+variety of technical products such as cars, airplanes, and wind turbine blades. To
+fabricate these composites, the fibre parts are said to be placed in a mold, the mold
+
+Appeal2015-005519
+Application 13/765,781
+cavity is filled with a liquid resin, and the resin is cured to form a matrix material.
+Spec. i-f 3.
+The Appellant discloses that the fibre parts are commonly supplied as fabrics
+of roving yarns and stitched together with thermoplastic sewing threads. Spee. i-f 3.
+Tensioning of the stitching thread is said to lead to local deformation of the roving
+yam bundles. In those areas, the fibre content is said to reach an undesirably high
+value inside the roving yam and, at the same time, an area outside the roving yam
+is left without fibres. According to the Appellant, the area left without fibres will
+have a low fibre content or consist of plastic resin alone and be vulnerable to crack
+formation. Areas with very high fibre content, on the other hand, will impair the
+fatigue properties of the composite because more fibres will be in physical contact
+with neighboring fibres. Spec. i-f 4.
+The Appellant discloses a method for manufacturing a fibre reinforced
+composite which improves the uniformity of the fibre distribution. Spec. i-f 6. The
+method comprises the step of connecting fibre material together with a thread
+whereby the thread at least partly degrades before finishing the manufacturing
+process of the fibre reinforced composite. Spec. i-f 7. According to the Appellant,
+when the thread degrades, or at least the tension of the thread is removed, the fibres
+in the roving yams can move freely, resulting in a material with uniform fibre
+distribution and no resin rich pockets. Spec. i-f 14.
+Independent claim 1 is reproduced below from the Claims Appendix of the
+Appeal Brief dated December 8, 2014 ("App. Br."). The limitations at issue are
+italicized.
+1.
+A method of manufacturing a fibre reinforced composite using
+fibre material, comprising:
+
+2
+
+Appeal2015-005519
+Application 13/765,781
+impregnating fibre material using liquid resin for forming a
+matix [sic, matrix] material of the fibre reinforced composite, the fibre
+material connected by a thread comprising hollow fibres; and
+avoiding resin rich pockets and areas of excess fibre content by
+reducing restriction of fibre material caused by the thread connecting
+the fibre material, the thread at least partly degrades before finishing
+the manufacturing process in order to reduce the restriction.
+App. Br. 9 (emphasis added).
+The claims on appeal stand rejected as follows:
+(1)
+
+claims 1-8, 10-12, and 15 under 35 U.S.C. § 103(a) as unpatentable
+
+over Engdahl et al. 1 in view of Wilson et al.; 2
+(2)
+
+claim 9 under 35 U.S.C. § 103(a) as unpatentable over Engdahl in
+
+view of Wilson, and further in view of Jacob et al.; 3
+(3)
+
+claims 10-12 under 35 U.S.C. § 103(a) as unpatentable over Engdahl
+
+in view of Wilson, and further in view of Palmer; 4 and
+(4)
+
+claims 13 and 14 under 35 U.S.C. § 103(a) as unpatentable over
+
+Engdahl in view of Wilson, and further in view of Althoff et al. 5
+The rejections are sustained for the reasons stated in the Examiner's Answer
+dated March 2, 2015 ("Ans."). We add the following for emphasis.
+B.
+
+DISCUSSION
+
+The Examiner finds Engdahl discloses a method of manufacturing a fibre
+reinforced composite which avoids resin rich pockets by providing a thread or yam
+that dissolves during the resin curing stage (i.e., before finishing the manufacturing
+
+1
+
+US
+US
+3
+US
+4
+US
+5
+US
+
+2
+
+4,913,937, issued April 3, 1990 ("Engdahl").
+5,490,602, issued February 13, 1996 ("Wilson").
+2011/0058948 Al, published March 10, 2011 ("Jacob").
+6,187,411 Bl, issued February 13, 2001 ("Palmer").
+2009/0146433 Al, published June 11, 2009 ("Althoff').
+3
+
+Appeal2015-005519
+Application 13/765,781
+process). Ans. 2, 7; see also Engdahl, col. 5, 11. 31-37 (thread melts or dissolves
+thereby occupying resin rich spaces created during the sewing operation); Engdahl,
+col. 4, 1. 67---col. 5, 1. 2 (threads may melt at a temperature before the actual
+"'curing temperature'"). The Examiner finds the only difference between the
+method recited in claim 1 and the method disclosed in Engdahl is that "Engdahl is
+silent to the thread or yam comprising hollow fibers." Ans. 2.
+The Examiner finds Wilson discloses a composite structure that may be
+stitched using various interchangeable yams, including monofilament and hollow
+monofilament. Ans. 2. The Examiner finds the hollow monofilament disclosed in
+Wilson is comprised of the same material as the thread disclosed in Engdahl. Ans.
+2-3.
+The Examiner concludes that it would have been obvious to one of ordinary
+skill in the art to substitute the hollow monofilament disclosed in Wilson for the
+thread disclosed in Engdahl because:
+(a) Wilson teaches that monofilaments and hollow monofilaments are
+substitutable in a similar application, or (b) Wilson teaches that the
+hollow cross sections may improve the speed of dissolution of the
+fiber by permitting liquid into the core ( 15: 1--4) and one would have
+found this to be a desirable benefit in Engdahl for the same reasons.
+Ans. 3.
+The Appellant argues that "Wilson teaches away from dissolving the hollow
+fibres during pre-cure" because, in the process of Wilson, "the fibres are to be
+dissolved in a post-cure." App. Br. 5 (emphasis omitted).
+The Appellant's argument is not persuasive of reversible error. In the
+rejection on appeal, the Examiner merely replaces the thread of Engdahl with the
+hollow monofilament disclosed in Wilson. The Appellant does not direct us to any
+evidence showing that the hollow monofilament disclosed in Wilson would not be
+4
+
+Appeal2015-005519
+Application 13/765,781
+capable of dissolving during the resin curing stage in Engdahl' s method. In that
+regard, we note that the hollow monofilament disclosed in Wilson and the thread
+disclosed in Engdahl are made of some of the same materials. See Engdahl, col. 5,
+11. 18-21 (suitable resins for the thread include polyamides, styrene plastics,
+acrylonitrile polymers, and polyesters); Wilson, col. 15, 11. 17-20, 28--41 (suitable
+dissoluble polymers for the monofilaments include polyamide, polystyrene,
+polyacrylonitrile, and polyester). Thus, a preponderance of the evidence of record
+supports the Examiner's finding that the hollow monofilament disclosed in Wilson
+would have been a suitable substitute for the thread disclosed in Engdahl.
+C.
+
+DECISION
+
+The Examiner's decision is affirmed
+No time period for taking any subsequent action in connection with this
+appeal may be extended under 37 C.F.R. § 1.136(a)(l).
+
+AFFIRMED
+
+5
+
+

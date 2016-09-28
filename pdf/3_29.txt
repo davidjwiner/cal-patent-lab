@@ -1,0 +1,385 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/605,393
+
+09/06/2012
+
+Hemang N. Gadhia
+
+AOLI.246040
+
+1810
+
+130011
+
+7590
+
+09/21/2016
+
+Shook, Hardy & Bacon L.L.P.
+(AOL Inc.)
+Intellectual Property Department
+2555 Grand Blvd.
+Kansas City, MO 64108-2613
+
+EXAMINER
+ANDERSON, SCOTT C
+
+ART UNIT
+
+PAPER NUMBER
+
+3688
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDOCKET@SHB.COM
+IPRCDKT@SHB.COM
+kspringer@shb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HEMANG N. GADHIA,
+RISHI KUMAR,
+HELLMUT ADOLPHS,
+andMATTHEWM. SAUNDERS
+
+Appeal2014-003537
+Application 13/605,393
+Technology Center 3600
+
+Before ANTON W. PETTING, NINA L. MEDLOCK, and
+BART A. GERSTENBLITH, Administrative Patent Judges.
+PETTING, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE 1
+Hemang N. Gadhia, Rishi Kumar, Hellmut Adolphs, and Matthew M.
+Saunders (Appellants) seek review under 35 U.S.C. § 134 of a final rejection
+of claims 1--4 and 6-30, the only claims pending in the application on
+appeal. We have jurisdiction over the appeal pursuant to 35 U.S.C. § 6(b).
+
+1
+
+Our decision will make reference to the Appellants' Appeal Brief ("Br.,"
+filed August 5, 2013) and the Examiner's Answer ("Ans.," mailed
+November 12, 2013), and Final Action ("Final Act.," mailed March 5,
+2013).
+
+Appeal2014-003537
+Application 13/605,393
+The Appellants invented a way of providing mobile advertising using
+data networks based on intelligence data associated with Intemetconnectable devices. Spec., para. 3.
+An understanding of the invention can be derived from a reading of
+exemplary claim 1, which is reproduced below (bracketed matter and some
+paragraphing added). 2
+1. A computer system for providing mobile advertising using
+
+data networks based on intelligence data associated with
+Intemet-connectable devices, the computer system comprising:
+[A] a processor;
+and
+[BJ a memory coupled to the processor, the memory storing
+instructions to cause the processor to perform operations
+compnsmg:
+[ 1] receiving
+
+from an Intemet-connectable device
+a first location event
+captured by the Intemet-connectable device;
+[2] determining a first location
+of the Intemet-connectable device
+based on the first location event;
+[3] determining a first audience category
+associated with a user of the Intemet-connectable device
+based on the first location of the Intemet-connectable
+device,
+wherein the first audience category represents a brand or
+subject matter of a brand associated with the first location
+of the Intemet-connectable device;
+
+2
+
+Claims 1, 20, and 22 are the independent claims on appeal.
+2
+
+Appeal2014-003537
+Application 13/605,393
+[4] receiving
+from the Intemet-connectable device
+a second location event
+captured by the Intemet-connectable device;
+[5] determining a second location of the Intemet-connectable
+device
+based on the second location event;
+[6] determining a second audience category
+associated with the user of the Intemet-connectable
+device
+based on the second location of the Intemet-connectable
+device;
+[7] determining an audience segment to which the user of the
+Intemet-connectable device belongs
+based on at least the first audience category and the
+second audience category,
+wherein the audience segment comprises a group of
+Intemet-connectable device users
+defined based on at least one criterion common
+among the group of Intemet-connectable device
+users;
+and
+[8] transmitting an advertisement to the Internet-connectable
+device,
+wherein the advertisement is determined based on the
+audience segment.
+
+The Examiner relies upon the following prior art:
+Grannan
+
+US 2007 /0244750 Al
+
+3
+
+Oct. 18, 2007
+
+Appeal2014-003537
+Application 13/605,393
+Claims 12 and 16 stand rejected under 35 U.S.C. § 112, second
+paragraph, as failing to particularly point out and distinctly claim the
+invention.
+Claims 1--4 and 6-30 stand rejected under 35 U.S.C. § 102(b) as
+anticipated by Grannan.
+
+ISSUES
+The issues of definiteness tum primarily on whether one of ordinary
+skill would understand the scope of the claims. The issues of anticipation
+tum primarily on whether mental perceptions such as audience category and
+segment, are deserving of patentable weight, and if so, whether Grannan is
+within the scope of the claims.
+
+FACTS PERTINENT TO THE ISSUES
+The following enumerated Findings of Fact (FF) are supported by a
+preponderance of the evidence.
+Facts Related to Claim Construction
+
+3
+
+01.
+
+The disclosure contains no lexicographic definition of "event."
+
+02.
+
+The plain meaning of "event" is something that takes place. 3
+
+THE AMERICAN HERITAGE DICTIONARY OF THE ENGLISH LANGUAGE,
+
+retrieved from https ://www.ahdictionary.com/word/search.html? q=event
+(5th ed. 2015) (last visited Aug. 22, 2016).
+4
+
+Appeal2014-003537
+Application 13/605,393
+Facts Related to the Prior Art
+Grannan
+
+03.
+
+Grannan is directed to providing selected advertising to send to
+a recipient. Grannan, para. 2.
+
+04.
+
+Grannan describes the Advertising Knowledge Management
+System (AKMS) accessing the advertisements database to select a
+targeted advertisement to send to the subscriber. The AKMS
+automatically calculates a product interest correlation score and
+recommends and/ or selects an advertisement, access device and
+advertisement modality to be used to send a selected
+advertisement to a selected subscriber access device based on the
+subscriber's current usage scenario. A subscriber usage scenario
+includes a subscriber's current access device, location and
+activity. For example, if a subscriber has a product interest
+correlation score higher than a product interest correlation score
+threshold set by an advertiser for a product category, the AKMS
+can select and send an advertisement in the product category
+formatted suitably for reception on the subscriber's cell phone
+(access device) as the subscriber drives near one of the
+advertiser's merchant physical locations. The subscriber's
+location can be tracked by global positioning system (GPS), cell
+tower proximity or triangulation or WiFi hot spot proximity and
+factored into the bid price by the advertiser. Alternatively, the
+user's current location, activity, and correlation scores for product
+categories may be used to select and queue up an advertisement
+
+5
+
+Appeal2014-003537
+Application 13/605,393
+for delivery later through a different access device. For example,
+a merchant who is in the vicinity of a subscriber's recent location
+may choose to send a 30-second television commercial, which
+cannot be accommodated on the subscriber's current portable
+access device. The commercial can be queued for delivery once
+the subscriber is at home watching television rather than
+immediately sending an advertisement to the subscriber's cell
+phone. Grannan, para. 62.
+
+ANALYSIS
+Claims 12 and 16 rejected under 35 U.S. C. § 112, second paragraph, as
+failing to particularly point out and distinctly claim the invention
+
+We are persuaded by Appellants' argument that one of ordinary skill
+would understand the scope of the claims.
+
+Claims 1--4 and 6--30 rejected under 35 U.S.C. § 102(b) as anticipated by
+Grannan
+
+Before entering into an analysis, we first make a claim construction
+determination as to the two claims argued, claims 14 and 20. Claim 1 recites
+receiving a location event and claim 20 recites receiving a network event.
+As an event is an occurrence, which is not something amenable to reception,
+we construe these receiving limitations as receiving data somehow reflecting
+an event regarding some location or network.
+
+4
+
+Appellants argue claims 1 and 22 together. Br. 10-16.
+6
+
+Appeal2014-003537
+Application 13/605,393
+With this in mind, the Examiner finds that Grannan describes the first
+three steps as Grannan receives customer location data and correlates the
+position with merchant physical locations. Thus, Grannan receives data
+regarding an event of a customer's travelling and determines the location
+based on that travel event. The correlation with a merchant's physical
+location determines whether the customer is in a category of customers near
+that location. Such a physical merchant location is a subject matter of the
+merchant's brand. As the next three steps in the claim repeat the first three
+steps, Grannan's description of continually tracking a customer accounts for
+such repetition. As Grannan then makes a determination that the customer is
+passing near the merchant physical location, this is within the scope of
+determining that the customer is part of an audience segment approaching
+the merchant location based on the customer categories of being located at
+two locations approaching the location. The segment would be comprised of
+all such customers approaching the location. Grannan then explicitly
+describes transmitting the advertisement.
+We are not persuaded by Appellants' argument that product interest
+correlation scores are not determined based on location data. Br. 11. The
+limitation at issue is determining an audience category. Although Grannan
+relies on customer profiles to categorize customers, Grannan also relies on
+location as this is needed to determine proximity to physical merchant
+locations.
+We are not persuaded by Appellants' argument that Grannan
+describes determining an application based on a single location. Br. 12.
+Appellants fail to consider that Grannan continues to track location.
+
+7
+
+Appeal2014-003537
+Application 13/605,393
+We are not persuaded by Appellants' argument that Grannan fails to
+describe the recited audience category and segment. As the Examiner finds,
+both terms are broad. We illustrated how Grannan describes these, supra.
+The Examiner goes on to find that the terms "category" and "segment" are
+not deserving of patentable weight. Final Act. 6-7.
+Claim 1 recites five determining steps, viz., determining each of a first
+and second location of an Intemet-connectable device, determining each of a
+first and second X based on the first and second locations and determining Y
+based on the Xs. The Xs are labeled as a first audience category and a
+second audience category associated with a user of the Intemet-connectable
+device. One of the Xs, i.e., the first audience category, is further labeled as
+representing a brand or subject matter of a brand associated with the first
+location of the Intemet-connectable device. Y is labeled as an audience
+segment to which the user of the Intemet-connectable device belongs based
+on at least the first audience category and the second audience category,
+wherein the audience segment comprises a group of Intemet-connectable
+device users defined based on at least one criterion common among the
+group of Intemet-connectable device users. Thus, the determining steps are
+really to determine a location and some associated data. Nothing in the
+claim depends on or enforces the perceptual labels. Mental perceptions of
+what data represent are non-functional and given no weight. King Pharm.,
+Inc. v. Eon Labs, Inc., 616 F.3d 1267, 1279 (Fed. Cir. 2010) ("[T]he
+relevant question is whether 'there exists any new and unobvious functional
+relationship between the printed matter and the substrate.'") (citations
+omitted). See also In re Lowry, 32 F.3d 1579, 1583 (Fed. Cir. 1994)
+(describing printed matter as "useful and intelligible only to the human
+
+8
+
+Appeal2014-003537
+Application 13/605,393
+mind" (quoting In re Bernhart, 417 F.2d 1395, 1399 (CCPA 1969)). uata
+labels are just examples of such mental perceptions. Data, being a
+succession of binary digits, are just those digits, not perceptual labels of
+those digits. The binary digits may impose some functional consequence,
+but absent some recitation of how so, such consequence is not an issue. We
+therefore agree with the Examiner that even if the category and segment
+limitations were not broad enough to encompass Grannan, although we find
+they are supra, these limitations are undeserving of patentable weight.
+Claim 20, separately argued, is similar to claim 1 except that claim 20
+refers to network events rather than location events. The analysis is
+accordingly similar given that Grannan's transmission of locations over a
+network falls within the scope of both location events and network events.
+After all, a transmission over a network is an occurrence of the network,
+which is the definition of an event.
+
+CONCLUSIONS OF LAW
+The rejection of claims 12 and 16 under 35 U.S.C. § 112, second
+paragraph, as failing to particularly point out and distinctly claim the
+invention is improper.
+The rejection of claims 1--4 and 6-30 under 35 U.S.C. § 102(b) as
+anticipated by Grannan is proper.
+
+DECISION
+The Examiner's decision rejecting claims 1--4 and 6-30 under 35
+U.S.C. § 102(b) is affirmed.
+
+9
+
+Appeal2014-003537
+Application 13/605,393
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l)(iv) (2011).
+
+AFFIRMED
+
+10
+
+

@@ -1,0 +1,474 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/490,677
+
+06/07/2012
+
+Peter George TAPLING
+
+A215882 (3046-007)
+
+9814
+
+70432
+
+7590
+
+09/15/2016
+
+Sughrne Mion PLLC
+2100 Pennsylvania Avenue, NW
+Washington, DC 20037
+
+EXAMINER
+MCCOY, RICHARD ANTHONY
+
+ART UNIT
+
+PAPER NUMBER
+
+2431
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pprocessing@sughrne.com
+sughrne@sughrne.com
+demery@sughrne.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PETER GEORGE TAPLING, ANDREW ROBERT ROLFE,
+and RAVI GANESAN
+
+Appeal2014-007761
+Application 13/490,677
+Technology Center 2400
+
+Before JEFFREYS. SivIITH, JOli1...J R. KE1\J1...JY, and
+STACY B. MARGOLIES Administrative Patent Judges.
+SMITH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2014-007761
+Application 13/490,677
+STATEMENT OF THE CASE
+This is an appeal 1 under 35 U.S.C. § 134(a) from the rejection of
+claims 1-10, which are all the claims pending in the application. An oral
+hearing was held on July 26, 2016. We have jurisdiction under 35 U.S.C.
+§ 6(b ).
+We affirm and enter new grounds of rejection.
+
+Illustrative Claim
+
+1. A method of operating a security server to securely transact
+business between a user and an enterprise via a network,
+compnsmg:
+receiving, at the security server from an enterprise with
+which the user is currently connected via the network, a request
+of the enterprise to activate a secure communications channel
+over the network between the user and the security server,
+wherein the request includes contact information for contacting
+the user via other than the network;
+transmitting, by the security server in response to the
+received activation request, an activation code for delivery to
+the user via other than the network and corresponding to the
+received contact information;
+receiving, at the security server from the user via the
+network, an activation code;
+comparing, at the security server, the received activation
+code with the transmitted activation code to validate the
+received activation code; and
+activating the secure communications channel based on
+the validation of the received activation code.
+
+1
+
+This appeal is related to appeal no. 2014-008257, application no.
+13/490715.
+2
+
+Appeal2014-007761
+Application 13/490,677
+
+Prior Art
+Ganesan
+Mansz
+Mo as
+Chu
+Lesandro
+Cramer
+
+US
+US
+US
+US
+US
+US
+
+2002/0087465
+2006/0224888
+2010/0180328
+7,904,946 Bl
+2012/0054095
+2013/0024918
+
+Al
+Al
+Al
+Al
+Al
+
+July 4, 2002
+Oct. 5, 2006
+July 15, 2010
+Mar. 8, 2011
+Mar. 1, 2012
+Jan.24,2013
+(filed Jul. 20, 2011)
+
+Examiner's Rejections
+Claims 1, 2, 5-7, and 9 stand rejected2 under 35 U.S.C. § 102(b) as
+anticipated by Ganesan.
+Claim 3 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+Ganesan and Lesandro.
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+Ganesan, Lesandro, and Moas.
+Claim 8 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+Ganesan and Mansz.
+Claim 10 stands rejected under 35 U.S.C. § 103(a) as unpatentable
+over Cramer and Chu.
+
+2
+
+The Examiner withdrew the rejection of claim 6. Ans. 2. However, we
+enter new grounds of rejection for claim 6 as discussed below.
+3
+
+Appeal2014-007761
+Application 13/490,677
+ANALYSIS
+For the Examiner's rejections of claims 1-5 and 7-10, we adopt the
+findings of fact made by the Examiner, concur with the Examiner's
+decisions for the reasons given in the Final Action and Examiner's Answer,
+and address several issues from the Reply Brief for emphasis. For Claim 6,
+we enter new grounds of rejection.
+
+Section 102 rejection of claim 1
+
+Claim 1 recites "activating the secure communications channel based
+on the validation of the received activation code." The Examiner finds the
+scope of the claimed "secure communications channel" encompasses a
+communication link that has been protected against unauthorized access,
+operation, or use by means of isolation, encryption, or other forms of
+control. Ans. 7-8. The Examiner finds the broadest reasonable
+interpretation of "activating the secure communications channel based on the
+validation" encompasses allowing a user to perform transactions over the
+secure communications channel after the successful validation of the
+received activation code as disclosed by Ganesan. Ans. 7-9.
+Appellants contend that allowing a user to access information on a
+secure server after completing a user log-in authentication process does not
+disclose "activating the secure communications channel," because the
+authentication process does not protect the communications channel between
+the user and the server by either encrypting the communications, or by
+isolating the channel from a network, or by any other technique. Reply Br.
+11-13.
+
+4
+
+Appeal2014-007761
+Application 13/490,677
+Appellants' Specification discloses that the "Start-Up and Activation
+(Security Server Login) Phase" (Original Spec. 10:38; Substitute Spec. 11:8)
+is completed when the user enters a phone number into a security window,
+receives an activation code, and forwards the activation code to the security
+server (Original Spec. 14:6-11; Substitute Spec. 14:20-25). Thereafter, the
+user is ready to receive transactions. Original Spec. 14:11-13; Substitute
+Spec. 14:25-27. Appellants' contention that the scope of "activating the
+secure communications channel" excludes allowing a user to use the channel
+after authenticating the user as described by Ganesan is inconsistent with
+pages 10-14 of Appellants' Specification, which disclose the activation (or
+security server login) process is completed after the user forwards the
+activation code to the server, and thereafter, the user is ready to receive
+transactions. We agree with the Examiner that the scope of "activating the
+
+secure communications channel based on the validation of the received
+activation code," when read in light of Appellants' Specification,
+encompasses allowing a user to use the channel after the server validates the
+user as disclosed by Ganesan.
+Appellants present numerous arguments contending the claimed
+"secure communications channel" means an encrypted channel. See, e.g.,
+Reply Br. 11. However, the claim does not limit "the secure
+communications channel" to only a channel that encrypts. The scope of a
+claim cannot be narrowed by reading disclosed limitations into the claim.
+See In re Morris, 127 F.3d 1048, 1054 (Fed. Cir. 1997). "Absent an express
+
+definition in their specification, the fact that appellants can point to
+definitions or usages that conform to their interpretation does not make the
+PTO' s definition unreasonable when the PTO can point to other sources that
+
+5
+
+Appeal2014-007761
+Application 13/490,677
+support its interpretation." Id. at 1056. Appellants do not show error in the
+Examiner's finding that the scope of "activating the secure communications
+channel," when read in light of Appellants' Specification, encompasses
+allowing the user to use the channel after successful validation.
+Further, we highlight that Appellants' contention that Ganesan does
+not disclose a secure communications channel that uses encryption is
+inconsistent with paragraphs 21 and 22 of Ganesan, which disclose
+encrypting credit card data prior to transmission. Also, Appellants'
+contention that a secure channel using encryption is novel over the prior art
+is inconsistent with page 3 of the Appeal Brief, where Appellants admit
+secure socket layer (SSL) encryption is conventional.
+We also highlight that Appellants' contention that Ganesan does not
+disclose a secure communications channel being isolated (Reply Br. 12-13)
+is inconsistent with Figure 2 of Ganesan, which discloses a security server
+130 as part of an enclosed (isolated) community.
+We sustain the rejection of claim 1 under 35 U.S.C. § 102.
+
+Section 102 rejection of claims 2 and 5
+
+Appellants contend paragraphs 13 6 and 261 of Ganesan have nothing
+to do with secure communication channels for communicating information
+between one entity and another. Reply Br. 23-27. We find Appellants'
+contention unpersuasive for the reasons given by the Examiner, and also for
+the reasons given in our analysis of claim 1.
+We further highlight the Title and Abstract of Ganesan disclose
+electronic debit and credit transactions, Figure 2 discloses an enclosed
+community of sellers and buyers that transact with one another, Figure 4
+
+6
+
+Appeal2014-007761
+Application 13/490,677
+discloses a method of registering a buyer to communicate within the
+enclosed community, and Figures 12 and 13 disclose methods of a sale
+transaction between a buyer and a seller within the enclosed community,
+which are examples of secure channels for communicating information
+between one entity and another.
+We sustain the rejection of claims 2 and 5 under 35 U.S.C. § 102.
+
+Section 102 rejection of claim 7
+
+The Examiner finds storing transaction information in a log as
+described by Ganesan discloses "incorporating, at the security server, the
+received transaction information into at least one of a voice stream and an
+image" as recited in claim 7. Ans. 9-10. Appellants contend storing does
+not describe incorporating, and the log does not describe an image. Reply
+Br. 28-30. However, anticipation is not an ipsissimis verbis test. See In re
+Bond, 910 F.2d 831, 832-33 (Fed. Cir. 1990). Other than showing a
+
+difference in terminology, Appellants have not distinguished claim 7 from
+Ganesan. In particular, Appellants have not provided persuasive evidence to
+rebut the Examiner's finding that the scope of the claimed "image"
+encompasses the log of Ganesan.
+We sustain the rejection of claim 7 under 35 U.S.C. § 102.
+
+Section 103 rejection of claim 3
+
+Appellants contend the combination of Ganesan and Lesandro does
+not teach "generating at the security server based on the received transaction
+information, a one-time password for use by the user as a transaction
+signature." Reply Br. 35--45. The Examiner finds paragraph 1713 of
+
+7
+
+Appeal2014-007761
+Application 13/490,677
+Lesandro teaches transaction data signing, where details about a transaction
+are used to generate a unique transaction authorization code ("one-time
+password") specific to the transaction. See Final Act. 26-27.
+Appellants have not persuasively shown that modifying the processing
+agent of Ganesan to generate a transaction signature to send to the user was
+"uniquely challenging or difficult for one of ordinary skill in the art" who
+can generate a one-time password used for transaction signing as taught by
+Lesandro. See Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157,
+1162 (Fed. Cir. 2007) (citing KSR Int'! Co. v. Teleflex, Inc., 550 U.S. 398,
+419 (2007))).
+We sustain the rejection of claim 3 under 35 U.S.C. § 103.
+
+Section 103 rejection of claim 4
+Appellants contend paragraph 87 of Moas does not teach "the onetime password is generated based also on a secret shared by the security
+server and the enterprise but not known to the user" as recited in claim 4
+because, according to Appellants, the transaction code of Moas is known by
+the user. Reply Br. 46-50. Appellants' contention is inconsistent with
+paragraph 87 of Moas, which teaches not presenting the code to the user.
+We sustain the rejection of claim 4 under 35 U.S.C. § 103.
+
+Section 103 rejection of claim 8
+Appellants do not present arguments for separate patentability of
+claim 8 which falls with claim 7.
+
+8
+
+Appeal2014-007761
+Application 13/490,677
+Section 103 rejection of claim 10
+
+Appellants contend the combination of Cramer and Cho does not
+teach "transmitting, from the user network device to a security server via the
+network, a user identifier identifying the user and a request to activate a
+secure communications channel over the network between the user and the
+security server" as recited in claim 10. Reply Br. 51---63. Appellants'
+contention is based on the premise that Cramer does not teach activating a
+secure communications channel, which we find unpersuasive for the reasons
+given by the Examiner. We highlight that Cramer teaches a security
+application for providing security throughout the drawings and
+corresponding detailed description. We further highlight that Chu also
+teaches security for communicating over a channel beginning with the Title
+and continuing throughout the rest of the disclosure.
+Appellants contend Chu does not teach "receiving, at the user network
+device from the security server via the activated secure communications
+channel, a seed corresponding to the transmitted user identifier and a secret
+known only to the security server." Reply Br. 63---69. The Examiner finds
+the scope of the seed corresponding to a secret known only to the security
+server encompasses the portion of the secret stored on the user's device,
+where the complete secret is stored on the server. Ans. 17. Appellants
+contend the portion of the shared secret stored on the user's device, when
+combined with the user's PIN, is the same as the shared secret stored on the
+server. Reply Br. 64---67.
+However, the portion of the secret stored on the client side is stored
+without the PIN. Chu col. 3, 11. 19-22; col. 4, 1. 65---col. 5, 1. 3. An
+algorithm in the user's device receives the PIN from the user, and, without
+
+9
+
+Appeal2014-007761
+Application 13/490,677
+ever storing the PIN, uses the PIN and some part of the stored portion of the
+shared secret to generate the one-time password. Chu col. 3, 11. 12-22.
+Appellants have not persuasively shown that the complete secret is ever
+stored, or "known," on the client side of Chu.
+Further, the scope of the claimed "seed corresponding to the
+transmitted user identifier and a secret known only to the security server,"
+when read in light of page 23 of Appellants' Specification as originally filed
+(and page 24 of the Substitute Specification), encompasses a private/public
+key pair. Appellants' contention that the public "seed" and private "secret
+known only to the security server" key pair are unknown in the prior art is
+inconsistent with the well-known asymmetric public and private key pair as
+taught, for example, by paragraph 15 of Moas.
+We sustain the rejection of claim 10 under 35 U.S.C. § 103.
+
+New grounds of rejection of claim 6
+
+We reject claim 6 under 35 U.S.C. § 103(a) as unpatentable over
+Ganesan and Lesandro.
+Claim 6 recites "generating, at the security server based on the
+received second transaction information, another one-time password for use
+by the user as a transaction signature; transmitting the generated other one
+time password from the security server to the user via the secure
+communications channel." These steps are rendered obvious by the
+combination of Ganesan and Lesandro for the reasons discussed in our
+analysis of claim 3. We reiterate paragraph 1713 of Lesandro teaches
+transaction data signing, where details about a transaction are used to
+generate a unique transaction authorization code ("one-time password")
+
+10
+
+Appeal2014-007761
+Application 13/490,677
+specific to the transaction. Appellants have not persuasively shown that
+modifying the processing agent of Ganesan to generate a transaction
+signature to send to the user was "uniquely challenging or difficult for one of
+ordinary skill in the art" who can generate a one-time, transaction specific
+password for transaction signing as taught by Lesandro.
+The additional steps of "receiving, at the security server from the
+second enterprise, confirmation of receipt by the second enterprise from the
+user of the second transaction validly signed with the transmitted other one
+time password; and transmitting, from the security server to the user via the
+secure communications channel, confirmation that the second enterprise
+received the validly signed second transaction" encompass a purchaser using
+the signature to sign the transaction, sending the signature to the seller, and
+receiving a confirmation from the seller. We find these steps for confirming
+receipt of the signed transaction from the seller to the purchaser through the
+secure server were within the level of ordinary skill of an artisan who can
+allow a purchaser to sign the transaction as taught by Lesandro and transmit
+the transaction information between purchaser and seller through a secure
+server as taught by Ganesan. For example, when the purchase transaction
+of Ganesan (Ganesan i-f 146) includes the transaction signature of Lesandro,
+the shipment notification from the seller (Ganesan ,-r 151) confirms that the
+seller received the purchase transaction.
+Further, when a registered user who issues a bill "transaction" to
+another registered user (Ganesan ,-r 195), and signs the bill transaction with
+the transaction signature of Lesandro, the user who issued the validly signed
+transaction then receives remittance information from the security server
+130, which teaches "confirmation that the second enterprise (the user
+
+11
+
+Appeal2014-007761
+Application 13/490,677
+remitting the payment) received the validly signed second transaction" bill
+within the meaning of claim 6.
+We reject claim 6 under 35 U.S.C. § 103.
+In addition, the terms "another one time password" and "other one
+password" in claim 6 lack antecedent basis. For that reason, we also reject
+claim 6 under 35 U.S.C. § 112, second paragraph, for indefiniteness.
+
+DECISION
+The Examiner's rejections of claims 1-5 and 7-10 are affirmed.
+The Examiner's rejection of claim 6 under 35 U.S.C. § 102(b) as
+anticipated by Ganesan is reversed.
+We reject claim 6 under 35 U.S.C. § 103(a) as unpatentable over
+Ganesan and Lesandro and under 35 U.S.C. § 112 for indefiniteness.
+This decision contains new grounds of rejection pursuant to 37 C.F.R.
+§ 41.50(b) (2011). Section 41.50(b) provides that "[a] new ground of
+rejection ... shall not be considered final for judicial review."
+Section 41. 50(b) also provides that Appellants, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new ground of rejection to
+avoid termination of the appeal as to the rejected claims:
+( 1) Reopen prosecution. Submit an appropriate amendment of the
+claims so rejected or new evidence relating to the claims so rejected, or both,
+and have the matter reconsidered by the examiner, in which event the
+proceeding will be remanded to the examiner....
+(2) Request rehearing. Request that the proceeding be reheard under
+§ 41.52 by the Board upon the same record.
+
+12
+
+Appeal2014-007761
+Application 13/490,677
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+37 C.F.R. § 41.50(b)
+
+13
+
+

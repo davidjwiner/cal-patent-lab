@@ -1,0 +1,257 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/291,075
+
+11/07/2011
+
+Ludovic Douillet
+
+7114-104088-US
+
+9253
+
+37123
+
+7590
+
+09/21/2016
+
+FITCH EVEN TABIN & FLANNERY, LLP
+120 SOUTH LASALLE STREET
+SUITE 1600
+CHICAGO, IL 60603-3406
+
+EXAMINER
+MONTOYA,OSCHTAI
+
+ART UNIT
+
+PAPER NUMBER
+
+2421
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte LUDOVIC DOUILLET, KLAUS HOFRICHTER,
+JENKE WU KUO, ARAN SADJA, and WILLIAM SCHUPP
+
+Appeal2015-004626
+Application 13/291,075
+Technology Center 2400
+
+Before CARLL. SILVERMAN, JAMES W. DEJMEK, and
+KAMRAN JIVANI, Administrative Patent Judges.
+JIVANI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final decisions rejecting claims 1-20, which are all the claims
+pending in the present application. We have jurisdiction under
+35 U.S.C. § 6(b).
+We AFFIRM.
+
+1
+
+Appellants identify Sony Corporation as the real party in interest. App.
+Br. 2.
+
+Appeal2015-004626
+Application 13/291,075
+
+STATEMENT OF THE CASE
+The present application relates to enabling electronic program guide
+data and metadata input from multiple service providers. Spec. i-f 2.
+Claim 1 is illustrative (disputed limitations emphasized):
+1.
+A computer-implemented method for utilizing electronic
+program guide data and metadata from multiple service sources,
+compnsmg:
+
+receiving input comprising at least one electronic program
+guide data and metadata from a plurality of content providers
+compnsmg at least a broadcaster and an internet content
+provider;
+combining the input in a common gateway server;
+generating a unified interface at the common gateway
+server, based on the at least one electronic program guide and the
+metadata from the broadcaster and internet content provider, for
+at least one consumer electronics device; and
+integrating the unified interface with an internet
+audio/video explorer service;
+wherein the unified interface comprises an application
+program interface common to a plurality of consumer electronic
+device platforms; and
+wherein the common gateway server provides interfaces
+to a plurality of consumer electronic devices over an internet
+connection.
+The Rejections
+Claim 20 stands rejected under 35 U.S.C. § 112, second paragraph, as
+indefinite.
+
+2
+
+Appeal2015-004626
+Application 13/291,075
+
+Claims 1, 2, 4--8, 10, 11, 13, 14, and 16-20 stand rejected under
+35 U.S.C. § 103(a) over Khivesara (US 2009/0030931 Al; Jan. 29, 2009)
+and Walter (US 2012/0005709 Al; Jan. 5, 2012).
+Claims 3, 12, and 15 stand rejected under 35 U.S.C. § 103(a) over
+Khivesara, Walter, and Babu (US 2004/0003396 Al; Jan. 1, 2004).
+Claim 9 stands rejected under 35 U.S.C. § 103(a) over Khivesara,
+Walter, and Hong (US 2010/0088721 Al; Apr. 8, 2010).
+
+ANALYSIS
+
+Indefiniteness
+The Examiner finds independent claim 20 indefinite because the
+claimed means for receiving, means for combining, and means for
+generating are means-plus-function limitations and "the written description
+fails to disclose the corresponding structure, material, or acts for the claimed
+function." Final Act. 3. 2 Appellants identify paragraphs 41 and 44 of the
+Specification as well as figures 2 and 3 as setting forth an algorithm for
+performing the claimed functions of receiving, combining, and generating.
+App. Br. 11-12.
+We agree with the Examiner that the claimed means for receiving,
+means for combining, and means for generating are means-plus-function
+limitations invoking 35 U.S.C. § 112, sixth paragraph. We disagree with the
+Examiner, however, that the Specification fails to disclose sufficient
+structure corresponding to the claimed functions. Our reviewing court has
+2
+
+Claim 20 further recites "means for integrating;" however, the Examiner
+does not contend this means-plus-function limitation lacks sufficient
+structure in the Specification. Final Act. 3.
+3
+
+Appeal2015-004626
+Application 13/291,075
+
+held that for a computer-implemented means-plus-function claim limitation
+invoking 35 U.S.C. § 112, sixth paragraph, a general purpose computer is
+sufficient as the corresponding structure when performing a general
+computing function. In re Katz Interactive Call Processing Patent
+
+Litigation, 639 F.3d 1303, 1316 (Fed. Cir. 2011). In Katz, the Court held
+"the claimed functions of 'processing,' 'receiving,' and 'storing' ... can be
+achieved by any general purpose computer without special programming.
+As such, it was not necessary to disclose more structure than the general
+purpose processor that performs those functions." Id. Here, claim 20 recites
+the functions of receiving, combining, and generating-functions similar to
+those claimed in Katz. We are not persuaded, based on the record before us
+that the claimed functions amount to more than "can be achieved by any
+general purpose computer without special programming." Id. Moreover,
+even if the claimed functions require disclosure of a special purpose
+processor, we agree with Appellants that paragraphs 41 and 44 of the
+Specification together with figures 2 and 3 set forth sufficient algorithm for
+performing the claimed functions of receiving, combining, and generating.
+Accordingly, we do not sustain the Examiner's rejection of claim 20
+under 35 U.S.C. § 112, second paragraph, for indefiniteness.
+
+Obviousness
+Based on Appellants' arguments, we decide the appeal on the basis of
+representative claim 1. See 37 C.F.R. § 41.37(c)(l)(iv) (2012).
+Appellants contend the Examiner errs because the services in Walter's
+"portal 202 and the merged EPG are not described to be displayed on the
+same device, much less integrated in a 'unified interface."' App. Br. 14.
+
+4
+
+Appeal2015-004626
+Application 13/291,075
+
+Appellants further contend, "Modifying the 'unified ESG' in Khivesara ...
+to become a portal 202 'for managing services' would change the principle
+of operation of the 'unified ESG. "' Id.; Reply Br. 4.
+We have considered Appellants' arguments in the Appeal Brief and
+the Reply Brief, as well as the Examiner's Answer thereto. We are not
+persuaded by Appellants' arguments for at least the following reasons.
+First, we are not persuaded by Appellants' arguments regarding the
+
+teachings and suggestions of Walter because Appellants argue the references
+individually. The Examiner correctly relies on Khivesara as teaching or
+suggesting the claimed generating a unified interface at the common
+gateway server, based on the at least one electronic program guide and the
+metadata from the broadcaster and the internet content provider, for at least
+one consumer electronics device. Final Act. 5 (citing Khivesara i-fi-1 48--49).
+The Examiner further finds Walter's portal 202-which is accessible via a
+URL and includes internet services, V oD (Video on Demand) catalog, and
+DVR-as teaching or suggesting the claimed integrating the unified
+interface with and internet audio/video explorer service. Ans. 3 (citing
+Walter i124, fig. 2). The Examiner combines these teachings and articulates
+a motivation to combine. Final Act. 5. Where, as here, a rejection is based
+on a combination of references, one cannot show non-obviousness by
+attacking references individually. In re Keller, 642 F.2d 413, 426 (CCPA
+1981); In re Merck & Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir. 1986).
+Second, we are also not persuaded by Appellants' argument that
+
+modifying Khivesara as proposed by the Examiner would destroy its
+principle of operation. Khivesara "relates to a unified electronic service
+
+5
+
+Appeal2015-004626
+Application 13/291,075
+
+guide (ESG) that is displayed at a client device and is created by combining
+service data acquired from multiple sources." Khivesara i-f 3. In the cited
+portions, Khivesara describe a "browser application" that presents data to the
+user about available content, including "video & music on demand 302A,
+unicast cast TV & radio 302B, broadcast TV & radio 302C, datacast
+applications 302D, side loaded content 302E, etc." Khivesara i-fi-148--49. In
+light of Khivesara' s specific discussion of integrating data about internet
+audio/video explorer services, we are not persuaded that modifying
+Khivesara' s unified interface to include an internet audio/video explorer
+service, as explicitly disclosed in Walter, would impermissibly alter
+Khivesara's principle of operation.
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103 rejection of
+claim 1. Appellants advance no further arguments concerning claims 2-20.
+App. Br. 15. Accordingly, we sustain the Examiner's 35 U.S.C. § 103
+rejections of claims 2-20.
+
+DECISION
+We reverse the Examiner's decision rejecting claim 20 as indefinite.
+We affirm the Examiner's decisions rejecting claims 1-20 as obvious.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

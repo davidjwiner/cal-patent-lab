@@ -1,0 +1,452 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/380,457
+
+0212712009
+
+Robert B. Hubbard
+
+Hubbard-5
+
+1397
+
+27899
+
+7590
+
+09/21/2016
+
+WILLIAMJ. BENMAN
+1875 CENTURY PARK EAST
+SUITE 700
+LOS ANGELES, CA 90067
+
+EXAMINER
+FLYNN, KEVIN H
+
+ART UNIT
+
+PAPER NUMBER
+
+3628
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+wbenman@pacbell.net
+wbenman@gmail.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBERT B. HUBBARD
+
+Appeal2015-007006
+Application 12/380,457
+Technology Center 3600
+
+Before ANTON W. PETTING, JOSEPH A. FISCHETTI, and
+PHILIP J. HOFFMANN, Administrative Patent Judges.
+PETTING, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE 1
+Robert B. Hubbard (Appellant) seeks review under 35 U.S.C. § 134 of a
+final rejection of claims 1-18, the only claims pending in the application on
+appeal. Appellant petitioned to advance the order of this appeal under the
+PT AB' s Streamlined, Expedited Patent Appeal Pilot for Small Entities on
+
+1
+
+Our decision will make reference to the Appellant's Appeal Brief ("App.
+Br.," filed July 17, 2013) and Reply Brief ("Reply Br.," filed July 20, 2015),
+and the Examiner's Answer ("Ans.," mailed June 2, 2015) and Final Action
+("Final Act.," mailed April 16, 2012).
+
+Appeal2015-007006
+Application 12/380,457
+August 25, 2016. The petition decision granting the petition was mailed
+August 26, 2016. In that petition, under the terms of the program, Appellant
+agreed that for each ground of rejection applying to two or more claims, the
+PTAB may select a single claim from the claims subject to each ground of
+rejection and decide the appeal to be made special with respect to every
+claim subject to that ground of rejection on the basis of the selected claim
+alone. We have jurisdiction over the appeal pursuant to 35 U.S.C. § 6(b).
+The Appellant invented a way of optimizing the pricing of multimedia
+content delivery. Specification Title.
+An understanding of the invention can be derived from a reading of
+exemplary claim 1, which is reproduced below (some paragraphing added).
+1. A system for setting a price for delivering multimedia
+content to subscribers' devices comprising:
+a server;
+memory coupled to said server;
+software stored in said memory and executed by said server for
+obtaining data on subscribers' actions on said devices
+and
+software stored in said memory and executed by said server for
+determining a price to charge a content provider to
+deliver multimedia content to said devices based on said
+data.
+
+The Examiner relies upon the following prior art:
+Landesmann
+
+US 2002/0052782 Al
+
+May 2, 2002
+
+Strauss
+
+US 2007/0271136 Al
+
+Nov. 22, 2007
+
+Davis
+
+US 2008/0147484 Al
+
+June 19, 2008
+
+2
+
+Appeal2015-007006
+Application 12/380,457
+Claims 1-18 stand rejected under 35 U.S.C. § 101 as directed to nonstatutory subject matter.
+Claims 1---6, 8, and 10-18 stand rejected under 35 U.S.C. § 102(b) as
+anticipated by Landesmann.
+Claims 7 and 9 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over Landesmann and Strauss.
+Claims 1-18 stand rejected under 35 U.S.C. § 103(a) as unpatentable
+over Davis and Landesmann.
+
+ISSUES
+The issue of statutory subject matter tum primarily on whether the
+claims are directed to abstract ideas. The issues of anticipation and
+obviousness tum primarily on whether Landesmann anticipates the claims.
+FACTS PERTINENT TO THE ISSUES
+The following enumerated Findings of Fact (FF) are believed to be
+supported by a preponderance of the evidence.
+Facts Related to the Prior Art
+Landesmann
+
+01.
+
+Landesmann is directed to the field of marketing, and more
+particularly to the field of buyer-driven targeting of purchasing
+entities. Landesmann para. 2.
+
+02.
+
+Landesmann describes calculating a charge to the third party
+advertiser for the search and/or distribution of the incentive to the
+3
+
+Appeal2015-007006
+Application 12/380,457
+group of buyer entities. The charge may be calculated on the basis
+of the various scores of each of the buyer entities in the groups
+which measure how valuable a buyer entity is to advertisers. This
+value could relate to the overall value of that buyer entity to all
+advertisers. Alternatively or additionally, it could relate to the
+value of that buyer entity to advertisers in a particular product
+category. The scores and charges for each buyer entity can be a
+function of the recency/timing and volume of its past purchases,
+with different weights given to different categories of products,
+types of products and different sellers from whom the buyer entity
+purchased its products, as well as a function of the responsiveness
+of that buyer entity to previous promotions and the degree to
+which a buyer entity limits the number of advertisements and
+promotions it wishes to receive in a particular time period.
+Landesmann para. 194.
+Strauss
+
+03.
+
+Strauss is directed to online advertising and, in particular, to the
+concept of displaying relevant advertising based on geographic
+proximity of the viewer to the advertiser combined with
+scheduling preferences of the advertiser. Strauss para. 1.
+
+Davis
+
+04.
+
+Davis is directed to advertising and more particularly to a
+method of cost optimizing advertising on a portable
+communication device. Davis para. 3.
+4
+
+Appeal2015-007006
+Application 12/380,457
+ANALYSIS
+Claims 1-18 rejected under 35 U.S.C. § 101 as directed to non-statutory
+subject matter
+
+The Examiner finds that claims 1-18 are directed to the abstract idea of
+determining a price to charge a content provider based on subscriber action
+data. Ans. 2. We select method claim 18 as representative.
+The Supreme Court
+set forth a framework for distinguishing patents that claim laws
+of nature, natural phenomena, and abstract ideas from those that
+claim patent-eligible applications of those concepts. First, []
+determine whether the claims at issue are directed to one of
+those patent-ineligible concepts. [] If so, we then ask, "[ w]hat
+else is there in the claims before us? [] To answer that question,
+[] consider the elements of each claim both individually and "as
+an ordered combination" to determine whether the additional
+elements "transform the nature of the claim" into a patenteligible application. [The Court] described step two of this
+analysis as a search for an "'inventive concept'"-i.e., an
+element or combination of elements that is "sufficient to ensure
+that the patent in practice amounts to significantly more than a
+patent upon the [ineligible concept] itself."
+Alice Corp., Pty. Ltd. v CLS Bank Intl, 134 S. Ct. 2347, 2355 (2014) (citing
+Mayo Collaborative Services v. Prometheus Labs, Inc., 132 S. Ct. 1289
+
+(2012)).
+To perform this test, we must first determine whether the claims at issue
+are directed to a patent-ineligible concept.
+While the Court in Alice made a direct finding as to what the claims were
+directed to, we find that this case's claims themselves and the Specification
+provide enough information to inform one as to what they are directed.
+
+5
+
+Appeal2015-007006
+Application 12/380,457
+The preamble to claim 18 recites that it is a method for setting a price.
+The two steps in claim 18 result in determining a price to charge a content
+provider. The Specification title recites that the invention relates to a system
+and method for optimizing the pricing of multimedia content delivery. Thus,
+all this evidence shows that, as the Examiner finds, claim 18 is directed to
+setting a price.
+It follows from prior Supreme Court cases, and Bilski in particular, that
+
+the claims at issue here are directed to an abstract idea. Bilski v. Kappas,
+561 U.S. 593 (2010). Like the risk hedging in Bilski, the concept of pricing
+is a fundamental commercial practice long prevalent in our system of
+commerce. The use of pricing is also a building block of all market
+economies. Thus, pricing, like hedging, is an "abstract idea" beyond the
+scope of§ 101. See Alice Corp. Pty. Ltd., 134 S. Ct. at 2356.
+As in Alice Corp. Pty. Ltd., we need not labor to delimit the precise
+contours of the "abstract ideas" category in this case. It is enough to
+recognize that there is no meaningful distinction in the level of abstraction
+between the concept of risk hedging in Bilski and the concept of pricing at
+issue here. Both are squarely within the realm of "abstract ideas" as the
+Court has used that term. See Alice Corp. Pty. Ltd., 134 S. Ct. at 2357.
+We are not persuaded by Appellant's argument that the Examiner failed
+to provide any evidence to support his finding. Reply Br. 16. Pricing is too
+imbued in the literature and history of the capitalist economy in our country
+and England before that to seriously raise this as an issue. Appellant
+suggests that "it should be easy for the Examiner to cite references that show
+at least one system in which a content provider is charged a price for
+advertising based on the actions of subscribers on their mobile devices or
+6
+
+Appeal2015-007006
+Application 12/380,457
+some abstraction thereof." Id. This conflates what the claims are directed
+to, viz. pricing, with the manner of doing so, viz. being based on the actions
+of subscribers on their mobile devices, and what is priced, viz. content
+provider advertising. These elements are considered once direction to an
+abstract concept is found.
+Basing a price on actions is no more than conceptual advice. No
+particular algorithm is recited and, more to the point, no use of the price in
+performing a transaction is recited either. Similarly, a description of what is
+priced is conceptual advice as to what is being priced. Concepts, being
+abstract ideas, are not patent eligible. Bilski v. Kappas, 561 U.S. at 601 and
+653.
+The introduction of a computer into the claims does not alter the analysis
+at Mayo step two.
+the mere recitation of a generic computer cannot transform a
+patent-ineligible abstract idea into a patent-eligible invention.
+Stating an abstract idea "while adding the words 'apply it'" is
+not enough for patent eligibility. Nor is limiting the use of an
+abstract idea "'to a particular technological environment."'
+Stating an abstract idea while adding the words "apply it with a
+computer" simply combines those two steps, with the same
+deficient result. Thus, if a patent's recitation of a computer
+amounts to a mere instruction to "implement[t]" an abstract
+idea "on ... a computer," that addition cannot impart patent
+eligibility. This conclusion accords with the preemption
+concern that undergirds our § 101 jurisprudence. Given the
+ubiquity of computers, wholly generic computer
+implementation is not generally the sort of "additional
+feature [e]" that provides any "practical assurance that the
+process is more than a drafting effort designed to monopolize
+the [abstract idea] itself."
+Alice Corp. Pty. Ltd., 134 S.Ct. at 2358 (citations omitted).
+
+7
+
+Appeal2015-007006
+Application 12/380,457
+"[T]he relevant question is whether the claims here do more than simply
+instruct the practitioner to implement the abstract idea [] on a generic
+computer." Alice Corp. Pty. Ltd., 134 S.Ct. at 2359. They do not.
+Taking the claim elements separately, the function performed by the
+computer at each step of the process is purely conventional. Using a
+computer to record data and arrive at a price amounts to electronic data
+collection and computation---one of the most basic functions of a computer.
+All of these computer functions are well-understood, routine, conventional
+activities previously known to the industry. In short, each step does no more
+than require a generic computer to perform generic computer functions.
+Looking at the claim as a whole, it accepts inputs to arrive at a number. Few
+operations are more primitive or generic.
+Considered as an ordered combination, the computer components of
+Appellant's method add nothing that is not already present when the steps
+are considered separately. Viewed as a whole, Appellant's method claims
+simply recite the concept of pricing as performed by a generic computer.
+The method claims do not, for example, purport to improve the functioning
+of the computer itself. Nor do they effect an improvement in any other
+technology or technical field. Instead, the claims at issue amount to nothing
+significantly more than an instruction to apply the abstract idea of pricing
+using some unspecified, generic computer. Under our precedents, that is not
+enough to transform an abstract idea into a patent-eligible invention. See
+Alice Corp. Pty. Ltd., 134 S. Ct. at 2360.
+
+We are not persuaded by Appellant's argument that
+the Examiner appears to be suggesting that Alice precludes
+patent eligibility for anything that is implemented on a generic
+
+8
+
+Appeal2015-007006
+Application 12/380,457
+computer. (See, for example, the Examiner's rationale re
+Claims 16 and 17.) However, this position is not supported by
+the case law. Alice does not proscribe the use of generic
+computer components. Alice merely states that the recitation of
+generic computer components does not render an abstract idea
+patentable.
+Reply Br. 17. While we agree with the premise, this argument is
+inapplicable to using a generic computer to implement an abstract idea. We
+agree that using a generic computer to implement a non-abstract process
+might be eligible.
+We are not persuaded by Appellant's argument that
+the invention at issue is not a generic computer implementation.
+Instead, it improves on the function of pricing advertising by
+sensing user responses to ads via actions on cellular platforms,
+distributing that data to servers via a network, and processing
+that data at the server. Even though some steps may be
+performed on generic components, the step of monitoring user
+actions on a mobile platform requires the use of a custom applet
+and is therefore not 'generic'. This constitutes: l) improvement
+in another technology, i.e, the cellular phone as a data
+collection tool; 2) an improvement in the functioning of the
+pricing system itself; and 3) meaningful limitations beyond
+linking the allegedly abstract idea to the technological
+environment itself.
+Id. None of the custom applet, manner of data collection, or pricing
+algorithm is recited in the claims. Simply monitoring using interactions is
+one of the most primitive operating system functions in any generic
+computing device, including cell phones. As such this cannot be the basis
+for finding the steps non-generic.
+
+9
+
+Appeal2015-007006
+Application 12/380,457
+As Appellant agreed that all claims stand or fall on the basis of the
+selected representative claim, the rejection as to the remaining claims is
+affirmed as well.
+
+Cl aims 1-6, 8, and 1 0--18 re} ected under 3 5 U.S. C. § 102 (b) as anticipated
+by Landesmann
+
+The Examiner entered this rejection for the first time in the Answer.
+Ans. 4--10. Appellant argues with specificity claims 5 and 6 only. Suppl.
+Br. 18-19; Reply Br. 18-19.
+This is insufficient to act as a separate argument under 37 C.F.R. § 41.37
+of the remaining claims. As our reviewing court held,
+we hold that the Board reasonably interpreted Rule 41.37 to
+require more substantive arguments in an appeal brief than a
+mere recitation of the claim elements and a naked assertion that
+the corresponding elements were not found in the prior art.
+In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011).
+
+Accordingly, the rejection as to claims 1--4, 8, and 10-18 is summarily
+affirmed. We select claim 1 as representative. As Appellant agreed that all
+claims stand or fall on the basis of the selected representative claim, the
+rejection as to the remaining claims is affirmed as well.
+
+Claims 7 and 9 rejected under 35 U.S.C. § 103(a) as unpatentable over
+Landesmann and Strauss
+
+Appellant does not argue either of these claims. Accordingly the
+rejection is summarily affirmed.
+
+10
+
+Appeal2015-007006
+Application 12/380,457
+Claims 1-18 rejected under 35 U.S.C. § 103(a) as unpatentable over Davis
+and Landesmann
+
+Appellant does not argue the substance of the rejection, but only that the
+Davis reference should not be accepted as prior art. As we find that these
+claims, with the exception of claims 7 and 9, are anticipated by Landesmann
+alone, supra, a finding as to whether Davis is prior art is not necessary to
+affirming the rejection. Anticipation is the epitome of obviousness.
+Structural Rubber Products Co. v Park Rubber Co., 749 F.2d 707, 716 (Fed.
+
+Cir. 1984).
+We select claim 1 as representative. As Appellant agreed that all claims
+stand or fall on the basis of the selected representative claim, the rejection as
+to the remaining claims is affirmed as well.
+
+CONCLUSIONS OF LAW
+The rejection of claims 1-18 under 35 U.S.C. § 101 as directed to nonstatutory subject matter is proper.
+The rejection of claims 1---6, 8, and 10-18 under 35 U.S.C. § 102(b) as
+anticipated by Landesmann is proper.
+The rejection of claims 7 and 9 under 35 U.S.C. § 103(a) as unpatentable
+over Landesmann and Strauss is proper.
+The rejection of claims 1-18 under 35 U.S.C. § 103(a) as unpatentable
+over Davis and Landesmann is proper.
+
+DECISION
+The rejection of claims 1-18 is affirmed.
+11
+
+Appeal2015-007006
+Application 12/380,457
+No time period for taking any subsequent action in connection with this
+appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l)(iv) (2011).
+
+AFFIRMED
+
+12
+
+

@@ -1,0 +1,348 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121793,033
+
+06/03/2010
+
+Koichiro Hayashi
+
+LL10Pl0116USO
+
+5848
+
+120039
+
+7590
+
+09/15/2016
+
+EXAMINER
+
+Terrile, Cannatti, Chambers & Holland, LLP-LL
+PO Box 203518
+Austin, TX 78720
+
+BUl,THA-OH
+
+ART UNIT
+
+PAPER NUMBER
+
+2825
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+tmunoz@tcchlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte KOICHIRO HAYASHI
+
+Appeal2015-000694
+Application 12/793,033 1
+Technology Center 2800
+
+Before THU A. DANG, LARRY J. HUME, and
+TERRENCE W. McMILLIN, Administrative Patent Judges.
+HUME, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) of the Final
+Rejection of claims 19-22. Appellant has previously canceled claims 7-18,
+and claims 1---6 are indicated as being allowed. App. Br. 1. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We REVERSE.
+
+1
+
+According to Appellant, the real party in interest is PS4 Luxco S.a.r.l.
+App. Br. 1.
+
+Appeal2015-000694
+Application 12/793,033
+STATEMENT OF THE CASE 2
+
+The Invention
+Appellant's disclosed and claimed invention "relates to an internal
+power supply circuit, a semiconductor device, and ... more particularly
+relates to an internal power supply circuit, [and] a semiconductor device ...
+which are capable of controlling a delay amount of an internal circuit."
+Spec. ,-r 1.
+
+Exemplary Claim
+Claim 19, reproduced below, is representative of the subject matter on
+appeal (emphasis added to contested limitation):
+19.
+
+A semiconductor device comprising:
+
+a reference potential generating circuit including first and
+second terminals,
+
+the reference potential generating circuit being
+configured to generate first and second reference potentials
+such that the first reference potential goes up and the second
+reference potential goes down in accordance with a
+temperature increase of the semiconductor device,
+the reference potential generating circuit being
+configured to supply the first and second reference potentials
+respectively to the first and second terminals;
+a control circuit coupled to the first and second terminals
+of the reference potential generating circuit to be supplied with
+the first and second reference potentials, the control circuit
+including a third terminal and being configured to supply the
+2
+
+Our decision relies upon Appellant's Appeal Brief ("App. Br.," filed
+May 30, 2014); Reply Brief ("Reply Br.," filed Oct. 14, 2014); Examiner's
+Answer ("Ans.," mailed Aug. 11, 2014); Final Office Action ("Final Act.,"
+mailed Dec. 30, 2013); and the original Specification ("Spec.," filed
+June 3, 2010).
+2
+
+Appeal2015-000694
+Application 12/793,033
+third terminal with one of the first and second reference
+potentials;
+an internal voltage generating circuit coupled to the third
+terminal to be supplied with the one of the first and second
+reference potentials, and the internal voltage generating circuit
+being configured to generate a power supply voltage with
+reference to the one of the first and second reference potentials;
+and
+an internal circuit supplied with the power supply
+voltage.
+Prior Art
+
+The Examiner relies upon the following prior art as evidence in
+rejecting the claims on appeal:
+Kojima et al. ("Kojima")
+
+US 5,448,159
+
+Sept. 5, 1995
+
+Mitsui et al. ("Mitsui")
+
+US 6,297 ,624 Bl Oct. 2, 2001
+
+Rejection on Appeal
+
+Claims 19-22 stand rejected under 35 U.S.C. § 103(a) as being
+obvious over the combination of Mitsui and Kojima. Final Act. 2.
+ISSUE
+Appellant argues (App. Br. 3-10; Reply Br. 1-8) the Examiner's
+rejection of claim 19 under 35 U.S.C. § 103(a) as being obvious over the
+combination of Mitsui and Kojima is in error. These contentions present us
+with the following issue:
+Did the Examiner err in finding the cited prior art combination teaches
+or suggests a semiconductor device that includes, inter alia, a "reference
+potential generating circuit ... configured to generate first and second
+
+3
+
+Appeal2015-000694
+Application 12/793,033
+reference potentials such that the first reference potential goes up and the
+second reference potential goes down in accordance with a temperature
+increase of the semiconductor device," as recited in claim 19?
+ANALYSIS
+We agree with particular arguments advanced by Appellant with
+respect to claims 19-22 for the specific reasons discussed below. We
+highlight and address specific findings and arguments regarding claim 19 for
+emphasis as follows.
+Appellant contends the Examiner erred in rejecting claim 19 over the
+combination of Mitsui and Kojima, particularly because Kojima, relied upon
+by the Examiner as teaching or suggesting the contested limitation, "is
+directed to generating a single reference voltage V REF having its temperature
+dependency cancelled by connecting a constant current source block 1 (as a
+constant current source having positive temperature dependency) to a load
+circuit block 2 (having a negative temperature dependency)." App. Br. 5
+(citing Kojima, col. 2, 11. 28-39 ("To attain the above object, in the present
+invention, a load circuit having a negative temperature dependency and
+composed of a series-parallel connection of a plurality of MOS transistors
+each of which is diode-connected is connected to a constant current source
+having a positive temperature dependency whose current value is determined
+by a current mirror circuit, a plurality of MOS transistors composing two
+loads of the current mirror circuit and a single resistor so that the voltage
+generated by the load circuit is outputted as the reference voltage.")
+(emphasis in original)). Id.
+
+4
+
+Appeal2015-000694
+Application 12/793,033
+Further in this regard, Appellant reemphasizes that Kojima does not
+teach or suggest generating both first and second reference potentials with
+their respective temperature dependencies, as claimed (App. Br. 6), but
+instead merely:
+discloses generating a single reference voltage VREF by
+connecting a constant current source block 1 (as a constant
+current source having positive temperature dependency) to
+a load circuit block 2 (having a negative temperature
+dependency) "so as to cancel the positive temperature
+dependency of the current of said constant current source."
+App. Br. 7 (citing Kojima, claim 1, col. 2, 11. 28-39, and col. 3, 11. 40-54.).
+Appellant further maintain:
+[E]ven if a person having ordinary skill in the art attempted
+to replace Mitsui's reference voltage generating circuits 2s,
+2p with Kojima's reference voltage generator 1, 2, they
+would readily and immediately recognize that the supplied
+reference voltages would have their respective temperature
+dependencies cancelled as a 'vhole, and as a result, the claim
+requirement - of providing a first reference potential that
+goes up and a second reference potential that goes down in
+accordance with a temperature increase of the
+semiconductor device - would not be met by the proposed
+combination of Mitsui and Kojima.
+Id.
+
+The Examiner responds by pointing to Mitsui as disclosing:
+the INTERNAL POWER SUPPLY CIRCUIT (e.g., internal
+power circuit 1; in Fig. 1 and related in Figs. 2-5) generates the
+first reference potential goes up Vref from 0°C to positive
+Temperature °C equivalent with VI and Vee as shown in Fig. 4,
+and generates the reference potential Vrefp, and equivalently
+corresponds to internal power supply voltage Vccp as shown in
+Fig. 5. Similarly, generates the second reference potential goes
+5
+
+Appeal2015-000694
+Application 12/793,033
+down Vref from negative Temperature °C to 0°C equivalent
+with V2 and V cc as shown in Fig. 4, and generates the
+reference potential Vrefs, and equivalently corresponds to
+internal power supply voltage Vccs as shown in Fig. 5.
+Ans. 2-3.
+
+FIG. 4 B
+v
+
+"FIG. 4A shows a first modification of the embodiment 1 of the
+invention, and FIG. 4B shows a temperature dependency of the reference
+voltage exhibited when a resistance element shown in FIG. 4A is
+employed." Mitsui col. 9, 11. 40-43.
+
+F 1 G. 5
+2
+
+I
+
+PERIPHERAL VOLTAGE
+DOWN CONVERTER
+ls
+
+REfERENCE
+
+VotJME
+GENERATING
+CIRCUIT
+
+Vrefs
+
+SENSE VOLTAGE
+
+DOWN CONVERTER
+
+1
+
+"FIG. 5 shows a structure of a main portion of a semiconductor
+memory device according to an embodiment 2 of the invention." Mitsui
+col. 9, 11. 44--46.
+6
+
+Appeal2015-000694
+Application 12/793,033
+The Examiner finds, "the reference of Mitsui discloses one of two
+references potential Vrefp/Vrefs corresponding to internal power supply
+voltage Vccp/Vccs is goes up/down in accordance with a temperature
+increase as shown in Figs. 4--5 of Mitsui and related in Figs. 1-2 of Mitsui."
+Ans. 3. We disagree with the Examiner's finding regarding the teaching of
+Mitsui, particularly Figure 4B.
+We disagree because Figure 4B teaches a single reference voltage
+being generated, but one in which:
+a boundary region (temperature at which the temperature
+characteristic changes) between the low and high temperature
+regions is set to a temperature near 0° C. However, this
+boundary temperature may be set to an appropriate value in
+accordance with the operation temperature region in which the
+reference voltage generating circuit or the semiconductor
+memory device operates.
+Mitsui col. 15, 1. 63 through col. 16, 1. 2.
+We also disagree with the Examiner's reliance upon Mitsui Figure 5
+because Mitsui actually teaches "reference voltages Vrefp and Vrefs can
+have the same temperature characteristics, and the temperature
+characteristics and voltage levels of internal power supply voltages Vccp
+and Vccs can be held constant over a wide temperature range so that the
+internal circuits (peripheral circuits and sense amplifier circuit) can operate
+stably." Mitsui col. 16, 11. 19-24.
+The Examiner further cites Kojima Figure 5 as teaching:
+one reference voltage output from -0.1 V to 0.4V with n =2, and
+the other reference voltage output from 0 .1 V to -0 .2V with
+n = 3 in accordance with the temperature increase from 0°C to
+150°C as shown in Fig. 5 of Kojima, and equivalent with
+7
+
+Appeal2015-000694
+Application 12/793,033
+internal voltage generating circuits 15A-15C in Fig. 1 and Fig.
+14 of appellant.
+Ans. 4.
+However, we note "FIG. 5 [of Kojima] is a graph showing a deviation
+of reference voltage depending on temperature (reference ofVREF: 25° C.)
+in the reference voltage generator in FIG. 1." Kojima col. 3, 11. 7-9. We
+find Kojima Figure 5 teaches temperature dependency of the reference
+voltage based upon different gain coefficient ratios, and does not teach or
+suggest generation of two different reference voltages with opposite
+temperature dependencies, as claimed. See Kojima col. 5, 11. 49---66.
+Accordingly, based upon the findings above, on this record, we are
+persuaded of at least one error in the Examiner's reliance on the combined
+teachings and suggestions of the cited prior art combination to teach or
+suggest the disputed limitation of claim 19, such that we find error in the
+Examiner's resulting legal conclusion of obviousness. Therefore, we cannot
+sustain the Examiner's obviousness rejection of independent claim 19, and
+claims 20-22 which depend therefrom and stand therewith. See Claim
+Grouping, supra.
+CONCLUSION
+The Examiner erred with respect to the obviousness rejection of
+claims 19-22 under 35 U.S.C. § 103(a) over the cited prior art combination
+of record, and we do not sustain the rejection.
+DECISION
+We reverse the Examiner's decision rejecting claims 19-22.
+REVERSED
+8
+
+

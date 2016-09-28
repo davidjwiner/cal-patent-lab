@@ -1,0 +1,311 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121788,669
+
+05/27/2010
+
+Moon-Jae LEE
+
+67744/Sl437
+
+7111
+
+23363
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+Lewis Roca Rothgerber Christie LLP
+POBOX29001
+Glendale, CA 91209-9001
+
+TUNG, DAVID
+
+ART UNIT
+
+PAPER NUMBER
+
+2694
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pto@lrrc.com
+pair_cph@firsttofile.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MOON JAE-LEE, WON-JUN SONG, SUN-HEE LEE,
+YOUNG-HEE LEE, MU-HYUN KIM, HYE-DONG KIM,
+and JI-YOUNG KIM
+
+Appeal2014-008796
+Application 12/788,669 1
+Technology Center 2600
+
+Before MARC S. HOFF, JOHNNY A. KUMAR, and KAMRAN JIVANI,
+Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Final Rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+Appellants' invention is a touch screen display apparatus including
+sensor units to sense and process light signals, and pixel units to drive pixels
+according to the light signal processing performed by the sensor unit. The
+apparatus includes a substrate. A plurality of pixel units are disposed on the
+
+1
+
+The real party in interest is Samsung Display Co., Ltd.
+
+Appeal2014-008796
+Application 12/788,669
+substrate at a first layer, each including a first electrode, a second electrode,
+and an emission layer interposed between the first electrode and the second
+electrode. A plurality of sensor units are also disposed on the substrate at a
+first layer, each including a sensor first electrode, a sensor second electrode,
+and an organic light receiving layer interposed between the sensor first
+electrode and the sensor second electrode. See Abstract.
+Claim 1 is exemplary of the claims on appeal:
+1. A touch screen display apparatus comprising:
+a substrate;
+a plurality of sensor units on the substrate at a first layer
+and configured to sense and to process light signals, wherein
+each of the sensor units comprises a sensor first electrode, a
+sensor second electrode, and an organic light receiving layer
+interposed between the sensor first electrode and the sensor
+second electrode;
+a plurality of pixel units on the substrate at the first layer
+and configured to drive pixels according to the light signal
+processing performed by the sensor units, wherein each of the
+pixel units comprises a first electrode, a second electrode, and
+an emission layer interposed between the first electrode and the
+second electrode; and
+a plurality of transistors on the substrate at a second layer
+that is interposed between the substrate and the first layer.
+
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Cok
+
+US 2004/0140960 Al
+
+July 22, 2004
+
+Park '038
+
+US 2006/0146038 Al
+
+July 6, 2006
+
+Choi
+
+US 2008/0303023 Al
+
+Dec. 11, 2008
+
+Park '840
+("Park II")
+
+US 2009/0315840 Al
+
+Dec. 24, 2009
+
+2
+
+Appeal2014-008796
+Application 12/788,669
+Claims 1-20 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Choi, Park, Cok, and Park II.
+Throughout this decision, we make reference to the Appeal Brief
+("App. Br.," filed Jan. 24, 2014), the Reply Brief ("Reply Br.," filed Aug. 5,
+2014), and the Examiner's Answer ("Ans.," mailed June 5, 2014) for their
+respective details.
+
+ISSUES
+1. Does Choi disclose or suggest a plurality of sensor units on the
+
+substrate at a first layer, and a plurality of pixel units on the substrate at the
+first layer?
+2. Does Choi disclose or suggest forming a first electrode of the pixel
+unit and a sensor first electrode of the sensor unit on a same layer?
+3. Does Park disclose or suggest forming a first electrode of the pixel
+unit and a sensor first electrode of the sensor unit on a same layer?
+
+ANALYSIS
+CLAIMS 1-11
+
+Appellants' argument that Choi does not disclose a plurality of sensor
+units on the substrate at a first layer, and a plurality of pixel units at the first
+layer, is not persuasive to show Examiner error.
+
+3
+
+Appeal2014-008796
+Application 12/788,669
+Figure 1 of Choi is reproduced below:
+
+L__>...__..........+-"-.,.._...................................................__..,._...........~"+-..........--~~
+·:g:~. ·:?~
+.................
+
+: ............. -?
+
+1<1~? :~~-~-
+
+·-··········,-,'.·
+
+i: f;:~~
+
+: ?O
+
+.,................................................... : ~~.;) .....................................................,.,,.
+
+.
+
+...;..----. i: :-::
+
+~>~/~/~."~/-'./_..........
+~.
+
+-.......--......................._.,_.............._...
+1~\':; ~~1·~
+~
+
+·::~2 ~:~.:~
+
+.............. . .........•
+
+~ ~~(~
+
+...,.................................. 1.~~(:i ..............................,.,,..
+
+Figure 1 of Choi is a schematic sectional view illustrating a pixel of
+an organic light-emitting display apparatus.
+The Examiner finds that sensor regions 150 of Choi, including gate
+electrode 162, drain/source electrodes 163 and 164, and light receiving layer
+161, correspond to the "plurality of sensor units on the substrate at a first
+layer" recited in claim 1. Ans. 4.
+The Examiner further finds that display regions 120 of Choi,
+including light emission layer 142, first electrode 141, and second electrode
+143, correspond to the "plurality of pixel units at the first layer" recited in
+claim 1. Ans. 4--5.
+In the Response to Argument, the Examiner explains that "Choi' s
+sensor region 150 and pixel region 120 are both above substrate 110, which
+serves at a bottom layer." Ans. 23.
+We agree with the Examiner's finding that "'first layer' is undefined,
+and that the terminology does not say 'directly.[']" Ans. 22. Appellants
+4
+
+Appeal2014-008796
+Application 12/788,669
+argue in the Brief that the sensor TFT 160 and the organic light emitting
+device 140 "are located at different layers." App. Br. 6. Appellants have
+made no argument that the Specification requires the claimed "layer" to be
+construed narrowly, and have presented no evidence that any disclosure
+precludes the Examiner from construing all the elements above substrate
+110 as being at the same "layer." We therefore agree with the Examiner's
+
+finding that the elements constituting sensor TFT 160, as well as the
+elements constituting organic light-emitting device 140, are both present in
+Choi on the substrate at a first layer, in correspondence with the limitations
+of claim 1.
+We recognize that the content of the Examiner's Answer is somewhat
+self-contradictory, as it also contains an annotated copy of Choi Figure 1,
+with an annotation referring to element 110 as "SUBSTRATE AT A FIRST
+LAYER." Ans. 22. We resolve the inconsistency between the Examiner's
+positions in favor of the position characterizing Choi' s sensor region and
+pixel region as being above the first level, because that position has been
+held throughout prosecution, including in the explanation of the rejection in
+the Examiner's Answer (see Ans. 4) and because it avoids an illogical
+application of the reference to the claim language. Appellants have been on
+notice regarding the Examiner's position, and had full opportunity to
+respond to it.
+Appellants' only argument concerning the Park, Cok, and Park II
+references is that they fail to cure the argued deficiencies of Choi. We find
+no deficiencies, as stated supra. As a result, we sustain the Examiner's
+§ 103 rejection of claim 1, as well as claims 2-11 not separately argued,
+over Choi, Park, Cok, and Park II.
+
+5
+
+Appeal2014-008796
+Application 12/788,669
+CLAIMS 12-20
+Appellants' argument that Choi does not disclose "forming a first
+electrode of the pixel unit and a sensor first electrode of the sensor unit on a
+same layer" is substantively the same argument Appellants made with
+respect to the rejection of claim 1 over Choi. See App. Br. 10-11. As
+explained supra, we find no error in the Examiner's finding that the sensor
+TFT 160 and the organic light-emitting device 140 of Choi correspond to the
+claimed sensor unit and pixel unit respectively, as well as the Examiner's
+finding that the two units are formed on the same layer.
+Alternatively, Appellants have not presented any argument in the
+Reply Brief to refute the Examiner's finding in the Answer that Park
+discloses a first electrode of a pixel unit and the sensor first electrode of the
+sensor unit being on a same layer. See Ans. 14--15 and 24; Park Fig. 3 and
+
+iTiT 164--174.
+As we find no error, we sustain the Examiner's§ 103 rejection of
+claims 12-20 over Choi, Park, Cok, and Park II.
+
+CONCLUSIONS
+1. Choi discloses a plurality of sensor units on the substrate at a first
+layer, and a plurality of pixel units on the substrate at the first layer.
+2. Choi discloses forming a first electrode of the pixel unit and a
+sensor first electrode of the sensor unit on a same layer.
+3. Park discloses forming a first electrode of the pixel unit and a
+sensor first electrode of the sensor unit on a same layer.
+
+6
+
+Appeal2014-008796
+Application 12/788,669
+ORDER
+The Examiner's rejection of claims 1-20 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+7
+
+

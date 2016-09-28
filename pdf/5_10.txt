@@ -1,0 +1,239 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/007, 175
+
+01114/2011
+
+AmipJ. Shah
+
+82467409
+
+6081
+
+56436
+
+7590
+
+09/20/2016
+
+Hewlett Packard Enterprise
+3404 E. Harmony Road
+Mail Stop 79
+Fort Collins, CO 80528
+
+EXAMINER
+VO,CECILEH
+
+ART UNIT
+
+PAPER NUMBER
+
+2169
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+hpe.ip.mail@hpe.com
+mkraft@hpe.com
+chris.mania@hpe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AMIP J. SHAH and MANISH MARWAH
+
+Appeal2015-005825
+Application 13/007,175
+Technology Center 2100
+
+Before JOHN A. EVANS, LINZY T. McCARTNEY, and
+JOHN P. PINKERTON, Administrative Patent Judges.
+EVANS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of Claims 1-20. App. Br. 2. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We REVERSE. 2
+1
+
+The Appeal Brief identifies Hewlett-Packard Development Company, L.P.,
+as the real party in interest. App. Br. 2.
+2
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed Oct. 27, 2014, "App. Br."), the Reply Brief
+
+Appeal2015-005825
+Application 13/007,175
+STATEMENT OF THE CASE
+The claims relate to systems and methods of determining sub-tree
+similarity for component substitution. See Abstract.
+
+INVENTION
+Claims 1, 10, and 18 are independent. The claims have not been
+argued separately and therefore stand or fall together. 37 C.F.R.
+§ 41.37(c)(l)(iv). An understanding of the invention can be derived from a
+reading of representative Claim 1 (see App. Br. 8), which is reproduced
+below with some formatting added:
+
+1.
+A method of determining sub-tree similarity for
+component substitution, the method carried out by program
+code stored on non-transient computer-readable medium and
+executed by a processor, the method comprising:
+assigning a similarity metric to a plurality of trees stored
+in computer-readable media,
+wherein similarity of individual nodes is combined
+together to determine the similarity metric between all nodes of
+the plurality of trees;
+constructing a distance matrix in computer-readable
+media, the distance being between sub-trees based on the
+assigned similarity metric; and
+
+(filed May 14, 2015, Reply Br."), the Examiner's Answer (mailed Mar. 16,
+2015, "Ans."), the Final Action (mailed June 19, 2014, "Final Act."), and the
+Specification (filed Oct. 17, 2012, "Spec.") for their respective details.
+2
+
+Appeal2015-005825
+Application 13/007,175
+correlating sub-trees in the computer-readable media
+based on the distance matrix.
+
+References and Rejections3
+The Examiner relies upon the prior art as follows:
+Gupta, et al.,
+
+US 6,513,059 Bl
+
+Issued Jan. 28, 2003
+
+Jing, et al.,
+
+US 8,352,465 Bl
+
+Filed Sept. 3, 2010
+
+Barkol, et al.,
+
+US 2012/0106367 Al
+
+Filed Oct. 30, 2010
+
+1. Claims 1--4, 6-13, and 15-20 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Barkol and Jing. Final Act. 3-8.
+2. Claims 5 and 14 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Barkol, Jing, and Gupta. Final Act. 8-10.
+
+ANALYSIS
+We have reviewed the rejections of Claims 1-20 in light of
+Appellants' arguments that the Examiner erred. We find Appellants'
+arguments persuasive of error. We consider Appellants' arguments seriatim,
+as they are presented in the Appeal Brief, pages 4--7.
+
+3
+
+The Specification is objected to. Final Act. 3. As Appellants acknowledge
+(see App. Br. 4), objections are reviewed by way of petition to the Director
+of the USPTO under 3 7 C.F .R. § 1.181. The Board will not hear or decide
+issues pertaining to objections and formal matters inasmuch as they are not
+properly before the Board. See MPEP 706.01.
+3
+
+Appeal2015-005825
+Application 13/007,175
+INDEPENDENT CLAIMS 1, 10, AND 18: OBVIOUSNESS OVER BARKOL AND JING
+Appellants argue these claims as a group and contend they are each
+patentable in view of the limitations of Claim 1. App. Br. 4.
+
+The similarity metric between all nodes of the plurality of trees.
+Representative Claim 1 (see App. Br. 4) recites, inter alia, "wherein
+similarity of individual nodes is combined together to determine the
+similarity metric between all nodes of the plurality of trees." Appellants
+contend this recitation is not taught by Jing. Id. Appellants argue Jing
+discloses "For example, for a cluster of images x, y, and z, each image is
+assigned a ranking score within a set of search results as a whole (e.g., x=3,
+y=7, z=54)." Id. at 4--5. (Quotation marks omitted.) According to
+Appellants and contrary to the Examiner's finding, Jing does not actually
+state "as similarity of individual nodes combined together," as claimed. Id.
+at 5. (Quotation marks omitted.) 1A1ppellants maintain assigning each image
+
+a ranking score does not disclose that a similarity of individual nodes is
+combined together. Id.
+The Examiner's Answer finds Jing teaches that a similarity matrix is a
+similarity value of each image. Ans. 3. Jing teaches a hierarchical
+clustering of images is generating by using the similarity matrix for the
+images. Id. A canonical image, i.e., the similarity metric between all
+images of hierarchical clustering, is identified based on the highest rank
+within that cluster. Id. The canonical image is a "visual summary" of the
+semantic content of each cluster of images. Id. (citing Jing, col. 6, 1. 17---col.
+7, 1. 12). The Examiner finds, thus, Jing teaches the claimed "similarity of
+4
+
+Appeal2015-005825
+Application 13/007,175
+individual nodes is combined together to determine the similarity metric
+between all nodes of the plurality of trees." Id. at 5.
+Appellants' reply reiterates the claims "assign[] a similarity metric to
+a plurality of trees," whereas, the Examiner cites Jing as teaching "a
+hierarchical clustering of images is [generated] by using the similarity
+matrix, the similarity matrix is a similarity value of each image." Reply Br.
+1 (citing Ans. 3).
+We agree with Appellants. The claims recite, inter alia, "assigning a
+similarity metric to a plurality of trees." As found by the Examiner, Jing
+relates to a similarity relationship among images. Ans. 3. The Examiner
+does not cite Jing as providing a teaching relating to the claimed "trees." In
+view of the foregoing, we decline to sustain the rejection of independent
+claims 1, 10, and 18.
+THE DEPEr-~DEr-~T CLAI~v1S
+
+The Examiner does not cite Gupta in relation to the foregoing
+discussion of the independent claims. See Ans. 4---6. Therefore, in view of
+the foregoing discussion, we decline to sustain the rejections of the
+dependent claims.
+
+5
+
+Appeal2015-005825
+Application 13/007,175
+DECISION
+The rejection of Claims 1-10 under 35 U.S.C. § 103 is REVERSED.
+
+REVERSED
+
+6
+
+

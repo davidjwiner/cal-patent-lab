@@ -1,0 +1,435 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/982, 156
+
+12/30/2010
+
+James D. Bennett
+
+AOS.01310000
+
+7892
+
+68365
+
+7590
+
+09/19/2016
+
+FIALA & WEA VER P.L.L.C.
+C/O CPA GLOBAL
+900 2nd A venue South, Suite 600
+MINNEAPOLIS, MN 55402
+
+EXAMINER
+NGUYEN, PHU K
+
+ART UNIT
+
+PAPER NUMBER
+
+2617
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+DOCKETING@CPAGLOBAL.COM
+docketing@fwiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JAMES D. BENNETT and JEYHAN KARAOGUZ
+
+Appeal2015-002705
+Application 12/982, 156
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, JOHN P. PINKERTON, and
+GARTH D. BAER, Administrative Patent Judges.
+MacDONALD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-002705
+Application 12/982, 156
+STATEMENT OF CASE
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+Final Rejection of claims 1-20, which constitute all the claims pending in
+this application. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm-in-part.
+
+Exemplary Claims
+Exemplary claims 1, 4, 7, 12, and 18 under appeal read as follows
+(emphasis added):
+1.
+A method used in an application containing code
+of a programming language, the method comprising:
+
+generating a first command by execution of the
+code of the application by at least one processor
+directing at least in part a first configuration of a first
+region of a screen to support a first content, the first
+content being three-dimensional content, and the first
+configuration being a first three-dimensional
+configuration;
+generating a second command by execution of
+the code of the application by at least one processor
+directing at least in part a second configuration of a
+second region of the screen to support a second content;
+causing the display of the first content within the
+first region of the screen based on the first command; and
+causing the display of the second content within
+the second region of the screen based on the second
+command simultaneously with the display of the first
+content within the first region of the screen.
+4.
+A software development kit, stored within a
+computer-readable memory, for a programming language
+that enables simultaneous display on a screen of both
+two-dimensional content and three-dimensional content,
+the software development kit comprising:
+2
+
+Appeal2015-002705
+Application 12/982, 156
+a source code editor operable to enable
+applications to be generated based on code of the
+programming language;
+a compiler that compiles code written in the
+programming language into compiled code; and
+
+at least one library module that responds to first
+program calls by assisting in establishing a first region
+of a screen, the establishing of the first region involving
+placing the first region in a first configuration to
+support display offirst content, the first configuration
+being a first three-dimensional configuration, and the
+first content being three-dimensional content;
+the at least one library module that responds to
+second program calls by assisting in establishing a
+
+second region of the screen, the establishing of the
+second region involving placing the second region in a
+second configuration to support display of second
+content, the first configuration being different than the
+second configuration; and
+the compiler being configured to link the compiled
+code \vith the at least one library module.
+7.
+A computer program product stored within a
+computer-readable memory for enabling a processor to display
+content on a screen that supports two-dimensional display and
+three-dimensional display, the computer program product
+compnsmg:
+
+one or more library modules that receive one or more
+commands, the one or more library modules comprising a
+two-dimensional display supporting module, a threedimensional display supporting library module, and a mixed
+two-dimensional or three-dimensional display supporting
+library module, the mixed two-dimensional and threedimensional display supporting library module being
+configured to assist in establishing multiple regions of the
+screen and placing the multiple regions in one or more
+
+3
+
+Appeal2015-002705
+Application 12/982, 156
+
+corresponding configurations to support display of twodimensional and three-dimensional content;
+first code that delivers the one or more commands to the
+one or more library modules, the one or more commands being
+indicative of a viewing dimension, the one or more library
+modules responding to the one or more commands by at least
+in part placing a first screen region in a selected one of a twodimensional configuration or a three-dimensional
+configuration, the selection in conformance with the viewing
+dimension; and
+second code that at least assists in establishing display of
+content in the first screen region of the screen.
+12. A method used in an application containing code
+of a programming language, the method comprising:
+
+generating a first command by execution of the code of
+the application by at least one processor directing a twodimensional display of the two-dimensional content within a
+first region of the screen; and
+generating a second command by execution of the code
+of the application by at least one processor directing a threedimensional display of the three-dimensional content within a
+second region of the screen simultaneously with the twodimensional display of the two-dimensional content within the
+first region of the screen.
+18. A program library supporting a programming
+language and stored within a computer-readable memory, the
+program library comprising:
+
+a first predefined module that responds to first program
+calls by assisting in establishing a first region of a screen, the
+establishing of the first region involving placing the first
+region in a first configuration to support display offirst
+content, the first configuration being a first three-dimensional
+configuration, and the first content being three-dimensional
+content;
+4
+
+Appeal2015-002705
+Application 12/982, 156
+a second predefined module that responds to second
+program calls by assisting in establishing a second region of
+the screen, the establishing of the second region involving
+placing the second region in a second configuration to
+support display of second content, the first configuration
+being different than the second configuration; and
+a third predefined module that responds to third program
+calls by assisting in establishing multiple regions of the
+screen, the establishing of the multiple regions involving
+placing the multiple regions in one or more corresponding
+configurations to support display of two-dimensional and
+three-dimensional content.
+Reference and Rejection on Appeal
+
+The Examiner rejected claims 1-20 under 35 U.S.C. § 103(a) as being
+unpatentable over Ijzerman (WO 2005/045488 Al ). 1
+
+Appellants' Contentions 2
+
+1. Appellants contend that the Examiner erred in rejecting claim l
+under 35 U.S.C. § 103(a) because:
+The teachings of Ijzerman are fundamentally deficient with
+respect to independent claim 1 for at least the reason that
+Ijzerman does not teach or suggest generating a first or second
+command directing a configuration of a region of a screen by
+execution of the code of the application. Indeed, nowhere does
+Ijzerman disclose an application containing code, or the code
+executed by at least one processor, let alone generating a
+1
+
+The patentability of claims 2-3, 5-6, 8-11, 13-17, and 19-20 is not
+separately argued from that of claims 1, 4, 7, 12, and 18. See Appeal Br. 10,
+15-19. Except for our ultimate decision, claims 2-3, 5-6, 8-11, 13-17, and
+19-20 are not discussed further herein.
+2
+These contentions are determinative as to the rejection on appeal.
+Therefore, Appellants' other contentions are not discussed herein.
+5
+
+Appeal2015-002705
+Application 12/982, 156
+
+command to direct configuration of a screen region by
+execution of the code of the application.
+There is no disclosure in Ijzerman that teaches or suggests
+generating a command, execution of the code of the
+application, or directing at least in a part a configuration of a
+region of a screen to support content.
+Thus, according to Ijzerman, the simultaneous display of 2D and
+3D images are enabled because of the waveguide, more
+specifically, its active matrix arrangement. Consequently, the
+structure of waveguide has no bearing on the generation of a
+command by execution of the code of an application, let alone
+a command directing at least in part a configuration ofa region
+of a screen to support a content. Moreover, even ifprocessor 40
+or graphic processor 42 ofIjzerman do generate commands by
+executing the "code of the operating software to control the
+data process,"' which they do not, this is not what is claimed.
+That is to say, claim 1 does not recite code of the operating
+software to control the data process. Rather, claim 1 recites
+"generating a first command by execution of the code of the
+application by at least one processor directing at least in part a
+first configuration of a first region of a screen to support a first
+content" and "generating a second command by execution of the
+code of the application by at least one processor directing at least
+in part a second configuration of a second region of the screen to
+support a second content."
+Appellant notes that nowhere does Ijzerman even mention the
+word "command,"' nor does Ijzerman even mention similar
+words to "command,"' such as "instruction." Furthermore,
+Ijzerman does not even mention the word "application" (as used
+to mean "program"), or related words, such as "program,"'
+"code," "execution,"' etc. Ijzerman primarily relates to hardware,
+in particular disclosing a waveguide for autostereoscopic
+display. Ijzerman simply does not teach or suggest, or even
+relate to, the generating of a first command and a second
+command by execution of the code of the application by at least
+
+6
+
+Appeal2015-002705
+Application 12/982, 156
+
+one processor directing at least in part configurations of
+regions of a screen to support first and second content.
+Appeal Br. 8-10, Appellants' emphasis omitted, panel's emphasis added.
+2. Appellants also contend that the Examiner erred in rejecting claims
+4, 7, 12, and 18 under 35 U.S.C. § 103(a) because:
+On page 4 of the Final Office Action, the Examiner rejected
+claims 4-20 under 35 U.S.C. § 103(a) as allegedly being
+unpatentable over Ijzerman. Specifically, the Examiner asserts:
+"Claims 4-6, 7-11, 12-17, and 18-20 claim a software
+development kit, a computer program product, a method, and a
+program library supporting a programming language based on
+the method of claims 1-3 and details which would have been
+obvious in view of Ijzerman layer display; therefore, they are
+rejected under the same reason." ... Appellant [submits] that
+
+claims 4-20 are not based on the method of claims 1-3 as they
+are directed towards different patent-eligible subject matter
+categories and recite different features from claims 1-3.
+Because USPTO personnel must consider all claim limitations
+when determining patentability of an invention over the prior
+art, Appellant [requests] that the Examiner provide further
+detail where the features of claims 4-20 is disclosed in order to
+provide Appellant with a full and fair opportunity to respond.
+Claim 12 is patentable over Ijzerman for similar reasons to
+independent claim 1 and 4 and further in view of its own features.
+
+For example, Ijzerman fails to teach or suggest generating
+commands by execution of the code of the application by at
+least one processor directing two-dimensional and threedimensional display of content. Nowhere does ljzerman even
+mention the word "command,"' nor does Ijzerman even
+mention similar words to "command," such as "instruction."
+Furthermore, ljzerman does not mention the word
+"application" (as used to mean "program''), or related words,
+such as "program," ["]code," ["]execution," etc. ljzerman
+simply does not teach or suggest, or even relate to, the
+generating of a first command and a second command by
+
+7
+
+Appeal2015-002705
+Application 12/982, 156
+
+execution of the code of the application by at least one
+processor directing two-dimensional display and threedimensional display, respectively, of content.
+Appeal Br. 10-12, 17, Appellants' emphasis omitted, panel's emphasis
+added.
+
+Issue on Appeal
+
+Did the Examiner err in rejecting claims 1, 4, 7, 12, and 18 as being
+obvious?
+
+ANALYSIS
+As to Appellants' above contention 1, we are not persuaded the
+Examiner erred in rejecting claim 1. We agree with the Examiner that
+Ijzerman teaches a processor that sends control signals to perform the
+functionality recited in claim 1 (i.e., directing a first configuration of a first
+region of a screen to support first content, where the first configuration is a
+three-dimensional configuration and the first content is three-dimensional
+content, and directing a second configuration of a second region of the
+screen to support second content). Ans. 4 (citing Ijzerman p. 13, 11. 12-15;
+p. 17, 11. 16-21 ). Thus, we agree with the Examiner that claim 1 would have
+been obvious to one of ordinary skill in the art in light of Ijzerman.
+Accordingly, we sustain the rejection of claim 1.
+As to Appellants' above contention 2, we are persuaded the Examiner
+erred in rejecting claims 4, 7, and 18, but we are not persuaded the Examiner
+erred in rejecting claim 12. The Examiner has the burden of establishing a
+prima facie case of obviousness regarding the subject matter recited in the
+claims on appeal. In re Oetiker, 977 F.2d 1443, 1445 (Fed. Cir. 1992)
+8
+
+Appeal2015-002705
+Application 12/982, 156
+("[The] [patent] examiner bears the initial burden, on review of the prior art
+or on any other ground, of presenting a prima facie case of
+unpatentability."); see also In re Jung, 637 F.3d 1356, 1365---66 (Fed. Cir.
+2011) (explaining that while "the applicant must identify to the Board what
+the examiner did wrong, ... the examiner retains the burden to show
+invalidity").
+We agree with Applicants that claims 4, 7, and 18 are directed
+towards different subject matter categories and recite substantially different
+claim limitations from claim 1. 3 See Appeal Br. 11. However, in rejecting
+claims 4, 7, and 18, the Examiner did not separately consider the limitations
+of those claims, and instead, indicated that the claims claim "a software
+development kit, a computer program product ... and a program library
+supporting a programming language based on the method of claims 1-3 ...
+which would have been obvious in view ofljzerman ... therefore, [the
+claims] are rejected under the same reason [sic]." Final Act. 4. The
+Examiner's rationale is not sufficient to meet the burden of establishing a
+prima facie case of obviousness for claims 4, 7, and 18. Accordingly, we do
+not sustain the rejection of claims 4, 7, and 18.
+However, we do not agree with Appellants that claim 12 is directed
+towards a different subject matter category from claim 1. See Appeal Br. 11.
+Instead, both claims 1 and 12 are method claims. Further, we do not agree
+with Appellants that claim 12 recites substantially different claim limitations
+
+3
+
+Should there be further prosecution of this application, we suggest that the
+Examiner re-review all pending claims and consider whether a restriction
+requirement is appropriate.
+9
+
+Appeal2015-002705
+Application 12/982, 156
+from claim 1. 4 See id. Rather, similar to claim 1, we agree with the
+Examiner that Ijzerman teaches a processor sending control signals to
+perform the functionality recited in claim 12 (i.e., directing a twodimensional display of two-dimensional content within a first region of a
+screen, and directing a three-dimensional display of three-dimensional
+content within a second region of the screen simultaneously with the twodimensional display of the two-dimensional content within the first region of
+the screen). Ans. 6-7 (citing Ijzerman p. 13, 11. 12-15; p. 17, 11. 16-21).
+Thus, we agree with the Examiner that the rationale for rejecting claim 1
+applies to claim 12. See Final Act. 4. Accordingly, we sustain the rejection
+of claim 12.
+
+CONCLUSIONS
+(1) The Examiner has not erred in rejecting claims 1-3 and 12-17 as
+being unpatentable under 35 U.S.C. § 103(a).
+(2) Appellants have established that the Examiner erred in rejecting
+claims 4--11 and 18-20 as being unpatentable under 35 U.S.C. § 103(a).
+(3) Claims 1-3 and 12-17 are not patentable.
+(4) On this record, claims 4--11 and 18-20 have not been shown to be
+
+unpatentable.
+
+4
+
+Although not necessary to reach our conclusion, we note that Appellants'
+arguments regarding patentability of claim 12 are substantially similar to its
+arguments regarding patentability of claim 1. See Appeal Br. 17-18.
+10
+
+Appeal2015-002705
+Application 12/982, 156
+DECISION
+We affirm the Examiner's rejections of claims 1-3 and 12-17 as
+being unpatentable under 35 U.S.C. § 103(a).
+We reverse the Examiner's rejection of claims 4--11 and 18-20 as
+being unpatentable under 35 U.S.C. § 103(a).
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+11
+
+

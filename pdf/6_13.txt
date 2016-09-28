@@ -1,0 +1,333 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/041,889
+
+03/04/2008
+
+Tatsuo KUNISHI
+
+36856.1628
+
+2318
+
+54066
+
+7590
+
+09/19/2016
+
+MURATA MANUFACTURING COMPANY, LTD.
+C/O KEA TING & BENNETT, LLP
+1800 Alexander Bell Drive
+SUITE 200
+Reston, VA 20191
+
+EXAMINER
+MURATA, AUSTIN
+
+ART UNIT
+
+PAPER NUMBER
+
+1712
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+JKEATING@KBIPLA W.COM
+uspto@kbiplaw.com
+cbennett@kbiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+Exparte TATSUO KUNISHI, MAKOTO OGAWA, and
+AKIHIRO MOTOKI 1
+Appeal2015-002967
+Application 12/041,889
+Technology Center 1700
+
+Before ADRIENE LEPIANE HANLON, CHRISTOPHER L. OGDEN, and
+BRIAND. RANGE, Administrative Patent Judges.
+OGDEN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's final
+decision rejecting claims 1, 2, 4-9, 11, 13-15, and 17-24 in the aboveidentified application. We have jurisdiction pursuant to 35 U.S.C. § 6(b ).
+We AFFIRM.
+
+1
+
+According to Appellants, the real party in interest is Murata Manufacturing
+Co., Ltd. Appeal Br. 2.
+
+Appeal2015-002967
+Application 12/041,889
+BACKGROUND
+Appellants' invention relates to "a method of manufacturing a
+multilayer electronic component, and particularly to a method of
+manufacturing a multilayer electronic component in which external
+electrodes are formed directly on the outer surfaces of a laminate by
+electro less plating." Spec. iJ 1. An embodiment of this invention is
+illustrated in part by Figure 5, reproduced below:
+
+5
+
+FIG. 5
+
+(
+
+6
+
+12b
+
+2
+Figure 5 depicts a laminate 3 comprising insulator layers 2 and internal
+electrodes 3a and 3b. Id.
+
+iii! 45, 51-58. Figure 5 represents a state in which
+
+electroless plating (deposits 12a and 12b) that begins directly on the internal
+electrodes 3a and 3b has proceeded to form an external electrode 10, which
+electrically connects each of the internal electrodes. Id. iJ 57.
+Claim 1 is representative:
+1. A method of manufacturing a multilayer electronic
+
+component, the method comprising:
+a step of preparing a laminate including a plurality of
+stacked insulator layers and a plurality of internal electrodes
+formed along interfaces between the respective insulator layers,
+the ends of the internal electrodes being exposed at a
+
+2
+
+Appeal2015-002967
+Application 12/041,889
+predetermined surface and being withdrawn from the
+predetermined surface by a withdrawn length in a range of
+about 0.1 µm to about 2 µm and the internal electrodes located
+adjacent to each other are electrically insulated from each other
+at the predetermined surface; and
+a step of forming at least one external electrode on the
+predetermined surface of the laminate so that the ends of the
+plurality of internal electrodes exposed at the predetermined
+surface of the laminate are electrically connected to each other;
+wherein
+the step of forming the at least one external electrode
+includes an electroless plating step of electroless plating a
+deposit directly on the ends of the plurality of internal
+electrodes, which are exposed at the predetermined surface of
+the laminate prepared in the step of preparing the laminate,
+using a reducing agent and a plating solution including metal
+ions having a deposition potential that is more
+electrochemically positive than an oxidation reduction potential
+of the reducing agent;
+the electro less plating step includes a step of preparing a
+conductive medium having catalytic activity for an oxidation
+reaction of the reducing agent, a step of stirring the conductive
+medium and the laminate in the plating solution, and a step of
+growing the plating deposits on the ends of the plurality of
+internal electrodes so that the plating deposits are connected to
+each other; and
+an average diameter of the conductive medium is in a range
+of about 0.2 mm to 0.4 mm.
+Appeal Br. 15 (emphases added). Claim 14, which is also independent,
+contains similar limitations to the language emphasized in claim 1 above.
+
+See Appeal Br. 5-6.
+The Examiner maintains the following grounds of rejection:
+I.
+
+Claims 1, 2, 4-8, 11, 13-15, 17-21, 23, and 24 are rejected
+
+under 35 U.S.C. § 103(a) as being unpatentable over U.S. Patent No.
+US 6,621,682 Bl (issued Sept. 16, 2003) [hereinafter Tukakuwa] in view of
+U.S. Patent Application Pub. No. US 2004/0066605 Al (published Apr. 8,
+
+3
+
+Appeal2015-002967
+Application 12/041,889
+2004) [hereinafter Trinh] and U.S. Patent Application Publ. No.
+US 2003/0138571 Al (published July 24, 2003) [hereinafter Kunishi]. Final
+Action 2-8.
+II.
+
+Claims 9 and 22 are rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Takakuwa in view of Trinh and Kunishi, in further view
+of U.S. Patent Application Pub. No. US 2004/0190221 Al (published Sept.
+30, 2004) [Yamaguchi]. Final Action 3--4.
+In the Appeal Brief, Appellants argue the claims as a group, and make
+the same arguments for independent claims 1and14. See Appeal Br. 5-13.
+Therefore, consistent with the provisions of 37 C.F.R. § 41.37(c)(l)(iv)
+(2013), we limit our discussion to claim 1, and all other claims stand or fall
+together with claim 1.
+DISCUSSION
+The Examiner finds that Tukakuwa teaches the steps in claim 1 of
+preparing a laminate, and forming at least one external electrode, including
+"forming the external electrode directly on the internal electrodes." Final
+Action 2-3. In addition, the Examiner finds that Takakuwa "does not teach
+the formation can be done by electroless plating," "does not expressly teach
+the relative electrochemical potential of materials in the plating bath," and
+"does not expressly teach the average diameter of the conductive medium
+between 0.2 and 0.4mm." Id. at 3--4. However, the Examiner finds that
+
+4
+
+Appeal2015-002967
+Application 12/041,889
+"TRINH teaches it is known to form external electrodes by electroless
+plating directly on the internal electrodes as shown in Fig. 10." Id. at 3.
+Figure 10 of Trinh is reproduced below:
+
+Figure 10 depicts "an exploded cross-sectional view showing lateral growth
+of the nickel deposit which would electrically connect the electrodes
+together." Trinh iJ 88. The Examiner determines that "[a]t the time of the
+invention it would have been prima facie obvious to one of ordinary skill in
+the art to form the external electrodes of TAKAKUWA by the method of
+TRINH because the method of TRINH does not require expensive tools or
+automated equipment." Final Action 3.
+As to the limitation in claim 1 relating to the plating bath, the
+Examiner cites Kunishi as "teach[ing] an electroless plating process to
+deposit Ni" which "uses NaH2P02 (reducing agent) that is electrochemically
+less noble than the deposition potential of the metal." Id. (citing Kunishi
+
+iii! 66, 70, 75). The Examiner concludes that "[a]t the time of the invention
+it would have been prima facie obvious to one of ordinary skill in the art to
+
+5
+
+Appeal2015-002967
+Application 12/041,889
+use the plating bath of KUNIS HI as a simple substitution of known plating
+baths used to electrolessly deposit nickel for a monolithic capacitor." Id.
+As to the limitation in claim 1 relating to the average diameter of the
+conductive medium, the Examiner finds that "KUNISHI teaches it is known
+in the prior art to use conductive media with a diameter of 0.8mm or less
+[0014] (though it would be more expensive). The range 0.8mm or less
+
+overlaps the claimed range of 0.2-0.4mm." Id. at 4. Thus, the Examiner
+concludes that "[a]t the time of the invention it would have been prima facie
+obvious to one of ordinary skill in the art to use conductive medium in the
+overlapping range according to MPEP 2144.05.I." Id.
+Appellants argue that a person of ordinary skill in the art would not
+have turned to the teachings of Kunishi, because Kunishi teaches electro less
+deposition "to form an outermost additional layer on an already-formed
+external electrode made by a conductive material that has been screenprinted or dipped and then baked," whereas the combination of Takakuwa
+and Trinh relate to directly plating the exposed ends of internal electrodes
+and the surrounding surface of a laminate containing insulating layers.
+Appeal Br. 9. According to Appellants, these two processes are very
+different from each other because plating is formed on different layers and
+different materials, and thus the plated layers "must have entirely different
+physical characteristics such as bonding ability to different materials,
+solderability and corrosive resistance." Id.; see also Reply Br. 3--4. Thus,
+Appellants argue that there would have been no motivation to combine
+Kunishi with the combination of Takakuwa and Trinh, and there is no
+suggestion that the modification would have had a reasonable likelihood of
+success. Id. at 1O; see also Reply Br. 2--4.
+
+6
+
+Appeal2015-002967
+Application 12/041,889
+We do not find Appellants' arguments persuasive of reversible error.
+The Examiner relied on Trinh, rather than Kunishi, "to teach how plating
+external electrodes can be placed directly on the internal electrodes."
+Answer 2. Trinh teaches the deposition of a layer directly on an internal
+electrode. See Trinh Fig. 10, iJ 67. Trinh also teaches that an electrolesslyplated terminal may be in direct contact with internal electrodes, and may
+extend laterally so as to electrically connect with other internal electrodes.
+See id. at 12, claims 2, 6; see also id. Fig. 10, iii! 73-76. Moreover, the
+
+Examiner finds that the electroless plating described in Trinh does not
+necessarily require adhesion to the insulating layers between the electrodes.
+See Answer 3. Appellants have not directed our attention to any factual
+
+evidence that would dispute this, or any teaching in the prior art that would
+teach that adherence to the insulator is necessary. In addition, Appellants
+have not directed our attention to any factual evidence on this record
+disputing the Examiner's determination, see Final Action 3, that a person of
+ordinary skill in the art would have had reason to use the plating bath of
+Kunishi as a simple substitution for a bath used in the process taught by the
+combination of Takakuwa and Trinh.
+Appellants also argue that despite Kunishi's teaching of using
+conductive media of 0.8 mm or less, a person of ordinary skill in the art
+would not have reason to select media with average diameter of about 0.20.4 mm. Appeal Br. 10-13. Citing law relating to anticipation, Appellants
+argue that Kunishi does not specify this range with enough specificity, or
+provide any particular examples within that range. See id. at 11-12.
+Appellants also argue that using media within this range results in increased
+manufacturing costs. Id. at 12 (citing Kunishi iJ 14). Appellants further
+
+7
+
+Appeal2015-002967
+Application 12/041,889
+argue that the Specification provides evidence of criticality within this range.
+See id. at 13 (citing Spec. iii! 107-109, 116-118).
+
+We do not find Appellants' arguments persuasive of reversible error.
+The Examiner finds that Kunishi teaches a numerical diameter range that
+overlaps that of claim 1. See Final Action 4. Kunishi establishes a reason,
+despite the higher cost, for a person of ordinary skill in the art to have used
+conductive media within that diameter range. See Kunishi iJ 14. This is
+sufficient to establish a prima facie case of obviousness. See In re Peterson,
+315 F.3d 1325, 1329 (Fed. Cir. 2003). Appellants have not pointed to
+factual evidence to rebut the Examiner's findings. Regarding the argument
+that the Specification establishes that the range of about 0.2-0.4 mm is
+critical, the cited portions of the Specification refer to results for media at
+diameters of 0.2 and 0.4 mm; however, Appellants have not directed our
+attention to evidence that these results are not exhibited by media outside
+that diameter range, or that such results would have been unexpected by a
+person of ordinary skill in the art at the time of filing. See In re Freeman,
+474 F.2d 1318, 1324 (CCPA 1973) (to show unexpected results, applicant
+must establish: "(1) that there actually is a difference between the results
+obtained through the claimed invention and those of the prior art, ... and (2)
+that the difference actually obtained would not have been expected by one
+skilled in the art at the time of invention" (citation omitted)).
+For the above reasons, and by a preponderance of the evidence on this
+record, we are not persuaded of reversible error in the Examiner's decision
+to reject claim 1. For the same reasons, we find no reversible error in the
+Examiner's decision to reject claims 2, 4-9, 11, 13-15, and 17-24.
+
+8
+
+Appeal2015-002967
+Application 12/041,889
+DECISION
+The Examiner's decision is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l .136(a)(l )(iv).
+AFFIRMED
+
+9
+
+

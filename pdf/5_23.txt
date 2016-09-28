@@ -1,0 +1,416 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/216,457
+
+08/24/2011
+
+Jeyhan Karaoguz
+
+BP2818Cl
+
+4158
+
+51472
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+GARLICK & MARKISON (BRCM)
+P.O. BOX 160727
+AUSTIN, TX 78716-0727
+
+LUONG, ALAN H
+
+ART UNIT
+
+PAPER NUMBER
+
+2425
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+MMURDOCK@TEXASPATENTS.COM
+ghmptocor@texaspatents.com
+bpierotti@texaspatents.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JEYHAN KARAOGUZ and JAMES D. BENNETT
+
+Appeal2015-000309
+Application 13/216,457
+Technology Center 2400
+
+Before JEFFREYS. SMITH, HUNG H. BUI, and AMBER L. HAGY,
+Administrative Patent Judges.
+BUI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) of the
+Examiner's Final Office Action rejecting claims 26-45, which are all of the
+claims pending on appeal. We have jurisdiction under 35 U.S.C. § 6(b ).
+We AFFIRM. 2
+
+1
+
+According to Appellants, the real party in interest is Broadcom
+Corporation. App. Br. 1.
+2
+Our Decision refers to Appellants' Appeal Brief filed June 16, 2014
+("App. Br."); Reply Brief filed September 28, 2014 ("Reply Br.");
+Examiner's Answer mailed August 1, 2014 ("Ans."); Final Office Action
+mailed February 28, 2014 ("Final Act."); and original Specification filed
+August 24, 2011 ("Spec.").
+
+Appeal2015-000309
+Application 13/216,457
+STATEMENT OF THE CASE
+Appellants' invention relates to "a media exchange network 100
+supporting card-based and independent server-based billing and
+authorization" and providing "access to media-related services." Spec.
+i-fi-128-29. According to Appellants, "user billing and authorization for the
+services are accomplished by purchasing a card or subscribing to a serverbased service." Id. at ,-r 28.
+Claims 26, 35, and 39 are independent. Claim 26 is illustrative of
+Appellants' invention, as reproduced with disputed limitations emphasized
+below:
+26.
+
+A system for communicating multimedia information in a
+
+communication network, comprising:
+at least a first communication device deployed in a first
+geographic location and coupled to the communication network;
+and
+
+a card carrying information related to one or more userdefined selections of information content, wherein when the card
+is communicatively coupled to the first communication device,
+the card allows the first communication device to access:
+at least a first portion of the one or more userdefined selections of information content, said first
+portion located at a second communication device
+deployed at the first geographic location; and
+at least a second portion of the one or more userdefined selections of information content, said second
+portion located at a third communications device
+deployed at a second geographic location and coupled to
+the communication network.
+App. Br. 14 (Claims App.).
+
+2
+
+Appeal2015-000309
+Application 13/216,457
+
+Examiner's References and Rejections
+(1)
+
+Claims 26-34 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Shintani et al., (US Publication 2002/0124249 Al; issued
+Sept. 5, 2002) ("Shintani") and Thomas et al., (US Publication
+2002/0059621 Al; May 16, 2002) ("Thomas"). Ans. 4--10.
+(2)
+
+Claims 35-38 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Thomas and Shintani. Ans. 10-14.
+(3)
+
+Claims 39--45 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Thomas and Reto (US Publication 2002/0144273 Al;
+issued Oct. 3, 2002) ("Reto"). Ans. 14--18.
+
+ISSUE
+Based on Appellants' arguments, the dispositive issue presented on
+appeal is whether the Examiner erred in finding Shintani teaches the
+disputed limitation: "a card carrying information related to one or more
+user-defined selections of information content ... [which] allows the first
+communication device to access" different types of content over a network,
+including (1) "first portion ... located at a second communication device
+deployed at the first geographic location" and (2) "second portion ...
+located at a third communications device" as recited in claim 26. App. Br.
+6-9; Reply Br. 3--4.
+
+ANALYSIS
+
+§ 103(a) Rejection of Claims 26--34 based on Shintani and Thomas
+With respect to independent claim 26, the Examiner finds Shintani
+teaches a system for communicating multimedia information in a
+
+3
+
+Appeal2015-000309
+Application 13/216,457
+communication network, shown in Figures 1-2, comprising a first
+communication device in the form of a set-top box (STB) 22 having a card
+reader 140 for communicating with a card, so called "smart card" carrying
+information related to authorization, and access to user-defined content.
+Ans. 4--5 (citing Shintani i1i120-21, 31, 46, Figs. 1-2).
+Shintani' s Figure 2 is reproduced below with additional markings, in
+red, for illustration.
+f~~''''"~'1
+....-~ ·:ll.~.:-:.p
+
+:
+
+· }-. . .-'\'.~-.,.. r. .
+
+~
+
+.....,L
+
+r"''---'"'"'''''''''''l
+r~::::,:;~~. :::"::::~~'}
+r,,_..:,,.,...._n.·~'.·
+. ~::~:"'~''l
+.~ ...-1 ·: 1r;
+, i·>c-:~Aio- ~ Al.,.... ~~ t~--: t-.::~Ko
+..ru~ .. ~:--. L~ ..'(...«" ~ •.........,. ~
+•.•.
+~r v·
+f-- --1 :-:f•"'"··":"r·'"~
+~ fJ..__~
+..: ... "'
+
+--*"~ >. "·''''·'·-''''· · .....)..._ ~: ~)r·s··:R~Me-; t·.::.;..
+
+\·'lt}~~(':
+
+.~
+
+·.• r>.
+rn•.~
+
+""' '"' ,,,· .· ·
+
+~;;
+
+2
+
+I
+~
+
+!l
+
+,,~~r"'·~...L ........1 ··1
+: "..
+. i . ,.,•. !
+1»~~~i~ZB f~ -·----~:::=~-----;~~~!~~~;~;'.~:=~:····;····=::;/1
+:
+
+t
+
+: /
+
+...................~~:::::::::::::::::::::. ~. . . . . . J ~·
+
+.._:.~~ ......_,
+
+'t
+
+-~~~} ·~ ~~ ~
+
+: \. ;:
+
+Ma,t.·)v,'"
+
+!
+~
+
+I
+
+~~~ }~ ... f----~~~;:::::·.~:;~:~-~;;··---~
+
+''',f;i:'Lr~0*J ~~ L~;,'.] '%1'~~~~~=1
+l, . . . . . . . . . . . . . . . J
+
+t. . . . . . . . . . . . . . . . . . . . . . .~
+
+Shintani's Figure 2 shows a set-top box (STB) 22 having a card reader
+140 to read a user's card for authentication and to authorize the user to
+access to media content from a media server 10 or other remote server 48,
+via a network 44. Shintani i131.
+The Examiner acknowledges Shintani does not expressly teach, but
+relies on Thomas to expressly teach, user access to different types of content
+over a network, including (1) "first portion ... located at a second
+communication device deployed at the first geographic location" and
+(2) "second portion ... located at a third communications device deployed at
+
+4
+
+Appeal2015-000309
+Application 13/216,457
+a second geographical location" as recited in claim 26 in order to support the
+conclusion of obviousness. Ans. 5---6 (citing Thomas i-fi-1 51-54, 58, 87-89,
+Figs 2 and 6B).
+Appellants contend the Examiner erred in finding Shintani discloses
+the disputed limitation: "a card carrying information related to one or more
+user-defined selections of information content ... [which] allows the first
+communication device to access" different types of content over a network,
+including (1) "first portion ... located at a second communication device
+deployed at the first geographic location" and (2) "second portion ...
+located at a third communications device" as recited in claim 26. App. Br.
+6-9; Reply Br. 3--4. According to Appellants, Shintani's card "is simply
+used for authentication purposes" and does not carry "information related to
+one or more user-defined selections of information content" or provide
+"remote access of media content located at other devices at the same
+geographic locations as well as other geographic locations." App. Br. 7-8.
+In addition, Appellants argue "Thomas teaches away from a card, suggesting
+that on-demand media content is accessed directly through a remote network
+server." Id. at 8 (emphasis in original).
+Appellants further argue there is no teaching, suggestion, or
+motivation (TSM) to combine Shintani and Thomas because (1) there is "no
+nexus between the card in the STB of Shintani and remote access of content
+either in a second device at the same geographic location or in
+communication devices located at other geographic locations," and (2) there
+is no reason for a person skilled in the art to look to Thomas for making the
+combination. Id. at 8-9.
+
+5
+
+Appeal2015-000309
+Application 13/216,457
+We do not find Appellants' arguments persuasive. Instead, we find
+the Examiner has provided a comprehensive response to Appellants'
+arguments supported by a preponderance of evidence. Ans. 18-24. As
+such, we adopt the Examiner's findings and explanations provided therein.
+Id. For example, as recognized by the Examiner, Shintani's card, as inserted
+
+into a card reader 140 of the set-top box (STB) 22, shown in Figure 2,
+contains not only information used for authentication but, once authorized,
+permits access (local or remote) to media content available anywhere in the
+network 100, including the media server 10, via a transmission medium 20
+(e.g., cable network, satellite system, or wireless system) or other remote
+server 48, via the Internet 44, shown in Figure 1. Id. at 19; see also Shintani
+
+iTiT 21, 27.
+Contrary to Appellants' arguments, Thomas is only cited for expressly
+teaching accessing remote devices at different locations in the same network.
+Ans. 21. To the extent Appellants' argument would require the Examiner's
+rationale to conform to a rigid "teaching, suggestion, or motivation" test
+(TSM test), such an approach was foreclosed by KSR International Co. v.
+Teleflex Inc., 550 U.S. 398, 415 (2007). The Court repudiated any
+
+requirement for such a "precise teaching" to show obviousness. KSR, 550
+U.S. at 415 ("We begin by rejecting the rigid approach of the Court of
+Appeals."). Rather, the requirement is only that the Examiner show "the
+subject matter as a whole would have been obvious at the time the invention
+was made to a person having ordinary skill in the art to which said subject
+matter pertains." KSR, 550 U.S. at 406 (quoting 35 U.S.C. § 103)(emphasis
+added); id. at 418 ("[T]he analysis need not seek out precise teachings
+directed to the specific subject matter of the challenged claim, for a court
+
+6
+
+Appeal2015-000309
+Application 13/216,457
+can take account of the inferences and creative steps that a person of
+ordinary skill in the art would employ."). We conclude that the Examiner
+provides just such showings in the rejection. Ans. 6-7, 19-24.
+Additionally, Appellants have not presented evidence sufficient to
+show that combining the prior art was "uniquely challenging or difficult for
+one of ordinary skill in the art" or "represented an unobvious step over the
+prior art." Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162
+(Fed. Cir. 2007) (citing KSR, 550 U.S. at 418-19). Nor have Appellants
+presented evidence that any of their incorporations of known limitations
+yielded more than expected results.
+For these reasons, we sustain the Examiner's obviousness rejection of
+claim 26 and its dependent claims 27-34, which Appellants do not argue
+separately.
+
+§ 103(a) Rejection of Claims 35-38 based on Thomas and Shintani
+
+With respect to claims 35-38, Appellants reiterate the same arguments
+presented against claims 26-34. For the same reasons discussed, we also
+sustain the Examiner's obviousness rejection of claims 35-38.
+
+§ 103(a) Rejection of Claims 39--45 based on Thomas and Reta
+
+In contrast to claims 26-34, independent claim 39 does not require the
+use of a card at a set-top box (STB) to access media content. Rather, claim
+39 only requires "a subscription with a server" to permit a user to select "at
+least one multimedia service to be provided to a first communication device
+at a first geographic location and/or a second communication device at a
+second geographic location" and then access "the selected at least one
+
+7
+
+Appeal2015-000309
+Application 13/216,457
+multimedia service by the first communication device, upon authentication
+of the first communication device."
+The Examiner finds Thomas teaches Appellants' claimed "method for
+communication multimedia information in a communication network"
+including all the recited steps, except for a "subscription allowing for access
+by the first communication device and the second communication device to
+the selected at least one multimedia service" as disclosed by Reto. Ans. 14-16 (citing Thomas i-fi-138, 52, 53, 70, 74, 77-81, 107-112, Figs. 1-2; Reto
+i-f 165-167, 173, Fig. 34).
+Appellants dispute the Examiner's factual findings regarding Reto. In
+particular, Appellants argue Reto simply teaches "inviting another user to
+purchase and watch pay-per-view content together on a client device[,]" and
+such a disclosure "is not equivalent to 'the subscription allowing for access
+by the first communication device and the second communication device to
+the selected at least one multimedia service."' App. Br. 12.
+We disagree with Appellants. As correctly recognized by the
+Examiner, "[t]he pay-per-view content of Reto" allows "individual
+purchases of the pay-per-view content for access to multiple devices to the
+same content using only a single authentication." Ans. 26.
+For these reason, we sustain the Examiner's obviousness rejection of
+claim 39 and its dependent claims 40-46, which Appellants do not argue
+separately.
+
+8
+
+Appeal2015-000309
+Application 13/216,457
+CONCLUSION
+On the record before us, we conclude Appellants have not
+demonstrated the Examiner erred in rejecting claims 26-45 under 35 U.S.C.
+
+§ 103(a).
+
+DECISION
+As such, we AFFIRM the Examiner's final rejection of claims 26-45.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

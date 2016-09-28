@@ -1,0 +1,1882 @@
+BoxInterferences@uspto.gov
+Tel: 571-272-4683
+
+Entered: September 20, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+PATENT TRIAL AND APPEAL BOARD
+_______________
+University of Western Australia,
+Junior Party
+(Patents 7,960,541 and 7,807,816
+Inventors: Stephen Donald Wilton, Sue Fletcher and Graham McClorey)
+v.
+Academisch Ziekenhuis Leiden,
+Senior Party
+(Application 13/550,210,
+Inventor: Judith C. van Deutekom).
+
+Patent Interference No. 106,008 (RES)
+(Technology Center 1600)
+
+Before: RICHARD E. SCHAFER, SALLY GARDNER LANE, and
+DEBORAH KATZ, Administrative Patent Judges
+SCHAFER, Administrative Patent Judge.
+Judgment - Motions - 37 C.F.R. § 41.127
+In view of the DECISION ON MOTIONS (Paper 480), it is—
+ORDERED that judgment be entered against Academish Ziekenhuis Leiden
+(AZL) and inventor Judith C. van Deutekom;
+
+FURTHER ORDERED that Claims 11, 12, 14, 15, 17-29 (all claims) of
+AZL’s’s involved Application 13/550,210 be finally refused (35 U.S.C. § 135(a)
+(2010));
+FURTHER ORDERED that a copy of this judgment be entered in the
+Administrative Record of:
+(1)
+
+Patents 7,960,541 and 7,807,816; and
+
+(2)
+
+Application 13/550,210;
+
+FURTHER ORDERED that a party seeking judicial review promptly serve
+notice on the Director of the United States Patent and Trademark Office (37 C.F.R.
+§ 41.8(b)) and file a copy of the notice in the record of this interference.; and
+FURTHER ORDERED that attention is directed to Biogen Idec MA, Inc., v.
+Japanese Foundation for Cancer Research, 758 F.3d 647 (Fed. Cir. 2015) cert.
+denied 2016 WL 1078942 (March 21, 2016).
+
+NOTICE: "Any agreement or understanding between parties to an interference,
+including any collateral agreements referred to therein, made in connection with or
+in contemplation of the termination of the interference, shall be in writing and a
+true copy thereof filed in the Patent and Trademark Office before the termination
+of the interference as between the said parties to the agreement or understanding."
+35 U.S.C. § 135(c); see also Bd.R. 205 (settlement agreements).
+
+2
+
+Attorney for University of Western
+Australia:
+
+Attorney for Academisch Ziekenhuis
+Leiden:
+
+R. Danny Huntington, Esq.
+Sharon E. Crane, Esq.
+Steven P. O’Connor, Esq.
+William B. Raich, Esq.
+Finnegan, Henderson, Farabow,
+Garrett & Dunner, LLP
+duntington@rfem.com
+scrane@rfem.com
+steven.oconnor@finnegan.com
+william.raich@finnegna.com
+
+Timothy M. Murphy, Esq.
+Kathleen M. Williams, Esq.
+Elizabeth N. Spar, Esq.
+Brandon T. Scruggs, Esq.
+Sunstein Kann Murphy &
+Timbers, LLP
+tmurphy@sunsteinlaw.com
+kwilliams@sunsteinlaw.com
+espar@sunsteinlaw.combscruggs
+@sunsteinlaw.com
+
+3
+
+BoxInterferences@uspto.gov
+Tel: 571-272-4683
+
+Entered: September 20, 2016
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+_______________
+PATENT TRIAL AND APPEAL BOARD
+_______________
+University of Western Australia,
+Junior Party
+(Patents 7,960,541 and 7,807,816
+Inventors: Stephen Donald Wilton, Sue Fletcher and Graham McClorey)
+v.
+Academisch Ziekenhuis Leiden,
+Senior Party
+(Application 13/550,210,
+Inventor: Judith C. van Deutekom).
+
+Patent Interference No. 106,008 (RES)
+(Technology Center 1600)
+
+Before: RICHARD E. SCHAFER, SALLY GARDNER LANE, and
+DEBORAH KATZ, Administrative Patent Judges
+SCHAFER, Administrative Patent Judge.
+Decision - Motions - 37 C.F.R. § 41.125(a)
+1
+
+This interference is between University of Western Australia (UWA)
+
+2
+
+Patents 7,960,541 and 7,807,816 and Academisch Ziekenhuis Leiden (AZL)
+
+3
+
+application 13/550,210.
+
+4
+
+The following motions are before us for consideration:
+
+1
+
+(1)
+
+2
+3
+
+35 U.S.C. § 112(a) (Paper 213);
+(2)
+
+4
+5
+
+UWA Motion 1 asserting certain AZL claims are unpatentable under
+
+UWA Motion 2 asserting certain AZL claims are unpatentable under
+35 U.S.C. § 112(b) (Paper 214);
+
+(3)
+
+UWA Motion 3 that AZL claims are barred under 35 U.S.C.
+
+6
+
+§ 135(b)(1) for failing to have been made within one year of the issuance
+
+7
+
+of UWA’s Patents (Paper 215);
+
+8
+
+(4)
+
+9
+10
+
+(Paper 22);
+(5)
+
+11
+12
+
+UWA Miscellaneous Motion 1 to file a terminal disclaimer
+UWA Miscellaneous Motion 4 seeking to exclude certain of AZL’s
+evidence (Paper 463);
+
+(6)
+
+AZL Substantive Motion 1 asserting that UWA’s claims are
+
+13
+
+unpatentable over certain prior art under 35 U.S.C. §§ 102 and 103
+
+14
+
+(Paper 184);
+
+15
+
+(7)
+
+16
+17
+
+AZL Substantive Motion 2 to deny UWA the benefit of Australian
+Application 2004903474 (Paper 29);
+
+(8)
+
+AZL Substantive Motion 3 asserting that certain UWA claims are
+
+18
+
+unpatentable under 35 U.S.C. § 101 as interpreted by Association for
+
+19
+
+Molecular Pathology v. Myriad Genetics, Inc., 133 S.Ct. 2107 (2013)
+
+20
+
+(Paper 30); and
+
+21
+
+(9)
+
+AZL Responsive Motion 4 to add two claims to correct the alleged
+
+22
+
+unpatentability of AZL Claims asserted in UWA’s Motions 1 and 2.
+
+23
+
+(Paper 245).
+
+24
+25
+
+The general subject matter
+The subject matter claimed by the parties relates to “exon skipping.” Exon
+
+26
+
+skipping is a molecular biology technique that may be useful for ameliorating or
+
+27
+
+eliminating the effects of certain genetic mutations. Those mutations may result in
+2
+
+1
+
+a shift in the reading frame during protein formation resulting in a non-functional,
+
+2
+
+or partially functional, protein. The exon skipping technique, in effect, hides
+
+3
+
+certain pre-mRNA exons from the mRNA formation machinery. As a result, the
+
+4
+
+hidden exon is removed along with introns during the splicing to form mRNA.
+
+5
+
+The exon skipping is said to be caused by the binding of an oligonucleotide that
+
+6
+
+includes a nucleobase sequence that is complementary to a portion of a particular
+
+7
+
+pre-mRNA exon. The complimentary oligonucleotide is referred to as an antisense
+
+8
+
+oligonucleotide or “AON.” Both the exon to be discarded and the AON are chosen
+
+9
+
+to restore an open reading frame allowing for the formation of a more complete
+
+10
+11
+
+and more functional protein.
+Specifically, the parties’ invention is directed to AONs selected to cause
+
+12
+
+skipping of exon 51 of the pre-mRNA associated with the gene responsible for the
+
+13
+
+formation of the protein dystrophin. The absence of dystrophin prevents skeletal
+
+14
+
+muscle development and causes the myopathies of muscular dystrophy. In people
+
+15
+
+suffering from Duchenne muscular dystrophy (DMD), the mutation in the
+
+16
+
+dystrophin gene essentially precludes the formation of any functional dystrophin.
+
+17
+
+By skipping, and thus removing, exon 51 during the formation of mRNA, a
+
+18
+
+reading frame is said to be restored, resulting in the formation of a partially
+
+19
+
+functional dystrophin protein.
+
+20
+
+UWA’s Motion 3 – 35 U.S.C. § 135(b)(1)
+
+21
+
+The Board may take up motions for decision in any order. 37 C.F.R.
+
+22
+
+§ 41.125(a). Because a motion alleging that an opponent’s claims were untimely
+
+23
+
+made under 35 U.S.C. § 135(b)(1) raises a possible threshold issue, we address
+
+24
+
+UWA’s Motion 3 first. See 37 C.F.R. § 41.201, definition of threshold issue.
+
+25
+
+UWA moves for a judgment against AZL’s involved claims asserting that
+
+26
+
+they are barred under 35 U.S.C. § 135(b)(1) for failing to have been made within
+
+27
+
+one year of the issuance of UWA’s involved patents. UWA Motion 3, Paper 215.
+3
+
+1
+
+AZL responds arguing that its current claims are supported by pre-critical date
+
+2
+
+claims in its parent applications 12/198,007 and 11/233,495. AZL Opposition 3,
+
+3
+
+Paper 397.
+
+4
+
+We grant UWA’s motion.
+
+5
+
+AZL’s involved claims
+
+6
+
+AZL’s involved application includes Claims 11, 12, 14, 15, 17-29.
+
+7
+
+Claims 11, 15, 19 and 26 are independent. Each of the claims is directed to AONs
+
+8
+
+defined partially by structure and partially by function. We reproduce
+
+9
+
+representative Claim 11 below, with paragraphing and bracketing added:
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+11. An isolated antisense oligonucleotide of 20 to 50
+nucleotides in length, comprising
+a morpholino ring
+[1]wherein said oligonucleotide is capable
+[a] of binding to an exon-internal sequence of
+exon 51 of the human dystrophin pre-mRNA
+and
+[b] inducing exon skipping,
+[2] wherein h51AON1
+(UCAAGGAAGAUGGCAUUUCU) (SEQ ID NO:
+27) is capable of binding to said
+exon-internal sequence.
+
+22
+
+AZL Clean Copy of Claims, Paper 8, 1:3-7. The independent claims, and by
+
+23
+
+incorporation-by-reference each of the dependent claims, include the limitations
+
+24
+
+italicized above. h51AON1 is the designation given by AZL’s inventors to a
+
+25
+
+20 nucleotide AON having the sequence of SEQ ID NO: 27. Ex. 1009, p. 44. It is
+
+26
+
+said to be capable of causing exon skipping of exon 51 of human dystrophin pre-
+
+27
+
+mRNA. Id.
+
+28
+
+AZL’s claims require that the AONs satisfy two functional “capable of
+
+29
+
+binding” limitations: (1) The AONs must be capable of binding to an exon-internal
+
+30
+
+sequence of exon 51 of the pre-mRNA (limitation [1][a] above) and (2) the AON
+4
+
+1
+
+designated as h51AON1 must be capable of binding to the same exon internal
+
+2
+
+sequence to which the AON binds ([2] above). We shall refer to these two
+
+3
+
+requirements as the “dual-binding limitation.” In addition, the AONs encompassed
+
+4
+
+by the claims must cause exon skipping ([1][b] above). We refer to this limitation
+
+5
+
+as the “exon-skipping limitation.”
+
+6
+
+Analysis
+
+7
+
+Under 35 U.S.C. § 135(b)(1) (pre-AIA) applicants are barred from obtaining
+
+8
+
+claims to subject matter that is the same or substantially the same as subject matter
+
+9
+
+claimed in a patent unless the applicant made those claims within one year of the
+
+10
+11
+12
+13
+14
+
+issuance of the patent:
+A claim which is the same as, or for the same or substantially
+the same subject matter as, a claim of an issued patent may not
+be made in any application unless such a claim is made prior to
+one year from the date on which the patent was granted.
+
+15
+
+35 U.S.C. § 135(b)(1) (2010). The statute codifies a legal principal similar to
+
+16
+
+laches by imposing what effectively is a statute of limitations on interferences to
+
+17
+
+make a patentee more secure in the patent property right. In re Berger, 279 F.3d
+
+18
+
+975, 982 (Fed. Cir. 2002). Where an applicant makes a claim that is directed to the
+
+19
+
+same or substantially the same subject matter as a patent claim more than a year
+
+20
+
+after the patent issued, the applicant must show that it had support for the claimed
+
+21
+
+subject matter in claims filed before the one-year critical date. Regents of the
+
+22
+
+Univ. of Cal. v. Univ. of Iowa Research Found., 455 F.3d 1371, 1374
+
+23
+
+(Fed.Cir.2006). The applicant must establish that the later filed claims do not
+
+24
+
+differ from the pre-critical date claims in any material limitation. Id. The subject
+
+25
+
+matter of multiple pre-critical date claims, taken together, may be relied upon to
+
+26
+
+show that the subject matter of the pre-critical date claims does not differ
+
+27
+
+materially from the subject matter of the post-critical date claims. Pioneer Hibred
+
+28
+
+Int’l, Inc. v. Monsanto Tech. LLC, 671 F.3d 1324, 1330 (Fed. Cir. 2012). Those
+5
+
+1
+
+earlier claims must demonstrate an intent to claim an invention including all the
+
+2
+
+material limitations of the later filed claims. Id. However, a material limitation
+
+3
+
+need not be explicitly expressed in the earlier claims so long as the material
+
+4
+
+limitation is inherent, i.e., “necessarily results” from other limitations in the claim.
+
+5
+
+Berger, 279 F.3d at 983. The fact that the material limitation is disclosed in the
+
+6
+
+written description of a pre-critical date specification or drawing is not relevant.
+
+7
+
+See id. (“As our precedent makes clear, ‘[t]he inquiry here is not whether such a
+
+8
+
+step is inherently disclosed, as it might be in a right-to-make case. Rather, the
+
+9
+
+question is whether the step necessarily occurs in the process as claimed.’”).
+
+10
+
+One indicia of a material limitation is that the limitation was necessary for
+
+11
+
+patentability. A limitation is presumed to be material if it was added in response to
+
+12
+
+a rejection and resulted in allowance. Adair v. Carter, 668 F.3d 1334, 1339 (Fed.
+
+13
+
+Cir. 2012) (“When an applicant adds limitations in response to an examiner's
+
+14
+
+rejection, and those limitations result in allowance, there exists a well established
+
+15
+
+presumption that those limitations are necessary to patentability and thus
+
+16
+
+material.”)
+
+17
+
+Relevant Dates
+
+18
+
+UWA’s involved ’541 patent issued on June 14, 2011. Ex. 1002, p. 1.
+
+19
+
+UWA’s involved ’816 patent issued October 5, 2010. Ex. 1001, p. 1. Thus, the
+
+20
+
+critical date for § 135(b)(1) purposes is October 5, 2011. 35 U.S.C. § 135(b)(1).
+
+21
+
+AZL’s involved application was filed on July 16, 2012. Ex. 1009, p. 1. AZL’s
+
+22
+
+involved claims were placed into their final and current form by an amendment
+
+23
+
+filed on May 12, 2014. Ex. 2064, pp. 2-4; Ex. 2076, p. 4.
+
+24
+
+AZL does not argue that its involved claims and UWA’s involved claims are
+
+25
+
+not directed to the same or substantially the same subject matter. Thus, at least
+
+26
+
+facially, AZL’s claims were “made” after the critical date.
+
+6
+
+1
+
+Materiality.
+
+2
+
+UWA says the following, present in all of AZL’s claims, are material
+
+3
+4
+5
+6
+7
+8
+
+limitations:
+wherein said oligonucleotide is capable of binding to an exoninternal sequence of exon 51 of the human dystrophin premRNA and inducing skipping of exon 51 and wherein
+h51A0N1 (UCAAGGAAGAUGGCAUUUCU) (SEQ ID
+NO: 27) is capable of binding to said exon-internal sequence.
+
+9
+
+UWA Motion 3, Paper 215, 5:5 – 6:5. These are the dual-binding and exon-
+
+10
+
+skipping limitations we identified above. The limitations were first added to
+
+11
+
+AZL’s involved application, subsequent to the critical date, by the amendment of
+
+12
+
+May 12, 2014. Ex. 2064.
+
+13
+
+In UWA’s view, the limitations are material because they were added to
+
+14
+
+overcome the examiner’s rejections of the claims and are therefore “necessary to
+
+15
+
+patentability.” “When an applicant adds limitations in response to an examiner’s
+
+16
+
+rejection, and those limitations result in allowance, there exists a well established
+
+17
+
+presumption that those limitations are necessary to patentability and thus material.”
+
+18
+
+Adair, 668 F.3d at 1339 (citing Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki
+
+19
+
+Co., 535 U.S. 722, 734 (2002)). See also, Parks v. Fine, 773 F.2d 1577, 1579
+
+20
+
+(Fed. Cir. 1985) (“The insertion of this limitation to overcome the examiner’s
+
+21
+
+rejection is strong, if not conclusive, evidence of materiality.”)
+
+22
+
+We turn to the prosecution of AZL’s involved claims to determine whether
+
+23
+
+the identified limitations were necessary to patentability and thus should be
+
+24
+
+presumptively considered material. As we noted above, both the dual-binding
+
+25
+
+limitation and the exon skipping limitation are present in all of AZL’s involved
+
+26
+
+claims. AZL Clean Copy of Claims, Paper 8. The limitations were added to
+
+27
+
+independent Claims 11, 15 and 19 by the amendment of May 12, 2014. Ex. 2064.
+
+28
+
+Independent Claim 26, which was newly added by the same amendment also
+7
+
+1
+
+included both limitations. Ex. 2064, p. 4. We will focus on the prosecution of
+
+2
+
+AZL Claim 11 as representative of the prosecution of AZL’s involved claims.
+At the time the examiner first considered AZL’s ’210 application, it included
+
+3
+4
+
+16 claims, 1-16.1 Ex. 2062, pp. 2-3. Claim 11 stated:
+
+5
+6
+7
+8
+9
+10
+11
+12
+
+11. (New) An isolated antisense oligonucleotide of 20 to 50
+nucleotides in length,
+said oligonucleotide comprising a sequence which is
+complementary to a target nucleic acid sequence of exon 51 of
+the human dystrophin pre-mRNA,
+wherein the target nucleic acid sequence comprises a
+nucleotide sequence that is complementary to the sequence
+UCAAGGAAGAUGGCAUUUCU (SEQ ID NO: 27).
+
+13
+
+Ex. 2062, p. 3. The claim does not include the dual-binding and exon-skipping
+
+14
+
+limitations.
+
+15
+
+Claim 11 as well as the other claims were rejected on a variety of different
+
+16
+
+grounds including : (1) obviousness (Claims 1-16); (2) anticipation (Claims 1, 2,
+
+17
+
+6. 7, 8-12 and 16) (3) double patenting (Claims 1-16); indefiniteness (Claims 1-
+
+18
+
+10), (4) lack of written description (Claims 6 and 16). Ex. 2080, pp. 2-11. In
+
+19
+
+response to the rejection, on January 21, 2014, AZL filed an amendment,
+
+20
+
+cancelling claims 1-10, 13 and 16, amending Claims 11, 12, 14 and 15, and
+
+21
+
+adding Claims 17-25. Ex. 1052, pp. 2-3. On May 9, 2014, before the examiner
+
+22
+
+acted on the amendment, AZL’s counsel had an interview with the examiner.
+
+23
+
+Ex. 2076, p. 2. During the interview, the examiner indicated that the amended
+
+24
+
+claims filed January 21, 2014, were unpatentable because they introduced new
+
+25
+
+matter. Id. However, the examiner also indicated that proposed amended claims
+The ’210 application is said to be a continuation of Application 12/976,381. As
+originally filed, the ’210 specification included 3 claims. Those claims were
+replaced in a pre-amendment with claims 1-10. A subsequent pre-amendment,
+filed before the examiner considered the application, amended dependent claims 210 and added Claims 11-16. Ex. 2062, pp. 2-3.
+8
+1
+
+1
+
+presented during the interview would be allowable. Id. Following the interview,
+
+2
+
+on May 12, 2014, AZL filed a supplemental amendment apparently in conformity
+
+3
+
+with the claims discussed during the interview. Ex. 2064. The supplemental
+
+4
+
+amendment further amended Claims 11, 12, 15, 17-19 and 23-25 and added
+
+5
+
+Claims 26-29, bringing the claims to their present allowable form. Ex. 2064,
+
+6
+
+pp. 2-4; Ex. 2076, p. 4. For the first time, the claims included the dual-binding
+
+7
+
+and exon-skipping limitation. Ex. 2064, id. The examiner determined that those
+
+8
+
+claims were patentable, but for the outcome of the interference, and suggested that
+
+9
+
+an interference be declared with UWA’s patents. Ex. 2076, p. 4.
+
+10
+
+In the table below we compare Claim 11 as originally presented in the
+
+11
+
+’210 application with the allowed version with differences shown italicized:
+Claim 11 as originally added by the
+amendment of January 13, 2013.
+Ex. 2062, p. 3.
+11. (Original) An isolated antisense
+oligonucleotide of 20 to 50 nucleotides
+in length,
+said oligonucleotide comprising
+a sequence which is complementary to
+a target nucleic acid sequence of exon
+51 of the human dystrophin premRNA,
+wherein the target nucleic acid
+sequence comprises a nucleotide
+sequence that is complementary to the
+sequence
+UCAAGGAAGAUGGCAUUUCU
+(SEQ ID NO: 27).
+
+Claim 11 from the amendment of
+May 12, 2014, and as allowed by the
+Examiner. Ex. 2064, p. 2.
+11. (As allowed) An isolated antisense
+oligonucleotide of 20 to 50 nucleotides
+in length, comprising
+a morpholino ring[2]
+wherein said oligonucleotide is
+cable of binding to an exon-internal
+sequence of exon 51 of the human
+dystrophin pre-mRNA and
+inducing exon skipping,
+wherein h51AON1
+(UCAAGGAAGAUGGCAUUUCU)
+(SEQ ID NO: 27) is capable of binding
+to said exon internal sequence.
+
+The “morpholino ring” serves as the backbone of the AON. Each of AZL’s
+independent claims recite a different backbone. The recitation of the specific
+backbone has not been asserted to be a material difference between the pre-and
+post-critical date claims.
+9
+2
+
+1
+
+We find from the above-described prosecution history that the claims were
+
+2
+
+not considered allowable until AZL added the functional dual-binding and exon
+
+3
+
+skipping limitations to overcome the examiner’s objections. AZL does not argue
+
+4
+
+to the contrary. The dual-binding limitations and the “capable of inducing exon
+
+5
+
+skipping” are, therefore, presumptively material. Adair, 668 F.3d at 1339.
+
+6
+
+Pre-critical date support
+
+7
+
+AZL argues that the limitations are supported by pre-critical date claims in
+
+8
+9
+10
+
+its ’007 and ’495 applications.
+Burden of Proof on pre-critical date support
+AZL argues that it is UWA’s burden to demonstrate “that each of AZL’s
+
+11
+
+post-critical date claims contains material limitations which were not explicitly or
+
+12
+
+inherently present in AZL’s pre-critical date claims.” AZL Opposition 3,
+
+13
+
+Paper 397, 5:10-12.
+
+14
+
+AZL is incorrect. While the overall and ultimate burden of persuasion with
+
+15
+
+respect to UWA Motion 3, is and remains with UWA (37 C.F.R. § 41.121(b)), the
+
+16
+
+initial burden is met when the motion is supported by appropriate evidence that, if
+
+17
+
+unrebutted, would justify the relief sought. 37 C.F.R. § 41.208(b). Here the
+
+18
+
+evidence shows that the subject matter of AZL’s involved claims was first made
+
+19
+
+after the critical date. UWA has also identified material limitations and explained
+
+20
+
+why those claims are material. UWA Motion 3, Paper 215, 5:5 – 6:5. AZL has
+
+21
+
+not contested that its involved claims are directed to the same or substantially the
+
+22
+
+same subject matter as UWA’s claims. Where it has been established that the
+
+23
+
+subject matter of the applicant’s claims was first made after the critical date, the
+
+24
+
+opponent must show that its post-critical date claims are “not materially different
+
+25
+
+from a pre-critical date claim present in the application or any predecessor thereto
+
+26
+
+in order to obtain the benefit of the earlier filing date . . . .” Adair, 668 F.3d at
+
+27
+
+1339. In other words, while UWA bears and maintains the overall burden of
+10
+
+1
+
+persuasion with respect to the motion and the bar under 35 U.S.C. § 135(b)(1),
+
+2
+
+AZL bears the burden of persuasion on the issue of pre-critical date support for
+
+3
+
+the post-critical date claims: “To establish entitlement to the earlier effective date
+
+4
+
+of existing claims for purposes of the one-year bar of 35 U.S.C. § 135(b), a party
+
+5
+
+must show that the later filed claim does not differ from an earlier claim in any
+
+6
+
+‘material limitation.’ ” In re Berger, 279 F.3d at 981–82 (Fed. Cir. 2002) quoting
+
+7
+
+Corbett v. Chisholm, 568 F.2d 759, 765–66 (CCPA 1977) (emphasis added.).
+
+8
+9
+
+Application 12/198,007
+AZL argues that Claim 20 of its involved application is supported by pre-
+
+10
+
+critical date Claims 1 and 2 of its grand-parent ’007 application. AZL
+
+11
+
+Opposition 3, 19-23. Claim 20 depends from independent Claim 19. Claim 19
+
+12
+
+and, thus, Claim 20 each require the presumptively material dual-binding
+
+13
+
+limitation as well as the exon-skipping limitation. Claim 2 of the ’700 application
+
+14
+
+depends from Claim 1. We present a side-by-side comparison of the pre- and post-
+
+15
+
+critical claims below with the differences in subject matter italicized:
+
+11
+
+Pre-critical date claims from
+Application 12/198,007. Ex. 2067,
+p. 2.
+1. An isolated oligonucleotide of
+between 20 to 50 nucleotides
+comprising a sequence consisting of
+SEQ ID: 27.
+
+2. The isolated oligonucleotide of
+claim 1, wherein the oligonucleotide
+comprises a 2’-O-methylphosphorothioate oligoribonucleotide
+modification”
+1
+
+Post-critical date claims from involved
+Application 13/550,210. AZL Clean
+Copy of Claims, Paper 8, 1:22 – 2:4.
+19. An isolated antisense
+oligonucleotide of 20 to 50 nucleotides
+in length, comprising
+a 2’-O-methyl ribose moiety,
+[1]wherein said
+oligonucleotide is cable
+[a] of binding to an exoninternal sequence of
+exon 51 of the hu
+man dystrophin premRNA and
+[b] inducing exon
+skipping,
+[2] wherein h51AON1
+(UCAAGGAAGAUGGCAUU
+UCU) (SEQ ID NO: 27) is
+capable of binding to said
+exon internal sequence. SEQ
+ID NO: 27) is capable of
+binding to said exon-internal
+sequence.
+20. The oligonucleotide of claim 19,
+further comprising a phosphorothioate
+internucleoside linkage.
+
+According to AZL, one skilled in the art would not consider the differences
+
+2
+
+between the pre and post-critical claims to be material. AZL Opposition 3,
+
+3
+
+Paper 397, 19: 3 – 23:12. The effect of the limitations, says AZL, is merely to
+
+4
+
+narrow the scope of the claims to include only AONs that cause exon-skipping:
+
+5
+
+AZL Opposition 3, Paper 397, 22:16 – 23:2. AZL directs us to the testimony of
+
+6
+
+Dr. Erik Sontheimer for support. Id. He testifies that
+12
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+a person of skill in the art would understand that the combined
+function of these three limitations is to narrow the scope of [the
+claims of the involved application] to include only
+oligonucleotides which cause exon-skipping, thus excluding the
+small fraction of inoperative oligonucleotides from what was
+covered in the pre-critical date claims.
+Ex. 1186, ¶ 81, 23:22-25.
+We simply do not see the relevance of this argument to whether the
+
+9
+
+amendments added material limitations. We fail to see why, under the facts of the
+
+10
+
+prosecution of the AZL’s involved application, narrowing the scope of the claims
+
+11
+
+in response to the examiner’s rejections, and thereby putting the claims in
+
+12
+
+condition for allowance, was not necessary to patentability. Indeed, such an
+
+13
+
+amendment would seem to be an example of a limitation “necessary to
+
+14
+
+patentability.” See Adair, 668 F.3d at 1339 (Fed. Cir. 2012) (“When an applicant
+
+15
+
+adds limitations in response to an examiner's rejection, and those limitations result
+
+16
+
+in allowance, there exists a well established presumption that those limitations are
+
+17
+
+necessary to patentability and thus material.”). Dr. Southeimer does not explain
+
+18
+
+why one skilled in the art would consider a limitation that narrowed the scope of
+
+19
+
+the claims in response to the examiner’s rejections and overcame the Examiner’s
+
+20
+
+rejections would not be considered “necessary to patentability” and, therefore, not
+
+21
+
+a material limitation.
+
+22
+
+Additionally, we do not credit Dr. Sontheimer’s testimony that the effect of
+
+23
+
+the added limitations was simply to eliminate inoperative/non-skip-causing
+
+24
+
+species. Ex. 1186, ¶¶ 70-81. Eliminating the inoperative species could have been
+
+25
+
+accomplished simply by requiring that the oliognucleotide induce exon skipping.
+
+26
+
+However, the addition of the dual-binding limitation significantly broadened the
+
+27
+
+claim scope to include AONs having sequences that are not included in the cited
+
+28
+
+pre-critical date claims. AZL directs us to Claims 1 and 2 from its
+13
+
+1
+
+’007 Application. AZL Opposition 3, Paper 397, 20:9-28. In relevant part those
+
+2
+
+Claims 1 and 2 of the ’007 application require:
+“An isolated oligonucleotide of between 20 to 50 nucleotides
+comprising a sequence consisting of SEQ ID: 27.”
+
+3
+4
+5
+
+AZL Opposition 3, Paper 397, 20:21-23. The AONs covered by those claims
+
+6
+
+must “comprise,” and therefore must include, the complete set of the twenty
+
+7
+
+nucleotides of SEQ ID: 27 (h51AON1), but do not require inducing exon
+
+8
+
+skipping. All of AZL’s involved claims, while narrower than its earlier claims in
+
+9
+
+requiring inducing exon skipping, are broader in not requiring all 20 nucleotides
+
+10
+
+of h51AON1 to be present in the covered AONs. All that is required is the AON
+
+11
+
+include some unspecified number of the nucleotides of h51AON1 sufficient to be
+
+12
+
+“capable of binding” to the same “exon internal sequence” to which the AON
+
+13
+
+binds. Dr. Sontheimer’s testimony to the effect that the differences between the
+
+14
+
+pre- and post-critical date claims was simply narrowing the scope of the claims is
+
+15
+
+inconsistent with the broadened language of AZL’s involved claims. His
+
+16
+
+testimony is also conclusory in that he does not provide an explanation why one
+
+17
+
+skilled in the art would understand the limitations to simply “exclude the small
+
+18
+
+fraction of inoperative oligonucleotides.” We therefore do no credit his testimony
+
+19
+
+on this point.
+
+20
+
+AZL has not established that the differences between Claims 1 and 2 of its
+
+21
+
+pre-critical date ’007 application and its involved claims are not material
+
+22
+
+differences.
+
+23
+24
+
+Application 11/233,495
+AZL also directs us to a combination of the subject matter of claims 15, 26
+
+25
+
+and 70, as filed on July 26, 2011, in its ’495 application as pre-critical date support
+
+26
+
+for its involved claims. AZL argues that the material limitations are explicit or
+
+14
+
+1
+
+inherent in those claims. AZL Opposition 3, Paper 397, 6:10 – 9:16. We
+
+2
+
+reproduce these claims below with paragraphing added:
+
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+
+15. An oligonucleotide or an equivalent thereof produced by a
+method comprising:
+(a) determining from a secondary structure of a
+premRNA from an exon, regions that assume a structure that is
+hybridized to part of said pre-mRNA (closed structure) and
+regions that are not hybridized in the structure (open structure),
+wherein the gene from which said pre-mRNA comprising said
+exon is transcribed is an aberrant human dystrophin gene,
+wherein said exon comprises an exon selected from the
+group consisting of human exons 2, 8, 9, 17, 19,
+29, 40, 41, 42, 43, 44, 45, 46, 49, 50, 51, 52, 53, 55
+and 59;
+(b) designing an oligonucleotide or equivalent thereof
+comprising a structure of which at least a part is complementary
+to said closed structure and of which at least another part is
+complementary to said open structure,
+wherein binding of said oligonucleotide or the equivalent
+thereof comprising said structure to said premRNA alters the splicing of said pre-mRNA, and
+wherein said designing is based on the results of said
+determining step; and
+(c) generating the oligonucleotide or the equivalent
+thereof of step (b).
+26. A method of inducing exon skipping in a premRNA, said
+method comprising:
+providing the oligonucleotide or the equivalent thereof
+according to claim 15; and
+inducing exon skipping in a pre-mRNA.
+70. An oligonucleotide or equivalent thereof produced by a
+method comprising:
+(a) determining from a secondary structure of a
+premRNA from an exon, regions that assume a structure that is
+hybridized to part of said pre-mRNA (closed structure) and
+regions that are not hybridized in the structure (open structure),
+15
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+wherein the gene from which said pre-mRNA comprising
+said exon is transcribed is an aberrant human
+dystrophin gene;
+(b) designing an oligonucleotide or equivalent thereof
+comprising a structure of which at least a part is complementary
+to said closed structure and of which at least another part is
+complementary to said open structure,
+wherein said
+oligonucleotide is of between 14 and 50 nucleotides and
+comprising a DNA or RNA sequence of an oligonucleotide
+selected from the group consisting of: h2AON1 (SEQ ID NO:
+1), h29AON1 (SEQ ID NO: 3), h29AON2 (SEQ ID NO: 4),
+h40AON1 (SEQ ID NO: 5), h40AON2 (SEQ ID NO: 6),
+h41AON1 (SEQ ID NO: 7),h41AON2 (SEQ ID NO: 8),
+h42AON1 (SEQ ID NO: 9), h42AON2 (SEQ ID NO: 10),
+h43AON2 (SEQ ID NO: 12), h44AON1 (SEQ ID NO: 13),
+h44AON2 (SEQ ID NO: 14), h45AON5 (SEQ ID NO: 16),
+h46AON 4b (SEQ ID NO: 17), h46AON 8b (SEQ ID NO: 18),
+h49AON1 (SEQ ID NO: 23), h49AON2 (SEQ ID NO: 24),
+h50AON1 (SEQ ID NO: 25), h51AON1 (SEQ ID NO: 27),
+h51AON2 (SEQ ID NO: 28) or h53AON1 (SEQ ID NO: 29);
+wherein binding of said oligonucleotide or the equivalent
+thereof comprising said structure to said premRNA alters the splicing of said pre-mRNA, and
+wherein said designing is based on the results of said
+determining step; and
+(c) generating the oligonucleotide or the equivalent
+thereof of step (b).
+Claims of Application 11/233,495, Ex. 1222, pp. 2, 4, 9-10
+
+29
+
+We held above that AZL’s dual-binding limitation was presumptively
+
+30
+
+material. Assuming, without deciding, that the subject matters of AZL Claims 15,
+
+31
+
+26 and 70 of the ’495 application are sufficiently related to be combined for the
+
+32
+
+purposes of § 135(b)(1), we are not convinced that the dual-binding concept is
+
+33
+
+either explicitly present or is inherent in the subject matter of those claims.
+
+34
+
+Claims 15, 26 and 70 are product by process claims. Central to the subject
+
+35
+
+matter of those claims is the process of designing an AON that is at least partially
+16
+
+1
+
+complementary to the open and closed secondary structure of a number of exons
+
+2
+
+including exon 51. AZL’s involved claims do not include the process of utilizing
+
+3
+
+the exon secondary structure to identify, determine and design the appropriate
+
+4
+
+AONs. AZL Clean Copy of Claims, Paper 8. In addition to the steps of
+
+5
+
+determining, designing and generating certain AONs, Claim 70 adds that the
+
+6
+
+AONs must include the sequence of one of a number of AONs including h51AON.
+
+7
+
+That AON includes the full twenty nucleotide sequence identified as SEQ ID
+
+8
+
+NO:27. Claims 15 and 70 further specify that binding of the AONs alters the
+
+9
+
+splicing of the pre-mRNA. Claim 26 is directed to the method of inducing exon
+
+10
+11
+
+skipping by “providing” the AON of Claim 15.
+A comparison of Claim 15, 26 and 70 of the ’495 application and AZL’s
+
+12
+
+involved claims shows that the latter claims express and encompass a concept and
+
+13
+
+subject matter not present in the pre-critical date claims. AZL’s current claims
+
+14
+
+require the dual-binding limitation. This, in our view, is a significantly different
+
+15
+
+and broader concept than that conveyed by an AON that must include the twenty
+
+16
+
+nucleotide sequence of h51AON1 encompassed by Claim 70 or the aggregate of
+
+17
+
+that claim with Claims 15 and 26 of the ’495 application. AZL has not explained
+
+18
+
+where those claims, either alone or in aggregate, explicitly express the dual-
+
+19
+
+binding concept that the AON must be capable of binding to an exon internal
+
+20
+
+sequence and the h51AON must be able to bind to that same sequence.
+
+21
+
+AZL also argues that the dual-binding limitation is inherent in the
+
+22
+
+’495 application claims. AZL Opposition 3, Paper 397, 6:17 – 9:16. In order to
+
+23
+
+show that the material limitations are inherent in the earlier claims, it must be
+
+24
+
+shown that those limitations are necessarily present in the earlier claims. Berger,
+
+25
+
+279 F.3d at 983. In other words, the material limitations of AZL’s involved claims
+
+26
+
+must necessarily result from the limitations of Claims 15, 26 and 70 of the ‘495
+
+27
+
+application. AZL’s involved claims require the dual-binding limitation.
+17
+
+1
+
+We are not convinced that these limitations necessarily result from AZL’s
+
+2
+
+earlier claims. The combination of Claims 15, 26 and 70 of the ’495 application
+
+3
+
+reasonably show an intent to claim AONs, that bind to exon 51 (Claim 15), that
+
+4
+
+include the complete 20 nucleotide sequence of h51AON1 (SEQ ID NO:27)
+
+5
+
+(Claim 70), and that induce exon skipping (Claim 26). However, the dual-binding
+
+6
+
+limitation present in all of AZL’s involved claims embodies a significantly
+
+7
+
+different and broader concept. Those claims include AONs that are capable of
+
+8
+
+binding to an exon-internal sequence of exon 51 but need only have sufficient
+
+9
+
+nucleotide similarity with an unspecified number of the twenty nucleotides of
+
+10
+
+h51AON1 such that h51AON1 is also capable of binding to the same exon-internal
+
+11
+
+sequence to which the AON binds. Unlike the pre-critical date claims, the AONs
+
+12
+
+of the involved claims do not require that the complete twenty nucleotide sequence
+
+13
+
+of h51AON1 be present in the AONs.
+
+14
+
+With respect to the dual-binding concept, AZL argues:
+
+15
+16
+17
+18
+19
+20
+
+A person of skill in the art would immediately understand,
+based on the known sequence of exon 51, the sequence
+specified in SEQ ID NO: 27, and the rules of Watson-Crick
+base pairing, that h51AON1 (SEQ ID NO: 27) inherently binds
+to the sequence 5’-AGAAAUGCCAUCUUCCUUGA-3’ on the
+pre-mRNA of exon 51.
+
+21
+
+AZL Opposition 3, Paper 397, 9:6-9. We do not disagree with this statement.
+
+22
+
+However, AZL has not explained why its broader dual-binding limitation
+
+23
+
+necessarily flows from the fact that the h51AON1 binds with its complementary
+
+24
+
+pre-mRNA.
+
+25
+26
+27
+28
+
+AZL also argues that
+every oligonucleotide defined by the aggregate of pre-critical
+date claims 70, 15 and 26, which must include h51AON1 (SEQ
+ID NO: 27) as part of its sequence, would inherently satisfy the
+
+18
+
+limitation that “h51AON1 (UCAAGGAAGAUGGCAUUUCU)
+(SEQ ID NO: 27) is capable of binding to said exon-internal
+sequence.
+
+1
+2
+3
+4
+
+AZL Opposition 3, Paper 397, 9:12-15. In other words, with respect to h51AON1
+
+5
+
+the subject matter of AZL’s involved claims is said to be generic to the aggregated
+
+6
+
+subject matter of pre-critical date claims 15, 25 and 70. While we agree that
+
+7
+
+h51AON1 would likely meet the dual-binding and exon-skipping limitations, we
+
+8
+
+fail to see how those claims necessarily include and convey possession of the dual-
+
+9
+
+binding concept. As noted above, there is a difference in scope with respect to the
+
+10
+
+AONs encompassed by the involved claims and those AONs that must include the
+
+11
+
+complete twenty nucleotide sequence of h51AON1 of the pre-critical date claims.
+
+12
+
+AZL has not adequately explained why this difference in scope between the
+
+13
+
+h51AON1 containing AONs of, for example, Claim 70 of the ’495 application, and
+
+14
+
+the broader scope of AZL’s involved claims does not constitute a material
+
+15
+
+difference.
+
+16
+17
+
+We are not convinced that AZL has shown that the dual-binding limitation is
+supported by Claims 15, 26 and 70 of AZL’s ’495 application.
+
+18
+
+Conclusion
+
+19
+
+We grant UWA’s Motion 3.
+
+20
+
+As a result of the decision granting UWA’s Motion 3, all of AZL’s claims
+
+21
+
+are barred under 35 U.S.C. § 135(b)(1). The absence of an interfering claim that is
+
+22
+
+not barred under § 135(b) renders an interference nonexistent, and thus deprives
+
+23
+
+the Board of its authority to continue the proceeding. Berman v. Housey, 291 F.3d
+
+24
+
+1345 (Fed. Cir. 2002). See also, Parks v. Fine, 773 F.2d 1577, 1581
+
+25
+
+(Fed.Cir.1985) (vacating the Board's award of priority because Fine's claims were
+
+26
+
+barred under § 135(b), and concluding that “[t]he interference being dissolved,
+
+19
+
+1
+
+there is no occasion to award priority to either party”).3 Accordingly, we do not
+
+2
+
+reach the other motions and a judgment will be issued against AZL in a separate
+
+3
+
+paper.
+
+Attorney for University of Western
+Australia:
+R. Danny Huntington, Esq.
+Sharon E. Crane, Esq.
+Steven P. O’Connor, Esq.
+William B. Raich, Esq.
+Finnegan, Henderson, Farabow,
+Garrett & Dunner, LLP
+duntington@rfem.com
+scrane@rfem.com
+steven.oconnor@finnegan.com
+william.raich@finnegna.com
+
+Attorney for Academisch Ziekenhuis
+Leiden:
+Timothy M. Murphy, Esq.
+Kathleen M. Williams, Esq.
+Elizabeth N. Spar, Esq.
+Brandon T. Scruggs, Esq.
+Sunstein Kann Murphy &
+Timbers, LLP
+tmurphy@sunsteinlaw.com
+kwilliams@sunsteinlaw.com
+espar@sunsteinlaw.combscruggs
+@sunsteinlaw.com
+
+Beginning with the 1984 revision of the interference rules, interferences were no
+longer “dissolved.” Instead, accept under very rare circumstances, interferences
+are terminated with a judgment. See Final Rule, Patent Interference Proceedings,
+49 Fed. Reg. 48416, 48447 (December 12, 1984) (“[A]ll interferences will be
+terminated with a ‘judgment.’”)
+20
+3
+
+

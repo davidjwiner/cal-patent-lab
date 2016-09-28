@@ -1,0 +1,217 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/237,538
+
+09/20/2011
+
+Amit Avner
+
+TYKYP0028
+
+5435
+
+122066
+
+7590
+
+09/15/2016
+
+EXAMINER
+
+M&B IP Analysts, LLC
+500 Headquarters Plaza
+Morristown, NJ 07960-7070
+
+HWA, SHYUE JIUNN
+
+ART UNIT
+
+PAPER NUMBER
+
+2155
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pair@mb-ip.com
+eofficeaction@appcoll.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AMIT AVNER, OMER DROR, and ITAY BIRNBOIM
+
+Appeal2014-007341
+Application 13/237,538
+Technology Center 2100
+
+Before CARL W. WHITEHEAD JR., JON M. JURGOVAN, and
+ADAM J. PYONIN, Administrative Patent Judges.
+WHITEHEAD JR., Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants are appealing the Final Rejection of claims 1-21 under 3 5
+U.S.C. § 134(a). Appeal Brief 1. We have jurisdiction under 35 U.S.C.
+
+§ 6(b) (2012).
+We affirm-in-part.
+Introduction
+The invention is directed to "the generation of taxonomies based on
+information available on the Internet, and more specifically to the generation
+of taxonomies with respect to a plurality of terms, particularly social terms,
+and respective sentiments thereto, and generating real-time notifications
+responsive to trends." Specification i-f 2.
+
+Appeal2014-007341
+Application 13/237,538
+Representative Claim (disputed limitations emphasized)
+1.
+A system for real-time monitoring of changes in a
+sentiment respective of an input non-sentiment phrase,
+compnsmg:
+a data warehouse storage for storing a plurality of phrases
+including sentiment phrases and non-sentiment phrases and a
+plurality of term taxonomies, wherein each of the stored term
+taxonomies is an association of a non-sentiment phrase with a
+sentiment phrase, wherein at least one of the stored term
+taxonomies includes the input non-sentiment phrase;
+an analysis unit for at least computing sentiment trends for
+the at least one term taxonomy including the input non-sentiment
+phrase;
+an interface for receiving the input non-sentiment phrase
+and at least one tendency parameter respective of the input nonsentiment phrase;
+a monitor for querying the analysis unit to compute a
+sentiment trend for the at least one term taxonomy, the monitor
+is further configured to determine in real-time changes in a
+direction of the computed sentiment trend of the at least one term
+taxonomy with respect to the at least one input tendency
+parameter; and
+an output unn ror generating at least a notification
+responsive of determination that the change in the direction of
+the computed sentiment trend with respect to the at least one
+input tendency parameter has occurred, wherein the at least one
+notification is generated in real time as the change in the
+direction of the sentiment trend has occurred.
+
+Rejections on Appeal
+Claims 1-21 stand provisionally rejected under the judicially created
+doctrine of double patenting over claims 1-24 of copending U.S. Patent
+Application Number 13/050,515 and claims 1-29 of copending U.S. Patent
+Application Number 13/214,588. Final Rejection 6.
+Claims 1-21 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Huang (US Patent Application Publication Number
+2
+
+Appeal2014-007341
+Application 13/237,538
+2008/0249764 Al; published October 9, 2008) and Sommer (US Patent
+Application Publication Number 2010/0262454 Al; published October 14,
+2010). Final Rejection 7-17.
+
+ANALYSIS
+Rather than reiterate the arguments of Appellants and the Examiner,
+we refer to the Appeal Brief (filed November 15, 2013), the Reply Brief
+(filed June 19, 2014), the Answer (mailed April 23, 2014) and the Final
+Rejection (mailed May 17, 2013) for the respective details. We have
+considered in this decision only those arguments Appellants actually raised
+in the Briefs.
+
+Double Patenting Rejection
+The Examiner fails to specify why the claims of the instant
+application are rejected over the claims of the noted copending applications;
+however, we affirm the Examiner's rejection because Appellants elected to
+"defer any further action and substantive reply" regarding the double
+patenting rejection. 1 See Appeal Brief 16; see also Final Action 6.
+
+Obviousness Rejection
+Appellants argue:
+A key difference between the cited art and the claimed
+features is that while the cited art apparently teaches some aspect
+of real-time monitoring of changes in a sentiment, it fails to teach
+1
+
+See Ex parte Frye, 94 USPQ2d 1072, 107 5 (BP AI 2010) (precedential) ("If
+an appellant fails to present arguments on a particular issue - or, more
+broadly, on a particular rejection-the Board will not, as a general matter,
+unilaterally review those uncontested aspects of the rejection. See, e.g.,
+Hyatt v. Dudas, 551F.3d1307, 1313-14 (Fed. Cir. 2008) (the Board may
+treat arguments appellant failed to make for a given ground of rejection as
+waived)").
+3
+
+Appeal2014-007341
+Application 13/237,538
+or reasonably suggest the real-time monitoring of changes in a
+sentiment respective of an input non-sentiment phrase. In
+other words, the prior art fails to bridge or connect the concept
+of sentiment phrases and non-sentiment phrases. It therefore
+follows that the cited and applied art cannot and does not teach
+the creation of a taxonomy by association of a non-sentiment
+phrase with a sentiment phrase, as claimed by the Appellants.
+Appeal Brief 8.
+The Examiner finds that Huang (Abstract) discloses "an analysis unit
+for at least computing sentiment trends for the at least one term taxonomy
+including the input non-sentiment phrase" as recited in claim 1. Final
+Rejection 8-9. The Examiner further finds that Huang discloses complex
+features including opinion indicators, negation patterns, sentiment-specific
+sections of product reviews, user rating, sequence of text chunks and
+sentence types and lengths. Answer 9-10 (citing Huang Abstract).
+However, the Examiner fails to correlate Huang's disclosure of enhanced
+sentiment classification with Appellants' claimed taxonomies where
+taxonomy is an association of a non-sentiment phrase with a sentiment
+phase. Sommer fails to address Huang's deficiency. See Final Rejection 11.
+We find Appellants' argument persuasive. We reverse the Examiner's
+obviousness rejection of independent claim 1, as well as, independent claim
+11 commensurate in scope. We also reverse the Examiner's obviousness
+
+rejection of dependent claims 2-10 and 12-21.
+
+DECISION
+The Examiner's double patenting rejection of claims 1-21 is affirmed.
+The Examiner's obviousness rejection of claims 1-21 is reversed.
+
+4
+
+Appeal2014-007341
+Application 13/237,538
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv). See 37
+C.F.R. § 41.50(±).
+
+AFFIRMED-IN-PART
+
+5
+
+

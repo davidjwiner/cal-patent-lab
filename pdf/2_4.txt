@@ -1,0 +1,293 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/126,914
+
+04/29/2011
+
+Jagit Sidhu
+
+1033963-000165
+
+7083
+
+21839
+
+7590
+
+09/23/2016
+
+BUCHANAN, INGERSOLL & ROONEY PC
+POST OFFICE BOX 1404
+ALEXANDRIA, VA 22313-1404
+
+EXAMINER
+WITTENBERG, STEFANIE S
+
+ART UNIT
+
+PAPER NUMBER
+
+1756
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ADIPDOC 1@BIPC.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE
+THE PA TENT TRIAL AND APPEAL BOARD
+
+Ex parte JAGIT SIDHU 1
+
+Appeal2015-002015
+Application 13/126,914
+Technology Center 1700
+
+Before CATHERINE Q. TIMM, MARK NAGUMO, and
+JEFFREY R. SNAY, Administrative Patent Judges.
+NAGUMO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Jagit Sidhu ("Sidhu") timely appeals under 35 U.S.C. § 134(a) from
+the Final Rejection2 of claims 1, 2, 5, 8, and 9. 3 We have jurisdiction.
+35 U.S.C. § 6. We affirm.
+
+1
+
+The real party in interest is identified as BAE Systems PLC. (Appeal
+Brief, filed 17 July 2014 ("Br."), 1.)
+2
+3
+
+Office action mailed 17 January 2014 ("Final Rejection"; cited as "FR").
+
+Remaining copending claims 10, 12, 13, 15, 17, 18, and 20-23 have been
+withdrawn from consideration (FR 1, § 5a), and are not before us.
+
+Appeal2015-002015
+Application 13/126,914
+OPINION
+A.
+
+Introduction4
+The subject matter on appeal relates to "additive manufacturing
+
+processes," which the '914 Specification defines as "a generic term used to
+describe a process by which successive layers of a structure, device or
+mechanism are formed, and in which in each layer components such as
+electrical circuit components may be formed by a Direct Write method."
+(Spec. 1, 11. 21-24.) "The term Direct Write is commonly used to describe a
+range of technologies which allows the fabrication of two or threedimensional functional structures using processes that are compatible with
+being carried out directly onto potentially large complex shapes."
+(Id. at 11. 8-11.) The writing or printing materials, regardless of whether
+
+they are powders, suspensions, vapors, or other materials, are referred to as
+"inks." (Id. at 11. 27-31.) Once applied to a nascent three-dimensional
+object, which is referred to as a "substrate," (id. at 2, 11. 4-7), the material is
+fixed. (Id. at 1, 1. 32, to 2, 1. 2.) The commonly available printed materials
+are said to have limited conductivity (id. at 2, 11. 24-27), and methods of
+improving their conductivity, such as electroplating, are said to have limited
+compatibility with direct writing methods because a bath of the metal
+solution is needed. (Id. at 3, 1. 26, through 4, 1. 11.)
+
+4
+
+Application 13/126,914, Additive manufacturing processes,
+filed 29 April 2011 as the national stage under 35 U.S.C. § 371 of
+PCT/GB2009/05 l 446, filed 28 October 2009. We refer to the
+'"914 Specification," which we cite as "Spec."
+2
+
+Appeal2015-002015
+Application 13/126,914
+The claimed method involves providing a partially conductive pattern
+on a substrate surface, followed by plating the conductor using a bathless
+process.
+Claim 1 is representative and reads:
+A method of forming a component of a conductive structure
+on a substrate using an apparatus including
+a surface treatment tool and
+an electroplating tool,
+compnsmg:
+
+moving the surface treatment tool across a surface of the
+substrate for applying a surface treatment to the substrate
+to form a patterned area having at least some electrical
+conductivity; and
+moving the electroplating tool across the surface of the
+substrate for electroplating the patterned area,
+the electroplating tool having an electrode and an
+electrolyte source for in situ supply of electrolyte,
+by providing an anode current to the electrode,
+the electroplating tool causing the patterned area in at
+least a vicinity of the tool to function as a cathode,
+and passing electrolyte between said patterned area
+and said electrode, thereby to deposit conductive
+material onto said patterned area,
+wherein the steps of moving the surface treatment tool and
+the electroplating tool are performed consecutively and in
+a continuous progressive process across the surface of the
+substrate.
+(Br., Claims App. 1 [pages un-numbered]; some indentation, paragraphing,
+and emphasis added.)
+
+3
+
+Appeal2015-002015
+Application 13/126,914
+The Examiner maintains the following ground of rejection: 5
+Claims 1, 2, 5, 8 and 9 stand rejected under
+35 U.S.C. § 103(a) in view of the combined teachings of
+Lowe, 6 Cleemput, 7 and Basol. 8
+B.
+
+Discussion
+Findings of fact throughout this Opinion are supported by a
+
+preponderance of the evidence of record.
+Sidhu urges that the Examiner erred harmfully because "Lowe teaches
+an electroplating station that focuses an electron beam onto the plane of a
+web 27[ 9J, which moves at constant speed past the station." (Br. 4, 11. 9-10.)
+Cleemput, as illustrated in the portion of Cleemput Fig. 1 reproduced
+on the following page, teaches a screen printing process in which
+"[a] squeegee 3 is moved across the surface of the screen 2 to push the paste
+through the screen 2 and onto the surface of the substrate 23." (Id. at 11. 1314).
+
+5
+
+Examiner's Answer mailed 2 October 2014 ("Ans.").
+
+6
+
+John Michael Lowe, Method ofproviding conductive tracks on a printed
+circuit and apparatus for use in carrying out the method, U.S. Patent
+Application Publication 2003/0173225 Al (2003).
+7
+
+Camiel D. Cleemput, Screen printing process and apparatus and
+electrical printed circuits obtained therewith, U.S. Patent No. 4,959,246
+(1990).
+8
+
+Bulent M. Basol, Composition control for roll-to-roll process photovoltaic
+films, U.S. Patent Application Publication 2007/0227633 Al (2007).
+9
+
+Throughout this Opinion, for clarity, labels to elements are presented in
+bold font, regardless of their presentation in the original document.
+4
+
+Appeal2015-002015
+Application 13/126,914
+{A portion of Cleemput Fig. 1 is reproduced below}
+
+Thus, in Sidhu's view, the teachings of Lowe regarding a stationary beam
+focused onto the surface of a moving substrate, of Cleemput regarding a
+screen printing process in which a squeegee is moved above the surface of a
+stationary substrate, and of Basol, in which a substrate is moved between
+various stations for various processes, would not have resulted in the
+claimed invention. (Id. at 6, 11. 9-30.)
+This argument is not persuasive of harmful error. First, Sidhu appears
+to have overlooked the Examiner's citation (FR 4) of Lowe, Figure 7,
+reproduced below,
+
+L.-....A
+
+r:j
+
+.
+
+114
+
+r I-·
+
+I
+
+110
+
+{Lowe Fig. 7 shows substantially dry electrode plating of conductive
+traces 114 on printed circuit board 112 along line 116, moving in the
+direction of arrow A }
+5
+
+Appeal2015-002015
+Application 13/126,914
+and the associated description at Lowe, page 4, paragraphs [0077]-[0082].
+Lowe describes an embodiment in which tool 116 is moved in contact with
+the surface of substrate 112, with electrodes 120 connected to the negative
+pole of an electroplating circuit to deposit a layer of conductive metal along
+tracks 114 (Lowe 4 [0082]). 10
+Thus, both Lowe and Cleemput describe methods in which a tool is
+moved across the substrate, as required by claim 1. Notably, Sidhu does not
+dispute the Examiner's finding that the squeegee of Cleemput corresponds to
+the surface treatment tool recited in claim 1.
+As for Sidhu's criticism of the Examiner's reliance on Basol, we are
+not persuaded that the artisan would have declined to combine the teachings
+of Lowe with those of Cleemput merely because Basol transports the
+substrate to different stations, rather than moving the stations past positions
+on the substrate needing treatment. The Examiner provided a specific
+analysis of the meaning of the terms "consecutive," and "continuous
+progressive process" as they are recited in the final phrase of claim 1. (FR 5,
+last para.) Sidhu has not addressed or criticized the Examiner's
+interpretation in any substantive manner, and thus has not shown harmful
+error in this aspect of the rejection. Put another way, Lowe does not
+describe expressly how traces 114 are to be deposited on printed circuit
+board 112 before they are dry electroplated. Cleemput describes a way of
+depositing such traces. On the present record, Sidhu has not shown harmful
+error in the Examiner's conclusion that it would have been obvious to apply
+10
+
+Sidhu belatedly recognizes this error in the Reply (Reply Brief
+filed 2 December 2014). However, Sidhu does not address the Examiner's
+findings regarding Lowe, Figure 7, reproduced at Ans. 3, 11. 1-16.
+6
+
+Appeal2015-002015
+Application 13/126,914
+such traces by moving a surface treatment tool such as a squeegee across the
+substrate.
+C.
+
+Order
+It is ORDERED that the rejection of claims 1, 2, 5, 8, and 9 is
+
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a).
+AFFIRMED
+
+7
+
+

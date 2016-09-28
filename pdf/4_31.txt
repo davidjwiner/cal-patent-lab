@@ -1,0 +1,214 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/007,792
+
+01/17/2011
+
+Babak Forutanpour
+
+101999
+
+7500
+
+23696
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+QUALCOMM INCORPORATED
+5775 MOREHOUSE DR.
+SAN DIEGO, CA 92121
+
+CHIO, TAT CHI
+
+ART UNIT
+
+PAPER NUMBER
+
+2486
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+us-docketing@qualcomm.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BABAK FORUTANPOUR, BRIAN MOMEYER and
+KARTHIC VEERA
+
+Appeal2015-005905
+Application 13/007,792
+Technology Center 2400
+
+Before KRISTEN L. DROESCH, JENNIFER L. McKEOWN, and
+JOHN P. PINKERTON, Administrative Patent Judges.
+McKEOWN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision to finally reject claims 1, 4--7, 9-19, 21-24, 26-36, 38--41, 43-53,
+55-58, and 60-69. Claims 2, 3, 8, 20, 25, 37, 42, 54, and 59 are cancelled.
+We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+
+STATEMENT OF THE CASE
+Appellant's invention relates to "techniques for allowing a user to
+indicate the significance of portions of a video during video capturing by
+applying pressure to a surface of a video capture device." Abstract.
+
+Appeal2015-005905
+Application 13/007,792
+Claim 1 is illustrative of the claimed invention and reads as follows:
+1. A method comprising:
+detecting pressure applied by a user to a surface of
+a video capturing device during video capture of a
+plurality of video frames;
+identifying frames for which the detected pressure
+exceeds a threshold;
+correlating amounts of the detected pressure with
+identified frames captured at the times the amounts are
+detected;
+generating data indicating the correlations of the
+amounts of the detected pressure with the identified
+frames; and
+marking the identified frames that are captured
+while pressure is applied to indicate a significance of the
+identified frames based on the detected pressure.
+THE REJECTIONS
+The Examiner rejected claims 1, 4--7, 13, 14, 17, 19, 21-24, 30, 31,
+34, 36, 38--41, 47, 48, 51, 53, 55-58, 64, 65, and 68 under 35 U.S.C.
+§ 102(a) as anticipated by Yabu (WO 2010/134324; Pub. Date: Nov. 25,
+2010). Final Act. 7-18. 1
+The Examiner rejected claims 18, 35, 52, and 69 under 35 U.S.C.
+§ 103(a) as unpatentable over Yabu and Agnihotri (US 2006/0165379 Al;
+Jul. 27, 2006). Final Act. 18-19.
+The Examiner rejected claims 9-12, 26-29, 43--46, and 60-63 under
+35 U.S.C. § 103(a) as unpatentable over Yabu and Komori (US
+2006/0044955 Al; Mar. 2, 2006). Final Act. 19-23.
+
+1
+
+Throughout this opinion, we also refer to ( 1) the Final Action, mailed Aug.
+12, 2014 ("Final Act."); (2) the Appeal Brief filed Nov. 18, 2014 ("App.
+Br."); (3) the Examiner's Answer mailed Apr. 7, 2015 ("Ans."); and (4) the
+Reply Brief filed May 21, 2015 ("Reply Br.").
+2
+
+Appeal2015-005905
+Application 13/007,792
+
+The Examiner rejected claims 15, 16, 32, 33, 49, 50, 66, and 67 under
+35 U.S.C. § 103(a) as unpatentable over Yabu and Bean (US 2003/0146981
+Al; Aug. 7, 2003). Final Act. 23-32.
+
+ANALYSIS
+THE ANTICIPATION REJECTION BASED ON YABU
+
+Claims 1, 4-7, 13, 14, 17, 19, 21-24, 30, 31, 34, 36, 38-41, 47, 48, 51, 53,
+55-58, 64, 65, and 68
+Based on the record before us, we are persuaded the Examiner erred
+in rejecting claims 1, 4--7, 13, 14, 17, 19, 21-24, 30, 31, 34, 36, 38--41, 47,
+48, 51, 53, 55-58, 64, 65, and 68 as anticipated by Yabu.
+Appellants contend that Y abu fails to disclose detecting pressure
+applied by a user to a surface of a video capturing device during video
+
+capture of a plurality of video frames, as required by independent claims 1,
+19, 36, and 53. App. Br. 12. Appellants assert that Yabu "is completely
+silent with respect to video capture, much less detecting pressure during
+video capture." App. Br. 12. Specifically, Appellants maintain that "Yabu
+describes the tiresome process of manually going through images after
+capture to select desired images" and contrasts Y abu' s approach with
+paragraph 25 of the Specification that states the disclosed techniques may
+eliminate the need to manually go through the video after capture or play
+back the entire video. App. Br. 12-14.
+On the other hand, the Examiner explains, in Yabu "[ w ]hen a user
+touches the touchscreen to select frames for display, the frames are captured
+by the user." Ans. 28. As such, the Examiner interprets Yabu's selecting of
+the frames to correspond to the capture of a plurality of video frames.
+3
+
+Appeal2015-005905
+Application 13/007,792
+We agree with Appellants that the Examiner's interpretation is in
+error. We understand the plain and ordinary meaning of capture, within the
+context of the Specification here, would be to "to record in the form of
+stored data." See "capture." Webster's New World College Dictionary
+(2010), available at 1lttb~~~l~~~~~~}~~}3~~:)L~~L!I~~1ii~~tLi2ll~ll~Y~~~~~i2K!Jl~~~~~lI~Lt!!~~ (last visited
+
+September 16, 2016); see also "capture." Merriam-Webster Online
+Dictionary (2016), available at
+
+k!JJp_;/l?i:WYLJE~rij~rnJ~.
+
+capture as "the act of putting information in a form that a computer can use
+or read" or "the act of recording in a permanent file <data capture>").
+Based on this interpretation, Y abu' s mere selection of frames fails to satisfy
+the recited limitation of during the capture of a plurality of video frames, as
+required by independent claims 1, 19, 36, and 53.
+Accordingly, we do not sustain the Examiner's rejection of claims 1,
+4--7, 13, 14, 17, 19,21-24,30,31,34,36,38--41,47,48,51,53,55-58, 64,
+65, and 68 as anticipated by Yabu.
+
+THE REMAINING REJECTIONS BASED ON Y ABU AND
+ADDITIONALLY CITED PRIOR ART
+
+Claims 9-12, 15, 16, 18, 26--29, 32, 33, 35, 43--46, 49,
+50, 52, 60--63, 66, 67, and 69
+
+Each of claims 9-12, 15, 16, 18, 26-29, 32, 33, 35, 43--46, 49,
+50, 52, 60-63, 66, 67, and 69 are dependent on one of claims 1, 19, 36, and
+53. As discussed above, we find that the Examiner erred in rejecting
+independent claims 1, 19, 36, and 53. The additionally cited prior art fail to
+cure the deficiencies of Y abu and, therefore, we also find the Examiner erred
+in rejecting these dependent claims. Accordingly, we do not sustain the
+4
+
+Appeal2015-005905
+Application 13/007,792
+Examiner's rejection of claims 9-12, 15, 16, 18, 26-29, 32, 33, 35, 43--46,
+49, 50, 52, 60-63, 66, 67, and 69 as unpatentable over the cited
+combinations of prior art.
+
+DECISION
+We reverse the Examiner's decision to reject claims 1, 4--7, 9-19, 2124, 26-36, 38--41, 43-53, 55-58 and 60-69.
+REVERSED
+
+5
+
+

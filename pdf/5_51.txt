@@ -1,0 +1,525 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/690,982
+
+0112112010
+
+Ren Jing An
+
+CN920080233US 1
+8152-0092
+
+8874
+
+73109
+
+7590
+
+09/19/2016
+
+Cuenot, Forsythe & Kim, LLC
+20283 State Road 7
+Ste. 300
+Boca Raton, FL 33498
+
+EXAMINER
+DINH, LYNDA
+
+ART UNIT
+
+PAPER NUMBER
+
+2863
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ibmptomail@iplawpro.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte REN JING AN, LIU CHAO JUN, MA XI JUN,
+HOU XIAO QIANG, YIN RUI, and PING YUAN
+
+Appeal2015-004499
+Application 12/690,982
+Technology Center 2800
+
+Before GEORGE C. BEST, CHRISTOPHER C. KENNEDY, and
+BRIAND. RANGE, Administrative Patent Judges.
+RANGE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+SUMMARY
+Appellants 1 appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 1, 2, 5-9, 11-20. We have jurisdiction. 35 U.S.C.
+
+§ 6(b). We AFFIRM and enter a new ground of rejection under 37
+C.F.R. § 41.50(b).
+
+1
+
+According to the Appellants, the real party in interest is IBM Corporation.
+Appeal Br. 1.
+
+Appeal2015-004499
+Application 12/690,982
+STATEMENT OF THE CASE
+Appellants describe the present invention as relating to serviceorientated architecture (SOA) and, more particularly, a system for
+supporting collaborative working of process-oriented and event-based
+business process management (BPM) methods in a service-orientated
+architecture. Spec. i-f 1. Appellants' description of the present invention is
+further explained in conjunction with the analysis below.
+Claims 1, 8, and 15, reproduced below, are illustrative of the claimed
+subject matter:
+1.
+A system for supporting collaborative working of processoriented and event-based business process management methods
+in a service-oriented architecture, wherein execution models of a
+business process comprise process-oriented execution models
+and event-based execution models, the system comprising:
+
+a computer hardware system including:
+a process-oriented runtime module configured for
+executing the process-oriented execution models at runtime;
+an event-based runtime module configured for executing
+the event-based execution models at runtime; and
+a bridge for implementing an interaction between the
+process-oriented runtime module and the event-based runtime
+module at runtime.
+8.
+A method for supporting collaborative working of processoriented and event-based business process management methods in a
+service-oriented architecture, wherein execution models of a business
+process comprise process-oriented execution models and event-based
+execution models, the method comprising:
+executing the process-oriented execution models at runtime;
+executing the event-based execution models at runtime; and
+implementing an interaction between the process-oriented
+execution models and the event-based execution models at runtime.
+2
+
+Appeal2015-004499
+Application 12/690,982
+15.
+
+A computer pro gram product, comprising:
+
+a computer readable storage medium having stored therein
+computer usable program code for supporting collaborative working
+of process-oriented and event-based business process management
+methods in a service-oriented architecture, wherein execution models
+of a business process comprise process-oriented execution models and
+event-based execution models, the computer readable storage medium
+compnsmg:
+computer usable program code for executing the processoriented execution models at runtime;
+computer usable program code for executing the eventbased execution models at runtime; and
+computer usable program code for implementing an
+interaction between the process-oriented execution models and
+the event-based execution models at runtime,
+wherein
+the computer readable storage medium is not a transitory,
+propagating signal per se.
+Supp. Appeal Br. 2 3, 6-7 (Claims Appendix).
+
+REJECTIONS
+The Examiner maintains the following rejections on appeal:
+Rejection 1. Claims 15-20 are rejected under 35 U.S.C. § 101 as
+directed to non-statutory subject matter. Ans. 2.
+Rejection 2. Claims 1, 2, 5-9, 11-16, and 18-20 under 35 U.S.C.
+§ 103 as unpatentable over Applicant Admitted Prior Art (hereinafter
+
+2
+
+In this decision, we refer to the Final Office Action mailed April 23, 2014
+("Final Act."), the Appeal Brief filed September 23, 2014 ("Appeal Br."),
+Supplemental Appeal Brief with revised claims appendix filed November 3,
+2014 ("Supp. Appeal Br."), the Examiner's Answer mailed January 5, 2015
+("Ans."), and the Reply Brief filed March 5, 2015 ("Reply Br.").
+3
+
+Appeal2015-004499
+Application 12/690,982
+"AAPA") in view of Dumas (U.S. 2007/0135936 Al published June 14,
+2007). Id. at 3.
+
+ANALYSIS
+Are Appellants' claims patent-ineligible under 35 U.S.C. § 101?
+The Examiner concludes that claims 15-20 are not patent eligible
+under 35 U.S.C. § 101 because "'computer readable storage medium' can
+still [be considered] to include the non-transitory medium and transitory
+medium such as signal carrier wave ... which is not statutory because it is
+not limited to statutory subject matter." Final Act. 2. Rather than
+exclusively relying on the Examiner's reasoning, we assess all of the claims
+pursuant to the analysis below. For the reasons explained below, we reject
+claims 1, 2, 5-9, 11-20 3 because they are not directed to statutory subject
+matter under 35 U.S.C. § 101 and the Supreme Court's holding in Alice
+
+Corp. v. CLS Banklnt'l, 134 S. Ct. 2347, 2355 (2014). Because we expand
+the § 101 rejection to additional claims and include additional reasoning, we
+designate this rejection as a new ground.
+For claimed subject matter to be patent eligible, it must fall into one of
+four statutory classes set forth in 35 U.S.C. § 101: a process, a machine, a
+manufacture, or a composition of matter. Claims 1 and 15 and their
+dependent claims are directed to machines (including, for example, "a
+computer hardware system" in claim 1 and "a computer readable storage
+
+3
+
+We do not reject claims 3--4 and 10 because Appellants have not sought
+review of an adverse decision of the Examiner respect to those claims. 35
+U.S.C. § 6. If the claims are further prosecuted, the Examiner may wish to
+consider the patent eligibility of claims 3--4 and 10 pursuant to 35 U.S.C. §
+101.
+4
+
+Appeal2015-004499
+Application 12/690,982
+medium" in claim 15). Claim 8 and its dependent claims do not appear to
+require a machine under a broadest reasonable construction but could
+perhaps be directed to a process.
+The subject matter eligibility analysis does not end here, however,
+because the Supreme Court has set forth three exceptions of subject matter
+ineligible for patent protection: "laws of nature, physical phenomena, and
+abstract ideas." Bilski v. Kappas, 561 U.S. 593, 601 (2010) (internal
+quotations and citation omitted). The Supreme Court has held that a claim
+falls "outside § 101 where ( 1) it is directed to a patent-ineligible concept,
+i.e., a law of nature, natural phenomenon, or abstract idea, and (2), if so, the
+particular elements of the claim, considered both individually and as an
+ordered combination, do not add enough to transform the nature of the claim
+into a patent-eligible application." Elec. Power Group, LLC v. Alstrom S.A.,
+No. 2015-1778, 2016 WL 4073318, *2 (Fed. Cir. Aug. 1, 2016) (quoting
+Alice, 134 S. Ct. at 2355) (internal quotes omitted).
+The patents at issue in Alice claimed "a method of exchanging
+financial obligations between two parties using a third-party intermediary to
+mitigate settlement risk." Alice, 134 S. Ct. at 2356. Like the method of
+hedging risk in Bilski, 561 U.S. at 609-which the Court deemed "a method
+of organizing human activity"-Alice' s "concept of intermediated
+settlement" was held to be "'a fundamental economic practice long prevalent
+in our system of commerce."' Alice, 134 S. Ct. at 2356. Similarly, the
+Court found that "[t]he use of a third-party intermediary ... is also a
+building block of the modem economy." Id. "Thus," the Court held,
+"intermediated settlement ... is an 'abstract idea' beyond the scope of
+§ 101." Id.
+
+5
+
+Appeal2015-004499
+Application 12/690,982
+As the first step of our analysis, we must determine if the claims at
+issue are directed to a patent-ineligible concept, such as an abstract idea. See
+Alice, 134 S. Ct. at 2355. "[I]t is important at the outset to identify and
+
+define whatever fundamental concept appears wrapped up in the claim so
+that the subsequent analytical steps can proceed on a consistent footing."
+CLS Bank Int'! v. Alice Corp. Pty. Ltd., 717 F.3d 1269, 1282 (Fed. Cir.
+
+2013) (plurality opinion). Here, claims 1 and 15 are directed to a method of
+supporting the collaborative working of process-oriented and event-based
+business process management methods. Spec. ,-r 10. In both claims,
+modules execute/implement event-based execution models and processorientated execution models at runtime. Id. at ,-r 10.
+The Specification provides little guidance as to what it means to
+execute/implement event-based execution models and process-orientated
+models. One example is provided, however. The first part of the example is
+illustrated with Figure 5, reproduced below:
+
+l<'ig5
+
+Figure 5 "illustrates a process-driven BPM [business process management]
+model starting from a purchaser deciding to purchase a certain product to a
+warehouse employee delivering the product." Spec. ,-r 44. The Specification
+states that blocks 520, 525, and 530 are process models. Id. at ,-r 45 ("the
+process models of Blocks 520, 525, 530"). Thus, the actions of "Validate
+order" 520, "Confirm order" 525, and "Approve?" 530 are "process
+models."
+6
+
+Appeal2015-004499
+Application 12/690,982
+The Specification further explains that the process models can be
+marked and then transformed into event-based models. Id. at i-f 46. Figure 6,
+reproduced below, illustrates the same process as Figure 5 (i.e., the process
+of a purchaser buying a product) after blocks 520, 525, and 530 are
+transformed into event-based models:
+
+Fig.6
+
+According to the Specification, Figure 6 illustrates "a transformed BPM
+[business process management] model according to an embodiment of the
+present invention, wherein the various parts of the BPM model are deployed
+into the process-oriented or event-based runtime environments respectively."
+Id. at i-f 47. The bridge 350 receives Event 1 (manager approval of the order)
+to the event-based execution model (i.e., to the person or system in charge of
+validating the order) and sends Event 2 (approval of the order after
+validation and confirmation) back to the process-based execution model
+(i.e., to the person or system in charge of generating a request for delivering
+product). Id.
+7
+
+Appeal2015-004499
+Application 12/690,982
+The Specification provides little guidance as to why, for example, one
+would transform "Validate order" 520 into an event-based model but leave
+"Approve?" 515 as a process model, but it does state that it is practical to
+mark a process model for transformation "in conjunction with both
+automatic and manual manners." Id. at ,-r 33. In other words, a computer
+could decide to transform a model or a person could manually decide to
+change a model.
+Given this disclosure and the recitations of each of Appellants'
+claims, we determine that independent claims 1, 8, and 15 are directed to an
+abstract idea: executing processes that have been divided into processoriented and event-based models and implementing interaction between the
+models. The models are disembodied concepts (they could be, it appears,
+models representing nearly any imaginable action) that are not tied to any
+specific algorithm or specialized computer. See Spec. ,-r 55-57 (broadly
+explaining suitable computers and suggesting the suitability of "a general
+purpose computer"). The claims, much like those deemed patent ineligible
+in Bilski and in Alice, are directed to an abstract "method of organizing
+human activity." Bilski, 130 S. Ct. at 3240.
+The dependent claims add only additional abstract concepts. In
+particular:
+Claims 2 and 16 add the abstract concept of performing requirement
+analysis and modeling on process requirements and
+transforming process-oriented models into event-based models;
+Claims 5, 11, and 18 add the abstract concept of designing models
+based on business processes;
+
+8
+
+Appeal2015-004499
+Application 12/690,982
+Claims 6, 12, and 19 add the abstract concept of monitoring modules
+executing the models and obtaining feedback;
+Claims 7, 13, and 2 0 add the abstract concept of improving models
+based on feedback;
+Claim 9 adds the abstract concepts of performing requirement analysis
+and modeling, generating models based in part on the analysis,
+and transforming models;
+Claim 14 adds the abstract concepts of correlating interaction data
+between models and transforming interaction data; and
+Claim 17 adds the abstract concept of marking and transforming
+process models.
+Thus, we determine that the claims at issue are directed to abstract ideas
+under Alice.
+Next, proceeding to the second step in the Alice analysis, we look for
+additional elements in claims 1, 2, 5-9, and 11-20 that "transform the nature
+of the claim" into a patent-eligible application of an abstract idea. That is,
+we determine whether the claims include an "inventive concept," i.e., an
+element or combination of elements sufficient to ensure that the patent in
+practice amounts to significantly more than a patent on the abstract idea
+itself. Alice, 134 S. Ct. at 2357. The relevant inquiry here is whether
+"additional substantive limitations ... narrow, confine, or otherwise tie
+down the claim so that, in practical terms, it does not cover the full abstract
+idea itself." Accenture Global Servs., GmbH v. Guidewire Software, Inc.,
+728 F.3d 1336, 1344--45 (Fed. Cir. 2013) (internal quotations and citation
+omitted). The Court in Alice cautioned that merely limiting the use of
+abstract idea "to a particular technological environment" or implementing
+
+9
+
+Appeal2015-004499
+Application 12/690,982
+the abstract idea on a "wholly generic computer" is not sutlicient as an
+additional feature to provide "practical assurance that the process is more
+than a drafting effort designed to monopolize the [abstract idea] itself."
+
+Alice, 134 S. Ct. at 2358 (citations omitted).
+Here, none of the claims (1, 2, 5-9, and 11-20) add an inventive
+concept to the abstract idea identified above. Rather, the claims additionally
+recite generic computer equipment such as a "computer hardware system"
+(claim 1), "a computer readable storage medium" (claim 15), and "computer
+usable program code" (claim 15). Claim 8 and claims depending from it
+recite no computer at all. The generic computer system recitations of claims
+1 and 15 do not limit the claims sufficiently to make the claims subject
+matter eligible and do not add concrete ties to make the claims less abstract.
+The claims here-much like the claims deemed patent ineligible by our
+reviewing court in Electric Power Group, LLC-focus "not on such an
+improvement in computers as tools, but on certain independently abstract
+ideas that use computers as tools." Elec. Power Group, 2016 WL 4073318
+at *5; compare with Enfzsh, LLC v. Microsoft Corp., 822 F.3d 1327, 1339
+(Fed. Cir. 2016) (holding that claims at issue were patent eligible where
+"directed to a specific implementation of a solution to a problem in the
+software arts"). The claims are not narrowly directed to application of
+particular rules for achieving an improved technological result. Compare
+
+with McRO, Inc. v. Bandai Namco Games Am. Inc., No. 2015-1080, slip op.
+at 24--27 (Fed. Cir. Sept. 13, 2016) (holding that claims directed to a
+"specific asserted improvement in computer animation" were patent eligible
+where claim used "limited rules in a process specifically designed to achieve
+an improved technological result in conventional industry practice").
+
+10
+
+Appeal2015-004499
+Application 12/690,982
+Accordingly, we affirm the Examiner's rejection of claims 15-20 as
+patent ineligible under 35 U.S.C. § 101 for the reasons explained above. We
+add a new rejection of claims 1, 2, 5-9, and 11-14 as patent ineligible under
+35 U.S.C. § 101. So Appellants may have a full opportunity to respond, we
+designate both our affirmance and new rejection as new grounds of rejection
+under 37 C.F.R. § 41.50(b).
+Did the Examiner err by rejecting claims 1, 2, 5-9, 11-16, and 18-20
+under 35 U.S.C. § 103?
+We review the appealed rejections for error based upon the issues
+identified by Appellants and in light of the arguments and evidence produced
+thereon. Cf Ex parte Frye, 94 USPQ2d 1072, 1075 (BPAI 2010)
+(precedential) (cited with approval in In re Jung, 637 F.3d 1356, 1365 (Fed.
+Cir. 2011) ("it has long been the Board's practice to require an applicant to
+identify the alleged error in the examiner's rejections")). After having
+considered the evidence presented in this Appeal and each of Appellants'
+contentions, we are not persuaded that Appellants identify reversible error,
+and we affirm the Examiner's§ 103 rejections for the reasons expressed in
+the Final Office Action and the Answer. We add the following primarily for
+emphasis.
+The Examiner rejects claims 1, 2, 5-9, 11-16, and 18-20 as obvious
+over the AAPA in view of Dumas. Final Act. 3. Appellants do not
+separately argue claims 2, 5-9, 11-16, or 18-20. Appeal Br. 11. We
+therefore limit our discussion to claim 1. Claims 2, 5-9, 11-16, or 18-20
+stand or fall with that claim. 37 C.F.R. § 41.37(c)(l)(iv) (2013).
+Appellants argue that the Examiner does not identify distinct processorientated runtime modules and event-based runtime modules in Dumas.
+11
+
+Appeal2015-004499
+Application 12/690,982
+Appeal Br. 11-12. The Examiner's rejection, however, is based on the
+combination of AAP A and Dumas, and the Examiner relies upon AAP A as
+teaching the process-orientated runtime module. Final Act. 3. Appellants'
+argument does not identify Examiner error because it attacks the references
+individually where the rejection is based on a combination of references. Cf
+In re Keller, 642 F.2d 413, 426 (CCPA 1981).
+
+Appellants also argue that the event-based model of Dumas is not
+executed "at runtime" as required by claim 1. Appeal Br. 14. The
+Examiner, however, correctly finds that Dumas teaches an event-based
+model executing at runtime. Final Act. 4. Appellants specification does not
+define runtime in a manner so limited that it would exclude Dumas' use of
+the event-based model "in a runtime environment." Dumas i-f 50 ("the
+system 100 allows for translation of the process model 104 of the composite
+application 112 into an event-based model(s) for use in a runtime
+environment").
+Appellants argue that, based on the teachings of Dumas, both the
+process model and the event-based model cannot exist at runtime because
+Dumas teaches that "the process model is transformed into an event-based
+model." Appeal Br. 16 (quoting Dumas i-f 62); see also Reply Br. 4--6. The
+Examiner's rejection, however, is based upon combining AAP A and Dumas,
+and Appellants do not persuasively dispute that the combination is proper.
+Moreover, Appellants' argument appears to be based on the
+assumption that claim 1 requires simultaneous execution of a processorientated execution model and an event-based execution model at runtime.
+This, however, is not correct. For example, in Figure 6 of the Specification,
+Generate order 505 will not happen at the same time as Confirm order 525.
+
+12
+
+Appeal2015-004499
+Application 12/690,982
+Yet both events happen during "runtime" (the time between the start of
+Generate order 505 and the end of Generate response 540). Also, during
+runtime, there is interaction between process-orientated execution models
+and event-based execution models. Thus, execution of both processorientated execution models as taught by the AAPA and event-based
+execution models as taught by Dumas would both occur during runtime (the
+from the start of the first action in the overall process to the end of the last
+action in the overall process).
+Moreover, Appellants do not persuasively dispute the Examiner's
+finding that Dumas teaches, for example "data transfer/sharing associated
+with reactions to event occurrences .... " Final Act. 4; see also Dumas
+i-fi-135-89 (referring to, for example at i136, "coordination middleware that is
+operable to implement such event-based coordination models"). The
+Examiner also persuasively explains the finding that "data sharing" as
+explaining in Dumas is an interaction. Ans. 19-20. The data
+transfer/sharing/coordination of Dumas is no different than what is described
+in Appellants' Specification (Spec. i1 4 7), and it would have been obvious to
+apply this coordination in the context of the AAP A/Dumas combination.
+Doing so would have been no more than predictable use of a prior art
+element according to its established function. KSR Int 'l. Co. v. Teleflex Inc.,
+550 U.S. 398, 417 (2007).
+The Examiner has thus established a prima facie case of obviousness,
+and Appellants provide no persuasive argument, for example, as to why it
+would have been beyond the skill of an ordinary artisan or non-obvious to
+have information concerning approval of an order be transferred to an entity
+
+13
+
+Appeal2015-004499
+Application 12/690,982
+validating an order and confirmation approval to go back to the entity
+generating a request for delivering product. See Spec. Fig. 6.
+We therefore sustain the Examiner's rejection of claims 1, 2, 5-9, 1116, and 18-20 under 35 U.S.C. § 103.
+DECISION
+For the above reasons, the Examiner's rejection of claims 1, 2, 5-9,
+11-20 is AFFIRMED. We designate our affirmance of the Examiner's
+rejection of claims 15-20 as patent ineligible under 35 U.S.C. § 101 as a
+new ground under 37 C.F.R. § 41.50(b). We also add a new rejection of
+claims 1, 2, 5-9, 11-14 as patent ineligible under 35 U.S.C. § 101 pursuant
+to 37 C.F.R. § 41.50(b).
+Regarding the affirmed rejections that are not designated as a new
+ground (rejection of claims 1, 2, 5-9, 11-16, and 18-20 under 35 U.S.C.
+§ 103), 37 C.F.R. § 41.52(a)(l) provides "Appellant may file a single request
+
+for rehearing within two months of the date of the original decision of the
+Board."
+With regard to rejection of claims 1, 2, 5-9, and 11-20 under 35
+U.S.C. § 101, 37 C.F.R. § 41.50(b) provides "[a] new ground of rejection
+pursuant to this paragraph shall not be considered final for judicial review."
+37 C.F.R. § 41. 50(b) also provides that Appellant, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new grounds of rejection to
+avoid termination of the appeal as to the rejected claims:
+(1) Reopen prosecution. Submit an appropriate amendment of
+the claims so rejected or new evidence relating to the claims so
+rejected, or both, and have the matter reconsidered by the
+
+14
+
+Appeal2015-004499
+Application 12/690,982
+Examiner, in which event the proceeding will be remanded to
+the Examiner. . . .
+(2) Request rehearing. Request that the proceeding be reheard
+under§ 41.52 by the Board upon the same record ....
+Should Appellant elect to prosecute further before the Examiner
+pursuant to 37 C.F.R. § 41. 50(b )( 1), in order to preserve the right to seek
+review under 35 U.S.C. §§ 141or145 with respect to the affirmed rejections
+(claims 1, 2, 5-9, 11-16, and 18-20 under 35 U.S.C. § 103), the effective
+date of the affirmance is deferred until conclusion of the prosecution before
+the Examiner unless, as a mere incident to the limited prosecution, the
+affirmed rejection is overcome.
+If Appellant elects prosecution before the Examiner and this does not
+
+result in allowance of the application, abandonment, or a second appeal, this
+case should be returned to the Patent Trial and Appeal Board for final action
+on the affirmed rejection, including any timely request for rehearing thereof.
+AFFIRMED; NEW GROUND OF REJECTION
+PURSUANT TO 37 C.F.R. § 41.50(b)
+
+15
+
+

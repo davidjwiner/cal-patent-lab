@@ -1,0 +1,239 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111320,066
+
+12/28/2005
+
+Michael E. Russell
+
+0715151.190-USl
+
+7573
+
+124447
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+Byrne Poh LLP I Google Technology Holdings LLC
+11 Broadway, Ste 1115
+New York, NY 10004
+
+TRAN,PAULP
+
+ART UNIT
+
+PAPER NUMBER
+
+2649
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+info@byrnepoh.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MICHAEL E. RUSSELL and THOMAS E. GITZINGER
+
+Appeal2013-010367
+Application 11/320,066 1
+Technology Center 2600
+
+Before MAHSHID D. SAADAT, JOHN D. HAMANN, and
+SCOTT E. BAIN, Administrative Patent Judges.
+HAMANN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants file this appeal under 35 U.S.C. § 134(a) from the
+Examiner's Final Rejection of claims 2, 3, 5-7, 11, 12, 16, 18, and 19. We
+have jurisdiction under 35 U.S.C. § 6(b). We reverse.
+
+THE CLAIMED INVENTION
+Appellants' claimed invention relates to wireless communications
+systems that manage the power level of transmitted signals in an ad-hoc
+communications system. Spec. i-f 2. Claim 7 is illustrative of the subject
+
+1
+
+According to Appellants, the real party in interest is Motorola Mobility,
+Inc. Br. 2.
+
+Appeal2013-010367
+Application 11/320,066
+matter of the appeal and is reproduced below with emphasis added to
+highlight the dispositive disputed limitation.
+7.
+A method of controlling power level of the transmit
+signals from a wireless device that is communicating with more
+than one other wireless communication apparatus as part of an
+ad-hoc network, comprising the steps of:
+a. detecting a first value of a usage parameter of a
+communication between the wireless device and a first one of
+the more than one other wireless communication apparatus;
+b. setting in the wireless device a power level of a
+transmit signal for transmitting a message from the wireless
+device to the first one of the more than one other wireless
+communication apparatus to a first power level corresponding
+to the first value;
+c. detecting a second value of a usage parameter of a
+communication between the wireless device and a second one
+of the more than one other wireless communication apparatus;
+d. setting in the wireless device a power level of a
+transmit signal for transmitting a message from the wireless
+device to the second one of the more than one other wireless
+communication apparatus to a second power level
+corresponding to the second value, different from the first
+power level, while maintaining an active communication
+connection with the first one of the more than one other
+wireless communication apparatus at the first power level.
+REJECTIONS ON APPEAL
+(1)
+
+The Examiner rejected claims 2, 3, 5, and 7 under 35 U.S.C.
+
+§ 102(e) as being anticipated by Wilhelmsson et al. (US 2007/0060132 Al;
+issued Mar. 15, 2007) (hereinafter "Wilhelmsson").
+(2)
+
+The Examiner rejected claim 6 under 35 U.S.C. § 103(a) as
+
+being unpatentable over the combination of Wilhelmsson and Kurisko et al.
+(US 2003/0050009 Al; published Mar. 13, 2003) (hereinafter "Kurisko").
+
+2
+
+Appeal2013-010367
+Application 11/320,066
+(3)
+
+The Examiner rejected claims 11 and 12 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over the combination of Wilhelmsson and
+Admitted Prior Art of Russell et al. (US 20071014923 7 A 1; published June
+28, 2007) (hereinafter "AP A").
+(4)
+
+The Examiner rejected claims 16, 18, and 19 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over the combination of Wilhelmsson and
+Nichols et al. (US 2005/0272457 Al; published Dec. 8, 2005) (hereinafter
+"Nichols").
+
+DISPOSITIVE ISSUE ON APPEAL
+The dispositive issue for this appeal is whether the Examiner erred in
+finding the cited portions of Wilhelmsson disclose "setting in the wireless
+device a power level of a transmit signal for transmitting a message from the
+wireless device to the second ... communication apparatus ... while
+maintaining an active communication connection with the first one of the
+more than one other wireless communication apparatus at the first power
+level," as recited in claim 7, and similarly recited in claim 16.
+
+ANALYSIS
+We find Appellants' arguments persuasive with respect to the cited
+portions of Wilhelmsson failing to disclose the above dispositive, disputed
+limitation.
+Appellants contend Wilhelmsson fails to disclose setting the power
+level for transmitting to the second apparatus while actively communicating
+with other apparatus. Br. 5---6. Specifically, Appellants argue Wilhelmsson
+does not disclose that "a different power level [is] maintained for
+
+3
+
+Appeal2013-010367
+Application 11/320,066
+communications with any one particular network node ... while
+communications with a different network node are supported at a different
+power level." Br. 6; see also id. (citing Wilhelmsson i-fi-180-83, 86)
+(arguing, inter alia, "the particular power level for communications with any
+one particular network node is not maintained at a level that differs from the
+power level for communications intended for another different network
+nodes.").
+The Examiner finds Wilhelmsson discloses the disputed limitation.
+See Ans. 17-18. Specifically, the Examiner finds Wilhelmsson discloses
+
+that the device can simultaneously transmit signals, where each transmit
+signal can be set at a different power level (e.g., PAB, PAc, PAD, indicating the
+power levels between device A and apparatus B, C, and D, respectively). Id.
+at 17 (citing Wilhelmsson Figs. 4---6, i-fi-154--55, 77-78, 84--90) (finding
+setting different power levels depending on the radio signal strength
+indicator of each link or based on the distance between transmitter and
+receiver).
+We are persuaded by Appellants' arguments. We agree with
+Appellants that the Examiner cited portions of Wilhelmsson fail to disclose
+the above disputed limitation. Wilhelmsson discloses transmitting signals
+having different power levels serially -
+
+as opposed to transmitting multiple
+
+signals with different power levels at the same time, which the Examiner
+finds. See Wilhelmsson i-fi-1 54 (disclosing "a packet 400 is transmitted from
+one device, e.g. device A of FIG. 1, to another device, e.g. one of the devices
+B, C, and Din FIG. 1."), 58---61, 67, 78 (disclosing that power levels are first
+negotiated between device A and the remaining devices), 84 (disclosing the
+payload message is transmitted "at one of the power levels PAB, PAc, or PAD,
+
+4
+
+Appeal2013-010367
+Application 11/320,066
+depending on which device a message is directed towards."), 85 (disclosing
+"if a message is directed towards devices B and C, device A may transmit
+the message at a power level P=max(P AB, PAc)"), 86. Thus, the cited
+portions of Wilhelmsson fail to disclose setting a power level for
+transmitting to one device while communicating with another.
+Accordingly, we do not sustain the Examiner's§ 102 rejection of
+claim 7, as well as claims 2, 3, and 5, which depend therefrom and
+incorporate the disputed limitation. Further, claim 6 indirectly depends from
+claim 7, and thus, we also do not sustain the Examiner's § 103 rejection of
+claim 6. As to the Examiner's§ 103 rejection of claims 11 and 12 and§ 103
+rejection of claims 16, 18, and 19, the Examiner relies on the above findings
+from Wilhelmsson regarding the disputed, dispositive limitation, and
+combines additional references for additional limitations. Accordingly, we
+also do not sustain the Examiner's§ 103 rejections of claims 11, 12, 16, 18,
+and 19.
+
+DECISION
+We reverse the Examiner's decision rejecting claims 2, 3, 5-7, 11, 12,
+16, 18, and 19.
+
+REVERSED
+
+5
+
+

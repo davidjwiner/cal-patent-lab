@@ -1,0 +1,181 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/535,621
+
+06/28/2012
+
+Itzhack GOLDBERG
+
+SJ0920110066US2
+(433.U02)
+
+2915
+
+73908
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+GRIFFITHS & SEATON PLLC (IBM)
+3813 E. Kenwood St.
+MESA, AZ 85215
+
+DOAN,HANV
+
+ART UNIT
+
+PAPER NUMBER
+
+2136
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing@gs-iplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ITZHACK GOLDBERG
+
+Appeal2015-002989
+Application 13/535,621
+Technology Center 2100
+
+Before ALLEN R. MACDONALD, and ROBERT E. NAPPI, and ELENI
+MANTIS MERCADER, Administrative Patent Judges.
+PERCURIAM.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) of the rejection
+of claims 1, and 3 through 9.
+We affirm.
+INVENTION
+The invention is directed to a data storage system in which an initial
+remote region of a first remote storage device of a remote storage system not
+matching a corresponding local region of a local storage device of a remote
+local system is detected. Then, a subsequent remote region on the remote
+storage system matching the initial remote region is identified and the data
+in the initial region is replaced with data from the subsequent remote region.
+See Specification, para. 5.
+
+Appeal2015-002989
+Application 13/535,621
+Claim 1 is illustrative of the invention and reproduced below:
+1. A method performed by a processor, comprising:
+detecting an initial remote region of a first remote storage
+device of a remote storage system not matching a corresponding local
+region of a local storage device of a local storage system, the remote
+storage system including a plurality of remote storage devices each
+including remote regions having a one-to-one correspondence with
+local regions of the local storage device;
+identifying a subsequent remote region included in one of the
+remote storage devices of the plurality of remote storage devices of
+the remote storage system matching the initial remote region by
+searching a target subset of each of the remote regions; and
+replacing data in the initial remote region with data from the
+identified subsequent remote region.
+REJECTIONS AT ISSUE
+The Examiner has rejected claims 1, 3, 4, 5, 8 and 9 under 35 U.S.C.
+
+§ 103(a) as unpatentable over Fujibayashi (US 2003/0131278), Natanzon
+(US 8,108,634 Bl, issued Jan. 31, 2012) and Vaikar (US 8,055,614 Bl,
+issued Nov. 8, 2011). Final Act. 2---6. 1
+The Examiner has rejected claim 6 under 35 U.S.C. § 103(a) as
+unpatentable over Fujibayashi, Natanzon, Vaikar and Reynolds (US
+2008/0021936 Al, pub. Jan. 24, 2008). Final Act. 6-7.
+The Examiner has rejected claim 7 under 35 U.S.C. § 103(a) as
+unpatentable over Fujibayashi, Natanzon, Vaikar and Yamagami (US
+2003/0126107 Al, pub. July 3, 2003). Final Act. 7.
+
+1
+
+Throughout this opinion we refer to the Appeal Brief, filed July 30, 2014,
+the Final Rejection, mailed March 10, 2014, and the Examiner's Answer,
+mailed Nov. 5, 2014.
+
+2
+
+Appeal2015-002989
+Application 13/535,621
+ISSUES
+Appellant argues on pages 12 through 15 of the Appeal Brief that the
+Examiner's rejection of independent claim 1 is in error: These arguments
+present us with the following issues:
+a) Did the Examiner err in finding the combination of the
+Fujibayashi, Natanzon, and Vaikar references teaches identifying
+subsequent remote regions included in one of the remote storage
+devices of the plurality of remote storage devices of the remote
+storage system matching the initial remote region by searching the
+target subset of each of the remote regions and replacing data in
+the initial remote region with data from the identified subsequent
+remote region?
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellant's
+contentions that the Examiner has erred. Further, we have reviewed the
+Examiner's response to Appellant's arguments. The Examiner provides a
+comprehensive response to Appellant's arguments on pages 3 through 9 of
+the Answer. We have reviewed the Examiner's claim interpretation and the
+cited portions of the references relied upon by the Examiner to support the
+finding that Vaikar in combination with Fujibayashi and Natanzon teaches
+the disputed claim limitation. We concur with the Examiner's claim
+interpretation and findings and adopt them as our own. Accordingly, we
+sustain the Examiner's rejection of independent claim 1 and claims 3
+through 5, 8 and 9 which are grouped with claim 1.
+
+3
+
+Appeal2015-002989
+Application 13/535,621
+On pages 15 and 18 of the Appeal Brief~ Appellant addresses the
+rejection of claims 6 and 7, by arguing that the additional references used in
+the rejection don't make up for the deficiencies in the rejection of claim 1.
+As discussed above we are not persuaded of error in the rejections of claims
+6 and 7 and we sustain the rejection of these claims.
+
+DECISION
+The decision of the Examiner to reject claims 1, and 3 through 9 is
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+4
+
+

@@ -1,0 +1,279 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/605,495
+
+09/06/2012
+
+Hemang N. Gadhia
+
+AOLI.246041
+
+1075
+
+130011
+
+7590
+
+09/21/2016
+
+Shook, Hardy & Bacon L.L.P.
+(AOL Inc.)
+Intellectual Property Department
+2555 Grand Blvd.
+Kansas City, MO 64108-2613
+
+EXAMINER
+ANDERSON, SCOTT C
+
+ART UNIT
+
+PAPER NUMBER
+
+3688
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDOCKET@SHB.COM
+IPRCDKT@SHB.COM
+kspringer@shb.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HEMANG N. GADHIA,
+RISHI KUMAR,
+HELLMUT ADOLPHS,
+andMATTHEWM. SAUNDERS
+
+Appeal2014-003538
+Application 13/605,495 1
+Technology Center 3600
+
+Before ANTON W. PETTING, NINA L. MEDLOCK, and
+BART A. GERSTENBLITH, Administrative Patent Judges.
+PETTING, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+1
+
+The Appellants identify "Millennial Media, Inc." as the real party in
+interest. Br. 2.
+
+Appeal2014-003538
+Application 13/605,495
+STATEMENT OF THE CASE 2
+Hemang N. Gadhia, Rishi Kumar, Hellmut Adolphs, and Matthew M.
+Saunders (Appellants) seek review under 35 U.S.C. § 134 of a final rejection
+of claims 1-22, the only claims pending in the application on appeal. We
+have jurisdiction over the appeal pursuant to 35 U.S.C. § 6(b).
+The Appellants invented a way of providing mobile advertising using
+data networks based on intelligence data associated with Intemetconnectable devices derived using graph data models. Spec., para. 3.
+An understanding of the invention can be derived from a reading of
+exemplary claim 1, part of which is reproduced below (bracketed matter and
+some paragraphing added). 3
+1. ...
+[1] representing the Intemet-connectable device as a device
+
+node in a graph data model;
+[2] receiving from the Intemet-connectable device a first
+location event captured by the Intemet-connectable device;
+[3] determining a place of interest of a user of the Intemetconnectable device based on at least the first location event;
+[4] representing the place of interest as a place node in the
+graph data model;
+[5] representing a relationship between the device node and the
+place node as a device-place edge in the graph data model;
+[6] determining an audience category associated with the place
+of interest, wherein the audience category represents a brand or
+subject matter of a brand associated with the place of interest;
+2
+
+Our decision will make reference to the Appellants' Appeal Brief ("Br.,"
+filed August 5, 2013) and the Examiner's Answer ("Ans.," mailed
+November 12, 2013), and Final Action ("Final Act.," mailed March 5,
+2013).
+3
+Claims 1 and 12 are the independent claims on appeal.
+2
+
+Appeal2014-003538
+Application 13/605,495
+[7] representing the audience category as a category node in the
+graph data model;
+[8] representing a relationship between the place node and the
+category node as a place-category edge in the graph data model;
+[9] receiving from the Intemet-connectable device a second
+location event captured by the Intemet-connectable device;
+[ 10] determining the second location event is associated with
+the place of interest;
+[11] determining that the user of the Intemet-connectable
+device has an affinity to the audience category based on the first
+location event and the second location event by traversing the
+graph data model, wherein traversing the graph data model
+comprises examining at least the place node, category node,
+device-place edge, and place-category edge;
+[12] representing a relationship between the device node and
+the category node as a device-category edge in the graph data
+model based on the determination that the user of the Intemetconnectable device has an affinity to the audience category;
+[13] determining the audience value for the user of the Intemetconnectable device by traversing the graph data model, wherein
+traversing the graph data model comprises examining at least
+the category node and the device-category edge, wherein the
+audience value represents an audience segment to which the
+user of the Intemet-connectable device belongs, wherein the
+audience segment comprises a group of Intemet-connectable
+device users defined based on at least one criterion common
+among the group of Intemet-connectable device users;
+[ 14] representing the audience value as an audience value node
+in the graph data model;
+and
+[ 15] representing a relationship between the device node and
+the audience value node as a device-audience value edge in the
+graph data model; ...
+
+3
+
+Appeal2014-003538
+Application 13/605,495
+The Examiner relies upon the following prior art:
+Grannan
+
+US 2007 /0244750 Al
+
+Oct. 18, 2007
+
+Claims 1-22 stand rejected under 35 U.S.C. § 102(b) as anticipated by
+Grannan.
+
+ISSUES
+The issues of anticipation tum primarily on whether Grannan
+describes the graph data structure recited in the claims.
+
+FACTS PERTINENT TO THE ISSUES
+The following enumerated Findings of Fact (FF) are supported by a
+preponderance of the evidence.
+Facts Related to the Prior Art
+Grannan
+
+01.
+
+Grannan is directed to providing selected advertising to send to
+a recipient. Grannan, para. 2.
+
+02.
+
+Grannan makes no reference to graphs, edges or nodes as part
+of a graph. In particular, Grannan does not describe a data
+structure representative of a graph into which the data the
+Examiner refers to are stored.
+
+4
+
+Appeal2014-003538
+Application 13/605,495
+ANALYSIS
+We are persuaded by Appellants' argument that
+it is stated in the Final Office Action that "language from the
+mathematical field of graph theory, such as references to nodes
+and edges and the traversing of graphs, graph data model, etc.,
+is considered but given no patentable weight as it represents a
+mere labeling of ordinary data storage and data access methods
+common throughout all of computing." Final Office Action,
+p. 7. Applicants disagree, at least because claim 1 utilizes graph
+theory to perform a specific process and is not merely a labeling
+of ordinary data storage and data access methods.
+Br. 15. The Examiner finds that "[t]he application under consideration here
+uses the terminology of a branch of mathematics called graph theory, and as
+it is a rather arcane subject, known to but a few, a brief explanation will help
+clarify the Examiner's reasoning." Ans. 5. The claims at issue rely only on
+the most basic elements of graph theory as applied to data structures, taught
+in undergraduate level introductory data structure and computer algorithm
+classes. Thus, one of ordinary skill in the computer program design arts
+would be intimately knowledgeable of the data structures recited in the
+claims.
+More importantly, the Examiner finds that
+the term "graph data model" appears in the Claims. This term
+does not mean anything specific; nearly anything stored in a
+computer can be interpreted as a graph data model, and many
+things outside a computer. Without any stretching at all, a
+spreadsheet, a family tree or a map of Philadelphia could be
+considered a graph data model. This is a descriptive term of
+how people interpret data, and does not impart structure or
+functionality to a computer system.
+Ans. 6. We agree with the Examiner's finding as to the breadth of the scope
+of a graph data model, but we find the description of a graph as not
+
+5
+
+Appeal2014-003538
+Application 13/605,495
+imparting logical structure or functionality to not be supported by a
+preponderance of the evidence. A graph stored in a computer is a data
+structure. 4 We find that the claim requires some graph data structure into
+which the recited values are stored.
+The Examiner makes no finding as to any such data structure in
+Grannan. Although we agree with the Examiner that the labels recited for
+the data that are inserted into the data structure are undeserving of patentable
+weight, the existence of the data structure itself is a specific recited
+implementation for how the data are stored, imparting a logical structure
+among those data values, and must be afforded patentable weight.
+To the extent the Examiner implies that storing anything in a
+computer is storing in a graph, the claim is not that broad. Merely finding
+that a memory architecture is structured as some form of graph per se is
+insufficient. The Examiner must show the logical relationships between the
+values stored as recited in the claims. The Examiner has failed to make a
+prima facie case in not finding the recited data structure in what is supposed
+to be an anticipatory reference.
+
+CONCLUSIONS OF LAW
+The rejection of claims 1-22 under 35 U.S.C. § 102(b) as anticipated
+by Grannan is improper.
+
+DECISION
+The rejection of claims 1-22 is reversed.
+
+4
+
+See, e.g., http://www.tutorialspoint.com/
+data_structures_algorithms/graph_data_structure.htm.
+6
+
+Appeal2014-003538
+Application 13/605,495
+
+REVERSED
+
+7
+
+

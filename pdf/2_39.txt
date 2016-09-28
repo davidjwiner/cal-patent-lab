@@ -1,0 +1,315 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/473,413
+
+05/28/2009
+
+Daniel Edgardo Viassolo
+
+225685-1
+
+9562
+
+6147
+
+7590
+
+09/22/2016
+
+GENERAL ELECTRIC COMPANY
+GLOBAL RESEARCH
+ONE RESEARCH CIRCLE
+BLDG. Kl-3A59
+NISKAYUNA, NY 12309
+
+EXAMINER
+KIM,EUNHEE
+
+ART UNIT
+
+PAPER NUMBER
+
+2123
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+haeckl@ge.com
+gpo.mail@ge.com
+Lori.e.rooney@ge.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DANIEL EDGARDO VIASSOLO,
+A VINASH VINAYAK TAWARE and BRENT JEROME BRUNELL
+
+Appeal2015-002842
+Application No. 12/473,413 1
+Technology Center 2100
+
+Before MARC S. HOFF, MELISSA A. HAAPALA, and JOYCE CRAIG,
+Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a Non-Final
+Rejection of claims 1-11, 14-25, and 27-36. 2 We have jurisdiction under 35
+U.S.C. § 6(b).
+We reverse.
+Appellants' invention is a method of generating linear engine models
+for an aircraft engine system. First, a set of linear engine models is
+determined offline, by linearization of a nonlinear computation model of the
+
+1
+
+2
+
+The real party in interest is General Electric Company.
+Claims 12, 13, and 26 have been cancelled.
+
+Appeal2015-002842
+Application No. 12/473,413
+engine system at selected operating points or from desired data. Second, the
+accuracy of each linear engine model is analyzed, and inaccurate models are
+eliminated, producing a residual set of linear engine models. Third, linear
+engine models are generated offline, corresponding to grid points of one or
+more lookup tables based on the residual set of linear engine models. Fourth,
+lookup table grid points are associated offline with selected scheduling
+variables. Fifth, algorithmic software is generated for the engine system such
+that the linear engine models generated offline form the basis for online
+scheduling of linear engine models. See Abstract.
+Claim 1 is exemplary of the claims on appeal:
+
+1.
+A method of generating linear models for an aircraft
+engine system, the method comprising:
+determining, offline, a set of linear models for the aircraft
+engine system by linearization of a nonlinear model of the
+aircraft engine system at selected operating points or from
+desired data;
+analyzing, offline, accuracy of each linear model and
+eliminating inaccurate linear models therefrom to provide a
+residual set of the linear engine models;
+generating, offline, linear models corresponding to grid
+points of one or more rectangular lookup tables based on the
+residual set of the linear engine models;
+associating, offline, lookup table grid points or the residual
+set of the linear engine models with selected scheduling
+variables; and
+generating, offline, algorithmic software for the aircraft
+engine system therefrom such that the linear models for the
+aircraft engine system generated offline form a basis for online
+scheduling of linear models.
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Dudek
+
+us 5,094,213
+2
+
+Mar. 10, 1992
+
+Appeal2015-002842
+Application No. 12/473,413
+Volponi
+
+US 7,472,100 B2
+
+Dec. 30, 2008
+
+Ellis
+
+US 8,117,017 B2
+
+Feb. 14,2012
+
+Bharath Reddy Endurthi, Linearization and Health Estimation of a
+Turbofan Engine (December 2004) (M.S. thesis, Cleveland State University)
+
+(hereinafter "Endurthi").
+Paulo Rosa et al., Autolanding Controller for a Fixed Wing
+Unmanned Air Vehicle, American Institute of Aeronautics and Astronautics,
+
+Inc. 2007 (hereinafter "Rosa").
+
+Claims 1-7, 9, 14-17, 20-24, 27, 29-34, and 36 stand rejected under
+35 U.S.C. § 103(a) as being unpatentable over Endurthi, Ellis, and Dudek.
+Claims 8, 10, 11, 18, 19, 28, and 35 stand rejected under 35 U.S.C.
+§ 103(a) as being unpatentable over Endurthi, Ellis, Dudek, and Rosa.
+
+Claims 25 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Endurthi, Ellis, Dudek, and Volponi.
+Throughout this decision, we make reference to the Appeal Brief
+("App. Br.," filed Oct. 14, 2014), the Reply Brief ("Reply Br.," filed Jan. 20,
+2015), and the Examiner's Answer ("Ans.," mailed Nov. 21, 2014) for their
+respective details.
+ISSUES
+1. Does Ellis disclose or suggest generating, offline, linear models
+
+corresponding to grid points of one or more rectangular lookup tables based
+on the residual set of the linear engine models, as recited in claim 1?
+2. Does Ellis disclose or suggest generating linear engine models
+corresponding to grid points of one or more lookup tables based on a
+secondary set of linear engine models, as recited in claim 29?
+
+3
+
+Appeal2015-002842
+Application No. 12/473,413
+
+ANALYSIS
+CLAIMS 1-7, 9, 14-17, 20-24, AND 27
+The Examiner finds that Ellis teaches generating linear models
+corresponding to grid points of one or more rectangular lookup tables based
+on the residual set of linear engine models. Ans. 4. Responding to
+Appellants' arguments, the Examiner finds that Ellis discloses that the
+linearized engine models are "based on the state space representation:
+
+where u, x and y are vectors respectively corresponding to engine
+control variables u, engine state variables x and the engine performance
+variables y,
+
+x is a vector corresponding to the time derivatives of the engine
+
+state variables x, and A, G, C and Dare matrices of partial derivatives." Ans.
+18 (citing Ellis col. 9, 11. 9-18). The Examiner further points out that
+Appellants' Specification discloses a linear engine model (LEM) which is
+defined by matrices A, B, C, D. Ans. 18; Spec. ,-i 13.
+The Examiner finds that because matrix D in Ellis has as components
+"[t]he engine performance variables y with respect to the engine control
+variables u," matrix Chas as components "the engine performance variables
+y with respect to the engine state variables x," and matrix G has as
+components "the engine state variables x with respect to the engine control
+variables u," Ellis teaches subject matter corresponding to the claimed "grid
+points of one or more rectangular lookup tables based on the residual set of
+the linear engine models." Ans. 18.
+
+4
+
+Appeal2015-002842
+Application No. 12/473,413
+While we agree with the Examiner that Ellis discloses details of an
+individual linear engine model that are similar to Appellants' individual
+linear engine models, we do not agree with the Examiner's findings
+concerning the claimed invention, because the Examiner has not fully
+considered the definition of the claim term "rectangular" in the
+Specification.
+Appellants disclose that
+[b ]y rectangularity, it is implied that for instance, if the
+scheduling variables were altitude and ambient temperature and
+there were, say, 5 altitudes and 5 ambient temperatures that form
+the scheduling grid, then for each of these 25 grid points, there
+needs to be a LEM associated. This condition of rectangularity is
+a prerequisite for most interpolation algorithms. If there are more
+than two scheduling variables, then accordingly for every
+combination of the scheduling variables, there needs to be a LEM
+associated.
+Spec. ,-i 26.
+Appellants further disclose that, if the residual set of LEMs is not
+rectangular with respect to the selected set of scheduling variables, that
+residual set is then employed "to generate LEMs that are used to form the
+grid or vertex points of one or more lookup tables satisfying the condition of
+rectangularity with respect to the selected scheduling variables." Spec. ,-i 27.
+The Examiner's discussion of Ellis has failed to establish that Ellis
+discloses "generating, offline, linear models corresponding to grid points of
+one or more rectangular lookup tables," because the Examiner has not
+identified any disclosure in Ellis that, based on the residual set of linear
+engine models, a set of linear models that is rectangular, within the meaning
+expressed by Appellants, is generated. The Examiner's finding that
+
+5
+
+Appeal2015-002842
+Application No. 12/473,413
+individual LEMs in Ellis are similar to the individual LEMs disclosed by
+Appellants is not sufficient to show a disclosure of the claimed
+rectangularity.
+Endurthi and Dudek, as relied upon by the Examiner, do not remedy
+the deficiencies of Ellis.
+We agree with Appellants that the Examiner has failed to identify, in
+Ellis, "generating, offline, linear models corresponding to grid points of one
+or more rectangular lookup tables, based on the residual set of linear engine
+models," as recited in claim 1. Because we conclude that the Examiner
+erred, we do not sustain the Examiner's § 103 rejection of claim 1 and its
+dependent claims 2-7, 9, 14-17, 20-24, and 27 over Endurthi, Ellis, and
+Dudek.
+CLAIMS
+
+29-34 AND 36
+
+Independent claim 29 recites "generating the linear engine models
+corresponding to grid points of one or more lookup tables based on the
+secondary set of linear engine models."
+Similar to our analysis of independent claim 1, we find error in the
+Examiner's rejection of claim 29, based on the content of Ellis. We do not
+agree with the Examiner's finding that Ellis teaches this limitation. We agree
+with Appellants that "[t]he vectors of the matrices [of Ellis, discussed supra]
+do not correspond to grid points" of one or more lookup tables, "nor are they
+based on [secondary] set of linear [engine] models." App. Br. 9.
+Accordingly, we find that the combination of Endurthi, Ellis, and
+Dudek fails to teach or suggest all the elements of claim 29, and its
+dependent claims 30-34 and 36. We do not sustain the Examiner's§ 103
+rejection.
+
+6
+
+Appeal2015-002842
+Application No. 12/473,413
+CLAIMS 8, 10, 11, 18, 19, 28, AND 35
+We agree with Appellants that Rosa does not remedy the deficiencies
+of the combination of Endurthi, Ellis, and Dudek. We do not sustain the
+Examiner's§ 103 rejection of claims 8, 10, 11, 18, 19, 28, and 35.
+CLAIM25
+We agree with Appellants that Volponi fails to cure the deficiencies of
+Endurthi, Ellis, and Dudek, as discussed supra. We do not sustain the
+Examiner's§ 103 rejection of claim 25.
+CONCLUSIONS
+1. Ellis does not disclose or suggest generating, offline, linear models
+
+corresponding to grid points of one or more rectangular lookup tables based
+on the residual set of the linear engine models, as recited in claim 1.
+2. Ellis does not disclose or suggest generating linear engine models
+corresponding to grid points of one or more lookup tables based on a
+secondary set of linear engine models, as recited in claim 29.
+ORDER
+The Examiner's rejection of claims 1-11, 14-25, and 27-36 is
+reversed.
+
+REVERSED
+
+7
+
+

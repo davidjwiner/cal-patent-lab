@@ -1,0 +1,269 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/698,559
+
+11/16/2012
+
+Shamai Opfer
+
+83128897
+
+4256
+
+22879
+
+7590
+
+09/15/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+CRUZ, IRIANA
+
+ART UNIT
+
+PAPER NUMBER
+
+2675
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SHAMAI OPFER, ELAD D. BARAM, JODY TERRILL,
+YOSSI ADAM, ELI BITAN, TAMIR HATIVA,
+SHMULIK TISCHLER, and NOGA TAL
+
+Appeal2015-004917 1
+Application 13/698,559
+Technology Center 2600
+
+Before JEAN R. HOMERE, CAROLYN D. THOMAS, and
+AARON W. MOORE, Administrative Patent Judges.
+HOMERE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek our review under 35 U.S.C. § 134(a) of the
+Examiner's final rejection of claims 19-27 and 29-37. Claims 1-18 and 28
+have been canceled. App. Br. 4. 2 We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+We affirm.
+
+1
+
+Appellants identify the real party in interest as Hewlett-Packard Indigo
+B.V. App. Br. 2.
+2
+
+All dependent claims in this appeal improperly depend on previously
+canceled claims. Claims App'x.
+
+Appeal2015-004917
+Application 13/698,559
+Appellants' Invention
+Appellants' invention is directed to a method and system for printing
+with in-line finishing. Spec. i-f 2. In particular, upon receiving a job
+command from a printing station (12) via a direct communication link (15),
+a finishing line controller (PLC, 20) converts the job command into a
+finishing action command, which is communicated to one or more finishing
+devices (14, 16, 18). Id. i-f 44, Fig. 1.
+
+Illustrative Claim
+Independent claim 19 is illustrative, and reads as follows:
+19. A printing system comprising:
+a printing station comprising a printing assembly;
+a finishing line controller for controlling operation of one or more
+finishing devices arrangeable in-line with the printing station; and
+a direct communication link between the printing station and the
+finishing line controller for communicating job commands from the printing
+station to the finishing line controller to be translated into finishing action
+commands by the finishing line controller and communicated to said one or
+more finishing devices.
+
+Rejection on Appeal
+Claims 19-27 and 29-37 stand rejected under 35 U.S.C. § 102(b) as
+being anticipated by Ryan.
+
+2
+
+Appeal2015-004917
+Application 13/698,559
+ANALYSIS
+We consider Appellants' arguments seriatim, as they are presented in
+the Appeal Brief, pages 9-25, and the Reply Brief, pages 4--18. 3
+Appellants argue that Ryan does not anticipate the claims on appeal.
+App. Br. 10-25; Reply Br. 4--18. We have reviewed the Examiner's
+rejection in light of Appellants' arguments. We are unpersuaded by
+Appellants' contentions. Except as otherwise indicated herein below, we
+adopt as our own the findings and reasons set forth in the rejection from
+which the appeal is taken and in the Examiner's Answer in response to
+Appellants' Appeal Brief. See Final Act. 2-8; Ans. 2-10. However, we
+highlight and address specific arguments and findings for emphasis as
+follows.
+First, Appellants argue Ryan does not describe a direct
+communication link between a printing station and a finishing line controller
+(PLC). App. Br. 12-14; Reply Br. 6-8. According to Appellants, because
+the disclosed VFJTR (701) is not part of the FMC (700), they do not
+describe together the claimed PLC. Id (citing Ryan, Fig. 5). In particular,
+Appellants argue that the claimed PLC (20) includes a Bindery Agent (21 ),
+which translates a job command from the PLC into a finishing action
+suitable for distribution to the finishing devices. App. Br. 12 (citing Spec.
+
+3
+
+Rather than reiterate the arguments of Appellants and the Examiner, we
+refer to the Appeal Brief (filed September 29, 2014), the Reply Brief (filed
+March 27, 2015) and the Answer (mailed January 30, 2015) for their
+respective details. We have considered in this Decision only those
+arguments Appellants actually raised in the Briefs. Any other arguments
+Appellants could have made but chose not to make in the Briefs are deemed
+to be waived. See 37 C.F.R. § 41.37(c)(l)(iv) (2012).
+
+3
+
+Appeal2015-004917
+Application 13/698,559
+
+if 47). In contrast, Appellants submit the VFJTR merely provides
+information to the FMC, and does not translate the information for
+subsequent distribution. Id. This argument is not persuasive.
+As correctly noted by the Examiner, although the PLC includes a
+bindery agent, the latter device is not recited in the claim, and, therefore,
+cannot constitute a proper basis for supporting Appellants' arguments. Ans.
+6. Consequently, Appellants' argument that the VFJTR does not describe
+the Bindery Agent is not commensurate with the scope of the claim.
+Second, Appellants argue that because the JSIS and VFJTR serve as
+intermediaries between the printing station and the FMC, Ryan does not
+describe a direct link between the printing station and the FMC. App. Br.
+13-14; Reply Br. 8-10. This argument is not persuasive. As correctly noted
+by the Examiner, Ryan's VFJTR serves the function of reading information
+from the JSIS to the FMC, which in tum, interprets, translates, and delivers
+the information to the finishing module. Ans. 6-7 (citing Ryan iii! 60-64).
+We, thus, agree with the Examiner that because the functions performed by
+the VFJTR and the FMC describe the functions of the claimed PLC, the
+VFJTR and FMC taken together describe the claimed PLC. Id.
+Accordingly, Ryan's disclosure of the JSI describes a direct link between the
+VFJTR/FMC and the printing stations. Fig. 1.
+Third, Appellants argue that because the JSI refers to a job segment
+identifier for looking up a job segment in the VFJTDB, it does not contain a
+job command, which is communicated to the PLC. App. Br. 14--15; Reply
+Br. 10-12. This argument is not persuasive. The claim does not require that
+the direct link include a job command. Instead, the disputed limitation
+requires a direct link for communicating a job command from the printing
+
+4
+
+Appeal2015-004917
+Application 13/698,559
+station to the FLC. As correctly noted by the Examiner, Ryan discloses
+transmitting to the VFJTR/FMC via the JSI job segments obtained from the
+printing devices such that the identified job segments can be rendered at the
+finishing modules. Ans. 7-8 (citing i-fi-160-64). It, therefore, follows that
+Appellants have not shown error in the Examiner's anticipation rejection of
+claim 19.
+Regarding the rejection of claim 26, Appellants argue Ryan does not
+describe gathering information from a finishing device (e.g. the capacity
+thereof), and communicating status information to the printing station. App.
+Br. 16. According to Appellants, Ryan discloses the FMC requesting access
+to desired device information from the VFJTDB, and providing the
+information to the finishing devices, as opposed to the FMC gathering data
+from the finishing devices and communicating the gathered information to
+the printing station. Id. at 16-8 (citing Ryan i-fi-160-64, 72). This argument
+is not persuasive. As correctly noted by the Examiner, Ryan discloses the
+controller tracking performance information about the finishing devices, and
+subsequently relating the gathered information to the printing stations. Ans.
+8-9 (citing Ryan i-fi-192-94). Likewise, Ryan's disclosure of interrogating
+devices identified as being in an error state to thereby generate a recovery
+request for an operator to handle describes generating an automated error
+recovery request. Ryan i-fi-194--95. We agree with the Examiner that the
+cited disclosures describe the disputed limitations. Accordingly, we sustain
+the Examiner's rejection of claim 26.
+Regarding the rejection of claim 32, Appellants argue Ryan does not
+describe operating the communication link as a near real-time interface.
+App. Br. 19-22. This argument is not persuasive. Because the JSI
+
+5
+
+Appeal2015-004917
+Application 13/698,559
+communicates the identified job segments to the VFJTR/FMC without
+substantial delay, the JSI communication link describes a near real-time
+interface between the controller and the finishing devices. Ryan i-f 73.
+Accordingly, we sustain the Examiner's rejection of claim 32.
+Regarding the rejection of claim 20, Appellants argue Ryan does not
+describe a digital front end controller (DFEC) with a first communication
+link to the printing station, and a second communication link to the finishing
+line controller (PLC). App. Br. 23-24. This argument is not persuasive. As
+correctly noted by the Examiner, Ryan discloses a DFE (200) coupled to the
+VFJTR/FMC pair via JSI, and also coupled to the printing devices via
+interfaces 202/203. Ans. 9 (citing Ryan i-f 90, Fig. 5). Accordingly, we
+sustain the Examiner's rejection of claim 20.
+Regarding the rejection of claim 22, Appellants argue that Ryan does
+not describe a bindery agent hosted in the PLC. App. Br. 24--25. This
+argument is not persuasive. As correctly noted by the Examiner, because the
+FMC is capable of performing finishing actions, such as translating the
+printing job command before transmitting it to the finishing devices, it
+incorporates the conventional functions of the bindery agent, and thereby
+describes the cited agent. Ans. 10. Accordingly, we sustain the Examiner's
+rejection of claim 22.
+Regarding claims 21, 23-25, 27, 29-31, and 33-37, because
+Appellants reiterate substantially the same arguments as those previously
+discussed for patentability of claims 19, 20, 22, 26, and 32 above, claims 21,
+23-25, 27, 29-31, and 33-37 fall therewith. See 37 C.F.R. § 41.37(c)(l)(iv).
+We affirm the Examiner's rejection of claims 19-27 and 29-37.
+
+6
+
+Appeal2015-004917
+Application 13/698,559
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+7
+
+

@@ -1,0 +1,297 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/677,660
+
+10/02/2003
+
+Susann Marie Keohane
+
+A US920030640US 1
+
+9966
+
+60501
+
+7590
+
+09/20/2016
+
+LENOVO COMPANY (LENOVO-KLS)
+c/o Kennedy Lenart Spraggins LLP
+8601 Ranch Road 2222
+Ste. 1-225
+AUSTIN, TX 78730
+
+EXAMINER
+PHAN, TUANKHANH D
+
+ART UNIT
+
+PAPER NUMBER
+
+2154
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+office@klspatents.com
+kate@klspatents.com
+hanna@klspatents.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SUSANN MARIE KEOHANE, SHAWN PATRICK MULLEN,
+JOHNNY MENG-HAN SHIEH, GERALD FRANCIS McBREARTY, and
+JESSICA MURILLO
+
+Appeal2015-004543
+Application 10/677 ,660
+Technology Center 2100
+
+Before ERIC S. FRAHM, KRISTEN L. DROESCH, and
+JASON V. MORGAN, Administrative Patent Judges.
+FRAHM, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1-11, 13-24, 26-37, and 39. Claims 12, 25, and 38 have been
+canceled. The instant application on appeal was previously appealed, and
+the Board in a decision mailed February 29, 2012 affirmed the Examiner's
+rejection of claim 1 on the same two base references as now before us. 1
+1
+
+We note that the Appeal Brief asserted that there were no related appeals or
+interferences. Br. 2. Appellants and Appellants' counsel are reminded that
+they have a duty to disclose prior and pending appeals that involve an
+
+Appeal2015-004543
+Application 10/677 ,660
+Claim 1 has been the subject of further prosecution, and has been amended
+to include additional features. The Examiner has applied a new tertiary
+reference to address the newly added features. We have jurisdiction under
+35 U.S.C. § 6(b).
+We affirm.
+Exemplary Claim
+
+Independent claims 1, 11, 14, 24, 27, and 37 contain similar features,
+and all recite features relating to determining when a computer is connected
+to a changed computing environment having a new type of connection
+having the security control required.
+Exemplary independent claim 1 under appeal, with emphases added to
+key portions of the claim, reads as follows:
+1. A method comprising:
+
+monitoring a type of connection between a computer and
+a network in a current computing environment;
+determining a security level of data before sending the
+data across the network;
+sending the data across the network if the connection to
+the network has a security control required for the determined
+security level of the data;
+storing the data in a buffer instead of sending the data
+across the network if the connection to the network lacks a
+security control required for the determined security level of the
+data;
+application or patent owned by Appellants or the application's assignee, are
+known to Appellants, Appellants' legal representative, or assignee, "and
+may be related to, directly affect or be directly affected by or have a bearing
+on the Board's decision in the pending appeal." 37 C.F.R. § 41.37(c)(ii)
+(2014).
+2
+
+Appeal2015-004543
+Application 10/677 ,660
+
+determining that the computer is connected to a changed
+computing environment having a new type of connection that
+has the security control required for the data; and
+only sending the data from the buffer in response to
+determining that the computer is connected to a changed
+computing environment having a new type of connection that
+has the security control required for the data.
+Examiner's Rejection
+The Examiner rejected claims 1-11, 13-24, 26-37, and 39 as being
+unpatentable under 35 U.S.C. § 103(a) over the combination of Herrero et al.
+(WO 00/74345 Al; published Dec. 7, 2000), Holden et al. (US 5,828,832;
+issued Oct. 27, 1998), and Herrod (US 2003/0065784 Al; published Apr. 3,
+2003). 2 Final Act. 4--8; Ans. 2--4. Herrod has been newly applied to the
+claims to teach or suggest at least the newly added feature in the claims of
+"determining that the computer is connected to a changed computing
+environment having a new type of connection that has the security control
+required for the data" (see e.g., claim l ).
+
+2
+
+Appellants present arguments primarily as to claim 1 (see Br. 8-10), and
+rely on those arguments with respect to the patentability of the remaining
+claims on appeal (see Br. 10-12), with the exception of claims 6 and 7
+argued separately (Br. 12-13). Independent claims 1, 11, 14, 24, 27, and 37
+recite similar subject matter, namely a method, system, and computer
+program product capable of determining that a computer is connected to a
+changed computing environment having a new type of connection with the
+security control required. We select independent claim 1 as representative
+of the group of claims rejected under 35 U.S.C. § 103(a) (claims 1-5, 8-11,
+13-24, 26-37, and 39), accordingly, our analysis herein will only address
+representative claim 1.
+
+3
+
+Appeal2015-004543
+Application 10/677 ,660
+
+Principal Issues on Appeal
+Based on Appellants' arguments (Br. 8-13), the following principal
+issues are presented:
+(1) Did the Examiner err in rejecting claims 1-5, 8-11, 13-24, 26-37,
+and 39 as unpatentable because the combination of Herrero, Holden, and
+Herrod, and specifically Herrod, fails to disclose "determining that the
+computer is connected to a changed computing environment having a new
+type of connection that has the security control required for the data," as set
+forth in representative claim 1?
+(2) Did the Examiner err in rejecting claims 6 and 7 as unpatentable
+because the combination of Herrero, Holden, and Herrod fails to teach or
+suggest the security level determination limitations recited in claims 6 and
+7?
+
+ANALYSIS
+We have reviewed the Examiner's rejection (Final Act. 4--8) in light
+of Appellants' contentions in the Appeal Brief (Br. 8-13) that the Examiner
+has erred, as well as the Examiner's response to Appellants' arguments in
+the Appeal Brief (Ans. 2--4). We disagree with Appellants' conclusions.
+With regard to representative claim 1, we adopt as our own (1) the findings
+and reasons set forth by the Examiner in the action from which this appeal is
+taken (Final Act. 2--4), and (2) the reasons set forth by the Examiner in the
+Examiner's Answer in response to Appellants' Appeal Brief (see Ans. 2--4).
+We concur with the conclusions reached by the Examiner.
+
+4
+
+Appeal2015-004543
+Application 10/677 ,660
+Representative Independent Claim 1
+
+The Examiner has provided a factual basis and articulated reasoning
+with a rational underpinning to support the conclusion of obviousness with
+regard to claim 1 (see Final Act. 4---6; Ans. 2--4). See KSR Int 'l Co. v.
+Teleflex Inc., 550 U.S. 398, 418 (2007). We agree with the Examiner (Final
+
+Act. 5; Ans. 3) that:
+Herrod discloses determining that the computer is connected to
+a changed computing environment having a new type of
+connection that has the security control required for the data
+and only sending in response to the determination (i-f [0083],
+since data transmission between two computers are prevented
+due to lack of security, data transmission is allowed when a
+new type (alternative) communication (connection) that meets
+certain criteria, such as security (i-f [0087]).
+(Ans. 3; see also Final Act. 5 making a similar finding).
+Specifically, paragraph 34 of Herrod discloses "storing and queuing
+the data messages in each respective computer while a new link is
+established; and re-establishing a link (or changing the operating
+characteristics of the same link) between in the respective computers in
+order to continue a session between the first and second applications"
+
+(Herrod i134) (emphasis added). Paragraph 83 of Herrod supports this
+disclosure by also disclosing "re-establishing a link between first and second
+virtual sockets." Finally, paragraph 87 of Herrod discloses that (i) "a search
+is made for an alternative communication channel meeting certain criteria
+(e.g., bandwidth, reliability, coverage, quality of service, security, etc.);" and
+(ii) when "a new channel is found which re-establishes communication to
+the remote computer, an acknowledgement is received by the sending
+computer, that the channel is acceptable to the receiving computer and the
+5
+
+Appeal2015-004543
+Application 10/677 ,660
+alternate link is established" (Herrod if 87) (emphasis added). Thus, Herrod
+teaches or suggests determining if a new connection is made based on a
+security control for access to the data.
+Accordingly, we disagree with Appellants' assertions that Herrod fails
+to disclose "determining that the computer is connected to a changed
+computing environment having a new type of connection that has the
+security control required for the data" as recited in claim 1 (Br. 10), and
+Herrod simply discloses first and second communication channels that each
+meet security level criteria (Br. 10 and 11 ).
+Dependent Claims 6 and 7
+
+With regard to claim 6, Appellants contend (Br. 12) the combination
+of references, and specifically Herrero, fails to teach or suggest the recited
+markup element. With regard to claim 7, Appellants contend (Br. 12-13)
+the combination of references, and specifically Holden, fails to teach or
+suggest the recited meta-data in a header.
+Neither of the arguments presented as to claims 6 and 7 are persuasive
+in light of the Examiner's cogent response found in the Answer (Ans. 3--4).
+We agree with the Examiner that (i) lines 15-17 of Herrero teaches or
+suggests the markup element of claim 6 (Ans. 3--4); and (ii) Holden's
+datagram (Holden, col. 16, 1. 56) meets the meta-data limitation recited in
+claim 7 (Ans. 4). Appellants have not filed a Reply Brief or shown
+otherwise with responsive arguments or evidence.
+Summary
+
+In view of the foregoing, Appellants have not sufficiently shown that
+the Examiner erred in rejecting representative independent claim 1, as well
+as remaining independent claims 11, 14, 24, 27, and 37, or their respective
+6
+
+Appeal2015-004543
+Application 10/677 ,660
+dependent claims 2-10, 13, 15-23, 26, 28-36, and 39, under
+35 U.S.C. § 103(a), and we sustain the rejection before us.
+
+CONCLUSIONS
+(1) The Examiner has not erred in determining that the combination of
+Herrero, Holden, and Herrod teaches or suggests a method including
+"determining that the computer is connected to a changed computing
+environment having a new type of connection that has the security control
+required for the data," as set forth in representative claim 1.
+(2) Appellants have not shown that (i) Herrero fails to teach or suggest
+the security level determination features recited in claim 6; and/or (ii)
+Holden fails to teach or suggest the security level determination features
+recited in claim 7, or otherwise overcome the Examiner's prima facie case of
+obviousness as to claims 6 and 7.
+
+DECISION
+The Examiner's rejection of claims 1-11, 13-24, 26-37, and 39 under
+35 U.S.C. § 103(a) is affirmed.No time period for taking any subsequent
+action in connection with this appeal may be extended under 37 C.F.R.
+§ 1.136(a)(l). See 37 C.F.R. §§ 41.50(±), 41.52(b) (2013).
+
+AFFIRMED
+
+7
+
+

@@ -1,0 +1,267 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+14/155,008
+
+01114/2014
+
+Wei David Wang
+
+FORT-011910
+
+1413
+
+64128
+
+7590
+
+09/20/2016
+
+MICHAEL A DESANCTIS
+HAMILTON DESANCTIS & CHA LLP
+FINANCIAL PLAZA AT UNION SQUARE
+225 UNION BOULEVARD, SUITE 150
+LAKEWOOD, CO 80228
+
+EXAMINER
+DOAN, TRANG T
+
+ART UNIT
+
+PAPER NUMBER
+
+2431
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mdesanctis@hdciplaw.com
+docket@hdciplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte WEI DAVID WANG, DAYONG ZHOU,
+and IHAB KHALIL
+
+Appeal2015-007283
+Application 14/155,008 1
+Technology Center 2400
+
+Before MARC S. HOFF, JOHN P. PINKERTON, and JOYCE CRAIG,
+Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Final Rejection of
+claims 1-14. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+The real party in interest is Fortinet, Inc.
+
+Appeal2015-007283
+Application 14/155,008
+Appellants' invention is a method and system for improved attack
+context data logging. Configuration information is received by a firewall
+device from a network administrator, including a number (N) of packets to
+capture by the firewall device responsive to an event detected by the firewall
+device. The detected event is potentially indicative of a threat or undesired
+activity. Responsive to a determination that a trigger packet is associated
+with a potential threat or potential undesired activity, the firewall device
+causes information regarding N packets of the received packets, inclusive of
+the trigger packet, to be stored in a log. See Abstract.
+Claim 1 is exemplary of the claims on appeal:
+1.
+
+A method comprising:
+
+receiving, by a firewall device, configuration information
+from a network administrator, the configuration information
+including a number (N) of packets to capture by the firewall
+device responsive to an event detected by the firewall device
+that is potentially indicative of a threat or undesired activity;
+rece1vmg, by the firewall device, a plurality of packets;
+applying, by the firewall device, at least one attack
+detection algorithm to the plurality of packets, wherein the at
+least one attack detection algorithm comprises one or more of a
+set of intrusion detection signatures, a set of malware detection
+signatures and a set of security policies; and
+responsive to determining, by the firewall device, based
+on the at least one attack detection algorithm that a trigger
+packet of the plurality of packets is associated with a potential
+threat or potential undesired activity, causing information
+regarding N packets of the plurality of packets, inclusive of the
+trigger packet, to be stored in a log.
+App. Br. 18 (Claims App'x).
+
+2
+
+Appeal2015-007283
+Application 14/155,008
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Xie et al.
+McGrath et al.
+
+US 2007 /0050846 Al
+US 2012/0140630 Al
+
+Mar. 1, 2007
+June 7, 2012
+
+Claims 1-14 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Xie and McGrath.
+Throughout this decision, we make reference to the Appeal Brief
+("App. Br.," filed Jan. 14, 2015), the Final Action ("Final Act.," mailed Oct.
+31, 2014), and the Examiner's Answer ("Ans.," mailed May 22, 2015) for
+their respective details.
+
+ISSUES
+1. Did the Examiner err in combining Xie and McGrath because
+McGrath constitutes nonanalogous art?
+2. Does the combination of Xie and McGrath disclose or suggest
+receiving configuration including a number (N) of packets to capture by the
+firewall device responsive to an event detected by the firewall device that is
+potentially indicative of a threat or undesired activity?
+PRINCIPLES OF LAW
+The analogous-art test requires that the Board show that a
+reference is either in the field of the applicant's endeavor or is
+reasonably pertinent to the problem with which the inventor
+was concerned in order to rely on that reference as a basis for
+rejection .... References are selected as being reasonably
+pertinent to the problem based on the judgment of a person
+having ordinary skill in the art.
+
+In re Kahn, 441 F.3d 977, 986-87 (Fed. Cir. 2006) (citations omitted).
+
+3
+
+Appeal2015-007283
+Application 14/155,008
+ANALYSIS
+ANALOGOUS ART
+
+Appellants' argument that McGrath is not analogous art to
+Appellants' invention is not persuasive. See App. Br. 10-13. The problem
+that Appellants are concerned with is "logging data to facilitate capturing
+and understanding of the context of an attack." Spec. i-f 3. Appellants,
+therefore, seek to learn from an attack and apply that learning to prevent or
+lessen future attacks. McGrath is concerned with detecting "unwanted data
+reception," just as Appellants are (i.e., with "attacks"), and filtering out said
+unwanted data in order to keep its resource constrained electronic devices
+from being "overwhelmed by deliberate (or accidental) excessive network
+traffic." McGrath i-fi-1 4, 11. Just like Appellants, McGrath is concerned with
+reducing or eliminating the impact of attacks.
+We conclude that McGrath is reasonably pertinent to the problem with
+which the inventor was concerned, based on the judgment of a person having
+ordinary skill in the art.
+COMBINATION OF XIE AND MCGRATH
+
+The Examiner finds that Xie discloses "receiving ... configuration
+information from a network administrator, the configuration information
+including parameters to capture by the firewall device responsive to an event
+detected by the firewall device that is potentially indicative of a threat or
+undesired activity." Final Act. 3--4 (citing Xie i-fi-132-34, 41). The Examiner
+further finds that Xie discloses "causing information regarding N packets of
+the plurality of packets, inclusive of the trigger packet, to be stored in a log."
+Final Act. 4 (citing Xie i-fi-132, 33, 35).
+
+4
+
+Appeal2015-007283
+Application 14/155,008
+Xie discloses that firewall 21 is part of its logging device, and logged
+data is sent to a storage device 22. See Xie i-fi-130-32.
+[T]he user can also specify the depth of logging. For example,
+the user can set the parameters so that only headers of the data
+packets are logged. Alternatively, the user can set the
+parameters to log the full content or only the session related
+data (length of the data). For example, the user may request
+that only the headers of the IP packets are logged and to log the
+entire packets for all other types of packets.
+Xie i133. "[T]he firewall 21 serves as a filter recognizing the format of the
+packet and selecting the packets that are to be logged onto the storage 22."
+Xie i1 34. "That is, the firewall 21 selectively decides which network
+packets are to be stored in the storage 22 based on the user specified criteria
+and which packets can go through without the logging." Xie i135.
+We find that the user in Xie may vary a number of criteria that
+determine which and how many network packets are logged in storage 22.
+We find that Xie' s disclosure of the option to log "the full content" or "the
+entire packets" equates to a user's option to simply log a predetermined
+number of (full) packets to storage 22.
+McGrath discloses a method to limit the amount of network traffic by
+detecting unwanted data reception and discarding unwanted data reception
+before it reaches another higher layer of the network stack of an electronic
+device. See McGrath i-f 11. We agree with the Examiner's finding that
+McGrath "switch[ es] on filtering [i.e., discarding unwanted data reception]
+dependent on the number of data packets received per unit time according to
+at least one predetermined number of data packets." McGrath i-f 17.
+Given Xie' s extensive disclosures concerning how a user may
+configure parameters concerning the logging of received packets to storage,
+
+5
+
+Appeal2015-007283
+Application 14/155,008
+and given McGrath's disclosure that protective action is taken when
+unwanted data is received, we agree with the Examiner's conclusion that it
+would have been obvious to combine Xie and McGrath such that a firewall
+device receives configuration information to the effect that N packets are to
+be captured responsive to a detected threat or undesired activity. See Final
+Act. 4. We agree with the Examiner's rationale that doing so would limit
+the amount of network traffic reaching a local node. Final Act. 5.
+We find that the combination of Xie and McGrath discloses or
+suggests all the limitations of claims 1-14. We sustain the Examiner's§ 103
+rejection of claims 1-14.
+
+CONCLUSIONS
+1. The Examiner did not err in combining Xie and McGrath.
+McGrath does not constitute nonanalogous art.
+2. The combination of Xie and McGrath suggests receiving
+configuration including a number (N) of packets to capture by the firewall
+device responsive to an event detected by the firewall device that is
+potentially indicative of a threat or undesired activity.
+
+DECISION
+The Examiner's rejection of claims 1-14 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

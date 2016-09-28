@@ -1,0 +1,293 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/129, 174
+
+05/13/2011
+
+Henrik Risbo Jeppesen
+
+31511U
+
+6660
+
+20529
+
+7590
+
+09/21/2016
+
+NATH, GOLDBERG & MEYER
+Joshua Goldberg
+112 South West Street
+Alexandria, VA 22314
+
+EXAMINER
+SMALL, NAOMI J
+
+ART UNIT
+
+PAPER NUMBER
+
+2682
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+USPTO@nathlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HENRIK RISBO JEPPESEN
+
+Appeal2015-006721
+Application 13/129, 174
+Technology Center 2600
+
+Before ERIC B. CHEN, ADAM J. PYONIN, and AMBER L. HAGY,
+Administrative Patent Judges.
+
+CHEN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+This is an appeal under 35 U.S.C. § 134(a) from the final rejection of
+claims 1-12, all the claims pending in the application. We have jurisdiction
+under 35 U.S.C. § 6(b). We reverse.
+
+Appeal2015-006721
+Application 13/129, 174
+STATEMENT OF THE CASE
+Appellant's invention relates to a radio frequency identification
+(RFID) device, which includes a wireless communication device (e.g., RFID
+chip or strap) having at least a pair of contact points, and an antenna
+structure having a sheet of electrically conductive material. (Spec. 1:5-8.)
+Claim 1 is exemplary, with disputed limitations in italics:
+1.
+A radio frequency identification RFID device (100, 200,
+300, 400, 600) comprising:
+- the RFID device configured to be attached to an object and to
+be tuned at an assembly time to a material surrounding the device,
+- a wireless communication device (101, 201, 301, 401 ), such
+as an RFID chip or strap, having at least a pair of contact points (221,
+521), and
+- an antenna structure (102, 202, 302, 402, 602) adapted to
+provide an omni-directional radiation pattern, having a sheet (103,
+203, 303, 403, 503, 603) of electrically conductive material being
+provided with an inner opening (104, 204, 304, 404, 604) so as to
+provide a hole through the antenna structure (102, 202, 302, 402,
+602), the inner opening being configured to facilitate a locking
+mechanism engaging with the tag through the opening, the sheet (103,
+203, 303, 403, 503, 603) further being provided with an elongated slot
+(105, 205, 305, 405) with a first and a second side, the slot (105, 205,
+305, 405) having an inner end (106, 206, 306, 406) at a periphery of
+the opening (104, 204, 304, 404, 604) and an outer end (107, 207,
+307, 407) at a periphery of the sheet (103, 203, 303, 403, 503, 603),
+the slot (105, 205, 305, 405) being formed so as to provide a spacing
+between the first side and the second side, and where the conductive
+
+material is adapted to surround the inner opening in a radial
+direction from the first side of the inner end and to the second side of
+the inner end in an angular direction away from the slot, wherein
+- the conductive material is electrically connected from the first
+side of the slot (105, 205, 305, 405) to the second side of the slot (105,
+205, 305, 405) via the contact points (221) and through the
+communication device (101, 201, 301, 401) at a position along the
+
+2
+
+Appeal2015-006721
+Application 13/129, 174
+length of the slot between the inner end (106, 206, 306, 406) and the
+outer end (107, 207, 307, 407), the position along the length of the
+slot being determined so as to tune the RFID device to a predetermined resonance frequency, allowing the device to be adapted to
+specific electronic parameters and tuned to different configurations
+depending on the materials directly surrounding the device.
+Claims 1-3, 5, 6, 9, and 11 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Kline (US 2006/0244603 Al; Nov. 2, 2006), Jo
+(US 2005/0024287 Al; Feb. 3, 2005), Jesme (US 2008/0258875 Al;
+Oct. 23, 2008), Esselink (US 6,501,430 B 1; Dec. 31, 2002), and Forster '148
+(US 7,292,148 B2; Nov. 6, 2007).
+Claims 4 and 8 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Kline, Jo, Jesme, Esselink, Forster '148, and Forster '198
+(US 2006/0043198 Al; Mar. 2, 2006).
+Claim 7 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+Kline, Jo, Jesme, Esselink, Forster' 148, and Forster '677 (US
+2005/0093677 Al; May 5, 2005).
+Claim 10 stands rejected under 35 U.S.C. § 103(a) as unpatentable
+over Kline, Jo, Jesme, Esselink, and Forster ' 148, and Cassata
+(US 5,016,368; May 21, 1991).
+Claim 12 stands rejected under 35 U.S.C. § 103(a) unpatentable over
+Kline, Vega (US 6,411,213 Bl; June 25, 2002), Jo, Jesme, and Forster' 148.
+
+ANALYSIS
+
+§ 103 Rejection-Kline, Jo, Jesme, Esselink, and Forster '148
+We are persuaded by Appellant's arguments (Reply Br. 10; see also
+App. Br. 10) that the combination of Kline, Jo, Jesme, Esselink, and Forster
+
+3
+
+Appeal2015-006721
+Application 13/129,174
+'148 would not have rendered obvious independent claim 1, which includes
+the limitation "where the conductive material is adapted to surround the
+inner opening in a radial direction."
+The Examiner found that the electrically conductive metal web of
+Kline corresponds to the limitation "a sheet ... of electrically conductive
+material." (Ans. 2.) The Examiner further found that antenna A of Kline
+having a T-shaped slot, as illustrated in Figure 2 of Kline, corresponds to the
+limitation "where the conductive material is adapted to surround the inner
+opening in a radial direction." (Id. at 3.) We do not agree.
+Independent claim 1 recites "where the conductive material is adapted
+to surround the inner opening in a radial direction from the first side of the
+inner end" (emphasis added). One relevant plain meaning of "radial" is
+"relating to, placed like, or moving along a radius." MERRIMAN-WEBSTER'S
+COLLEGIATE DICTIONARY 962 (10th ed. 1999). Similarly, "radius" is
+defined as "a straight line from the center of a circle or sphere to any point
+on the outer edge." (Id. at 964.) This definition of "radial" is consistent
+with Appellant's Figure 1, a top view of a circular radio frequency
+identification (RFID) device 100 (Spec. 6:15-16), reproduced below:
+Jtl{,--100
+~
+
+v
+
+Fig. 1
+
+4
+
+,,102
+
+Appeal2015-006721
+Application 13/129,174
+As illustrated in Appellant's Figure 1, sheet 103 includes inner opening 104
+as a hole with slot 105 having inner end 106, such that sheet 103 extends
+radially from inner opening 104. (Spec. 6:32-7:2.) Similarly, Appellant's
+Figures 3 and 4 illustrate a top view of circular RFID devices 300 and 400,
+respectively. Accordingly, under the broadest reasonable interpretation
+consistent with the Specification, we interpret "radially" as moving along a
+radius, a straight line from the center of a circle to any point on the outer
+edge.
+Kline relates to "methods of making webs including antenna webs and
+RFID transponder webs and to RFID antenna webs." (i-f 3.) Figure 2 of
+Kline, which illustrates a top plan view of a transponder web (i-f 20), is
+reproduced below:
+T
+
+FIG.2
+Kline explains that "[e]ach transponder Tis comprised of an antenna A and
+a strap Shaving an RFID chip C" and that "[t]he antennas A are generally
+bow-tie shaped, but they can have other shapes." (i-f 47.) Kline further
+
+5
+
+Appeal2015-006721
+Application 13/129, 174
+explains that "antenna A has a slot 26 shown to have a generally T-shaped
+configuration" (id.) and that such antenna A is formed of a flexible
+electrically conductive material (e.g., aluminum) (i-f 53).
+Although the Examiner cited to Figure 2 of Kline (Ans. 3), which
+illustrates a "bow-tie shaped" antenna A (or can "have other shapes") with
+T-shaped slot 26, the Examiner has provided insufficient evidence or
+reasoning to support a finding that Kline teaches the limitation "where the
+conductive material is adapted to surround the inner opening in a radial
+direction." In particular, the Examiner has not articulated any reasoning
+with some rational underpinning as why one of ordinary skill in the art
+would have modified the shape of antenna A to be circular, including a
+circular opening, and why one of ordinary would have selected the location
+of the T-shaped slot 26 on a circular antenna A such that "the conductive
+material is adapted to surround the inner opening in a radial direction." On
+this record, the Examiner has not demonstrated that Kline teaches the
+limitation "where the conductive material is adapted to surround the inner
+opening in a radial direction." Moreover, the Examiner's application of Jo,
+Jesme, Esselink, and Forster ' 148 does not cure the above noted deficiencies
+of Kline.
+Accordingly, we are persuaded by Appellant's arguments that "[i]n
+Kline, the 'inner opening' and 'slot' are depicted by reference numerals 27
+and 28, which in combination form a T-shaped cutout depicted by reference
+numeral 26" and "[t]he T-shaped cutout of Kline ... does not disclose the
+presently claimed feature of a conductive material adapted to surround the
+inner opening in a radial direction." (Reply Br. 10 (emphases omitted); see
+also App. Br. 10.)
+
+6
+
+Appeal2015-006721
+Application 13/129, 174
+Therefore, we do not sustain the rejection of independent claim 1
+under 35 U.S.C. § 103(a). Claims 2, 3, 5, 6, 9, and 11 depend from
+independent claim 1. We do not sustain the rejection of claims 2, 3, 5, 6, 9,
+and 11under35 U.S.C. § 103(a) for the same reasons discussed with respect
+to independent claim 1.
+
+§ 103 Rejection-Kline, Jo, Jesme, Esselink, Forster '148, and Forster '198
+Claims 4 and 8 depend from independent claim 1. Forster' 198 was
+cited by the Examiner for teaching the additional features of claims 4 and 8.
+(Ans. 6-8.) However, the Examiner's application of Forster' 198 does not
+cure the above noted deficiencies of Kline.
+
+§ 103 Rejection-Kline, Jo, Jesme, Esselink, and Forster '148, and
+Forster '677
+Claim 7 depends from independent claim 1. Forster '677 was cited by
+the Examiner for teaching the additional features of claim 7. (Ans. 8-9.)
+However, the Examiner's application of Forster '677 does not cure the
+above noted deficiencies of Kline.
+
+§ 103 Rejection-Kline, Jo, Jesme, Esselink, Forster '148, and Cassata
+Claim 10 depends from independent claim 1. Cassata was cited by
+the Examiner for teaching the additional features of claim 10. (Ans. 9-10.)
+However, the Examiner's application of Forster' 198 does not cure the
+above noted deficiencies of Kline.
+
+7
+
+Appeal2015-006721
+Application 13/129, 174
+§ 103 Rejection-Kline, Vega, Jo, Jesme, and Forster '148
+
+Independent claim 12 recites limitations similar to those discussed
+with respect to independent claim 1. Vega was cited by the Examiner for
+teaching the additional features of claim 12. (Ans. 10-13.) However, the
+Examiner's application of Vega does not cure the above noted deficiencies
+of Kline.
+
+DECISION
+The Examiner's decision rejecting claims 1-12 is reversed.
+
+REVERSED
+
+8
+
+

@@ -1,0 +1,283 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/638,821
+
+12/15/2009
+
+Frank Menzel
+
+32924/14
+
+5738
+
+83554
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+Mindray DS USA, Inc, c/o Stoel Rives LLP
+201 S. Main Street, Suite 1100
+Salt Lake City, UT 84111
+
+YANG, JAMES J
+
+ART UNIT
+
+PAPER NUMBER
+
+2683
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+slcpatent@stoel.com
+kdchristensen@stoel.com
+mehowlett@stoel.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FRANK MENZEL
+
+Appeal2015-005079
+Application 12/638,821
+Technology Center 2600
+
+Before JUSTIN BUSCH, MATTHEW J. McNEILL, and
+ALEX S. YAP, Administrative Patent Judges.
+YAP, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant 1 appeals under 35 U.S.C. § 134(a) from the final rejection
+of claims 1-22, which are all the claims pending in this application. We
+have jurisdiction under 35 U.S.C. § 6(b)
+We reverse.
+
+1
+
+According to Appellant, the real party in interest is Mindray DS USA, Inc.
+(App. Br. 2.)
+
+Appeal2015-005079
+Application 12/638,821
+STATEivIENT OF THE CASE
+
+Introduction
+
+Appellant's invention generally relates to a "patient monitoring
+system[, which] allows medical personnel to customize multi-parameter
+alarms for particular patients and/or medical conditions." (Dec. 15, 2009
+Specification ("Spec.") i-f 2.) Specifically, according to the Specification,
+Appellant's invention "provides a user interface that allows medical
+personnel to create custom alarms by selecting patient parameters, desired
+levels or limits, comparators, and logic connectors to define an alarm
+condition that includes boundary conditions for a plurality of different
+patient parameters." (Id.) Claim 1 is illustrative, and is reproduced below:
+1.
+A method for monitoring a patient using usercustomizable alarm profiles in a patient monitor system, the
+method comprising:
+providing a user interface to a user of the patient monitor
+system for the selection of a multi-parameter alarm condition
+based on measured values associated with a combination of
+multiple patient parameters;
+receiving, through the user interface, a first boundary
+condition associated with a first patient parameter selected by the
+user, the first patient parameter corresponding to a plurality of
+measured values of a first type of monitored patient
+physiological data received through a sensor interface of the
+patient monitor system;
+receiving, through the user interface, a second boundary
+condition associated with a second patient parameter selected by
+the user, the second patient parameter corresponding to a
+plurality of measured values of a second type of monitored
+patient physiological data received through the sensor interface
+of the patient monitor system, wherein the second type of
+monitored patient physiological data is different from the first
+type of monitored patient physiological data;
+
+2
+
+Appeal2015-005079
+Application 12/638,821
+rece1vmg, through the user mterrace, a first logic
+connector that relates the first boundary condition of the first
+patient parameter to the second boundary condition of the second
+patient parameter to define the multi-parameter alarm condition;
+measuring, with the patient monitor system, values of the
+first patient parameter and the second patient parameter; and
+triggering an alarm based on the measured values, the first
+boundary condition, the second boundary condition, and the
+defined multi-parameter alarm condition.
+
+Prior Art and Rejections on Appeal
+The following table lists the prior art relied upon by the Examiner in
+rejecting the claims on appeal:
+Lawson et al.
+("Lawson")
+
+US 2004/0249249 Al
+
+Dec. 9, 2004
+
+Claims 1-22 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lawson. (See Final Office Action (mailed Apr. 9, 2014)
+("Final Act.") 2-24.)
+
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellant's
+arguments that the Examiner has erred. We are persuaded that the Examiner
+erred in rejecting the claims on appeal.
+With respect to claim 1, the claim recites "triggering an alarm based
+on ... the defined multi-parameter alarm condition." Appellant argues that
+"[t]here is no suggestion within Lawson for a single alarm based on multiple
+patient parameters." (Br. 12-13.) Instead, according to Appellant, "Lawson
+teaches an alarm condition on a patient monitor that 'indicates a state of!!.
+physiological parameter."' (Id., emphasis in original.) The Examiner finds
+3
+
+Appeal2015-005079
+Application 12/638,821
+that "the broadest reasonable interpretation of the term 'parameter' ... may
+include other monitored conditions." (Ans. 3, emphasis added.) Therefore,
+according to the Examiner, Lawson teaches or suggests this limitation
+because it "teaches 'checking for the signaling of other alarms based on
+other criteria' when sending an alarm (see Lawson, Paragraph [0043])."
+(Id.) Specifically, "one of ordinary skill in the art would recognize that other
+
+monitored physiological parameters could generate the alarms that are
+checked by the system, similarly to how the system generates an alarm for
+heart rate (see Lawson, Paragraphs [0028], [0043], and [0072])." (Id.)
+We agree with Appellant that the portions of Lawson cited by the
+Examiner do not teach or suggest the limitation at issue. Specifically, the
+claim limitation requires, "triggering an alarm based on ... the defined
+multi-parameter alarm condition." Assuming arguendo that Lawson teaches
+that an alarm can be triggered based on different types of parameters (see
+Ans. 3 (citing Lawson i-f 43), Lawson i-f 34), each alarm is still triggered
+based on a single parameter condition-not a multiple-parameter alarm
+condition, as required by the claim. While Lawson teaches "additional
+steps" that may include checking other conditions for potential alarms, these
+"additional steps" occur after the alarm has already been triggered at step
+106. (Lawson i-f 43.) Accordingly, any alarms triggered by the additional
+conditions would necessarily be different than the alarm that was already
+triggered at step 106. (See id.) Paragraph 43 of Lawson also does not teach
+or suggest that any one of these subsequent alarms is based on a multipleparameter alarm condition.
+For the foregoing reasons, we are persuaded of Examiner error in the
+rejection of claim 1 and do not sustain the 35 U.S.C. § 103 rejection of claim
+
+4
+
+Appeal2015-005079
+Application 12/638,821
+..
+
+,.,
+
+l.~
+
+we a1so ao not sustam me
+
+....-....- T
+
+..
+
+..
+
+'
+
+'
+
+•
+
+'..
+
+,...,. ,..
+
+j)
+
+TT
+
+r"I
+
+""
+
+u.~.L.
+
+s lUj reJecuon or ciam1s L-"},
+n
+
+..
+
+A,...,.
+
+•
+
+'
+
+•
+
+ro
+
+..
+
+•
+
+,.....
+
+,......
+
+which depend from claim 1. Independent claims 10, 19, and 22 contain a
+similar limitation at issue and the Examiner cites to the same passages of
+Lawson for the limitation and makes similar findings. (Final Act. 10-12,
+17-19, 21-24; Ans. 5---6.) Thus, for the same reason, we do not sustain the
+35 U.S.C. § 103 rejection of independent claims 10, 19, and 22, as well as
+claims 11-18, 20, and 21, which depend from independent claims 10 or 19.
+
+DECISION
+The decision of the Examiner to reject claims 1-22 is reversed.
+
+REVERSED
+
+2
+
+Because we do not sustain the Examiner's rejection for the reasons
+discussed herein, we need not address Appellant's further arguments. See
+Beloit Corp. v. Valmet Oy, 742 F.2d 1421, 1423 (Fed. Cir. 1984) (finding an
+administrative agency is at liberty to reach a decision based on "a single
+dispositive issue").
+5
+
+

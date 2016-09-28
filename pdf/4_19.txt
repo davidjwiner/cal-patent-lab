@@ -1,0 +1,406 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/543,141
+
+08/18/2009
+
+Wesley Kenneth Cobb
+
+BRS/0021
+
+6753
+
+110344
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+Patterson & Sheridan, LLP/BRS Labs
+24 Greenway Plaza, Suite 1600
+Houston, TX 77046
+
+CHU, RANDOLPH I
+
+ART UNIT
+
+PAPER NUMBER
+
+2666
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+PSDocketing@pattersonsheridan.com
+Pair_eOfficeAction@pattersonsheridan.com
+VKubitskey@pattersonsheridan.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte WESLEY KENNETH COBB,
+RAJKIRAN KUMAR GOTTUMUKKAL,
+KISHOR ADINATH SAITWAL, MIN-JUNG SEOW,
+GANG XU, LON WILLIAM RISINGER, and JEFF GRAHAM
+
+Appeal2015-001938
+Application 12/543,141
+Technology Center 2600
+
+Before JOSEPH L. DIXON, ERIC S. FRAHM, and
+KRISTEN L. DROESCH, Administrative Patent Judges.
+
+DIXON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-001938
+Application 12/543,141
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1-25. Claims 26-32 have been withdrawn from consideration. We have
+jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+The claims are directed to a pixel-level based micro-feature
+extraction. Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+A computer-implemented method for extracting pixellevel micro-features from image data captured by a video
+camera, the method comprising:
+
+receiving the image data;
+identifying a foreground patch that depicts a foreground
+object;
+processing the foreground patch to compute a plurality of
+micro-feature values based on at least one pixel-level
+characteristic of the foreground patch, wherein the micro-feature
+value is computed independent of training data that defines a
+plurality of object types;
+generating a micro-feature vector that includes the
+plurality of micro-feature values; and
+classifying the foreground object as depicting an object
+type as based on the micro-feature vector.
+
+2
+
+Appeal2015-001938
+Application 12/543,141
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Boregowda et al.
+Farmer et al.
+Saptharishi et al.
+
+US 2007 /0058836 Al
+US 2008/0131004 Al
+US 2012/0274777 Al
+
+Mar. 15, 2007
+June 5, 2008
+Nov. 1, 2012
+
+REJECTIONS
+The Examiner made the following rejections:
+Claims 1-3 and 5-25 stand rejected under 35 U.S.C. § 102(b) as being
+anticipated by Boregowda. 1
+Claim 4 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Boregowda in view of Farmer.
+Claims 4, 5, 14, and 15 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Boregowda in view of Saptharishi.
+
+ANALYSIS
+With respect to independent claims 1, 13, and 18, Appellants argue
+the claims together. (App. Br. 8). Therefore, we select independent claim 1
+
+1
+
+We note that the Examiner appears to reject dependent claim 6 based upon
+obviousness and does not include a specific paragraph addressing claim 6
+with regards to the anticipation rejection, but includes a specific paragraph
+regarding the rejection based upon the combination of Boregowda in view of
+Saptharishi. (Final Act. 9). Additionally, we note that the Examiner
+mentions claim 4 in two rejections in the Final Action. First, The Examiner
+mentions claim 4 in the rejection based upon obvious over Boregowda alone
+and in the introductory paragraph of the combination of Boregowda in view
+of Saptharishi. (Final Act. 8 and 9). We interpret claim 4 to be rejected
+based upon Boregowda alone and claim 6 to be rejected based upon
+obviousness over the combination of Boregowda in view of Saptharishi.
+3
+
+Appeal2015-001938
+Application 12/543,141
+as the representative claim for the group and will address Appellants'
+arguments thereto.
+
+We have reviewed the Examiner's rejections (Final Act. 4--5) in light
+of Appellants' contentions in the Appeal Brief (App. Br. 8-11) and the
+Reply Brief (Reply Br. 2--4) that the Examiner has erred, as well as the
+Examiner's response (Ans. 4--9) to Appellant's arguments in the Appeal
+Brief. We disagree with Appellants' conclusions.
+We concur with the conclusions reached by the Examiner, and adopt
+as our own ( 1) the findings and reasons set forth by the Examiner in the
+Action from which this appeal is taken (Final Act. 4--5), and (2) the reasons
+set forth by the Examiner in the Examiner's Answer in response to
+Appellants' Appeal Brief (Ans. 4--9). We highlight and amplify certain
+teachings and suggestions of the references, as well as certain ones of
+Appellants' arguments as follows.
+With respect to representative independent claim 1, Appellants argue
+that the Examiner's reliance upon the Boregowda reference is in error
+regarding the claimed "processing the foreground patch to compute a
+plurality of micro-feature values based on at least one pixel-level
+characteristic of the foreground patch, wherein the micro-feature value is
+computed independent of training data that defines a plurality of object
+types." (App. Br. 8). Appellants further argue:
+As described in Boregowda, a foreground object may be
+evaluated to determine whether that foreground object represents
+an instance of a predefined class. However, this description of a
+trained classifier in the present specification is expressly
+distinguished from the claimed technique for using a classifier to
+learn arbitrary classification types by clustering micro-feature
+
+4
+
+Appeal2015-001938
+Application 12/543,141
+vectors generated for foreground objects depicted in a video
+stream.
+(App. Br. 9). Appellants contend:
+fundamental features disclosed in Boregowda are shapeand segment-related features of a pixel blob that have length,
+width, and height properties. This differs from "micro-feature
+values based on at least one pixel-level characteristic of the
+foreground patch." That is, micro-feature values are pixel-level
+based properties in a pixel region that are used to generically
+classify multiple object types.
+(App. Br. 10).
+The Examiner maintains:
+In Boregowda, fundamental features (micro-feature
+values) such as (length and width) are computed based on input
+binary blob (the extreme white pixels in the MBR of blob) and
+Shape features (micro-feature vector) such as circularity 242,
+convexity 244, elongation indent 248 are computed based on
+fundamental features, [t ]hen ranges that the features may fall into
+for a class (human, vehicle, etc.) are defined. So, fundamental
+features are interpret[ ed] as micro-feature values and Shape
+features are interpret[ed] as micro-feature vectors.
+(Ans. 6). The Examiner further maintains:
+In paragraph [0054] of Boregowda teach that "The derived
+(generated) features such as the circularity, convexity, elongation
+indent, and the projection histogram features (micro feature
+vector) are computed for the second level of classification of the
+blob. In this second classification, ranges that the features may
+fall into for a class (human, vehicle, etc.) are defined, and class
+weights are derived based on overlap made by feature ranges for
+the different classes." "The derived features such as the
+circularity, convexity, elongation indent, and the projection
+histogram features 225" interprets as micro-feature vector and
+the class (human, vehicle, etc.) are determined based on ranges
+of the feature value.
+5
+
+Appeal2015-001938
+Application 12/543,141
+(Ans. 6-7). Additionally, the Examiner maintains:
+As described in B, fundamental features (micro-feature
+values) are computed based on input binary blob, then The shape
+features (micro feature vector) are generated from fundamental
+features (see Fig. 2), then the object is classified based on The
+shape features (see A).
+Boregowda teaches classify[ing] objects (blob) based on
+generating a micro feature vector (the derived feature) and
+determining an object type (such as human, vehicle and etc.)
+[]based on the micro-feature vector (the derived feature).
+Therefore, Boregowda does teach "computing a plurality
+of micro-feature values (length, width) based on at least one pixel
+characteristic (the extreme white pixels in the MBR) of the
+foreground patch (blob).
+(Ans. 7). The Examiner further disagrees with Appellants and maintains:
+In Boregowda, predefined range of class such as human,
+vehicle, other (para. [0065]) can be interpreted as training data
+because the derived features from the blob are validated with
+respect to the range of value of Predefined class to decide on the
+class to which the blob belongs. In order to calculate the microfeature value (length and width), it only requires information
+from the extreme white pixels in the MBR. It does not require
+any information from predefined class such as value range of
+human, vehicle. Therefore Boregowda does teach "wherein the
+micro-feature value is computed independent of training data that
+defines a plurality of object types."
+It appears that nowhere in the claim describes that what is
+
+"training data" in the claim or how it is related to micro feature
+value. It can be understood as any random data that defines
+object type such as metadata associated with the object. It can
+be seen from Fig. 5 of Boregowda that when the system classifies
+object 521 as vehicle, it does not use object 511 (human)
+(training data) in order to classify the vehicle. When micro6
+
+Appeal2015-001938
+Application 12/543,141
+feature value (length and width) is calculated, any information
+from object 511 or 521 not needed. Therefore, it can be
+concluded that the computation for "a vehicle", in this instance,
+is independent from "training data" that defines other objects as
+human.
+(Ans. 7-8). The Examiner further maintains:
+Boregowda teach that the derived features from the blob 205 are
+validated if derived feature value lies in the predefined range of
+the class which are human 440, vehicle 410, multiple human 430,
+and other (420) ranges as illustrated by example in FIG. 4. (para.
+[0065]). Which mean[ s] that features are derived from the blob,
+not predefined classes. The derived features of Boregowda are
+length and width. In order to compute length and width,
+locations of two pixels are needed. Locations of two pixels can
+be retrieved from the blob. In Boregowda, length and width
+computed based on the extreme white pixels in the MBR
+(minimum bounding rectangle) wherein white pixels are pixels
+around the perimeter of the binary image (blob). There are four
+extreme white pixels in the MBR, (Xmin, Ymin), (Xmin, Ymax),
+(Xmax, Ymin), (Xmax, Ymax). Length can be calculated by Xmax Xmin and width can be calculated by Ymax - Ymin. Everything is
+required to compute length and width can be retrieved from
+extreme white pixels in the MBR of blob. Therefore, information
+from predefined classes is not required to calculate length and
+width.
+(Ans. 8-9). We agree with the Examiner's findings of fact and the finding
+of anticipation of independent claim 1.
+Additionally, Appellants contend:
+The fundamental features are values based on length,
+width, and height features in an input blob. In contrast, microfeature values are pixel-level-based properties in a pixel region
+that are used to generically classify multiple object types. That
+is, such properties are based on pixel-level characteristics that are
+later included in a micro-feature vector representing the
+characteristics.
+7
+
+Appeal2015-001938
+Application 12/543,141
+(Reply Br. 3). Appellants further contend:
+As described, length, width, and height values are
+evaluated based on a collection of pixels that form an input blob.
+That is, the "fundamental features" of Boregowda (e.g., length,
+width, and height) are not calculated per pixel, but rather based
+on the entirety of the input blob itself. In contrast, the microfeature values are computed based on characteristics on a pixellevel. Clearly, the fundamental features disclosed in Boregowda
+differ from the micro-features based on at least one-pixel level
+characteristic of a foreground patch.
+(Reply Br. 4).
+We find Appellants' arguments are not commensurate in scope with
+the express language recited in the language of independent claim 1. We
+find a per-pixel calculation is not recited in language of independent claim 1.
+Moreover, from our review of Appellants' disclosed invention,
+Appellants' Specification evidences that the "micro-feature extractor and
+micro-classifier may be included within a behavior-recognition system ...
+In a particular embodiment, the behavior-recognition system may include
+both a computer vision engine and a machine learning engine." (Spec. i-f 33).
+Additionally, Appellants' Specification sets forth:
+Data output from the computer vision engine may be
+supplied to the machine learning engine. In one embodiment, the
+machine learning engine may evaluate the context events to
+generate "primitive events" describing object behavior. Each
+primitive event may provide some semantic meaning to a group
+of one or more context events. For example, assume a camera
+records a car entering a scene, and that the car turns and parks in
+a parking spot. In such a case, the computer vision engine could
+initially recognize the car as a foreground object; classify it as
+being a vehicle, and output kinematic data describing the
+position, movement, speed, etc., of the car in the context event
+stream. In tum, a primitive event detector could generate a
+8
+
+Appeal2015-001938
+Application 12/543,141
+stream of primitive events from the context event stream such as
+"vehicle appears," ["]vehicle turns," "vehicle slowing," and
+"vehicle stops" (once the kinematic information about the car
+indicated a speed of 0). As events occur, and re-occur, the
+machine learning engine may create, encode, store, retrieve, and
+reinforce patterns representing the events observed to have
+occurred, e.g., long-term memories representing a higher-level
+abstraction of a car parking in the scene - generated from the
+primitive events underlying the higher-level abstraction. Further
+still, patterns representing an event of interest may result in alerts
+passed to users of the behavioral recognition system.
+(Spec. i-f 35). Appellants' Specification further sets forth:
+The computer vision engine 13 5 may be configured to
+analyze this raw information to identify foreground patches
+depicting active objects in the video stream, extract microfeatures, and derive a variety of metadata regarding the actions
+and interactions of such objects, and supply this information to a
+machine learning engine 140. In tum, the machine learning
+engine 140 may be configured to classify the objects, evaluate,
+observe, learn and remember details regarding events (and types
+of events) that transpire within the scene over time.
+(Spec. i-f 41). We further find paragraphs 33, 35, and 41 of Appellants'
+Specification evidences the disclosed invention is a learning-based system
+which does not initially start with any specific training data. We find after
+the system learns and stores data, the data learned from is training data up to
+that point in time. We note that the language of independent claim 1 does
+not set forth any details regarding the behavior recognition system, the
+vision system, or learning system to distinguish the claimed invention from
+the Boregowda reference. As a result, Appellants' arguments do not show
+error in the Examiner's finding of anticipation of independent claim 1.
+Appellants have not presented separate arguments for patentability of
+
+9
+
+Appeal2015-001938
+Application 12/543,141
+independent claims 13 and 18. Consequently, we group these claims as
+falling with representative independent claim 1.
+Appellants do not set forth separate arguments for patentability of
+claims 2-12, 14--17, and 19-25. (App. Br. 11). As a result, these claims
+will fall with their respective parent claims. The Examiner has not set forth
+separate arguments for patentability regarding the obviousness rejections.
+As a result, the Examiner has not shown error in the Examiner's conclusion
+of obviousness.
+
+CONCLUSION
+The Examiner did not err in finding representative independent claim
+1 to be anticipated by Boregowda. Because the Examiner has not set forth
+separate arguments for patentability regarding the obviousness rejections of
+claims 4, 5, 14, and 15, we sustain the obviousness rejections for the same
+reasons as representative claim 1.
+
+DECISION
+For the above reasons, we sustain the Examiner's rejections of claims
+1-25.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l)(iv).
+
+AFFIRMED
+
+10
+
+

@@ -1,0 +1,164 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/849,026
+
+08/03/2010
+
+JASENMINOV
+
+2010P00165US
+
+7040
+
+62730
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+SAP SE
+3410 HILLVIEW AVENUE
+PALO ALTO, CA 94304
+
+STITT, ERIK V
+
+ART UNIT
+
+PAPER NUMBER
+
+2141
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+APRIL.MENG@SAP.COM
+GIPinhouse@sap.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JASEN MINOV and ST ANIMIR EISNER
+
+Appeal2015-003070
+Application 12/849,026
+Technology Center 2100
+
+Before MAHSHID D. SAADAT, ROBERT E. NAPPI, and
+STEVEN M. AMUNDSON, Administrative Patent Judges.
+NAPPI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from the
+Examiner's rejection of claims 1 through 3, 5 through 9, and 11 through 20.
+We reverse.
+
+Appeal2015-003070
+Application 12/849,026
+INVENTION
+The invention is directed to a system for automatic context passing
+during management application navigation. See Abstract.
+Claim 1 is illustrative of the invention and reproduced below:
+An article of manufacture including a nontransitory computer readable storage medium to tangibly store
+instructions, which when executed by a computer, cause the
+computer to:
+1.
+
+receive a user action to navigate to a second management
+application from a first management application;
+collect one or more managed entities in the first
+management application, wherein the one or more managed
+entities are at least one of an application and a service;
+define one or more related entities, comprising entities
+related to the one or more managed entities to populate a
+managed entity context, wherein the one or more related entities
+are defined through entity relations registered by one or more
+dedicated managed beans (MBeans ), the one or more dedicated
+r\1Beans comprising an attribute sho\~1ing the entity relations;
+retrieve one or more context entities from the managed
+entity context, the one or more context entities recognizable by
+the second management application; and
+apply the retrieved one or more context entities in the
+second management application.
+REJECTION AT ISSUE
+The Examiner rejected claims 1 through 3, 5 through 9, and 11
+through 20 under 35 U.S.C. § 103(a) as unpatentable over O'Conor (US
+7,457,807 B2; Nov. 25, 2008), Corneille et al. (US 2005/0075115 Al; Apr.
+
+2
+
+Appeal2015-003070
+Application 12/849,026
+7, 2005) and Pombo et al. (US 2011/0153465; June 23, 2011). Final Act. 4-
+
+10.1
+ANALYSIS
+Independent claims 1, 7, and 13 recite a limitation directed to defining
+one or more related entities, related to management entities where the related
+entities defined through entity relations registered by one or more dedicated
+managed beans (MBeans), where the MBeans comprise an attribute showing
+the entity relations. Appellants argue that neither O'Conor, Corneille, nor
+Pombo teach MBeans showing the attribute relations for the related entities
+as claimed. App. Br 7-8; Reply Br. 2-3. The Examiner responds finding
+that O'Conner teaches related entities and that Pombo teaches use of
+MBeans. Answer 4-5.
+We have reviewed the Examiner's rejection and response to
+Appellants' arguments and do not consider the Examiner to have presented
+sufficient evidence and provided sufficient explanation to show that
+O'Conner, Corneille, and Pombo, combined, teach using MBeans showing
+the attribute relations for the related entities as claimed. Thus, we concur
+with Appellants and do not sustain the Examiner's rejection of independent
+claims 1, 7, and 13, and dependent claims 2, 3, 5, 6, 8, 9, 11, 12, and 14
+through 20.
+
+1
+
+Throughout this opinion we refer to the Appeal Brief dated July 1, 2014
+("App. Br."), the Reply Brief dated January 19, 2015 ("Reply Br."), the
+Final Office Action mailed March 7, 2014 ("Final Act."), and the
+Examiner's Answer mailed on November 20, 2014 ("Answer").
+3
+
+Appeal2015-003070
+Application 12/849,026
+
+DECISION
+We reverse the Examiner's rejections of claims 1through3, 5 through
+9, and 11through20.
+REVERSED
+
+4
+
+

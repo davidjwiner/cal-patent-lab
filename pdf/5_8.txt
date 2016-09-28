@@ -1,0 +1,402 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121775,731
+
+05/07/2010
+
+Mark VANGORP
+
+1174/489/2 (0896)
+
+1746
+
+25297
+
+7590
+
+09/20/2016
+
+Jenkins, Wilson, Taylor & Hunt,
+3100 Tower Blvd.
+Suite 1200, University Tower
+Durham, NC 27707
+
+EXAMINER
+
+P,A,
+
+CHEN, GEORGE YUNG CHIER
+
+ART UNIT
+
+PAPER NUMBER
+
+3628
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptomail@jwth.com
+mmcjunkin@jwth.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte MARK VAN GORP,
+WALTERS. CONARD,
+RIMA FRANKLIN, and
+MARK WOOLSTON
+
+Appeal2014-000939
+Application 12/775,731 1
+Technology Center 3600
+
+Before HUBERT C. LORIN, BIBHU R. MOHANTY, and
+BRADLEY B. BAYAT, Administrative Patent Judges.
+LORIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Mark Van Gorp, et al. (Appellants) seek our review under 35 U.S.C.
+
+§ 134 of the final rejection of claims 1-9, 11-25, and 31-34. We have
+jurisdiction under 35 U.S.C. § 6(b) (2002).
+
+1
+
+The Appellants identify Bell and Howell, LLC as the real party in interest.
+App. Br. 2.
+
+Appeal2014-000939
+Application 12/775,731
+
+SUMMARY OF DECISION
+We AFFIRM.
+
+THE INVENTION
+Claim 1, reproduced below, is illustrative of the subject matter on
+appeal.
+1. A table top mail processing system for processing a plurality of
+mail pieces in a mailing to qualify the mailing for a postage discount,
+the system comprising:
+a feeder and transport for individually feeding and transporting
+each of the plurality of mail pieces;
+an image capturing device positioned along the transport for
+capturing an image of an address positioned on each of the plurality of
+mail pieces;
+an address quality processing device for reading the address
+image of a respective one of the mailpieces and obtaining a postal
+authority qualified delivery point code for the respective mail piece;
+a system processor configured to:
+receive the postal authority qualified delivery point code;
+generate printer control data for printing discounted
+postage meter indicia on the respective mail piece; and
+create printer control data for printing a postal authority
+approved delivery point barcode on the respective mail piece; and
+at least one digital printer for printing the discounted postage
+meter indicia and the authority approved delivery point barcode on the
+respective mail piece,
+wherein the mail processing system is a table top mailing
+machine for processing the plurality of mail pieces in the mailing to
+qualify the mailing for the postage discount.
+
+2
+
+Appeal2014-000939
+Application 12/775,731
+
+THE REJECTIONS
+The Examiner relies upon the following as evidence of
+unpatentability:
+Durst, Jr. [Durst]
+Pigos, Jr. [Pigos]
+Aldstadt
+Snapp
+Borja
+Ehresmann
+Paul
+Runstrom
+Orbke
+Rathbun
+
+us 5,239,168
+US 6,370,521 Bl
+US 2005/0149765 Al
+US 2006/0215937 Al
+UD 2007/0215705 Al
+US 2007 /0282764 Al
+US 2008/0091460 Al
+US 2008/0162381 Al
+US 2009/0057207 Al
+US 2009/0157470 Al
+
+Aug. 24, 1993
+Apr. 9, 2002
+Jul. 7, 2005
+Sep.28,2006
+Sep.20,2007
+Dec. 6, 2007
+Apr. 17, 2008
+Jul. 3, 2008
+Mar. 5, 2009
+Jun. 18,2009
+
+United States Postal Service, "Intelligent Mail® Barcode Technical
+Resource Guide," Rev 3.5, Jan. 13, 2009. [USPS]
+
+The following rejections are before us for review:
+1. Claims 1-3, 7, 9, 11, 15, 22, and 24 are rejected under 35 U.S.C.
+
+§ 103 (a) as being unpatentable over Durst, Aldstadt, and Ehresmann.
+2. Claims 4 and 12 are rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Borja.
+3. Claims 5, 13, 17, 21, and 23 are rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Durst, Aldstadt, Ehresmann, and Orbke.
+4. Claims 6 and 14 are rejected under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Rathbun.
+5. Claims 16 and 25 are rejected under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Runstrom.
+6. Claim 18 is rejected under 35 U.S.C. §103(a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and Snapp.
+3
+
+Appeal2014-000939
+Application 12/775,731
+
+7. Claim 19 is rejected under 35 U.S.C. §103(a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and USPS.
+8. Claim 20 is rejected under 35 U.S.C. §103(a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and Paul.
+9. Claims 31-34 are rejected under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Pigos.
+
+ISSUES
+Did the Examiner err in rejecting claims 1-3, 7, 9, 11, 15, 22, and 24
+under 35 U.S.C. §103(a) as being unpatentable over Durst, Aldstadt, and
+Ehresmann; claims 4 and 12 under 35 U.S.C. §103(a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and Borja; claims 5, 13, 17, 21, and 23
+under 35 U.S.C. §103(a) as being unpatentable over Durst, Aldstadt,
+Ehresmann, and Orbke; claims 6 and 14 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Rathbun; claims 16 and
+25 under 35 U.S.C. § 103(a) as being unpatentable over Durst, Aldstadt,
+Ehresmann, and Runstrom; claim 18 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Snapp; claim 19 under
+35 U.S.C. § 103(a) as being unpatentable over Durst, Aldstadt, Ehresmann,
+and USPS; claim 20 under 35 U.S.C. § 103(a) as being unpatentable over
+Durst, Aldstadt, Ehresmann, and Paul; and, claims 31-34 under 35 U.S.C.
+§ 103 (a) as being unpatentable over Durst, Aldstadt, Ehresmann, and Pigos?
+
+4
+
+Appeal2014-000939
+Application 12/775,731
+
+FINDINGS OF FACT
+We rely on the Examiner's factual findings stated in the Answer.
+Additional findings of fact may appear in the Analysis below.
+
+ANALYSIS
+The rejection of claims 1-3, 7, 9, 11, 15, 22, and 24 under 35 U.S.C. §103(a)
+as being unpatentable over Durst, Aldstadt, and Ehresmann.
+
+We have reviewed the Appellants' arguments challenging the
+rejection of independent claims 1 and 11 but do not find them persuasive as
+to its error.
+The Appellants have not argued that Durst, Aldstadt, and Ehresmann
+fail to disclose a claim element. Accordingly, the Examiner's
+characterization of the scope and content of the prior art or of the differences
+between what the prior art discloses and the subject matter claimed do not
+appear to be in dispute. Nor has any question been raised about the level of
+skill of one of ordinary skill in the relevant art or whether the Examiner
+presented an apparent reasoning with logical underpinning for combining the
+cited references to reach the claimed combination. In view of these facts, we
+find that a prima facie case of obviousness has been established.
+The Appellants argue instead that hindsight reconstruction was used
+to establish obviousness. "Obviousness can not be established by hindsight
+combination to produce the claimed invention," In re Dance, 160 F.3d 1339,
+1343 (Fed. Cir. 1998). See also KSR Int'! Co. v. Teleflex Inc., 127 S. Ct.
+1727, 1742 (2007) ("A factfinder should be aware, of course, of the
+distortion caused by hindsight bias and must be cautious of arguments reliant
+
+5
+
+Appeal2014-000939
+Application 12/775,731
+
+upon ex post reasoning.") The Appellants do not make a persuasive
+argument as to error in the rejection.
+The Appellants point out that "Durst's postage meter is a stand alone
+postage metering device that is not combined with any other mailing
+machine" and then argue "that it is not apparent how or why Durst's stand
+alone postage meter could be modified with the conventional sorting system
+of Aldstadt." App. Br. 9. According to the Appellants "Durst does not teach
+or suggest implementing its stand along postage device into a conventional
+sorting system ... [and] Aldstadt fails to disclose or suggest implanting its
+feeding, image reading and image processing features of a high speed
+sorting system into a stand alone postage meter device." App. Br. 9-10.
+Similarly, the Appellants point out that Ehremann discloses a
+"franking machine (a type of postal fee billing system) [that] stamps mail
+passing through it and computes the total charges." App. Br. 11. According
+to the Appellants, "it is not clear what additional functions of Ehresmann are
+necessary or obvious to include in Durst's machine. There is not apparent
+reasoning for one of ordinary skill in the art when viewing Durst's machine
+to have turned to Ehresmann for additional functionality." App. Br. 12.
+We agree that there are "distinct differences" (App. Br. 10) between
+the Durst, Aldstadt, and Ehresmann machines. But all three references are
+directed to processing mail items and are thus within the field of the
+inventors' endeavor. See In re Clay, 966 F.2d 656, 658-59 (Fed. Cir. 1992).
+Moreover, the existence of "distinct differences" between the
+machines disclosed is not dispositive of nonobviousness. "The obviousness
+analysis cannot be confined by a formalistic conception of the words
+
+6
+
+Appeal2014-000939
+Application 12/775,731
+
+teaching, suggestion, and motivation, or by overemphasis on the importance
+of published articles and the explicit content of issued patents." KSR at
+1741. The question is whether "'the differences between the subject matter
+sought to be patented and the prior art are such that the subject matter as a
+whole would have been obvious at the time the invention was made to a
+person having ordinary skill in the art to which said subject matter
+pertains.'" KSR at 1734 (citing § 103). Here, the facts are not in dispute. It
+is not disputed for example that the cited references variously disclose all the
+claim elements. In that case, there is a "need for caution in granting a patent
+based on the combination of elements found in the prior art" (KSR at 1739).
+For over a half century, the Court has held that a "patent for a
+combination which only unites old elements with no change in their
+respective functions ... obviously withdraws what is already known
+into the field of its monopoly and diminishes the resources available
+to skillful men." Great Atlantic & Pacific Tea Co. v. Supermarket
+Equipment Corp., 340 U.S. 147, 152, 71 S.Ct. 127, 95 L.Ed. 162
+(1950). This is a principal reason for declining to allow patents for
+what is obvious. The combination of familiar elements according to
+known methods is likely to be obvious when it does no more than
+yield predictable results."
+KSR at 1739.
+
+We do not find that the Appellants have made the case that the
+claimed subject matter is more than a combination of familiar elements each
+performing its known function as evidenced by the prior art disclosures.
+"[W]hen a patent "simply arranges old elements with each performing the
+same function it had been known to perform" [(Sakraida v. Ag Pro, Inc., 425
+U.S. 273, 282 (1976))] and yields no more than one would expect from such
+an arrangement, the combination is obvious." KSR at 1740.
+
+7
+
+Appeal2014-000939
+Application 12/775,731
+
+In that regard, the Appellants have not come forward with sufficient
+argument and/or evidence in support of finding that the combination yields a
+result one of ordinary skill in the art would not have expected. No
+secondary factors to support nonobviousness have been shown.
+For the foregoing reasons, we are unpersuaded as to error in the
+rejection of independent claims 1 and 11.
+The rejection of claims 2, 3, 7, 9, 15, 22, and 24 is not separately
+argued. Accordingly, the rejection of these claims is sustained for the same
+reasons.
+
+The rejection of claims 4 and 12 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Borja.
+The rejection of claims 5, 13, 17, 21, and 23 under 35 U.S.C. §103(a) as
+being unpatentable over Durst, Aldstadt, Ehresmann, and Orbke.
+The rejection of claims 6 and 14 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Rathbun.
+The rejection of claims 16 and 25 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Runstrom.
+The rejection of claim 18 under 35 U.S. C. §103 (a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and Snapp.
+The rejection of claim 19 under 35 U.S. C. §103 (a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and USPS.
+The rejection of claim 20 under 35 U.S. C. §103 (a) as being unpatentable
+over Durst, Aldstadt, Ehresmann, and Paul.
+The rejection of claims 31-34 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Pigos.
+
+8
+
+Appeal2014-000939
+Application 12/775,731
+
+The Appellants make the same argument against each of these
+rejections; that is, given that claims 1 and 11 are patentable, so are the
+claims dependent therefrom. See App. Br. 16-21. The argument is
+unpersuasive for the reasons stated herein. Accordingly, these rejections are
+sustained.
+
+CONCLUSIONS
+The rejection of claims 1-3, 7, 9, 11, 15, 22, and 24 under 35 U.S.C.
+§ 103 (a) as being unpatentable over Durst, Aldstadt, and Ehresmann is
+affirmed.
+The rejection of claims 4 and 12 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Borja is affirmed.
+The rejection of claims 5, 13, 17, 21, and 23 under 35 U.S.C. § 103(a)
+as being unpatentable over Durst, Aldstadt, Ehresmann, and Orbke is
+affirmed.
+The rejection of claims 6 and 14 under 35 U.S.C. §103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Rathbun is affirmed.
+The rejection of claims 16 and 25 under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Runstrom is affirmed.
+The rejection of claim 18 under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Snapp is affirmed.
+
+9
+
+Appeal2014-000939
+Application 12/775,731
+
+The rejection of claim 19 under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and USPS is affirmed.
+The rejection of claim 20 under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Paul is affirmed.
+The rejection of claims 31-34 under 35 U.S.C. § 103(a) as being
+unpatentable over Durst, Aldstadt, Ehresmann, and Pigos is affirmed.
+
+DECISION
+The decision of the Examiner to reject claims 1-9, 11-25, and 31-34
+is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+
+AFFIRMED
+
+10
+
+

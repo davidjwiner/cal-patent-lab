@@ -1,0 +1,527 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+101727,793
+
+12/03/2003
+
+John Carney
+
+007412.01080
+
+6787
+
+71867
+
+7590
+
+09/20/2016
+
+BANNER & WITCO FF , LTD
+ATTORNEYS FOR CLIENT NUMBER 007412
+1100 13th STREET, N.W.
+SUITE 1200
+WASHINGTON, DC 20005-4051
+
+EXAMINER
+SCHNURR, JOHN R
+
+ART UNIT
+
+PAPER NUMBER
+
+2427
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+PTO-71867@bannerwitcoff.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN CARNEY, GREG THOMSON, DAVID de ANDRADE,
+MATT MARENGHI, SAMUEL MOREAU, and ELLIOT POGER 1
+
+Appeal2015-003737
+Application 10/727,793
+Technology Center 2400
+
+Before KRISTEN L. DROESCH, LARRY J. HUME, and
+JAMES W. DEJMEK, Administrative Patent Judges.
+DEJMEK, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a Non-Final
+Rejection of claims 1, 6, 7, 13, 14, 16, 33, 39, 43--49, 52, 54--56, 58,
+and 60-66. Claims 2-5, 8-12, 15, 17-32, 34--38, 40--42, 50, 51, 57, and 59
+have been canceled. App. Br. 15. We have jurisdiction over the remaining
+pending claims under 35 U.S.C. § 6(b ); see also Ex parte Lemoine, 46
+USPQ2d 1420, 1423 (BPAI 1994) (precedential).
+We affirm-in-part.
+
+1
+
+Appellants identify TVWorks, LLC as the real party in interest. App.
+Br. 2.
+
+Appeal2015-003737
+Application 10/727,793
+STATEMENT OF THE CASE
+Introduction
+Appellants' claimed invention is directed to "the creation and
+presentation of video-on-demand (VOD) content." Spec. i-f 3. In disclosed
+embodiments, the VOD content is comprised of multiple VOD clips. Spec.
+
+i-f 18. According to the Specification, these VOD clips may be selected, such
+as from a selection presentation or menu, and played back-to-back. Spec.
+
+i-f 19. Further, according to the Specification, the claimed invention allows
+for "a user to dynamically create and present a user-specific, passive
+viewing presentation." Spec. i-f 20.
+Claims 1 and 64 are exemplary of the subject matter on appeal and are
+reproduced below with the disputed limitations emphasized in italics:
+1.
+
+A method comprising:
+
+receiving, by a computing device, from a user terminal, a request
+for a sequence of two or more video clips from a video associated with
+a single event;
+organizing the sequence of the two or more video clips from the
+video associated with the single event into a single video stream for
+playback, and related metadata that comprises indices comprising start
+and stop time codes for each of the two or more video clips;
+linking one of the two or more video clips to a target uniform
+resource locator (URL) linking to supplemental information associated
+with the one of the two or more video clips; and
+
+transitioning between the two or more video clips during
+playback by automatically jumping to an indexed start time code of a
+next video clip in the sequence.
+64.
+
+A system comprising:
+a video-content server;
+
+a client device, comprising first non-transitory computerreadable media storing computer-readable instructions that, when
+executed by a first processor, cause the client device to:
+2
+
+Appeal2015-003737
+Application 10/727,793
+request two or more video-content clips from video
+content associated with a single event;
+receive the two or more video-content clips as a single
+video stream for playback that comprises indices comprising
+start and stop time codes for each of the two or more videocontent clips; and
+automatically jump during playback to an indexed start
+time code of a next video clip in the single video stream; and
+
+a system-control device disposed between the video-content
+server and the client device, comprising second non-transitory
+computer-readable media storing computer-readable instructions that,
+when executed by a second processor, cause the system-control device
+to:
+link one of the two or more video-content clips to a target
+uniform resource locator (URL) linking to supplemental
+information associated with the one of the two or more videocontent clips; and
+execute defined and stored rules that decide if videocontent clips need to be inserted into a stream and, if so, where
+in the stream the insertion will occur,
+wherein the defined and stored rules constrain selection of
+the video-content clips to be inserted into the stream to segments
+from within a single video-content asset.
+
+The Examiner's Rejections
+1.
+
+Claims 1, 6, 7, 16, 61, and 64 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Begeja et al. (US 2003/0030752 Al;
+Feb. 13, 2003) ("Begeja") and Holtz et al. (US 6,760,916 B2; July 6, 2004)
+("Holtz"). Non-Final Act. 2-5.
+2.
+
+Claims 33, 39, 43, 44, 47, 48, and 52 stand rejected under 35
+
+U.S.C. § 103(a) as being unpatentable over Begeja, Holtz, and Blackketter et
+al. (US 7,197,758 Bl; Mar. 27, 2007) ("Blackketter"). Non-Final Act. 5-7.
+3
+
+Appeal2015-003737
+Application 10/727,793
+3.
+
+Claims 45, 46, 49, and 54 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Begeja, Holtz, Blackketter, and Cook et
+al. (US 2003/0018966 Al; Jan. 23, 2003) ("Cook"). Non-Final Act. 7-9.
+4.
+
+Claims 13, 14, 55, and 56 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Begeja, Holtz, and Cook. Non-Final
+Act. 9-10.
+5.
+
+Claim 58 stands rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Begeja, Holtz, Cook, and Logan et al. (US 2005/0005308
+Al; Jan. 6, 2005) ("Logan"). Non-Final Act. 10.
+6.
+
+Claims 60, 62, and 63 stand rejected under 35 U.S.C. § 103(a)
+
+as being unpatentable over Begeja, Holtz, and Logan. Non-Final Act. 1011.
+
+7.
+
+Claims 65 and 66 stand rejected under 35 U.S.C. § 103(a) as
+
+being unpatentable over Begeja, Holtz, Logan, Blackketter, and Shiels et al.
+(US 5,751,953; May 12, 1998) ("Shiels"). Non-Final Act. 11-14.
+
+Issues on Appeal
+1.
+
+Did the Examiner err in finding the combination ofBegeja and
+
+Holtz teaches or suggests, inter alia, "transitioning between the two or more
+video clips during playback by automatically jumping to an indexed start
+time code of a next video clip in the sequence," as recited in claim 1?
+2.
+
+Did the Examiner err in finding the combination of Begeja and
+
+Holtz teaches or suggests, inter alia, one or more computing devices
+configured to "detect that the identifiers [(as included in a request for video
+clips)] are each associated with a particular video clip," as recited in
+claim 33?
+
+4
+
+Appeal2015-003737
+Application 10/727,793
+3.
+
+Did the Examiner err in finding the combination of Begeja and
+
+Holtz teaches or suggests, inter alia, "a system-control device disposed
+between the video-content server and the client device," as recited in
+claim 64?
+4.
+
+Did the Examiner err in finding the combination of Begeja,
+
+Holtz, Logan, Blackketter, and Shiels teaches or suggests, inter alia,
+"transmitting the concatenated video clips to a digital video recorder (DVR)
+that stores the concatenated video clips as a single video file," as recited in
+claim 65?
+
+ANALYSIS 2
+Claims 1, 6, 7, 13, 14, 16, 55, 56, 58, and 60--63
+
+Appellants contend Begeja, as relied on by the Examiner fails to teach
+transitioning between two or more video clips during playback by
+automatically jumping to an indexed start time code of a next video clip in
+the sequence. App. Br. 16-18; Reply Br. 2-3. In particular, Appellants
+assert Begeja teaches starting a first video clip using a pointer (start time),
+but that Begeja does not teach a transition to a subsequent clip by jumping to
+the indexed start time of the subsequent clip. App. Br. 17-18; Reply
+Br. 2-3.
+The Examiner finds, and we agree, Begeja teaches that multiple video
+clips may be "stitched together" and streamed to the user as one continuous
+
+2
+
+Throughout this Decision, we have considered the Appeal Brief, filed
+November 17, 2014 ("App. Br."); the Reply Brief, filed February 24, 2015
+("Reply Br."); the Examiner's Answer, mailed on December 24, 2014
+("Ans."); and the Non-Final Office Action ("Non-Final Act."), mailed on
+June 13, 2014, from which this Appeal is taken.
+5
+
+Appeal2015-003737
+Application 10/727,793
+program. Ans. 3 (quoting Begeja if 55). Further, the Examiner finds, and
+we agree, Begeja teaches the start and end times of the clips are identified
+using clip pointers. Ans. 3 (citing Begeja if 46). The Examiner finds,
+therefore, as Begeja is playing a video program that has been "stitched
+together," the system transitions to a subsequent clip by jumping to the start
+time (as identified by the clip pointer) associated with the subsequent clip.
+Ans. 3.
+Additionally, although not relied upon in sustaining the Examiner's
+rejection we note Begeja teaches users can skip between the video clip (i.e.,
+assets) or view only portions thereof. Begeja if 25. By allowing the user to
+selectively skip to different portions, we determine it would have been
+obvious to a person of ordinary skill in the art to use the clip pointers
+(indicating a clip start time) to skip to the desired video clip.
+For the reasons discussed supra, we are unpersuaded of Examiner
+error. Accordingly, we sustain the Examiner's rejection of claim 1. Further,
+we sustain the Examiner's rejections of claims 6, 7, 13, 14, 16, 55, 56, 58,
+and 60-63, which depend directly or indirectly therefrom and were not
+argued separately. See App. Br. 41--42.
+
+Claims 33, 39, and 43--47
+
+Appellants assert the Examiner erred in rejecting claim 33 for at least
+the same reasons advanced by Appellants regarding claim 1. App. Br. 18.
+As discussed supra, we find these arguments unpersuasive of Examiner
+error.
+Additionally, Appellants argue the Examiner erred because Holtz fails
+to teach or suggest that one or more computing devices are configured to
+
+6
+
+Appeal2015-003737
+Application 10/727,793
+detect that the identifiers (as included in a request for the video clips) are
+each associated with a particular clip. App. Br. 18-20; Reply Br. 4---6.
+Although Appellants concede Holtz teaches the use of identifiers, Appellants
+contend there is no teaching in Holtz of a computing device configured to
+detect that the identifiers are each associated with a particular video clip.
+App. Br. 20-21. In particular, Appellants argue the Examiner erred in
+finding "a video director or editor" in Holtz corresponds to the claimed "one
+or more computing devices." Reply Br. 6.
+We are unpersuaded of Examiner error because, as the Examiner
+explains, "Begeja [(not Holtz)] explicitly teaches associating an identifier
+with each of the video clips and retrieving the video clips from the DVL
+[(Digital Video Library)] database 165 using the identifiers." Ans. 3--4
+(citing Begeja i-f 38). Thus, Appellants' arguments are unpersuasive of error
+as they are not responsive to the Examiner's rejection.
+In reply, Appellants respond that Begeja also fails to teach the
+disputed limitation (detecting that the identifiers are each associated with a
+particular video clip). Reply Br. 4--5. Appellants contend the cited portion
+of Begeja uses "program identification to provide segmentation/
+identification of commercials and programs." Reply Br. 5.
+We disagree with Appellants' contention. As Appellants concede,
+Begeja uses program identification associated with the video clips to
+determine segmentation of program clips from commercial clips. Further,
+Begeja teaches that this segmentation/identification is performed by a
+program identification engine (i.e., a computing device). Begeja i-f 38.
+For the reasons discussed supra, we are unpersuaded of Examiner
+error. Accordingly, we sustain the Examiner's rejection of claim 33.
+
+7
+
+Appeal2015-003737
+Application 10/727,793
+Further, we sustain the Examiner's rejections of claims 39 and 43--47, which
+depend directly or indirectly therefrom and were not argued separately. See
+App. Br. 41--42.
+
+Claims 48, 49, 52, and 54
+
+Appellants assert the Examiner erred in rejecting claim 48 for at least
+the same reasons advanced by Appellants regarding claims 1 and 33. App.
+Br. 21-22. As discussed supra, we find these arguments unpersuasive of
+Examiner error.
+In rejecting claim 48, the Examiner referred to the rejection for
+"claim 7." Non-Final Act. 7. Appellants argue the reasoning directed to the
+rejection of claim 7 does not apply to claim 48 "at least because claim 48
+does not recite a DVR[,]" as recited in claim 7. App. Br. 21.
+The Examiner explains: "[t]he detailed rejection contains a
+typographical error referring to claim 7. The rejection should read 'see
+claim 33' as both claims 33 and 48 contain equivalent limitations." Ans. 4.
+Appellants dispute the Examiner's statement and assert claim 48
+recites, inter alia, "transmit fast-forward metadata associated with the
+advertisement video clip that indicates whether skipping the advertisement
+video clip is permitted and time-code metadata comprising indices
+comprising start and stop time codes for each of the two or more video clips
+and the advertisement video clip," which is not present in claim 33. Reply
+Br. 6.
+As for the specific limitation identified by Appellants, we note claim
+33 recites, in part, "process[ing] fast-forward metadata associated with the
+video clip from the video clip sequence to determine whether fast-
+
+8
+
+Appeal2015-003737
+Application 10/727,793
+forwarding is permitted during presentation of the video clip" and
+"transmit[ting] the video clip sequence to the user terminal, the video clip
+sequence comprising the two or more video clips and the advertisement
+video clip." Thus, although claim 33 does not include the exact language
+identified by Appellants, we agree with the Examiner that claim 33 includes
+equivalent limitations to those found in claim 48.
+For the reasons discussed supra, we are unpersuaded of Examiner
+error. Accordingly, we sustain the Examiner's rejection of claim 48.
+Further, we sustain the Examiner's rejections of claims 49, 52, and 54,
+which depend directly or indirectly therefrom and were not argued
+separately. See App. Br. 41--42.
+
+Claim 64
+
+Appellants contend the Examiner erred in finding Begeja teaches a
+system-control device disposed between the video-content server and the
+client device. App. Br. 22-24; Reply Br. 7-8. In particular, Appellants
+assert the eClips server of Begeja, which the Examiner finds corresponds to
+the claimed system-control device, is not disposed between the video server
+and client.
+
+9
+
+Appeal2015-003737
+Application 10/727,793
+Figure 2 of Begeja is illustrative and is reproduced below:
+PC
+!'DA
+S~t
+
+Top
+
+Fiie
+Transfer
+
+FUe
+
+OVL Server
+
+: Transfer
+ii
+
+{ M<lrt.lstop,
+
+!.:,,
+
+mu!tlmSlclla
+~ti:at'Ch}
+
+M•ta!~~;::1-~
+c·w·~-~-~.f"'
+
+·vi.>
+
+.
+
+r--~~~::~:~~~~~::· 1
+
+l Media Analysis i
+
+($.Ctltl~ \~tlMgSl,
+
+l
+
+L~~::~~~-~'.::~---'
+
+I
+
+I
+·
+
+audio <lnaly&i$;
+
+'
+
+~
+
+j,f.1$"'
+
+t'Meta-·1
+
+!----06 J
+Figure 2 of Begeja depicts "an architecture for implementing an
+exemplary embodiment of the present invention.". Begeja i-f 17. The
+Examiner finds eClips Server (230) corresponds to the claimed system
+control device, Video Server (220) corresponds to the claimed video-content
+server, and eClips Client (250) corresponds to the claimed client device.
+Non-Final Act. 4.
+The Examiner explains that Figure 2 "merely portrays the flow of
+instructions and information throughout the system" and does not represent a
+physical layout as would be understood by a person of ordinary skill in the
+art. Ans. 4. The Examiner further explains "the eClips server 230 receives
+
+10
+
+Appeal2015-003737
+Application 10/727,793
+user requests and coordinates reception of the clip stream from the video
+server." Ans. 4 (citing Begeja i-f 47).
+We find Appellants' argument persuasive of Examiner error. We
+agree with Appellants that eClips Client (250) requests video clips directly
+from video server 220. Reply Br. 7-8 (citing Begeja i-f 45); see also Begeja
+
+i-f 47. Additionally, the Examiner has not provided sufficient evidence or
+technical reasoning to support a finding that the eClips Server (230) is
+disposed between the eClips Client (250) and Video Server (220), as
+required by claim 64.
+Because we find it dispositive that Begeja does not teach or suggest a
+system-control device disposed between the video server and client, as
+required by claim 64, we need not address other issues raised by Appellants
+related to the rejection of this claim. Accordingly, on this record and for the
+reasons discussed supra, we do not sustain the Examiner's rejection of
+claim 64.
+
+Claims 65 and 66
+Claim 65 recites, in part, "transmitting the concatenated video clips to
+a digital video recorder (DVR) that stores the concatenated video clips as a
+single video file." Appellants contend Begeja, as relied on by the Examiner,
+fails to teach or suggest this limitation. App. Br. 28-30; Reply Br. 11. In
+particular, Appellants assert Begeja teaches video content may be made
+available to a client (Begeja i-f 45) or that the clips may be emailed to another
+user or saved to an archive (Begeja i-f 65). App. Br. 29. Appellants argue
+such teachings do not teach or suggest transmitting a concatenated clip to a
+DVR. App. Br. 29.
+
+11
+
+Appeal2015-003737
+Application 10/727,793
+The Examiner responds by stating "Holtz explicitly teaches forming
+rules to automatically link advertisements with specific show element by
+time element." Ans. 6 (citing Holtz, col. 34, 11. 21-24).
+The Examiner's response is not directed to the disputed limitation or
+Appellants' rebuttal to the rejection. Thus, the Examiner has not provided
+sufficient evidence or technical reasoning to support a finding that Begeja
+teaches or suggests the disputed limitation of claim 65.
+Because we find it dispositive that Begeja does not teach or suggest
+transmitting the concatenated video clips to a DVR for storage as a single
+video file, as required by claim 65, we need not address the other issues
+raised by Appellants related to the rejection of this claim. Accordingly, on
+this record and for the reasons discussed supra, we do not sustain the
+Examiner's rejection of claim 65. Additionally, we do not sustain the
+Examiner's rejection of claim 66, which depends therefrom.
+
+DECISION
+We affirm the Examiner's decision to reject claims 1, 6, 7, 13, 14, 16,
+33, 39, 43--49, 52, 54--56, 58, and 60-63.
+We reverse the Examiner's decision to reject claims 64--66.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 41.50(±).
+
+AFFIRMED-IN-PART
+
+12
+
+

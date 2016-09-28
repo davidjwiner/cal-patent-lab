@@ -1,0 +1,296 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/178,054
+
+07/07/2011
+
+Assaf Govari
+
+BI05258USNP
+
+7674
+
+25570
+
+7590
+
+09/20/2016
+
+Roberts Mlotkowski Safran Cole & Calderon, P,C,
+7918 Jones Branch Drive
+Suite 500
+McLean, VA 22102
+
+EXAMINER
+HUNTLEY, DANIEL CARROLL
+
+ART UNIT
+
+PAPER NUMBER
+
+3737
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+lgallaugher@rmsc2.com
+docketing@rmsc2.com
+dbeltran@rmsc2.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ASSAF GOVARI, ANDRES CLAUDIO ALTMANN, and
+Y ARON EPHRATH
+
+Appeal2014-009555
+Application 13/178,054 1
+Technology Center 3700
+
+Before ANTON W. PETTING, KENNETH G. SCHOPPER, and
+BRADLEY B. BAYAT, Administrative Patent Judges.
+SCHOPPER, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 from the rejection of claims 1
+and 3-18. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+BACKGROUND
+According to Appellants, "[t]he present invention relates generally to
+electrical connectors, and particularly to methods and systems for protecting
+connectors from magnetic interference." Spec. 1, 11. 3---6.
+
+1
+
+According to Appellants, the real party in interest is Bio sense Webster
+(Israel) Ltd. Br. 4.
+
+Appeal2014-009555
+Application 13/178,054
+
+CLAHvIS
+Claims 1 and 3-18 are on appeal. Claim 1 is illustrative of the
+appealed claims and recites:
+1.
+
+An electrical connector, comprising:
+a connector housing;
+
+one or more connector terminals fitted within the
+connector housing, which are connected to wiring extending
+from the connector housing and are coupled to interconnect with
+corresponding connector terminals in a mating connector; and
+an active shielding circuit, which is mounted adjacent to
+the connector terminals within the connector housing and is
+configured to sense a first magnetic field in a vicinity of the
+electrical connector and to generate, based on the sensed
+magnetic field, a second magnetic field that reduces interference
+induced in the wiring and the connector terminals by the first
+magnetic field.
+Br. 18.
+REJECTIONS
+1. The Examiner rejects claims 1, 3-8, and 11-17 under 35 U.S.C.
+§ 103(a) as unpatentable over Palli 2 in view of Reiland 3 and
+Shattil. 4
+2. The Examiner rejects claims 9 and 18 under 35 U.S.C. § 103(a) as
+unpatentable over Palli in view of Reiland, Shattil, and Shiizaki. 5
+
+2
+3
+4
+5
+
+Palli et al., US 2009/0269943 Al, pub. Oct. 29, 2009.
+Reiland, US 7,525,314 B 1, iss. Apr. 28, 2009.
+Shattil, US 6,208,135 Bl, iss. Mar. 27, 2001.
+Shiizaki et al., US 7,116,288 B2, iss. Oct. 3, 2006.
+2
+
+Appeal2014-009555
+Application 13/178,054
+3. The Examiner rejects claim 10 under 35 U.S.C. § 103(a) as
+unpatentable over Li 6 in view of Palli, Reiland, and Shattil.
+DISCUSSION
+Palli in view ofHeil and and Shattil
+Claim 1
+Appellants group independent claims 1 and 11 and dependent claims
+3, 5-8, 12, and 14--17 together. See Br. 12-15. We select claim 1 as
+representative of this group, and thus, claims 3, 5-8, 11, 12, and 14--17 stand
+or fall with claim 1.
+With respect to claim 1, the Examiner finds that Palli discloses an
+electrical connector including an active shielding layer for protecting against
+electromagnetic interference, but Palli does not "precisely describe an active
+shielding circuit configured to sense a first magnetic field and generate a
+second magnetic field for reducing said interference." Final Act. 2-3. The
+Examiner finds that the use of active shielding was well known in the art and
+it would have been obvious to include sensing and generating circuitry for
+active shielding based on the teachings of Reiland. Id. at 3. In particular,
+the Examiner finds that Reiland discloses "sensors and Helmholtz coils for
+detecting a first field and generating a second field in response to the first
+field for compensating for the interference associated with the first field (col
+4, ln 44 - col 5, ln 18; abstract)." Id. The Examiner further acknowledges
+that the combined teachings of Palli and Reiland do not expressly disclose
+providing the active shielding circuitry within the connector housing as
+claimed, for which the Examiner relies on Shattil. Id. The Examiner
+
+6
+
+Li et al., US 2008/0287803 Al, pub. Nov. 20, 2008.
+3
+
+Appeal2014-009555
+Application 13/178,054
+concludes that combining Palli, Reiland, and Shattil as claimed would have
+been obvious "in order to efficiently compensate for unwanted EM or
+magnetic interference during a medical procedure." Id. at 3--4.
+Appellants raise three arguments with respect to the rejection of claim
+1, which we find to be unpersuasive, as discussed below.
+First, Appellants argue that "[t]he Examiner is improperly picking and
+choosing features from the references without considering the combined
+teachings as a whole." Br. 12 (emphasis omitted). In support of this
+argument, Appellants assert that Shattil does not disclose that the second
+magnetic field is created by components within the connector housing
+because Shattil describes the creation of an external field generated by
+Shattil's shielding circuit. Br. 12-13. Appellants also assert that Reiland
+does not suggest generating a second magnetic field within the connector
+housing, but the rejection itself does not rely on Reiland for this
+teaching. Id.
+Regarding Shattil, Appellants argue that Shattil' s use of the word
+exterior several times in the portion cited by the Examiner "is indicative of
+the drive coils and the generated magnetic flux being outside the area of
+interest. Therefore Shattil does not teach generating a second magnetic field
+within a connector housing." Br. 3. However, although Shattil appears to be
+silent as to whether drive coil 70 is in the same housing as pickup coils 60
+and 62, we find that the more likely interpretation of the description of an
+external magnetic flux in the cited portion of Shattil refers only to the fact
+that the drive coil is simply separate from the pickup coils, i.e. the magnetic
+flux is generated external to the pickup coils and not necessarily to the
+housing in which the pickup coils are disposed. Thus, we find that
+
+4
+
+Appeal2014-009555
+Application 13/178,054
+Appellants' argument with respect to Shattil does not persuasively show any
+error in the rejection. Further, we agree with the Examiner that the art as a
+whole at least suggests and renders obvious putting the components of the
+active shielding circuit within the connector housing, particularly in light of
+Palli' s disclosure of providing shielding in the connector housing itself. See
+Ans. 8; Advisory Act. 1.
+Second, Appellants argue that Reiland teaches away because "Reiland
+explicitly notes that the object of its invention was 'to compensate for
+electromagnetic and, in particular, magnetic interference fields at the actual
+'point of origin', without significantly influencing the wanted signal that is
+present'. Reiland at Col. 2, line 21-24." Br. 14. Appellants argue that this
+teaching would have discouraged a person of ordinary skill in the art from
+including a second magnetic field within the connector housing. Id. We
+disagree because the Examiner applied Reiland only to show that it was
+known to produce a second magnetic field in order to reduce interference
+from a first magnetic field. Moreover, Appellants have not provided any
+evidence that Reiland criticizes, discredits, or otherwise discourages the
+solution claimed. In re Fulton, 391F.3d1195, 1201 (Fed. Cir. 2004) (prior
+art does not teach away from claimed subject matter merely by disclosing a
+different solution to a similar problem unless the prior art also criticizes,
+discredits or otherwise discourages the solution claimed).
+Third, Appellants argue that the Examiner has not provided any
+factual support for the conclusion that the modified device would be
+efficient, i.e. that it would efficiently compensate for unwanted interference,
+as stated by the Examiner. Br. 14. We are not persuaded of error. We
+understand the Examiner's conclusion to mean only that one of ordinary
+
+5
+
+Appeal2014-009555
+Application 13/178,054
+skill in the art would have recognized from the prior art that providing an
+active shielding circuit, as claimed, in Palli' s device was a known and
+suitable alternative to the shielding Palli' s device already provides. Further,
+we find that based on the art of record, one of ordinary skill in the art would
+have recognized this as a substitution of one known interference
+compensation method for another that would produce predictable results.
+Based on the foregoing, we are not persuaded of error with respect to
+the rejection of claim 1. Accordingly, we sustain the rejection of claim 1,
+and we also sustain the rejection of claims 3, 5-8, 11, 12, and 14--17, which
+fall with claim 1.
+Claims 4 and 13
+
+Appellants raise separate arguments with respect to the rejection of
+claims 4 and 13. Claim 4 depends from claim 3 and further recites "wherein
+the connector terminals are arranged in a plane, and wherein the sense coil
+and the generator coil are parallel to the plane." Br. 18. Claim 13 recites a
+substantially similar limitation. Id. at 20.
+Regarding claims 4 and 13, the Examiner finds that Palli discloses "an
+active shielding layer above the pins (connector terminals) ([0324 ]), which
+the [E]xaminer interprets as describing circuitry for sensing and generating
+magnetic fields for compensating for EM interference." Final Act. 4. The
+Examiner also states that "it is respectfully noted that the layering disclosed
+in Palli('943) disclose[s] an active shielding layer above the connector pins,
+interpreted to thus describe a parallel relationship (as can be visualized in
+figure 37)." Ans. 8.
+Appellants argue that the Examiner is interpreting the layer to mean
+parallel to the plane of connectors and that there is no teaching that the layer
+
+6
+
+Appeal2014-009555
+Application 13/178,054
+is actually parallel to the plane of the connector terminals. Br. 15-16 (citing
+Palli i-f 324). We are not persuaded of error by Appellants' argument.
+Although Palli may not expressly disclose that the active shielding layer is in
+a plane parallel to the connector pins, we find that Palli' s depiction of
+connector terminals in two planes (Palli Fig. 37) and the description of a
+layer configuration including an active shielding layer (id. at i-f 324) at least
+suggests that one of ordinary skill would have found it obvious to provide
+the claimed configuration of connectors and shielding components in
+parallel planes.
+Based on the foregoing, we are not persuaded of error with respect to
+the rejection of claims 4 and 13, and thus, we sustain the rejection of these
+claims.
+Claims 9, 10, and 18
+
+Appellants do not present separate arguments with respect to the
+rejections of claims 9, 10, and 18, except to assert that the art of record does
+not cure the deficiencies argued above. Having found no deficiencies in the
+rejections as discussed above, we sustain the rejections of claims 9, 10, and
+18 for the same reasons.
+CONCLUSION
+For the reasons set forth above, we AFFIRM the rejections of claims 1
+and 3-18.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

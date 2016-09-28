@@ -1,0 +1,406 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/309,039
+
+12/01/2011
+
+Steven W. Lundberg
+
+3431.0lOUSl
+
+4233
+
+21186
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+SCHWEGMAN LUNDBERG & WOESSNER, P.A.
+P.O. BOX 2938
+MINNEAPOLIS, MN 55402
+
+BROWN, SHEREE N
+
+ART UNIT
+
+PAPER NUMBER
+
+3649
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+uspto@slwip.com
+SLW@blackhillsip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte STEVEN W. LUNDBERG
+
+Appeal2015-003180
+Application 13/309,039
+Technology Center 3600
+
+Before HUNG H. BUI, JOSEPH P. LENTIVECH, and
+MICHAEL M. BARRY, Administrative Patent Judges.
+BUI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant 1 seeks our review under 35 U.S.C. § 134(a) of the
+Examiner's Non-Final Office Action rejecting claims 1-25, which are all of
+the claims pending on appeal. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM. 2
+
+1
+
+According to Appellant, the real party in interest is Black Hills IP
+Holdings, LLC. App. Br. 1.
+2
+Our Decision refers to Appellant's Appeal Brief filed September 3, 2014
+("App. Br."); Reply Brief filed January 14, 2015 ("Reply Br."); Examiner's
+Answer mailed November 14, 2014 ("Ans."); Non-Final Office Action
+mailed September 11, 2014 ("Non-Final Act."); and original Specification
+filed December 1, 2011 ("Spec.").
+
+Appeal2015-003180
+Application 13/309,039
+STATEMENT OF THE CASE
+Appellant's invention relates to "a computer-implemented method and
+[patent management] system ... for reviewing and mapping prior art."
+Abstract. According to Appellant, the patent management system is used to
+monitor patent activities of one or more competitors and provide up-to-date
+information related to cited references. Spec. i-f 11.
+Claims 1, 11, 21, and 25 are independent. Claim 1 is illustrative of
+Appellant's invention, as reproduced with a disputed limitation emphasized
+below:
+1.
+A computer-implemented method of analyzing prior art,
+the method comprising using one or more processors to perform
+at least a portion of one or more of the following, the method
+including:
+
+identifying a first set of cited references cited against a
+target entity;
+identifying at least a second set of cited references cited
+against at least one other entity;
+mapping the first set of references against the at least
+second set of references to determine a prior art overlap of
+identified references common to both or all sets; and
+communicating a representation of the prior art overlap to
+a user.
+App. Br. 14 (Claims App.).
+Examiner's Rejection and References
+Claims 1-25 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Germeraad et al., (US 2002/0035499 Al, published Mar.
+21, 2002) ("Germeraad") and Gipp et al., "Comparative Evaluation of Textand Citation-based Plagiarism Detection Approaches using GettenPlag," in
+
+2
+
+Appeal2015-003180
+Application 13/309,039
+11th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL), June 1317, 2011, Ottawa, Canada ("Gipp"). Non-Final Act. 3-30.
+
+ISSUE
+Based on Appellant's arguments, the dispositive issue presented on
+appeal is whether the Examiner erred in finding the combination of
+Germeraad and Gibb teaches or suggests the disputed limitation: "mapping
+the first set of references against the at least second set of references to
+determine a prior art overlap of identified references common to both or all
+sets," as recited in independent claims 1, 11, and 21, similarly recited in
+independent claim 25. App. Br. 7-12; Reply Br. 2-3.
+
+ANALYSIS
+With respect to claims 1, 11, and 21, the Examiner finds Germeraad
+discloses a computer-implemented method of analyzing prior art,
+compnsmg:
+identifying a first set of cited references cited against a
+target entity ("identifies frequently cited patents by assignee ... "
+See Figure 22, 24 & 31 "Company A" & Paragraph 0195);
+identifying at least a second set of cited references cited
+against at least one other entity ("identifies frequently cited
+patents by assignee ... " See Figure 22, 24 & 31 "Company B" &
+Paragraph 0195);
+mapping the first set of references against the at least
+second set of references (See "Bar Map" in Figure 22, 24 & 31 ).
+Non Final Act. 3--4 (citing Germeraad i-f 195, Figs. 22, 24, 41, emphasis
+omitted).
+
+3
+
+Appeal2015-003180
+Application 13/309,039
+The Examiner also finds Germeraad teaches "prior art overlap." Id. at
+4 (citing Germeraad i-f 125, Figs. 22, 24, and 31). However, the Examiner
+acknowledges Germeraad does not expressly disclose, but relies on Gipp for
+teaching the disputed limitation: "determining an overlap of identified
+references common to both or all sets" and also "communicating a
+representation of the overlap to a user" in order to support a conclusion of
+obviousness. Id. at 4--5 (citing Gipp, pp. 2-3, Fig. 4). According to the
+Examiner, Gipp teaches an overlap of identified references common to both
+or all sets of recited references in the context of "finding similar patterns in
+the citations used within two scientific texts ... for semantic text similarity"
+and "it would have obvious to one of ordinary skill in the art ... because
+finding the commonality enables users for comparative evaluation of
+commonly applied test which is beneficial to analyzing citations and
+references more effectively." Id. at 4--5 (citing Gipp, pp. 2-3).
+Appellant disputes the Examiner's factual findings regarding Gipp. In
+particular, Appellant argues Gipp's disclosure of using the overlap of
+bibliographical references and patterns in academic/scientific papers is not
+and cannot be considered the same as Appellant's claimed "mapping the first
+set of references against the at least second set of references to determine a
+prior art overlap of identified references common to both or all sets," as
+recited in claims 1, 11, and 21. App. Br. 8-9 (citing Gipp 2-3). According
+to Appellant, Gipp' s "bibliographic references are not cited against their
+respective papers or an entity." Id. at 9.
+In addition, Appellant argues "combining the references would
+change the principle mode of operation of Germeraad" because ( 1) "Gipp is
+directed generally to determining plagiarism, among other things, matching
+
+4
+
+Appeal2015-003180
+Application 13/309,039
+citations to paraphrased and translated text in documents" and (2)
+incorporating Gipp' s plagiarism finding algorithm into the patent portfolio
+management system of Germeraad "would result in incorrect results." Id. at
+10. Appellant further argue there is no motivation to combine the references
+because the combination "would fail to provide any beneficial enhancement
+when looking for patents" and, as such, "is more likely to be detriment." Id.
+at 11.
+We do not find Appellant's arguments persuasive. Instead, we find
+the Examiner has provided a comprehensive response to Appellant's
+arguments supported by a preponderance of evidence. Ans. 3-7. As such,
+we adopt the Examiner's findings and explanations provided therein. Id.
+For additional emphasis, we note that claim terms are given their broadest
+reasonable interpretation consistent with the specification. In re Am. Acad.
+
+of Sci. Tech Ctr., 367 F.3d 1359, 1369 (Fed. Cir. 2004). The term "prior art
+overlap" is not defined in Appellant's Specification. However, "prior art
+overlap" is described in terms of commonality of references from different
+entities, i.e., a target entity and its competitor. Spec. i-fi-132-37, 72-74, and
+84. For example, the commonality of references may include (1) scope
+concepts, i.e., concepts that a claim is limited to, or (2) technology
+categories, i.e., categories that claims relate to, but are not necessarily
+limited thereto. Id. According to Appellant's Specification,
+The representation of the prior art overlap may include a listing
+of the cited references common to both or all sets of cited
+references. Still further, the representation of the prior art
+overlap may include a listing of the owners of the cited
+references common to both or all sets of cited references.
+
+5
+
+Appeal2015-003180
+Application 13/309,039
+The cited references found for the target and other entities can be
+conveniently displayed in a bar chart or other graphic. In an
+example embodiment, numeral 434 shows a chart having three
+bar lines. Each bar line represents the citation listings for a target
+entity and two competitors A and B identified by a user. Details
+of each citation listed in a bar line may be given, but are not
+shown here in the interests of clarity. A representation of the
+prior art overlap can be shown and is here illustrated by arrow
+436 which indicates a zone of commonality of references found
+for each of the target and competitors A and B. Other zones of
+commonality, such as indicated by arrow 438, listing references
+common to the target and competitor A only, can be given. At
+quick glance, a user can determine which areas of art or
+technology are being cited against or developed by each entity.
+In various embodiments, the zone of commonality can be
+rechecked at various intervals so that ongoing trends in the art
+can be analyzed over time.
+Spec. i-fi-174, 82 (emphasis added).
+In other words, the term "prior art overlap" or "an overlap of
+identified references common to both or all sets" simply refers to a listing of
+prior art references from a target and other entities that overlap or that is
+common in terms of concepts, claims, technologies, or ownership (assignee),
+all of which require Gipp' s techniques of finding similarity between cited
+references to identify such a "prior art overlap" as correctly recognized by
+the Examiner. Ans. 4--5. Appellant's reference to Gipp's intended use for
+purposes of determining plagiarism is misplaced. Reply Br. 2-3. As such,
+we do not see any error in the Examiner's findings regarding Germeraad and
+Gipp. Nor do we see any error in the Examiner's conclusion of obviousness.
+Separately, we note that "anticipation is the epitome of obviousness."
+In re McDaniel, 293 F3d. 1379, 1385 (Fed. Cir. 2002) (quoting Connell v.
+Sears Roebuck & Co., 722 F.2d 1542, 1548 (Fed. Cir. 1983)); In re
+Fracalossi, 681 F.2d 792, 794 (CCPA 1982). Based on our construction of
+6
+
+Appeal2015-003180
+Application 13/309,039
+the term "prior art overlap," we find Germeraad alone also teaches the
+disputed limitation of claims 1, 11, and 21 : "mapping the first set of
+references against the at least second set of references to determine a prior
+art overlap of identified references common to both or all sets" as well as
+"communicating a representation of the prior art overlap to a user." See
+Germeraad i-fi-f 128, 147, 195, Figs. 6, 11, 98.
+For example, Germeraad's Figure 6 is reproduced below:
+#3 Topographic Map ComttaBV A& Oonutanv B Patents.
+
+rii~tl "s1Wws'f;{;i1oottt'raiaiitlflmrtf ot eadl natti''i'ia{t;f;l;';ii'diil~ltim~li;:s·1nne~~·tlia"'"1
+~ a~Mail m cmnpltaumt em:tulll:et. ll!lte:nu!n$S: mue nuiruer wm aUlW!' 1~11· 1.uoWUHn au
+,,
+i edst.lltU nr ttew anm.. Tiii$ ttmn-s Um h~flls fl»' ft lawraM~luftfa®tabte rnoomtmmu:atton
+~ itrutn11 um fM"duatM ~e stage mui llmlmi Ute wlttauoa uu t'lt oo~n kl m~ 11euonatltln
+\ p~ase.
+~i~~­
+jl'l
+~
+
+)"~~).,_x-:<.:o~:.-.~x
+
+<
+
+Lii'iir~'tlliis'~re~~;d--;;;&;eii"!
+
+~ (lnmtiinmg llltHmtents of
+~
+) t:nmtl<UIV A~md &nttlllilfl\l B !
+j Uflttin:!tt)S-, ntts ttroun ls
+~
+i tityattoo Ui C~ttl<t
+~
+
+:
+
+,. .
+
+N:
+~
+
+l%
+:
+
+~
+
+:_~-~~-.--:_».~
+~~~%,~#¥m :&k~
+
+•.
+
+·•_l,~
+~~~~~-~~,~~ ~ Saamti is dnfll} bJ !llth oomnmw nmn~ ta fltstw11utm
+Ml
+iSl
+
+-~~-""·'·'·
+
+"'
+
+•"*-*-'®..~~]~patent oom.~enttimnn al ~nm!Jlnett vam~nu. ri~nSl are
+~~'<::
+.~"1-11W&'1f:"~~%1*\.tl Pt!t1too fur *'a~h sean:b m»m, Ats:o 1*tfttttf+u1~parenc1es t:u @~
+· ··· · ·
+· .... · · ·· ,. s:Jl~W ®mla:P ur ~t.mwl!m:ent of lltl ttMhit,
+!
+L----------...:.:=-""""""~))))))"
+
+...............................................................................................................................................
+
+l
+
+..
+
+;w.;i--,-,····--·~"~""X-..~
+
+Germeraad's Figure 6 shows a topographic map of patent references of
+Company A and Company B that overlaps in terms of concepts.
+In particular, Germeraad describes:
+topographic map 202 as Tool 3 is shown [in Figure 6] ... to show
+"concept relationship of each party (Company A's and Company
+B's) patents, and distinguishes if the patents overlap or
+compliment each other. . . This forms the basis for a
+favorable/unfavorable
+recommendation
+during
+the
+evaluate/analyze stage 104 and moves the valuation up or down
+7
+
+Appeal2015-003180
+Application 13/309,039
+in the negotiation stage 108. How the IP AM server works in
+conjunction with Tool 3 is similar to Tool 1, as described above
+with reference to FIG. 4. Here, the search is done by each
+company name to distinguish patent concentration of combined
+portfolio, maps are printed for each search done, and
+transparencies are printed to show overlap or compliment of
+portfolios. The search is performed to produce patents of both
+Company A and Company B.
+Germeraad i-f 128 (emphasis added).
+Germeraad also describes using a radar diagram, shown in Figure 11,
+to provide a visual indication of the technology overlap between Company A
+and Company B. Figure 11 is reproduced below:
+
+Germeraad's Figure 11 shows a radar diagram of patent references of
+Company A and Company B that overlaps in terms of technology.
+Germeraad further describes using "features grouping" 238, during
+due diligence, to show feature-by-feature how many competitor's products
+that have features or properties closest to those claims by the company's
+patents, or to "search on the groups of patents covering the company's own
+products and competitor's products." See Germeraad i-fi-1265---66.
+
+8
+
+Appeal2015-003180
+Application 13/309,039
+For the reasons set forth above, Appellant has not demonstrated
+Examiner error. As such, we sustain the Examiner's obviousness rejection
+of claims 1, 11, and 21 and their respective dependent claims 2-10, 12-20,
+and 22-24.
+With respect to claim 25, Appellant argues the Examiner has not
+accounted for the claimed "overlap being devoid of citations unique to either
+set of citation." App. Br. 12. We disagree. As correctly explained by the
+Examiner, Gipp' s disclosure of "citations of non-shared sources" can be
+seen as Appellant's claimed "devoid of citation." Ans. 8. In addition, both
+Germeraad's Figures 6 and 11, as discussed above, also show the prior art
+overlap between Company A and Company B that does not involve any
+citation as recited in Appellant's claim 25. For these reasons, we also
+sustain the Examiner's obviousness rejection of claim 25.
+
+DECISION
+As such, we AFFIRM the Examiner's final rejection of claims 1-25
+under 35 U.S.C. § 103(a) based on Germeraad and Gibb.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+9
+
+

@@ -1,0 +1,340 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/355,862
+
+01/23/2012
+
+Donald FISK
+
+070852.000118
+
+6999
+
+104840
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+Imagination Technologies
+3201 Scott Blvd.
+Santa Clara, CA 95054
+
+NGUYEN, KIMBINH T
+
+ART UNIT
+
+PAPER NUMBER
+
+2612
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patlaw@vorys.com
+vmdeluca@vorys.com
+mmseasay@vorys.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DONALD FISK
+
+Appeal2015-005360
+Application 13/355,862
+Technology Center 2600
+
+Before NORMAN H. BEAMER, JAMES W. DEJMEK, and
+SCOTT B. HOWARD, Administrative Patent Judges.
+HOWARD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant 1 appeals under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-19 and 21, which constitute all of the claims pending in this
+application. Claims 20 and 22 have been cancelled. App. Br. 21, 22. We
+have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+
+1
+
+Appellant identifies Imagination Technologies, Limited as the real party in
+interest. App. Br. 2.
+
+Appeal2015-005360
+Application 13/355,862
+THE INVENTION
+The disclosed and claimed invention is directed to a method and
+apparatus for tile based depth buffer compression. Abstract.
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+A method for compressing depth buffer data in a 3dimensional computer graphics system, comprising:
+dividing the depth buffer data into a plurality of
+rectangular tiles corresponding to rectangular areas of an
+associated image;
+for each tile to be compressed, identifying a plurality of
+starting point locations in the tile;
+for each starting point location of the plurality of starting
+point locations,
+determining a difference in depth between a depth
+value at the starting point location and respective depth
+values at each of at least two further locations, and
+predicting a depth value at a plurality of other
+locations in the tile from the thus determined difference
+values, and \'l1here a predicted value substantially matches
+an actual depth value for that location, assigning that
+location to a plane associated with the respective starting
+point location;
+identifying locations within a tile that are not assigned to
+any plane associated with the plurality of starting point locations;
+for each tile, storing, for each plane, starting point location
+and depth value data at the starting point location, difference
+value data, and plane assignment data for each tile, the plane
+assignment data indicating which locations in the tile are
+assigned to that plane, and data indicating which locations in the
+tile are not assigned to any of the planes and depth values for
+those locations.
+
+2
+
+Appeal2015-005360
+Application 13/355,862
+REFERENCES
+The prior art relied upon by the Examiner as evidence in rejecting the
+claims on appeal is:
+Van Dyke et al.
+Liao
+
+US 6,961,057 B 1
+US 2006/0103658 Al
+
+Nov. 1, 2005
+May 18, 2006
+
+REJECTIONS
+Claims 1-10 and 21 stand rejected under 35 U.S.C. § 101 because the
+claimed invention is directed to non-statutory subject matter. Final Act. 2-3.
+Claims 1-19 and 21 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Van Dyke in view of Liao. Final Act. 4--11.
+
+ANALYSIS 2
+We have reviewed the Examiner's rejection in light of Appellant's
+arguments that the Examiner erred. In reaching this decision, we have
+considered all evidence presented and all arguments made by 1A..ppellant. \Ve
+are not persuaded by Appellant's arguments regarding the rejections based
+on 35 U.S.C. § 103(a). However, we are persuaded by Appellant's argument
+that the Examiner erred in rejection the claims as being directed to nonstatutory subject matter.
+
+2
+
+Rather than reiterate the entirety of the arguments of Appellant and the
+positions of the Examiner, we refer to the Appeal Brief (filed Dec. 12,
+2014); the Reply Brief (filed April 22, 2015); the Final Office Action
+(mailed Aug. 13, 2014); and the Examiner's Answer (mailed Feb. 23, 2015)
+for the respective details.
+3
+
+Appeal2015-005360
+Application 13/355,862
+
+Claims 1-10 and 21 (35U.S.C.§101)
+The Examiner concludes the invention claimed in claims 1-10 and 21
+is directed to non-patentable subject matter because it is not directed to a
+machine/particular apparatus or does not "transform the underlying subject
+matter." Final Act. 3; Adv. Act. 2; Ans. 15-16. The Examiner further
+concludes that the claims are directed to an abstract idea because the claims
+"rely on using mathematics [and] the claim[ s are] directed to a mathematical
+relationship from implementation to a technical problem." Ans. 16-18. The
+Examiner further concludes the claims do "not amount to significantly more
+than the abstract idea itself [and] requires the additional limitations of a
+computer with a processing (CPU), memory or other devices to perform
+their functions of dividing, identifying, determining, predicting that enables
+the compressing depth buffer data." Ans. 17.
+Appellant argues the Examiner erred in applying the machine or
+transformation test. App. Br. 6; Reply Br. 1-3. More specifically,
+Appellant argues that although the machine or transformation test may be
+one tool for assisting in determining if the claims are directed to patentable
+subject matter, it is not the exclusive test. Id. Appellant argues that, instead,
+the correct test is the two-part framework under Alice3 and Mayo 4 . Id.
+Appellant further argues that the invention "is not directed to an abstract
+idea merely because it includes or contains references to a mathematical or
+geometrical relationships." Reply Br. 3--4.
+
+3
+
+Alice Corp. Pty. Ltd. v. CLS Bank Int'!., 134 S. Ct. 2347 (2014).
+Mayo Collaborative Services v. Prometheus Laboratories, Inc., 132 S. Ct.
+1289 (2012).
+4
+
+4
+
+Appeal2015-005360
+Application 13/355,862
+The Supreme Court has set forth a two-part test to determine whether
+or not a claim is directed to patentable subject matter:
+First, given the nature of the invention in this case, we determine
+whether the claims at issue are directed to a patent-ineligible
+abstract idea. Alice Corp. v. CLS Bank Int 'l, - U.S. - , 134
+S.Ct. 2347, 2355, 189 L.Ed.2d 296 (2014). If so, we then
+consider the elements of each claim-both individually and as an
+ordered combination-to determine whether the additional
+elements transform the nature of the claim into a patent-eligible
+application of that abstract idea. Id. This second step is the
+search for an "inventive concept," or some element or
+combination of elements sufficient to ensure that the claim in
+practice amounts to "significantly more" than a patent on an
+ineligible concept. Id.
+DDR Holdings, LLC v. Hotels.com, L.P., 773 F.3d 1245, 1255 (Fed. Cir.
+2014).
+We are persuaded by Appellant's arguments that the Examiner erred
+in rejecting the claims under 35 U.S.C. § 101. Here, the Examiner makes
+conclusory statements regarding the claim covering an abstract idea and not
+containing an inventive concept. Ans. 17. Such a conclusory determination
+is not sufficient to make a prima facie case.
+Accordingly, we are constrained on this record to reverse the
+Examiner's rejection of claims 1-10 and 21 as directed to non-statutory
+subject matter.
+Claims 1-19 (35 U.S.C. § 103)
+Appellant argues the Examiner erred in finding the cited references
+teach various limitations in claim 1, including the "for each starting point ...
+determining ... and predicting," "identifying locations within a tile," and
+"for each tile" limitations recited in claim 1. App. Br. 10-14. In particular,
+5
+
+Appeal2015-005360
+Application 13/355,862
+Appellant provides a detailed analysis as to why Liao does not teach or
+suggest the disputed limitations. Id.; Reply Br. 4--5.
+We are not persuaded of error based on Appellant's argument because
+it does not address the reasoning relied on by the Examiner (Ans. 18-23)
+and, thus, does not adequately address the rejection on appeal. Specifically,
+although the Examiner relies on Liao for the disputed limitations in the Final
+Action, the Examiner makes alternate findings regarding Van Dyke in the
+Answer.
+To the extent Appellant addresses Van Dyke, Appellant does so in a
+summary fashion:
+Van Dyke also does not disclose or suggest this subject matter.
+While Van Dyke discloses determining a gradient in the X
+direction based on differences between the Z values of the first
+major pixel and the anchor pixel (and corresponding in the Y
+direction), Van Dyke does not disclose for each of a plurality of
+locations, determining differences in depth at at [sic] least two
+further locations.
+App. Br. 12; see also Reply Br. 4 ("Appellant has shown that the ground of
+rejection is improper because it is based on ... the failure of any possible
+combination of Liao with Van Dyke to result in the claimed subject matter."
+(citing App. Br. 12-13)). Merely summarizing the claim language and
+making a naked assertion that the prior art does not teach the limitation is
+insufficient to raise an argument that that Examiner erred. See In re Lovin,
+652 F.3d 1349, 1357 (Fed. Cir. 2011) (Rule 41.37 requires "more
+substantive arguments in an appeal brief than a mere recitation of the claim
+elements and a naked assertion that the corresponding elements were not
+found in the prior art."); see also 37 C.F.R. § 41.37(c)(l)(iv) ("A statement
+which merely points out what a claim recites will not be considered an
+6
+
+Appeal2015-005360
+Application 13/355,862
+argument for separate patentability of the claim."). Because Appellant has
+not identified any specific errors in the Examiner's findings based on Van
+Dyke, "the Board will not, as a general matter, unilaterally review those
+uncontested aspects of the rejection." Frye, 94 USPQ2d at 1075.
+Accordingly, we sustain the Examiner's rejection of claim 1 as
+unpatentable over Van Dyke in view of Liao, along with the rejections of
+claims 2-19, which are not argued separately.
+Claim 21
+
+First, Appellant argues that "[n ]either Van Dyke nor Liao discloses
+storing plane assignment data that indicates what locations in a tile are
+assigned to any of the planes." App. Br. 14. Particularly, Appellant argues:
+Van Dyke discloses either to compress all of the pixels in a tile
+using the one plane, or to store depths for all pixels in
+uncompressed form [and] Liao's disclosure of"planes" relates to
+deciding what locations in a frame buffer to use to store color
+sample data, as explained above.
+Id. Second, Appellant argues the Examiner erred in finding Van Dyke
+
+(col. 2, 11. 44--4 7) teaches the "extrapolating" step recited in claim 21.
+We are not persuaded by Appellant's arguments that the Examiner
+erred. As for the first argument, nonobviousness cannot be established by
+attacking the references individually when the rejection is predicated upon a
+combination of prior art disclosures. In re Merck & Co. Inc., 800 F.2d 1091,
+1097 (Fed. Cir. 1986). The test for obviousness is not whether the claimed
+invention is expressly suggested in any one or all of the references, but
+whether the claimed subject matter would have been obvious to those of
+ordinary skill in the art in light of the combined teachings of those
+references. In re Keller, 642 F.2d 413, 425 (CCPA 1981). Appellant's first
+7
+
+Appeal2015-005360
+Application 13/355,862
+argument focuses on the references individually and does not address the
+Examiner's finding that Van Dyke teaches "planes," as recited in claim 21.
+See Final Act. 10; Ans. 23-24. To the extent Appellant discusses the
+
+teachings of Van Dyke regarding tiles, Appellant does not cite to any
+evidence in support of its argument. "Attorney's argument in a brief cannot
+take the place of evidence." In re Pearson, 494 F.2d 1399, 1405 (CCPA
+1974).
+As for the second argument, although Appellant argues Van Dyke
+column 2 does not teach the extrapolating limitation (App. Br. 15),
+Appellant does not address the Examiner's additional findings in the Answer
+(see Ans. 24 (citing Van Dyke 14:52-15:28, 15:55-16:5)). Because
+
+Appellant has not identified any errors in the Examiner's findings in the
+Answer, we "will not, as a general matter, unilaterally review those
+uncontested aspects of the rejection." Frye, 94 USPQ2d 1072 at 1075.
+Accordingly, we sustain the Examiner's rejection of claim 21 as
+unpatentable over Van Dyke in view of Liao.
+
+DECISION
+For the above reasons, we affirm the Examiner's decisions rejecting
+claims 1-19 and 21 as being unpatentable over Van Dyke in view of Liao.
+For the above reasons, we reverse the Examiner's decisions rejecting
+claims 1-10 and 21under35 U.S.C. § 101 as being directed to nonpatentable subject matter.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+8
+
+Appeal2015-005360
+Application 13/355,862
+AFFIRMED
+
+9
+
+

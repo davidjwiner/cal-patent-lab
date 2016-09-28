@@ -1,0 +1,421 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/846,538
+
+07/29/2010
+
+Jonathan R. Schroeder
+
+507433
+
+2177
+
+53609
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+REINHART BOERNER VAN DEUREN P.C.
+2215 PERRYGREEN WAY
+ROCKFORD, IL 61107
+
+DUNHAM, JASON B
+
+ART UNIT
+
+PAPER NUMBER
+
+3684
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+RockMail@reinhartlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JONATHAN R. SCHROEDER
+
+Appeal2013-010979
+Application 12/846,538 1
+Technology Center 3600
+
+Before HUBERT C. LORIN, NINA L. MEDLOCK, and
+KENNETH G. SCHOPPER, Administrative Patent Judges.
+LORIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Jonathan R. Schroeder (Appellant) seeks our review under 35 U.S.C.
+§ 134 of the Examiner's Final rejection of claims 1-20. We have
+
+jurisdiction under 35 U.S.C. § 6(b) (2002).
+
+SUMMARY OF DECISION
+We AFFIRM.
+
+1
+
+The Appellant identifies Pacific Bearing Company as the real party in
+interest. App. Br. 2.
+
+Appeal2013-010979
+Application 12/846,538
+
+THE INVENTION
+Claim 1, reproduced below, is illustrative of the subject matter on
+appeal.
+1. A method of configuring an actuation system comprising:
+establishing a connection, via an electronic communication
+network, with a linear actuation system customer;
+receiving data from the linear actuation system customer that
+includes customer requirements for a linear actuation system, the data
+transmitted over the electronic communication network;
+presenting the customer with a series of options, based on the
+customer requirements, from which to select components for the
+linear actuation system;
+configuring a linear actuation system having multiple
+component parts based on customer selections; and
+displaying a scaled representation of the linear actuation system
+that includes the components selected by the customer.
+
+THE REJECTIONS
+The Examiner relies upon the following as evidence of
+unpatentability:
+Bjornson et al.
+("Bj omson")
+Koren
+
+US 6,173,210 Bl
+
+Jan.9,2001
+
+US 2007/0156540 Al
+
+July 5, 2007
+
+The following rejections are before us for review:
+1. Claims 1-9 are rejected under 35 U.S.C. §101 as being directed to
+
+non-statutory subject matter.
+2. Claims 1-16 and 18-20 are rejected under 35 U.S.C. §103(a) as being
+unpatentable over Bjornson.
+
+2
+
+Appeal2013-010979
+Application 12/846,538
+
+3. Claim 17 is rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Bjornson and Koren.
+
+ISSUES
+Did the Examiner err in rejecting claims 1-9 under 35 U.S.C. §101 as
+being directed to non-statutory subject matter?
+Did the Examiner err in rejecting claims 1-16 and 18-20 under
+35 U.S.C. §103(a) as being unpatentable over Bjornson?
+Did the Examiner err in rejecting claim 17 under 35 U.S.C. § 103(a) as
+being unpatentable over Bjornson and Koren?
+
+FINDINGS OF FACT
+We rely on the Examiner's factual findings stated in the Answer.
+Additional findings of fact may appear in the Analysis below.
+
+ANALYSIS
+
+The rejection of claims 1-9 under 35 U.S. C. §1 OJ as being directed to nonstatutory subject matter.
+The Appellant argued claims 1-9 as a group (App. Br. 5-6). We
+select claim 1 as the representative claim for this group, and the remaining
+claims 2-9 stand or fall with claim 1. 37 C.F.R. § 41.37(c)(l)(vii) (2007).
+Notwithstanding that the framework for determining patent-eligible
+subject matter that was applied in the Final Rejection (mailed Dec. 13, 2012)
+-
+
+i.e., the "machine-or-transformation" test- has since changed (see Alice
+
+Corp. Pty. Ltd. v. CLS Bank Intern., 134 S. Ct. 2347 (2014)), we make these
+observations about the Appellant's response.
+3
+
+Appeal2013-010979
+Application 12/846,538
+
+First, the Appellant argues that the claimed subject matter satisfies the
+"machine" prong of that former test because "the electronic communication
+network is central to every step in claim 1." App. Br. 5. That is not a
+persuasive argument.
+The generic claim phrase "the electronic communication network"
+provides no meaningful limit on the scope of the method claimed. The
+generic claim phrase "the electronic communication network" covers the
+well-known "internet" (see Specification, para. 30). There is no evidence
+that when, for example, the "internet" is used to perform the process as
+claimed anything but its most basic functions are involved (i.e., "establishing
+a connection" and transmitting data (see first two steps in claim 1). See Cf
+Bancorp Servs., L.L.C., v. Sun Life Assurance Co. of Cananda, 687 F.3d
+
+1266 (Fed. Cir. 2012) ("The computer required by some ofBancorp's claims
+is employed only for its most basic function, the performance of repetitive
+calculations, and as such does not impose meaningful limits on the scope of
+those claims.")
+The Appellant also argue that "the electronic communication network
+is central to every step in claim 1." App. Br. 5 (emphasis added). However,
+we do not see that the scope of the method claimed, which is not
+meaningfully limited by the inclusion of the generic claim phrase "the
+electronic communication network," is limited any more meaningfully by
+expressing, per se, that said "electronic communication network" is
+employed to practice all the steps as claimed. Be that as it may, claim 1
+does not in fact say that "the electronic communication network" is
+employed to practice all the steps as claimed. Id. A plain reading of the
+
+4
+
+Appeal2013-010979
+Application 12/846,538
+
+claim reveals that only the first two steps of the claim require using an
+"electronic communication network;" the last three steps do not- none of
+which requires using a device. On that point -
+
+that "the electronic
+
+communication network is central to every step in claim 1" (App. Br. 5,
+(emphasis added)) -
+
+the Appellant's argument is not commensurate in
+
+scope with what is claimed.
+Second, the Appellant argues that the claimed subject matter satisfies
+the "transformation" prong of the "machine-or-transformation" test because
+it "call[ s] for the transformation of data representing customer requirements
+into a physical representation of a linear actuator system, wherein the
+physical representation is transmitted over an electronic network to be
+displayed on a user's computer display." App. Br. 6. That is not a
+persuasive argument. It is not based on a reasonable construction of what is
+claimed. Claim 1 is far broader than argued. Claim 1 requires neither
+(a) "transformation of data representing customer requirements into a
+physical representation of a linear actuator system" nor (b) that " [a] physical
+representation is transmitted over an electronic network to be displayed on a
+user's computer display." Rather, the claim 1 process simply presents
+selectable options for a configuration, makes a configuration based on the
+options selected, and displays a scaled representation of said configuration.
+Nonetheless, even if the argument was undergirded by a reasonably broad
+construction of the claim, there is insufficient evidence on record to support
+Appellant's argument that the claim 1 method "transforms" data.
+
+5
+
+Appeal2013-010979
+Application 12/846,538
+
+Accordingly, for the foregoing reasons, the Appellant's arguments
+challenging the rejection of claims 1-9 under 3 5 USC 101, under the
+framework articulated in the Final Rejection, are unpersuasive as to error.
+The Examiner's finding that the subject matter of claims 1-9 is patentineligible is not affected by the current framework. Alice identifies a twostep framework for determining whether claimed subject matter is judiciallyexcepted from patent eligibility under § 101. According to Alice step one,
+" [w] e must first determine whether the claims at issue are directed to a
+patent-ineligible concept," such as an abstract idea. Alice, 134 S. Ct. at
+2355.
+Taking claim 1 as representative of the claims on appeal, the claimed
+subject matter is directed to customer-driven product design. Customerdriven product design is a fundamental economic practice. As such, it is
+directed to an abstract idea.
+Step two is "a search for an 'inventive concept'-i.e., an element or
+combination of elements that is 'sufficient to ensure that the patent in
+practice amounts to significantly more than a patent upon the [ineligible
+concept] itself."' Id.
+We see nothing in the subject matter claimed that transforms the
+abstract idea of customer-driven product design into an inventive concept.
+Claim 1 reasonably broadly covers the "internet" (see Specification para. 30)
+employed to perform its common functions of "establishing a connection"
+and transmitting data and then, without a device, performing such common
+activities as presenting a customer with selectable options, making a product
+configuration based on what is selected; and then displaying the result -
+
+6
+
+Appeal2013-010979
+Application 12/846,538
+
+i.e., a scaled representation of said product configuration. The abstract idea
+of customer-driven product design is not meaningfully transformed by
+including the "internet" and then, without any device, presenting a customer
+with selectable options for a displayable product configuration.
+Thus, the rejection of claims 1-10 under 35 U.S.C. § 101 is sustained.
+
+The rejection of claims 1-16and18-20 under 35 U.S.C. §103(a) as
+being unpatentable over Bjornson.
+
+The Appellant mentions certain phrases recited in claims 1 and 10 but
+otherwise argues these claims as a group. See App. Br. 8-10. We select
+claims 1 and 10 as the representative claims for this group, and the
+remaining claims 2-9, 11-16 and 18-20 stand or fall with claims 1 and 10.
+37 C.F.R. § 41.37(c)(l)(iv).
+The Appellant argues that "the [Bjornson] apparatus does not perform
+any system configuration, as required by claim l" (App. Br. 8) and "the
+[Bjornson] apparatus does not perform any transformation of the data
+received from the customer, nor does it perform any system configuration, as
+required by claims 1 and 10." App. Br. 8. The arguments are unpersuasive
+as to error in the rejection.
+We agree with the Examiner (see Final Act. 4) that Fig. 33 depicts a
+configuration. See Bjornson, col. 39, lines 11-12 ("A side view of the seal
+provides an actual representation of the seal construction."). Furthermore,
+the Appellant admits that, given Bjornson, "[t]he user can view the relevant
+pump and choose from a number of seals that can be used in that pump."
+App. Br. 8. That being the case, Bjornson necessarily presents a customer
+
+7
+
+Appeal2013-010979
+Application 12/846,538
+
+with selectable options, transforming a product configuration based on what
+is selected; and then displaying the result (i.e., a pump with a chosen seal).
+If there is a difference between Bjornson and what is claimed, it
+
+resides in the product being designed. To be more accurate, the difference
+lies in the content of the information to represent a particular product to be
+designed. That is to say, both Bjornson and the claimed processes use
+selectable options to design a displayable configuration. However, in the
+claimed method, the configuration describes a linear actuation system while
+in Bjornson a pump with a seal is described.
+We agree with the Examiner that:
+[t]he steps of establishing a connection, receiving data, presenting
+options based on the data, configuring a system based on the selected
+options and displayed a representation of the product based on
+selected options would all be performed in the same manner
+regardless of whether the product was a component pump seal, a
+linear actuation system, a computer, a car or any product comprised of
+parts or components.
+Ans. 7. There is insufficient evidence that using the "internet" to perform its
+common functions of "establishing a connection" and transmitting data and
+then, without a device, performing such common activities as presenting a
+customer with selectable options, making a product configuration based on
+what is selected; and then displaying the result- i.e., a scaled
+representation of said product configuration -
+
+is functionally affected by
+
+describing a "linear actuation system." It is reasonable to characterize the
+information related to a "linear actuation system" as printed matter. Given
+that printed matter is not given patentable weight, the "linear actuation
+system" claim limitations -
+
+as a distinction between the Appellant's
+
+method and that of Bjornson -
+
+are not patentably consequential. They
+8
+
+Appeal2013-010979
+Application 12/846,538
+
+amount to nonfunctional descriptive material. "[N]on-functional descriptive
+material, being useful and intelligible only to the human mind, is given no
+patentable weight." Ex parte Graf, Appeal 2012-003941, 2013 WL
+3873066, at *4 (PTAB July 23, 2013) (non-precedential), aff'd, In re Graf,
+585 F. App'x. 1012 (Fed. Cir. 2014) (non-precedential); cf In re DiStefano,
+No. 2015-1453 (Fed. Cir. 2015); as explained in In re Xiao, 462 F.App'x.
+947, 950-52 (Fed. Cir. 2011) (non-precedential):
+[T]he Board did not create a new "mental distinctions" rule in
+denying patentable weight . . . . On the contrary, the Board
+simply expressed the above-described functional relationship
+standard in an alternative formulation---consistent with our
+precedents-when it concluded that any given position label's
+function . . . is a distinction "discemable only to the human
+mind." Board Decision at 6; see In re Lowry, 32 F.3d 1579, 1583
+(Fed. Cir. 1994) (describing printed matter as "useful and
+intelligible only to the human mind") (quoting In re Bernhart,
+417 F.2d 1395, 1399 (CCPA 1969)).
+"The rationale behind this line of cases is preventing the indefinite patenting
+of known products by the simple inclusion of novel, yet functionally
+unrelated limitations." King Pharms., Inc. v. Eon Labs, Inc., 616 F.3d 1267,
+1279 (Fed. Cir. 2010).
+We should also point out that the argued-over configuring step in
+claim 1 and the transforming step in claim 10 are not required to be
+performed via a device. As claimed, they add to the remaining claimed
+subject matter nothing more than steps which could be performed in the
+human mind. The distinction between these steps over the prior art,
+notwithstanding they relate to a "linear actuation system," is one that is
+"useful and intelligible only to the human mind." Lowry, 32 F.3d at 1583
+(citing In re Bernhart, 417 F.2d 1395, 1399 (Fed. Cir. 1969)). Such a
+9
+
+Appeal2013-010979
+Application 12/846,538
+
+distinction carries no patentable weight. As already noted, "[t]he rationale
+behind this line of cases is preventing the indefinite patenting of known
+products by the simple inclusion of novel, yet functionally unrelated
+limitations." King Pharms., Inc., 616 F.3d at 1279.
+For the foregoing reasons, the Appellant's arguments are unpersuasive
+as to error in the rejection. The rejection is sustained.
+
+The rejection of claim 17 under 35 U.S. C. §103 (a) as being unpatentable
+over Njornson and Koren.
+Claim 17 further limits the method of claim 10 so that "the
+information received from the customer [is transformed] into 3D
+computer-aided-design models." The Examiner relied on Koren as evidence
+that said transformation was known. See Final Act. 8. This is not
+challenged. Rather the Appellant focuses on limitations carried over from
+claim l 0 and repeats the arguments used to challenge the rejection of
+claims 1 and 10. App. Br. 9. Those arguments were found unpersuasive
+(see above) and remain unpersuasive albeit to challenge the rejection of
+dependent claim 17. The rejection of claim 17 is sustained.
+
+CONCLUSIONS
+The rejection of claims 1-9 under 35 U.S.C. § 101 as being directed to
+non-statutory subject matter is sustained.
+The rejection of claims 1-16 and 18-20 under 35 U.S.C. § 103(a) as
+being unpatentable over Bjornson is sustained.
+The rejection of claim 17 under 35 U.S.C. § 103(a) as being
+unpatentable over Bjornson and Koren is sustained.
+10
+
+Appeal2013-010979
+Application 12/846,538
+
+DECISION
+The decision of the Examiner to reject claims 1-20 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

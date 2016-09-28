@@ -1,0 +1,328 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/856,773
+
+08/27/2010
+
+Andy Lin
+
+72312-0093
+
+2809
+
+130686
+
+7590
+
+09/20/2016
+
+McGarry Bair PC
+32 Market Avenue, SW
+Suite 500
+Grand Rapids, MI 49503
+
+EXAMINER
+NORMAN, MARC E
+
+ART UNIT
+
+PAPER NUMBER
+
+3744
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@mcgarrybair.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ANDY LIN, ERICH SCHROEDER, and NICOLE MOODY
+
+Appeal2014-009459
+Application 12/856,773
+Technology Center 3700
+
+Before EDWARD A. BROWN, LYNNE H. BROWNE, and
+AMANDA F. WIEKER, Administrative Patent Judges.
+BROWN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEivIENT OF THE CASE
+Andy Lin et al. (Appellants) appeal under 35 U.S.C. § 134(a) from the
+Examiner's decision rejecting claims 1-10. We have jurisdiction under 35
+U.S.C. § 6(b).
+We AFFIRM.
+
+CLAIMED SUBJECT MATTER
+Claims 1, 4, 6, and 8 are independent. Claim 1, reproduced below,
+illustrates the claimed subject matter:
+1.
+A programmable thermostat for controlling space
+conditioning equipment comprising:
+a temperature sensor;
+
+Appeal2014-009459
+Application 12/856,773
+a display panel;
+a clock;
+a processor;
+memory coupled to said processor for receiving a
+schedule program set for at least one of a heating and cooling
+mode, said schedule program set defined by a plurality of
+schedule time periods, each schedule time period having a
+temperature setting for at least one of a heating and cooling
+mode and a time value set including a start time value and an
+end time value;
+said processor enabling the manual entry of at least one
+said time value set for at least one said schedule time period,
+said processor automatically entering at least one said time
+value set for another schedule time period in response to the
+manual entry of the at least one said time value set of said
+schedule time period.
+Appeal Br. 17 (Claims App.).
+REJECTION
+Claims 1-10 are rejected under 35 U.S.C. § 102(b) as anticipated by
+Barker (US 4,460, 125, issued July 17, 1984).
+
+ANALYSIS
+Claims 1-3
+The Examiner finds that Barker teaches a programmable thermostat
+including switches labeled "SET TIME 1" and "RESET TIME 1," used to
+control, respectively, the time within a 24-hour period at which the control
+unit first ceases to maintain the normal room temperature and begins to
+maintain an "offset or setback temperature" for a prescribed operating
+period, and the time at the termination of the offset period at which control
+reverts to the normal room temperature. Final Act. 2 (citing Barker, Fig. 2).
+The Examiner also finds that Barker teaches that the control unit can
+2
+
+Appeal2014-009459
+Application 12/856,773
+maintain the setback temperature throughout discontinuous periods of a 24hour day. Id. at 2-3. Particularly, the Examiner finds that Barker's
+programmable thermostat additionally includes switches labeled "SET
+TIME 2" and "RESET TIME 2," which are used to designate a second
+commencement and cessation of maintenance of the setback temperature by
+the control unit within a 24-hour period. Id. at 2-3; see also Barker, Fig. 2.
+Appellants contend that Barker does not disclose all limitations of
+claim 1. Br. 7. First, Appellants contend that Barker does not disclose the
+limitation of "each schedule time period having a temperature setting for at
+least one of a heating and cooling mode and a time value set including a start
+time value and an end time value." Id. Appellants assert that, in Barker, the
+thermostat "normal" operation does not have an associated time value, and
+the thermostat will run 24 hours a day at the normal set temperature unless a
+"SET TIME" offset time period is activated. Id. Thus, Appellants contend,
+in Barker, "not all schedule time periods have a start and end value,
+[specifically,] the normal time period running 24 hours a day does not have a
+start or end value at all." Id.
+Second, Appellants contend that Barker does not disclose the claim
+limitation of"[ said processor] automatically entering at least one said time
+value set for another schedule time period in response to the manual entry of
+the at least one said time value set of said schedule time period." Br. 7-8.
+According to Appellants, "[t]he entering of a time value into SET TIME 1 or
+SET TIME 2 does not automatically enter a time start or end value
+associated with the normal time." Id. at 8.
+Appellants' contentions are not persuasive. The Examiner provides
+the following example that demonstrates how Barker's thermostat performs
+
+3
+
+Appeal2014-009459
+Application 12/856,773
+the claimed limitations through operation of the "SET TIME" and "RESET
+TIME" switches, slide switch 17, and keyboard 16:
+For example, user selects "SET TIME" at 9AM and "RESET
+TIME" at 5PM, the device automatically enter another time value
+from 5PM to 9AM. Therefore, [Barker] ( 1) shows the each
+schedule time period is associated with a start and end time value
+(first time period 9AM-5PM and second time period 5PM9AM), and (2) that it automatically enters a time value set for one
+schedule time period when one manually changes the time value
+set for another schedule time period (the second time period
+automatically entered after the first time period entered).
+Ans. 4--5.
+Appellants' Specification describes that by entering (setting)
+the start time and end time for the "Away" and "Asleep" schedule
+time periods, the remaining unassigned time period( s) of the complete
+day are automatically assigned to "At home." See Spec. 9, 1. 20-10, 1.
+12. If the "Away" and/or "Asleep" time period is/are then changed,
+the "At home" period(s) is/are changed automatically.
+In Barker, the thermostat likewise operates according to a 24 hour
+period or 24 hour day. See, e.g., Barker, col. 5, 11. 23-39. Manually entering
+SET TIME 1 and RESET TIME 1 time values automatically establishes the
+normal room temperature time period. The time period, or "time value set,"
+of the normal room temperature time period would be the remaining time of
+the 24-hour period (complete day). The normal room temperature time
+period would include a start time setting (corresponding to RESET TIME 1)
+and an end time setting (corresponding to SET TIME 1).
+Moreover, even assuming that, prior to manually entering the SET
+TIME 1 and RESET TIME 1 time values, Barker's normal room
+temperature operation does not have a "schedule time period" including a
+
+4
+
+Appeal2014-009459
+Application 12/856,773
+start time value and an end time value, Barker additionally discloses that the
+SET TIME 1 and RESET TIME 1 time values can be changed manually.
+
+See, e.g., Barker, col. 11, 11. 30-42, 46-57. Changing the SET TIME 1
+and/or RESET TIME 1 time value(s) (i.e., previously-set, current value(s))
+would automatically enter (change) the current time value set of the normal
+room temperature time period. This additional disclosure in Barker further
+supports the Examiner's position for claim 1.
+Accordingly, we sustain the rejection of claim 1 and dependent claims
+2 and 3 as anticipated by Barker.
+Claims 4 and 5
+Claim 4 recites, inter alia, first, second, and third schedule time
+periods, and "said processor automatically enters a time value into memory
+for said third time value set in response to the manual entry of a time value
+into memory for either said first time value set or said second time value
+set." Br. 19 (Claims App.).
+For claim 4, the Examiner references Barker's disclosure of switches
+labeled "SET TIME 2" and "RESET TIME 2" to designate, respectively, a
+second start time and end time of the normal room temperature time period.
+Br. 5---6. The Examiner provides the following example to demonstrate that
+Barker's thermostat meets the claim limitations:
+For example, user selects "SET TIME l" at 9AM and "RESET
+TIME l" at 5PM, and selects "SET TIME 2" at 5PM and "RESET
+TIME 2" at 1OPM, the device automatically enter another time
+value from lOPM to 9AM. Therefore, [Barker] (1) shows the
+each schedule time period is associated with a start and end time
+value (first time period 9AM-5PM, second time period 5PM10PM and third time period 10PM-9AM), and (2) that it
+automatically enters a time value set for one schedule time period
+when one manually changes the time value set for another
+5
+
+Appeal2014-009459
+Application 12/856,773
+schedule time period (the third time period automatically entered
+after the first and second time periods entered).
+Id.
+
+Barker additionally discloses that, like the SET TIME 1 and RESET
+TIME 1 time values, the SET TIME 2 and RESET TIME 2 time values can
+also be changed manually. See, e.g., Barker, col. 12, 11. 3-23. Changing the
+SET TIME 2 and/or RESET TIME 2 time value(s) would automatically
+enter (change) the current time value set of the normal room temperature
+time period. This additional disclosure in Barker further supports the
+Examiner's position in regard to claim 4.
+Appellants' contentions for claim 4 are similar to those for claim 1.
+Br. 8-11. Accordingly, these contentions are not persuasive for reasons
+similar to those discussed for claim 1. Thus, we sustain the rejection of
+claim 4 and dependent claim 5 as anticipated by Barker.
+Claims 6 and 7
+Claim 6 recites, inter alia, first, second, and third schedule time
+periods; "said third schedule time period including a third start time setting,
+a third end time setting, a fourth start time setting, and a fourth end time
+setting" (emphasis added); and
+
+said processor automatically enters a value into memory for
+either said third start time setting, said third end time setting, said
+fourth start time setting, or said fourth end time setting in
+response to the manual entry of a value into memory for either
+said first start time setting, said first end time setting, said second
+start time setting, or said second end time setting.
+Br. 19-20 (Claims App.).
+
+6
+
+Appeal2014-009459
+Application 12/856,773
+For claim 6, the Examiner references Barker's switches labeled
+"SET TIME 2" and "RESET TIME 2," and provides the following example
+that demonstrate how Barker's thermostat meets the claimed limitations:
+For example, user selects "SET TIME l" at 9AM and "RESET
+TIME l" at 3PM, and selects "SET TIME 2" at 7PM and "RESET
+TIME 2" at 1OPM, the device automatically enter the third time
+period 3PM-7PM and the fourth time value 10PM-9AM.
+Therefore, [Barker] (1) shows the each schedule time period is
+associated with a start and end time value (first time period
+9AM-3PM, second time period 7PM-10PM, third time period
+3PM-7PM and fourth time period 10PM-9AM), and (2) that it
+automatically enters a time value set for one schedule time period
+when one manually changes the time value set for another
+schedule time period (the third and fourth time periods
+automatically entered after the first and second time periods
+entered).
+Ans. 6-7. The Examiner's position is that the two normal room temperature
+time periods, automatically entered in response to the manual entry of "SET
+TIME 1 " "RESET TIME 1 " "SET TIME 2 " and "RESET TIME 2 "
+'
+'
+'
+'
+correspond to the two time periods of the third schedule time period. Id.
+Appellants' contentions for claim 6 are similar to those for claims 1
+and 4. Br. 11-14. These contentions are not persuasive for reasons similar
+to those discussed for claim 1. Thus, we sustain the rejection of claim 6 and
+dependent claim 7 as anticipated by Barker.
+Claims 8-10
+Claim 8 recites first, second, and third schedule time periods, and
+said processor automatically creates two third sub-schedule
+time periods associated with said third schedule time period
+upon entry into memory of a time value associated with said
+second start time setting which is spaced in time from the time
+value associated with said first time setting or upon entry into
+memory of a time value associated with said second end time
+7
+
+Appeal2014-009459
+Application 12/856,773
+setting which is spaced in time from the time value associated
+with said first time setting.
+Br. 21 (Claims App.) (emphasis added).
+For claim 8, the Examiner provides an example that demonstrates how
+Barker's thermostat meets the claimed limitations. Ans. 7-8. The
+Examiner's position is that the two normal room temperature time periods,
+automatically entered in response to the manual entry of "SET TIME 1,"
+"RESET TIME 1 " "SET TIME 2 " and "RESET TIME 2 " correspond to
+'
+'
+'
+the claimed "third sub-schedule time periods." Id.
+Appellants' contentions for claim 8 are similar to those for claims 1
+and 6. Br. 14--16. These contentions are not persuasive for reasons similar
+to those discussed for claims 1 and 6. Thus, we sustain the rejection of
+claim 8 and dependent claims 9 and 10 as anticipated by Barker.
+DECISION
+We affirm the Examiner's decision to reject claims 1-10.
+No time period for taking any subsequent action in connection with
+this appeal may be extended according to 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

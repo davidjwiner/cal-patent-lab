@@ -1,0 +1,232 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+121714,241
+
+02/26/2010
+
+Yue Wang
+
+T-7847
+
+6303
+
+34014
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+CHEVRON CORPORATION
+P.O. BOX 6006
+SAN RAMON, CA 94583-0806
+
+ZIMMERMAN, MARK K
+
+ART UNIT
+
+PAPER NUMBER
+
+2619
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@chevron.com
+kande@chevron.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte YUE WANG
+
+Appeal2015-000659
+Application 12/714,241
+Technology Center 2600
+
+Before ADAM J. PYONIN, KARA L. SZPONDOWSKI, and
+AARON W. MOORE, Administrative Patent Judges.
+MOORE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-000659
+Application 12/714,241
+STATEMENT OF THE CASE
+Appellant 1 appeals under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-15, which are all of the pending claims. We have jurisdiction
+under 35 U.S.C. § 6(b ).
+We reverse.
+
+THE INVENTION
+The application "relates to surface smoothing within an earth model of
+a geological volume of interest." (Spec. 1:6-7.) Claim 1, reproduced below,
+is illustrative:
+1. A system for processing an earth model of a geological
+volume of interest, the system comprising:
+one or more processors configured to execute computer
+program modules, the computer program modules comprising:
+an earth model module for obtaining the earth model of the
+geological volume of interest, wherein the earth model includes
+a polygon mesh that describes a position of a surface within the
+geological volume ofinterest, the polygon mesh being comprised
+of planar polygons defined by three or more vertices, and the
+earth model including positional coordinates for the vertices of
+the polygons;
+a dip module for determining values of the dip of the polygon
+mesh within the earth model, wherein determining values of the
+dip of the polygon mesh includes determining values of dip for
+the individual polygons based on the positional coordinates of
+the vertices defining the polygons;
+
+1
+
+Appellant identifies Chevron U.S.A. Inc. as the real party in interest. (See
+App. Br. 3.)
+2
+
+Appeal2015-000659
+Application 12/714,241
+a smoothing module configured to smooth the values of dip
+along the polygon mesh without impacting the positional
+coordinates for the vertices of the polygons.
+THE REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Godavarthy et al.
+
+US 2005/0091016 Al
+
+Apr. 28, 2005
+
+Deming
+
+US 2005/0264554 Al
+
+Dec. 1, 2005
+
+Koren et al.
+
+US 2010/0220895 Al
+
+Sept. 2, 2010
+
+THE REJECTIONS
+
+1.
+
+Claims 1, 3---6, 9, and 11-14 stand rejected under 35 U.S.C.
+
+§ 102(b) as anticipated by Godavarthy. (See Final Act. 3-7.)
+2.
+
+Claims 2 and 10 stand rejected under 35 U.S.C § 103(a) as
+
+unpatentable over Godavarthy and Koren. (See Final Act. 8.)
+3.
+
+Claims 7, 8, and 15 stand rejected under 35 U.S.C § 103(a) as
+
+unpatentable over Godavarthy and Deming. (See Final Act. 9-10.)
+
+ANALYSIS
+Claim 1 recites "a dip module for determining values of the dip of the
+polygon mesh within the earth model, wherein determining values of the dip
+of the polygon mesh includes determining values of dip for the individual
+polygons based on the positional coordinates of the vertices defining the
+polygons." Claim 9 similarly recites a method that includes "determining
+values of the dip of the polygon mesh within the earth model, wherein
+determining values of the dip of the polygon mesh includes determining
+3
+
+Appeal2015-000659
+Application 12/714,241
+values of dip for the individual polygons based on the positional coordinates
+of the vertices defining the polygons."
+The Examiner finds these limitations in Godavarthy' s natural
+neighbor interpolation ("NNI"), which "is a method for estimating the zvalue of an arbitrary point P from the z values of a set of points with known
+z-values," where "[t]he z-value represents the elevation at the location on the
+earth's surface to which the point on the [triangulated irregular network]
+corresponds." (Godavarthy i-fi-133, 92; see Final Act. 4--5.) Godavarthy's
+NNI "uses information in the Delaunay triangulation of the known points to
+compute a weighted average of the z-values of the natural neighbors of P."
+(Godavarthy i192.)
+Appellant argues that the rejections are in error because
+"Godavarthy' s resulting average or weighted average elevation value used to
+interpolate a new surface point is not a value of dip, and no value of dip is
+needed for Godavarthy's technique." (App. Br. 9.) We agree.
+The Specification describes a system that includes a "dip module" that
+"may be configured to determine values of the dip of the polygon mesh (e.g.,
+polygon meshes 300 and 402) within the earth model provided by the earth
+model module 110." (Spec. i-f 7:20-22.) The Specification explains that
+"[d]ip is orientation with respect to a reference direction" and that "[f]or
+example, dip may be described generally as the derivative of a surface
+spatial function that defines a geological surface." (Id. at 22-24.)
+
+4
+
+Appeal2015-000659
+Application 12/714,241
+Consistent with the Specification, 2 we interpret "dip" to mean "orientation
+with respect to a reference direction."
+Although Godavarthy does teach a method for determining a value
+that is "based on the positional coordinates of the vertices," the value it
+computes is simply the z-value associated with an additional, interpolated
+surface point, i.e., an interpolated elevation, not an orientation with respect
+to a reference direction.
+Because we conclude that Godavarthy does not describe the claimed
+dip values, we decline to sustain the 35 U.S.C. § 102(b) rejection of
+independent claims 1 and 9 and their dependent claims 3---6 and 11-14. And,
+because the obviousness rejections are also premised on Godavarthy
+teaching dip values, we also decline to sustain the rejections of claims 2, 7,
+8, 10, and 15 under 35 U.S.C. § 103(a). We do not reach Appellant's
+additional arguments.
+
+DECISION
+The rejections of claims 1-15 are reversed.
+
+REVERSED
+
+2
+
+"During examination, 'claims ... are to be given their broadest reasonable
+interpretation consistent with the specification, and ... claim language
+should be read in light of the specification as it would be interpreted by one
+of ordinary skill in the art." In re American Academy of Science Tech
+Center, 367 F.3d 1359, 1364 (Fed. Cir. 2004) (quoting In re Bond, 910 F.2d
+831, 833 (Fed. Cir. 1990)).
+5
+
+

@@ -1,0 +1,292 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/851,655
+
+08/06/2010
+
+Hidetoshi AOYAGI
+
+D5620-00094
+
+2155
+
+8933
+
+7590
+
+09/19/2016
+
+DUANE MORRIS LLP - Philadelphia
+IP DEPARTMENT
+30 SOUTH 17TH STREET
+PHILADELPHIA, PA 19103-4196
+
+EXAMINER
+KOHLMAN, CHRISTOPHER J
+
+ART UNIT
+
+PAPER NUMBER
+
+2699
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________________
+Ex parte HIDETOSHI AOYAGI and TAKEHIRO ANDO
+____________________
+Appeal 2014-008770
+Application 12/851,6551
+Technology Center 2600
+____________________
+
+Before MARC S. HOFF, DAVID M. KOHUT, and CATHERINE SHIANG,
+Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Examiner’s non-final
+rejection of claims 7–12. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+Appellants’ invention is a portable computer including means for
+determining whether a main body of the portable computer was rotated in a
+horizontal plane by predetermined degrees and means for determining that a
+request of change of dominant hand was inputted by that rotation. The
+portable computer further comprises a memory for storing a current
+
+1
+
+The real party in interest is Square Enix Co., Ltd.
+
+Appeal 2014-008770
+Application 12/851,655
+dominant hand setting state, and means for reversing a game image and
+displaying the reversed image after switching the dominant hand setting. See
+Abstract; Spec. 21–22.
+Claim 7 is exemplary of the claims on appeal:
+7. A portable computer having a main body and a display that also
+serves as a touch panel input means provided on the main body, the input
+means having a user interface element displayed at a predetermined display
+position on the display corresponding to a dominant hand setting state, when
+a user touches the user interface element, the portable computer performing
+processing steps in a predetermined game program corresponding to the
+touched user interface, said portable computer comprising:
+a program memory that stores said predetermined game program;
+a game progress controller that displays a predetermined game image
+on the display based upon the game program read out of the program
+memory and controls a progress of a game scenario of the game program
+based upon a command inputted through the user interface;
+an attitude detecting sensor that detects an attitude of the main body
+on a horizontal plane in real time and generates a signal that signifies the
+attitude of the main body on the horizontal plane;
+a first memory that stores a current dominant hand setting state of the
+portable computer, wherein the current dominant hand setting state is one of
+two dominant hand setting states wherein one dominant hand setting state is
+for a right-handed person and the other dominant hand setting state is for a
+left-handed person;
+a second memory that sets said display positions of the user interface
+elements on the display, the display positions corresponding to a righthanded person and a left-handed person, said second memory also storing a
+user interface controlling program corresponding to the display position of
+each user interface element;
+a rotation angle determiner that computes change of the attitude of the
+main body on the horizontal plane over time based upon signals from the
+attitude detecting sensor when the main body is rotated on the horizontal
+direction while the game progress controller is controlling the progress of
+the game scenario of the game program, and determines whether the main
+body has been rotated by predetermined degrees on the horizontal plane;
+a dominant hand setting switching request determiner that determines
+that the user has inputted a request to switch the dominant hand setting when
+2
+
+Appeal 2014-008770
+Application 12/851,655
+the rotation angle determiner determines that the main body has been rotated
+by the predetermined degrees on the horizontal plane, said dominant hand
+setting switching request determiner including a clocking determiner that
+measures an elapsed time duration from start to completion of the rotational
+motion of the main body, wherein then the clocking determiner determines
+that the main body has rotated by the predetermined degrees within a
+predetermined time duration, the dominant hand setting switching request
+determiner determines that the user has inputted the request to switch the
+dominant hand setting state;
+a dominant hand setting switcher that switches the current dominant
+hand setting state in the first memory to the other of the two dominant hand
+setting states when the dominant hand setting switching request determiner
+has determined that the user has inputted the request to switch the dominant
+hand setting state;
+a control subject image reverser that displays an image on the display
+by reversing the image that is being displayed by 180 degrees when the
+current dominant hand setting state is switched to the other of the two
+dominant hand setting states; and
+a user interface element server switcher that switches the display
+position of the user interface according to the switched current dominant
+hand setting state and the user interface element switcher also switching the
+user interface element controlling program stored in the second memory into
+the user interface element controlling program that corresponds to the new
+display position of the user interface element;
+whereby while said game progress controller is executing said
+predetermined game program and controlling the progress of the game
+scenario of the game program, when the main body is rotated by
+predetermined degrees on the horizontal plane,
+(A) said rotation angle determiner computes change of the
+attitude of the main body on the horizontal plane over time based on the
+signal from the attitude detecting sensor,
+(B) said dominant hand setting switching request determiner
+determines that the user has inputted a request to switch the dominant hand
+setting,
+(C) said dominant hand setting switcher switches the current
+dominant hand setting state in the first memory to the other of the two
+dominant hand setting states,
+(D) said control subject image reverser displays an image on the
+display by reversing the image that is being displayed by 180 degrees,
+3
+
+Appeal 2014-008770
+Application 12/851,655
+(E) said user interface element switcher switches the display
+position of the user interface to a new display position that corresponds to
+the switched current dominant hand setting state, and
+(F) said user interface element switcher switches the user
+interface element controlling program stored in the second memory to the
+user interface element controlling program that corresponds to the new
+display position of the user interface element.
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Kim
+Sachs
+Nasiri
+
+US 2008/0119237 A1
+US 2009/0265671 A1
+US 2009/0303204 A1
+
+May 22, 2008
+Oct. 22, 2009
+Dec. 10, 2009
+
+Claims 7 and 9–12 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kim and Nasiri.
+Claim 8 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kim, Nasiri, and Sachs.
+Throughout this decision, we make reference to the Appeal Brief
+(“App. Br.,” filed July 3, 2014) the Reply Brief (“Reply Br.,” filed Aug. 11,
+2014) and the Examiner’s Answer (“Ans.,” mailed July 23, 2014) for their
+respective details.
+ISSUES
+Appellants argue that Kim’s disclosure of user interface display
+region 320 being switched from the right side of the display to the left side
+of the display, upon sufficient rotation of the portable device, does not
+necessarily require or even suggest that Kim stores a dominant hand setting
+in a memory. App. Br. 5–6. Appellants contend that such operation only
+requires controller 180 to display the user interface display region 320 and
+
+4
+
+Appeal 2014-008770
+Application 12/851,655
+information display region 310 in the correct orientation that matches the
+detected orientation of the mobile terminal. App. Br. 7.
+Appellants’ contentions present us with the following issue:
+Does Kim inherently disclose a first memory that stores a current
+dominant hand setting state of the portable computer?
+
+PRINCIPLES OF LAW
+“Under the principles of inherency, if the prior art necessarily
+functions in accordance with, or includes, the claimed limitations, it
+anticipates.” In re Cruciferous Sprout Litig., 301 F.3d 1343, 1349 (Fed. Cir.
+2002) (citations and internal quotation marks omitted). “Inherency,
+however, may not be established by probabilities or possibilities. The mere
+fact that a certain thing may result from a given set of circumstances is not
+sufficient.” In re Robertson, 169 F.3d 743, 745 (Fed. Cir. 1999) (citations
+and internal quotation marks omitted).
+ANALYSIS
+We are not persuaded by Appellants’ argument that Kim fails to
+disclose “a first memory that stores a current dominant hand setting state of
+the portable computer.” See App. Br. 5–7.
+Appellants argue that Kim’s disclosure of user interface display
+region being switched from the right side of the display to the left side of the
+display when the device is rotated 180 degrees “does not necessarily require
+or even suggest that Kim’s device stores a dominant hand setting state in a
+memory.” App. Br. 6. Appellants contend that Kim’s described operation
+“does not require or suggest that any setting state relating to the user
+interface display region 320 is stored in a memory.” Id. at 7.
+
+5
+
+Appeal 2014-008770
+Application 12/851,655
+We disagree with Appellants’ position. Instead, we agree with the
+Examiner’s finding that “[i]n order for the controller to act on the change of
+the orientation of the device to switch the position of the user interface
+display region, the change of orientation must be stored in local memory that
+is accessible by the controller.” Ans. 2. We find that Kim need not
+explicitly refer to the position of the user interface display region in order for
+the Examiner (or this Board) to construe such disclosure as being equivalent
+to the claimed “current dominant hand setting state.” Id. We find that for
+Kim to operate as disclosed, information indicating the position of the user
+interface display region (i.e., either left or right) must necessarily be stored
+in a memory, such that when the device is rotated sufficiently (e.g., 180
+degrees as illustrated in Figure 12), the device accesses the memory to
+retrieve the current position of the user interface display region, and then redraws the device screen with the user interface display region on the other
+side of the screen. The new position of the user interface display region
+(i.e., the claimed “current dominant hand setting state”) would subsequently
+be stored as well.
+We conclude that the Examiner did not err in rejecting claim 7, as
+well as claims 9–12 not separately argued, over Kim and Nasiri. We sustain
+the Examiner’s § 103 rejection.
+CLAIM 8
+Appellants’ only argument concerning claim 8 is that Sachs does not
+remedy the deficiencies of Kim with respect to the rejection of claim 7.
+App. Br. 8. Because we conclude supra that no such deficiency exists, we
+sustain the rejection of claim 8 over Kim, Sachs, and Nasiri, for the same
+reasons given with respect to the rejection of claim 7, supra.
+
+6
+
+Appeal 2014-008770
+Application 12/851,655
+CONCLUSIONS
+Kim inherently discloses a first memory that stores a current dominant
+hand setting state of the portable computer.
+ORDER
+The Examiner’s decision to reject claims 7–12 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(1)(iv).
+
+AFFIRMED
+
+7
+
+

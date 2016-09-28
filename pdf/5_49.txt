@@ -1,0 +1,268 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/693,979
+
+01/26/2010
+
+Tsunayuki OHWA
+
+40073
+
+5129
+
+22850
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+OBLON, MCCLELLAND, MAIER & NEUSTADT, LLP,
+1940 DUKE STREET
+ALEXANDRIA, VA 22314
+
+CHU,DAVIDH
+
+ART UNIT
+
+PAPER NUMBER
+
+2616
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentdocket@oblon.com
+oblonpat@oblon.com
+ahudgens@oblon.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TSUNAYUKI OHWA, SATORU INOUE,
+NARIAKI SATOH, SHINJI YUHARA, DAIKI ITO, and
+TAKAYUKI USAMI 1
+
+Appeal2015-005020
+Application 12/693,979
+Technology Center 2600
+
+Before JEAN R. HOMERE, KARA L. SZPONDOWSKI, and
+MICHAEL J. ENGLE, Administrative Patent Judges.
+ENGLE, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from a final rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+Technology
+The application relates to the display of templates and image data for
+communication messages. See Spec. 1, Abstract. Claim 1 is illustrative and
+reproduced below with the limitations at issue emphasized:
+
+1
+
+According to Appellants, the real parties in interest are Sony Corporation
+and Sony Mobile Communications Japan, Inc. App. Br. 1. However, a
+Statement Under 37 CPR 3.73(c) dated July 1, 2015, lists the latter as "Sony
+Mobile Communications Inc."
+
+Appeal2015-005020
+Application 12/693,979
+1. An information processing apparatus, comprising:
+a storage section configured to store a plurality of
+templates with template attribute information, each template
+configured to be capable of being applied to a display of a content
+of a message with the content being laid out on the template, and
+each template being displayed in a form of a post card on a
+display device; and
+a control section configured to cause the display device to
+display, for an unopened message, only at least one of message
+transmission destination or source information on the post card;
+perform an opening process, in response to a user's
+selection of the unopened message, to cause the display device
+to switch from displaying only at least one of message
+transmission destination or source information to displaying the
+content of the message on the post card; and
+cause the display device to display, in response to the
+user's selection of a previously read message that has been
+subjected to the opening process, the post card showing the
+content of the previously read message and without showing the
+message transmission destination or source information, to
+enable the user to view the content of the previously opened
+message without performing the opening process again.
+
+Rejections
+Claims 1-3 and 6-8 stand rejected under 35 U.S.C. § 103(a) as
+obvious over the combination of Logue et al. (US 2007 /0271347 Al; Nov.
+22, 2007); Anne Troy, Column Headings in Microsoft Outlook,
+http://www.officearticles.com/outlook/co lumn_headings_in_microsoft_outlo
+ok.htm; Yoshinobu et al. (US 5,777,605; July 7, 1998); and Corbin et al.
+(US 2009/0094668 Al; Apr. 9, 2009). Final Act. 2.
+Claims 4 and 5 stand rejected under 35 U.S.C. § 103(a) as obvious
+over the combination of Logue, Troy, Yoshinobu, Corbin, and Boerries et al.
+
+2
+
+Appeal2015-005020
+Application 12/693,979
+(US 2006/0259511 Al; Nov. 16, 2006). 2 See Final Act. 6, 2.
+
+Claims 9-20 stand rejected under 35 U.S.C. § 103(a) as obvious over
+the combination of Logue, Troy, Y oshinobu, Corbin, and Bulgin et al. (US
+2009/0061827 Al; Mar. 5, 2009). 3 See Final Act. 8, 2.
+ISSUE
+Did the Examiner err finding either Corbin or Troy teaches or
+suggests "to display, in response to the user's selection of a previously read
+message that has been subjected to the opening process, the post card
+showing the content of the previously read message and without showing the
+message transmission destination or source information," as recited in
+claims 1, 7, and 8?
+ANALYSIS
+
+Claims 1-20
+The Examiner relies upon two references as separately teaching the
+disputed limitation: Corbin and Troy. Ans. 3--4.
+Corbin teaches the sender of an email can "request to preserve identity
+privacy." Corbin i-f 26, FIG. 2. If someone chooses to "Reply All" to a
+message with such a privacy request, "the software 121 is responsive to the
+privacy selection 220 to automatically protect the identity privacy of the
+recipient 250 [i.e., the sender of the original message] by inserting the email
+address of the recipient within a bee address field 255." Id. i-f 31, FIG. 5.
+2
+
+Although the statement of rejection does not expressly list Y oshinobu or
+Corbin for claims 4 or 5 (Final Act. 6-8), those claims ultimately depend
+from claim 1, which was rejected over a combination including Y oshinobu
+and Corbin. Id. 2--4. Accordingly, we treat the rejection of claims 4 and 5
+as including all references relied upon for claim 1.
+3
+As with claims 4 and 5, we treat the rejection of claims 9-20 as including
+all references used for any base claims, including Y oshinobu and Corbin.
+3
+
+Appeal2015-005020
+Application 12/693,979
+Thus, whereas the sender of the original message would normally be listed
+in the "To" field of any reply, the system instead moves the original sender
+to the "bee" field. In this way, Corbin teaches avoiding the disclosure of the
+email address of the original sender within any subsequent email messages
+that originate from an original recipient. Id. i-f 26.
+Appellants contend Corbin's message "always displays either the
+source email address in the 'From' field, or the destination email address in
+the 'To' field, even if the original sender's email address may be hidden by
+including it in the bee field." App. Br. 10. We agree with Appellants
+regarding Corbin. The Examiner finds that "if everyone in the group (group
+email) requests to hide their email address, then no destination or source
+information will be shown." Ans. 3. However, the disclosure of Corbin
+does not support that finding. For example, in Figures 2 and 5, the original
+sender John Doe has requested privacy. Corbin i-f 26. Despite this request,
+John Doe's name and email address (source information) is still shown to
+the recipient. See id. at FIGs. 4--5. The privacy setting, which moves John
+Doe's name and email address from the "To" field to the "bee" field in a
+subsequent reply email message initiated by the recipient, does not affect the
+recipient being shown John Doe's name and email address in both the
+original message (i.e., as "source information") and in the reply (i.e., as
+"destination ... information"). In other words, John Doe's name and email
+address will only be hidden in a subsequent message to other individuals.
+The Examiner also has not shown Corbin displays different content for an
+unopened message as opposed to a previously read message. Thus, we find
+the Examiner erred in finding Corbin teaches or suggests "to display, in
+response to the user's selection of a previously read message that has been
+4
+
+Appeal2015-005020
+Application 12/693,979
+subjected to the opening process, the post card showing the content of the
+previously read message and without showing the message transmission
+destination or source information."
+The Examiner separately relies on Troy as teaching how to delete
+columns in Outlook. Ans. 4. For example, "the user of the Microsoft
+Outlook program of Troy is able to delete the 'From' field ('source
+information')." Id. "Thus, the Examiner believes that one of an ordinary
+skill in the art would have been able to selectively hide certain fields within
+an email according to user preference." Id.
+Appellants concede that Troy teaches "users can add or remove
+columns (fields) in [an] Outlook mailbox" but contend this "does not
+constitute a teaching of adding or deleting columns within an email." Reply
+Br. 4--5 (emphasis added). This argument, however, is not commensurate
+with the scope of the claims as written. Claim 1 does not recite displaying
+an "email" as opposed to a "mailbox." Instead, claim 1 recites displaying "a
+post card," and the Federal Circuit "has repeatedly emphasized that an
+indefinite article 'a' or 'an' in patent parlance carries the meaning of 'one or
+more' in open-ended claims containing the transitional phrase 'comprising.'"
+Baldwin Graphic Sys., Inc. v. Siebert, Inc., 512 F.3d 1338, 1342 (Fed. Cir.
+
+2008) (quotation omitted). The Specification also teaches displaying
+multiple post cards at the same time, similar to an email mailbox. E.g.,
+Spec. FIGs. 4--5. Thus, Appellants have not sufficiently explained how their
+"mailbox" argument against Troy relates to the claim as currently written.
+Nevertheless, we find the Examiner has not shown that Troy, alone or
+in combination with Corbin, teaches or suggests the full limitation. While
+we agree with the Examiner that "one of an ordinary skill in the art would
+5
+
+Appeal2015-005020
+Application 12/693,979
+have been able to selectively hide certain fields" (Ans. 4 (emphasis added)),
+the Examiner has provided no reason why a person of ordinary skill would
+remove the "To" and "From" field from an Outlook mailbox or email, let
+alone why do so for a "previously read message" but not an "unopened
+message." The Supreme Court and Federal Circuit have warned that "it is
+improper to pick and choose the claimed elements from among the various
+prior art references using the patent as a blueprint." Intra Corp. v. Hamar
+Laser Instruments, Inc., 862 F.2d 320 (Fed. Cir. 1988); Dennison Mfg. Co.
+v. Panduit Corp., 475 U.S. 809, 810 (1986) ("in addressing the question of
+
+obviousness a judge must not pick and choose isolated elements from the
+prior art and combine them so as to yield the invention in question if such a
+combination would not have been obvious at the time of the invention").
+Here, without using the claims as a blueprint, the Examiner has not provided
+sufficient explanation for us to find that Troy teaches or suggests "to display,
+in response to the user's selection of a previously read message that has been
+subjected to the opening process, the post card showing the content of the
+previously read message and without showing the message transmission
+destination or source information."
+Accordingly, we do not sustain the Examiner's rejection of
+independent claims 1, 7, and 8. Dependent claims 2---6 and 9-20 stand with
+their respective independent claims.
+DECISION
+For the reasons above, we reverse the Examiner's decision rejecting
+claims 1-2 0.
+REVERSED
+
+6
+
+

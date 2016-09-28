@@ -1,0 +1,259 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/872,001
+
+04/26/2013
+
+Nathan S. Bushman
+
+S l 430.10002US03
+
+9605
+
+97149
+
+7590
+
+09/16/2016
+
+EXAMINER
+
+Maschoff Brennan
+1389 Center Drive, Suite 300
+Park City, UT 84098
+
+HUANG, MIRANDA M
+
+ART UNIT
+
+PAPER NUMBER
+
+2157
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docket@mabr.com
+info@mabr.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+ExparteNATHAN S. BUSHMAN 1
+
+Appeal2015-005014
+Application 13/872,001
+Technology Center 2100
+
+Before HUNG H. BUI, JOSEPH P. LENTIVECH, and
+MICHAEL J. ENGLE, Administrative Patent Judges.
+ENGLE, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellant appeals under 35 U.S.C. § 134(a) from a final rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+Technology
+The application relates to the migration of computer data. Abstract.
+Claim 1 is illustrative and reproduced with the disputed limitation
+emphasized below:
+1. A method for migration of computer data comprising:
+modifYing a volume boot record of a destination volume of
+a disk to a first state in which at least a portion of the destination
+volume becomes inaccessible to a standard file system while
+
+1
+
+According to Appellant, the real party in interest is StorageCraft
+Technology Corporation. App. Br. 4.
+
+Appeal2015-005014
+Application 13/872,001
+maintaining a master boot record of the disk unmodified to
+enable continued access to the disk using the master boot record;
+writing one or more snapshots of a source volume to the
+inaccessible portion of the destination volume while the volume
+boot record is in the first state; and
+restoring the volume boot record to a second state in which
+the inaccessible portion of the destination volume becomes
+accessible to the standard file system.
+Examiners Rejections and References
+Claims 1-3, 5-7, 9-12, and 14--20 stand rejected under 35 U.S.C.
+§ 103(a) as obvious over the combination of Bang (US 2008/0005527 Al;
+Jan. 3, 2008) and Pawar et al. (US 2008/0155316 Al; June 26, 2008). Final
+Act. 8.
+Claims 4, 8, and 13 stand rejected under 35 U.S.C. § 103(a) as
+obvious over the combination of Bang, Pawar, and Childs et al. (US
+2008/0046781 Al; Feb. 21, 2008). Final Act. 21.
+Claims 1-9 and 11 stand rejected on the ground of nonstatutory
+obviousness-type double patenting over claims 1, 2, 4--10, 12, and 13 of U.S.
+Patent Application No. 13/481,671 in view of Pawar. Final Act. 4. The
+present application is a continuation of the '671 application.
+Claim 1-20 stand rejected on the ground of nonstatutory double
+patenting over claims 1-19 ofU.S Patent No. 8,190,574. Final Act. 4. The
+'671 application discussed above was a divisional of the application for the
+'574 patent.
+ISSUES
+1.
+
+Did the Examiner err in concluding that claims 1-9 and 11 were
+
+invalid for obviousness-type double patenting over U.S. Patent Application
+No. 13/481,671?
+
+2
+
+Appeal2015-005014
+Application 13/872,001
+2.
+
+Did the Examiner err in concluding that claims 1-20 were
+
+invalid for obviousness-type double patenting over U.S. Patent No.
+8,190,574?
+3.
+
+Did the Examiner err in finding Bang teaches or suggests
+
+"modifying a volume boot record of a destination volume of a disk to a first
+state in which at least a portion of the destination volume becomes
+inaccessible to a standard file system," as recited in claims 1, 11, and 18?
+4.
+
+Did the Examiner err in finding Bang teaches or suggests
+
+"writing one or more snapshots of a source volume to the inaccessible
+portion of the destination volume while the volume boot record is in the first
+state," as recited in claim 1?
+ANALYSIS
+
+Obviousness-Type Double Patenting: Claims 1-20
+A terminal disclaimer as to U.S. Patent App. No. 13/481,671 was filed
+on July 31, 2014. We agree with Appellant that this moots the obviousnesstype double patenting rejection over the '671 application. We also note that
+the '671 application has since been abandoned.
+Appellant also asserts that a terminal disclaimer as to U.S. Patent No.
+8, 190,57 4 was filed on July 31, 2014. App. Br. 9. However, we do not see
+any such terminal disclaimer in the official record. Moreover, Appellant has
+not challenged the substance of the obviousness-type double patenting
+rejection based on the '574 patent other than alleging a terminal disclaimer
+was filed. Given this record, we are not persuaded that this obviousnesstype double patenting rejection is moot.
+Accordingly, we sustain the Examiner's rejection of claims 1-20 for
+obviousness-type double patenting over the '574 patent. See Final Act. 4.
+3
+
+Appeal2015-005014
+Application 13/872,001
+
+Obviousness: Claims 1-20
+All of the independent claims ( 1, 11, and 18) recite "modifying a
+volume boot record of a destination volume of a disk to a first state in which
+at least a portion of the destination volume becomes inaccessible to a
+standard file system."
+The Examiner relies on Bang for teaching or suggesting this
+limitation. Ans. 3--4. Bang "relates to the booting of a computer system"
+where "more than one operating system is stored on the computer, and a user
+selects the appropriate operating system to load during the booting
+sequence." Bang i-fi-13, 5. Based on which operating system the user selects,
+Bang teaches "address remapping" to convert requests for accessing one set
+of data (e.g., the default operating system) to instead refer to a remapped
+address (e.g., a different operating system selected by the user). Id. ,-r 6.
+Bang teaches three modes of address remapping. In an "inactive"
+mode, no changes to requests are made. Id. i-fi-135-36, FIG. 4A. In a
+"swapping" mode, requests to a first partition get remapped to go to a
+second partition, while requests to the second partition get remapped to the
+first partition. Id. i-fi-137-38, FIG. 4B. "In essence, requests to access the
+partition 402 and the partition 404 are swapped." Id. i-f 38. Finally, in an
+"overriding" mode, requests to a first partition get remapped to a second
+partition, but requests to the second partition are not changed. Id. i-fi-139--40,
+FIG. 4C. Thus, the first partition "becomes inaccessible." Id. ,-r 40.
+According to Bang, "[ w ]hen the computer system is again reinitialized or rebooted (S505), the user inputs a command to select an
+operating system (S506). If the non-default operating system is selected
+
+4
+
+Appeal2015-005014
+Application 13/872,001
+(S507), address remapping is performed by the remapping application 320
+using address swapping or address overriding (S508)." Id. i-f 42, FIG. 5.
+The Examiner finds that in Bang, "override and reboot" will "disable
+access to the partition." Ans. 3 (citing Bang i-fi-139--42, FIG. 5). The
+Examiner further finds that "reboot/re-initialize modifies of [sic] the VBR
+and changes the accessibility of the corresponding partition." Ans. 4.
+However, no citation is provided for this finding.
+Appellant first contends the term "volume boot record of a destination
+volume of a disk" under the broadest reasonable interpretation "requires that
+'the volume boot record' be stored on 'a disk."' App. Br. 6. We are not
+persuaded. For example, a volume boot record storing information about a
+destination volume of a disk could still reasonably be a "volume boot record
+of a destination volume of a disk" despite being stored somewhere other
+than the disk.
+Nevertheless, we agree with Appellant that the Examiner "fails to cite
+any specific portion of Bang that teaches any modification of the VBR
+during reboot/re-initialize." Reply Br. 7. "[R]ejections on obviousness
+grounds cannot be sustained by mere conclusory statements; instead, there
+must be some articulated reasoning with some rational underpinning to
+support the legal conclusion of obviousness." In re Kahn, 441 F.3d 977, 988
+(Fed. Cir. 2006); KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007)
+(quoting Kahn). "When a reference is complex or shows or describes
+inventions other than that claimed by the applicant, the particular part relied
+on must be designated as nearly as practicable." 37 C.F.R. § 1.104(c)(2).
+Here, the Examiner has not sufficiently articulated why the volume
+boot record would be modified upon reboot rather than Appellant's assertion
+5
+
+Appeal2015-005014
+Application 13/872,001
+that "Bang simply redirects requests ... as these requests are in transit to
+the disk" and hence "the remapping application 320 does not modify the
+
+actual disk 301 itself in any way." App. Br. 11.
+Accordingly, we do not sustain the Examiner's rejection of
+independent claims 1, 11, and 18. Dependent claims 2-10, 12-1 7, 19, and
+20 stand with their respective independent claims.
+DECISION
+For the reasons above, we affirm the Examiner's decision rejecting
+claims 1-20 for obviousness-type double patenting over the '574 patent.
+The Examiner's decision rejecting claims 1-9 and 11 for obviousness-type
+double patenting over the '671 application is moot given the terminal
+disclaimer. We reverse the Examiner's decision rejecting claims 1-20 for
+obviousness.
+Since at least one rejection encompassing all claims on appeal is
+affirmed, the decision of the Examiner is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 41.50(±).
+AFFIRMED
+
+6
+
+

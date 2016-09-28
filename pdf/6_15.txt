@@ -1,0 +1,324 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+131719,693
+
+12/19/2012
+
+Florian CONSTANS
+
+SCS-5761-20
+
+3547
+
+23117
+
+7590
+
+09/16/2016
+
+EXAMINER
+
+NIXON & VANDERHYE, PC
+901 NORTH GLEBE ROAD, 11 TH FLOOR
+ARLINGTON, VA 22203
+
+WORDEN, THOMAS E
+
+ART UNIT
+
+PAPER NUMBER
+
+3669
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+PTOMAIL@nixonvan.com
+pair_nixon@firsttofile.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FLORIAN CONSTANS, THIERRY BOURRET, and
+FABIEN PERRIN
+
+Appeal2014-008035
+Application 13/719,693
+Technology Center 3600
+
+Before CHARLES N. GREENHUT, ANNETTE R. REIMERS, and
+JILL D. HILL, Administrative Patent Judges.
+GREENHUT, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1-15. We have jurisdiction under 35 U.S.C. § 6(b ).
+We reverse and enter new ground of rejection.
+
+CLAIMED SUBJECT MATTER
+The claims are directed to a vehicle energy control system. Claim 1,
+reproduced below, is illustrative of the claimed subject matter:
+
+Appeal2014-008035
+Application 13/719,693
+1. A system for controlling energy level of an aircraft, said
+energy comprising the sum of the aircraft kinetic energy and the
+aircraft potential energy, said system comprising:
+a control interface configured to generate at least one first
+control instruction for setting a desired rate of change of the
+energy level of the aircraft, and
+a regulating unit, responsive to receiving said at least one
+first control instruction, and configured to control at least one
+device of the aircraft to change the energy level of the aircraft at
+said desired rate of change of the energy level in accordance with
+said at least one first control instruction,
+wherein the control interface is in at least one of a first
+state and a second state, the first state being an instruction state
+in which the control interface generates said at least one first
+control instruction and the second state being a resting state in
+which said control interface does not generate any instruction,
+wherein the control interface is configured to return to the second
+state after having been brought into the first state.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Melsheimer
+Mohning
+Duggan
+
+US 3,789,661
+US 2009/0198414 Al
+US 2010/0292874 Al
+
+Feb. 5, 1974
+Aug. 6, 2009
+Nov. 18, 2010
+
+REJECTIONS
+Claims 1-10 and 12-15 are rejected under 35 U.S.C. § 103(a) as
+unpatentable over Mohning and Melsheimer.
+Claim 11 is rejected under 35 U.S.C. § 103(a) as unpatentable over
+Mohning, Melsheimer, and Duggan.
+
+2
+
+Appeal2014-008035
+Application 13/719,693
+OPINION
+In rejecting each of claims 1, 14, and 15, the independent
+claims involved in this appeal, the Examiner states:
+Pilots typically adjust engine power levels (thrust) manually in
+order to maintain a desired glide slope; an instrument such as
+applicant's claimed invention simply automates this task within
+a single controller. While useful, this alone is not a patentable
+trait as automating a well-known manual function is considered
+a routine skill in the art. Therefore, it would have been obvious
+to one of ordinary skill in the art, at the time of invention, to
+modify the disclosed control system of Mohning et al. with the
+use of glide angle characteristics of potential and kinetic energy
+as taught by Melsheimer in order to automate the task of
+controlling glide slope, and thus the rate of change of the sum of
+kinetic and potential energy in an aircraft to aid pilots in properly
+and safely navigating their aircraft.
+Final Act. 2-3, 5---6, 6-7.
+"[T]he precise language of 35 U.S.C. § 102 that '(a) person shall be
+entitled to a patent unless,' concerning novelty and unobviousness, clearly
+places a burden of proof on the Patent Office which requires it to produce
+the factual basis for its rejection of an application under sections 102 and
+103." In re Warner 379 F.2d 1011, 1016 (CCPA 1967). With respect to
+core factual findings in a determination of patentability, the PTO "cannot
+simply reach conclusions based on its own understanding or experience or on its assessment of what would be basic knowledge or common sense."
+
+In re Zurko, 258 F.3d 1379, 1386 (Fed. Cir. 2001). Rather, the PTO "must
+point to some concrete evidence in the record in support of these findings."
+
+Id.
+The Examiner does not produce any evidentiary support for the
+findings above regarding what pilots typically do. Rather, the Examiner
+appears to improperly rely on a per se rule in reasoning that automating a
+3
+
+Appeal2014-008035
+Application 13/719,693
+well-known manual function is considered routine. "This method of
+analysis is founded on legal error because it substitutes supposed per se rules
+for the particularized inquiry required by section 103." In re Ochiai, 71 F.3d
+1565, 1571 (Fed. Cir. 1995). Finally, the Examiner appears to attempt to
+distill Appellants' claimed invention down to its gist by characterizing it as
+something that "simply automates this task within a single controller" and
+concluding it would be produced by mere "use of glide angle characteristics
+of potential and kinetic energy." This analysis fails to address the claim
+language. There is no legally recognizable essential gist or heart of the
+invention. W.L. Gore & Assocs., Inc. v. Garlock, Inc., 721F.2d1540, 1548
+(Fed. Cir. 1983), cert. denied, 469 U.S. 851 (1984). All words in a claim
+must be considered in judging the obviousness of the claimed subject matter.
+See In re Wilson, 424 F.2d 1382, 1385 (CCPA 1970).
+
+Accordingly, for the foregoing reasons, we cannot sustain the
+Examiner's rejection on the basis set forth by the Examiner.
+
+New Ground: We reject claims 1, 14, and 15 under 35 U.S. C. § 102(b) as
+anticipated by Mohning, as evidenced by Melsheimer. 1
+
+Mohning discloses "[a] system" 100. Mohning's system 100 can
+control the speed of an aircraft. Mohning para. 2. Speed is scalar magnitude
+of velocity. Melsheimer, provides evidence that the "energy level of an
+aircraft" may be calculated as the "sum of the aircraft kinetic energy and the
+aircraft potential energy," which is expressed by the following equation:
+E = I/2mV2 + mgh
+
+[(1 )]
+
+1
+
+See MPEP § 2131.01 for a discussion of Multiple Reference 35 U.S.C.
+§ 102 rejections.
+
+4
+
+Appeal2014-008035
+Application 13/719,693
+where
+m is the mass of the aircraft
+V is the true velocity of the aircraft
+g is the gravitational constant
+h is the altitude of the aircraft
+Melsheimer col. 1, 11. 63-67. Melsheimer also demonstrates how the "rate
+of change of the energy level of the aircraft" may be determined:
+dE/dt = mVdV/dt + mgdh/dt
+
+[(2)]
+
+Melsheimer col. 2, 1. 3. Equation (2) demonstrates that, for a moving
+aircraft, the "rate of change of the energy level of the aircraft" may be set by
+accelerating or decelerating the aircraft, i.e., providing a non-zero rate of
+change of the velocity of the aircraft (dV/dt), and/or by changing the rate of
+climb or descent of the aircraft (dh/dt).
+In light of the relationship between velocity and the rate of change of
+the energy level of the aircraft, a signal, such as Mohning' s second signal
+(para. 19), that is used for setting a desired speed, and, therefore, changing
+the velocity of, an aircraft, is reasonably interpreted as a "control instruction
+for setting a desired rate of change of the energy level of the aircraft" as
+required by claim 1. Similarly, this makes Mohning's system 100
+reasonably regarded as "for controlling energy level of an aircraft."
+The language of dependent claim 2, "the at least one first control
+instruction corresponds to a variation in thrust of at least one engine of the
+aircraft," further demonstrates the reasonableness of our interpretation of the
+"first control instruction" of claim 1. As the desired speed is a function of
+the second signal in Mohning, a change in that signal, as will be produced by
+joystick 106 displacement (para. 19), is reasonably regarded as a "control
+instruction [that] corresponds to a variation in thrust" according to even
+dependent claim 2.
+5
+
+Appeal2014-008035
+Application 13/719,693
+It is not clear, on the record before us, whether the Examiner
+considered the claims to be more narrowly drawn and addressed the
+patentability of some embodiment disclosed in Appellants' Specification.
+"The invention disclosed in [Appellants'] written description may be
+outstanding in its field, but the name of the game is the claim." In re
+Hiniker Co., 150 F.3d 1362, 1369 (Fed. Cir. 1998). To the extent that there
+
+may be a distinction between a "command for a variation in energy and a
+command for an engine thrust value," (see, e.g., Spec. 12: 1--4) independent
+claims 1, 14, and 15 do not include any language to specifically require one
+or the other. We leave consideration of that matter for the Examiner in any
+further prosecution.
+With the interpretation of the claim language discussed above, the
+remaining claim limitations appear to clearly be met by Mohning' s system.
+Mohning's controller 128, "responsive to receiving" the second signal, is
+"configured to control at least one device of the aircraft," propulsion system
+130, "to change the energy level of the aircraft ... "by altering the velocity,
+as discussed above.
+Paragraph 32 of Mohning (cited at Final Act. 2) may fall short of
+disclosing that which is required to satisfy the "configured to return [to a
+resting state not generating any instruction]" limitation. App. Br. 16.
+However, the Examiner's citation to claim 6 ofMohning (Ans. 4) appears to
+resolve this dispute as, in the Reply Brief, Appellants do not address this
+finding and change the crux of their argument to refocus on the "control
+instruction for setting a desired rate of change of the energy level of the
+aircraft" limitation. See Reply Br. 7. Mohning' s claim 6, read in
+combination with paragraph 19, which describes the signals as generated as
+a result of "displacement from the neutral position" (emphasis added),
+6
+
+Appeal2014-008035
+Application 13/719,693
+demonstrates that Mohning discloses a control interface "configured to
+return to" "a resting state in which said control interface does not generate
+any instruction." The displaced joystick 106 is reasonably regarded as the
+"energy control lever" of claim 15, which otherwise contains similar
+limitations to claim 1.
+Mohning's system, in its normal and usual operation, would perform
+the method of claim 14. Thus, method claim 14 is also considered to be
+unpatentable over Mohning's prior art system. See In re King, 801 F.2d
+1324, 1326-27 (Fed. Cir. 1986).
+For the foregoing reasons, pursuant to our authority under 37 C.F.R.
+§ 41.50(b), we reject claims 1, 14, and 15 under 35 U.S.C. § 102(b) as
+anticipated by Mohning, as evidenced by Melsheimer. We leave the
+patentability of the dependent claims for the Examiner's consideration,
+consistent with this opinion, in any further prosecution.
+
+DECISION
+The Examiner's rejection is reversed.
+We reject claims 1, 14, and 15 under 35 U.S.C. § 102(b) as anticipated
+by Mohning, as evidenced by Melsheimer.
+37 C.F.R. § 41.50(b) provides that Appellants, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new ground of rejection to
+avoid termination of the appeal as to the rejected claims:
+( 1) Reopen prosecution. Submit an appropriate amendment of
+the claims so rejected or new evidence relating to the claims so
+rejected, or both, and have the matter reconsidered by the
+Examiner, in which event the proceeding will be remanded to the
+Examiner. ...
+7
+
+Appeal2014-008035
+Application 13/719,693
+(2) Request rehearing. Request that the proceeding be reheard
+under§ 41.52 by the Board upon the same record ....
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 1.136(a)(l )(iv).
+
+REVERSED
+37 C.F.R. § 41.50(b)
+
+8
+
+

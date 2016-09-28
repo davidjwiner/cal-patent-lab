@@ -1,0 +1,220 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/215,815
+
+08/23/2011
+
+Jingfeng Liu
+
+Ll0-0639US1
+
+2948
+
+57299
+
+7590
+
+09/22/2016
+
+Kathy Manke
+A vago Technologies Limited
+4380 Ziegler Road
+Fort Collins, CO 80525
+
+EXAMINER
+NGUYEN, LINH V
+
+ART UNIT
+
+PAPER NUMBER
+
+2845
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+kathy.manke@broadcom.com
+patent.info@broadcom.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JINGFENG LIU, NAYAK RATNAKAR ARAVIND,
+HONGWEI SONG, and HAOTIAN ZHANG
+
+Appeal2015-004169
+Application 13/215,815
+Technology Center 2800
+
+Before MAHSHID D. SAADAT, JOHNNY A. KUMAR, and
+JON M. JURGOVAN, Administrative Patent Judges.
+JURGOVAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek review under 35 U.S.C. § 134(a) from the Final
+Rejection of claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b ).
+We affirm. 2
+
+1
+
+Appellants identify LSI Corporation as the real party in interest. (Br. 3.)
+Our Decision refers to the Specification filed Aug. 23, 2011 ("Spec."), the
+Final Office Action mailed Apr. 28, 2014 ("Final Act."), the Appeal Brief
+filed Sept. 27, 2014 ("Br."), and the Examiner's Answer mailed Dec. 18,
+2014 ("Ans.").
+2
+
+Appeal2015-004169
+Application 13/215,815
+CLAIMED SUBJECT MATTER
+The claims are directed to an improved read channel that uses an
+oversampled analog to digital conversion. (Spec. 1: 14--15.)
+Claim 1, reproduced below, is illustrative of the claimed subject
+matter:
+1.
+A method for processing a signal m a read channel,
+compnsmg:
+obtaining an analog input signal;
+performing an oversampled analog to digital conversion
+on said analog input signal to generate a plurality of digital
+samples for a given bit interval; and
+applying said plurality of digital samples for a given bit
+interval to a corresponding plurality of data detectors that
+perform a data detection algorithm on the plurality of digital
+samples to obtain a combined detected data output.
+(Br. 15 - Claims App 'x.)
+
+REJECTIONS
+Claims 1-7, 9-17, 19, and 20 stand rejected under 35 U.S.C. § 103(a)
+based on Aziz et al. (US 7 ,411,531 B2; issued Aug. 12, 2008) and Inukai et
+al. (US 2008/0291069 Al; published Nov. 27, 2008). (Final Act. 3-7.)
+Claims 8 and 18 stand rejected under 35 U.S.C. § 103(a) based on
+Aziz, Inukai, and Kikugawa et al. (US 2009/0136219 Al; May 28, 2009).
+(Final Act. 7-8.)
+
+2
+
+Appeal2015-004169
+Application 13/215,815
+
+ANALYSIS
+
+Independent Claims 1, 11, and 20
+Issue 1: Did the Examiner err by finding Aziz teaches a ''plurality of
+data detectors that . .. obtain a combined detected data output"?
+Appellants did not challenge the Examiner's factual findings about
+Inukai, and thus we take those findings as being conceded by Appellants.
+Appellants contend Aziz makes a distinction between data detectors (370)
+and phase detectors (375), thus the Examiner cannot redefine Aziz's phase
+detectors to be the claimed "data detectors." (Br. 10-11.) Appellants further
+argue the output from Aziz's data detectors (370) is not combined, but is
+applied to phase detectors (375) to generate multiple estimates of timing
+error, which are then combined into a single phase adjustment estimate. (Br.
+11-12.) Appellants contend this combined timing estimate, which is
+processed through a loop filter and phase adjustment block, is not a
+"combined detected data output." (Id.)
+Appellants' contentions do not persuade us of Examiner error in the
+rejection. The Examiner finds, and we agree, that the independent claims do
+not require any specific type of data with respect to the data detectors or the
+combined detected data output. (Ans. 4--5.) Under the broadest reasonable
+interpretation consistent with Appellants' disclosure, we agree with the
+Examiner's finding that Aziz's phase detectors (375) perform data detection
+of timing error data to obtain a combined detected data output at filter (380).
+
+(Id. (citing Aziz col. 4:46-51); see In re Am. Acad. of Sci. Tech. Ctr., 367
+
+3
+
+Appeal2015-004169
+Application 13/215,815
+F.3d 1359, 1369 (Fed. Cir. 2004): "[T]he PTO is obligated to give claims
+their broadest reasonable interpretation during examination.") 3
+
+Issue 2: Did the Examiner err by finding Aziz teaches ''perform[ing] a
+data detection algorithm on the plurality of digital samples"?
+
+Appellants contend Aziz does not teach a "data detection algorithm,"
+which is a well-known term of art and can be embodied as a Viterbi
+algorithm. (Br. 12-13.) Appellants argue that Aziz's phase detectors
+process binary data, which is no longer a digital sample, thus any processing
+done by the phase detectors is not done on digital samples as required by the
+claims. (Id.)
+We are unpersuaded of Examiner error in the rejection. Appellants'
+contention that Aziz does not teach a Viterbi algorithm is not commensurate
+with the scope of the claims, which do not require any specific data
+detection algorithm. See In re Self, 671F.2d1344, 1348 (CCPA 1982)
+(stating that limitations not appearing in the claims cannot be relied upon for
+patentability). As attorney argument alone is not evidence, Appellants have
+offered no persuasive evidence that "data detection algorithm" has a specific
+meaning in the art. See In re Geisler, 116 F.3d 1465, 1470 (Fed. Cir. 1997);
+In re Pearson, 494 F.2d 1399, 1405 (CCPA 1974). Therefore, we agree
+
+with the Examiner's finding that Aziz teaches the phase detectors (i.e., data
+detectors as discussed supra) performing a timing estimate data algorithm on
+
+3
+
+We note the independent claims do not specify when or how the detected
+data is combined. Thus, Aziz's data detectors (370), which have a detected
+data output that is combined after the phase detection step, also read on the
+claimed "data detectors."
+4
+
+Appeal2015-004169
+Application 13/215,815
+
+the binary data, which a skilled artisan would recognize as digital data (i.e.,
+0 or 1). (Ans. 5---6 (citing Aziz col. 6: 18-22 and col. 6:50 - col. 7: 10).)
+Accordingly, we sustain the Examiner's rejection of independent
+claims 1, 11, and 20 under 35 U.S.C. § 103(a) based on Aziz and Inukai.
+
+Remaining Claims
+No separate arguments are presented for remaining dependent claims
+2-10 and 12-19. (See Br. 13-14.) Thus, for reasons stated with respect to
+independent claims 1 and 11, we sustain the Examiner's rejection of the
+dependent claims under 35 U.S.C. § 103(a). See 37 C.F.R. § 41.37(c)(l)(iv);
+In re King, 801 F.2d 1324, 1325 (Fed. Cir. 1986); In re Sernaker, 702 F.2d
+989, 991 (Fed. Cir. 1983).
+
+DECISION
+We affirm the Examiner;s decision to reject claims 1-'20 under
+35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

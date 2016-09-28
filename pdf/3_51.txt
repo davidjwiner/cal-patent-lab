@@ -1,0 +1,271 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111991,549
+
+01115/2009
+
+Eric S Deuel
+
+108918-0401
+
+7991
+
+22428
+
+7590
+
+09/21/2016
+
+Foley & Lardner LLP
+3000 K STREET N.W.
+SUITE 600
+WASHINGTON, DC 20007-5109
+
+EXAMINER
+LANGHNOJA, KUNAL N
+
+ART UNIT
+
+PAPER NUMBER
+
+2427
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/2112016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocketing@foley.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ERIC S. DEUEL, PETER W. MOKRIS, STEVE SCHULTZ,
+LANCE E. TINDER, DOUGLAS W. KLAMER, LOREN D.
+VREDEVOOGD, and DAVID STRAIGHT
+
+Appeal2013-006071
+Application 11/991,549
+Technology Center 2600
+
+Before ROBERT E. NAPPI, DAVID M. KOHUT and
+STEVEN M. AMUNDSON Administrative Patent Judges.
+NAPPI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+This is a decision on appeal under 35 U.S.C. § 134(a) of the
+Examiner's Final Rejection of claims 1 through 4 and 6 through 26, which
+constitute all the claims pending in this application. We have jurisdiction
+under 35 U.S.C. § 6(b).
+We affirm.
+
+Appeal2013-006071
+Application 11/991,549
+
+Il'.JVENTI ON
+The invention is directed to a vehicle entertainment system where
+there are displays in the rear of the vehicle and the front of the vehicle. The
+display in the front of the vehicle displays still video or reduced frame video
+of the in information displayed on the display in the rear of the vehicle. See
+Abstract of Appellants' Specification.
+CLAIMED SUBJECT MATTER
+Claim 1 is illustrative of the invention and reproduced below:
+1.
+
+A vehicle entertainment system, comprising:
+
+a media player configured to read data from a medium,
+the data comprising full motion video signals;
+a first display configured to display video to a rear
+section of the vehicle;
+a first control circuit coupled to the media player
+comprising a decoder module configured to decode data
+received from the media player, to transmit the full motion
+video signals to the first display, and to transmit restricted
+frame rate video signals based on the full motion video signals;
+a second display configured to display video to a front
+section of the vehicle; and
+a second control circuit coupled to the second display and
+configured to receive the restricted frame rate video signals
+from the first control circuit, wherein the second control circuit
+is configured to provide the restricted frame rate video signals
+to the second display such that full motion video is shown on
+the first display to the rear section of the vehicle and only
+restricted frame rate video, including the restricted frame rate
+video from the first control circuit, is shown on the second
+display to the front section of the vehicle; and
+wherein the second control circuit prevents the second
+display from playing any full motion video.
+
+2
+
+Appeal2013-006071
+Application 11/991,549
+REFERENCES AND REJECTIONS AT ISSUE
+The Examiner rejected claims 1through4, 6 through 10, 13 through
+21, and 24 through 26 under 35 U.S.C. § 103(a) as being unpatentable over
+Tranchina (US 2005/0005298 Al; Jan. 6, 2005) and Karaoguz (US
+2005/0235312 Al;Oct. 20, 2005). Final Act. 5-11. 1
+The Examiner rejected claims 11, 12, 22, and 23 under 35 U.S.C. §
+103(a) as being unpatentable over Tranchina, Karaoguz and Nelson (US
+2005/057322 A2; June 23, 2005). Final Act. 12-14.
+ISSUES
+Appellants argue, on pages 7 through 13 of the Appeal Brief and
+pages 3 through 6 of the Reply Brief, that the Examiner's rejection of
+independent claim 1 is in error. These arguments present us with the
+following issues:
+1) Did the Examiner err in considering Karaoguz as analogous art?
+2) Did the Examiner err in finding that Karaoguz teaches the second
+control circuit to receive a restricted frame rate video and that it
+prevents the second display from playing any full motion video?
+3) Did the Examiner err in concluding the skilled artisan would
+combine the teachings of Tranchina and Karaoguz?
+Appellants' arguments with respect to independent claims 14 and 24,
+present us with the same three issues as presented with respect to claim 1.
+
+1
+
+Throughout this Opinion we refer to the Appeal Brief dated November 13,
+2012, Reply Brief dated March 29, 2013, Final Office Action mailed March
+16, 2012, and the Examiner's Answer mailed on January 29, 2013.
+3
+
+Appeal2013-006071
+Application 11/991,549
+
+With respect to claim 8, Appellants' arguments on pages 14 and 15 of
+the Appeal Brief and pages 6 and 7 of the Reply Brief present us with the
+additional issue:
+4) Did the Examiner err in finding the combination of Tranchina and
+Karaoguz teaches identifying menu data, generating textual menu
+data based on menu data and providing the textual menu data to the
+second display as recited in claim 8?
+
+ANALYSIS
+We have reviewed Appellants' arguments in the Brief, the Examiner's
+rejections and the Examiner's response to the Appellants' arguments.
+Appellants' arguments have not persuaded us of error in the Examiner's
+rejections of claims 1 through 4 and 6 through 26.
+Independent Ciaims 1, 14, and 24.
+With respect to the first issue, the Examiner provides a comprehensive
+response to Appellants' arguments and finds that Karaoguz is analogous art
+as it is in the same field of endeavor and reasonably pertinent to the
+particular problem which the inventor is involved. Answer 7-9.
+Specifically, the Examiner finds that Appellants' invention encompasses
+viewing television signals and Karaoguz is directed to television and other
+video systems. Answer 8. We concur with the Examiner and note
+Karaoguz's teaching is broader than just television, see paragraph 20 stating
+that the invention is not limited to use on a television. Further, the Examiner
+finds that Karaoguz is reasonably pertinent to the Appellants' invention as
+Karaoguz's device allows users to preview video on other displays. Answer
+4
+
+Appeal2013-006071
+Application 11/991,549
+9. \Ve concur and also note that Karaoguz's teaching of using the system to
+review what is being displayed on other televisions throughout the house is
+pertinent to Appellants' stated purposes of allowing a parent to be aware of
+what a child is viewing (Karaoguz para. 39 and Appellants' Spec. p. 4).
+Thus, Appellants' arguments directed to the first issue have not persuaded us
+of error in the Examiner's rejection.
+With respect to the second issue, the Examiner finds that Karaoguz
+teaches when a laptop is used to glimpse at what is on television the laptop
+receives slow motion video or refreshed snapshots, restricted frame video,
+and is prevented from playing full motion video. Answer 11, citing para. 36
+of Karaoguz. We concur with the Examiner. By teaching that refreshed
+snapshots (a reduced frame rate video signal) are sent to the laptop computer
+the laptop is prevented from displaying full motion video. Further, as
+identified by the Examiner, Appellants' statement that Karaoguz would
+strive to achieve full video if bandwidth is available, is unsupported by
+evidence. Karaoguz teaches the decision as to the video rate used is based
+upon the device or user preferences, and Karaoguz makes no mention of
+bandwidth. As such, if the device or user preferences dictate a reduced
+frame rate, use of a higher frame rate is prevented. Thus, Appellants'
+arguments directed to the second issue have not persuaded us of error in the
+Examiner's rejection.
+With respect to the third issue the Examiner provides a reasoned
+rationale finding that Tranchina teaches a vehicle console capable of
+wireless reception of audio/video and that Karaoguz teaches a system which
+allows a user to glimpse at what is on a separate television by receiving slow
+motion video or snapshots. Answer 12-13. The Examiner concludes that
+
+5
+
+Appeal2013-006071
+Application 11/991,549
+this combination allows one user on one device to monitor what is being
+displayed on the other device. Answer 13. We consider this to be a
+reasonable rationale as it is demonstrating that the combination is merely the
+use of known techniques to perform their known function. As such,
+Appellants' arguments directed to the third issue have not persuaded us of
+error in the Examiner's rejection. As these three issues are the only issues
+presented with respect to the rejection of claims 1, 14, and 24, we sustain the
+Examiner's rejection of these claims.
+Dependent Claim 8
+With respect to the fourth issue, the Examiner responds by finding
+that both Tranchina and Karaoguz teach generating and displaying menu
+data to the user. Answer 14--15. We concur with the Examiner. We further
+note that while the portions of Tranchina and Karaoguz cited by the
+Examiner do not explicitly state generating the textual menu from decoded
+menu data we consider this limitation to be implied by each of the
+references' teachings. For example, Tranchina teaches that the display can
+be generated from a DVD or a web page, each of which are known to
+include menu data that is decoded and displayed (see, Tranchina, para. 49
+(DVD) and 54 (web pages) and Appellants' Specification para. 4 (stating
+DVDs have menus that are graphically displayed)). Accordingly,
+Appellants' arguments directed to claim 8 have not persuaded us of error in
+the Examiner's rejection, and we sustain the Examiner's rejection of claim 8.
+Dependent Claims 2 through 4, and 6, 7,
+9 through 13, 15 through 23, 25, and 26
+Appellants have not presented separate arguments directed to
+dependent claims 2 through 4, and 6, 7, 9 through 13, 15 through 23, 25, and
+
+6
+
+Appeal2013-006071
+Application 11/991,549
+26. Accordingly, we sustain the Examiner's rejection of these claims for the
+same reasons as discussed with respect to claim 1.
+
+DECISION
+We sustain the Examiner's rejections of claims 1 through 4 and 6
+through 26 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+7
+
+

@@ -1,0 +1,241 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/062,595
+
+03/07/2011
+
+Helmut Steininger
+
+074008-1616-US (286560)
+
+5770
+
+123223
+
+7590
+
+09/15/2016
+
+EXAMINER
+
+Drinker Biddle & Reath LLP (WM)
+222 Delaware Avenue, Ste. 1410
+Wilmington, DE 19801-1621
+
+BELL, WILLIAM P
+
+ART UNIT
+
+PAPER NUMBER
+
+1745
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/15/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPDocketWM@dbr.com
+penelope.mongelluzzo@dbr.com
+DBRIPDocket@dbr.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HELMUT STEININGER, CECILE GIBON,
+MARTIN WEBER, THOMAS BREINER,
+WALTER HECKMANN, and HANS-HELMUT GOERTZ 1
+
+Appeal2015-003289
+Application 13/062,595
+Technology Center 1700
+
+Before CATHERINE Q. TIMM, N. WHITNEY WILSON, and
+JEFFREY R. SNAY, Administrative Patent Judges.
+TIMM, Administrative Patent Judge.
+DECISION ON APPEAL 2
+
+1
+
+Appellants identify the real party in interest as BASF SE. Appeal Br. 2.
+In our opinion below, we reference the Specification filed March 7, 2011
+(Spec.), Final Office Action mailed April 2, 2014 (Final), the Advisory
+Action mailed July 10, 2014, the Appeal Brief filed August 26, 2014
+(Appeal Br.), the Examiner's Answer mailed November 10, 2014 (Ans.),
+and the Reply Brief filed January 7, 2015 (Reply Br.).
+
+2
+
+Appeal2015-003289
+Application 13/062,595
+STATEMENT OF CASE
+Appellants appeal under 35 U.S.C. § 134(a) the Examiner's decision
+to reject claims 13, and 15-22 under 35 U.S.C. § 103(a) as obvious over
+Kanda3 in view of Akkapeddi, 4 Yoon, 5 and Rodriguez. 6 We have
+jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+The claims are directed to a process for the production of sheet-like
+moldings with anisotropic coefficients of thermal expansion. See, e.g., claim
+13. The process involves incorporating phyllosilicates into a thermoplastic
+molding composition and subjecting the resulting composition to extrusionblowing followed by stacking and hot-laminating the extrusion-blown foils
+together, and molding the resulting laminate by impact extrusion processes
+or thermoforming. Id.
+According to Appellants' Specification, it was known in the art to use
+lamellar inorganic fillers, such as phyllosilicates, in polymer molding
+compositions. Spec. 1:29-30. It was further known, as discussed in Yoon,
+that phyllosilicate-filled nylon-6 leads to moldings with coefficients of
+thermal expansion that are different in all three spatial directions due to
+orientation of the delaminated phyllosilicates. Spec. 2:4-9. However, the
+orientation produced in the prior art process, which according to Yoon is an
+injection molding process, does not produce an adequately reduced
+3
+
+Kanda et al., US 2008/0069994 Al, pub. Mar. 20, 2008.
+Akkapeddi et al., US 2005/0009976 Al, pub. Jan. 13, 2005.
+5
+Yoon et al., Thermal expansion behavior of nylon 6 nanocomposites,
+Polymer 43 6727---6741 (2002).
+6
+Rodriguez, Principles of Polymer Systems, 2nd ed. 333-336 (1982). The
+Examiner introduced Rodriguez in the Advisory Action mailed July 10,
+2014.
+4
+
+2
+
+Appeal2015-003289
+Application 13/062,595
+coefficient of thermal expansion in two spatial directions when the injection
+molded products have less than 1 mm wall thickness. Spec. 2: 11-16.
+Appellants solve this problem by using an extrusion and orientation process
+to orient the phyllosilicate filler.
+Appellants' claimed process involves extruding a thermoplastic
+polymer molding composition filled with lamellar phyllosilicates of a
+particular diameter and aspect ratio through an annular die, and orienting the
+resulting extrudate by blowing to form oriented sheet-like moldings or foils.
+Claim 13. The extrusion-blowing process orients the phyllosilicates within
+the extrudate, which results in a small in-plane coefficient of thermal
+expansion, but a high coefficient of thermal expansion perpendicular to the
+plane of the major surface. Spec. 2:36-3:2. The resulting sheet-like
+moldings or foils are thin. Appellants thus stack and hot-laminate the sheetlike moldings or foils to increase layer thickness. Claim 13; see also Spec.
+3:29-31; 7:32-37; 9:5-9. To produce the molded product, Appellants then
+use impact extrusion processes or thermoforming. These molded products
+are particularly useful in automobile parts such as exterior bodywork, wheel
+surrounds, engine hoods, doors, tailgates, and interior fittings. Spec. 4:6-10.
+Claim 13 is the only independent claim. We reproduce this claim
+from Appellants' Appendix A, with the limitation particularly at issue
+highlighted, below:
+13. A process for the production of sheet-like moldings
+with anisotropic coefficients of thermal expansion, composed
+of extrudable thermoplastic polymer molding compositions, the
+process compnsmg:
+filling the thermoplastic polymer molding compositions
+with lamellar phyllosilicates whose diameter is in the range
+
+3
+
+Appeal2015-003289
+Application 13/062,595
+from 10 to 1000 nm and whose aspect ratio is in the range from
+1:5 to 1: 10 000,
+extruding the filled thermoplastic polymer molding
+compositions, and then
+monoaxially or biaxially orienting the extrudate to give
+sheet-like moldings or foils with anisotropic coefficients of
+thermal expansion,
+
+wherein the extruded and oriented moldings or foils are
+stacked and hot-laminated, in order to increase layer thickness,
+whereby the dispersion or the orientation of the filler is
+not adversely affected, and whereby either the dispersion or the
+orientation of the filler is not adversely affected in that a high
+level of orientation of the phyllosilicates is achieved resulting in
+a small coefficient of thermal expansion in the plane of the
+major surface, in the range from 36*I0- 6 K- 1 to 134*10_6 K- 1,
+whereas perpendicular to the major surface the coefficient of
+thermal expansion is high and in the range from 85* 1o- 6 K- 1 to
+308*I0- 6 K- 1 and
+whereby producing the moldings is carried out via impact
+extrusion processes or via thermoforming,
+wherein the extruding takes place from an annular die
+with subsequent orientation, via blowing.
+Appeal Br. 10 (formatting added).
+
+OPINION
+The Examiner finds Kanda teaches filling a thermoplastic polymer
+with lamellar phyllosilicates, extruding and orienting. Final 3. The
+Examiner then finds that
+the extruded and oriented moldings or foils are stacked and hotlaminated in order to increase layer thickness (see [0043], wherein the
+formation of a laminate comprising multiple layers of the filled
+4
+
+Appeal2015-003289
+Application 13/062,595
+thermoplastic is taught; see [0046], wherein coextrusion, which
+comprises stacking and hot-laminating the layers, is taught as the
+method of forming the multilayer structure).
+Id. (emphasis added).
+The Examiner is equating coextrusion with stacking and hotlaminating. There is no basis for this finding.
+Hot-laminating, as evidenced by Appellants' Specification, involves
+applying heat and pressure to already-formed sheets, foils, or films. See,
+e.g., Spec. 9:5-9. Such hot-laminating occurs only after the molding
+
+compositions have been extruded and oriented to form the sheet-like
+molding. Coextrusion forms layers during the extrusion process, it is not a
+process of stacking and hot-laminating. That coextrusion is a different
+process than stacking and hot-laminating is evidenced by Appellants'
+Specification, which discusses coextrusion as an alternative to lamination.
+See, e.g., Spec. 3:31-33 ("The lamination process can be omitted if the
+
+molten sublayers produced in a coextrusion process are mutually
+superposed."); Spec. 7:32-34 ("individual foil sublayers in stacks were hotlaminated or produced by a coextrusion process." (Emphasis added)).
+Because the Examiner did not provide adequate support for the
+finding that Kanda teaches stacking and hot-laminating as required by claim
+13, we agree with Appellants that the Examiner reversibly erred. Appeal Br.
+6-7; Reply Br. 1-5.
+
+CONCLUSION
+We do not sustain the Examiner's rejection.
+
+5
+
+Appeal2015-003289
+Application 13/062,595
+
+DECISION
+The Examiner's decision is reversed.
+
+REVERSED
+
+6
+
+

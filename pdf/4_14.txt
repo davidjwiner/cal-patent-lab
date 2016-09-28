@@ -1,0 +1,360 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/632,935
+
+12/08/2009
+
+Carlos E. Martins
+
+2540-1202
+
+4787
+
+42624
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+DAVIDSON BERQUIST JACKSON & GOWDEY LLP
+8300 Greensboro Dr, Suite 500
+McLean, VA 22102
+
+BAUER, SCOTT ALLEN
+
+ART UNIT
+
+PAPER NUMBER
+
+2836
+
+MAILDATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CARLOS E. MARTINS 1
+
+Appeal2015-001351
+Application 12/632,935
+Technology Center 2800
+
+Before MARK NAGUMO, WESLEY B. DERRICK, and
+CHRISTOPHER L. OGDEN, Administrative Patent Judges.
+DERRICK, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on an appeal under 35 U.S.C. § 134 from the
+Examiner's maintained rejection of claims 1-13. We have jurisdiction
+pursuant to 35 U.S.C. § 6.
+We AFFIRM.
+BACKGROUND
+Appellant's claimed invention relates to a "power distribution unit
+that switches off power outlets in the event of an overcurrent condition by
+using circuitry that measures how long input current has exceeded a
+
+1
+
+Appellant identifies Avocent Corporation as the real party in interest.
+Appeal Br. 1.
+
+Appeal2015-001351
+Application 12/632,935
+threshold and sending a reset signal to the power outlets when input current
+has exceeded the threshold for a predetermined time duration." Spec.
+Abstract. Independent claims 1 and 9 are directed to power distribution
+units. Independent claim 6 is directed to a method using a power
+distribution unit.
+Independent claims 1 and 9 are illustrative:
+1.
+
+A power distribution unit comprising:
+a plurality of switched power outlets adapted to provide
+power to external devices wherein the switched power outlets
+are adapted to be controlled by a control signal to open power
+to the external devices at the switched power outlets;
+a sensor that measures the magnitude of the current of
+power being drawn by the power distribution unit;
+a comparator that determines if the magnitude of the
+current exceeds a predetermined threshold;
+time qualification circuitry that determines if the
+magnitude of the current exceeds the predetermined threshold
+for a predetermined time duration;
+a control bus communicating with the plurality of
+switched power outlets to provide to selected ones of the
+plurality of switched power outlets to open power to the
+corresponding external devices at the selected switched power
+outlets; and
+control circuitry that sends a control signal to said
+switched power outlets to command selected ones of the
+switched power outlets to open power to the corresponding
+external devices when the magnitude of the current exceeds a
+predetermined threshold for a predetermined time duration.
+9.
+
+A power distribution unit comprising:
+a plurality of switched power outlets adapted to provide
+power to external devices wherein the switched power outlets
+are adapted to be controlled by a control signal to open power
+to the external devices at the switched power outlets;
+
+2
+
+Appeal2015-001351
+Application 12/632,935
+sensor circuitry that measures the magnitude of the
+current of power being drawn by each of said plurality of
+switched power outlets;
+comparator circuitry that determines for each of said
+plurality of switched power outlets if the magnitude of the
+current exceeds a predetermined threshold;
+time qualification circuitry that determines for each of
+said plurality of switched power outlets if the magnitude of the
+current exceeds the predetermined threshold for a
+predetermined time duration;
+a control bus communicating with the plurality of
+switched power outlets to provide to selected ones of the
+plurality of switched power outlets the control signal to open
+power to the corresponding external devices at the selected
+switched power outlets; and
+control circuitry that sends a control signal to the selected
+ones of said plurality of switched power outlets if the
+magnitude of the current of the switched power outlet exceeds a
+predetermined threshold for a predetermined time duration.
+Appeal Br. (Claims Appendix) 13, 15.
+THE REJECTIONS
+The claims stand rejected under 35 U.S.C. § 103(a) as follows:
+I.
+
+Claims 1-3 over Sullivan2 in view of Covi; 3
+
+II.
+
+Claims 4-8 over Sullivan in view of Covi and Smith; 4
+
+III.
+
+Claims 9-11 over Shaya5 in view of Covi; and
+
+IV.
+
+Claims 12 and 13 over Shaya in view of Covi and Smith.
+
+2
+
+Sullivan, II et al., US 4,324,987, issued April 13, 1982.
+Covi et al., US 2002/0118500 Al, published August 29, 2002.
+4
+Smith et al., US 2004/0059903 Al, published March 25, 2004.
+5
+Shaya et al., US 2006/0238938 Al, published October 26, 2006.
+3
+
+3
+
+Appeal2015-001351
+Application 12/632,935
+DISCUSSION 6
+Upon consideration of the record, we do not find Appellant's
+arguments persuasive of reversible error in the Examiner's decision rejecting
+the claims. We add the following.
+Appellant relies on argument grounded on the meaning of "power
+distribution unit"-recited in the preamble of each independent claim, i.e.,
+claims 1, 6, and 9-for all claims and proffers further argument as to
+independent claim 9 rejected over Shaya in view of Covi.
+Appellant's argument as to all claims is that the Examiner erred in
+giving the term "power distribution unit" an overly broad meaning. See
+generally Appeal Br.; Reply Br. In particular, Appellant argues that "none
+
+of the cited references disclose a 'power distribution unit' as recited, for
+example, in claim l ." Appeal Br. 6. Addressing Sullivan and Covi that the
+Examiner relied on in rejecting claim 1, Appellant contends that neither
+"include[s] the words 'power distribution unit' or 'PDU"' (Appeal Br. 6-7),
+that Sullivan merely "describes a residential energy management system for
+power for an entire residence" (Appeal Br. 6-7, citing Sullivan col. 1, 11. 1925, col. 2, 11. 62-63), and that Covi merely describes a solid state circuit
+breaker in which outlets are not controlled, but "instead the whole load is
+shut down" (Appeal Br. 7, citing Covi Fig. 3, ,-i,-i 11, 20).
+Appellant contends that "power distribution unit" is a "known term of
+art" and that the Specification, particularly the second sentence of the second
+paragraph, clearly indicates its meaning. Appeal Br. 8-9 (citing Spec. 2-5,
+
+6
+
+We refer to the Final Office Action mailed May 22, 2013, the Appeal Brief
+filed June 18, 2014, the Examiner's Answer mailed September 3, 2014, and
+the Reply Brief filed November 3, 2014.
+4
+
+Appeal2015-001351
+Application 12/632,935
+Fig. 6). Appellant further contends that the relevant art, the context in which
+the meaning of the term "power distribution unit" must be drawn, is that
+relating to the "typical use" of "powering a plurality of back racked servers."
+Appeal Br. 8-9 (quoting Spec. ii 2); see also Reply Br. 1--4.
+We begin our analysis by determining the meaning of the claims,
+giving terms the broadest reasonable interpretation consistent with the
+Specification as it would be interpreted by one of ordinary skill in the art.
+See, e.g., In re Suitco Surface, Inc., 603 F.3d 1255, 1259-60 (Fed. Cir.
+
+2010); In re Morris, 127 F.3d 1048, 1054-55 (Fed. Cir. 1997); see also In re
+ICON Health & Fitness, Inc., 496 F.3d 1374, 1379 (Fed. Cir. 2007) ("[A]s
+
+applicants may amend claims to narrow their scope, a broad construction
+during prosecution creates no unfairness to the applicant or patentee.").
+Looking to the Specification, we discern no particular definition, but
+rather an explanation that "[p ]ower distribution units provide a way to
+distribute power from a single input source to a plurality of power outlets"
+and that "[a] typical use ... is powering a plurality of back racked servers
+through a single connection to a building's wiring system." Spec. ii 2.
+Further disclosure, including that in paragraphs 2-5 and Figure 6, fails to
+provide any definition to limit the meaning more narrowly than "[units] to
+distribute power from a single input source to a plurality of power outlets."
+As the recited use of "powering a plurality of back racked servers" is merely
+"[a] typical use of a power distribution unit" (Spec. ii 2), it is insufficient to
+limit the meaning of "power distribution unit" to those powering, or capable
+of powering, a plurality of servers. See, e.g., Superguide Corp. v. DirecTV
+Enterprises, Inc., 358 F.3d 870, 875 (Fed. Cir. 2004) ("[A] particular
+
+5
+
+Appeal2015-001351
+Application 12/632,935
+embodiment appearing in the written description may not be read into a
+claim when the claim language is broader than the embodiment.").
+As to "power distribution unit" being a known term of art, the issue is
+both whether it is a known term of art and what meaning, if any, it takes in
+the claim. Having carefully considered the Specification, including
+paragraphs 2-5 and Figure 6, we find nothing that expressly limits the
+"power distribution unit" to a unit supplying power to servers or to any other
+particular type of device. Nor does Appellant direct us to any such
+language, only arguing that the recited "typical use" indicates "that the
+known term of art is being referred to." Appeal Br. 8-9 (citing Spec. iJ 2);
+
+see also Reply Br. 1-4. The Examiner, however, has explained that usage of
+the phrase "power distribution unit" is not so limited where it is, for
+example, used to describe a unit distributing power to various outlets in a
+home. Final Act. 10 (citing Domigan, 7 col. 7, 11. 47-50); see also Ans. 6. 8
+The Examiner further explains that while "the term 'power distribution unit'
+is used in the server environment as a rack mounted device that supplies
+power to a rack of servers," the term is not limited to that meaning. Final
+Act. 10; see also Ans. 6.
+In effect, the phrase "power distribution unit" has a narrower "known
+term of art" meaning in the context of a server environment and a broader
+
+7
+
+US 5,675,194 (cited by way of example).
+Appellant addresses the Examiner's citation to Domigan in the Reply
+Brief, noting that it "does not change the ordinary and customary meaning of
+a term of art to those of ordinary skill in the relevant art." Reply Br. 4.
+Appellant's argument is, however, untimely as the Examiner relied on
+Domigan for this position no later than the Final Office Action and
+Appellant has not shown good cause why the argument was not raised in the
+Appeal Brief. See, e.g., 37 C.F.R. § 41.4l(b)(2) (2012).
+8
+
+6
+
+Appeal2015-001351
+Application 12/632,935
+meaning outside of that context that encompasses the narrower. The
+question then is whether one of ordinary skill in the art would interpret the
+claims to be limited to a server environment, which we answer in the
+negative on this record. Cf In re Self, 671F.2d1344, 1348 (CCPA 1982) (It
+is well established that limitations not appearing in the claims cannot be
+relied upon for patentability.). It follows that the proper interpretation of the
+phrase "power distribution unit" is, as stated in the Specification, and wholly
+consistent with the Specification, a unit that "distribute[ s] power from a
+single source to a plurality of power outlets." Spec. iJ 2.
+Turning to Appellant's arguments that neither Sullivan nor Covi
+discloses a "power distribution unit" (Appeal Br. 6-7, 9-10), we find them
+without merit given the proper interpretation of the phrase "power
+distribution unit" for the reasons set forth by the Examiner (Final Act. 2--4,
+9-11; Ans. 3-6).
+Appellant's argument as to claim 9 rejected over Shaya in view of
+Covi is that neither reference teaches or suggests sending a control signal to
+selected outlets based on exceeding time duration. Appeal Br. 10-11. The
+argument focuses on the absence of individual switch power outlets in Covi
+where it directs the artisan to shut down an entire system when over-current
+conditions are met. Appeal Br. 11. Appellant contends the Examiner's
+"inference[] ... [that] 'one would use the timer qualification for each
+circuit. .. ' (emphasis added)" is not actually disclosed or suggested in either
+reference. Reply Br. 4.
+We find Appellant's argument unpersuasive of reversible error
+because it fails to address squarely the relied on teachings and reasoning as
+set forth by the Examiner (Final Act. 7-8; Ans. 6-7) in which Covi is relied
+
+7
+
+Appeal2015-001351
+Application 12/632,935
+on for teaching the use of a control signal when the magnitude of current
+exceeds a predetermined threshold for a predetermined time duration (Final
+Act. 8; Ans. 7) and Shaya for its teaching of, inter alia, monitoring and
+controlling current of switched power outlets individually (Final Act. 7; Ans.
+7). As explained by the Examiner, Appellant's argument fails to address
+"what one of ordinary skill would have learned from the combination of the
+two references." Ans. 7. The argument is not, therefore, persuasive of error.
+
+See KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007) (an obviousness
+analysis "need not seek out precise teachings directed to the specific subject
+matter of the challenged claim, for [an examiner] can take account of the
+inferences and creative steps that a person of ordinary skill in the art would
+employ."); In re Preda, 401F.2d825, 826 (CCPA 1968) ("[I]t is proper to
+take into account not only specific teachings of the reference but also the
+inferences which one skilled in the art would reasonably be expected to draw
+therefrom."); see also In re Keller, 642 F.2d 413, 425 (CCPA 1981) ("The
+test for obviousness is not whether the features of a secondary reference may
+be bodily incorporated into the structure of a primary reference .... Rather,
+the test is what the combined teachings of those references would have
+suggested to those of ordinary skill in the art.").
+On this record, we are unpersuaded of reversible error in the
+Examiner's decision. Accordingly, we affirm the Examiner's rejection of
+claims 1-13.
+
+8
+
+Appeal2015-001351
+Application 12/632,935
+CONCLUSION
+The Examiner's rejections of claims 1-13 are AFFIRMED.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 3 7 C.F .R. § 1.13 6( a)(1 ).
+AFFIRMED
+
+9
+
+

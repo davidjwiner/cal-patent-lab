@@ -1,0 +1,223 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/308,340
+
+04/12/2010
+
+Dirk Otte
+
+BOSC.P5673US/l 1602894
+
+5840
+
+24972
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+NORTON ROSE FULBRIGHT US LLP
+1301 Avenue of the Americas
+NEW YORK, NY 10019-6022
+
+YANG, JAMES J
+
+ART UNIT
+
+PAPER NUMBER
+
+2683
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+nyipdocket@nortonrosefulbright.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte DIRK OTTE
+
+Appeal2015-006833
+Application 12/308,340
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, JOHN P. PINKERTON, and
+GARTH D. BAER, Administrative Patent Judges.
+PINKERTON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant 1 appeals under 35 U.S.C. § 134(a) from the Examiner's
+final rejection of claims 6-16, which constitute all the claims pending in this
+application. Claims 1-5 have been cancelled. We have jurisdiction under
+35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+The real party in interest identified by Appellant is the assignee, Robert
+Bosch GmbH. Appeal Br. 1.
+
+Appeal2015-006833
+Application 12/308,340
+STATEMENT OF THE CASE
+
+Introduction
+Appellant's described and claimed invention relates generally to a
+driver information system. Abstract.
+Claim 6 is representative and reads as follows (with the disputed
+limitation emphasized):
+6.
+A method for operating a driver information system
+having a display screen, comprising:
+providing a data-carrier holding device; and
+providing a computer-readable data carrier adapted to be
+held in the data-carrier holding device;
+wherein:
+
+the computer-readable data carrier associates
+each of at least one single stored map datum with a
+respective plurality ofplanar tiles formed by a
+subdivision of a region; and
+the association at least one of:
+provides for duplicative display of the map
+datum at each of a plurality of sections of the
+display screen of the driver information system,
+each section corresponding to a respective one of
+the tiles with which the stored map datum has been
+associated; and
+is implemented by storing multiple
+associations in the computer-readable data carrier,
+each of the stored associations associating the
+single stored map datum with a respective one of
+the plurality of planar tiles.
+Appeal Br. 6 (Claims App'x).
+
+2
+
+Appeal2015-006833
+Application 12/308,340
+
+Rejection on Appeal
+Claims 6-16 stand rejected under 35 U.S.C. § 102(a) as being
+anticipated by Ashby et al. (US 6,081,803; issued June 27, 2000) ("Ashby").
+
+Issue on Appeal
+Appellant's arguments in the Appeal Brief2 and Reply Brief present us
+with the following issue: does Ashby teach "the computer-readable data
+carrier associates each of at least one single stored map datum with a
+respective plurality of planar tiles formed by a subdivision of a region," as
+recited in claims 6 and 8, and similarly recited in claim 9?
+
+ANALYSIS
+We are not persuaded by Appellant's arguments that the Examiner has
+erred. Appeal Br. 3--4; Reply Br. 1-3. Unless otherwise indicated, we agree
+with, and adopt as our own, the Examiner's findings and reasons as set forth
+in the Final Action from which this appeal is taken (Final Act. 2-9) and the
+Examiner's Answer (Ans. 2-3). For emphasis, we highlight specific
+arguments and findings as follows.
+Appellant argues claims 6, 8, and 9 each recite that a computerreadable data carrier associates each of at least one single stored map datum
+with a respective plurality of planar tiles formed by a subdivision of a
+region, and thus, the claims require at least one stored map datum, and
+
+2
+
+Our Decision refers to the Final Office Action (mailed Dec. 17, 2014,
+"Final Act."), Appellant's Appeal Brief (filed Mar. 23, 2015, "Appeal Br.")
+and Reply Brief (filed July 8, 2015, "Reply Br."), the Examiner's Answer
+(mailed June 17, 2015, "Ans."), and the original Specification (filed Dec. 11,
+2008, "Spec.").
+3
+
+Appeal2015-006833
+Application 12/308,340
+further require each one of the at least one stored map datum to be
+associated with a respective plurality of planar tiles. Appeal Br. 3--4; Reply
+Br. 1-2. As argued by Appellant, Ashby describes point-of-interest ("POI")
+data including one or more parcels, where a parcel includes one or more POI
+data records, and where a parcel at most corresponds to a single rectangular
+area, rather than a plurality of rectangular areas, which is the opposite of
+what is recited in the claims. Appeal Br. 3--4; Reply Br. 1-2.
+We do not find this argument persuasive. Neither Appellant's claims,
+nor Appellant's Specification, defines the term "map datum." We agree
+with the Examiner that Ashby teaches a geographical database configured to
+collect and store POI data corresponding to a map, where the overall POI
+data includes one or more POI parcels, and where each POI parcel includes
+one or more POI data records representing points of interests. Final Act. 3;
+Ans. 2-3 (citing Ashby, col. 11, 11. 40--47). Thus, Ashby's collection of POI
+data teaches the claimed "map datum." We further agree with the Examiner
+that Ashby teaches the geographical database collects and stores POI data
+corresponding to a plurality of rectangular areas of the map, where each
+parcel corresponds to one rectangular area of the plurality of rectangular
+areas. Final Act. 3; Ans. 2-3 (citing Ashby, col. 11, 11. 40--47). Thus,
+Ashby's geographical database associates the POI data with the plurality of
+rectangular areas of the map. By collecting and storing each POI parcel
+within the geographical database, the geographical database also associates
+each POI parcel with the plurality of rectangular areas of the map. See
+Ashby, col. 11, 11. 40--47. Thus, we also agree with the Examiner that Ashby
+teaches "the computer-readable data carrier associates each of at least one
+single stored map datum with a respective plurality of planar tiles formed by
+
+4
+
+Appeal2015-006833
+Application 12/308,340
+a subdivision of a region," as recited in claims 6 and 8, and similarly recited
+in claim 9. Final Act. 3; Ans. 2-3.
+Appellant's argument that a POI parcel corresponds to a single
+rectangular area, rather than a plurality of rectangular areas, is unpersuasive
+because the term "map datum" is sufficiently broad to read on the overall
+POI data, rather than the individual POI parcel. Further, even assuming
+arguendo that the tern "map datum" is limited to the individual POI parcel,
+
+by teaching that the overall POI data is associated with the plurality of
+rectangular areas, Ashby also teaches that each individual POI parcel is also
+associated with the plurality of rectangular areas.
+Therefore, for at least the reasons described above, we sustain the
+Examiner's rejection of claims 6, 8, and 9, as well as claims 7 and 10-16,
+which are not argued separately.
+
+DECISION
+We affirm the Examiner's decision rejecting claims 6-16 under
+35 U.S.C. § 102(b).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+5
+
+

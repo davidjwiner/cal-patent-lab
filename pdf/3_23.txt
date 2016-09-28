@@ -1,0 +1,348 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/289,456
+
+11/04/2011
+
+GIOVANNI GRIECO
+
+FR920100055US1_8152-0156
+
+3917
+
+73109
+
+7590
+
+09/21/2016
+
+Cuenot, Forsythe & Kim, LLC
+20283 State Road 7
+Ste. 300
+Boca Raton, FL 33498
+
+EXAMINER
+KING, CURTIS J
+
+ART UNIT
+
+PAPER NUMBER
+
+2684
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ibmptomail@iplawpro.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GIOVANNI GRIECO, BENEDETTA GUIDI,
+MICHAELANGELO LAPLACA, and RICCARDO PIZZUTILO
+
+Appeal2015-001929
+Application 13/289,456
+Technology Center 2600
+
+Before ERIC S. FRAHM, JOHNNY A. KUMAR, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+FRAHM, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 8-23. Claims 1-7 have been canceled. We have
+jurisdiction under 35 U.S.C. § 6(b ).
+We affirm.
+Appellants' disclosed and claimed invention relates to an apparatus
+(claim 8) and computer program product (claim 14) for managing traffic
+lights at an intersection when an emergency vehicle is approaching the
+intersection (Spec. i-f 2; Figs. 1-2; claims 8 and 14).
+
+Appeal2015-001929
+Application 13/289,456
+RELATED APPEALS
+The instant case on appeal (Application No. 13/289,456 and Appeal
+No. 2015-001929 drawn to an apparatus and computer program product for
+managing traffic lights) is related to Application No. 13/416,167 and Appeal
+No. 2015-001777 (drawn to a method of managing traffic lights) filed by the
+same assignee (IBM Corporation) and inventive entity (see Inventors listed
+
+supra). Application No. 13/416, 167 is the basis for the Examiner's
+provisional obviousness-type double patenting rejection discussed infra.
+
+Exemplary Claim
+Independent claim 8 under appeal is exemplary and reads as follows,
+with emphasis added to the key disputed portion of the claim:
+8. An apparatus for managing traffic lights, comprising:
+a sampling device configured to sample a first signal
+having a predefined characteristic and emitted by a vehicle;
+a processing system configured to perform:
+receiving a route to be taken by the vehicle;
+identifying an intersection on the route;
+
+identifYing a first traffic light controlling, at the
+intersection, traffic going in a direction to be followed by
+the vehicle upon arriving at the intersection, according to
+the route;
+identifying a second traffic light controlling, at the
+intersection, traffic going in another direction;
+receiving a first signal sample of the first signal
+received by the sampling device;
+
+2
+
+Appeal2015-001929
+Application 13/289,456
+determining, from an analysis of the first signal
+sample, whether the vehicle is approaching;
+upon the vehicle approaching,
+instructing the second traffic light to change
+its state to block traffic and
+instructing the first traffic light to change its
+state to authorize traffic to facilitate passage of the
+vehicle at the intersection.
+
+Examiner's Rejections
+(1) The Examiner provisionally rejected claims 14--20 under the
+judicially created doctrine of non-statutory, obviousness-type double
+patenting over claims 1-7 of Application 13/416,167. 1 Final Act. 10-12.
+(2) The Examiner rejected claims 8-12 and 14--18 as being
+unpatentable under 35 U.S.C. § 103(a) over the combination of Cornett (US
+8,094,040 Bl; issued Jan. 10, 2012) and Klosinski (US 5,889,475; issued
+Mar. 30, 1999). 2 Final Act. 2-5.
+(3) The Examiner rejected claims 13 and 19 as being unpatentable
+under 35 U.S.C. § 103(a) over Cornett, Klosinski, Cleland (US
+
+1
+
+Because Appellants fail to present any arguments as to the provisional
+obviousness-type double patenting rejection (see App. Br. 4, fn.1 ), we
+sustain this rejection proforma.
+2
+Appellants argue claims 8-12 and 14--18 together as a group, and presents
+arguments only with regard to claims 8 and 14 and the disclosure of Cornett
+(App. Br. 10-14; Reply Br. 2-5). Claims 8 and 14 contain similar features
+relating to traffic light management. Accordingly, we select claim 8 as
+representative for the group of claims 8-12 and 14--18 rejected over the
+combination of Cornett and Klosinski, and our analysis will only address
+claim 8.
+3
+
+Appeal2015-001929
+Application 13/289,456
+2009/0001893 Al; published Jan. 1, 2009), and Eggers (US 2005/0023465
+Al; published Feb. 3, 2005). Final Act. 5-7.
+(4) The Examiner rejected claims 21 and 23 as being unpatentable
+under 35 U.S.C. § 103(a) over Cornett, Klosinski, and Obeck (US
+4,573,049; Feb. 25, 1996). Final Act. 7-8.
+(5) The Examiner rejected dependent claims 20 and 22 as being
+unpatentable under 35 U.S.C. § 103(a) over Cornett, Klosinski, and Gross
+(US 6,326,903 Bl; issued Dec. 4, 2001). Final Act. 8-10.
+
+Issues on Appeal
+Based on Appellants' arguments in the Appeal Brief (App. Br. 5-18)
+and the Reply Brief (Reply Br. 2-8), the following four issues are presented
+on appeal:
+(1) Did the Examiner err in rejecting claims 8-12 and 14--18 as being
+obvious under 35 U.S.C. § 103(a) because the combination of Cornett and
+Klosinski fails to teach or suggest "identifying a first traffic light controlling,
+at the intersection, traffic going in a direction to be followed by the vehicle
+upon arriving at the intersection, according to the route," as recited in
+representative claim 8?
+(2) Did the Examiner err in rejecting claims 13 and 19 as being
+obvious under 35 U.S.C. § 103(a) because Cleland is non-analogous to
+Appellants' invention as recited in claims 13 and 19, and is therefore not
+properly combinable with Cornett, Klosinski, and Eggers?
+(3) Did the Examiner err in rejecting claims 21 and 23 as being
+obvious over the combination of Cornett, Klosinski, and Obeck because
+Obeck and the resultant combination fails to teach identifying a direction of
+a vehicle upon arriving at an intersection, as recited in claims 21 and 23?
+
+4
+
+Appeal2015-001929
+Application 13/289,456
+(4) Did the Examiner err in rejecting claims 20 and 22 as being
+obvious over the combination of Cornett, Klosinski, and Gross because
+Gross and the resultant combination fails to teach or suggest "broadcasting,
+using a broadcasting device positioned at the intersection ... GPS
+coordinates of the vehicle," as recited in claims 20 and 22?
+
+ANALYSIS
+We have reviewed the Examiner's rejections (Final Act. 2-12;
+Ans. 2-10) in light of Appellants' contentions in the Appeal Brief (App.
+Br. 5-18) and Reply Brief (Reply Br. 2-8) that the Examiner has erred in
+light of the Examiner's response to Appellants' arguments in the Appeal
+Brief (Ans. 2-10). We disagree with Appellants' contentions.
+
+Claims 8-12 and 14-18
+With regard to representative claim 8, we adopt as our own (1) the
+findings and reasons set forth by the Examiner in the Action from which this
+appeal is taken (Final Act. 2--4), and (2) the reasons set forth by the
+Examiner in the Examiner's Answer in response to Appellants' Appeal Brief
+(see Ans. 3-7). We concur with the conclusions reached by the Examiner as
+
+to representative claim 8, and highlight and address specific findings and
+arguments for emphasis as follows.
+The Examiner relies upon Cornett as disclosing managing traffic
+lights as recited in claim 8, except for "receiving a route to be taken by the
+vehicle, and identifying an intersection on the route" (Final Act. 3). We
+agree with the Examiner that Cornett provides a system for changing the
+traffic light to green in the direction of travel of the vehicle by changing a
+traffic light controlling traffic going in a direction to be followed by the
+
+5
+
+Appeal2015-001929
+Application 13/289,456
+vehicle upon arriving at the intersection, since all lights are turned red except
+the direction of travel of the vehicle (Ans. 3--4). We also agree with the
+Examiner that Klosinski discloses (i):
+[T]hat it has been specifically known to use vehicle route
+information to determine the vehicle direction at the
+intersection (i.e.[,] whether the vehicle will go straight, tum left,
+or tum right at the intersection) to change a corresponding
+traffic light based on the direction of travel of the vehicle, as a
+known and specific way to accurately determine the direction
+the vehicle will be traveling at the intersection
+(Ans. 5); and (ii) "a traffic light system may receive route information of the
+emergency vehicle and change the lights based on the received route
+information" (Ans. 6), thereby disclosing "the missing element of Cornett of
+not receiving route information by the traffic light" (Ans. 6). Lastly, we
+agree with the Examiner's determinations that adding Klosinski' s routebased determination feature to Cornett' s traffic light management method
+"would increase the efficiency of the system by decreasing false
+determination[ s] of the intended vehicle travel direction" (Ans. 6); and (ii)
+"improve efficiency of the emergency responsiveness of the emergency
+response vehicle personnel by eliminating time otherwise wasted" (Ans. 7).
+In view of the foregoing, Appellants' arguments as to Comett's
+disclosure are not persuasive because the Examiner relies upon the
+combination of Cornett and Klosinski in reaching the conclusion of
+obviousness.
+
+6
+
+Appeal2015-001929
+Application 13/289,456
+Claims 13 and 19
+
+With regard to claims 13 and 19, Appellants argue (App. Br. 15-16;
+Reply Br. 5---6) that Cleland is a non-analogous reference because it concerns
+adjusting light output, not managing traffic lights and emergency vehicles.
+A reference qualifies as prior art for an obviousness determination
+under § 103 only when it is analogous to the claimed invention. In re Klein,
+647 F.3d 1343, 1348 (Fed. Cir. 2011); Innovention Toys, LLC v. MGA
+Entm 't, Inc., 637 F.3d 1314, 1321 (Fed. Cir. 2011); In re Bigio, 381 F.3d
+
+1320, 1325 (Fed. Cir. 2004); In re Clay, 966 F.2d 656, 658 (Fed. Cir. 1992).
+A reference is considered analogous prior art: ( 1) if the reference is from the
+same field of endeavor as the claimed subjected matter, regardless of the
+problem addressed, or (2) if "the reference still is reasonably pertinent to the
+particular problem with which the inventor is involved," even though the
+reference is not within the field of the inventor's endeavor. Bigio, 381 F.3d
+at 1325. The "field of endeavor" test asks if the structure and function of the
+prior art is such that it would be considered by a person of ordinary skill in
+the art, because of the similarity to the structure and function of the claimed
+invention as disclosed in the application. Bigio, 381 F.3d at 1325-27.
+Cleland discloses "[ o]ther embodiments can receive a lumen level
+trigger from signals transmitted from an emergency vehicle. For example,
+the signal on an emergency vehicle that turns intersection lights green for
+ambulances and fire trucks" (i-f 68). Therefore, we agree with the Examiner
+that Cleland is analogous art because paragraph 68 of Cleland describes both
+traffic lights and emergency vehicles, and therefore the combination of
+references relied upon teaches or suggests the invention recited in claim 6
+(Final Act. 6-7; Ans. 7).
+
+7
+
+Appeal2015-001929
+Application 13/289,456
+In this light, we cannot agree with Appellants' contentions (App. Br.
+15-16; Reply Br. 5---6) that Cleland is non-analogous art because it pertains
+to adjusting light output of a light fixture and is not related to traffic light
+management. Instead, we agree with the Examiner (Ans. 8) that Cleland is
+analogous to the subject matter of claim 6, and thus, is properly combinable.
+Claims 21 and 23
+
+With regard to the obviousness rejection of claims 21 and 23,
+Appellants argue that Obeck fails to teach identifying a direction of a vehicle
+upon arriving at an intersection (App. Br. 16; Reply Br. 6). This is
+unpersuasive because (i) we agree with the Examiner's response as to
+Cornett and Klosinski (see Ans. 8-9); (ii) we agree with the Examiner that
+"Obeck discloses it is known for a processing system to identify the
+direction to be followed by the vehicle upon arriving at the inter[ se ]ction
+using the received route (col. 2, lines 13-35)" (Final Act. 8); and (iii) we
+agree with the Examiner's findings and reasoning supporting the conclusion
+of obviousness (Final Act. 7-8).
+Claims 20 and 22
+
+With regard to the obviousness rejection of claims 20 and 22,
+Appellants argue that Gross fails to broadcast Global Positioning System
+(GPS) coordinates at an intersection by using a broadcasting device located
+at the intersection, and instead Gross broadcasts from vehicle to vehicle
+(App. Br. 17-18; Reply Br. 6-7). Appellants' argument is not persuasive,
+because we agree with the Examiner (Final Act. 9-10; Ans. 9-10) that Gross
+does indeed teach broadcasting GPS coordinates (see col. 12, 1. 1) from a
+device at an intersection, because Figures 1 and 7 show a traffic
+light/intersection environment and associated method of operating traffic
+
+8
+
+Appeal2015-001929
+Application 13/289,456
+lights 4 using a signal transceiver 5 for just such a purpose (see col. 9, 11. 1626 discussing traffic signal transceiver 5; see also col. 11, 11. 6 to col. 12, 1.
+
+1).
+Summary
+In view of all of the foregoing, we sustain the Examiner's obviousness
+rejection of representative and sole independent claim 8, as well as claims 912 and 14--18 grouped therewith. For similar reasons as provided for claim
+8 supra, and based on the Examiner's findings and reasoning and the
+amplifications provided supra, we also sustain the Examiner's remaining
+three obviousness rejections of claims 13 and 19-23.
+
+DECISION
+(1) The Examiner's decision provisionally rejecting claims 14--20 for
+obviousness-type double patenting is affirmed proforma.
+(2) The Examiner's obviousness rejections of claims 8-23 under
+35 U.S.C. § 103(a) are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l). See 37 C.F.R.
+§§ 41.50(f), 41.52(b) (2013).
+
+AFFIRMED
+
+9
+
+

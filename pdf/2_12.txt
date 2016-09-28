@@ -1,0 +1,334 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/282,714
+
+10/27/2011
+
+Burcu Aydin
+
+82748347
+
+3047
+
+56436
+
+7590
+
+09/23/2016
+
+Hewlett Packard Enterprise
+3404 E. Harmony Road
+Mail Stop 79
+Fort Collins, CO 80528
+
+EXAMINER
+VIZVARY, GERALD C
+
+ART UNIT
+
+PAPER NUMBER
+
+3624
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+hpe.ip.mail@hpe.com
+mkraft@hpe.com
+chris.mania@hpe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BURCU AYDIN, KEMAL GULER,
+and MEHMET OGUZ SAYAL
+
+Appeal2014-006109
+Application 13/282,714 1
+Technology Center 3600
+
+Before MURRIEL E. CRAWFORD, NINA L. MEDLOCK, and
+ROBERT J. SILVERMAN, Administrative Patent Judges.
+SILVERMAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+decision rejecting claims 1-15. We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+
+1
+
+"The real party in interest is Hewlett-Packard Development Company, LP,
+a limited partnership established under the laws of the State of Texas and
+having a principal place of business at 11445 Compaq Center West Drive,
+Houston, TX 77070, U.S.A. (hereinafter 'HPDC'). HPDC is a Texas limited
+partnership and is a wholly-owned affiliate of Hewlett-Packard Company, a
+Delaware Corporation, headquartered in Palo Alto, CA. The general or
+managing partner ofHPDC is HPQ Holdings, LLC." Appeal Br. 2.
+
+Appeal2014-006109
+Application 13/282,714
+We AFFIRM.
+ILLUSTRATIVE CLAIM
+1. A method performed by at least one processing
+system, the method comprising:
+comparing at least first and second contracts having
+different lengths of time using uncertainty information
+corresponding to a non-overlap period between the first and the
+second contracts using the processing system; and
+providing an output that represents a comparison between
+the first and the second contract based on the uncertainty
+information using the processing system.
+REJECTIONS
+I.
+
+Claims 1-7 are rejected under 35 U.S.C. § 101 as failing to
+
+comply with the utility requirement. Answer 3--4.
+II.
+
+Claims 1-7 are rejected under 35 U.S.C. § 112, first paragraph, 2
+
+as failing to enable one of ordinary skill in the art to use the claimed
+invention. Id. at 4.
+III.
+
+Claims 1-7 are rejected under 35 U.S.C. § 112, first paragraph,
+
+as failing to comply with the written description requirement. Id. at 3.
+IV.
+
+Claims 1-15 are rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Chen-Ritzo et al. (US 2008/0177615 Al, pub. July 24,
+2008) ("Chen-Ritzo") and Baldwin et al. (US 2008/0126171 Al, pub.
+May 29, 2008) ("Baldwin"). Final Action 4--15.
+
+2
+
+The Examiner sets forth rejections under 35 U.S.C. § 112 as alternatively
+based upon either the pre-AIA or AIA version of the statute. Answer 3--4.
+Because the Appellants' application was filed before September 16, 2012,
+the pre-AIA version of the statute is applied herein.
+2
+
+Appeal2014-006109
+Application 13/282,714
+FINDINGS OF FACT
+We rely upon and adopt the Examiner's findings stated in the Final
+Office Action at pages 2-15 and the Answer at pages 5-9, except as stated
+otherwise in the Analysis below. Additional findings of fact may appear in
+the Analysis below.
+ANALYSIS
+
+Rejection I
+The Answer sets forth a new ground of rejection for claims 1-7 under
+35 U.S.C. § 101, as lacking either a specific and substantial asserted utility
+or a well-established utility. Answer 3. According to the Examiner, the
+recitation in the Specification that "[a] processing device may be a laptop"
+(Spec. 11: 15) is insufficient to define the processing device as hardware, but
+merely indicates that it "may be" a device. Id. at 4.
+As the Federal Circuit has stated, to violate the utility requirement of
+35 U.S.C. § 101, "the claimed device must be totally incapable of achieving
+a useful result." Brooktree Corp. v. Advanced Micro Devices, Inc., 977 F.2d
+1555, 1571 (Fed. Cir. 1992).
+We agree with the Appellants that providing an example, in the
+Specification, describing a processing device as a laptop computer does not
+deprive the claims of utility. Reply Br. 12.
+Accordingly, the rejection of claims 1-7 under 35 U.S.C. § 101, as
+lacking utility, is not sustained.
+
+Rejection II
+The Answer sets forth a new ground of rejection for claims 1-7 under
+35 U.S.C. § 112, first paragraph, stating that- in view of the rejection
+
+3
+
+Appeal2014-006109
+Application 13/282,714
+under 35 U.S.C. § 101 for a lack of utility- "one skilled in the art clearly
+would not know how to use the claimed invention." Answer 4.
+"The questions of whether a specification provides an enabling
+disclosure under § 112, i-f 1, and whether an application satisfies the utility
+requirement of§ 101 are closely related." In re Swartz, 232 F.3d 862, 863
+(Fed. Cir. 2000). The utility requirement of 35 U.S.C. § 101 requires that
+the claimed invention be operable to achieve a useful result. Id. Where the
+invention is inoperative, the claims also fail to satisfy the enablement
+requirement of 35 U.S.C. § 112, first paragraph, because a skilled artisan
+cannot practice the invention. Id.
+As explained above, the rejection under 35 U.S.C. § 101 for a lack of
+utility is not sustained. Further, as the Appellants contend, the Specification
+describes how to use the claimed subject matter. See Reply Br. 11-12
+(citing Spec. 5: 28 - 6: 14, Fig. 5). Accordingly, we do not sustain the
+rejection of claims 1-7 under 35 U.S.C. § 112, first paragraph, as failing to
+enable one of ordinary skill in the art to use the claimed invention.
+
+Rejection III
+The Answer sets forth a new ground of rejection for claims 1-7 under
+35 U.S.C. § 112, first paragraph, as failing to comply with the written
+description requirement. Answer 3. According to the Answer, the claims
+contain subject matter that was not described in the Specification in a way
+that would reasonably convey to one skilled in the relevant art that the
+Appellants, at the time the application was filed, had possession of the
+claimed invention because independent claim 1 and dependent claims 3 and
+6 recite "using the processing system," which could be software only. Id.
+
+4
+
+Appeal2014-006109
+Application 13/282,714
+In response, the Appellants contend that a person of ordinary skill in
+the art would understand that the claimed system comprises physical
+devices, such that the Specification reveals possession of the claimed
+embodiments. Reply Br. 11.
+Indeed, claims 1-7 recite a method that would involve implementation
+with physical devices, as the Appellants contend, which would be required
+to provide the "output" of claim 1.
+Accordingly, we do not sustain the rejection of claims 1-7 under
+35 U.S.C. § 112, first paragraph, as failing to comply with the written
+description requirement.
+
+Rejection IV
+The Appellants identify three limitations of independent claim 1 as
+being absent from the prior art references, Chen-Ritzo and Baldwin:
+"comparing at least first and second contracts"; the contracts having
+"different lengths of time" with a "non-overlap period"; and the comparison
+"using uncertainty information." Appeal Br. 9-13.
+As explained in tum below, the Appellants' arguments are not
+persuasive of error in the rejection of claim 1.
+The Appellants rely upon the same arguments, with regard to the other
+independent claims (claims 8 and 12). See Appeal Br. 13-20. For the same
+or similar reasons that apply to claim 1, the Appellants' arguments are not
+persuasive of error in the rejection of claims 8 and 12.
+Accordingly, the rejection of independent claims 1, 8, and 12, as well
+as their respective independent claims 2-7, 9-11, and 13-15, as unpatentable
+under 35 U.S.C. § 103(a), is sustained.
+
+5
+
+Appeal2014-006109
+Application 13/282,714
+1. "comparing at least first and second contracts"
+
+The Appellants dispute the Examiner's finding that Chen-Ritzo
+teaches comparing at least two contracts, arguing that Chen-Ritzo merely
+"rep lac[ es] a set of terms in a contract and provid[ es] a profitability potential
+for each of the alternative sets of terms" and thus does not involve at least
+two contracts "with terms already set within those individual contracts."
+Reply Br. 5.
+The Appellants' argument is unpersuasive.
+To begin with, as a matter of claim interpretation, claim 1 does not
+limit the claimed "contracts" to ones with pre-set terms, as the Appellants
+contend, nor does claim 1 exclude hypothetical contracts. Thus, the
+Appellants' argument is not commensurate with the scope of claim 1. See In
+re Self, 671F.2d1344, 1350 (CCPA 1982).
+
+Moreover, as a factual matter, Chen-Ritzo discloses an embodiment
+that "receives a range and/or alternative set of terms," which is said to stand
+"[i]n stark contrast" to "conventional methods and systems" that "simulate
+potential profitability for a single instance of contract terms," such that
+Chen-Ritzo does not require using only a single contract only. Chen-Ritzo
+
+i-f 24 (emphasis added).
+2. "different lengths of time" I "non-overlap period''
+The Examiner finds that the "different lengths of time" and "nonoverlap period" feature of the contracts recited in claim 1 is taught by
+Baldwin, which describes a "planning and logistics integration module" that
+"perform[ s] profitability analyses on repair, replace, and overhaul
+decisions," as well as a "longevity estimator" that estimates the duration of a
+component, and thus entails contracts for new parts that do not overlap with
+
+6
+
+Appeal2014-006109
+Application 13/282,714
+the contract time of parts being discarded. Answer 5---6 (quoting Baldwin
+
+iTiT 55, 77).
+The Appellants dispute this finding, arguing that "[ m ]erely planning
+ahead for 'profitability analyses on repair, replace, and overhaul decisions'
+does not suggest that this is either done before a contract for equipment is
+signed or that this equipment is the actual subject of a contract," but rather
+"[i]t merely suggests that a person may decide whether to repair, replace, or
+overhaul certain equipment based on the analysis described in Baldwin."
+Reply Br. 6.
+To the contrary, however, Baldwin discloses the use of such
+"profitability analyses on repair, replace, and overhaul decisions" (Baldwin
+
+iT 55) in the context of the contracting process - describing "a management
+model 601 to assist an organization to prepare for a PBL [performance-based
+logistics] contract" (id. iT 42; see also id. iTiT 50, 55, Fig. 11 ).
+Thus, the Appellants' argument is not persuasive.
+
+3. "using uncertainty information"
+The Examiner finds that Chen-Ritzo teaches claim 1's "using
+uncertainty information." Final Action 4; Answer 7-9.
+The Appellants do not dispute this particular finding, but instead
+argue that neither Chen-Ritzo (Appeal Br. 12-13) nor Baldwin (Reply Br. 7)
+
+alone teaches or suggests "using uncertainty information" that is also
+"corresponding to a non-overlap period between the first and the second
+contracts," per claim 1.
+The Appellants' argument is unpersuasive because the Examiner's
+analysis does not conflate these two features of claim 1. As explained
+above, the Examiner relies upon Baldwin for the feature of a "non-overlap
+
+7
+
+Appeal2014-006109
+Application 13/282,714
+period" (Final Action 5; Answer 5---6) and relies upon Chen-Ritzo for the
+feature of "using uncertainty information" (Final Action 4; Answer 7-9).
+The Appellants offer no reason why these two features may not be taught by
+separate references in an obviousness analysis.
+Accordingly, the Appellants' argument is unpersuasive.
+DECISION
+We REVERSE the Examiner's decision rejecting claims 1-7 for
+violating the utility requirement under 35 U.S.C. § 101.
+We REVERSE the Examiner's decision rejecting claims 1-7 under
+35 U.S.C. § 112, first paragraph, as failing to enable one of ordinary skill in
+the art to use the claimed invention.
+We REVERSE the Examiner's decision rejecting claims 1-7 under
+35 U.S.C. § 112, first paragraph, as failing to comply with the written
+description requirement.
+We AFFIRM the Examiner's decision rejecting claims 1-15 under
+35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+AFFIRMED
+
+8
+
+

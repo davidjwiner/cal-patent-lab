@@ -1,0 +1,363 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/460,267
+
+04/30/2012
+
+Gerben Meijer
+
+81230.158US 1
+
+8238
+
+34018
+
+7590
+
+09/16/2016
+
+GREENBERG TRAURIG, LLP
+77 WEST WACKER DRIVE
+SUITE 3100
+CHICAGO, IL 60601-1732
+
+EXAMINER
+RABOVIANSKI, JIVKA A
+
+ART UNIT
+
+PAPER NUMBER
+
+2426
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+j arosikg@gtlaw.com
+chiipmail@gtlaw.com
+escobedot@gtlaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GERBEN MEIJER and PATRICK H. HAYES 1
+
+Appeal2015-001710
+Application 13/460,267
+Technology Center 2400
+
+Before: JOHN F. HORVATH, MICHAEL M. BARRY, and
+JOHN R. KENNY, Administrative Patent Judges.
+
+KENNY, Administrative Patent Judge.
+DECISION ON APPEAL
+
+STATEMENT OF CASE
+This is an appeal under 35 U.S.C. § 134 from rejections of claims 123. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM-IN-PART and enter NEW GROUNDS OF
+REJECTION pursuant to our authority under 37 C.F.R. § 41.50(b).
+
+1
+
+Appellants identify Universal Electronics Inc. as the real party in interest.
+(App. Br. 2.)
+
+Appeal2015-001710
+Application 13/460,267
+CLAIMED INVENTION
+The claimed invention is directed to systems and methods for
+detecting the removal of a controlling device. (Spec. 1.) Claim 1,
+reproduced below, is illustrative of the claimed subject matter:
+1.
+A method for using a controllable appliance to determine
+an inoperable state of a controlling device, the method
+compnsmg:
+causing the controllable appliance to repeatedly
+determine, at a first predetermined timed interval, if a wireless
+notification signal has been received from the controlling
+device; and
+when the wireless notification signal has not been
+received from the controlling device within the first
+predetermined timed interval, causing the controllable
+appliance to issue a status notification that the controlling
+device is in an inoperable state.
+
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal is:
+Sakamoto
+Ueno et al.
+
+US 2007 /0200727 Al
+US 2009/0184161 Al
+
+Aug.30,2007
+July 23, 2009
+
+REJECTIONS
+Claims 1, 4, and 12 stand rejected under 35 U.S.C. § 112, second
+paragraph, as indefinite. (Final Act. 2, Ans. 2-3.)
+Claims 1, 3-5, 7, 9, 11-13, 15, and 17 stand rejected under 35 U.S.C.
+§ 102(b) as anticipated by Ueno. (Final Act. 3---6, Ans. 3-7.)
+Claims 2, 6, 8, 10, 14, 16, and 18-23 stand rejected under 35 U.S.C.
+
+2
+
+Appeal2015-001710
+Application 13/460,267
+§ 103(a) as unpatentable over Ueno and Sakamoto. (Final Act. 7-10, Ans.
+7-10.)
+ANALYSIS
+Indefiniteness Rejection
+Appellants argue the Examiner erred in rejecting claims 1, 4, and 12
+for indefiniteness. (App. Br. 5-8.) "The test for definiteness is whether one
+skilled in the art would understand the bounds of the claim when read in
+light of the specification." Miles Labs, Inc. v. Shandon Inc., 997 F.2d 870,
+875 (Fed. Cir. 1993). To establish a prima facie case of indefiniteness, an
+Office Action must set forth why the metes and bounds of a claim term or
+phrase are unclear. See MPEP § 2173 .02(III)(B). Here, the Examiner
+identifies the term "first predetermined timed interval," recited in claim 1,
+and the term "second predetermined timed interval," recited in claims 4 and
+12, as indefinite. (Final Act. 2, Ans. 2-3, 10-12.) The Examiner's
+reasoning is that the Specification does not explain the terms in the way
+claimed. (Final Act. 2, Ans. 2-3, 10-12.) That reasoning, however, is more
+applicable to a rejection under 35 U.S.C. § 112, first paragraph, for a lack of
+written description support, than to an indefiniteness rejection. As a result,
+we are not persuaded that the terms "first predetermined timed interval" and
+"second predetermined timed interval" by themselves are indefinite.
+We conclude, however, that the phrase "the first predetermined timed
+interval" in claim 1 is indefinite because the claim specifies more than one
+first predetermined timed interval that causes the status notification to be
+issued. In particular, claim 1 recites repeated determinations at a first
+predetermined timed interval: "causing the controllable appliance to
+repeatedly determine, at a first predetermined timed interval, if a wireless
+notification signal has been received from the controlling device." With
+3
+
+Appeal2015-001710
+Application 13/460,267
+these repeated determinations, a "first predetermined interval" exists
+between the first and second determinations, another exists between the
+second and third determinations, and so forth. Claim 1 is ambiguous as to
+which, if any, of these intervals is "the [recited] first predetermined timed
+interval" that causes the status notification to be issued.
+An example illustrates the ambiguity. If the first predetermined timed
+interval is 20 seconds, repeated determinations could be made at 0, 20, 40,
+and 60 seconds. In which case, the intervals between 0 and 20 seconds, 20
+and 40 seconds, and 40 and 60 seconds would all be 20-second timed
+intervals (i.e., first predetermined timed intervals). Claim 1 does not
+indicate which of these 20-second timed intervals is "the first predetermined
+timed interval" that causes the status notification to be issued.
+It could be argued in light of the Specification that "the first
+
+predetermined timed interval" could be construed to mean any of the first
+predetermined timed intervals. (See, e.g., Specification Fig. 5.) In this case,
+the controllable appliance would issue the status notification if, during any
+first predetermined timed interval, a wireless notification signal was not
+received. Even if such a construction were plausible, however, the term "the
+first predetermined timed interval" would remain indefinite because it would
+be amenable to two or more plausible claim constructions, e.g., the interval
+between 0 and 20 seconds or any 20-second interval. Ex parte Miyazaki, 89
+USPQ2d 1207, 1211 (BP AI 2008) (precedential).
+Accordingly, we sustain the rejection of claim 1. We also sustain the
+rejection of claim 4 based on its dependency on claim 1. Further, we sustain
+the rejection of claim 12 based on its dependency on claim 9, which also
+recites "the first predetermined timed interval" and presents the same
+indefiniteness issue as claim 1.
+4
+
+Appeal2015-001710
+Application 13/460,267
+Because the reasoning and fact finding we rely upon to sustain the
+indefiniteness rejection of claims 1, 4, and 12 differ from the reasoning and
+fact finding by the Examiner, we designate our affirmance of this rejection
+as a NEW GROUND OF REJECTION in order to provide Appellants with a
+full and fair opportunity to respond to the thrust of the rejection.
+
+Indefiniteness: Claims 2, 3, 5-11, and 13-23
+Pursuant to our authority under 37 C.F.R. § 41.50(b), we reject claims
+2, 3, 5-11, and 13-23 under 35 U.S.C. § 112, second paragraph, for
+indefiniteness.
+Independent claim 9 is indefinite because it recites the phrase "within
+the first predetermined timed interval," which is ambiguous for the reasons
+discussed above for claim 1. Dependent claims 2, 3, 5-8, and 13-17 are
+indefinite because each ultimately depends on either claim 1 or claim 9.
+Claim 18 is indefinite because it recites "within a repeatedly
+measured, second predetermined timed interval." In context, claim 18
+requires that the set top box determine that the controlling device is in an
+inoperable state in the event the wireless notification signal has not been
+received within a repeatedly measured, second predetermined timed interval.
+Because claim 18 repeatedly measures the second predetermined timed
+interval, claim 18 specifies more than one second predetermined timed
+interval. Therefore, it is unclear which second timed interval is "the second
+predetermined timed interval" that could trigger a determination that the
+controlling device is in an inoperable state. (See discussion above for claim
+1.) Claims 19-23 are indefinite because each ultimately depends on claim
+
+18.
+
+5
+
+Appeal2015-001710
+Application 13/460,267
+Prior Art Rejections
+Claim 1
+
+Appellants argue the Examiner erred in finding that Ueno discloses
+the repeatedly-determining element2 of independent claim 1. 3 (App. Br. 810.) Appellants contend that Ueno does not disclose having television
+receiver 200 (Ueno's controllable appliance) repeatedly determine at a
+predetermined timed interval if a wireless notification has been received
+from remote control 100 (Ueno's controlling device). (Id.) In particular,
+Appellants argue that although Ueno uses a timer, Ueno does not use that
+timer to repeatedly determine at a predetermined timed interval whether
+wireless notification has been received by the television receiver 200 from
+the remote control 100. (Id.) Instead, Ueno uses its timer to determine
+whether a predetermined timed interval has passed so Ueno can place remote
+control 100 in a low power state. (Id.) Based on the record before us, we
+agree with the Appellants.
+Although we agree with the Examiner that the repeatedly-determmmg
+element of claim 1 does not require that a timer be in the television receiver
+(Ans. 14), neither the Final Action nor the Answer sufficiently explain how
+Ueno discloses such a repeated determination by the controllable appliance
+at a predetermined timed interval as claimed. (Final Act. 3--4; Ans. 3--4.)
+
+Anticipation is a strict standard that requires finding each and every element
+
+2
+
+"causing the controllable appliance to repeatedly determine, at a first
+predetermined timed interval, if a wireless notification signal has been
+received from the controlling device."
+3
+As discussed above, we conclude that the term "the first predetermined
+time interval" in claim 1 is indefinite. We can nevertheless address
+Appellants' arguments regarding the repeatedly-determining element
+because that element does not recite the indefinite term.
+6
+
+Appeal2015-001710
+Application 13/460,267
+as set forth in the claim, either expressly or inherently, in a single prior art
+reference, arranged as required by the claim. Verdegaal Bros., Inc. v. Union
+
+Oil. Co. of Cal., 814 F.2d 628, 631 (Fed. Cir. 1987). "The identical
+invention must be shown in as complete detail as is contained in the ...
+claim." Richardson v. Suzuki Motor Co., 868 F.2d 1226, 1236 (Fed. Cir.
+1989). Accordingly, based upon and constrained by the record before us, we
+are not persuaded that Ueno discloses the repeatedly-determining element of
+claim 1, and we do not sustain its rejection. 4
+
+Claim 9
+Independent claim 9 recites an element commensurate with the
+repeatedly-determining element of claim 1. (App. Br. 15 (Claims App'x).)
+Accordingly, we do not sustain the rejection of claim 9 for the same reasons
+as for claim 1.
+
+Claim 18
+Independent claim 18 is directed to a method for using a set top box
+and also recites an element commensurate with the repeatedly-determmmg
+element of claim 1. (App. Br. 17 (Claims App'x).) Although claim 18 was
+rejected for obviousness over the combination of Ueno and Sakamoto (Final
+Act. 8, Ans. 7), the Examiner relies only on Ueno for repeatedly determining
+at a predetermined timed interval if a wireless notification has been received
+from the controlling device (the remote control) as recited in claim 18. (The
+Examiner relies upon Sakamoto for disclosing the type of receiver specified
+4
+
+In light of this resolution, we do not need to address Appellants' arguments
+regarding the status-notification element of claim 1 (i.e., "when the wireless
+notification signal has not been received from the controlling device within
+the first predetermined timed interval, causing the controllable appliance to
+issue a status notification that the controlling device is in an inoperable
+state.") (App. Br. 8-10.)
+7
+
+Appeal2015-001710
+Application 13/460,267
+in claim 18. See Ans. 14--15.) Accordingly, we do not sustain the rejection
+of claim 18 for the same reasons as for claim 1.
+Claims 2--8, 10--17, and 19-23
+Claims 2-8, 10-17, and 19-23 each incorporate through dependency
+the elements of one of independent claims 1, 9, or 18 and therefore, for the
+reasons discussed above, we do not sustain their rejections.
+
+DECISION
+We affirm the indefiniteness rejection of claims 1, 4, and 18, but
+designate that affirmance as a new ground of rejection.
+Pursuant to our authority under 37 C.F.R. § 41.50(b), we enter an
+additional new ground of rejection, rejecting claims 2, 3, 5-11, and 13-23
+under 35 U.S.C. § 112, second paragraph, as indefinite.
+We reverse the prior art rejections of claims 1-23.
+This decision contains a new ground of rejection pursuant to
+37 C.F.R. § 41.50(b). Section 41.50(b) provides "[a] new ground of rejection
+pursuant to this paragraph shall not be considered final for judicial review."
+Section 41.50(b) also provides:
+When the Board enters such a non-final decision, the
+appellant, within two months from the date of the decision,
+must exercise one of the following two options with respect to
+the new ground of rejection to avoid termination of the appeal
+as to the rejected claims:
+(1) Reopen prosecution. Submit an appropriate
+amendment of the claims so rejected or new Evidence relating
+to the claims so rejected, or both, and have the matter
+reconsidered by the examiner, in which event the prosecution
+will be remanded to the examiner. The new ground of rejection
+is binding upon the examiner unless an amendment or new
+Evidence not previously of Record is made which, in the
+8
+
+Appeal2015-001710
+Application 13/460,267
+opinion of the examiner, overcomes the new ground of
+rejection designated in the decision. Should the examiner reject
+the claims, appellant may again appeal to the Board pursuant
+to this subpart.
+(2) Request rehearing. Request that the proceeding be
+reheard under§ 41.52 by the Board upon the same Record.
+The request for rehearing must address any new ground of
+rejection and state with particularity the points believed to
+have been misapprehended or overlooked in entering the new
+ground of rejection and also state all other grounds upon which
+rehearing is sought.
+Further guidance on responding to a new ground of rejection can be
+found in the Manual of Patent Examining Procedure§ 1214.01.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+37 C.F.R. &41.50(b)
+
+9
+
+

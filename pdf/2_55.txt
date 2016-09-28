@@ -1,0 +1,477 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/906,256
+
+10/18/2010
+
+XinZHOU
+
+10-mPCS-245(PDA)
+
+9742
+
+101730
+
+7590
+
+09/22/2016
+
+ECKERT SEAMANS CHERIN & MELLOTT, LLC
+EATON CORPORATION
+600 GRANT STREET
+44THFLOOR
+PITTSBURGH, PA 15219
+
+EXAMINER
+ASTACIO-OQUENDO, GIOVANNI
+
+ART UNIT
+
+PAPER NUMBER
+
+2867
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipmail@eckertseamans.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte XIN ZHOU, DALE L. GASS, BIRGER PAHL, and
+ROBERT YANNIELLO
+
+Appeal2015-003084
+Application 12/906,256
+Technology Center 2800
+
+Before: ADRIENE LEPIANE HANLON, JULIA HEANEY, and
+AVELYN M. ROSS, Administrative Patent Judges.
+
+ROSS, Administrative Patent Judge.
+DECISION ON APPEAL 1
+Appellants 2 appeal under 35 U.S.C. § 134(a) from the Examiner's
+final rejection of claims 1-17 and 19-24. We have jurisdiction under 35
+U.S.C. § 6(b).
+
+1
+
+In our Decision below we refer to the Specification dated October 18, 2010
+(Spec.), the Final Office Action appealed from mailed May 9, 2014 (Final
+Act.), the Appeal Brief filed October 3, 2014 (Appeal Br.), the Examiner's
+Answer mailed November 19, 2014 (Ans.), and the Reply Brief filed
+January 19, 2015 (Reply Br.).
+2
+Appellants identify the real party in interest as Eaton Corporation, the
+assignee of the instant application. Appeal Br. 1.
+
+Appeal2015-003084
+Application 12/906,256
+We AFFIRM.
+
+STATEMENT OF CASE
+The claims are directed to acoustic apparatus and acoustic sensor
+apparatus, including a clamp, to detect faults and loose electrical
+connections. Spec. 1-2. Including the clamp allows "the acoustic apparatus
+or acoustic sensor apparatus to be moved around relatively easily (eg., not
+for permanent installation)." Id. at 3. Claim 1, reproduced below, is
+illustrative of the claimed subject matter:
+1.
+
+An acoustic sensor apparatus comprising:
+a housing;
+a clamp structured to firmly hold together said housing and
+an electrical power conductor;
+an acoustic sensor structured to detect acoustic noise from
+said electrical power conductor and output a signal; and
+a circuit structured to detect an electrical conductivity fault
+from the signal,
+wherein said circuit and said acoustic sensor are housed
+within said housing.
+Claims Appendix at Appeal Br. 11.
+
+REJECTIONS
+The Examiner made the following rejections:
+A.
+
+Claim 6-8 stands rejected under 35 U.S.C. § 112 first
+paragraph as failing to comply with the written description
+requirement. Final Act. 3.
+
+2
+
+Appeal2015-003084
+Application 12/906,256
+B.
+
+Claims 1 and 13-16 stand rejected under 35 U.S.C.
+§103(a) as being unpatentable over Zhou3 in view of
+Bose. 4 Id. at 4.
+
+C.
+
+Claim 2 stands rejected under 35 U.S.C. §103(a) as being
+unpatentable over Zhou in view of Bose and further in
+view of Milkovic. 5 Id. at 6.
+
+D.
+
+Claim 3 stands rejected under 35 U.S.C. §103(a) as being
+unpatentable over Zhou in view of Bose in view of
+Milkovic and further in view of Cook. 6 Id. at 7.
+
+E.
+
+Claims 4 and 5 stand rejected under 35 U.S.C. §103(a) as
+being unpatentable over Zhou in view of Bose and further
+in view of Edwards. 7 Id. at 8.
+
+F.
+
+Claims 6, 8-10, and 19 stand rejected under 35 U.S.C.
+§103(a) as being unpatentable over Zhou in view of Bose
+and further in view ofNero. 8 Id.
+
+G.
+
+Claim 7 stands rejected under 35 U.S.C. §103(a) as being
+unpatentable over Zhou in view of Bose in view of Nero
+and further in view of Leach. 9 Id. at 13.
+
+H.
+
+Claims 11 and 12 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Zhou in view of Bose and
+further in view of Atherton. 10 Id. at 14.
+
+3
+
+Zhou et al., US 7,148,696 B2, issued December 12, 2006 (hereinafter
+"Zhou").
+4
+Bose et al., US 7,746,055 B2, issued June 29, 2010 (hereinafter "Bose").
+5
+Milkovic et al., US 6,518,772 Bl, issued February 11, 2003.
+6
+Cook, US 4,870,353, issued September 26, 1989.
+7
+Edwards et al., US 7,335,033 Bl, issued February 26, 2008.
+8
+Regis J. Nero, Jr., US 2010/0013457 Al, published January 21, 2010
+(hereinafter "Nero").
+9
+Leach et al., US 5,657,200, issued August 12, 1997.
+10
+Larry S. Atherton, US 6,657,418 B2, issued December 2, 2003.
+3
+
+Appeal2015-003084
+Application 12/906,256
+l.
+
+Claim 17 stands rejected under 35U.S.C.§103(a) as being
+unpatentable over Zhou in view of Bose in view of
+Palmisano 11 and further in view of Pogrebinsky. 12 Id. at
+15.
+
+J.
+
+Claim 20 stands rejected under 35U.S.C.§103(a) as being
+unpatentable over Zhou in view of Bose in view of Nero
+and further in view of Ishii. 13 Id. at 17.
+
+K.
+
+Claim 21 stands rejected under 35 U.S.C. §103(a) as being
+unpatentable over Zhou in view of Bose in view of Nero
+and further in view of Maraio. 14 Id. at 18.
+
+L.
+
+Claim 22 stands rejected under 35U.S.C.§103(a) as being
+unpatentable over Zhou in view of Bose and further in
+view of Bednar. 15 Id.
+
+M.
+
+Claim 23 stands rejected under 35U.S.C.§103(a) as being
+unpatentable over Zhou in view of Bose and further in
+view of Zhou '403. 16 Id. at 20.
+
+N.
+
+Claim 24 stands rejected under 35U.S.C.§103(a) as being
+unpatentable over Zhou in view of Bose in view of Bednar
+and further in view of Zhou '403. Id. at 21.
+
+Appellants seek our review of rejections A-N. Appellants separately
+argue Rejection A and prior art Rejections Band L, directed to independent
+claims 1 and 22. Appellants present no additional argument, separate from
+what is argued for claims 1 and 22, for dependent claims 2-17, 19-21, and
+11
+
+Palmisano et al., US 2003/0017753 Al, published January 23, 2003.
+Pogrebinsky et al., US 5,792,947, issued August 11, 1998
+13
+Ishii et al., US 5,389,873, issued February 14, 1995.
+14
+Maraio et al., US 5,426,360, issued June 20, 1995.
+15
+Fred H. Bednar, US 5,521,840, issued May 28, 1996 (hereinafter
+"Bednar").
+16
+Xin Zhou, US 7,411,403 B2, issued August 12, 2008 (hereinafter "Zhou
+'403").
+12
+
+4
+
+Appeal2015-003084
+Application 12/906,256
+23-24 (i.e., prior art Rejections C-K and M-N). Appeal Br. 9. Therefore,
+to resolve the issues on appeal, we address the prior art rejections relating to
+claims 1 and 22 as well as the rejections of claims 6-8 based on lack of
+written description.
+
+OPINION
+
+Rejection A- Written Description (claims 6--8)
+The Examiner rejects claims 6-8 as failing to comply with the written
+description requirement. In particular, the Examiner finds that amended
+claims 6-8, adding "said clamp is further structured to firmly hold directly
+together said housing and said electrical power conductor," were not
+described in the Specification as originally filed. Final Act. 3. The
+Examiner finds that the Specification refers only to structures having an
+insulator disposed between the housing and the power conductor. Id. at 3-4;
+
+see also Ans. 2-3 ("the present application states that an insulative means
+are necessary between the electrical power conductor and the housing for
+each embodiment (e.g. insulative cushion, insulative sleeves, or insulative
+housing).").
+Appellants argue that having an insulative spacer is optional and that
+Example 10 teaches an embodiment where the spacer is omitted. Appeal Br.
+3--4. Appellants also argue that
+"[t]he housing 306 can be, for example and without limitation, a
+metallic housing or an insulative housing .... " As will be
+appreciated, such an insulative housing can be used with a power
+conductor in the form of a rectangular bus bar without an
+insulative spacer 312, and that power conductor would not need
+to have an insulative sleeve.
+
+Id. at 4.
+5
+
+Appeal2015-003084
+Application 12/906,256
+Appellants' argument is supported by the record. To comply with the
+written description requirement, an applicant's specification must convey
+with reasonable clarity to a person of ordinary skill in the art that, as of the
+filing date, the applicant was in possession of the claimed invention.
+
+Carnegie Mellon Univ. v. Hoffmann-La Roche Inc., 541F.3d1115, 1122
+(Fed. Cir. 2008). Appearance of a claim in the specification in ipsis verbis
+does not guarantee that the written description requirement is satisfied, see,
+
+e.g., Enzo Biochem, Inc. v. Gen-Probe Inc., 323 F.3d 956, 968 (Fed. Cir.
+2002), nor does a failure to meet that standard require a finding that a claim
+does not comply with the written description requirement, In re Edwards,
+568 F.2d 1349, 1351-52 (Fed. Cir. 1978). "[T]he purpose of the written
+description requirement is to 'ensure that the scope of the right to exclude, as
+set forth in the claims, does not overreach the scope of the inventor's
+contribution to the field of art as described in the patent specification."'
+
+Ariad Pharms., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1353-54 (Fed. Cir.
+2010) (en bane) (quoting Univ. of Rochester v. G.D. Searle & Co., 358 F.3d
+916, 920 (Fed. Cir. 2004)).
+Here, we find that the limitation identified by the Examiner-i.e.,
+"wherein said clamp is further structured to firmly hold directly together said
+housing and said electrical power conductor"-possesses adequate support
+in the Specification as originally filed. The Specification describes an
+embodiment, depicted in Figures 6 and 7, where
+no insulative cushion is employed since electrical cables usually
+have insulative sleeves thereon. Otherwise, the clamp-on
+structure 342, like the clamp-on structure 302, can clamp
+together a housing, such as 306, the power conductor 344, and
+optionally an insulative spacer, such as 312.
+
+6
+
+Appeal2015-003084
+Application 12/906,256
+Spec. 11-12 (emphasis added). Thus, in this embodiment, there is no
+intervening element between the housing and the electrical cable. In
+addition, the Specification teaches that the housing itself may also be made
+of an insulating material. Spec. 10. That the electrical cable may possess an
+insulating sleeve or that the housing may be insulating, does not alter the
+direct connection between the housing and the electrical power conductor.
+We therefore do not sustain the Examiner's rejection of claims 6-8 based on
+lack of written description.
+
+Rejection B - Obviousness (claims 1 and 13-16)
+
+The Examiner rejects claims 1 and 13-16 as unpatentable over Zhou
+in view of Bose. Final Act. 4. The Examiner finds that Zhou generally
+teaches all claim limitations but acknowledges that Zhou fails to disclose a
+clamp structured to firmly hold together the housing and the electrical power
+conductor. Id. 4-5. Though, Examiner finds "that Zhou suggests the
+clamping functionality because the acoustic slug (14) in Fig. 1 of Zhou can
+provide mechanical connections between a power conductor and the system
+(see Zhou, column 5, lines 36 - 40)." Ans. 6. Bose, according to the
+Examiner, supplies the requisite clamp, and the Examiner concludes that
+including the clamp in the acoustic sensor of Zhou would have been obvious
+to one skilled in the art so that the sensor could be "easily and repeatedly
+installed on electrical conductors. (Bose, col. 6, lines 9-11 )." Id.
+Appellants urge that Zhou teaches that "it is essential that the
+connection configuration shown in FIG. 1 wherein the circuit breaker 2 is
+secured between the terminal end of conductor 8 and the line terminal 13
+such that separable contacts 16 electrically connected in series between the
+
+7
+
+Appeal2015-003084
+Application 12/906,256
+line terminal 13 and the acoustic lug 14." Appeal Br. 6. According to
+Appellants, Bose "describes a current sensor 30 that includes a housing 32
+having a clamp 52 rotatably attached thereto such that a conductor 14 is able
+to be received in a circular space created between the clamp 52 and the
+housing 32." Id. Therefore, the combination of Zhou with Bose would
+render Zhou unsatisfactory for its intended purpose because
+if modified as suggested by the Examiner, the housing of the
+circuit breaker 2 would be coupled to the outside of the conductor
+8 as taught by Bose and held in place by the clamp of Bose. In
+that configuration, the circuit breaker 2 would no longer be
+operative to interrupt the circuit in the event that a fault condition
+is detected since that would eliminate the electrical connection
+of the separable contacts 16 and the lug 14 to the lug 13.
+Id. at 7. Thus, Appellants argue, the "modification would, however, prevent
+Zhou from performing its intended function/purpose of, upon detection,
+interrupting the circuit by opening the separable contact 16." Reply Br. 3.
+Appellants also contend that no reason exists for the person of ordinary skill
+to make the proposed modification because of the circuit interruption "one
+of ordinary skill in the art would have recognized the importance of the
+setup and configuration shown in FIG. 1 for the circuit interruption
+functionality of the device of Zhou et al. and would have no reason to
+disrupt it." Appeal Br. 8 and Reply Br. 3.
+On this record, Appellants arguments are not persuasive of reversible
+error. The Examiner finds (Ans. 6), as do we, that Zhou teaches "[t]he
+acoustic sensor 4 is suitably coupled to the electrical conductor 8" and
+suggests a connection exists at lug 14 that connects the power conductor to
+the system housing. Zhou, col. 5, 11. 36--40. In the rejection on appeal, the
+Examiner merely replaces that connection with the clamp disclosed in Bose.
+8
+
+Appeal2015-003084
+Application 12/906,256
+Appellants do not address the Examiner's findings regarding the
+replacement of the connection existing at lug 14. In doing so, Appellants
+have failed to show that a clamp located at this interface would undermine
+the setup configuration as shown in Figure 1 of Zhou or would render Zhou
+unsatisfactory for its intended purpose, such that the combination of Zhou
+and Bose would not render the instant claims obvious. We therefore sustain
+the Examiner's rejection.
+
+Rejection L-Obviousness (claim 22)
+The Examiner rejects claim 22 as unpatentable over Zhou in view of
+Bose and further in view of Bednar. Final Act. 18. In addition to the
+requirements of claim 1, claim 22 additionally includes "(b) an acoustic
+transmitter structured to generate acoustic noise to mimic acoustic noise
+induced by an electrical conductivity fault." Claims Appendix at Appeal Br.
+14. The Examiner acknowledges that neither Zhou nor Bose teach an
+acoustic transmitter, but the Examiner finds that "Bednar teaches (b) an
+acoustic transmitter (column 4, lines 18 - 19) structured to generate acoustic
+noise to mimic acoustic noise (column 4, lines 19 - 20) induced by an
+electrical conductivity fault (column 4, lines 15 - 18)." Final Act. 20. The
+Examiner concludes it would have been obvious to include the acoustic
+transmitter of Bednar in the Zhou/Bose combination
+because it is possible to detect loose metallic debris moving
+through a conduit of a system by sensing the sound the debris
+makes when impacting against the conduit walls (Bednar,
+column 1, lines 15 - 18), and a system for detecting loose debris
+can be provided by operatively arranging an acoustic sensor with
+another elements (Bednar, column 1, lines 32 - 33).
+
+9
+
+Appeal2015-003084
+Application 12/906,256
+Id. The Examiner also finds that "it was known in the art that a microphone
+
+is an acoustic-to-electric transducer or sensor that converts sound in air into
+an electrical signal .... Therefore, the acoustic pickup in Bednar can be
+structured to generate acoustic noise to mimic acoustic noise induced by an
+electrical conductivity fault." Ans. 7-8.
+Appellants explain that Bednar teaches an "an acoustic pickup 42 is
+arranged to sense vibration of a conduit 32 for liquid coolant, producing an
+electrical signal in response to vibration of the conduit sidewall 34." Appeal
+Br. 9. Appellants urge that the "Examiner's analysis is not correct and that
+the cited references do not teach or suggest an acoustic transmitter that
+mimics acoustic noise of an electrical conductivity fault within the context
+of Claim 22." Id.
+Appellant has not directed us to any error in the Examiner's findings
+and conclusions. Appellant offers little more than a description of Bednar, a
+summary of the claim language and a conclusory statement that the
+Examiner is incorrect. See Appeal Br. 9. Moreover, Appellant presents no
+distinction between the acoustic transmitter of claim 22 as compared to the
+acoustic pickup of Bednar. Accordingly, Appellant's argument is not
+persuasive of reversible error by the Examiner and we sustain the rejection
+of claim 22, and claims depending therefrom.
+
+CONCLUSION
+The Examiner erred in rejecting claims 6-8 under 35 U.S.C. § 112 first
+paragraph, as failing to comply with the written description requirement.
+
+10
+
+Appeal2015-003084
+Application 12/906,256
+The Examiner did not err in rejecting claim 1, and claims depending
+therefrom, under 35 U.S.C. § 103(a), as being unpatentable over Zhou in
+view of Bose, among other references.
+The Examiner did not err in rejecting claim 22, and claims depending
+therefrom, under 35 U.S.C. § 103(a), as being unpatentable over Zhou in
+view of Bose and in further view of Bednar, among other references.
+
+DECISION
+For the above reasons, the Examiner's decision rejecting claims 1-17
+and 19-24 as unpatentable, over the identified prior art, is affirmed.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a)(l).
+
+AFFIRMED
+
+11
+
+

@@ -1,0 +1,306 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+11/544,685
+
+10/06/2006
+
+Bruce Matichuk
+
+062A.0001.U1(US)
+
+8327
+
+29683
+
+7590
+
+09/13/2016
+
+EXAMINER
+
+HARRINGTON & SMITH
+4 RESEARCH DRIVE, Suite 202
+SHELTON, CT 06484-6212
+
+STORK, KYLE R
+
+ART UNIT
+
+PAPER NUMBER
+
+2144
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/13/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________________
+Ex parte BRUCE MATICHUK, JOHN REBSTOCK, and
+MICHAEL KRAFT
+____________________
+Appeal 2013-008487
+Application 11/544,685
+Technology Center 2100
+____________________
+
+Before JOSEPH L. DIXON, JAMES R. HUGHES, and ERIC S. FRAHM,
+Administrative Patent Judges.
+FRAHM, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner’s
+Final Rejection of claims 1, 4–14, 16–29, and 31–40. Claims 2, 3, 15, and
+30 have been canceled. We have jurisdiction under 35 U.S.C. § 6(b). We
+affirm.
+Exemplary Claim
+Exemplary independent claim 1 under appeal, with emphasis added to
+the disputed portions of the claim, reads as follows:
+
+Appeal 2013-008487
+Application 11/544,685
+1. A redaction system comprising:
+a source of redaction rules comprising a memory; and
+a redaction engine connected to the source of redaction
+rules, the redaction engine configured to redact an
+electronic document in accordance with at least one of
+the redaction rules contained in the source of redaction
+rules to thereby generate a redacted version of the
+electronic document containing at least one redaction,
+where the redaction engine is configured to redact a
+plurality of different document file formats of
+electronic documents, where the redaction engine is
+configured to identify the electronic document by
+document type and redact the electronic document in
+accordance with the redaction rules specific for that
+identified document type, wherein the source of redaction
+rules comprises at least one rule for automatically
+excluding information.
+Examiner’s Rejections
+(1) The Examiner rejected claims 1, 4–8, 10, 11, 13, 14, 16–28, 31–
+34, 36–38, and 40 as being unpatentable under 35 U.S.C. § 103(a) over
+Torres (US 2004/0088313 A1; published May 6, 2004) and Schneck (US
+2003/0172034 A1; published Sept. 11, 2003).1 Final Act. 2–13; Ans. 2–9.
+1
+
+Appellants present detailed arguments on the merits with respect to claims
+1, 4, 11, 13, 14, 18, 19, 21, 22, 24, 25, 37, and 40 (App. Br. 6–24; Reply Br.
+1–9). Appellants rely on the arguments presented for claim 1 as to the
+patentability of remaining dependent claims 10, 16, 17, 20, 23, 31–34, and
+36 which depend from claim 1 and contain similar features (see generally
+App. Br. 6–21). Accordingly, we select claim 1 as representative of the
+group of claims (claims 1, 10, 16, 17, 20, 23, and 31–34) rejected for
+obviousness over the combination of Torres and Schneck. Based on
+Appellants’ arguments (App. Br. 11), we select claim 4 as representative of
+claims 4–8 rejected over Torres and Schneck. Based on Appellants’
+arguments (App. Br. 20–21), we also select claim 25 as representative of
+2
+
+Appeal 2013-008487
+Application 11/544,685
+(2) The Examiner rejected claims 9 and 29 as being unpatentable
+under 35 U.S.C. § 103(a) over Torres, Schneck, and Sperry (US
+2006/0259983 A1; published Nov. 16, 2006).2 Final Act. 13–14.
+(3) The Examiner rejected claim 12 as being unpatentable under 35
+U.S.C. § 103(a) over Torres, Schneck, and Kobayashi (US 2004/0220919
+A1; published Nov. 4, 2004).3 Final Act. 14.
+(4) The Examiner rejected claims 35 and 39 as being unpatentable
+under 35 U.S.C. § 103(a) over Torres, Schneck, and Patton (US
+2003/0145017 A1; published July 31, 2003).4 Final Act. 15.
+Principal Issue on Appeal
+Based on Appellants’ arguments in the Appeal Brief (App. Br. 6–25)
+and the Reply Brief (Reply Br. 1–9), the following principal issue is
+presented on appeal:
+Based on the broadest reasonable interpretation of the terms
+“document” and “document type,” did the Examiner err in rejecting claims
+1, 4–14, 16–29, and 31–40 as being obvious over the base combination of
+
+claims 25–28 rejected over Torres and Schneck. And, based on Appellants’
+arguments (App. Br. 22), we select claim 37 as representative of claims 37
+and 38 rejected over Torres and Schneck.
+2
+With regard to the rejections of (i) claims 9 and 29 over the combination of
+Torres, Schneck, and Sperry; (ii) claims 35 and 39 over the combination of
+Torres, Schneck, and Patton, Appellants rely on the arguments already
+presented with respect to representative independent claim 1 and
+independent claim 37 but do not present arguments as to claims 9, 29, 35,
+and 39 under a separate heading.
+3
+Appellants do not present any arguments as to claim 12 rejected over the
+combination of Torres, Schneck, and Kobayashi. Accordingly, we will
+sustain this rejection pro forma.
+4
+Id. fn.2.
+3
+
+Appeal 2013-008487
+Application 11/544,685
+Torres and Schneck because the combination, and specifically Schneck, fails
+to teach or suggest a redaction engine configured to identify a “document
+type,” apply “redaction rules,” and redact electronic documents having
+“different document file formats” accordingly, as set forth in representative
+independent claim 1, and as similarly recited in remaining independent
+claims 37 and 40?
+
+ANALYSIS
+We have reviewed the Examiner’s rejections (Final Act. 2–15) in light
+of Appellants’ contentions in the Appeal Brief (App. Br. 6–25) and the
+Reply Brief (Reply Br. 1–9) that the Examiner has erred, as well as the
+Examiner’s response (Ans. 2–9) to Appellants’ arguments in the Appeal
+Brief. We disagree with Appellants’ conclusions.
+We concur with the conclusions reached by the Examiner, and as to
+claims 1, 4, 11, 13, 14, 18, 19, 21, 22, 24, 25, 37, and 40, we adopt as our
+own (1) the findings and reasons set forth by the Examiner in the Final
+Office Action from which this appeal is taken (Final Act. 2–15), and (2) the
+reasons set forth by the Examiner in the Examiner’s Answer in response to
+Appellants’ Appeal Brief (Ans. 2–9). We highlight and amplify certain
+teachings and suggestions of the references, as well as certain ones of
+Appellants’ arguments as follows.
+At the outset, we note that claim 1 recites a redaction engine for
+redacting an electronic document using an appropriate redaction rule from a
+source of redaction rules. The redaction engine is claimed to be able to
+redact different document file formats of electronic documents (claims, 1,
+37, and 40). The redaction engine is also claimed to (i) identify electronic
+
+4
+
+Appeal 2013-008487
+Application 11/544,685
+documents by “document type,” and (ii) redact the electronic document “in
+accordance with the redaction rules specific for that identified document
+type” (claim 1). Independent claims 1, 37, and 40 do not require that the
+different electronic document types be coextensive with the different
+document file formats. Furthermore, the independent claims do not specify
+or define what constitutes a “document type” (claims 1, 37, and 40).
+To interpret what is meant by document type, we start with the plain
+and ordinary meaning — an electronic document of a specific type. The
+“type” could be almost anything, including documents of certain file sizes,
+formats (e.g., pdf, html, xml, doc, etc.), languages, colors, etc. Appellants
+disclose that the document types could also be different documents, such as
+an arrest report versus a police drug seizure report (see Spec. ¶¶ 37 and 38).
+Appellants also disclose that documents may have different file formats,
+such as html, pdf, doc, etc., but state that the “formats mentioned above are
+merely examples” (¶ 45; see Fig. 22, documents 12). According to the
+extrinsic evidence of record, and specifically Torres, “[a] document is a
+collection of data, knowledge or information which may be on any media
+that is machine readable or capable of being converted to machine readable
+information and loaded to a database. The document can be text, image,
+video[,] or audio” (¶ 8) (emphasis added). Furthermore, Torres describes an
+electronic document as being “any digitally based archival media” that “is
+prepared as a machine readable document for uploading to the database.
+The document can be an audio message to be converted to text (or not), an
+image to convert to objects and text or only text” (¶ 67).
+In view of all the record evidence before us, we conclude that the
+broadest reasonable interpretation of “document type” can include any of the
+
+5
+
+Appeal 2013-008487
+Application 11/544,685
+above. In other words, arrest reports and police drug seizure reports are
+types of documents (if loaded electronically), as well as transcripts of 911
+calls and audio recordings of 911 calls. And, documents having different
+document file formats can be different document types, or they could be of
+the same document type.5 For example, two different documents, each
+having text on them can be different types based on their file size.
+In this light, Schneck’s disclosure of choosing redaction rules based
+on detecting whether data is a certain type (see, e.g., ¶¶ 323–37, describing
+Books, Movie, Software, Documents, Map image data, or Global
+Positioning System software) serves to redact a plurality of different
+document file formats of electronic documents and “redact the electronic
+document in accordance with the redaction rules specific for that identified
+document type” as recited in claim 1, and similarly recited in claims 37 and
+40. Thus, the broad recitations in claims 1, 37, and/or 40 encompass
+document types being at least any of the following, inter alia: Books having
+an abstract and an index, Movies having trailers and X-rated parts, Software,
+Documents like legal documents having paragraphs and words, Map image
+data having different resolutions and/or security access levels, and/or Global
+Positioning System (GPS) software having different security clearance
+levels and/or accuracy and resolution levels. See Schneck (¶¶ 323–36).
+In view of the foregoing, we agree with the Examiner that the
+combination of Torres and Schneck teaches or suggests a redaction engine
+
+5
+
+In view of Torres definitions for “document” and descriptions of document
+types (see Torres ¶¶ 8 and 67), we are unpersuaded by Appellants’ assertion
+(App. Br. 6) that paragraph 45 and Figure 22 of the Specification requires
+that a document “file format” be different from a “document type.”
+6
+
+Appeal 2013-008487
+Application 11/544,685
+configured to identify a “document type,” apply “redaction rules,” and
+redact electronic documents having “different document file formats”
+accordingly, as set forth in representative independent claim 1, and as
+similarly recited in remaining independent claims 37 and 40.
+With regard to claims 37 and 40, Appellants’ contentions (App. Br.
+21–24; Reply Br. 7–9) that the Examiner fails to address the differences
+between claim 1 and claims 37 and 40 (the remaining independent claims),
+are not persuasive. Although this may be true as to the Examiner’s response
+found at page 9 of the Answer, the Examiner did indeed address the
+differences in the claims in detail in the Final Office Action (see Final Act.
+11–13).
+In view of the foregoing, we sustain the obviousness rejection of
+claims 1, 4–8, 10, 11, 13, 14, 16–28, 31–34, 36–38, and 40 under 35 U.S.C.
+§ 103(a) over the combination of Torres and Schneck. For similar reasons,
+we also sustain the Examiner’s remaining obviousness rejections of claims
+9, 12, 29, 35, and 39 (which also rely on the same base combination of
+Torres and Schneck).
+
+CONCLUSION
+The Examiner has not erred in rejecting claims 1, 4–14, 16–29, and
+31–40 as being obvious over the base combination of Torres and Schneck
+because the base combination teaches or suggests a redaction engine
+configured to identify a “document type,” apply “redaction rules,” and
+redact electronic documents having “different document file formats”
+accordingly, as set forth in representative independent claim 1, and as
+similarly recited in remaining independent claims 37 and 40.
+
+7
+
+Appeal 2013-008487
+Application 11/544,685
+
+DECISION
+The Examiner’s rejections of claims 1, 4–14, 16–29, and 31–40 under
+35 U.S.C. § 103(a) are affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(1). See 37 C.F.R.
+§§ 41.50(f), 41.52(b) (2013).
+
+AFFIRMED
+
+8
+
+

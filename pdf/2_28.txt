@@ -1,0 +1,504 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/419,218
+
+0410612009
+
+John R. Stuelpnagel
+
+ILLINC.59CPPC1C
+
+1148
+
+20995
+
+7590
+
+09/22/2016
+
+KNOBBE MARTENS OLSON & BEAR LLP
+2040 MAIN STREET
+FOURTEENTH FLOOR
+IRVINE, CA 92614
+
+EXAMINER
+STEELE, AMBER D
+
+ART UNIT
+
+PAPER NUMBER
+
+1676
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+j ayna.cartee@knobbe.com
+efiling@knobbe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN R. STUELPGNAGEL, MARKS. CHEE, STEVEN R.
+AUGER, GAN G. WANG, LAURA S. CASAS,
+SHAWN CHRISTOPHER BAKER, and ROBERT C. KAIN 1
+
+Appeal2014-007798
+Application 12/419,218
+Technology Center 1600
+
+Before JOHN G. NEW, RICHARD J. SMITH, and
+DEVON ZASTROW NEWMAN, Administrative Patent Judges.
+NEWMAN, Administrative Patent Judge.
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134 involving claims to a method
+of forming a plurality of random arrays of encoded particles on a substrate,
+which have been rejected as anticipated, obvious, and for non-statutory
+obviousness-type double patenting.
+We have jurisdiction under 35 U.S.C. § 6(b). We affirm.
+
+1
+
+Appellants identify the Real Party in Interest as Illumina, Inc. App. Br. 3.
+
+Appeal2014-007798
+Application 12/419,218
+
+STATEMENT OF THE CASE
+Background
+
+The Specification discloses:
+The present invention is directed to the formation of very high
+density arrays that can allow simultaneous analysis, i.e. parallel
+rather than serial processing, on a number of samples. This is
+done by forming an "array of arrays", i.e. a composite array
+comprising a plurality of individual arrays, that is configured to
+allow processing of multiple samples. For example, each
+individual array is present within each well of a microtiter plate.
+Thus, depending on the size of the microtiter plate and the size
+of the individual array, very high numbers of assays can be run
+simultaneous!y.
+Spec. 5:36-6:4.
+[T]he invention provides composite array compositions
+comprising a first substrate with a surface comprising a
+plurality of assay locations and a second substrate comprising a
+plurality of array locations, each array location comprising
+
+discrete sites. The compositions further comprise a population
+of microspheres comprising at least a first and a second
+subpopulation, wh rein [sic wherein] each subpopulation
+comprises a bioactive agent. The microspheres are distributed
+on each of the array locations.
+Spec. 2:32-3:6.
+Claims 51-55 are on appeal. Claim 51 illustrates the subject matter
+and reads as follows:
+51. A process of forming a plurality of random arrays of
+encoded particles on a substrate, wherein each of the arrays are
+formed by random placement of encoded particles,
+wherein differently encoded particles have a different label,
+compnsmg:
+2
+
+Appeal2014-007798
+Application 12/419,218
+
+(i) placing and confining a group of differently encoded
+particles into one or more sites on a substrate having a plurality of
+sites, so as to form a first confined group of particles occupying
+particular sites;
+(ii) recording the positions of the encoded particles within said
+confined group;
+(iii) placing and confining an additional group of differently
+encoded particles into unoccupied sites on the substrate so as to form
+an additional group of confined particles occupying particular sites;
+(iv) recording the positions of particles within said additional
+confined group; and repeating steps (iii) to (iv) several times so as to
+form a plurality of a random encoded arrays of particles.
+App. Br., Claims Appendix, p. 15.
+The following rejections are before us to review (Ans. 2-10):
+Claims 51-55 are rejected under pre-AIA 35 U.S.C. § 102(e) as being
+anticipated by Walt. 2
+Claims 51-55 are rejected under pre-AIA 35 U.S.C. § 103(a) as
+obvious over Kedar3 and Walt.
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-21 of Chee '431. 4
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-11 of Kermani. 5
+
+2
+
+U.S. Pat. No. 6,023,540, issued Feb. 8, 2000 (filed Mar. 14, 1997).
+U.S. Pat. No. 6,165,778, issued Dec. 26, 2000 (filed July 2, 1998, effective
+filing date Nov. 2, 1993).
+4
+U.S. Pat. No. 7,166,431 B2, issued Jan. 23, 2007.
+5
+U.S. Pat. No. 7,499,806 B2, issued Mar. 3, 2009.
+3
+
+3
+
+Appeal2014-007798
+Application 12/419,218
+
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-31 of Chee '57 6. 6
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-15 of Chee '764. 7
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-21 of Chee '274. 8
+Claims 51-55 are rejected on the ground of nonstatutory obviousnesstype double patenting over claims 1-13 of Chee '584. 9
+ANTICIPATION
+We select claim 51 as representative of the rejected claims. 37 C.F .R.
+
+§ 41.37(c)(l)(iv).
+As stated in In re Oetiker, 977 F.2d 1443, 1445 (Fed. Cir. 1992):
+[T]he examiner bears the initial burden ... of presenting a
+prim a facie case of unpatentability ....
+After evidence or argument is submitted by the applicant
+in response, patentability is determined on the totality of the
+record, by a preponderance of evidence with due consideration
+to persuasiveness of argument.
+Appellants' arguments do not persuade us that a preponderance of the
+evidence fails to support the Examiner's prima facie case of anticipation as
+to claim 51.
+Claim 51 recites a process of forming a plurality of random arrays of
+encoded particles on a substrate in which each array is made by randomly
+
+6
+
+U.S.
+U.S.
+8
+U.S.
+9
+U.S.
+
+7
+
+Pat.
+Pat.
+Pat.
+Pat.
+
+No.
+No.
+No.
+No.
+
+7,563,576, issued July 21, 2009.
+6,890,764, issued May 10, 2005.
+6,998,274, issued Feb. 14, 2006.
+6,620,584, issued Sep. 17, 2003.
+4
+
+Appeal2014-007798
+Application 12/419,218
+
+placing encoded particles on the substrate. App. Br., Claims Appendix, p.
+15. Each of the encoded particles has a different label that allows the
+particle location to be "recorded" by detecting the label on the particle. Id.
+As the Examiner found (Final Action 10 4), Walt discloses methods for
+creating multiple arrays by placing and then affixing microspheres (i.e.
+particles), which each contain different biological reagents for subsequent
+detection (i.e. labels), into wells at the ends of a silicon optical fiber bundle.
+(See Walt, abstract:
+
+An optical fiber bundle sensor is also disclosed in which the
+separate microspheres may be optically coupled to discrete
+fibers or groups of fibers within the bundle. The functionalies
+[sic functionalities] are encoded on the separate micro spheres
+using fluorescent dyes and then affixed to wells etched in the
+end of the bundle. Thus, a single sensor may carry thousands
+of chemistries. Only those microspheres exhibiting reactions
+then need to be decoded to identify the corresponding
+functionality.)
+As the Examiner found (Final Action 4), Walt discloses that the
+microspheres may be randomly placed. See Walt Fig. 7A and 7B, reflecting
+random placement of microspheres affixed in an array in which not every
+well is occupied, and Walt 4:63---67 ("micrographs showing the array of
+microspheres in their corresponding wells prior and subsequent to physical
+agitation, tapping and air pulsing, demonstrating the electrostatic binding of
+the microspheres in the wells.")
+
+10
+
+Office Action mailed July 10, 2013.
+5
+
+Appeal2014-007798
+Application 12/419,218
+
+As the Examiner found (Final Action 4), Walt discloses that the
+biological reagents on the microspheres can be detected (i.e. recorded). See
+Walt 3 :4 3--46 (" ... the chemical functionality on each bead is determined via
+an optical signature which is encoded with a description of the chemical
+functionality.") Thus, Walt discloses the steps of random placement and
+affixing of differently labeled "encoded particles," and "recording" the
+location of those particles.
+Claim 51 also recites that the "plurality of random arrays" is created
+through serial performance of the steps of "placing and confining a group of
+differently encoded particles" into unoccupied sites on a multi-site substrate,
+and "recording the positions of the particles within the group." App. Br.,
+Claims Appendix, p. 15.
+As the Examiner found (Final Action 4), Walt discloses that the
+microspheres may be serially placed:
+The microspheres are then placed in the wells 250 in step
+276 according to a number of different techniques. The
+placement of the microspheres may be accomplished by
+dripping a solution containing the desired randomly mixed
+subpopulations of the microspheres over the distal end 212,
+sonicating the bundle to settle the microspheres in the wells,
+and allowing the microsphere solvent to evaporate.
+Alternatively, the subpopulations could be added serially to
+the bundle end.
+Walt 12:49-57 (emphasis added).
+
+6
+
+Appeal2014-007798
+Application 12/419,218
+
+The Examiner also found claims 17 and 21 of Walt (dependent on
+claim 19) teach distributing and monitoring (i.e. recording) the beads and
+serial addition of subpopulation of beads:
+17. A method for constructing and using an analytic
+chemistry sensor, comprising:
+forming wells at terminal ends of optical fibers within a
+bundle;
+distributing beads carrying chemical functionalities
+within the wells; and
+monitoring a status of the chemical functionalities from a
+proximal end of the bundle.
+19. The method described in claim 17, further comprising
+forming a population of beads in the wells from separate
+subpopulations, each subpopulation carrying a different
+chemical functionality and an optically interrogatable code
+descriptive of the chemical functionality.
+21. The method described in claim 19, further comprising
+serially adding the subpopulations to the \vells.
+
+The Examiner concluded that "the presently claimed method is anticipated
+by the teachings of Walt et al." Final Action 4.
+Appellants argue that Walt does not disclose any method that includes
+at least steps "(iii) placing and confining an additional group of differently
+encoded particles into unoccupied sites on the substrate" and "'repeating
+steps (iii) to (iv) several times' (emphasis added)" of claim 51. App. Br. 5.
+Appellants argue that a "subpopulation" of microspheres as used in Walt
+refers to beads or spheres "all of which have the same functionality." Id.
+According to Appellants, the teachings within Walt that the Examiner cited
+for serial addition of subpopulations instead teach serial addition of a group
+
+7
+
+Appeal2014-007798
+Application 12/419,218
+
+of uniformly-labeled microspheres and not "a group of differently encoded
+particles" that contain more than one type of label. Id. at 5-6. Therefore,
+Appellants argue, Walt's "single step embodiment" does not teach the
+claimed method because "Applicant's claims require at least three steps of
+'placing and confining beads"' (i.e. step (i), step (iii) and the repetition of
+step (iii)), and the "serial addition embodiment" of Walt does not teach
+claim 51 because "the beads within each serially added 'subpopulation' of
+Walt are the same whereas the particles within each serially placed 'group'
+of the claims are 'differently encoded"'. Id. at 6-7. Appellants argue "the
+sections of Walt cited by the Examiner disclose neither '(iii) placing and
+confining an additional group of differently encoded particles into
+unoccupied sites on the substrate' nor 'repeating step (iii) to (iv)."' Id.
+In response, the Examiner cites to teachings in Walt that explain "the
+subpopulations can be randomly mixed together" and therefore "a recitation
+of 'subpopulations' (i.e. plural) encompasses randomly mixed
+subpopulations." Ans. 12. We agree with Appellants that "subpopulation"
+as used in Walt refers to a population of spheres or beads that contains a
+single type of detectable functionality. Nevertheless, we are not persuaded
+that a preponderance of the evidence fails to support the Examiner's prima
+facie case of anticipation as to claim 51.
+Walt discloses that arrays can be made as follows:
+The microspheres are then placed in the wells 250 in step
+276 according to a number of different techniques. The
+placement of the microspheres may be accomplished by
+dripping a solution containing the desired randomly mixed
+subpopulations of the microspheres over the distal end 212,
+sonicating the bundle to settle the microspheres in the wells,
+
+8
+
+Appeal2014-007798
+Application 12/419,218
+
+and allowing the microsphere solvent to evaporate.
+Alternatively, the subpopulations could be added serially to the
+bundle end.
+12:49-57 (text emphasis added).
+When "randomly mixed subpopulations of the microspheres" are
+placed into wells via a dripped solution, the identity and distribution of the
+microsphere subpopulations within the wells would necessarily be random.
+As each well is "unoccupied" at the time the array making process begins,
+each placement of randomly mixed subpopulations of microspheres
+comprises "placing and confining an additional group of differently encoded
+particles into unoccupied sites on the substrate so as to form an additional
+group of confined particles occupying particular sites" as recited by claim
+51. Thus, Walt discloses repeating steps (i) and (iii) multiple times to create
+"a plurality of a random encoded array of particles" as recited by claim 51.
+ii.Jthough \Valt does not teach the monitoring/recording step after each
+addition of randomly distributed microsphere subpopulations to the wells,
+this does not preclude a finding of anticipation because claim 51 is not so
+limited. That is, the monitoring/detecting step can be performed subsequent
+to the distribution of the particles as disclosed in Appellants' Specification:
+It should be noted that while most of the methods described
+
+herein add the beads to the substrate prior to the assay, the order
+of making, using and decoding 11 the array can vary. For
+example, the array can be made, decoded, and then the assay
+done. Alternatively, the array can be made, used in an assay,
+
+11
+
+Although claim 51 recites "recording," the Specification uses the term
+"decoding."
+9
+
+Appeal2014-007798
+Application 12/419,218
+
+and then decoded; this may find particular use when only a few
+beads need be decoded.
+Spec. 32:37-33:4
+In view of this disclosure, we find that the recording step of claim 51
+need not be performed subsequent to each step of "placing and confining an
+additional group of differently encoded particles into unoccupied sites on the
+substrate so as to form an additional group of confined particles occupying
+particular sites." See In re Hampel, 162 F.2d 483, 485-86 (CCPA 1947)
+("There is nothing in the instant record which indicates that the particular
+order of steps produces results differing in any way from those which would
+be brought about if another order of steps were followed.") With this
+interpretation, the disclosure of Walt, e.g., claims 17, 19 and 21, teaches
+every step of the claimed invention.
+Furthermore, in considering the disclosure of a reference for
+
+anticipation, it is proper to take into account not only specific teachings of
+the reference but also the inferences that one skilled in the art would
+reasonably be expected to draw therefrom. In re Preda, 401 F.2d 825, 826
+(CCP A 1968). We find the disclosure of Walt, and in particular, claims 17,
+19 and 21, teach the ordinary artisan that the steps of creating an assay for
+use in the method of claim 51 can be performed in a different sequence as
+desired. In sum, for the reasons discussed, Appellants' arguments do not
+persuade us that the Examiner erred in finding that Walt describes a method
+for forming a plurality of random arrays that has all of the features required
+by claim 51. Accordingly, we affirm the Examiner's rejections of claim 51
+
+10
+
+Appeal2014-007798
+Application 12/419,218
+
+as anticipated by Walt. Because they were not argued separately, claims 5255 fall with claim 51. 37 C.F.R. § 41.37(c)(l)(iv).
+OBVIOUSNESS
+In rejecting claims 51-55 for obviousness over Kedar and Walt, the
+Examiner relied on Kedar as a reference that teaches all elements of claim
+51 except fixing beads onto a support. Ans. 5-7. The Examiner additionally
+relied on the teachings of Walt discussed above, including the teaching on
+"fiber optic supports wherein the beads can be fixed onto wells etched into
+each fiber of the fiber optic bundle." Id. at 7. We agree with the Examiner's
+conclusions regarding the scope and content of the prior art and adopt them.
+Appellants argue that Kedar discloses neither "placing and confining
+an additional group of differently encoded particles into unoccupied sites on
+the substrate" nor ordered step "'(ii) recording the positions of the encoded
+particles within said confined group' of Claim 51." App. Br. 9-11.
+Appellants reiterate their argument that Walt fails to teach these steps (id. at
+11) and further argue one of skill in the art would not modify the process of
+
+Kedar to use the methods of Walt because doing so would render the Kedar
+process "unsuitable for its intended purpose." Id. at 12.
+As discussed above, Appellants do not persuade us that Walt lacks
+any of the limitations of claim 51. Accordingly, because Appellants'
+arguments do not identify any deficiency in the Examiner's obviousness
+rejection of claims 51-55 for obviousness over Walt, we affirm the rejection.
+In addition, we find that even if Walt were found not to meet all of the
+limitations of claim 51 for failure to repeat the claimed steps as argued by
+Appellants, we find that claim 51 would still have been obvious to one of
+
+11
+
+Appeal2014-007798
+Application 12/419,218
+
+ordinary skill in the art. See PerfectWeb Techs., Inc. v. InfoUSA, Inc., 587
+F.3d 1324, 1331 (Fed. Cir. 2009) ("performing the recited prior art method
+of steps [] more than once [as required by the claimed method] was one of
+the 'inferences and creative steps that a person of ordinary skill would
+employ" (citing KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418).
+
+OBVIOUSNESS-TYPE DOUBLE PATENTING
+Appellants do not contest or address the obviousness-type double
+patenting rejections. Therefore, we summarily affirm, and will not further
+discuss, these rejections. See Manual of Patent Examining Procedure §
+1205.02 ("If a ground of rejection stated by the examiner is not addressed in
+the appellant's brief, appellant has waived any challenge to that ground of
+rejection and the Board may summarily sustain it.").
+SUMMARY
+For the reasons discussed, we affirm the rejection of claim 51 on the
+ground of anticipation by Walt. Claims 52-55 have not been argued
+separately and therefore fall with claim 51. 37 C.F.R. § 41.37(c)(l)(iv).
+For the reasons discussed, we affirm the rejection of claim 51 on the
+ground of obviousness over Kedar and Walt. Claims 52-55 have not been
+argued separately and therefore fall with claim 51. 37 C.F.R.
+§ 41.37(c)(l)(iv).
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over claims 1-21 of Chee
+'431.
+
+12
+
+Appeal2014-007798
+Application 12/419,218
+
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over claims 1-11 of Kermani.
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over 1-31 of Chee '57 6.
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over claims 1-15 of Chee
+'764.
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over claims 1-21 of Chee
+'274.
+We summarily affirm the rejection of claims 51-55 on the ground of
+nonstatutory obviousness-type double patenting over claims 1-13 of Chee
+'584.
+TIME PERIOD FOR RESPONSE
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+
+AFFIRMED
+
+13
+
+

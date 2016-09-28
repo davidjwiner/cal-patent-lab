@@ -1,0 +1,267 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/610,589
+
+11102/2009
+
+Chung-Chun Chen
+
+Ol 14775.104US2
+
+1748
+
+21874
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+Locke Lord LLP
+
+EARLES,BRYANE
+
+P.O. BOX 55874
+BOSTON, MA 02205
+
+ART UNIT
+
+PAPER NUMBER
+
+2625
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patent@lockelord.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CHUNG-CHUN CHEN
+
+Appeal2015-003786
+Application 12/610,589
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, CARL W. WHITEHEAD JR., and
+NABEEL U. KHAN, Administrative Patent Judges.
+MacDONALD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-003786
+Application 12/610,589
+STATEMENT OF CASE
+
+Introduction
+Appellant appeals under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1---6 and 15-19. We have jurisdiction under 35 U.S.C. § 6(b).
+
+Exemplary Claim
+Exemplary claim 1 under appeal reads as follows (emphasis added):
+1. A capacitive position detector, comprising:
+(a) an input for providing a supply voltage, VIN;
+(b) a capacitive sensor array, comprising:
+(i) a first sensing output;
+(ii) a second sensing output;
+(iii) a plurality of capacitors, {C(m)}, m = 1, 2, ... , M, M being
+a positive integer, each capacitor C(m) having a first
+electrode and a second electrode;
+(iv) a plurality of sensor resistors, {Rs(m)}, each sensor
+resistor Rs(m) having a first terminal and a second
+terminal, wherein the first and second terminals of the j-th
+sensor resistor RsU) are electrically connected to the first
+electrodes of the j-th capacitor CU) and the u+ 1)-th
+capacitorCU+l ), respectively,j = 1, 2, ... , (M-1), and the
+first and second terminals of the M-th sensor resistor Rs(M)
+are electrically connected to the first electrode of the M-th
+capacitor C(M) and the first sensing output, respectively;
+and
+(v) a plurality of reference resistors, {RcoM(m)}, each
+reference resistor RcoM(m) having a first terminal and a
+second terminal, wherein the first and second terminals of
+the j-th reference resistor RcoMU) are electrically connected
+to the second electrodes of the j-th capacitor CU) and the
+u+ 1)th capacitor cu+ 1), respectively, and the first and
+second terminals of the M-th reference resistor RcoM(M) are
+electrically connected to the second electrode of the M-th
+2
+
+Appeal2015-003786
+Application 12/610,589
+capacitor C(M) and the second sensing output, respectively;
+and
+(c) an operational amplifier having an inverting input terminal
+electrically coupled to the first sensing output of the capacitive
+sensor array, and a non-inverting input terminal, and an output
+terminal, wherein the non-inverting input terminal and the second
+sensing output of the capacitive sensor array are electrically
+connected in common to the input, and wherein an output terminal
+is adapted for outputting an output signal, V ouT; and
+(d) a feedback capacitor CT electrically connected between the
+inventing input terminal and the output terminal of the operational
+amplifier.
+
+Examiner's Rejections
+The Examiner rejected claims 1-3 and 15-18 under 35 U.S.C.
+§ 102(b) as being anticipated byNohno et al. (US 6,239,788 Bl, issued May
+29, 2001).
+
+1
+
+The Examiner rejected claims 4---6 and 19 as being unpatentable under
+35 U.S.C. § 103(a) as being unpatentable over ofNohno in various
+combinations with other references. 2
+
+1
+
+As to this rejection, our decision as to the rejection of independent claim 1
+is determinative. Therefore, except for our ultimate decision, the rejection
+of claims 2, 3, and 15-18 is not discussed further herein.
+2
+
+As to this rejection, our decision as to the rejection of independent claim 1
+is determinative. Therefore, except for our ultimate decision, the rejections
+of claims 4---6 and 19 are not discussed further herein.
+
+3
+
+Appeal2015-003786
+Application 12/610,589
+Appellant's Contention 3
+1. Appellant contends that the Examiner erred in rejecting claim 1
+under 35 U.S.C. § 102(b) because Nohno does not expressly describe the
+circuitry structure as claimed:
+[As shown in the record], Appellant has emphasized that Nohno
+fails to teach or reasonably suggest the specific connections
+(i.e., circuitry) of the capacitors and resistors recited in
+claim[ 1] of the present application.
+Further, the Examiner has previously, and repeatedly,
+stated that Nohno does indeed disclose an equivalent circuit of
+the position detection device. By doing so, the Examiner has
+previously, and repeatedly, acknowledged that that Nohno does
+not expressly disclose each and every circuitry connection as
+currently claimed in the present application. Accordingly, it
+should be without a doubt that Nohno does not expressly teach
+all of the elements of the circuitry structures as recited in
+claim [ 1].
+App Br. 29-30, emphases added.
+2. Appellant contends that the Examiner erred in rejecting claim 1
+under 35 U.S.C. § 102(b) because Nohno does not inherently teach the
+circuitry structure as claimed:
+[T]he Examiner has the burden to provide rationale or evidence
+showing that Nohno inherently teaches the specific connections
+(circuitry) as recited in claim[ 1]. [T]o satisfy the burden, the
+Examiner must provide a basis in fact and/ or technical
+reasoning to reasonably support the determination that the
+allegedly inherent characteristic necessarily flows from the
+teachings of Nohno. . .. [T]he Examiner did not satisfy such
+burden by showing that Nohno merely teaches an equivalent
+circuit of the circuitry structure as recited in claim[ 1]. As
+3
+
+This contention is determinative as to the rejections on appeal.
+Therefore, Appellant's other contentions are not discussed herein.
+
+4
+
+Appeal2015-003786
+Application 12/610,589
+Appellant has previously indicated in the response of record, an
+equivalent circuit is a most simplified form of a theoretical
+circuit. Implementations of the equivalent circuit, however,
+generally include more complex circuitry structures. The same
+equivalent circuit may be implemented with multiple, different
+and more complex circuitry structures, and each
+implementation of the circuitry structures may include different
+elements (i.e. circuit components and connections). Further,
+the Examiner has failed to provide a basis in fact and/or
+technical reasoning to reasonably support the determination that
+the allegedly inherent characteristic necessarily flows from the
+teachings of Nohno .... As to the connections of the resistors,
+the Examiner merely stated in the Office Actions of record that
+the resistors are inherently provided since "it is well known in
+the art that there exists a sheet resistance within any two points
+of a conductive body". One of ordinary skill in the art, based
+on the showing of capacitors or capacitive connections as
+shown in Nohno, would still have insufficient information to
+understand the inherent characteristics to implement the
+specific connections of the capacitors and resistors as recited
+in claim [ 1].
+App Br. 30-32, emphases added.
+
+Issue on Appeal
+
+Did the Examiner err in rejecting claim 1 as being anticipated because
+Nohno fails to disclose the argued limitation?
+
+ANALYSIS
+We agree with the Appellant's above recited contention.
+The Examiner finds that "N ohno does not expressly disclose an array
+of sensor resistors Rs(m); however, these resistors are inherently provided
+since it is well known in the art that there exists a sheet resistance within any
+two points of a conductive body" (Final Act. 3) and "Nohno does not
+5
+
+Appeal2015-003786
+Application 12/610,589
+expressly disclose an array of reference resistors RcoM(m); however, these
+resistors are inherently provided since it is well known in the art that there
+exists a sheet resistance within any two points of a conductive body" (Final
+Act. 3--4). We conclude the Examiner's analysis shows that inherent
+"resistances" exist. However, for the reasons set forth by Appellant, the
+Examiner's analysis does not show the particular claimed circuit structure is
+known in the art where the circuit structure comprises two groups of plural
+resistors (not merely resistances) each with a first terminal, a second
+terminal, and being electrically connected to a particular electrode of the
+plural capacitors.
+
+CONCLUSIONS
+(1) Appellant has established that the Examiner erred in rejecting
+claims 1-3 and 15-18 as being anticipated under 35 U.S.C. § 102(b).
+(2) Appellant has established that the Examiner erred in rejecting
+claims 4---6 and 19 as being unpatentable under 35 U.S.C. § 103(a).
+(3) On this record, claims 1-6 and 15-19 have not been shown to be
+unpatentable.
+
+DECISION
+The Examiner's rejections of claims 1---6 and 15-19 are reversed.
+
+REVERSED
+
+6
+
+

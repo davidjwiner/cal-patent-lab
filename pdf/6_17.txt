@@ -1,0 +1,308 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/420, 111
+
+04/08/2009
+
+John Howison Schroeder
+
+Neuro-0801
+
+1871
+
+36787
+
+7590
+
+09/16/2016
+
+BLYNN L SHIDELER
+THE BLK LAW GROUP
+3500 BROKKTREE ROAD
+SUITE 200
+WEXFORD, PA 15090
+
+EXAMINER
+V ANCHY JR, MICHAEL J
+
+ART UNIT
+
+PAPER NUMBER
+
+2666
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patents@BLKLawGroup.com
+cbelleci@BLKLawGroup.com
+blynn@BLKLawGroup.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOHN HOWISON SCHROEDER and
+ALEXANDER D. KIDERMAN
+
+Appeal2015-005074
+Application 12/420, 111
+Technology Center 2600
+
+Before JOHN A. EVANS, LINZY T. McCARTNEY, and
+ALEX S. YAP, Administrative Patent Judges.
+YAP, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's final
+rejection of claims 1--4 and 6--20, which are all the claims pending in this
+application. We have jurisdiction under 35 U.S.C. § 6(b)
+We affirm-in-part.
+
+Appeal2015-005074
+Application 12/420, 111
+STATEMENT OF THE CASE
+Introduction
+
+Appellants' invention relates "generally to eye tracking technologies,
+and more particularly to precision eye tracking through use of relative iris
+edge based landmarks in eye geometry." (Specification (Apr. 8, 2008)
+("Spec.") i-f 3.) Claim 1 is illustrative, and is reproduced below:
+1. A method of identifying at least one landmark in the eye
+
+comprising the steps of:
+digitizing an image of the eye;
+identifying at least a portion of the edge of the iris from
+the digitized image of the eye; and
+calculating a centroid of an area defined by the identified
+edge portion of the iris wherein the centroid forms at least one
+landmark in the eye.
+Prior Art and Rejections on Appeal
+
+The following table lists the prior art relied upon by the Examiner in
+rejecting the claims on appeal:
+Steinert et al
+("Steinert")
+
+US 2005/0278004 Al
+
+Dec. 15, 2005
+
+Bickert et al.
+("Bickert")
+
+US 2006/0039583 Al
+
+Feb.23,2006
+
+Deering
+
+US 2006/0167670 Al
+
+July 27, 2006
+
+Hamza
+
+US 2007/0140531 Al
+
+June 21, 2007
+
+Lonky
+
+US 2009/0198148 Al
+
+Aug. 6, 2009
+
+2
+
+Appeal2015-005074
+Application 12/420, 111
+
+Claims 1, 3, 6, 7, 18, and 20 stand rejected under 35 U.S.C. § 103(a)
+as being unpatentable over Steinert in view ofBickert. (See Final Office
+Action (mailed Aug. 19, 2013) ("Final Act.") 4--6.)
+Claims 2, 4, 8, 17, and 19 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Steinert in view of Bickert, and further in view of
+Hamza. (See Final Act. 6--8.)
+Claims 9 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Steinert in view of Bickert, and further in view of
+Deering. (See Final Act. 8-9.)
+Claims 10---12, 14, and 15 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Steinert in view of Bickert and Deering, and further
+in view of Lonky. (See Final Act. 9-12.)
+Claims 13 and 16 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Steinert in view of Bickert, Deering, and Lonky, and
+further in view of Hamza. (See Final Act. 12-13.)
+Claim 17 stands rejected under 35 U.S.C. § 112(d) as being as being
+of improper dependent form for failing to further limit the subject matter of
+the claim upon which it depends. (See Final Act. 2-3.)
+
+3
+
+Appeal2015-005074
+Application 12/420, 111
+ANALYSIS
+We have reviewed the Examiner's rejections in light of Appellants'
+arguments 1 that the Examiner has erred. We are persuaded that the
+Examiner erred in rejecting claims 1-4 and 6--20 under 35 U.S.C. § 103(a).
+We affirm the Examiner's 35 U.S.C. § 112(d) rejection with regard to claim
+17.
+Claims 1-4 and 6-20
+Rejections Under 35 U.S.C. § 103
+
+Claim 1 recites "identifying at least a portion of the edge of the iris
+from the digitized image of the eye; and calculating a centroid of an area
+defined by the identified edge portion of the iris wherein the centroid forms
+
+at least one landmark in the eye." The Examiner finds that Steinert teaches
+or suggests "calculating a centroid of an area defined by the identified edge
+portion of the iris" but "Steinert does not explicitly teach identifying at least
+a portion of the edge of the iris from the digitized image of the eye." (Final
+
+Act. 4.) However, according to the Examiner, Bickert teaches or suggests
+the limitation and "[i]t would be obvious to one or ordinary skill in the art to
+modify Steinert to include" the teachings of Bickert. (Id.) Appellants
+contend that the combination of Steinert and Bickert actually teaches away
+from the claimed invention because Bickert's technique (for "identifying at
+least a portion of the edge of the iris") is based on an approximation of a
+
+1
+
+As an initial matter, we remind Appellants that under 37 CPR 1.3,
+"Applicants and their attorneys or agents are required to conduct their
+business with the United States Patent and Trademark Office with decorum
+and courtesy [and c]omplaints against examiners and other employees must
+be made in correspondence separate from other papers." (See, e.g., Reply
+1.)
+4
+
+Appeal2015-005074
+Application 12/420, 111
+circle, which according to Appellants, goes against the teachings of the
+Specification. (App. Br. 12-13.) The Examiner does not dispute that
+Bickert teaches or suggests "circular approximation" but states that the
+rejection is appropriate based on the broadest reasonable interpretation of the
+claim language. (Ans. 17.) Appellants respond that the Examiner erred
+because the claim language ("the area defined by the identified edge portion
+of the iris") clearly does not allow approximation. (Reply 1-2, emphasis in
+original.)
+We agree with Appellants that the Examiner's interpretation is not
+reasonable. When construing claims, a court must begin by "look[ing] to the
+words of the claims themselves ... to define the scope of the patented
+invention." Phillips v. AWH Corp., 415 F.3d 1303, 1312 (Fed. Cir. 2005)
+(en bane). However, "claims must be read in view of the specification, of
+which they are a part." Id. at 1315 (internal quotations omitted). Hence, the
+specification "is the single best guide to the meaning of a disputed term.''
+Id. Importantly, "[i]n examining the specification for proper context,
+however, this court will not at any time import limitations from the
+specification into the claims." CollegeNet, Inc. v. Apply Yourself, Inc., 418
+F.3d 1225, 1231 (Fed.Cir.2005). The limitations at issue recite "identify at
+least a portion of the edge . . . and calculating a centroid of an area defined
+by the identified edge .... " It is clear from the claim language that the
+identified portion of the edge and the calculation based on the identified
+edge is not based on an approximation. This reading is supported by the
+Specification, which states that the claimed invention has advantages over
+prior art because it is not based on calculating the centroid of the pupil by
+approximating a circle of the pupil:
+5
+
+Appeal2015-005074
+Application 12/420, 111
+[0018] As discussed above, most eye tracking devices digitize an
+image of the, define the pupil using the high contrast difference
+between the pupil and the rest of the eye, and then define the
+center of the pupil by approximating a circle of the same size or
+calculating the centroid of the pupil itself For relatively largescale eye movements, such as saccades and nystagmus, this
+method is appropriate despite of the fact that the pupil changes
+in size and, to a lesser degree, shape. However, greater accuracy
+or even resolution in monitoring the movement of the eye can be
+gained by digitizing the eye, and tracking the movement of a
+landmark with fixed size and a fixed location relative to the eye's
+local coordinate system.
+[0020] The concepts of the present invention can be explained in
+connection with figures 1-2. In these figures the wide variation
+in the pupil size (and shape) will illustrate that the pupil
+monitoring methods results in a certain amount of error. The
+pupil center is established typically by approximating the shape
+as a circle, and, the center of the circle (the assumed center of
+the eye), in theory remains unchanged as the circle expands in
+diameter. Due to changes in pupil diameter. lfowever these are
+merely approximations that lead to noise in the system that
+prevents the system from identifYing small eye movements, such
+as micro-tremors.
+
+(Spec., i-fi-f 18, 20, emphasis added.) As discussed above, because the
+Examiner does not dispute that the cited portions of Bickert teaches or
+suggests "circular approximation," (Ans. 17), and in light of our above
+discussions, we are persuaded of Examiner error in the rejection of claim 1. 2
+Independent claims 3 and 12 recite substantively similar limitations:
+2
+
+Because we do not sustain the Examiner's rejection for the reasons
+discussed herein, we need not address Appellants' further arguments. See
+Beloit Corp. v. Valmet Oy, 742 F.2d 1421, 1423 (Fed. Cir. 1984) (finding an
+administrative agency is at liberty to reach a decision based on "a single
+dispositive issue").
+6
+
+Appeal2015-005074
+Application 12/420, 111
+"identifying at least a portion of the edge of the iris ... establishing ...
+based upon the identified portion of the edge of the iris." The Examiner also
+relies on the same portions of Steinert and Bickert with respect to these
+limitations of claims 3 and 12. Thus, we are persuaded that the Examiner's
+rejections of claims 3 and 12 are deficient for the same reasons discussed
+above with respect to claim 1. For the foregoing reasons, we do not sustain
+the 35 U.S.C. § 103 rejection of claims 1, 3, and 12, as well as claims 2, 4,
+6--11, and 13-20, which depend on either claims 1, 3, or 12.
+Claim 17
+Rejection Under 35 U.S.C. § 112
+
+The Examiner rejects claim 17 under 35 U.S.C. 112(d) because the
+"claim claims the same limitations as claim 2, which it depends from, with
+no limiting limitation." (Final Act. 2-3.) Appellants do not respond. We
+are not persuaded of Examiner error in the rejection of claim 17 and
+therefore sustain the 35 U.S.C. 112 rejection of claim 17.
+
+DECISION
+We reverse the decision of the Examiner to reject claims 1--4 and 6--20
+under 35 U.S.C. § 103(a). We affirm the decision of the Examiner to reject
+claim 17 under 35 U.S.C. § 112(d).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+7
+
+

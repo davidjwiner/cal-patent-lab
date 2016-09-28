@@ -1,0 +1,368 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/466,148
+
+05/14/2009
+
+Hans-Juergen Aminger
+
+DE920080134US 1
+
+5222
+
+59383
+
+7590
+
+09/22/2016
+
+Yudell Isidore PLLC
+Eustace P. Isidore
+7301 Ranch Rd 620 N Ste 155-157
+Austin, TX 78726
+
+EXAMINER
+MORTELL, JOHN F
+
+ART UNIT
+
+PAPER NUMBER
+
+2689
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+Patents@yudellisidore.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HANS-JUERGEN AMIN GER, DIRK BOLTE,
+HERWIG ELFERING, and ADOLF MARTENS 1
+
+Appeal2014-005313
+Application 12/466,148
+Technology Center 2600
+
+Before DEBRA K. STEPHENS, JASON V. MORGAN, and
+JOHN R. KENNY, Administrative Patent Judges.
+MORGAN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Introduction
+
+This is an appeal under 35 U.S.C. § 134(a) from the Examiner's final
+rejection of claims 1, 2, 4, 5, 7, 8, and 10-18. Claims 3, 6, and 9 are
+canceled. App. Br. 13-15. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+Invention
+
+Appellants disclose the use of a Radio Frequency Identification
+(RFID) Controller within the server system transmits a location request to a
+1
+
+Appellants identify International Business Machines Corporation as the
+real party in interest. Br. 2.
+
+Appeal2014-005313
+Application 12/466,148
+RFID Sensor. Abstract. The RFID Sensor identifies devices in a server
+system and returns signal strength and location information of the devices to
+an Embedded Controller that calculates its own current location. Id.
+
+Exemplary Claims
+Claims 1, 2, and 10, reproduced beimv vvith key limitations
+emphasized, are representative:
+1.
+A method of determining connectionless location
+identification information of devices within a server system, the
+method comprising:
+at an Embedded Controller, issuing a location request to
+a Radio Frequency Identification (RFID) Sensor;
+
+receiving signal strength and location information from
+the RFID Sensor, wherein the signal strength and location
+information includes signal strength and location information
+of one or more nearby RFID tags from a plurality of RFID
+tags;
+calculating a current physical location of the Embedded
+Controller from the received signal strength and location
+information;
+in response to calculating the current physical location of
+the Embedded Controller, locally storing, on the Embedded
+Controller, the current physical location of the Embedded
+Controller;
+providing, to a support element, the location information
+and the current physical location of the Embedded Controller;
+and receiving, at the support element, the signal strength and
+location information of the one or more RFID tags and the
+current physical location of the Embedded Controller, wherein
+the signal strength and location information of the one or more
+RFID tags and the current physical location of the Embedded
+Controller in response to being received by the support element
+enables the support element to perform the functions of:
+
+2
+
+Appeal2014-005313
+Application 12/466,148
+calculating a unique fixed IP address based on the
+current physical location of the Embedded Controller;
+in response to calculating the unique fixed IP
+address based on the current physical location of the
+Embedded Controller, assigning the unique fixed IP
+address to the Embedded Controller; and
+storing, on the support element, the unique fixed IP
+address of the Embedded Controller for subsequent
+communications with the Embedded Controller.
+2. The method of Claim 1, wherein the location request enables
+the RFID Sensor to perform the functions of:
+at the RFID Sensor, transmitting a radio frequency (RF)
+ping to nearby RFID tags, wherein a RFID tag corresponds to a
+connection location within the server system;
+
+receiving a location identification from the nearby RFID
+tags, wherein the location identification includes a frame
+location and a position location; and
+transmitting signal strength and location information of
+the nearby RFID tags to the Embedded Controller.
+10. The method of claim 1, wherein the current physical
+location is a first location, the method further comprising:
+
+always assigning a first fixed IP address every time the
+Embedded Controller is in the first location; and
+always assigning a second IP address every time the
+Embedded Controller is in a second location.
+Rejections
+The Examiner rejects claim 7 under 35 U.S.C. § 101 as being directed
+to non-statutory subject matter. Final Act. 2.
+The Examiner rejects claims 1, 2, 4, 5, 7, 8, 10, and 11-18 under 35
+U.S.C. § 103(a) as being unpatentable over Rothman et al. (US 2008/
+
+3
+
+Appeal2014-005313
+Application 12/466,148
+0114865 Al, published May 15, 2008) and Chen et al. (US 7,929,535 B2,
+issued Apr. 19, 2011). 2 Final Act. 3-18.
+ISSUES
+1. Did the Examiner err in rejecting claim 7 as being directed to non-
+
+statutory subject matter?
+2. Did the Examiner err in finding the combination of Rothman and
+Chen teaches or suggests "receiving signal strength and location information
+from the RFID Sensor, wherein the signal strength and location information
+includes signal strength and location information of one or more nearby
+RFID tags from a plurality of RFID tags," as recited in claim 1?
+3. Did the Examiner err in finding the combination of Rothman and
+Chen teaches or suggest "receiving a location identification from the nearby
+RFID tags, wherein the location identification includes a frame location and
+a position location," as recited in claim 2?
+4. Did the Examiner err in finding the combination of Rothman and
+Chen teaches or suggests "always assigning a first fixed IP address every
+time the Embedded Controller is in the first location; and always assigning a
+second IP address every time the Embedded Controller is in a second
+location," as recited in claim 1O?
+
+2
+
+The Examiner erroneously lists claims 1-11 in the statement of the
+rejection (Final Act. 3), but properly includes all pending claims in the body
+of the rejection (id. at 3-18). We hold this typographical error harmless.
+
+4
+
+Appeal2014-005313
+Application 12/466,148
+ANALYSIS
+
+Claim 7
+Appellants include in the Claims Appendix, a version of claim 7
+directed to a "non-transitory computer-readable storage medium" (App. Br.
+14-15 (emphasis added)) that appears to be an attempt to limit the scope of
+claim 7 to exclude "a transitory storage medium such as a signal" (Final Act.
+2). However, the claim 7 amendment with the term "non-transitory" in the
+preamble (Amend. after Final 5 (May 16, 1013)) was not entered (Adv. Act.
+1 (June 6, 2013)). Because claim 7 is still directed to "[a] computer-readable
+storage medium," and because Appellants do not show error in the
+Examiner's 35 U.S.C. § 101 rejection, we summarily affirm the Examiner's
+35 U.S.C. § 101 rejection of claim 1. In the event of further prosecution, we
+recommend the Examiner further ascertain whether claims 8 and 16-18,
+which depend from claim 7, and which are still directed to computerreadable storage media, similarly encompass transitory storage media.
+
+Claims 1, 4, 7, 11, 12, 14, 15, 17, and 18
+In rejecting claim 1, the Examiner finds that Rothman's use of
+transceivers that transmit RFID signals, which have varying strength when
+received, teaches or suggests receiving signal strength and location
+
+information from the RFID Sensor, wherein the signal strength and location
+information includes signal strength and location information of one or
+more nearby RFID tags from a plurality of RFID tags. Final Act. 3 (citing,
+e.g., Rothman ,-i,-i 18, 21 ); see also Ans. 3--4.
+Appellants contend the Examiner erred because Rothman does not
+disclose receiving both signal strength and location information from an
+RFID sensor. Br. 7. Rather, Appellants argue, "Rothman only provides
+5
+
+Appeal2014-005313
+Application 12/466,148
+receiving a unique identifier from a transceiver." Id. Appellants argue
+"unique identifiers as is known in the art are primarily utilized to provide
+differentiation between different objects. Thus, receiving a 'unique
+identifier' from a[ n] RFID tag is not suggestive of receiving a location
+identification from a[ n] RFID tag." Br. 8.
+Appellants' argument is unpersuasive because, as the Examiner
+correctly finds, an identifier in Rothman "can be correlated to the location of
+the RFID transceiver." Ans. 3--4 (citing Rothman iJ 21). We agree with the
+Examiner that "[b ]ecause the unique identifier of the RFID transceiver is
+correlated to the location of the RFID transceiver ... the reception by the
+computing platform of the unique identifier from the RFID transceiver
+constitutes the reception of 'location information."' Ans. 4.
+We note that the correlation of Rothman's unique identifier to an
+RFID transceiver location is similar to the use of a unique city/state name
+(e.g., "Alexandria, Virginia") that correlates with alternative forms of
+location information (e.g., 38° 48' 17.4082" N 77° 2' 48.917" W). Because
+the unique identifier can be used to look up alternative forms of location
+information (which, in certain contexts may be more valuable than the
+unique identifier by itself), the unique identifier is location information.
+For these reasons, we agree with the Examiner that the combination of
+Rothman and Chen teaches or suggests "receiving signal strength and
+location information from the RFID Sensor, wherein the signal strength and
+location information includes signal strength and location information of one
+or more nearby RFID tags from a plurality of RFID tags," as recited in claim
+1.
+
+6
+
+Appeal2014-005313
+Application 12/466,148
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claim 1, and claims 4, 7, 11, 12, 14, 15, 17, and 18, which Appellants do
+not argue separately. Br. 7.
+Claims 2, 5, and 8
+
+In rejecting claim 2, the Examiner finds Rothman's use of an
+identification field that represents a site, building, lab, etc., and Rothman's
+representation of a rack shelf and slot within the rack teaches or suggests
+receiving a location identification from the nearby RFID tags, wherein the
+location identification includes a frame location and a position location.
+
+Final Act. 6 (citing Rothman iii! 19, 37-38).
+Appellants contend the Examiner erred because "Rothman [is]
+completely devoid of any device receiving any location information directly
+from nearby RFID tags." Br. 7. We note that claim 2 does not recite
+receiving location information directly from nearby RFID tags. Moreover,
+as discussed above, Rothman' s use of RFID transmissions that include
+unique identifiers that can be correlated to locations, teaches or suggests
+location information. Such identifiers combined with Rothman's use of
+alternative, more explicit forms of location information (e.g., site, building,
+etc.) as part of an identifier teaches or suggests receiving location
+information that contains more explicit details from an RFID tag. Ans. 4-6.
+Furthermore, we agree with the Examiner that Rothman' s "shelf
+location is functionally equivalent to a frame location, and the slot location
+is functionally equivalent to a position location." Ans. 9. Rothman's shelf
+and slot locations are examples of more forms of detailed location
+information. Thus, the Examiner's findings show that Rothman teaches or
+suggests a location identification (e.g., a unique identifier) received from an
+7
+
+Appeal2014-005313
+Application 12/466,148
+RFID tag, wherein the location identification includes a frame location and a
+position location (i.e., where the unique identifier includes detailed location
+details such as frame and slot locations). Therefore, we agree with the
+Examiner that the combination of Rothman and Chen teaches or suggest
+"receiving a location identification from the nearby RFID tags, wherein the
+location identification includes a frame location and a position location," as
+recited in claim 2.
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claim 2, and claims 5 and 8, which Appellants do not argue separately.
+Br. 8.
+Claims 10, 13, and 16
+In rejecting claim 10, the Examiner finds Chen's encoding of
+geographic information for a network device in a Network ID segment
+and/or a Host ID segment of an IPv6 address teaches or suggests always
+assigning a first fixed IP address every time the Hmbedded Controller is in
+the first location and always assigning a second IP address every time the
+Embedded Controller is in a second location. Final Act. 12 (citing Chen
+col. 1, 11. 39--41, col. 6, 11. 28--40, 54-61, and col. 7, 11. 14-22).
+Appellants contend the Examiner erred because "Chen clearly
+provides that only a subset portion of bits within an IPv6 address would be
+the same whenever a device was in a same location." Br. 9. Appellants
+submit that the selection of which bits (i.e., what constitutes the subset) can
+vary "depending on availability and other factors." Id. Thus, Appellants
+argue, "Chen does not suggest assigning a same exact entire IP address,
+including non-location information portions, every time a device is in a
+particular location." Id.
+8
+
+Appeal2014-005313
+Application 12/466,148
+Appellants' arguments are unpersuasive because, although Chen notes
+that different implementations of Chen's method can use different parts of
+an IPv6 address to encode geographic location (Chen col. 4, 11. 24-27), a
+particular implementation of Chen's teachings can reserve a subset of bits
+(id. col. 4, 11. 27-35). See Ans. 13. Moreover, the Examiner correctly finds
+
+that where the non-geographical information (e.g., network ID) of an IPv6
+address is fixed, the combination of the fixed information with encoded
+geographic location information "will always result in the same fixed IP
+address being assigned to the network device whenever it is connected to
+that network" at a particular location. Ans. 12 (citing Chen col. 6, 11. 4145). Therefore, we agree with the Examiner that the combination of
+Rothman and Chen teaches or suggests "always assigning a first fixed IP
+address every time the Embedded Controller is in the first location; and
+always assigning a second IP address every time the Embedded Controller is
+in a second location," as recited in claim 10.
+Accordingly, we sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claim 10, and claims 13 and 16, which Appellants do not argue
+separately. Br. 10.
+
+9
+
+Appeal2014-005313
+Application 12/466,148
+DECISION
+We affirm the Examiner's decision rejecting claim 7 under 35 U.S.C.
+§ 101.
+We affirm the Examiner's decision rejecting claims 1, 2, 4, 5, 7, 8,
+and 10-18 under 35 U.S.C. § 103.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a). See 37 C.F.R.
+§ 41.50(±).
+AFFIRMED
+
+10
+
+

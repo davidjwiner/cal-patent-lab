@@ -1,0 +1,304 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/677,674
+
+07/15/2010
+
+Marc Vogel
+
+0512-1601
+
+2323
+
+466
+
+7590
+
+09/21/2016
+
+YOUNG & THOMPSON
+209 Madison Street
+Suite 500
+Alexandria, VA 22314
+
+EXAMINER
+PHAN, TUANKHANH D
+
+ART UNIT
+
+PAPER NUMBER
+
+2154
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+DocketingDept@young-thompson.com
+yandtpair@firs ttofile. com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MARC VOGEL and DAN VOGEL
+
+Appeal2015-007308
+Application No. 12/677,674
+Technology Center 2100
+
+Before MARC S. HOFF, TERRENCE W. McMILLIN, and
+ALEX S. YAP, Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL 1
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Final Rejection of
+claims 1, 2, 4, 5, 7, and 8. 2 We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+Throughout this decision, we make reference to the Appeal Brief filed
+January 12, 2015 ("App. Br."); Appellant's Reply Brief filed July 31, 2015
+("Reply Br."); Examiner's Answer mailed June 4, 2015 ("Ans."); the Final
+Office Action mailed August 13, 2014 ("Final Act."); and original
+Specification filed March 11, 2010 ("Spec.").
+2
+
+Claims 3 and 6 have been cancelled.
+
+Appeal2015-007308
+Application No. 12/677,674
+Appellants' invention is a relational database including a hierarchy
+table. The table includes, for each hierarchised datum, all of the data on
+which it is dependent, regardless of the number of hierarchical levels
+separating them, each of the data on which it is dependent being contained in
+a separate record of the table which also contains the hierarchised datum.
+Spec. 5. The filtering means of the database are suitable for providing a
+query formulated on the basis of the hierarchy table without resorting to
+tools for the multidimensional interrogation of the database that are external
+to the database. Id.
+Claim 1 is exemplary of the claims on appeal:
+1. An installation to manage a database comprising:
+a relational database that includes (a) database
+filter means, stored in a server, for filtering data contained in
+fields using internal algorithms to optimize the database and for
+providing the data sought in response to a query formulated in
+SQL language and applied directly on the relational database,
+said query defining a database filter, and (b) data belonging to
+at least one data hierarchy having at least three hierarchical
+levels; and
+interrogation means, stored in a computer, for
+formulating at least one query defining the database filter
+permitting the selection of the data sought by using the database
+filter,
+wherein said installation further comprises a hierarchy
+table comprising, for each hierarchised datum:
+the hierarchised datum;
+all of the data on which said hierarchised datum is
+dependent, regardless of the number of hierarchical levels
+separating them, each of the data on which said hierarchised
+datum is dependent being contained in a separate record of the
+table; and
+
+2
+
+Appeal2015-007308
+Application No. 12/677,674
+an indicator of the degree of relationship representing the
+distance between the hierarchical level of said hierarchised
+datum and the level of each hierarchised datum on which said
+hierarchised datum is dependent and/ or an indicator of the level
+of hierarchical depth representing the distance between the said
+hierarchical level of the hierarchised datum and the highest
+level of the hierarchised data on which said hierarchised datum
+is dependent, and
+wherein, during an interrogation on the basis of a query
+pertaining to hierarchised data, the database filter provides a
+response to the formulated query, on the basis of the tables in
+the database and the hierarchy table only, without resorting to
+tools for the multidimensional interrogation of the database that
+are external to the database.
+Claims 1, 2, 4, 5, 7, and 8 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Colossi (US 2004/0215626 Al, pub. Oct. 28, 2004)
+and Byrne (US 6, 199 ,062 Bl; iss. Mar. 6, 2001 ).
+ISSUES
+Appellants' arguments present us with the following issues:
+1.
+
+Does Colossi disclose or suggest a relational database that
+
+provides data sought in response to a query formulated in SQL language and
+applied directly on the relational database?
+2.
+
+Does Colossi disclose or suggest a hierarchy table comprising,
+
+for each hierarchised datum, the hierarchised datum; all of the data on
+which said hierarchised datum is dependent, regardless of the number of
+hierarchical levels separating them, each of the data on which said
+hierarchised datum is dependent being contained in a separate record
+of the table; and an indicator of the degree of relationship representing
+the distance between the hierarchical level of said hierarchized datum
+
+3
+
+Appeal2015-007308
+Application No. 12/677,674
+and the level of each hierarchised datum on which said hierarchised
+datum is dependent and/or an indicator of the level of hierarchical depth
+representing the distance between the said hierarchical level of the
+hierarchized datum and the highest level of the hierarchised data on
+which said hierarchised datum is dependent?
+PRINCIPLES OF LAW
+One cannot show nonobviousness by attacking references individually
+where the rejections are based on combinations of references. In re Keller,
+642 F.2d 413, 425 (CCPA 1981). The test of obviousness is not whether the
+features of a secondary reference may be bodily incorporated into the
+structure of the primary reference, nor is it that the claimed invention must
+be expressly suggested in any one or all of the references. Rather, the test is
+what the combined teachings of the references would have suggested to
+those of ordinary skill in the art. Id. at 425.
+"The analogous-art test requires that the Board show that a reference
+is either in the field of the applicant's endeavor or is reasonably pertinent to
+the problem with which the inventor was concerned in order to rely on that
+reference as a basis for rejection. References are selected as being
+reasonably pertinent to the problem based on the judgment of a person
+having ordinary skill in the art." In re Kahn, 441 F.3d 977, 986-87 (Fed. Cir.
+2006).
+ANALYSIS
+We are not persuaded by Appellants' argument that Colossi do not
+disclose an installation in which the SQL query drafted by the user is applied
+directly on the relational database. See App. Br. 4. We agree with the
+
+4
+
+Appeal2015-007308
+Application No. 12/677,674
+Examiner's finding that Colossi discloses that "traditional SQL queries may
+be issued against the relational database, either directly or via a product that
+generates SQL queries." Ans. 2; Colossi i-f 321.
+Appellants' argument that "Colossi ... do not disclose an installation
+allowing the management of hierarchized data in a rational [sic] database" is
+not germane to the claimed invention. Such language is not present in the
+claims under appeal. See App. Br. 5.
+Appellants' argument that "Colossi do not disclose an installation
+comprising a hierarchy table" which comprises "a hierarchized datum; for
+each hierarchized datum, all the data it depends on; and for each
+hierarchized datum and each datum it depends on, an indicator of the degree
+of relationship and/or of the level of hierarchical depth between these two
+data" is not persuasive of Examiner error. See App. Br. 5---6. We agree with
+the Examiner's finding that Colossi discloses this limitation. Colossi
+discloses metadata objects from a relational database having hierarchical
+tables and indications that indicate the relationships among the related
+metadata objects and their attributes. Final Act. 3, citing Colossi i-f 97.
+Colossi further discloses that metadata objects are stored in a database
+catalog that describes the dimensional model and OLAP constructs of
+existing relational data. i-f 73. Metadata objects describe where pertinent
+data is located and can also describe relationships within the base data. i-f 75.
+"Other metadata objects 130 describe relationships between the base
+metadata objects 130 and link these base metadata objects 130 together.
+Ultimately, all of the metadata objects 130 can be grouped together by their
+relationships to each other, into a metadata object called a cube model."
+
+,-r 77.
+
+5
+
+Appeal2015-007308
+Application No. 12/677,674
+We find that these disclosures in Colossi, taken together, correspond
+to the "hierarchy table ... [including a] hierarchized datum; all of the data
+on which said hierarchized datum is dependent" and "an indicator of the
+degree of relationship ... and/or an indicator of the level of hierarchical
+depth representing the distance between the said hierarchical level of the
+said hierarchical level of the hierarchised datum and the highest level of the
+hierarchised data on which said hierarchized datum is dependent" recited in
+claim 1.
+To the extent Appellants present an argument that Byrne is not
+properly combinable with Colossi because it is nonanalogous, we do not
+agree with Appellants. See App. Br. 6-7. Both references are directed to
+the same field of endeavor, which is also Appellants' field of endeavor.
+Colossi is directed to improving the performance of database queries, and
+Byrne is directed to indexing in a relational database for faster wildcard
+searching.
+Appellants' other arguments concerning Byrne are not germane to the
+Examiner's rejection. The Examiner relied on Byrne to teach providing "a
+response to the formulated query, on the basis of the tables in the database
+and the hierarchy table only, without resorting to tools for the
+multidimensional interrogation of the database that are external to the
+database," as required by claim 1. The Examiner does not rely on the
+detailed teachings of Byrne concerning queries with wildcards, complained
+of by Appellants. See App. Br. 7-8. We agree with the Examiner's finding
+that the combined teachings of Colossi and Byrne would have suggested
+incorporating the teachings of Byrne into Colossi "to provide an optimal
+data access for a particular database search algorithm." Final Act. 6.
+
+6
+
+Appeal2015-007308
+Application No. 12/677,674
+We find that the combination of Colossi and Byrne discloses or
+suggests all the elements of claims 1, 2, 4, 5, 7, and 8. We sustain the
+Examiner's§ 103 rejection.
+CONCLUSIONS
+1.
+
+Colossi discloses a relational database that provides data sought
+
+in response to a query formulated in SQL language and applied directly on
+the relational database.
+2.
+
+Colossi teaches or suggests a hierarchy table comprising, for
+
+each hierarchized datum, the hierarchised datum; all of the data on which
+said hierarchised datum is dependent, regardless of the number of
+hierarchical levels separating them, each of the data on which said
+hierarchised datum is dependent being contained in a separate record
+of the table; and an indicator of the degree of relationship representing
+the distance between the hierarchical level of said hierarchized datum
+and the level of each hierarchised datum on which said hierarchised
+datum is dependent and/or an indicator of the level of hierarchical depth
+representing the distance between the said hierarchical level of the
+hierarchized datum and the highest level of the hierarchised data on
+which said hierarchised datum is dependent, as required by claim 1.
+ORDER
+The Examiner's rejection of claims 1, 2, 4, 5, 7, and 8 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

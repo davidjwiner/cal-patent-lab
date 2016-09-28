@@ -1,0 +1,322 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/918,020
+
+08/17/2010
+
+Ahmed Aoude
+
+05015228-77US PTN/df
+
+5306
+
+93758
+
+7590
+
+09/20/2016
+
+NORTON ROSE FULBRIGHT CANADA LLP (Zimmer Cas)
+1 Place Ville Marie
+Suite 2500
+Montreal, QC H3B 1R1
+CANADA
+
+EXAMINER
+HO, ALLEN C
+
+ART UNIT
+
+PAPER NUMBER
+
+2884
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________________
+Ex parte AHMED AOUDE, LOUIS-DAVID PARENTEAU,
+and MÉLANIE CHASSÉ
+____________________
+Appeal 2015-002920
+Application 12/918,020
+Technology Center 2800
+____________________
+
+Before: ROMULO H. DELMENDO, JAMES C. HOUSEL, and
+DEBRA L. DENNETT, Administrative Patent Judges.
+
+Appeal 2015-002920
+Application 12/918,020
+
+DENNETT, Administrative Patent Judge.
+DECISION ON APPEAL1
+
+STATEMENT OF THE CASE
+Appellants2 appeal under 35 U.S.C. § 134 from rejections of claims 1,
+3, 5–9, and 11–13. We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+The claims are directed to an x-ray detection device for a C-arm
+tracker and a method for signaling detection. Claims 1 and 9, reproduced
+below, are illustrative of the claimed subject matter:
+1.
+An assembly of a computer-assisted surgery processor
+system and a detection device for detecting X-rays and
+signaling the detection to the computer-assisted surgery
+processor system, comprising:
+the detection device comprising:
+an x-ray detector unit having an X-ray detector
+separate from X-ray imaging equipment and adapted to be
+positioned within a radiation field, the X-ray detector emitting a
+detection signal upon being excited by an X-ray beam of a
+given intensity;
+
+1
+
+In our opinion below, we refer to the Amendment After Final Rejection
+filed April 8, 2013 (“Amendment After Final”), the Final Action mailed
+December 26, 2013 (“Final Act.”), the Declaration under 37 C.F.R. § 1.132
+of Louis-Philippe Amiot (“Amiot Decl.”) filed February 28, 2014, the
+Appeal Brief filed August 18, 2014 (“App. Br.”), the Examiner’s Answer
+mailed October 23, 2014 (“Ans.”), and the Reply Brief filed December 22,
+2014 (“Reply”).
+2
+Appellants identify the real party in interest as Orthosoft Inc. App. Br. 2.
+2
+
+Appeal 2015-002920
+Application 12/918,020
+a transmitter for outputting the detection signal in
+radio frequency; and
+a receiver for receiving the detection signal in
+radio frequency and for forwarding the detection signal to the
+computer-assisted surgery processor system to signal the
+detection of the X-ray beam; and
+the computer-assisted surgery processor system for
+recording a positional relation between a patient and imaging
+equipment as a response to the detection signal.
+9.
+A method for signaling a detection of an X-ray to a
+computer-assisted surgery processor system, comprising:
+activating an X-ray detection in a radiation field
+separate from an imaging equipment;
+producing a detection signal upon detecting an X-ray
+beam of a given intensity in the radiation field; and
+transmitting the detection signal to a computer-assisted
+surgery processor system using radio frequency; and
+recording a positional relation between a patient and the
+imaging equipment with the computer-assisted surgery
+processor system as a response to receiving the transmitted
+detection signal.
+App. Br. 12, 13 (Claims App’x (emphasis added)).
+REFERENCES
+Tomisaki et al.
+(“Tomisaki”)
+Mitschke et al.
+(“Mitschke”)
+Sati et al. (“Sati”)
+Nokita et al.
+(“Nokita”)
+
+US 6,696,687 B1
+
+Feb. 24, 2004
+
+US 6,851,855 B2
+
+Feb. 8, 2005
+
+US 7,065,393 B2
+US 7,382,859 B2
+
+Jun. 20, 2006
+Jun. 3, 2008
+
+3
+
+Appeal 2015-002920
+Application 12/918,020
+REJECTIONS3
+Claims 1 and 3 stand rejected under 35 U.S.C. § 102(b) as anticipated
+by Sati. Claims stand rejected under 35 U.S.C. § 103 as obvious as follows:
+claim 5 is rejected over Sati in view of Tomisaki; claims 6–8 are rejected
+over Sati in view of Nokita; claims 9, 11, and 13 are rejected over Mitschke
+in view of Sati; and claim 11 is rejected over Mitschke in view of Sati and
+further in view of Nokita.
+BACKGROUND
+Appellants submitted amendments to the Specification, claims, and
+drawings on April 8, 2013, after final rejection of the claims by a Final
+Action mailed February 6, 2013. The Examiner declined to enter the
+amendments, stating that they raised new issues that would require further
+consideration and/or search. Advisory Action mailed April 24, 2013.
+Appellants then filed a Request for Continued Examination on May 3, 2013
+in order to enter the amendments. Therefore, for the purposes of our
+Opinion, we consider the Specification, claims, and drawings as amended.
+OPINION
+The Specification, as amended, describes a C-arm as “encompassing
+an X-ray source and an image intensifier.” Amendment After Final 2.
+Appellants filed a declaration under 37 C.F.R. § 1.132 by an orthopedic
+3
+
+The rejection of claims 1–3 and 5–8 under 35 U.S.C. ¶ 112, second
+paragraph, were withdrawn by the Examiner in the Answer. Ans. 2. Claims
+2 and 10 are objected to for informalities. Id. at 4.
+4
+
+Appeal 2015-002920
+Application 12/918,020
+surgeon that supports this description of a C-arm. Amiot Decl. Appellants
+further direct us to Essenreiter et al., US 7,922,391 B2, as supporting that a
+C-arm comprises an x-ray beam source and an x-ray light detector. App. Br.
+4 (citing Essenreiter, col. 11, ll. 3–9). Finally, Appellants cite to other
+portions of the Specification to confirm that “C-arm,” as used in the
+Specification and claims, includes an x-ray source and an x-ray detector. Id.
+at 5.
+Rejection of claims 1 and 3 as anticipated
+Independent claim 1 requires an x-ray detector to be separate from xray imaging equipment. App. Br. 12 (Claims App’x).
+The Examiner identifies the gravity sensor (56) of Sati as the “x-ray
+imaging equipment” of the claims, having found that the word “equipment”
+is defined in the Merriam-Webster dictionary as “supplies or tools needed
+for a special purpose” and that the gravity sensor serves as a tool for a
+special purpose Ans. 5–6. Figure 1a of Sati is reproduced below:
+
+Figure 1a of Sati illustrates a C-arm imaging apparatus and associated
+devices. Id. at col. 4, ll. 24–25. In addition to gravity sensor (56), Sati
+discloses a C-arm with an imaging source (30) and an imaging receptor (32).
+
+5
+
+Appeal 2015-002920
+Application 12/918,020
+Sati, col. 4, ll. 51–53. The imaging receptor (32) of Sati comprises an
+imaging intensifier (36), a calibration plate (46), and the gravity sensor (56).
+The Examiner contends that element 36 of Sati is the x-ray detector
+required by claim 1, and is separate from the gravity sensor (56), which the
+Examiner identifies as the claimed “x-ray imaging equipment.” Final Act.
+15. On this basis, the Examiner finds that Sati anticipates claims 1 and 3.
+During prosecution, pending claims must be given their broadest
+reasonable interpretation consistent with the specification. In re Am. Acad.
+of Sci. Tech. Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004). The words used in
+a claim must be read in light of the specification, as it would have been
+interpreted by one of ordinary skill in the art at the time of the invention. Id.
+Given the amended Specification and other evidence cited by
+Appellants, we find that the Examiner’s determination that “x-ray imaging
+equipment,” as used in the claims, is the same as the gravity sensor of Sati is
+unreasonable. The broadest reasonable interpretation of “x-ray imaging
+equipment” consistent with the Specification, as amended, is that x-ray
+imaging equipment in the claims comprises a C-arm with an x-ray source at
+one end and an x-ray image intensifier at the opposite end. See App. Br. 8.
+As applied to Sati, the x-ray imaging equipment comprises elements 22, 30,
+and 36. See Sati Fig. 1a. Consequently, Sati does not disclose an x-ray
+detector separate from x-ray imaging equipment.
+We do not sustain the rejection of claims 1 and 3 as anticipated by
+Sati.
+Rejection of claims 5–8 as obvious
+The Examiner rejected claims 5 and 6–8 in the Final Action as
+obvious over Sati in combination with Tomisaki (claim 5) or Nokita (claims
+6
+
+Appeal 2015-002920
+Application 12/918,020
+6–8). Final Act. 8–10. The Examiner did not discuss any of these claims in
+the Answer. Appellants argue that neither Tomisaki nor Nokita remedy the
+deficiencies in Sati. App. Br. 9. We agree with Appellants, and do not
+sustain the rejections of claims 5–8 as obvious.
+Rejection of claims 9, and 11–13 as obvious
+With respect to independent claim 9, the Examiner finds that
+Mitschke discloses “activating an x-ray detection in a radiation field
+(column 4, lines 47–50) separate from an imaging equipment (1).” Final
+Act. 10 (emphasis in original). The Examiner further explains that
+activating x-ray detection is accomplished by x-ray detector 4 in Mitschke.
+Id. at 16. Figure 1 of Mitschke is reproduced below:
+
+Figure 1 of Mitschke is a schematic illustration of a medical
+interventional apparatus showing, among other elements, C-arm x-ray
+device (1), x-ray source (3), and x-ray receiver (4).
+As is apparent in comparing Figure 1a of Sati and Figure 1 of
+Mitschke, when identifying x-ray detector (4) as “separate from” imaging
+equipment (1), the Examiner is not using a reasonable interpretation of “x7
+
+Appeal 2015-002920
+Application 12/918,020
+ray detector,” “imaging equipment,” or both in light of the Specification.
+Thus, neither Mitschke nor Sati discloses the claim 9 requirement of “X-ray
+detection in a radiation field separate from an imaging equipment.” See
+App. Br. 13 (Claims App’x).
+Appellants further argue that Mitschke does not disclose “producing a
+detection signal upon detecting an x-ray beam of a given intensity in the
+radiation field,” “transmitting the detection signal to a CAS processor
+system,” or “recording a positional relation between a patient and the
+imaging equipment with the CAS [computer-assisted surgery] processor
+system as a response to receiving the transmitted detection signal.” App. Br.
+9–10. For each of these claim elements the Examiner depends on the x-ray
+receiver of Mitschke as providing the detection signal. See, e.g., Final Act.
+10–11. As discussed in relation to Sati, the Examiner’s interpretation of the
+x-ray receiver as being responsible for x-ray detection in the claims is
+inconsistent with how one of ordinary skill in the art at the time of the
+invention would interpret the claims in light of the Specification.
+Sati does not remedy these Mitschke deficiencies. Therefore, we do
+not sustain the Examiner’s rejection of claim 9 as obvious over Mitschke in
+view of Sati.
+Like claim 9, dependent claims 12 and 13 are rejected as obvious over
+Mitschke in view of Sati. For the reasons provided above regarding claim 9,
+we do not sustain the rejection of claims 12 and 13.
+Claim 1 is rejected over Mitschke in view of Sati and further in view
+of Nokita. Because Sati and Nokita do not remedy the deficiencies of
+Mitschke, we do not sustain the Examiner’s rejection of clam 11.
+The Examiner’s Objections
+8
+
+Appeal 2015-002920
+Application 12/918,020
+The Examiner objected to Appellants’ April 8, 2013 Amendments to
+the Specification as introducing new matter and Figure 1 for failing to show
+an x-ray source. Ans. 3–4. The Examiner also objected to claims 2 and 10
+for informalities. Id. at 4. The Examiner stated that these objections were
+petitionable rather than appealable. Id. at 3–4. We decline to exercise
+discretion to consider the Examiner’s objections. With regard to the new
+matter objection, a corresponding rejection under 35 U.S.C. § 112, first
+paragraph, for lack of written description support has not been made and,
+therefore, it is not appropriate for us to review the objection on appeal. See
+MPEP § 2163.06 (II) (“If both the claims and specification contain new
+matter either directly or indirectly, and there has been both a rejection and
+objection by the examiner, the issue becomes appealable and should not be
+decided by petition.”) (emphasis added).
+DECISION
+For the above reasons, the Examiner’s rejections of claims 1, 3, 5–9,
+and 11–13 are reversed.
+REVERSED
+
+9
+
+

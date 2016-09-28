@@ -1,0 +1,207 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/416,721
+
+03/09/2012
+
+Sheng Yi
+
+Ql03152USmh
+
+3083
+
+73859
+
+7590
+
+09/21/2016
+
+Silicon Valley Patent Group LLP
+Attn: Client QCM
+4010 Moorpark Avenue
+Suite 210
+San Jose, CA 95117
+
+EXAMINER
+ZHOU, ZHIHAN
+
+ART UNIT
+
+PAPER NUMBER
+
+2482
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ocpat_uspto@qualcomm.com
+qualcomm_PAIR@svpatentgroup.com
+BWYMAN@SVPATENTGROUP.COM
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SHENG YI, ASHWIN SWAMINATHAN,
+BOLAN JIANG, and
+SEYED HESAMEDDIN NAJAFI SHOUSHTARI
+
+Appeal2015-004708
+Application 13/416,721
+Technology Center 2400
+
+Before CATHERINE SHIANG, NATHAN A. ENGELS, and
+NORMAN H. BEAMER, Administrative Patent Judges.
+ENGELS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1-3, 5-12, 14--20, 22-25, 27, and 28. Claims 4, 13, 21, and 26 are canceled.
+We have jurisdiction under 35 U.S.C. § 6(b).
+We reverse.
+
+Appeal2015-004708
+Application 13/416,721
+ILLUSTRATIVE CLAIMS
+Claims 1 and 10, reproduced below, are illustrative of the claimed
+subject matter:
+1. A method comprising:
+capturing an image of an object to be tracked;
+detecting a plurality of lines in the image of the object;
+computing all intersection points of the plurality of lines;
+using the intersection points to identify connected lines;
+forming a group of lines from the connected lines in the
+plurality of lines; and
+using the group of lines to track the object.
+10. An apparatus comprising:
+a camera;
+a processor connected to the camera, the processor
+configured to detect a plurality of lines in an image captured by
+the camera of an object to be tracked, compute all intersection
+points of the plurality of lines, use the intersection points to
+identify connected lines, form a group of lines from the
+connected lines in the plurality of lines, and use the group of
+lines to track the object.
+THE REJECTIONS
+Claims 1-3, 5-7, 9-12, 14--16, 18-20, 22-25, 27, and 28 stand
+rejected under 35 U.S.C. § 103(a) as being unpatentable over Hirokazu Kato
+and Mark Billinghurst, MARKER TRACKING AND HMD CALIBRATION FOR A
+VIDEO-BASED AUGMENTED REALITY CONFERENCING SYSTEM, IEEE 0-76950359-4/99 (1999) ("Kato") in view of Chotiros (US 4,891,762; Jan. 2, 1990).
+Claims 8 and 17 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Kato, Chotiros, and Casadei (US 7,738,705 B2; June 15,
+2010).
+
+2
+
+Appeal2015-004708
+Application 13/416,721
+ANALYSIS
+In rejecting claim 1 over the combination of Kato and Chotiros, the
+Examiner cites Kato as teaching "detecting a plurality of lines in the image
+of the object" and Chotiros as teaching "computing all intersection points of
+the plurality of lines," as claimed. See Final Act. 3--4 (citing Chotiros col. 4,
+
+1. 62---col. 5, 1. 20). Specifically, the Examiner finds Kato teaches a system
+for detecting "size-known square markers" in a virtual reality space (Kato p.
+4) by extracting from an input image "regions whose outline contour[s] can
+be fitted by four line segments" (Kato p. 5). See also App. Br. 15 ("Kato
+describes a marker tracking system in which 'square markers' of known size
+are used.").
+The Examiner finds, however, that "Kato does not explicitly teach
+computing all intersection points of the plurality of lines; using the
+intersection points to identify connected lines" and Chotiros as teaching or
+suggesting those limitations. Final Act. 3; but see Final Act. 7 ("Since an
+outline contour can be fitted by four line segments and there are four vertices
+of the regions found from the intersections of the four line segments, a group
+of lines are formed with the connected lines from intersection points.").
+Appellants contend the Examiner erred in relying on Chotiros.
+Appellants characterize Chotiros as disclosing a position-sensor
+system that detects features (points) in the environment, creates straight lines
+connecting the points to define a geometrical shape with the lines, and then
+uses spatial-pattern recognition to compare the shape and the lines' lengths
+to congruent geometrical figures of a map. App. Br. 11. According to
+Appellants, Chotiros calculates the position of the points before drawing
+
+3
+
+Appeal2015-004708
+Application 13/416,721
+lines between the points and does not calculate "all intersection points of the
+plurality of lines." App. Br. 11-12; Reply Br. 5-7.
+Having reviewed the Examiner's rejections in light of Appellants'
+arguments and the evidence of record, we agree with Appellants that the
+Examiner erred. While we agree with the Examiner's findings regarding
+Kato, and the Examiner is correct that Chotiros teaches connecting all points
+in a scene with straight lines, we disagree with the Examiner's conclusion
+that "it would have [been] obvious to one of ordinary skill in the art ... to
+know that all the intersection points of the plurality of lines are known or
+computed at some point in time." Ans. 9; see also Final Act. 4. To the
+contrary, as Appellants argue, Chotiros detects known points (not lines) in
+the environment and is not concerned with the intersections of lines
+connected between those points.
+Indeed, it is unclear on the record before us what the teachings of
+Chotiros would have added to the teachings of Kato considering that, as the
+Examiner finds, Kato discloses detecting a plurality of lines, calculating the
+intersections (vertices) of those lines, using the intersection points to identify
+connected lines, and forming a group of lines (e.g., the lines defining the
+square markers). See Final Act. 7 ("Since an outline contour can be fitted by
+four line segments and there are four vertices of the regions found from the
+intersections of the four line segments, a group of lines are formed with the
+connected lines from intersection points."); see also Kato, Abstract ("We
+propose a method for tracking fiducial markers and a calibration method for
+optical see-through [head-mounted displays] based on the marker
+tracking."), pp. 4--5 (describing, e.g., "[p]arameters of these four line
+
+segments and coordinates of the four vertices of the regions found from the
+
+4
+
+Appeal2015-004708
+Application 13/416,721
+intersections of the line segments" and "marker coordinates of detected
+marker's four vertices"). Accordingly, based on the record before us, we do
+not sustain the Examiner's rejections of independent claims 1, 10, 19, and
+24, each of which includes limitations substantially similar to the disputed
+limitation of claim 1, nor the rejections of dependent claims 2, 3, 5-9, 11,
+12, 14--18, 20, 22, 23, 25, 27, and 28.
+
+DECISION
+For the above reasons, we reverse the Examiner's rejections of claims
+1-3, 5-12, 14--20, 22-25, 27, and 28.
+
+REVERSED
+
+5
+
+

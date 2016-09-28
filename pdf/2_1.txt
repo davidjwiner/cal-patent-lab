@@ -1,0 +1,523 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/164,267
+
+06/20/2011
+
+Scott Martin
+
+82663161
+
+1518
+
+22879
+
+7590
+
+09/23/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+VALENCIA, ALEJANDRO
+
+ART UNIT
+
+PAPER NUMBER
+
+2853
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SCOTT MARTIN, LYNN A. COLLIE,
+and ERIC BERNER STROM
+
+Appeal2015-003157
+Application 13/164,267
+Technology Center 2800
+
+Before: MARK NAGUMO, MONTE T. SQUIRE, and AVEL YN M.
+ROSS, Administrative Patent Judges.
+
+ROSS, Administrative Patent Judge.
+DECISION ON APPEAL 1
+Appellants 2 appeal under 35 U.S.C. § 134(a) from the Examiner's
+final rejection of claims 1, 3-7, 27, 29-33, and 49-51. We have jurisdiction
+under 35 U.S.C. § 6(b ).
+1
+
+In our Decision below, we refer to the Specification mailed June 20, 2011
+(Spec.), the Final Office Action appealed from, mailed July 11, 2014 (Final
+Act.), the Appeal Brief filed October 9, 2014 (Appeal Br.), the Examiner's
+Answer mailed November 19, 2014 (Ans.), and the Reply Brief filed
+January 15, 2015 (Reply Br.).
+2
+Appellants identify the real party in interest as Hewlett-Packard
+Development Company, L.P., the assignee of the instant application. Appeal
+Br. 2.
+
+Appeal2015-003157
+Application 13/164,267
+We REVERSE.
+
+STATEMENT OF CASE
+The claims are directed to low-profile service stations for use with
+printers. Spec. i-f23. The Specification explains that the "pump drive [is]
+positioned such that at least one of the shuttle drive and the pump drive does
+not extend between a first and a second side of the shuttle" nor does the
+shuttle drive and pump drive "span an area underneath a cap sled." Id. i-f24.
+As a result, the number of components is reduced, the height of the printer is
+reduced, and manufacturing costs are lowered. Id. Claim 1, reproduced
+below, is illustrative of the claimed subject matter:
+1.
+
+A service station for use with a printer comprising:
+a shuttle to support a cap sled, the shuttle having a shuttle
+drive positioned on a first side of the shuttle, the shuttle drive
+including a track; and
+a pump drive positioned adjacent the track and the first
+side of the shuttle such that the shuttle drive and the pump drive
+do not extend between the first side of the shuttle and a second
+side of the shuttle opposite the first side, the shuttle drive to be
+coupled to a printer drive to move the shuttle between a first
+position and a second position.
+Claims Appendix at Appeal Br. 41.
+
+REJECTIONS
+The Examiner maintains the following rejections:
+A.
+
+Claim 51 stands rejected under 35 U.S.C. §112 second
+paragraph as being indefinite for failing to particularly
+point out and distinctly claim the subject matter which the
+inventors regard as the invention. Final Act. 2.
+
+2
+
+Appeal2015-003157
+Application 13/164,267
+B.
+
+Claims 1, 3, 27, 29, and 49-51 stand rejected under 35
+U.S.C. §102(b) as being unpatentable over Balcan3 or, in
+the alternative, under 35 U.S.C. § 103(a) as obvious over
+Balcan in view of Uchida. 4 Id. at 3.
+
+C.
+
+Claims 4--7 and 30-33 stand rejected under 35 U.S.C.
+§ 103 (a) as being unpatentable over Balcan in view of
+Uchida and further in view ofUchikata. 5 Id. at 7.
+
+Appellants seek our review of Rejections A---C. Because we reverse
+the rejections by the Examiner, we address only independent claims 1 and 27
+below-as the error in the independent claims is not cured by the Examiner
+in addressing the dependent claims-as well as the indefiniteness rejection
+of dependent claim 51.
+
+OPINION
+Claims 1 and 2 7
+
+The Examiner rejects claims 1 and 27, as well as their dependent
+claims, as anticipated by Balcan, or alternatively, rendered obvious by
+Balcan in view of Uchida. Final Act. 3.
+
+Anticipation
+
+The Examiner finds that Balcan teaches each limitation of claims 1
+and 27. Final Act. 3--4. Specifically, and relevant to Appellants' arguments,
+
+3
+
+Balcan et al., US 2009/0174748 Al, published July 9, 2009 (hereinafter
+"Balcan").
+4
+Haruo Uchida, US 2005/0219309 Al, published October 6, 2005
+(hereinafter "Uchida").
+5
+Uchikata et al., US 2002/0015076 Al, published February 7, 2002
+(hereinafter "Uchikata").
+3
+
+Appeal2015-003157
+Application 13/164,267
+the Examiner finds that the shuttle drive of Balcan is positioned on a first
+side of the shuttle and that
+a pump drive (fig. 14, items 344, 345, 346) positioned adjacent
+the track and the first side of the shuttle (fig. 15, note that the
+pump drive 346/344 is located "adjacent" the track, which would
+be on the side of the shuttle where item 315 is located) such that
+the shuttle drive and the pump drive do not extend between the
+first side of the shuttle and a second side of the shuttle opposite
+the first side (figs. 8, 15, note that neither drive "extends
+between" the two sides in that neither spans from one side to the
+other), the shuttle drive to be coupled to a printer (note that the
+shuttle is "coupled to a printer") to move the shuttle between a
+first position and a second position (compare figs. 7, 8).
+Id. The Examiner defines "adjacent" as "not distant" and "[b ]ecause the
+pump drive train and the track/first side are 'not distant' from each other, the
+two are indeed adjacent." Id. at 4. The Examiner also determines that pump
+drive and shuttle drive mean "the gear train transmitting a drive force to the
+[pump and shuttle respectively,]" and the Examiner specifically excludes a
+drive shaft from the definition of drive. Final Act. 4--5 and 9-10.
+Appellants argue that the Examiner reversibly erred for two reasons.
+First, Appellants contend that because Balcan does not teach "[a] shuttle
+having a shuttle drive positioned on a first side of the shuttle, the shuttle
+drive including a track" and "a pump drive positioned adjacent the track and
+the first side of the shuttle"-i.e., the shuttle drive and pump drive are not
+both on the same side of the shuttle-Balcan cannot anticipate claims 1 and
+27 as an element is missing. Appeal Br. 19; Reply Br. 5. Appellants argue
+further that the Examiner's definition of "adjacent" is too broad and is
+inconsistent with the claim language. Appeal Br. 20-21.
+
+4
+
+Appeal2015-003157
+Application 13/164,267
+In response, the Examiner explains that "the claim requires that the
+two be 'adjacent,' not 'on the same side' of the shuttle" and that "adjacency
+is relative, but being located on one side of something is not." Ans. 4.
+According to the Examiner, "Appellant's argument is not based on what is
+claimed." Id.
+During prosecution, an application's claims are given their broadest
+reasonable scope consistent with the specification. In re Am. A cad. of Sci.
+Tech. Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004). The words used in a claim
+
+must be read in light of the specification, as it would have been interpreted
+by one of ordinary skill in the art at the time of the invention. Id.
+During patent examination the pending claims must be
+interpreted as broadly as their terms reasonably allow. When the
+applicant states the meaning that the claim terms are intended to
+have, the claims are examined with that meaning, in order to
+achieve a complete exploration of the applicant's invention and
+its relation to the prior art.
+In re Zletz, 893 F.2d 319, 321-22 (Fed. Cir. 1989)
+
+In this case, Appellants have shown reversible error. Specifically, we
+conclude that the Examiner's determination that something "adjacent" can
+be something "opposite" is not reasonable in light of the claim language and
+as understood by one of ordinary skill in the art in light the Specification.
+The claim language requires that the pump drive be positioned adjacent the
+track and the first side of the shuttle. Claims Appendix at Appeal Br. 41 and
+42. But, the claim continues to state that "the shuttle drive and the pump
+drive do not extend between the first side of the shuttle and a second side of
+the shuttle opposite the first side .... " Id. (emphasis added). Thus, it is
+
+clear from the claim language that the second side of the shuttle is opposite
+to the first side and not adjacent to the first side. This understanding is
+5
+
+Appeal2015-003157
+Application 13/164,267
+consistent with Specification which clearly describes a structural
+relationship where the pump drive and shuttle drive are located on a first
+side and do not extend between the first and second side of the shuttle. See
+e.g., Spec. at i-f20 (comparing to prior art systems), i-f24 (comparing to prior
+art systems), and i-f43.
+The Examiner relies upon Balcan in rejecting claims 1 and 27 as
+anticipated. Final Act. 3. In contrast, however, to the instant application,
+Balcan teaches a pump drive on a side opposite from the shuttle drive and
+similar to the prior art or conventional systems the instant application seeks
+to improve upon. See Figs. 12 and 15. We therefore do not sustain the
+Examiner's rejection of claims 1 and 27, as well as those claims depending
+from claims 1 and 27, as anticipated by Balcan.
+Second, Appellants contend that Balcan does not teach "that the
+shuttle drive and the pump drive do not extend between the first side ... and
+a second side." Appeal Br. 21. Rather, Appellants explain that Balcan
+teaches a shuttle drive and a pump drive that are interconnected by a shaftthat is, the shuttle and pump drives extend between the first and second side.
+Id. at 22. Appellants argue that the Examiner's rejection ignores other pump
+drive components necessary for operation and direct attention to shaft 333
+and gear 338 as necessary for operation. Id. Appellants urge that the
+Examiner's findings "mistakenly re-defines the components of Balcan in a
+manner clearly driven by the teachings of the claim under examination
+instead of relying on the actual teachings of Balcan as a whole." Id. at 23.
+Appellants also contend that their proposed inclusion of shaft 333 and gear
+338 are consistent with the Examiner's proposed definition of pump drive
+
+6
+
+Appeal2015-003157
+Application 13/164,267
+and shuttle drive as "a gear train transmitting a drive force to the [pump or
+shuttle, respectively]." Id. at 24. According to Appellants, this is because
+the gear 338 supplies power to the tube pump 170 via the gears
+344, 345 and 346 when the sled drive gear 330 is rotated via the
+feed roller 312. (Balcan, ifif[0050]-[0055]). The sled drive gear
+330 of Balcan is mounted to a first end of the shaft 333 and the
+gear 338 is mounted to a second end of the drive shaft 333.
+Id. And, the Examiner's use of a dictionary to provide an additional
+definition for "drive" to mean "a means for giving motion to a machine or
+machine part," likewise supports including shaft 333 as part of the pump
+drive. Id. at 24--25. This is because a person of ordinary skill in the art
+would have understood that the pump drive must include components
+supplying the drive force or means for giving motion to the machine. Id.
+And, because required shaft 333 extends underneath the shuttle from the first
+side of the shuttle to an opposite, second side of the shuttle, Balcan cannot
+anticipate claims 1 and 27. Id. at 25-26.
+The Examiner acknowledges that
+Appellant relies on Balcan's teaching that the shaft 333 is
+essential to operation of both Balcan's shuttle drive and Balcan's
+pump drive. While that may be the case in practice, Appellant
+has recited nothing in the claim that requires the use of a drive
+shaft to power the drives. Further, as mentioned above, the plain
+dictionary definition of "drive" doesn't require the use of a shaft.
+While trying to keep the claim language broad, Appellant has
+simply created an argument for why Balcan does not anticipate,
+but Appellant's argument is not based on what is claimed.
+Ans. 4. Moreover, the Examiner explains that because Appellants use
+"comprising" or "open ended" language to define the invention, the
+"Appellant[ s] cannot claim only the components recited can be taught by a
+properly anticipating reference." Id. at 3.
+7
+
+Appeal2015-003157
+Application 13/164,267
+Here, Appellants have shown reversible error by the Examiner.
+Specifically, we find that drive shaft 333 is an integral part of the pump
+drive ofBalcan, without which, the drive would not operate. The
+Examiner's position that the Appellants do not claim a shaft and therefore a
+shaft is not required to anticipate the claims is unpersuasive because the
+claims do require a "drive." Ans. 4. The Examiner determines that a
+"drive" is a "gear train transmitting a drive force" or "a means for giving
+motion to a machine or machine part." Final Act. 4--5. Shaft 333 of Balcan,
+in combination with gears 338, 344, 345 and 346, transmits the drive force
+and gives motion to the device ofBalcan. Balcan, i-fi-150-51. As shown
+below in Figures 12 and 15 of Balcan, shaft 333, extends under the shuttle
+between the first side of the shuttle and the second side of the shuttle.
+
+FIG. 15
+
+Id. at Figs, 12 and 15. Accordingly, Balcan does not anticipate claims 1 and
+27 (and claims depending therefrom).
+
+8
+
+Appeal2015-003157
+Application 13/164,267
+Obviousness
+
+The Examiner finds, alternatively, that Balcan in combination with
+Uchida renders the claims obvious. Final Act. 3. In particular, the Examiner
+finds that Uchida teaches system having a pump drive and a shuttle drive on
+the same side of the shuttle so that neither the pump drive nor the shuttle
+drive extend between a first and second side of the shuttle. Final Act. 5.
+The Examiner further finds that
+[i]t would have been obvious to one of ordinary skill in the art to
+apply the same-side configuration of drives taught by Uchida in
+the device taught by Balcan because doing so would amount to
+the use of a known technique to improve a similar device in the
+same way. In other words, locating all of the drives on one side
+of the shuttle would allow for a shorter transmission route from
+the motor to the pump thereby reducing the number of
+transmission elements needed.
+Final Act. 5.
+Appellants argue that "the Examiner incorrectly alleges that Uchida
+teaches a pump drive on the same side as the shuttle drive and that neither
+the shuttle drive nor the pump drive extends from one side to the other."
+Appeal Br. 28. According to Appellants, Uchida includes main cam 111, an
+"integral part of the drive of Uchida" and without which 'none of the ...
+movements would be accomplished." Id. at 29. And, this main cam 111, as
+well as levers 114, do extend between the first and second sides of the
+shuttle. Id. Thus, Appellants urge that because Balcan and Uchida
+individually each lack the same elements, i.e., "a shuttle having a shuttle
+drive positioned on a first side of the shuttle ... [and] a pump drive
+positioned adjacent the track and the first side of the shuttle such that the
+shuttle drive and pump drive do not extend between the first side ... and
+
+9
+
+Appeal2015-003157
+Application 13/164,267
+second side of the shuttle," the combination of Balcan and Uchida
+necessarily lacks these elements as well. Reply Br. 11. In addition,
+Appellants argue that the Examiner has neglected to provide an adequate
+rationale for the modification as proposed-because, "one does not combine
+two references with drive shafts/cams and eliminate their structure for no
+reason." Id. at 11-12 and Appeal Br. 30. Thus, Appellants maintain that
+the Examiner has failed to establish a prima facie case of obviousness.
+For the reasons discussed above (see supra p. 6-8), we find, as do
+Appellants, that main cam 111 of Uchida is part of the shuttle drive.
+Moreover, Uchida explains that
+the rotation of the main cam 111 is converted to linear back and
+forth motions of the wiper 39 by an another cam, rack and pinion,
+and the like. Further, the rotation of the main cam 111 is
+converted to up and down movements of the cap 13 by an another
+cam and a lever 14.
+Uchida, i-f54. Thus, main cam 111 is responsible for giving motion to the
+machine. As shown below in Figure 10 of Uchida, main cam 111 extends
+from the first side of the shuttle to the opposite side, i.e., the second side of
+the shuttle.
+FIG.10
+
+10
+
+Appeal2015-003157
+Application 13/164,267
+Uchida, Fig. 10. Because neither Balcan nor Uchida suggest an arrangement
+where "the shuttle drive and the pump drive do not extend between the first
+side of the shuttle and a second side of the shuttle opposite the first side," as
+required by the claims, and because the Examiner provides no reason to
+modify Balcan and Uchida in such a manner, we cannot sustain the
+Examiner's rejection of claims 1 and 27 and their dependent claims as
+obvious over the combination of Balcan and Uchida.
+
+Rearrangement of the Parts
+The Examiner also finds that the principle of rearrangement of the
+parts applies here. Final Act. 5. Specifically, the Examiner finds that "[the]
+Applicant has claimed the same configuration as that disclosed by Balcan
+except for the fact that the pump drive has been moved from a side opposite
+the shuttle drive to the same side as the shuttle drive." Id. at 6. The
+Examiner concludes that because modifying Balcan in accordance with
+claims 1 and 27 would not modify the operation of the device, claims 1 and
+27 are unpatentable as obvious. Id.
+Appellants contend that a mere rearrangement of the parts in Balcan
+would not result in the structure of claims 1 and 2 7. Appeal Br. 31. This is
+because many of the components of Balcan are not present in the instant
+claims and therefore, the instant claims are structurally different than
+Balcan. Id. In addition, Appellants argue that "the rationale provided by the
+Examiner lacks a showing of a motivation or reason why one skilled in the
+art would modify Balcan as suggested by the Examiner." Id. at 30.
+The principle of "rearrangement of the parts" finds its roots in In re
+
+Japikse, 181F.2d1019, 1023 (CCPA 1950). There, claims were held
+
+11
+
+Appeal2015-003157
+Application 13/164,267
+unpatentable because rearranging the position of a starting switch would not
+have modified the operation of the device. Id. But, Japikse does not stand
+for a per se rule of obviousness simply through rearrangement of individual
+parts nor does it displace the requirement of an articulated reason to support
+the proposed modification. See In re Fritch, 972 F.2d 1260, 1266 (Fed. Cir.
+1992).
+Here, we again agree with Appellants. The Examiner has not
+provided sufficient underlying reasoning or analysis to support a conclusion
+that it would have been obvious to modify the prior art in the manner
+proposed in the rejection. Accordingly, we do not sustain the rejection of
+claim 1 and its dependent claims.
+
+Claim 51
+
+The Examiner rejects claim 51 as indefinite, among other rejections,
+for failing to particularly point out and distinctly claim the subject matter
+Appellant regards as the invention. Final Act. 2. The Examiner concludes
+claim 51 is indefinite because claim 51
+creates confusion between two different meanings. It could be
+construed as that none of the drives extends from the first side to
+the second side. On the other hand, it could also be construed to
+mean that none of the drives extend across the first side and also
+extends across the second side.
+Id. at 2-3. The Examiner further explains that "the use of the terms 'across,'
+
+'side,' and 'extend,' not being well-defined in the claims, leads to more than
+one reasonable interpretation." Ans. 6.
+Appellants argue that the Examiner's conclusion is in error, that the
+Examiner offers only conclusory statements unsupported by facts, and that
+
+12
+
+Appeal2015-003157
+Application 13/164,267
+"the Examiner has not explained, let alone established, why the claimed
+features are believed indefinite from the perspective of one of ordinary skill
+in the art." Appeal Br. 11. Appellants further argue that the claim language
+is clear and fully supported and described by the original specification. Id.
+at 12.
+During prosecution, a claim is examined for compliance with 35
+U.S.C. § 112, i-f 2 by determining whether the claim meets threshold
+requirements of clarity and precision. In re Skvorecz, 580 F.3d 1262, 1268
+(Fed. Cir. 2009) (quoting MPEP § 2173.02). Although exact precision is not
+required, the claim language must be as reasonably precise as the subject
+matter permits. In re Packard, 751F.3d1307, 1313 (Fed. Cir. 2014). The
+test for definiteness is whether one skilled in the art, at the time the
+application was filed, would understand the bounds of the claim when read
+in light of the specification and prosecution history. Nautilus, Inc. v. Biosig
+Inst., Inc., _U.S._, 134 S.Ct. 2120, 2128 (2014).
+
+In this instance, we agree with Appellants and conclude that those
+skilled in the art would have no uncertainty concerning the subject matter
+and scope of the claims. Claim 51, depending from claim 1, additionally
+requires that "no portions of the shuttle drive, the pump drive and the printer
+drive extend across the first side of the shuttle and the second side of the
+shuttle." The Specification makes clear that this language means that none
+of the drives extend across from the first side of the shuttle to the second
+(and opposite) side of the shuttle. For example, paragraph 43 of the
+Specification explains that "both the shuttle drive assembly 232 and the
+pump drive assembly 234 of the illustrated example are positioned such that
+shuttle drive assembly 232 and the pump drive assembly 234 do not extend
+
+13
+
+Appeal2015-003157
+Application 13/164,267
+
+between thejzrst side 214 an the second side 216 of the shuttle 210." Spec.
+i-f43 (emphasis added); see also id. at i-f24 ("does not extend between"). This
+is in contrast to "conventional service stations" that "employ a shuttle drive
+and a pump drive extending between a first side ... and a second side of the
+service station opposite the first side." Id. at i-f20; see also id. at i-f24 (same).
+Thus, we do not sustain the Examiner's rejection.
+
+CONCLUSION
+The Examiner reversibly erred in rejecting claim 51, under 35 U.S.C.
+§ 112 second paragraph, as being indefinite.
+The Examiner reversibly erred in rejecting claims 1, 3, 27, 29, and
+49-51, under 35 U.S.C. §102(b), as being unpatentable over Balcan or, in
+the alternative, under 35 U.S.C. § 103(a) as obvious over Balcan in view of
+Uchida.
+The Examiner reversibly erred in rejecting claims 4--7 and 30-33,
+under 35 U.S.C. § 103(a), as being unpatentable over Balcan in view of
+Uchida and further in view of U chikata.
+
+DECISION
+For the above reasons, the Examiner's rejection of claims 1, 3-7, 27,
+29-33, and 49-51 is reversed.
+
+REVERSED
+
+14
+
+

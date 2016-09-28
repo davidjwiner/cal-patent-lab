@@ -1,0 +1,296 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/107,215
+
+04/22/2008
+
+Guillermo Castano
+
+50X9140.0l
+
+9317
+
+36738
+
+7590
+
+09/16/2016
+
+ROGITZ & AS SOCIATES
+750B STREET
+SUITE 3120
+SAN DIEGO, CA 92101
+
+EXAMINER
+LEWIS, JONATHAN V
+
+ART UNIT
+
+PAPER NUMBER
+
+2425
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+Noelle@rogitz.com
+eofficeaction@appcoll.com
+J ohn@rogitz.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte GUILLERMO CASTANO
+
+Appeal2015-005368
+Application 12/107 ,215
+Technology Center 2400
+
+Before JOSEPH L. DIXON, LINZY T. McCARTNEY, and
+NATHAN A. ENGELS, Administrative Patent Judges.
+ENGELS, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellant appeals under 35 U.S.C. § 134(a) from a Final Rejection of
+claims 1-20. We have jurisdiction under 35 U.S.C. § 6(b).
+We affirm.
+
+Appeal2015-005368
+Application 12/107 ,215
+ILLUSTRATIVE CLAIM
+Claims 1 and 9, reproduced below, are illustrative of the claimed
+subject matter:
+1.
+
+A method for controlling a display device comprising:
+accessing a data signal, wherein said data signal is a
+portion of a content signal received by an audio/video display
+device;
+extracting encoded information from said data signal;
+interpreting said encoded information to determine a
+corresponding display device control code wherein said control
+code causes a navigation through options to invoke features of a
+display device; and
+issuing said display device control code to said
+audio/video display device to implement an operation thereof,
+wherein the audio/video display device responsive to the control
+code, automatically establishes at least one video and/or audio
+setting of the display device according to the control code such
+that no human interaction is required to establish the at least one
+video and/or audio setting, the at least one video and/or audio
+setting being a setting from a group including audio volume,
+video channel, brightness, contrast, white balance, zoom, color
+mode, sound mode, surround sound on, surround sound off,
+resolution, and selection of letter box of wide screen mode.
+9.
+A system for controlling a presentation system
+compnsmg:
+a data signal receiver for receiving a data signal
+comprising encoded control information, said data signal being
+part of a content signal received by said presentation system;
+an interpretation module for interpreting said encoded
+control information and determining display device control
+information corresponding to said encoded control information
+wherein said display device control information causes at least
+one setting to be automatically established without human
+interaction on the presentation system; and
+a control signal communication module operable to
+transmit said display device control information to the
+2
+
+Appeal2015-005368
+Application 12/107 ,215
+presentation system for control thereat: the setting being at least
+one setting selected from audio volume, video channel,
+brightness, contrast, white balance, zoom, color mode, sound
+mode, surround sound on, surround sound off, resolution, and
+selection of letter box of wide screen mode.
+THE REJECTIONS
+Claims 9-16 stand rejected under 35 U.S.C. § 112, second paragraph
+as indefinite.
+Claims 1--4, 6, 7, and 9-20 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable in view of Carlucci (US 2004/0040035 Al; Feb. 26,
+2004), Park (US 8,006,278 B2; Aug. 23, 2011), and Pollack (US 5,153,580;
+Oct. 6, 1992).
+Claims 5 and 8 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable in view of Carlucci, Park, Pollack, and Lee (US 2005/0177856
+Al; Aug. 11, 2005).
+
+ANALYSIS
+
+The Indefiniteness Rejection of Claims 9-16
+Appellant argues the Examiner erred in interpreting claims 9-16 as
+means-plus-function limitations under 35 U.S.C. § 112, sixth paragraph
+based on the terms "interpretation module," "control signal communication
+module," and "interface module." App. Br. 5---6. Specifically, Appellant
+argues claim 9 does not recite the word "means" and the Examiner did not
+rebut the presumption that§ 112, sixth paragraph does not apply. App. Br.
+5---6. In addition, Appellant argues the Examiner erred in rejecting claims 916 as indefinite because the Specification recites sufficient structure with its
+disclosures of a computer system with registers and memories (App. Br. 7-8
+3
+
+Appeal2015-005368
+Application 12/107 ,215
+(citing Spec. iii! 19-20)), "a circuit board with a small microprocessor"
+(App. Br. 8 (citing Spec. if 35)), and additional (unidentified) structures
+disclosed in paragraphs 36 and 37 of the Specification (App. Br. 8).
+We disagree with Appellant and agree with the Examiner that claims
+9-16 are indefinite as means-plus-functions limitations that lack adequate
+corresponding disclosures of structure. While a claim limitation that does
+not include the word "means" is presumed to not invoke § 112, sixth
+paragraph, the limitation will still invoke § 112, sixth paragraph if "the claim
+term fails to 'recite sufficiently definite structure' or else recites 'function
+without reciting sufficient structure for performing that function.'"
+Williamson v. Citrix Online, LLC, 792 F.3d 1339, 1349-50 (Fed. Cir. 2015)
+
+(en bane in relevant part) (quoting Watts v. XI Sys., Inc., 232 F.3d 877, 880
+(Fed. Cir. 2000)).
+To determine whether§ 112, sixth paragraph applies, we consider the
+limitation as a whole, not merely the terms "interpretation module," "control
+signal communication module," and "interface module." See id. at 1350
+(describing "distributed learning control module" as an "introductory
+phrase" and considering it as part of the entire passage in which it appears).
+Similar to the limitation at issue in Williamson, neither the recited
+"interpretation module," "control signal communication module," and
+"interface module" nor the passages in which the terms appear recite
+structures for performing the modules' associated functions. See id.
+("'Module' is a well-known nonce word that can operate as a substitute for
+'means' in the context of§ 112, para. 6."). Further, as our reviewing court
+has held, "the fact that one of skill in the art could program a computer to
+perform the recited functions cannot create structure where none otherwise
+
+4
+
+Appeal2015-005368
+Application 12/107 ,215
+is disclosed." Id. at 1351 (citing Function Media, L.L.C v. Google, Inc., 708
+F.3d 1310, 1319 (Fed. Cir. 2013)). Accordingly, we conclude the
+presumption against means-plus-function claiming is rebutted and agree
+with the Examiner that claims 9-16 invoke § 112, sixth paragraph.
+We next consider whether Appellant's Specification discloses
+sufficient structure that corresponds to the claimed functions. Id. at 1352.
+"Structure disclosed in the specification qualifies as 'corresponding
+structure' if the intrinsic evidence clearly links or associates that structure to
+the function recited in the claim." Id. For computer-implemented meansplus-function claim limitations, the corresponding structure must be more
+than simply a general purpose computer or microprocessor. Id.; Aristocrat
+Techs. Aust!. Pty Ltd. v. Int'! Game Tech., 521F.3d1328, 1333 (Fed. Cir.
+
+2008). The specification must disclose at least an algorithm for performing
+the claimed function. Williamson, 792 F.3d at 1352.
+Here, Appellant does not cite an algorithm for performing the
+functions associated with the claimed modules. Having reviewed the
+structures cited by Appellant (e.g., a computer with registers and memory
+and a circuit board with a microprocessor) (see App. Br. 7-8) and
+Appellant's Specification, we agree with the Examiner that the Specification
+does not disclose adequate structures corresponding to the claimed
+"interpretation module," "control signal communication module, or
+"interface module." Accordingly, we sustain the Examiner's indefiniteness
+rejection of claims 9-16 under 35 U.S.C. § 112, second paragraph.
+
+5
+
+Appeal2015-005368
+Application 12/107 ,215
+The Obviousness Rejections of Claims 1-20
+Addressing the obviousness rejections of claims 1-20 collectively (see
+App. Br. 9), Appellant argues the Examiner erred by using improper
+hindsight to combine the teachings of disparate references (App. Br. 9-10).
+Specifically, Appellant argues the Examiner's combination requires
+improper hindsight because, "adhering to [the reference'] teachings, the
+skilled artisan would simply use Carlucci' s segmentation messages to insert
+ads and record programs, add close captioning to Carlucci' s content as
+taught by Park, and control the display using the conventional IR signaling
+from the remote control of Pollack." App. Br. 10; see also Reply Br. 2-3.
+Having reviewed the Examiner's rejections in view of Appellant's
+arguments and the evidence of record, we disagree with Appellant.
+Appellant's arguments mischaracterize the substance of Examiner's
+rejections and the cited prior art as a whole by suggesting that Carlucci's
+teachings are limited to "inserting 'segmentation messages' into a video
+stream," that Park is merely directed to closed captioning, and "Pollack has
+nothing to do with control signals carried in content signals." App. Br. 910; Reply Br. 2-3. The Examiner cites Carlucci, not for its disclosures of
+segmentation messages, but as evidence of known data signals that include
+encoded messages in the Extended Data Services ("XDS") portion of a
+closed captioning signal. Ans. 4 (citing Carlucci i-fi-19, 47, 70, 121-123,
+136-137). Notably, Appellant's Specification similarly describes that the
+XDS portion of a closed captioning signal can include encoded control
+information. Spec. i141; accord App. Br. 13 (claim 3 reciting "[t]he method
+of claim 1 wherein said data signal is a closed captioning (CC) signal";
+claim 4 reciting "[t]he method of claim 3 wherein an Extended Data Service
+
+6
+
+Appeal2015-005368
+Application 12/107 ,215
+(XDS) portion of said closed captioning (CC) signal comprises said encoded
+information")).
+Further, the Examiner cites Park and Pollack as evidencing control
+codes in signals that change audio and video settings. Specifically, the
+Examiner cites Park's teachings regarding control codes that automatically
+establish a video setting as described in Park's disclosure of style options
+that are "Set By Program," (see Final Act. 6-7 (citing, e.g., Park col. 6, 1.
+50-col. 7, 1. 8, col. 8, 1. 59---col. 9, 1. 24)) and Pollack's teachings of
+automatic changes of audio settings (e.g., decreasing volume or returning
+volume to previous settings) (Final Act. 8 (citing Pollack Figs. 2, 3, col. 4, 11.
+32--48).
+The Examiner's rejections explain, and we agree, that it would have
+been an obvious modification of Carlucci' s disclosures of XDS signals to
+include control codes such as those evidenced by Park and Pollack. See
+Final Act. 5---6; Ans. 17-18. Appellant offer no persuasive evidence or
+reasoning to establish that the combined teaches would have been "uniquely
+challenging or difficult for one of ordinary skill in the art." Leapfrog
+
+Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007)
+(citing KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007)).
+Accordingly, we adopt as our own the Examiner's findings,
+conclusions, and reasons and sustain the Examiner's rejections of claims 120.
+
+7
+
+Appeal2015-005368
+Application 12/107 ,215
+DECISION
+We affirm the Examiner's rejection of claims 9-16 under 35 U.S.C.
+
+§ 112, second paragraph, and the Examiner's rejection of claims 1-20 under
+35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended. 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+8
+
+

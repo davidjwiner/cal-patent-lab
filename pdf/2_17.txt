@@ -1,0 +1,305 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/616,660
+
+09/14/2012
+
+Joseph A. Manico
+
+P20553USD1
+(l 19-0550US2)
+
+7626
+
+61947
+
+7590
+
+09/22/2016
+
+Apple - Blank Rome
+c/o Blank Rome LLP
+717 Texas Avenue, Suite 1400
+HOUSTON, TX 77002
+
+EXAMINER
+KAO, YIH-SIEN
+
+ART UNIT
+
+PAPER NUMBER
+
+2662
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+mbrininger@blankrome.com
+houstonpatents@blankrome.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JOSEPH A. MANICO, JOHN R. FREDLUND,
+ELENA A. FEDOROVSKAYA, and DOUGLAS B. BEAUDET
+
+Appeal2015-003316
+Application 13/616,660 1
+Technology Center 2600
+
+Before MARC S. HOFF, TERRENCE W. McMILLIN, and
+MATTHEW J. McNEILL, Administrative Patent Judges.
+HOFF, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants appeal under 35 U.S.C. § 134 from a Final Rejection of
+claims 1-10, 12-18, 20-33, and 35-58. 2 We have jurisdiction under 35
+U.S.C. § 6(b).
+We affirm.
+Appellants' invention is an imaging evaluation method. User inputs
+to the camera are received concurrent with the imaging. Usage parameters
+of the captured image records, responsive to use on the camera by a user
+
+1
+
+2
+
+The real party in interest is Apple Inc.
+Claims 11, 19, and 34 have been cancelled.
+
+Appeal2015-003316
+Application 13/616,660
+after image capture, are also tracked. The inputs are valued to provide a set
+of input values, and an image value index is calculated using the input
+values. See Abstract; Claim 1.
+Claim 1 is exemplary of the claims on appeal:
+1.
+
+An image evaluation method comprising the steps of:
+capturing a plurality of image records with a camera;
+receiving, for each image record, at least one input
+representative of user input to said camera concurrent with said
+capturing, each input defining a setting of at least one of a
+plurality of operational functions of said camera;
+valuing, for each image record, said inputs to provide
+respective sets of input values;
+tracking usage parameters of the captured image records
+responsive to utilization on the camera by a user after capture of
+the image records;
+computing an image value index of each image record
+from a respective set of input values and tracked usage
+parameters; and
+associating each image value index with a respective
+image record.
+The Examiner relies upon the following prior art in rejecting the
+claims on appeal:
+Matraszek
+Toyama
+Fedorovskaya
+Pilu
+
+US
+US
+US
+US
+
+2003/0128389
+2004/0070678
+2004/0101178
+2006/0103731
+
+Al
+Al
+Al
+Al
+
+July 10, 2003
+Apr. 15, 2004
+May 27, 2004
+May 18, 2006
+
+Claims 1, 4, 8, 13, 15, 16, 18, 21, 24, 25, 29, and 31 stand rejected
+under 35 U.S.C. § 103(a) as being unpatentable over Pilu and Fedorovskaya.
+Claims 2, 3, 9, 10, 12, 17, 22, 23, 27, 28, 30, 32, and 35-38 stand
+rejected under 35 U.S.C. § 103(a) as being unpatentable over Pilu,
+Fedorovskaya, and Matraszek.
+
+2
+
+Appeal2015-003316
+Application 13/616,660
+Claim 5 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Pilu, Fedorovskaya, and Toyama.
+Claims 6 and 7 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Pilu, Fedorovskaya, Toyama, and Matraszek.
+Claims 14, 20, 26, and 33 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Pilu, Fedorovskaya, and "well-known art."
+Throughout this Decision, we make reference to the Appeal Brief
+("App. Br.," filed May 27, 2014), the Reply Brief ("Reply Br.," filed Dec.
+16, 2014), and the Examiner's Answer ("Ans.," mailed Oct. 16, 2014) for
+their respective details.
+
+ISSUE
+Appellants' arguments present us with the following issue:
+Does the combination of Pilu and Fedorovskaya disclose or suggest
+computing an image value index of each image record from a respective set
+of input values and tracked usage parameters?
+
+ANALYSIS
+CLAIMS 1,4,8, 13, 15, 16, 18,21,24,25,29,AND31
+Appellants argue that the combination of Pilu and Fedorovskaya fails
+to disclose or suggest "computing an image value index of each image
+record from a respective set of input values and tracked usage parameters,"
+as recited in independent claims 1 and 18. Independent claim 24 contains
+very similar limitations. The claimed "input values" are derived from one or
+more inputs representative of user input to the camera component
+
+concurrent with image record capture. The claimed "tracked usage
+
+3
+
+Appeal2015-003316
+Application 13/616,660
+parameters" are derived from "utilization on the camera by a user after
+capture of the image records" (emphasis added).
+Appellants argue that Pilu does not disclose "computing an image
+value index based on the claimed input values, which are non-post capture
+inputs that define operational functions on a camera (e.g., exposure, zoom,
+shutter speed, etc.)." Reply Br. 4. We do not agree with Appellants'
+argument. The Examiner finds that Pilu discloses analysis to determine the
+accuracy of the framing, which can be expressed qualitatively. Final Act. 5;
+Pilu i-f 79. This analysis can be performed by using individual behavior
+features extracted from raw measurements, sensor or camera controls. One
+example given is "operation of the zoom, which indicates, perhaps in
+combination with other features, that the user was interested in a particular
+subject." See Pilu i-f 79. We agree with the Examiner's finding that
+"operation of the zoom" in Pilu corresponds to "user input to said camera
+concurrent with [image] capturing."
+Appellants admit in the Appeal Brief that "Fedorovskaya teaches
+evaluating inputs during review of a previously captured image . ... For
+example, Fedorovskaya monitors a user's facial expressions during review
+of the image . . . . That data is then used to rank the image against other
+images." App. Br. 8; Fedorovskaya i-fi-135-37. The Examiner also finds that
+Fedorovskaya discloses such post-image-capture activity. See Final Act. 67.
+Appellants subsequently argue in the Reply Brief that Fedorovskaya
+discloses determining a user's degree of preference for an image by
+analyzing the facial expression of the user while viewing the image; that
+other metadata can be stored, such as "image capture parameters" or "image
+
+4
+
+Appeal2015-003316
+Application 13/616,660
+editing history;" but that those additional metadata are not used as a basis for
+determining a user's preference for an image. Reply Br. 4. We are not
+persuaded by this argument, however, that Fedorovskaya does not disclose
+"tracking usage parameters of the captured image records responsive to
+utilization on the camera by a user after capture," because we agree with the
+Examiner's finding that storing personal affective information, in
+Fedorovskaya, in response to a user viewing captured images corresponds to
+the claimed "tracking usage parameters." See Final Act. 6-7.
+We find that the Examiner did not err in rejecting claims 1, 4, 8, 13,
+15, 16, 18, 21, 24, 25, 29, and 31 over the combination of Pilu and
+Fedorovskaya. We sustain the Examiner's§ 103(a) rejection.
+
+CLAIMS
+
+2, 3, 9, 10, 12, 17, 22, 23, 27, 28, 30, 32, AND 35-38
+
+Appellants' only argument with respect to these claims is that
+Matraszek fails to cure the deficiencies of Pilu and Fedorovskaya. As
+discussed supra, we do not agree that such deficiencies exist. As a result,
+we sustain the Examiner's§ 103(a) rejection of claims 2, 3, 9, 10, 12, 17, 22,
+23, 27, 28, 30, 32, and 35-38 over Pilu, Fedorovskaya, and Matraszek for
+the same reasons given with respect to the rejection of claims 1, 4, 8, 13, 15,
+16, 18, 21, 24, 25, 29, and 31, supra.
+
+CLAIMS
+
+Appellants' only argument with respect to claim 5 is that Toyama fails
+to cure the deficiencies of Pilu and Fedorovskaya. As discussed supra, we
+do not agree that such deficiencies exist. As a result, we sustain the
+Examiner's§ 103(a) rejection of claim 5 over Pilu, Fedorovskaya, and
+
+5
+
+Appeal2015-003316
+Application 13/616,660
+Toyama for the same reasons given with respect to the rejection of claims 1,
+4,8, 13, 15, 16, 18,21,24,25,29,and31,supra.
+CLAIMS
+
+6 AND 7
+
+Appellants' only argument with respect to these claims is that Toyama
+and Matraszek fail to cure the deficiencies of Pilu and Fedorovskaya. As
+discussed supra, we do not agree that such deficiencies exist. As a result, we
+sustain the Examiner's§ 103(a) rejection of claims 6 and 7 over Pilu,
+Fedorovskaya, Toyama, and Matraszek for the same reasons given with
+respect to the rejection of claims 1, 4, 8, 13, 15, 16, 18, 21, 24, 25, 29, and
+31, supra.
+
+CLAIMS
+
+14, 20, 26, AND 33
+
+Appellants' only argument with respect to these claims is that "wellknown art" fails to cure the deficiencies of Pilu and Fedorovskaya. As
+discussed supra, we do not agree that such deficiencies exist. As a result,
+we sustain the Examiner's§ 103(a) rejection of claims 14, 20, 26, and 33
+over Pilu, Fedorovskaya, and "well-known art" for the same reasons given
+with respect to the rejection of claims 1, 4, 8, 13, 15, 16, 18, 21, 24, 25, 29,
+and 31, supra.
+
+CONCLUSIONS
+The combination of Pilu and Fedorovskaya discloses computing an
+image value index of each image record from a respective set of input values
+and tracked usage parameters.
+
+6
+
+Appeal2015-003316
+Application 13/616,660
+ORDER
+The Examiner's decision to reject claims 1-10, 12-18, 20-33, and
+3 5-5 8 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

@@ -1,0 +1,390 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/577,526
+
+10/12/2009
+
+Robert J. LEE
+
+1875.3480002
+
+4452
+
+49579
+
+7590
+
+09/21/2016
+
+EXAMINER
+
+STERNE, KESSLER, GOLDSTEIN & FOX P.L.L.C.
+1100 NEW YORK AVENUE, N.W.
+WASHINGTON, DC 20005
+
+SAMUEL, DEWANDA A
+
+ART UNIT
+
+PAPER NUMBER
+
+2464
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBERT J. LEE
+
+Appeal2014-007019
+Application 12/577,526
+Technology Center 2400
+
+Before CAROLYN D. THOMAS, JAMES R. HUGHES, and
+MONICA S. ULLAGADDI, Administrative Patent Judges.
+HUGHES, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellant seeks our review under 35 U.S.C. § 134(a) of the
+Examiner's non-final decision 1 rejecting claims 1-20, which are all the
+claims pending in the present patent application. Non-Final Act. 1-2; App.
+Br. 1, 4. 2 We have jurisdiction under 35 U.S.C. § 6(b).
+1
+
+The Examiner marks the Office Action mailed July 17, 2013 (hereinafter
+Non-Final Office Action (Non-Final Rejection) ("Non-Final Act.")) as being
+both final and non-final. The status of the action is moot in view of
+Appellant's appeal.
+2
+We also refer to Appellant's Specification ("Spec."), filed Oct. 12, 2009
+(claiming benefit of U.S. Provisional Application No. 60/439,461 (filed Jan.
+13, 2003)); Appeal Brief ("App. Br.") filed Oct. 17, 2013; and Reply Brief
+
+Appeal2014-007019
+Application 12/577,526
+We atlirm-in-part.
+
+Appellant's Invention
+
+The invention at issue concerns serial packet sync encoders and
+decoders (apparatuses) and systems for synchronizing bit-rate sampled data
+transmissions in a communications network. The system utilizes a serial
+packet sync encoder and transmitter that encodes a serial packet sync
+datastream, which includes a packet sync vector and a preamb 1e, and
+transmits the serial packet sync datastream by synchronously shifting each
+bit of the serial packet sync datastream out of said serial packet sync
+transmitter. The decoder includes a receiver, which receives the serial
+packet sync datastream, and a comparator, which compares the serial packet
+sync datastream to determine if the preamble therein matches a
+predetermined preamble. Spec. i-fi-1 2, 6-7; Abstract.
+Representative Claims
+
+Independent claims 1 and 11, reproduced below with the key disputed
+limitations emphasized, further illustrate the invention:
+1.
+
+A system, comprising:
+
+a media access controller that asserts a packet sync vector
+comprising one or more bits in response to receiving a grant;
+and
+a serial packet sync encoder that encodes a serial packet
+sync datastream, said serial packet sync datastream comprised
+of said packet sync vector and a preamble, wherein said serial
+packet sync encoder comprises a serial packet sync transmitter
+
+("Reply Br.") filed June 2, 2014. We further refer to the Examiner's Answer
+("Ans.") mailed Apr. 2, 2014, and the Non-Final Office Action ("Non-Final
+Act.") mailed July 17, 2013.
+2
+
+Appeal2014-007019
+Application 12/577,526
+
+that transmits said serial packet sync datastream by
+synchronously shifting each bit of said serial packet sync
+datastream out of said serial packet sync transmitter.
+11. A serial packet sync decoder for receiving
+indication of an event, comprising:
+
+a serial packet sync receiver that synchronously receives
+a serial packet sync datastream, the serial packet sync
+datastream comprising a preamble, and a packet sync vector
+that is consecutive to the preamble;
+
+a preamble comparator that compares said received
+serial packet sync datastream to determine if the preamble of
+said received serial packet sync datastream matches a
+predetermined preamble; and
+a holding register for holding the packet sync vector
+included in said serial packet sync datastream.
+
+Rejections on Appeal
+1.
+
+The Examiner rejects claims 1, 3, 6, and 11 on the ground of
+
+nonstatutory obviousness-type double patenting over claims 1, 4, 5, and l 0
+of Lee (US 7,602,816 B2, issued Oct. 13, 2009). 3
+2.
+
+The Examiner rejects claims 1, 3, 4, 7, 8, and 10 under
+
+35 U.S.C. § 103(a) as being unpatentable over Trachewsky (US
+2001/0055311 Al, pub. Dec. 27, 2001) and Kline et al. (US 5,068,880,
+issued Nov. 26, 1991).
+
+3
+
+The double patenting rejection is not addressed or contested by Appellant.
+Accordingly, we summarily affirm the double patenting rejection. The
+double patenting rejection includes all the independent claims (claims 1 and
+11 ), but does not cover several dependent claims (in particular claims 2, 4, 5,
+and 7-10).
+3
+
+Appeal2014-007019
+Application 12/577,526
+3.
+
+The Examiner rejects claim 2 under 35 U.S.C. § 103(a) as being
+
+unpatentable over Trachewsky, Kline, and Kumar et al. (US 5,970,069,
+issued Oct. 19, 1999).
+4.
+
+The Examiner rejects claim 5 under 35 U.S.C. § 103(a) as being
+
+unpatentable over Trachewsky, Kline, and Rabenko et al. (US 7,801, 176 B2,
+issued Sept. 21, 2010 (filed Oct. 21, 2005, claiming benefit of US
+60/119,872, filed Feb. 12, 1999 and US 60/136,684, filed May 28, 1999)).
+5.
+
+The Examiner rejects claim 6 under 35 U.S.C. § 103(a) as being
+
+unpatentable over Trachewsky, Kline, and Eng (US 7, 194,009 B2, issued
+Mar. 20, 2007 (filed Apr. 15, 2002)).
+6.
+
+The Examiner rejects claim 9 under 35 U.S.C. § 103(a) as being
+
+unpatentable over Trachewsky, Kline, and Mannette et al. (US 6,975,652
+Bl, issued Dec. 13, 2005 (filed Oct. 18, 2000)).
+7.
+
+The Examiner rejects claims 11, 15, 17, and 19 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Gordon (US 3,510,777, issued May 5,
+1970) and Tanahashi (US 5,550,831, issued Aug. 27, 1996).
+8.
+
+The Examiner rejects claims 12-14, 16, and 18 under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Gordon, Tanahashi, and Eng.
+9.
+
+The Examiner rejects claim 20 under 35 U.S.C. § 103(a) as
+
+being unpatentable over Gordon, Tanahashi, and Rabenko.
+
+ISSUES
+Based upon our review of the administrative record, Appellant's
+contentions, and the Examiner's findings and conclusions, the pivotal issues
+before us follow:
+
+4
+
+Appeal2014-007019
+Application 12/577,526
+1.
+
+Does the Examiner err in finding that Trachewsky and Kline
+
+collectively would have taught or suggested the "serial packet sync encoder
+that encodes a serial packet sync datastream ... comprised of said packet
+sync vector and a preamble" and that the "serial packet sync encoder
+comprises a serial packet sync transmitter that transmits said serial packet
+sync datastream by synchronously shifting each bit of said serial packet sync
+datastream out of said serial packet sync transmitter," as recited in
+Appellant's claim 1?
+2.
+
+Does the Examiner err in finding that Gordon and Tanahashi
+
+collectively would have taught or suggested a "serial packet sync decoder"
+comprising "a serial packet sync receiver that synchronously receives a
+serial packet sync datastream ... comprising a preamble, and a packet sync
+vector that is consecutive to the preamble" and "a preamble comparator that
+compares said received serial packet sync datastream to determine if the
+preamble of said received serial packet sync datastream matches a
+predetermined preamble," as recited in Appellant's claim 11?
+
+ANALYSIS
+The 35 U.S.C. § 103(a) Rejection of Claims 1, 3, 4, 7, 8, and 10
+
+Appellant does not separately argue dependent claims 3, 4, 7, 8, and
+10. App. Br. 8-12. Accordingly, we select independent claim 1 as
+representative of Appellant's arguments and grouping with respect to claims
+1, 3, 4, 7, 8, and 10. See 37 C.F.R. § 41.37(c)(l)(iv).
+Appellant contends that Trachewsky and Kline do not teach the
+disputed features of representative claim 1. App. Br. 8-12; Reply Br. 2-5.
+Specifically, Appellant contends that Trachewsky does not teach the recited
+
+5
+
+Appeal2014-007019
+Application 12/577,526
+serial packet sync encoder or "provide any basis to conclude what type of
+encoder Trachewsky' s constellation encoder 530 is" (Reply Br. 5 (emphasis
+omitted). See App. Br. 9-10; Reply Br. 4--5. We find Appellant's
+contentions persuasive of Examiner error.
+We agree with Appellant that Trachewsky, cited by the Examiner as
+teaching a serial encoder (Ans. 4--5 (citing Trachewsky i-f 142)), does not
+describe the type of encoding (e.g., serial or parallel) the constellation
+encoder performs (App. Br. 9-10). The Examiner relies on Kline to teach a
+serial transmitter (Non-Final Act. 9-10). Even if we were to combine
+Trachewsky and Kline as proffered by the Examiner, the Examiner does not
+sufficiently explain how the encoders (encoding techniques) of Trachewsky
+and Kline could be combined to provide Kline's serial transmitter the recited
+serial packet sync datastream.
+Consequently, we are constrained by the record before us to find that
+the Examiner erred in finding Trachewsky and Kline teach the disputed
+limitations of Appellant's claim 1. Dependent claims 3, 4, 7, 8, and 10, not
+separately argued (supra), depend on claim 1. Thus, we reverse the
+Examiner's obviousness rejection of claims 1, 3, 4, 7, 8, and 10.
+The 35 U.S.C. § 103(a) Rejection of Claims 2, 5, 6, and 9
+
+Appellant does not separately argue dependent claims 2, 5, 6, and 9.
+App. Br. 8-12. But, the Examiner has not shown that the additional
+references -
+
+Kumar, Rabenko, Eng, and Mannette overcome the
+
+deficiencies of Trachewsky and Kline (supra). See Ans. 2-7; Non-Final
+Act. 12-15. Consequently, we are constrained by the record before us to
+find that the Examiner erred in finding Trachewsky and Kline (in
+combination with Kumar, Rabenko, Eng, or Mannette) teach the disputed
+
+6
+
+Appeal2014-007019
+Application 12/577,526
+limitations of Appellant's claims 2, 5, 6, and 9. Thus, we reverse the
+Examiner's obviousness rejections of claims 2, 5, 6, and 9.
+The 35 U.S.C. § 103(a) Rejection of Claims 11, 15, 17, and 19
+
+Appellant does not separately argue dependent claims 15, 17, and 19.
+App. Br. 14. Accordingly, we select independent claim 11 as representative
+of Appellant's arguments and grouping with respect to claims 11, 15, 17,
+and 19. See 37 C.F.R. § 41.37(c)(l)(iv).
+Appellant contends that Gordon and Tanahashi do not teach the
+disputed features of representative claim 11. App. Br. 12-14; Reply Br. 5-7.
+Specifically, Appellant contends that Tanahashi does not teach the recited
+preamble comparator or "'the preamble of said received serial packet sync
+datastream' and a 'predetermined preamble,' as recited in independent claim
+11" (App. Br. 6). See App. Br. 12-14; Reply Br. 5-7. We find Appellant's
+
+contentions unpersuasive of Examiner error.
+We concur with and adopt the findings and conclusions reached by
+the Examiner. Non-Final Act. 15-24; Ans. 5-7. We provide the following
+for emphasis.
+We give claim language its "broadest reasonable interpretation
+consistent with the [S]pecification" in accordance with our mandate that
+"claim language should be read in light of the [S]pecification as it would be
+interpreted by one of ordinary skill in the art." In re Am. Acad. of Sci. Tech
+Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004) (citations and internal quotation
+
+marks omitted). We broadly but reasonably construe "preamble" as an
+introductory segment of data or bit sequence. Appellant does not argue and
+Appellant's Specification does not explicitly define a preamble in a serial
+
+7
+
+Appeal2014-007019
+Application 12/577,526
+packet sync datastream, but refers to the preamble as a "unique preamble bit
+sequence." Spec. i-f 6 (see Spec. i-f 44; Fig. 4).
+As explained by the Examiner, Tanahashi describes a data comparator
+that compares segments of data and/or a sequence of bits. Ans. 5-7; NonFinal Act. 16-1 7. In particular Tanahashi describes a comparator comparing
+a unique word of a preamble extracted from a main signal data stream. Ans.
+5-7; Non-Final Act. 16-17 (citing Tanahashi, col. 3, 1. 60-col. 4. 1. 14; col.
+4, 1. 47---col. 5, 1. 25; col. 5, 11. 35-56). Appellant argues that Tanahashi
+"compares a demultiplexed signal, but not the 'received serial packet sync
+datastream,' as required by independent claim 11" (App. Br. 13), but this
+argument is not commensurate with the scope of Appellant's claim. Nothing
+in the claim language of claim 11 excludes additional operations such as
+multiplexing and demultiplexing of a serial data stream. Further, the
+Examiner relies on Gordon, not Tanahashi for the receiving unit (receiver)
+and receiving the serial data stream (serial packet sync datastream). NonFinal Act. 15-1 7. Appellant does not contest the Examiner's findings with
+respect to Gordon or sufficiently demonstrate why Gordon and Tanahashi
+would not have been combined by one of ordinary skill in the art.
+Thus, Appellant does not persuade us of error in the Examiner's
+obviousness rejection of representative independent claim 11. Accordingly,
+we affirm the Examiner's obviousness rejection of representative claim 11
+and dependent claims 15, 17, and 19, not separately argued with particularity
+(supra).
+The 35 U.S.C. § 103(a) Rejection of Claims 12-14, 16, 18, and 20
+
+Appellant does not separately argue dependent claims 12-14, 16, 18,
+and 20 or their respective grounds of rejection. App. Br. 14. Dependent
+8
+
+Appeal2014-007019
+Application 12/577,526
+claims 12-14, 16, 18, and 20 and fall with claim 11. Thus, for the same
+reasons as claim 11 (supra), we affirm the Examiner's obviousness
+rejections of claims 12-14, 16, 18, and 20.
+
+CONCLUSIONS
+We summarily affirm the double patenting rejection of claims 1, 3, 6,
+and 11.
+Appellant has shown that the Examiner erred in rejecting claims 1-10
+under 35 U.S.C. § 103(a).
+Appellant has not shown that the Examiner erred in rejecting claims
+11-20 under 35 U.S.C. § 103(a).
+
+DECISION
+We reverse the Examiner's 35 U.S.C. § 103(a) rejections of claims 110; we affirm the Examiner's double patenting rejection of claims 1, 3, 6,
+and 11; and we affirm the Examiner's 35 U.S.C. § 103(a) rejections of 1120.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+9
+
+

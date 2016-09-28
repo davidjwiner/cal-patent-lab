@@ -1,0 +1,245 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/907,535
+
+10/19/2010
+
+Srikanth Keesara
+
+410186-US-NP/AVA233PA
+
+2178
+
+136582
+
+7590
+
+09/21/2016
+
+STEVENS & SHOWALTER, LLP
+Box AVAYA Inc.
+7019 Corporate Way
+Dayton, OH 45459-4238
+
+EXAMINER
+LAM, YEEF
+
+ART UNIT
+
+PAPER NUMBER
+
+2465
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pto@sspatlaw.com
+pair_avaya@firsttofile.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte SRIKANTH KEESARA, SAKTHIVADIVU SARAVANARAJ,
+LIMING SUN, and XIAOLAN ZHOU 1
+
+Appeal2015-003583
+Application 12/907,535
+Technology Center 2400
+
+Before KRISTEN L. DROESCH, SCOTT B. HOWARD, and
+JOYCE CRAIG, Administrative Patent Judges.
+DROESCH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants seek review under 35 U.S.C. § 134(a) from the Examiner's
+final rejection of claims 1, 4-17, and 19-23, which constitute all the claims
+pending in this application. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+BACKGROUND
+The disclosed invention relates to dual homing to an access network to
+provide connectivity from multiple network switches. Spec. 1-2, Abstract.
+
+1
+
+Appellants indicate the real party-in-interest is Avaya Inc. App. Br. 2.
+
+Appeal2015-003583
+Application 12/907,535
+Representative claim 1, reproduced from the Claims Appendix of the Appeal
+Brief, reads as follows (disputed limitations in italics):
+A method of connecting a network switching device
+between a transport network and an access network, the access
+network for providing connectivity between the transport
+network and end stations coupled to the access network,
+compnsmg:
+identifying the transport network, the transport network
+configured to interconnect a plurality of access networks for
+internetwork traffic between the end stations connected to the
+access networks;
+identifying the switching device, the switching device
+coupled to the access network;
+defining a partner device, the partner device coupled to
+the access network;
+configuring a dynamic route between the switching
+device and an origin device in the transport network, the origin
+device also coupled to the partner device, the partner device
+sharing the dynamic route with the switching device; and
+maintaining connectivity, via the dynamic route, from the
+origin device to the access network via at least one of the
+switching device and the partner device, independently of
+failure of either the switching device or the partner device, or
+failure of a link to the switching device or the partner device;
+configuring a first static route to the access network
+between the switching device and the origin device; and
+configuring a second static route to the access network
+between the partner device and the origin device; and
+avoiding redundant routing entries to the access network
+through both the switching device and the partner device by
+maintaining separate entries for the first static route, the
+second static route and the dynamic route.
+1.
+
+REJECTION
+Claims 1, 4--17, and 19-23 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Sajassi et al. (US 2009/0144403 Al; published June 4,
+
+2
+
+Appeal2015-003583
+Application 12/907,535
+2009) ("Sajassi") and Allan et al. (US 2010/0103813 Al; published Apr. 29,
+2010) ("Allan").
+ANALYSIS
+We have reviewed the Examiner's rejection in light of Appellants'
+arguments in the Appeal Brief2, the Examiner's Answer, and the arguments
+in the Reply Brief. We disagree with Appellants' conclusions, and agree
+with, and adopt as our own, the Examiner's findings and conclusions of law
+to the extent they are consistent with our below analysis. Specific findings
+and arguments are highlighted and addressed below for emphasis.
+Appellants argue that Sajassi and Allan do not teach or suggest
+configuring a first static route to the access network between
+the switching device and the origin device; and configuring a
+second static route to the access network between the partner
+device and the origin device; and avoiding redundant routing
+entries to the access network through both the switching device
+and the partner device by maintaining separate entries for the
+first static route, the second static route and the dynamic route,
+as recited in claim 1. See App. Br. 12-13. Appellants contend Sajassi fails
+to show first and second static routes along with a dynamic route, and
+separate entries are used for the first static route, the second static route and
+the dynamic route to avoid redundant routing entries. See id. at 13.
+Appellants further contend Allan fails to disclose a second static route
+between the partner device and the origin device, a static route between the
+switching device, the origin device and the partner device that is coupled to
+the origin device, and a separate entry for each of the three routes. See id.
+Appellants' arguments are not persuasive of error because Appellants'
+arguments address the teachings of Sajassi alone and Allan alone. One
+2
+
+Refers to the corrected Appeal Brief filed February 11, 2014.
+3
+
+Appeal2015-003583
+Application 12/907,535
+cannot show non-obviousness by analyzing a reference individually, as
+Appellants have done here, where the rejection is based on a combination of
+references. See In re Merck & Co., Inc., 800 F.2d 1091, 1097 (Fed. Cir.
+1986). The Examiner relies on the combined teachings of Sajassi and Allan
+to teach or suggest the disputed limitations. See Final Act. 4---6.
+Specifically, the Examiner relies on Sajassi for teaching configuring a
+standby route between the switching device (i.e., power edge bridging
+device 18) and an origin device (i.e., provider edge bridging device 28), the
+origin device also coupled to the partner device, the partner device sharing
+the standby route with the switching device; configuring a first active route
+between the switching device and the origin device, and configuring a
+second active route between the partner device (i.e., provider edge bridging
+device 20) and the origin device (see Final Act. 3--4 (citing Sajassi i-f 16,
+Figs. 1, 7) ), as modified by Allan's teachings of dynamic routes, static
+routes, and avoiding redundant routing entries through two devices by
+maintaining separate entries for the first static route, second static route and
+dynamic route (see Final Act. 5 (citing Allan i-fi-112, 17-19, 21-24)). We
+also are not persuaded by Appellants' argument that "the Sajassi and Allan
+reference[s] do not anticipate the claimed subject matter," addressing the
+Examiner's rejection based on obviousness. See App. Br. 15.
+In the Reply Brief, Appellants argue that Sajassi fails to show the
+origin device (28) is also coupled to the partner device (20) and wherein the
+partner device (20) shares the dynamic route with the switching device (18).
+See Reply Br. 3--4 (citing Ans. 17, 19). Appellants contend Figure 1 of
+
+Appellants' Specification depicts dynamic route 114 shared between BEB
+130-1 and BEB 130-2, and the dynamic route extends to BEB 130-3. See
+Reply Br. 3. Appellants contend the configuration of Appellants' Figure 1 is
+4
+
+Appeal2015-003583
+Application 12/907,535
+not described or suggested by either Sajassi or Allan alone, or in
+combination. See id. at 3.
+Appellants' aforementioned arguments are presented for the first time
+in the Reply Brief and are not responsive to an argument raised for the first
+time in the Answer. The Examiner's mapping of the claimed origin device
+to Sajassi's provider edge bridging device 28, the claimed partner device to
+Sajassi's provider edge bridging device 20, and the claimed switching device
+to Sajassi's power edge bridging device 18, and finding that Sajassi teaches
+or suggests the disputed claim limitations are consistent between the Final
+Action and the Answer. Compare Final Act. 3--4, with Ans. 15-19.
+Arguments raised for the first time in the Reply Brief are deemed waived
+and will not be considered by the Board without a showing of good cause.
+See 37 C.F.R. § 41.41(b)(2) (2012); see also Ex parte Borden, 93 USPQ2d
+
+1473, 1474 (BP AI 2010) (informative) ("[T]he reply brief [is not] an
+opportunity to make arguments that could have been made in the principal
+brief on appeal to rebut the Examiner's rejections, but were not.").
+Appellants do not provide good cause for consideration of Appellants'
+belated arguments. See Reply Br. 2--4.
+For all of the foregoing reasons, Appellants do not persuade us of
+error in the rejection of claims 1, 4--17, and 19-23. Accordingly, we sustain
+the rejection of claims 1, 4--17, and 19-23 as unpatentable over Sajassi and
+Allan.
+DECISION
+We AFFIRM the rejection of claims 1, 4--17, and 19-23.
+
+5
+
+Appeal2015-003583
+Application 12/907,535
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+6
+
+

@@ -1,0 +1,471 @@
+UNITED STATES PATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www.uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/947,537
+
+11/16/2010
+
+Wael William DIAB
+
+2875.4830000
+
+2115
+
+49579
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+STERNE, KESSLER, GOLDSTEIN & FOX P.L.L.C.
+1100 NEW YORK AVENUE, N.W.
+WASHINGTON, DC 20005
+
+PATEL, DHARMESH J
+
+ART UNIT
+
+PAPER NUMBER
+
+2465
+
+MAIL DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+____________________
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+____________________
+Ex parte WAEL WILLIAM DIAB
+____________________
+Appeal 2015-006640
+Application 12/947,537
+Technology Center 2400
+____________________
+Before CARLA M. KRIVAK, JEFFREY S. SMITH, and
+HUNG H. BUI, Administrative Patent Judges.
+BUI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant1 seeks our review under 35 U.S.C. § 134(a) of the
+Examiner’s Final Office Action rejecting claims 1–36, which are all of the
+claims pending on appeal. We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.2 Pursuant to our authority under 37 C.F.R.
+§ 41.50(b), we enter a new ground of rejection for independent claims 1 and
+33.
+
+1
+
+According to Appellant, the real party in interest is Broadcom Corporation.
+App. Br. 1.
+2
+Our Decision refers to Appellant’s Appeal Brief filed November 24, 2014
+(“App. Br.”); Reply Brief filed June 30, 2015 (“Reply Br.”); Examiner’s
+Answer mailed April 30, 2015 (“Ans.”); Final Office Action mailed
+November 25, 2013 (“Final Act.”); and original Specification filed
+November 16, 2010 (“Spec.”).
+
+Appeal 2015-006640
+Application 12/947,537
+STATEMENT OF THE CASE
+Appellant’s invention relates to a system for measuring and managing
+operational characteristics (e.g., temperature, humidity, power usage) of
+network components within a network, shown in Figure 2. Spec. ¶¶ 2, 25.
+Appellant’s Figure 2 is reproduced below with additional markings
+for illustration:
+
+Appellant’s Figure 2 shows a system 210 including a plurality of network
+components in the form of server racks 280, 290A–290B
+As shown in Figure 2, measurement instruments such as a monitor
+255 and an analyzer 251 are provided to monitor one or more network
+components within server rack 280, collect operational characteristics of
+components associated with rack 280, analyze the collected characteristics,
+and then derive estimated operational characteristics of unmonitored
+network components of racks 290A–290B in the network. Spec. ¶¶ 21, 41,
+43.
+2
+
+Appeal 2015-006640
+Application 12/947,537
+Claims 1 and 33 are independent. Claim 1 is illustrative of
+Appellant’s invention, as reproduced below with disputed limitations
+emphasized:
+1.
+
+A system for measuring aspects of a network having a
+
+plurality of network components, comprising:
+a monitor configured to gather operational characteristics
+of a monitored one of the plurality of network components; and
+an analyzer configured to:
+analyze the gathered operational characteristics
+received from the monitor; and
+estimate an operational characteristic of an
+unmonitored one of the plurality of network components based
+on the gathered operational characteristics.
+App. Br. 19 (Claims App.).
+Examiner’s Rejections and References
+(1)
+
+Claims 1–4, 8–10, 14, 15, 17–22, 25–28, 31, and 33–36 stand
+
+rejected under 35 U.S.C. § 103(a) as being unpatentable over Rasmussen et
+al., (US 2007/0038414 A1, published Feb. 15, 2007) (“Rasmussen”), Thyni
+et al. (WO 2010/114439 A1, published Oct. 7, 2010), and Rotheroe (US
+2005/0075839 A1, published Apr. 7, 2005). Ans. 3–30.
+(2)
+
+Claims 5, 6, 29, and 30 stand rejected under 35 U.S.C. § 103(a)
+
+as being unpatentable over Rasmussen, Thyni, Rotheroe, Crabtree et al. (US
+2010/0217550 A1, published Apr. 26, 2010), and Mastro et al., (IEEE
+Transactions on Industrial Electronics, Vol. 57, No. 8, August 2010)
+(“Mastro”). Ans. 31–35.
+(3)
+
+Claim 7 stands rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Rasmussen, Thyni, Rotheroe, and Crabtree. Ans. 35–36.
+
+3
+
+Appeal 2015-006640
+Application 12/947,537
+(4)
+
+Claim 11 stands rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Rasmussen, Thyni, Rotheroe, and Takeuchi (US
+2010/0287258 A, published Nov. 11, 2010). Ans. 36–37.
+(5)
+
+Claims 12, 13, 16, and 24 stand rejected under 35 U.S.C.
+
+§ 103(a) as being unpatentable over Rasmussen, Thyni, Rotheroe, and
+Mastro. Ans. 38–44.
+(6)
+
+Claim 32 stands rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over Rasmussen, Thyni, Rotheroe, and Kun-Szabo et al. (US
+2004/015129 A1, published Aug. 5, 2004). Ans. 44–45.
+
+ISSUE
+Based on Appellant’s arguments, the dispositive issue presented on
+appeal is whether the Examiner erred in finding the combination of
+Rasmussen, Thyni, and Rotheroe teaches or suggests the disputed limitation:
+“an analyzer configured to . . . estimate an operational characteristic of an
+unmonitored one of the plurality of network components based on the
+gathered operational characteristics” [of monitored network components] as
+recited in independent claim 1, and similarly recited in claim 33. App. Br.
+7–17; Reply Br. 2–5.
+
+ANALYSIS
+Claim 1 recites “a monitor configured to gather operational
+characteristics of a monitored one of the plurality of network components”
+and “an analyzer configured to . . . estimate an operational characteristic of
+an unmonitored one of the plurality of network components based on the
+gathered operational characteristics.” Claim 33 recites similar steps. Thus,
+
+4
+
+Appeal 2015-006640
+Application 12/947,537
+both claims 1 and 33 require: (1) both the “monitored” network component
+and the “unmonitored” network component be components of the same
+network; and (2) the “operational characteristic of an unmonitored one of the
+plurality of network components [be] based on the gathered operational
+characteristics” (i.e., previously gathered from monitored network
+components in the same network).
+With respect to claim 1 and similarly claim 33, the Examiner finds
+Rasmussen discloses a system 500, shown in Figure 6, for measuring aspects
+of a network having a plurality of network components comprising a
+monitor (i.e., facility management module 208) to gather operational
+characteristics (e.g., power and cooling characteristics) of a monitored one
+of the plurality of network components; and an analyzer (i.e., controller 502)
+configured to analyze the gathered operational characteristics received from
+the monitor. Ans. 3–4 (citing Rasmussen ¶¶ 25, 28, 65, 85).
+The Examiner then relies on (1) Thyni for expressly disclosing
+unmonitored network components (id. at 4, 47 (citing Thyni 14:26–33, 15:1–
+6)), and (2) Rotheroe for expressly disclosing monitoring “an operational
+characteristic of one of the plurality of network components” in order to
+support the conclusion of obviousness (id. at 4, 47 (citing Rotheroe ¶¶ 18,
+23). According to the Examiner, “it would have been obvious to one of
+ordinary skill in the art . . . to provide early warning that a piece of
+equipment is about to fail or failed and also benefit from the ability to
+remotely detect a change in an electrical parameter of a piece of electronic
+equipment. Id. at 6 (citing Rotheroe ¶ 18).
+Appellant contends the Examiner erred in finding the combination of
+Rasmussen, Thyni, and Rotheroe teaches or suggests the disputed limitation:
+
+5
+
+Appeal 2015-006640
+Application 12/947,537
+“estimate[ing] an operational characteristic of an unmonitored one of the
+plurality of network components based on the gathered [monitored]
+operational characteristics” as recited in independent claim 1, and similarly
+recited in claim 33. App. Br. 7–17; Reply Br. 2–5 (emphasis in original). In
+particular, Appellant argues neither Rasmussen, Thyni, nor Rotheroe teaches
+or suggests any “estimate[ing] an operational characteristic of an
+unmonitored one of the plurality of network components based on the
+gathered [monitored] operational characteristics” as recited in claims 1 and
+33. App. Br. 7–9; Reply Br. 2.
+Appellant acknowledges Thyni teaches powering down component,
+but argues Thyni does not teach that “a powered down component . . . is an
+unmonitored network component in a network having both monitored
+and unmonitored network components.” App. Br. 12 (citing Thyni
+13:19–23, 14:4–6) (emphasis in original); Reply Br. 2. Similarly, Appellant
+acknowledges Rotheroe teaches a “method of monitoring measured
+parameters associated with a piece of equipment,” but argues Rotheroe does
+not teach that these parameter changes are: (1) “estimated” or (2)
+“operational characteristics of unmonitored network components in a
+network having both monitored and unmonitored network
+components.” App. Br. 13 (citing Rotheroe ¶ 18, Abstract) (emphasis in
+original); Reply Br. 2. Because neither Thyni nor Rotheroe can cure the
+deficiencies of Rasmussen, Appellant argues these references cannot be
+combined to arrive at the subject matter of claims 1 and 33. App. Br. 14–16.
+The Examiner does not address (1) the distinction between monitored
+network components and unmonitored network components within a
+network, and (2) how Thyni and Rotheroe can be incorporated into
+
+6
+
+Appeal 2015-006640
+Application 12/947,537
+Rasmussen’s system to arrive at Appellant’s claimed “estimate[ing] an
+operational characteristic of an unmonitored one of the plurality of network
+components based on the gathered [monitored] operational characteristics”
+as recited in claims 1 and 33. Instead, the Examiner maintains (1) Thyni
+teaches “an unmonitored network component in [a] network,” and (2)
+Rotheroe teaches “an operational characteristic of one of the plurality of
+network components.” Ans. 47 (citing Thyni 14:26–33, 15:1–6; Rotheroe
+Abstract).
+We do not agree with the Examiner. Even assuming that Thyni and
+Rotheroe teach what the Examiner alleges, i.e., (1) “an unmonitored network
+component in [a] network” and (2) “an operational characteristic of one of
+the plurality of network components,” we agree with Appellant that neither
+Thyni nor Rotheroe teaches or suggests Appellant’s claimed “estimating an
+operational characteristic of an unmonitored network component [based on
+the gathered operational characteristics” as required by claims 1 and 33.
+Reply Br. 4 (emphasis in original).
+Moreover, the case law is clear that, in order to establish a prima facie
+case, the Examiner must articulate some objective reason to combine the
+teachings of the references, and that this reasoning must have some rational
+underpinning. “[R]ejections on obviousness grounds cannot be sustained by
+mere conclusory statements; instead, there must be some articulated
+reasoning with some rational underpinning to support the legal conclusion of
+obviousness.” In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006), cited with
+approval in KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007). The
+reasoning is important “because inventions in most, if not all, instances rely
+upon building blocks long since uncovered, and claimed discoveries almost
+
+7
+
+Appeal 2015-006640
+Application 12/947,537
+of necessity will be combinations of what, in some sense, is already known.”
+KSR, 398 U.S. at 418–19.
+The Examiner’s stated rationale for combining Rasmussen, Thyni, and
+Rotheroe is neither objective nor supported by a rational underpinning. As
+correctly noted by Appellant, neither Rasmussen, Thyni, nor Rotheroe
+teaches or suggests any “estimate[ing] an operational characteristic of an
+unmonitored one of the plurality of network components based on the
+gathered [monitored] operational characteristics” as recited in claims 1 and
+33. App. Br. 7–9; Reply Br. 2. Incorporating the teachings of Thyni and
+Rotheroe into Rasmussen’s system does not cure the deficiencies of
+Rasmussen to arrive at Appellant’s invention recited in claims 1 and 33.
+Likewise, the Examiner’s stated rationale (i.e., to provide early warning that
+a piece of equipment is about to fail or failed) is divorced from any teaching
+or suggestion that Appellant’s claimed “operational characteristic[s] of an
+unmonitored one of the plurality of network components” are “based on the
+gathered [monitored] operational characteristics” as recited in claims 1 and
+33.
+For the reasons set forth above, Appellant has demonstrated Examiner
+error. As such, we do not sustain the Examiner’s obviousness rejection of
+claims 1 and 33 and their respective dependent claims 2–32 and 34–36.
+
+NEW GROUND OF REJECTION:
+35 U.S.C. § 103(a) – CLAIMS 1 and 33
+We do, however, in a new ground of rejection, find an ordinarily
+skilled artisan would have sufficient technical knowledge, based on the
+
+8
+
+Appeal 2015-006640
+Application 12/947,537
+teachings of Rasmussen3 alone, and found it obvious to incorporate basic
+prediction theory (1) to determine operational characteristics of monitored
+components within a network, and then (2) to estimate or predict an
+operational characteristic of one or more remaining components (i.e.,
+unmonitored component) within the same network based on the operational
+characteristics of the previously monitored components, in the manner
+recited in Appellant’s claims 1 and 33.
+For example, as correctly found by the Examiner, Rasmussen teaches
+a system 500, shown in Figure 6, including a monitor (i.e., facility
+management module 208) for monitoring operational characteristics of
+network components (e.g., power and cooling characteristics of servers
+arranged in different racks, shown in Figures 5, 5A, and 5B) within a
+network (i.e., data center). Rasmussen also teaches an analyzer (i.e.,
+controller 502) configured to analyze the gathered operational characteristics
+received from the monitor (i.e., facility management module 208). Ans. 3–4
+(citing Rasmussen ¶¶ 25, 28, 65, 85).
+In addition to the Examiner’s findings, Rasmussen also teaches the
+use of operational characteristics of monitored components to predict or
+estimate several additional operational characteristics of the network,
+including, for example:
+(1) “calculating a predicted cooling capacity based on
+the floor plan model,” “comparing predicted cooling capacity
+with measured cooling capacity to obtain a comparison result”
+3
+
+Appellant’s invention can be obvious in light of a single prior art reference
+if it would have been obvious to modify that reference to arrive at the
+invention. See, e.g., Takeda Chem. Indus., Ltd. v. Alphapharm Pty, Ltd., 492
+F.3d 1350, 1357 (Fed. Cir. 2007); SIBIA Neurosciences, Inc. v. Cadus
+Pharm. Corp., 225 F.3d 1349, 1356 (Fed. Cir. 2000).
+9
+
+Appeal 2015-006640
+Application 12/947,537
+and “adjusting the predicted cooling capacity based on
+measured airflow.” Rasmussen ¶ 15;
+(2) “determining available airflow of at least one of
+the plurality of airflow devices . . . determining available
+airflow of at least a second one of the plurality of airflow
+devices based on the measured data for the at least one of the
+plurality of airflow devices.” Rasmussen ¶ 15;
+(3) “controller may be configured to compare a
+predicted cooling capacity with a measured cooling capacity to
+obtain a comparison result and . . . to alter at least one
+characteristic of power in the data center.” Rasmussen ¶ 17;
+and
+(4) “means for estimating available cooling air of at
+least one of the equipment enclosures using a weighted
+summation of available airflows from a plurality of airflow
+sources.” Rasmussen ¶ 19.
+In addition, Rasmussen also teaches a service option that allows a user
+to select a level of service, including to “provide an estimate on the number
+of racks that can be supported based on the power components and in-row
+cooling units contained in the row.” Rasmussen ¶ 98.
+Obviousness is a question of law based on underlying factual findings
+including the scope and content of the prior art, the differences between the
+claimed invention and the prior art, and the level of ordinary skill in the
+pertinent art. KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 427 (2007);
+Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966). In an obviousness
+analysis, precise teachings directed to the specific subject matter claimed
+need not be identified because the inferences and creative steps that a person
+of ordinary skill in the art would employ can be taken into account. See
+KSR, 550 U.S. at 418; see also In re Preda, 401 F.2d 825, 826 (CCPA 1968)
+10
+
+Appeal 2015-006640
+Application 12/947,537
+(“[I]n considering the disclosure of a reference, it is proper to take into
+account not only specific teachings of the reference but also the inferences
+which one skilled in the art would reasonably be expected to draw
+therefrom.”). In this regard, "[a] person of ordinary skill is also a person of
+ordinary creativity, not an automaton." Id. at 421.
+Common sense, common wisdom, and common knowledge have
+“long been recognized to inform the analysis of obviousness if explained
+with sufficient reasoning.” See Perfect Web Techs., Inc. v. InfoUSA, Inc.,
+587 F.3d 1324, 1329 (Fed. Cir. 2009). In particular, common sense or
+common knowledge can be invoked to provide a suggestion or motivation to
+combine or modify a prior art reference. See DyStar Textilfarben GmbH &
+Co. Deutschland KG v. C.H. Patrick Co., 464 F.3d 1356, 1360 (Fed. Cir.
+2006). The “use of common sense does not require a ‘specific hint or
+suggestion in a particular reference,’ only a reasoned explanation that avoids
+conclusory generalizations.” Perfect Web, 587 F.3d at 1329 (quoting DyStar,
+464 F.3d at 1366); see also Plantronics, Inc. v. Aliph, Inc., 724 F.3d 1343,
+1354 (Fed. Cir. 2013) (“the mere recitation of the words ‘common sense’
+without any support adds nothing to the obviousness equation.”); Ball
+Aerosol & Specialty Container, Inc. v. Ltd. Brands, Inc., 555 F.3d 984, 993
+(Fed. Cir. 2009) (“the analysis that ‘should be made explicit’ refers not to
+the teachings in the prior art of a motivation to combine, but to the court’s
+analysis.”).
+Based on the additional teachings of Rasmussen regarding the use of
+operational characteristics of monitored components to predict or estimate
+operational characteristics of the network, we conclude an ordinarily skilled
+artisan would have found it obvious to predict or estimate an operational
+
+11
+
+Appeal 2015-006640
+Application 12/947,537
+characteristic of one or more remaining components (i.e., unmonitored
+components) within the same network based on the operational
+characteristics of the previously monitored components, in the manner
+recited in Appellant’s claims 1 and 33.
+Accordingly, using our authority under 37 C.F.R. § 41.50(b), we enter
+a new ground of rejection for claims 1 and 3 as being obvious over
+Rasmussen alone. With respect to remaining dependent claims 2–32 and
+34–36, we leave these claims to the Examiner to evaluate whether they are
+independently and patentably distinct from Appellant’s independent claims 1
+and 33.
+
+DECISION
+We REVERSE the Examiner’s final rejection of claims 1–36 under
+35 U.S.C. § 103(a) based on Rasmussen, Thyni, and Rotheroe. However,
+we enter a NEW GROUND of rejection for claims 1 and 33 as being
+unpatentable under 35 U.S.C. § 103(a) over Rasmussen alone.
+This decision contains a new ground of rejection pursuant to 37
+C.F.R. § 41.50(b) (2010). 37 C.F.R. § 41.50(b) provides “[a] new ground of
+rejection pursuant to this paragraph shall not be considered final for judicial
+review.”
+Rule 37 C.F.R. § 41.50(b) also provides that Appellant, WITHIN
+TWO MONTHS FROM THE DATE OF THE DECISION, must exercise
+one of the following two options with respect to the new grounds of
+rejection to avoid termination of the appeal as to the rejected claims:
+(1)
+
+Reopen prosecution. Submit an appropriate amendment of the
+
+claims so rejected or new evidence relating to the claims so rejected, or both,
+12
+
+Appeal 2015-006640
+Application 12/947,537
+and have the matter reconsidered by the examiner, in which event the
+prosecution will be remanded to the examiner. . . .
+(2)
+
+Request rehearing. Request that the proceeding be reheard
+
+under § 41.52 by the Board upon the same record. . . .
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(1)(iv).
+
+REVERSED
+37 C.F.R. § 41.50(b)
+
+13
+
+

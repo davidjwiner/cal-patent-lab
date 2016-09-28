@@ -1,0 +1,289 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111575,928
+
+03/23/2007
+
+Hideyuki Morimoto
+
+60303.66/ok
+
+3806
+
+54070
+
+7590
+
+09/16/2016
+
+HITACHI METALS, LTD.
+C/O KEA TING & BENNETT, LLP
+1800 Alexander Bell Drive
+SUITE 200
+Reston, VA 20191
+
+EXAMINER
+LEE, REBECCA Y
+
+ART UNIT
+
+PAPER NUMBER
+
+1734
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+JKEATING@KBIPLA W.COM
+uspto@kbiplaw.com
+pmedley@kbiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE
+THE PA TENT TRIAL AND APPEAL BOARD
+
+Ex parte HIDEYUKI MORIMOT0 1
+and Tomoori Odaka
+
+Appeal2015-002009
+Application 11/575,928
+Technology Center 1700
+
+Before CHUNG K. PAK, MARK NAGUMO, and A VEL YN M. ROSS,
+Administrative Patent Judges.
+NAGUMO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Hideyuki Morimoto and Tomoori Odaka ("Morimoto") timely appeal
+under 35 U.S.C. § 134(a) from the Final Rejection2 of claims 1, 3, and 6,
+which are all of the pending claims. We have jurisdiction. 35 U.S.C. § 6.
+We reverse.
+
+1
+
+The real party in interest is identified as Hitachi Metals, Ltd. (Appeal
+Brief, filed 26 June 2014 ("Br."), 2.)
+2
+
+Office Action mailed 27 February 2014 ("Final Rejection"; cited as "FR").
+
+Appeal2015-002009
+Application 11/575,928
+OPINION
+A.
+
+Introduction3
+The subject matter on appeal relates to permanent rare-earth-iron-
+
+boron sintered magnets said to have both high coercivity (Hc1) and high
+remanence (Br) compared to prior art magnets. Such magnets are said to
+have two phases: a main magnetic R2T14B phase, where Risa rare earth
+(usually Nd or Pr), Tis a transition metal consisting essentially of iron, and
+Bis boron; and an R-rich grain boundary phase that is a low-melting
+nonmagnetic phase. (Spec. 2 [0003].) The '928 Specification teaches that
+high coercivity magnets are made by partially replacing Nd or Pr with Dy,
+Ho, or Tb. (Id. at 3 [0005].) Moreover, the Specification reveals, small
+amounts of Cu or Al, initially regarded as impurities, are now regarded as
+"almost essential elements that should be added to increase the coercivity of
+the R-T-B based sintered magnet." (Id. at 3--4 [0006].) Unfortunately, Dy,
+Tb, and Ho are said to be scarce, while the demand for highly refractory
+magnets for electric car motors continues to rise. (Id. at 5 [001 OJ.)
+Moreover, Cu and Al are said to decrease the remanence. (Id.)
+The inventors seek patent protection for rare-earth sintered magnets
+that are said to have high coercivity and high remanence compared to
+magnets to which Al or Cu is added. (Id. at [0011].) Such magnets are said
+to be achieved by including small amounts of an additive metal A, that is
+
+3
+
+Application 11/575,928, Rare earth sintered magnet and method for
+production thereof, filed 23 March 2007, as the national stage under
+35 U.S.C. § 371 of PCT/JP2006/314076, filed 14 July 2006, claiming the
+benefit of five distinct applications filed in Japan. We refer to the
+'"928 Specification," which we cite as "Spec."
+2
+
+Appeal2015-002009
+Application 11/575,928
+Ag, Au, or Ni, while keeping the amount of Al to a maximum of 0.4 at%.
+(Id. at 6 [0012]-[0016].) According to the '928 Specification, in the prior
+
+art, "the effect of increasing the coercivity to be achieved by adding a very
+small amount of Ag, Ni or Au was overwhelmed by the effect of increasing
+the coercivity to be achieved by adding Al, Cu or Dy and was quite
+unnoticeable." (Id. at 15 [0045].) The Specification indicates that the
+additive metal is present in the (non-magnetic) grain boundary phase of the
+sintered magnet, although the precise mechanism by which the coercivity is
+increased is as yet unknown. (Id. at 16 [0047].)
+Claim 1 is representative of the dispositive issues and reads:
+A magnet comprising:
+12.0 at% to 15.0 at% of rare-earth element(s), which is at
+least one element selected from the group consisting of Nd,
+Pr, Gd, Tb, Dy and Ho and at least 50% of which is Nd;
+5.5 at% to 8.5 at% of boron (B);
+a predetermined percentage of additive metal A; and
+iron (Fe) and inevitably contained impurities as the
+balance; wherein
+the predetermined percentage of additive metal A includes
+one of
+0.005 at% to 0.10 at% of silver (Ag) and
+0.005 at% to 0.10 at% of gold (Au); and
+the magnet is a rare-earth sintered magnet; wherein
+
+the inevitably contained impurities include Al, of which
+the content is 0.4 at% or less.
+(Claims App., Br. 8; some indentation, and emphasis added.)
+
+3
+
+Appeal2015-002009
+Application 11/575,928
+The Examiner maintains the following ground of rejection4 :
+Claims 1, 3, and 6 stand rejected under 35 U.S.C. § 103(a) in view
+of the combined teachings of Hirosawa 5 and Fujii. 6
+B.
+
+Discussion
+Findings of fact throughout this Opinion are supported by a
+
+preponderance of the evidence of record.
+Morimoto argues that the Examiner erred harmfully in combining the
+teachings of Fujii to add up to 1. 5 atomic% silver (Ag) to improve the
+magnetic properties of non-sintered thin film permanent magnets with the
+teachings of Hirosawa, which are directed to sintered rare-earth-iron-boron
+magnets. Morimoto points out that the two types of magnets have very
+different structures, as shown in Fujii, Figs. 1 and 2, below. (Id. at 5.)
+
+{Fig. 1: R-Fe-B non-sintered, columnar main phases}
+{Fig. 2: sintered magnet without columnar main phases}
+4
+
+Examiner's Answer mailed 7 October 2014 ("Ans.").
+
+5
+
+Satoshi Hirosawa et al., Magnetically anisotropic sintered magnets,
+WO 89/08318 (1989).
+6
+
+Hideo Fujii et al., JP 07-272929, Rare-earth element-Fe-B thinfilm
+permanent magnet, (1995) (Patent Abstracts of Japan machine-assisted
+translation.)
+4
+
+Appeal2015-002009
+Application 11/575,928
+Morimoto argues further that Fujii teaches "that the magnetic properties of a
+magnet material will be largely influenced by fine texture." (Br. 5, 11. 10127.) Moreover, according to Morimoto, neither Hirosawa nor Fujii suggests
+that adding Ag to a sintered magnet would improve the magnetic properties.
+In particular, Morimoto urges that Fujii shows that a magnet according to
+Fig. 2 has a maximum energy product (BM)max 8 of14 MGOe, whereas
+magnets of Fig. 1 have (BM)max values that exceed 14 MGOe. (Br. 6, citing
+Fujii ,-i,-i [0023] and [0019], respectively). Thus, in Morimoto's view, the
+Examiner points to no evidence that supports the extension of Fujii's results
+with non-sintered magnetic films to sintered films having a distinct structure.
+The Examiner responds that the combination of the teachings of the
+references must be considered, and that because Fujii teaches adding up
+to 1 at% Ag to a rare earth magnet to improve the maximum energy product,
+it would have been obvious to add up to 0.1 at% Ag to the sintered magnet
+described by Hirosawa. (Ans. 4, 11. 1-12, citing Fujii ,-i,-i [0002] and [0014].)
+The Examiner finds further that Fujii [0003] provides a general teaching that
+addition of silver improves the properties of rare earth magnets having the
+
+7 Morimoto quotes a translation provided by the Japanese patent counsel,
+(Br. 5-6, nn.1-3), which are in more standard English form than the
+machine-assisted translation of record. We adhere to the record copy, noting
+that "Appellant has not independently verified the accuracy of the translation
+[of paragraphs [0004], [0023], and [0019]" (Br. 5 n.l), and noting that our
+Rules do not provide for the admittance of new evidence to the record on
+Appeal without good cause (37 C.F.R. § 41.37(c)(2)). Nonetheless, we also
+note that the proffered translations are consistent with the translation of
+record, and are easier to read.
+8
+
+Energy product (BM)max is said to be the product of a residual magnetic
+flux density (Br) and coercive force (iHc) (Fujii 2, 11. 1-3).
+5
+
+Appeal2015-002009
+Application 11/575,928
+formula R-Fe-B "regardless of sintered or non-sintered." (Ans. 4, 11. 15-18.)
+The Examiner concludes, "[ s]ince appellant has not provided any factual
+evidence to show that incorporating Fujii would have upset the magnet of
+Hirosawa et al. appellant's argument is not found convincing." (Ans. 4,
+11. 12-14; 5' 11. 2--4.)
+Our review of Fujii indicates the weight of the evidence supports
+Morimoto. Fujii states that "Ag is included as the 4th component and the
+evaluation is explained in full detail later on as occasion demands,
+[permanent magnet composition of the present invention]." (Fujii 2 [0003];
+emphasis added.) Thus, Fujii directs its comments to magnets having the
+thin film non-sintered columnar phases illustrated in Fig. 1, supra.
+Moreover, while Fujii does refer in paragraph [0014] to the efficacy of
+replacing a part of Fe by Ag, and the increased magnetic isolation between
+the "grain children" upon addition of Ag, these remarks are expressly
+directed to "the R-Fe-B system magnet of the present invention"
+(Fujii [0014], 1st sentence), not to rare earth magnets generally.
+In the absence of more detailed fact-finding and analysis by the
+Examiner, we are not presented with a sufficient evidentiary basis to
+conclude that a prima facie case of obviousness has been established.
+Therefore, the Examiner concluded erroneously that the burden has been
+shifted to Morimoto to demonstrate that the artisan would have expected the
+sintered magnets described by Hirosawa to be affected adversely by the
+presence of small amounts of silver. 9
+
+9
+
+Although not necessary to our Decision, in this regard, it has not escaped
+our notice that the minimum amount of Ag added in the examples presented
+6
+
+Appeal2015-002009
+Application 11/575,928
+C.
+
+Order
+It is ORDERED that the rejection of claims 1, 3, and 6 is reversed.
+
+REVERSED
+
+by Fujii is 0.5 at% (see Fujii, Fig. 5, not reproduced here), which is five
+times the maximum amount permitted by the claims. Moreover,
+the '928 Specification shows, in Fig. 1 (not reproduced here), that the
+coercivity, HcJ, falls off quickly after 0.1 at% Ag. Although not raised by
+Morimoto, the further determination that any range of added Ag less
+than 1.5 at% would have been obvious appears to require more evidentiary
+support than Fujii readily provides.
+7
+
+

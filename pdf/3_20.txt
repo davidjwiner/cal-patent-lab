@@ -1,0 +1,287 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/358, 192
+
+01125/2012
+
+Howard W. LUTNICK
+
+07-2179-C2
+
+6053
+
+63710
+
+7590
+
+09/21/2016
+
+INNOVATION DIVISION
+CANTOR FITZGERALD, L.P.
+110 EAST 59TH STREET (6TH FLOOR)
+NEW YORK, NY 10022
+
+EXAMINER
+YEN,SYLING
+
+ART UNIT
+
+PAPER NUMBER
+
+2166
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patentdocketing@cantor.com
+lkorovich@cantor.com
+phowe@cantor.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte HOWARD W. LUTNICK
+
+Appeal2015-005914
+Application 13/358, 192
+Technology Center 2100
+
+Before JEREMY J. CURCURI, JOSEPH P. LENTIVECH, and JOHN R.
+KENNY, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellant appeals under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-33. Final Act. 1. We have jurisdiction under 35
+U.S.C. § 6(b).
+Claims 27 and 30 are rejected under 35 U.S.C. § 112, second
+paragraph. Final Act. 2.
+Claims 1-28 and 30-33 are rejected under 35 U.S.C. § 102(b) as
+anticipated by Sutcliffe (US 2006/0069620 Al; Mar. 30, 2006). Final Act.
+3-25.
+Claim 29 stands rejected under 35 U.S.C. § 103(a) as obvious over
+Sutcliffe and Woycik et al. (US 2007/0265935 Al; Nov. 15, 2007). Final
+Act. 25-26.
+We affirm-in-part.
+
+Appeal2015-005914
+Application 13/358, 192
+
+STATEMENT OF THE CASE
+Appellant's invention relates to "generating representations of
+information." Abstract. Claim 1 is illustrative and reproduced below:
+1.
+A apparatus comprising:
+a computing device; and
+a non-transitory storage medium having instructions
+stored thereon, that when executed by the computing device,
+cause the apparatus to:
+receive first menu content for a first merchant from a first
+user of a referral or delivery service;
+in response to receiving the first menu content from the
+first user, associate the first menu content with a first menu of
+items for sale by the merchant;
+transmit a first representation of the first menu that
+includes the first menu content over an electronic
+communication network to a second user of the referral or
+delivery service;
+receive second menu content for the first merchant from
+the second user after transmitting the first representation to the
+second user;
+in response to receiving the second menu content,
+associate the second menu content with the first menu and
+maintain the association of the first menu content with the first
+menu;
+transmit a second representation of the first menu that
+includes the first menu content and the second menu content
+over an electronic communication network to a third user of the
+referral or delivery service after receiving the second menu
+content;
+receive, from the third user, a selection of items for
+delivery from the first merchant; and
+facilitate delivery of the items from the first merchant to
+the third user.
+
+2
+
+Appeal2015-005914
+Application 13/358, 192
+ANALYSIS
+THE REJECTION OF CLAIMS 27 AND 30 UNDER 35 U.S.C. § 112, SECOND
+PARAGRAPH
+Appellant does not present any arguments with respect to this
+rejection. See App. Br. 6.
+We, therefore, sustain the Examiner's rejection of claims 27 and 30.
+
+THE ANTICIPATION REJECTION OF CLAIMS 1-28 AND 30-33 OVER SUTCLIFFE
+The Examiner finds Sutcliffe describes all limitations of claim 1.
+Final Act. 3-8.
+The Examiner finds Sutcliffe' s representative of the broker receiving
+menu information from the restaurant describes the recited (claim 1)
+"transmit a first representation of the first menu that includes the first menu
+content over an electronic communication network to a second user of the
+referral or delivery service." Final Act. 4 (citing Sutcliffe i-f 82).
+The Examiner further finds:
+as the Broker Web Server [is] used by the representative of the
+broker to process the received menu information, the menu
+information is received by the Broker Web Server from a
+communication network, such as Internet 606, as indicated in
+Figs. 3 & 6 how restaurants and Broker Web Server
+communicate each other.
+Ans. 10.
+The Examiner finds Sutcliffe' s hotel guest accessing a menu system
+by telephone for a services directory discloses the recited (claim 1) "transmit
+a second representation of the first menu that includes the first menu content
+and the second menu content over an electronic communication network to a
+
+3
+
+Appeal2015-005914
+Application 13/358, 192
+third user of the referral or delivery service after receiving the second menu
+content." Final Act. 5---6 (citing Sutcliffe i-fi-1 36, 88-89).
+The Examiner further finds:
+The hotel guest can navigate forward through the menu systems
+to order menu item(s) from the menu system. By navigating
+forward through the menu systems, the repackaged menu is
+transmitted to the hotel guest through the telephone network in
+order for hotel guest to order menu item( s) from the menu
+system.
+The telephone network is clearly a electronic
+communication network.
+Ans. 13-14.
+Appellant, among other arguments, presents the following principal
+arguments:
+1.
+
+"[T]he Examiner cites [] paragraph[] 82 and figure 14 of
+
+Sutcliffe [] that do not even mention any actions by a broker web server or
+transmitting anything from a server over an electronic communication
+network to a user of a referral or delivery service." App. Br. 10; see also
+Reply Br. 4 ("The only references to a broker web server is an image of that
+server in figure 6 without any description of what the server does or how it
+does those things.").
+11.
+
+"[T]his portion [(Sutcliffe, i-fi-136, 88-89)] discusses a call being
+
+made and does not teach any information being transmitted by any broker
+web server at all." App. Br. 11; see also Reply Br. 5 ("the Examiner's
+Answer ignores the correspondence established in rejecting prior limitations
+of the claim that identify the broker web server performing the claimed
+actions.").
+Regarding (i), we find the Examiner erred in finding Sutcliffe
+describes the recited (claim 1) "transmit a first representation of the first
+
+4
+
+Appeal2015-005914
+Application 13/358, 192
+menu that includes the first menu content over an electronic communication
+network to a second user of the referral or delivery service."
+Sutcliffe (i-f 82) discloses:
+Generally, the process 1400 [in Figure 14] requires a
+representative of the broker 110 to receive menu information
+from the restaurant 104 associated with that menu 700. As part
+of this information, the restaurant 104 approves a stock
+photograph for each section of the menu 700 and/or a digital
+photograph is taken of one or more actual food items produced
+by the restaurant 104.
+Thus, Sutcliffe (i-f 82) does not describe transmitting menu information
+over an electronic communication network to a representative of the broker.
+Rather, this portion of Sutcliffe suggests an in-person meeting. The
+Examiner's Answer attempts to correct this deficiency, referring to broker
+web server 604 in Sutcliffe, Figure 6; however, Sutcliffe (i-f 61) describes a
+call center operator gathering information from a caller, which is stored in
+broker database 608, with broker web server 604 receiving form-based
+inputs and serving pages to the call center workstation. Thus, the broker
+web server does not transmit menu information over an electronic
+communication network to a representative of the broker.
+Regarding (ii), we find the Examiner erred in finding Sutcliffe
+discloses the recited (claim 1) "transmit a second representation of the first
+menu that includes the first menu content and the second menu content over
+an electronic communication network to a third user of the referral or
+delivery service after receiving the second menu content."
+As discussed above, the Examiner's Answer refers to broker web
+server 604 in Sutcliffe, Figure 6, and Sutcliffe (i-f 61) describes broker web
+
+5
+
+Appeal2015-005914
+Application 13/358, 192
+server 604 receiving form-based inputs and serving pages to the call center
+workstation.
+Thus, even if we assume Sutcliffe' s hotel guest accessing a menu
+system by telephone for a services directory constitutes transmitting menu
+content to the hotel guest, we do not see how, and the Examiner has not
+established how, this transmitting is caused by Sutcliffe 's broker web server
+604.
+
+We, therefore, do not sustain the Examiner's rejection based on
+Sutcliffe of claim 1, or of claims 2-15, 26-28, and 30, which depend from
+claim 1.
+We also do not sustain the Examiner's rejection based on Sutcliffe of
+independent claim 16, which recites "transmitting , by the computing device,
+a first representation of the first menu that includes the first menu content
+over an electronic communication network to a second user of the referral or
+delivery service" and "transmitting, by the computing device, a second
+representation of the first menu that includes the first menu content and the
+second menu content over an electronic communication network to a third
+user of the referral or delivery service after receiving the second menu
+content," or of claims 17-25, and 31-33, which depend from claim 16.
+
+THE OBVIOUSNESS REJECTION OF CLAIM 29 OVER SUTCLIFFE AND
+
+W OYCIK
+
+The Examiner does not find W oycik overcomes the deficiencies of
+Sutcliffe discussed above. See Final Act. 25-26; Ans. 24.
+We, therefore, do not sustain the Examiner's rejection based on
+Sutcliffe and Woycik of claim 29.
+
+6
+
+Appeal2015-005914
+Application 13/358, 192
+DECISION
+The Examiner's decision rejecting claims 27 and 30 is affirmed.
+The Examiner's decision rejecting claims 1-26, 28, 29, and 31-33 is
+reversed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l ).
+AFFIRMED-IN-PART
+
+7
+
+

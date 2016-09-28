@@ -1,0 +1,315 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/858,140
+
+08/17/2010
+
+Fuminori Homma
+
+1946-0127
+
+5271
+
+60803
+
+7590
+
+09/21/2016
+
+Paratus Law Group, PLLC
+620 Herndon Parkway
+Suite 320
+Herndon, VA 20170
+
+EXAMINER
+OLIVER, GERALD L
+
+ART UNIT
+
+PAPER NUMBER
+
+2624
+
+MAILDATE
+
+DELIVERY MODE
+
+09/21/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte FUMINORI HOMMA and TATSUSHI NASHIDA
+
+Appeal2015-005899
+Application 12/858,140
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, ROBERT E. NAPPI, and
+JEFFREYS. SMITH, Administrative Patent Judges.
+MacDONALD, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+Appeal2015-005899
+Application 12/858,140
+STATEMENT OF CASE
+
+Introduction
+Appellants appeal under 35 U.S.C. § 134(a) from a rejection of claims
+1-15, 18, and 19. We have jurisdiction under 35 U.S.C. § 6(b).
+
+Exemplary Claims
+Exemplary claims 1 and 8 under appeal read as follows (emphasis and
+bracketing added):
+1.
+
+An operation control device comprising:
+
+[(A)] a pressure detecting portion that is provided in a display
+portion that displays an input area in which character information is
+input, the pressure detecting portion detecting pressure with which an
+operation body depresses a display surface of the display portion to
+operate the input area; and
+[(B)] an operation control portion that switches an input mode
+of the character information based on a change in the pressure
+detected by the pressure detecting portion;
+[(C)] wherein the operation control portion determines an input
+of the character information that is selected by operation of the
+operation body that is in contact with the display surface, when it is
+detected that the pressure detected by the pressure detecting portion
+has decreased by greater than or equal to a predetermined
+percentage within a predetermined time period,
+[(D)] wherein subsequently, the operation control portion
+switches the input mode of the character information based on the
+change in the pressure detected by the pressure detecting portion and
+on the character information that is determined to be input,
+[(E)] wherein, after switching the input mode of the character
+information, a navigation through a list of selectable characters is
+controlled by varying the pressure with which the operation body
+depresses the display surface while maintaining the contact of the
+operation body with the display surface, and
+
+2
+
+Appeal2015-005899
+Application 12/858,140
+[(F)] wherein the contact of the operation body is maintained
+with the display surface during a whole time period beginning from
+the determination of the character information to be input, through the
+navigation through the list of selectable characters.
+
+A computer program that comprises instructions that
+command a computer to function as an operation control device
+8.
+
+compnsmg:
+[(A)] a pressure detecting device that detects pressure with
+which an operation body depresses a display surface of a display
+portion that displays an input area in which character information is
+input, the operation body operating the input area; and
+[(B)] an operation control device that switches an input mode of
+the character information based on a change in the pressure detected
+by the pressure detecting device;
+[(C)] wherein the operation control device determines an input
+of the character information that is selected by operation of the
+operation body that is in contact with the display surface, when it is
+detected that the pressure detected by the pressure detecting device
+has decreased by greater than or equal to a predetermined percentage
+\~1ithin a predetermined time period,
+[(D)] wherein, subsequently, the operation control device
+switches the input mode of the character information based on a
+change in the pressure detected by the pressure detecting device and
+on the character information that is determined to be input,
+[(E)] wherein, after switching the input mode of the character
+information, a navigation through a list of selectable characters is
+controlled by varying the pressure with which the operation body
+depresses the display surface while maintaining the contact of the
+operation body with the display surface, and
+[(F)] wherein the contact of the operation body is maintained
+with the display surface during a whole time period beginning from
+the determination of the character information to be input, through the
+navigation through the list of selectable characters.
+
+3
+
+Appeal2015-005899
+Application 12/858,140
+Rejections on Appeal
+1.
+
+The Examiner rejected claims 1, 2, and 6-14, as being
+
+unpatentable under 35 U.S.C. § 103(a) over the combination of Sadler et al.
+(US 2009/0046110 Al; published Feb. 19, 2009) and Kim et al. (US
+2010/0017710 Al; published Jan. 21, 2010). 1
+2.
+
+The Examiner rejected claims 3 and 4 as being unpatentable
+
+under 35 U.S.C. § 103(a) over the combination of Sadler, Kim, and Raguseo
+(US 2007/0296615 Al; Dec. 27, 2007).
+The Examiner rejected claims 5, 15, 18, and 19 as being unpatentab le
+under 35 U.S.C. § 103(a) over the combination of Sadler, Kim, and Lee (US
+6,686,902 B2; issued Feb. 3, 2004). 2
+Appellants' Contention 3
+Appellants contend that the Examiner erred in rejecting claim 1
+under 35 U.S.C. § 103(a) because:
+1\.Jm does not cons10er, in the senmg of the function (i.e.,
+mode), a character information that has already been
+previously determined to be input by having been selected by
+the operation of the operation body upon the display surface
+
+1
+
+As to this rejection, claim 1 is argued separately. Separate patentability is
+not argued for claims 2 and 6-14. Except for our ultimate decision, the
+Examiner's rejection of these claims is not discussed further herein.
+2
+
+As to the rejections of claims 3-5, 15, 18, and 19, Appellants merely recite
+the language of a particular claim and assert the cited prior art reference
+does not teach or suggest the claim limitation. Without more, this fails to
+constitute an argument on the merits. See 37 C.F.R. § 41.37(c)(l)(iv);
+In re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011). Except for our ultimate
+decision, these claims are not discussed further herein.
+3
+
+This contention is determinative as to the rejections on appeal. Therefore,
+Appellants' other contentions are not discussed herein.
+4
+
+Appeal2015-005899
+Application 12/858,140
+.... Instead, Kim makes a selection merely based on a
+presently input criteria (not related to selection by meeting the
+condition of decreased detected pressure) that is being made by
+an initially-performed touch upon the touch screen 160.
+App. Br. 16.
+
+Issue on Appeal
+Did the Examiner err in rejecting claim 1 as being obvious because
+the cited references fail to describe the argued limitation?
+
+ANALYSIS
+As to the Appellants' above contention, we agree. At lines 7-11 of
+page 6 of the Final Action, the Examiner relied upon Kim to teach the claim
+limitation "[based] ... on the character information that is determined to be
+input." The above contention challenges that finding by the Examiner. At
+page 4 of the Answer, the Examiner restates this above portion of the Final
+Action without repeating the argued limitation. Rather, the Examiner
+substitutes "and in which the navigation through the list of selectable
+characters is controlled by varying the pressure with which the operation
+body depresses the display surface." We fail to see how the Examiner's
+response particularly addresses Appellants' argument.
+
+NEW GROUNDS OF REJECTION
+We reject claims 8, 11, and 14 under 35 U.S.C. § 101 as being
+directed to non-statutory subject matter.
+These claims are directed to information in the form of a "computer
+program" in the abstract without hardware and as such is not directed to one
+
+5
+
+Appeal2015-005899
+Application 12/858,140
+of the statutory categories of 35 U.S.C. § 101. See MPEP 2106; Ninth
+Edition (Nov. 2015). These claims "are not directed to any tangible
+embodiment of this information (i.e., in physical memory or other medium)
+or claim any tangible part of the digital processing system. The claims are
+instead directed to information in its non-tangible form." Digitech Image
+Tech., LLC v. Elec.for Imaging, Inc., 758 F.3d 1344, 1349 (Fed. Cir. 2014).
+
+As with the claims in Digitech, we conclude the scope of claims 8, 11, and
+14 includes subject matter that does not fall within any of the categories of
+eligible subject matter. Appellants' attention is also directed to 13 51 Off.
+Gaz. Pat. Office 212 (Feb. 23, 2010); Subject Matter Eligibility of Computer
+Readable Media.
+
+Claim 8 recites the computer program "comprises instructions that
+command a computer to function as an operation control device comprising:
+a pressure detecting device ... and an operation control device ... "
+(emphasis added). However, the computer, pressure detecting device, and
+operation control device are not hardware structures in claim 8, but rather
+describe the result when the instructions of the computer program are
+implemented in a computer at some later time. That is, the pressure
+detecting device and operation control device exist only at the time the
+computer program is executing.
+
+37 C.F.R. § 41.50(b)
+
+This Decision contains a new ground of rejection pursuant to
+37 C.F.R. § 41.50(b). 37 C.F.R. § 41.50(b) provides "[a] new ground of
+rejection pursuant to this paragraph shall not be considered final for judicial
+review."
+
+6
+
+Appeal2015-005899
+Application 12/858,140
+37 C.F.R. § 41.50(b) also provides that Appellants, WITHIN TWO
+MONTHS FROM THE DATE OF THE DECISION, must exercise one of
+the following two options with respect to the new grounds of rejection to
+avoid termination of the appeal as to the rejected claims:
+(1) Reopen prosecution.
+Submit an appropriate
+amendment of the claims so rejected or new Evidence relating
+to the claims so rejected, or both, and have the matter
+reconsidered by the examiner, in which event the prosecution
+will be remanded to the examiner. ...
+(2) Request rehearing. Request that the proceeding be
+reheard under§ 41.52 by the Board upon the same Record ....
+CONCLUSIONS
+(1) Appellants have established that the Examiner erred in rejecting
+claims 1-15, 18, and 19 as being unpatentable under 35 U.S.C. § 103(a).
+(2) We reject claims 8, 11, and 14 as being unpatentable under
+35 U.S.C. § 101.
+(3) On this record, claims 1-7, 9, 10, 12, 13, 15, 18, and 19 have not
+been shown to be unpatentable.
+(4) Claims 8, 11, and 14 are not patentable.
+
+7
+
+Appeal2015-005899
+Application 12/858,140
+
+DECISION
+The Examiner's rejections of claims 1-15, 18, and 19 are reversed.
+Claims 8, 11, and 14 are newly rejected.
+
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+REVERSED
+37 C.F.R. § 41.50(b)
+
+8
+
+

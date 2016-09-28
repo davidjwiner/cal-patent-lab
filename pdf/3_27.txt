@@ -1,0 +1,373 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/244,415
+
+09/24/2011
+
+PeterJ. Yoo
+
+432469 001212
+
+8293
+
+42074
+
+7590
+
+09/21/2016
+
+Faegre Baker Daniels LLP
+PATENT DOCKETING - INTELLECTUAL PROPERTY (32469)
+2200 WELLS FARGO CENTER
+90 SOUTH SEVENTH STREET
+MINNEAPOLIS, MN 55402-3901
+
+EXAMINER
+BERTRAM, ERIC D
+
+ART UNIT
+
+PAPER NUMBER
+
+3766
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+PatentDocketing@FaegreBD.com
+e-OfficeActionBSC@FaegreBD.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PETER J. YOO, MICHAEL A. MOFFITT, and
+KERRY BRADLEY
+
+Appeal2014-004590
+Application 13/244,415 1
+Technology Center 3700
+
+Before STEFAN STAICOVICI, GEORGE R. HOSKINS, and
+BRANDON J. WARNER, Administrative Patent Judges.
+ST AI CO VICI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Peter J. Yoo et al. (Appellants) appeal under 35 U.S.C. § 134(a) from
+the Examiner's final decision rejecting under 35 U.S.C. § 102(b) claims 120 as anticipated by Stone (US 2007/0203543 Al, pub. Aug. 30, 2007). We
+have jurisdiction over this appeal under 35 U.S.C. § 6(b ).
+
+According to Appellants, the real party in interest is Boston Scientific
+Neuromodulation Corporation. Appeal Br. 2 (filed Nov. 19, 2013).
+
+Appeal2014-004590
+Application 13/244,415
+
+SUMMARY OF DECISION
+We AFFIRM-IN-PART and enter a NEW GROUND of REJECTION
+pursuant to our authority under 37 C.F.R. 41.50(b).
+
+INVENTION
+Appellants' invention relates to "neurostinmlation systems and
+method[s] of s[t]imulating the region of tissue activation." Spec. i-f 2.
+Claim 1, the sole independent claim, is representative of the claimed
+invention and reads as follows:
+A system for an electrical tissue stimulator coupled to an
+array of electrodes, comprising:
+a user-controlled input device configured for generating
+control signals; and
+at least one processor configured for generating a
+plurality of stimulation parameter sets in response to the control
+signals that, when applied to the electrodes, will shift electrical
+1.
+
+current bet\'l/een the electrodes to modify a region of tissue
+
+activation, the at least one processor further configured for
+computing an estimate of the region of tissue activation, and for
+generating display signals capable of prompting a monitor to
+display an animated graphical representation of the computed
+estimate of the region of tissue activation.
+ANALYSIS
+
+Claims 1-7, 11-16, and 20
+Appellants have not presented arguments for the patentability of
+claims 2-7, 11-16, and 20 separately from claim 1. See Appeal Br. 4---6.
+Therefore, in accordance with 37 C.F.R. § 41.37(c)(l)(iv), we select claim 1
+as the representative claim to decide the appeal of the rejection of these
+claims, with claims 2-7, 11-16, and 20 standing or falling with claim 1.
+2
+
+Appeal2014-004590
+Application 13/244,415
+
+Appellants argue that, in contrast to the claimed invention, which
+requires "computing an estimate of the region of tissue activation" as per
+claim 1 (see id. at 9), Stone discloses "that a stimulation field is defined by
+the user." See id. at 4. According to Appellants, "Stone does not compute
+the region of activation, since it is defined by the user." Id.
+We are not persuaded by Appellants' arguments because in Figures
+58---61 of Stone, to which the Examiner cites in the rejection, Stone discloses
+activation fields 986, 988, and 990 created by programmer 966. See Stone
+i-f 296, Fig. 58; see also Final Act. 3 (mailed July 22, 2013). More
+specifically, Stone discloses using slider 982 of user interface 964 to
+increase or decrease amplitude 980 of stimulation parameters in order to
+view how the amplitude change would affect the size, shape, and location of
+activation fields 986, 988, and 990. See Stone i-fi-1294, 296, Figs. 60, 61.
+Therefore, as Stone's programmer 966, i.e., processor, changes the size,
+shape, and location of activation fields 986, 988, and 990 in response to a
+user changing the amplitude 980 of stimulation parameters, Stone's
+programmer 966 is "configured for computing an estimate of the region of
+tissue activation," as called for by claim 1.
+Appellants further argue that Stone fails to disclose the limitation
+"generating display signals capable of prompting a monitor to display an
+
+animated graphical representation of the computed estimate of the region of
+tissue activation." Appeal Br. 5---6 (emphasis added); see also Reply Br. 12. According to Appellants, the Specification defines the term "'animate'
+... as the 'user perceives a movement or change ... in a continuous or nearcontinuous (flickering) manner."' Appeal Br. 5; see also Spec. i-f 77. Thus,
+3
+
+Appeal2014-004590
+Application 13/244,415
+
+Appellants assert that just because Stone discloses a manipulated
+stimulation, this does not mean that the movement is "animated," as defined
+by Appellants' Specification, and thus, the Examiner's position is based on
+conjecture. See Appeal Br. 5, Reply Br. 1.
+In response, the Examiner takes the position that because "the display
+will update whenever the user changes the input, the estimated region of
+activation is displayed such that any changes are perceived by the user
+continuously." Ans. 4 (mailed Feb. 3, 2014).
+We agree with the Examiner's position because an artisan must be
+presumed to know something about the art apart from what the references
+explicitly disclose. See In re Jacoby, 309 F.2d 513, 516 (CCPA 1962). In
+this case, Stone discloses that when moving slider 982 to increase or
+decrease the amplitude of stimulation parameters, the size, shape, and
+location of activation fields 986, 988, and 990 change according to the
+motion of slider 982. See Stone i-fi-1296, 299, Figs. 58, 60, 61. Therefore, a
+person of ordinary skill in the art would have readily recognized that the
+continuous motion of Stone's slider 982 would likewise result in at least a
+near-continuous, i.e., animated, update in the display of the size, shape, and
+location of activation fields 986, 988, and 990. This is sufficient to establish
+that Stone discloses an "animated graphical representation," as called for by
+claim 1, so as to shift the burden to Appellants to show otherwise. See In re
+King, 801 F.2d 1324, 1327 (Fed. Cir. 1986). Appellants have not come forth
+
+with any persuasive evidence or technical reasoning to satisfy such burden.
+
+4
+
+Appeal2014-004590
+Application 13/244,415
+
+In conclusion, for the foregoing reasons, we sustain the rejection
+under 35 U.S.C. § 102(b) of claim 1, and claims 2-7, 11-16, and 20 falling
+with claim 1, as anticipated by Stone.
+
+Claims 8-10
+Dependent claims 8-10 respectively require that the "animated
+graphical representation" of claim 1 changes its "shade," "transparency,"
+and "color." See Appeal Br. 10 (Claims App.).
+The Examiner finds that Stone's
+[F]igures 9, 10, 19-21, 23-30, 53-56, 58-60, 63-65, 67-69, 71, 72,
+74 and 75 do show various shades of gray, and the features of the
+brain can be viewed through the estimated regions of tissue
+activation, thus they are transparent. Stone further discloses the
+use of varying shades, colors and transparency in paragraphs
+0163, 0212, 0215, 0228, 0230, 0284 and 0302.
+Ans. 4--5.
+Although we appreciate that the figures and citations from Stone that
+the Examiner relies upon disclose variations in shade, transparency, and
+color, nonetheless, we agree with Appellants that, "[t]he various shades of
+gray in the figures cited by the Examiner respectively represent different
+tissue regions of the brain." Reply Br. 2. For example, Stone's paragraph
+163 relates to "varying densities of tissue within brain 18"; paragraphs 212,
+215, 228, and 23 0 discuss anatomical regions of the same density; paragraph
+284 relates to a selected anatomical structure in a list menu; and paragraph
+302 relates to a graphically displayed brain model.
+In contrast, claims 8-10 require that the changes in shade,
+transparency, and color be that of an "animated graphical representation of
+5
+
+Appeal2014-004590
+Application 13/244,415
+
+the computed estimate of the region of tissue activation." See Appeal Br. 10
+(Claims App.). Although Stone discloses that the size, shape, and location
+of activation fields 986, 988, and 990 change, the Examiner's citations to
+Stone do not disclose that the shade, transparency, and color of activation
+fields 986, 988, and 990 also change. We thus agree with Appellants that,
+"the stimulation fields are not displayed with different shades of grey or
+different transparencies." Appeal Br. 7.
+Accordingly, for the foregoing reasons, we do not sustain the rejection
+of claims 8-10 as anticipated by Stone.
+
+Claims 17-19
+Appellants argue that, in contrast to claims 17 and 18, which require
+that the region of activation tissue be computed from stimulation parameter
+sets, Stone discloses the opposite, namely, that a stimulation template is
+derived from a user-defined stimulation field. See Appeal Br. 7-8.
+In response, the Examiner takes the position that "paragraphs 0109,
+0194 and 0195 of Stone clearly recite that the user selects electrode
+configurations, stimulation sets are computed in response to this selection,
+and then estimates of the tissue activation based on the selected stimulation
+sets are then displayed." Ans. 5.
+Appellants respond that,
+Paragraph [O 109] discloses displaying electrodes selected by the
+user. Paragraph [0194] discloses the exact opposite of what the
+Examiner concludes (i.e., "Programmer 19 uses the information
+received via the user interface 90 to automatically generate
+stimulation parameters according to the stimulation field defined
+by the clinician" (as opposed to generating an estimate of the
+6
+
+Appeal2014-004590
+Application 13/244,415
+
+stimulation field in accordance with stimulation parameters
+defined by the clinician). Paragraph [O 195] merely discloses
+illustrations of different stimulation fields produced by different
+combination of electrodes.
+Reply Br. 3. Thus, according to Appellants, "[t]here is no disclosure [in
+Stone] that the stimulation fields are computed from these stimulation
+parameters." Appeal Br. 8.
+Although we appreciate that in paragraphs 109, 194, and 195, Stone
+discloses deriving stimulation templates from user-defined stimulation
+fields, nonetheless, we note that with respect to the limitations of claim 17,
+the Examiner cites to Figures 58---61 of Stone, whereas only for claims 18
+and 19 does the Examiner cite to paragraphs 109, 194, and 195. See Final
+Act. 3.
+Accordingly, with respect to the rejection of claim 17, we are not
+persuaded by Appellants' arguments because, as noted above, when moving
+slider 982 to increase or decrease the amplitude of stimulation parameters,
+the size, shape, and location of activation fields 986, 988, and 990 change
+according to the motion of slider 982. See Stone i-fi-1296, 299, Figs. 58, 60,
+61. Therefore, as activation fields 986, 988, and 990 (region of activation)
+are derived, i.e., computed, from the increase or decrease of the amplitude of
+stimulation parameters, Stone discloses that activation fields 986, 988, and
+990 are computed from sets of stimulation parameters, including different
+pulse amplitudes, as called for by claims 17 and 18. The Examiner is also
+correct that Stone discloses that pulse amplitudes (as per claim 18), such as
+voltage and current amplitudes, and electrode combinations (as per claim
+19), constitute types of stimulation parameters. See Final Act. 3 (citing
+Stone i-f 194).
+7
+
+Appeal2014-004590
+Application 13/244,415
+
+Hence, for the foregoing reasons, we sustain the rejection of claims
+17-19 as anticipated by Stone.
+
+NEW GROUND OF REJECTION
+We make the following new ground of rejection pursuant to
+37 C.F.R. § 41.50(b).
+Claims 8-10 are rejected under 35 U.S.C. § 103 as being unpatentable
+over Stone.
+We adopt the Examiner's findings regarding the rejection of
+independent claim 1, from which claims 8-10 depend. See Final Act. 3.
+However, for the reasons set forth supra, Stone fails to disclose that the
+"animated graphical representation" of claims 8-10 changes its "shade,"
+"transparency," and "color," respectively.
+Nonetheless, Stone discloses a display system using different colors,
+shades, and transparencies for easy identification of anatomical features with
+different tissue densities. See Stone i-fi-f 163, 284, 302. Therefore, as Stone's
+system has the ability to display different colors, shades, and transparencies,
+it would have been obvious for a person of ordinary skill in the art to modify
+the system of Stone to also display changes in activation fields 986, 988, and
+990 using different colors, shades, and transparencies. Such a modification
+would have been made to provide a more robust display system by allowing
+a user additional ways for comparing changes in the activation fields, while
+also providing a user with a more pleasing viewing experience. Although
+we appreciate that Stone's display system already shows changes in size,
+shape, and location of activation fields 986, 988, and 990, nonetheless,
+8
+
+Appeal2014-004590
+Application 13/244,415
+
+modifying Stone's display system to also include different colors, shades,
+and transparencies is an improvement, as it provides a viewer with
+additional and/or alternative ways of viewing and comparing changes in the
+activation fields.
+
+SUMMARY
+The Examiner's decision to reject claims 1-20 is affirmed as to claims
+1-7 and 11-20 and reversed as to claims 8-10.
+We enter a new ground of rejection of claims 8-10 under 35 U.S.C.
+§ 103 as being unpatentable over Stone.
+This decision contains a new ground of rejection pursuant to 37
+C.F.R. § 41.50(b). 37 C.F.R. § 41.50(b) provides "[a] new ground of
+rejection pursuant to this paragraph shall not be considered final for judicial
+review."
+37 C.F.R. § 41.50(b) also provides:
+When the Board enters such a non-final decision, the appellant,
+within two months from the date of the decision, must exercise
+one of the following two options with respect to the new ground
+of rejection to avoid termination of the appeal as to the rejected
+claims:
+Submit an appropriate
+( 1) Reopen prosecution.
+amendment of the claims so rejected or new Evidence relating to
+the claims so rejected, or both, and have the matter reconsidered
+by the Examiner, in which event the prosecution will be
+remanded to the Examiner. The new ground of rejection is
+binding upon the examiner unless an amendment or new
+Evidence not previously of Record is made which, in the opinion
+of the examiner, overcomes the new ground of rejection
+designated in the decision. Should the examiner reject the
+9
+
+Appeal2014-004590
+Application 13/244,415
+
+claims, appellant may again appeal to the Board pursuant to this
+subpart.
+(2) Request rehearing. Request that the proceeding be
+reheard under § 41.52 by the Board upon the same Record. The
+request for rehearing must address any new ground of rejection
+and state with particularity the points believed to have been
+misapprehended or overlooked in entering the new ground of
+rejection and also state all other grounds upon which rehearing
+is sought.
+Further guidance on responding to a new ground of rejection can be
+found in the Manual of Patent Examining Procedure§ 1214.01.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART; 37 C.F.R. § 41.50(b)
+
+10
+
+

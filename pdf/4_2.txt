@@ -1,0 +1,310 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/330,545
+
+12/09/2008
+
+Rick A. Hamilton II
+
+END920080346US l_IENl 06604
+
+1052
+
+26681
+
+7590
+
+09/21/2016
+
+Driggs, Hogg, Daugherty & Del Zoppo Co,, LP,A,
+38500 CHARDON ROAD
+DEPT. IEN
+WILLOUGHBY HILLS, OH 44094
+
+EXAMINER
+CRAWLEY, TALIAF
+
+ART UNIT
+
+PAPER NUMBER
+
+3687
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+usptocommunications@driggslaw.com
+carole@driggslaw.com
+mwheeler@driggslaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RICK A. HAMIL TON II,
+JAMES R. KOZLOSKI,
+BRIAN M. O'CONNELL,
+CLIFFORD A. PICKOVER,
+and KEITH R. WALKER
+
+Appeal2014--002453
+Application 12/330,545
+Technology Center 3600
+
+Before ANTON W. PETTING, NINA L. MEDLOCK, and
+CYNTHIA L. MURPHY, Administrative Patent Judges.
+PETTING, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE 1
+Rick A. Hamilton II, James R. Kozloski, Brian M. O'Connell, Clifford
+A. Pickover, and Keith R. Walker (Appellants) seek review under
+35 U.S.C. § 134 of a final rejection of claims 1-5, 8-15, and 17-20, the only
+
+1
+
+Our decision will make reference to the Appellants' Appeal Brief ("App.
+Br.," filed April 30, 2013) and Reply Brief ("Reply Br.," filed December 6,
+2013), and the Examiner's Answer ("Ans.," mailed October 11, 2013), and
+Final Action ("Final Act.," mailed November 5, 2012).
+
+Appeal2014-002453
+Application 12/330,545
+claims pending in the application on appeal. 2 We have jurisdiction over the
+appeal pursuant to 35 U.S.C. § 6(b).
+The Appellants invented a way of linking dual accounts for composite
+monetary and carbon credit value consideration in a transaction.
+Specification para. 1.
+An understanding of the invention can be derived from a reading of
+exemplary claim 1, which is reproduced below (bracketed matter and some
+paragraphing added).
+1. A method for linking and utilizing monetary and carbon
+
+credit accounts in consideration of a transaction, comprising:
+[1] a programmable arbitrating device
+
+providing a transaction interface to a buyer
+that links a monetary account of the buyer to a carbon
+credit account of the buyer;
+and
+[2] the arbitrating device automatically executing a purchase of
+an item offered for sale to the buyer by a seller
+at a composite price that has a monetary portion and a
+carbon credit portion,
+in response to an input of the buyer to the arbitrating
+device transaction interface
+as a function of a monetary-carbon exchange rate,
+by:
+[3] comparing the monetary-carbon exchange rate
+to a rate threshold;
+
+2
+
+The claims as entered are those in an amendment filed January 2, 2013,
+after the Final Action. This amendment was entered according to an
+Advisory Action mailed January 16, 2103.
+2
+
+Appeal2014-002453
+Application 12/330,545
+[4] in response to the monetary-carbon exchange
+rate meeting the compared rate threshold,
+charging a first monetary payment from the
+buyer's monetary account,
+charging a first carbon credit payment from
+the buyer's carbon credit account
+and
+converting a first amount of a balance of a
+selected one of the monetary and carbon
+credit account
+to generate a first converted monetary/
+carbon credit payment as a function of the
+monetary-carbon exchange rate,
+so that
+a percentage of a monetary payment
+amount relative to a carbon credit
+payment amount in a total of
+the first monetary payment,
+the first carbon credit payment
+and
+the first converted monetary/
+carbon credit payment
+satisfies
+a specified carbon credit/monetary
+proportion that is associated with the
+rate threshold;
+and
+[5] in response to the monetary-carbon exchange
+rate not meeting the compared rate threshold,
+charging a second monetary payment from
+the buyer's monetary account that is
+different from the first monetary payment,
+and
+3
+
+Appeal2014-002453
+Application 12/330,545
+charging a second carbon credit payment
+from the buyer's carbon credit account that
+is different from the first carbon credit
+payment.
+
+The Examiner relies upon the following prior art:
+Pollack
+
+US 2008/0249965 Al
+
+Oct. 9, 2008
+
+Vaswani US 2010/0228601 Al
+
+Sept. 9, 2010
+
+Claims 1-5, 9-15, and 17-20 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Pollack and Vaswani. 3
+
+ISSUES
+The issues of obviousness tum primarily on whether the prior art
+describes varying the relative amounts of carbon credits and monetary
+portions in a composite price to automatically produce different proportions
+as a function of an exchange rate.
+
+FACTS PERTINENT TO THE ISSUES
+The following enumerated Findings of Fact (FF) are believed to be
+supported by a preponderance of the evidence.
+
+3
+
+A rejection under 35 U.S.C. § 112, second paragraph and a rejection under
+35 U.S.C. § 103(a) as unpatentable over The Leahy-Smith America Invents
+Act (AIA), section 14 were withdrawn in an Advisory Action mailed
+January 16, 2013.
+4
+
+Appeal2014-002453
+Application 12/330,545
+Facts Related to the Prior Art
+Pollack
+
+01.Pollack is directed to automatically calculating a custom offset fee
+that purchasers may voluntarily pay to offset the negative
+environmental impacts of the fuel they purchase, at the time and
+point of sale. Pollack para. 16.
+02. The offset payment can be collected in one of two ways: either as
+a separate line item in the fuel purchase transaction, or as an
+embedded portion of the fuel product price. Pollack para. 18.
+03.Pollack describes the offset payment being calculated in real time
+based upon specific temporal, spatial, or climatic factors that may
+affect the pollution characteristics of the fuel being purchased.
+Pollack para. 20.
+04.Pollack may offer the user a second choice of making an offset
+payment by adding an offset surcharge to the fuel product's price,
+or by offering a version of the fuel product with the offset
+surcharge included in the price. In various implementations,
+Pollack accepts payment via cash, credit card or pre-paid
+environmental offset points. Pollack para. 27.
+05.Pollack describes the custom offset engine calculating a custom
+offset payment or debit in real time based on actual usage data.
+Pollack para. 34--35.
+
+5
+
+Appeal2014-002453
+Application 12/330,545
+Vaswani
+
+06. Vaswani is directed to electrical energy consumption; information
+relating to electrical energy usage for a given account is associated
+with a time segment that corresponds to a period when the
+electrical energy was received from an electrical energy
+distribution system. Vaswani para. 5.
+07. Vaswani describes electrical energy generation carbon impact
+information indicating carbon released to generate the electrical
+energy during the corresponding time segment. A carbon credit is
+calculated according to the retrieved electrical energy generation
+carbon impact information, and the retrieved electrical energy
+usage information associated with the time segment. The
+calculated carbon credit is then used to update a display of carbon
+credit related information, such as account balance, rate of carbon
+credit usage, currently applicable "cost" for carbon credit usage,
+or the like. Notifications can be provided to the consumer if any
+of this information crosses a threshold value. Id.
+08.Vaswani describes an example in which a customer of utility E
+has a monthly carbon credit allotment of 32,000 credits, which are
+credited to the customer's account at utility E. Typical usage is
+below the monthly allotment by, on average, 5,000 credits.
+However, some months the monthly allotment is exceeded by
+3,000 or 4,000 credits. The customer typically sells excess credits
+from a brokerage account held with a financial institution G. To
+facilitate selling, the customer puts in place carbon credit balance
+
+6
+
+Appeal2014-002453
+Application 12/330,545
+transfer rules with utility E which specify: if the carbon credit
+account balance at the utility reaches 50,000 credits or more,
+credits in excess of 40,000 credits are to be transferred to the
+customer's brokerage account with financial institution G.
+Vaswani para. 88.
+
+ANALYSIS
+We are persuaded by Appellants' argument that "no teachings are
+provided as to varying the relative amounts of carbon credits and monetary
+portions in a composite price to automatically produce different proportions
+as a function of an exchange rate as specifically claimed." Reply Br. 2. The
+Examiner finds this would be obvious to try. Ans. 3--4. The Examiner
+provides no analytic framework for why this would be obvious to try other
+than to find that the references describe using rules to test thresholds
+generally. The recited implementation of testing based on mix proportions
+instead of monetary or credit amounts as described in the references is far
+too detailed for one of ordinary skill to sense the implementation as a case to
+try without more description in the direction of the recited implementation.
+
+CONCLUSIONS OF LAW
+The rejection of claims 1-5, 9-15, and 17-20 under 35 U.S.C. § 103(a)
+as unpatentable over Pollack and Vaswani is improper.
+
+7
+
+Appeal2014-002453
+Application 12/330,545
+uECISION
+The rejection of claims 1-5, 8-15, and 17-20 is reversed.
+
+REVERSED
+
+8
+
+

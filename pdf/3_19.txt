@@ -1,0 +1,402 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/356,872
+
+01124/2012
+
+TIMOTHY J. NOHARA
+
+S45-015US
+
+4417
+
+28156
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+Cosud Intellectual Property Solutions, P.C.
+
+GYAWALI, BIPIN
+
+714 COLORADO AVENUE
+BRIDGEPORT, CT 06605-1601
+ART UNIT
+
+PAPER NUMBER
+
+2625
+
+MAILDATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte TIMOTHY J. NOHARA 1
+
+Appeal2015-005139
+Application 13/356,872
+Technology Center 2600
+
+Before BRUCE R. WINSOR, KARA L. SZPONDOWSKI, and
+DAVID J. CUTITTA II, Administrative Patent Judges.
+CUTITTA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) from the Examiner's Final
+Decision rejecting claims 1-105. We have jurisdiction over this appeal
+under 35 U.S.C. § 6(b ).
+We AFFIRM-IN-PART. 2
+
+1
+
+According to Appellant, the real party in interest is Accipiter Radar
+Technologies Inc. See Appeal Brief 1.
+2
+Throughout this Opinion, we refer to: (1) Appellant's Specification filed
+Jan. 24, 2012 ("Spec."); (2) the Final Office Action ("Final Act.") mailed
+May 23, 2014; (3) the Appeal Brief ("Appeal Br.") filed Oct. 23, 2014;
+(4) the Examiner's Answer ("Ans.") mailed Feb. 11, 2015; and (5) the Reply
+Brief ("Reply Br.") mailed Apr. 8, 2015.
+
+Appeal2015-005139
+Application 13/356,872
+BACKGROUND
+Appellant's application relates to a personal electronic target vision
+device, carried by a user, in which targets in the field of view of the user are
+rendered in real-time to the user so that the user can visualize where the
+targets are relative to him, in an orientation analogous to unaided human
+vision. Spec. 3 7. Claims 1, 24, 49, 77, and 94 are independent claims.
+Claim 1 is exemplary of claims 1, 24, 77, and 94 and is reproduced below
+with disputed limitations emphasized:
+A personal, electronic target vision system for displaying
+moving targets to one or more users relative to each user's respective
+location, comprising:
+1.
+
+one or more personal electronic vision devices (PEVDs) each
+held or worn by a respective user; and
+at least one remote computer connected to each said PEVD over
+a network;
+
+each said PEVD being configured to periodically send respective
+user data over said network to said remote computer, said user data
+including location of the respective user and look direction or
+orientation of said PEVD, the look direction or orientation of said
+PEVD including at least a horizontal bearing angle, and said remote
+computer being configured to acquire from a source remote to each said
+user and to send to each said PEVD, respective target data selected by
+said remote computer in response to said respective user data including
+the location of the respective user and the horizontal bearing angle of
+said PEVD, said respective target data pertaining at least in part to nearreal-time locations of moving objects within a determinable distance of
+the respective user, each said PEVD being configured to display, on a
+user-centric display, targets taken from the respective selected target
+data and to render the displayed targets in a user-centric view at
+respective locations relative to the location of the respective user and
+the horizontal bearing angle of said PEVD.
+
+2
+
+Appeal2015-005139
+Application 13/356,872
+
+Claim 49 is reproduced below with disputed limitations emphasized:
+49.
+A personal, electronic target vision system for displaying
+targets to one or more users relative to the location of each respective
+user comprising: a target information server storing target location
+updates for respective targets and providing selected target location
+information in response to queries; one or more sensors operatively
+connected to said target information server for providing thereto target
+location updates for respective targets; a target vision server
+operatively connected to said target information server for transmitting
+thereto queries in response to respective target selection information
+received by said target vision server from one or more personal
+electronic vision devices, said target vision server being configured to
+respond to each of said personal electronic vision devices with
+respective selected target location information provided to said target
+vision server by said target information server, said respective selected
+target location information pertaining at least in part to nearinstantaneous or real-time locations of moving objects within a
+determinable distance of the respective user, each of said personal
+electronic vision devices displaying said respective selected target
+location information to its associated user on a user-centric display, said
+selected target location information being rendered so that the
+visualization of selected targets by said respective user is relative to the
+location of said respective user.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal includes:
+V au et al. ("Vau")
+Forrester et al.
+("Forrester")
+Huston ("Huston")
+Harrison et al.
+("Harrison")
+
+US 2009/0034800 Al
+US 2011/0109747 Al
+
+Feb. 5,2009
+May 12, 2011
+
+US 2011/0282799 Al
+US 2012/0120499 Al
+
+Nov. 17, 2011
+May 17, 2012
+
+3
+
+Appeal2015-005139
+Application 13/356,872
+
+REJECTIONS
+Claims 1-8, 13-21, 23-33, 38--45, 47, 49---61, 64---66, 69-75, 77-81,
+84-97, and 99-105 stand rejected under 35 U.S.C. §103(a) as being
+unpatentable over Huston and Harrison. 3 Final Act. 4-24.
+Claims 9-12, 34-37, 48, 62, 63, 76, 83 and 93 stand rejected under 35
+U.S.C. § 103(a) as being unpatentable over Huston, Harrison, and Forrester.
+Final Act. 25-29.
+Claims 68, 82, and 98 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Huston, Harrison, and Vau. Final Act. 30.
+Claims 22, 46, and 67 are identified as rejected (Final Act. 1), but we
+find no ground of rejection for claims 22, 46, and 67 articulated in the Final
+Office Action (see generally Final Act. 4-30). The Examiner does state that
+"the office maintains the rejection of these dependent claims." Ans. 9.
+Our review in this appeal is limited to the above rejection and issues
+raised by Appellant. We have not considered other possible issues that have
+not been raised by Appellant and which are, therefore, not before us. See 37
+C.F.R. § 41.37(c)(l)(iv) (2014).
+
+3
+
+Claims 34, 62, and 63 are listed in the summary grounds of rejection as
+rejected over Huston and Harrison (Final Act 4) and also over Huston,
+Harrison, and Forrester (Final Act. 25). The detailed grounds of rejection
+only set forth a rejection over Huston, Harrison, and Forrester. Final Act.
+28. We treat the inclusion of claims 34, 62, and 63 in the summary ground
+of rejection over Huston and Harrison as an error that is typographical or
+ministerial in nature.
+4
+
+Appeal2015-005139
+Application 13/356,872
+
+ISSUES
+1.
+
+Did the Examiner err in finding that the combination of Huston
+
+and Harrison teaches or suggests "each said PEVD being configured to
+periodically send respective user data over said network to said remote
+computer, said user data including location of the respective user and look
+direction or orientation of said PEVD, the look direction or orientation of
+said PEVD including at least a horizontal bearing angle," as recited in claim
+1?
+
+2. Did the Examiner err in finding that the combination of Huston
+and Harrison teaches or suggests "a target vision server," as recited in claim
+49?
+
+DISCUSSION
+35 U.S.C. § 103: Claims 1--48 and 77-105
+
+The Examiner relies on the combination of Huston and Harrison to
+teach or suggest "each said PEVD being configured to periodically send
+respective user data over said network to said remote computer, said user
+data including location of the respective user and look direction or
+orientation of said PEVD, the look direction or orientation of said PEVD
+including at least a horizontal bearing angle" as recited in claim 1. Final
+Act. 5; Ans. 2 (citing Huston Abstract and i-fi-f 19, 21, and 33-35 and
+Harrison i-fi-1 93-94 and Fig. 8).
+
+5
+
+Appeal2015-005139
+Application 13/356,872
+Appellant argues "Huston's system does not entail, require, or suggest
+the periodic transmission of the horizontal bearing angle of each spectator's
+portable viewing/display device to a remote (central) server[.]" Appeal Br.
+17; see also Appeal Br. 11. Appellant further contends "there is no
+suggestion in either Huston or Harrison that one might periodically transmit
+the horizontal bearing angles of the users' portable viewing display devices
+or HMDs to server (44) through radio (46) of Huston." Appeal Br. 14;
+Reply Br. 2--4.
+We are persuaded by Appellant's arguments. In addition to reciting
+"the look direction or orientation of said PEVD including at least a
+horizontal bearing angle," claim 1 further recites "the horizontal bearing
+angle of said PEVD." The Examiner fails to demonstrate that Huston and
+Harrison teach or suggest a horizontal bearing angle of the PEVD. Instead,
+the portion of Harrison cited by the Examiner in the Final Action describes
+detecting a direction of the user;s gaze by detecting the center of the retina,
+rather than detecting the look direction or orientation of the device, and
+therefore, the horizontal bearing angle of the device, as claimed. See Final
+Act. 5, citing Harrison i-fi-193-94. Further, in response to Appellant's
+argument, in the Answer, the Examiner states "friendlies of Huston are
+inherently transmitting a horizontal bearing angle with respect to each other,
+as the server will have all the information needed to calculate the horizontal
+bearing angle between two friendlies, if required." Ans. 2. The Examiner
+fails to demonstrate that Huston inherently teaches or suggests sending look
+direction or orientation data of the PEVD, including a horizontal bearing
+angle of the PEVD. vVhen a reforence is silent about an asserted inherent
+characteristic, it must be clear that the missing descriptive matter is
+6
+
+Appeal2015-005139
+Application 13/356,872
+
+necessarily present in the reference. Continental Can Co. v. Monsanto Co.,
+948 F.2d 1264, 1268 (Fed. Cir. 1991). The Examiner has not shown that
+sending a horizontal bearing angle of the PEVD over a network as claimed is
+"necessarily present" when friendlies share GPS coordinates in Huston. See
+Reply Br. 1-2. Accordingly, having considered the Examiner's findings
+with respect to the teachings in Harrison and Huston, we find the Examiner
+has failed to provide sufficient findings to show that Harrison and Huston
+teach or suggest "the look direction or orientation of said PEVD including at
+least a horizontal bearing angle" and "the horizontal bearing angle of said
+PEVD," as claimed.
+Because we agree with at least one of the arguments advanced by
+Appellant, we need not reach the merits of Appellant's other arguments.
+Accordingly, we do not sustain the Examiner's 35 U.S.C. § 103(a) rejection
+of claim 1. Independent claims 24, 77, and 94 each include similar
+limitations and, thus, the rejection of claims 24, 77, and 94 is also reversed.
+The rejections of dependent claims 2-23, 25--48, 78-93, and 95-105,
+which each include the disputed limitations, are also reversed.
+
+35U.S.C.§103: Claims 49-66 and 68-76
+After review of Appellant's arguments and the Examiner's findings
+and reasoning, we determine that Appellant has not identified reversible
+error in the Examiner's rejection of claim 49.
+In rejecting claim 49, the Examiner relies on Huston's radio base
+station 42 and server 44, respectively, to suggest the claimed target vision
+server and target information server. Final Act. 13 (citing Huston Fig. 1 and
+
+iTiT 33 and 67).
+
+7
+
+Appeal2015-005139
+Application 13/356,872
+Appellant contends that if Huston's server 44 is equivalent to the
+claimed target information server, then the claimed target vision server is
+absent from Huston. Appeal Br. 23. We find Appellant's arguments
+unpersuasive. We agree with the Examiner's finding that Huston suggests
+the claimed target vision server. See Final Act. 3; Ans. 5---6; see In re Keller,
+642 F.2d 413, 425 (CCPA 1981) (the test for obviousness is "what the
+combined teachings of the references would have suggested to one of skill in
+the art").
+Claim 49 recites that the "target information server stor[ es] target
+location updates for respective targets and provid[ es] selected target location
+information in response to queries." Appeal Br. 42. Claim 49 also recites
+that the target vision server transmits queries in response to respective target
+selection information received from one or more personal electronic vision
+devices and responds to each of the personal electronic vision devices with
+selected target location information provided by the target information
+server. Appeal Br. 42--43. Appellant does not dispute that Huston's server
+44 performs all of the respective functions of the claimed target information
+server and target vision server, but instead argues that Huston fails to
+suggest a second server separate from server 44 that performs the functions
+of the target vision server. Appeal Br. 23-24.
+We find Appellant's argument unpersuasive because Appellant fails to
+establish that performing similar functions with separate servers rather than
+a single server results in a patentable distinction over Huston. See, e.g.,
+Nerwin v. Erlichmann, 168 USPQ 177, 179 (BPAI 1969) (non-precedential)
+(constructing a formerly integral structure in various elements requires only
+
+8
+
+Appeal2015-005139
+Application 13/356,872
+routine skill in the art) andin re Dulberg, 289 F.2d 522, 523 (CCPA 1961)
+(making single pieces separable held obvious).
+MPEP § 2144 provides further guidance that "[ w ]hen considering
+obviousness, Office personnel are cautioned against treating any line of
+reasoning [such as making separable] as a per se rule." That is, such
+rationales should not be treated as per se rules, but rather must be explained
+and shown to apply to the facts at hand. Id. However, "if a technique has
+been used to improve one device, and a person of ordinary skill in the art
+would recognize that it would improve similar devices in the same way,
+using the technique is obvious unless its actual application is beyond his or
+her skill." KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 417 (2007). Here,
+because Appellant fails to demonstrate that performing known functions in
+two servers instead of in a single server is more than using a known
+technique to improve a similar device, no per se rule has been applied.
+Accordingly, we sustain the Examiner;s 35 U.S.C. § 103(a) rejection
+of claim 49. Appellant does not make any other substantive argument
+regarding the rejection of dependent claims 50-76. See App. Br. 24.
+Therefore, we likewise sustain the rejections of these dependent claims
+under 35 U.S.C. § 103(a).
+
+Claims 22, 46, and 67
+
+In the absence of any articulated ground of rejection for claims 22, 46,
+and 67, the Final Office Action fails to "state a reason for such rejection," 35
+U.S.C. § 135(a). Appellant does not question the sufficiency of the
+rejection. Thus, this argument is technically waived. 37 C.F.R. § 41.37(iv)
+(2013) ("any arguments or authorities not included in the appeal brief will be
+9
+
+Appeal2015-005139
+Application 13/356,872
+
+refused consideration by the Board"); see also Ex parte Borden, 93 USPQ2d
+1473, 1474 (BP AI 2010) (informative) ("Any bases for asserting error,
+whether factual or legal, that are not raised in the principal brief are
+waived."). However, we raise this issue sua sponte because failing to
+consider the lack of reasons for the rejection would lead to a disposition
+unsupported by substantial evidence. See In re Gartside, 203 F.3d 1305,
+1315-16 (Fed. Cir. 2000). Additionally, the inevitable discovery of this error
+in a later proceeding would impose further costs on the USPTO, Appellant,
+and the public. See In re Sonkin, 2009-006045, slip. op. at 10 (BP AI Apr.
+28, 2010) (non-precedential) (Jeffery, APJ, concurring).
+For these reasons, and in addition to the reasons given supra regarding
+claims 22 and 46, we conclude, sua sponte, that we cannot sustain the
+rejections of claim 22, 46, and 67.
+
+DECISION
+We reverse the Examiner's decision rejecting claims 1--48, 67, and
+77-105 under 35 U.S.C. § 103(a).
+We affirm the Examiner's decision rejecting claims 49---66 and 68-76
+under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+10
+
+

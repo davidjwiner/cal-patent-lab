@@ -1,0 +1,452 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/066,745
+
+03/13/2008
+
+James David Larsen
+
+05410-US-NPE
+
+3418
+
+42717
+
+7590
+
+09/21/2016
+
+HA YNES AND BOONE, LLP
+IP Section
+2323 Victory A venue
+Suite 700
+Dallas, TX 75219
+
+EXAMINER
+SCHWARTZ, JOSHUA L
+
+ART UNIT
+
+PAPER NUMBER
+
+2642
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipdocketing@haynesboone.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte JAMES DAVID LARSEN
+
+Appeal2013-009050
+Application 12/066,745
+Technology Center 2600
+
+Before ALLEN R. MacDONALD, KEVIN C. TROCK, and
+JOSEPH P. LENTIVECH, Administrative Patent Judges.
+LENTIVECH, Administrative Patent Judge.
+
+DECISION ON APPEAL
+.6.
+
+....
+
+,1
+
+..
+
+•
+
+..
+
+Appeuant' seeKs our review unaer
+
+,....,-TTr'1.r-"\
+
+j ) u.~.L.
+
+s
+
+l\-1,....AI/'\.
+
+U4~aJ
+
+£',"1
+
+or me
+
+Examiner's final rejection of claims 47---69 and 71-92. Claims 1--46 have
+been canceled. See App. Br. 29 (Claims App'x). Although the Examiner
+indicates that claim 70 has been rejected (Final Act. 2), we note that claim
+70 is omitted from the rejections detailed in the Final Action (see Final
+Act. 4--16). Because there is no outstanding rejection against claim 70, this
+claim is not on appeal before us. We have jurisdiction over the remaining
+claims, claims 47-69 and 71-92, under 35 U.S.C. § 6(b).
+We affirm.
+
+1
+
+According to Appellant, the real party in interest is MOSAID Technologies
+Incorporated. App. Br. 3.
+
+Appeal2013-009050
+Application 12/066,745
+STATEMENT OF THE CASE
+
+Appellant's Invention
+Appellant's invention generally relates to locating and determining the
+position of wireless mobile stations in a communication network. Spec. 1.
+Claim 47, which is illustrative, reads as follows:
+4 7. A method of operating a network comprising a plurality of
+stations each able to transmit and receive data so that the network
+can transmit data between stations via at least one selected
+intermediate station, the method comprising:
+monitoring at each station, the activity of other stations on
+the network to establish the availability of neighbor stations
+having connectivity with the monitoring station;
+transmitting probe signals from each station other stations
+which receive the probe signals from a probing station
+responding directly or indirectly via another station, to the
+probing station to thereby indicate their availability as neighbor
+stations able to receive or relay data which probing signals begin
+at low power then increase in power until a predetermined
+number of other stations have replied;
+transmitting position data and/or position determining data
+in at least some of the probe signals and/or in responses to probe
+signals, the position data including data indicative of the absolute
+or relative position of a station transmitting a probe signal or a
+response signal, and the position determining data including data
+usable by a station receiving a probe signal or a response signal
+to determine the absolute or relative position of the station and/or
+other stations;
+maintaining, at stations which receive probe signals from
+one or more probing stations and/or response signals from one or
+more responding stations, position data and/ or position
+determining data received from selected ones of the probing
+and/or responding stations; and
+at one or more of said stations maintaining said position
+data and/or position determining data, utilizing the position data
+2
+
+Appeal2013-009050
+Application 12/066,745
+and/or position determining data to determine the absolute or
+relative position of said each station and/or other stations,
+thereby enabling any station to determine its own position or the
+position of another station in the network either as an absolute
+position or relative to other stations.
+
+Rejections
+RI
+
+Claims 47-50, 52, 58, 59, 66-69, 74, 81, 82, 85, 87, 90, and 92 stand
+
+rejected under 35 U.S.C. § 103(a) as being unpatentable over the
+combination of Whitehill et al. (US 2002/0191573 Al; published Dec. 19,
+2002) ("Whitehill") and Belcea (US 2003/0185166 Al; published Oct. 2,
+2003). Final Act. 4--10.
+R2
+
+Claims 51, 53-57, 60, 61, 63---65, 71-73, 75, 77-80, 83, 84, 86, 89,
+
+and 92 stand rejected under 35 U.S.C. § 103(a) as being unpatentable over
+the combination of Whitehill, Belcea, and King et al. (US 2003/0011511 Al;
+published Jan. 16, 2003) ("King"). Final Act. 10-16.
+R3
+
+Claims 62 and 88 stand rejected under 35 U.S.C. § 103(a) as being
+
+unpatentable over the combination of Whitehill, Belcea, and MacDonald et
+al. (US 2004/0152471 Al; published Aug. 5, 2004) ("MacDonald"). Final
+Act. 16.
+
+ANALYSIS
+We consider Appellant's arguments seriatim as they are presented in
+the Appeal Brief, pages 17-27, and the Reply Brief, pages 2-5. We have
+considered in this Decision only those arguments Appellant actually raised
+in the Briefs. Any other arguments that Appellant could have made but
+chose not to make in the Briefs are deemed to be waived. See 37 C.F.R.
+§ 41.37(c)(l)(iv).
+3
+
+Appeal2013-009050
+Application 12/066,745
+
+Claims 47-50, 52, 58, 59, 66--69, 74, 81, 82, 85, 87, 90, and 92
+
+Appellant relies on the same arguments to argue patentability of
+claims 47-50, 52, 58, 59, 66-69, 74, 81, 82, 85, 87, 90, and 92. App.
+Br. 17-23; Reply Br. 2-5. We select claim 47 as representative of this
+group, and claims 48-50, 52, 58, 59, 66-69, 74, 81, 82, 85, 87, 90, and 92
+stand or fall with claim 47. 37 C.F.R. § 41.37(c)(l)(iv).
+
+Issue 1: Did the Examiner err by finding the combination of Whitehill and
+Belcea teaches or suggests the limitations recited in claim 47?
+Contention 1
+Appellant contends "the cited combination does not teach or suggest a
+method or network for locating or tracking stations in a network." App.
+Br. 20. Appellant contends:
+Whitehill describes a number of software subroutines
+usable in a pre-existing ad-hoc network. Whitehill does not
+describe a network or a method of locating mobile stations in a
+network. Whitehill is simply a wish list of desired functions and
+a listing of mathematical algorithms in the form of computer
+instructions. The necessary application program interfaces to
+connect the program with an 802.11 network are not provided.
+The sections cited by the Final Rejection (i-f [0003], [0008] and
+[0017]) are only the pre-existing IETF-MANET mobile
+networking group as specified in IEEE 802.11 wireless standard.
+Such a network is entirely different in operation and application
+than the Opportunity Driven Multiple Access (ODMA) network
+of the claimed invention. 802.11 networks are local with a single
+hub and multiple stations which interact with the hub. In contrast
+an ODMA system is multi-level with no centrally defined hub.
+There are both fixed and mobile stations which can communicate
+with each other directly and serve as relay points.
+
+4
+
+Appeal2013-009050
+Application 12/066,745
+App. Br. 20.
+We do not find Appellant's contentions persuasive. Initially, we note
+that Appellant's contentions fail to identify any particular limitation and,
+therefore, are unpersuasive to show how the cited references fail to teach or
+suggest the recited limitations. See In re Baxter Travenol Labs., 952 F .2d
+388, 391 (Fed. Cir. 19 91) ("It is not the function of this court to examine the
+claims in greater detail than argued by an [A ]ppellant, looking for
+nonobvious distinctions over the prior art."). Further, Appellant's
+contentions are not commensurate with the scope of the claim. Claim 47
+does not recite "a method or network for locating or tracking stations in a
+network." Instead, claim 47 recites "[a] method of operating a network
+comprising a plurality of stations each able to transmit and receive data so
+that the network can transmit data between stations via at least one selected
+intermediate station." Additionally, claim 47 does not require locating
+mobile stations in a network. Nor does claim 47 recite an ODMA network.
+
+Instead, claim 47 recites "a plurality of stations," "at least one selected
+intermediate station," "each station," "a station," and "a network."
+Appellant's contention (Reply Br. 3) that "[w]hen one reads claim 47 as a
+whole one can see terms and phrases such as "relay data", "probing station
+responding directly or indirectly via another station" and "neighbor stations"
+and that "[t]hese terms and phrases form parts of limitations that do
+differentiate (as explained in the arguments of the Appeal Brief) from
+802.11 network operation and application" are unpersuasive because these
+contentions still to identify any particular limitation recited in claim 4 7.
+We note for emphasis that Whitehill is directed to "a system and
+method for controlling a node in a wireless ad-hoc communication network
+
+5
+
+Appeal2013-009050
+Application 12/066,745
+to identify the presence of other nodes in the network." Whitehill if 15.
+Whitehill teaches that "the term node refers to a communication device
+operating in a network of communication devices" and that "[t]he node may
+be a mobile communication device, such as a radio or wireless telephone, or
+the node may be stationary or fixed in a particular location." Whitehill if 30.
+Whitehill teaches that the nodes use a Neighbor Discovery (NBR) algorithm
+for rapid discovery of infrastructure and neighborhood size maintenance.
+Whitehill if 65. Whitehill teaches that the NBR algorithm (i.e., the node)
+transmits beacons and solicitation messages to discover pieces of
+infrastructure and probe the neighborhood. Id. As such, Whitehill teaches
+or suggests "a method or network for locating or tracking stations in a
+network" as well as "[a] method of operating a network comprising a
+plurality of stations each able to transmit and receive data so that the
+network can transmit data between stations via at least one selected
+intermediate station." Accordingly, we are not persuaded the Examiner
+erred.
+Contention 2
+Appellant further contends the Examiner erred in finding the
+combination of Whitehill and Belcea teaches or suggests "transmitting probe
+signals from each station other stations which receive the probe signals from
+a probing station responding directly or indirectly via another station, to the
+probing station to thereby indicate their availability as neighbor stations able
+to receive or relay data which probing signals begin at low power then
+increase in power until a predetermined number of other stations have
+replied," as recited in claim 47. App. Br. 20-21. Appellant contends the
+references fail to teach or suggest the claimed "transmitting probe signals"
+
+6
+
+Appeal2013-009050
+Application 12/066,745
+because "the cited combination does not teach or suggest any method to
+combine probing signals and location signals." App. Br. 20. Appellant
+contends Belcea's status messages "are entirely different from the probing
+signals of the claimed invention" because "[t]he probing signals of the
+claimed invention contain navigational information and organize the
+network" while "the status signals of Belcia [sic] only indicate that a station
+is available." App. Br. 21.
+We do not find Appellant's contentions persuasive. The Examiner
+finds, and we agree, Whitehill teaches or suggests "transmitting probe
+signals from each station other stations which receive the probe signals from
+a probing station responding directly or indirectly via another station, to the
+probing station to thereby indicate their availability as neighbor stations able
+to receive or relay data." Final Act. 5---6 (citing Whitehill i-f 66---68). The
+Examiner finds Belcea teaches or suggests sending out probing signals
+beginning at low power then increasing in power until a predetermined
+number of other stations have replied. Final Act. 6-7 (citing Belcea i-f 151 ).
+As such, the Examiner finds the combined teachings of Whitehill and Belcea
+teach or suggest the disputed limitation. Appellant's contention fails to
+address the combination of teachings relied upon by the Examiner and,
+therefore, are unpersuasive of error. See In re Merck & Co. Inc., 800 F.2d
+1091, 1097 (Fed. Cir. 1986).
+We note for emphasis that Whitehill teaches "if the previous ACKs or
+NACKs have not been received, the process proceeds to step 1090 where the
+power level of the transmitter in the source node is increased by one step if
+possible." Whitehill i-f 55. Whitehill further discloses that the NBR
+(Neighbor Discovery algorithm) attempts to maintain a neighborhood
+
+7
+
+Appeal2013-009050
+Application 12/066,745
+consisting of less than twenty nodes. Whitehill if 65. Whitehill, therefore,
+teaches, or at least suggests, sending out "probing signals begin[ning] at low
+power then increasing in power until a predetermined number of other
+stations have replied," as required by claim 47.
+For the foregoing reasons, we are unpersuaded the Examiner erred in
+finding the combination of Whitehill and Belcea teaches or suggests the
+limitations recited in claim 47.
+
+Issue 2: Did the Examiner err by combining the teachings of Whitehill and
+Belcea to reject claim 47?
+Appellant contends the combination of Whitehill and Belcea is
+improper. App. Br. 22-23; Reply Br. 4--5. Appellant contends:
+1.
+
+"The Final Rejection used the claims of the subject
+application as a guide to select which software modules
+resembled given clauses the teaching of the Whitehill as a
+whole was totally ignored. Portions of Whitehill which teach
+away from the claimed invention or support different
+functions were totally ignored." App. Br. 20.
+
+2.
+
+"The cited combination cannot be functional without recourse
+to the claimed invention or redesign tantamount to
+reinvention." App. Br. 22.
+
+3.
+
+"The cited combination does not recognize the problem." Id.
+Regarding the first contention, Appellant fails to identify any
+
+particular portion of Whitehill that teaches away from the claimed invention
+or explain how Whitehill' s teachings, taken as a whole, were "totally
+ignored." As such, we find this contention unpersuasive.
+8
+
+Appeal2013-009050
+Application 12/066,745
+Regarding the second contention, Appellant contends:
+Whitehill discloses a series of software modules. The
+cited language of Beluca [sic] describes a method of determining
+if an isolated terminal is connectable to the network, no code or
+protocol stack is disclosed. The references do not suggest such
+a combination and the substitution is not obvious to a person of
+ordinary skill in the art. To make the addition would not only
+require rewriting the code of Whitehill but adding additional
+functions to the 802. hardware.
+App. Br. 22.
+We do not find Appellant's contentions persuasive. As discussed
+supra, Whitehill teaches, or at least suggests, sending out "probing signals
+
+begin[ ning] at low power then increasing in power until a predetermined
+number of other stations have replied." App. Br. 29. Further, Appellant's
+contention that "[t]he references do not suggest such a combination" relies
+on a teaching, suggestion, or motivation standard, which is not required. Id.
+at 22; KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007). We are also
+not persuaded by Appellant's contention that the combination would require
+rewriting code and adding additional functions to Whitehill' s hardware
+because Appellant has not persuasively shown that this would be "uniquely
+challenging or difficult for one of ordinary skill in the art" or "represented an
+unobvious step over the prior art." See Leapfrog Enters., Inc. v. FisherPrice, Inc., 485 F.3d 1157, 1162 (Fed. Cir. 2007) (citing KSR, 550 U.S. at
+
+418-19).
+Regarding the third contention, although Appellant contends the cited
+references do not "recognize the problem addressed by the invention" (App.
+Br. 22), Appellant fails to identify or otherwise explain the problem
+addressed by the invention. In discussing the rejection of claims 51, 53-57,
+
+9
+
+Appeal2013-009050
+Application 12/066,745
+60, 61, 63---65, 71-73, 75, 77-80, 83-86, and 89, Appellant does identify the
+problem as "finding mobile stations." App. Br. 27. However, Appellant
+acknowledges that "[t]he problem sought to be solved by the invention ... is
+present in Whitehill." Id. Appellant's contention that the problem is not
+recognized by Belcea is not persuasive because there is no requirement that
+the problem solved by the secondary reference be discussed by the primary
+reference to apply the teachings of the secondary reference in a rejection
+under 35 U.S.C. § 103. See KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 418
+(2007). Accordingly, we are not persuaded the Examiner erred in combining
+the teachings of Whitehill and Belcea.
+For the foregoing reasons, we are not persuaded the Examiner erred in
+rejecting claim 47 and claims 48-50, 52, 58, 59, 66---69, 74, 81, 82, 85, 87,
+90, and 92, which fall with claim 47.
+
+Claims 51, 53-57, 60, 61, 63-65, 71-73, 75, 77--80, 83--86, and 89
+
+Appellant contends the Examiner erred in rejecting claims 51, 53-57,
+60, 61, 63---65, 71-73, 75, 77-80, 83-86, and 89 because the combination of
+Whitehill, Belcea, and King is improper. Appellant presents arguments
+similar to the arguments discussed supra which we find unpersuasive for
+similar reasons. Regarding Appellant's remaining arguments, we agree
+with, and adopt as our own, the findings and reasoning of the Examiner in
+the Final Office Action from which this appeal is taken and the Examiner's
+Answer. See Final Act. 2-16; Ans. 4---6.
+According! y, we sustain the Examiner's rejection of claims 51, 53-57,
+60, 61, 63---65, 71-73, 75, 77-80, 83-86, and 89.
+
+10
+
+Appeal2013-009050
+Application 12/066,745
+DECISION
+We affirm the Examiner's rejection of claims 47---69 and 71-92.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+11
+
+

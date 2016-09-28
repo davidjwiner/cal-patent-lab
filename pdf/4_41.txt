@@ -1,0 +1,200 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/139,822
+
+06/15/2011
+
+Ronaldus Maria Aarts
+
+2008P01640WOUS
+
+4125
+
+24737
+
+7590
+
+09/21/2016
+
+PHILIPS INTELLECTUAL PROPERTY & STANDARDS
+465 Columbus Avenue
+Suite 340
+Valhalla, NY 10595
+
+EXAMINER
+COMLEY, ALEXANDER BRYANT
+
+ART UNIT
+
+PAPER NUMBER
+
+3746
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+marianne.fox@philips.com
+debbie.henn@philips.com
+patti. demichele@Philips.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte RONALDUS MARIA AARTS,
+JORIS ADELBERT MARIA NIEUWENDIJK, OKKE OUWELTJES,
+and GERBEN KOOIJMAN
+
+Appeal2015-000269
+Application 13/139,822 1
+Technology Center 3700
+
+Before ANTON W. PETTING, MICHAEL C. ASTORINO, and
+BRUCE T. WIEDER, Administrative Patent Judges.
+ASTORINO, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellants appeal under 35 U.S.C. § 134 from the Examiner's
+decision rejecting claims 1-8 and 10-12 under 35 U.S.C. § 102(b) as
+anticipated by Ishikawa (EP 1 762 725 Al, pub. Feb. 2, 2005). We have
+jurisdiction over the appeal under 35 U.S.C. § 6(b).
+We REVERSE.
+
+1
+
+According to the Appellants, the real party in interest is the assignee
+"KONINKLIJKE PHILIPS ELECTRONICS N.V." Br. 3.
+
+Appeal2015-000269
+Application 13/139,822
+Claimed Subject Matter
+
+Claims 1, 7, 8, and 12 are the independent claims on appeal. Claim 1,
+reproduced below, is illustrative of the subject matter on appeal.
+1. An output device comprising at least one transducer coupled
+
+to a cavity enclosed within a housing, said output device being
+adapted to produce at least first and second different perceptible
+output modalities for conveying information to a user in response
+to respective drive signals applied to the at least one transducer,
+said first output modality comprising a synthetic fluid jet forced
+through an opening in communication with the cavity and
+rendering fluid flow represented by a first drive signal applied to
+the at least one transducer.
+ANALYSIS
+The Appellants argue that the gas jet of Ishikawa's device is not
+perceptible to a user; and as such, Ishikawa does not anticipate the subject
+matter of claim 1. See Br. 13, 15. The Appellants' argument is persuasive.
+At the outset, we note that the Examiner and the Appellants dispute
+the interpretation of the claimed term "user." See Ans. 12-13; Br. 13-15.
+The Examiner relies on a dictionary definition of the term "user" meaning "a
+person or thing that uses something." Ans. 12-13 (emphasis omitted) (citing
+Merriam-Webster's Dictionary (http://www.merriam-webster.com/
+dictionary/user)); see also Adv. Act. 4 (mailed April 8, 2014). Relying on
+the dictionary definition, the Examiner determines that the claimed term
+"user" may refer to either a "person or a thing." See Ans. 12-13. However,
+we agree with the Appellants that when a person of ordinary skill in the art
+uses the broadest reasonable interpretation of the claim term "user" that is
+consistent with the Specification, the term refers to a person and does not
+refer to a thing. See Appeal Br. 13-15; see also In re Am. A cad. of Sci.
+
+2
+
+Appeal2015-000269
+Application 13/139,822
+
+Tech. Ctr., 367 F.3d 1359, 1364 (Fed. Cir. 2004). In reaching this
+interpretation, we find that the Specification does not refer to a "user" as a
+thing and consistently refers to a "user" as a person. See, e.g., Spec. 2,
+11. 26-27 (stating, with added emphasis, "[a]n effect is that it is relatively
+easy to ensure that the airflow is directed to a part of the user's body that is
+generally uncovered, in particular the face.").
+In response to the Appellants' argument that the gas jet of Ishikawa' s
+device is not perceptible to a user, the Examiner finds that:
+
+Many computer housings and/or casings are specifically
+designed to allow users (i.e. persons) to perform maintenance
+to the internals thereof when needed or desired. Hence, with
+the Ishikawa computer cooling device, a user could easily gain
+access to the internals of the computer system to check
+Ishikawa' s device and ensure proper operation (i.e. ensure that
+a synthetic jet and noise are both being output, thereby
+indicating proper operation). Hence, during maintenance of the
+computer system, Ishikawa's device would be adapted to
+convey information to a user (i.e. a person).
+Ans. 13 (emphasis added). Because the Examiner's rejection is based on
+anticipation, we understand the Examiner's finding to be based on the
+principle of inherency.
+"Under the principles of inherency, if the prior art necessarily
+functions in accordance with, or includes, the claimed limitations, it
+anticipates." In re Cruciferous Sprout Litig., 301 F.3d 1343, 1349 (Fed.
+Cir. 2002) (quoting MEHL/Biophile Int'! Corp. v. Milgraum, 192 F.3d 1362,
+1365 (Fed. Cir. 1999)). In other words, "[i]nherency ... may not be
+established by probabilities or possibilities. The mere fact that a certain
+thing may result from a given set of circumstances is not sufficient." In re
+
+Oelrich, 666 F.2d 578, 581(CCPA1981).
+
+3
+
+Appeal2015-000269
+Application 13/139,822
+In this case, the Examiner's finding does not properly rely on the
+principle of inherency. Here, the Examiner indicates that "many," rather
+than all, "computer housings and/or casings are specifically designed to
+allow users (i.e. persons) to perform maintenance to the internals thereof."
+Ans. 13. Because the Examiner does not find that all "computer housings
+and/or casings computer housings and/or casings are specifically designed to
+allow users (i.e. persons) to perform maintenance to the internals thereof,"
+the Examiner cannot properly find that the housing of Ishikawa's device
+necessarily functions to allow users (i.e., persons) to perform maintenance to
+the internals thereof. Moreover, we fail to ascertain from Ishikawa that the
+device disclosed therein necessarily includes a housing that functions "to
+allow users (i.e. persons) to perform maintenance to the internals thereof."
+Thus, we do not sustain the Examiner's rejection of claim 1 and
+dependent claims 2---6 as anticipated by Ishikawa. Additionally, independent
+claims 7, 8, and 12 are similar to independent claim 1; and, the Examiner's
+rejection of claims 7, 8, and 12 relies of the same unsubstantiated finding as
+discussed above. As such, we do not sustain the Examiner's rejection of
+independent claims 7, 8, and 12, and dependent claims 10 and 11, as
+anticipated by Ishikawa.
+
+DECISION
+We REVERSE the Examiner's decision rejecting claims 1-8 and IO12.
+
+REVERSED
+
+4
+
+

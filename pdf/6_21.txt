@@ -1,0 +1,256 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/264,627
+
+11104/2008
+
+Amy M. Manetta
+
+2007D00011US01
+
+1508
+
+77595
+
+7590
+
+09/16/2016
+
+IP GROUP OF DLA PIPER LLP (US) - DMI
+ONE LIBERTY PLACE
+1650 MARKET STREET, SUITE 4900
+PHILADELPHIA, PA 19103
+
+EXAMINER
+PATEL,NEHA
+
+ART UNIT
+
+PAPER NUMBER
+
+3686
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+pto. phil@dlapiper.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte AMY M. MANETTA, JOLYN RUTLEDGE,
+CHRISTINA L. SIZEMORE, and JAQUELINE MULCAHY
+
+Appeal2014-005872
+Application 12/264,627
+Technology Center 3600
+
+Before HUBERT C. LORIN, BIBHU R. MOHANTY, and
+BRADLEY B. BAYAT, Administrative Patent Judges.
+MOHANTY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+The Appellants seek our review under 35 U.S.C. § 134 of the final
+rejection of claims 1-27 which are all the claims pending in the application.
+We have jurisdiction under 35 U.S.C. § 6(b).
+
+SUMMARY OF THE DECISION
+We REVERSE.
+
+Appeal2014-005872
+Application 12/264,627
+THE INVENTION
+The Appellants' claimed invention relates to a patient treatment
+planning system for creating and editing of a patient treatment plan to be
+implemented by healthcare professionals (Spec. 1). Claim 1, reproduced
+below, is representative of the subject matter on appeal.
+1.
+
+A patient treatment planning system, comprising:
+
+at least one repository of medical information of a
+plurality of different patients;
+a data processor for acquiring patient data from said at
+least one repository for presentation in a user interface display
+and storing patient data; and
+a user interface for initiating generation of data
+representing a composite display image presenting patient data
+acquired from said at least one repository using said data
+processor,
+said composite display image enabling user initiation of
+execution of a plurality of different executable applications by
+said data processor including at least,
+
+a medication administration scheduling application, and
+a care planning application that
+enables scheduling a care plan event for a particular
+patient, said care plan event defining at least one action to be
+performed on a patient and including associated context data
+describing a characteristic associated with the care plan event,
+automatically initiates care plan event conflict checking
+in response to scheduling said care plan event for said particular
+patient by comparing the scheduled care plan event and
+associated context data with previous care plan events and
+associated context data stored in said at least one repository for
+said particular patient to determine if any actions in the
+scheduled care plan event duplicate actions in said previous
+care plan events stored in said at least one repository, and
+2
+
+Appeal2014-005872
+Application 12/264,627
+automatically conveys data identifying said scheduled
+care plan event and associated context data to said medication
+administration scheduling application for population of a
+medication administration schedule for display by said user
+interface.
+THE REJECTION
+The Examiner relies upon the following as evidence of
+unpatentability:
+Goldstein
+Dvorak
+Tajaliawal
+Buttner
+
+US
+US
+US
+US
+
+2001/0021910
+2002/0120472
+2007 /0033073
+2007/0143149
+
+Al
+Al
+Al
+Al
+
+Sept. 13, 2001
+Aug.29,2002
+Feb. 8,2007
+June 21, 2007
+
+The following rejection is before us for review:
+Claims 1-27 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Buttner, Goldstein, Dvorak, and Tajaliawal.
+
+FINDINGS OF FACT
+We have determined that the findings of fact in the Analysis section
+below are supported at least by a preponderance of the evidence 1.
+
+ANALYSIS
+The Appellants argue that the rejection of claim 1 is improper
+because, inter alia, Dvorak does not disclose determining "comparing the
+scheduled care plan event and associated context data with previous care
+
+1
+
+See Ethicon, Inc. v. Quigg, 849 F.2d 1422, 1427 (Fed. Cir. 1988)
+(explaining the general evidentiary standard for proceedings before the
+Patent Office).
+3
+
+Appeal2014-005872
+Application 12/264,627
+plan events and associated context data stored in said at least one repository
+for said particular patient to determine if any actions in the scheduled care
+plan event duplicate actions in said previous care plan events stored in said
+at least one repository" as required by claim 1. According to the Appellants,
+"Dvorak does not check for any duplication in any manner whatsoever"
+because "[t]here is no consideration made by the system described in Dvorak
+as to the nature of the appointment so long as both could be timely kept"
+(Appeal Br. 18).
+The Examiner has however determined that the cited claim limitation
+is disclosed by Dvorak at paragraph 70 (Ans. 6). According to the
+Examiner, "duplicate action can be interpreted as another appointment for
+same time slot" (id.).
+We agree with the Appellants.
+Claim 1 requires determining "duplicate actions" based on comparing
+(1) "the scheduled care plan event" and (2) "associated context data."
+We begin with claim construction. The Specification describes a
+"conflict resolution process" that includes a first level that identifies "event
+data values [that] match the existing event data values exclusive of context
+data" and a second level wherein "upon proposed event data being equal to
+existing event data," the process "compar [es] context data of the proposed
+event with context data of the existing event" (Spec. 5---6). Regarding the
+event data values compared in the first level, the events in the plan identify
+"an action to be performed on or on behalf of a patient" such as "medication
+administration, fluid administration, an assessment or an intervention"
+(Spec. 3). Regarding the data compared in the second level, the
+Specification describes "context data" as "any data characterizing the event,
+4
+
+Appeal2014-005872
+Application 12/264,627
+including scheduling data detailing a time and/or frequency of occurrence
+for the event" (id.). Thus, the Specification makes a distinction between
+comparing events (i.e., action to be performed) and comparing associated
+context data for an event (i.e., data associated with the action). Claim 1
+requires determining "duplicate actions" on the basis of both of these two
+distinct comparisons. Thus, we construe the term "duplicate actions" to
+refer to two actions that are similar in some substantive manner other than
+their associated data. The Examiner's construction of the term "duplicate
+actions" in the claim to include "another appointment for same time slot"
+(see Ans. 6), regardless of substantive similarity, is inappropriate for the
+
+reasons given above in light of the Specification.
+Here, the citation to Dvorak at paragraph 70 fails to disclose
+"duplicate actions" as recited in claim 1. Dvorak, at the cited portions, does
+disclose a scheduler that selects a time to perform a procedure based on
+"potentially conflicting appointments" but not "duplicate actions" as claimed
+in light of the Specification.
+As the cited claim limitation has not been shown where cited in the
+prior art, the rejection of claim 1 is not sustained. The remaining claims
+contain a similar limitation and the rejection of these claims is not sustained
+for the same reasons given above.
+
+CONCLUSIONS OF LAW
+We conclude that the Appellants have shown that the Examiner erred
+in rejecting the claims as listed in the Rejection section above.
+
+5
+
+Appeal2014-005872
+Application 12/264,627
+DECISION
+The Examiner's rejection of claims 1-27 is reversed.
+
+REVERSED
+
+6
+
+

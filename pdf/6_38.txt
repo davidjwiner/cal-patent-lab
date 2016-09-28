@@ -1,0 +1,193 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/911,513
+
+10/25/2010
+
+Ulrich T. Barnhoefer
+
+P9248US1 APPL:0206
+
+1336
+
+(FLE)
+73576
+
+7590
+
+09/16/2016
+
+APPLE INC. - Fletcher
+c/o Fletcher Yoder, PC
+P.O. Box 692289
+Houston, TX 77269-2289
+
+EXAMINER
+KUMAR, SRILAKSHMI K
+
+ART UNIT
+
+PAPER NUMBER
+
+2627
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docket@fyiplaw.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ULRICH T. BARNHOEFER and YONGMAN LEE
+
+Appeal2014-009438
+Application 12/911,513
+Technology Center 2600
+
+Before CARL W. WHITEHEAD JR., JEFFREY S. SMITH and
+JON M. JURGOVAN, Administrative Patent Judges.
+WHITEHEAD JR., Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Appellants are appealing the Final Rejection of claims 1-13, 15-17,
+19 and 20 under 35 U.S.C. § 134(a). Appeal Brief 2. We have jurisdiction
+under 35 U.S.C. § 6(b) (2012).
+We reverse.
+Introduction
+The invention is directed to brightness control for an organic light
+emitting diode (OLED) display. Specification [0001].
+
+Representative Claim (disputed limitations emphasized)
+1.
+
+A method comprising:
+
+Appeal2014-009438
+Application 12/911,513
+receiving image data into a data driver of an organic light emitting
+diode display; transforming the image data into a logarithmic domain
+to obtain log-encoded image data using the data driver;
+
+performing a subtraction operation comprising subtracting a
+logarithmic dimming control value from the log-encoded image data to
+obtain log-encoded dimmed image data using the data driver, wherein the
+log-encoded dimmed image data represents a darker version of the received
+image data; and
+driving a pixel of the organic light emitting diode display based at
+least in part on the log-encoded dimmed image data using the data driver.
+
+Rejections on Appeal
+Claims 1--4 and 6 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lee (US Patent Application Publication Number
+2008/0088548 Al; published April 17, 2008) and Ben-Chorin (US Patent
+Application Publication Number 2005/0031199 Al; published February l 0,
+2005). Final Rejection 2-5.
+Claims 5, 7, 11-14 and 17 stand rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Lee, Ben-Chorin and Kasai (US Patent Application
+Publication Number 2004/0222986 Al; published November 11, 2004).
+Final Rejection 5-10.
+Claims 8-10 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lee, Ben-Chorin and Rogers (US Patent Number
+7,961,195 Bl; issued June 14, 2011). Final Rejection 10-11.
+Claim 19 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lee, Ben-Chorin and Kasai. Final Rejection 11-12.
+
+2
+
+Appeal2014-009438
+Application 12/911,513
+Claims 15 and 16 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Lee, Ben-Chorin, Kasai and Akai (US Patent Application
+Publication Number 2005/0007393 Al; published January 13, 2005). Final
+Rejection 12-13.
+
+ANALYSIS
+Rather than reiterate the arguments of Appellants and the Examiner,
+we refer to the Appeal Brief (filed March 11, 2014), the Reply Brief (filed
+September 5, 2014), the Answer (mailed July 8, 2014) and the Final
+Rejection (mailed August 29, 2013) for the respective details. We have
+considered in this decision only those arguments Appellants actually raised
+in the Briefs.
+Appellants argue the Examiner's obviousness rejection of independent
+claims 1 and 6 is erroneous because "there is no division operation described
+in the dimming operation of Lee that can be replaced with the log
+subtraction described in Ben-Chorin." Appeal Brief 8.
+The Examiner finds Lee is deficient because "Lee dims display
+brightness though not expressly logarithmic encoding and subtraction."
+Final Rejection 3. The Examiner finds, "Ben-Charin discloses brightness
+control with logarithmic encoding and subtraction (brightness or other
+
+values 'may be converted to logarithmic equivalents' allowing replacement
+of 'costly division/multiplication operations with less-costly
+subtraction/addition.' Reverse-logarithmic functions allow 'translating the
+results back to the desired non-logarithmic form' [0081] fig 7)." Final
+Rejection 3. Appellants argue "merely teaching the ability dim data through
+pulse-width modulation and the ability to replace division operation with
+subtraction cannot not teach or suggest subtracting a logarithmic dimming
+3
+
+Appeal2014-009438
+Application 12/911,513
+control value from the log-encoded image data to obtain log-encoded
+dimmed image data, as generally recited by independent claims 1 and 6."
+
+Appeal Brief 10.
+We find Appellants' arguments persuasive 1. We reverse the
+Examiner's obviousness rejection of independent claims 1 and 6, as well as,
+the Examiner's obviousness rejections of dependent claims 2-5, 7-13, 1517, 19 and 20.
+
+DECISION
+The Examiner's obviousness rejections of claims 1-13, 15-17, 19 and
+20 are reversed.
+
+REVERSED
+
+1
+
+In paragraph 5 of Appellants' Specification, Appellants admit that
+decreasing power to an OLED by applying a nonlinear transfer function to
+image data and a dimming value divided from the image data, then
+converting the dimmed image data to an analog OLED signal, was known in
+the prior art. In the event of further prosecution, the Examiner should
+consider whether replacing the division operation of the values of
+Appellants' admitted prior art with a subtraction operation of logarithmic
+equivalents of those values as taught by Ben-Chorin does anything more
+than yield the predictable result of replacing the relatively costly division
+operation with a less costly subtraction operation as taught by paragraph 81
+of Ben-Chorin.
+4
+
+

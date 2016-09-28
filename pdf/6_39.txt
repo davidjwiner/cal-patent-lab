@@ -1,0 +1,330 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/202,989
+
+08/24/2011
+
+OlofLiberg
+
+P33086-US2
+
+3805
+
+96750
+
+7590
+
+09/16/2016
+
+EXAMINER
+
+Patents on Demand, P,A,
+4581 Weston Road, Suite 345
+Weston, FL 33331
+
+YOUNG, STEVER
+
+ART UNIT
+
+PAPER NUMBER
+
+2477
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/16/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+docketing 1@patentsondemand.com
+docketing3@patentsondemand.com
+docketing.ericsson@thomsonreuters.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte OLOF LIBERO, MARTEN SUNDBERG, and
+KARIN W AHLQVIST 1
+
+Appeal2015-005129
+Application 13/202,989
+Technology Center 2400
+
+Before DEBRA K. STEPHENS, MICHAEL M. BARRY, and
+DAVID J. CUTITTA II, Administrative Patent Judges.
+CUTITTA, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) from the Examiner's NonFinal Decision rejecting claims 13-24. We have jurisdiction over this
+appeal under 35 U.S.C. § 6(b).
+We AFFIRM-IN-PART. 2
+
+1
+
+According to Appellants, the real party in interest is Telefonaktiebolaget
+L M Ericsson (publ). See Appeal Br. 2.
+2
+Throughout this Opinion, we refer to: (1) Appellants' Specification filed
+Aug. 24, 2011 ("Spec."); (2) the Non-Final Office Action ("Non-Final
+Act.") mailed July 24, 2014; (3) the Appeal Brief ("Appeal Br.") filed Nov.
+10, 2014; (4) the Examiner's Answer ("Ans.") mailed Feb. 10, 2015; and (5)
+the Reply Brief ("Reply Br.") mailed Apr. 6, 2015.
+
+Appeal2015-005129
+Application 13/202,989
+BACKGROUND
+Appellants' application relates to an apparatus and method to provide
+improved transmission in a Voice services over Adaptive Multi-user channel
+on One Slot (VAMOS)-capable wireless communication system. Spec. 2.
+Claims 13 and 24 are independent claims. Claim 13 is exemplary and is
+reproduced below with disputed limitations emphasized:
+13. A method for transmitting information from a radio base
+station node to a first mobile station and a second mobile station
+paired on and sharing a same carrier frequency, Time Division
+Multiple Access (TDMA) frame, and time slot in a wireless
+communication system, wherein said first and second mobile
+stations are allocated on a first and second Voice services over
+Adaptive Multi-user channel on One Slot (VAMOS) subchannel, respectively, said method comprising:
+transmitting a Gaussian Minimum Shift Keying (GMSK)
+modulated Slow Associated Common Control Channel
+(SACCH) burst of a SACCH block in a predetermined time slot
+and TDMA frame on one of said first and second V AMOS subchannels; and
+
+simultaneously muting the SACCH burst in the other of
+said first and said second VAMOS sub-channels in said
+predetermined time slot and TDMAframe.
+REFERENCES
+The prior art relied upon by the Examiner in rejecting the claims on
+appeal includes:
+Lee et al. ("Lee")
+
+US 2011/0312362 Al
+
+2
+
+Dec. 22, 2011
+(PCT filed Mar.
+30, 2010)
+
+Appeal2015-005129
+Application 13/202,989
+
+Lei et al. ("Lei")
+
+US 2012/0155356 Al
+
+Kreuzer ("Kreuzer")
+
+US 2012/0182913 Al
+
+June 21, 2012
+(filed Aug. 25,
+2010)
+July 19, 2012
+(filed Aug. 4,
+2009)
+
+REJECTIONS
+Claims 13-15, 18, 19, and 24 are rejected under 35 U.S.C. § 102(e) as
+being anticipated by Lei. Non-Final Act. 3-7.
+Claims 16, 17, and 20-22 are rejected under 35 U.S.C. § 103(a) as
+being unpatentable over Lei and Kreuzer. Non-Final Act. 8-12.
+Claim 23 is rejected under 35 U.S.C. § 103(a) as being unpatentable
+over Lei and Lee. Non-Final Act. 12-13.
+Our review in this appeal is limited to the above rejections and issues
+raised by Appellants. We have not considered other possible issues that
+have not been raised by Appellants and which are; therefore; not before us.
+
+See 37 C.F.R. § 41.37(c)(l)(iv) (2014).
+ISSUES
+1.
+
+Did the Examiner err in finding that Lei discloses
+
+"simultaneously muting the SACCH burst in the other of said first and said
+second VAMOS sub-channels in said predetermined time slot and TDMA
+frame," as recited in claim 13?
+2. Did the Examiner err in finding that Lei discloses "comprising
+performing said transmitting and said simultaneously muting alternately on
+both of said first and second VAMOS sub-channels," as recited in claim 18?
+
+3
+
+Appeal2015-005129
+Application 13/202,989
+DISCUSSION
+35U.S.C.§102: Claims 13-15, 19, and 24
+After review of Appellants' arguments and the Examiner's findings
+and reasoning, we determine that Appellants have not persuaded us of error
+in the Examiner's rejection of claim 13. Accordingly, we affirm the
+rejection for reasons set forth by the Examiner in the Non-Final Office
+Action and the Answer. See Non-Final Act. 3--4, 13-14; Ans. 14--16. We
+add the following for emphasis and completeness.
+In rejecting claim 13, the Examiner finds Lei's Discontinuous
+Transmission ("DTX") operations disclose the claimed muting. Non-Final
+Act. 4 (citing Lei i-fi-1 46 and 50). Specifically, the Examiner relies upon
+Lei's method of enhancing Slow Associated Control Channel ("SACCH")
+performance. Id. Lei's method seeks to obtain gain when the Traffic
+Channel ("TCH") is in the DTX state by changing the location of a SACCH
+frame on a VAivIOS sub-channel to avoid simultaneous occurrence with the
+SACCH frame on another VAMOS sub-channel. Non-Final Act. 4 (citing
+Lei i-f 50).
+Appellants contend that Lei's DTX does not disclose the claimed
+simultaneous muting because the Examiner misconstrues the term "muting."
+Appeal Br. 5. Appellants, relying on a dictionary definition of muting
+("disabling of a given input or output"), contend "in the context of a SACCH
+burst, one skilled in the art would construe the claimed muting as disabling
+the SACCH input to the sub-channel. DTX, on the other hand, is simply not
+transmitting because there is no data to transmit, i.e., there is no input." Id.
+
+4
+
+Appeal2015-005129
+Application 13/202,989
+Appellants' arguments are unpersuasive. Initially we note Appellants
+have not explicitly defined the term "muting" in the Specification. Thus, we
+determine that a reasonably broad interpretation, in light of the
+Specification, of the claimed "muting," reads on Lei's changing of a location
+of a SACCH frame on a VAMOS sub-channel. Moreover, Appellants do
+not sufficiently distinguish the claimed muting from Lei's disabling of
+transmission on a VAMOS sub-channel during a given time period to avoid
+simultaneous occurrence with the SACCH burst on another VAMOS subchannel. See Lei i-fi-146 and 50.
+Appellants argue that Lei does not disclose muting because Lei does
+not transmit data "because there is no data to transmit, i.e., there is no input."
+Appeal Br. 5.
+However, the Examiner finds, and we agree, that "whether or not
+there was data to be transmitted in a given period that is to be muted does
+not matter with regards to 'muting,;;; so long as Lei;s method ensures no
+transmission of SACCH data during that period. Ans. 14. Thus, even
+construing "muting" as per Appellants' proffered dictionary definition
+("disabling of a given input or output"), we determine the "muting the
+SAACH burst" is disclosed by Lei's changing of a location of an SACCH
+frame on a VAMOS sub-channel because the claimed "muting" does not
+specify how the disabling of a given input/output is accomplished.
+Appellants argue that Appellants' Specification "distinguishes the
+claimed muting from DTX." Appeal Br. 5. We agree with the Examiner's
+finding that while Appellants' Specification may describe certain
+advantages, "the claim language, in its current form, is still broad enough to
+read on the ... prior art." Ans. 14--15.
+5
+
+Appeal2015-005129
+Application 13/202,989
+Appellants argue that Lei does not disclose a base station performing
+the claimed muting. Appeal Br. 15. We agree with the Examiner's finding
+that Lei discloses the base station performing the claimed muting because in
+Lei "the alternating/muting transmissions are applicable to both the uplink
+and downlink." Ans. 15 (citing Lei Fig. 12). Accordingly, we find
+Appellants' argument unpersuasive.
+Appellants argue for the first time in the Reply Brief, that "because
+the Applicants' specification explicitly states DTX will not sufficiently
+address the problem, and thus explicitly disavows the very interpretation the
+Examiner is trying to apply, the Examiner's proffered interpretation is
+unreasonable." Reply Br. 3. Appellants' argument that the Specification
+"explicitly disavows" coverage of DTX (Reply Br. 3) is unpersuasive given
+that Appellants fail to demonstrate an intent to deviate from the ordinary and
+customary meaning of the claim terms by including in the Specification
+expressions of manifest exclusion or restriction, representing a clear
+disavowal of claim scope. See, e.g., In re American Academy of Science
+Tech Center, 367 F.3d 1359, 1363 (Fed.Cir.2004).
+
+Accordingly, we sustain the Examiner's 35 U.S.C. § 102(e) rejection
+of claim 13. Claim 24 recites an apparatus with requirements analogous to
+those of claim 13 and stands rejected on the same basis and, thus, for the
+reasons discussed supra, the rejection of claim 24 is also sustained. 3 See
+Appeal Br. 8-9.
+
+3
+
+Appellants argue claim 24 is not disclosed by US 2011/0205947 by Xin
+("Xin"). These arguments are not responsive to the rejection because claim
+24, similar to claim 13, is rejected over Lei. Non-Final Act. 5-7.
+6
+
+Appeal2015-005129
+Application 13/202,989
+Appellants do not make any other substantive argument regarding the
+rejection of dependent claims 14, 15, and 19. See App. Br. 9. Therefore, we
+likewise sustain the rejections of these dependent claims under 35 U.S.C.
+§ 102(e).
+35 U.S. C. § 102: Claim 18
+
+In rejecting claim 18 under 35 U.S.C. § 102, the Examiner relies on
+Lei to disclose "performing said transmitting and said simultaneously
+muting alternately on both of said first and second VAMOS sub-channels,"
+as recited in claim 18. Non-Final Act. 5. In particular, the Examiner finds
+that Lei discloses "a base station instructing the user on a V AMOS subchannel to use a half-rate sub-channel 0 and a half-rate sub-channel 1
+alternately." Non-Final Act. 5 (citing Lei i-fi-138, 46, and 50). See also
+
+Ans. 17 (citing Lei Fig. 12).
+Appellants contend the Examiner erred because Lei "simply teaches
+that if a user using a half-rate TCH is contained in a paired group, a base
+station may instruct that user on a VAMOS sub-channel to use half-rate subchannel 0 and half-rate sub-channel 1 alternately." Appeal Br. 9.
+We agree with Appellants' arguments that the Examiner's findings do
+not disclose all of the features of claim 18. Specifically, we find Lei's
+instructing the user to alternately use a sub-channel 0 and a sub-channel 1
+fails to disclose alternately performing transmitting and simultaneous muting
+of the SACCH burst, as claimed. See Lei i138.
+Accordingly, we do not sustain the Examiner's 35 U.S.C. § 102(e)
+rejection of claim 18.
+
+7
+
+Appeal2015-005129
+Application 13/202,989
+
+35 U.S. C. § 103: Claims 20--23
+
+Claims 20-23 stand rejected under 35 U.S.C. § 103(a). We do not
+find, however, that application of Kreuzer and Lee cures the deficiencies of
+the rejection of claim 18. We also accordingly do not sustain the
+Examiner's rejection of claims 20-23, which depend, directly or indirectly,
+from claim 18. See Appeal Br. 13-14 (Claims App'x).
+
+35 U.S.C. § 103: Claims 16 and 17
+
+Appellants do not make any other substantive argument regarding the
+rejection of dependent claims 16 and 17. See App. Br. 10. Therefore, we
+likewise sustain the rejections of these dependent claims under 35 U.S.C.
+
+§ 103(a).
+
+DECISION
+We affirm the Examiner's decision rejecting claims 13-17, 19, and
+24. We reverse the Examiner's decision rejecting claims 18 and 20-23.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+8
+
+

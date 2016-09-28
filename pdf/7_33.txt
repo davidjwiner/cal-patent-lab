@@ -1,0 +1,461 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+12/616,547
+
+1111112009
+
+Eric Wong
+
+08-23-107
+
+2759
+
+32583
+
+7590
+
+09/14/2016
+
+KELLOGG BROWN & ROOT LLC
+Gary Machetta, Chief IP Counsel
+601 Jefferson Street
+KT 1392
+HOUSTON, TX 77002
+
+EXAMINER
+ROBINSON, RENEE E
+
+ART UNIT
+
+PAPER NUMBER
+
+1772
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/14/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+IPLegal@kbr.com
+patsi.davis@kbr.com
+Vikas.Dixit@kbr.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ERIC WONG, ANAND SUBRAMANIAN, KIRAN V. SHAH,
+and FAISAL MOHMAND 1
+
+Appeal2015-002590
+Application 12/616,547
+Technology Center 1700
+
+Before KAREN M. HASTINGS, JAMES C. HOUSEL, and
+CHRISTOPHER C. KENNEDY, Administrative Patent Judges.
+KENNEDY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is an appeal under 35 U.S.C. § 134(a) from the Primary
+Examiner's decision to reject claims 12-14 and 28-31. We have jurisdiction
+under 35 U.S.C. § 6(b). We AFFIRM.
+BACKGROUND
+The subject matter on appeal relates to a method for producing nparaffins. E.g., Spec. i-f 2; Claim 12. Claim 12 is reproduced below from
+page 15 (Claims Appendix) of the Appeal Brief:
+
+1
+
+According to the Appellants, the Real Party in Interest is Kellogg Brown &
+Root LLC. App. Br. 3.
+
+Appeal2015-002590
+Application 12/616,547
+12. A method for producing n-paraffins, comprising:
+thermally cracking a feed comprising an atmospheric distillation
+tower bottoms, vacuum distillation tower bottoms, or a
+combination thereof to produce a thermally cracked hydrocarbon
+mixture, wherein the feed further comprises sulfur-containing
+compounds and nitrogen-containing compounds;
+selectively separating a kerosene fraction comprising about 100
+ppmw to about 30,000 ppmw of the sulfur-containing
+compounds and at least a portion of the nitrogen, containing
+compounds from the hydrocarbon mixture;
+hydroprocessing at least a portion of the kerosene fraction to
+produce a hydroprocessed kerosene comprising n-paraffins,
+about 50 ppmw to about 500 ppmw of the sulfur-containing
+compounds, and less than 200 ppmw of the nitrogen-containing
+compounds;
+contacting the hydroprocessed kerosene with a first adsorbent
+material at conditions sufficient to cause the first adsorbent
+material to adsorb at least a portion of the n-paraffins;
+contacting the adsorbed n-paraffins with a displacing medium at
+conditions sufficient to cause at least a portion of the adsorbed
+n-paraffins to be desorbed;
+recovering the desorbed n-paraffins as a first n-paraffins product,
+wherein the first n-paraffins product contains less of the sulfurcontaining compounds than the hydroprocessed kerosene; and
+contacting the first n-paraffins product with a second adsorbent
+material at conditions sufficient to cause the second adsorbent
+material to adsorb at least a portion of the sulfur-containing
+compounds to produce a second n-paraffins product containing
+less of the sulfur-containing compounds than the first n-paraffins
+product.
+ANALYSIS
+Claims 12-14 and 28-31 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Stokeld (US 3,619,409, issued Nov. 9, 1971) in view of
+
+2
+
+Appeal2015-002590
+Application 12/616,547
+Miyauchi et al. (US 4,668,378, issued May 26, 1987) and Schreiner et al.
+(US 5,220,099, issued June 15, 1993).
+The Appellants present separate arguments for independent claim 12
+and claim 28, which depends from claim 12. We limit our discussion to
+those claims, and the remaining claims on appeal will stand or fall with
+claim 12, from which they depend.
+After review of the cited evidence in the appeal record and the
+opposing positions of the Appellants and the Examiner, we determine that
+the Appellants have not identified reversible error in the Examiner's
+rejection. Accordingly, we affirm the rejection for reasons set forth below
+and in the Examiner's Answer. See generally Ans. 2-15.
+
+Claim 12.
+The Examiner finds that Stokeld teaches a method of producing nparaffins comprising each step of claim 12 except that ( 1) Stokeld does not
+explicitly disclose the nitrogen or sulfur content of the hydroprocessed
+kerosene, (2) Stokeld does not explicitly state that the sulfur content of the
+desorbed n-paraffins product is less than the sulfur content of the
+hydroprocessed kerosene fraction, (3) Stokeld does not explicitly disclose
+thermally cracking a hydrocarbon feed to produce a hydrocarbon mixture
+and selectively separate the kerosene fraction, and (4) Stokeld does not
+disclose a second adsorption step in which a portion of the sulfur-containing
+compounds are adsorbed. Ans. 2--4.
+Concerning the nitrogen and sulfur content of the hydroprocessed
+kerosene, the Examiner finds that "a person of ordinary skill in the art would
+optimize the operating conditions in order to produce a hydroprocessed
+kerosene with a reduced sulfur and nitrogen content within levels desired for
+3
+
+Appeal2015-002590
+Application 12/616,547
+the upgraded product according to product specification requirements." Id.
+at 3. The Examiner determines that, "absent a showing of criticality or
+unexpected results, the claimed nitrogen and sulfur contents are not
+considered to be patentably distinguishing." Id.
+Concerning the requirement of claim 12 that the sulfur content of the
+desorbed n-paraffins product must be less than the sulfur content of the
+hydroprocessed kerosene fraction, the Examiner finds that Stokeld's nparaffins product necessarily would have lower sulfur content than its
+kerosene fraction "given that the adsorption step in Stokeld functions to
+selectively adsorb then-paraffins and not sulfur compounds." Id.
+Concerning the use of a thermally cracked feedstock and the selective
+separation of a kerosene fraction, the Examiner finds that Miyauchi discloses
+"thermal cracking of a heavy oil such as an atmospheric residue or vacuum
+residue comprising sulfur compounds to produce fractions including ...
+kerosene." Id. at 4. The Examiner determines that it would have been
+obvious "to use a kerosene feedstock recovered from a thermal cracking
+product in the process of Stokeld." Id.
+Concerning the second adsorption step, the Examiner finds that
+Schreiner discloses a process for "purifying kerosene range linear paraffins
+by removing contaminants, including sulfur-containing compounds,
+therefrom," the process involving "contacting the linear paraffin feedstock
+... with an adsorbent under conditions suitable for adsorbing at least one
+contaminant, including sulfur compounds." Id. at 4--5. The Examiner
+concludes that "[i]t would have been obvious ... to ... modify the process
+of Stokeld by subjecting the partially purified paraffins product ... to an
+adsorption step to remove residual contaminants ... including sulfur-
+
+4
+
+Appeal2015-002590
+Application 12/616,547
+containing compounds ... in order to provide an n-paraffins product of
+extremely high purity .... " Id. at 5.
+The Appellants first argue that "the combination of Stokeld,
+Miyauchi, and Schreiner does not teach, show, or suggest recovering a
+desorbed n-paraffins as a first n-paraffins product containing less sulfurcontaining compounds than the hydroprocessed kerosene." App. Br. 7.
+They argue that Stokeld's hydroprocessing step removes all sulfur and
+nitrogen impurities and that "Stokeld [is] completely silent as to selectively
+adsorbing hydrocarbons versus sulfur." Id. at 8. They further argue that,
+even if Stokeld' s hydroprocessed effluent contained sulfur impurities, those
+impurities would be H2S, which would be adsorbed, along with the nparaffins, by Stokeld's disclosed adsorbent in the first adsorption step. Id. at
+9.
+We are not persuaded by those arguments essentially for reasons
+stated by the Examiner. See Ans. 10-11. Contrary to the Appellants'
+assertion that "Stokeld makes no mention of thermally cracked kerosene
+fractions," Reply Br. 3, Stokeld discloses that "kerosene fraction[s]" are
+"suitably treated for the separation of straight chain hydrocarbons." Stokeld
+at 2:28-32. A person of ordinary skill would have known that kerosene
+fractions could be obtained by thermal cracking. E.g., id. at 2:60
+(referencing thermal cracking of other fractions); Miyauchi at 9: 1-5 ("The
+product oils obtained from the thermal cracking step consist[] of ... [a]
+kerosene fraction .... "). Contrary to the Appellants' assertion that "Stokeld
+also makes no mention of any sulfur-containing compounds," Reply Br. 3,
+Stokeld teaches that "[t]he particular operating conditions selected are
+dependent on the nature of the feed stream to the adsorption zone ... the
+
+5
+
+Appeal2015-002590
+Application 12/616,547
+straight chain hydrocarbon content of the feed stream of the olefinic, sulfur,
+nitrogen, and aromatic compounds content thereof." Stokeld at 3:71--4:3
+(emphasis added). Thus, Stokeld teaches or suggests that sulfur and nitrogen
+compounds are present in the hydroprocessed portion of a kerosene fraction
+that is subject to adsorption.
+A preponderance of the evidence supports the Examiner's finding that
+the sulfur-containing compounds contemplated by Stokeld would not be
+limited to H2S. As an initial matter, the Appellants cite nothing in Stokeld
+suggesting that the sulfur-containing compounds are so limited.
+Additionally, as the Examiner explains, gaseous effluent and light ends,
+including H2S, would be expected to be removed by Stokeld's process prior
+to the adsorption step. See Ans. 10; Stokeld at 3:25-30, 4:30-32. As noted
+above, Stokeld contemplates that the "feed stream to the adsorption zone"
+continues to contain sulfur compounds, notwithstanding the fact that
+substantially all H2S would have been expected to be removed prior to the
+adsorption step. See Stokeld at 3:71--4:3.
+The fact that Miyauchi' s working examples list H2S, and no other
+sulfur compounds, does not persuade us that the kerosene fraction of
+Miyauchi' s composition does not contain sulfur impurities, much less does it
+persuade us that all kerosene fractions obtained by any thermal cracking lack
+sulfur impurities other than H2S. See App. Br. 9; Miyauchi cols. 15, 16.
+Although the working examples do not list impurities in the various oil
+fractions, see Miyauchi at 15: 11-18, the Appellants identify nothing in
+Miyauchi suggesting that those fractions are 100% free of impurities. A
+person of ordinary skill would not have understood that to be the case. The
+Appellants provide no persuasive basis to conclude that a kerosene fraction
+
+6
+
+Appeal2015-002590
+Application 12/616,547
+obtained from thermal cracking of a feed stock that falls within the scope of
+claim 12, as taught by Miyauchi, would not include sulfur impurities other
+than H2S.
+Stokeld teaches that its adsorption process selectively adsorbs
+"straight chain hydrocarbon components of the mixture." Stokeld at 1:5355; see also Stokeld at 3:32-35 ("The practice of the separation operation of
+the present invention is applicable to any solid selective adsorbent which
+selectively adsorbs straight chain hydrocarbons to the substantial exclusion
+of nonstraight chain hydrocarbons."). As the Examiner explains, Stokeld
+teaches the use of an adsorption material that "is a specific type of zeolite A"
+that "falls within the scope of what is encompassed by Appellant's
+dependent claim 29 as being suitable for carrying out the claimed adsorption
+step." Ans. 10-11 (citing Stokeld at 3:51-55). The Appellants do not
+challenge that finding in the Reply Brief. On this record, a preponderance of
+the evidence supports the Examiner's finding that the hydroprocessed
+kerosene of Stokeld and Miyauchi would include sulfur impurities, and that
+Stokeld's adsorption process would result in an n-paraffins product that
+contains fewer sulfur-containing compounds than the hydroprocessed
+kerosene.
+The Appellants next argue that "the combination of Stokeld,
+Miyauchi, and Schreiner does not teach, show, or suggest thermally cracking
+a feed ... to produce a thermally cracked hydrocarbon mixture and
+selectively separating [sic] a kerosene fraction comprising about 100 ppmw
+to about 30,000 ppmw of the sulfur containing compounds ... from the
+hydrocarbon mixture." App. Br. 8. In particular, they argue that Miyauchi's
+process removes all sulfur from the oil fractions. See id. at 10.
+
+7
+
+Appeal2015-002590
+Application 12/616,547
+We are not persuaded by that argument. As described above, the
+Appellants provide no persuasive explanation as to why a person of ordinary
+skill would consider Miyauchi's failure to list impurities in its working
+examples as an indication that the oil fractions are 100% pure. Nor do any
+of the Appellants' citations to Miyauchi appear to support their contention
+that Miyauchi is concerned with producing fractions "with as little sulfur as
+possible." See App. Br. 10; see also Ans. 11.
+Moreover, the Examiner's rationale does not specifically require the
+use of Miyauchi' s kerosene fraction in combination with Stokeld. The
+Examiner cites Miyauchi for the broader proposition that it is known that a
+kerosene fraction can be obtained by thermal cracking. See Ans. 4 ("[I]t
+would have been obvious ... to use a kerosene feedstock recovered from a
+thermal cracking product in the process of Stokeld. "). The Appellants do
+not persuasively dispute that finding. The Appellants do not argue that use
+of known thermal cracking techniques to obtain a kerosene fraction would
+have been beyond the level of ordinary skill in the art. Nor do they argue
+that oil fractions obtained from known thermal cracking techniques
+generally do not possess sulfur impurities. Cf Ans. 12 ("[T]he exact
+concentration of sulfur in the obtained product fractions largely depends on
+the source of the heavy hydrocarbon feedstock."). We are not persuaded
+that claim 12 's recitation of a specific concentration range of sulfur
+impurities in the kerosene fraction patentably distinguishes claim 12 over the
+prior art, particularly in view of the Appellants' failure to suggest that the
+range is critical or results in unexpected properties. Cf In re Woodruff, 919
+F.2d 1575, 1578 (Fed. Cir. 1990) ("The law is replete with cases in which
+the difference between the claimed invention and the prior art is some range
+
+8
+
+Appeal2015-002590
+Application 12/616,547
+or other variable within the claims .... [and] in such a situation, the
+applicant must show that the particular range is critical, generally by
+showing that the claimed range achieves unexpected results relative to the
+prior art range." (citations omitted)).
+The Appellants also argue that "[ m]odifying Stokeld to produce a
+hydroprocessed kerosene product comprising n-paraffins and about 50
+ppmw to about 500 ppmw of sulfur containing compounds ... would render
+Stokeld unsatisfactory for its intended purpose." App. Br. 10. In particular,
+they argue that "Stokeld' s process must produce a hydroprocessed kerosene
+product that contains less than 15 ppm of sulfur-containing compounds." Id.
+at 11.
+That argument does not establish reversible error in the Examiner's
+rejection. As the Examiner explains, see Ans. 12-13, the mere fact that
+Stokeld references another patent that discloses a sulfur content of 0.0010.0015 percent says nothing about the sulfur content of Stokeld's
+hydroprocessed effluent. Stokeld's discussion of an "improved method"
+appears to encompass both Stokeld's hydrogenation steps and Stokeld's
+adsorption step. Stokeld provides no indication of the hydroprocessed
+effluent's sulfur content. As explained above, Stokeld plainly contemplates
+that, even post-hydroprocessing, its feed stream possesses sulfur impurities.
+See Stokeld at 3:71--4:3. Therefore, a person of ordinary skill in the art
+
+desiring fewer sulfur impurities would have been motivated to subject
+Stokeld to the adsorption steps taught by the prior art.
+Even if Stokeld's hydroprocessed effluent did possess a sulfur content
+of 15 ppm, as asserted by the Appellants, the issue before us is whether
+claim 12 would have been obvious in view of the combined teachings of the
+
+9
+
+Appeal2015-002590
+Application 12/616,547
+prior art. The Appellants provide no evidence that the use of a
+hydroprocessed kerosene fraction having, e.g., 50 ppmw sulfur-containing
+compounds, rather than 15 ppmw, would prevent Stokeld from functioning
+for its intended purpose. On the contrary, it appears that the two adsorption
+steps of Stokeld as modified by Schreiner would continue to function
+regardless of whether the hydroprocessed effluent possessed 15 ppm sulfurcontaining contaminants or 50 ppm sulfur-containing contaminants. A
+person of ordinary skill in the art would have understood that, if the process
+of Stokeld as modified by Schreiner is desirable on a hydroprocessed
+kerosene fraction possessing 15 ppmw of sulfur-containing compounds, it
+would also be desirable in connection with a kerosene fraction possessing 50
+ppmw of sulfur-containing compounds. In the absence of a showing of
+criticality or unexpected results, we are not persuaded of reversible error in
+the Examiner's rejection. Cf Woodruff, 919 F.2d at 1578.
+
+*
+
+*
+
+*
+
+In summary, the combined prior art teaches or suggests the
+desirability of subjecting a kerosene fraction to hydroprocessing followed by
+both of the adsorption steps recited by claim 12 in order to obtain highly
+purified n-paraffins for use in applications such as detergents. E.g.,
+Schreiner at 1:28-31. Absent a showing that the specific sulfur
+concentration ranges of claim 12 are critical or produce unexpected results,
+we are not persuaded that potential non-critical differences in the sulfur
+concentrations of the prior art as compared to claim 12 result in a patentable
+distinction. Cf Woodruff, 919 F.2d at 1578. We affirm the Examiner's
+rejection of claim 12.
+
+10
+
+Appeal2015-002590
+Application 12/616,547
+
+Claim 28.
+Claim 28 depends from claim 12 and recites:
+28. The method of claim 12, wherein the hydroprocessed kerosene
+is produced by hydroprocessing the kerosene fraction in the
+presence of hydrogen and one or more catalysts at a temperature
+of about 200°C to about 250°C and a pressure of about 1,350 kPa
+to about 5,550 kPa.
+The Examiner finds that Stokeld teaches hydroprocessing at 500-850°F
+(which is equivalent to 260-450°C) and 300-900 psig (which is equivalent
+to 2070-6210 kPa). Ans. 6. The Examiner acknowledges that the lower
+temperature limit of Stokeld is slightly higher than the upper limit of the
+claimed temperature range (250°C vs. 260°C), but the Examiner finds that
+the claimed range is nevertheless prima facie obvious because, absent
+evidence to the contrary, they "are close enough that one skilled in the art
+would have expected them to have the same properties." Id.
+The Appellants argue that the combined prior art does not teach the
+recited temperature range of 200-250°C. See App. Br. 12-13; Reply Br. 4.
+That argument does not establish reversible error because it does not address
+or rebut the Examiner's finding that the temperature ranges are sufficiently
+close that a person of ordinary skill would have expected them to have the
+same properties, resulting in a prima facie case of obviousness. See
+
+Titanium Metals Corp. ofAm. v. Banner, 778 F.2d 775, 783 (Fed. Cir.
+1985).
+The Appellants also argue that "Stokeld requires hydroprocessing ...
+at a pressure far greater than required in claim 28." See App. Br. 12
+(quoting Stokeld at 1:34--48).
+That argument is not persuasive because, as the Examiner accurately
+explains, see Ans. 14--15, it ignores the fact that Stokeld teaches two
+11
+
+Appeal2015-002590
+Application 12/616,547
+hydroprocessing steps. The first hydroprocessing step occurs at a pressure
+of 2070-6210 kPa, see Stokeld at 1:43 (300-900 psig), which substantially
+overlaps the pressure range of claim 12. The second hydroprocessing step
+occurs at a pressure of 8270-13800 kPa. Id. at 1:48 (1200-2000 psig). The
+Examiner finds, and the Appellants do not dispute, that Stokeld' s first
+hydroprocessing step is equivalent to the hydroprocessing of claim 28. See
+Ans. 14. Because claim 12, from which claim 28 depends, is a "comprising"
+claim, it does not preclude the use of additional hydroprocessing steps
+beyond those that are specifically recited. Accordingly, a preponderance of
+the evidence supports the Examiner's finding that Stokeld teaches a
+hydroprocessing step equivalent to that of claim 28 that occurs at a pressure
+range that overlaps the recited range. The Examiner has established a prima
+facie case of obviousness, and the Appellants fail to rebut it persuasively.
+See In re Wertheim, 541F.2d257, 267 (CCPA 1976).
+
+The Appellants argue that the Examiner's rejection is impermissibly
+based on hindsight because, according to the Appellants, "the only
+disclosure that a hydroprocessed kerosene product can be produced by
+hydroprocessing a kerosene fraction ... at a temperature of about 200°C to
+about 250°C and a pressure of about 1,350 kPa to about 5,550 kPa ... is
+Appellant's own disclosure." See App. Br. 13. As set forth above, however,
+Stokeld's hydroprocessing step that is equivalent to that of claim 28 utilizes
+a pressure range that literally overlaps that recited by claim 28. The
+Appellants do not dispute the Examiner's finding that the temperature ranges
+are sufficiently close that a person of ordinary skill would have expected
+them to have the same properties. The Examiner's rationale is based not on
+hindsight, but on the plain teachings of the references in combination with
+
+12
+
+Appeal2015-002590
+Application 12/616,547
+the understanding of a person of ordinary skill in the art. We are not
+persuaded of reversible error in the Examiner's rejection of claim 28.
+CONCLUSION
+We AFFIRM the Examiner's rejection of claims 12-14 and 28-31.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a).
+AFFIRMED
+
+13
+
+

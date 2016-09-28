@@ -1,0 +1,246 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/284,573
+
+10/28/2011
+
+Cheng ZHANG
+
+81407196US03
+
+7081
+
+65913
+
+7590
+
+09/20/2016
+
+Intellectual Property and Licensing
+NXPB.V.
+411 East Plumeria Drive, MS41
+SAN JOSE, CA 95134
+
+EXAMINER
+TORRES-RIVERA, ALEX
+
+ART UNIT
+
+PAPER NUMBER
+
+2838
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/20/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ip.department.us@nxp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte CHENG ZHANG, FRANS PANSIER, and
+PETER THEODORUS JOHANNES DEGEN
+
+Appeal2015-002720
+Application 13/284,573
+Technology Center 2800
+
+Before ELENI MANTIS MERCADER, CARL W. WHITEHEAD JR., and
+ADAM J. PYONIN, Administrative Patent Judges.
+Per Curiam.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Appellants are appealing the rejection of claims 1--4, 12, 13, and
+15-19 under 35 U.S.C. § 134(a). 1 Claims 5-11, 14, and 20 are indicated as
+allowable if rewritten in independent form. Non-Final Rejection 1, 9;
+Appeal Brief 15-19. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+1
+
+Figures 1, 3, and 4 of the drawings stand objected to as not including a
+designation such as "Prior Art." Non-Final Rejection 3. Additionally,
+Claims 14 and 15 stand objected to for informalities. Id. These matters are
+not before us because we lack jurisdiction over petitionable matters. See,
+e.g., MPEP §§ 706.01 and 1201.
+
+Appeal2015-002720
+Application 13/284,573
+
+Introduction
+Appellants' invention relates to a "power factor controller" in which
+"error feedback is provided [b ]y means of a parallel combination of at least
+two error feedback channels." Abstract.
+
+Representative Claim (Disputed limitations emphasized)
+13. A method of providing an error feedback signal in a power
+factor controller operating in voltage control mode, the method
+compnsmg:
+providing, in a first channel, a first channel error feedback
+signal by continuously integrating a difference between a signal
+indicative of an output of the power factor control and a reference
+signal;
+providing, in a second channel, a second channel error
+feedback signal, wherein the first and second channels use
+separate integrators; and
+determining an error feedback signal from the first channel
+error feedback signal and the second channel error feedback
+signal.
+
+Rejections on Appeal
+Claims 16-18 stand rejected under 35 U.S.C. § 112, second
+paragraph, as being indefinite. Non-Final Rejection 4.
+Claims 13 and 15 stand rejected under 35 U.S.C. § 102(b) as being
+anticipated by Mitamura (US 6,621,357 B2; September 16, 2003).
+Non-Final Rejection 4.
+Claims 1--4 and 12 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Mitamura, in view of Melanson (US 7,719,246 B2; May
+18, 2010). Non-Final Rejection 6.
+
+2
+
+Appeal2015-002720
+Application 13/284,573
+Claim 19 stands rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Mitamura, in view of Melanson, and further in view of
+Lee (US 2010/0308889 Al; December 9, 2010). Non-Final Rejection 9.
+
+ANALYSIS
+Rather than reiterate the arguments of Appellants and the Examiner,
+we refer to the Non-Final Rejection (mailed July 7, 2014), the Appeal Brief
+(filed August 25, 2014), the Answer (mailed November 19, 2014), and the
+Reply Brief (filed December 15, 2014) for the respective details. We have
+considered in this decision only those arguments Appellants actually raised
+in the Briefs.
+
+Indefiniteness Rejection
+Appellants argue Examiner error because "claims 16-18 all depend
+from claim 5 which recites, in part, 'periodic integration of each integrator.'
+Accordingly, 'each' integrator is the proper antecedent." Appeal Brief 4.
+We are not persuaded by Appellants' argument. The Examiner finds
+that "[t]he term 'the integrator,' in claims 16-18, is indefinite since it is not
+clear if the Appellant is referring to 'each integrator' (plural integrators), or a
+singular integrator located in any one of the first error feedback channel and
+the second error feedback channel." Answer 3. We agree with the
+Examiner. Independent claim 1 recites two error feedback channels in
+which "each error feedback channel comprises a separate integrator." One
+ordinarily skilled in the art would thus consider a reference to "each
+integrator" to apply to both integrators, and consider a reference to "the
+integrator" (as appears in claims 16-18) as unclear, absent additional claim
+
+3
+
+Appeal2015-002720
+Application 13/284,573
+language identifying the particular integrator (which does not appear in
+claims 16-18). Accordingly, we affirm the Examiner's infiniteness rejection
+of claims 16-18.
+
+Anticipation and Obviousness Rejections
+
+Regarding the anticipation rejection of claim 13, Appellants argue
+Examiner error because in Mitamura, "adder 10 receives modulator input
+signal 1 and feedback 10 as inputs" and "Mitamura only discloses a single
+feedback path." Appeal Brief 6. Particularly, Appellants contend the
+Examiner's reliance on a section of Mitamura "that discloses integrators
+connected at the output of adder 2," these integrators cannot reasonably be
+regarded to function as feedback channels because they "are connected to
+the output rather than the input." Appeal Brief 6, emphasis in original.
+We are not persuaded by Appellants' arguments. The Examiner
+finds:
+~,.1itamura
+
+discloses a first error feedback channels comprising
+
+error amplification circuit (13), adder (2) and integrator (3); a
+second error feedback channel comprising error amplification
+circuit (13), adder (2) and at least one integrator connected in
+parallel to integrator (3).
+Answer 4 (citing Mitamura 5:37--40). The Examiner additionally finds that
+"[b ]oth error feedback channels comprise different integrators as claimed but
+sharing same error amplification circuit (13) and adder (2)." Answer 5.
+Appellants' arguments are unpersuasive of error because they fail to address
+the Examiner's findings. The Examiner identifies feedback beginning with
+the voltage input to error amplification circuit 13, in which "output voltage
+measured at terminal 9 [is] inputted to 13." Non-Final Rejection 5.
+
+4
+
+Appeal2015-002720
+Application 13/284,573
+Appellants fail to challenge this finding and instead consider all feedback
+with respect to feedback pathway 10, adder 2, and integrator 3. See
+Mitanmra Fig. 2.
+Appellants additionally argue "the Examiner relies upon an
+unreasonably broad reading of the claim language" (Reply Brief 4) because
+the Examiner finds "Mitamura discloses at least two different routes."
+Reply Brief 4, quoting Answer 4. We are not persuaded by Appellants'
+argument. The Examiner broadly and reasonably finds that, in the context of
+a circuit containing feedback elements, "[a] channel could be interpreted as
+--a route or path through which anything passes or progresses--." Answer 4.
+Appellants fail to show that the Examiner's interpretation is contradicted by
+Appellants' Specification. Appellants' arguments also fail to include
+technical evidence to persuasively challenge the Examiner's findings
+regarding Mitamura's feedback arrangement. See, e.g., In re Geisler, 116
+F.3d 1465, 1470 (Fed. Cir. 1997) (attorney arguments or conclusory
+statements are insufficient to rebut a prima facie case).
+Accordingly, we affirm the Examiner's anticipation rejection of
+independent claim 13 and dependent claim 15. Appellants argue the
+patentability of the remaining claims for the same reasons provided for
+independent claim 1. See Appeal Brief 10-13, Reply Brief 3--4.
+Accordingly, we sustain the Examiner's rejections of these claims for the
+same reasons discussed above. See 37 C.F.R. § 41.37(c)(l)(iv); see also In
+
+re Lovin, 652 F.3d 1349, 1357 (Fed. Cir. 2011).
+
+DECISION
+We affirm the Examiner's indefiniteness rejection of claims 16-18.
+
+5
+
+Appeal2015-002720
+Application 13/284,573
+We atlirm the Examiner's anticipation rejection of claims 13 and 15.
+We affirm the Examiner's obviousness rejections of claims 1--4, 12,
+and 19.
+No time period for taking any subsequent action in connection
+with this appeal may be extended under 37 C.F.R. § 1.136(a)(l)(iv). See 37
+C.F.R. § 41.50(±).
+
+AFFIRMED
+
+6
+
+

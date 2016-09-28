@@ -1,0 +1,183 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/618,818
+
+09/14/2012
+
+Mihal LAZARIDIS
+
+43729-US-CNT
+
+5828
+
+90140
+
+7590
+
+09/21/2016
+
+BlackBerry Limited (HFZ)
+2200 University Avenue East
+Waterloo, ON N2K OA7
+CANADA
+
+EXAMINER
+TAKELE, MESEKER
+
+ART UNIT
+
+PAPER NUMBER
+
+2141
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+patdoctc@fr.com
+portfolioprosecution@blackberry.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITEn STATES PATENT ANn TRA.nEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MIHAL LAZARIDIS,
+DANIEL TOBIAS RYDENHAG,
+DONALD JAMES LINDSAY,
+ALISTAIR ROBERT HAMILTON,
+ROBERT SIMON LESSING, JASON TYLER GRIFFIN,
+JOSEPH EYTAN BENEDEK, and TODD ANDREW WOOD
+
+Appeal2015-003041
+Application 13/618,818
+Technology Center 2100
+
+Before CAROLYN D. THOMAS, ADAM J. PYONIN, and
+AARON W. MOORE, Administrative Patent Judges.
+PYONIN, Administrative Patent Judge.
+
+DECISION ON APPEAL
+This is a decision on appeal under 35 U.S.C. § 134(a) from a final
+rejection of claims 1-30, which are all of the pending claims. We have
+jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+Appeal2015-003041
+Application 13/618,818
+STATEMENT OF THE CASE
+Appellants' disclosure is directed to an electronic device and method
+of displaying information in response to a gesture. Spec., Title. Claims 1,
+15, 21, and 27 are independent. Claim 1 is reproduced below for reference:
+1.
+
+A method comprising:
+displaying, in a window, information associated with a
+first application on a touch sensitive display of an electronic
+device;
+detecting, while only the information associated with a
+first application is displayed in the window, a gesture on the
+touch-sensitive display, which gesture is a request dedicated to
+display messaging information;
+in response to detecting the gesture:
+dividing the window into a first area and a second
+area and gradually displaying the messaging information in the
+first area while reducing display of the information associated
+with the first application in the second area;
+while the gesture continues to be detected, varying a size
+of the first area along with movement of the gesture;
+in response to detecting discontinuation of the gesture:
+when a characteristic of the gesture is an indication
+to view the messaging information, discontinuing display of the
+information associated with the first application and displaying
+only the messaging information in the window;
+when a characteristic of the gesture in an indication
+to terminate display of the messaging information, discontinuing
+display of the messaging information and displaying only the
+information associated with the first application in the window.
+Claims 1-30 stand rejected under 35 U.S.C. § 103(a) as being
+unpatentable over Tseng (US 2009/0249247 Al; Oct. 1, 2009) and Hotelling
+(US 8,479,122 B2; July 2, 2013). Final Act. 2.
+
+2
+
+Appeal2015-003041
+Application 13/618,818
+ANALYSIS
+Appellants argue the Examiner erred in rejecting independent claim 1
+because Tseng does not teach the required "discontinuing display of
+information associated with a first application and displaying only the
+messaging information in a window," as, "[i]nstead, paragraph [0007] of
+Tseng describes displaying messages within a status bar located above the
+main area or zone in which an active program (e.g., a first application) is
+displayed." App. Br. 12. Particularly, Appellants contend that "[i]n contrast
+[to claim 1], Tseng describes continuing to display information associated
+with a first application in a window after a gesture associated with viewing
+messaging information is discontinued." Id. at 13; see also Tseng Figs. 2A2C.
+We are persuaded by Appellants' arguments. The Examiner finds
+Tseng teaches or suggests the disputed limitations because Tseng discloses
+"when the user selected to expand the messaging information ... the
+application area 214 has been shrunk visually here to take up only about
+twenty percent of the display" in order to "make room for the messages."
+Ans. 19-20 (citing Tseng i-f 45). Thus, as explained by the Examiner, Tseng
+merely shrinks the application area so that both the messages and the first
+application are visible (see, e.g., Tseng Fig. 2A); at no point, however, does
+Tseng discuss discontinuing display of the first application and displaying
+
+only the messaging information in the window, as required by the claim. 1
+See App. Br. 14--15.
+
+1
+
+Rather, Tseng is directed to continuously showing any active application at
+the same time as displaying messages. See, e.g., Tseng i-fi-1 59---60.
+3
+
+Appeal2015-003041
+Application 13/618,818
+Thus, we are persuaded Tseng does not teach or suggest the claim 1
+limitation "discontinuing display of the information associated with the first
+application and displaying only the messaging information in the window,"
+and the Examiner does not rely on the other cited reference for such
+teachings. See Final Act. 2--4. Accordingly, we are persuaded the Examiner
+erred in rejecting independent claim 1, as well as independent claims 15, 21,
+and 27 which recite similar limitations. See App. Br. 25, 28, 32. We do not
+sustain the Examiner's rejection of these claims, or the claims dependent
+thereon.
+
+DECISION
+The Examiner's rejection of claims 1-30 is reversed.
+
+REVERSED
+
+4
+
+

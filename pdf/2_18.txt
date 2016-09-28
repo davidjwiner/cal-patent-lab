@@ -1,0 +1,279 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/868,093
+
+06/14/2004
+
+Robert L. Faulk JR.
+
+82169156
+
+5075
+
+56436
+
+7590
+
+09/22/2016
+
+Hewlett Packard Enterprise
+3404 E. Harmony Road
+Mail Stop 79
+Fort Collins, CO 80528
+
+EXAMINER
+DAVENPORT, MON CHERI S
+
+ART UNIT
+
+PAPER NUMBER
+
+2462
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/22/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+hpe.ip.mail@hpe.com
+mkraft@hpe.com
+chris.mania@hpe.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte ROBERT L. FAULK, JR.
+
+Appeal2015-002030
+Application 10/868,093
+Technology Center 2400
+
+Before ERIC S. FRAHM, JOHN A. EVANS, and LINZY T. McCARTNEY,
+Administrative Patent Judges.
+McCARTNEY, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellant appeals under 35 U.S.C. § 134(a) from a rejection of claims
+1, 2, 4--12, 14, 16, 18-23, 25-33, 35, 37, and 39--43. The Examiner objected
+to claims 13, 15, 17, 34, 36, and 38 as dependent on a rejected base claim
+but otherwise allowable. We have jurisdiction under 35 U.S.C. § 6(b).
+We AFFIRM.
+
+Appeal2015-002030
+Application 10/868,093
+STATEMENT OF THE CASE
+The present patent application concerns "an apparatus and method for
+rate limiting of events." Spec. 1:7-8. Claim 1 illustrates the claimed subject
+matter:
+1.
+A method for rate limiting of events, the method
+compnsmg:
+monitoring and processing, via a network device, a
+plurality of event instances of an event type, the plurality of event
+instances received by the network device over a network;
+said event type comprising a type of network traffic in the
+network;
+determining whether a first count value of a first event
+instance in said monitored and processed plurality of event
+instances meets or exceeds a suspension threshold value
+associated with the first event instance;
+suspending, via the network device, the first event instance
+in response to a determination that the first count value of the
+first event instance meeting or exceeding the suspension
+threshold value;
+determining whether a second count value of a second
+event instance in said monitored and processed plurality of event
+instances meets or exceeds another suspension threshold value
+associated with the second event instance; and
+suspending, via the network device, the second event
+instance in response to a determination that the second count
+value of the second event instance meeting or exceeding the
+another suspension threshold value.
+
+REJECTIONS
+Claims 1, 2, 4--10, 14, 19, 20, 22, 23, 25-31, 35, 40, 41, and 43 stand
+rejected under 35 U.S.C. § 103(a) as unpatentable over Barnard (US
+
+2
+
+Appeal2015-002030
+Application 10/868,093
+2004/0030537 Al; Feb. 12, 2004) ("Barnard") and Topper (US 5,642,483
+June 24, 1997) ("Topper").
+Claims 11, 12, 16, 18, 21, 23, 32, 33, 37, 39, and 42 stand rejected
+under 35 U.S.C. § 103(a) as unpatentable over Barnard, Topper, and one of
+Costa (US 2002/0156767 Al; Oct. 24, 2002) ("Costa"), Balogh (US
+6,681,228 B2; Jan. 20, 2004), Gary (US 7,133,912 Bl; Nov. 7, 2006), and
+Nemes (US 5,287,499; Feb. 15, 1994).
+
+ANALYSIS
+Independent Claim 1
+Appellant contends the Examiner's combination of Barnard and
+Topper fails to teach or suggest the following limitations recited in claim 1:
+monitoring and processing, via a network device, a
+plurality of event instances of an event type, the plurality of event
+instances received by the network device over a network;
+suspending, via the network device, the second event
+instance in response to a determination that the second count
+value of the second event instance meeting or exceeding the
+another suspension threshold value.
+
+See App. Br. 8-11; Reply Br. 5-7. According to Appellant, "the Examiner
+appears to assert that the notification messages discussed in Topper are
+equivalent to the first event instance recited in independent claim l ." App.
+Br. 9. Appellant argues "Topper clearly fails to disclose that those
+notifications of changes are counted .... Instead, Topper discusses that the
+broadcast notification messages are counted and compared with a broadcast
+counter maximum value." Id. (emphases omitted). Moreover, Appellant
+contends "in Topper the device (network device) that broadcasts the
+
+3
+
+Appeal2015-002030
+Application 10/868,093
+notification messages and counts the number of broadcast notification
+messages does not also appear to receive the broadcasted notification
+messages." Id. Appellant argues this arrangement is contrary to claim 1,
+which "recites that the network device both receives the event instances and
+suspends the first event instances." Id. at 10.
+We find Appellant's arguments unpersuasive. Appellant asserts the
+Examiner mapped Topper's notification messages to the recited "first event
+instance" and Topper's "device ... that broadcasts the notification
+messages" to the claimed "network device." See id. at 9-10. But the
+Examiner found Barnard teaches most of the limitations and elements
+recited in claim 1, including the "first event instance" and "network device."
+See Non-Final Act. 3--4. The Examiner found Barnard failed only to
+
+"specifically point out suspending for the first event instance in response to a
+determination that the first/second count value of the first event instance
+meeting or exceeding the suspension threshold value." Id. at 4. The
+Examiner found Topper disclosed a method of suspending message
+transmission and concluded the combination of Barnard's and Topper's
+teachings would have suggested the claimed subject matter. Id. at 4; Ans. 3.
+Appellant's arguments address Topper individually when the Examiner
+relied on a combination of Barnard's and Topper's teachings. "[O]ne cannot
+show non-obviousness by attacking references individually where, as here,
+the rejections are based on combinations of references." In re Keller, 642
+F.2d 413, 426 (CCPA 1981).
+Appellant also contends "at best, the proposed combination of
+Barnard and Topper would result in the limiting of the sending of
+notification messages concerning changes to a user's status and not to a
+
+4
+
+Appeal2015-002030
+Application 10/868,093
+suspension of the user status broadcast messages as the Examiner suggests."
+App. Br. 10-11; see also Reply Br. 6. Moreover, citing In re Ratti,
+Appellant argues the Examiner's proposed combination would change
+Barnard's principle of operation because "Barnard fails to disclose that the
+threshold event organizer is able to control any actions with respect to the
+collection of the heterogeneous scalar measurement data." App. Br. 11; see
+also Reply Br. 7.
+We find Appellant's arguments unpersuasive. Appellant fails to
+provide persuasive evidence or reasoning to support Appellant's contention
+that the Examiner's "combination of Barnard and Topper would result in the
+limiting of the sending of notification messages concerning changes to a
+user's status and not to a suspension of the user status broadcast messages."
+App. Br. 10-11. Simply asserting this would be the case does not make it
+so. Moreover, to the extent this assertion assumes that one of ordinary skill
+in the art would slavishly apply Topper's teachings to Barnard's invention,
+we note "[a] person of ordinary skill is also a person of ordinary creativity,
+not an automaton." KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 421 (2007).
+Appellant has also failed to provide persuasive evidence or reasoning
+to support Appellant's argument that the Examiner's combination would
+change Barnard's principle of operation. In the case cited by Appellant to
+support this argument, In re Ratti, the Court of Customs and Patent Appeals
+found the proposed combination "would require a substantial reconstruction
+and redesign of the elements shown in [a cited prior art reference] as well as
+a change in the basic principles under which the [reference] construction was
+designed to operate." In re Ratti, 270 F.2d 810, 813 (CCPA 1959).
+Appellant's assertion that Barnard does not disclose the threshold event
+
+5
+
+Appeal2015-002030
+Application 10/868,093
+organizer can suspend certain actions does not demonstrate that modifying
+Barnard's organizer to do so would "require a substantial reconstruction and
+redesign" of the organizer or "change in the basic principles under which
+the" organizer was designed to operate. See id. Moreover, Appellant's
+argument, taken to its logical conclusion, would preclude most prior art
+combinations, as combinations of prior art often involve modifying a prior
+art reference to include features the reference does not disclose. We do not
+understand In re Ratti to support such a sweeping proposition.
+
+Dependent Claim 11
+Claim 11 depends from claim 1 and recites "deleting, via the network
+device, for event instances of the plurality of event instances that do not
+occur within a maximum age time value, identifiers and eventKeys
+associated with the event instances." App. Br. 20. Appellant argues Costa
+fails to teach or suggest this limitation. Id. at 13. In particular, Appellant
+asserts "Costa discusses the deletion of data based upon how long ago the
+data was stored or created," but in claim 11 "the deletion of the identifiers
+and the eventKeys of event instances is based upon the time value of the
+occurrence of an event instance and not based upon the length of time that
+
+the identifiers and the eventKeys of event instances have been stored." Id.
+(emphases added).
+We find Appellant's arguments unpersuasive. Appellant's conclusory
+argument does not explain why storing identifiers and eventKeys of event
+instances is not an "occurrence" of an event instance. Id. Moreover, even if
+Appellant were correct that storing is not an "occurrence," Appellant admits
+that the cited portions of Costa concern the creation of data, and Appellant
+
+6
+
+Appeal2015-002030
+Application 10/868,093
+has not addressed this aspect of Costa. Id. Accordingly, we find
+Appellant's arguments unpersuasive and sustain the Examiner's rejection of
+claim 11. Because Appellant argues claims 21, 32, and 42 together with
+claim 11, see id., we also sustain the rejection of these claims.
+
+Remaining Claims
+Appellant has not presented separate, persuasive patentability
+arguments for claims 2, 4--10, 12, 14, 16, 18-20, 22, 23, 25-31, 33, 35, 37,
+39--41, and 43. We therefore sustain the Examiner's rejections of these
+claims.
+
+DECISION
+For the above reasons, we affirm the rejections of claims 1, 2, 4--12,
+14, 16, 18-23, 25-33, 35, 37, and 39--43.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+7
+
+

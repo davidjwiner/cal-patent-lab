@@ -1,0 +1,331 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/249,536
+
+09/30/2011
+
+Sezai Sablak
+
+BSS0002-0l-US
+
+8063
+
+27268
+
+7590
+
+09/23/2016
+
+EXAMINER
+
+Faegre Baker Daniels LLP
+
+300 NORTH MERIDIAN STREET
+SUITE 2700
+INDIANAPOLIS, IN 46204
+
+PASIEWICZ, DANIEL M
+
+ART UNIT
+
+PAPER NUMBER
+
+2661
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/23/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+inteas@faegrebd.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Exparte SEZAI SABLAK, DAVIDN. KATZ,
+MIROSLAV TRAJKOVIC, MICHAEL D. BOLOTINE,
+and DAMIAN M. LYONS
+
+Appeal2014-007684
+Application 13/249,536
+Technology Center 2600
+
+Before JEREMY J. CURCURI, JOSEPH P. LENTIVECH, and
+SHARON PENICK, Administrative Patent Judges.
+CURCURI, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellants appeal under 35 U.S.C. § 134(a) from the Examiner's
+rejection of claims 1-19. Final Act. 1. We have jurisdiction under
+35 U.S.C. § 6(b).
+Claims 1, 2, 5-8, 10-14, and 16-19 are rejected under 35 U.S.C.
+
+§ 103(a) as obvious over Kuno (JP 05-34958; Dec. 27, 1993) and Wixson et
+al. (US 6,396,961 Bl; May 28, 2002). Final Act. 5-12. 1
+
+1
+
+An English translation of Kuno was provided by Appellants in an
+information disclosure statement filed July 17, 2012. References herein to
+portions of Kuno refer to this translation.
+
+Appeal2014-007684
+Application 13/249,536
+Claims 3, 4, 9, and 15 are rejected under 35 U.S.C. § 103(a) as
+obvious over Kuno, Wixson, and Yata (US 2002/0051057 Al; May 2,
+2002). Final Act. 12-16.
+We affirm.
+
+STATEMENT OF THE CASE
+Appellants' invention relates to "a video camera system for tracking a
+moving object." Spec. ,-i 2. Claim 1 is illustrative and reproduced below:
+1.
+
+A video tracking system comprising:
+
+a video camera having a field of view, said camera being
+selectively adjustable wherein adjustment of said camera varies
+the field of view of said camera; and
+at least one processor operably coupled to said camera
+wherein said processor automatically and continuously acquires
+video images acquired by said camera and continuously
+selectively adjusts said camera;
+said processor programmed to execute a process for
+detecting a moving target object in said video images, said
+video images including a first image and a second image,
+estimating a target value based on a comparison of said first and
+second images, said target value being a function of a velocity
+of said target object, selecting a first adjustment rate, said first
+adjustment rate being a function of said target value, and
+adjusting said camera at said first adjustment rate, wherein after
+selecting the first adjustment rate the processor automatically
+receives a subsequent image and performs said process again
+based on a comparison of the subsequent image and at least one
+of the first image and the second image to select a second
+adjustment rate, the camera being continuously moved at the
+first adjustment rate until being commanded to move at the
+second adjustment rate.
+
+2
+
+Appeal2014-007684
+Application 13/249,536
+ANALYSIS
+THE OBVIOUSNESS REJECTION OF CLAIMS 1, 2, 5-8, 10-14, AND 16-19 OVER
+KUNO AND WIXSON
+The Examiner finds Kuno and Wixson teach all limitations of claim 1.
+Final Act. 5-7. The Examiner relies on Kuno for all limitations of claim 1,
+except for the adjustments of the camera being the recited adjustment rates,
+for which the Examiner relies on Wixson. Final Act. 6-7. The Examiner
+reasons "at the time the invention was made it would have been obvious to
+one of ordinary skill in the art to control the camera disclosed by Kuno
+using the camera speed (adjustment rate) as taught by Wixson, for such
+control is well-known in robotics and control theory." Final Act. 7 (citing
+Wixson, col. 8, 11. 17-20).
+Appellants present the following principal arguments:
+I.
+
+"[T]he combination of Kuno and Wixson fails to disclose a
+
+camera continuously moved at a first adjustment rate until being
+commanded to move at a second adjustment rate, as recited in independent
+claim 1." App. Br. 9. "Kuno discloses a system that completely moves the
+camera to the new position before beginning a subsequent image analysis,
+resulting in the camera having the stationary intervals that the claimed
+system of the present application seeks to avoid." App. Br. 9-10.
+Wixson merely discloses that "velocity control" may be used to
+command motors for correcting image slip (Wixson, col. 8, Ins.
+10-20). Accordingly, Wixson does not disclose or suggest that
+the camera is continuously moved at a first selected adjustment
+rate until being commanded to move at the second selected
+adjustment rate, as recited in claim 1.
+App. Br. 10. "The proposed modification to Kuno would improperly change
+Kuno' s principal of operation from a position-based command system to a
+
+3
+
+Appeal2014-007684
+Application 13/249,536
+velocity-based command system." App. Br. 10. "[T]he position-based
+control of Kuno is key to the operation of Kuno' s system, namely for
+calculating the positional deviation ~x,
+
+~y,
+
+and therefore the proposed
+
+modification to a velocity-based control would render Kuno unsatisfactory
+for its intended purpose[.]" App. Br. 11.
+11.
+
+"[T]he Examiner appears to identify the positional deviation of
+
+paragraph [0021] ofKuno as the target value of independent claim 1 (Office
+Action, page 5). Independent claim 1 recites that the target value is a
+function of the velocity of the target object." App. Br. 11.
+We are not convinced by these arguments of error in the Examiner's
+findings. Nor are we convinced of any error in the Examiner's conclusion of
+obviousness.
+Regarding (i), we agree with the Examiner that, in light of the
+collective teachings of the references, it would have been obvious to a
+skilled artisan to continuously move the camera at a first adjustment rate
+until being commanded to move at a second adjustment rate, as recited in
+independent claim 1.
+Kuno (,-i,-i 16-23) discloses position-based control of a camera.
+Wixson (col. 8, 11. 17-20) discloses both position-based control and velocitybased control of a camera: "The motors may be commanded to achieve this
+correction using either position control or velocity control, two well-known
+concepts in robotics and control theory." When Kuno's teaching of
+position-based control is combined with Wixson's teaching ofvelocitybased control (and disclosure of both position and velocity control as being
+well-known techniques), modifying Kuno to use velocity-based control
+would have been a predictable use of prior art elements according to their
+
+4
+
+Appeal2014-007684
+Application 13/249,536
+established functions -
+
+an obvious improvement. As the U.S. Supreme
+
+Court has explained:
+When a work is available in one field of endeavor, design
+incentives and other market forces can prompt variations of it,
+either in the same field or a different one. If a person of
+ordinary skill can implement a predictable variation, § 103
+likely bars its patentability. For the same reason, if a technique
+has been used to improve one device, and a person of ordinary
+skill in the art would recognize that it would improve similar
+devices in the same way, using the technique is obvious unless
+its actual application is beyond his or her skill. Sakraida [v. Ag
+Pro, Inc., 425 U.S. 273 (1976)] and Anderson's-Black Rock [,
+Inc. v. Pavement Salvage Co., 396 U.S. 57 (1969)] are
+illustrative-a court must ask whether the improvement is more
+than the predictable use of prior art elements according to their
+established functions.
+
+KSR Int'! Co. v. Teleflex, Inc., 550 U.S. 398, 417 (2007).
+Even if we assume, as proffered by Appellants (see App. Br. 9-10;
+
+see also Reply Br. 2-3), and contrary to the Examiner's explanation in the
+Response to Arguments section of the Answer (see Ans. 4-5), that Kuno
+incrementally moves the camera such that the camera has stationary
+intervals, this does not change our conclusion. To the extent Kuno has
+stationary intervals, this is a result of the camera reaching a current
+commanded position before a next commanded position is provided. When
+Kuno is modified for velocity control based on Wixson, the camera would
+reach a current commanded velocity (claim l's "first adjustment rate")
+before a next commanded velocity (claim l's "second adjustment rate") is
+provided.
+Further, such modification to Kuno does not change Kuno's principle
+of operation because the modified system, in tracking velocity instead of
+position, calculates velocity deviations instead of position deviations. Nor
+5
+
+Appeal2014-007684
+Application 13/249,536
+does the modification to Kuno render Kuno unsatisfactory for its intended
+purpose. In short, we see no reason why the simple substitution into Kuno
+of velocity-based control for Kuno's position-based control would not have
+been obvious to a skilled artisan, particularly in light of Wixson' s disclosure
+that position control and velocity control and both well-known concepts in
+robotics and control theory. See Wixson (col. 8, 11. 17-20).
+Regarding (ii), this argument does not show any error in the
+Examiner's findings because we agree with the Examiner that Kuno' s target
+position is a function of velocity. Ans. 6. Further, we emphasize that Kuno
+alone utilizes position-based control; however, Kuno as modified in light of
+Wixson' s teachings utilizes velocity-based control.
+We, therefore, sustain the Examiner's rejection of claim 1, as well as
+claims 2, 5-8, 10, 11, 13, 14, 16, 17, and 19, which are not argued separately
+with particularity.
+Regarding claim 12, claim 12 further recites: "said camera is
+constantly in motion when tracking movement of the target object."
+Appellants further argue: "Nowhere does Wixson disclose that the camera is
+constantly in motion when tracking movement of a target object." App. Br.
+14.
+This argument does not show any error in the Examiner's findings and
+reasons, and we agree with the Examiner that the combined teachings of
+Kuno and Wixson, by using velocity-based control, teach or suggest the
+disputed limitation. See Final Act. 11.
+We, therefore, sustain the Examiner's rejection of claim 12.
+Regarding claim 18, claim 18 further recites: "selectively adjusting at
+a variable rate each of a panning orientation of said camera and a tilt
+
+6
+
+Appeal2014-007684
+Application 13/249,536
+orientation of said camera." Appellants further argue: "Kuno and Wixson,
+alone or in combination, do not disclose adjusting the camera at a selectively
+variable adjustment rate includes selectively adjusting at a variable rate each
+of a panning orientation of the camera and a tilt orientation of the camera."
+App. Br. 14.
+This argument does not show any error in the Examiner's findings and
+reasons. We agree with the Examiner that Kuno (,-i 19) teaches adjusting
+panning and tilting. See Final Act. 12.
+We, therefore, sustain the Examiner's rejection of claim 18.
+
+THE OBVIOUSNESS REJECTION OF CLAIMS
+
+3, 4, 9, AND 15 OVERKUNO,
+
+WIXSON, AND YATA
+
+Regarding claim 4, claim 4 further recites camera panning rate being a
+function of velocity and camera tilting rate being a function of velocity.
+Appellants further argue:
+Kuno and Wixson, alone or in combination, do not disclose
+adjusting the camera at a selected panning rate which is a
+function of the velocity of a target object along an x-axis and at
+a selected tilting rate which is a function of the velocity of the
+target object along a y-axis.
+App. Br. 12.
+This argument does not show any error in the Examiner's findings and
+reasons as we agree with the Examiner that Kuno (,-i 19) teaches adjusting
+panning and tilting. See Final Act. 16. Further, we emphasize that Kuno
+alone utilizes position-based control; however, Kuno as modified in light of
+Wixson' s teachings utilizes velocity-based control.
+
+7
+
+Appeal2014-007684
+Application 13/249,536
+We, therefore, sustain the Examiner's rejection of claim 4, as well as
+claims 3, 9, and 15, which are not argued separately with particularity.
+
+DECISION
+The Examiner's decision rejecting claims 1-19 is affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § l.136(a)(l ).
+AFFIRMED
+
+8
+
+

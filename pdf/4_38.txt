@@ -1,0 +1,572 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+13/173,940
+
+06/30/2011
+
+PETER MOROVIC
+
+82585629
+
+1018
+
+22879
+
+7590
+
+09/21/2016
+
+HP Inc,
+3390 E. Harmony Road
+Mail Stop 35
+FORT COLLINS, CO 80528-9544
+
+EXAMINER
+WALLACE, JOHN R
+
+ART UNIT
+
+PAPER NUMBER
+
+2673
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/21/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+ipa.mail@hp.com
+barbl@hp.com
+yvonne.bailey@hp.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte PETER MOROVIC and JAN MOROVIC
+
+Appeal2015-006508
+Application 13/173,940
+Technology Center 2600
+
+Before JOHN A. EVANS, MATTHEW J. McNEILL, and
+STEVEN M. AMUNDSON, Administrative Patent Judges.
+AMUNDSON, Administrative Patent Judge.
+
+DECISION ON APPEAL
+Appellants 1 seek our review under 35 U.S.C. § 134(a) from a final
+rejection of claims 1-15, i.e., all pending claims. We have jurisdiction under
+35 U.S.C. § 6(b).
+We affirm-in-part.
+
+1
+
+According to Appellants, the real party in interest is Hewlett-Packard
+Development Company, LP. App. Br. 3.
+
+Appeal2015-006508
+Application 13/173,940
+STATEMENT OF THE CASE
+The Invention
+
+According to the Specification, the invention concerns "a print system
+for adjusting a color profile," for example, due to differences in ink obtained
+from different manufacturers. Spec. i-fi-f 11-18; Abstract. 2
+Representative Claim
+
+Independent claim 1 exemplifies the subject matter of the claims
+under consideration and reads as follows:
+1.
+
+A print system for adjusting a color profile comprising:
+a system comprising:
+a memory for storing computer executable
+instructions; and
+a processing unit for accessing the memory and
+executing the computer executable instructions, the
+computer executable instructions comprising:
+a profile transformer to:
+receive a color sample comprising a color
+measurement of a proper subset of a gamut of
+colors printable with ink deposited at a printer; and
+provide an adjusted color profile for the printer
+based on (i) an original color profile for the printer
+and (ii) the color sample, wherein the original
+color profile for the printer is associated with a
+substrate.
+
+App. Br. 22 (Claims App.).
+
+2
+
+This decision employs the following abbreviations: "Spec." for the
+Specification, filed June 30, 2011; "Final Act." for the Final Office Action,
+mailed August 1, 2014; "App. Br." for the Appeal Brief, filed December 15,
+2014; "Ans." for the Examiner's Answer, mailed May 7, 2015; and "Reply
+Br." for the Reply Brief, filed June 18, 2015.
+2
+
+Appeal2015-006508
+Application 13/173,940
+
+The Prior Art Supporting the Re} ections on Appeal
+As evidence ofunpatentability, the Examiner relies on the following
+prior art:
+Olson et al. ("Olson")
+Adam et al. ("Adam")
+Perez et al. ("Perez")
+Doser
+
+us 5,581,480
+US 2004/0130739 Al
+US 2008/0130023 Al
+US 2009/0284554 Al
+
+Dec. 3, 1996
+July 8, 2004
+June 5, 2008
+Nov. 19, 2009
+
+The Rejections on Appeal
+Claims 1--4, 6, 7, 9, and 11-15 stand rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over Adam and Perez. Final Act. 2-13; App. Br. 3;
+Ans. 2-13.
+Claim 5 stands rejected under 35 U.S.C. § 103(a) as unpatentable over
+Adam, Perez, and Olson. Final Act. 14; App. Br. 3; Ans. 13-14.
+Claims 8 and 10 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Adam, Perez, and Doser. Final Act. 15-16; App. Br. 3;
+Ans. 14--15.
+
+ANALYSIS
+We have reviewed the rejections of claims 1-15 in light of
+Appellants' arguments that the Examiner erred. In doing so, we have
+evaluated only the arguments that Appellants actually make on appeal.
+Arguments that Appellants could have made but declined to make are
+considered waived. See 37 C.F.R. § 41.37(c)(l)(iv).
+
+3
+
+Appeal2015-006508
+Application 13/173,940
+
+The Rejection of Claims 1--4, 6, 7, 9,
+and 11-15 Under 35U.S.C.§103(a)
+Independent Claim 1
+A "Color Sample Comprising ... a Proper Subset
+of [the] Gamut of Colors Printable" by a Printer
+Claim 1 requires a "color sample comprising ... a proper subset of
+[the] gamut of colors printable" by a printer. App. Br. 22 (Claims App.).
+The Examiner finds that Adam and Perez each disclose the claimed color
+sample. Final Act. (citing Adam i-fi-f 113-14; Perez i-fi-154--56, 95, 98); Ans.
+3--4 (citing Adam i-fi-f 113-14; Perez i-fi-154--56, 95, 98).
+Appellants argue that Adam does not teach or suggest a "color sample
+comprising ... a proper subset of [the] gamut of colors printable" because
+"in Adam a large number of patches (e.g., 512) are scanned that have every
+combination of Red, Blue and Green inks." App. Br. 9 (citing Adam i-f 117).
+In addition, Appellants argue that Perez does not teach or suggest the
+claimed color sample because Perez "explicitly notes that all possible
+combinations of four different colors of ink, Cyan, Magenta, Yellow and
+Black (CYMK) are employed as a profiling target of printers." Id. at 9-10
+(citing Perez i-fi-155-56, 95-98).
+Appellants' arguments rest on a misunderstanding of Adam and Perez.
+Adam describes print target patches (color samples) containing "every
+possible combination of red, green, and blue." Adam i-f 117. But Adam
+explains that those combinations of red, green, and blue inks "only have the
+values of 0, 32, 64, 128, 160, 192, 224, or 256" out of 256 bits. Id.; see
+Perez i-f 105 (discussing 3x8 bit color representations having 256 values).
+Thus, those combinations result from discrete increments of red, green, and
+blue inks, such as 0 red, 32 green, 32 blue or 128 red, 32 green, and
+4
+
+Appeal2015-006508
+Application 13/173,940
+224 blue. Accordingly, Adam discloses a "color sample comprising ... a
+proper subset of [the] gamut of colors printable" by a printer.
+Perez also discloses the claimed color sample. Although Perez
+describes profiling target patches (color samples) containing "all possible
+combinations" of cyan, magenta, yellow, and black inks, Perez explains that
+those combinations only have particular percentages of each different ink,
+i.e., "0%, 10%, 20%, 40%, 70%, and 100%." Perez i-f 95. Similar to Adam,
+the profiling target patches (color samples) result from discrete increments
+of cyan, magenta, yellow, and black inks.
+Therefore, contrary to Appellants' arguments, Adam and Perez do not
+use "the entire printable color gamut of a printer" when producing color
+samples. App. Br. 10.
+A "Profile Transformer" That
+Provides an Adjusted Printer Profile
+Claim 1 requires a "profile transformer" that provides "an adjusted
+color [printer] profile" based on "(i) an original color [printer] profile"
+associated with a substrate and "(ii) the color sample." App. Br. 22 (Claims
+App.). The Examiner relies on the combination of Adam and Perez for this
+limitation. Ans. 3-5, 17-18; see Final Act. 3-5. In particular, the Examiner
+finds that Adam discloses a "large portion" of this limitation, i.e., "an
+adjusted color profile for the printer based on (i) an original color profile and
+(ii) the color sample." Ans. 17 (citing Adam i-fi-1 114--16). The Examiner
+further finds that Perez demonstrates that it is "known in the art" to provide
+(1) "a color profile for a printer" and (2) "a color profile associated with a
+substrate." Id. at 18 (citing Perez i-fi-1 15, 25, 66, 72, 115).
+
+5
+
+Appeal2015-006508
+Application 13/173,940
+Appellants argue that neither Adam nor Perez discloses a "profile
+transformer" that provides an adjusted printer profile based on (i) an original
+printer profile associated with a substrate and (ii) the color sample. App. Br.
+10-12; Reply Br. 4---6. Appellants do not dispute that Perez discloses (1) "a
+color profile for a printer" and (2) "a color profile associated with a
+substrate." App. Br. 11; Reply Br. 4--6. Instead, Appellants contend that
+"the Examiner has not explained how the cited sections of Perez would teach
+one of ordinary skill in the art how to implement" the claimed "profile
+transformer." App. Br. 11; see Reply Br. 6.
+In essence, Appellants address Adam and Perez individually, asserting
+that each does not teach or suggest the claimed "profile transformer." App
+Br. 10-12; Reply Br. 4---6. Where a rejection rests on a combination of
+references, however, an appellant cannot establish nonobviousness by
+attacking the references individually. See In re Merck & Co., 800 F .2d
+1091, 1097 (Fed. Cir. 1986).
+Moreover, "the test for combining references is not what the
+individual references themselves suggest but rather what the combination of
+disclosures taken as a whole would suggest to one of ordinary skill in the
+art." In re McLaughlin, 443 F.2d 1392, 1395(CCPA1971); see In re
+
+Keller, 642 F.2d 413, 425 (CCPA 1981). Appellants do not address what
+the Adam-Perez combination "taken as a whole would suggest to one of
+ordinary skill in the art" and, therefore, have not established Examiner error.
+App. Br. 10-12; Reply Br. 4---6.
+Teaching Away
+Appellants argue that "Adam teaches away from its combination and
+modification with any other reference" because Adam states that "a [printer]
+
+6
+
+Appeal2015-006508
+Application 13/173,940
+profile built on top of a [printer] profile is inferior to a profile built without
+such a profile." App. Br. 12 (citing Adam i-f 118); Reply Br. 6 (quoting
+Adam i-f 118).
+Although Adam paragraph 118 describes a preferred embodiment
+with print target patches (color samples) produced by bypassing a printer
+profile, Adam paragraph 119 explains that "[t]here are certain situations in
+which a [printer] profile can not be bypassed .... " Adam i-fi-1 118-19. Thus,
+Adam teaches an adjusted printer profile based on an original printer profile.
+
+See id. i-fi-1114--20, 124--28. "[J]ust because better alternatives exist in the
+prior art does not mean that an inferior combination is inapt for obviousness
+purposes." In re Mouttet, 686 F.3d 1322, 1334 (Fed. Cir. 2012).
+Summary
+Appellants' arguments have not persuaded us that the Examiner erred
+in rejecting claim 1 for obviousness based on Adam and Perez. Hence, we
+sustain the rejection.
+Dependent Claims 2--4, 7, and 11
+Claims 2--4, 7, and 11 depend directly or indirectly from claim 1.
+App. Br. 22-24 (Claims App.). Appellants present the same patentability
+arguments for these dependent claims as for claim 1. Id. at 13. When
+urging patentability, Appellants' general statement concerning the "specific
+elements recited" in these dependent claims does not constitute a separate
+patentability argument. See 37 C.F.R. § 41.37(c)(l)(iv). Because
+Appellants do not argue the claims separately, we sustain the obviousness
+rejection of claims 2--4, 7, and 11 for the reasons applicable to claim 1. See
+
+id.
+
+7
+
+Appeal2015-006508
+Application 13/173,940
+Dependent Claim 6
+Claim 6 depends indirectly from claim 1 and recites "wherein the
+reverse transform value is calculated based on a deduction of settings of the
+original color profile." App. Br. 23 (Claims App.). The Examiner cites
+Adam for this limitation. Final Act. 7-8 (citing Adam i-f 161, Fig 6B); Ans.
+7, 20 (citing Adam i-f 161, Fig 6B). In particular, the Examiner finds that
+that the forward CMY-to-CIEL *a*b* transform and subsequent inversion to
+produce a reverse CIEL *a*b*-to-CMY transform according to Adam
+paragraph 161 results in the claimed reverse transform value. Ans. 20; see
+Final Act. 5; Ans. 5.
+Appellants argue that nothing in Adam teaches or suggests the
+claimed reverse transform value because Adam does not disclose an original
+printer profile and, therefore, cannot disclose a reverse transform value
+"calculated based on a deduction of settings" of the original printer profile.
+App. Br. 14; Reply Br. 8-9.
+Because claim 6 depends indirectly from claim 1, the obviousness
+rejection rests on Perez as well as Adam. Final Act. 2; Ans. 2. As with
+claim 1, Appellants do not for claim 6 address what the Adam-Perez
+combination "taken as a whole would suggest to one of ordinary skill in the
+art" and have not established Examiner error. App. Br. 13-14; Reply
+Br. 8-9.
+Appellants suggest that Adam's forward CMY-to-CIEL *a*b*
+transform and subsequent inversion to produce a reverse CIEL *a*b*-toCMY transform do not correspond to a reverse transform value "calculated
+based on a deduction of settings." App. Br. 14. In response, the Examiner
+notes that ( 1) the phrase "calculated based on a deduction of settings" does
+
+8
+
+Appeal2015-006508
+Application 13/173,940
+not "imply some sort of specific method of calculation" and (2) an inversion
+according to Adam paragraph 161 satisfies the claim language under the
+broadest reasonable interpretation. Ans. 20.
+We agree with the Examiner. Claim 6 does not recite a specific
+method of calculation. Inventors can act as their own lexicographers if they
+clearly set forth a definition of a claim term or phrase other than its plain and
+ordinary meaning. Vasudevan Software, Inc. v. MicroStrategy, Inc.,
+782 F.3d 671, 677 (Fed. Cir. 2015). Here, Appellants do not contend that
+the Specification sets forth a definition for the term "deduction" or the
+phrase "calculated based on a deduction of settings." App. Br. 13-14; Reply
+Br. 8-9. Instead, the Specification broadly explains that a "profile settings
+estimation engine" can "examine the forward and reverse color lookup table
+of the original color profile" and then "deduce the settings employed to
+generate and/or modify the original color profile." Spec. i-f 27. The
+Specification does not describe any particular calculation that occurs when
+the "profile settings estimation engine" operates to "deduce" various
+settings. Id. i-fi-126-28, Fig. 4.
+Accordingly, Appellants' arguments have not persuaded us that the
+Examiner erred in rejecting claim 6 for obviousness based on Adam and
+Perez. Hence, we sustain the rejection.
+Dependent Claim 9
+Claim 9 depends indirectly from claim 1 and recites "wherein the
+forward transform value and the reverse transform value are calculated
+based on a color profile calculated from a profiling chart comprising a set of
+estimated color samples calculated on the basis of the color sample received
+by the profile transformer." App. Br. 23 (Claims App.). The Examiner
+
+9
+
+Appeal2015-006508
+Application 13/173,940
+relies on Adam for this limitation. Final Act. 8 (citing Adam iii! 117-21,
+160-61 ); Ans. 7-8, 21 (citing iii! 117-21, 160-61 ). In particular, the
+Examiner finds that Adam's print target patches (color samples) "are
+approximate/estimated versions of the true color" when scanned "due to
+hardware limitations" and that the "approximation that occurs" from patch
+scanning corresponds to the "estimated color samples" recited in claim 9.
+Ans. 21.
+Appellants contend that the "estimated color samples" recited in
+claim 9 differ from the "color sample received by the profile transformer"
+recited in claim 9. Reply Br. 10; see App. Br. 14--15. Appellants then
+contend that Adam fails to disclose both types of color samples required by
+claim 9. Reply Br. 10-11.
+We agree with Appellants. Based on the record before us, the
+Examiner has not adequately explained how the cited portions of Adam
+disclose both types of color samples required by claim 9. Thus, we do not
+sustain the obviousness rejection of claim 9 based on Adam and Perez.
+Independent Claim 12
+Claim 12 Rejected on the Same Grounds as Claim 1
+Claim 12 defines a "method for adjusting a color profile," while
+claim 1 defines a "print system for adjusting a color profile." App. Br. 22,
+24 (Claims App.). Among other things, claim 12 requires "matching ...
+each of the plurality of colors in the color sample with a color in a color
+gamut defined by an original color profile for a printer, wherein the color
+gamut comprises a superset of colors relative to the color sample." Id. at 24.
+Claim 12 also requires "providing ... an adjusted color profile for the
+printer based on the original color profile and the matching." Id.
+
+10
+
+Appeal2015-006508
+Application 13/173,940
+The Examiner rejects claim 12 on the same grounds as claim 1,
+reasoning that "the structural elements of system claim 1 perform all of the
+steps of method claim 12." Final Act. 9; Ans. 8.
+Appellants assert that claims 1 and 12 "differ significantly" because
+claim 1 lacks a feature equivalent to claim 12's matching step. App. Br. 15.
+In response, the Examiner explains that a "color gamut compris[ing] a
+superset of colors relative to the color sample" according to claim 12
+corresponds to a "color sample comprising ... a proper subset of [the]
+gamut of colors printable" according to claim 1 because the two phrases
+cover mathematically equivalent concepts. Ans. 22. The Examiner reasons
+that "if X is a superset of Y, Y is a subset of X." Id. In addition, the
+Examiner explains that claims 1 and 12 "refer to the same concept" despite
+using "providing" versus "matching" because "provid[ing] an adjusted color
+profile" based on an original color profile and a color sample according to
+claim 1 is equivalent to "matching ... colors in the color sample with a color
+in a color gamut defined by an original color profile" according to claim 12.
+
+Id. The Examiner points out that claim 12 "essentially concedes"
+equivalence through the providing step that follows the matching step, i.e.,
+"providing ... an adjusted color profile for the printer based on the original
+color profile and the matching." Id. at 23.
+Appellants do not dispute the Examiner's determination that a "color
+gamut compris[ing] a superset of colors relative to the color sample"
+according to claim 12 corresponds to a "color sample comprising ... a
+proper subset of [the] gamut of colors printable" according to claim 1.
+Reply Br. 11-12. In addition, Appellants do not advance any arguments
+
+11
+
+Appeal2015-006508
+Application 13/173,940
+controverting the Examiner's determination that claims 1 and 12 "refer to
+the same concept." Id.
+A "Color Gamut Compris[ing] a Superset
+of Colors Relative to the Color Sample"
+Appellants argue that Adam and Perez do not teach or suggest how to
+implement claim 12' s matching and providing steps because neither Adam
+nor Perez discloses a "color gamut compris[ing] a superset of colors relative
+to the color sample." Reply Br. 12; see App. Br. 15-16.
+As discussed above for claim 1, however, Adam and Perez each
+disclose a "color sample comprising ... a proper subset of [the] gamut of
+colors printable" by a printer. See Adam i-f 117; Perez i-f 95. Consequently,
+Adam and Perez each disclose a "color gamut compris[ing] a superset of
+colors relative to the color sample" as required by claim 12. As the
+Examiner correctly reasons, "if Xis a superset ofY, Y is a subset of X."
+Ans. 22.
+Teaching Away
+Appellants argue that Adam teaches away from claim 12 for the same
+reasons that Adam teaches away from claim 1. App. Br. 12, 16-17; Reply
+Br. 7-8. We do not consider that argument any more persuasive for
+claim 12 than for claim 1.
+Summary
+Appellants' arguments have not persuaded us that the Examiner erred
+in rejecting claim 12 for obviousness based on Adam and Perez. Hence, we
+sustain the obviousness rejection.
+
+12
+
+Appeal2015-006508
+Application 13/173,940
+Dependent Claims 13 and 14
+Claims 13 and 14 depend directly or indirectly from claim 12. App.
+Br. 24 (Claims App.). Appellants present the same patentability arguments
+for these dependent claims as for claim 12. Id. at 17. When urging
+patentability, Appellants' general statement concerning the "specific
+elements recited" in these dependent claims does not constitute a separate
+patentability argument. See 37 C.F.R. § 41.37(c)(l)(iv). Because
+Appellants do not argue the claims separately, we sustain the obviousness
+rejection of claims 13 and 14 for the reasons applicable to claim 12. See id.
+Independent Claim 15
+A "Color Sample Comprising ... a Proper Subset
+of [the] Gamut [of] Colors Printable" by a Printer
+Like claim 1, claim 15 requires a "color sample comprising ... a
+proper subset of [the] gamut [of] colors printable" by a printer. App. Br. 25
+(Claims App.). Appellants' patentability arguments based on this limitation
+in claim 15 parallel their patentability arguments for the corresponding
+limitation in claim 1. App. Br. 8-10, 17-18; Reply Br. 2-3, 12-13. We do
+not consider those arguments any more persuasive for claim 15 than for
+claim 1.
+A "Profile Transformer" That Provides
+a First Adjusted ICC Printer Profile
+Like claim 1, claim 15 requires a "profile transformer" that provides
+"a first adjusted International Color Consortium (ICC) [printer] profile"
+based on "(i) the color sample" and "(ii) an original first ICC [printer]
+profile" associated with a first substrate. App. Br. 25 (Claims App.).
+Appellants' patentability arguments based on this limitation in claim 15
+parallel their patentability arguments for the corresponding limitation in
+13
+
+Appeal2015-006508
+Application 13/173,940
+claim 1. App. Br. 10-12, 18-19; Reply Br. 3---6, 12-13. We do not consider
+those arguments any more persuasive for claim 15 than for claim 1.
+Transform Values Calculated "Based on the Color
+Sample and the Original Color [Printer] Profile"
+Claim 15 recites "calculating a forward transform value and a reverse
+transform value for the first adjusted [International Color Consortium] ICC
+[printer] profile based on the color sample and the original color [printer]
+profile." App. Br. 25 (Claims App.). The Examiner cites Adam for this
+limitation. Final Act. 10 (citing Adam i-fi-f 159---61 ); Ans. 10, 28 (citing
+Adam i-fi-f 159---61 ). In particular, the Examiner finds that Adam discloses
+populating forward and reverse lookup tables using scanned print target
+patches (color samples). Ans. 28.
+Appellants contend that the concept of calculating forward and
+reverse transform values for a first adjusted printer profile based on a color
+sample and an original printer profile "is outside of the scope and content of
+Adam taken in view of Perez." App. Br. 19. More specifically, Appellants
+assert that Adam does not teach or suggest an "original color [printer]
+profile" and, therefore, cannot teach or suggest "a forward transform value
+and a reverse transform value" calculated "based on" a color sample and the
+"original color [printer] profile." Reply Br. 13-14.
+Like claim 6, the obviousness rejection for claim 15 rests on Perez as
+well as Adam. Final Act. 2; Ans. 2. And like claim 6, Appellants do not for
+claim 15 address what the Adam-Perez combination "taken as a whole
+would suggest to one of ordinary skill in the art" and have not established
+Examiner error. App. Br. 19; Reply Br. 13-14.
+Appellants suggest that the forward CMY-to-CIEL *a*b* transform
+and subsequent inversion to produce a reverse CIEL *a*b*-to-CMY
+14
+
+Appeal2015-006508
+Application 13/173,940
+transform according to Adam paragraph 161 does not correspond to the
+forward and reverse transform values recited in claim 15. App. Br. 19.
+Adam instructs that ( 1) print target patches (color samples) with
+unique CMYK values "are read by a scanner and a spectrophotometer,"
+(2) those values are matched to CIEL *a*b* values "to build a forward
+transform from the CMY values to the CIEL *a*b* values," and (3) the
+"forward table from CMY to scanned CIEL *a*b* values is inverted to
+produce a CIEL *a*b* to CMY transform." Adam i-fi-f 160-61. Accordingly,
+Adam discloses forward and reverse transform values based on scanned
+color samples. See Ans. 28.
+Teaching Away
+Appellants argue that Adam teaches away from claim 15 for the same
+reasons that Adam teaches away from claim 1. App. Br. 12, 19-20; Reply
+Br. 7-8. We do not consider that argument any more persuasive for
+claim 15 than for claim 1.
+Summary
+Appellants' arguments have not persuaded us that the Examiner erred
+in rejecting claim 15 for obviousness based on Adam and Perez. Hence, we
+sustain the obviousness rejection.
+The Rejection of Claims 5, 8, and 10 Under 35 U.S.C. § 103(a)
+
+Claims 5, 8, and 10 depend indirectly from claim 1. App. Br. 23
+(Claims App.). Appellants assert that these dependent claims are
+"patentable for at least the same reasons as claim 1, and for the specific
+elements recited therein." Id. at 20. However, Appellants do not articulate
+any patentability arguments for these dependent claims beyond the
+arguments regarding claim 1. Id. at 20-21. Appellants' general references
+
+15
+
+Appeal2015-006508
+Application 13/173,940
+to the "specific elements recited therein" do not constitute separate
+patentability arguments. See 37 C.F.R. § 41.37(c)(l)(iv). In addition, the
+statements that Olson and Doser do not "make up for the deficiencies of
+Adam and Perez" do nothing to separately distinguish these dependent
+claims from the references. Hence, we sustain the obviousness rejections of
+these dependent claims.
+DECISION
+We affirm the rejections of claims 1-8 and 10-15 under 35 U.S.C.
+
+§ 103(a).
+We reverse the rejection of claim 9 under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+
+§ 1.136(a)(l )(iv).
+
+AFFIRMED-IN-PART
+
+16
+
+

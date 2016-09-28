@@ -1,0 +1,281 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+14/111,288
+
+10/11/2013
+
+Burkay Donderici
+
+201 l-IP-043176 US
+(063718
+
+8493
+
+15604
+
+7590
+
+09/19/2016
+
+EXAMINER
+
+Baker Botts LLP,
+910 Louisiana Street, One Shell Plaza
+Houston, TX 77002
+
+MURPHY, DANIELL
+
+ART UNIT
+
+PAPER NUMBER
+
+3645
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+susan.stewart@bakerbotts.com
+debie.hernandez@bakerbotts.com
+tami.day@bakerbotts.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BURKAY DONDERICI and BARIS GUNER
+
+Appeal2016-006721
+Application 14/111,288 1
+Technology Center 3600
+
+Before STEFAN STAICOVICI, GEORGE R. HOSKINS, and
+BRANDON J. WARNER, Administrative Patent Judges.
+ST AI CO VICI, Administrative Patent Judge.
+
+DECISION ON APPEAL
+STATEMENT OF THE CASE
+Burkay Donderici and Baris Guner (Appellants) appeal under 35
+U.S.C. § 134(a) from the Examiner's final decision rejecting under 35
+U.S.C. § 102(b) claims 1, 2, 8-11, and 16 as being anticipated by Wang (US
+8,542,553 B2, iss. Sept. 24, 2013) and under 35 U.S.C. § 103(a) claims 3, 6,
+7, 12, 14, and 15 as being unpatentable over Wang and Unz (US 3,877,033,
+
+According to Appellants, the real party in interest is Halliburton
+Energy Services, Inc. Appeal Br. 2 (filed Nov. 6, 2015).
+
+Appeal2016-006721
+Application 14/111,288
+
+iss. Apr. 8, 1975). 2 ' 3 We have jurisdiction over this appeal under 35 U.S.C.
+
+§ 6(b ).
+
+SUMMARY OF DECISION
+We AFFIRM.
+INVENTION
+Appellants' invention relates to "testing and evaluation of
+subterranean formations and formation fluids." Spec. 1, 11. 6-7.
+Claims 1 and 10 are independent. Claim 1 is illustrative of the
+claimed invention and reads as follows:
+1.
+A system for measuring a time semblance of a formation,
+compnsmg:
+a transmitter, wherein the transmitter transmits energy
+into the formation;
+a plurality of sensors, wherein the plurality of sensors
+measures energy received from the formation, wherein at least
+one of the plurality of sensors is positioned in a non-uniform
+axial spacing configuration, and wherein the non-uniform axial
+
+2
+
+Claims 4, 13, and 17-20 are canceled. See Appeal Br. 7-9; Ans. 1
+(transmitted Apr. 28, 2016). Claim 5 is objected to by the Examiner as
+being dependent upon a rejected base claim, but otherwise is indicated as
+being allowable if rewritten in independent form including all of the
+limitations of the base claim and any intervening claim. Final Act. 15.
+Claim 5 is not part of the instant appeal.
+3
+As claims 17-20 are canceled, the rejection under 35 U.S.C. § 102(b)
+of claims 17 and 19 as being anticipated by Kimball (US 4,594,691, iss. June
+10, 1986) is moot. Likewise, the rejections under 35 U.S.C. § 103(a) of
+claims 17 and 19 as being unpatentable over Cuomo (US 4,363,115, iss.
+Dec. 7, 1982) and Wang, and of claims 18 and 20 as being unpatentable over
+Kimball, are moot.
+2
+
+Appeal2016-006721
+Application 14/111,288
+
+spacing configuration is determined, at least in part, using a
+time semblance algorithm; and
+a data processing unit including at least one time
+semblance algorithm, wherein the data processing unit receives
+measurements from the plurality of sensors and processes the
+measurements to determine a time semblance of the formation.
+ANALYSIS
+Each of independent claims 1 and 10 requires, inter alia, that "the
+non-uniform axial spacing configuration is determined, at least in part, using
+a time semblance algorithm." See Appeal Br. 7, 8 (Claims App.).
+The Examiner finds that Wang teaches all the limitations of
+independent claims 1 and 10, including the limitation recited above. See
+Final Act. 4--5 (citing Wang, col. 6, 1. 20-col. 8, 1. 19, Figs. 4, 6-8)
+(transmitted Feb. 4, 2015). According to the Examiner,
+Wang shows analysis of the effects of the non-uniform spacing
+on coherence/semblance analysis (FIGS. 7, 8; col. 10, lines 547), and thus indeed does "disclose, teach, or suggest, expressly
+or inherently, each and every element of independent claims 1
+and 1O" (Remarks, p. 11, lines 1-2), since the configurations of
+FIGS. 5 and 6 of Wang would be unacceptable were the
+coherence/semblance analysis to show such.
+Id. at 3.
+Appellants argue that Wang fails to teach that, "the non-uniform axial
+spacing configuration is determined, at least in part, using a time semblance
+algorithm," as recited by each of independent claims 1 and 10. Appeal Br.
+3. According to Appellants, Wang's teaching of selecting non-uniform
+spacing such that "skipping of an integral number of cycles between all pairs
+of consecutive receivers in the array is impossible" is not a teaching of
+"'using a time semblance algorithm' to determine a spacing configuration, as
+3
+
+Appeal2016-006721
+Application 14/111,288
+
+required," by each of independent claims 1 and 10. Appeal Br. 3--4 (citing
+Wang, col. 8, 11. 1-8). Appellants contend that, "each of equations 3-5 of
+Wang rely on energy integrations ... as opposed to the required 'time
+
+semblance algorithm.'" Reply Br. 2 (citing Wang, col. 6, 11. 56-58).
+Appellants further assert that the portions of Wang cited by the Examiner as
+evidence of Wang's "use of a time semblance algorithm to determine a 'nonuniform axial spacing configuration'," "appear to describe analysis on
+sensor spacing that is already determined." Appeal Br. 4. Thus, Appellants
+conclude that Wang's "aliasing and cycle skipping [does] not explicitly or
+inherently disclose a time semblance algorithm." Reply Br. 2.
+Similar to Appellants' Specification, Wang discloses that, in contrast
+to spacing consecutive receivers at uniform intervals, which generates
+aliasing, "non-uniform spacing between consecutive receivers" reduces
+"constructive interference which leads to aliasing" and therefore, reduces or
+even eliminates the aliasing effect. Wang, col. 8, 11. 2--4, 18-19; see also
+Spec., 3, 1. 24--4, 1. 2. As noted by the Examiner, Wang discloses that, "nonuniform spacing can be selected ... so that skipping of an integral number
+of cycles between all pairs of consecutive receivers in the array is
+impossible." Wang, col. 8, 11. 5-8 (emphasis added). For example, Wang
+describes spacing consecutive receivers axially at non-uniform distances in
+arrays 180, 190 and then, in the course of a coherence/time semblance
+analysis, 4 shows that in such configurations, the effects of skipping cycles
+cannot be present. Id. at col. 10, 11. 5-39, Figs. 7, 8.
+
+4
+
+Wang describes a conventional coherence/time semblance algorithm.
+See Wang, col. 5, 1. 48---col. 7, 1. 64.
+4
+
+Appeal2016-006721
+Application 14/111,288
+
+In other words, the non-uniform axial spacing of Wang's consecutive
+receivers is "selected" when, in the course of a coherence/time semblance
+analysis, the effects of skipping cycles cannot be present. Although we
+appreciate Appellants' position that Wang's coherence/time semblance
+analysis is performed on "sensor spacing that is already determined,"
+nonetheless, such sensor spacing has to be then "selected" such that the
+effects of skipping cycles cannot be present in a coherence/time semblance
+analysis. See Appeal Br. 4. In other words, the non-uniform axial spacing
+that is selected by the user is the spacing where the effects of skipping cycles
+cannot be present in a coherence/time semblance analysis. Therefore, Wang
+discloses that the non-uniform axial spacing is "determined, at least in part"
+by a time semblance analysis, as called for by each of independent clams 1
+and 10. If Appellants are arguing that the claims require using a time
+semblance analysis to calculate the non-uniform axial spacing of consecutive
+sensors, we note that such a limitation is not recited and limitations not
+appearing in the claims cannot be relied upon for patentability. In re Self,
+671F.2d1344, 1348(CCPA1982). We thus agree with the Examiner that,
+"the tool design [of Wang] is based on applying a time semblance
+algorithm." Ans. 2. 5
+Appellants further contend that the "Examiner essentially disregards
+the requirement of 'non-uniform axial spacing' (emphasis added) as [the]
+
+5
+
+All the page numbers of the Examiner's Answer are labeled as "Page
+1." Therefore, for ease of referring to the Examiner's Answer, we have
+assigned page numbers 2 through 4 to the pages following the first instance
+of "Page 1."
+5
+
+Appeal2016-006721
+Application 14/111,288
+
+Examiner focuses only on 'non-uniform spacing."' Reply Br. 2. We are not
+persuaded by Appellants' argument because the Examiner explicitly finds
+that Wang teaches "sensors ... positioned in a non-uniform axial spacing
+configuration." Final Act. 4 (emphasis added). The Examiner is correct that
+Wang's Figures 4, 5, 7, and 8, show a plurality of sensors positioned in a
+non-uniform axial spacing configuration. See id. at 5. For example, in
+Figure 4, sensors 142b, 142a, and 144d are positioned axially and the
+distance 141 between sensors 142b, 142a is different from the distance 143
+between sensors 142a, 144d.
+Lastly, Appellants argue that the Examiner acknowledged in the
+Interview Summary (transmitted Apr. 21, 2015) the possibility that the
+instant anticipation rejection based upon Wang is deficient. See Appeal Br.
+4--5. We are not persuaded by Appellants' argument because the Examiner
+merely set forth a hypothetical situation when stating, "even if the Office
+were to concede that Wang is not anticipatory of claim 1." See Interview
+
+Summary 3 (emphasis added). On the record before us, the Examiner is
+quite clear in the position "that the rejections of independent claims 1 and 10
+are, and have always been, rejections under 35 U.S.C. § 102(b)." Ans. 3.
+In conclusion, for the foregoing reasons, we sustain the rejection
+under 35 U.S.C. § 102(b) of independent claims 1 and 10 as being
+anticipated by Wang.
+Appellants do not present any other substantive arguments with
+respect to the rejections of claims 2, 3, 6-9, 11, 12, and 14--16. See Appeal
+Br. 5. Accordingly, for the reasons set forth supra, we also sustain the
+rejection under 35 U.S.C. § 102(b) of claims 2, 8, 9, 11, and 16 as being
+6
+
+Appeal2016-006721
+Application 14/111,288
+
+anticipated by Wang, and under 35 U.S.C. § 103(a), of claims 3, 6, 7, 12, 14,
+and 15 as being unpatentable over Wang and Unz.
+
+SUMMARY
+The Examiner's decision to reject claims 1-3, 6-12, and 14--16 is
+affirmed.
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+AFFIRMED
+
+7
+
+

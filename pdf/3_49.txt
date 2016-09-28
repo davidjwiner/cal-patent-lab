@@ -1,0 +1,457 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+10/127,109
+
+04/22/2002
+
+Michael Michio Ouye
+
+2222.5390008
+
+5024
+
+26111
+
+7590
+
+09/20/2016
+
+EXAMINER
+
+STERNE, KESSLER, GOLDSTEIN & FOX P.L.L.C.
+1100 NEW YORK AVENUE, N.W.
+WASHINGTON, DC 20005
+
+REAGAN, JAMES A
+
+ART UNIT
+
+PAPER NUMBER
+
+3621
+
+MAILDATE
+
+DELIVERY MODE
+
+09/20/2016
+
+PAPER
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte MICHAEL MICHIO OUYE and STEVEN TOYE CROCKER
+
+Appeal2014-002461
+Application 10/127,109
+Technology Center 3600
+
+Before ANTON W. PETTING, NINA L. MEDLOCK, and
+CYNTHIA L. MURPHY, Administrative Patent Judges.
+PETTING, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE 1
+Michael Michio Ouye and Steven Toye Crocker (Appellants) seek
+review under 35 U.S.C. § 134 of a final rejection of claims 49-76, the only
+claims pending in the application on appeal. We have jurisdiction over the
+appeal pursuant to 35 U.S.C. § 6(b).
+
+1
+
+Our decision will make reference to the Appellants' Appeal Brief ("App.
+Br.," filed August 23, 2013) and Reply Brief ("Reply Br.," filed December
+6, 2013), and the Examiner's Answer ("Ans.," mailed October 8, 2013), and
+Final Action ("Final Act.," mailed December 27, 2012).
+
+Appeal2014-002461
+Application 10/127,109
+The Appellants invented a way of evaluating access rights to a protected
+system or secured digital assets. Spec., para. 2.
+An understanding of the invention can be derived from a reading of
+exemplary claim 49, which is reproduced below (bracketed matter and some
+paragraphing added).
+49. A method for evaluating an access right to an unencrypted
+data portion of a secured file, the method comprising:
+[ 1] obtaining a system rule set that is discrete from the secured
+file,
+wherein the system rule set
+comprises rules controlling access to the secured
+file in an inter/intra enterprise environment
+and
+permits allowing a user to access protected
+systems;
+[2] evaluating the rules of the system rule set
+to produce a first logic pass [Roolean TRUE value];
+[3] obtaining an access rule set, specific to the secured file,
+from a header portion of the secured file,
+wherein the access rule set comprises rules regulating at
+least a duration and a type of access to the secured file;
+and
+[4] evaluating the rules of the access rule set
+to produce a second logic pass [Boolean TRUE value],
+wherein producing the second logic pass comprises
+obtaining permission to access the secured file.
+
+2
+
+Appeal2014-002461
+Application 10/127,109
+
+The Examiner relies upon the following prior art:
+Schneck
+
+us 5,933,498
+
+Aug. 3, 1999
+
+Stefik
+
+US 2001/0014882 Al
+
+Aug. 16, 2001
+
+Carey
+
+US 2002/0112035 Al
+
+Aug. 15, 2002
+
+Ginter
+
+US 2005/0177716 Al
+
+Aug. 11, 2005
+
+Claims 49-51, 53-59, 61---63, and 65-71 stand rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over Carey, Ginter, and Stefik.
+Claims 52, 60, 64, and 72 stand rejected under 35 U.S.C. § 103(a) as
+unpatentable over Carey, Ginter, Stefik, and Schneck.
+
+ISSUES
+The issues of obviousness tum primarily on whether the art shows it was
+predictable to perform two logical tests on files and then allow a user to
+access those files.
+
+FACTS PERTINENT TO THE ISSUES
+The following enumerated Findings of Fact (FF) are believed to be
+supported by a preponderance of the evidence.
+
+Facts Related to Claim Construction
+01.
+
+A "logic pass" refers to a Boolean TRUE value. Spec.,
+para. 4 3. That is, a logical pass refers to the opposite of FAIL, as
+in PASS/FAIL, and not to an act of passing as in a passing
+through an instance of software execution.
+
+3
+
+Appeal2014-002461
+Application 10/127,109
+Facts Related to the Prior Art
+Carey
+
+02.
+
+Carey is directed to content management systems, and more
+particularly to content information for both traditional and nontraditional media. Carey, para. 3.
+
+03.
+
+Carey's client rules stored in a client profile database are
+applied to the content stored in a content database. The effect of
+the application of these rules is to eliminate those content files that
+do not meet the criteria of the applied client rules. Thus, the
+resulting content files are those files that are somehow related or
+applicable to the profile of the client for which content files are
+being searched. Carey, para. 176.
+
+Ginter
+
+04.
+
+Ginter is directed to secure transaction management. Ginter,
+para. 2.
+
+05.
+
+Ginter describes its object construction stage as using
+information in object configuration file 1240 to assemble or
+modify a container. This process typically involves
+communicating a series of events to Secure Processing
+Environment (SPE) 503 to create one or more permissions records
+(PERCs) 808, public headers, private headers, and to encrypt
+content, all for storage in the new object 300. Ginter, para. 908.
+
+4
+
+Appeal2014-002461
+Application 10/127,109
+06.
+
+Ginter describes a traveling object structure as including a
+permissions record (PERC) within a private header. Ginter,
+para. 1107.
+
+Stefik
+
+07.
+
+Stefik is directed to distribution and usage rights enforcement
+for digitally encoded works. Stefik, para. 1.
+
+08.
+
+Stefik describes controlling the distribution and use of digital
+works using digital tickets. A ticket is an indicator that the ticket
+holder has already paid for or is otherwise entitled to some
+specified right, product or service. A "digital ticket" is used to
+enable the ticket holder to exercise usage rights specifying the
+requirement of the digital ticket. Usage rights are used to define
+how a digital work may be used or distributed. Specific instances
+of usage rights are used to indicate a particular manner of use or
+distribution. A usage right may specify a digital ticket which must
+be present before the right may be exercised. For example, a
+digital ticket may be specified in a Copy right of a digital work, so
+that exercise of the Copy right requires the party that desires a
+copy of the digital work be in possession of the necessary digital
+ticket. After a copy of the digital work is successfully sent to the
+requesting party, the digital ticket is "punched" to indicate that a
+copy of the digital work has been made. When the ticket is
+"punched" a predetermined number of times, it may no longer be
+used. Stefik, para. 15.
+
+5
+
+Appeal2014-002461
+Application 10/127,109
+09.
+
+Stefik describes digital works as being stored in repositories.
+Repositories enforce the usage rights for digital works. Each
+repository has a "generic ticket agent" which punches tickets.
+Stefik, para. 16.
+
+10.
+
+Stefik describes usage rights as being attached directly to digital
+works. The structure of a digital work, in particular composite
+digital works, may be naturally organized into an acyclic structure
+such as a hierarchy. For example, a magazine has various articles
+and photographs which may have been created and are owned by
+different persons. Each of the articles and photographs may
+represent a node in a hierarchical structure. Consequently,
+controls, i.e. usage rights, may be placed on each node by the
+creator. Stefik, para. 96.
+
+11.
+
+Stefik describes grammar element 1501 "Digital Work
+Rights:=(Rights*)" that defines the digital work rights as a set of
+rights. The set of rights attached to a digital work define how that
+digital work may be transferred, used, performed or played. A set
+of rights will attach to the entire digital work and in the case of
+compound digital works, each of the components of the digital
+work. The usage rights of components of a digital may be
+different. Stefik, para. 153.
+
+12.
+
+Stefik describes grammar element 1502 "Right:=(Right---Code
+{Copy-Count} {Control-Spec} {Time-Spec} {Access-Spec}
+{Fee-Spec})" which enumerates the content of a right. Each
+usage right must specify a right code. Each right may also
+
+6
+
+Appeal2014-002461
+Application 10/127,109
+optionally specify conditions which must be satisfied before the
+right can be exercised. These conditions are copy count, control,
+time, access and fee conditions. Stefik, para. 154.
+13.
+
+Stefik describes grammar element 1503 "Right-Code:=RenderCode. vertline. Transport-Co--- de. vertline. File-ManagementCode. vertline.Derivative-Works- Code Configuration-Code"
+which distinguishes each of the specific rights into a particular
+right type (although each right is identified by distinct right
+codes). In this way, the grammar provides a catalog of possible
+rights that can be associated with parts of digital works. Stefik,
+para. 156.
+
+ANALYSIS
+Before launching into an analysis of the rejections, we first find that the
+Specification resolves an ambiguity in claim 49 in a manner that might be
+unexpected. Claim 49 has two steps that each produces a logic pass. A
+casual reading of this in the context of a method claim might lead one to
+assume this logic pass means a pass through the logic of a software routine.
+This would be incorrect. Instead, the Specification paragraph 43
+lexicographically defines a logic pass as a Boolean TRUE value used in the
+sense of PASS/FAIL.
+Claim 49 is a method claim with four steps, viz. obtaining a rule set,
+evaluating those rules to produce a TRUE value result, obtaining another
+rule set, and evaluating those rules to also produce a TRUE value result.
+That is, in fact, the scope of the actual steps claim 49 performs. The steps
+affirmatively require that the first rule set be discrete from some file and the
+7
+
+Appeal2014-002461
+Application 10/127,109
+second set be within the header portion of that file. Appellants do not
+contest this insofar as this goes, other than to argue the motivation to
+combine the two rule sets in a single process. Instead, Appellants contest the
+mental perceptions applied by the art as contrasted with claim 49 in rule
+interpretations and aspirational desire as to how the rules are then to be
+applied.
+The first set of rules are labelled as rules controlling access to the
+secured file in an inter/intra enterprise environment and that permit allowing
+a user to access protected systems. The second set of rules is labelled as an
+access rule set comprising rules regulating at least a duration and a type of
+access to the secured file. Although the second step evaluates a rule to
+produce a TRUE result, claim 49 does nothing with this result. Step 3 is
+independent of the result in step 2. Similarly, although the fourth step
+evaluates a rule to produce a TRUE result, claim 49 does nothing with this
+result. The final wherein clause of the fourth step suggests we perceive the
+TRUE result as a permission to access a secured file, as nothing is done with
+this result; this perception as a permission is just that, a mental perception in
+the mind of the beholder. Although this phrase uses the word "obtaining,"
+no implementation is recited and so mentally interpreting the second pass as
+such permission is within the scope of "obtaining."
+Nothing in the claim depends on or enforces the perceptual labels the
+claim suggests. Mental perceptions of what data represents are nonfunctional and given no weight. King Pharm., Inc. v. Eon Labs, Inc.,
+616 F.3d 1267, 1279 (Fed. Cir. 2010) ("[T]he relevant question is whether
+'there exists any new and unobvious functional relationship between the
+printed matter and the substrate.'") (citations omitted). See also In re Lowry,
+
+8
+
+Appeal2014-002461
+Application 10/127,109
+32 F.3d 1579, 1583 (Fed.Cir.1994) (describing printed matter as "useful and
+intelligible only to the human mind") (quoting In re Bernhart, 417 F .2d
+1395, 1399 (CCPA 1969)). Data labels are just examples of such mental
+perceptions. Data, being a succession of binary digits, are just those digits,
+not perceptual labels of those digits. The binary digits may impose some
+functional consequence, but absent some recitation of how so, such
+consequence is not an issue.
+The Examiner applies Carey and Stefik as each describing rules separate
+from a file and Ginter as describing rules stored within a file's header.
+Carey describes using rules to filter down the files of interest and Stefik
+applies rules to assign permissions. Thus, one of ordinary skill would have
+known to combine the references to achieve the combined result of filtering
+down and then establishing permissions of those files from the filtration.
+Ginter suggests advantages to putting those permission rights in a file
+header. Thus, even granting the labels of the data patentable weight, the
+Examiner finds the combination of the applied art describes claim 49.
+The arguments come down to arguing relatively broad terms and the
+issues become whether the breadth of the terms is sufficient to encompass
+the art.
+We are not persuaded by Appellants' argument that
+Carey is not concerned with protecting access to stored files, as
+in the present claims. Rather, Carey is concerned with
+recommending the most pertinent content from a content
+database to a particular client. ... Carey's "rules [that]
+eliminate those content files that do not meet the criteria" must
+be viewed in this context. Carey's "client rules" are used to
+select "experience enhancing content" for the consumer. . . . In
+other words, the "client rules" of Carey do not control access to
+
+9
+
+Appeal2014-002461
+Application 10/127,109
+secured content-they instead control dissemination of content
+to the client's customer.
+In essence, Carey describes the winnowing down of
+content that will be provided to a specific end user (customer)
+who is not requesting the particular content. . . . This has
+nothing to do with protecting the content from the specific end
+user. Quite the opposite, in fact. The Examiner's rejection
+seeks to tum Carey on its head: Carey attempts to limit the
+content provided to a particular end user, while independent
+claims 49 and 61 seek to control the number of users that are
+able to access a secured file.
+App. Br. 9-10. The claim limitations at issue are a rule set that comprises
+"rules controlling access to the secured file in an inter/intra enterprise
+environment and permits allowing a user to access protected systems."
+Again, none of the steps actually controls or allows access, the steps only
+recite rules that have such a mental perception attached to them. Further, the
+scope of such controlling and allowing is not further narrowed and no
+implementation is recited or narrowed. The claim does not recite that the
+allowing is directed to the protection as contrasted with the accessing.
+Filtering out files that will not be accessed as a result, as in Carey, is within
+the scope of controlling such access and permits only those files that result
+from the filter to be accessed. The files filtered out become unavailable for
+access.
+We are not persuaded by Appellants' argument that
+Stefik does not teach or suggest what the Examiner alleges ...
+The Examiner's rationale for relying on paragraph [0276] of
+Stefik is that "STEFIK ... discloses repeating identification
+steps before access to files is granted." Final Office Action,
+p. 8. But it is not enough that Stefik discusses the repetition of
+a "registration message ... until a satisfactory identification
+certificate is found." From this statement, the Examiner is
+basically asserting that the two "evaluating" elements of
+10
+
+Appeal2014-002461
+Application 10/127,109
+independent claim 49 are repetitions of the same actions. tiut
+independent claim 49 does not recite that the same evaluation is
+performed twice. Instead, independent claim 49 recites two
+types of evaluation.
+App. Br. 10-11. The Examiner relies on Stefik for rules controlling
+permissions to access a file. Stefik describes this explicitly using a digital
+rights grammar in which to couch such rules. The Examiner apparently read
+more into claim 49 than is there with regard to a second pass, assuming it
+also meant repeating a test. This is not what claim 49 recites, and the
+Examiner's findings in this regard are harmless error.
+Claim 61 is similar to claim 49 and is argued based on claim 49.
+As to those remaining dependent claims that are argued separately, we
+adopt the Examiner's findings and analysis and reach similar legal
+conclusions.
+
+CONCLUSIONS OF LAW
+The rejection of claims 49-51, 53-59, 61---63, and 65-71 under
+35 U.S.C. § 103(a) as unpatentable over Carey, Ginter, and Stefik is proper.
+The rejection of claims 52, 60, 64, and 72 under 35 U.S.C. § 103(a) as
+unpatentable over Carey, Ginter, Stefik, and Schneck is proper.
+
+DECISION
+The rejection of claims 49-76 is affirmed.
+No time period for taking any subsequent action in connection with this
+appeal may be extended under 37 C.F.R. § 1.136(a). See 37 C.F.R.
+§ 1.136(a)(l)(iv) (2011).
+AFFIRMED
+
+11
+
+

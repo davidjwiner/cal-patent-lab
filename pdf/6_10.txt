@@ -1,0 +1,441 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+14/094,637
+
+12/02/2013
+
+Craig S. Etchegoyen
+
+UN-NP-DF-095
+
+9952
+
+96051
+
+7590
+
+09/19/2016
+
+Uniloc USA Inc.
+Legacy Town Center
+7160 Dallas Parkway
+Suite 380
+Plano, TX 75024
+
+EXAMINER
+NGUYEN, PHONG H
+
+ART UNIT
+
+PAPER NUMBER
+
+2162
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+sean. burdick@unilocusa.com
+tkiatkulpiboone@unilocusa.com
+kris.pangan@unilocusa.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte CRAIG S. ETCHEGOYEN
+
+Appeal2015-003717
+Application 14/094,637
+Technology Center 2100
+
+Before CARLA M. KRIVAK, JON M. JURGOVAN, and
+ADAM J. PYONIN, Administrative Patent Judges.
+
+JURGOVAN, Administrative Patent Judge.
+DECISION ON APPEAL
+Appellant 1 seeks review under 35 U.S.C. § 134(a) from a final
+rejection of claims 1, 2, and 16-18. 2 We have jurisdiction under 35 U.S.C.
+
+§ 6(b ).
+We affirm. 3
+
+1
+
+Appellants identify Uniloc Luxembourg S.A. and Uniloc USA, Inc., as the
+real parties in interest. (App. Br. 3.)
+2
+Claims 3-15 and 19-24 are canceled.
+3
+Our Decision refers to the Specification filed Dec. 2, 2013 ("Spec."), the
+Final Office Action mailed Aug. 15, 2014 ("Final Act."), the Appeal Brief
+filed Oct. 13, 2014 ("App. Br.") the Examiner's Answer mailed Dec. 3, 2014
+("Ans."), and the Reply Brief filed Feb. 3, 2015 ("Reply Br.").
+
+Appeal2015-003717
+Application 14/094,637
+CLAHvfED SUBJECT ~vfATTER
+
+The claims are directed to a method of using digital fingerprints to
+identify a remotely located device such as a smart phone or computer.
+(Spec. Abstract, i-fi-f 12, 29.) Claim 1, reproduced below, is illustrative of the
+claimed subject matter:
+1. A method for identifying a remotely located device, the
+method comprising:
+sending characteristic extraction logic to the remotely
+located device, wherein the characteristic extraction logic causes
+the remotely located device to retrieve characteristics of the
+device and at least one characteristic of a user of the device from
+a publicly available profile of the user of the device;
+receiving a digital fingerprint of the device from the
+device, wherein the digital fingerprint includes data representing
+the characteristics of the device and at least the characteristic of
+the user of the device; and
+comparing the digital fingerprint of the device to a
+reference digital fingerprint to determine whether the digital
+fingerprint of the device and the reference digital fingerprint
+identify one and the same device.
+(App. Br. 21- Claims App'x.)
+
+REJECTIONS
+Claims 1, 2, and 16 stand rejected under 35 U.S.C. § 103(a) based on
+Park (US 2006/0274753 Al, Dec. 7, 2006) and Rabinovich (US 8,584,114
+B2, Nov. 12, 2013). (Final Act. 3-5.)
+Claim 17 stands rejected under 35 U.S.C. § 103(a) based on Park,
+Rabinovich, and Dietl (US 2004/0143627 Al, July 22, 2004). (Final Act. 56.)
+Claim 18 stands rejected under 35 U.S.C. § 103(a) based on Park,
+Rabinovich, Dietl, and Eckersley (Peter Eckersley, How Unique is Your Web
+2
+
+Appeal2015-003717
+Application 14/094,637
+
+Browser, Electronic Frontier Foundation, PETS '10 Proceedings of the I01h
+International Conference on Privacy Enhancing Technologies, pp. 1-18,
+Springer-Verlag Berlin, Heidelberg (2010)). (Final Act. 6-7.)
+
+ANALYSIS
+The question of obviousness is resolved on the basis of underlying
+factual determinations, including: (1) the scope and content of the prior art;
+(2) any differences between the claimed subject matter and the prior art; (3)
+the level of skill in the art; and (4) where in evidence, so-called secondary
+considerations. Graham v. John Deere Co., 383 U.S. 1, 17-18 (1966). A
+claim is unpatentable under 35 U.S.C. § 103(a) if the differences between
+the claimed subject matter and the prior art are such that the subject matter,
+as a whole, would have been obvious at the time the invention was made to a
+person having ordinary skill in the art to which said subject matter pertains.
+
+KSR Int'! Co. v. Teleflex Inc., 550 U.S. 398, 406 (2007) ("KSR").
+With this background in mind, we proceed to analysis of Appellant's
+arguments and the Examiner's findings and conclusions of obviousness.
+
+Claim 1
+A. Retrieving a User Characteristic from a Publicly Available Profile
+Appellant notes that claim 1 recites "the characteristic extraction logic
+causes the remotely located device to retrieve ... at least one characteristic
+of a user of the device from a publicly available profile of the user of the
+device." (App. Br. 6.) Appellant argues the Examiner, in determining claim
+1 to be obvious, relied on teachings of Rabinovich concerning a user agent,
+
+user agent profile, and user agent URL, and a teaching that, in method step
+192, a user repository 142 inside of a data center 40 is consulted to obtain a
+
+3
+
+Appeal2015-003717
+Application 14/094,637
+user configuration. (App. Br. 6.) Appellant contends the Examiner failed to
+show that the user agent, user agent profile, user agent URL or user
+configuration of Rabinovich are retrieved "from a publicly available profile
+of the user" as claimed. (App. Br. 7-8, Reply Br. 3-5.) Appellant further
+argues Rabinovich's repository is used locally within the data center and is
+not taught to be made available outside the data center. (App. Br. 7 citing
+Rabinovich 13:30-32.)
+We disagree with Appellant's arguments for several reasons.
+Rabinovich teaches that a game of a producer is made available for sale to
+the public. (Rabinovich 7:5-6.) As the Examiner notes, a mobile telephone
+of a consumer transmits a game request to the data center that responds with
+a game application customized to the user's device and preferences as
+identified by the stored user and device configurations. (Ans. 2-3 citing
+Rabinovich 7:23-35, Fig. 1.) The Examiner thus concludes the user
+preferences embodied in customizing the game are publicly available to the
+mobile telephone outside of the data center. (Id.) We agree with the
+Examiner.
+Moreover, there are additional teachings in Rabinovich supporting the
+claim limitation of publicly available user characteristics. Specifically,
+Rabinovich's user repository stores user configurations for groups, and the
+personal information of a user groups' configuration is "publicly available"
+at least as concerns the individuals within the group. (See Rabinovich
+13:30-37.)
+Furthermore, there are only two options for the "characterizing
+information": it may be public or non-public. Under this circumstance, the
+
+4
+
+Appeal2015-003717
+Application 14/094,637
+Supreme Court states that such a feature may be "obvious to try." KSR Int'l
+Co. v. Teleflex Inc., 550 U.S. 398, 421 (2007) ("KSR").
+
+Thus, for all of the foregoing reasons, we are not persuaded the
+Examiner errs in this rejection.
+B. Argument concerning a digital fingerprint of a device, the digital
+fingerprint including data representing a user characteristic
+
+Claim 1 recites "receiving a digital fingerprint of the device from the
+device, wherein the digital fingerprint includes data representing ... at least
+the characteristic of the user of the device." (See claim 1, supra.) Appellant
+argues Park and Rabinovich do not teach or suggest any characteristic of a
+user of a device being included in a digital fingerprint or other identifier of
+the device. (App. Br. 8-15, Reply Br. 5-7.) We are not persuaded that the
+Examiner errs in this rejection.
+As the Examiner notes, Rabinovich teaches
+[t]he device fingerprinting subsystem 138 identifies at least the
+following characteristics of a remote client device: the browser's
+user agent; the user agent profile; and the user agent profile URL.
+The device fingerprinting subsystem 138 attempts to map these
+elements one-by-one to a device configuration stored on the
+device database 136.
+(Ans. 3 citing Rabinovich 12:25-30.) The Examiner interprets Rabinovich's
+"user agent" as encompassed by "a user." (Id.) The Examiner then reasons
+that Rabinovich's digital fingerprint of the remote device includes the user
+agent profile, and is therefore similar to the claimed fingerprint. We agree
+with the Examiner's findings that Rabinovich suggests the claimed feature.
+Appellant contends a software user agent is not a human user. (App.
+Br. 9-14.) However, as the Examiner notes, the claim does not require a
+human user. (Ans. 4.) Moreover, a "user agent" is defined as software that
+5
+
+Appeal2015-003717
+Application 14/094,637
+is acting on behalf of a user. (https://en.wikipedia.org/wiki/ User_agent last
+viewed 9/6/2016.) Thus, we find characteristics of a user agent are also
+characteristics of the associated user. Further, Appellant's argument
+assumes express disclosure of a feature is required in the obviousness
+analysis when the mere suggestion that a user characteristic may be included
+in the fingerprint is sufficient to render the claimed feature obvious. "[A]
+reference must be considered not only for what it expressly teaches, but also
+for what it fairly suggests." In re Bell, 991 F. 2d 781, 785(Fed. Cir. 1993)
+quoting In re Burckel, 592 F.2d 1175, 1179 (CCPA 1979).
+
+Furthermore, Rabinovich teaches a device fingerprinting subsystem
+138 and a user fingerprinting subsystem 146 in data center 40. (Rabinovich
+2:60-65, 10:64--11 :4, 12:25-30, Fig. 5.) The device fingerprint subsystem
+138 generates digital fingerprints for devices for comparison with device
+configurations stored in device repository 134. (Id.) Similarly, the user
+fingerprint subsystem 146 generates digital fingerprints for users for
+comparison with user configurations stored in user repository 142. (Id.) As
+the Examiner notes, Rabinovich teaches establishing a compilation
+configuration including both device and user configurations. (Ans. 3-5
+citing Rabinovich 12:25-30, 14:4--22, Fig. 5.) Rabinovich's compilation
+configuration, thus, contains characteristics of both the device and user, and
+is indistinguishable from the claimed feature. Accordingly, we are not
+persuaded of Examiner error.
+C. Argument concerning improper combination of Park and Rabinovich
+
+The Examiner stated the following rationale for combining Park and
+Rabinovich in the obviousness rejections:
+
+6
+
+Appeal2015-003717
+Application 14/094,637
+It would have been obvious to one of ordinary skill in the art at
+
+the time the invention was made to modify the method of Park
+with the teaching of Rabinovich because it would be convenient
+for downloading [a] compiled application [that] includes
+customized content to the remote client device [(Rabinovich,
+abstract)].
+(App. Br. 16 quoting Final Act. 4.) Appellant contends Park and Rabinovich
+are not properly combined because the stated rationale is not a motivation to
+use characteristics of a user in the process of identifying a device, but rather
+is a motivation to separately implement both Park for device identification
+and Rabinovich for content customization, which does not, according to
+Appellant, result in the claimed invention. (App. Br. 16-19, Reply Br. 7-9.)
+Appellant also argues the combination of Park and Rabinovich is not a
+simple substitution or a known and obvious solution to a known problem
+under KSR. (App. Br. 15-17.)
+We do not agree with Appellant's arguments. Instead, we agree with
+the Examiner that there were; at the time of Appellant's invention; apparent
+reasons to combine Park and Rabinovich. See KSR at 418. ("Often, it will
+be necessary for a court [and the Board] to look to interrelated teachings of
+multiple patents; the effects of demands known to the design community or
+present in the marketplace; and the background knowledge possessed by a
+person having ordinary skill in the art, all in order to determine whether
+there was an apparent reason to combine the known elements in the fashion
+claimed by the patent at issue.")
+Specifically, Park teaches generating a fingerprint from a device
+description to identify a device on a network. (Park i-fi-18, 35, 36.)
+Rabinovich teaches identifying a device and user according to fingerprints
+generated from respective device and user configurations stored in the data
+7
+
+Appeal2015-003717
+Application 14/094,637
+center. (Rabinovich 7:5--46, 14:4--22.) These device and user
+configurations are used to identify and retrieve information from device and
+user repositories to customize content such as a game application for
+download to a requesting user's device via the Internet. (Id.) Rabinovich
+also teaches a compilation management module that constructs a
+compilation configuration from the user and device configurations for use in
+customizing the game application for both the device and user. (Rabinovich
+14:20-22.)
+In view of these teachings, we agree with the Examiner a person of
+ordinary skill would have seen the benefit of using not just device
+fingerprints per Park, but device and user fingerprints per Rabinovich, in
+order to customize content such as a game for download to a user device.
+This would indeed be more convenient for the user as the downloaded
+content is already customized not only for the device, but also for the user.
+This would likely also increase the commercial appeal of game applications
+for sale, satisfying a market demand. Accordingly, the person of ordinary
+skill would have appreciated the benefits that result by combining the
+references.
+Another basis supporting the combination of Park and Rabinovich is
+that their teachings are in the same field and are interrelated. For example,
+Park and Rabinovich both teach using digital fingerprints to identify devices
+on a network, and the person of ordinary skill in the art, appreciating this
+connection between the references, would have been led to combine them.
+Thus, we agree there were apparent reasons for the person of ordinary skill
+to combine the Park and Rabinovich as done in the Examiner's obviousness
+rejection.
+
+8
+
+Appeal2015-003717
+Application 14/094,637
+Appellant's contention that the Examiner's stated rationale to combine
+Park and Rabinovich is not a motivation to use characteristics of a user in
+the process of identifying a device assumes that this feature is recited in the
+claim. (See App. Br. 16-17.) However, this feature is not recited in the
+claim, as previously explained. A limitation not appearing in a claim cannot
+be relied upon for patentability. See In re Self, 671 F.2d 1344, 1348 (CCPA
+1982).
+Furthermore, we are not persuaded by Appellant's arguments
+concerning motivation, simple substitution, and known solution for a known
+problem under KSR, for the reasons explained. 4 Specifically, the Examiner
+demonstrated adequate motivation to combine the references, so we need not
+reach the arguments concerning simple substitution and known solution for
+known problem.
+D. Remaining Claims
+Appellant presents the same arguments for the remaining claims,
+which are dependent from claim 1. (App. Br. 19-20.) For the reasons stated
+with respect to claim 1, we are not persuaded of error in the rejection of the
+remaining dependent claims. In re King, 801 F.2d 1324, 1325 (Fed. Cir.
+1986); In re Sernaker, 702 F.2d 989, 991 (Fed. Cir. 1983); 37 C.F.R.
+§ 41.37(c)(l)(iv).
+
+4
+
+MPEP § 2143 sets forth various rationales that may support a conclusion of
+obviousness. We interpret the Examiner's findings to mean that the
+Examiner uses the "teaching, suggestion, or motivation" ("TSM") rationale
+to support the conclusion of obviousness under 35 U.S.C. § 103(a). Simple
+substitution is a different rationale listed in the MPEP. Known solution for a
+known problem is not listed as a rationale in the MPEP, although analysis
+under some of the rationales set forth in the MPEP does address the problem
+to be solved.
+9
+
+Appeal2015-003717
+Application 14/094,637
+
+E. Reply BriefArguments
+Appellants argue that the Examiner provided no showing that
+Rabinovich's mobile telephone receives and executes "characteristic
+extraction logic." (Reply Br. 4--5.) This argument was not raised with
+particularity in the Appeal Brief, although Appellant quotes therein the claim
+language including this feature. Arguments may not be raised for the first
+time in a Reply Brief absent a showing of good cause. (37 C.F.R.
+§ 41.41(b )(2).) As no showing of good cause is made, we do not consider
+this argument.
+Even if we were to consider this argument, we would not find it
+persuasive. Rabinovich provides games produced by producers for sale to
+the public via the Internet using a publication that is seen by a consumer.
+(Rabinovich 7: 5-15.) The consumer transmits a request for a game
+optionally with credit card information and characterizing information of the
+consumer. (Id.) A person of ordinary skill would have understood that a
+web page with fields filled out by the consumer would be used for these
+purposes. Such web page is equivalent to Appellant's "characteristic
+extraction logic."
+Appellant further argues the Examiner's findings are in error because
+Rabinovich's game program is derived from a configuration of the device,
+and adding customized content to the configuration of the device in a digital
+fingerprint of the device would be cumulative. (Reply Br. 7-9; Ans. 5-6.)
+We disagree with Appellant's interpretation of the Examiner's findings as
+meaning that a device configuration would be added twice to the customized
+content. Regardless, this argument does not show error in the Examiner's
+
+10
+
+Appeal2015-003717
+Application 14/094,637
+stated motivation for combining the references, which we addressed
+previously.
+Appellant argues the record does not explain why a user's preferences
+would be desirable in a digital fingerprint of a device despite the instability
+of the user's preferences. (Reply Br. 8.) This argument does not appear to
+have been raised in the Appeal Brief and, thus, we do not consider it absent a
+showing of good cause. (37 C.F.R. § 41.41(b)(2).) Nonetheless, we find the
+argument unpersuasive because Appellant has presented no evidence that
+instability of user's preferences is undesirable for an identifier. Arguments
+of counsel cannot take the place of factually supported objective evidence.
+
+In re Huang, 100 F.3d 135, 139-140 (Fed. Cir. 1996); In re Pearson, 494
+F.2d 1399, 1405 (CCPA 1974). Furthermore, a person of ordinary skill
+would have appreciated that unstable sources of data, for example,
+timestamps, were used ubiquitously for identification purposes at the time of
+the invention. (See, e.g., US 6,381,629 Bl, April 30, 2002.)
+
+CONCLUSION
+An obviousness rejection under§ 103(a) requires that "there must be
+some articulated reasoning with some rational underpinning to support the
+legal conclusion of obviousness." KSR at 418 (2007) (quoting In re Kahn,
+441 F.3d 977, 988 (Fed. Cir. 2006) (internal quotations omitted)). On this
+record, we find the Examiner's reasoning and underpinning adequate to
+support the conclusion of obviousness.
+
+11
+
+Appeal2015-003717
+Application 14/094,637
+DECISION
+We affirm the Examiner's decision to reject claims 1, 2, and 16-18
+under 35 U.S.C. § 103(a).
+No time period for taking any subsequent action in connection with
+this appeal may be extended under 37 C.F.R. § 1.136(a)(l )(iv).
+
+AFFIRMED
+
+12
+
+

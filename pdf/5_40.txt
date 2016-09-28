@@ -1,0 +1,427 @@
+UNITED STA TES
+
+p ATENT AND TRADEMARK OFFICE
+UNITED STATES DEPARTMENT OF COMMERCE
+
+United States Patent and Trademark Office
+Address: COMMISSIONER FOR PATENTS
+P.O. Box 1450
+Alexandria, Virginia 22313-1450
+www .uspto.gov
+
+APPLICATION NO.
+
+FILING DATE
+
+FIRST NAMED INVENTOR
+
+ATTORNEY DOCKET NO.
+
+CONFIRMATION NO.
+
+111969,068
+
+01/03/2008
+
+Bruce D. Gunderson
+
+P0031300.00/LG10126
+
+1070
+
+27581
+
+7590
+
+09/19/2016
+
+Medtronic, Inc. (CRDM)
+710 MEDTRONIC PARKWAY NE
+MS: LC340 Legal Patents
+MINNEAPOLIS, MN 55432-9924
+
+EXAMINER
+BAYS,PAMELAM
+
+ART UNIT
+
+PAPER NUMBER
+
+3766
+
+NOTIFICATION DATE
+
+DELIVERY MODE
+
+09/19/2016
+
+ELECTRONIC
+
+Please find below and/or attached an Office communication concerning this application or proceeding.
+The time period for reply, if any, is set in the attached communication.
+Notice of the Office communication was sent electronically on above-indicated "Notification Date" to the
+following e-mail address( es):
+medtronic_crdm_docketing@cardinal-ip.com
+
+PTOL-90A (Rev. 04/07)
+
+UNITED STATES PATENT AND TRADEMARK OFFICE
+
+BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+Ex parte BRUCE D. GUNDERSON
+
+Appeal2014-007464
+Application 11/969,068
+Technology Center 3700
+
+Before LYNNE H. BROWNE, THOMAS F. SMEGAL, and
+ERIC C. JESCHKE, Administrative Patent Judges.
+JESCHKE, Administrative Patent Judge.
+
+DECISION ON APPEAL
+
+STATEMENT OF THE CASE
+Bruce D. Gunderson (Appellant) seeks review, under 35 U.S.C.
+§ 134(a), of the Examiner's decision to reject claims 1, 5, 9, 12-16, 19-22,
+
+27-29, and 31-38. 1 We have jurisdiction under 35 U.S.C. § 6(b).
+We REVERSE.
+
+1
+
+Appellant identifies Medtronic, Inc. as the real party in interest.
+Appeal Br. 3.
+
+Appeal2014-007464
+Application 11/969,068
+BACKGROUND
+The disclosed subject matter "relates to a method and apparatus for
+automatically identifying cardiac and non-cardiac oversensing by an
+implantable cardiac device and automatically adjusting detection parameters
+to reduce inappropriate detection." Spec. i-f 2. Claims 1, 15, 25, and 34 are
+independent. Claim 1 is reproduced below:
+1.
+An implantable
+compnsmg:
+
+medical
+
+device
+
+(IMD)
+
+at least one lead that includes at least one
+sensing electrode to sense cardiac data from a heart
+of a patient in accordance with programmed sensing
+parameters for a plurality of cardiac cycles; and
+a housing coupled to the leads and containing
+a processor configured to analyze the sensed cardiac
+data to determine if an oversensing criteria is
+satisfied, identify whether a lead failure exists based
+on the oversensing criteria being satisfied and at
+least one other criteria, and automatically adjust a
+programmed number of intervals to detection (NIU)
+from the programmed number to an increased value
+in response to identifying that the lead failure exists,
+and maintain the NID at the programmed number in
+response to determining that the oversensing criteria
+is satisfied and not identifying that the lead failure
+exists.
+
+REJECTIONS
+1.
+
+Claims 1, 5, 9, 12-14, 25, 27, and 31-38 stand rejected under
+
+35 U.S.C. § 112, first paragraph, as failing to comply with the written
+description requirement.
+
+2
+
+Appeal2014-007464
+Application 11/969,068
+2.
+
+Claims 1, 15, 25, and 27-29 stand rejected under 35 U.S.C.
+
+§ 102(b) as anticipated by Ousdigian (US 2005/0154421 Al, published July
+14, 2005).
+3.
+
+Claims 5, 16, 22, 32, 33, 37, and 38 stand rejected under
+
+35 U.S.C. § 103(a) as unpatentable over Ousdigian and Jorgenson (US
+2002/0120307 Al, published Aug. 29, 2002). 2
+4.
+
+Claim 31 stands rejected under 35 U.S.C. § 103(a) as
+
+unpatentable over Ousdigian and Gunderson (US 2005/0137636 Al,
+published June 23, 2005).
+5.
+
+Claims 9, 12-14, and 19-21 stand rejected under 35 U.S.C.
+
+§ 103(a) as unpatentable over Ousdigian.
+
+DISCUSSION
+
+Rejection 1- The rejection of claims 1, 5, 9, 12-14, 25,
+27, and 31-38 under 35U.S.C.§112,firstparagraph
+The Examiner rejected claims 1 and 25 (and claims depending
+therefrom) based on the limitation "maintain the NID at the programmed
+number in response to determining that the oversensing criteria is satisfied
+and not identifying that the lead failure exists." Final Act. 3. In addition,
+the Examiner rejected claim 34 (and claims depending therefrom) based on
+
+2
+
+Although claim 34 is listed in the header to this Rejection in the
+Office Action (Final Act. 7 (dated June 20, 2013)), the Examiner does not
+discuss that claim in the body of the Rejection. The Examiner also removes
+claim 34 from the header to this Rejection in the Answer. See Ans. 6.
+Moreover, in the Office Action, the Examiner stated that "[c]laim[s] 34--36
+would be allowable if rewritten or amended to overcome the rejection(s)
+under 35 U.S.C. 112 set forth in this Office action." Final Act. 12. Thus,
+claim 34 is not considered rejected based on prior art.
+3
+
+Appeal2014-007464
+Application 11/969,068
+the limitation "maintains the NID at the programmed number in response to
+determining that one of the first or second oversensing criteria is satisfied,
+but the impedance criteria and the remaining one of the first and second
+oversensing criteria are not satisfied." Id. According to the Examiner,
+neither of these steps are "disclosed within the Applicant's Specification as
+originally filed," and thus, they are "considered to be New Matter." Id.
+The test for compliance with the written description requirement is
+"whether the disclosure of the application relied upon reasonably conveys to
+those skilled in the art that the inventor had possession of the claimed
+subject matter as of the filing date." Ariad Pharm., Inc. v. Eli Lilly & Co.,
+598 F.3d 1336, 1351 (Fed. Cir. 2010) (en bane). We find that the
+Specification provides sufficient written description support for the
+limitations at issue.
+To aid the discussion, we first provide some background of the
+disclosed invention. As stated by Appellant, "FIG. 3 describes [a] twotiered approach in which the method first predicts the presence of a leadrelated condition, Block 340, and once the presence of a lead-related
+condition is detected, the method determines whether oversensing is likely
+taking place, Block 342." Reply Br. 2 (citing Spec. i-f 50). In addition, as
+stated by Appellant, "FIG. 4 illustrates one example method for detecting a
+lead related condition, which may be utilized in block 340 of FIG. 3." Reply
+Br. 2; see also Spec. i-f 51 ("FIG. 4 is a flow chart of a method for detecting a
+lead-related condiction [sic] in a method for delivering therapy according to
+an embodiment of the present invention."). Further, describing a process of
+detecting whether a lead-related condition (such as a lead failure) exists,
+paragraphs 51and52 disclose (as discussed by Appellant (Appeal Br. 8-9)),
+
+4
+
+Appeal2014-007464
+Application 11/969,068
+the use of a (1) "first oversensing criteria," (2) "second oversensing criteria,"
+and (3) an "impedance criteria." In particular, paragraph 52 provides: "If it
+is determined that more than one of the criteria have been met, such as both
+of the oversensing criteria or at least one of the oversensing criteria and the
+impedance criteria, the likelihood of a lead-related condition is satisfied."
+As discussed by Appellant (Appeal Br. 7-8), paragraph 131 provides:
+As illustrated in FIG. 20, a determination is made to whether a
+lead failure is likely present, Block 1395, using lead failure
+analysis such as the lead failure detection method described
+above. Lead failure may result in oversensing. According to an
+embodiment of the present invention, once a lead failure is
+determined likely to be present, yes in Block 1400, the
+programmed number of intervals to detection (NID) is increased,
+Block 1402, and an alert is generated to notify the patient of the
+possible presence of the lead failure, Block 1404.
+Spec. ,-r 131.
+We first address the relationship between the disclosures of paragraph
+131 (Figure 20) and paragraphs 51-52 (Figure 4). Appellant contends that
+the phrase "using lead failure analysis such as the lead failure detection
+method described above" in paragraph 131 (as set forth above) refers to the
+methods disclosed in paragraphs 51 and 52 (discussed above). Appeal Br. 8.
+The Examiner responds that the "method of the flowchart in Fig. 20 is
+described in the Specification as being a distinct method [from] those in the
+flowcharts of Figs. 3 and 4." Ans. 13. In support, the Examiner notes that
+the Specification ( 1) describes Figure 4 as providing "a flow chart of a
+method for detecting a lead-related condiction [sic] in a method for
+delivering therapy according to an embodiment of the present invention"
+(Ans. 13 (quoting Spec. i-f 51, with emphasis added)), and (2) describes
+Figure 20 as "a flow diagram ... providing an overview of the operations
+5
+
+Appeal2014-007464
+Application 11/969,068
+included in a preferred embodiment of the present invention for reducing the
+likelihood of inappropriate detection of noise in an implantable medical
+device" (Ans. 13 (quoting Spec. i-f 131, with emphasis added)).
+We agree with Appellant that the reference to "the lead failure
+detection method described above" in paragraph 131 would be understood
+by one of ordinary skill in the art to refer to the disclosures in paragraphs 51
+and 52. As noted by Appellant, "the method of FIG. 4 appears to be the only
+method of detecting a lead-related condition [described by] Appellant's
+[S]pecification." Reply Br. 2. Further, we agree with Appellant's
+description of what paragraphs 131, 51, and 52 would, together, provide to
+one of ordinary skill in the art:
+Using the lead failure detection method described in FIG.
+4 in steps 1395 and 1400 of FIG. 20 (as inferred by paragraph
+[00131]), when a determination is made that lead failure exists
+based on the oversensing criteria being satisfied and at least one
+other criteria (e.g., the other oversensing criteria and/or the
+impedance criteria in the example of FIG. 4), block 1402
+increases the NID as described in paragraph [00131]. In
+response to determining that the oversensing criteria is satisfied
+and not identifying that the lead failure exists (e.g., scenarios (1)
+and (2) for not detecting a lead related condition when less than
+one of the criteria have been met), the NID is not adjusted per
+block 1402 (i.e., it is maintained) and the lead failure predictor
+analysis ofblock 1395 is continued ('NO' branch ofblock 1400).
+Appeal Br. 9-10 (addressing claims 1 and 25); see also id. at 17 (similar
+argument for claim 34 ). We find that these paragraphs satisfy the written
+description requirement for the limitations at issue.
+We tum now to the Examiner's position that "Fig. 3 only discloses the
+first step of determining i[ fJ a lead-related condition exists (Step 340), then
+determining if oversensing is taking place (Step 342), and then either
+
+6
+
+Appeal2014-007464
+Application 11/969,068
+delivering or withholding therapy (Step 344, 346)" and that "[i]f the first
+Step of 'Lead-related condition' 340 is 'No', then the process of Fig. 3 ends,
+and therefore does not disclose 'determining that the oversensing criteria is
+satisfied and not identifying that the lead failure exists"' as recited in claims
+1 and 25 (or the similar limitation in claim 34). Ans. 12; see also id.
+(discussing paragraph 106 of the Specification and stating that "the
+determination of whether the oversensing criteria has been satisfied is
+performed after a lead-related condition/failure has been detected").
+As noted by Appellant, the Examiner's position "fails to appreciate
+that the lead failure detection method of FIG. 4 analyzes a first oversensing
+criteria (702), second oversensing criteria (706) and an impedance criteria
+(710) and a lead related condition is detected when more than one of the
+criteria have been met" and, importantly, does not acknowledge that "[t]his
+analysis of oversensing criteria is separate and distinct from the oversensing
+analysis done in block 342 of FIG. 3 and described in detail with respect to
+FIGs. 13-18 (see paragraph [0052])." Reply Br. 3. In other words, the
+"oversensing criteria" in the limitations at issue relate to the first tier in the
+disclosed approach-predicting the presence of a lead-related condition (see,
+e.g. Spec., Fig. 3 (Block 340), i-fi-150-52}-rather than to the second tier in
+
+the disclosed approach---determining whether oversensing is likely taking
+place (see, e.g. Spec., Fig. 3 (Block 342), i-fi-1 50, 52).
+For these reasons, we do not sustain the rejection of claims 1, 5, 9,
+12-14, 25, 27, and 31-38 under 35 U.S.C. § 112, first paragraph.
+
+7
+
+Appeal2014-007464
+Application 11/969,068
+Rejection 2-The rejection of claims 1, 15,
+25, and 27-29 under 35 U.S.C. § 102(b)
+
+A. Claims 1, 25, and 27-29
+Independent claim 1 recites, among other limitations, a processor
+configured to "identify whether a lead failure exists based on the
+oversensing criteria being satisfied and at least one other criteria." Appeal
+Br. 18 (Claims App.). Independent claim 25 recites, among other
+limitations, the step of "identifying whether a lead-related condition exists
+based on the oversensing criteria being satisfied and at least one other
+criteria." Id. at 20. To address these limitations, the Examiner relied on
+paragraphs 13, 51, and 79 of Ousdigian. See Final Act. 4, 6.
+To aid the discussion, we first provide some background of
+Ousdigian. As noted by Appellant, "Ousdigian describes an IMD employing
+number of intervals to detect (NID) thresholds for detection of ventricular
+arrhythmias" in which, "[ s]ubsequent to the NID threshold being reached,
+the IMD determines whether the detected ventricular rhythm is a suspected
+non-lethal rhythm despite satisfying the NID threshold." Appeal Br. 10
+(citing Ousdigian, Abstract); see also Ousdigian i-f 51. The suspected
+nonlethal arrhythmia can be a supraventricular tachycardia (SVT), a
+monomorphic ventricular tachycardia (VT), "or a rhythm cause[ d] by
+cardiac or non-cardiac oversensing." Ousdigian i-f 51. If the system
+identifies cardiac or non-cardiac oversensing, the system can perform
+various actions, including increasing the NID threshold and modifying the
+scheduled therapy. See id. i-f 13 ("When the IMD identifies cardiac or noncardiac oversensing, the IMD classifies the ventricular rhythm as a suspected
+non-lethal cardiac rhythm, and can increase the NID threshold and/or modify
+a scheduled therapy as described above."), i-f 80 ("In response to identifying
+8
+
+Appeal2014-007464
+Application 11/969,068
+cardiac or non-cardiac oversensing, microprocessor 60 can increase the NID
+threshold and/or modify a scheduled therapy as described above.").
+Appellant argues that although Ousdigian "can be viewed as
+determining whether oversensing is occurring," Ousdigian "does not identify
+whether a lead failure exists or whether the oversensing is caused by a
+source other than a lead failure." Appeal Br. 11. We agree. As disclosed by
+Ousdigian, lead failure is one of several possible causes of non-cardiac
+oversensing. See Ousdigian i-f 78 (providing that "noncardiac oversensing is
+caused by noise within a detected cardiac signal, such as noise caused by
+lead failure, a loose set screw, or the like"). And non-cardiac oversensing is,
+in tum, one of two types of oversensing (in addition to cardiac oversensing),
+both of which trigger an increase to the NID threshold. See id. i-fi-113, 78-80.
+We tum now to the Examiner's statement that "Ousdigian specifically
+discloses increasing NID in response to identifying a oversensing due to a
+lead failure (Paragraph[s] 0013, 0051, 0079)" because
+Ousdigian discloses that NID is not increased if oversensing due
+to a lead failure is not suspected, even if NID threshold to deliver
+therapy is reached, because the NID threshold being reached may
+be caused by a dangerous rhythm (Paragraphs 0064---0065, 00720073), and that treatment should not be delayed by increasing the
+NID.
+Ans. 16. Review of the paragraphs relied upon by the Examiner further
+supports Appellant's position, in that those paragraphs disclose a system that
+determines whether oversensing exists (and performs actions based on that
+determination) but that does not specifically identify "whether a lead failure
+exists" or "whether a lead-related condition exists," as recited in claims 1
+and 25, respectively.
+
+9
+
+Appeal2014-007464
+Application 11/969,068
+For these reasons, we do not sustain the rejection of claim 1 and 25, or
+the rejection of claims 27-29, which depend from claim 1.
+B. Claim 15
+Independent claim 15 recites, among other limitations, a processor
+configured to "identify a lead failure." Appeal Br. 19 (Claims App.).
+Addressing this limitation, the Examiner relied on paragraphs 13, 51, and 79
+of Ousdigian. See Final Act. 5.
+Appellant argues that Ousdigian does not satisfy this limitation
+because, although Ousdigian "does indicate that the suspected non-lethal
+rhythms could be caused by cardiac or non-cardiac oversensing," Ousdigian
+"does not provide any techniques to distinguish between the two or
+techniques for distinguishing among all the possible sources of non-cardiac
+oversensing." Appeal Br. 13. For the same reasons discussed above, we
+agree that Ousdigian does not disclose a processor configured to "identify a
+lead failure." Thus, we do not sustain the rejection of claim 15.
+Rejections 3 and 4 - The rejection of claims 5, 16, 22,
+31-33, 37, and 38 under 35 U.S.C. § 103(a)
+
+Claims 5, 31-3 3, and 37 depend from independent claim 1, claims 16
+and 22 depend from independent claim 15, and claim 38 depends from
+independent claim 25. Appeal Br. 18, 19, 21, 22 (Claims App.). The
+Examiner's reliance on Jorgenson (regarding Rejection 3) and Gunderson
+(regarding Rejection 4) does not remedy the deficiencies in the teachings of
+Ousdigian, discussed above (see supra Rejection 2). Thus, for the reasons
+discussed above, we do not sustain the rejection of claims 5, 16, 22, 31-33,
+37, and 38.
+
+10
+
+Appeal2014-007464
+Application 11/969,068
+
+Rejection 5 - The rejection of claims 9, 12-14,
+and 19-21under35 U.S.C. § 103(a)
+Claims 9 and 12-14 depend from independent claim 1, and claims 1921 depend from independent claim 15. Appeal Br. 18, 19 (Claims App.).
+The Examiner does not articulate any additional findings or reasoning and
+does not propose any modification of Ousdigian to remedy the deficiencies
+discussed above (see supra Rejection 2). Thus, for the reasons discussed
+above, we do not sustain the rejection of claims 9, 12-14, and 19-21.
+
+DECISION
+We REVERSE the decision to reject claims 1, 5, 9, 12-16, 19-22, 2729, and 31-38.
+
+REVERSED
+
+11
+
+
