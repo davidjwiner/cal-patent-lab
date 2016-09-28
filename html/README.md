@@ -1,0 +1,1 @@
+This folder contains the raw HTML from the US PTAB website. We are pulling metadata on each PTAB filing from these files.
