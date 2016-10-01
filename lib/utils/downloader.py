@@ -7,7 +7,7 @@ import random
 homepage = "https://e-foia.uspto.gov/Foia/"
 pdf_name_tmpl = "pdf/{}_{}.pdf"
 
-delay_mean = 3.6
+delay_mean = 4.2
 delay_stddev = delay_mean * 0.05
 
 #Converts string to integer. If "NONE" is in the string, return -1.
@@ -27,8 +27,8 @@ def download_file(download_url, name):
 	response = urllib2.urlopen(download_url)
 	contents = response.read()
 	
-	# Assuming valid PDFs are at least 4KiB
-	if len(contents) < 4096 or 'DTD XHTML 1.0 Transitional' in contents:
+	# Assuming valid PDFs are at least 3KiB
+	if len(contents) < 3072 or 'DTD XHTML 1.0 Transitional' in contents:
 		print("Length of contents = {}".format(len(contents)))
 		return False
 	
@@ -47,7 +47,7 @@ def download_html():
 		f.close()
 
 def is_pdf(file_name):
-	if not os.path.isfile(file_name) or os.path.getsize(file_name) < 4096:
+	if not os.path.isfile(file_name) or os.path.getsize(file_name) < 3072:
 		return False
 	fd = open(file_name, 'rb')
 	contents = fd.read()
@@ -86,30 +86,37 @@ def main(start_page, end_page):
 			# Skip PDFs for cases that don't have patent numbers
 			patent_no = cols[5].string.strip()
 			if patent_no == "NONE":
-				print("Doesn't look like a post-grant case, skipping")
+				print("Skipping (not post-grant)")
 				continue
+			
+			# Skip PDFs for cases decided before Sept. 2012
+			#decis_date = convert_date(cols[7].string)
+			#if decis_date < 20120901:
+			#	print("Skipping (case decided before 9/2012)")
+			#	continue
 			
 			# Skip PDFs that we have already downloaded
 			if is_pdf(file_name):
-				print("{} looks like a valid PDF, skipping".format(file_name))
+				print("Skipping ({} looks valid)".format(file_name))
 				continue
 			
 			#print("Link: ", homepage + pdf_link)
-			delay = round(abs(random.gauss(delay_mean, delay_stddev)), 2)
-			print("Sleeping {} seconds".format(delay))
-			time.sleep(delay)
 			if download_file(homepage + pdf_link, file_name):
-				print("Download of {} completed".format(file_name))
+				print("{} downloaded".format(file_name))
 			else:
-				print("Download of {} failed. Adding to retry list".format(file_name))
+				print("{} failed to download. Adding to retry list".format(file_name))
 				retry_list.append((pdf_link, page, i+1))
 			count += 1
+			
+			delay = round(abs(random.gauss(delay_mean, delay_stddev)), 2)
+			print("Sleeping {}s".format(delay))
+			time.sleep(delay)
 	
 	while len(retry_list) > 0:
-		print("Retrying {} files".format(len(retry_list)))
-		retry_mean = round(retry_mean * 1.25, 3)
-		retry_stddev *= round(retry_stddev * 1.1, 3)
-		print("Random delay = normal({}, {})".format(retry_mean, retry_stddev))
+		print("\nRetrying {} files".format(len(retry_list)))
+		delay_mean = round(delay_mean * (2**0.5), 3)
+		delay_stddev = delay_mean * 0.05
+		print("Random delay = normal({}, {})".format(delay_mean, delay_stddev))
 		retry_list2 = []
 		# Shuffle retry list
 		random.shuffle(retry_list)
@@ -118,12 +125,14 @@ def main(start_page, end_page):
 			if is_pdf(file_name):
 				continue
 			
-			delay = round(abs(random.gauss(delay_mean, delay_stddev)), 2)
-			print("Sleeping {} seconds".format(delay))
-			time.sleep(delay)
+			print("")
 			if not download_file(homepage + pdf_link, file_name):
-				print("Download of {} failed. Adding to retry list".format(file_name))
+				print("{} failed to download. Adding to retry list".format(file_name))
 				retry_list2.append((pdf_link, page, row))
+			
+			delay = round(abs(random.gauss(delay_mean, delay_stddev)), 2)
+			print("Sleeping {}s".format(delay))
+			time.sleep(delay)
 		retry_list = retry_list2
 		
 
