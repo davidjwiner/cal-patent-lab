@@ -7,8 +7,8 @@ import random
 homepage = "https://e-foia.uspto.gov/Foia/"
 pdf_name_tmpl = "pdf/{}_{}.pdf"
 
-delay_mean = 6.0
-delay_stddev = 0.8
+delay_mean = 3.6
+delay_stddev = delay_mean * 0.05
 
 #Converts string to integer. If "NONE" is in the string, return -1.
 def str_to_int(arg):
@@ -33,7 +33,7 @@ def download_file(download_url, name):
 		return False
 	
 	file_ = open(name, 'wb')
-	file_.write(response.read())
+	file_.write(contents)
 	file_.close()
 	return True
 
@@ -78,10 +78,16 @@ def main(start_page, end_page):
 		
 		for i in row_range:
 			row = rows[i]
-			print("Page: {} Row: {}".format(page, i+1))
+			print("\nPage: {} Row: {}".format(page, i+1))
 			cols = row.find_all('td')
 			pdf_link = cols[0].find_all('a')[1].get('href')
 			file_name = pdf_name_tmpl.format(page, i+1)
+			
+			# Skip PDFs for cases that don't have patent numbers
+			patent_no = cols[5].string.strip()
+			if patent_no == "NONE":
+				print("Doesn't look like a post-grant case, skipping")
+				continue
 			
 			# Skip PDFs that we have already downloaded
 			if is_pdf(file_name):
