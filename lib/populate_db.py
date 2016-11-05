@@ -45,12 +45,27 @@ def populate_table_decision(db, table_name, patent_id, decision):
     return status
 
 
+def create_parse_table(db):
+    cursor = db.cursor()
+    sql_query = '''
+    CREATE TABLE patents_decision
+    (
+    patent_id VARCHAR(255) NOT NULL,
+    invalidated TINYINT(4),
+    claims_text BLOB
+    );
+    '''
+    cursor.execute(sql_query)
+    status = update_table(db)
+    return status
+
 if __name__ == "__main__":
-    print('Example')
-    # Example of file being parsed and the data stored in the db
-    # Please change the path adequatly for the ptab text file
-    patent_id=parser.parsePatentId("RetrievePdf_008.txt")
-    decision = parser.parseDecision("RetrievePdf_008.txt")
+    # print('Example')
+    # # Example of file being parsed and the data stored in the db
+    # # Please change the path adequatly for the ptab text file
+    # patent_id=parser.parsePatentId("RetrievePdf_008.txt")
+    # decision = parser.parseDecision("RetrievePdf_008.txt")
     db = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_USERNAME, MYSQL_DB)
-    status = populate_table_decision(db, 'patents', patent_id, decision)
-    print(status)
+    # status = populate_table_decision(db, 'patents', patent_id, decision)
+    # print(status)
+    status = create_parse_table(db)
