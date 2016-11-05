@@ -17,14 +17,16 @@ from os.path import isfile, join
 #locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
 
 def parsePatentId(infile, outfile):
-    matcher = re.compile('(?<=Patent )\s*[0-9,]+')
+    matcher1 = re.compile('(?<=Patent )\s*(RE|D|PP)?[0-9,]+')
+    matcher2 = re.compile('(?<=Patent No.)\s*(RE|D|PP)?[0-9,]+')
     # If we find a mention of Patent followed by numbers w/commas, we find the ID
     with open(infile) as f:
         text = f.read().strip()
-        result = matcher.search(text)
-        if result:
+        result1 = matcher1.search(text)
+        result2 = matcher2.search(text)
+        if result1 or result2:
             #remove commas, write to properties file
-            result = result.group(0).replace(',', '')
+            result = (result1 or result2).group(0).replace(',', '')
             with open(outfile, 'a') as propertiesFile:
                 propertiesFile.write("PatentId: {}\n".format(result))
                 return
@@ -32,18 +34,41 @@ def parsePatentId(infile, outfile):
     return
 
 def parseDecision(infile, outfile):
-    invalMatcher1 = re.compile('ORDERED.+?claim(s)?\s+\d+.+?(unpatentable|anticipated|cancelled)')
-    invalMatcher2 = re.compile('ORDERED.+?[aA]dverse\s+[jJ]udgment.+?claim(s)?\s+\d+.+?(granted|GRANTED)')
+    invalMatcher1 = re.compile('ORDERED.+?[cC]laim(s)?\s+\d+.{0,120}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)')
+    invalMatcher2 = re.compile('ORDERED.+?[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
+    valMatcher1 = re.compile("ORDERED.+?[pP]etitions?.+?(denied|DENIED).{0,60}?challenged\s+claims")
+    valMatcher2 = re.compile("ORDERED.+?[jJ]oint\s+?[mM]otions?\s+?[tT]o\s+?[tT]erminate.+?(granted|GRANTED)")
+    valMatcher3 = re.compile("ORDERED.+?[pP]etitions?.{0,120}?for\s+?([rR]ehearing|[iI]nter\s+?[pP]artes|INTER\s+?PARTES|IPR).+?(denied|DENIED|dismissed|DISMISSED)")
+    valMatcher4 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(denied|DENIED)")
+    ambigMatcher1 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(instituted|INSTITUTED)")
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
         text = f.read().replace('\n', ' ')
-        result1 = invalMatcher1.search(text)
-        result2 = invalMatcher2.search(text)
+        inv1 = invalMatcher1.search(text)
+        inv2 = invalMatcher2.search(text)
+        val1 = valMatcher1.search(text)
+        val2 = valMatcher2.search(text)
+        val3 = valMatcher3.search(text)
+        val4 = valMatcher4.search(text)
+        amb1 = ambigMatcher1.search(text)
+        
+        valid = val1 or val2 or val3 or val4
+        invalid = inv1 or inv2
+        ambiguous = amb1
+        
         with open(outfile, 'a') as propertiesFile:
-            if result1 or result2:
+            if invalid and not valid and not ambiguous:
                 decision = "invalidated"
-            else:
+            elif valid and not invalid and not ambiguous:
                 decision = "not invalidated"
+            else:
+                if not invalid and not valid and not ambiguous:
+                    print("WARNING: ambiguous decision in {}: inval=None, val=None".format(infile, invalid, valid))
+                elif invalid and valid and not ambiguous:
+                    print("WARNING: ambiguous decision in {}: inval={}, val={}".format(infile, invalid.group(0), valid.group(0)))
+                else:
+                    print("WARNING: uncorrectable ambiguous decision in {}".format(infile))
+                decision = "ambiguous"
             propertiesFile.write("Decision: {}\n".format(decision))
     return decision
 
