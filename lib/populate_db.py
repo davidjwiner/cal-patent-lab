@@ -40,7 +40,6 @@ def update_table(db):
 
 def populate_table_decision(db, table_name, patent_id, decision):
     cursor = db.cursor()
-    insert_decision(cursor, table_name, patent_id, decision)
     status = update_table(db)
     return status
 

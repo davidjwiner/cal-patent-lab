@@ -54,19 +54,18 @@ def parseDecision(infile):
         invalid = inv1 or inv2
         ambiguous = amb1
         
-        with open(outfile, 'a') as propertiesFile:
-            if invalid and not valid and not ambiguous:
-                decision = "invalidated"
-            elif valid and not invalid and not ambiguous:
-                decision = "not invalidated"
+        if invalid and not valid and not ambiguous:
+            decision = "invalidated"
+        elif valid and not invalid and not ambiguous:
+            decision = "not invalidated"
+        else:
+            if not invalid and not valid and not ambiguous:
+                print("WARNING: ambiguous decision in {}: inval=None, val=None".format(infile, invalid, valid))
+            elif invalid and valid and not ambiguous:
+                print("WARNING: ambiguous decision in {}: inval={}, val={}".format(infile, invalid.group(0), valid.group(0)))
             else:
-                if not invalid and not valid and not ambiguous:
-                    print("WARNING: ambiguous decision in {}: inval=None, val=None".format(infile, invalid, valid))
-                elif invalid and valid and not ambiguous:
-                    print("WARNING: ambiguous decision in {}: inval={}, val={}".format(infile, invalid.group(0), valid.group(0)))
-                else:
-                    print("WARNING: uncorrectable ambiguous decision in {}".format(infile))
-                decision = "ambiguous"
+                print("WARNING: uncorrectable ambiguous decision in {}".format(infile))
+            decision = "ambiguous"
     return decision
 
 def parseUSCode(infile):
