@@ -78,9 +78,10 @@ if __name__ == "__main__":
             claim_text = h.unescape(claim_text.strip())
             dec = None
             if patent_id in decision_table:
-                if decision_table[patent_id] == "not invalidated":
+                decision_table[patent_id][1] = True  # Mark patent with decision as written
+                if decision_table[patent_id][0] == "not invalidated":
                     dec = 0
-                elif decision_table[patent_id] == "invalidated":
+                elif decision_table[patent_id][0] == "invalidated":
                     dec = 1
             status = insert_decision(cursor, 'patents_decision', patent_id, dec, claim_text)
     
