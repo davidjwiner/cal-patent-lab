@@ -27,7 +27,7 @@ def parsePatentId(infile):
         if result1 or result2:
             #remove commas, write to properties file
             result = (result1 or result2).group(0).replace(',', '')
-            return result
+            return result.strip()
     print("Warning: no patent ID found for {}".format(infile))
     return
 
