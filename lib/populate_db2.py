@@ -75,7 +75,7 @@ if __name__ == "__main__":
             if "/" in patent_id:
                 continue
             _, claim_text = patent_body.split('CLAIMS. ')
-            claim_text = h.unescape(claim_text.strip())
+            claim_text = h.unescape(claim_text.strip()).encode("utf-8")
             dec = None
             if patent_id in decision_table:
                 decision_table[patent_id][1] = True  # Mark patent with decision as written
