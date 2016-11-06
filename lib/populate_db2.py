@@ -4,7 +4,7 @@ import MySQLdb
 import parsers.parser_new_data as parser
 from os import listdir
 from os.path import isfile, join
-import html
+import HTMLParser
 
 MYSQL_HOST = "cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com"
 MYSQL_USERNAME = "***REMOVED***"
@@ -62,6 +62,8 @@ if __name__ == "__main__":
     
     db = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_USERNAME, MYSQL_DB)
     cursor = db.cursor()
+    h = HTMLParser.HTMLParser()
+    
     for file_name in tsvfiles:
         claims = open(file_name, 'r')
         for line in claims:
@@ -73,7 +75,7 @@ if __name__ == "__main__":
             if "/" in patent_id:
                 continue
             _, claim_text = patent_body.split('CLAIMS. ')
-            claim_text = html.unescape(claim_text.strip())
+            claim_text = h.unescape(claim_text.strip())
             dec = None
             if patent_id in decision_table:
                 if decision_table[patent_id] == "not invalidated":
