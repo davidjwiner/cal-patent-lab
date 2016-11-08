@@ -32,12 +32,12 @@ def parsePatentId(infile):
     return
 
 def parseDecision(infile):
-    invalMatcher1 = re.compile('ORDERED.+?[cC]laim(s)?\s+\d+.{0,120}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)')
-    invalMatcher2 = re.compile('ORDERED.+?[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
-    valMatcher1 = re.compile("ORDERED.+?[pP]etitions?.+?(denied|DENIED).{0,60}?challenged\s+claims")
-    valMatcher2 = re.compile("ORDERED.+?[jJ]oint\s+?[mM]otions?\s+?[tT]o\s+?[tT]erminate.+?(granted|GRANTED)")
-    valMatcher3 = re.compile("ORDERED.+?[pP]etitions?.{0,120}?for\s+?([rR]ehearing|[iI]nter\s+?[pP]artes|INTER\s+?PARTES|IPR).+?(denied|DENIED|dismissed|DISMISSED)")
-    valMatcher4 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(denied|DENIED)")
+    invalMatcher1 = re.compile('ORDERED.{0,120}?[cC]laim(s)?\s+\d+.{0,120}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)')
+    invalMatcher2 = re.compile('[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
+    valMatcher1 = re.compile("no\s+trial\s+.{0,10}?instituted")
+    valMatcher2 = re.compile("[jJ]oint\s+?[mM]otions?(\s+?[tT]o\s+?[tT]erminate)?.{0,120}?(granted|GRANTED)")
+    valMatcher3 = re.compile("([pP]etitions?|[iI]nstiution|[rR]equest).{0,120}?([rR]ehearing|[iI]nter\s+?[pP]artes|INTER\s+?PARTES|IPR|[rR]ehearing|challeng).{0,120}?(denied|DENIED|dismissed|DISMISSED)")
+    valMatcher4 = re.compile("not\s+(persuaded|demonstrated).{0,120}?reasonable\s+likelihood.{0,120}?prevail")
     ambigMatcher1 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(instituted|INSTITUTED)")
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
@@ -97,7 +97,7 @@ if __name__ == "__main__":
         print("Usage: parser_new_data.py srcdir")
         sys.exit(1)
     
-    srcdir, destdir = argv
+    srcdir = argv[0]
     files = [f for f in listdir(srcdir) if isfile(join(srcdir, f))]
     
     uscodeList = []
