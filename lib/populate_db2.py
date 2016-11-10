@@ -75,35 +75,47 @@ def main():
             done = [line.strip() for line in fd.readlines() if len(line.strip()) > 0]
     tsvfiles = list(set(tsvfiles) - set(done))
     
+    global db_conn
+    db_conn = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DB)
+    cursor = db_conn.cursor()
+    h = HTMLParser.HTMLParser()
+    
+    # Get list of all patent IDs in DB
+    print("Getting all existing patent IDs in DB")
+    cursor.execute("select patent_id from patents_decision")
+    existing_IDs = set([elem[0] for elem in cursor.fetchall()])
+    
+    # Build decision table from parsed PTAB results
     decision_table = dict()
     for file_name in ptabfiles:
         patent_id = parser.parsePatentId(file_name)
         if patent_id:
             decision = parser.parseDecision(file_name)
-            decision_table[patent_id] = [decision, False]  # False = has not been written to DB
+            if patent_id in existing_IDs:
+                decision_table[patent_id] = [decision, True]  # True = has been written to DB earlier
+            else:
+                decision_table[patent_id] = [decision, False]  # False = has not been written to DB
     
-    global db_conn
-    db_conn = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_USERNAME, MYSQL_DB)
-    cursor = db_conn.cursor()
-    h = HTMLParser.HTMLParser()
-    
-    # Get list of all patent IDs in DB
-    cursor.execute("select patent_id from patents_decision")
-    existing_IDs = [elem[0] for elem in cursor.fetchall()]
     
     if savefile:
         save_fd = open(savefile, "a")
     
+    print("Reading patents from TSV files")
     for file_name in tsvfiles:
+        print("Reading from {}".format(file_name))
         claims = open(file_name, 'r')
         insert_queue = []
+        i = 0
         for line in claims:
+            i += 1
+            if i & 0x3ff == 0:
+                print("Reading line {}".format(i))
             # isolate patent #, claims text
             patent_id, patent_body = line.split('\t')
             patent_id = patent_id.strip()
             # Some entries in the TSV files are published applications, e.g. 2004/0204653
             # Skip these, since we only want granted patents
-            if "/" in patent_id or patent_id in existing_IDs:
+            if patent_id in existing_IDs or "/" in patent_id:
                 continue
             _, claim_text = patent_body.split('CLAIMS. ')
             # Strip out any invalid ASCII to avoid string decode issues
