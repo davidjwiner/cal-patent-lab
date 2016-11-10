@@ -1,17 +1,19 @@
 #!/usr/bin/env python
-import sys
-import signal
+import HTMLParser
 import MySQLdb
-import parsers.parser_new_data as parser
 from os import listdir
 from os.path import isfile, join
-import HTMLParser
+import parsers.parser_new_data as parser
+import re
+import signal
+import sys
 
 MYSQL_HOST = "cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com"
 MYSQL_USERNAME = "teamrocket"
 MYSQL_PASSWORD = "teamrocket"
 MYSQL_DB = "teamrocket"
-db = None
+MYSQL_TABLE = "patents_decision"
+db_conn = None
 
 def db(host, username, psswd, database_name):
     return MySQLdb.connect(host, username, psswd, database_name)
@@ -45,7 +47,7 @@ def update_table(db):
 
 def handle_ctrl_c(signal, frame):
     print("SIGINT caught, committing to DB and shutting down")
-    status = update_table(db)
+    status = update_table(db_conn)
     if not status:
         print("WARNING: error committing to DB")
     sys.exit(0)
@@ -70,7 +72,7 @@ def main():
     tsvfiles = [join(tsvdir, f) for f in listdir(tsvdir) if isfile(join(tsvdir, f))]
     if savefile and isfile(savefile):
         with open(savefile) as fd:
-            done = fd.readlines()
+            done = [line.strip() for line in fd.readlines() if len(line.strip()) > 0]
     tsvfiles = list(set(tsvfiles) - set(done))
     
     decision_table = dict()
@@ -80,9 +82,9 @@ def main():
             decision = parser.parseDecision(file_name)
             decision_table[patent_id] = [decision, False]  # False = has not been written to DB
     
-    global db
-    db = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_USERNAME, MYSQL_DB)
-    cursor = db.cursor()
+    global db_conn
+    db_conn = db(MYSQL_HOST, MYSQL_USERNAME, MYSQL_USERNAME, MYSQL_DB)
+    cursor = db_conn.cursor()
     h = HTMLParser.HTMLParser()
     
     # Get list of all patent IDs in DB
@@ -104,7 +106,9 @@ def main():
             if "/" in patent_id or patent_id in existing_IDs:
                 continue
             _, claim_text = patent_body.split('CLAIMS. ')
-            claim_text = h.unescape(claim_text.strip()).encode("utf-8")
+            # Strip out any invalid ASCII to avoid string decode issues
+            claim_text = re.sub('[^\x00-\x7f]', '', claim_text) 
+            claim_text = h.unescape(claim_text).encode("utf-8")
             dec = None
             if patent_id in decision_table:
                 decision_table[patent_id][1] = True  # Mark patent with decision as written
@@ -113,25 +117,27 @@ def main():
                 elif decision_table[patent_id][0] == "invalidated":
                     dec = 1
             insert_queue.append((patent_id, dec, claim_text))
-            if len(insert_queue) == 32:
-                status = insert_decision(cursor, 'patents_decision', insert_queue)
-                print(status)
+            if len(insert_queue) == 128:
+                print("Flushing batch")
+                status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
                 insert_queue = []
         # Flush the insert queue
         if len(insert_queue) > 0:
-            status = insert_decision(cursor, insert_queue)
-            print(status)
+            status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
         # Commit transaction after every TSV file
-        status = update_table(db)
+        print("Committing to DB")
+        status = update_table(db_conn)
         if not status:
             print("WARNING: error committing to DB")
         # Add TSV file to list of completed files
         if savefile:
+            print("Writing {} to savefile".format(file_name))
             save_fd.write("{}\n".format(file_name))
             save_fd.flush()
     if savefile:
         save_fd.close()
     
+    insert_queue = []
     for patent_id in decision_table:
         decision, is_written = decision_table[patent_id]
         if is_written or patent_id in existing_IDs:
@@ -142,10 +148,21 @@ def main():
         elif decision == "invalidated":
             dec = 1
         claim_text = None
-        status = insert_decision(cursor, 'patents_decision', patent_id, dec, claim_text)
-    status = update_table(db)
-    print(status)
-    db.close()
+        insert_queue.append((patent_id, dec, claim_text))
+        if len(insert_queue) == 128:
+            print("Flushing batch")
+            status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
+            insert_queue = []
+    # Flush the insert queue
+    if len(insert_queue) > 0:
+        status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
+        insert_queue = []
+        print(status)
+    print("Committing to DB")
+    status = update_table(db_conn)
+    if not status:
+        print("WARNING: error committing to DB")
+    db_conn.close()
 
 
 if __name__ == "__main__":
