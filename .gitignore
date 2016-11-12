@@ -9,3 +9,4 @@ parser/output/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.pyc
