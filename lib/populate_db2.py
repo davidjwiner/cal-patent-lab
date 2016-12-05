@@ -90,12 +90,13 @@ def main():
     for file_name in ptabfiles:
         patent_id = parser.parsePatentId(file_name)
         if patent_id:
-            decision = parser.parseDecision(file_name)
-            if patent_id in existing_IDs:
-                decision_table[patent_id] = [decision, True]  # True = has been written to DB earlier
-            else:
-                decision_table[patent_id] = [decision, False]  # False = has not been written to DB
-    
+            decision = (parser.parseDecision(file_name) == "invalidated")
+            # If this patent was invalidated at any point, keep it invalidated
+            if patent_id in decision_table:
+                decision = decision or decision_table[patent_id][0]
+            # Has this patent been written to the DB earlier?
+            is_written = patent_id in existing_IDs
+            decision_table[patent_id] = [decision, is_written]
     
     if savefile:
         save_fd = open(savefile, "a")
@@ -124,11 +125,9 @@ def main():
             dec = None
             if patent_id in decision_table:
                 decision_table[patent_id][1] = True  # Mark patent with decision as written
-                if decision_table[patent_id][0] == "not invalidated":
-                    dec = 0
-                elif decision_table[patent_id][0] == "invalidated":
-                    dec = 1
-            insert_queue.append((patent_id, dec, claim_text))
+                decision = decision_table[patent_id][0]
+            insert_queue.append((patent_id, decision, claim_text))
+            existing_IDs.add(patent_id)
             if len(insert_queue) == 128:
                 print("Flushing batch")
                 status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
@@ -154,13 +153,8 @@ def main():
         decision, is_written = decision_table[patent_id]
         if is_written or patent_id in existing_IDs:
             continue
-        dec = None
-        if decision == "not invalidated":
-            dec = 0
-        elif decision == "invalidated":
-            dec = 1
-        claim_text = None
-        insert_queue.append((patent_id, dec, claim_text))
+        decision = decision_table[patent_id][0]
+        insert_queue.append((patent_id, decision, claim_text))
         if len(insert_queue) == 128:
             print("Flushing batch")
             status = insert_decision(cursor, MYSQL_TABLE, insert_queue)
