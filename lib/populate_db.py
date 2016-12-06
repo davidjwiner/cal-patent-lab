@@ -122,7 +122,7 @@ def main():
             # Strip out any invalid ASCII to avoid string decode issues
             claim_text = re.sub('[^\x00-\x7f]', '', claim_text) 
             claim_text = h.unescape(claim_text).encode("utf-8")
-            dec = None
+            decision = None
             if patent_id in decision_table:
                 decision_table[patent_id][1] = True  # Mark patent with decision as written
                 decision = decision_table[patent_id][0]
