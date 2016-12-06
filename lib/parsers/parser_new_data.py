@@ -17,8 +17,8 @@ from os.path import isfile, join
 #locale.setlocale( locale.LC_ALL, 'en_US.UTF-8' )
 
 def parsePatentId(infile):
-    matcher1 = re.compile('(?<=Patent )\s*(RE|D|PP)?[0-9,]+')
-    matcher2 = re.compile('(?<=Patent No.)\s*(RE|D|PP)?[0-9,]+')
+    matcher1 = re.compile('(?<=Patent )\s*(RE|D|PP)?[0-9,]{3,9}')
+    matcher2 = re.compile('(?<=Patent No.)\s*(RE|D|PP)?[0-9,]{3,9}')
     # If we find a mention of Patent followed by numbers w/commas, we find the ID
     with open(infile) as f:
         text = f.read().strip()
