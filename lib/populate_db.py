@@ -90,7 +90,10 @@ def main():
     for file_name in ptabfiles:
         patent_id = parser.parsePatentId(file_name)
         if patent_id:
-            decision = (parser.parseDecision(file_name) == "invalidated")
+            decision_string = parser.parseDecision(file_name)
+            if decision_string == "ambiguous":
+                continue
+            decision = (decision_string == "invalidated")
             # If this patent was invalidated at any point, keep it invalidated
             if patent_id in decision_table:
                 decision = decision or decision_table[patent_id][0]
