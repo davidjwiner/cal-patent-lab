@@ -10,3 +10,5 @@ parser/output/
 ehthumbs.db
 Thumbs.db
 *.pyc
+lib/notebooks/patent_title_abstract_claims.tsv.00
+
