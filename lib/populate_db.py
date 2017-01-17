@@ -139,7 +139,6 @@ def main():
     
     # Load merged file with decisions and other attributes
     decision_table = load_merged_file(src_filename)
-    print(type(decision_table))
     
     for tsv_filename in tsvfiles:
         print("Reading patents from {}".format(tsv_filename))
