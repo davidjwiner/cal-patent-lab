@@ -74,7 +74,7 @@ def split_patent_line(line):
     # isolate patent #, claims text
     patent_id, patent_body = line.split('\t')
     patent_id = patent_id.strip()
-    _, claims_text = patent_body.split('CLAIMS. ')
+    _, claims_text = patent_body.split('CLAIMS. ', 1)
     # Strip out any invalid ASCII to avoid string decode issues
     claims_text = re.sub('[^\x00-\x7f]', '', claims_text)
     
@@ -93,7 +93,7 @@ def flush_insert_queue(cursor, queue):
 
 def record_file_as_done(save_filename, filename_to_record):
     save_fd = open(save_filename, "a")
-    print("Writing {} to save_filename".format(filename_to_record))
+    print("Writing {} to save file".format(filename_to_record))
     save_fd.write("{}\n".format(filename_to_record))
     save_fd.flush()
     save_fd.close()
