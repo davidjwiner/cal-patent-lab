@@ -76,7 +76,7 @@ def split_patent_line(line):
     patent_id = patent_id.strip()
     _, claims_text = patent_body.split('CLAIMS. ', 1)
     # Strip out any invalid ASCII to avoid string decode issues
-    claims_text = claims_text.encode("ascii", errors="ignore")
+    claims_text = re.sub('[^\x00-\x7f]', '', claims_text)
     
     global html_parser
     if html_parser is None:
