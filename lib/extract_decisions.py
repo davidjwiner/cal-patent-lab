@@ -2,102 +2,118 @@
 from collections import Counter
 import json
 from os import listdir
-from os.path import isfile, join
+import os.path
 import notebooks.parser_new_data as parser
 import sys
 
-# Call our custom parser to parse decisions from PTAB decision documents
-def parse_decisions_from_case_files(ptab_files):
-    decision_table = dict()
-    for file_name in ptab_files:
-        patent_id = parser.parsePatentId(file_name)
-        if not patent_id:
-            print("{}: could not parse patent number".format(file_name))
-            continue
-        decision_string = parser.parseDecision(file_name)
-        if decision_string == "ambiguous":
-            print("{}: decision is ambiguous for patent {}".format(file_name, patent_id))
-            decision_table[patent_id] = "ambiguous"
-            continue
-        # If this patent was invalidated at any point, keep it invalidated
-        decision = (decision_string == "invalidated") \
-                   or decision_table.get(patent_id, False)
-        decision_table[patent_id] = decision
-    return decision_table
+# Patent ID -> class file downloaded from
+# https://bulkdata.uspto.gov/data2/patent/classification/mcfpat.zip
+# Art unit -> class file derived from pages at
+# https://www.uspto.gov/patents-application-process/patent-search/understanding-patent-classifications/patent-classification
 
 
 # Load a JSON dump of cases downloaded from the PTAB API
-# Convert to, return a dictionary mapping patent numbers to various attributes
-def load_ptab_api_cases(api_filename):
-    fd = open(api_filename)
-    api_cases = json.load(fd)
-    fd.close()
+# Return a dictionary mapping case numbers to various attributes
+def load_ptab_api_cases(api_data_filename, fwd_dir):
+    api_cases = json.load(open(api_data_filename))
     
-    # Build list of values for each attribute belonging
-    # to the appropriate patent number
-    api_table = dict()
     for case in api_cases:
+        if case["prosecutionStatus"] == "Terminated-Denied":
+            case["invalidated"] = False
+            case["denied"]      = True
+        elif case["prosecutionStatus"] == "Terminated-Adverse Judgment":
+            case["invalidated"] = True
+            case["denied"]      = False
+        elif case["prosecutionStatus"] == "FWD Entered":
+            trial_id = case["trialNumber"].upper()
+            fwd_file = path.join(fwd_dir, "{}.pdf".format(trial_id))
+            if path.isfile(fwd_file):
+                decision_str = parser.parseDecision(file_name)
+                if decision_str == "ambiguous":
+                    print("{}: decision is ambiguous for {}, leaving blank".format(file_name, trial_id))
+                else:
+                    case["invalidated"] = (decision_str == "invalidated")
+                    case["denied"]      = False
+            else:
+                # Missing final decision file, so no information can be extracted
+                print("Missing final decision file for {}".format(trial_id))
+        # Else: there's no information about invalidation or denied petitions
+    
+    return api_cases
+
+
+# Load patent ID -> class data from USPTO-provided file
+# Return a dictionary mapping patent IDs to class/subclass tuples
+def load_patent_class_data(patent_class_filename):
+    fd = open(patent_class_filename)
+    patent_class_data = dict()
+    for line in fd:
+        line = line.strip()
+        # Skip cross-reference classifications since they don't decide which
+        # tech office reviews this patent
+        if line[-1] == "X":
+            continue
+        patent_id = normalize_patent_id(line[:7])  # First 7 characters are patent ID
+        main_class, subclass = normalize_class_subclass(line[7:16])  # Next 9 characters are class/subclass
+        patent_class_data[patent_id] = (main_class, subclass)
+    
+    return patent_class_data
+
+
+# Strip out leading padding zeros from input string
+# Input: 7-character string containing patent ID (e.g. 1234567, RE12345)
+def normalize_patent_id(patent_id_str):
+    # Strip leading zeros after any lettered prefixes like PP or RE
+    prefix, num = re.search("(\w*?)(\d+)", patent_id_str).groups()
+    num = str(int(num))
+    return prefix.upper() + num
+
+
+# Separate class and subclass, and strip leading padding zeros
+# Input: 9-character string containing both the class and subclass
+def normalize_class_subclass(class_subclass_str):
+    class_str = class_subclass_str[:3]
+    subclass_str = class_subclass_str[3:]
+    class_str = re.search("0+(\d+)", class_str).group(1)
+    return class_str, subclass_str
+
+
+def load_au_class_data(au_class_filename):
+    pass
+
+
+def find_au_for(patent_class_data, class_id, subclass_id):
+    pass
+
+
+
+def build_patent_data(api_data, patent_class_data, au_class_data):
+    patent_data = dict()
+    for case in api_data:
+        trial_id  = case["trialNumber"].upper()
         patent_id = case.get("patentNumber")
         if not patent_id:
-            print("Case {} does not have a patent number, skipping".format(case["trialNumber"]))
+            print("Case {} does not have a patent number".format(trial_id))
             continue
-        status = case["prosecutionStatus"]
-        if patent_id not in api_table:
-            api_table[patent_id] = dict()
-        patent_entry = api_table[patent_id]
-        for field in ("patentOwnerName", "inventorName", "prosecutionStatus", \
-                      "trialNumber", "petitionerPartyName"):
+        # Create entry for patent ID if it doesn't exist
+        if patent_id not in patent_data:
+            patent_data[patent_id] = dict()
+        patent_entry = patent_data[patent_id]
+        # TODO: get class/subclass for patent ID
+        # TODO: look up AU for class/subclass, add it to entry
+        for field in ("patentOwnerName",):
             existing_record = patent_entry.get(field, [])
             existing_record.append(case.get(field))
             patent_entry[field] = existing_record
     
     # Keep the mode of the following fields for each patent number
-    for patent_id in api_table:
-        patent_entry = api_table[patent_id]
-        for field in ("patentOwnerName", "inventorName"):
+    for patent_id in patent_data:
+        patent_entry = patent_data[patent_id]
+        for field in ("patentOwnerName",):
             if field not in patent_entry:
                 continue
-            field_entry_list = patent_entry[field]
-            best_entry = mode(field_entry_list)
-            patent_entry[field] = best_entry
-    return api_table
-
-
-# Create and return a dictionary mapping patent numbers to various attributes
-def join_decsions_with_ptab_data(decision_table, api_table):
-    augmented_table = api_table.copy()
-    
-    for patent_id in decision_table:
-        parsed_decision = decision_table[patent_id]
-        # If a patent appears in our parsed results but not in the PTAB API data,
-        # then skip it because we don't have inventor name, petitioner name,
-        # or other data for it
-        if patent_id not in augmented_table:
-            print("{} not found in data from PTAB API".format(patent_id))
-            continue
-        
-        api_status = augmented_table[patent_id]["prosecutionStatus"]
-        # For cases where our parser fails, try to infer the decision
-        # from prosecution statuses
-        if parsed_decision == "ambiguous":
-            # Case is terminated without adverse judgment or final written decision
-            if contains(api_status, ["Terminated-Settled", "Terminated-Denied",
-                                     "Terminated-Other", "Defective", "Deleted",
-                                     "Terminated-Dismissed", "Discarded", "Withdrawn"]):
-                parsed_decision = False
-            # Patent holder has requested invalidation of parts of their own patent
-            elif "Terminated-Adverse Judgment" in api_status:
-                parsed_decision = True
-            # We can't reliably infer a status, so skip this patent
-            else:
-                continue
-        
-        augmented_table[patent_id]["invalidated"] = parsed_decision
-        # Do a sanity check between parsed decision and prosecution status
-        if parsed_decision is True and "FWD Entered" not in api_status and \
-                "Terminated-Adverse Judgment" not in api_status:
-            print("Patent:{}, Parsed:{}, API:{}".format(patent_id, parsed_decision, api_status))
-    return augmented_table
+            patent_entry[field] = mode(patent_entry[field])
+    return patent_data
 
 
 # Write JSON representation of patent->attribute dictionary
@@ -116,36 +132,32 @@ def contains(source, has):
 
 
 def mode(lst):
-    ctr = Counter(lst)
+    ctr    = Counter(lst)
     values = ctr.values()
-    idx = values.index(max(values))
-    items = ctr.items()
+    idx    = values.index(max(values))
+    items  = ctr.items()
     return items[idx][0]
 
 
 def main():
     argv = sys.argv[1:]
-    if len(argv) != 3:
-        print("Usage: extract_decisions.py path/to/ptab_files "
-              "path/to/ptab_api_dump "
-              "path/to/output_file")
+    if len(argv) != 4:
+        print("Usage: extract_decisions.py ptab_api_metadata_file "
+              "path/to/ptab_fwd_files "
+              "patent_to_class_file "
+              "art_unit_to_class_file ")
         sys.exit(1)
-    ptab_dir = argv[0]
-    api_filename = argv[1]
-    out_filename = argv[2]
-    ptab_files = [join(ptab_dir, f) for f in listdir(ptab_dir) if isfile(join(ptab_dir, f))]
+    api_data_filename     = argv[0]
+    fwd_dir               = argv[1]
+    patent_class_filename = argv[2]
+    au_class_filename     = argv[3]
     
-    # Build decision table from parsed PTAB results
-    decision_table = parse_decisions_from_case_files(ptab_files)
+    api_data          = load_ptab_api_data(api_data_filename, fwd_dir)
+    patent_class_data = load_patent_class_data(patent_class_filename)
+    au_class_data     = load_au_class_data(au_class_filename)
+    patent_data       = build_patent_data(api_data, patent_class_data, au_class_data)
     
-    # Load case data scraped from PTAB API
-    api_cases = load_ptab_api_cases(api_filename)
-    
-    # Link patent numbers to attributes such as inventor name and invalidation status
-    augmented_table = join_decsions_with_ptab_data(decision_table, api_cases)
-    
-    # Export decisions and patent attributes to file
-    export_case_decisions_attrs(augmented_table, out_filename)
+    # TODO: export trial, patent data to JSON files
 
 if __name__ == "__main__":
     main()
