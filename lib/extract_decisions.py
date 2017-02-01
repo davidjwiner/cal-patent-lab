@@ -2,7 +2,7 @@
 from collections import Counter
 import json
 from os import listdir
-import os.path
+from os import path
 import notebooks.parser_new_data as parser
 import sys
 
@@ -14,31 +14,44 @@ import sys
 
 # Load a JSON dump of cases downloaded from the PTAB API
 # Return a dictionary mapping case numbers to various attributes
-def load_ptab_api_cases(api_data_filename, fwd_dir):
+def load_ptab_api_data(api_data_filename, fwd_dir):
     api_cases = json.load(open(api_data_filename))
-    
+    num_decisions = 0
+    num_inval = 0
+    num_denied = 0
+    num_ambiguous = 0
+    num_missing = 0
     for case in api_cases:
         if case["prosecutionStatus"] == "Terminated-Denied":
             case["invalidated"] = False
             case["denied"]      = True
+            num_decisions += 1
+            num_denied += 1
         elif case["prosecutionStatus"] == "Terminated-Adverse Judgment":
             case["invalidated"] = True
             case["denied"]      = False
+            num_decisions += 1
+            num_inval += 1
         elif case["prosecutionStatus"] == "FWD Entered":
             trial_id = case["trialNumber"].upper()
-            fwd_file = path.join(fwd_dir, "{}.pdf".format(trial_id))
-            if path.isfile(fwd_file):
-                decision_str = parser.parseDecision(file_name)
+            fwd_filename = path.join(fwd_dir, "{}.txt".format(trial_id))
+            if path.isfile(fwd_filename):
+                decision_str = parser.parseDecision(fwd_filename)
                 if decision_str == "ambiguous":
-                    print("{}: decision is ambiguous for {}, leaving blank".format(file_name, trial_id))
+                    print("{}: decision is ambiguous for {}, leaving blank".format(fwd_filename, trial_id))
+                    num_ambiguous += 1
                 else:
                     case["invalidated"] = (decision_str == "invalidated")
                     case["denied"]      = False
+                    num_decisions += 1
+                    if case["invalidated"]:
+                        num_inval += 1
             else:
                 # Missing final decision file, so no information can be extracted
                 print("Missing final decision file for {}".format(trial_id))
+                num_missing += 1
         # Else: there's no information about invalidation or denied petitions
-    
+    print("Invalidated: {}, denied: {}, ambiguous: {}, missing: {}, total: {}".format(num_inval, num_denied, num_ambiguous, num_missing, num_decisions))
     return api_cases
 
 
