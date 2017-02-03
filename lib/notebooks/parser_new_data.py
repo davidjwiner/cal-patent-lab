@@ -32,39 +32,26 @@ def parsePatentId(infile):
     return
 
 def parseDecision(infile):
-    invalMatcher1 = re.compile('ORDERED.{0,120}?[cC]laim(s)?\s+\d+.{0,120}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)')
+    invalMatcher1 = re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)")
     invalMatcher2 = re.compile('[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
-    valMatcher1 = re.compile("no\s+trial\s+.{0,10}?instituted")
-    valMatcher2 = re.compile("[jJ]oint\s+?[mM]otions?(\s+?[tT]o\s+?[tT]erminate)?.{0,120}?(granted|GRANTED)")
-    valMatcher3 = re.compile("([pP]etitions?|[iI]nstiution|[rR]equest).{0,120}?([rR]ehearing|[iI]nter\s+?[pP]artes|INTER\s+?PARTES|IPR|[rR]ehearing|challeng).{0,120}?(denied|DENIED|dismissed|DISMISSED)")
-    valMatcher4 = re.compile("not\s+(persuaded|demonstrated).{0,120}?reasonable\s+likelihood.{0,120}?prevail")
-    ambigMatcher1 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(instituted|INSTITUTED)")
+    invalMatcher3 = re.compile("[jJ]udgment\s+(is\s+)?entered")
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
         text = f.read().replace('\n', ' ')
         inv1 = invalMatcher1.search(text)
         inv2 = invalMatcher2.search(text)
-        val1 = valMatcher1.search(text)
-        val2 = valMatcher2.search(text)
-        val3 = valMatcher3.search(text)
-        val4 = valMatcher4.search(text)
-        amb1 = ambigMatcher1.search(text)
+        inv3 = invalMatcher3.search(text)
+        invalid = inv1 or inv2 or inv3
+        negated = None
+        if invalid:
+            negated = ("not" in invalid.group(0))
         
-        valid = val1 or val2 or val3 or val4
-        invalid = inv1 or inv2
-        ambiguous = amb1
-        
-        if invalid and not valid and not ambiguous:
+        if invalid and not negated:
             decision = "invalidated"
-        elif valid and not invalid and not ambiguous:
+        elif invalid and negated:
             decision = "not invalidated"
         else:
-            if not invalid and not valid and not ambiguous:
-                print("WARNING: ambiguous decision in {}: inval=None, val=None".format(infile, invalid, valid))
-            elif invalid and valid and not ambiguous:
-                print("WARNING: ambiguous decision in {}: inval={}, val={}".format(infile, invalid.group(0), valid.group(0)))
-            else:
-                print("WARNING: uncorrectable ambiguous decision in {}".format(infile))
+            print("WARNING: ambiguous decision for {}".format(infile))
             decision = "ambiguous"
     return decision
 
