@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 from collections import Counter
 import json
+import notebooks.parser_new_data as parser
 from os import listdir
 from os import path
-import notebooks.parser_new_data as parser
+import re
 import sys
 
 # Patent ID -> class file downloaded from
@@ -18,6 +19,7 @@ def load_ptab_api_data(api_data_filename, fwd_dir):
     api_cases = json.load(open(api_data_filename))
     num_decisions = 0
     num_inval = 0
+    num_adv_judgement = 0
     num_denied = 0
     num_ambiguous = 0
     num_missing = 0
@@ -31,7 +33,7 @@ def load_ptab_api_data(api_data_filename, fwd_dir):
             case["invalidated"] = True
             case["denied"]      = False
             num_decisions += 1
-            num_inval += 1
+            num_adv_judgement += 1
         elif case["prosecutionStatus"] == "FWD Entered":
             trial_id = case["trialNumber"].upper()
             fwd_filename = path.join(fwd_dir, "{}.txt".format(trial_id))
@@ -51,7 +53,7 @@ def load_ptab_api_data(api_data_filename, fwd_dir):
                 print("Missing final decision file for {}".format(trial_id))
                 num_missing += 1
         # Else: there's no information about invalidation or denied petitions
-    print("Invalidated: {}, denied: {}, ambiguous: {}, missing: {}, total: {}".format(num_inval, num_denied, num_ambiguous, num_missing, num_decisions))
+    print("Invalidated: {}, denied: {}, adverse judgment: {}, ambiguous: {}, missing: {}, total: {}".format(num_inval, num_denied, num_adv_judgement, num_ambiguous, num_missing, num_decisions))
     return api_cases
 
 
@@ -87,7 +89,9 @@ def normalize_patent_id(patent_id_str):
 def normalize_class_subclass(class_subclass_str):
     class_str = class_subclass_str[:3]
     subclass_str = class_subclass_str[3:]
-    class_str = re.search("0+(\d+)", class_str).group(1)
+    match = re.search("0*(\d+)", class_str)
+    if match:
+        class_str = match.group(1)
     return class_str, subclass_str
 
 
