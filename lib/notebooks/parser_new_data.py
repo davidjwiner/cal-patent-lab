@@ -32,12 +32,13 @@ def parsePatentId(infile):
     return
 
 def parseDecision(infile):
-    invalMatcher1 = re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)")
-    invalMatcher2 = re.compile('[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
+    invalMatcher1 = re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED|obvious|OBVIOUS)")
+    invalMatcher2 = re.compile('ORDERED.{0,120}?[aA]dverse\s+[jJ]udgment.{0,120}?(granted|GRANTED)')
     invalMatcher3 = re.compile("[jJ]udgment\s+(is\s+)?entered")
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
         text = f.read().replace('\n', ' ')
+        # TODO: replace search with findall, then flatten results and iterate through them
         inv1 = invalMatcher1.search(text)
         inv2 = invalMatcher2.search(text)
         inv3 = invalMatcher3.search(text)
