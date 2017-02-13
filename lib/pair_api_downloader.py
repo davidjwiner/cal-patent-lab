@@ -5,7 +5,7 @@ import requests
 import sys
 
 # calling the api to get the examiner name and art unit
-def get_au_examiner(patentId):
+def get_metadata(patentId):
     # calling the api
     pair_url = "https://pairbulkdata.uspto.gov/api/queries"
     data = {"searchText":"{}".format(patentId),"qf": "patentNumber", "f[Bacet":"false"}
@@ -26,13 +26,10 @@ def get_au_examiner(patentId):
         art_unit      = result['appGrpArtNumber']
         filing_date   = parse(result["appFilingDate"]).strftime("%Y-%m-%d")
         issue_date    = parse(result["patentIssueDate"]).strftime("%Y-%m-%d")
+        return examiner_name, art_unit, filing_date, issue_date
     except (IndexError, KeyError):
         print(patentId)
-        examiner_name = None
-        art_unit      = None
-        filing_date   = None
-        issue_date    = None
-    return examiner_name, art_unit, filing_date, issue_date
+        return None
 
 
 # create a csv file containing: patent_id, art unit, examiner name
@@ -53,10 +50,12 @@ def create_csv(ptab_api_filename, output_filename):
     num_cases = len(patents)
     for patent_id in patents:
         count += 1
-        examiner, au, filing_date, issue_date = get_au_examiner(patent_id)
-        p.writerow([patent_id, au, examiner, filing_date, issue_date])
-        if count % 10 == 0:
-            print('Written {}/{} cases in csv file'.format(count, num_cases))
+        data = get_metadata(patent_id)
+        if data is not None:
+            examiner, au, filing_date, issue_date = data
+            p.writerow([patent_id, au, examiner, filing_date, issue_date])
+            if count % 10 == 0:
+                print('Written {}/{} cases in csv file'.format(count, num_cases))
     
 
 if __name__ == '__main__':
