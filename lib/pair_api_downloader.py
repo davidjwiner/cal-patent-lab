@@ -42,14 +42,17 @@ def create_csv(ptab_api_filename, output_filename):
     au_examiner_file = open(output_filename, "w")
     p = csv.writer(au_examiner_file)
     p.writerow(["patentId", "artUnit", "examinerName", "filingDate", "issueDate"])
-    count = 0
-    num_cases = len(api_cases)
+    
+    patents = set()
     for case in api_cases:
+        patent_id = case.get("patentNumber")
+        if patent_id:
+            patents.add(patent_id)
+    
+    count = 0
+    num_cases = len(patents)
+    for patent_id in patents:
         count += 1
-        try:
-            patent_id = case['patentNumber']
-        except KeyError:
-            print(case)
         examiner, au, filing_date, issue_date = get_au_examiner(patent_id)
         p.writerow([patent_id, au, examiner, filing_date, issue_date])
         if count % 10 == 0:
