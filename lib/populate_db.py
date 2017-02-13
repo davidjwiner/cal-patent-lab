@@ -136,17 +136,20 @@ def main():
     
     counter = 0
     num_lines = len(ptab_data)
+    print("Writing to PTAB API table")
     for entry in ptab_data:
         counter += 1
         line = build_ptab_table_line(entry)
         ptab_table_writer.insert(line)
         if counter & 0x1ff == 0:
             print("Inserting line {}/{}".format(counter, num_lines))
+    print("Inserting line {}/{}".format(counter, num_lines))
     ptab_table_writer.flush()
     ptab_table_writer.close()
     
     counter = 0
     num_lines = len(patent_data)
+    print("Writing to patent data table")
     for patent_id in patent_data:
         counter += 1
         entry = patent_data[patent_id]
@@ -154,6 +157,7 @@ def main():
         patent_table_writer.insert(line)
         if counter & 0x1ff == 0:
             print("Inserting line {}/{}".format(counter, num_lines))
+    print("Inserting line {}/{}".format(counter, num_lines))
     patent_table_writer.flush()
     patent_table_writer.close()
 
