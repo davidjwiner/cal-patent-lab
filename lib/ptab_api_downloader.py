@@ -5,6 +5,7 @@ from os import makedirs
 from os import path
 import random
 import urllib2
+from subprocess import call
 import ssl
 import sys
 import time
@@ -118,13 +119,16 @@ def download_fwd_docs(cases, output_dir):
         
         with open(doc_filename, "w") as fd:
             fd.write(doc_contents)
+        
+        text_filename = path.join(output_dir, "{}.txt".format(trial_id))
+        call(["pdftotext", doc_filename, text_filename])
         random_sleep()
 
 
 def main():
     argv = sys.argv[1:]
     if len(argv) != 2:
-        print("Usage: ptab_api_downloader.py path/to/case_data_file path/to/fwd_docs")
+        print("Usage: ptab_api_downloader.py path/to/case_data_input path/to/fwd_files")
         sys.exit(1)
     
     casedata_filename = argv[0]
