@@ -3,9 +3,6 @@
 #
 # This parser handles new data about patents which were analyzed post-grant
 # Those documents are formatted differently, hence the need for a new parser
-# This script takes two arguments:
-#   An input directory where converted PDF texts are stored
-#   An output directory where files with extracted attributes should be written
 
 import collections
 import locale
@@ -31,42 +28,39 @@ def parsePatentId(infile):
     print("Warning: no patent ID found for {}".format(infile))
     return
 
+
 def parseDecision(infile):
-    invalMatcher1 = re.compile('ORDERED.{0,120}?[cC]laim(s)?\s+\d+.{0,120}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED)')
-    invalMatcher2 = re.compile('[aA]dverse\s+[jJ]udgment.{0,120}?[cC]laim(s)?\s+\d+.+?(granted|GRANTED)')
-    valMatcher1 = re.compile("no\s+trial\s+.{0,10}?instituted")
-    valMatcher2 = re.compile("[jJ]oint\s+?[mM]otions?(\s+?[tT]o\s+?[tT]erminate)?.{0,120}?(granted|GRANTED)")
-    valMatcher3 = re.compile("([pP]etitions?|[iI]nstiution|[rR]equest).{0,120}?([rR]ehearing|[iI]nter\s+?[pP]artes|INTER\s+?PARTES|IPR|[rR]ehearing|challeng).{0,120}?(denied|DENIED|dismissed|DISMISSED)")
-    valMatcher4 = re.compile("not\s+(persuaded|demonstrated).{0,120}?reasonable\s+likelihood.{0,120}?prevail")
-    ambigMatcher1 = re.compile("[rR]equest\s+?for\s+?[rR]ehearing.{0,120}?(instituted|INSTITUTED)")
+    patterns = [
+        re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED|obvious|OBVIOUS)"),
+        re.compile('ORDERED.{0,120}?[aA]dverse\s+[jJ]udgment.{0,120}?(granted|GRANTED)'),
+        re.compile("[jJ]udgment\s+(is\s+)?entered")
+    ]
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
         text = f.read().replace('\n', ' ')
-        inv1 = invalMatcher1.search(text)
-        inv2 = invalMatcher2.search(text)
-        val1 = valMatcher1.search(text)
-        val2 = valMatcher2.search(text)
-        val3 = valMatcher3.search(text)
-        val4 = valMatcher4.search(text)
-        amb1 = ambigMatcher1.search(text)
         
-        valid = val1 or val2 or val3 or val4
-        invalid = inv1 or inv2
-        ambiguous = amb1
+        matches = []
+        for pattern in patterns:
+            for match in pattern.finditer(text):
+                matches.append(match.group(0))
         
-        if invalid and not valid and not ambiguous:
-            decision = "invalidated"
-        elif valid and not invalid and not ambiguous:
-            decision = "not invalidated"
-        else:
-            if not invalid and not valid and not ambiguous:
-                print("WARNING: ambiguous decision in {}: inval=None, val=None".format(infile, invalid, valid))
-            elif invalid and valid and not ambiguous:
-                print("WARNING: ambiguous decision in {}: inval={}, val={}".format(infile, invalid.group(0), valid.group(0)))
-            else:
-                print("WARNING: uncorrectable ambiguous decision in {}".format(infile))
+        decision = None
+        if len(matches) == 0:
+            print("WARNING: ambiguous decision for {}".format(infile))
             decision = "ambiguous"
+        else:
+            invalidated = False
+            for match in matches:
+                negated = (" not " in match)
+                if not negated:
+                    invalidated = True
+                    break
+            if invalidated:
+                decision = "invalidated"
+            else:
+                decision = "not invalidated"
     return decision
+
 
 def parseUSCode(infile):
     USCMatcher = re.compile('U.S.C. \§')
@@ -83,6 +77,7 @@ def parseUSCode(infile):
             return USCodeResult
         else:
             return []
+
 
 # TODO (DS): This function needs to go in a separate file
 # TODO (DS): Next meeting, discuss about folder architecture
