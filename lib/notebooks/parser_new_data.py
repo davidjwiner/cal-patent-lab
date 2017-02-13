@@ -3,9 +3,6 @@
 #
 # This parser handles new data about patents which were analyzed post-grant
 # Those documents are formatted differently, hence the need for a new parser
-# This script takes two arguments:
-#   An input directory where converted PDF texts are stored
-#   An output directory where files with extracted attributes should be written
 
 import collections
 import locale
@@ -44,7 +41,8 @@ def parseDecision(infile):
         
         matches = []
         for pattern in patterns:
-            matches.extend(pattern.findall(text))
+            for match in pattern.finditer(text):
+                matches.append(match.group(0))
         
         decision = None
         if len(matches) == 0:
@@ -53,7 +51,7 @@ def parseDecision(infile):
         else:
             invalidated = False
             for match in matches:
-                negated = ("not" in match)
+                negated = (" not " in match)
                 if not negated:
                     invalidated = True
                     break
