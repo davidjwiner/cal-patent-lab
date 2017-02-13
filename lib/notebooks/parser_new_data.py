@@ -31,30 +31,38 @@ def parsePatentId(infile):
     print("Warning: no patent ID found for {}".format(infile))
     return
 
+
 def parseDecision(infile):
-    invalMatcher1 = re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED|obvious|OBVIOUS)")
-    invalMatcher2 = re.compile('ORDERED.{0,120}?[aA]dverse\s+[jJ]udgment.{0,120}?(granted|GRANTED)')
-    invalMatcher3 = re.compile("[jJ]udgment\s+(is\s+)?entered")
+    patterns = [
+        re.compile("ORDERED.{0,240}?(unpatentable|UNPATENTABLE|anticipated|ANTICIPATED|cancell?ed|CANCELL?ED|obvious|OBVIOUS)"),
+        re.compile('ORDERED.{0,120}?[aA]dverse\s+[jJ]udgment.{0,120}?(granted|GRANTED)'),
+        re.compile("[jJ]udgment\s+(is\s+)?entered")
+    ]
     with open(infile) as f:
         # Read entire file, convert to single line for regex searching purposes
         text = f.read().replace('\n', ' ')
-        # TODO: replace search with findall, then flatten results and iterate through them
-        inv1 = invalMatcher1.search(text)
-        inv2 = invalMatcher2.search(text)
-        inv3 = invalMatcher3.search(text)
-        invalid = inv1 or inv2 or inv3
-        negated = None
-        if invalid:
-            negated = ("not" in invalid.group(0))
         
-        if invalid and not negated:
-            decision = "invalidated"
-        elif invalid and negated:
-            decision = "not invalidated"
-        else:
+        matches = []
+        for pattern in patterns:
+            matches.extend(pattern.findall(text))
+        
+        decision = None
+        if len(matches) == 0:
             print("WARNING: ambiguous decision for {}".format(infile))
             decision = "ambiguous"
+        else:
+            invalidated = False
+            for match in matches:
+                negated = ("not" in match)
+                if not negated:
+                    invalidated = True
+                    break
+            if invalidated:
+                decision = "invalidated"
+            else:
+                decision = "not invalidated"
     return decision
+
 
 def parseUSCode(infile):
     USCMatcher = re.compile('U.S.C. \§')
@@ -71,6 +79,7 @@ def parseUSCode(infile):
             return USCodeResult
         else:
             return []
+
 
 # TODO (DS): This function needs to go in a separate file
 # TODO (DS): Next meeting, discuss about folder architecture
