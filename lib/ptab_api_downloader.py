@@ -128,7 +128,7 @@ def download_fwd_docs(cases, output_dir):
 def main():
     argv = sys.argv[1:]
     if len(argv) != 2:
-        print("Usage: ptab_api_downloader.py path/to/case_data_input path/to/fwd_files")
+        print("Usage: ptab_api_downloader.py path/to/case_data_output path/to/fwd_files")
         sys.exit(1)
     
     casedata_filename = argv[0]
