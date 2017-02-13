@@ -15,8 +15,8 @@ import sys
 
 # Load a JSON dump of cases downloaded from the PTAB API
 # Return a dictionary mapping case numbers to various attributes
-def load_ptab_api_data(api_data_filename, fwd_dir):
-    api_cases = json.load(open(api_data_filename))
+def load_ptab_api_data(ptab_data_filename, fwd_dir):
+    api_cases = json.load(open(ptab_data_filename))
     num_decisions     = 0
     num_inval         = 0
     num_adv_judgement = 0
@@ -70,9 +70,9 @@ def load_patent_au_examiner_data(patent_au_ex_filename):
     return patent_au_ex_data
 
 
-def build_patent_data(api_data, patent_au_ex_data):
+def build_patent_data(ptab_data, patent_au_ex_data):
     patent_data = dict()
-    for case in api_data:
+    for case in ptab_data:
         patent_id = case.get("patentNumber")
         if not patent_id:
             print("Case {} does not have a patent number".format(case["trialNumber"]))
@@ -120,18 +120,18 @@ def main():
               "ptab_api_metadata_output "
               "patent_data_output")
         sys.exit(1)
-    api_data_filename     = argv[0]
+    ptab_data_filename    = argv[0]
     fwd_dir               = argv[1]
     patent_au_ex_filename = argv[2]
-    api_out_filename      = argv[3]
+    ptab_out_filename     = argv[3]
     patent_out_filename   = argv[4]
     
-    api_data          = load_ptab_api_data(api_data_filename, fwd_dir)
+    ptab_data          = load_ptab_api_data(ptab_data_filename, fwd_dir)
     patent_au_ex_data = load_patent_au_examiner_data(patent_au_ex_filename)
-    patent_data       = build_patent_data(api_data, patent_au_ex_data)
+    patent_data       = build_patent_data(ptab_data, patent_au_ex_data)
     
     # TODO: export trial, patent data to JSON files
-    export_case_decisions_attrs(api_data, api_out_filename)
+    export_case_decisions_attrs(ptab_data, ptab_out_filename)
     export_case_decisions_attrs(patent_data, patent_out_filename)
 
 if __name__ == "__main__":
