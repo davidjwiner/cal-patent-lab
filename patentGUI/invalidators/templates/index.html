@@ -58,150 +58,172 @@ textarea {
     font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
     font-size: 1.5em;
 }
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
 </style>
 
 <body id="page-top">
 
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">cal-patent-lab</a>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">cal-patent-lab</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+		<li class="active"><a href="#">Predict</a></li>
+		<li><a href="#">Statistics</a></li>
+		</ul>
+		<form class="navbar-form navbar-left">
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Search">
 		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-			<li class="active"><a href="#">Predict</a></li>
-			<li><a href="#">Statistics</a></li>
+		<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		<ul class="nav navbar-nav navbar-right">
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			<li><a href="#">Action</a></li>
+			<li><a href="#">Another action</a></li>
+			<li><a href="#">Something else here</a></li>
+			<li role="separator" class="divider"></li>
+			<li><a href="#">Separated link</a></li>
 			</ul>
-			<form class="navbar-form navbar-left">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-			<button type="submit" class="btn btn-default">Submit</button>
-			</form>
-			<ul class="nav navbar-nav navbar-right">
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-				<li><a href="#">Action</a></li>
-				<li><a href="#">Another action</a></li>
-				<li><a href="#">Something else here</a></li>
-				<li role="separator" class="divider"></li>
-				<li><a href="#">Separated link</a></li>
-				</ul>
-			</li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
+		</li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
 
-	<header>
+<header>
     <form id='myForm' method="POST" action="/predict/">{% csrf_token %}
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-7">
-					<div class="header-content">
-						<div class="header-content-inner">
-							<h1>Predicting Bad Patents: <br>
-								The Invalidators</h1>
-								 <h2> Type in a brief description of your project to see the probability of invalidation.</h2>
-								 
-					 {% csrf_token %}
-				<textarea id='patentText' name = "textfield" rows="10" cols="50" id = "text_entry"></textarea><br/>
-							<button id="submitButton" type="submit" class="btn btn-outline btn-xl page-scroll">Predict!</button>
-						</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7">
+				<div class="header-content">
+					<div class="header-content-inner">
+						<h1>Predicting Bad Patents: <br>
+							The Invalidators</h1>
+						<h2>Upload a text file here, or paste it in the text box:</h2>
+						 {% csrf_token %}
+						 <label class="btn btn-default btn-file">
+						    Browse <input type="file" id='patentFile' name='patentFile' style="display: none;">
+						</label>
+						<br/>
+						<textarea id='patentText' name="textfield" rows="10" cols="50" id="text_entry"></textarea>
+						<br/>
+						<button id="submitButton" type="submit" class="btn btn-outline btn-xl page-scroll">Predict!</button>
 					</div>
 				</div>
-				<div class="col-sm-5">
-					<div class="device-container">
-						<div class="device-mockup iphone6_plus portrait white">
-							<div class="device">
-								<div class="screen">
-									<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-									<!--<img src="/static/img/demo-screen-1.jpg" class="img-responsive" alt="">-->
-									<p id='prediction'></p>
-								</div>
-								<div class="button">
-									<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-								</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="device-container">
+					<div class="device-mockup iphone6_plus portrait white">
+						<div class="device">
+							<div class="screen">
+								<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+								<!--<img src="/static/img/demo-screen-1.jpg" class="img-responsive" alt="">-->
+								<p id='prediction'></p>
+							</div>
+							<div class="button">
+								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
     </form>
-	</header>
+</header>
 
-	 
-
-	
-	<script>
-	function getCookie(name) {
-		var cookieValue = null;
-		if (document.cookie && document.cookie !== '') {
-			var cookies = document.cookie.split(';');
-			for (var i = 0; i < cookies.length; i++) {
-				var cookie = jQuery.trim(cookies[i]);
-				// Does this cookie string begin with the name we want?
-				if (cookie.substring(0, name.length + 1) === (name + '=')) {
-					cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-					break;
-				}
+</body>
+<script>
+function getCookie(name) {
+	var cookieValue = null;
+	if (document.cookie && document.cookie !== '') {
+		var cookies = document.cookie.split(';');
+		for (var i = 0; i < cookies.length; i++) {
+			var cookie = jQuery.trim(cookies[i]);
+			// Does this cookie string begin with the name we want?
+			if (cookie.substring(0, name.length + 1) === (name + '=')) {
+				cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+				break;
 			}
 		}
-		return cookieValue;
 	}
+	return cookieValue;
+}
 
-	function csrfSafeMethod(method) {
-		// these HTTP methods do not require CSRF protection
-		return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
-	}
+function csrfSafeMethod(method) {
+	// these HTTP methods do not require CSRF protection
+	return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
 
-	$(function(){
-		var csrftoken = getCookie('csrftoken');
-
-		$("#myForm").submit(function(e){
-			var formURL = $(this).attr("action");
-			console.log(formURL);
-			var formData = new FormData(this);
-			$.ajaxSetup({
-				beforeSend: function(xhr, settings) {
-					if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
-						xhr.setRequestHeader("X-CSRFToken", csrftoken);
-					}
-				}
-			});
-			$.ajax(
-			{
-				url : formURL,
-				method: "POST",
-				data : formData,
-				processData: false,
-				contentType: false,
-				dataType: "json",
-				success:function(data, textStatus, jqXHR) {
-					console.log(textStatus);
-					console.log(data);
-					$('#prediction').html(data.response);
-				},
-				error: function(jqXHR, textStatus, errorThrown) {
-					console.log(textStatus);
-					$('#prediction').html(textStatus);
-				}
-			});
-			e.preventDefault(); //STOP default action
-		});
+$(function(){
+	var csrftoken = getCookie('csrftoken');
+	// when input file is changed, populate text field
+	$("#patentFile").on('change', function() {
+		
 	});
-	</script>
-</body>
-
+	// form submission
+	$("#myForm").submit(function(e){
+		var formURL = $(this).attr("action");
+		console.log(formURL);
+		var formData = new FormData(this);
+		$.ajaxSetup({
+			beforeSend: function(xhr, settings) {
+				if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+					xhr.setRequestHeader("X-CSRFToken", csrftoken);
+				}
+			}
+		});
+		$.ajax({
+			url : formURL,
+			method: "POST",
+			data : formData,
+			processData: false,
+			contentType: false,
+			dataType: "json",
+			success:function(data, textStatus, jqXHR) {
+				console.log(textStatus);
+				console.log(data);
+				$('#prediction').html(data.response);
+			},
+			error: function(jqXHR, textStatus, errorThrown) {
+				console.log(textStatus);
+				$('#prediction').html(textStatus);
+			}
+		});
+		e.preventDefault(); //STOP default action
+	});
+});
+</script>
 </html>
