@@ -20,6 +20,7 @@ from invalidators import views
 urlpatterns = [
 	url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
+    url(r'^home/$', views.index, name='index'),
     url(r'^search/(?P<patentId>\w+)/$', views.search, name='search'),
     url(r'^stats/$', views.stats, name='stats'),
     url(r'^predict/$', views.predict, name='predict'),
