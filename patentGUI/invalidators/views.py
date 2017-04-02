@@ -7,6 +7,10 @@ from django.template import loader
 from django.views.generic import CreateView, DeleteView, ListView
 from django.core.files.storage import FileSystemStorage
 
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
+from matplotlib.dates import DateFormatter
+
 # This function renders the main page
 def index(request):
     """
@@ -20,12 +24,15 @@ def index(request):
     )
 
 def predict(request, *args, **kwargs):
-    #if request.is_ajax():
-        #return HttpResponse(json.dumps({'response': 'reject'}), content_type="application/json")
-
     if request.method == 'POST':
-        patent = request.POST.get('textfield', None)
-        patent = str(patent)
+    	patent = ""
+    	# try getting patent text from file
+    	try:
+    		patent= request.FILES['patentFile'].read()
+    	except: # if not, get it from text field
+    		patent = request.POST.get('textfield', None)
+        	patent = str(patent)
+        
         patent = "".join(l for l in patent if l not in string.punctuation)
         patent = "".join(patent.split())
         patent = patent.lower()
@@ -53,6 +60,11 @@ def predict(request, *args, **kwargs):
         }
         response = "There is a {0:.1f}".format(probability*100)+"% chance of invalidation."
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
+
+# Call this with an AJAX request. If the user uploads a text file, populate the text field
+def getText(request):
+	
+	return
 
 def result(request, template = "invalidators/result.html"):
     if request.method == 'POST':    
