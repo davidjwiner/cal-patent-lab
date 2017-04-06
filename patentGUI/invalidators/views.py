@@ -11,6 +11,11 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 from matplotlib.dates import DateFormatter
 
+import sys
+sys.path.append(sys.path[0]+'/patentGUI/mlalgorithms')
+import case_denial
+
+
 # This function renders the main page
 def index(request):
     """
@@ -39,17 +44,8 @@ def predict(request, *args, **kwargs):
         hashed_number = int(hashlib.md5(patent).hexdigest()[:8],16)
         print(hashed_number)
         numpy.random.seed(hashed_number)
-        probability = 1
-        color = "#Ff7000"
-        while probability > .95 or probability < 0.02:
-            probability = float(numpy.random.poisson(5))/float(18)
-
-        if hashed_number == 2228619045:
-            probability = .850
-        elif hashed_number == 2268799671:
-            probability = .792
-        elif hashed_number == 3223191610:
-            probability = .681
+        probability = case_denial.denial_probability(patent)
+        
         if probability < .25:
             color = "green"
         elif probability < .75:
@@ -63,7 +59,7 @@ def predict(request, *args, **kwargs):
 
 # Call this with an AJAX request. If the user uploads a text file, populate the text field
 def getText(request):
-	
+
 	return
 
 def result(request, template = "invalidators/result.html"):
