@@ -42,18 +42,27 @@ def get_top_keywords(text, mode='denials', most_predictive=True):
 
     with open('./pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
-        
+
     text_transformed = tfidf.transform([text])
     predicted_probability = model.predict_proba(text_transformed)[0][1]
-    
     coeffs = model.coef_
-    mult = np.multiply(coeffs, text_transformed.toarray())
     word_labels = tfidf.get_feature_names()
 
-    if most_predictive:
-        top_word_indices = np.argsort(mult)[0][-3:][::-1]
-        return [word_labels[idx] for idx in top_word_indices]
-    
-    else:
-        bottom_word_indices = np.argsort(mult)[0][:3][::-1]
-        return [word_labels[idx] for idx in bottom_word_indices]
+    if mode == 'invalidation':
+        mult = np.multiply(coeffs, text_transformed.toarray())
+        if most_predictive:
+            top_word_indices = np.argsort(mult)[0][-3:][::-1]
+            return [word_labels[idx] for idx in top_word_indices]
+        
+        else:
+            bottom_word_indices = np.argsort(mult)[0][:3][::-1]
+            return [word_labels[idx] for idx in bottom_word_indices]
+    else: # mode is 'denials'
+        mult = coeffs.multiply(text_transformed)
+        if most_predictive:
+            top_word_indices = np.argsort(mult.todense().tolist()[0])[-3:][::-1]
+            return [word_labels[idx] for idx in top_word_indices]
+        
+        else:
+            bottom_word_indices = np.argsort(mult.todense().tolist()[0])[:3][::-1]
+            return [word_labels[idx] for idx in bottom_word_indices]
