@@ -24,9 +24,9 @@ def predict_probability(text, mode='denials'):
     return predicted_probability
 
 
-def top_denial_words(text, mode='denials', most_predictive=True):
+def get_top_keywords(text, mode='denials', most_predictive=True):
     """
-    Gets the words that are most predictive of patent denial (or lack thereof).
+    Gets the words that are most predictive of patent denial/invalidation (or lack thereof).
     
     Keyword arguments:
     text -- Text of the patent (string)
