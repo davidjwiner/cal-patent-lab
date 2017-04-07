@@ -9,10 +9,10 @@ def denial_probability(text):
     Keyword arguments:
     text -- Text of the patent (string)
     """
-    with open('./pickles/denials_model.pkl', 'rb') as model_file:
+    with open('./pickles/python_2_denials_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file, encoding='latin1')
 
-    with open('./pickles/denials_tfidf.pkl', 'rb') as vectorizer_file:
+    with open('./pickles/python_2_denials_tfidf.pkl', 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file, encoding='latin1')
         
     text_transformed = tfidf.transform([text])
@@ -32,10 +32,10 @@ def top_denial_words(text, most_predictive=True):
                        predict denial. (boolean)
     """
         
-    with open('./pickles/denials_model.pkl', 'rb') as model_file:
+    with open('./pickles/python_2_denials_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file, encoding='latin1')
 
-    with open('./pickles/denials_tfidf.pkl', 'rb') as vectorizer_file:
+    with open('./pickles/python_2_denials_tfidf.pkl', 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file, encoding='latin1')
         
     text_transformed = tfidf.transform([text])
