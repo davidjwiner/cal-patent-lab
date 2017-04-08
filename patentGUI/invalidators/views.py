@@ -32,18 +32,8 @@ def predict(request, *args, **kwargs):
     if request.method == 'POST':
     	patent = ""
     	# try getting patent text from file
-    	try:
-    		patent= request.FILES['patentFile'].read()
-    	except: # if not, get it from text field
-    		patent = request.POST.get('textfield', None)
-        	patent = str(patent)
+    	patent += request.POST.get('textfield', None)
         
-        patent = "".join(l for l in patent if l not in string.punctuation)
-        patent = "".join(patent.split())
-        patent = patent.lower()
-        hashed_number = int(hashlib.md5(patent).hexdigest()[:8],16)
-        print(hashed_number)
-        numpy.random.seed(hashed_number)
         probability = case_prediction.predict_probability(patent)
 
         if probability < .25:
@@ -58,9 +48,10 @@ def predict(request, *args, **kwargs):
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 # Call this with an AJAX request. If the user uploads a text file, populate the text field
-def getText(request):
-
-	return
+def getText(request , *args, **kwargs):
+	file = request.FILES["patentFile"]
+	response = file.read()
+	return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 def result(request, template = "invalidators/result.html"):
     if request.method == 'POST':    
