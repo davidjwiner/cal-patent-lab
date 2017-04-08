@@ -123,7 +123,7 @@ textarea {
 </nav>
 
 <header>
-    <form id='myForm' method="POST" action="/predict/">{% csrf_token %}
+    <form id='myForm' method="POST" action="/predict/" enctype="multipart/form-data">{% csrf_token %}
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-7">
@@ -132,7 +132,6 @@ textarea {
 						<h1>Predicting Bad Patents: <br>
 							The Invalidators</h1>
 						<h2>Upload a text file here, or paste it in the text box:</h2>
-						 {% csrf_token %}
 						 <label class="btn btn-default btn-file">
 						    Browse <input type="file" id='patentFile' name='patentFile' style="display: none;">
 						</label>
@@ -191,7 +190,32 @@ $(function(){
 	var csrftoken = getCookie('csrftoken');
 	// when input file is changed, populate text field
 	$("#patentFile").on('change', function() {
-		
+		var formURL = "/getText/"; 
+		var formData = new FormData();
+		formData.append('patentFile',document.getElementById('patentFile').files[0]);
+		console.log(formData)
+		$.ajaxSetup({
+			beforeSend: function(xhr, settings) {
+				if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+					xhr.setRequestHeader("X-CSRFToken", csrftoken);
+				}
+			}
+		});
+        $.ajax(
+        {
+            url : formURL,
+            method: "POST",
+            data : formData,
+            enctype: 'multipart/form-data',
+            processData: false,
+            contentType: false,
+            success:function(data, textStatus, jqXHR) {
+                $("#patentText").val(data.response);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log("we have a problem");
+            }
+        });
 	});
 	// form submission
 	$("#myForm").submit(function(e){
@@ -211,7 +235,6 @@ $(function(){
 			data : formData,
 			processData: false,
 			contentType: false,
-			dataType: "json",
 			success:function(data, textStatus, jqXHR) {
 				console.log(textStatus);
 				console.log(data);
