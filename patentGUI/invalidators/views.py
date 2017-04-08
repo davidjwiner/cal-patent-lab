@@ -12,8 +12,8 @@ from matplotlib.figure import Figure
 from matplotlib.dates import DateFormatter
 
 import sys
-sys.path.append(sys.path[0]+'/patentGUI/mlalgorithms')
-import case_denial
+sys.path.append(sys.path[0]+'/ml-algorithms')
+import case_prediction
 
 
 # This function renders the main page
@@ -44,8 +44,8 @@ def predict(request, *args, **kwargs):
         hashed_number = int(hashlib.md5(patent).hexdigest()[:8],16)
         print(hashed_number)
         numpy.random.seed(hashed_number)
-        probability = case_denial.denial_probability(patent)
-        
+        probability = case_prediction.predict_probability(patent)
+
         if probability < .25:
             color = "green"
         elif probability < .75:
