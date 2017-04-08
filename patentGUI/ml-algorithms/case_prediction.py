@@ -1,6 +1,6 @@
 import pickle
 import numpy as np
-
+import os
 
 def predict_probability(text, mode='denials'):
     """
@@ -12,10 +12,10 @@ def predict_probability(text, mode='denials'):
     mode -- Predict invalidation or denials (string)
     """
     assert mode in ['denials', 'invalidation']
-    with open('./pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
         model = pickle.load(model_file)
 
-    with open('./pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
         
     text_transformed = tfidf.transform([text])
@@ -37,10 +37,10 @@ def get_top_keywords(text, mode='denials', most_predictive=True):
                        predict denial. (boolean)
     """
         
-    with open('./pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
         model = pickle.load(model_file)
 
-    with open('./pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
 
     text_transformed = tfidf.transform([text])
