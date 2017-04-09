@@ -36,6 +36,7 @@ def predict(request, *args, **kwargs):
         
         probability = case_prediction.predict_probability(patent)
 
+        color = ""
         if probability < .25:
             color = "green"
         elif probability < .75:
@@ -53,14 +54,12 @@ def getText(request , *args, **kwargs):
 	response = file.read()
 	return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
-def result(request, template = "invalidators/result.html"):
-    if request.method == 'POST':    
-        return HttpResponseRedirect('/upload/home/')
-    return render(request, template);
-
 def search(request, patentId):
 	return
 
 def stats(request):
-	return
+	return render(
+        request,
+        'stats.html'
+    )
 # Create your views here.
