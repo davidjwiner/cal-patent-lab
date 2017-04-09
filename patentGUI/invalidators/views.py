@@ -49,13 +49,13 @@ def predict(request, *args, **kwargs):
         response += " chance of "+outcome+". <br/>"
 
         # get words
-        words = case_prediction.get_top_keywords(patent,outcome).
+        words = case_prediction.get_top_keywords(patent,outcome)
         response += "The words generating the most conflict are "
         for i in range(0,len(words)-2):
         	response += word[i] + ", "
 
         response += "and "+word[-1]+"."
-        
+
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 # Call this with an AJAX request. If the user uploads a text file, populate the text field
