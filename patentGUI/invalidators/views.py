@@ -33,9 +33,11 @@ def predict(request, *args, **kwargs):
     	patent = ""
     	# try getting patent text from file
     	patent += request.POST.get('textfield', None)
-        
-        #calculate probability, and 
-        probability = case_prediction.predict_probability(patent)
+        # get outcome type
+        outcome = request.POST.get('outcome', None)
+
+        #calculate probability 
+        probability = case_prediction.predict_probability(patent,outcome)
         color = ""
         if probability < .25:
             color = "green"
@@ -44,7 +46,15 @@ def predict(request, *args, **kwargs):
         else:
         	color = "red"
         response = "There is a <span style='color:"+color+"'>{0:.1f}%</span>".format(probability*100)
-        response += " chance of invalidation. <br/>"
+        response += " chance of "+outcome+". <br/>"
+
+        # get words
+        words = case_prediction.get_top_keywords(patent,outcome).
+        response += "The words generating the most conflict are "
+        for i in range(0,len(words)-2):
+        	response += word[i] + ", "
+
+        response += "and "+word[-1]+"."
         
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
