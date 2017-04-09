@@ -34,18 +34,18 @@ def predict(request, *args, **kwargs):
     	# try getting patent text from file
     	patent += request.POST.get('textfield', None)
         
+        #calculate probability, and 
         probability = case_prediction.predict_probability(patent)
-
         color = ""
         if probability < .25:
             color = "green"
         elif probability < .75:
             color = "yellow"
-        context = {
-            'probability': "{0:.1f}".format(probability*100),
-            'color': color
-        }
-        response = "There is a {0:.1f}".format(probability*100)+"% chance of invalidation."
+        else:
+        	color = "red"
+        response = "There is a <span style='color:"+color+"'>{0:.1f}%</span>".format(probability*100)
+        response += " chance of invalidation. <br/>"
+        
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 # Call this with an AJAX request. If the user uploads a text file, populate the text field
@@ -62,4 +62,3 @@ def stats(request):
         request,
         'stats.html'
     )
-# Create your views here.
