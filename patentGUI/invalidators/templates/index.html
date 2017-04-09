@@ -51,6 +51,7 @@
     background-color: black;
     color: white;
     font-size: 1.2em;
+    padding: 2px;
 }
 .btn-file {
     position: relative;
@@ -129,12 +130,18 @@
 				</h3>
 				<textarea id='patentText' name="textfield" rows="10" cols="40" id="text_entry"></textarea>
 				<br/>
+				<div class="radio">
+					Outcome: 
+					<label><input type="radio" name="outcome" value="invalidation" checked>Invalidation</label>
+					<label><input type="radio" name="outcome" value="denial">Denial</label>
+				</div>
 				<button id="submitButton" type="submit" class="btn btn-outline btn-xl page-scroll" style="color:black;">Predict!</button>
 			</form>
 		</div>
 		<div class="col-sm-6">
 			<h2>Result:</h2>
-			<span id='prediction' disabled></span>
+			<br/>
+			<span id='prediction'></span>
 		</div>
 	</div>
 	
