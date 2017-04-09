@@ -50,11 +50,10 @@ def predict(request, *args, **kwargs):
 
         # get words
         words = case_prediction.get_top_keywords(patent,outcome)
-        response += "The words generating the most conflict are "
-        for i in range(0,len(words)-2):
-        	response += words[i] + ", "
-
-        response += "and "+words[-1]+"."
+        response += "The words generating the most conflict are:<br/> <ul> "
+        for word in words:
+        	response += "<li>"+word+"</li>"
+        response += "</ul>"
 
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
