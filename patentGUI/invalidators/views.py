@@ -75,5 +75,14 @@ def search(request, patentId):
 	return
 
 def stats(request):
-	return
+    return render(
+        request,
+        'stats.html'
+    )
+
+def description(request):
+    return render(
+        request,
+        'description.html'
+    )
 # Create your views here.
