@@ -11,6 +11,11 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 from matplotlib.dates import DateFormatter
 
+import sys
+sys.path.append(sys.path[0]+'/ml-algorithms')
+import case_prediction
+
+
 # This function renders the main page
 def index(request):
     """
@@ -27,49 +32,36 @@ def predict(request, *args, **kwargs):
     if request.method == 'POST':
     	patent = ""
     	# try getting patent text from file
-    	try:
-    		patent= request.FILES['patentFile'].read()
-    	except: # if not, get it from text field
-    		patent = request.POST.get('textfield', None)
-        	patent = str(patent)
-        
-        patent = "".join(l for l in patent if l not in string.punctuation)
-        patent = "".join(patent.split())
-        patent = patent.lower()
-        hashed_number = int(hashlib.md5(patent).hexdigest()[:8],16)
-        print(hashed_number)
-        numpy.random.seed(hashed_number)
-        probability = 1
-        color = "#Ff7000"
-        while probability > .95 or probability < 0.02:
-            probability = float(numpy.random.poisson(5))/float(18)
+    	patent += request.POST.get('textfield', None)
+        # get outcome type
+        outcome = request.POST.get('outcome', None)
 
-        if hashed_number == 2228619045:
-            probability = .850
-        elif hashed_number == 2268799671:
-            probability = .792
-        elif hashed_number == 3223191610:
-            probability = .681
+        #calculate probability 
+        probability = case_prediction.predict_probability(patent,outcome)
+        color = ""
         if probability < .25:
             color = "green"
         elif probability < .75:
             color = "yellow"
-        context = {
-            'probability': "{0:.1f}".format(probability*100),
-            'color': color
-        }
-        response = "There is a {0:.1f}".format(probability*100)+"% chance of invalidation."
+        else:
+        	color = "red"
+        response = "There is a <span style='color:"+color+"'>{0:.1f}%</span>".format(probability*100)
+        response += " chance of "+outcome+". <br/>"
+
+        # get words
+        words = case_prediction.get_top_keywords(patent,outcome)
+        response += "The words generating the most conflict are:<br/> <ul> "
+        for word in words:
+        	response += "<li>"+word+"</li>"
+        response += "</ul>"
+
         return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 # Call this with an AJAX request. If the user uploads a text file, populate the text field
-def getText(request):
-	
-	return
-
-def result(request, template = "invalidators/result.html"):
-    if request.method == 'POST':    
-        return HttpResponseRedirect('/upload/home/')
-    return render(request, template);
+def getText(request , *args, **kwargs):
+	file = request.FILES["patentFile"]
+	response = file.read()
+	return HttpResponse(json.dumps({'response': response}), content_type="application/json")
 
 def search(request, patentId):
 	return
@@ -86,3 +78,7 @@ def description(request):
         'description.html'
     )
 # Create your views here.
+	return render(
+        request,
+        'stats.html'
+    )
