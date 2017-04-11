@@ -77,8 +77,3 @@ def description(request):
         request,
         'description.html'
     )
-# Create your views here.
-	return render(
-        request,
-        'stats.html'
-    )
