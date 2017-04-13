@@ -44,19 +44,14 @@
 .navbar {
 	margin-bottom: 0px;
 }
-textarea {
-	background-color: white;
+#patentText {
 	color: black;
 }
-.screen {
-	background-color: black;
-}
-
 #prediction {
-    padding: 20px;
-	color: green;
-    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
-    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    padding: 2px;
 }
 .btn-file {
     position: relative;
@@ -98,7 +93,8 @@ textarea {
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
 		<li class="active"><a href="#">Predict</a></li>
-		<li><a href="#">Statistics</a></li>
+		<li><a href="/stats/">Statistics</a></li>
+		<li><a href="/description/">Description</a></li>
 		</ul>
 		<form class="navbar-form navbar-left">
 		<div class="form-group">
@@ -110,11 +106,9 @@ textarea {
 		<li class="dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
 			<ul class="dropdown-menu">
-			<li><a href="#">Action</a></li>
-			<li><a href="#">Another action</a></li>
-			<li><a href="#">Something else here</a></li>
+			<li><a href="#">Settings</a></li>
 			<li role="separator" class="divider"></li>
-			<li><a href="#">Separated link</a></li>
+			<li><a href="#">Sign Out</a></li>
 			</ul>
 		</li>
 		</ul>
@@ -123,45 +117,36 @@ textarea {
 </nav>
 
 <header>
-    <form id='myForm' method="POST" action="/predict/">{% csrf_token %}
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-7">
-				<div class="header-content">
-					<div class="header-content-inner">
-						<h1>Predicting Bad Patents: <br>
-							The Invalidators</h1>
-						<h2>Upload a text file here, or paste it in the text box:</h2>
-						 {% csrf_token %}
-						 <label class="btn btn-default btn-file">
-						    Browse <input type="file" id='patentFile' name='patentFile' style="display: none;">
-						</label>
-						<br/>
-						<textarea id='patentText' name="textfield" rows="10" cols="50" id="text_entry"></textarea>
-						<br/>
-						<button id="submitButton" type="submit" class="btn btn-outline btn-xl page-scroll">Predict!</button>
-					</div>
+<div class="container">
+	<div class="row"><h1>PatentCheck</h1></div>
+	
+	<div class="row">
+		<div class="col-sm-6">
+			<form id='myForm' method="POST" action="/predict/" enctype="multipart/form-data">
+				{% csrf_token %}
+				<h3>Upload a text file here, or paste below:
+					<label class="btn btn-default btn-file">
+					    Browse <input type="file" id='patentFile' name='patentFile' style="display: none;">
+					</label>
+				</h3>
+				<textarea id='patentText' name="textfield" rows="10" cols="40" id="text_entry"></textarea>
+				<br/>
+				<div class="radio">
+					Outcome: 
+					<label><input type="radio" name="outcome" value="invalidation" checked>Invalidation</label>
+					<label><input type="radio" name="outcome" value="denial">Denial</label>
 				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="device-container">
-					<div class="device-mockup iphone6_plus portrait white">
-						<div class="device">
-							<div class="screen">
-								<!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-								<!--<img src="/static/img/demo-screen-1.jpg" class="img-responsive" alt="">-->
-								<p id='prediction'></p>
-							</div>
-							<div class="button">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				<button id="submitButton" type="submit" class="btn btn-outline btn-xl page-scroll" style="color:black;">Predict!</button>
+			</form>
+		</div>
+		<div class="col-sm-6">
+			<h2>Result:</h2>
+			<br/>
+			<span id='prediction'></span>
 		</div>
 	</div>
-    </form>
+	
+</div>
 </header>
 
 </body>
@@ -191,7 +176,32 @@ $(function(){
 	var csrftoken = getCookie('csrftoken');
 	// when input file is changed, populate text field
 	$("#patentFile").on('change', function() {
-		
+		var formURL = "/getText/"; 
+		var formData = new FormData();
+		formData.append('patentFile',document.getElementById('patentFile').files[0]);
+		console.log(formData)
+		$.ajaxSetup({
+			beforeSend: function(xhr, settings) {
+				if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+					xhr.setRequestHeader("X-CSRFToken", csrftoken);
+				}
+			}
+		});
+        $.ajax(
+        {
+            url : formURL,
+            method: "POST",
+            data : formData,
+            enctype: 'multipart/form-data',
+            processData: false,
+            contentType: false,
+            success:function(data, textStatus, jqXHR) {
+                $("#patentText").val(data.response);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log("we have a problem");
+            }
+        });
 	});
 	// form submission
 	$("#myForm").submit(function(e){
@@ -211,7 +221,6 @@ $(function(){
 			data : formData,
 			processData: false,
 			contentType: false,
-			dataType: "json",
 			success:function(data, textStatus, jqXHR) {
 				console.log(textStatus);
 				console.log(data);
