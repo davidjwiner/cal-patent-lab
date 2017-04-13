@@ -1,8 +1,8 @@
 import pickle
 import numpy as np
+import os
 
-
-def predict_probability(text, mode='denials'):
+def predict_probability(text, mode='denial'):
     """
     Get the probability that a PTAB case concerning a patent 
     will be denied.
@@ -11,11 +11,11 @@ def predict_probability(text, mode='denials'):
     text -- Text of the patent (string)
     mode -- Predict invalidation or denials (string)
     """
-    assert mode in ['denials', 'invalidation']
-    with open('./pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
+    assert mode in ['denial', 'invalidation']
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
         model = pickle.load(model_file)
 
-    with open('./pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
         
     text_transformed = tfidf.transform([text])
@@ -24,7 +24,7 @@ def predict_probability(text, mode='denials'):
     return predicted_probability
 
 
-def get_top_keywords(text, mode='denials', most_predictive=True):
+def get_top_keywords(text, mode='denial', most_predictive=True):
     """
     Gets the words that are most predictive of patent denial/invalidation (or lack thereof).
     
@@ -37,10 +37,10 @@ def get_top_keywords(text, mode='denials', most_predictive=True):
                        predict denial. (boolean)
     """
         
-    with open('./pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_model.pkl'.format(mode), 'rb') as model_file:
         model = pickle.load(model_file)
 
-    with open('./pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
+    with open(os.getcwd()+'/ml-algorithms/pickles/{}_tfidf.pkl'.format(mode), 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
 
     text_transformed = tfidf.transform([text])
