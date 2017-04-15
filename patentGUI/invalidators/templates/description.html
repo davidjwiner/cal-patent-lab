@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- jQuery -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="/static/js/new-age.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Predicting Bad Patents</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="/static/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/static/vendor/simple-line-icons/css/simple-line-icons.css">
+	<!-- Theme CSS -->
+	<link href="/static/css/new-age.min.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<style>
+.navbar {
+	margin-bottom: 0px;
+}
+textarea {
+	background-color: white;
+	color: black;
+}
+</style>
+
+<body id="page-top">
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">cal-patent-lab</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			<li><a href="/home/">Predict</a></li>
+			<li><a href="/stats/">Statistics</a></li>
+			<li class="active"><a href="#">Description</a></li>
+			</ul>
+			<form class="navbar-form navbar-left">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<header>
+<div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">How It Works</h1>
+                <h2> Processing the claims</h2>
+                <p>
+The algorithm we will build will need different variables as an input, and not just a big text, and we therefore need to preprocess each patent in order to make it interpretable by the algorithm. 
+More formally, this means that given a new patent i, we want an algorithm that will output  for invalidation or   if not invalidated given a relationship between all the variables we would have defined for the patent. We will talk more about this accuracy in the next part. 
+A common way to breakdown a large text is to use a technique called “bag of words”. It is a basic method that just return the frequency of each word in the text. However, some words are much more common than other words and then gives less information than more specific words. For instance, the word “the” in a patent related to a new optical lens is much more meaningful than optic-specific terms. Thus, we want to give more importance to the less frequent words and less importance to the more frequent words. This can be done by multiplying each term frequency by what is called: “inverse document-frequency”. This “inverse document-frequency” for a word w is given by the formula: </p>
+
+
+<p>This formula just says that if a word is in all patent the weight is 1 and the less the word is present in different documents the higher this weight is. For instance, if a word appears one time in only 1 patent out of 3645, each time it appears we would count it as 8.5 compared to 1 for a word present in each patent.  This method is called “Tf-Idf weighting” and more information can be found in (Scikit-learn, s.d.). As we said earlier, the claims of a patent being the core of the patents itself, we will be applying this method to the claims of the patent in our training set (which is the set of all patents we would be using to build our models). This will return a matrix where each column represents a word that can be found in the whole set of patents and each row represents the weighted term-frequency of each word for a single patent.</p>
+<img  src="/static/img/Picture1.png" alt="">
+<br>
+<caption> Figure 9: How we are processing claims</caption>
+
+<p>When applying this method, in the same way we did it for the petitioner name, we remove all punctuations and convert the text to lowercase. Finally, we normalize the results by making sure each row has the same scale so that each row is easier to compare (wo only care about the differences between variables so that overall scale of a line does not matter to us). Because of the very high number of words (our matrix has 14233 columns!), we might want to reduce it by a procedure called stemming. Indeed, also for a patent regarding a new optical lens, we do not want to separate words such as “optics”, “optics”, “optical” or “opticality”. Because all of them have the same root, “optic’, each time one appears, we want to gather together all these words into one when counting term-frequency. The process of stemming can be done easily in Python using what is called Porter stemming and for each word in the corpus of text it will only extract the root of the word. This process reduces the number of columns to 12572. We will see later if this enhances our algorithm.</p>
+
+<h2>Processing the metadata of the patent</h2>
+<p>Now that we handled the text elements of our text, we focus on the metadata. We have already explained in the previous parts how I have cleaned the petitioner names and the art units. However, these are what we call “categorical variables”. This just means that they do not have a numerical value and for example you cannot compare them from a mathematical point of view. If the petitioner name is “Apple, Inc”, you cannot write an equation saying . However, what one can do is saying  which would be equal to 3 if the company is “Apple, Inc” and 0 otherwise by setting a binary variable “Is Apple, Inc” to 1 or 0 whether the statement is True or false. This process of transforming categorical variables into binary variables is called “One-hot encoding”. 
+Using the previous preprocessing techniques gives a big matrix X containing only numbers and where each line represents a patent and columns represents information of different kinds on this patent. We are now ready to apply machine learning algorithms to it.</p>
+
+<h2>Processing the metadata of the patent</h2>
+<p>So far, we have been working mostly with three different algorithms: Support Vector Machine (SVM), Logistic Regression and Random Forest. The first two are similar, they are simple algorithms (but powerful in general), SVM tries to find an hyperplane, think of a surface, that try to find the best separation between invalidated patents and not invalidated patents, and the logistic regression just gives the probability of a patent being invalidated or not based on the data of the patent and some parameters determined by our model. While there is no particular reason here to prefer one algorithm between these two over the other, we also try another algorithm, Random Forest, that has the useful property, of giving the importance of each variable. The way this algorithm works is to build many different decision trees and averaging the results of all the trees; where each tree of decisions is just a set of rules to apply in a particular order and that eventually give a prediction. For example: if the weighted frequency of word “optic” is more than 3 then do this … or else do this…  </p>
+
+
+                <p> Our capstone project targets an issue within the United States patent system, where patent litigation often results in significant wasted time and money. The litigation is caused by accusations of infringement after a newly filed patent is seen to be similar to an existing patent, leading to subsequent court battles. In recent years, a surge in technology-centric patent filings, thanks to related economic trends has made the problem worse. To tackle this issue, we developed a machine learning software capable of comparing a patent’s text against a database of older patents, outputting a predicted probability of invalidation, and highlighting which aspects of said patent would be responsible for the invalidation.</p>
+            </div>
+
+        </div>
+    </div>
+	</header>
+
+	 
+
+	
+	<script>
+	function getCookie(name) {
+		var cookieValue = null;
+		if (document.cookie && document.cookie !== '') {
+			var cookies = document.cookie.split(';');
+			for (var i = 0; i < cookies.length; i++) {
+				var cookie = jQuery.trim(cookies[i]);
+				// Does this cookie string begin with the name we want?
+				if (cookie.substring(0, name.length + 1) === (name + '=')) {
+					cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+					break;
+				}
+			}
+		}
+		return cookieValue;
+	}
+
+	function csrfSafeMethod(method) {
+		// these HTTP methods do not require CSRF protection
+		return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+	}
+
+	$(function() {
+    $('.pop').on('click', function() {
+        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');   
+    });     
+});
+	</script>
+</body>
+
+</html>
