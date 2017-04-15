@@ -50,7 +50,7 @@ def predict(request, *args, **kwargs):
 
         # get words
         words = case_prediction.get_top_keywords(patent,outcome)
-        response += "The words generating the most conflict are:<br/> <ul> "
+        response += "The words that are most indicative of case "+outcome+" are:<br/> <ul> "
         for word in words:
         	response += "<li>"+word+"</li>"
         response += "</ul>"
@@ -67,7 +67,13 @@ def search(request, patentId):
 	return
 
 def stats(request):
-	return render(
+    return render(
         request,
         'stats.html'
+    )
+
+def description(request):
+    return render(
+        request,
+        'description.html'
     )
