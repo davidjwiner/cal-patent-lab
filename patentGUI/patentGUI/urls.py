@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^search/(?P<patentId>\w+)/$', views.search, name='search'),
     url(r'^stats/$', views.stats, name='stats'),
     url(r'^predict/$', views.predict, name='predict'),
+    url(r'^description/$', views.description, name='description'),
     url(r'^getText/$', views.getText, name='getText'),
 ]
 
