@@ -1,5 +1,5 @@
-team_username = ***REMOVED***
-team_password = ***REMOVED***
+team_username = "teamrocket"
+team_password = "teamrocket"
 
 fung_username = "uspto"
-fung_password = ***REMOVED***
+fung_password = "ferrisbueller"
