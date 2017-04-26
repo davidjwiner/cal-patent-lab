@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 from collections import Counter
 import csv
 import json
@@ -8,15 +8,18 @@ from os import path
 import re
 import sys
 
-# Patent ID -> art unit, examiner file is the output of our PAIR API scraper
-# Art unit -> class file derived from pages at
-# https://www.uspto.gov/patents-application-process/patent-search/understanding-patent-classifications/patent-classification
+
+# Takes the outputs of the PTAB and PAIR downloaders
+# Extracts decisions for cases and adds empty entries for patents involved
+# in PTAB cases but without data from the PAIR downloader
+# Outputs JSON files containing data for cases and patents
 
 
 # Load a JSON dump of cases downloaded from the PTAB API
 # Return a dictionary mapping case numbers to various attributes
-def load_ptab_api_data(ptab_data_filename, fwd_dir):
-    api_cases = json.load(open(ptab_data_filename))
+def load_ptab_api_data(ptab_cases_filename, fwd_dir):
+    api_cases = json.load(open(ptab_cases_filename))
+    # Counters for statistics
     num_decisions     = 0
     num_inval         = 0
     num_adv_judgement = 0
@@ -35,13 +38,18 @@ def load_ptab_api_data(ptab_data_filename, fwd_dir):
             num_decisions     += 1
             num_adv_judgement += 1
         elif case["prosecutionStatus"] == "FWD Entered":
+            # Find and parse the decision document to get the actual decision
             trial_id = case["trialNumber"].upper()
             fwd_filename = path.join(fwd_dir, "{}.txt".format(trial_id))
+            # If a file with the right name exists:
             if path.isfile(fwd_filename):
+                # Extract the decision from the file
                 decision_str = parser.parseDecision(fwd_filename)
+                # If we couldn't cleanly parse a decision, then don't try to guess
                 if decision_str == "ambiguous":
                     print("{}: decision is ambiguous for {}, leaving blank".format(fwd_filename, trial_id))
                     num_ambiguous += 1
+                # Otherwise, record the decision that we parsed
                 else:
                     case["invalidated"] = (decision_str == "invalidated")
                     case["denied"]      = False
@@ -58,56 +66,60 @@ def load_ptab_api_data(ptab_data_filename, fwd_dir):
     return api_cases
 
 
-# Load patent ID -> art unit and patent examiner data from USPTO-provided file
-def load_patent_au_examiner_data(patent_au_ex_filename):
-    patent_au_ex_data = dict()
-    reader = csv.DictReader(open(patent_au_ex_filename))
+# Load patent ID -> attributes file from PAIR downloader output
+def load_patent_attrs(patent_attr_filename):
+    patent_attrs = dict()
+    reader = csv.DictReader(open(patent_attr_filename))
     
     for row in reader:
         patent_id = row.pop("patentId")
-        patent_au_ex_data[patent_id] = row
-    
-    return patent_au_ex_data
+        patent_attrs[patent_id] = row
+    return patent_attrs
 
 
-def build_patent_data(ptab_data, patent_au_ex_data):
-    patent_data = dict()
-    for case in ptab_data:
+# Create a patent -> attributes dictionary for all patents involved in PTAB cases
+# and try to copy data from the given patent attributes dictionary
+def build_contested_patent_data(contested_patent_data, patent_attrs):
+    contested_patent_data = dict()
+    for case in ptab_cases:
         patent_id = case.get("patentNumber")
+        # Skip cases without an associated patent number
         if not patent_id:
             print("Case {} does not have a patent number".format(case["trialNumber"]))
             continue
         
-        if patent_id in patent_data:
+        # Skip patent numbers that we have already processed
+        if patent_id in contested_patent_data:
             continue
-        # Create entry for patent ID since it doesn't exist
-        patent_data[patent_id] = dict()
-        if patent_id in patent_au_ex_data:
-            patent_data[patent_id].update(patent_au_ex_data[patent_id])
-    
-    return patent_data
+        # Create and populate entry for new patent number
+        contested_patent_data[patent_id] = dict()
+        if patent_id in patent_attrs:
+            contested_patent_data[patent_id] = patent_attrs[patent_id]
+    return contested_patent_data
 
 
-# Write JSON representation of patent->attribute dictionary
-def export_case_decisions_attrs(data_dict, out_filename):
+# Write JSON representation of the given dictionary to the given file
+def export_as_json(data_dict, out_filename):
     fd = open(out_filename, "w")
     json.dump(data_dict, fd, indent=2)
     fd.close()
 
 
-# Test if any member of a collection of items is in another collection
-def contains(source, has):
-    for item in has:
-        if item in source:
+# Test if any member of a collection of items is in another iterable
+def contains_any(needles, haystack):
+    for item in needles:
+        if item in haystack:
             return True
     return False
 
 
+# Compute the most frequently occurring data value in an iterable
+# If there are more than one, then one will be arbitrarily chosen
 def mode(lst):
     ctr    = Counter(lst)
+    items  = ctr.items()
     values = ctr.values()
     idx    = values.index(max(values))
-    items  = ctr.items()
     return items[idx][0]
 
 
@@ -115,24 +127,24 @@ def main():
     argv = sys.argv[1:]
     if len(argv) != 5:
         print("Usage: merge_data.py ptab_api_metadata_input "
-              "path/to/ptab_fwd_files "
+              "path/to/ptab_fwd_files/ "
               "pair_api_metadata_input "
               "ptab_api_metadata_output "
               "patent_data_output")
         sys.exit(1)
-    ptab_data_filename    = argv[0]
-    fwd_dir               = argv[1]
-    patent_au_ex_filename = argv[2]
-    ptab_out_filename     = argv[3]
-    patent_out_filename   = argv[4]
+    ptab_cases_filename  = argv[0]
+    fwd_dir              = argv[1]
+    patent_attr_filename = argv[2]
+    ptab_out_filename    = argv[3]
+    patent_out_filename  = argv[4]
     
-    ptab_data          = load_ptab_api_data(ptab_data_filename, fwd_dir)
-    patent_au_ex_data = load_patent_au_examiner_data(patent_au_ex_filename)
-    patent_data       = build_patent_data(ptab_data, patent_au_ex_data)
+    ptab_cases            = load_ptab_api_data(ptab_cases_filename, fwd_dir)
+    patent_attrs          = load_patent_attrs(patent_attr_filename)
+    contested_patent_data = build_contested_patent_data(ptab_cases, patent_attrs)
     
-    # TODO: export trial, patent data to JSON files
-    export_case_decisions_attrs(ptab_data, ptab_out_filename)
-    export_case_decisions_attrs(patent_data, patent_out_filename)
+    # Export trial, patent data to JSON files
+    export_as_json(ptab_cases, ptab_out_filename)
+    export_as_json(contested_patent_data, patent_out_filename)
 
 if __name__ == "__main__":
     main()
