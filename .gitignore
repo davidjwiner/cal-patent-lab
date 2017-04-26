@@ -12,3 +12,6 @@ Thumbs.db
 *.pyc
 lib/notebooks/patent_title_abstract_claims.tsv.00
 
+# Sensitive data files #
+########################
+lib/notebooks/denials_algorithm/denials_config.py
