@@ -7,11 +7,17 @@ import sys
 
 DB_HOST = "quicksand.ocf.berkeley.edu"
 DB_USER = ***REMOVED***
-DB_PASSWORD = None  # Get this field from the user
 DB_NAME = ***REMOVED***
 
 
-class DBPopulator:
+# Takes the output files of the data merger script
+# Writes their contents to the appropriate tables in the database specified above
+# The tables must already exist with the proper schema in the DB,
+# or else this script will fail
+
+
+# Class for buffering row writes to the database for performance reasons
+class BufferedDBPopulator:
     def __init__(self, host, username, password, db_name, table_name, batch_size=48):
         self.table_name = table_name
         self.batch_size = batch_size
@@ -24,9 +30,11 @@ class DBPopulator:
         # Get column names from DB
         self.cursor.execute("DESCRIBE {}".format(self.table_name))
         self.columns = [column_info[0] for column_info in self.cursor.fetchall()]
+        # Build the placeholder portion of the SQL query needed to insert a single row
         self.single_placeholder = "(" + ",".join(["%s"] * len(self.columns)) + ")"
     
     
+    # Add a line to write to the DB. Buffering means the line may not be written immediately
     def insert(self, line):
         if self.closed:
             raise ValueError("I/O operation on closed DB populator")
@@ -35,13 +43,17 @@ class DBPopulator:
             self.flush()
     
     
+    # Flushes the contents of the buffer to the DB
     def flush(self):
         if self.closed:
             raise ValueError("I/O operation on closed DB populator")
         if len(self.insert_queue) == 0:
             return
+        # Create an appropriate number of row placeholders
         query_placeholder = ",".join([self.single_placeholder] * len(self.insert_queue))
+        # List the column names in comma-separated format
         sql_query_tmpl = "INSERT INTO {} (" + ",".join(self.columns) + ") VALUES {}"
+        # Build the SQL query
         sql_query = sql_query_tmpl.format(self.table_name, query_placeholder)
         
         # Flatten the insert queue
@@ -59,6 +71,8 @@ class DBPopulator:
         self.insert_queue = []
     
     
+    # Sends a commit command to the DB to persist everything written so far
+    # If any exception occurs, attempt to roll back
     def commit(self):
         if self.closed:
             raise ValueError("I/O operation on closed DB populator")
@@ -70,6 +84,7 @@ class DBPopulator:
             return False
     
     
+    # Close the DB connection after flushing and committing buffer contents
     def close(self):
         self.flush()
         self.commit()
@@ -77,9 +92,11 @@ class DBPopulator:
         self.closed = True
 
 
+# Builds the fields needed for a row in the PTAB table
+# Takes in a dictionary with the appropriate keys/values
 def build_ptab_table_line(ptab_entry):
     line = [
-        ptab_entry["trialNumber"],  # This field must not be null
+        ptab_entry["trialNumber"],  # Primary key, must not be null
         ptab_entry.get("patentNumber"),
         ptab_entry.get("invalidated"),
         ptab_entry.get("denied"),
@@ -91,9 +108,11 @@ def build_ptab_table_line(ptab_entry):
     return line
 
 
+# Builds the fields needed for a row in the PTAB table
+# Takes in a dictionary with the appropriate keys/values
 def build_patent_table_line(patent_id, patent_entry):
     line = [
-        patent_id,
+        patent_id,  # Primary key, must not be null
         patent_entry.get("filingDate"),
         patent_entry.get("issueDate"),
         patent_entry.get("artUnit"),
@@ -102,6 +121,8 @@ def build_patent_table_line(patent_id, patent_entry):
     return line
 
 
+# Flush and commit pending data upon receiving SIGINT,
+# e.g. generated from pressing Ctrl+C on the keyboard
 def handle_ctrl_c(signal, frame):
     print("SIGINT caught, committing to DB and shutting down")
     status = commit_pending_db_data(db_conn)
@@ -121,43 +142,48 @@ def main():
     signal.signal(signal.SIGINT, handle_ctrl_c)
     
     ptab_data_filename = argv[0]
-    patent_filename = argv[1]
+    patent_filename    = argv[1]
     
-    ptab_data = json.load(open(ptab_data_filename))
+    ptab_data   = json.load(open(ptab_data_filename))
     patent_data = json.load(open(patent_filename))
     
-    # Prompt for database password
-    global DB_PASSWORD
+    # For security reasons, prompt for DB password instead of hardcoding it
+    # TODO: disable echoing of typed characters for this prompt
     print("Please enter the database password: ")
     DB_PASSWORD = sys.stdin.readline().strip()
     
-    ptab_table_writer = DBPopulator(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, "ptab_cases")
-    patent_table_writer = DBPopulator(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, "patent_info")
+    # Create buffered DB writers
+    ptab_table_writer   = BufferedDBPopulator(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, "ptab_cases")
+    patent_table_writer = BufferedDBPopulator(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, "patent_info")
     
-    counter = 0
-    num_lines = len(ptab_data)
+    # Write to the PTAB table
+    lines_written = 0
+    num_lines     = len(ptab_data)
     print("Writing to PTAB API table")
     for entry in ptab_data:
-        counter += 1
+        lines_written += 1
         line = build_ptab_table_line(entry)
         ptab_table_writer.insert(line)
-        if counter & 0x1ff == 0:
-            print("Inserting line {}/{}".format(counter, num_lines))
-    print("Inserting line {}/{}".format(counter, num_lines))
+        # Periodically display progress
+        if lines_written & 0x1ff == 0:
+            print("Inserting line {}/{}".format(lines_written, num_lines))
+    print("Inserting line {}/{}".format(lines_written, num_lines))
     ptab_table_writer.flush()
     ptab_table_writer.close()
     
-    counter = 0
+    # Write to the patent info table
+    lines_written = 0
     num_lines = len(patent_data)
     print("Writing to patent data table")
     for patent_id in patent_data:
-        counter += 1
+        lines_written += 1
         entry = patent_data[patent_id]
-        line = build_patent_table_line(patent_id, entry)
+        line  = build_patent_table_line(patent_id, entry)
         patent_table_writer.insert(line)
-        if counter & 0x1ff == 0:
-            print("Inserting line {}/{}".format(counter, num_lines))
-    print("Inserting line {}/{}".format(counter, num_lines))
+        # Periodically display progress
+        if lines_written & 0x1ff == 0:
+            print("Inserting line {}/{}".format(lines_written, num_lines))
+    print("Inserting line {}/{}".format(lines_written, num_lines))
     patent_table_writer.flush()
     patent_table_writer.close()
 
