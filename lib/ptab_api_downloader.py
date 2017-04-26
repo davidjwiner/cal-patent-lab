@@ -56,6 +56,7 @@ def contains_any(needles, haystack):
     return False
 
 
+# Download case metadata for all cases from the PTAB API
 def get_case_metadata():
     num_cases = get_num_cases()
     cases = []
@@ -72,6 +73,7 @@ def get_case_metadata():
     return cases
 
 
+# Download the final written decision documents for cases marked as having one
 def download_fwd_docs(cases, output_dir):
     cases_processed = 0
     num_cases = len(cases)
