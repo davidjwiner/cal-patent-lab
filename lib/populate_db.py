@@ -6,8 +6,8 @@ import signal
 import sys
 
 DB_HOST = "cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com"
-DB_USER = "***REMOVED***"
-DB_NAME = "***REMOVED***"
+DB_USER = "teamrocket"
+DB_NAME = "teamrocket"
 
 
 # Takes the output files of the data merger script

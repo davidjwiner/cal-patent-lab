@@ -516,7 +516,7 @@
    ],
    "source": [
     "import MySQLdb\n",
-    "db = MySQLdb.connect(\"cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com\",\"***REMOVED***\",\"\",\"\" )\n",
+    "db = MySQLdb.connect(\"cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com\",\"teamrocket\",\"\",\"\" )\n",
     "cursor = db.cursor()\n",
     "cursor.execute(\"SELECT patent_id, invalidated from patents_decision LIMIT 500\")\n",
     "data = cursor.fetchall()\n",
