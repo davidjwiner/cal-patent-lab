@@ -5,7 +5,7 @@ import re
 import signal
 import sys
 
-DB_HOST = "quicksand.ocf.berkeley.edu"
+DB_HOST = "cal-patent-lab.chhaitskv8dz.us-west-2.rds.amazonaws.com"
 DB_USER = "teamrocket"
 DB_NAME = "teamrocket"
 
