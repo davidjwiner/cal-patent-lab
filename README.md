@@ -8,7 +8,6 @@ This is a machine learning project aimed at tackling an issue with "bad patents"
 Overview of Folders:
 
 * **csv**: Contains USPTO data in tabular format
-* **html**: Extracted web pages from eFOIA, utilized by our parsing scripts
 * **lib**: Contains our parsing scripts and Jupyter notebooks
 * **patentGUI**: PatentCheck, our Django-based web app for executing the algorithms
 * **ptab-raw-pdf**: Downloaded patent text from eFOIA, in original PDF format
